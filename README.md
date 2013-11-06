@@ -35,7 +35,7 @@ Change line#2
 
 TO
 
-<pathToWordNetBinary> $1 | grep "Information available for \(noun\|verb\|adj\|adv\) $1" | cut -d " " -f4
+pathToWordNetBinary $1 | grep "Information available for \(noun\|verb\|adj\|adv\) $1" | cut -d " " -f4
 
 
 ==================================================
