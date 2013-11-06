@@ -1,0 +1,52 @@
+ArrayList<QEntity;> getExternalUnits() | get external units
+boolean acceptsUnits() | accepts units
+boolean canCarryUnits() | can carry units
+boolean canRecruitUnits() | can recruit units
+boolean doMoveUnits(J) | do move units
+boolean hasUnits() | has units
+boolean isMovingUnits() | is moving units
+Collection<Unit> getUnits() | get units
+Element getREFUnits() | get ref units
+Element getREFUnits(QConnection;QElement;) | get ref units
+int estimateUnitsBetween(JJI) | estimate units between
+int getHeightUnits() | get height units
+int getMaximumUnitsPerDay() | get maximum units per day
+int getMaxUnits() | get max units
+int getNumberOfKingLandUnits() | get number of king land units
+int getNumberOfKingUnits() | get number of king units
+int getUnits() | get units
+int getUnitsBetween(JJI) | get units between
+int getUnitsExponent() | get units exponent
+Iterator<QUnit;> getOwnedUnitsIterator() | get owned units iterator
+List<QAbstractUnit;> getLandUnits() | get land units
+List<QAbstractUnit;> getNavalUnits() | get naval units
+List<QAbstractUnit;> getStartingUnits() | get starting units
+List<QAbstractUnit;> getUnits() | get units
+List<QEntity;> getExternalUnits() | get external units
+List<QUnit;> createREFUnits(QServerPlayer;QServerPlayer;) | create ref units
+List<QUnit;> getUnits() | get units
+List<QUnitType;> getBuildableUnits() | get buildable units
+LocationData getUnitsAtSea() | get units at sea
+LocationData getUnitsInEurope() | get units in europe
+LocationData getUnitsOnLand() | get units on land
+Unit[] getStandardUnits() | get standard units
+Vector getLoadedUnits() | get loaded units
+void activeAdjacentSentryUnits(QTile;) | active adjacent sentry units
+void clearAIUnits() | clear ai units
+void computeUnitsPerPage(QDimension;) | compute units per page
+void createEuropeanUnits(QMap;QList<QPlayer;>;) | create european units
+void createUnits(QList<QAbstractUnit;>;QElement;QServerPlayer;) | create units
+void disposeAllUnits() | dispose all units
+void finishedMovingUnits(QBoardViewEvent;) | finished moving units
+void removeUnitsOutsideLOS() | remove units outside los
+void repairUnits() | repair units
+void retreatUnits(Collection<Unit> retreating, Territory to, boolean defender, IDelegateBridge bridge) | retreat units
+void setMaximumUnitsPerDay(I) | set maximum units per day
+void setMaxUnits(BigDecimal value) | set max units
+void setUnits() | set units
+void setUnitsExponent(I) | set units exponent
+void setUnits(I) | set units
+void setUnits(QList<QAbstractUnit;>;) | set units
+void unitsToXML(QXMLStreamWriter;QPlayer;ZZ) | units to xml
+void unloadAllUnits(QUnit;) | unload all units
+void visitTimeUnits(QTimeFrame;QTimeUnit;) | visit time units

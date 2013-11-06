@@ -1,0 +1,14 @@
+ArrayList getGlobalBestofPlaylist() | get global best of playlist
+ArrayList getGlobalNoveltiesPlaylist() | get global novelties playlist
+ArrayList getGlobalNoveltiesPlaylist(Z) | get global novelties playlist
+ArrayList<QFile;> generatePlaylist() | generate playlist
+ArrayList<QFile;> getGlobalShufflePlaylist() | get global shuffle playlist
+boolean isPlaylist(QString;) | is playlist
+Playlist getPlaylist(QPlaylistFile;) | get playlist
+Playlist registerPlaylist(QPlaylistFile;) | register playlist
+Playlist registerPlaylist(QString;QPlaylistFile;) | register playlist
+void addPlaylist(QNameValue;) | add playlist
+void onPlaylist(QPlaylist;) | on playlist
+void refreshPlaylist(QPlaylistFile;) | refresh playlist
+void removePlaylist(QPlaylist;) | remove playlist
+void setPlaylist(QPlaylistFile;) | set playlist

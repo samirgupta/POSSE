@@ -1,0 +1,41 @@
+boolean delayWrite(QByteBuffer;) | delay write
+boolean hasDelayedWrite() | has delayed write
+boolean isFixedDelay(QObject;) | is fixed delay
+boolean isNoDelay() | is no delay
+Delay calculateDelay(QTask;) | calculate delay
+DelayedTask createDelayedTask(QRunnable;) | create delayed task
+DelayedTaskImpl addDelayedTask(QString;QRunnable;) | add delayed task
+Delay getDelay(I) | get delay
+DelayManager getDelayManager() | get delay manager
+EntityKey generateDelayedEntityKey() | generate delayed entity key
+EntityKey getDelayedEntityKey() | get delayed entity key
+int getAnimationDelay(QString;) | get animation delay
+int getDefaultWriteDelay() | get default write delay
+int getDelayTime() | get delay time
+int getTooltipDelay() | get tooltip delay
+int getWriteDelay() | get write delay
+long getCancelDelay() | get cancel delay
+void addDelay(QGanttCalendar;) | add delay
+void delay() | delay
+void delayAppend() | delay append
+void DelayedEditor(QNodeView;QNodeView;QKeyEvent;ZZZ) | delayed editor
+void DelayedTaskImpl(QString;) | delayed task impl
+void fireDelayObservation() | fire delay observation
+void registerDelayManager(QDelayManager;) | register delay manager
+void replaceDelayedEntityIdentityInsertKeys(QEntityKey;QSerializable;) | replace delayed entity identity insert keys
+void setCancelDelay(J) | set cancel delay
+void setDelay(I) | set delay
+void setDelay(QTaskNode;QDelay;) | set delay
+void setDelay(QTask;QDelay;) | set delay
+void setDelays(III) | set delays
+void setDelayTime(I) | set delay time
+void setNoDelay() | set no delay
+void setReconnectDelay(IZ) | set reconnect delay
+void setRefreshDelayOverrides(I) | set refresh delay overrides
+void setTooltipDelay(I) | set tooltip delay
+void setTrackerRefreshDelayOverrides(I) | set tracker refresh delay overrides
+void setUniformDelay(I) | set uniform delay
+void setWriteDelay(I) | set write delay
+void stopTimerForDelayedSelection() | stop timer for delayed selection
+void timeDelayedSelection(QController;QMouseEvent;) | time delayed selection
+void _writerDelay() | writer delay

@@ -1,0 +1,38 @@
+boolean force_start_non_seed_exists | force start non seed exists
+boolean superSeedMode | super seed mode
+com.aelitis.azureus.plugins.extseed.ExternalSeedPlugin ext_seed_plugin | ext seed plugin
+int AELITIS_BIG_TORRENT_SEED_LIMIT | aelitis big torrent seed limit
+int AELITIS_SMALL_TORRENT_SEED_LIMIT | aelitis small torrent seed limit
+int current_min_seed_announce_mult | current min seed announce mult
+int IDLE_SEED_DISCONNECT_PERIOD | idle seed disconnect period
+int IDLE_SEED_DISCONNECT_SECS | idle seed disconnect secs
+int iFakeFullCopySeedStart | i fake full copy seed start
+int iIgnoreRatioPeers_SeedStart | i ignore ratio peers seed start
+int iIgnoreSeedCount | i ignore seed count
+int iIgnoreShareRatio_SeedStart | i ignore share ratio seed start
+int iRankTypeSeedFallback | i rank type seed fallback
+int max_seed_connections | max seed connections
+int max_seed_retention | max seed retention
+int MAX_SEED_TO_PEER_RATIO | max seed to peer ratio
+int MIN_SEED_CONNECTION_TIME | min seed connection time
+int next_seed_piece_recheck_index | next seed piece recheck index
+int non_seed_count | non seed count
+int PR_SEED_COUNT | pr seed count
+int PR_SUPER_SEED_COUNT | pr super seed count
+int RANK_SEEDCOUNT | rank seed count
+int superSeedModeCurrentPiece | super seed mode current piece
+int superSeedModeNumberOfAnnounces | super seed mode number of announces
+java.lang.String CFG_FC_SEEDSTART | cfg fc seed start
+java.lang.String DHT_SEED_ADDRESS_V4 | dht seed address v 4
+java.lang.String DHT_SEED_ADDRESS_V6 | dht seed address v 6
+java.lang.String PM_SEED_TIME_KEY | pm seed time key
+java.lang.String ST_NET_HTTP_IN_REQUEST_WEBSEED_COUNT | st net http in request web seed count
+java.lang.String TK_WEBSEED_BT | tk web seed bt
+java.lang.String TK_WEBSEED_GR | tk web seed gr
+java.lang.String webSeedConfig | web seed config
+java.util.Map lightweight_seed_map | lightweight seed map
+long last_root_seed_import_time | last root seed import time
+long MIN_ROOT_SEED_IMPORT_PERIOD | min root seed import period
+long node_id_seed_next | node id seed next
+long total_webseed_requests | total web seed requests
+org.gudy.azureus2.core3.peer.impl.control.SuperSeedPiece[] superSeedPieces | super seed pieces

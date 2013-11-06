@@ -1,0 +1,10 @@
+Image getAlarmChip(QTension.Level;Z) | get alarm chip
+java.util.Map<QPlayer;QTension;> getAlarm() | get alarm
+Set<RepeatableOnAlarm> getOnAlarmSet() | get on alarm set
+String getAlarmLevelMessage(QPlayer;) | get alarm level message
+Tension getAlarm(QPlayer;) | get alarm
+void increaseAlarm() | increase alarm
+void loadAlarmChip(QGraphicsConfiguration;QTension.Level;Z) | load alarm chip
+void modifyAlarm(QPlayer;I) | modify alarm
+void propagatedAlarm(QPlayer;I) | propagated alarm
+void setAlarm(QPlayer;QTension;) | set alarm

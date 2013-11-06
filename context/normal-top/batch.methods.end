@@ -1,0 +1,18 @@
+boolean isNewBatch() | is new batch
+int executeBatch() | execute batch
+int[] executeBatch() | execute batch
+List loadEntityBatch(QSessionImplementor;[QSerializable;QType;QObject;QString;QSerializable;QEntityPersister;) | load entity batch
+Result sqlExecuteBatch(QResult;) | sql execute batch
+Serializable[] getCollectionBatch(QCollectionPersister;QSerializable;IQEntityMode;) | get collection batch
+Serializable[] getEntityBatch(QEntityPersister;QSerializable;IQEntityMode;) | get entity batch
+void abortBatch(QSQLException;) | abort batch
+void addBatch() | add batch
+void addBatch(QString;) | add batch
+void addToBatch(QExpectation;) | add to batch
+void addToBatch(QInteger;QEntityInsertAction;) | add to batch
+void clearBatch() | clear batch
+void doExecuteBatch(QPreparedStatement;) | do execute batch
+void executeBatch() | execute batch
+void loadCollectionBatch(QSessionImplementor;[QSerializable;QType;) | load collection batch
+void saveBatch() | save batch
+void writeBatch() | write batch

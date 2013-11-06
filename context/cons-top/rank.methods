@@ -1,0 +1,8 @@
+CONS DefaultRankCalculator(QStartStopRulesDefaultPlugin;QDownload;) | default rank calculator
+CONS DownloadingRanker() | downloading ranker
+CONS Ranker() | ranker
+CONS RankItem(QString;) | rank item
+CONS RankItem(QString;Z) | rank item
+CONS RankSearch() | rank search
+CONS SeedingRankColumnListener(QMap;QPluginConfig;) | seeding rank column listener
+CONS SeedingRanker() | seeding ranker

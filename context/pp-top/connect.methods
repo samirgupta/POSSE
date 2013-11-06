@@ -1,0 +1,47 @@
+boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+boolean connectionAllowed(QString;) | connection allowed
+boolean isAlreadyConnected(QPeerItem;) | is already connected
+boolean isConnected() | is connected
+boolean isCurrentlyConnected() | is currently connected
+boolean isMaxConnectionsWhenSeedingEnabled() | is max connections when seeding enabled
+CONS HTTPNetworkConnectionWebSeed(QHTTPNetworkManager;QNetworkConnection;QPEPeerTransport;) | http network connection web seed
+int getMaxNewConnectionsAllowed() | get max new connections allowed
+int numNewConnectionsAllowed(QPeerIdentityDataID;I) | num new connections allowed
+long getTimeSinceConnectionEstablished() | get time since connection established
+long getTimeSinceConnectionEstablished(QPeer;) | get time since connection established
+void buddyConnectionEstablished(Z) | buddy connection established
+void chatConnectionClosed(Qymsg.network.event.SessionEvent;) | chat connection closed
+void connectAttemptStarted() | connect attempt started
+void connected() | connected
+void connected(QConnectedEvent;) | connected
+void connected(QGenericMessageConnection;) | connected
+void connectionClosed(QAEProxyConnection;) | connection closed
+void connectionClosed(Qymsg.network.event.SessionEvent;) | connection closed
+void connectionFailed(QBasicConnection;QString;) | connection failed
+void connectionInitialized(QBasicConnection;) | connection initialized
+void connectionMatched(QTransport;QObject;) | connection matched
+void connectionOpened() | connection opened
+void connectionRouted(QNetworkConnection;QObject;) | connection routed
+void connectionSelected(I) | connection selected
+void connectStarted() | connect started
+void fireConnectionFailed(QFtpConnection;QString;) | fire connection failed
+void fireConnectionInitialized(QFtpConnection;) | fire connection initialized
+void gamePlayerConnected(QGamePlayerConnectedEvent;) | game player connected
+void handleSlaveConnected(QSlaveRemote;) | handle slave connected
+void jComboBoxConnectionsActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box connections action performed
+void jComboBoxConnectionTypeActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box connection type action performed
+void jComboBoxDatasetConnectionTypeActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box dataset connection type action performed
+void jComboBoxSubreportConnectionTypeActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box subreport connection type action performed
+void jListConnectionsValueChanged(Qjavax.swing.event.ListSelectionEvent;) | j list connections value changed
+void jMenuItemActiveConnectionActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item active connection action performed
+void jMenuItemConnectionsActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item connections action performed
+void jRSQLExpressionArea1TextConnectionExpressionTextChanged() | j rsql expression area 1 text connection expression text changed
+void jRTextExpressionAreaTextConnectionExpressionTextChanged() | j r text expression area text connection expression text changed
+void newConnectionAccepted(QServerSocketChannel;QSocketChannel;) | new connection accepted
+void newConnectionAccepted(QSocketChannel;) | new connection accepted
+void onPluginConnectionStatusChanged(Qorg.planetamessenger.plugin.JPlugin;I) | on plugin connection status changed
+void peerConnectionClosed(QPEPeerTransport;ZZ) | peer connection closed
+void reportConnected() | report connected
+void setConnected() | set connected
+void setConnected(Z) | set connected
+void throwLazyInitializationExceptionIfNotConnected() | throw lazy initialization exception if not connected

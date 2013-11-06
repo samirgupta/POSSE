@@ -1,0 +1,17 @@
+com.aelitis.azureus.core.peermanager.uploadslots.DownloadingRanker down_ranker | down ranker
+com.aelitis.azureus.core.peermanager.uploadslots.SeedingRanker seed_ranker | seed ranker
+com.aelitis.azureus.plugins.startstoprules.defaultplugin.StartStopRulesDefaultPlugin.RecalcSeedingRanksTask recalcSeedingRanksTask | recalc seeding ranks task
+int iRankType | i rank type
+int iRankTypeSeedFallback | i rank type seed fallback
+int iSeedingRank | i seeding rank
+int PR_RANK | pr rank
+int PR_USE_ACCURACY_FOR_RANK | pr use accuracy for rank
+int RANK_COLUMN_WIDTH | rank column width
+int RANK_NONE | rank none
+int RANK_PEERCOUNT | rank peer count
+int RANK_SEEDCOUNT | rank seed count
+int RANK_SPRATIO | rank spr at io
+java.util.Map ranks | ranks
+java.util.Set ranksToRecalc | ranks to recalc
+org.gudy.azureus2.core3.util.AEMonitor ranksToRecalc_mon | ranks to recalc mon
+org.gudy.azureus2.plugins.ui.tables.TableColumn seedingRankColumn | seeding rank column

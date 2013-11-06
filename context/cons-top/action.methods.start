@@ -1,0 +1,36 @@
+CONS ActionBase(QIcon;QKeyStroke;Z) | action base
+CONS ActionBase(QIcon;QString;Z) | action base
+CONS ActionBase(QIcon;Z) | action base
+CONS ActionBase(QString;QIcon;QKeyStroke;Z) | action base
+CONS ActionBase(QString;QIcon;QString;Z) | action base
+CONS ActionBase(QString;QIcon;Z) | action base
+CONS ActionBase(QString;QKeyStroke;Z) | action base
+CONS ActionBase(QString;QString;Z) | action base
+CONS ActionBase(QString;Z) | action base
+CONS ActionBracePlus(I) | action brace plus
+CONS ActionFactory(QController;) | action factory
+CONS ActionList() | action list
+CONS ActionList(J) | action list
+CONS ActionList(JJ) | action list
+CONS ActionList(QVisualization;) | action list
+CONS ActionList(QVisualization;J) | action list
+CONS ActionManager() | action manager
+CONS ActionManager(QFreeColClient;) | action manager
+CONS ActionPair(QXmlAction;QXmlAction;) | action pair
+CONS ActionParameterImpl(QPluginConfigImpl;QString;QString;) | action parameter impl
+CONS ActionParser(QSWFActions;) | action parser
+CONS action_part(QString;) | action part
+CONS action_production(Qproduction;Qnon_terminal;[Qproduction_part;IQString;I) | action production
+CONS ActionQueue(QSessionImplementor;) | action queue
+CONS ActionShrinkSelected() | action shrink selected
+CONS ActionStartCurrStmtPlus(I) | action start curr stmt plus
+CONS ActionStartPrevLinePlusMultilinePreserve([QString;IIII) | action start prev line plus multiline preserve
+CONS ActionStartPrevLinePlusMultiline([QString;II) | action start prev line plus multiline
+CONS ActionStartPrevLinePlus(QString;) | action start prev line plus
+CONS ActionStartPrevStmtPlus(IZ) | action start prev stmt plus
+CONS ActionStartStmtOfBracePlus(I) | action start stmt of brace plus
+CONS ActionSwitch() | action switch
+CONS ActionSwitch([QAction;I) | action switch
+CONS ActionTextWriter(QPrintWriter;) | action text writer
+CONS ActionUtil() | action util
+CONS ActionWriter(QTagWriter;I) | action writer

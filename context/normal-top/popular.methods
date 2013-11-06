@@ -1,0 +1,14 @@
+int getPopularity() | get popularity
+long getCachedPopularity() | get cached popularity
+long getPopularity() | get popularity
+long getPopularityBySID([B) | get popularity by sid
+PeerItem[] getExchangedPeersSortedByLeastPopularFirst() | get exchanged peers sorted by least popular first
+templateInfo[] listAllPopularTemplates() | list all popular templates
+templateInfo[] listTopPopularTemplates() | list top popular templates
+void getPopularityFromDHT(QSubscriptionImpl;QSubscriptionPopularityListener;Z) | get popularity from dht
+void getPopularity(QSubscriptionImpl;QSubscriptionPopularityListener;) | get popularity
+void getPopularity(QSubscriptionPopularityListener;) | get popularity
+void getPopularitySupport(QSubscriptionImpl;QSubscriptionPopularityListener;Z) | get popularity support
+void gotPopularity(J) | got popularity
+void setCachedPopularity(J) | set cached popularity
+void updatePopularityFromDHT(QSubscriptionImpl;Z) | update popularity from dht

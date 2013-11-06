@@ -1,0 +1,66 @@
+Action getToolBarAction(QJComponent;QHomePane.ActionType;) | get tool bar action
+AEMonitor getMiniBarMonitor() | get mini bar monitor
+AllTransfersBar getBarIfOpen(QGlobalManager;) | get bar if open
+boolean isGlobalTransferBarShown() | is global transfer bar shown
+boolean triggerToolBarItemHold() | trigger tool bar item hold
+Color getStatusBarColor(D) | get status bar color
+IconBarEnabler getIconBarEnabler() | get icon bar enabler
+int getMenuBarHeight() | get menu bar height
+int getProgressBarValueFromString(QString;) | get progress bar value from string
+int getToolBarPosition() | get tool bar position
+IView createSideBarContentArea(QString;QIView;QTreeItem;QObject;Z) | create side bar content area
+IView createSideBarContentArea(QString;QSideBarEntrySWT;) | create side bar content area
+JLabel getProgressBarLabel() | get progress bar label
+JPanel instantiateToolBarBean(ZQString;QString;) | instantiate tool bar bean
+JPanel instantiateToolBarMetaBean(QMetaBean;) | instantiate tool bar meta bean
+JPanel makeHolderPanelForToolBarBean(QString;QObject;ZQString;Z) | make holder panel for tool bar bean
+ListIterator getMiniBarIterator() | get mini bar iterator
+MenuItem addTransferBarToMenu(QMenu;) | add transfer bar to menu
+MiniBar getMiniBarForObject(QObject;) | get mini bar for object
+Object[] getIconBarPluginContextData() | get icon bar plugin context data
+SideBarEntry[] getSideBarEntries() | get side bar entries
+SideBarEntry getSideBarEntry() | get side bar entry
+SideBarEntrySWT getCurrentSideBarInfo() | get current side bar info
+SideBarEntrySWT getSideBarEntry(QSkinView;) | get side bar entry
+SideBarEntrySWT getSideBarInfo(QString;) | get side bar info
+String getIconBarPluginIdentity() | get icon bar plugin identity
+ToolBarItem[] getAllToolBarItems() | get all tool bar items
+ToolBarItem getToolBarItem(QString;) | get tool bar item
+void addStatusBarMenu(QComposite;) | add status bar menu
+void addToolBarItem(QToolBarItem;) | add tool bar item
+void addToolBarItem(QToolBarItem;QString;QSWTSkinObject;) | add tool bar item
+void addTopBarView(QIView;QComposite;) | add top bar view
+void buildTopBarViews() | build top bar views
+void configureToolBarButton(QAbstractButton;QString;) | configure tool bar button
+void configureToolBarButton(QAbstractButton;QString;QClass;) | configure tool bar button
+void fixupActionBarSize() | fixup action bar size
+void flipSideBarVisibility() | flip side bar visibility
+void initToolBarView(QToolBarView;) | init tool bar view
+void installToolBarPrefsHandler(QPreferences;QString;QJToolBar;) | install tool bar prefs handler
+void ProgressBarDialog(QIProgressMonitor;) | progress bar dialog
+void readBar3DPlot(QNode;QBar3DPlot;) | read bar 3 d plot
+void readBarPlot(QNode;QBarPlot;) | read bar plot
+void refreshCoreToolBarItems() | refresh core tool bar items
+void removeUserToolBarBeans(QVector;) | remove user tool bar beans
+void setBarCodeImg(IQString;ZZ) | set bar code img
+void setNegativeBarPaint(Paint paint) | set negative bar paint
+void setNumBarres(I) | set num bar res
+void setProgressBarIndeterminate(Z) | set progress bar indeterminate
+void setProgressBarMaximum(I) | set progress bar maximum
+void setProgressBarValue(I) | set progress bar value
+void setProgressBarVisible(Z) | set progress bar visible
+void setStatusBarText(QString;) | set status bar text
+void setToolBarPosition(I) | set tool bar position
+void sideBarItem() | side bar item
+void testBarLine() | test bar line
+void ToolBarAction(QAction;) | tool bar action
+void triggerToolBarItem() | trigger tool bar item
+void updateProgressBarDisplay(QIProgressReport;) | update progress bar display
+void UpdateProgressBarMaximum(I) | update progress bar maximum
+void UpdateProgressBarTwoMaximum(I) | update progress bar two maximum
+void UpdateProgressBarTwoValue(I) | update progress bar two value
+void UpdateProgressBarValue(I) | update progress bar value
+void updateSideBarHitAreasY([QSideBarEntrySWT;) | update side bar hit areas y
+void updateToolBarButtons(QJToolBar;) | update tool bar buttons
+void updateToolBarButtonsStyle(QJToolBar;) | update tool bar buttons style
+void _updateToolBarVisible() | update tool bar visible

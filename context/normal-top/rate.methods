@@ -1,0 +1,114 @@
+ArrayList<QFile;> getSortedByRate() | get sorted by rate
+boolean getCheckErrorRate() | get check error rate
+boolean getUseErrorRate() | get use error rate
+boolean isFixedRate(QObject;) | is fixed rate
+boolean isSeedingOnlyUploadRate() | is seeding only upload rate
+boolean rateLimitIncoming(QInetSocketAddress;) | rate limit incoming
+double defaultNoiseRate() | default noise rate
+double errorRate() | error rate
+double falseNegativeRate(I) | false negative rate
+double falsePositiveRate(I) | false positive rate
+double getAccuRate() | get accu rate
+double getErrorRate(QInstances;) | get error rate
+double getFalsePositiveRate() | get false positive rate
+double getFPRate() | get fp rate
+double getFrameRate() | get frame rate
+double getLearningRate() | get learning rate
+double getNoiseRate() | get noise rate
+double getTPRate() | get tp rate
+double getTruePositiveRate() | get true positive rate
+double getWorthRate() | get worth rate
+double trueNegativeRate(I) | true negative rate
+double truePositiveRate(I) | true positive rate
+double weightedFalseNegativeRate() | weighted false negative rate
+double weightedFalsePositiveRate() | weighted false positive rate
+double weightedTrueNegativeRate() | weighted true negative rate
+double weightedTruePositiveRate() | weighted true positive rate
+FrameRate getRate() | get rate
+int determineRateSettingEx(IZZ) | determine rate setting ex
+int getAbsorptionRate(II) | get absorption rate
+int getBitRate() | get bit rate
+int getBurstRate() | get burst rate
+int getDataAndProtocolReceiveRate() | get data and protocol receive rate
+int getDataAndProtocolSendRate() | get data and protocol send rate
+int getDataReceiveRate() | get data receive rate
+int getDataReceiveRateNoLAN() | get data receive rate no lan
+int getDataReceiveRateNoLAN(I) | get data receive rate no lan
+int getDataSendRate() | get data send rate
+int getDataSendRateAtClose() | get data send rate at close
+int getDataSendRateNoLAN() | get data send rate no lan
+int getDataSendRateNoLAN(I) | get data send rate no lan
+int getDownloadRateLimitBytesPerSecond() | get download rate limit bytes per second
+int getEffectiveUploadRateLimitBytesPerSecond() | get effective upload rate limit bytes per second
+int getFrameRate() | get frame rate
+int getGlobalDownloadRateBytesPerSec() | get global download rate bytes per sec
+int getGlobalDownloadRateLimitBytesPerSecond() | get global download rate limit bytes per second
+int getGroupRateLimit(QLimitedRateGroup;) | get group rate limit
+int getMaxDownloadRateBPS() | get max download rate bps
+int getMaxUploadRateBPSNormal() | get max upload rate bps normal
+int getMaxUploadRateBPSSeedingOnly() | get max upload rate bps seeding only
+int getProtocolReceiveRate() | get protocol receive rate
+int getProtocolReceiveRateNoLAN() | get protocol receive rate no lan
+int getProtocolReceiveRateNoLAN(I) | get protocol receive rate no lan
+int getProtocolSendRate() | get protocol send rate
+int getProtocolSendRateNoLAN() | get protocol send rate no lan
+int getProtocolSendRateNoLAN(I) | get protocol send rate no lan
+int getRate() | get rate
+int getRateLimitBytesPerSecond() | get rate limit bytes per second
+int getSampleRate() | get sample rate
+int getUploadRateLimitBytesPerSecond() | get upload rate limit bytes per second
+LimitedRateGroup getDownloadLimitedRateGroup() | get download limited rate group
+LimitedRateGroup[] getRateLimiters(Z) | get rate limiters
+LimitedRateGroup getUploadLimitedRateGroup() | get upload limited rate group
+long getDataReceiveRate() | get data receive rate
+long getDataSendRate() | get data send rate
+long getEstimatedDownloadRateOfPeer() | get estimated download rate of peer
+long getEstimatedUploadRateOfPeer() | get estimated upload rate of peer
+long getMaxRate() | get max rate
+long getProtocolReceiveRate() | get protocol receive rate
+long getProtocolSendRate() | get protocol send rate
+long getRate() | get rate
+long getRepeatRate() | get repeat rate
+long getSmoothDataReceiveRate() | get smooth data receive rate
+long getTotalSwarmsPeerRate(ZZ) | get total swarms peer rate
+NetworkAdminSpeedTesterResult calculateDownloadRate() | calculate download rate
+Point getRateIconPos(QRectangle;II) | get rate icon pos
+String checkErrorRateTipText() | check error rate tip text
+String getRateUnitBase10(I) | get rate unit base 10
+String getRateUnit(I) | get rate unit
+String learningRateTipText() | learning rate tip text
+String noiseRateTipText() | noise rate tip text
+String useErrorRateTipText() | use error rate tip text
+Track changeTrackRate(QTrack;J) | change track rate
+void addInboundRateLimiter(QRateLimiter;) | add inbound rate limiter
+void addOutboundRateLimiter(QRateLimiter;) | add outbound rate limiter
+void addRateLimiter(QLimitedRateGroup;Z) | add rate limiter
+void addRateLimiter(QNetworkConnectionBase;QLimitedRateGroup;) | add rate limiter
+void addRateLimiter(QNetworkConnectionBase;QLimitedRateGroup;Z) | add rate limiter
+void addRateLimiters(QGenericMessageConnection;) | add rate limiters
+void cellMouseTriggerForRate(QTableCellMouseEvent;) | cell mouse trigger for rate
+void cellPaintForRate(QGC;QTableCellSWT;) | cell paint for rate
+void ensureByteBucketMinBurstRate() | ensure byte bucket min burst rate
+void filterFilesByRate(QArrayList<QFile;>;) | filter files by rate
+void rateLimit(QInetSocketAddress;) | rate limit
+void refreshRates() | refresh rates
+void refreshRates(I) | refresh rates
+void removeInboundRateLimiter(QRateLimiter;) | remove inbound rate limiter
+void removeOutboundRateLimiter(QRateLimiter;) | remove outbound rate limiter
+void removeRateLimiter(QLimitedRateGroup;Z) | remove rate limiter
+void removeRateLimiter(QNetworkConnectionBase;QLimitedRateGroup;) | remove rate limiter
+void removeRateLimiter(QNetworkConnectionBase;QLimitedRateGroup;Z) | remove rate limiter
+void setCheckErrorRate(Z) | set check error rate
+void setCurrentTransferRates(II) | set current transfer rates
+void setDownloadRateLimitBytesPerSecond(I) | set download rate limit bytes per second
+void setFrameRate(I) | set frame rate
+void setGlobalDownloadRateLimitBytesPerSecond(I) | set global download rate limit bytes per second
+void setLearningRate(D) | set learning rate
+void setMaxRate(J) | set max rate
+void setNoiseRate(D) | set noise rate
+void setRate(I) | set rate
+void setRate(II) | set rate
+void setRate(J) | set rate
+void setRotationRate(int rotationRate) | set rotation rate
+void setUploadRateLimitBytesPerSecond(I) | set upload rate limit bytes per second
+void setUseErrorRate(Z) | set use error rate

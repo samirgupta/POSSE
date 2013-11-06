@@ -1,0 +1,12 @@
+CONS CompositeTransferable() | composite transferable
+CONS HomeTransferableList(QList<+QSelectable;>;) | home transferable list
+CONS ImageTransferable(QImage;) | image transferable
+CONS InputStreamTransferable([QDataFlavor;[B) | input stream transferable
+CONS InputStreamTransferable(QDataFlavor;[B) | input stream transferable
+CONS TransferableBibtexEntry([QBibtexEntry;) | transferable bibtex entry
+CONS TransferableEntrySelection([QBibtexEntry;) | transferable entry selection
+CONS TransferableFileLinkSelection(QBasePanel;[QBibtexEntry;) | transferable file link selection
+CONS TransferableObject(QObject;) | transferable object
+CONS TransferableTableRow(QObject;) | transferable table row
+CONS TransferableTreeNode(QObject;) | transferable tree node
+CONS XMLTransferable([BQString;QString;) | xml transferable

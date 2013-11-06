@@ -1,0 +1,35 @@
+boolean isShowSplashScreen() | is show splash screen
+boolean onScreen(II) | on screen
+boolean onScreen(QPosition;) | on screen
+boolean updateScreenName(Qorg.planetamessenger.plugin.JPlugin;Qjava.lang.String;Qjava.lang.String;) | update screen name
+BufferedImage getOffScreenImage(II) | get off screen image
+BufferedImage getOffScreenImage(QView;II) | get off screen image
+Builder<QT;> setFitToScreen(Z) | set fit to screen
+Canvas3D getOffScreenCanvas3D(II) | get off screen canvas 3 d
+Class getNextScreen(QClass;) | get next screen
+Class getPreviousScreen(QClass;) | get previous screen
+Dimension getUserScreenSize() | get user screen size
+double toScreenDouble(I) | to screen double
+int getYScreen() | get y screen
+int toScreen(I) | to screen
+Point getScreenCoordinates(Point point) | get screen coordinates
+Rectangle getUsableScreenBounds() | get usable screen bounds
+Rectangle getUsableScreenBounds(QGraphicsConfiguration;) | get usable screen bounds
+void calcScreenCoords(I) | calc screen coords
+void centerOnScreen(QComponent;) | center on screen
+void centerOnScreen(QWindow;) | center on screen
+void fitToScreen() | fit to screen
+void fullScreenAction() | full screen action
+void fullScreen(Z) | full screen
+void getScreenFit(QDimension;QDimension;) | get screen fit
+void initScreenMenuBar() | init screen menu bar
+void paintBufferToScreen(QGraphics;) | paint buffer to screen
+void paintValidLine(Graphics2D gfx, int screenLine, int physicalLine, int start, int end, int y) | paint valid line
+void refreshScreen() | refresh screen
+void ScreenCompositeContext_INT_PACK(QColorModel;QColorModel;) | screen composite context int pack
+void ScreenCompositeContext(QColorModel;QColorModel;) | screen composite context
+void setOffScreen() | set off screen
+void showSplashScreenWindow(QURL;) | show splash screen window
+void swapScreens() | swap screens
+void updateScreenName(Qjava.lang.String;Qjava.lang.String;) | update screen name
+void writeLogicalScreenDescriptor(QOutputStream;) | write logical screen descriptor

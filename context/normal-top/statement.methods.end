@@ -1,0 +1,87 @@
+boolean isManipulationStatement() | is manipulation statement
+boolean readLoggedStatement(QSession;) | read logged statement
+CallableStatement getCallableStatement(QConnection;QString;Z) | get callable statement
+CallableStatement prepareBatchCallableStatement(QString;) | prepare batch callable statement
+CallableStatement prepareCallableQueryStatement(QString;ZQScrollMode;) | prepare callable query statement
+CallableStatement prepareCallableStatement(QString;) | prepare callable statement
+CallableStatement toCallableStatement(QPreparedStatement;) | to callable statement
+CompiledStatement compileCallStatement() | compile call statement
+CompiledStatement compileDeleteStatement() | compile delete statement
+CompiledStatement compileInsertStatement() | compile insert statement
+CompiledStatement compileSelectStatement(I) | compile select statement
+CompiledStatement compileUpdateStatement() | compile update statement
+CompiledStatement getStatement(QSession;I) | get statement
+CompiledStatement sqlCompileStatement(QString;) | sql compile statement
+Expression IfStatement() | if statement
+int registerStatement(IQCompiledStatement;) | register statement
+Jump getJumpStatement() | get jump statement
+long testStatement(QStatement;QString;I) | test statement
+Node createExprStatement(QNode;I) | create expr statement
+Node createLabeledStatement(QNode;QNode;) | create labeled statement
+PreparedStatement getPreparedStatement(QConnection;QString;ZQScrollMode;) | get prepared statement
+PreparedStatement getPreparedStatement(QConnection;QString;ZZ[QString;QScrollMode;Z) | get prepared statement
+PreparedStatement getStatement() | get statement
+PreparedStatement prepareBatchStatement(QString;) | prepare batch statement
+PreparedStatement prepareQueryStatement(QQueryParameters;ZQSessionImplementor;) | prepare query statement
+PreparedStatement prepareQueryStatement(QString;ZQScrollMode;) | prepare query statement
+PreparedStatement prepareSelectStatement(QString;) | prepare select statement
+PreparedStatement prepareStatement(QString;) | prepare statement
+PreparedStatement prepareStatement(QString;[I) | prepare statement
+PreparedStatement prepareStatement(QString;I) | prepare statement
+PreparedStatement prepareStatement(QString;II) | prepare statement
+PreparedStatement prepareStatement(QString;III) | prepare statement
+PreparedStatement prepareStatement(QString;[QString;) | prepare statement
+PreparedStatement prepareStatement(QString;Z) | prepare statement
+PreparedStatement prepareStatement(String arg0, int arg1, int arg2, int arg3) | prepare statement
+Result executeCallStatement(QCompiledStatement;) | execute call statement
+Result executeDDLStatement(QCompiledStatement;) | execute ddl statement
+Result executeDeleteStatement(QCompiledStatement;) | execute delete statement
+Result executeInsertSelectStatement(QCompiledStatement;) | execute insert select statement
+Result executeInsertValuesStatement(QCompiledStatement;) | execute insert values statement
+Result executeSelectStatement(QCompiledStatement;) | execute select statement
+Result executeUpdateStatement(QCompiledStatement;) | execute update statement
+Statement createStatement() | create statement
+Statement createStatement(II) | create statement
+Statement createStatement(III) | create statement
+Statement getStatement() | get statement
+String clearTaskTableStatement() | clear task table statement
+String getAutoCommitStatement() | get auto commit statement
+String getConnectStatement() | get connect statement
+String getDeleteStatement() | get delete statement
+String getDropTableStatement(DatastoreContainerObject table) | get drop table statement
+String getLoggedStatement() | get logged statement
+String getStatement() | get statement
+String getViewStatement(QString;) | get view statement
+String onPrepareStatement(QString;) | on prepare statement
+String trimStatement(QString;) | trim statement
+Timestamp useCallableStatement(QString;QSessionImplementor;) | use callable statement
+Timestamp usePreparedStatement(QString;QSessionImplementor;) | use prepared statement
+void afterStatement() | after statement
+void closePreparedStatement(QPreparedStatement;) | close prepared statement
+void closeQueryStatement(QPreparedStatement;) | close query statement
+void closeQueryStatement(QPreparedStatement;QResultSet;) | close query statement
+void closeStatement() | close statement
+void closeStatement(QPreparedStatement;) | close statement
+void executeStatement(QString;) | execute statement
+void executeStatement(QString;I) | execute statement
+void freeStatement(IIZ) | free statement
+void generateStatement(QNode;QNode;) | generate statement
+void getFKStatement(QConstraint;QStringBuffer;) | get fk statement
+void logClosePreparedStatement() | log close prepared statement
+void logOpenPreparedStatement() | log open prepared statement
+void logStatement(QString;QFormatStyle;) | log statement
+void prepareStatement() | prepare statement
+void processStatement(QSession;) | process statement
+void releaseStatement(QPreparedStatement;QSessionImplementor;) | release statement
+void replaceAsterisksInStatement() | replace asterisks in statement
+void setJumpStatement(QJump;) | set jump statement
+void testForStatement() | test for statement
+void testMultiLineForStatement() | test multi line for statement
+void visitStatement(QNode;) | visit statement
+void writeCommitStatement(QSession;) | write commit statement
+void writeDeleteStatement(QSession;QTable;[QObject;) | write delete statement
+void writeInsertStatement(QSession;QTable;[QObject;) | write insert statement
+void writeLogStatement(QSession;QString;) | write log statement
+void writeSchemaStatement(QHsqlName;) | write schema statement
+void writeSequenceStatement(QSession;QNumberSequence;) | write sequence statement
+void writeStatement(QSession;QString;) | write statement

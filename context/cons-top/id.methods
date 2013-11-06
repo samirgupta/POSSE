@@ -1,0 +1,65 @@
+CONS AlgorithmIdentifier(QASN1Sequence;) | algorithm identifier
+CONS AlgorithmIdentifier(QDERObjectIdentifier;) | algorithm identifier
+CONS AlgorithmIdentifier(QDERObjectIdentifier;QDEREncodable;) | algorithm identifier
+CONS AlgorithmIdentifier(QString;) | algorithm identifier
+CONS AuthorityKeyIdentifier([B) | authority key identifier
+CONS AuthorityKeyIdentifier([BQGeneralNames;QBigInteger;) | authority key identifier
+CONS AuthorityKeyIdentifier(QASN1Sequence;) | authority key identifier
+CONS AuthorityKeyIdentifier(QGeneralNames;QBigInteger;) | authority key identifier
+CONS AuthorityKeyIdentifier(QSubjectPublicKeyInfo;) | authority key identifier
+CONS AuthorityKeyIdentifier(QSubjectPublicKeyInfo;QGeneralNames;QBigInteger;) | authority key identifier
+CONS CertPolicyId(QString;) | cert policy id
+CONS ClientIdentificationItem(QString;) | client identification item
+CONS ClientIDException(QString;) | client id exception
+CONS ClientIDException(QString;QThrowable;) | client id exception
+CONS DelayedPostInsertIdentifier() | delayed post insert identifier
+CONS DERObjectIdentifier([B) | der object identifier
+CONS DERObjectIdentifier(QString;) | der object identifier
+CONS EntityIdentityInsertAction([QObject;QObject;QEntityPersister;QSessionImplementor;Z) | entity identity insert action
+CONS IDATChunk(II) | idat chunk
+CONS IDEACBCPar([B) | ideacbc par
+CONS IDEACBCPar(QASN1Sequence;) | ideacbc par
+CONS IdealHex(QCoords;) | ideal hex
+CONS IdentifierBag(QPersistentClass;) | identifier bag
+CONS IdentifierBagType(QString;QString;Z) | identifier bag type
+CONS IdentifierCollection(QPersistentClass;) | identifier collection
+CONS IdentifierEqExpression(QObject;) | identifier eq expression
+CONS IdentifierGeneratingInsert(QDialect;) | identifier generating insert
+CONS IdentifierGenerationException(QString;) | identifier generation exception
+CONS IdentifierGenerationException(QString;QThrowable;) | identifier generation exception
+CONS IdentifierGeneratorFactory() | identifier generator factory
+CONS IdentifierProjection() | identifier projection
+CONS IdentifierProjection(Z) | identifier projection
+CONS IdentifierProperty(QString;QString;QType;ZQIdentifierValue;QIdentifierGenerator;) | identifier property
+CONS IdentifierProperty(QType;ZZQIdentifierValue;QIdentifierGenerator;) | identifier property
+CONS IdentifierValue() | identifier value
+CONS IdentifierValue(QSerializable;) | identifier value
+CONS IdentityMap(QMap;) | identity map
+CONS IdentitySet() | identity set
+CONS IdentitySet(I) | identity set
+CONS IdFunctionObject(QIdFunctionCall;QObject;II) | id function object
+CONS IdFunctionObject(QIdFunctionCall;QObject;IQString;IQScriptable;) | id function object
+CONS IdleAtColonyMission(QAIMain;QAIUnit;) | idle at colony mission
+CONS IdleAtColonyMission(QAIMain;QElement;) | idle at colony mission
+CONS IdleAtColonyMission(QAIMain;QXMLStreamReader;) | idle at colony mission
+CONS IDLTokenMarker() | idl token marker
+CONS IdScriptableObject() | id scriptable object
+CONS IdScriptableObject(QScriptable;QScriptable;) | id scriptable object
+CONS IdValuePair(QString;QString;) | id value pair
+CONS InsertSelectIdentityInsert(QDialect;) | insert select identity insert
+CONS KeyPurposeId(QString;) | key purpose id
+CONS LogIDs(QString;) | log ids
+CONS PeerByteIDItem(QString;) | peer byte id item
+CONS PeerIdentityDataID([B) | peer identity data id
+CONS PeerIDItem(QString;) | peer id item
+CONS PersistentIdentifierBag() | persistent identifier bag
+CONS PersistentIdentifierBag(QSessionImplementor;) | persistent identifier bag
+CONS PersistentIdentifierBag(QSessionImplementor;QCollection;) | persistent identifier bag
+CONS PolicyQualifierId(QString;) | policy qualifier id
+CONS RolePersistentID(QString;) | role persistent id
+CONS RPNoObjectIDException() | rp no object id exception
+CONS SubjectKeyIdentifier([B) | subject key identifier
+CONS SubjectKeyIdentifier(QASN1OctetString;) | subject key identifier
+CONS SubjectKeyIdentifier(QSubjectPublicKeyInfo;) | subject key identifier
+CONS X9FieldID(QASN1Sequence;) | x 9 field id
+CONS X9FieldID(QDERObjectIdentifier;QBigInteger;) | x 9 field id

@@ -1,0 +1,522 @@
+../3-Phrases/Base_Verb:void showDocumentWithSameNameExists(String title, File file) | show document with same name exists
+../3-Phrases/Base_Verb:static AppletDocument parse(String xmlAsString) | applet document parse
+../3-Phrases/Base_Verb:static BackgroundDocument parse(String xmlAsString, XmlOptions options) | background document parse
+../3-Phrases/Base_Verb:static DeriverPropsDocument parse(File f, XmlOptions options) | deriver props document parse
+../3-Phrases/Base_Verb:static InlineStringDocument parse(String xmlAsString, XmlOptions options) | inline string document parse
+../3-Phrases/Base_Verb:static ListLevelStyleBulletDocument parse(URL u, XmlOptions options) | list level style bullet document parse
+../3-Phrases/Base_Verb:static ListboxDocument parse(InputStream is, XmlOptions options) | listbox document parse
+../3-Phrases/Base_Verb:static ResourcePropertiesDocument parse(File file, XmlOptions options) | resource properties document parse
+../3-Phrases/Base_Verb:static ShapesDocument parse(Reader r, XmlOptions options) | shapes document parse
+../3-Phrases/Base_Verb:static SmartTagTypeDocument parse(Reader r, XmlOptions options) | smart tag type document parse
+../3-Phrases/Base_Verb:static TitleDocument parse(XMLInputStream xis, XmlOptions options) | title document parse
+../3-Phrases/Base_Verb:static TopicExpressionDialectsDocument parse(Node node) | topic expression dialects document parse
+../3-Phrases/Base_Verb:static ValueDocument parse(Reader r, XmlOptions options) | value document parse
+../3-Phrases/Base_Verb:Variant RestoreDocumentation(Variant Merge, Variant Purge) | restore documentation
+../3-Phrases/Base_Verb:void setDocument(IDocument doc) | set document
+../3-Phrases/Base_Verb:static Document loadDocument(String docName) | document load document
+../3-Phrases/Base_Verb:void setDocumentLocator(Locator locator) | set document locator
+../3-Phrases/Base_Verb:void setDocument(Document theDocument) | set document
+../3-Phrases/Base_Verb:void normalizeDocument() | normalize document
+../3-Phrases/Base_Verb:Locator getDocumentLocator() | get document locator
+../3-Phrases/Base_Verb:void documentReturns(MethodDoc doc) | document returns
+../3-Phrases/Base_Verb:static Document parseXml(URL url) | document parse xml
+../3-Phrases/Base_Verb:static FindSimilarDocument createFindSimilarDocument() | find similar document create find similar document
+../3-Phrases/Base_Verb:IDocumentImpl buildDocument(URL aUrl) | build document
+../3-Phrases/Base_Verb:String getValue(Document document, String nodeName) | get value
+../3-Phrases/Base_Verb:void putPreparedDocument(int id, VariantKey documentKey, SaxBuffer content) | put prepared document
+../3-Phrases/Base_Verb:int getNumDocuments() | get num documents
+../3-Phrases/Base_Verb:void importRtfDocument(Reader documentSource) | import rtf document
+../3-Phrases/Base_Verb:void loadDocument() | load document
+../3-Phrases/Base_Verb:static Document getDocument(String fileName) | document get document
+../3-Phrases/Base_Verb:void addDocument(IndexWriter writer, String id, String text) | add document
+../3-Phrases/Base_Verb:Document getDocument() | get document
+../3-Phrases/Base_Verb:void setDocument(InputStream input, String baseURL) | set document
+../3-Phrases/Base_Verb:static Document generateStartkarten(AWettkampf<T> wk) | document generate startkarten
+../3-Phrases/drjava2:void handleAlreadyOpenDocument(QOpenDefinitionsDocument;) | handle already open document
+../3-Phrases/drjava2:void activeDocumentChanged(QOpenDefinitionsDocument;) | active document changed
+../3-Phrases/drjava2:void activeDocumentRefreshed(QOpenDefinitionsDocument;) | active document refreshed
+../3-Phrases/drjava2:void documentNotFound(QOpenDefinitionsDocument;QFile;) | document not found
+../3-Phrases/drjava2:InteractionsDJDocument getSwingInteractionsDocument() | get swing interactions document
+../3-Phrases/drjava2:InteractionsDocument getInteractionsDocument() | get interactions document
+../3-Phrases/drjava2:ConsoleDocument getConsoleDocument() | get console document
+../3-Phrases/drjava2:InteractionsDJDocument getSwingConsoleDocument() | get swing console document
+../3-Phrases/drjava2:IDocumentNavigator<QOpenDefinitionsDocument;> getDocumentNavigator() | get document navigator
+../3-Phrases/drjava2:void setDocumentNavigator(QIDocumentNavigator<QOpenDefinitionsDocument;>;) | set document navigator
+../3-Phrases/drjava2:DocumentCache getDocumentCache() | get document cache
+../3-Phrases/drjava2:OpenDefinitionsDocument getDocumentForFile(QFile;) | get document for file
+../3-Phrases/drjava2:OpenDefinitionsDocument getODDForDocument(QAbstractDocumentInterface;) | get odd for document
+../3-Phrases/drjava2:DocumentIterator getDocumentIterator() | get document iterator
+../3-Phrases/drjava2:OpenDefinitionsDocument getNextDocument(QOpenDefinitionsDocument;) | get next document
+../3-Phrases/drjava2:OpenDefinitionsDocument getPrevDocument(QOpenDefinitionsDocument;) | get prev document
+../3-Phrases/drjava2:int getDocumentCount() | get document count
+../3-Phrases/drjava2:List<QOpenDefinitionsDocument;> getOpenDefinitionsDocuments() | get open definitions documents
+../3-Phrases/drjava2:List<QOpenDefinitionsDocument;> getSortedOpenDefinitionsDocuments() | get sorted open definitions documents
+../3-Phrases/drjava2:boolean hasOutOfSyncDocuments() | has out of sync documents
+../3-Phrases/drjava2:boolean hasOutOfSyncDocuments(QList<QOpenDefinitionsDocument;>;) | has out of sync documents
+../3-Phrases/drjava2:boolean hasModifiedDocuments() | has modified documents
+../3-Phrases/drjava2:boolean hasModifiedDocuments(QList<QOpenDefinitionsDocument;>;) | has modified documents
+../3-Phrases/drjava2:boolean hasUntitledDocuments() | has untitled documents
+../3-Phrases/drjava2:DefinitionsDocument getDocument() | get document
+../3-Phrases/drjava2:String getPackageNameFromDocument() | get package name from document
+../3-Phrases/drjava2:void addDocumentListener(QDocumentListener;) | add document listener
+../3-Phrases/drjava2:void documentSaved() | document saved
+../3-Phrases/drjava2:void documentModified() | document modified
+../3-Phrases/drjava2:void documentReset() | document reset
+../3-Phrases/drjava2:void addDocumentListener(QDocumentListener;) | add document listener
+../3-Phrases/drjava2:void removeDocumentListener(QDocumentListener;) | remove document listener
+../3-Phrases/drjava2:DocumentListener[] getDocumentListeners() | get document listeners
+../3-Phrases/drjava2:ConcreteOpenDefDoc _createOpenDefinitionsDocument(QNullFile;) | create open definitions document
+../3-Phrases/drjava2:ConcreteOpenDefDoc _createOpenDefinitionsDocument(QFile;) | create open definitions document
+../3-Phrases/drjava2:OpenDefinitionsDocument _getOpenDocument(QFile;) | get open document
+../3-Phrases/drjava2:List<QOpenDefinitionsDocument;> getNonProjectDocuments() | get non project documents
+../3-Phrases/drjava2:List<QOpenDefinitionsDocument;> getAuxiliaryDocuments() | get auxiliary documents
+../3-Phrases/drjava2:List<QOpenDefinitionsDocument;> getProjectDocuments() | get project documents
+../3-Phrases/drjava2:OpenDefinitionsDocument getActiveDocument() | get active document
+../3-Phrases/drjava2:void setActiveDocument(QOpenDefinitionsDocument;) | set active document
+../3-Phrases/drjava2:void setActiveNextDocument() | set active next document
+../3-Phrases/drjava2:void setActivePreviousDocument() | set active previous document
+../3-Phrases/drjava2:boolean _hasOneEmptyDocument() | has one empty document
+../3-Phrases/drjava2:void setActiveFirstDocument() | set active first document
+../3-Phrases/drjava2:void installActiveDocument() | install active document
+../3-Phrases/drjava2:void refreshActiveDocument() | refresh active document
+../3-Phrases/drjava2:void assertActiveDocument(QOpenDefinitionsDocument;) | assert active document
+../3-Phrases/drjava2:OpenDefinitionsDocument setupDocument(QString;) | setup document
+../3-Phrases/drjava2:void activeDocumentChanged(QOpenDefinitionsDocument;) | active document changed
+../3-Phrases/drjava2:void testDocumentSwitching() | test document switching
+../3-Phrases/drjava2:void activeDocumentChanged(QOpenDefinitionsDocument;) | active document changed
+../3-Phrases/drjava2:void activeDocumentChanged(QOpenDefinitionsDocument;) | active document changed
+../3-Phrases/drjava2:void activeDocumentChanged(QOpenDefinitionsDocument;) | active document changed
+../3-Phrases/drjava2:void activeDocumentChanged(QOpenDefinitionsDocument;) | active document changed
+../3-Phrases/drjava2:void activeDocumentRefreshed(QOpenDefinitionsDocument;) | active document refreshed
+../3-Phrases/drjava2:InteractionsDJDocument getSwingInteractionsDocument() | get swing interactions document
+../3-Phrases/drjava2:InteractionsDocument getInteractionsDocument() | get interactions document
+../3-Phrases/drjava2:ConcreteOpenDefDoc _createOpenDefinitionsDocument(QNullFile;) | create open definitions document
+../3-Phrases/drjava2:ConcreteOpenDefDoc _createOpenDefinitionsDocument(QFile;) | create open definitions document
+../3-Phrases/drjava2:void testGetDocumentForFile() | test get document for file
+../3-Phrases/drjava2:void testGetDefinitionsDocuments() | test get definitions documents
+../3-Phrases/drjava2:void testHasModifiedDocuments() | test has modified documents
+../3-Phrases/drjava2:OpenDefinitionsDocument getDocument() | get document
+../3-Phrases/drjava2:CONS MovingDocumentRegion(QOpenDefinitionsDocument;IIII) | moving document region
+../3-Phrases/drjava2:OpenDefinitionsDocument getDocument() | get document
+../3-Phrases/drjava2:OpenDefinitionsDocument getDocumentForFile(QFile;) | get document for file
+../3-Phrases/drjava2:DefinitionsDocument getDocument() | get document
+../3-Phrases/drjava2:CONS AbstractDJDocument() | abstract dj document
+../3-Phrases/drjava2:CONS AbstractDJDocument(I) | abstract dj document
+../3-Phrases/drjava2:CONS AbstractDJDocument(QIndenter;) | abstract dj document
+../3-Phrases/drjava2:void setSearchAllDocuments(Z) | set search all documents
+../3-Phrases/drjava2:void setDocument(QOpenDefinitionsDocument;) | set document
+../3-Phrases/drjava2:boolean getSearchAllDocuments() | get search all documents
+../3-Phrases/drjava2:OpenDefinitionsDocument getDocument() | get document
+../3-Phrases/drjava2:void changeDocumentText(QString;QOpenDefinitionsDocument;) | change document text
+../3-Phrases/drjava2:OpenDefinitionsDocument setupDocument(QString;) | setup document
+../3-Phrases/drjava2:void handleAlreadyOpenDocument(QOpenDefinitionsDocument;) | handle already open document
+../3-Phrases/drjava2:void documentNotFound(QOpenDefinitionsDocument;QFile;) | document not found
+../3-Phrases/drjava2:void activeDocumentChanged(QOpenDefinitionsDocument;) | active document changed
+../3-Phrases/drjava2:void activeDocumentRefreshed(QOpenDefinitionsDocument;) | active document refreshed
+../3-Phrases/drjava2:void handleAlreadyOpenDocument(QOpenDefinitionsDocument;) | handle already open document
+../3-Phrases/drjava2:void activeDocumentChanged(QOpenDefinitionsDocument;) | active document changed
+../3-Phrases/drjava2:void activeDocumentRefreshed(QOpenDefinitionsDocument;) | active document refreshed
+../3-Phrases/drjava2:void documentNotFound(QOpenDefinitionsDocument;QFile;) | document not found
+../3-Phrases/drjava2:CONS BrowserDocumentRegion(QOpenDefinitionsDocument;QPosition;QPosition;) | browser document region
+../3-Phrases/drjava2:OpenDefinitionsDocument getDocument() | get document
+../3-Phrases/drjava2:CONS DocumentRegion(QOpenDefinitionsDocument;II) | document region
+../3-Phrases/drjava2:OpenDefinitionsDocument getDocument() | get document
+../3-Phrases/drjava2:CONS DocumentClosedException(QOpenDefinitionsDocument;QString;) | document closed exception
+../3-Phrases/drjava2:OpenDefinitionsDocument getDocument() | get document
+../3-Phrases/drjava2:DefinitionsDocument getDocument() | get document
+../3-Phrases/drjava2:DocumentListener[] getDocumentListeners() | get document listeners
+../3-Phrases/drjava2:String getPackageNameFromDocument() | get package name from document
+../3-Phrases/drjava2:void documentSaved() | document saved
+../3-Phrases/drjava2:void documentModified() | document modified
+../3-Phrases/drjava2:void documentReset() | document reset
+../3-Phrases/drjava2:Set<QOpenDefinitionsDocument;> getDocuments() | get documents
+../3-Phrases/drjava2:T newDocumentRegion(QOpenDefinitionsDocument;II) | new document region
+../3-Phrases/drjava2:void handleAlreadyOpenDocument(QOpenDefinitionsDocument;) | handle already open document
+../3-Phrases/drjava2:void activeDocumentChanged(QOpenDefinitionsDocument;) | active document changed
+../3-Phrases/drjava2:void activeDocumentRefreshed(QOpenDefinitionsDocument;) | active document refreshed
+../3-Phrases/drjava2:void documentNotFound(QOpenDefinitionsDocument;QFile;) | document not found
+../3-Phrases/drjava2:IDocumentNavigator<QOpenDefinitionsDocument;> getDocumentNavigator() | get document navigator
+../3-Phrases/drjava2:void setDocumentNavigator(QIDocumentNavigator<QOpenDefinitionsDocument;>;) | set document navigator
+../3-Phrases/drjava2:DocumentIterator getDocumentIterator() | get document iterator
+../3-Phrases/drjava2:void refreshActiveDocument() | refresh active document
+../3-Phrases/drjava2:ConsoleDocument getConsoleDocument() | get console document
+../3-Phrases/drjava2:InteractionsDJDocument getSwingConsoleDocument() | get swing console document
+../3-Phrases/drjava2:InteractionsDocument getInteractionsDocument() | get interactions document
+../3-Phrases/drjava2:InteractionsDJDocument getSwingInteractionsDocument() | get swing interactions document
+../3-Phrases/drjava2:int getDocumentCount() | get document count
+../3-Phrases/drjava2:OpenDefinitionsDocument getODDForDocument(QAbstractDocumentInterface;) | get odd for document
+../3-Phrases/drjava2:List<QOpenDefinitionsDocument;> getNonProjectDocuments() | get non project documents
+../3-Phrases/drjava2:List<QOpenDefinitionsDocument;> getProjectDocuments() | get project documents
+../3-Phrases/drjava2:boolean hasOutOfSyncDocuments() | has out of sync documents
+../3-Phrases/drjava2:boolean hasOutOfSyncDocuments(QList<QOpenDefinitionsDocument;>;) | has out of sync documents
+../3-Phrases/drjava2:List<QOpenDefinitionsDocument;> getOpenDefinitionsDocuments() | get open definitions documents
+../3-Phrases/drjava2:List<QOpenDefinitionsDocument;> getAuxiliaryDocuments() | get auxiliary documents
+../3-Phrases/drjava2:boolean hasModifiedDocuments() | has modified documents
+../3-Phrases/drjava2:boolean hasModifiedDocuments(QList<QOpenDefinitionsDocument;>;) | has modified documents
+../3-Phrases/drjava2:boolean hasUntitledDocuments() | has untitled documents
+../3-Phrases/drjava2:OpenDefinitionsDocument getDocumentForFile(QFile;) | get document for file
+../3-Phrases/drjava2:CONS DummyDocumentRegion(QFile;II) | dummy document region
+../3-Phrases/drjava2:DefinitionsDocument getDocument() | get document
+../3-Phrases/drjava2:String getPackageNameFromDocument() | get package name from document
+../3-Phrases/drjava2:void documentSaved() | document saved
+../3-Phrases/drjava2:void documentModified() | document modified
+../3-Phrases/drjava2:void documentReset() | document reset
+../3-Phrases/drjava2:void addDocumentListener(QDocumentListener;) | add document listener
+../3-Phrases/drjava2:void removeDocumentListener(QDocumentListener;) | remove document listener
+../3-Phrases/drjava2:DocumentListener[] getDocumentListeners() | get document listeners
+../3-Phrases/drjava2:void testDummyDocumentRegion() | test dummy document region
+../3-Phrases/drjava2:void testSimpleDocumentRegion() | test simple document region
+../3-Phrases/drjava2:void testBrowserDocumentRegion() | test browser document region
+../3-Phrases/drjava2:void testNotInDocument() | test not in document
+../3-Phrases/drjava2:Set<QOpenDefinitionsDocument;> getDocuments() | get documents
+../3-Phrases/drjava2:IDocumentNavigator<QOpenDefinitionsDocument;> getDocumentNavigator() | get document navigator
+../3-Phrases/drjava2:void setDocumentNavigator(QIDocumentNavigator<QOpenDefinitionsDocument;>;) | set document navigator
+../3-Phrases/drjava2:DocumentIterator getDocumentIterator() | get document iterator
+../3-Phrases/drjava2:void refreshActiveDocument() | refresh active document
+../3-Phrases/drjava2:ConsoleDocument getConsoleDocument() | get console document
+../3-Phrases/drjava2:InteractionsDJDocument getSwingConsoleDocument() | get swing console document
+../3-Phrases/drjava2:InteractionsDocument getInteractionsDocument() | get interactions document
+../3-Phrases/drjava2:InteractionsDJDocument getSwingInteractionsDocument() | get swing interactions document
+../3-Phrases/drjava2:int getDocumentCount() | get document count
+../3-Phrases/drjava2:OpenDefinitionsDocument getODDForDocument(QAbstractDocumentInterface;) | get odd for document
+../3-Phrases/drjava2:List<QOpenDefinitionsDocument;> getNonProjectDocuments() | get non project documents
+../3-Phrases/drjava2:List<QOpenDefinitionsDocument;> getProjectDocuments() | get project documents
+../3-Phrases/drjava2:boolean hasOutOfSyncDocuments() | has out of sync documents
+../3-Phrases/drjava2:boolean hasOutOfSyncDocuments(QList<QOpenDefinitionsDocument;>;) | has out of sync documents
+../3-Phrases/drjava2:OpenDefinitionsDocument getDocumentForFile(QFile;) | get document for file
+../3-Phrases/drjava2:List<QOpenDefinitionsDocument;> getOpenDefinitionsDocuments() | get open definitions documents
+../3-Phrases/drjava2:List<QOpenDefinitionsDocument;> getAuxiliaryDocuments() | get auxiliary documents
+../3-Phrases/drjava2:List<QOpenDefinitionsDocument;> getSortedOpenDefinitionsDocuments() | get sorted open definitions documents
+../3-Phrases/drjava2:boolean hasModifiedDocuments() | has modified documents
+../3-Phrases/drjava2:boolean hasModifiedDocuments(QList<QOpenDefinitionsDocument;>;) | has modified documents
+../3-Phrases/drjava2:boolean hasUntitledDocuments() | has untitled documents
+../3-Phrases/drjava2:void testGetDocumentForFile() | test get document for file
+../3-Phrases/drjava2:OpenDefinitionsDocument getDocument() | get document
+../3-Phrases/drjava2:OpenDefinitionsDocument getOpenDocument() | get open document
+../3-Phrases/drjava2:OpenDefinitionsDocument[] getOpenDocuments() | get open documents
+../3-Phrases/drjava2:OpenDefinitionsDocument getActiveDocument() | get active document
+../3-Phrases/drjava2:void setActiveDocument(QOpenDefinitionsDocument;) | set active document
+../3-Phrases/drjava2:void refreshActiveDocument() | refresh active document
+../3-Phrases/drjava2:void setActiveNextDocument() | set active next document
+../3-Phrases/drjava2:void setActivePreviousDocument() | set active previous document
+../3-Phrases/drjava2:void setActiveFirstDocument() | set active first document
+../3-Phrases/drjava2:void testNewDocumentsInAndOutOfTheCache() | test new documents in and out of the cache
+../3-Phrases/drjava2:void testOldDocumentsInAndOutOfTheCache() | test old documents in and out of the cache
+../3-Phrases/drjava2:DefinitionsDocument getDocument() | get document
+../3-Phrases/drjava2:void addDocumentListener(QDocumentListener;) | add document listener
+../3-Phrases/drjava2:void documentSaved() | document saved
+../3-Phrases/drjava2:void documentModified() | document modified
+../3-Phrases/drjava2:void documentReset() | document reset
+../3-Phrases/drjava2:void addDocumentListener(QDocumentListener;) | add document listener
+../3-Phrases/drjava2:CONS DocumentCache(I) | document cache
+../3-Phrases/drjava2:CONS DocumentCache() | document cache
+../3-Phrases/drjava2:void addDocumentListener(QDocumentListener;) | add document listener
+../3-Phrases/drjava2:DefinitionsDocument makeDocument() | make document
+../3-Phrases/drjava2:DefinitionsDocument getDocument() | get document
+../3-Phrases/drjava2:void documentModified() | document modified
+../3-Phrases/drjava2:void documentReset() | document reset
+../3-Phrases/drjava2:void documentSaved() | document saved
+../3-Phrases/drjava2:void testErrorsInMultipleDocuments() | test errors in multiple documents
+../3-Phrases/drjava2:OpenDefinitionsDocument getDocumentForFile(QFile;) | get document for file
+../3-Phrases/drjava2:List<QOpenDefinitionsDocument;> getOpenDefinitionsDocuments() | get open definitions documents
+../3-Phrases/drjava2:boolean hasModifiedDocuments() | has modified documents
+../3-Phrases/drjava2:boolean hasUntitledDocuments() | has untitled documents
+../3-Phrases/drjava2:CONS DocumentDebugAction(QJPDADebugger;QOpenDefinitionsDocument;I) | document debug action
+../3-Phrases/drjava2:OpenDefinitionsDocument getDocument() | get document
+../3-Phrases/drjava2:OpenDefinitionsDocument preloadDocument(QLocation;) | preload document
+../3-Phrases/drjava2:CONS NoSuchDocumentException(QString;) | no such document exception
+../3-Phrases/drjava2:void documentSaved() | document saved
+../3-Phrases/drjava2:CONS DefinitionsDocumentTest(QString;) | definitions document test
+../3-Phrases/drjava2:void addDocumentClosedListener(QDocumentClosedListener;) | add document closed listener
+../3-Phrases/drjava2:void removeDocumentClosedListener(QDocumentClosedListener;) | remove document closed listener
+../3-Phrases/drjava2:CONS DefinitionsDocument(QIndenter;QGlobalEventNotifier;) | definitions document
+../3-Phrases/drjava2:CONS DefinitionsDocument(QGlobalEventNotifier;) | definitions document
+../3-Phrases/drjava2:CONS DefinitionsDocument(QGlobalEventNotifier;QCompoundUndoManager;) | definitions document
+../3-Phrases/drjava2:void documentSaved() | document saved
+../3-Phrases/drjava2:DefinitionsDocument createNewDocument() | create new document
+../3-Phrases/drjava2:DefinitionsDocument _createDefaultTypedDocument() | create default typed document
+../3-Phrases/drjava2:void testStartOfDocument() | test start of document
+../3-Phrases/drjava2:void testStartOfDocument() | test start of document
+../3-Phrases/drjava2:void javadocDocument(QOpenDefinitionsDocument;QFileSaveSelector;) | javadoc document
+../3-Phrases/drjava2:void _attemptSaveAllDocuments() | attempt save all documents
+../3-Phrases/drjava2:File _getFileFromDocument(QOpenDefinitionsDocument;QFileSaveSelector;) | get file from document
+../3-Phrases/drjava2:void javadocDocument(QOpenDefinitionsDocument;QFileSaveSelector;) | javadoc document
+../3-Phrases/drjava2:boolean hasModifiedDocuments() | has modified documents
+../3-Phrases/drjava2:boolean hasUntitledDocuments() | has untitled documents
+../3-Phrases/drjava2:boolean hasModifiedDocuments() | has modified documents
+../3-Phrases/drjava2:boolean hasModifiedDocuments() | has modified documents
+../3-Phrases/drjava2:boolean hasUntitledDocuments() | has untitled documents
+../3-Phrases/drjava2:void javadocDocument(QOpenDefinitionsDocument;QFileSaveSelector;) | javadoc document
+../3-Phrases/drjava2:SwingDocument getJUnitDocument() | get j unit document
+../3-Phrases/drjava2:SwingDocument getJUnitDocument() | get j unit document
+../3-Phrases/drjava2:void _updateDocument(QString;Z) | update document
+../3-Phrases/drjava2:ConsoleDocument getConsoleDocument() | get console document
+../3-Phrases/drjava2:ConsoleDocument getConsoleDocument() | get console document
+../3-Phrases/drjava2:ConsoleDocument getConsoleDocument() | get console document
+../3-Phrases/drjava2:ConsoleDocument getConsoleDocument() | get console document
+../3-Phrases/drjava2:InteractionsDocument getDocument() | get document
+../3-Phrases/drjava2:ConsoleDocument getConsoleDocument() | get console document
+../3-Phrases/drjava2:CONS InteractionsDocument(QConsoleDocumentInterface;) | interactions document
+../3-Phrases/drjava2:CONS InteractionsDocument(QConsoleDocumentInterface;I) | interactions document
+../3-Phrases/drjava2:CONS InteractionsDocument(QConsoleDocumentInterface;QHistory;) | interactions document
+../3-Phrases/drjava2:InteractionsDJDocument createDefaultDocument() | create default document
+../3-Phrases/drjava2:CONS InteractionsDJDocument() | interactions dj document
+../3-Phrases/drjava2:InteractionsDocument getDocument() | get document
+../3-Phrases/drjava2:void _addDocumentStyles() | add document styles
+../3-Phrases/drjava2:DJDocument getDJDocument() | get dj document
+../3-Phrases/drjava2:SwingDocument getSwingDocument() | get swing document
+../3-Phrases/drjava2:void _assertDocumentEmpty(QDJDocument;QString;) | assert document empty
+../3-Phrases/drjava2:void _assertDocumentContents(QDJDocument;QString;QString;) | assert document contents
+../3-Phrases/drjava2:void testDocumentPaneMemoryLeak() | test document pane memory leak
+../3-Phrases/drjava2:void activeDocumentChanged(QOpenDefinitionsDocument;) | active document changed
+../3-Phrases/drjava2:String getPackageNameFromDocument() | get package name from document
+../3-Phrases/drjava2:void _installNewDocumentListener(QOpenDefinitionsDocument;) | install new document listener
+../3-Phrases/drjava2:void scrollToDocumentAndOffset(QOpenDefinitionsDocument;IZ) | scroll to document and offset
+../3-Phrases/drjava2:void scrollToDocumentAndOffset(QOpenDefinitionsDocument;IZZ) | scroll to document and offset
+../3-Phrases/drjava2:void handleAlreadyOpenDocument(QOpenDefinitionsDocument;) | handle already open document
+../3-Phrases/drjava2:void activeDocumentRefreshed(QOpenDefinitionsDocument;) | active document refreshed
+../3-Phrases/drjava2:void activeDocumentChanged(QOpenDefinitionsDocument;) | active document changed
+../3-Phrases/drjava2:void documentNotFound(QOpenDefinitionsDocument;QFile;) | document not found
+../3-Phrases/drjava2:void addComponentListenerToOpenDocumentsList(QComponentListener;) | add component listener to open documents list
+../3-Phrases/drjava2:void _addDocumentStyles() | add document styles
+../3-Phrases/drjava2:InteractionsDJDocument getDocumentAdapter() | get document adapter
+../3-Phrases/drjava2:OpenDefinitionsDocument getDocument() | get document
+../3-Phrases/drjava2:OpenDefinitionsDocument getOpenDefDocument() | get open def document
+../3-Phrases/drjava2:DJDocument getDJDocument() | get dj document
+../3-Phrases/drjava2:void setDocument(QDocument;) | set document
+../3-Phrases/drjava2:void testCorrectInteractionsDocument() | test correct interactions document
+../3-Phrases/drjava2:void activeDocumentChanged(QOpenDefinitionsDocument;) | active document changed
+../3-Phrases/drjava2:void activeDocumentChanged(QOpenDefinitionsDocument;) | active document changed
+../3-Phrases/drjava2:void activeDocumentChanged(QOpenDefinitionsDocument;) | active document changed
+../3-Phrases/drjava2:void pokeDocument(QOpenDefinitionsDocument;) | poke document
+../3-Phrases/drjava2:void closeDocument(QOpenDefinitionsDocument;) | close document
+../3-Phrases/drjava2:OpenDefinitionsDocument getDocument() | get document
+../3-Phrases/drjava2:Pageable setUpDocument(QSingleDisplayModel;Z) | set up document
+../3-Phrases/drjava2:JPanel _mainDocumentSelector() | main document selector
+../3-Phrases/drjava2:void addDocumentListener(QDocumentListener;) | add document listener
+../3-Phrases/drjava2:DJDocument getDJDocument() | get dj document
+../3-Phrases/drjava2:Pageable setUpDocument(QSingleDisplayModel;Z) | set up document
+../3-Phrases/drjava2:Pageable setUpDocument(QSingleDisplayModel;Z) | set up document
+../3-Phrases/drjava2:void addDocument(QItemT;) | add document
+../3-Phrases/drjava2:void addDocument(QItemT;QString;) | add document
+../3-Phrases/drjava2:ItemT removeDocument(QItemT;) | remove document
+../3-Phrases/drjava2:void refreshDocument(QItemT;QString;) | refresh document
+../3-Phrases/drjava2:void selectDocument(QItemT;) | select document
+../3-Phrases/drjava2:ArrayList<QItemT;> getDocuments() | get documents
+../3-Phrases/drjava2:ArrayList<QItemT;> getDocumentsInBin(QString;) | get documents in bin
+../3-Phrases/drjava2:int getDocumentCount() | get document count
+../3-Phrases/drjava2:boolean selectDocumentAt(II) | select document at
+../3-Phrases/drjava2:boolean isDocumentSelected() | is document selected
+../3-Phrases/drjava2:int getDocumentSelectedCount() | get document selected count
+../3-Phrases/drjava2:java.util.List<QItemT;> getSelectedDocuments() | get selected documents
+../3-Phrases/drjava2:void testRenameDocument() | test rename document
+../3-Phrases/drjava2:void testGetDocumentsInBin() | test get documents in bin
+../3-Phrases/drjava2:void testGetSelectedDocuments() | test get selected documents
+../3-Phrases/drjava2:void addDocument(QItemT;) | add document
+../3-Phrases/drjava2:void addDocument(QItemT;) | add document
+../3-Phrases/drjava2:void addDocument(QItemT;QString;) | add document
+../3-Phrases/drjava2:ItemT removeDocument(QItemT;) | remove document
+../3-Phrases/drjava2:void refreshDocument(QItemT;QString;) | refresh document
+../3-Phrases/drjava2:void selectDocument(QItemT;) | select document
+../3-Phrases/drjava2:ArrayList<QItemT;> getDocuments() | get documents
+../3-Phrases/drjava2:ArrayList<QItemT;> getDocumentsInBin(QString;) | get documents in bin
+../3-Phrases/drjava2:int getDocumentCount() | get document count
+../3-Phrases/drjava2:boolean selectDocumentAt(II) | select document at
+../3-Phrases/drjava2:boolean isDocumentSelected() | is document selected
+../3-Phrases/drjava2:int getDocumentSelectedCount() | get document selected count
+../3-Phrases/drjava2:java.util.List<QItemT;> getSelectedDocuments() | get selected documents
+../3-Phrases/drjava2:void addDocument(QItemT;) | add document
+../3-Phrases/drjava2:void addDocument(QItemT;QString;) | add document
+../3-Phrases/drjava2:ItemT removeDocument(QItemT;) | remove document
+../3-Phrases/drjava2:void refreshDocument(QItemT;QString;) | refresh document
+../3-Phrases/drjava2:void selectDocument(QItemT;) | select document
+../3-Phrases/drjava2:ArrayList<QItemT;> getDocuments() | get documents
+../3-Phrases/drjava2:ArrayList<QItemT;> getDocumentsInBin(QString;) | get documents in bin
+../3-Phrases/drjava2:int getDocumentCount() | get document count
+../3-Phrases/drjava2:boolean selectDocumentAt(II) | select document at
+../3-Phrases/drjava2:boolean isDocumentSelected() | is document selected
+../3-Phrases/drjava2:int getDocumentSelectedCount() | get document selected count
+../3-Phrases/drjava2:java.util.List<QItemT;> getSelectedDocuments() | get selected documents
+../3-Phrases/drjava2:CONS DocumentOutputStream(QDocument;) | document output stream
+../3-Phrases/drjava2:CONS DocumentOutputStream(QDocument;QAttributeSet;) | document output stream
+../3-Phrases/drjava2:OpenDefinitionsDocument getNextDocument(QOpenDefinitionsDocument;) | get next document
+../3-Phrases/drjava2:OpenDefinitionsDocument getPrevDocument(QOpenDefinitionsDocument;) | get prev document
+../3-Phrases/drjava2:int getDocumentCount() | get document count
+../3-Phrases/drjava2:CONS EditDocumentException(QThrowable;) | edit document exception
+../3-Phrases/drjava2:CONS EditDocumentException(QThrowable;QString;) | edit document exception
+../3-Phrases/drjava2:CONS ConsoleDocument(QConsoleDocumentInterface;) | console document
+../3-Phrases/drjava2:CONS SwingDocument() | swing document
+../3-Phrases/freecol2:Document createNewDocument() | create new document
+../3-Phrases/freecol2:Document getDocument() | get document
+../3-Phrases/freecol2:Document newDocument() | new document
+../3-Phrases/freecol2:Document documentFrom(QString;) | document from
+../3-Phrases/freecol2:Document documentFrom(QInputStream;) | document from
+../3-Phrases/freecol2:Document documentFrom(QInputSource;) | document from
+../3-Phrases/freemind:void DocumentationAction(QController;) | documentation action
+../3-Phrases/freemind:java.lang.String getDocumentation() | get documentation
+../3-Phrases/freemind:void setDocumentation(Qjava.lang.String;) | set documentation
+../3-Phrases/freemind:java.lang.String getDocumentation() | get documentation
+../3-Phrases/freemind:void setDocumentation(Qjava.lang.String;) | set documentation
+../3-Phrases/freemind:void startDocument() | start document
+../3-Phrases/freemind:void endDocument() | end document
+../3-Phrases/freemind:void setDocumentLocator(QLocator;) | set document locator
+../3-Phrases/freemind:void startDocument() | start document
+../3-Phrases/freemind:void endDocument() | end document
+../3-Phrases/freemind:void setDocumentLocator(QLocator;) | set document locator
+../3-Phrases/freemind:String getDocumentation() | get documentation
+../3-Phrases/freemind:void openDocument(QURL;) | open document
+../3-Phrases/freemind:void openDocument(QURL;) | open document
+../3-Phrases/freemind:void openDocument(QURL;) | open document
+../3-Phrases/gantt:Document getDocument() | get document
+../3-Phrases/gantt:void setDocument(QDocument;) | set document
+../3-Phrases/gantt:DocumentManager getDocumentManager() | get document manager
+../3-Phrases/gantt:int compareDocumentOrder(QTask;QTask;) | compare document order
+../3-Phrases/gantt:int compareDocumentOrder(QTask;QTask;) | compare document order
+../3-Phrases/gantt:void setDocumentsMRU(QDocumentsMRU;) | set documents mru
+../3-Phrases/gantt:void openDocument(QDocument;) | open document
+../3-Phrases/gantt:void openStartupDocument(QString;) | open startup document
+../3-Phrases/gantt:void openStartupDocument(QDocument;) | open startup document
+../3-Phrases/gantt:Document getDocument() | get document
+../3-Phrases/gantt:void setDocument(QDocument;) | set document
+../3-Phrases/gantt:Document getDocument() | get document
+../3-Phrases/gantt:DocumentManager getDocumentManager() | get document manager
+../3-Phrases/gantt:void endDocument() | end document
+../3-Phrases/gantt:CONS DocumentCreator(QIGanttProject;QUIFacade;QParserFactory;) | document creator
+../3-Phrases/gantt:Document createDocument(QString;) | create document
+../3-Phrases/gantt:Document createDocument(QString;QString;QString;) | create document
+../3-Phrases/gantt:Document getDocument(QString;) | get document
+../3-Phrases/gantt:Document getDocument(QString;QString;QString;) | get document
+../3-Phrases/gantt:void addToRecentDocuments(QDocument;) | add to recent documents
+../3-Phrases/gantt:CONS DocumentsMRU(I) | documents mru
+../3-Phrases/gantt:CONS FtpDocument(QString;QStringOption;QStringOption;) | ftp document
+../3-Phrases/gantt:Document getDocument(QString;) | get document
+../3-Phrases/gantt:void addToRecentDocuments(QDocument;) | add to recent documents
+../3-Phrases/gantt:Document getDocument(QString;QString;QString;) | get document
+../3-Phrases/gantt:CONS HttpDocumentOutputStream(QWebdavResource;) | http document output stream
+../3-Phrases/gantt:CONS FileDocument(QFile;) | file document
+../3-Phrases/gantt:Document getDefaultDocument() | get default document
+../3-Phrases/gantt:CONS OpenDocumentAction(IQDocument;QActionListener;) | open document action
+../3-Phrases/gantt:CONS ProxyDocument(QDocumentCreator;QDocument;QIGanttProject;QUIFacade;QParserFactory;) | proxy document
+../3-Phrases/gantt:Document getDefaultDocument() | get default document
+../3-Phrases/gantt:void setDefaultDocument(QDocument;) | set default document
+../3-Phrases/gantt:CONS HttpDocument(QString;QString;QString;) | http document
+../3-Phrases/gantt:CONS GPlainDocument(QString;) | g plain document
+../3-Phrases/gantt:DocumentManager getDocumentManager() | get document manager
+../3-Phrases/gantt:Document getDocument(QFile;) | get document
+../3-Phrases/gantt:void openDocument(QGanttProject;QUIFacade;QDocument;Z) | open document
+../3-Phrases/gantt:void startDocument() | start document
+../3-Phrases/gantt:void endDocument() | end document
+../3-Phrases/gantt:int compareDocumentOrder(QTask;QTask;) | compare document order
+../3-Phrases/gantt:int compareDocumentOrder(QTask;QTask;) | compare document order
+../3-Phrases/gantt:int compareDocumentOrder(QTask;QTask;) | compare document order
+../3-Phrases/gantt:CONS TaskDocumentOrderComparator(QTaskManagerImpl;) | task document order comparator
+../3-Phrases/gantt:void testTasksAreInDocumentOrder() | test tasks are in document order
+../3-Phrases/gantt:DocumentManager getDocumentManager() | get document manager
+../3-Phrases/gantt:void restoreDocument(QDocument;) | restore document
+../3-Phrases/hibernate-3.3.1.GA:Configuration addDocument(QDocument;) | add document
+../3-Phrases/hibernate-3.3.1.GA:Document getDocument() | get document
+../3-Phrases/hibernate-3.3.1.GA:Document getDocument() | get document
+../3-Phrases/hibernate-3.3.1.GA:void setDocument(QDocument;) | set document
+../3-Phrases/hibernate-3.3.1.GA:Document getDocument() | get document
+../3-Phrases/hibernate-3.3.1.GA:void setDocument(QDocument;) | set document
+../3-Phrases/iReport:CONS IRCompilerDocument() | ir compiler document
+../3-Phrases/iReport:CONS DocumentTreeEntry(QJReportFrame;QString;) | document tree entry
+../3-Phrases/iReport:void jMenuItemNewDocumentActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item new document action performed
+../3-Phrases/iReport:void updateOpenedDocumentsList() | update opened documents list
+../3-Phrases/iReport:DocumentStructurePanel getDocumentStructurePanel() | get document structure panel
+../3-Phrases/iReport:void setDocumentStructurePanel(QDocumentStructurePanel;) | set document structure panel
+../3-Phrases/iReport:java.util.List getOpenedNodesDocumentStructure() | get opened nodes document structure
+../3-Phrases/iReport:void setOpenedNodesDocumentStructure(Qjava.util.List;) | set opened nodes document structure
+../3-Phrases/iReport:CONS DocumentExpressionEditorTreeCellRenderer() | document expression editor tree cell renderer
+../3-Phrases/iReport:CONS NumberDocument() | number document
+../3-Phrases/iReport:CONS DocumentStructurePanel() | document structure panel
+../3-Phrases/iReport:void jTreeDocumentTreeCollapsed(Qjavax.swing.event.TreeExpansionEvent;) | j tree document tree collapsed
+../3-Phrases/iReport:void jTreeDocumentTreeExpanded(Qjavax.swing.event.TreeExpansionEvent;) | j tree document tree expanded
+../3-Phrases/iReport:void jTreeDocumentValueChanged(Qjavax.swing.event.TreeSelectionEvent;) | j tree document value changed
+../3-Phrases/iReport:void jTreeDocumentMousePressed(Qjava.awt.event.MouseEvent;) | j tree document mouse pressed
+../3-Phrases/iReport:void updateDocumentStructureTree(QJReportFrame;) | update document structure tree
+../3-Phrases/iReport:CONS DocumentStructureTreeCellRenderer() | document structure tree cell renderer
+../3-Phrases/iReport:CONS DocumentStructureTreeNode() | document structure tree node
+../3-Phrases/iReport:CONS DocumentStructureTreeNode(QObject;) | document structure tree node
+../3-Phrases/iReport:CONS DocumentStructureTreeNode(QObject;Z) | document structure tree node
+../3-Phrases/iReport:void document_end(Z) | document end
+../3-Phrases/iReport:void document_home(Z) | document home
+../3-Phrases/iReport:CONS SyntaxDocument() | syntax document
+../3-Phrases/iReport:SyntaxDocument getDocument() | get document
+../3-Phrases/iReport:void setDocument(QSyntaxDocument;) | set document
+../3-Phrases/iReport:int getDocumentLength() | get document length
+../3-Phrases/iReport:void documentChanged(QDocumentEvent;) | document changed
+../3-Phrases/Jabref:CONS OpenDocumentSpreadsheetCreator() | open document spreadsheet creator
+../3-Phrases/Jabref:void storeOpenDocumentSpreadsheetFile(QFile;QInputStream;) | store open document spreadsheet file
+../3-Phrases/Jabref:void exportOpenDocumentSpreadsheet(QFile;QBibtexDatabase;QSet<QString;>;) | export open document spreadsheet
+../3-Phrases/Jabref:void exportOpenDocumentSpreadsheetXML(QFile;QBibtexDatabase;QSet<QString;>;) | export open document spreadsheet xml
+../3-Phrases/Jabref:CONS OpenDocumentRepresentation(QBibtexDatabase;QSet<QString;>;) | open document representation
+../3-Phrases/Jabref:CONS OpenOfficeDocumentCreator() | open office document creator
+../3-Phrases/Jabref:void endDocument() | end document
+../3-Phrases/Jabref:void startDocument() | start document
+../3-Phrases/Jabref:void endDocument() | end document
+../3-Phrases/Jabref:void endDocument() | end document
+../3-Phrases/Jabref:void startDocument() | start document
+../3-Phrases/Jabref:void endDocument() | end document
+../3-Phrases/Jabref:void startDocument() | start document
+../3-Phrases/Jabref:BibtexEntry getBibtexEntryFromDocumentInformation(QPDDocumentInformation;) | get bibtex entry from document information
+../3-Phrases/Jabref:void writeDocumentInformation(QPDDocument;QBibtexEntry;QBibtexDatabase;) | write document information
+../3-Phrases/Jabref:void addStylesToDocument(QStyledDocument;) | add styles to document
+../3-Phrases/jajuk:void startDocument() | start document
+../3-Phrases/jajuk:void endDocument() | end document
+../3-Phrases/jajuk:void startDocument() | start document
+../3-Phrases/jajuk:void endDocument() | end document
+../3-Phrases/javaHMO:CONS TiVoAudioDocumentRequest(QItemURL;) | ti vo audio document request
+../3-Phrases/javaHMO:CONS TiVoDocumentRequest(QItemURL;) | ti vo document request
+../3-Phrases/javaHMO:CONS TiVoImageDocumentRequest(QItemURL;) | ti vo image document request
+../3-Phrases/javaHMO:void setDocumentation(QString;) | set documentation
+../3-Phrases/javaHMO:String getDocumentation() | get documentation
+../3-Phrases/javaHMO:void startDocument() | start document
+../3-Phrases/javaHMO:void endDocument() | end document
+../3-Phrases/javaHMO:void startDocument() | start document
+../3-Phrases/javaHMO:void endDocument() | end document
+../3-Phrases/javaHMO:void startDocument() | start document
+../3-Phrases/javaHMO:void endDocument() | end document
+../3-Phrases/javaHMO:void loadDocument(QPluginManager;QFile;) | load document
+../3-Phrases/javaHMO:void loadDocument1(QNode;QFile;) | load document 1
+../3-Phrases/javaHMO:void loadDocument2(QNode;QPluginManager;) | load document 2
+../3-Phrases/javaHMO:void startDocument() | start document
+../3-Phrases/javaHMO:void endDocument() | end document
+../3-Phrases/MegaMek-0.32.0:InputStream getDocumentStream() | get document stream
+../3-Phrases/MegaMek-0.32.0:InputStream getDocumentStream() | get document stream
+../3-Phrases/np:static AuthorInitialsDocument newInstance() | author initials document new instance
+../3-Phrases/prefuse:void startDocument() | start document
+../3-Phrases/prefuse:void startDocument() | start document
+../3-Phrases/prefuse:void endDocument() | end document
+../3-Phrases/prefuse:void addDocument(QDocument;) | add document
+../3-Phrases/prefuse:Document getDocument(IQString;) | get document
+../3-Phrases/prefuse:void showDocument(QURL;) | show document
+../3-Phrases/prefuse:void showDocument(QString;) | show document
+../3-Phrases/SweetHome3D:boolean showDocument(QURL;) | show document
+../3-Phrases/SweetHome3D:boolean showDocument(QURL;) | show document
+../3-Phrases/SweetHome3D:List<QHelpDocument;> searchInHelpDocuments(QURL;[QString;) | search in help documents
+../3-Phrases/SweetHome3D:void HelpDocument(QURL;[QString;) | help document
+../3-Phrases/SweetHome3D:Set<QURL;> getReferencedDocuments() | get referenced documents
+../3-Phrases/SweetHome3D:void addReferencedDocument(QString;) | add referenced document
+../3-Phrases/vuze:void SimpleXMLParserDocumentException(QString;) | simple xml parser document exception
+../3-Phrases/vuze:void SimpleXMLParserDocumentException(QThrowable;) | simple xml parser document exception
+../3-Phrases/vuze:void forDocumentation() | for documentation
+../3-Phrases/vuze:String getUserDocumentsDir() | get user documents dir
+../3-Phrases/vuze:String getUserDocumentsDir() | get user documents dir
+../3-Phrases/vuze:SimpleXMLParserDocumentFactory getSimpleXMLParserDocumentFactory() | get simple xml parser document factory
+../3-Phrases/vuze:SimpleXMLParserDocumentFactory getSimpleXMLParserDocumentFactory() | get simple xml parser document factory
+../3-Phrases/vuze:CONS SimpleXMLParserDocumentNodeImpl(QSimpleXMLParserDocumentImpl;QNode;) | simple xml parser document node impl
+../3-Phrases/vuze:CONS SimpleXMLParserDocumentImpl(QFile;) | simple xml parser document impl
+../3-Phrases/vuze:CONS SimpleXMLParserDocumentImpl(QString;) | simple xml parser document impl
+../3-Phrases/vuze:CONS SimpleXMLParserDocumentImpl(QInputStream;) | simple xml parser document impl
+../3-Phrases/vuze:CONS SimpleXMLParserDocumentAttributeImpl(QString;QString;) | simple xml parser document attribute impl
+../3-Phrases/weka:Document getDocument() | get document
+../3-Phrases/weka:XMLDocument getXMLDocument() | get xml document
+../3-Phrases/weka:CONS XMLDocument() | xml document
+../3-Phrases/weka:CONS XMLDocument(QString;) | xml document
+../3-Phrases/weka:CONS XMLDocument(QFile;) | xml document
+../3-Phrases/weka:CONS XMLDocument(QInputStream;) | xml document
+../3-Phrases/weka:CONS XMLDocument(QReader;) | xml document
+../3-Phrases/weka:Document getDocument() | get document
+../3-Phrases/weka:void setDocument(QDocument;) | set document
+../3-Phrases/weka:Document newDocument(QString;QString;) | new document

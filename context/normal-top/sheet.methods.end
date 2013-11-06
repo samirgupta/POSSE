@@ -1,0 +1,29 @@
+boolean isNativeSheet() | is native sheet
+boolean isOnSameSheet(QCoords;) | is on same sheet
+boolean isSheet(int i) | is sheet
+boolean isShowAsSheet() | is show as sheet
+JSheet createSheet(QJOptionPane;QComponent;I) | create sheet
+void installSheet() | install sheet
+void parseStyleSheet(String uri) | parse style sheet
+void recreateSheet() | recreate sheet
+void setStyleSheet(QStyleSheet styleSheet) | set style sheet
+void showConfirmSheet(QComponent;QObject;IIQIcon;QSheetListener;) | show confirm sheet
+void showConfirmSheet(QComponent;QObject;IIQSheetListener;) | show confirm sheet
+void showConfirmSheet(QComponent;QObject;IQSheetListener;) | show confirm sheet
+void showConfirmSheet(QComponent;QObject;QSheetListener;) | show confirm sheet
+void showInputSheet(QComponent;QObject;IQIcon;[QObject;QObject;QSheetListener;) | show input sheet
+void showInputSheet(QComponent;QObject;IQSheetListener;) | show input sheet
+void showInputSheet(QComponent;QObject;QObject;QSheetListener;) | show input sheet
+void showInputSheet(QComponent;QObject;QSheetListener;) | show input sheet
+void showMessageSheet(QComponent;QObject;) | show message sheet
+void showMessageSheet(QComponent;QObject;I) | show message sheet
+void showMessageSheet(QComponent;QObject;IQIcon;QSheetListener;) | show message sheet
+void showMessageSheet(QComponent;QObject;IQSheetListener;) | show message sheet
+void showMessageSheet(QComponent;QObject;QSheetListener;) | show message sheet
+void showOpenSheet(QJFileChooser;QComponent;QSheetListener;) | show open sheet
+void showOptionSheet(QComponent;QObject;IIQIcon;[QObject;QObject;QSheetListener;) | show option sheet
+void showSaveSheet(QJFileChooser;QComponent;QSheetListener;) | show save sheet
+void showSheet(QJFileChooser;QComponent;QString;QSheetListener;) | show sheet
+void showSheet(QJOptionPane;QComponent;QSheetListener;) | show sheet
+void uninstallSheet() | uninstall sheet
+void updateChildPropertySheet() | update child property sheet

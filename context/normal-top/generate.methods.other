@@ -1,0 +1,30 @@
+AlgorithmParameters engineGenerateParameters() | engine generate parameters
+BibtexDatabase getGenerateDB() | get generate db
+boolean getGenerateDataOutput() | get generate data output
+boolean getGenerateIntermediateEvents() | get generate intermediate events
+boolean getGenerateRanking() | get generate ranking
+boolean getGenerateRules() | get generate rules
+boolean getGenerateThumbnails() | get generate thumbnails
+boolean isGenerateDebugInfo() | is generate debug info
+byte[] engineGenerateSecret() | engine generate secret
+Certificate engineGenerateCertificate(QInputStream;) | engine generate certificate
+CertPath engineGenerateCertPath(QInputStream;) | engine generate cert path
+CertPath engineGenerateCertPath(QInputStream;QString;) | engine generate cert path
+CertPath engineGenerateCertPath(QList;) | engine generate cert path
+Collection engineGenerateCertificates(QInputStream;) | engine generate certificates
+Collection engineGenerateCRLs(QInputStream;) | engine generate cr ls
+CRL engineGenerateCRL(QInputStream;) | engine generate crl
+int engineGenerateSecret([BI) | engine generate secret
+PrivateKey engineGeneratePrivate(QKeySpec;) | engine generate private
+PublicKey engineGeneratePublic(QKeySpec;) | engine generate public
+SecretKey engineGenerateSecret(QString;) | engine generate secret
+void ActionGenerateData() | action generate data
+void ActionGenerateNetwork() | action generate network
+void autoGenerateKeysBeforeSaving() | auto generate keys before saving
+void setGenerateDataOutput(Z) | set generate data output
+void setGenerateDebugInfo(Z) | set generate debug info
+void setGenerateIntermediateEvents(Z) | set generate intermediate events
+void setGenerateRanking(Z) | set generate ranking
+void setGenerateRules(Z) | set generate rules
+void setGenerateThumbnails(Z) | set generate thumbnails
+void testGeneratePathString() | test generate path string

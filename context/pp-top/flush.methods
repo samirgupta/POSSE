@@ -1,0 +1,9 @@
+boolean autoFlushIfRequired(QSet;) | auto flush if required
+boolean flushIsReallyNeeded(QAutoFlushEvent;QEventSource;) | flush is really needed
+boolean flushMightBeNeeded(QEventSource;) | flush might be needed
+boolean isAutoFlushEnabled() | is auto flush enabled
+boolean isFlushBeforeCompletionEnabled() | is flush before completion enabled
+boolean isFlushRequired() | is flush required
+void flushed() | flushed
+void setFlushBeforeCompletionEnabled(Z) | set flush before completion enabled
+void setFlushRequired(Z) | set flush required

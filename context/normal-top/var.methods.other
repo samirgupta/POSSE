@@ -1,0 +1,17 @@
+boolean isVarArgsConstructor() | is var args constructor
+boolean isVarArgsMethod() | is var args method
+int getParamAndVarCount() | get param and var count
+int getParamOrVarIndex(QString;) | get param or var index
+int getVarCount() | get var count
+int getVarIndex(QNode;) | get var index
+List<Type2> visitVarDecl(VarDecl varDecl) | visit var decl
+Object getMinVisVarValue() | get min vis var value
+String[] getParamAndVarNames() | get param and var names
+String getParamOrVarName(I) | get param or var name
+String getParamOrVarName(int index) | get param or var name
+String readLongVarString() | read long var string
+String readVarString() | read var string
+void addVarOp(II) | add var op
+void setLocalVarTable(LocalVarTableAttr lvar) | set local var table
+void writeLongVarString(QString;) | write long var string
+void writeVarString(QString;) | write var string

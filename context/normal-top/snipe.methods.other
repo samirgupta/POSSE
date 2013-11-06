@@ -1,0 +1,20 @@
+boolean dangerousSnipeWarning(QComponent;) | dangerous snipe warning
+boolean hasDefaultSnipeTime() | has default snipe time
+boolean isSnipeValid() | is snipe valid
+Currency getSnipeBid() | get snipe bid
+Currency getSnipeValue(QAuctionEntry;) | get snipe value
+Date getSnipeDate() | get snipe date
+int getCancelledSnipeQuantity() | get cancelled snipe quantity
+int getSnipeQuantity() | get snipe quantity
+JPanel buildSnipeSettings() | build snipe settings
+long getDefaultSnipeTime() | get default snipe time
+long getGlobalSnipeTime() | get global snipe time
+long getSnipePadding() | get snipe padding
+long getSnipeTime() | get snipe time
+StringBuffer setupSnipePage(QString;) | setup snipe page
+String formatSnipeAndBid(QAuctionEntry;) | format snipe and bid
+String genBidSnipeHTML(QAuctionEntry;QCurrency;) | gen bid snipe html
+String getSnipeResult(IQString;QAuctionEntry;) | get snipe result
+void checkConfigurationSnipeTime() | check configuration snipe time
+void setDefaultSnipeTime(J) | set default snipe time
+void setSnipeTime(J) | set snipe time

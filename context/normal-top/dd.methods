@@ -1,0 +1,22 @@
+Boolean performTemporaryTableDDLInIsolation() | perform temporary table ddl in isolation
+boolean shouldIsolateTemporaryTableDDL() | should isolate temporary table ddl
+Result executeDDLStatement(QCompiledStatement;) | execute ddl statement
+StringBuffer getDDL() | get ddl
+String getAlterUserDDL() | get alter user ddl
+String getColumnDDL() | get column ddl
+String getContextDDL(QExpression;) | get context ddl
+String getCreateUserDDL() | get create user ddl
+String getDDL() | get ddl
+String getDefaultDDL() | get default ddl
+String getIdentityUpdateDDL(QTable;) | get identity update ddl
+String getIndexRootsDDL(QTable;) | get index roots ddl
+String getSchemaCreateDDL(QDatabase;QHsqlName;) | get schema create ddl
+String getTemporaryIdTableDDL() | get temporary id table ddl
+String getTriggerDDL(QString;IQString;IQString;) | get trigger ddl
+void checkDDLWrite() | check ddl write
+void getTableDDL(QDatabase;QTable;IQHsqlArrayList;ZQStringBuffer;) | get table ddl
+void logTableDDL(QTable;) | log table ddl
+void readDDL(QSession;) | read ddl
+void setHbm2ddlAuto(String hbm2ddlAuto) | set hbm 2 ddl auto
+void testDDB() | test ddb
+void writeDDL() | write ddl

@@ -1,0 +1,34 @@
+activePing getContact() | get contact
+boolean isContact() | is contact
+boolean verifyContact(QDHTTransportContact;Z) | verify contact
+byte[] encodeContact(QDHTTransportContact;) | encode contact
+DHTPluginContact getContact() | get contact
+DHTPluginContact importContact(QInetSocketAddress;) | import contact
+DHTRouterContact addContact([BQDHTRouterContactAttachment;Z) | add contact
+DHTRouterContact findContact([B) | find contact
+DHTRouterContact getLocalContact() | get local contact
+DHTRouterContact getRouterContact() | get router contact
+DHTTransportContact getContact() | get contact
+DHTTransportContact getLocalContact() | get local contact
+DHTTransportContact getTransportContact() | get transport contact
+DHTTransportContact importContact(QDataInputStream;) | import contact
+DHTTransportUDPContact decodeContact([B) | decode contact
+DHTTransportUDPContactImpl deserialiseContact(QDHTTransportUDPImpl;QDataInputStream;) | deserialise contact
+DHTTransportUDPContact importContact(QInetSocketAddress;B) | import contact
+DistributedDatabaseContact getContact() | get contact
+DistributedDatabaseContact getLocalContact() | get local contact
+DistributedDatabaseContact importContact(QInetSocketAddress;) | import contact
+TRTrackerServerPeerImpl peerContact(QString;QString;QHashWrapper;IIIBBQString;QString;ZZQString;JJJJIQDHTNetworkPosition;) | peer contact
+void addContact(QtestSource;) | add contact
+void anonContact(QDHTTransportContact;) | anon contact
+void banContact(QDHTTransportContact;QString;) | ban contact
+void exportContact(QDataOutputStream;) | export contact
+void exportContact(QDHTTransportContact;QDataOutputStream;) | export contact
+void importContact(QDHTTransportUDPContactImpl;) | import contact
+void pingContact(QDHTSpeedTesterContact;) | ping contact
+void removeContact(QDHTTransportContact;) | remove contact
+void removeContact(QtestSource;) | remove contact
+void serialiseContact(QDataOutputStream;QDHTTransportContact;) | serialise contact
+void setLocalContact() | set local contact
+void setRouterContact(QDHTRouterContact;) | set router contact
+void updateLocalContact(QDHTTransportContact;) | update local contact

@@ -1,0 +1,20 @@
+Action getCutAction() | get cut action
+boolean getUsingCutOff() | get using cut off
+CutNodeAction getCutNodeAction(QTransferable;QMindMapNode;) | get cut node action
+CutNodeAction getCutNodeAction(QTransferable;QNodeCoordinate;) | get cut node action
+double getCutOffFactor() | get cut off factor
+double[] getCutPoints(I) | get cut points
+freemind.controller.actions.generated.instance.CutNodeAction createCutNodeAction() | create cut node action
+freemind.controller.actions.generated.instance.CutNodeActionType createCutNodeActionType() | create cut node action type
+java.util.List getCompoundActionOrSelectNodeActionOrCutNodeAction() | get compound action or select node action or cut node action
+String usingCutOffTipText() | using cut off tip text
+void ActionCutNode() | action cut node
+void calculateCutPoints() | calculate cut points
+void calculateCutPointsByEqualFrequencyBinning(I) | calculate cut points by equal frequency binning
+void calculateCutPointsByEqualWidthBinning(I) | calculate cut points by equal width binning
+void calculateCutPointsByMDL(IQInstances;) | calculate cut points by mdl
+void findCutOff([D[D) | find cut off
+void setCutOffFactor(D) | set cut off factor
+void setUsingCutOff(Z) | set using cut off
+void testCutLine() | test cut line
+void updateCutAndPasteMenu(QJReportFrame;) | update cut and paste menu

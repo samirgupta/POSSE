@@ -1,0 +1,15 @@
+Chat getChat() | get chat
+chatInstance createChat([QBuddyPluginBuddy;) | create chat
+void destroyChat(QchatInstance;) | destroy chat
+void displayChat(QString;QString;Z) | display chat
+void gamePlayerChat(QGamePlayerChatEvent;) | game player chat
+void notifyListenersOfChat(QVuzeBuddy;) | notify listeners of chat
+void processChat(QGamePlayerChatEvent;) | process chat
+void processChat(QGamePlayerChatEvent;QTestBot;) | process chat
+void sendAZ2Chat(QBuddyPluginBuddy;QMap;) | send az 2 chat
+void sendChat(IQString;QString;) | send chat
+void sendChat(QString;) | send chat
+void sendChat(QString;QString;) | send chat
+void sendServerChat(IQString;) | send server chat
+void sendServerChat(QString;) | send server chat
+void updatedChat(QVuzeBuddy;) | updated chat

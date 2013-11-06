@@ -1,0 +1,37 @@
+boolean discard_fluff | discard fluff
+boolean discard_pieces | discard pieces
+boolean disconnectFlag | disconnect flag
+boolean disconnect_seeds_when_seeding | disconnect seeds when seeding
+boolean hasDiscontinuity | has discontinuity
+boolean one_off_discard_done | one off discard done
+boolean SHOW_DISCARD_RATE_STATS | show discard rate stats
+com.aelitis.azureus.buddy.chat.ChatDiscussion discussion | discussion
+com.aelitis.azureus.core.networkmanager.impl.tcp.TCPConnectionManager connect_disconnect_manager | connect disconnect manager
+com.aelitis.azureus.core.peer.cache.CacheDiscoverer[] discoverers | discoverers
+com.aelitis.azureus.core.util.average.Average discard_rate_average | discard rate average
+float ban_peer_discard_ratio | ban peer discard ratio
+int ban_peer_discard_min_kb | ban peer discard min kb
+int DISCONNECT | disconnect
+int DISCONNECT_CHECK_PERIOD | disconnect check period
+int DISCONNECT_CHECK_TICKS | disconnect check ticks
+int FIELD_DISCARD | field discard
+int IDLE_PEER_DISCONNECT_PERIOD | idle peer disconnect period
+int IDLE_SEED_DISCONNECT_PERIOD | idle seed disconnect period
+int IDLE_SEED_DISCONNECT_SECS | idle seed disconnect secs
+int MAX_DISCOVERED_PEERS | max discovered peers
+int MESSAGE_TYPE_DISCONNECT | message type disconnect
+int rate_limit_discard_bytes | rate limit discard bytes
+int rate_limit_discard_packets | rate limit discard packets
+int requests_discarded_endgame | requests discarded end game
+int setup_discard_bytes | setup discard bytes
+int setup_discard_packets | setup discard packets
+int SQLDISCONNECT | sql disconnect
+java.lang.String STATS_DISCOVER | stats discover
+java.lang.String T_DISCONNECT | t disconnect
+java.util.HashSet logged_discrepancies | logged discrepancies
+java.util.LinkedList discovered_peers | discovered peers
+java.util.List disconnected_cache_peers | disconnected cache peers
+java.util.Map discussions | discussions
+javax.swing.undo.UndoableEdit DISCARD_ALL_EDITS | discard all edits
+long last_discard_bytes | last discard bytes
+long last_reported_total_received_discard | last reported total received discard

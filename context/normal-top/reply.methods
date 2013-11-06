@@ -1,0 +1,52 @@
+boolean hasSentFirstReply() | has sent first reply
+boolean parseSocks5Reply(QByteBuffer;) | parse socks 5 reply
+boolean validatePieceReply(QPEPeerTransport;IIQDirectByteBuffer;) | validate piece reply
+Element createErrorReply(QString;) | create error reply
+int getNetworkReplyId() | get network reply id
+int getNextNetworkReplyId() | get next network reply id
+Map getReply() | get reply
+Map readReply(QBuddyPluginBuddyMessage;) | read reply
+NetworkReplyObject waitForNetworkReply(I) | wait for network reply
+NetworkReplyObject waitForStreamedNetworkReply(I) | wait for streamed network reply
+PRUDPPacket getReply() | get reply
+PRUDPPacketReply deserialiseReply(QPRUDPPacketHandler;QInetSocketAddress;QDataInputStream;) | deserialise reply
+RPReply getReply() | get reply
+void addReply(QAZInstance;QMap;) | add reply
+void deleteReply(I) | delete reply
+void deleteReply(QBuddyPluginBuddyMessage;) | delete reply
+void DHTTransportFindValueReplyImpl([B[B) | dht transport find value reply impl
+void DHTTransportFindValueReplyImpl(B[QDHTTransportValue;) | dht transport find value reply impl
+void DHTTransportFindValueReplyImpl([QDHTTransportContact;) | dht transport find value reply impl
+void DHTTransportStoreReplyImpl([B) | dht transport store reply impl
+void DHTTransportStoreReplyImpl([B[B) | dht transport store reply impl
+void disableReplyCaching() | disable reply caching
+void findNodeReply(QDHTTransportContact;[QDHTTransportContact;) | find node reply
+void findValueReply(QDHTTransportContact;[QDHTTransportContact;) | find value reply
+void findValueReply(QDHTTransportContact;[QDHTTransportValue;BZ) | find value reply
+void handleAndSendReply(QBufferedInputStream;) | handle and send reply
+void keyBlockReply(QDHTTransportContact;) | key block reply
+void parseSocks4Reply(QByteBuffer;) | parse socks 4 reply
+void pingReply(QDHTTransportContact;) | ping reply
+void pingReply(QDHTTransportContact;I) | ping reply
+void preProcessReply(QMap;Z) | pre process reply
+void proxyStateV4Reply() | proxy state v 4 reply
+void proxyStateV5MethodsReply() | proxy state v 5 methods reply
+void proxyStateV5Reply() | proxy state v 5 reply
+void receiveStatsReply(QByteBuffer;) | receive stats reply
+void replyCache(JQRPReply;) | reply cache
+void requestReceiveReplyProcessor(QDHTTransportUDPContactImpl;QDHTUDPPacketReply;) | request receive reply processor
+void requestSendReplyProcessor(QDHTTransportUDPContactImpl;QDHTTransportReplyHandler;QDHTUDPPacketReply;J) | request send reply processor
+void sendReadReply(JQDHTTransportUDPContactImpl;[B[B[BIII) | send read reply
+void sendWriteReply(JQDHTTransportUDPContactImpl;[B[BII) | send write reply
+void setReply(QMap;) | set reply
+void setReply(QPRUDPPacket;QInetSocketAddress;J) | set reply
+void setReplyStatus(I) | set reply status
+void setSentFirstReply() | set sent first reply
+void statsReply(QDHTTransportContact;QDHTTransportFullStats;) | stats reply
+void storeReply(QDHTTransportContact;[B) | store reply
+void updateMetaData_handleReply(QTOTorrent;QString;QString;QMap;) | update meta data handle reply
+void writeReply(QBuddyPluginBuddyMessage;QMap;) | write reply
+void writeReply(QNetworkConnection;QTransportHelper;QString;) | write reply
+void writeReply(QOutputStream;QString;[B) | write reply
+void writeReply(QOutputStream;QString;QString;) | write reply
+XMLStreamReader getReply() | get reply

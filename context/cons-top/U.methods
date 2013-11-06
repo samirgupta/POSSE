@@ -1,0 +1,239 @@
+CONS UDPConnectionManager() | udp connection manager
+CONS UDPConnection(QUDPConnectionSet;I) | udp connection
+CONS UDPConnection(QUDPConnectionSet;IQUDPTransportHelper;) | udp connection
+CONS UDPConnectionSet(QUDPConnectionManager;QString;QUDPSelector;IQInetSocketAddress;) | udp connection set
+CONS UDPNetworkManager() | udp network manager
+CONS UDPPacket(QUDPConnection;[IB[BJ) | udp packet
+CONS UDPSelector(QUDPConnectionManager;) | udp selector
+CONS UDPTransportHelper(QUDPConnectionManager;QInetSocketAddress;QUDPConnection;) | udp transport helper
+CONS UDPTransportHelper(QUDPConnectionManager;QInetSocketAddress;QUDPTransport;) | udp transport helper
+CONS UDPTransport(QProtocolEndpointUDP;[[B) | udp transport
+CONS UDPTransport(QProtocolEndpointUDP;QTransportHelperFilter;) | udp transport
+CONS UDPURLConnection(QURL;) | udp url connection
+CONS UIComponentImpl() | ui component impl
+CONS UIConfiguration(QFont;QFont;QColor;Z) | ui configuration
+CONS UIException(QString;) | ui exception
+CONS UIException(QString;QThrowable;) | ui exception
+CONS UIFacadeImpl(QJFrame;QGanttStatusBar;QIGanttProject;QUIFacade;) | ui facade impl
+CONS UIFSplitPane() | uif split pane
+CONS UIFSplitPane(I) | uif split pane
+CONS UIFSplitPane(IQComponent;QComponent;) | uif split pane
+CONS UIFSplitPane(IZ) | uif split pane
+CONS UIFSplitPane(IZQComponent;QComponent;) | uif split pane
+CONS UIFunctionsImpl(Qcom.aelitis.azureus.ui.swt.shells.main.MainWindow;) | ui functions impl
+CONS UIFunctionsImpl(QMainWindow;) | ui functions impl
+CONS UILib() | ui lib
+CONS UIMagnetHandler(QAzureusCore;) | ui magnet handler
+CONS UIManagerEventAdapter(IQObject;) | ui manager event adapter
+CONS UIManagerImpl(QPluginInterface;) | ui manager impl
+CONS UIMessageImpl() | ui message impl
+CONS UintMap() | uint map
+CONS UintMap(I) | uint map
+CONS UIParameterImpl(QPluginConfigImpl;QUIParameterContext;QString;QString;) | ui parameter impl
+CONS UIProgressBarImpl() | ui progress bar impl
+CONS UIPWFinishPanel(QWizard;QIWizardPanel;) | ui pw finish panel
+CONS UIPWListPanel(QWizard;QIWizardPanel;) | ui pw list panel
+CONS UIRuntimeException(QString;) | ui runtime exception
+CONS UIRuntimeException(QString;QThrowable;) | ui runtime exception
+CONS UISwitcherWindow() | ui switcher window
+CONS UISwitcherWindow(QShell;Z) | ui switcher window
+CONS UISWTGraphicImpl(QImage;) | uiswt graphic impl
+CONS UISWTInstanceImpl(QAzureusCore;) | uiswt instance impl
+CONS UISWTParameter(QControl;QString;) | uiswt parameter
+CONS UISWTViewEventCancelledException() | uiswt view event cancelled exception
+CONS UISWTViewEventCancelledException(QString;) | uiswt view event cancelled exception
+CONS UISWTViewEventCancelledException(QString;QThrowable;) | uiswt view event cancelled exception
+CONS UISWTViewEventCancelledException(QThrowable;) | uiswt view event cancelled exception
+CONS UISWTViewEventImpl(QUISWTView;IQObject;) | uiswt view event impl
+CONS UISWTViewImpl(QString;QString;QUISWTViewEventListener;) | uiswt view impl
+CONS UISWTViewImpl(QString;QString;QUISWTViewEventListener;QObject;) | uiswt view impl
+CONS UITemplate() | ui template
+CONS UITextAreaImpl() | ui text area impl
+CONS UITextFieldImpl() | ui text field impl
+CONS UIUpdaterSWT() | ui updater swt
+CONS UnabbreviateAction(QBasePanel;) | unabbreviate action
+CONS UnaryOpProperty(QString;QString;QLambda<QP;QR;>;QLambda<QString;QP;>;QLambda<QR;QString;>;) | unary op property
+CONS UnaryOpProperty(QString;QString;QLambda<QP;QR;>;QString;QString;QLambda<QString;QP;>;QLambda<QR;QString;>;) | unary op property
+CONS UnassignedClassException() | unassigned class exception
+CONS UnassignedClassException(QString;) | unassigned class exception
+CONS UnassignedDatasetException() | unassigned dataset exception
+CONS UnassignedDatasetException(QString;) | unassigned dataset exception
+CONS Undefined() | undefined
+CONS UnderlinedAction(QControllerAdapter;) | underlined action
+CONS UndoableAddOrRemoveGroup(QGroupSelector;QGroupTreeNode;QGroupTreeNode;I) | undoable add or remove group
+CONS UndoableChangeAssignment(QSet<QBibtexEntry;>;QSet<QBibtexEntry;>;) | undoable change assignment
+CONS UndoableChangeAssignment(QSet<QBibtexEntry;>;QSet<QBibtexEntry;>;QGroupTreeNode;) | undoable change assignment
+CONS UndoableChangeType(QBibtexEntry;QBibtexEntryType;QBibtexEntryType;) | undoable change type
+CONS UndoableEditImpl(QString;QRunnable;QUndoManagerImpl;) | undoable edit impl
+CONS UndoableFieldChange(QBibtexEntry;QString;QString;QString;) | undoable field change
+CONS UndoableInsertEntry(QBibtexDatabase;QBibtexEntry;QBasePanel;) | undoable insert entry
+CONS UndoableInsertString(QBasePanel;QBibtexDatabase;QBibtexString;) | undoable insert string
+CONS UndoableKeyChange(QBibtexDatabase;QString;QString;QString;) | undoable key change
+CONS UndoableModifyGroup(QGroupSelector;QGroupTreeNode;QGroupTreeNode;QAbstractGroup;) | undoable modify group
+CONS UndoableModifySubtree(QGroupSelector;QGroupTreeNode;QString;) | undoable modify subtree
+CONS UndoableMoveGroup(QGroupSelector;QGroupTreeNode;QGroupTreeNode;QGroupTreeNode;I) | undoable move group
+CONS UndoablePreambleChange(QBibtexDatabase;QBasePanel;QString;QString;) | undoable preamble change
+CONS UndoableRemoveEntry(QBibtexDatabase;QBibtexEntry;QBasePanel;) | undoable remove entry
+CONS UndoableRemoveString(QBasePanel;QBibtexDatabase;QBibtexString;) | undoable remove string
+CONS UndoableResetGroups(QGroupSelector;QGroupTreeNode;) | undoable reset groups
+CONS UndoableStringChange(QBasePanel;QBibtexString;ZQString;QString;) | undoable string change
+CONS UndoActionHandler(QModeController;QUndoAction;QRedoAction;) | undo action handler
+CONS UndoAction(QApplication;) | undo action
+CONS UndoAction(QControllerAdapter;) | undo action
+CONS UndoAction(QControllerAdapter;QString;QIcon;QModeController;) | undo action
+CONS UndoAction(QGPUndoManager;QString;QGanttProject;) | undo action
+CONS UndoAction(QString;QString;QDrawingPanel;) | undo action
+CONS UndoAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | undo action
+CONS UndoManagerImpl(QIGanttProject;QParserFactory;QDocumentManager;) | undo manager impl
+CONS UndoRedoManager() | undo redo manager
+CONS UneditableTableModel() | uneditable table model
+CONS UneditableTableModel(II) | uneditable table model
+CONS UneditableTableModel([[QObject;[QObject;) | uneditable table model
+CONS UneditableTableModel(QVector<QString;>;I) | uneditable table model
+CONS UneditableTableModel(QVector<QVector<QObject;>;>;QVector<QString;>;) | uneditable table model
+CONS UnexpectedException() | unexpected exception
+CONS UnexpectedException(QString;) | unexpected exception
+CONS UnexpectedException(QThrowable;) | unexpected exception
+CONS UnexpectedException(QThrowable;QString;) | unexpected exception
+CONS UnfocusableButton() | unfocusable button
+CONS UnfocusableButton(QAction;) | unfocusable button
+CONS UnfocusableButton(QIcon;) | unfocusable button
+CONS UnfocusableButton(QString;) | unfocusable button
+CONS UnfocusableButton(QString;QIcon;) | unfocusable button
+CONS UnfoldAll() | unfold all
+CONS UngroupAction(QDrawingEditor;) | ungroup action
+CONS UngroupAction(QDrawingEditor;QCompositeFigure;) | ungroup action
+CONS UnGroupEmentsOperation(QJReportFrame;) | un group ements operation
+CONS UniAddress(QObject;) | uni address
+CONS UnInstallPluginWizard(QAzureusCore;QDisplay;) | un install plugin wizard
+CONS UnionSubclassEntityPersister(QPersistentClass;QEntityRegionAccessStrategy;QSessionFactoryImplementor;QMapping;) | union subclass entity persister
+CONS UnionSubclass(QPersistentClass;) | union subclass
+CONS UniquePieceItem(QString;) | unique piece item
+CONS UniqueRowIterator(QIntIterator;) | unique row iterator
+CONS UniqueTag(I) | unique tag
+CONS UnitButton(QFreeColAction;) | unit button
+CONS UnitFailureDialog(QFrame;QHashtable;) | unit failure dialog
+CONS UnitFailureDialog(QJFrame;QHashtable;) | unit failure dialog
+CONS UnitLabel(QUnit;QCanvas;) | unit label
+CONS UnitLabel(QUnit;QCanvas;Z) | unit label
+CONS UnitLabel(QUnit;QCanvas;ZZ) | unit label
+CONS UnitLoadingDialog(QFrame;) | unit loading dialog
+CONS UnitLoadingDialog(QJFrame;) | unit loading dialog
+CONS UnitLocation(IQCoords;I) | unit location
+CONS UnitMoveAnimation(QCanvas;QUnit;QDirection;) | unit move animation
+CONS UnitMoveAnimation(QCanvas;QUnit;QTile;) | unit move animation
+CONS UnitOverview(QClientGUI;) | unit overview
+CONS Unit(QGame;QElement;) | unit
+CONS Unit(QGame;QLocation;QPlayer;QUnitType;QUnitState;) | unit
+CONS Unit(QGame;QLocation;QPlayer;QUnitType;QUnitState;[QEquipmentType;) | unit
+CONS Unit(QGame;QPlayer;QUnitType;) | unit
+CONS Unit(QGame;QString;) | unit
+CONS Unit(QGame;QXMLStreamReader;) | unit
+CONS Unit(QString;D) | unit
+CONS UnitSeekAndDestroyMission(QAIMain;QAIUnit;QLocation;) | unit seek and destroy mission
+CONS UnitSeekAndDestroyMission(QAIMain;QElement;) | unit seek and destroy mission
+CONS UnitSeekAndDestroyMission(QAIMain;QXMLStreamReader;) | unit seek and destroy mission
+CONS UnitTradeItem(QGame;QPlayer;QPlayer;QUnit;) | unit trade item
+CONS UnitTradeItem(QGame;QXMLStreamReader;) | unit trade item
+CONS UnitType(I) | unit type
+CONS UnitWanderHostileMission(QAIMain;QAIUnit;) | unit wander hostile mission
+CONS UnitWanderHostileMission(QAIMain;QElement;) | unit wander hostile mission
+CONS UnitWanderHostileMission(QAIMain;QXMLStreamReader;) | unit wander hostile mission
+CONS UnitWanderMission(QAIMain;QAIUnit;) | unit wander mission
+CONS UnitWanderMission(QAIMain;QElement;) | unit wander mission
+CONS UnitWanderMission(QAIMain;QXMLStreamReader;) | unit wander mission
+CONS UnjamAction(I) | unjam action
+CONS UnknownEntryType(QString;) | unknown entry type
+CONS UnknownExternalFileType(QString;) | unknown external file type
+CONS UnlinkTasksAction(QTaskManager;QTaskSelectionManager;QUIFacade;) | unlink tasks action
+CONS UnloadAction(QFreeColClient;) | unload action
+CONS UnloadStrandedAction(II) | unload stranded action
+CONS UnmarshallerImpl(QDefaultJAXBContextImpl;QGrammarInfo;) | unmarshaller impl
+CONS UnmarshallingEventHandlerAdaptor(QUnmarshallingContext;QContentHandler;) | unmarshalling event handler adaptor
+CONS Unprotector(QSWFTags;) | unprotector
+CONS UnresolvableObjectException(QSerializable;QString;) | unresolvable object exception
+CONS UnresolvableObjectException(QString;QSerializable;QString;) | unresolvable object exception
+CONS UnsupportedAttributeTypeException() | unsupported attribute type exception
+CONS UnsupportedAttributeTypeException(QString;) | unsupported attribute type exception
+CONS UnsupportedClassTypeException() | unsupported class type exception
+CONS UnsupportedClassTypeException(QString;) | unsupported class type exception
+CONS UnsupportedVersionException(QString;I) | unsupported version exception
+CONS UpdatableComponentImpl(QUpdatableComponent;Z) | updatable component impl
+CONS UpdateAutoDownloader([QUpdate;QcbCompletion;) | update auto downloader
+CONS UpdateCheckerImpl(QUpdateCheckInstanceImpl;QUpdatableComponentImpl;QAESemaphore;) | update checker impl
+CONS UpdateCheckInstanceImpl(QUpdateManager;IQString;[QUpdatableComponentImpl;) | update check instance impl
+CONS UpdateDaemon(QJFtp;) | update daemon
+CONS UpdateException(QString;) | update exception
+CONS UpdateException(QString;QThrowable;) | update exception
+CONS UpdateImpl(QUpdateCheckInstanceImpl;QString;[QString;QString;[QResourceDownloader;ZI) | update impl
+CONS UpdateInstallerImpl(QUpdateManager;) | update installer impl
+CONS UpdateJarPatcher(QInputStream;QInputStream;QOutputStream;QLoggerChannel;) | update jar patcher
+CONS UpdateLockingStrategy(QLockable;QLockMode;) | update locking strategy
+CONS UpdateManager() | update manager
+CONS UpdateManagerImpl(QAzureusCore;) | update manager impl
+CONS UpdateMonitor(QAzureusCore;) | update monitor
+CONS UpdateParsedSection([QString;) | update parsed section
+CONS Update(QDialect;) | update
+CONS UpdateQueue() | update queue
+CONS UpdateQueueElement(DQObject;QString;) | update queue element
+CONS UpdaterEntry() | updater entry
+CONS UpdaterEntry(QString;QString;) | updater entry
+CONS UpdateTimestampsCache(QSettings;QProperties;) | update timestamps cache
+CONS UpdateWindow(QUpdateMonitor;QAzureusCore;QUpdateCheckInstance;) | update window
+CONS UpDownRatioItem(QString;) | up down ratio item
+CONS UpgradeExternalLinks(QBasePanel;) | upgrade external links
+CONS UpItem(QString;) | up item
+CONS UploadedItem() | uploaded item
+CONS UploadSessionPicker() | upload session picker
+CONS UploadSession(QPEPeerTransport;I) | upload session
+CONS UploadSlot(I) | upload slot
+CONS UploadSlotManager() | upload slot manager
+CONS UPnPActionArgumentImpl(QString;QString;) | upn p action argument impl
+CONS UPnPActionImpl(QUPnPServiceImpl;QSimpleXMLParserDocumentNode;) | upn p action impl
+CONS UPnPActionInvocationImpl(QUPnPActionImpl;) | upn p action invocation impl
+CONS UPnPDeviceImpl(QUPnPRootDeviceImpl;QString;QSimpleXMLParserDocumentNode;) | upn p device impl
+CONS UPnPException(QString;) | upn p exception
+CONS UPnPException(QString;QThrowable;) | upn p exception
+CONS UPnPImpl(QUPnPAdapter;[QString;) | upn p impl
+CONS UPnPMappingManager(QUPnPPlugin;) | upn p mapping manager
+CONS UPnPMapping(QString;ZIZ) | upn p mapping
+CONS UPnPPluginService(QUPnPWANConnection;[QUPnPWANConnectionPortMapping;QBooleanParameter;QBooleanParameter;QBooleanParameter;QBooleanParameter;) | upn p plugin service
+CONS UPnPRootDeviceImpl(QUPnPImpl;QNetworkInterface;QInetAddress;QString;QURL;) | upn p root device impl
+CONS UPnPServiceImpl(QUPnPDeviceImpl;QString;QSimpleXMLParserDocumentNode;) | upn p service impl
+CONS UPnPSSWANCommonInterfaceConfigImpl(QUPnPServiceImpl;) | upn psswan common interface config impl
+CONS UPnPSSWANConnectionImpl(QUPnPServiceImpl;) | upn psswan connection impl
+CONS UPnPSSWANIPConnectionImpl(QUPnPServiceImpl;) | upn ps swan ip connection impl
+CONS UPnPSSWANPPPConnectionImpl(QUPnPServiceImpl;) | upn pss wan ppp connection impl
+CONS UPnPStateVariableImpl(QUPnPServiceImpl;QSimpleXMLParserDocumentNode;) | upn p state variable impl
+CONS UpperFunction() | upper function
+CONS UpRatioItem(QString;) | up ratio item
+CONS UpSpeedItem(QString;) | up speed item
+CONS UpSpeedLimitItem(QString;) | up speed limit item
+CONS URLContent(QURL;) | url content
+CONS URLDownload(QComponent;QURL;QFile;) | url download
+CONS URLDownload(QURL;) | url download
+CONS UrlDragDrop(QEntryEditor;QJabRefFrame;QFieldEditor;) | url drag drop
+CONS URLPagerIterator(QAbstractURLPager;I) | url pager iterator
+CONS UserAlerts(QGlobalManager;) | user alerts
+CONS UserAreaUtils(QSWTSkin;QUIFunctionsSWT;) | user area utils
+CONS UserClassifier() | user classifier
+CONS UserCommand(QUserManager;) | user command
+CONS UserConnectionHandler(QFreeColServer;) | user connection handler
+CONS UserManager(QDatabase;) | user manager
+CONS UserManager(QString;) | user manager
+CONS UserNotice(QASN1Sequence;) | user notice
+CONS UserNotice(QNoticeReference;QDisplayText;) | user notice
+CONS UserNotice(QNoticeReference;QString;) | user notice
+CONS UserPreferences() | user preferences
+CONS UserPreferencesController(QUserPreferences;QViewFactory;QContentManager;) | user preferences controller
+CONS UserPreferencesPanel(QUserPreferences;QUserPreferencesController;) | user preferences panel
+CONS UserProfile() | user profile
+CONS UserProfile(QString;QString;) | user profile
+CONS User(QString;QString;QGrantee;) | user
+CONS Util() | util
+CONS UtilErrors(I) | util errors
+CONS UtilitiesImpl(QAzureusCore;QPluginInterface;) | utilities impl
+CONS UTPeerExchange([QPeerItem;[QPeerItem;[QPeerItem;B) | ut peer exchange
+CONS UTTimerImpl(QPluginInterface;QString;I) | ut timer impl
+CONS UTTimerImpl(QPluginInterface;QString;Z) | ut timer impl
+CONS UTTimerImpl(QString;Z) | ut timer impl

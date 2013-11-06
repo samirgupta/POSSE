@@ -1,0 +1,14 @@
+void cancelReadSelects() | cancel read selects
+void cancelWriteSelects() | cancel write selects
+void checkSelects() | check selects
+void checkSubSelects() | check sub selects
+void pauseReadSelects() | pause read selects
+void pauseSelects(QAbstractSelectableChannel;) | pause selects
+void pauseWriteSelects() | pause write selects
+void registerForReadSelects(QselectListener;QObject;) | register for read selects
+void registerForWriteSelects(QselectListener;QObject;) | register for write selects
+void renderNonScalarSelects([QSelectExpression;QFromClause;) | render non scalar selects
+void renderScalarSelects([QSelectExpression;QFromClause;) | render scalar selects
+void resumeReadSelects() | resume read selects
+void resumeSelects(QAbstractSelectableChannel;) | resume selects
+void resumeWriteSelects() | resume write selects

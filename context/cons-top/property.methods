@@ -1,0 +1,88 @@
+CONS BackrefPropertyAccessor(QString;QString;) | backref property accessor
+CONS BasicEntityPropertyMapping(QAbstractEntityPersister;) | basic entity property mapping
+CONS BeanProperty(QMemberBox;QMemberBox;QNativeJavaMethod;) | bean property
+CONS BinaryOpProperty(QString;QString;QLambda2<QP;QQ;QR;>;QLambda<QString;QP;>;QLambda<QString;QQ;>;QLambda<QR;QString;>;) | binary op property
+CONS BinaryOpProperty(QString;QString;QLambda2<QP;QQ;QR;>;QString;QString;QLambda<QString;QP;>;QString;QString;QLambda<QString;QQ;>;QLambda<QR;QString;>;) | binary op property
+CONS ChainedPropertyAccessor([QPropertyAccessor;) | chained property accessor
+CONS CollectionPropertyMapping(QQueryableCollection;) | collection property mapping
+CONS ComboBoxSheetProperty(QString;QString;) | combo box sheet property
+CONS CompositeElementPropertyMapping([QString;[QString;QAbstractComponentType;QMapping;) | composite element property mapping
+CONS ConfigProperty(QString;) | config property
+CONS ConstantProperty(QString;QString;QString;) | constant property
+CONS CustomPropertyWizard(QString;) | custom property wizard
+CONS DoubleSheetProperty(QString;QString;) | double sheet property
+CONS DrJavaActionProperty(QString;QString;) | dr java action property
+CONS DrJavaActionProperty(QString;QString;QString;) | dr java action property
+CONS DrJavaProperty(QString;QString;) | dr java property
+CONS DrJavaProperty(QString;QString;QString;) | dr java property
+CONS EagerProperty(QString;QString;) | eager property
+CONS EagerProperty(QString;QString;QString;) | eager property
+CONS ElementPropertyMapping([QString;QType;) | element property mapping
+CONS ExpressionSheetPropertyComponent() | expression sheet property component
+CONS ExpressionSheetProperty(QString;QString;) | expression sheet property
+CONS FileListProperty(QString;QString;QString;QString;) | file list property
+CONS FileProperty(QString;QThunk<QFile;>;QString;) | file property
+CONS FontSheetPropertyComponent() | font sheet property component
+CONS FontSheetProperty(QString;QString;) | font sheet property
+CONS GeneratorPropertyIteratorPanel() | generator property iterator panel
+CONS GeneratorPropertyIteratorPanel(QExperiment;) | generator property iterator panel
+CONS HierarchyPropertyParser() | hierarchy property parser
+CONS HierarchyPropertyParser(QString;QString;) | hierarchy property parser
+CONS IdentifierProperty(QString;QString;QType;ZQIdentifierValue;QIdentifierGenerator;) | identifier property
+CONS IdentifierProperty(QType;ZZQIdentifierValue;QIdentifierGenerator;) | identifier property
+CONS IndexPropertyAccessor(QString;QString;) | index property accessor
+CONS JavaSystemProperty(QString;) | java system property
+CONS JRProperty() | jr property
+CONS JRPropertyDialog(Qjava.awt.Frame;Z) | jr property dialog
+CONS MutableFileProperty(QString;QFile;QString;) | mutable file property
+CONS NewPropertyWizard() | new property wizard
+CONS ProjectPropertyAction(QApplication;QString;QClass;QObject;) | project property action
+CONS ProjectPropertyAction(QApplication;QString;QObject;) | project property action
+CONS PropertyAccessException(QThrowable;QString;ZQClass;QString;) | property access exception
+CONS PropertyAccessorFactory() | property accessor factory
+CONS PropertyAdapter(QString;QString;) | property adapter
+CONS PropertyDialog(QDialog;QPropertyEditor;) | property dialog
+CONS PropertyDialog(QDialog;QPropertyEditor;II) | property dialog
+CONS PropertyDialog(QFrame;QPropertyEditor;) | property dialog
+CONS PropertyDialog(QFrame;QPropertyEditor;II) | property dialog
+CONS PropertyDialog(QPropertyEditor;II) | property dialog
+CONS PropertyExpression(QString;QString;QString;) | property expression
+CONS PropertyGeneration(QString;) | property generation
+CONS PropertyHandler() | property handler
+CONS PropertyMaps() | property maps
+CONS PropertyMetaInformation(QString;ZZZZZQClass;QFormat;QObject;) | property meta information
+CONS PropertyNode(QJTree;QAddModelsPanel;QString;QString;QObject;QPropertyEditor;) | property node
+CONS PropertyNode(QObject;) | property node
+CONS PropertyNode(QObject;QPropertyDescriptor;QClass;) | property node
+CONS PropertyNotFoundException(QString;) | property not found exception
+CONS PropertyPanel(QPropertyEditor;) | property panel
+CONS PropertyPanel(QPropertyEditor;Z) | property panel
+CONS PropertyProjection(QString;) | property projection
+CONS PropertyProjection(QString;Z) | property projection
+CONS Property(QString;) | property
+CONS Property(QString;QString;QType;) | property
+CONS PropertySelectorDialog(QFrame;QObject;) | property selector dialog
+CONS PropertySheetPanel() | property sheet panel
+CONS PropertySubqueryExpression(QString;QString;QString;QDetachedCriteria;) | property subquery expression
+CONS PropertyText(QPropertyEditor;) | property text
+CONS PropertyValueException(QString;QString;QString;) | property value exception
+CONS PropertyValueSelector(QPropertyEditor;) | property value selector
+CONS QuaternaryOpProperty(QString;QString;QLambda4<QN;QO;QP;QQ;QR;>;QLambda<QString;QN;>;QLambda<QString;QO;>;QLambda<QString;QP;>;QLambda<QString;QQ;>;QLambda<QR;QString;>;) | quaternary op property
+CONS QuaternaryOpProperty(QString;QString;QLambda4<QN;QO;QP;QQ;QR;>;QString;QString;QLambda<QString;QN;>;QString;QString;QLambda<QString;QO;>;QString;QString;QLambda<QString;QP;>;QString;QString;QLambda<QString;QQ;>;QLambda<QR;QString;>;) | quaternary op property
+CONS RecursiveFileListProperty(QString;QString;QString;QString;QString;) | recursive file list property
+CONS RefCapablePropertyResourceBundle(QString;QPropertyResourceBundle;QClassLoader;) | ref capable property resource bundle
+CONS RemovePropertyWizard() | remove property wizard
+CONS SheetProperty(QString;QString;I) | sheet property
+CONS SheetProperty(QString;QString;IQString;) | sheet property
+CONS SheetProperty(QString;QString;QString;IQString;) | sheet property
+CONS SheetPropertyValueChangedEvent(QString;QObject;QObject;QObject;) | sheet property value changed event
+CONS StandardProperty(QString;QString;QType;ZZZZZZZZQCascadeStyle;QFetchMode;) | standard property
+CONS TaskPropertyEvent(QObject;) | task property event
+CONS TernaryOpProperty(QString;QString;QLambda3<QO;QP;QQ;QR;>;QLambda<QString;QO;>;QLambda<QString;QP;>;QLambda<QString;QQ;>;QLambda<QR;QString;>;) | ternary op property
+CONS TernaryOpProperty(QString;QString;QLambda3<QO;QP;QQ;QR;>;QString;QString;QLambda<QString;QO;>;QString;QString;QLambda<QString;QP;>;QString;QString;QLambda<QString;QQ;>;QLambda<QR;QString;>;) | ternary op property
+CONS ToggleProjectPropertyAction(QApplication;QString;) | toggle project property action
+CONS ToggleProjectPropertyAction(QApplication;QString;QClass;QObject;QObject;) | toggle project property action
+CONS UnaryOpProperty(QString;QString;QLambda<QP;QR;>;QLambda<QString;QP;>;QLambda<QR;QString;>;) | unary op property
+CONS UnaryOpProperty(QString;QString;QLambda<QP;QR;>;QString;QString;QLambda<QString;QP;>;QLambda<QR;QString;>;) | unary op property
+CONS VariableProperty(QString;QString;) | variable property
+CONS VersionProperty(QString;QString;QType;ZZZZZZZZQCascadeStyle;QVersionValue;) | version property

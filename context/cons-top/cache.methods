@@ -1,0 +1,58 @@
+CONS Cache71Dialect() | cache 71 dialect
+CONS CacheDataDescriptionImpl(ZZQComparator;) | cache data description impl
+CONS CachedDataRow(QTable;[QObject;) | cached data row
+CONS CachedDataRow(QTable;QRowInputInterface;) | cached data row
+CONS CachedKernel() | cached kernel
+CONS CachedKernel(QInstances;I) | cached kernel
+CONS CachedRow() | cached row
+CONS CachedRow(QTable;[QObject;) | cached row
+CONS CachedRow(QTable;QRowInputInterface;) | cached row
+CONS CacheEntry(IQCacheFileWithCache;QDirectByteBuffer;JI) | cache entry
+CONS CacheEntry(J) | cache entry
+CONS CacheEntry([QObject;QEntityPersister;ZQObject;QSessionImplementor;QObject;) | cache entry
+CONS CacheEntry([QSerializable;QString;ZQObject;) | cache entry
+CONS CacheException(QString;) | cache exception
+CONS CacheException(QString;QThrowable;) | cache exception
+CONS CacheException(QThrowable;) | cache exception
+CONS CacheFileManagerException(QCacheFile;QString;) | cache file manager exception
+CONS CacheFileManagerException(QCacheFile;QString;QThrowable;) | cache file manager exception
+CONS CacheFileManagerException(QCacheFile;QString;QThrowable;I) | cache file manager exception
+CONS CacheFileManagerImpl() | cache file manager impl
+CONS CacheFileManagerStatsImpl(QCacheFileManagerImpl;) | cache file manager stats impl
+CONS CacheFileWithCache(QCacheFileManagerImpl;QFMFile;QTOTorrentFile;) | cache file with cache
+CONS CacheFileWithoutCacheMT(QCacheFileManagerImpl;QFMFile;QTOTorrentFile;) | cache file without cache mt
+CONS CacheFileWithoutCache(QCacheFileManagerImpl;QFMFile;QTOTorrentFile;) | cache file without cache
+CONS CacheKey(QSerializable;QType;QString;QEntityMode;QSessionFactoryImplementor;) | cache key
+CONS CacheMode(QString;ZZ) | cache mode
+CONS Cache(QDataFileCache;) | cache
+CONS CacheSQLStateConverter(QViolatedConstraintNameExtracter;) | cache sql state converter
+CONS CacheSynchronization(QTransactionFactory.Context;QJDBCContext;QTransaction;Qorg.hibernate.Transaction;) | cache synchronization
+CONS CacheView() | cache view
+CONS CollectionCacheEntry(QPersistentCollection;QCollectionPersister;) | collection cache entry
+CONS CollectionCacheEntry(QSerializable;) | collection cache entry
+CONS ColumnNameCache(I) | column name cache
+CONS DataFileCache(QDatabase;QString;) | data file cache
+CONS DocumentCache() | document cache
+CONS DocumentCache(I) | document cache
+CONS HashtableCache(QString;) | hashtable cache
+CONS ImageCache() | image cache
+CONS ImageCache(I) | image cache
+CONS LRUCache(I) | lru cache
+CONS MechSummaryCache() | mech summary cache
+CONS NonstrictReadWriteCache() | non strict read write cache
+CONS ObjectCacheHashMap(I) | object cache hash map
+CONS OptimisticCacheSourceAdapter(QCacheDataDescription;) | optimistic cache source adapter
+CONS OrganizerCache() | organizer cache
+CONS QueryPlanCache(QSessionFactoryImplementor;) | query plan cache
+CONS ReadOnlyCache() | read only cache
+CONS ReadWriteCache() | read write cache
+CONS RegionFactoryCacheProviderBridge(QProperties;) | region factory cache provider bridge
+CONS SecondLevelCacheStatistics(QRegion;) | second level cache statistics
+CONS SimpleMRUCache() | simple mru cache
+CONS SimpleMRUCache(I) | simple mru cache
+CONS SoftLimitMRUCache() | soft limit mru cache
+CONS SoftLimitMRUCache(I) | soft limit mru cache
+CONS StandardQueryCache(QSettings;QProperties;QUpdateTimestampsCache;QString;) | standard query cache
+CONS StructuredCacheEntry(QEntityPersister;) | structured cache entry
+CONS TextCache(QTable;QString;) | text cache
+CONS UpdateTimestampsCache(QSettings;QProperties;) | update timestamps cache

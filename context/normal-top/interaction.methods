@@ -1,0 +1,92 @@
+boolean getAllowUserInteraction() | get allow user interaction
+boolean hasNextInteraction() | has next interaction
+boolean hasPrevInteraction() | has prev interaction
+boolean recallNextInteractionInHistory() | recall next interaction in history
+boolean recallPreviousInteractionInHistory() | recall previous interaction in history
+DefaultInteractionsModel getInteractionsModel() | get interactions model
+InteractionsController getInteractionsController() | get interactions controller
+InteractionsDJDocument getSwingInteractionsDocument() | get swing interactions document
+InteractionsDocument getInteractionsDocument() | get interactions document
+InteractionsModel getInteractionsModel() | get interactions model
+InteractionsPane getInteractionsPane() | get interactions pane
+Iterable<QFile;> getInteractionsClassPath() | get interactions class path
+MouseInteraction finishInteraction() | finish interaction
+MouseInteraction getActiveInteraction() | get active interaction
+String getCurrentInteraction() | get current interaction
+String getInteractionsText() | get interactions text
+void _assertInteractionContainsHelper(QString;Z) | assert interaction contains helper
+void assertInteractionEndCount(I) | assert interaction end count
+void assertInteractionErrorCount(I) | assert interaction error count
+void assertInteractionIncompleteCount(I) | assert interaction incomplete count
+void _assertInteractionMatchesHelper(QString;Z) | assert interaction matches helper
+void assertInteractionsContains(QString;) | assert interactions contains
+void assertInteractionsDoesNotContain(QString;) | assert interactions does not contain
+void assertInteractionsDoesNotMatch(QString;) | assert interactions does not match
+void assertInteractionsErrorCount(I) | assert interactions error count
+void assertInteractionsMatches(QString;) | assert interactions matches
+void assertInteractionStartCount(I) | assert interaction start count
+void BadSyntaxInteractionsModel(QInteractionsDJDocument;) | bad syntax interactions model
+void beginChangeTaskEndInteraction(QMouseEvent;QTaskBoundaryChartItem;) | begin change task end interaction
+void beginChangeTaskProgressInteraction(QMouseEvent;QTaskProgressChartItem;) | begin change task progress interaction
+void beginChangeTaskStartInteraction(QMouseEvent;QTaskBoundaryChartItem;) | begin change task start interaction
+void beginDrawDependencyInteraction(QMouseEvent;QTaskRegularAreaChartItem;QGanttGraphicArea.MouseSupport;) | begin draw dependency interaction
+void beginMoveTaskInteraction(QMouseEvent;QTask;) | begin move task interaction
+void beginMoveTaskInteractions(QMouseEvent;QList;) | begin move task interactions
+void beginScrollViewInteraction(QMouseEvent;) | begin scroll view interaction
+void ChangeTaskBoundaryInteraction(QMouseEvent;QTaskBoundaryChartItem;) | change task boundary interaction
+void ChangeTaskEndInteraction(QMouseEvent;QTaskBoundaryChartItem;) | change task end interaction
+void ChangeTaskProgressInteraction(QMouseEvent;QTaskProgressChartItem;) | change task progress interaction
+void ChangeTaskStartInteraction(QMouseEvent;QTaskBoundaryChartItem;) | change task start interaction
+void clearCurrentInteraction() | clear current interaction
+void _closeInteractionsScript() | close interactions script
+void _disableInteractionsPane() | disable interactions pane
+void _doResetInteractions() | do reset interactions
+void DrawDependencyInteraction(QMouseEvent;QTaskRegularAreaChartItem;QMouseSupport;) | draw dependency interaction
+void _enableInteractionsPane() | enable interactions pane
+void enableResetInteractions() | enable reset interactions
+void executeInteraction() | execute interaction
+void forwardSearchInteractionsInHistory() | forward search interactions in history
+void IncompleteInputInteractionsModel(QInteractionsDJDocument;) | incomplete input interactions model
+void interactionContinues() | interaction continues
+void interactionIncomplete() | interaction incomplete
+void _interactionIsOver() | interaction is over
+void InteractionListener() | interaction listener
+void interpretCurrentInteraction() | interpret current interaction
+void _logInteractionStart() | log interaction start
+void logInteractionStart() | log interaction start
+void MouseInteractionBase(QMouseEvent;) | mouse interaction base
+void MoveTaskInteraction(QMouseEvent;QTask;) | move task interaction
+void MoveTaskInteractions(QMouseEvent;QList;) | move task interactions
+void nextInteraction() | next interaction
+void _notifyInteractionIncomplete() | notify interaction incomplete
+void prevInteraction() | prev interaction
+void _printInteractions() | print interactions
+void _printInteractionsPreview() | print interactions preview
+void removeAllInteractionListeners() | remove all interaction listeners
+void resetInteractionsClassPath() | reset interactions class path
+void resetInteractions(QFile;) | reset interactions
+void resetInteractions(QFile;Z) | reset interactions
+void reverseSearchInteractionsInHistory() | reverse search interactions in history
+void ScrollViewInteraction(QMouseEvent;) | scroll view interaction
+void setActiveInteraction(QMouseInteraction;) | set active interaction
+void setAllowUserInteraction(Z) | set allow user interaction
+void setInteractionsModel(QInteractionsModelCallback;) | set interactions model
+void _showCurrentInteraction() | show current interaction
+void _shutdownWithoutSuspendedInteraction() | shutdown without suspended interaction
+void testCaretStaysAtEndDuringInteraction() | test caret stays at end during interaction
+void testClearCurrentInteraction() | test clear current interaction
+void testCompileResetsInteractions() | test compile resets interactions
+void testCorrectInteractionsDocument() | test correct interactions document
+void testExitInteractions() | test exit interactions
+void testInteractionsCanSeeChangedClass() | test interactions can see changed class
+void testInteractionsCanSeeCompiledClasses() | test interactions can see compiled classes
+void testInteractionsDefineAnonymousInnerClass() | test interactions define anonymous inner class
+void testInteractionsHistoryStoredCorrectly() | test interactions history stored correctly
+void testInteractionsLiveUpdateClassPath() | test interactions live update class path
+void TestInteractionsModel(QInteractionsDJDocument;) | test interactions model
+void testInteractionsVariableWithLowercaseClassName() | test interactions variable with lowercase class name
+void testInterpretCurrentInteraction() | test interpret current interaction
+void testInterpretCurrentInteractionWithIncompleteInput() | test interpret current interaction with incomplete input
+void viewInteractionsClassPath() | view interactions class path
+void _waitInteractionDone() | wait interaction done
+void waitInteractionDone() | wait interaction done

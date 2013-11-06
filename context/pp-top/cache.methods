@@ -1,0 +1,27 @@
+boolean isAnyCacheModified() | is any cache modified
+boolean isAnyTextCacheModified() | is any text cache modified
+boolean isCached() | is cached
+boolean isCached(IQPointDouble;) | is cached
+boolean isCached(QEntityKey;QEntityPersister;QEntityMode;) | is cached
+boolean isCached(QSerializable;QCollectionPersister;QEntityMode;) | is cached
+boolean isCacheEnabled() | is cache enabled
+boolean isCacheInvalidationRequired() | is cache invalidation required
+boolean isCachePutEnabled(QEntityPersister;QSessionImplementor;) | is cache put enabled
+boolean isIndexCached() | is index cached
+boolean isQueryCacheEnabled() | is query cache enabled
+boolean isReadCacheEnabled() | is read cache enabled
+boolean isSecondLevelCacheEnabled() | is second level cache enabled
+boolean isStructuredCacheEntriesEnabled() | is structured cache entries enabled
+boolean isWriteCacheEnabled() | is write cache enabled
+int getNumEvalsCached() | get num evals cached
+long getCacheUsed() | get cache used
+String getQueryCacheEnabled() | get query cache enabled
+String getSecondLevelCacheEnabled() | get second level cache enabled
+void cacheEntryUsed(QCacheEntry;) | cache entry used
+void jCheckBoxImageCacheActionPerformed(Qjava.awt.event.ActionEvent;) | j check box image cache action performed
+void jCheckBoxSubreportCacheActionPerformed(Qjava.awt.event.ActionEvent;) | j check box subreport cache action performed
+void setQueryCacheEnabled(QString;) | set query cache enabled
+void setQueryCacheEnabled(Z) | set query cache enabled
+void setSecondLevelCacheEnabled(QString;) | set second level cache enabled
+void setSecondLevelCacheEnabled(Z) | set second level cache enabled
+void setStructuredCacheEntriesEnabled(Z) | set structured cache entries enabled

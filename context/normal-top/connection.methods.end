@@ -1,0 +1,126 @@
+AEProxyConnection getConnection() | get connection
+AESocksProxyPlugableConnection getDefaultPlugableConnection(QAESocksProxyConnection;) | get default plugable connection
+BeanConnection createBeanConnection(IIQString;Z) | create bean connection
+boolean allowConnection(QSocket;) | allow connection
+boolean canAcceptConnection(QClass;) | can accept connection
+boolean checkConnection() | check connection
+boolean hasBorrowedConnection() | has borrowed connection
+boolean isJDBCConnection() | is jdbc connection
+boolean isReadOnlyConnection(QConnection;) | is read only connection
+boolean isSuppliedConnection() | is supplied connection
+boolean isUseConnection() | is use connection
+boolean removePeerConnection(QNetworkConnectionBase;) | remove peer connection
+com.aelitis.azureus.core.networkmanager.NetworkConnection getCoreConnection() | get core connection
+Connection borrowConnection() | borrow connection
+Connection createClientConnection(QString;II) | create client connection
+Connection createConnection(QFrame;QString;) | create connection
+Connection createConnection(QFrame;QString;QInsets;) | create connection
+Connection createConnection(QInetSocketAddress;QMessageStreamEncoder;QMessageStreamDecoder;) | create connection
+Connection createConnection(QJFrame;QString;) | create connection
+Connection createConnection(QString;QString;QString;QString;) | create connection
+Connection createServerConnection(QSocket;I) | create server connection
+ConnectionFigure createConnection() | create connection
+ConnectionFigure findConnection(QPoint2D.Double;QDrawing;) | find connection
+ConnectionFigure getConnection() | get connection
+ConnectionFigure getCourtingConnection() | get court ing connection
+Connection getConnection() | get connection
+Connection getConnection(I) | get connection
+Connection getConnection(QSocket;) | get connection
+Connection getConnection(QString;QProperties;) | get connection
+Connection getConnection(QString;QString;) | get connection
+Connection getConnection(QString;QString;QString;) | get connection
+Connection getJDBCConnection() | get jdbc connection
+Connection getPendingConnection(I) | get pending connection
+Connection getPluginConnection() | get plugin connection
+Connection getWrappedConnection() | get wrapped connection
+Connection getWrappedConnection(QConnection;) | get wrapped connection
+Connection newConnection() | new connection
+Connection newConnection(String dURL, String dClassName, String dbName, String dbUser, String dbPassword) | new connection
+Connection openConnection() | open connection
+DatabaseDataSource getDatabaseConnection(QConnection;) | get database connection
+DatabaseDataSource getDatabaseConnection(QConnection;QSQLDataHandler;) | get database connection
+DatabaseDataSource getDatabaseConnection(QString;QString;QString;QString;) | get database connection
+DatabaseDataSource getDatabaseConnection(QString;QString;QString;QString;QSQLDataHandler;) | get database connection
+DatabaseDataSource getMySQLConnection(QString;QString;QString;QString;) | get my sql connection
+DatabaseDataSource getMySQLConnection(QString;QString;QString;QString;QSQLDataHandler;) | get my sql connection
+DataConnection getDataConnection() | get data connection
+DummyConnection getOtherConnection() | get other connection
+Element writeBeanConnection(QElement;QObject;QString;) | write bean connection
+FtpConnection getFtpConnection() | get ftp connection
+GenericMessageConnection createConnection(QGenericMessageEndpoint;) | create connection
+GenericMessageConnection getSTSConnection(QGenericMessageConnection;QSEPublicKey;QSEPublicKeyLocator;QString;I) | get sts connection
+GenericMessageConnection outgoingConnection() | outgoing connection
+IReportConnection getIReportConnection() | get i report connection
+it.businesslogic.ireport.IReportConnection getIReportConnection() | get i report connection
+java.lang.String getConnection() | get connection
+java.sql.Connection getConnection() | get connection
+jdbcConnection getInternalConnection() | get internal connection
+NetworkConnection createConnection(QConnectionEndpoint;QMessageStreamEncoder;QMessageStreamDecoder;ZZ[[B) | create connection
+NetworkConnection getConnection() | get connection
+Object readBeanConnection(QElement;) | read bean connection
+PeerExchangerItem createPeerExchangeConnection(QPEPeerTransport;) | create peer exchange connection
+PeerExchangerItem registerPeerConnection(QPeerItem;QPeerExchangerItem.Helper;) | register peer connection
+SftpConnection getSftpConnection() | get sftp connection
+SmbConnection getSmbConnection() | get smb connection
+String makeNewOutgoingConnection(QString;QString;IIZZBQMap;) | make new outgoing connection
+UDPConnection getConnection() | get connection
+URLConnection getURLConnection() | get url connection
+URLConnection openConnection(QURL;) | open connection
+void addClientConnection(QClientConnection;) | add client connection
+void addConnection(IQTransportHelperFilter;QTransport;) | add connection
+void addConnection(QConnection;) | add connection
+void addConnection(QGenericMessageConnection;) | add connection
+void addConnection(QString;QBasicConnection;) | add connection
+void addConnection(QString;QTransfer;) | add connection
+void addDummyConnection(QConnection;) | add dummy connection
+void addLocalConnection(QString;QBasicConnection;) | add local connection
+void addPeerConnection(QNetworkConnectionBase;) | add peer connection
+void buddyConnection(QGenericMessageConnection;Z) | buddy connection
+void cancelPeerConnection(QNetworkConnectionBase;) | cancel peer connection
+void checkSourceConnection() | check source connection
+void closeConnection() | close connection
+void closeConnection(Connection conn) | close connection
+void closeConnection(QConnection;) | close connection
+void closeConnection(QSocketChannel;) | close connection
+void closeConnection(QSocketChannel;I) | close connection
+void closeConnection(QString;) | close connection
+void ConfigureWebConnection() | configure web connection
+void deregisterPeerConnection(QNetworkConnectionBase;) | deregister peer connection
+void deregisterPeerConnection(QPeerItem;) | deregister peer connection
+void doMetaConnection(QBeanInstance;QBeanInstance;QEventSetDescriptor;QJComponent;) | do meta connection
+void downgradePeerConnection(QNetworkConnectionBase;) | downgrade peer connection
+void handleConnection(QSocket;) | handle connection
+void incomingConnection(QGenericMessageConnection;) | incoming connection
+void IncomingConnection(QTransportHelperFilter;I) | incoming connection
+void initConnection(QString;IZ) | init connection
+void initializeConnection() | initialize connection
+void initPostConnection(QMessage;) | init post connection
+void NatPMPUPnPWANConnection() | nat pmpu pn pw an connection
+void newConnection() | new connection
+void openConnection() | open connection
+void openConnection(QString;IZ) | open connection
+void registerPeerConnection(QNetworkConnectionBase;) | register peer connection
+void registerPeerConnection(QNetworkConnectionBase;Z) | register peer connection
+void releaseBorrowedConnection() | release borrowed connection
+void releaseConnection() | release connection
+void removeAndCloseConnection(QTRNonBlockingServerProcessor;) | remove and close connection
+void removeClientConnection(QClientConnection;) | remove client connection
+void removeConnection(QbuddyConnection;) | remove connection
+void removeConnection(QConnection;) | remove connection
+void removeConnection(QIncomingConnection;Z) | remove connection
+void removeConnection(QString;) | remove connection
+void requestNewConnection(QInetSocketAddress;QConnectListener;I) | request new connection
+void requestNewConnection(QInetSocketAddress;QConnectListener;JI) | request new connection
+void reverseConnection() | reverse connection
+void setBeanConnection(QBeanConnection;QVector;) | set bean connection
+void setConnection(QConnection;) | set connection
+void setConnection(QConnectionFigure;) | set connection
+void setConnection(QHTTPNetworkConnection;) | set connection
+void setConnection(Qjava.lang.String;) | set connection
+void setDebuggingConnection(QConnection;) | set debugging connection
+void setIReportConnection(QIReportConnection;) | set i report connection
+void setIReportConnection(Qit.businesslogic.ireport.IReportConnection;) | set i report connection
+void setUseConnection(Z) | set use connection
+void updateConnection() | update connection
+void upgradePeerConnection(QNetworkConnectionBase;) | upgrade peer connection
+void upgradePeerConnection(QNetworkConnectionBase;QRateHandler;) | upgrade peer connection

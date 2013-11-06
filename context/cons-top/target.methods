@@ -1,0 +1,15 @@
+CONS BuildingTarget(QCoords;QIBoard;I) | building target
+CONS BuildingTarget(QCoords;QIBoard;Z) | building target
+CONS HexTarget(QCoords;QIBoard;I) | hex target
+CONS MinefieldTarget(QCoords;QIBoard;) | minefield target
+CONS TargetInformation(QASN1Sequence;) | target information
+CONS TargetInformation([QTarget;) | target information
+CONS TargetInformation(QTargets;) | target information
+CONS TargetingPhaseDisplay(QClientGUI;Z) | targeting phase display
+CONS Target(IQGeneralName;) | target
+CONS TargetMetaInfo(QElement;) | target meta info
+CONS Target(QASN1TaggedObject;) | target
+CONS TargetRoll() | target roll
+CONS TargetRoll(IQString;) | target roll
+CONS Targets(QASN1Sequence;) | targets
+CONS Targets([QTarget;) | targets

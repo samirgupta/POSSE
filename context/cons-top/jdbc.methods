@@ -1,0 +1,31 @@
+CONS GenericJDBCException(QString;QSQLException;) | generic jdbc exception
+CONS GenericJDBCException(QString;QSQLException;QString;) | generic jdbc exception
+CONS JDBCBench(QString;QString;QString;Z) | jdbc bench
+CONS jdbcBlob([B) | jdbc blob
+CONS jdbcCallableStatement(QjdbcConnection;QString;I) | jdbc callable statement
+CONS jdbcClob(QString;) | jdbc clob
+CONS JDBCConnection() | jdbc connection
+CONS JDBCConnectionException(QString;QSQLException;) | jdbc connection exception
+CONS JDBCConnectionException(QString;QSQLException;QString;) | jdbc connection exception
+CONS jdbcConnection(QHsqlProperties;) | jdbc connection
+CONS jdbcConnection(QSession;) | jdbc connection
+CONS JDBCContext() | jdbc context
+CONS JDBCContext(QContext;QConnection;QInterceptor;) | jdbc context
+CONS jdbcDatabaseMetaData(QjdbcConnection;) | jdbc database meta data
+CONS jdbcDataSource() | jdbc data source
+CONS JDBCExceptionHelper() | jdbc exception helper
+CONS JDBCException(QString;QSQLException;) | jdbc exception
+CONS JDBCException(QString;QSQLException;QString;) | jdbc exception
+CONS JDBCExceptionReporter() | jdbc exception reporter
+CONS jdbcParameterMetaData(QResult;) | jdbc parameter meta data
+CONS jdbcPreparedStatement(QjdbcConnection;QString;I) | jdbc prepared statement
+CONS jdbcResultSetMetaData(QjdbcResultSet;QHsqlProperties;) | jdbc result set meta data
+CONS jdbcResultSetMetaData(QResult;QHsqlProperties;) | jdbc result set meta data
+CONS jdbcResultSet(QjdbcStatement;QResult;QHsqlProperties;Z) | jdbc result set
+CONS jdbcSavepoint(QString;QjdbcConnection;) | jdbc savepoint
+CONS jdbcStatement(QjdbcConnection;I) | jdbc statement
+CONS JDBCTransaction(QJDBCContext;QTransactionFactory.Context;) | jdbc transaction
+CONS JDBCTypes() | jdbc types
+CONS StandardJDBCEscapeFunction(QString;) | standard jdbc escape function
+CONS StandardJDBCEscapeFunction(QString;QType;) | standard jdbc escape function
+CONS TestJDBCSavepoints(QString;) | test jdbc savepoints

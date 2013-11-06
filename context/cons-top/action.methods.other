@@ -1,0 +1,38 @@
+CONS AuctionActionImpl(QAuctionEntry;QCurrency;I) | auction action impl
+CONS AuctionActionImpl(QString;QCurrency;I) | auction action impl
+CONS ChangeSelectionActionPerformer([QControl;) | change selection action performer
+CONS ChangeSelectionActionPerformer(QControl;) | change selection action performer
+CONS ChangeSelectionActionPerformer([QControl;Z) | change selection action performer
+CONS ChangeSelectionActionPerformer([QParameter;) | change selection action performer
+CONS ChangeSelectionActionPerformer(QParameter;) | change selection action performer
+CONS ChangeSelectionActionPerformer(QParameter;QParameter;) | change selection action performer
+CONS CompoundActionHandler(QControllerAdapter;) | compound action handler
+CONS ContentSelectorDialog_Close_actionAdapter(QContentSelectorDialog;) | content selector dialog close action adapter
+CONS ContentSelectorDialog_fieldSelector_actionAdapter(QContentSelectorDialog;) | content selector dialog field selector action adapter
+CONS DrJavaActionProperty(QString;QString;) | dr java action property
+CONS DrJavaActionProperty(QString;QString;QString;) | dr java action property
+CONS DualChangeSelectionActionPerformer([QControl;[QControl;) | dual change selection action performer
+CONS ExclusiveSelectionActionPerformer([QButton;) | exclusive selection action performer
+CONS FreeColActionUI(QFreeColAction;QOptionGroupUI;) | free col action ui
+CONS FromAuxDialog_Cancel_actionAdapter(QFromAuxDialog;) | from aux dialog cancel action adapter
+CONS FromAuxDialog_generate_actionAdapter(QFromAuxDialog;) | from aux dialog generate action adapter
+CONS FromAuxDialog_ok_actionAdapter(QFromAuxDialog;) | from aux dialog ok action adapter
+CONS GameNewActionEvent(QObject;QEntityAction;) | game new action event
+CONS GenericActionPerformer([QControl;) | generic action performer
+CONS GenFieldsCustomizer_cancel_actionAdapter(QGenFieldsCustomizer;) | gen fields customizer cancel action adapter
+CONS GenFieldsCustomizer_ok_actionAdapter(QGenFieldsCustomizer;) | gen fields customizer ok action adapter
+CONS GenFieldsCustomizer_revert_actionAdapter(QGenFieldsCustomizer;) | gen fields customizer revert action adapter
+CONS HoverActionControl(QString;) | hover action control
+CONS ImprovementActionType() | improvement action type
+CONS MergeDialog_Cancel_actionAdapter(QMergeDialog;) | merge dialog cancel action adapter
+CONS MergeDialog_ok_actionAdapter(QMergeDialog;) | merge dialog ok action adapter
+CONS ModeControllerActionHandler(QActionFactory;) | mode controller action handler
+CONS parse_action_row() | parse action row
+CONS parse_action_table() | parse action table
+CONS PrintActionHandler(QModeController;) | print action handler
+CONS ResourceActionSet(QIGanttProject;QResourceContext;QGanttProject;QUIFacade;) | resource action set
+CONS TaskActionBase(QTaskManager;QTaskSelectionManager;QUIFacade;) | task action base
+CONS UndoActionHandler(QModeController;QUndoAction;QRedoAction;) | undo action handler
+CONS UPnPActionArgumentImpl(QString;QString;) | upn p action argument impl
+CONS UPnPActionImpl(QUPnPServiceImpl;QSimpleXMLParserDocumentNode;) | upn p action impl
+CONS UPnPActionInvocationImpl(QUPnPActionImpl;) | upn p action invocation impl

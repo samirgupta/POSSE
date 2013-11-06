@@ -1,0 +1,25 @@
+HighlightInfo addHighlight(IIQHighlighter.HighlightPainter;) | add highlight
+Object addHighlight(IIQHighlighter.HighlightPainter;) | add highlight
+void addBreakpointHighlight(QBreakpoint;) | add breakpoint highlight
+void addCustomHighlight(QHighlight;) | add custom highlight
+void addErrorHighlight(II) | add error highlight
+void _addHighlight(II) | add highlight
+void changeHighlight(QObject;II) | change highlight
+void drawHighlight(QGraphics;II) | draw highlight
+void goToRegionAndHighlight(QIDocumentRegion;) | go to region and highlight
+void paintBracketHighlight(QGraphics;II) | paint bracket highlight
+void paintHighlight(QGraphics;II) | paint highlight
+void paintLineHighlight(QGraphics;II) | paint line highlight
+void removeBreakpointHighlight(QBreakpoint;) | remove breakpoint highlight
+void removeCurrentLocationHighlight() | remove current location highlight
+void removeErrorHighlight() | remove error highlight
+void removeHighlight() | remove highlight
+void removeHighlight(IIQHighlighter.HighlightPainter;) | remove highlight
+void removeHighlight(QHighlightInfo;) | remove highlight
+void removeHighlight(QObject;) | remove highlight
+void _removeListHighlight() | remove list highlight
+void _removePreviousHighlight() | remove previous highlight
+void setHighlight(QString;) | set highlight
+void setNeighborHighlight(QNodeItem;Z) | set neighbor highlight
+void updateBracketHighlight(I) | update bracket highlight
+void updateHighlight(I) | update highlight

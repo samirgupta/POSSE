@@ -1,0 +1,100 @@
+boolean addInsertAction(QTable;QRow;) | add insert action
+boolean canInsertText(I) | can insert text
+boolean hasInsertGeneratedProperties() | has insert generated properties
+boolean hasInsertGeneratedValues() | has insert generated values
+boolean hasPartialInsertComponentGeneration(QComponent;) | has partial insert component generation
+boolean isCustomInsertCallable() | is custom insert callable
+boolean isInsertCallable() | is insert callable
+boolean isInsertCallable(I) | is insert callable
+boolean isInsertMode() | is insert mode
+boolean supportsInsertSelectIdentity() | supports insert select identity
+boolean supportsParametersInInsertSelect() | supports parameters in insert select
+boolean useInputStreamToInsertBlob() | use input stream to insert blob
+boolean useInsertSelectIdentity() | use insert select identity
+CompiledStatement compileInsertStatement() | compile insert statement
+EClass getInsertResultsType() | get insert results type
+ExecuteUpdateResultCheckStyle getCustomSQLInsertCheckStyle() | get custom sql insert check style
+ExecuteUpdateResultCheckStyle getInsertCheckStyle() | get insert check style
+InsertGeneratedIdentifierDelegate getInsertGeneratedIdentifierDelegate(QPostInsertIdentityPersister;QDialect;Z) | get insert generated identifier delegate
+int findInsertPointFor(QString;QObject;) | find insert point for
+int getAfterSelectInsertPoint(QString;) | get after select insert point
+int getInsertNamedGraph() | get insert named graph
+Lambda<QString;QString;> makeInsertTextCommand() | make insert text command
+long getEntityInsertCount() | get entity insert count
+long getInsertCount() | get insert count
+PostInsertEventListener[] getPostCommitInsertEventListeners() | get post commit insert event listeners
+PostInsertEventListener[] getPostInsertEventListeners() | get post insert event listeners
+PreInsertEventListener[] getPreInsertEventListeners() | get pre insert event listeners
+Result executeInsertSelectStatement(QCompiledStatement;) | execute insert select statement
+Result executeInsertValuesStatement(QCompiledStatement;) | execute insert values statement
+String buildInsertQuery() | build insert query
+String createInsertSQL(ZZ) | create insert sql
+String generateIdentityInsertString([Z) | generate identity insert string
+String generateIdInsertSelect(QQueryable;QString;QAST;) | generate id insert select
+String generateInsertGeneratedValuesSelectString() | generate insert generated values select string
+String generateInsertRowString() | generate insert row string
+String generateInsertString([ZI) | generate insert string
+String generateInsertString(Z[Z) | generate insert string
+String generateInsertString(Z[ZI) | generate insert string
+String getIdentityInsertString() | get identity insert string
+String getNoColumnsInsertString() | get no columns insert string
+String getSQLIdentityInsertString() | get sql identity insert string
+String getSQLInsertRowString() | get sql insert row string
+String[] getSQLInsertStrings() | get sql insert strings
+ValueInclusion determineInsertValueGenerationType(QProperty;QStandardProperty;) | determine insert value generation type
+ValueInclusion[] getPropertyInsertGenerationInclusions() | get property insert generation inclusions
+void announceGroupsInsertFirst(QTOTorrent;QString;) | announce groups insert first
+void announceGroupsInsertFirst(QTOTorrent;[QURL;) | announce groups insert first
+void announceGroupsInsertFirst(QTOTorrent;QURL;) | announce groups insert first
+void announceGroupsInsertLast(QTOTorrent;[QURL;) | announce groups insert last
+void CharInsertCommand(IC) | char insert command
+void _checkPreviousInsertBackSlash() | check previous insert back slash
+void _checkPreviousInsertCommentChar(QString;) | check previous insert comment char
+void _checkPreviousInsertSpecial(QString;) | check previous insert special
+void fireInsertUpdate(QDocumentEvent;) | fire insert update
+void forceInsertAttributeAt(I) | force insert attribute at
+void forceInsertText(IQString;QString;) | force insert text
+void getInsertColumnValueExpressions(QTable;[QExpression;I) | get insert column value expressions
+void moveAndInsertRow(II) | move and insert row
+void moveToInsertRow() | move to insert row
+void processInsertGeneratedProperties(QSerializable;QObject;[QObject;QSessionImplementor;) | process insert generated properties
+void replaceDelayedEntityIdentityInsertKeys(QEntityKey;QSerializable;) | replace delayed entity identity insert keys
+void resolveInsertParameterTypes() | resolve insert parameter types
+void setInsertMode(Z) | set insert mode
+void setPostCommitInsertEventListeners([QPostInsertEventListener;) | set post commit insert event listeners
+void setPostInsertEventListeners([QPostInsertEventListener;) | set post insert event listeners
+void setPreInsertEventListeners([QPreInsertEventListener;) | set pre insert event listeners
+void sortInsertActions() | sort insert actions
+void testInsertBetweenDoubleEscape() | test insert between double escape
+void testInsertBlockCommentEnd() | test insert block comment end
+void testInsertBlockInsideBlockComment() | test insert block inside block comment
+void testInsertBrace() | test insert brace
+void testInsertBraceAndBreakBlockCommentStart() | test insert brace and break block comment start
+void testInsertBraceAndBreakLineComment() | test insert brace and break line comment
+void testInsertBraceAtStartAndEnd() | test insert brace at start and end
+void testInsertBraceInsideGap() | test insert brace inside gap
+void testInsertBraces() | test insert braces
+void testInsertFront() | test insert front
+void testInsertGap() | test insert gap
+void testInsertGap2() | test insert gap 2
+void testInsertGapAfterGap() | test insert gap after gap
+void testInsertGapBeforeGap() | test insert gap before gap
+void testInsertGapInsideGap() | test insert gap inside gap
+void testInsertMultipleBraces() | test insert multiple braces
+void testInsertNewline() | test insert newline
+void testInsertNewlineChainReaction() | test insert newline chain reaction
+void testInsertNewlineEndLineComment() | test insert newline end line comment
+void testInsertNewlineEndQuote() | test insert newline end quote
+void testInsertObject() | test insert object
+void testInsertQuoteToQuoteBlock() | test insert quote to quote block
+void testMultiLineStarInsertFirstLine() | test multi line star insert first line
+void testMultiLineStarInsertLaterLine() | test multi line star insert later line
+void textInsertSlashIntoStarSlash() | text insert slash into star slash
+void textInsertStarIntoSlashStar() | text insert star into slash star
+void textInsertStarIntoStarSlash() | text insert star into star slash
+void textInsertToDoc() | text insert to doc
+void textTabRemovalOnInsertString() | text tab removal on insert string
+void textTabRemovalOnInsertString2() | text tab removal on insert string 2
+void updateOrInsertOrDelete() | update or insert or delete
+void visitValueListInsertSource(ValueListInsertSource self, ValueList value) | visit value list insert source
+void writeInsertStatement(QSession;QTable;[QObject;) | write insert statement

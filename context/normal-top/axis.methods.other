@@ -1,0 +1,22 @@
+Color getAxisColor() | get axis color
+float computeValueOnPCAAxisXY(float mw, float logP, String fp) | compute value on pca axis xy
+int getAxisType() | get axis type
+Schema getAxisLabelSchema() | get axis label schema
+String getCategoryAxisLabelExpression() | get category axis label expression
+String getTimeAxisLabelExpression() | get time axis label expression
+String getValueAxisLabelExpression() | get value axis label expression
+String getXAxisLabelExpression() | get x axis label expression
+String getYAxisLabelExpression() | get y axis label expression
+void setAxisColor(QColor;) | set axis color
+void setAxisType(I) | set axis type
+void setCategoryAxisLabelExpression(QString;) | set category axis label expression
+void setFixedDomainAxisSpaceForSubplots(AxisSpace space) | set fixed domain axis space for subplots
+void setFixedRangeAxisSpaceForSubplots(AxisSpace space) | set fixed range axis space for subplots
+void setRangeAxisLocation(AxisLocation location) | set range axis location
+void setTimeAxisLabelExpression(QString;) | set time axis label expression
+void setTimeAxisLabel(QString;) | set time axis label
+void setValueAxisLabelExpression(QString;) | set value axis label expression
+void setXAxisLabelExpression(QString;) | set x axis label expression
+void setYAxisLabelExpression(QString;) | set y axis label expression
+void testGetXYZAxis3() | test get xyz axis 3
+void testPrecedingSiblingAxisIterator2() | test preceding sibling axis iterator 2

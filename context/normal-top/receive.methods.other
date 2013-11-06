@@ -1,0 +1,21 @@
+int getDataAndProtocolReceiveRate() | get data and protocol receive rate
+int getDataReceiveRate() | get data receive rate
+int getDataReceiveRateNoLAN() | get data receive rate no lan
+int getDataReceiveRateNoLAN(I) | get data receive rate no lan
+int getProtocolReceiveRate() | get protocol receive rate
+int getProtocolReceiveRateNoLAN() | get protocol receive rate no lan
+int getProtocolReceiveRateNoLAN(I) | get protocol receive rate no lan
+long getDataReceiveRate() | get data receive rate
+long getNetworkReceiveBytesPerSecond() | get network receive bytes per second
+long getProtocolReceiveRate() | get protocol receive rate
+long getReceiveQueueLength() | get receive queue length
+long getSmoothDataReceiveRate() | get smooth data receive rate
+ReceiveImpl getReceiveMatch3() | get receive match 3
+void enqueueReceiveBuffer(RelReceiveBuffer packet) | enqueue receive buffer
+void fireOnReceiveMessage(Qjava.lang.String;Qjava.util.GregorianCalendar;Qjava.lang.String;) | fire on receive message
+void onReceiveFocusHook() | on receive focus hook
+void onReceiveMessage(JQjava.util.GregorianCalendar;Qjava.lang.String;) | on receive message
+void reportReceiveException(QException;) | report receive exception
+void reportReceiveException(QException;QStringBuffer;) | report receive exception
+void requestReceiveReplyProcessor(QDHTTransportUDPContactImpl;QDHTUDPPacketReply;) | request receive reply processor
+void requestReceiveRequestProcessor(QDHTTransportUDPContactImpl;QDHTUDPPacketRequest;) | request receive request processor

@@ -1,0 +1,424 @@
+../3-Phrases/Base_Verb:String getKeyWordsForImage(DiskObject f) | get key words for image
+../3-Phrases/Base_Verb:void setImage(String image) | set image
+../3-Phrases/Base_Verb:static BufferedImage loadBufferedImage(String path, int imageType) | buffered image load buffered image
+../3-Phrases/Base_Verb:Image getColumnImage(Object element, int columnIndex) | get column image
+../3-Phrases/Base_Verb:void setIconImage(Image icon) | set icon image
+../3-Phrases/Base_Verb:Image getImage() | get image
+../3-Phrases/Base_Verb:Image loadImage(String name) | load image
+../3-Phrases/Base_Verb:Image getScaledImage() | get scaled image
+../3-Phrases/Base_Verb:void setOpenImage(String openImage) | set open image
+../3-Phrases/Base_Verb:Image rotateImage(Image image, int rightAngles) | rotate image
+../3-Phrases/Base_Verb:void processPreviousImage() | process previous image
+../3-Phrases/Base_Verb:boolean dispatchImage(int x, int y, int width, int height, String map, byte pixels) | dispatch image
+../3-Phrases/Base_Verb:ImagePlus openImage(String path) | open image
+../3-Phrases/Base_Verb:RenderedImage getPdfTitleImage(File comicFile) | get pdf title image
+../3-Phrases/Base_Verb:Image createImage(byte imageData, int imageOffset, int imageLength) | create image
+../3-Phrases/Dguitar:Image loadImage(QString;) | load image
+../3-Phrases/DrawSWF:void setBackgroundImage(QFile;) | set background image
+../3-Phrases/DrawSWF:boolean loadImage() | load image
+../3-Phrases/DrawSWF:void loadImage(QFile;) | load image
+../3-Phrases/DrawSWF:Shape shapeForImage(QInputStream;[I) | shape for image
+../3-Phrases/DrawSWF:Shape shapeForImage(QImage;DD) | shape for image
+../3-Phrases/DrawSWF:Image.Lossless createLosslessImage(Qjava.awt.Image;IZ) | create lossless image
+../3-Phrases/DrawSWF:Symbol getImage() | get image
+../3-Phrases/DrawSWF:void setImage(QSymbol;) | set image
+../3-Phrases/DrawSWF:void drawImage(QGraphics2D;QRenderedImage;) | draw image
+../3-Phrases/DrawSWF:void drawImage(QGraphics2D;QCachableRed;) | draw image
+../3-Phrases/DrawSWF:void drawImage(QGraphics2D;QRenderableImage;QRenderContext;) | draw image
+../3-Phrases/DrawSWF:void drawImage(QGraphics2D;QRenderableImage;) | draw image
+../3-Phrases/DrawSWF:BufferedImage makeLinearBufferedImage(IIZ) | make linear buffered image
+../3-Phrases/DrawSWF:BufferedImage getBufferedImage() | get buffered image
+../3-Phrases/drjava2:void setImage(QImage;) | set image
+../3-Phrases/freecol2:Image getPathImage(QUnit;) | get path image
+../3-Phrases/freecol2:Image getPathNextTurnImage(QUnit;) | get path next turn image
+../3-Phrases/freecol2:BufferedImage createStringImage(QGraphics2D;QString;QColor;II) | create string image
+../3-Phrases/freecol2:BufferedImage createStringImage(QJComponent;QString;QColor;II) | create string image
+../3-Phrases/freecol2:BufferedImage createStringImage(QJComponent;QGraphics;QString;QColor;II) | create string image
+../3-Phrases/freecol2:BufferedImage createColonyNameImage(QGraphics;QColony;II) | create colony name image
+../3-Phrases/freecol2:Image getOccupationIndicatorImage(QUnit;) | get occupation indicator image
+../3-Phrases/freecol2:Image scaleImage(QImage;F) | scale image
+../3-Phrases/freecol2:ImageIcon findImage(QString;QClass<QFreeCol;>;Z) | find image
+../3-Phrases/freecol2:Image getFoundingFatherImage(QFoundingFather;) | get founding father image
+../3-Phrases/freecol2:Image getMonarchImage(QNation;) | get monarch image
+../3-Phrases/freecol2:Image getCoatOfArmsImage(QNation;) | get coat of arms image
+../3-Phrases/freecol2:Image getBonusImage(QTile;) | get bonus image
+../3-Phrases/freecol2:Image getBonusImage(QResourceType;) | get bonus image
+../3-Phrases/freecol2:Image getScaledTerrainImage(QTileType;F) | get scaled terrain image
+../3-Phrases/freecol2:Image getOverlayImage(QTileType;II) | get overlay image
+../3-Phrases/freecol2:Image getTerrainImage(QTileType;II) | get terrain image
+../3-Phrases/freecol2:Image getBorderImage(QTileType;QDirection;II) | get border image
+../3-Phrases/freecol2:Image getCoastImage(QTileType;QDirection;II) | get coast image
+../3-Phrases/freecol2:Image getRiverImage(I) | get river image
+../3-Phrases/freecol2:Image getForestImage(QTileType;) | get forest image
+../3-Phrases/freecol2:Image getMiscImage(QString;) | get misc image
+../3-Phrases/freecol2:Image getGoodsImage(QGoodsType;) | get goods image
+../3-Phrases/freecol2:Image getSettlementImage(QSettlementType;) | get settlement image
+../3-Phrases/freecol2:Image getSettlementImage(QSettlement;) | get settlement image
+../3-Phrases/freecol2:ImageIcon getRecordImage() | get record image
+../3-Phrases/freecol2:ImageIcon getRemoveImage() | get remove image
+../3-Phrases/freecol2:Image getTerrainImage(QTileType;II) | get terrain image
+../3-Phrases/freecol2:Image getGoodsImage(QGoodsType;) | get goods image
+../3-Phrases/freecol2:Image getMiscImage(QString;) | get misc image
+../3-Phrases/freecol2:BufferedImage createBufferedImage(QImage;) | create buffered image
+../3-Phrases/freecol2:Image getImage() | get image
+../3-Phrases/freecol2:String getPathImage() | get path image
+../3-Phrases/freecol2:void setPathImage(QString;) | set path image
+../3-Phrases/freecol2:String getPathTypeImage() | get path type image
+../3-Phrases/freecol2:Image getImage() | get image
+../3-Phrases/freecol2:Image getImage(D) | get image
+../3-Phrases/freecol2:Image getImage(QDimension;) | get image
+../3-Phrases/freecol2:Image getGrayscaleImage(QDimension;) | get grayscale image
+../3-Phrases/freecol2:Image getGrayscaleImage(D) | get grayscale image
+../3-Phrases/freecol2:Image getImage(QString;) | get image
+../3-Phrases/freecol2:Image getImage(QString;D) | get image
+../3-Phrases/freecol2:Image getImage(QString;QDimension;) | get image
+../3-Phrases/freecol2:Image getGrayscaleImage(QString;QDimension;) | get grayscale image
+../3-Phrases/freecol2:Image getGrayscaleImage(QString;D) | get grayscale image
+../3-Phrases/freemind:CONS ExportToImage() | export to image
+../3-Phrases/freemind:boolean exportToImage(QBufferedImage;QString;QString;) | export to image
+../3-Phrases/freemind:BufferedImage createBufferedImage() | create buffered image
+../3-Phrases/freemind:CONS MultipleImage(D) | multiple image
+../3-Phrases/freemind:void addImage(QImageIcon;) | add image
+../3-Phrases/freemind:Image getImage() | get image
+../3-Phrases/gantt:Image createImage(QList;) | create image
+../3-Phrases/gantt:RenderedImage getRenderedImage(QGanttExportSettings;) | get rendered image
+../3-Phrases/gantt:RenderedImage getRenderedImage(QGanttExportSettings;) | get rendered image
+../3-Phrases/gantt:RenderedImage getRenderedImage(QGanttExportSettings;) | get rendered image
+../3-Phrases/gantt:BufferedImage createImage() | create image
+../3-Phrases/gantt:RenderedImage getRenderedImage(QGanttExportSettings;) | get rendered image
+../3-Phrases/gantt:CONS RenderedGanttChartImage(QChartModelBase;QChartImplementation;QList;QBufferedImage;II) | rendered gantt chart image
+../3-Phrases/gantt:CONS SimpleRenderedImage() | simple rendered image
+../3-Phrases/gantt:CONS RenderedResourceChartImage(QChartModelBase;QAbstractChartImplementation;QBufferedImage;II) | rendered resource chart image
+../3-Phrases/gantt:RenderedImage getRenderedImage(QGanttExportSettings;) | get rendered image
+../3-Phrases/gantt:CONS RenderedChartImage(QChartModelBase;QBufferedImage;II) | rendered chart image
+../3-Phrases/gantt:BufferedImage getWholeImage() | get whole image
+../3-Phrases/gantt:CONS ExporterToImage() | exporter to image
+../3-Phrases/gantt:void updateSourceImage(QImage;) | update source image
+../3-Phrases/hsqldb:void clearRowImage(QCachedObject;) | clear row image
+../3-Phrases/iReport:java.lang.String getScaleImage() | get scale image
+../3-Phrases/iReport:void setScaleImage(Qjava.lang.String;) | set scale image
+../3-Phrases/iReport:void updateChartImage() | update chart image
+../3-Phrases/iReport:BufferedImage getBarcodeImage(IQObject;ZZ) | get barcode image
+../3-Phrases/iReport:java.awt.Image getChartImage() | get chart image
+../3-Phrases/iReport:void setChartImage(Qjava.awt.Image;) | set chart image
+../3-Phrases/iReport:java.awt.Image getIconImage() | get icon image
+../3-Phrases/iReport:java.awt.Image getImage() | get image
+../3-Phrases/Jabref:ImageIcon getImage(QString;) | get image
+../3-Phrases/jajuk:ImageIcon getImage() | get image
+../3-Phrases/jajuk:void paintImage(QPoint;) | paint image
+../3-Phrases/jajuk:void clearImage() | clear image
+../3-Phrases/jajuk:ImageIcon getResizedImage(QImageIcon;II) | get resized image
+../3-Phrases/jajuk:ImageIcon getScaledImage(QImageIcon;I) | get scaled image
+../3-Phrases/javaHMO:BufferedImage getImage(QTiVoImageDocumentRequest;) | get image
+../3-Phrases/javaHMO:BufferedImage getImage() | get image
+../3-Phrases/javaHMO:BufferedImage getImage(QString;) | get image
+../3-Phrases/javaHMO:BufferedImage getImage(QTiVoImageDocumentRequest;QBufferedImage;) | get image
+../3-Phrases/javaHMO:BufferedImage getImage() | get image
+../3-Phrases/javaHMO:BufferedImage getImage(QString;) | get image
+../3-Phrases/javaHMO:BufferedImage getImage(QTiVoImageDocumentRequest;) | get image
+../3-Phrases/javaHMO:BufferedImage getDefaultImage() | get default image
+../3-Phrases/javaHMO:BufferedImage getDefaultImage(II) | get default image
+../3-Phrases/javaHMO:BufferedImage getImage() | get image
+../3-Phrases/javaHMO:Image getUnbufferedImage() | get unbuffered image
+../3-Phrases/javaHMO:BufferedImage getImage(QTiVoImageDocumentRequest;QBufferedImage;) | get image
+../3-Phrases/javaHMO:BufferedImage getBufferedImage(II) | get buffered image
+../3-Phrases/javaHMO:void releaseBufferedImage(QBufferedImage;) | release buffered image
+../3-Phrases/javaHMO:BufferedImage getImage(QTiVoImageDocumentRequest;QBufferedImage;) | get image
+../3-Phrases/javaHMO:BufferedImage getImage(QTiVoImageDocumentRequest;QBufferedImage;) | get image
+../3-Phrases/javaHMO:BufferedImage getImage(QTiVoImageDocumentRequest;QBufferedImage;) | get image
+../3-Phrases/javaHMO:BufferedImage getImage(QTiVoImageDocumentRequest;QBufferedImage;) | get image
+../3-Phrases/javaHMO:BufferedImage getImage() | get image
+../3-Phrases/javaHMO:BufferedImage getImage(QTiVoImageDocumentRequest;QBufferedImage;) | get image
+../3-Phrases/javaHMO:void downloadImage(QString;) | download image
+../3-Phrases/javaHMO:BufferedImage getChannelImage(QTiVoImageDocumentRequest;QBufferedImage;) | get channel image
+../3-Phrases/javaHMO:BufferedImage getImage(QTiVoImageDocumentRequest;QBufferedImage;) | get image
+../3-Phrases/javaHMO:BufferedImage getImage(QTiVoImageDocumentRequest;QBufferedImage;) | get image
+../3-Phrases/javaHMO:BufferedImage getImage(QTiVoImageDocumentRequest;QBufferedImage;) | get image
+../3-Phrases/javaHMO:BufferedImage getImage(QTiVoImageDocumentRequest;QBufferedImage;) | get image
+../3-Phrases/javaHMO:BufferedImage getImage(QTiVoImageDocumentRequest;) | get image
+../3-Phrases/javaHMO:BufferedImage getImage(QTiVoImageDocumentRequest;) | get image
+../3-Phrases/javaHMO:Image getResourceAsImage(QClass;QString;) | get resource as image
+../3-Phrases/javaHMO:PlanarImage readImage(QString;) | read image
+../3-Phrases/jbidwatcher:void dumpImage(QString;QStringBuffer;[[B) | dump image
+../3-Phrases/jbidwatcher:boolean resizeImage(QString;QString;IIII) | resize image
+../3-Phrases/Jftp:void addBackgroundImage() | add background image
+../3-Phrases/Jftp:Image getImage() | get image
+../3-Phrases/Jftp:Image getImage(QComponent;QString;) | get image
+../3-Phrases/JHotDraw-7.0.8:BufferedImage makeLinearBufferedImage(IIZ) | make linear buffered image
+../3-Phrases/JHotDraw-7.0.8:void loadImage(QFile;) | load image
+../3-Phrases/JHotDraw-7.0.8:void loadImage(QInputStream;) | load image
+../3-Phrases/JHotDraw-7.0.8:BufferedImage getBufferedImage() | get buffered image
+../3-Phrases/JHotDraw-7.0.8:void setBufferedImage(QBufferedImage;) | set buffered image
+../3-Phrases/JHotDraw-7.0.8:BufferedImage toImage(Qjava.util.List<QFigure;>;D) | to image
+../3-Phrases/JHotDraw-7.0.8:void drawImage(QGraphics2D;) | draw image
+../3-Phrases/JHotDraw-7.0.8:void setImage([BQBufferedImage;) | set image
+../3-Phrases/JHotDraw-7.0.8:void setBufferedImage(QBufferedImage;) | set buffered image
+../3-Phrases/JHotDraw-7.0.8:BufferedImage getBufferedImage() | get buffered image
+../3-Phrases/JHotDraw-7.0.8:void loadImage(QFile;) | load image
+../3-Phrases/JHotDraw-7.0.8:void loadImage(QInputStream;) | load image
+../3-Phrases/JHotDraw-7.0.8:void setImage([BQBufferedImage;) | set image
+../3-Phrases/JHotDraw-7.0.8:void setBufferedImage(QBufferedImage;) | set buffered image
+../3-Phrases/JHotDraw-7.0.8:BufferedImage getBufferedImage() | get buffered image
+../3-Phrases/JHotDraw-7.0.8:void loadImage(QFile;) | load image
+../3-Phrases/JHotDraw-7.0.8:void loadImage(QInputStream;) | load image
+../3-Phrases/JHotDraw-7.0.8:Figure createImage(DDDD[BQBufferedImage;QMap<QAttributeKey;QObject;>;) | create image
+../3-Phrases/JHotDraw-7.0.8:Figure createImage(DDDD[BQBufferedImage;QMap<QAttributeKey;QObject;>;) | create image
+../3-Phrases/JHotDraw-7.0.8:IXMLElement createImage(QIXMLElement;DDDD[BQMap<QAttributeKey;QObject;>;) | create image
+../3-Phrases/JRobin:BufferedImage createImage(III) | create image
+../3-Phrases/JRobin:void renderImage(IIQGraphics2D;Z) | render image
+../3-Phrases/JRobin:BufferedImage getBufferedImage(II) | get buffered image
+../3-Phrases/JRobin:void renderImage(QGraphics2D;II) | render image
+../3-Phrases/JRobin:BufferedImage getBufferedImage(III) | get buffered image
+../3-Phrases/JRobin:Image getImage(QString;) | get image
+../3-Phrases/MegaMek-0.32.0:Image getTitleImage(QFrame;) | get title image
+../3-Phrases/MegaMek-0.32.0:Image getScaledImage(QImage;) | get scaled image
+../3-Phrases/MegaMek-0.32.0:void updateBoardImage() | update board image
+../3-Phrases/MegaMek-0.32.0:Image getEntireBoardImage() | get entire board image
+../3-Phrases/MegaMek-0.32.0:void moveBoardImage() | move board image
+../3-Phrases/MegaMek-0.32.0:void loadHexImage(QIHex;QComponent;QMediaTracker;) | load hex image
+../3-Phrases/MegaMek-0.32.0:Image getImage() | get image
+../3-Phrases/MegaMek-0.32.0:Image getImage(QComponent;) | get image
+../3-Phrases/MegaMek-0.32.0:void loadImage(QComponent;) | load image
+../3-Phrases/MegaMek-0.32.0:void loadPreviewImage(QBufferedPanel;QEntity;) | load preview image
+../3-Phrases/MegaMek-0.32.0:void loadPreviewImage(QBufferedPanel;QEntity;QPlayer;) | load preview image
+../3-Phrases/MegaMek-0.32.0:void boardSaveImage() | board save image
+../3-Phrases/MegaMek-0.32.0:void boardSaveAsImage() | board save as image
+../3-Phrases/MegaMek-0.32.0:void loadHexImage(QIHex;) | load hex image
+../3-Phrases/MegaMek-0.32.0:void loadPreviewImage(QEntity;QImage;IQBufferedPanel;) | load preview image
+../3-Phrases/MegaMek-0.32.0:void loadImage(QEntity;) | load image
+../3-Phrases/MegaMek-0.32.0:void EntityImage(QImage;IQImage;QComponent;) | entity image
+../3-Phrases/MegaMek-0.32.0:void EntityImage(QImage;QImage;IQImage;QComponent;) | entity image
+../3-Phrases/MegaMek-0.32.0:Image loadPreviewImage() | load preview image
+../3-Phrases/MegaMek-0.32.0:Image getImage() | get image
+../3-Phrases/MegaMek-0.32.0:void loadImage(QComponent;) | load image
+../3-Phrases/MegaMek-0.32.0:void drawArmorImage(QImage;I) | draw armor image
+../3-Phrases/MegaMek-0.32.0:Image getImage() | get image
+../3-Phrases/MegaMek-0.32.0:void setImage(QImage;) | set image
+../3-Phrases/MegaMek-0.32.0:void setIdleImage(QImage;) | set idle image
+../3-Phrases/MegaMek-0.32.0:Image getIdleImage() | get idle image
+../3-Phrases/MegaMek-0.32.0:Image getActiveImage() | get active image
+../3-Phrases/MegaMek-0.32.0:void setActiveImage(QImage;) | set active image
+../3-Phrases/MegaMek-0.32.0:void drawIdleImage(I) | draw idle image
+../3-Phrases/MegaMek-0.32.0:void setImage(QImage;) | set image
+../3-Phrases/MegaMek-0.32.0:Image getImage() | get image
+../3-Phrases/MegaMek-0.32.0:void drawBGImage() | draw bg image
+../3-Phrases/MegaMek-0.32.0:boolean setImage(QImage;QComponent;) | set image
+../3-Phrases/MegaMek-0.32.0:void loadHexImage(QIHex;QJComponent;QMediaTracker;) | load hex image
+../3-Phrases/MegaMek-0.32.0:Image getImage() | get image
+../3-Phrases/MegaMek-0.32.0:Image getImage(QJComponent;) | get image
+../3-Phrases/MegaMek-0.32.0:void loadImage(QJComponent;) | load image
+../3-Phrases/MegaMek-0.32.0:Image getScaledImage(QImage;) | get scaled image
+../3-Phrases/MegaMek-0.32.0:void updateBoardImage() | update board image
+../3-Phrases/MegaMek-0.32.0:Image getEntireBoardImage() | get entire board image
+../3-Phrases/MegaMek-0.32.0:void moveBoardImage() | move board image
+../3-Phrases/MegaMek-0.32.0:void loadHexImage(QIHex;) | load hex image
+../3-Phrases/MegaMek-0.32.0:void loadPreviewImage(QEntity;QImage;IQJLabel;) | load preview image
+../3-Phrases/MegaMek-0.32.0:void loadImage(QEntity;) | load image
+../3-Phrases/MegaMek-0.32.0:void EntityImage(QImage;IQImage;QJComponent;) | entity image
+../3-Phrases/MegaMek-0.32.0:void EntityImage(QImage;QImage;IQImage;QJComponent;) | entity image
+../3-Phrases/MegaMek-0.32.0:Image loadPreviewImage() | load preview image
+../3-Phrases/MegaMek-0.32.0:Image getTitleImage(QJFrame;) | get title image
+../3-Phrases/MegaMek-0.32.0:void boardSaveImage() | board save image
+../3-Phrases/MegaMek-0.32.0:void boardSaveAsImage() | board save as image
+../3-Phrases/MegaMek-0.32.0:void loadPreviewImage(QJLabel;QEntity;) | load preview image
+../3-Phrases/MegaMek-0.32.0:void loadPreviewImage(QJLabel;QEntity;QPlayer;) | load preview image
+../3-Phrases/MegaMek-0.32.0:Image getImage() | get image
+../3-Phrases/MegaMek-0.32.0:void loadImage(QJComponent;) | load image
+../3-Phrases/MegaMek-0.32.0:void setIdleImage(QImage;) | set idle image
+../3-Phrases/MegaMek-0.32.0:Image getIdleImage() | get idle image
+../3-Phrases/MegaMek-0.32.0:Image getActiveImage() | get active image
+../3-Phrases/MegaMek-0.32.0:void setActiveImage(QImage;) | set active image
+../3-Phrases/MegaMek-0.32.0:void setImage(QImage;) | set image
+../3-Phrases/MegaMek-0.32.0:Image getImage() | get image
+../3-Phrases/MegaMek-0.32.0:void drawBGImage() | draw bg image
+../3-Phrases/MegaMek-0.32.0:void drawArmorImage(QImage;I) | draw armor image
+../3-Phrases/MegaMek-0.32.0:boolean setImage(QImage;QJComponent;) | set image
+../3-Phrases/MegaMek-0.32.0:void drawIdleImage(I) | draw idle image
+../3-Phrases/np:MagickImage unsharpMaskImage(double raduis, double sigma, double amount, double threshold) | unsharp mask image
+../3-Phrases/PlanetaMessenger:javax.swing.ImageIcon getImage(I) | get image
+../3-Phrases/PlanetaMessenger:CONS JImage() | j image
+../3-Phrases/prefuse:void setBackgroundImage(QImage;ZZ) | set background image
+../3-Phrases/prefuse:void setBackgroundImage(QString;ZZ) | set background image
+../3-Phrases/prefuse:boolean saveImage(QOutputStream;QString;D) | save image
+../3-Phrases/prefuse:String GetImage() | get image
+../3-Phrases/prefuse:Image getImage(QVisualItem;) | get image
+../3-Phrases/prefuse:Image getImage(QString;) | get image
+../3-Phrases/prefuse:Image addImage(QString;QImage;) | add image
+../3-Phrases/prefuse:void waitForImage(QImage;) | wait for image
+../3-Phrases/prefuse:Image getScaledImage(QImage;) | get scaled image
+../3-Phrases/prefuse:void setImage(QImage;) | set image
+../3-Phrases/prefuse:Image getScaledImage(QImage;) | get scaled image
+../3-Phrases/SweetHome3D:Content getImage() | get image
+../3-Phrases/SweetHome3D:Content getImage() | get image
+../3-Phrases/SweetHome3D:BufferedImage getOffScreenImage(QView;II) | get off screen image
+../3-Phrases/SweetHome3D:Content getImage() | get image
+../3-Phrases/SweetHome3D:Content getImage() | get image
+../3-Phrases/SweetHome3D:Content getImage() | get image
+../3-Phrases/SweetHome3D:BackgroundImage getBackgroundImage() | get background image
+../3-Phrases/SweetHome3D:void setBackgroundImage(QBackgroundImage;) | set background image
+../3-Phrases/SweetHome3D:CONS BackgroundImage(QContent;FFFFFFF) | background image
+../3-Phrases/SweetHome3D:CONS BackgroundImage(QContent;FFFFFFFZ) | background image
+../3-Phrases/SweetHome3D:Content getImage() | get image
+../3-Phrases/SweetHome3D:BufferedImage getIconImage() | get icon image
+../3-Phrases/SweetHome3D:BufferedImage getPatternImage(QTextureImage;QColor;QColor;) | get pattern image
+../3-Phrases/SweetHome3D:void paintImage(QGraphics;QAlphaComposite;) | paint image
+../3-Phrases/SweetHome3D:void setImage(QBufferedImage;) | set image
+../3-Phrases/SweetHome3D:BufferedImage getImage() | get image
+../3-Phrases/SweetHome3D:boolean isPointInImage(II) | is point in image
+../3-Phrases/SweetHome3D:BufferedImage getOffScreenImage(II) | get off screen image
+../3-Phrases/SweetHome3D:BufferedImage getClipboardImage() | get clipboard image
+../3-Phrases/SweetHome3D:void paintBackgroundImage(QGraphics2D;) | paint background image
+../3-Phrases/SweetHome3D:BufferedImage getErrorImage() | get error image
+../3-Phrases/SweetHome3D:BufferedImage readImage(QContent;QUserPreferences;) | read image
+../3-Phrases/SweetHome3D:void updatePreviewComponentsImage(QBufferedImage;) | update preview components image
+../3-Phrases/SweetHome3D:BufferedImage readImage(QUserPreferences;QContent;) | read image
+../3-Phrases/SweetHome3D:void updatePreviewComponentsImage(QBufferedImage;) | update preview components image
+../3-Phrases/SweetHome3D:void updateAttributesPreviewImage() | update attributes preview image
+../3-Phrases/SweetHome3D:void importBackgroundImage() | import background image
+../3-Phrases/SweetHome3D:void modifyBackgroundImage() | modify background image
+../3-Phrases/SweetHome3D:void hideBackgroundImage() | hide background image
+../3-Phrases/SweetHome3D:void showBackgroundImage() | show background image
+../3-Phrases/SweetHome3D:void deleteBackgroundImage() | delete background image
+../3-Phrases/SweetHome3D:void setImage(QContent;) | set image
+../3-Phrases/SweetHome3D:Content getImage() | get image
+../3-Phrases/SweetHome3D:void setImage(QContent;) | set image
+../3-Phrases/SweetHome3D:Content getImage() | get image
+../3-Phrases/vuze:ResizedImageInfo loadAndResizeImage(QFile;IIF) | load and resize image
+../3-Phrases/vuze:Image getAvatarImage() | get avatar image
+../3-Phrases/vuze:void setAvatarImage(QImage;) | set avatar image
+../3-Phrases/vuze:Image getAvatarImage() | get avatar image
+../3-Phrases/vuze:void setAvatarImage(QImage;) | set avatar image
+../3-Phrases/vuze:void disposeOldAvatarImage() | dispose old avatar image
+../3-Phrases/vuze:void disposeOldImage(QTableCell;) | dispose old image
+../3-Phrases/vuze:void disposeOldImage(QTableCell;) | dispose old image
+../3-Phrases/vuze:Image getImage() | get image
+../3-Phrases/vuze:void setImage(QImage;) | set image
+../3-Phrases/vuze:void drawImage(QTableCell;QGC;) | draw image
+../3-Phrases/vuze:Image generateObfusticatedImage() | generate obfusticated image
+../3-Phrases/vuze:void setImage(QImage;QImage;QImage;) | set image
+../3-Phrases/vuze:Image setLabelImage(QString;) | set label image
+../3-Phrases/vuze:Image setLabelImage(QString;QString;) | set label image
+../3-Phrases/vuze:Image generateObfusticatedImage() | generate obfusticated image
+../3-Phrases/vuze:CONS SWTSkinObjectImage(QSWTSkin;QSWTSkinProperties;QString;QString;QString;QSWTSkinObject;) | swt skin object image
+../3-Phrases/vuze:void setLabelImage(QString;QAECallback;) | set label image
+../3-Phrases/vuze:void setLabelImage(QString;QString;QAECallback;) | set label image
+../3-Phrases/vuze:Image getImage() | get image
+../3-Phrases/vuze:void setImage(QImage;) | set image
+../3-Phrases/vuze:void setImage(QString;) | set image
+../3-Phrases/vuze:void setSpinnerImage(QSideBarVitalityImage;) | set spinner image
+../3-Phrases/vuze:void drawCurrentImage() | draw current image
+../3-Phrases/vuze:Image computeResultImage() | compute result image
+../3-Phrases/vuze:Image createOverlayImage(BIBI) | create overlay image
+../3-Phrases/vuze:void refreshCurrentImage(I) | refresh current image
+../3-Phrases/vuze:Image loadImage(QDisplay;QString;) | load image
+../3-Phrases/vuze:Image loadImage(QDisplay;QString;QString;) | load image
+../3-Phrases/vuze:Image getImage(QString;) | get image
+../3-Phrases/vuze:Image getNoImage() | get no image
+../3-Phrases/vuze:boolean isRealImage(QImage;) | is real image
+../3-Phrases/vuze:void buildImage() | build image
+../3-Phrases/vuze:Image getBackgroundImage() | get background image
+../3-Phrases/vuze:Image obfusticatedImage(QImage;QPoint;) | obfusticated image
+../3-Phrases/vuze:void setBackgroundImage(QImage;) | set background image
+../3-Phrases/vuze:Image getBackgroundImage() | get background image
+../3-Phrases/vuze:Image getAvatarImage() | get avatar image
+../3-Phrases/vuze:void setAvatarImage(QImage;) | set avatar image
+../3-Phrases/vuze:void updateImage([B) | update image
+../3-Phrases/vuze:SideBarVitalityImage addVitalityImage(QString;) | add vitality image
+../3-Phrases/vuze:SideBarVitalityImage getVitalityImage(II) | get vitality image
+../3-Phrases/vuze:Image getImage() | get image
+../3-Phrases/vuze:Image getDefault_prompt_image() | get default prompt image
+../3-Phrases/vuze:void setDefault_prompt_image(QImage;) | set default prompt image
+../3-Phrases/vuze:CONS AnimatedImage(QComposite;) | animated image
+../3-Phrases/vuze:void renderNextImage() | render next image
+../3-Phrases/vuze:void loadImage(QString;QImageDownloaderListener;) | load image
+../3-Phrases/vuze:void writeImage(QOutputStream;II) | write image
+../3-Phrases/vuze:Image getImage() | get image
+../3-Phrases/vuze:boolean setImage(QImage;) | set image
+../3-Phrases/vuze:SideBarVitalityImage addVitalityImage(QString;) | add vitality image
+../3-Phrases/vuze:Image getImage() | get image
+../3-Phrases/vuze:boolean setImage(QImage;) | set image
+../3-Phrases/vuze:Image getImage(QString;) | get image
+../3-Phrases/vuze:Image getImage(QInputStream;) | get image
+../3-Phrases/vuze:void setMenuItemImage(QMenuItem;QString;) | set menu item image
+../3-Phrases/vuze:void setMenuItemImage(QMenuItem;QImage;) | set menu item image
+../3-Phrases/vuze:boolean drawImage(QGC;QImage;QRectangle;QRectangle;IIZ) | draw image
+../3-Phrases/vuze:boolean drawImage(QGC;QImage;QRectangle;QRectangle;II) | draw image
+../3-Phrases/vuze:boolean drawImage(QGC;QImage;QPoint;QRectangle;QRectangle;IIZ) | draw image
+../3-Phrases/vuze:Image createAlphaImage(QDevice;II) | create alpha image
+../3-Phrases/vuze:Image createAlphaImage(QDevice;IIB) | create alpha image
+../3-Phrases/vuze:Image blitImage(QDevice;QImage;QRectangle;QImage;QPoint;) | blit image
+../3-Phrases/vuze:Image loadImage(QDisplay;QString;QString;) | load image
+../3-Phrases/vuze:Image loadImage(QDisplay;QString;QString;I) | load image
+../3-Phrases/vuze:Image loadImage(QClassLoader;QDisplay;QString;QString;I) | load image
+../3-Phrases/vuze:Image getRandomImage() | get random image
+../3-Phrases/vuze:Image getImage(QString;) | get image
+../3-Phrases/vuze:Image getImage(QString;Z) | get image
+../3-Phrases/vuze:Image getFolderImage() | get folder image
+../3-Phrases/vuze:void unloadImage(QString;) | unload image
+../3-Phrases/vuze:void setImage(QImage;) | set image
+../3-Phrases/vuze:Image getBackgroundImage() | get background image
+../3-Phrases/vuze:Image getBackgroundImage() | get background image
+../3-Phrases/vuze:void setImage(IQImage;) | set image
+../3-Phrases/vuze:Image getImage(I) | get image
+../3-Phrases/vuze:void setBackgroundImage(QImage;) | set background image
+../3-Phrases/vuze:Image getBackgroundImage() | get background image
+../3-Phrases/vuze:Image getBackgroundImage() | get background image
+../3-Phrases/vuze:void setImage(QImage;) | set image
+../3-Phrases/vuze:Image getImage() | get image
+../3-Phrases/vuze:void setImage(QImage;) | set image
+../3-Phrases/vuze:Image obfusticatedImage(QImage;QPoint;) | obfusticated image
+../3-Phrases/vuze:Image generateObfusticatedImage() | generate obfusticated image
+../3-Phrases/vuze:void disposeImage() | dispose image
+../3-Phrases/vuze:void setProgressImage() | set progress image
+../3-Phrases/vuze:Image generateObfusticatedImage() | generate obfusticated image
+../3-Phrases/vuze:Image loadImage(QString;) | load image
+../3-Phrases/vuze:Image getImage() | get image
+../3-Phrases/vuze:boolean setImage(QImage;) | set image
+../3-Phrases/vuze:void setImage(I) | set image
+../3-Phrases/vuze:void setImage(QImage;) | set image
+../3-Phrases/vuze:void setImage(I) | set image
+../3-Phrases/vuze:void setImage(QImage;) | set image
+../3-Phrases/vuze:Image loadImage(QString;) | load image
+../3-Phrases/vuze:Image loadImage(QPluginInterface;QString;) | load image
+../3-Phrases/vuze:Image loadImage(QString;) | load image
+../3-Phrases/vuze:Image getImage() | get image
+../3-Phrases/vuze:boolean setImage(QImage;) | set image
+../3-Phrases/vuze:void setImage(QImage;) | set image
+../3-Phrases/vuze:Image getImage() | get image
+../3-Phrases/vuze:Image getImage() | get image
+../3-Phrases/vuze:void setImage(QImage;) | set image
+../3-Phrases/vuze:Image getImage() | get image
+../3-Phrases/vuze:void setImage(QImage;) | set image
+../3-Phrases/vuze:Object getLeftImage() | get left image
+../3-Phrases/vuze:void setLeftImage(QImage;) | set left image
+../3-Phrases/vuze:void setLeftImage(I) | set left image
+../3-Phrases/vuze:Image obfusticatedImage(QImage;QPoint;) | obfusticated image
+../3-Phrases/vuze:Image obfusticatedImage(QImage;QPoint;) | obfusticated image
+../3-Phrases/vuze:Image obfusticatedImage(QImage;QPoint;) | obfusticated image
+../3-Phrases/vuze:Image obfusticatedImage(QImage;QPoint;) | obfusticated image
+../3-Phrases/vuze:Image obfusticatedImage(QImage;QPoint;) | obfusticated image
+../3-Phrases/vuze:Image obfusticatedImage(QImage;QPoint;) | obfusticated image
+../3-Phrases/vuze:Image obfusticatedImage(QImage;QPoint;) | obfusticated image
+../3-Phrases/vuze:Image obfusticatedImage(QImage;QPoint;) | obfusticated image
+../3-Phrases/vuze:void setBackgroundImage(QImage;) | set background image
+../3-Phrases/vuze:Image getBackgroundImage() | get background image
+../3-Phrases/vuze:Image obfusticatedImage(QImage;QPoint;) | obfusticated image
+../3-Phrases/vuze:Image getBackgroundImage() | get background image
+../3-Phrases/vuze:Image getBackgroundImage() | get background image
+../3-Phrases/weka:Image getImage(QString;QString;) | get image
+../3-Phrases/weka:Image getImage(QString;) | get image
+../3-Phrases/weka:Image loadImage(QString;) | load image
+../3-Phrases/weka:BufferedImage createImage(QJComponent;QRectangle;) | create image
+../3-Phrases/weka:void saveImage(QString;) | save image
+../3-Phrases/weka:boolean drawImage(QImage;IIQColor;QImageObserver;) | draw image
+../3-Phrases/weka:boolean drawImage(QImage;IIQImageObserver;) | draw image
+../3-Phrases/weka:boolean drawImage(QImage;IIIIQColor;QImageObserver;) | draw image
+../3-Phrases/weka:boolean drawImage(QImage;IIIIQImageObserver;) | draw image
+../3-Phrases/weka:boolean drawImage(QImage;IIIIIIIIQColor;QImageObserver;) | draw image
+../3-Phrases/weka:boolean drawImage(QImage;IIIIIIIIQImageObserver;) | draw image
+../3-Phrases/weka:void drawRenderableImage(QRenderableImage;QAffineTransform;) | draw renderable image
+../3-Phrases/weka:void drawRenderedImage(QRenderedImage;QAffineTransform;) | draw rendered image
+../3-Phrases/weka:void drawImage(QBufferedImage;QBufferedImageOp;II) | draw image
+../3-Phrases/weka:boolean drawImage(QImage;QAffineTransform;QImageObserver;) | draw image
+../3-Phrases/weka:Image getImage(QString;QString;) | get image
+../3-Phrases/weka:Image getImage(QString;) | get image

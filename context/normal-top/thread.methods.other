@@ -1,0 +1,54 @@
+ArrayList<QDebugThreadData;> getCurrentThreadData() | get current thread data
+boolean allowThreadSuspension(boolean allow) | allow thread suspension
+boolean execSWTThreadLater(IQRunnable;) | exec swt thread later
+boolean execSWTThreadWithBool(QString;QAERunnableBoolean;) | exec swt thread with bool
+boolean execSWTThreadWithBool(QString;QAERunnableBoolean;J) | exec swt thread with bool
+boolean isThisThreadSWT() | is this thread swt
+ClassLoader getCurrentThreadClassLoader() | get current thread class loader
+double getThreadUtility(QCEntity;) | get thread utility
+javax.swing.JList getThreadList() | get thread list
+long getThreadCPUTime() | get thread cpu time
+Object execSWTThreadWithObject(QString;QAERunnableObject;) | exec swt thread with object
+Object execSWTThreadWithObject(QString;QAERunnableObject;J) | exec swt thread with object
+Object getThreadContextHelper() | get thread context helper
+Object getThreadLocal(QObject;) | get thread local
+PluginInterface getPluginThreadContext() | get plugin thread context
+String composeWorkerThreadName(String poolName, String workerName) | compose worker thread name
+String getConnectionThreadName() | get connection thread name
+String getThreadName() | get thread name
+String _getUniqueThreadName(QThreadReference;) | get unique thread name
+ThreadMXBean getThreadMonitor() | get thread monitor
+ThreadReference getThreadAt(I) | get thread at
+ThreadReference _getThreadFromDebugThreadData(QDebugThreadData;) | get thread from debug thread data
+UDPSelector checkThreadCreation() | check thread creation
+void assertCurrThreadDiedCount(I) | assert curr thread died count
+void assertCurrThreadResumedCount(I) | assert curr thread resumed count
+void assertCurrThreadSetCount(I) | assert curr thread set count
+void assertCurrThreadSuspendedCount(I) | assert curr thread suspended count
+void assertNonCurrThreadDiedCount(I) | assert non curr thread died count
+void assertThreadLocationUpdatedCount(I) | assert thread location updated count
+void assertThreadStartedCount(I) | assert thread started count
+void checkThreadDeath(Z) | check thread death
+void currThreadSet(QDebugThreadData;) | curr thread set
+void deleteThreadVars() | delete thread vars
+void deregisterThreadAsChild(QthreadPoolWorker;) | deregister thread as child
+void _handleThreadDeathEvent(QThreadDeathEvent;) | handle thread death event
+void _handleThreadStartEvent(QThreadStartEvent;) | handle thread start event
+void _initThreadTable() | init thread table
+void ProcessChainThreadGroup(QProcessChain;) | process chain thread group
+void ProcessSequenceThreadGroup(QProcessSequence;) | process sequence thread group
+void putThreadLocal(QObject;QObject;) | put thread local
+void registerThreadAsChild(QthreadPoolWorker;) | register thread as child
+void removeThreadLocal(QObject;) | remove thread local
+void setPluginThreadContext(QPluginInterface;) | set plugin thread context
+void _setThreadCellFont(I) | set thread cell font
+void setThreadDependentButtons(Z) | set thread dependent buttons
+void _setThreadDependentDebugMenuItems(Z) | set thread dependent debug menu items
+void setThreadList(Qjavax.swing.JList;) | set thread list
+void setThreadPasswordHandler(QSEPasswordListener;) | set thread password handler
+void setThreadPriority(I) | set thread priority
+void setThreadReader(WBThreadReader wbThreadReader) | set thread reader
+void _switchToInterpreterForThreadReference(QThreadReference;) | switch to interpreter for thread reference
+void unsetThreadPasswordHandler() | unset thread password handler
+void updateThreadList() | update thread list
+void XXXtestThreadShouldDie() | xxx test thread should die

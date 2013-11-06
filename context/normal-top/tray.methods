@@ -1,0 +1,8 @@
+SystemTraySWT getSystemTraySWT() | get system tray swt
+TrayType createTrayType(String name, int condCount, String sSize, Category c, boolean sad) | create tray type
+TrayWindow getTray() | get tray
+void createTrayMenu() | create tray menu
+void launchTray() | launch tray
+void minimizeToTray(QShellEvent;) | minimize to tray
+void removeSysTrayMenuListener(SysTrayMenuListener listener) | remove sys tray menu listener
+void updateTrayMenu() | update tray menu

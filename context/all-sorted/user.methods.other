@@ -1,0 +1,419 @@
+../3-Phrases/3PS:boolean isUserInRole(String arg0) | is user in role
+../3-Phrases/3PS:boolean isUserPassword(String password) | is user password
+../3-Phrases/3PS:static boolean isUserAuthorisedForBlogAsBlogContributor(Blog blog) | boolean is user authorised for blog as blog contributor
+../3-Phrases/Base_Verb:static CyrusUser findByPrimaryKey(long userId) | cyrus user find by primary key
+../3-Phrases/Base_Verb:ListConfigurationVO getForUserByTypeAndName(Type type, String name, UserVO user) | get for user by type and name
+../3-Phrases/Base_Verb:Set getLocksByUserId(long userId) | get locks by user id
+../3-Phrases/Base_Verb:void removeUserFromGroup(String userName, String groupName) | remove user from group
+../3-Phrases/Base_Verb:UserProfile getUserProfileById(IPerson person, int profileId) | get user profile by id
+../3-Phrases/Base_Verb:byte readUserMemory(int memAddr, int noBytes) | read user memory
+../3-Phrases/Base_Verb:String getASelectUserId(HttpServletRequest request) | get a select user id
+../3-Phrases/Base_Verb:List getUserDTOs() | get user dt os
+../3-Phrases/Base_Verb:String getUserName() | get user name
+../3-Phrases/Base_Verb:long getUserId(String login) | get user id
+../3-Phrases/Base_Verb:void setOnlineUserDataSourceName(String dataSourceName) | set online user data source name
+../3-Phrases/Base_Verb:String getNewUserFormId() | get new user form id
+../3-Phrases/Base_Verb:void setUserProperty(String key, Object value) | set user property
+../3-Phrases/Base_Verb:Class getUserObjectEditorClass() | get user object editor class
+../3-Phrases/Base_Verb:void setCurrentUserData(String userName, String userPassword) | set current user data
+../3-Phrases/Base_Verb:void setUserDAO(UserDAO userDAO) | set user dao
+../3-Phrases/Base_Verb:String getUserName() | get user name
+../3-Phrases/Base_Verb:void setUserModel(UserModel userModel) | set user model
+../3-Phrases/Base_Verb:void setUserrole(MochaListModel userrole) | set user role
+../3-Phrases/Base_Verb:AffineTransform getUserSpaceTransform() | get user space transform
+../3-Phrases/Base_Verb:Object getUserData(Object key) | get user data
+../3-Phrases/Base_Verb:Object getUserProperty(String ns, String name) | get user property
+../3-Phrases/Base_Verb:void setUserDao(ApplicationUserDAO userDao) | set user dao
+../3-Phrases/Base_Verb:void testSessionUserFunc() | test session user func
+../3-Phrases/Base_Verb:void setUserHostId(int userHostId) | set user host id
+../3-Phrases/Base_Verb:Principal getUserPrincipal() | get user principal
+../3-Phrases/Base_Verb:UserContext getUserContext() | get user context
+../3-Phrases/Base_Verb:String getUserName() | get user name
+../3-Phrases/Base_Verb:Map getUserInputs() | get user inputs
+../3-Phrases/Base_Verb:NodeSorter getUserSorter() | get user sorter
+../3-Phrases/Base_Verb:String getSMTPUserPass() | get smtp user pass
+../3-Phrases/Base_Verb:Event getUserEvent(String name, String optionString) | get user event
+../3-Phrases/Base_Verb:int getUser2_ID() | get user 2  id
+../3-Phrases/DrawSWF:FontUIResource getUserTextFont() | get user text font
+../3-Phrases/DrawSWF:FontUIResource getUserTextFont() | get user text font
+../3-Phrases/DrawSWF:FontUIResource getUserTextFont() | get user text font
+../3-Phrases/drjava2:RegionListUserObj<QR;> getUserObjForRegion(QR;) | get user obj for region
+../3-Phrases/drjava2:RegionListUserObj<QR;> makeRegionListUserObj(QR;) | make region list user obj
+../3-Phrases/drjava2:void RegionListUserObj(QR;) | region list user obj
+../3-Phrases/drjava2:RegionTreeUserObj<QBreakpoint;> makeRegionTreeUserObj(QBreakpoint;) | make region tree user obj
+../3-Phrases/drjava2:void BreakpointRegionTreeUserObj(QBreakpoint;) | breakpoint region tree user obj
+../3-Phrases/drjava2:RegionListUserObj<QBrowserDocumentRegion;> getUserObjForRegion(QBrowserDocumentRegion;) | get user obj for region
+../3-Phrases/drjava2:RegionListUserObj<QBrowserDocumentRegion;> makeRegionListUserObj(QBrowserDocumentRegion;) | make region list user obj
+../3-Phrases/drjava2:void BrowserHistoryListUserObj(QBrowserDocumentRegion;) | browser history list user obj
+../3-Phrases/drjava2:RegionTreeUserObj<QR;> makeRegionTreeUserObj(QR;) | make region tree user obj
+../3-Phrases/drjava2:void RegionTreeUserObj(QR;) | region tree user obj
+../3-Phrases/drjava2:ItemT getNodeUserObject(QDefaultMutableTreeNode;) | get node user object
+../3-Phrases/freecol2:String getUserDirectory() | get user directory
+../3-Phrases/freecol2:UserConnectionHandler getUserConnectionHandler() | get user connection handler
+../3-Phrases/freemind:Object getUserObject() | get user object
+../3-Phrases/freemind:Object getUserObject() | get user object
+../3-Phrases/freemind:void setUserObject(QObject;) | set user object
+../3-Phrases/freemind:String popLockingUserOfOldLock() | pop locking user of old lock
+../3-Phrases/freemind:String popLockingUserOfOldLock() | pop locking user of old lock
+../3-Phrases/freemind:void buildSelectUserGui() | build select user gui
+../3-Phrases/freemind:void showSelectUserDialog() | show select user dialog
+../3-Phrases/freemind:String getMapShareUserName() | get map share user name
+../3-Phrases/freemind:long getRemindUserAt() | get remind user at
+../3-Phrases/freemind:void setRemindUserAt(J) | set remind user at
+../3-Phrases/gantt:void setUserInfo(QString;QString;) | set user info
+../3-Phrases/gantt:void setUserInfo(QString;QString;) | set user info
+../3-Phrases/gantt:void setUserInfo(QString;QString;) | set user info
+../3-Phrases/gantt:void setUserInfo(QString;QString;) | set user info
+../3-Phrases/gantt:Object getSelectedUserObject() | get selected user object
+../3-Phrases/gantt:FontUIResource getUserTextFont() | get user text font
+../3-Phrases/gantt:void searchUserColor() | search user color
+../3-Phrases/gantt:Object getUserObject() | get user object
+../3-Phrases/hibernate-3.3.1.GA:String[] getUserProvidedAliases(QString;[QString;) | get user provided aliases
+../3-Phrases/hibernate-3.3.1.GA:String getUserProvidedAlias(QString;QString;) | get user provided alias
+../3-Phrases/hibernate-3.3.1.GA:String[] getUserProvidedAliases(QString;[QString;) | get user provided aliases
+../3-Phrases/hibernate-3.3.1.GA:String getUserProvidedAlias(QString;QString;) | get user provided alias
+../3-Phrases/hibernate-3.3.1.GA:String[] getUserAliases() | get user aliases
+../3-Phrases/hibernate-3.3.1.GA:String[] getUserProvidedAliases(QString;[QString;) | get user provided aliases
+../3-Phrases/hibernate-3.3.1.GA:String getUserProvidedAlias(QString;QString;) | get user provided alias
+../3-Phrases/hibernate-3.3.1.GA:String getUserTransactionName() | get user transaction name
+../3-Phrases/hibernate-3.3.1.GA:String getUserTransactionName() | get user transaction name
+../3-Phrases/hibernate-3.3.1.GA:String getUserTransactionName() | get user transaction name
+../3-Phrases/hibernate-3.3.1.GA:String getUserTransactionName() | get user transaction name
+../3-Phrases/hibernate-3.3.1.GA:String getUserTransactionName() | get user transaction name
+../3-Phrases/hibernate-3.3.1.GA:String resolveUserTransactionName(QProperties;) | resolve user transaction name
+../3-Phrases/hibernate-3.3.1.GA:UserTransaction getUserTransaction() | get user transaction
+../3-Phrases/hibernate-3.3.1.GA:String getUserTransactionName() | get user transaction name
+../3-Phrases/hibernate-3.3.1.GA:UserTransaction getUserTransaction() | get user transaction
+../3-Phrases/hibernate-3.3.1.GA:String getUserTransactionName() | get user transaction name
+../3-Phrases/hibernate-3.3.1.GA:String getUserTransactionName() | get user transaction name
+../3-Phrases/hibernate-3.3.1.GA:String getUserTransactionName() | get user transaction name
+../3-Phrases/hibernate-3.3.1.GA:String getUserTransactionName() | get user transaction name
+../3-Phrases/hibernate-3.3.1.GA:String getUserTransactionName() | get user transaction name
+../3-Phrases/hibernate-3.3.1.GA:String getUserTransactionName() | get user transaction name
+../3-Phrases/hibernate-3.3.1.GA:String getUserTransactionName() | get user transaction name
+../3-Phrases/hibernate-3.3.1.GA:String getUserTransactionName() | get user transaction name
+../3-Phrases/hibernate-3.3.1.GA:String getUserTransactionName() | get user transaction name
+../3-Phrases/hibernate-3.3.1.GA:UserCollectionType getUserType() | get user type
+../3-Phrases/hibernate-3.3.1.GA:InputStream getUserResourceAsStream(QString;) | get user resource as stream
+../3-Phrases/hsqldb:UserManager getUserManager() | get user manager
+../3-Phrases/hsqldb:boolean isUserActive(QString;) | is user active
+../3-Phrases/hsqldb:String getUserIdentifier() | get user identifier
+../3-Phrases/hsqldb:String getAlterUserDDL() | get alter user ddl
+../3-Phrases/hsqldb:String getCreateUserDDL() | get create user ddl
+../3-Phrases/hsqldb:void checkUserViewNotExists(QSession;QString;QString;) | check user view not exists
+../3-Phrases/hsqldb:void checkUserTableNotExists(QSession;QString;QString;) | check user table not exists
+../3-Phrases/hsqldb:Table getUserTable(QSession;QString;QString;) | get user table
+../3-Phrases/hsqldb:Table findUserTable(QSession;QString;QString;) | find user table
+../3-Phrases/hsqldb:Table findUserTableForIndex(QSession;QString;QString;) | find user table for index
+../3-Phrases/hsqldb:String getUserName() | get user name
+../3-Phrases/hsqldb:int getMaxUserNameLength() | get max user name length
+../3-Phrases/hsqldb:Set getUserDefinedPropertyData() | get user defined property data
+../3-Phrases/hsqldb:boolean isUserDefinedProperty(QString;) | is user defined property
+../3-Phrases/hsqldb:void updateUserSettings() | update user settings
+../3-Phrases/iReport:Object getUserObject() | get user object
+../3-Phrases/iReport:void setUserObject(QObject;) | set user object
+../3-Phrases/Jabref:void setupUserTable() | setup user table
+../3-Phrases/Jabref:void testUserFieldAndFormat() | test user field and format
+../3-Phrases/jajuk:boolean isUserLaunch() | is user launch
+../3-Phrases/jajuk:void setUserLaunch(Z) | set user launch
+../3-Phrases/javaHMO:String getUserInfo() | get user info
+../3-Phrases/jbidwatcher:void checkUserPassStartup() | check user pass startup
+../3-Phrases/jbidwatcher:String getUserId() | get user id
+../3-Phrases/jbidwatcher:void getUserSetup() | get user setup
+../3-Phrases/Jftp:void setAllowUserInteraction(Z) | set allow user interaction
+../3-Phrases/Jftp:boolean getAllowUserInteraction() | get allow user interaction
+../3-Phrases/Jftp:Principal getUserPrincipal() | get user principal
+../3-Phrases/Jftp:byte[] getUserSessionKey([B) | get user session key
+../3-Phrases/Jftp:void getUserSessionKey([B[BI) | get user session key
+../3-Phrases/JHotDraw-7.0.8:void requestUserAttention() | request user attention
+../3-Phrases/JRobin:String getUserHomeDirectory() | get user home directory
+../3-Phrases/JRobin:void constructUserInterface() | construct user interface
+../3-Phrases/JRobin:void constructUserInterface() | construct user interface
+../3-Phrases/JRobin:void constructUserInterface() | construct user interface
+../3-Phrases/PlanetaMessenger:String getUserHomeDirectory() | get user home directory
+../3-Phrases/PlanetaMessenger:JUserInfo getUserInfo(JI) | get user info
+../3-Phrases/PlanetaMessenger:JUserInfo getUserInfo(I) | get user info
+../3-Phrases/PlanetaMessenger:boolean hasPluginUserInProfile(J) | has plugin user in profile
+../3-Phrases/PlanetaMessenger:String getUserName() | get user name
+../3-Phrases/PlanetaMessenger:String getUserPassword() | get user password
+../3-Phrases/PlanetaMessenger:CONS JUserInfo(JQjava.lang.String;Qjava.lang.String;Qjava.lang.String;IS) | j user info
+../3-Phrases/PlanetaMessenger:java.lang.String getUserId() | get user id
+../3-Phrases/PlanetaMessenger:CONS JMOSAddRegUserDlg(QJPlugin;Qjava.awt.Frame;Qjava.lang.String;ZI) | jmos add reg user dlg
+../3-Phrases/PlanetaMessenger:void setUserId(Qjava.lang.String;) | set user id
+../3-Phrases/PlanetaMessenger:void onRegisterUserSucessfull() | on register user sucessfull
+../3-Phrases/PlanetaMessenger:void onRegisterUserFailed() | on register user failed
+../3-Phrases/PlanetaMessenger:void onUnregisterUserSucessfull() | on unregister user sucessfull
+../3-Phrases/PlanetaMessenger:CONS JMOSUnregisterUserDlg(QJPlugin;Qjava.awt.Frame;Z) | jmos unregister user dlg
+../3-Phrases/PlanetaMessenger:void onRegisterUserSucessfull() | on register user sucessfull
+../3-Phrases/PlanetaMessenger:void onRegisterUserFailed() | on register user failed
+../3-Phrases/PlanetaMessenger:void onUnregisterUserSucessfull() | on unregister user sucessfull
+../3-Phrases/PlanetaMessenger:void setUserObject(Qjava.lang.Object;) | set user object
+../3-Phrases/PlanetaMessenger:void onAddUserToContactList(Qjava.lang.String;) | on add user to contact list
+../3-Phrases/PlanetaMessenger:void onRemoveUserFromContactList(Qjava.lang.String;) | on remove user from contact list
+../3-Phrases/PlanetaMessenger:void fireOnAddUserToContactList(Qjava.lang.String;) | fire on add user to contact list
+../3-Phrases/PlanetaMessenger:void fireOnRemoveUserFromContactList(Qjava.lang.String;) | fire on remove user from contact list
+../3-Phrases/PlanetaMessenger:void fireOnRegisterUserSucessfull() | fire on register user sucessfull
+../3-Phrases/PlanetaMessenger:void fireOnRegisterUserFailed() | fire on register user failed
+../3-Phrases/PlanetaMessenger:void fireOnUnregisterUserSuccessfull() | fire on unregister user successfull
+../3-Phrases/PlanetaMessenger:void fireOnStartUserTyping(Qjava.lang.String;) | fire on start user typing
+../3-Phrases/PlanetaMessenger:void fireOnFinishUserTyping(Qjava.lang.String;) | fire on finish user typing
+../3-Phrases/PlanetaMessenger:String getUserId() | get user id
+../3-Phrases/PlanetaMessenger:void onRegisterUserSucessfull() | on register user sucessfull
+../3-Phrases/PlanetaMessenger:void onRegisterUserFailed() | on register user failed
+../3-Phrases/PlanetaMessenger:void onUnregisterUserSucessfull() | on unregister user sucessfull
+../3-Phrases/PlanetaMessenger:void setUserId(Qjava.lang.String;) | set user id
+../3-Phrases/PlanetaMessenger:java.lang.String getUserId() | get user id
+../3-Phrases/PlanetaMessenger:void onAddUserToContactList(Qjava.lang.String;) | on add user to contact list
+../3-Phrases/PlanetaMessenger:void onRemoveUserFromContactList(Qjava.lang.String;) | on remove user from contact list
+../3-Phrases/PlanetaMessenger:CONS JUserDetails() | j user details
+../3-Phrases/PlanetaMessenger:void setUserId(J) | set user id
+../3-Phrases/PlanetaMessenger:long getUserId() | get user id
+../3-Phrases/PlanetaMessenger:void onUserCreated(J) | on user created
+../3-Phrases/PlanetaMessenger:void onCreateUserError() | on create user error
+../3-Phrases/PlanetaMessenger:void setUserId(Qjava.lang.String;) | set user id
+../3-Phrases/PlanetaMessenger:java.lang.String getUserId() | get user id
+../3-Phrases/PlanetaMessenger:void setUserName(Qjava.lang.String;) | set user name
+../3-Phrases/PlanetaMessenger:java.lang.String getUserName() | get user name
+../3-Phrases/PlanetaMessenger:java.lang.String formatNewUserString(QJUserDetails;) | format new user string
+../3-Phrases/PlanetaMessenger:java.lang.String formatSearchUserString(J) | format search user string
+../3-Phrases/PlanetaMessenger:java.lang.String formatAddUserString(QJUserDetails;QJSystemDetails;J) | format add user string
+../3-Phrases/PlanetaMessenger:void onAddUserToContactList(Qjava.lang.String;) | on add user to contact list
+../3-Phrases/PlanetaMessenger:void onRemoveUserFromContactList(Qjava.lang.String;) | on remove user from contact list
+../3-Phrases/PlanetaMessenger:void onCreateUserError() | on create user error
+../3-Phrases/PlanetaMessenger:void onUserCreated(J) | on user created
+../3-Phrases/PlanetaMessenger:void onAddUserToContactList(Qjava.lang.String;) | on add user to contact list
+../3-Phrases/PlanetaMessenger:void onRemoveUserFromContactList(Qjava.lang.String;) | on remove user from contact list
+../3-Phrases/PlanetaMessenger:void onAddUserToContactList(Qjava.lang.String;) | on add user to contact list
+../3-Phrases/PlanetaMessenger:void onRemoveUserFromContactList(Qjava.lang.String;) | on remove user from contact list
+../3-Phrases/PlanetaMessenger:void onAddUserToContactList(Qjava.lang.String;) | on add user to contact list
+../3-Phrases/PlanetaMessenger:void onRemoveUserFromContactList(Qjava.lang.String;) | on remove user from contact list
+../3-Phrases/PlanetaMessenger:void onAddUserToContactList(Qjava.lang.String;) | on add user to contact list
+../3-Phrases/PlanetaMessenger:void onRemoveUserFromContactList(Qjava.lang.String;) | on remove user from contact list
+../3-Phrases/PlanetaMessenger:void chatUserUpdateReceived(Qymsg.network.event.SessionChatEvent;) | chat user update received
+../3-Phrases/prefuse:Object getUserData() | get user data
+../3-Phrases/SweetHome3D:Dimension getUserScreenSize() | get user screen size
+../3-Phrases/SweetHome3D:UserPreferences getUserPreferences() | get user preferences
+../3-Phrases/SweetHome3D:CONS AppletUserPreferences([QURL;[QURL;) | applet user preferences
+../3-Phrases/SweetHome3D:UserPreferences getUserPreferences() | get user preferences
+../3-Phrases/SweetHome3D:DialogView createUserPreferencesView(QUserPreferences;QUserPreferencesController;) | create user preferences view
+../3-Phrases/SweetHome3D:CONS DefaultUserPreferences() | default user preferences
+../3-Phrases/SweetHome3D:CONS FileUserPreferences() | file user preferences
+../3-Phrases/SweetHome3D:UserPreferences getUserPreferences() | get user preferences
+../3-Phrases/SweetHome3D:void setUserPreferences(QUserPreferences;) | set user preferences
+../3-Phrases/SweetHome3D:UserPreferences getUserPreferences() | get user preferences
+../3-Phrases/SweetHome3D:String getUserCode() | get user code
+../3-Phrases/SweetHome3D:DialogView createUserPreferencesView(QUserPreferences;QUserPreferencesController;) | create user preferences view
+../3-Phrases/SweetHome3D:void addUserPreferencesListener(QUserPreferences;) | add user preferences listener
+../3-Phrases/SweetHome3D:void updateUserPreferencesRecentHomes(QList<QString;>;) | update user preferences recent homes
+../3-Phrases/SweetHome3D:void modifyUserPreferences() | modify user preferences
+../3-Phrases/SweetHome3D:DialogView createUserPreferencesView(QUserPreferences;QUserPreferencesController;) | create user preferences view
+../3-Phrases/SweetHome3D:void testUserPreferencesPanel() | test user preferences panel
+../3-Phrases/vuze:void setUserObject(QObject;) | set user object
+../3-Phrases/vuze:Object getUserObject() | get user object
+../3-Phrases/vuze:String getUserMessage() | get user message
+../3-Phrases/vuze:void setUserMessage(QString;) | set user message
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:String getUserAgent() | get user agent
+../3-Phrases/vuze:String getUserAgent() | get user agent
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:String getUserComment() | get user comment
+../3-Phrases/vuze:void setUserComment(QString;) | set user comment
+../3-Phrases/vuze:void getUserRating([QString;[QString;J) | get user rating
+../3-Phrases/vuze:void setUserRating(QTOTorrent;IZJQPlatformMessengerListener;) | set user rating
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:String getUserAgent() | get user agent
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:void setHighestUserPromptedVersion(I) | set highest user prompted version
+../3-Phrases/vuze:int getHighestUserPromptedVersion() | get highest user prompted version
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:CONS SingleUserRatingInfo(QTOTorrent;) | single user rating info
+../3-Phrases/vuze:void setUserRating(QTOTorrent;I) | set user rating
+../3-Phrases/vuze:void removeUserRating(QTOTorrent;) | remove user rating
+../3-Phrases/vuze:int getUserRating(QTOTorrent;) | get user rating
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:String getUserAgent() | get user agent
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:int promptUserOnDisable(QUIInstance;) | prompt user on disable
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:UIFunctionsUserPrompter getUserPrompter(QString;QString;[QString;I) | get user prompter
+../3-Phrases/vuze:Object getUserData(QString;) | get user data
+../3-Phrases/vuze:void setUserData(QString;QObject;) | set user data
+../3-Phrases/vuze:void removeUserData(QString;) | remove user data
+../3-Phrases/vuze:String getUserName() | get user name
+../3-Phrases/vuze:String getUserName() | get user name
+../3-Phrases/vuze:UIFunctionsUserPrompter getUserPrompter(QString;QString;[QString;I) | get user prompter
+../3-Phrases/vuze:void fillUserInfoMenu(QMenu;) | fill user info menu
+../3-Phrases/vuze:LoginInfo getUserInfo() | get user info
+../3-Phrases/vuze:void setUserInfo(QString;QString;QString;QString;) | set user info
+../3-Phrases/vuze:void setUserInfo(QMap;) | set user info
+../3-Phrases/vuze:boolean onlyContainsUserCerts() | only contains user certs
+../3-Phrases/vuze:DERInteger getUserCertificate() | get user certificate
+../3-Phrases/vuze:Object getUserData() | get user data
+../3-Phrases/vuze:Object getUserData() | get user data
+../3-Phrases/vuze:Object getUserData() | get user data
+../3-Phrases/vuze:Object getUserData() | get user data
+../3-Phrases/vuze:String getUserComment() | get user comment
+../3-Phrases/vuze:void setUserComment(QString;) | set user comment
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:String getUserComment() | get user comment
+../3-Phrases/vuze:void setUserComment(QString;) | set user comment
+../3-Phrases/vuze:void setUserComment(QString;) | set user comment
+../3-Phrases/vuze:String getUserComment() | get user comment
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:void setUserMessage(Z) | set user message
+../3-Phrases/vuze:boolean isUserMessage() | is user message
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:String getUserPath() | get user path
+../3-Phrases/vuze:File getUserFile(QString;) | get user file
+../3-Phrases/vuze:String getUserDataDirectory() | get user data directory
+../3-Phrases/vuze:void requestUserAttention(IQObject;) | request user attention
+../3-Phrases/vuze:String getUserDataDirectory() | get user data directory
+../3-Phrases/vuze:void requestUserAttention(IQObject;) | request user attention
+../3-Phrases/vuze:String getUserDataDirectory() | get user data directory
+../3-Phrases/vuze:void requestUserAttention(IQObject;) | request user attention
+../3-Phrases/vuze:String getUserDataDirectory() | get user data directory
+../3-Phrases/vuze:void requestUserAttention(IQObject;) | request user attention
+../3-Phrases/vuze:String getUserDataDirectory() | get user data directory
+../3-Phrases/vuze:void requestUserAttention(IQObject;) | request user attention
+../3-Phrases/vuze:String getUserAppData() | get user app data
+../3-Phrases/vuze:String getUserDocumentsDir() | get user documents dir
+../3-Phrases/vuze:String getUserMusicDir() | get user music dir
+../3-Phrases/vuze:String getUserVideoDir() | get user video dir
+../3-Phrases/vuze:String getUserAppData() | get user app data
+../3-Phrases/vuze:String getUserDocumentsDir() | get user documents dir
+../3-Phrases/vuze:String getUserMusicDir() | get user music dir
+../3-Phrases/vuze:String getUserVideoDir() | get user video dir
+../3-Phrases/vuze:File getPluginUserFile(QString;) | get plugin user file
+../3-Phrases/vuze:void setUserAgent(QString;) | set user agent
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:int getMinimumRequiredUserMode() | get minimum required user mode
+../3-Phrases/vuze:void setMinimumRequiredUserMode(I) | set minimum required user mode
+../3-Phrases/vuze:void setUserData(QString;QObject;) | set user data
+../3-Phrases/vuze:void removeUserData(QString;) | remove user data
+../3-Phrases/vuze:Object getUserData(QString;) | get user data
+../3-Phrases/vuze:String getUserDir() | get user dir
+../3-Phrases/vuze:String getUserDir() | get user dir
+../3-Phrases/vuze:String getAzureusUserDir() | get azureus user dir
+../3-Phrases/vuze:File getPluginUserFile(QString;) | get plugin user file
+../3-Phrases/vuze:String getUserAgent() | get user agent
+../3-Phrases/vuze:void setUserAgent(QString;) | set user agent
+../3-Phrases/vuze:String getUserAgent() | get user agent
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:CONS TorrentAttributeUserCommentImpl() | torrent attribute user comment impl
+../3-Phrases/vuze:void recordUserInput(QString;) | record user input
+../3-Phrases/vuze:void recordUserAbort() | record user abort
+../3-Phrases/vuze:int getMinimumRequiredUserMode() | get minimum required user mode
+../3-Phrases/vuze:void setMinimumRequiredUserMode(I) | set minimum required user mode
+../3-Phrases/vuze:void setUserObject(QObject;) | set user object
+../3-Phrases/vuze:Object getUserObject() | get user object
+../3-Phrases/vuze:String getUserDir() | get user dir
+../3-Phrases/vuze:String getUserDir() | get user dir
+../3-Phrases/vuze:String getAzureusUserDir() | get azureus user dir
+../3-Phrases/vuze:File getPluginUserFile(QString;) | get plugin user file
+../3-Phrases/vuze:Object getUserData(QObject;) | get user data
+../3-Phrases/vuze:void setUserData(QObject;QObject;) | set user data
+../3-Phrases/vuze:void requestUserAttention(IQObject;) | request user attention
+../3-Phrases/vuze:UserProfile getUserProfile() | get user profile
+../3-Phrases/vuze:boolean isValidUserType(QString;) | is valid user type
+../3-Phrases/vuze:String getUserType() | get user type
+../3-Phrases/vuze:void setUserType(QString;) | set user type
+../3-Phrases/vuze:void InMemoryUserManager(QString;) | in memory user manager
+../3-Phrases/vuze:CONS MultiUserConsoleInput(QString;QAzureusCore;QReader;QPrintStream;QBoolean;QUserProfile;) | multi user console input
+../3-Phrases/vuze:UserManager getUserManager() | get user manager
+../3-Phrases/vuze:void saveUserManagerConfig(QPrintStream;) | save user manager config
+../3-Phrases/vuze:void AddUserCommand() | add user command
+../3-Phrases/vuze:void DeleteUserCommand() | delete user command
+../3-Phrases/vuze:void ModifyUserCommand() | modify user command
+../3-Phrases/vuze:void promptUserForComment([QDownloadManager;) | prompt user for comment
+../3-Phrases/vuze:UIFunctionsUserPrompter getUserPrompter(QString;QString;[QString;I) | get user prompter
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:UserManager initUserManager() | init user manager
+../3-Phrases/vuze:void displayUserMessage(QMap;) | display user message
+../3-Phrases/weka:void setUserOptions([QString;) | set user options
+../3-Phrases/weka:String[] getUserOptions() | get user options
+../3-Phrases/weka:void setUserOptions([QString;) | set user options
+../3-Phrases/weka:String[] getUserOptions() | get user options
+../3-Phrases/weka:boolean checkCanonicalUserOptions() | check canonical user options
+../3-Phrases/weka:void emitUserCode() | emit user code
+../3-Phrases/weka:void setUpUserToolBar() | set up user tool bar
+../3-Phrases/weka:void addToUserToolBar(QMetaBean;Z) | add to user tool bar
+../3-Phrases/weka:void loadUserComponents() | load user components
+../3-Phrases/weka:void installWindowListenerForSavingUserBeans() | install window listener for saving user beans
+../3-Phrases/weka:void removeUserToolBarBeans(QVector;) | remove user tool bar beans
+../3-Phrases/weka:void setUserObject(QObject;) | set user object
+../3-Phrases/weka:void setUserObject(QObject;) | set user object
+../3-Phrases/weka:void setUserObject(QObject;) | set user object
+../3-Phrases/weka:void setUserObject(QObject;) | set user object
+../3-Phrases/weka:void setUserOptions([QString;) | set user options
+../3-Phrases/weka:String[] getUserOptions() | get user options
+../3-Phrases/weka:boolean checkCanonicalUserOptions() | check canonical user options

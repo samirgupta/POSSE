@@ -1,0 +1,24 @@
+boolean doTimeoutChecks() | do timeout checks
+boolean getChecksTurnedOff() | get checks turned off
+int getChecksum(RandomAccessFile ttf, int offset, int length) | get checksum
+Result sqlExecuteCompiledNoPreChecks(QCompiledStatement;[QObject;) | sql execute compiled no pre checks
+Result sqlExecuteDirectNoPreChecks(QString;) | sql execute direct no pre checks
+String checksTurnedOffTipText() | checks turned off tip text
+String getChecksum() | get checksum
+String getFileChecksum(QFile;) | get file checksum
+String getInstancesChecksum(QInstances;) | get instances checksum
+String getStringChecksum(QString;) | get string checksum
+void addChecksum(String checksum) | add checksum
+void doConnectionChecks() | do connection checks
+void doConnectionTimeoutChecks() | do connection timeout checks
+void doFileExistenceChecks(QDiskManagerFileInfoSet;[ZQDownloadManager;Z) | do file existence checks
+void doTimeoutChecks() | do timeout checks
+void doUDPConnectionChecks(I) | do udp connection checks
+void enableUpdateChecks() | enable update checks
+void processPieceChecks() | process piece checks
+void runInitialChecks() | run initial checks
+void setChecksTurnedOff(Z) | set checks turned off
+void setChecksum(QString;) | set checksum
+void setColumnChecks(QString;) | set column checks
+void turnChecksOff() | turn checks off
+void turnChecksOn() | turn checks on

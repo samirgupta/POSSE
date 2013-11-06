@@ -1,0 +1,15 @@
+double getEstimatedErrorsForBranch(QInstances;) | get estimated errors for branch
+double getSizeOfBranch() | get size of branch
+Instances instancesDownBranch(IQInstances;) | instances down branch
+int getBranch(QDirection;) | get branch
+PredictionNode getChildForBranch(I) | get child for branch
+ReferenceInstances instancesDownBranch(IQInstances;) | instances down branch
+void buildBranch(QTreeNode;[QString;I) | build branch
+void growBranch(QDirection;I) | grow branch
+void removeBranch(QDirection;) | remove branch
+void repairBranch(QTrieBranch;I) | repair branch
+void selectBranch(QMindMapNode;Z) | select branch
+void selectBranch(QNodeView;Z) | select branch
+void setBranch(QDirection;I) | set branch
+void setChildForBranch(IQPredictionNode;) | set child for branch
+void setCurrentBranch(int moveBranchNo) | set current branch

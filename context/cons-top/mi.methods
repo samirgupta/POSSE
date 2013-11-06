@@ -1,0 +1,129 @@
+CONS AudioMixerOption(QString;) | audio mixer option
+CONS AudioMixerOption(QString;QOptionGroup;) | audio mixer option
+CONS AudioMixerOptionUI(QAudioMixerOption;Z) | audio mixer option ui
+CONS BuildColonyMission(QAIMain;QAIUnit;) | build colony mission
+CONS BuildColonyMission(QAIMain;QAIUnit;QTile;I) | build colony mission
+CONS BuildColonyMission(QAIMain;QElement;) | build colony mission
+CONS BuildColonyMission(QAIMain;QXMLStreamReader;) | build colony mission
+CONS CashInTreasureTrainMission(QAIMain;QAIUnit;) | cash in treasure train mission
+CONS CashInTreasureTrainMission(QAIMain;QElement;) | cash in treasure train mission
+CONS CashInTreasureTrainMission(QAIMain;QXMLStreamReader;) | cash in treasure train mission
+CONS ChisqMixture() | chisq mixture
+CONS ClearMinefieldAction(I) | clear minefield action
+CONS DefendSettlementMission(QAIMain;QAIUnit;QSettlement;) | defend settlement mission
+CONS DefendSettlementMission(QAIMain;QElement;) | defend settlement mission
+CONS DefendSettlementMission(QAIMain;QXMLStreamReader;) | defend settlement mission
+CONS DeployMinefieldDisplay(QClientGUI;) | deploy minefield display
+CONS EncryptedMindMapNode(QObject;QFreeMindMain;) | encrypted mind map node
+CONS EnsembleModelMismatchException(QString;) | ensemble model mismatch exception
+CONS FreeMind() | free mind
+CONS FreeMindApplet() | free mind applet
+CONS FreeMindSplash(QFreeMindMain;) | free mind splash
+CONS FreeMindToolBar() | free mind tool bar
+CONS FreeMindToolBar(I) | free mind tool bar
+CONS FreeMindToolBar(QString;) | free mind tool bar
+CONS FreeMindToolBar(QString;I) | free mind tool bar
+CONS GP4MIDIChannel() | gp 4 midi channel
+CONS GP4MixTableChange() | gp 4 mix table change
+CONS GP4MixTableElement() | gp 4 mix table element
+CONS HitOrMissComparator(QMatcher<QBibtexEntry;>;) | hit or miss comparator
+CONS IdleAtColonyMission(QAIMain;QAIUnit;) | idle at colony mission
+CONS IdleAtColonyMission(QAIMain;QElement;) | idle at colony mission
+CONS IdleAtColonyMission(QAIMain;QXMLStreamReader;) | idle at colony mission
+CONS ImportMindmanagerFiles() | import mind manager files
+CONS IndianBringGiftMission(QAIMain;QAIUnit;QColony;) | indian bring gift mission
+CONS IndianBringGiftMission(QAIMain;QElement;) | indian bring gift mission
+CONS IndianBringGiftMission(QAIMain;QXMLStreamReader;) | indian bring gift mission
+CONS IndianDemandMission(QAIMain;QAIUnit;QColony;) | indian demand mission
+CONS IndianDemandMission(QAIMain;QElement;) | indian demand mission
+CONS IndianDemandMission(QAIMain;QXMLStreamReader;) | indian demand mission
+CONS LayMinefieldAction(II) | lay minefield action
+CONS MiddleOutConstructor() | middle out constructor
+CONS Midi() | midi
+CONS MidiDevices(Qjava.awt.Frame;ZQMidi;) | midi devices
+CONS MidiEventPanelItem() | midi event panel item
+CONS MidiEventPanelItem(QMidiTrackEvent;IZQActionListener;) | midi event panel item
+CONS MidiEventPanel(Qjava.awt.event.ActionListener;) | midi event panel
+CONS MidiInternalFrame(QString;[QImage;QMidi;) | midi internal frame
+CONS MidiTest(QJFrame;ZQMidi;) | midi test
+CONS MidiTrackEvent(IIQMidiEvent;) | midi track event
+CONS MimeMap() | mime map
+CONS MimerSQLDialect() | mim er sql dialect
+CONS MindIcon(QString;) | mind icon
+CONS MindMapArrowLinkModel(QMindMapNode;QMindMapNode;QFreeMindMain;) | mind map arrow link model
+CONS MindMapCloudModel(QMindMapNode;QFreeMindMain;) | mind map cloud model
+CONS MindMapController(QMode;) | mind map controller
+CONS MindMapEdgeModel(QMindMapNode;QFreeMindMain;) | mind map edge model
+CONS MindMapLayout(QMapView;) | mind map layout
+CONS MindMapMapModel(QFreeMindMain;) | mind map map model
+CONS MindMapMapModel(QMindMapNodeModel;QFreeMindMain;) | mind map map model
+CONS MindMapMode() | mind map mode
+CONS MindMapNodeModel(QFreeMindMain;) | mind map node model
+CONS MindMapNodeModel(QObject;QFreeMindMain;) | mind map node model
+CONS MindMapNodesSelection(QString;QString;QString;QString;QString;QList;) | mind map nodes selection
+CONS MindMapPopupMenu(QMindMapController;) | mind map popup menu
+CONS MindMapToolBar(QMindMapController;) | mind map tool bar
+CONS MindMapXMLElement(QFreeMindMain;) | mind map xml element
+CONS MindMapXMLElement(QFreeMindMain;QVector;QHashMap;) | mind map xml element
+CONS Minefield() | minefield
+CONS MinefieldTarget(QCoords;QIBoard;) | minefield target
+CONS MineLayingDialog(QFrame;QEntity;) | mine laying dialog
+CONS MineLayingDialog(QJFrame;QEntity;) | mine laying dialog
+CONS MinFunction() | min function
+CONS MiniBarManager() | mini bar manager
+CONS MiniBarManager(QString;) | mini bar manager
+CONS MiniBar(QMiniBarManager;) | mini bar
+CONS MiniCloseButton(QComposite;) | mini close button
+CONS MiniMapChangeBackgroundAction(QFreeColClient;) | mini map change background action
+CONS MiniMap(QDialog;QClientGUI;QBoardView1;) | mini map
+CONS MiniMap(QDialog;QIGame;QBoardView1;) | mini map
+CONS MiniMap(QFreeColClient;) | mini map
+CONS MiniMap(QJDialog;QClientGUI;QBoardView1;) | mini map
+CONS MiniMap(QJDialog;QIGame;QBoardView1;) | mini map
+CONS MiniMapZoomInAction(QFreeColClient;) | mini map zoom in action
+CONS MiniMapZoomOutAction(QFreeColClient;) | mini map zoom out action
+CONS MinimizeAction(QApplication;) | minimize action
+CONS MiningFieldMetaInfo(QElement;) | mining field meta info
+CONS MiningSchema(QElement;QInstances;QTransformationDictionary;) | mining schema
+CONS MiniReportDisplay(QFrame;QString;) | mini report display
+CONS MiniReportDisplay(QJFrame;QString;) | mini report display
+CONS MIPolyKernel() | mi poly kernel
+CONS MIPolyKernel(QInstances;IDZ) | mi poly kernel
+CONS MIRBFKernel() | mi rbf kernel
+CONS MIRBFKernel(QInstances;ID) | mi rbf kernel
+CONS Misc() | misc
+CONS MiscType() | misc type
+CONS Mission(QAIMain;) | mission
+CONS Mission(QAIMain;QAIUnit;) | mission
+CONS NormalMixture() | normal mixture
+CONS NoSupportForMissingValuesException() | no support for missing values exception
+CONS NoSupportForMissingValuesException(QString;) | no support for missing values exception
+CONS PioneeringMission(QAIMain;QAIUnit;) | pioneering mission
+CONS PioneeringMission(QAIMain;QElement;) | pioneering mission
+CONS PioneeringMission(QAIMain;QXMLStreamReader;) | pioneering mission
+CONS ReportMilitaryAction(QFreeColClient;) | report military action
+CONS ReportMilitaryPanel(QCanvas;) | report military panel
+CONS ScoutingMission(QAIMain;QAIUnit;) | scout ing mission
+CONS ScoutingMission(QAIMain;QElement;) | scout ing mission
+CONS ScoutingMission(QAIMain;QXMLStreamReader;) | scout ing mission
+CONS TransportMission(QAIMain;QAIUnit;) | transport mission
+CONS TransportMission(QAIMain;QElement;) | transport mission
+CONS TransportMission(QAIMain;QXMLStreamReader;) | transport mission
+CONS TypeMismatchException(QString;) | type mismatch exception
+CONS TypeMismatchException(QString;QThrowable;) | type mismatch exception
+CONS TypeMismatchException(QThrowable;) | type mismatch exception
+CONS UnitSeekAndDestroyMission(QAIMain;QAIUnit;QLocation;) | unit seek and destroy mission
+CONS UnitSeekAndDestroyMission(QAIMain;QElement;) | unit seek and destroy mission
+CONS UnitSeekAndDestroyMission(QAIMain;QXMLStreamReader;) | unit seek and destroy mission
+CONS UnitWanderHostileMission(QAIMain;QAIUnit;) | unit wander hostile mission
+CONS UnitWanderHostileMission(QAIMain;QElement;) | unit wander hostile mission
+CONS UnitWanderHostileMission(QAIMain;QXMLStreamReader;) | unit wander hostile mission
+CONS UnitWanderMission(QAIMain;QAIUnit;) | unit wander mission
+CONS UnitWanderMission(QAIMain;QElement;) | unit wander mission
+CONS UnitWanderMission(QAIMain;QXMLStreamReader;) | unit wander mission
+CONS WishRealizationMission(QAIMain;QAIUnit;QWish;) | wish realization mission
+CONS WishRealizationMission(QAIMain;QElement;) | wish realization mission
+CONS WishRealizationMission(QAIMain;QXMLStreamReader;) | wish realization mission
+CONS WorkInsideColonyMission(QAIMain;QAIUnit;QAIColony;) | work inside colony mission
+CONS WorkInsideColonyMission(QAIMain;QElement;) | work inside colony mission
+CONS WorkInsideColonyMission(QAIMain;QXMLStreamReader;) | work inside colony mission

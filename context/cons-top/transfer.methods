@@ -1,0 +1,56 @@
+CONS AllTransfersBar(QGlobalManager;QShell;) | all transfers bar
+CONS CompositeTransferable() | composite transferable
+CONS ConfigSectionTransfer(QAzureusCore;) | config section transfer
+CONS DefaultTransferHandler(QCanvas;QFreeColPanel;) | default transfer handler
+CONS EntryTableTransferHandler(QMainTable;QJabRefFrame;QBasePanel;) | entry table transfer handler
+CONS FtpTransfer(QString;IQString;QString;QString;QString;QString;QString;QConnectionHandler;QVector;) | ftp transfer
+CONS FtpTransfer(QString;IQString;QString;QString;QString;QString;QString;QConnectionHandler;QVector;QString;) | ftp transfer
+CONS FurnitureCatalogTransferHandler(QContentManager;QFurnitureCatalogController;) | furniture catalog transfer handler
+CONS FurnitureTransferHandler(QHome;QContentManager;QHomeController;) | furniture transfer handler
+CONS HomeTransferableList(QList<+QSelectable;>;) | home transferable list
+CONS HsqldbTransferHelper() | hsqldb transfer helper
+CONS HsqldbTransferHelper(QTransferDb;QTraceable;QString;) | hsqldb transfer helper
+CONS HttpTransfer(QString;QString;QVector;QConnectionHandler;) | http transfer
+CONS ImageTransferable(QImage;) | image transferable
+CONS InformixTransferHelper() | informix transfer helper
+CONS InformixTransferHelper(QTransferDb;QTraceable;QString;) | informix transfer helper
+CONS InputStreamTransferable([QDataFlavor;[B) | input stream transferable
+CONS InputStreamTransferable(QDataFlavor;[B) | input stream transferable
+CONS McKoiTransferHelper() | mc koi transfer helper
+CONS McKoiTransferHelper(QTransferDb;QTraceable;QString;) | mc koi transfer helper
+CONS OracleTransferHelper() | oracle transfer helper
+CONS OracleTransferHelper(QTransferDb;QTraceable;QString;) | oracle transfer helper
+CONS PlanTransferHandler(QHome;QContentManager;QHomeController;) | plan transfer handler
+CONS PlaylistEditorTransferHandler(QJTable;) | playlist editor transfer handler
+CONS PlaylistTransferHandler(QComponent;I) | playlist transfer handler
+CONS PostgresTransferHelper() | postgres transfer helper
+CONS PostgresTransferHelper(QTransferDb;QTraceable;QString;) | postgres transfer helper
+CONS PrintTransferTypes() | print transfer types
+CONS SftpTransfer(QString;QString;QString;QString;QString;QString;QVector;QString;) | sftp transfer
+CONS SmbTransfer(QString;QString;QString;QString;QString;QString;QVector;QString;) | smb transfer
+CONS SqlServerTransferHelper() | sql server transfer helper
+CONS SqlServerTransferHelper(QTransferDb;QTraceable;QString;) | sql server transfer helper
+CONS TableTransferHandler(QJTable;) | table transfer handler
+CONS TransferableBibtexEntry([QBibtexEntry;) | transferable bibtex entry
+CONS TransferableEntrySelection([QBibtexEntry;) | transferable entry selection
+CONS TransferableFileLinkSelection(QBasePanel;[QBibtexEntry;) | transferable file link selection
+CONS TransferableObject(QObject;) | transferable object
+CONS TransferableTableRow(QObject;) | transferable table row
+CONS TransferableTreeNode(QObject;) | transferable tree node
+CONS TransferCommon() | transfer common
+CONS TransferDb(QConnection;QTraceable;) | transfer db
+CONS TransferHelper() | transfer helper
+CONS TransferHelper(QTransferDb;QTraceable;QString;) | transfer helper
+CONS TransferMode() | transfer mode
+CONS TransferPanel(QConfigureWizard;QIWizardPanel;) | transfer panel
+CONS TransferProcessor(IQLimitedRateGroup;) | transfer processor
+CONS TransferResultSet() | transfer result set
+CONS TransferResultSet(QResultSet;) | transfer result set
+CONS TransferSpeedValidator(QString;QNumber;) | transfer speed validator
+CONS TransferSQLText(QString;QTraceable;) | transfer sql text
+CONS TransferStatsView(QGlobalManager;QAzureusCore;) | transfer stats view
+CONS TransferTable(QDataAccessPoint;QString;QString;QString;QTraceable;) | transfer table
+CONS TreeTransferHandler(QJTree;IZ) | tree transfer handler
+CONS TreeTransfertHandler() | tree transfert handler
+CONS Win32TransferTypes() | win 32 transfer types
+CONS XMLTransferable([BQString;QString;) | xml transferable

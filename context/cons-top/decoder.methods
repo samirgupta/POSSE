@@ -1,0 +1,16 @@
+CONS AZMessageDecoder() | az message decoder
+CONS BDecoder() | b decoder
+CONS BTMessageDecoder() | bt message decoder
+CONS BufferedDecoder(QTranslator;I) | buffered decoder
+CONS GenericMessageDecoder(QString;QString;) | generic message decoder
+CONS HTTPMessageDecoder() | http message decoder
+CONS HTTPMessageDecoder(QString;) | http message decoder
+CONS LocaleDecoderImpl(QLocaleUtilDecoder;) | locale decoder impl
+CONS LocaleUtilDecoderCandidate(I) | locale util decoder candidate
+CONS LocaleUtilDecoderFallback(I) | locale util decoder fallback
+CONS LocaleUtilDecoderReal(IQCharsetDecoder;) | locale util decoder real
+CONS LTMessageDecoder() | lt message decoder
+CONS MessageStreamDecoderAdapter(QMessageStreamDecoder;) | message stream decoder adapter
+CONS ProtocolDecoderInitial(QTransportHelper;[[BZQByteBuffer;QProtocolDecoderAdapter;) | protocol decoder initial
+CONS ProtocolDecoderPHE(QTransportHelper;[[BQByteBuffer;QByteBuffer;QProtocolDecoderAdapter;) | protocol decoder phe
+CONS ProtocolDecoder(Z) | protocol decoder

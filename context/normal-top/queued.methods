@@ -1,0 +1,13 @@
+AERunnable[] getQueuedTasks() | get queued tasks
+boolean hasAnyQueuedActions() | has any queued actions
+boolean hasQueuedOperations() | has queued operations
+Collection getQueuedOrphans(QString;) | get queued orphans
+int getQueuedCount() | get queued count
+Iterator queuedAdditionIterator() | queued addition iterator
+long getQueuedBytes() | get queued bytes
+TRTrackerServerPeerBase[] getQueuedPeers() | get queued peers
+void decQueuedNrOfBytes(long size) | dec queued nr of bytes
+void openQueuedTorrents(QAzureusCore;) | open queued torrents
+void performQueuedOperations() | perform queued operations
+void QueuedPeer(QString;IIIBBIZZ) | queued peer
+void retryQueuedErrors() | retry queued errors

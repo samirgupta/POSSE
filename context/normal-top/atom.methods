@@ -1,0 +1,29 @@
+Atom parseAtom(QTokens.SExpToken;) | parse atom
+boolean deleteAtom(Atom atom) | delete atom
+boolean setLinkAtomic(QFile;) | set link atomic
+Date parseAtomDate(QString;) | parse atom date
+DescriptorValue calculate(IAtomContainer atomContainer) | calculate
+double calculateDistanceBetweenTwoAtoms(IAtom atom1, IAtom atom2) | calculate distance between two atoms
+IBond newBond(IAtom atom1, IAtom atom2, double order, int stereo) | new bond
+Integer forBoolAtom(QBoolAtom;) | for bool atom
+Integer forNumberAtom(QNumberAtom;) | for number atom
+Integer forTextAtom(QTextAtom;) | for text atom
+int getAtomCount() | get atom count
+int getAtomCount(QTimeUnit;) | get atom count
+int getDirectAtomCount() | get direct atom count
+int getSelectedAtomIndices() | get selected atom indices
+List<QInteger;> forBoolAtom(QBoolAtom;) | for bool atom
+List<QInteger;> forNumberAtom(QNumberAtom;) | for number atom
+List<QInteger;> forTextAtom(QTextAtom;) | for text atom
+Ret forBoolAtom(QBoolAtom;) | for bool atom
+Ret forNumberAtom(QNumberAtom;) | for number atom
+Ret forTextAtom(QTextAtom;) | for text atom
+String forBoolAtom(QBoolAtom;) | for bool atom
+String forNumberAtom(QNumberAtom;) | for number atom
+String forTextAtom(QTextAtom;) | for text atom
+TimeUnit createAtomTimeUnit(QString;) | create atom time unit
+TimeUnit getDirectAtomUnit() | get direct atom unit
+void clearHighlightedAtoms() | clear highlighted atoms
+void constrainCenter(AtomProxy atom, HalfPlaneProxy plane) | constrain center
+void setNewAtomSymbol(String atomSymbol) | set new atom symbol
+void testNewAtomContainer() | test new atom container

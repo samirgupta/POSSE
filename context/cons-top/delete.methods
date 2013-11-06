@@ -1,0 +1,18 @@
+CONS DeleteAction() | delete action
+CONS DeleteAssignmentAction(QResourceManager;QAssignmentContext;QGanttProject;) | delete assignment action
+CONS DeleteChildAction(QControllerAdapter;) | delete child action
+CONS DeletedManager() | deleted manager
+CONS DeleteElementsOperation(QJReportFrame;) | delete elements operation
+CONS DeleteEvent(QObject;QEventSource;) | delete event
+CONS DeleteEvent(QString;QObject;QEventSource;) | delete event
+CONS DeleteEvent(QString;QObject;ZQEventSource;) | delete event
+CONS DeleteFileOnCloseInputStream(QFile;) | delete file on close input stream
+CONS DeleteHumanAction(QResourceManager;QResourceContext;QGanttProject;QUIFacade;) | delete human action
+CONS EntityDeleteAction(QSerializable;[QObject;QObject;QObject;QEntityPersister;ZQSessionImplementor;) | entity delete action
+CONS EntryDeleteChange(QBibtexEntry;QBibtexEntry;) | entry delete change
+CONS MultiTableDeleteExecutor(QHqlSqlWalker;) | multi table delete executor
+CONS ObjectDeletedException(QString;QSerializable;QString;) | object deleted exception
+CONS PostDeleteEvent(QObject;QSerializable;[QObject;QEntityPersister;QEventSource;) | post delete event
+CONS PreDeleteEvent(QObject;QSerializable;[QObject;QEntityPersister;QEventSource;) | pre delete event
+CONS SmbComDeleteDirectory(QString;) | smb com delete directory
+CONS SmbComDelete(QString;) | smb com delete

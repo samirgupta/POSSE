@@ -1,0 +1,5 @@
+parse_action insert_reduce(Qparse_action;Qparse_action;) | insert reduce
+short get_reduce(II) | get reduce
+void debug_reduce(III) | debug reduce
+void report_reduce_reduce(Qlalr_item;Qlalr_item;) | report reduce reduce
+void report_shift_reduce(Qlalr_item;I) | report shift reduce

@@ -1,0 +1,47 @@
+Action getHigherPriority(QAction;) | get higher priority
+ActivityIteratorExpressionBuilder addPriorityEquals(int i) | add priority equals
+boolean doHighPriorityRead() | do high priority read
+boolean doHighPriorityWrite() | do high priority write
+boolean doNormalPriorityRead() | do normal priority read
+boolean doNormalPriorityWrite() | do normal priority write
+boolean isFirstPriority() | is first priority
+boolean isFirstPriority(QDownload;IIQStringBuffer;) | is first priority
+boolean isLowPriority() | is low priority
+boolean isPriority() | is priority
+boolean pisFirstPriority() | pis first priority
+double getPriority() | get priority
+double getPriority(I) | get priority
+int getCallerPriority(ICaller caller) | get caller priority
+int getCombatLossPriority() | get combat loss priority
+int getPriority() | get priority
+int[] getPriorityOffsets() | get priority offsets
+int getResumePriority() | get resume priority
+int getSchedulePriority() | get schedule priority
+int getTransportPriority() | get transport priority
+int infixPriority(C) | infix priority
+int stackPriority(C) | stack priority
+List findByCreateTimeAndPriority(Integer subj, long begin, long end, int priority, PageInfo pageInfo) | find by create time and priority
+List getPriorityProviders() | get priority providers
+RateControlledEntity getNextReadyHighPriorityEntity() | get next ready high priority entity
+RateControlledEntity getNextReadyNormalPriorityEntity() | get next ready normal priority entity
+String getPriorityString(int p) | get priority string
+void addMessage(String type, String origin, int priority, String message, int code) | add message
+void addPriorityProvider(QPiecePriorityProvider;) | add priority provider
+void addTask(String summary, Priority priority, int complete, long dateTime, long startDateTime, long completeDateTime, boolean select) | add task
+void calculatePriorityOffsets(QPeerManager;[I) | calculate priority offsets
+void changePriority(I[QTableRowCore;) | change priority
+void increaseTransportPriority() | increase transport priority
+void informPriorityChange(QDiskManagerFileInfo;) | inform priority change
+void priorityLayout1() | priority layout 1
+void priorityLayout2([I[I[I[I) | priority layout 2
+void removePriorityProvider(QPiecePriorityProvider;) | remove priority provider
+void setCombatLossPriority(I) | set combat loss priority
+void setLowPriority(Z) | set low priority
+void setPriority(I) | set priority
+void setPriority(int newValue) | set priority
+void setPriority(int priority) | set priority
+void setPriority(Z) | set priority
+void setPriority([ZZ) | set priority
+void setResumePriority(I) | set resume priority
+void setThreadPriority(I) | set thread priority
+void setTransportPriority(I) | set transport priority

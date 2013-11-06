@@ -1,0 +1,18 @@
+CONS DownloadScrapeResultImpl(QDownloadImpl;QTRTrackerScraperResponse;) | download scrape result impl
+CONS PRUDPPacketReplyScrape2(I) | prudp packet reply scrape 2
+CONS PRUDPPacketReplyScrape2(QDataInputStream;I) | prudp packet reply scrape 2
+CONS PRUDPPacketReplyScrape(I) | prudp packet reply scrape
+CONS PRUDPPacketReplyScrape(QDataInputStream;I) | prudp packet reply scrape
+CONS PRUDPPacketRequestScrape(J[B) | prudp packet request scrape
+CONS PRUDPPacketRequestScrape(JQList;) | prudp packet request scrape
+CONS PRUDPPacketRequestScrape(QDataInputStream;JI) | prudp packet request scrape
+CONS RPDownloadScrapeResult(QDownloadScrapeResult;) | rp download scrape result
+CONS ScrapeCountItem() | scrape count item
+CONS TRTrackerBTScraperImpl(QTRTrackerScraperImpl;) | tr tracker bt scraper impl
+CONS TRTrackerBTScraperResponseImpl(QTrackerStatus;QHashWrapper;) | tr tracker bt scraper response impl
+CONS TRTrackerBTScraperResponseImpl(QTrackerStatus;QHashWrapper;IIIJ) | tr tracker bt scraper response impl
+CONS TRTrackerDHTScraperImpl(QTRTrackerScraperImpl;) | tr tracker dht scraper impl
+CONS TRTrackerDHTScraperResponseImpl(QHashWrapper;QURL;) | tr tracker dht scraper response impl
+CONS TRTrackerScraperImpl() | tr tracker scraper impl
+CONS TRTrackerScraperResponseImpl(QHashWrapper;) | tr tracker scraper response impl
+CONS TRTrackerScraperResponseImpl(QHashWrapper;IIIJ) | tr tracker scraper response impl

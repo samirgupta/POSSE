@@ -1,0 +1,626 @@
+../3-Phrases/Base_Verb:List<PrimaryKey> findEnabledPrimaryKeysByFirstName(String name) | find enabled primary keys by first name
+../3-Phrases/Base_Verb:List<StandardGlobalCatalogAccount> findEnabledByEmployeeID(String employeeID) | find enabled by employee id
+../3-Phrases/Base_Verb:List<StandardReadBean> findByEnabledFlag(String enabledFlag) | find by enabled flag
+../3-Phrases/Base_Verb:List<StandardReadBean> findByEnabledFlag(String enabledFlag) | find by enabled flag
+../3-Phrases/Base_Verb:List<PrimaryKey> findPrimaryKeysByEnabledFlag(String enabledFlag) | find primary keys by enabled flag
+../3-Phrases/Base_Verb:List findByCreateTimeAndPriority(Integer subj, long begin, long end, int priority, PageInfo pageInfo) | find by create time and priority
+../3-Phrases/Base_Verb:AllTypes findByPrimaryKey(String name) | find by primary key
+../3-Phrases/Base_Verb:X509Certificate findNotaryCertByIndex(String responderCN, int idx) | find notary cert by index
+../3-Phrases/Base_Verb:List findByCommentInfo(Object commentInfo) | find by comment info
+../3-Phrases/Base_Verb:List findByC_C_C_P(long companyId, long classNameId, long classPK, boolean primary, int begin, int end) | find by c c c p
+../3-Phrases/Base_Verb:List<People> findByName(String name) | find by name
+../3-Phrases/Base_Verb:JournalTemplate findByG_S_PrevAndNext(long id, long groupId, String structureId, OrderByComparator obc) | find by g s prev and next
+../3-Phrases/Base_Verb:ModelElement findByRef(String pRef) | find by ref
+../3-Phrases/Base_Verb:List findWithDynamicQuery(DynamicQueryInitializer queryInitializer, int begin, int end) | find with dynamic query
+../3-Phrases/Base_Verb:Collection findBySoid(Long soid) | find by so id
+../3-Phrases/Base_Verb:BIN findBinForInsert(Key key, LogManager logManager, INList inMemoryINs) | find bin for insert
+../3-Phrases/Base_Verb:AsnObject findTrapPduv1() | find trap pduv 1
+../3-Phrases/Base_Verb:String findURL(String tail) | find url
+../3-Phrases/Base_Verb:XYPlot findSubplot(PlotRenderingInfo info, Point2D source) | find subplot
+../3-Phrases/Base_Verb:Collection findAll() | find all
+../3-Phrases/Base_Verb:Set<V> findCycles() | find cycles
+../3-Phrases/Base_Verb:int find_globalid(int globalid) | find globalid
+../3-Phrases/Base_Verb:ArrayList findAllResonances(Map conditions) | find all resonances
+../3-Phrases/Base_Verb:OperationInfo findOperation(Service endpoint, QName inMessageName) | find operation
+../3-Phrases/Base_Verb:ArrayList findAllExpBlueprints(Map conditions) | find all exp blueprints
+../3-Phrases/Base_Verb:void findNextAndCenter() | find next and center
+../3-Phrases/Base_Verb:static FindSimilarDocument createFindSimilarDocument() | find similar document create find similar document
+../3-Phrases/Base_Verb:Experiment findFirstExperiment(String key1, Object value1, String key2, Object value2) | find first experiment
+../3-Phrases/Base_Verb:int findEndingTag(StringBuffer buffer) | find ending tag
+../3-Phrases/Base_Verb:void findMatchingMethods(String id, JavaType argTypes, boolean checkArgs, boolean allowConversion, boolean allowVarArgs, JavaStructuredType typeContext, Set<JavaFunction> foundMethods) | find matching methods
+../3-Phrases/Base_Verb:DisplayMode findDisplayMode(Dimension dim) | find display mode
+../3-Phrases/Base_Verb:List findAll() | find all
+../3-Phrases/Base_Verb:TreeNodeImpl findPluginNode(String id) | find plugin node
+../3-Phrases/Base_Verb:List findStuff(Thing b, int filter) | find stuff
+../3-Phrases/Base_Verb:ArrayList findAllParameters() | find all parameters
+../3-Phrases/Base_Verb:boolean findClosingPair(char chars) | find closing pair
+../3-Phrases/Base_Verb:QIconViewItem findItem(QPoint pos) | find item
+../3-Phrases/Base_Verb:ArrayList findAllOutputSamples(Map conditions) | find all output samples
+../3-Phrases/Base_Verb:Constructor findConstructors(Class p_class) | find constructors
+../3-Phrases/Base_Verb:Symbol findType(Env<AttrContext> env, Name name) | find type
+../3-Phrases/Base_Verb:ChainState findFirstChainState() | find first chain state
+../3-Phrases/Base_Verb:void findClosureBonds(Molecule mol) | find closure bonds
+../3-Phrases/Base_Verb:void findSalesSettleLines(HttpServletRequest request, HttpServletResponse response) | find sales settle lines
+../3-Phrases/Base_Verb:SearchResult findNext() | find next
+../3-Phrases/Base_Verb:Object findNextItem(Object component, String classname, Object item) | find next item
+../3-Phrases/Base_Verb:void findBBInd() | find bb ind
+../3-Phrases/Base_Verb:ProjectAspect findSelectedProjectAspect() | find selected project aspect
+../3-Phrases/Base_Verb:int findSelectedBoundaries() | find selected boundaries
+../3-Phrases/Base_Verb:Path findCurrentWelcome(Path dirPath) | find current welcome
+../3-Phrases/Base_Verb:Node findExistingNode(Element original, Element update) | find existing node
+../3-Phrases/Dguitar:NoteComponent findNote(QPoint;) | find note
+../3-Phrases/drjava2:File findFileInPaths(QString;QIterable<QFile;>;) | find file in paths
+../3-Phrases/drjava2:int findPrevEnclosingBrace(ICC) | find prev enclosing brace
+../3-Phrases/drjava2:int findNextEnclosingBrace(ICC) | find next enclosing brace
+../3-Phrases/drjava2:int findCharOnLine(IC) | find char on line
+../3-Phrases/drjava2:int findPrevDelimiter(I[C) | find prev delimiter
+../3-Phrases/drjava2:int findPrevDelimiter(I[CZ) | find prev delimiter
+../3-Phrases/drjava2:Iterable<QJDKToolsLibrary;> findLibraries() | find libraries
+../3-Phrases/drjava2:CONS FindResult(QOpenDefinitionsDocument;IZZ) | find result
+../3-Phrases/drjava2:int findPrevEnclosingBrace(ICC) | find prev enclosing brace
+../3-Phrases/drjava2:int findNextEnclosingBrace(ICC) | find next enclosing brace
+../3-Phrases/drjava2:int findPrevDelimiter(I[C) | find prev delimiter
+../3-Phrases/drjava2:int findPrevDelimiter(I[CZ) | find prev delimiter
+../3-Phrases/drjava2:boolean findCharInStmtBeforePos(CI) | find char in stmt before pos
+../3-Phrases/drjava2:int _findPrevCharPos(I[C) | find prev char pos
+../3-Phrases/drjava2:int findCharOnLine(IC) | find char on line
+../3-Phrases/drjava2:int _findPrevNonWSCharPos(I) | find prev non ws char pos
+../3-Phrases/drjava2:int findPrevEnclosingBrace(ICC) | find prev enclosing brace
+../3-Phrases/drjava2:int findNextEnclosingBrace(ICC) | find next enclosing brace
+../3-Phrases/drjava2:int findPrevDelimiter(I[C) | find prev delimiter
+../3-Phrases/drjava2:int findPrevDelimiter(I[CZ) | find prev delimiter
+../3-Phrases/drjava2:int findCharOnLine(IC) | find char on line
+../3-Phrases/drjava2:CONS FindReplaceMachine(QSingleDisplayModel;QDocumentIterator;) | find replace machine
+../3-Phrases/drjava2:FindResult findNext() | find next
+../3-Phrases/drjava2:FindResult findNext(Z) | find next
+../3-Phrases/drjava2:FindResult _findNextInDoc(QOpenDefinitionsDocument;IIZ) | find next in doc
+../3-Phrases/drjava2:FindResult _findWrapped(QOpenDefinitionsDocument;IIZ) | find wrapped
+../3-Phrases/drjava2:FindResult _findNextInDocSegment(QOpenDefinitionsDocument;II) | find next in doc segment
+../3-Phrases/drjava2:FindResult _findNextInDocSegment(QOpenDefinitionsDocument;IIZZ) | find next in doc segment
+../3-Phrases/drjava2:FindResult _findNextInOtherDocs(QOpenDefinitionsDocument;II) | find next in other docs
+../3-Phrases/drjava2:File findFileInPaths(QString;QIterable<QFile;>;) | find file in paths
+../3-Phrases/drjava2:URL findResource(QString;) | find resource
+../3-Phrases/drjava2:Class<*> findClass(QString;) | find class
+../3-Phrases/drjava2:int findPrevEnclosingBrace(ICC) | find prev enclosing brace
+../3-Phrases/drjava2:int findNextEnclosingBrace(ICC) | find next enclosing brace
+../3-Phrases/drjava2:int findCharOnLine(IC) | find char on line
+../3-Phrases/drjava2:int findPrevDelimiter(I[C) | find prev delimiter
+../3-Phrases/drjava2:int findPrevDelimiter(I[CZ) | find prev delimiter
+../3-Phrases/drjava2:File findFileInPaths(QString;QIterable<QFile;>;) | find file in paths
+../3-Phrases/drjava2:int _findNextOpenCurly(QString;I) | find next open curly
+../3-Phrases/drjava2:int _findPrevKeyword(QString;QString;I) | find prev keyword
+../3-Phrases/drjava2:int _findKeywordAtToplevel(QString;QString;I) | find keyword at toplevel
+../3-Phrases/drjava2:int findPrevDelimiter(I[C) | find prev delimiter
+../3-Phrases/drjava2:int findBrace(QString;) | find brace
+../3-Phrases/drjava2:List<QString;> findTestClasses(QList<QString;>;QList<QFile;>;) | find test classes
+../3-Phrases/drjava2:List<QString;> findTestClasses(QList<QString;>;QList<QFile;>;) | find test classes
+../3-Phrases/drjava2:Option<QList<QString;>;> findTestClasses(QList<QString;>;QList<QFile;>;) | find test classes
+../3-Phrases/drjava2:List<QString;> findTestClasses(QList<QString;>;QList<QFile;>;) | find test classes
+../3-Phrases/drjava2:CONS FindReplacePanel(QMainFrame;QSingleDisplayModel;) | find replace panel
+../3-Phrases/drjava2:void _findAll() | find all
+../3-Phrases/drjava2:void findAll(QString;ZZZZZQOpenDefinitionsDocument;QRegionManager<QMovingDocumentRegion;>;QFindResultsPanel;) | find all
+../3-Phrases/drjava2:void findNext() | find next
+../3-Phrases/drjava2:void findPrevious() | find previous
+../3-Phrases/drjava2:CONS FindResultsPanel(QMainFrame;QRegionManager<QMovingDocumentRegion;>;QString;QString;ZZZZZQWeakReference<QOpenDefinitionsDocument;>;QFindReplacePanel;) | find results panel
+../3-Phrases/drjava2:void _findAgain() | find again
+../3-Phrases/drjava2:void FindResultsColorOptionListener(I) | find results color option listener
+../3-Phrases/drjava2:void FindResultsColorOptionListener(I) | find results color option listener
+../3-Phrases/drjava2:String findMatch(IQTreeSet<QString;>;QLambda<QString;QString;>;) | find match
+../3-Phrases/freecol2:ImageIcon findImage(QString;QClass<QFreeCol;>;Z) | find image
+../3-Phrases/freecol2:CONS FindColonyAction(QFreeColClient;) | find colony action
+../3-Phrases/freecol2:CONS FindColonyDialog(QCanvas;) | find colony dialog
+../3-Phrases/freecol2:String[] findReplacementData(QModelMessage;QString;) | find replacement data
+../3-Phrases/freecol2:TileImprovement findTileImprovementType(QTileImprovementType;) | find tile improvement type
+../3-Phrases/freecol2:EquipmentType findEquipmentTypeToLose(QUnit;) | find equipment type to lose
+../3-Phrases/freecol2:int findMinimumIndex(QBuildingType;) | find minimum index
+../3-Phrases/freecol2:int findMinimumIndex(QUnitType;) | find minimum index
+../3-Phrases/freecol2:int findMinimumIndex(QBuildableType;) | find minimum index
+../3-Phrases/freecol2:PathNode findPath(QTile;QTile;QPathType;) | find path
+../3-Phrases/freecol2:PathNode findPath(QUnit;QTile;QTile;) | find path
+../3-Phrases/freecol2:PathNode findPath(QUnit;QTile;QTile;QUnit;) | find path
+../3-Phrases/freecol2:PathNode findPath(QUnit;QTile;QTile;QPathType;) | find path
+../3-Phrases/freecol2:PathNode findPath(QUnit;QTile;QTile;QPathType;QUnit;) | find path
+../3-Phrases/freecol2:PathNode findPathToEurope(QUnit;QTile;) | find path to europe
+../3-Phrases/freecol2:TileImprovement findTileImprovementType(QTileImprovementType;) | find tile improvement type
+../3-Phrases/freecol2:Unit findStudent(QUnit;) | find student
+../3-Phrases/freecol2:TileImprovementType findBestTileImprovementType(QTile;QGoodsType;) | find best tile improvement type
+../3-Phrases/freecol2:PathNode findPath(QTile;) | find path
+../3-Phrases/freecol2:PathNode findPath(QTile;QTile;) | find path
+../3-Phrases/freecol2:void findLanguages() | find languages
+../3-Phrases/freecol2:void findAudioMixers() | find audio mixers
+../3-Phrases/freecol2:void findNewObjects() | find new objects
+../3-Phrases/freecol2:void findNewObjects(Z) | find new objects
+../3-Phrases/freecol2:Tile findColonyLocation(QUnit;) | find colony location
+../3-Phrases/freecol2:PathNode findPathToEurope(QTile;) | find path to europe
+../3-Phrases/freecol2:PathNode findTarget(I) | find target
+../3-Phrases/freecol2:PathNode findColonyWithTools() | find colony with tools
+../3-Phrases/freecol2:void findLakes(QMap;) | find lakes
+../3-Phrases/freemind:CONS FindAction(QModeController;) | find action
+../3-Phrases/freemind:void FindNextAction(QModeController;QFindAction;) | find next action
+../3-Phrases/freemind:boolean findNext() | find next
+../3-Phrases/freemind:double findQuadZero(DDD) | find quad zero
+../3-Phrases/freemind:int findCubicZeros([DDDDD) | find cubic zeros
+../3-Phrases/gantt:Task findTaskUnderMousePointer(II) | find task under mouse pointer
+../3-Phrases/gantt:Date findClosestWorkingTime(QDate;) | find closest working time
+../3-Phrases/gantt:Date findClosestWorkingTime(QDate;) | find closest working time
+../3-Phrases/gantt:Date findClosestWorkingTime(QDate;) | find closest working time
+../3-Phrases/gantt:Task findTaskWithCoordinates(II) | find task with coordinates
+../3-Phrases/gantt:ChartItem findTaskProgressItem(II) | find task progress item
+../3-Phrases/gantt:ChartItem findTaskBoundaryItem(II) | find task boundary item
+../3-Phrases/gantt:Task findTaskWithCoordinates(II) | find task with coordinates
+../3-Phrases/gantt:Exporter findExporter(QString;) | find exporter
+../3-Phrases/gantt:Role findRole(QString;) | find role
+../3-Phrases/gantt:Role findRole(QString;) | find role
+../3-Phrases/gantt:void findRoleSet(QString;) | find role set
+../3-Phrases/gantt:Role findRole(QString;) | find role
+../3-Phrases/gantt:Role findRole(I) | find role
+../3-Phrases/gantt:Role findRole(I) | find role
+../3-Phrases/gantt:Date findClosestWorkingTime(QDate;) | find closest working time
+../3-Phrases/gantt:CONS FindPossibleDependeesAlgorithmImpl() | find possible dependees algorithm impl
+../3-Phrases/hibernate-3.3.1.GA:int[] findDirty(QObject;QSerializable;[QObject;[QObject;[QString;[QType;) | find dirty
+../3-Phrases/hibernate-3.3.1.GA:int[] findDirty(QObject;QSerializable;[QObject;[QObject;[QString;[QType;) | find dirty
+../3-Phrases/hibernate-3.3.1.GA:void findAccessors(QClass;[QString;[QString;[QClass;[QMethod;[QMethod;) | find accessors
+../3-Phrases/hibernate-3.3.1.GA:Method findAccessor(QClass;QString;[QClass;I) | find accessor
+../3-Phrases/hibernate-3.3.1.GA:Class findClass(QString;) | find class
+../3-Phrases/hibernate-3.3.1.GA:org.dom4j.Document findPossibleExtends() | find possible extends
+../3-Phrases/hibernate-3.3.1.GA:SQLFunction findSQLFunction(QString;) | find sql function
+../3-Phrases/hibernate-3.3.1.GA:Integer findBatchNumber(QEntityInsertAction;QString;) | find batch number
+../3-Phrases/hibernate-3.3.1.GA:FromElement findIntendedAliasedFromElementBasedOnCrazyJPARequirements(QString;) | find intended aliased from element based on crazy jpa requirements
+../3-Phrases/hibernate-3.3.1.GA:FromElement findCollectionJoin(QString;) | find collection join
+../3-Phrases/hibernate-3.3.1.GA:FromElement findJoinByPath(QString;) | find join by path
+../3-Phrases/hibernate-3.3.1.GA:FromElement findJoinByPathLocal(QString;) | find join by path local
+../3-Phrases/hibernate-3.3.1.GA:Queryable findQueryableUsingImports(QString;) | find queryable using imports
+../3-Phrases/hibernate-3.3.1.GA:Queryable findQueryableUsingImports(QSessionFactoryImplementor;QString;) | find queryable using imports
+../3-Phrases/hibernate-3.3.1.GA:EntityPersister findEntityPersisterByName(QString;) | find entity persister by name
+../3-Phrases/hibernate-3.3.1.GA:SQLFunction findSQLFunction(QString;) | find sql function
+../3-Phrases/hibernate-3.3.1.GA:Type findFunctionReturnType(QString;QAST;) | find function return type
+../3-Phrases/hibernate-3.3.1.GA:AST findTypeInChildren(QAST;I) | find type in children
+../3-Phrases/hibernate-3.3.1.GA:AST findPreviousSibling(QAST;QAST;) | find previous sibling
+../3-Phrases/hibernate-3.3.1.GA:int findColumn(QString;) | find column
+../3-Phrases/hibernate-3.3.1.GA:int[] findDirty([QObject;[QObject;QObject;QSessionImplementor;) | find dirty
+../3-Phrases/hibernate-3.3.1.GA:int[] findModified([QObject;[QObject;QObject;QSessionImplementor;) | find modified
+../3-Phrases/hibernate-3.3.1.GA:int[] findDirty([QObject;[QObject;QObject;QSessionImplementor;) | find dirty
+../3-Phrases/hibernate-3.3.1.GA:int[] findModified([QObject;[QObject;QObject;QSessionImplementor;) | find modified
+../3-Phrases/hibernate-3.3.1.GA:int[] findDirty([QStandardProperty;[QObject;[QObject;[[ZZQSessionImplementor;) | find dirty
+../3-Phrases/hibernate-3.3.1.GA:int[] findModified([QStandardProperty;[QObject;[QObject;[[ZZQSessionImplementor;) | find modified
+../3-Phrases/hibernate-3.3.1.GA:URL findAsResource(QString;) | find as resource
+../3-Phrases/hsqldb:RowIterator findFkRef(QSession;[QObject;Z) | find fk ref
+../3-Phrases/hsqldb:int findColumn(QString;) | find column
+../3-Phrases/hsqldb:RowIterator findFirstRow(QSession;[QObject;[I) | find first row
+../3-Phrases/hsqldb:RowIterator findFirstRowForDelete(QSession;[QObject;[I) | find first row for delete
+../3-Phrases/hsqldb:Row findRow(QSession;QRow;) | find row
+../3-Phrases/hsqldb:Node findNotNull(QSession;[QObject;[IZ) | find not null
+../3-Phrases/hsqldb:RowIterator findFirstRow(QSession;[QObject;) | find first row
+../3-Phrases/hsqldb:RowIterator findFirstRow(QSession;QObject;I) | find first row
+../3-Phrases/hsqldb:RowIterator findFirstRowNotNull(QSession;) | find first row not null
+../3-Phrases/hsqldb:boolean findFirst(QSession;) | find first
+../3-Phrases/hsqldb:Table findUserTable(QSession;QString;QString;) | find user table
+../3-Phrases/hsqldb:NumberSequence findSequence(QString;QString;) | find sequence
+../3-Phrases/hsqldb:Table findUserTableForIndex(QSession;QString;QString;) | find user table for index
+../3-Phrases/hsqldb:Node findNode(I) | find node
+../3-Phrases/hsqldb:TableFilter findTableFilter([QTableFilter;) | find table filter
+../3-Phrases/hsqldb:int findParameterIndex(QString;) | find parameter index
+../3-Phrases/hsqldb:int findColumn(QString;) | find column
+../3-Phrases/hsqldb:int findNot([II) | find not
+../3-Phrases/hsqldb:int findNotIn([BII[B) | find not in
+../3-Phrases/hsqldb:int findIn([BII[B) | find in
+../3-Phrases/hsqldb:int findFirstGreaterEqualKeyIndex(I) | find first greater equal key index
+../3-Phrases/hsqldb:int findFirstEqualKeyIndex(I) | find first equal key index
+../3-Phrases/hsqldb:int findFirstGreaterEqualSlotIndex(I) | find first greater equal slot index
+../3-Phrases/hsqldb:int findNextUsedLinePos(I) | find next used line pos
+../3-Phrases/hsqldb:int findValue(QString;) | find value
+../3-Phrases/iReport:Class findClass(QString;) | find class
+../3-Phrases/iReport:Node findNextNode(QNode;) | find next node
+../3-Phrases/iReport:it.businesslogic.ireport.util.TreeNode findElementInTreeNode(Qit.businesslogic.ireport.util.TreeNode;QReportElement;) | find element in tree node
+../3-Phrases/iReport:JReportFrame findReportFrameByFile(QFile;) | find report frame by file
+../3-Phrases/iReport:JReportFrame findReportFrameByFilename(QString;) | find report frame by filename
+../3-Phrases/iReport:DocumentStructureTreeNode findElementTreeNode(QReportElement;Z) | find element tree node
+../3-Phrases/iReport:DocumentStructureTreeNode findElementInTreeNode(QDocumentStructureTreeNode;QReportElement;) | find element in tree node
+../3-Phrases/iReport:CONS FindThread(QMassiveCompilerFrame;) | find thread
+../3-Phrases/iReport:int findFiles(QFile;ZQDefaultTableModel;) | find files
+../3-Phrases/iReport:int findTransformationElement(QObject;) | find transformation element
+../3-Phrases/iReport:String findOneDown(II) | find one down
+../3-Phrases/iReport:int findMatchingBracket(QDocument;I) | find matching bracket
+../3-Phrases/iReport:int findWordStart(QString;IQString;) | find word start
+../3-Phrases/iReport:int findWordEnd(QString;IQString;) | find word end
+../3-Phrases/Jabref:int findPos(QDefaultListModel;QString;) | find pos
+../3-Phrases/Jabref:TreeSet<QString;> findDeliminatedWordsInField(QBibtexDatabase;QString;QString;) | find deliminated words in field
+../3-Phrases/Jabref:TreeSet<QString;> findAllWordsInField(QBibtexDatabase;QString;QString;) | find all words in field
+../3-Phrases/Jabref:Set<QString;> findAuthorLastNames(QBibtexDatabase;QList<QString;>;) | find author last names
+../3-Phrases/Jabref:String findPdf(QString;QString;QString;QOpenFileFilter;) | find pdf
+../3-Phrases/Jabref:Map<QBibtexEntry;QList<QFile;>;> findAssociatedFiles(QCollection<QBibtexEntry;>;QCollection<QString;>;QCollection<QFile;>;) | find associated files
+../3-Phrases/Jabref:Set<QFile;> findFiles(QCollection<QString;>;QCollection<QFile;>;) | find files
+../3-Phrases/Jabref:Collection<+QFile;> findFiles(QCollection<QString;>;QFile;) | find files
+../3-Phrases/Jabref:String findPdf(QBibtexEntry;QString;QString;) | find pdf
+../3-Phrases/Jabref:String findPdf(QBibtexEntry;QString;[QString;) | find pdf
+../3-Phrases/Jabref:String findFile(QBibtexEntry;QExternalFileType;QList<QString;>;) | find file
+../3-Phrases/Jabref:String findFile(QBibtexEntry;QBibtexDatabase;[QString;QString;Z) | find file
+../3-Phrases/Jabref:String findFile(QBibtexEntry;QBibtexDatabase;QString;) | find file
+../3-Phrases/Jabref:String findFile(QBibtexEntry;QBibtexDatabase;QString;QString;Z) | find file
+../3-Phrases/Jabref:String findFile(QBibtexEntry;QBibtexDatabase;QFile;QString;) | find file
+../3-Phrases/Jabref:String findInDir(QString;QString;QOpenFileFilter;I) | find in dir
+../3-Phrases/Jabref:List<QString;> findEncodingsForString(QString;) | find encodings for string
+../3-Phrases/Jabref:String findSpecialChar([CI) | find special char
+../3-Phrases/Jabref:BibtexString findString(QBibtexDatabase;QString;QHashSet<QObject;>;) | find string
+../3-Phrases/Jabref:CONS FindFullTextAction(QBasePanel;) | find full text action
+../3-Phrases/Jabref:URL findFullTextURL(QURL;) | find full text url
+../3-Phrases/Jabref:URL findFullTextURL(QURL;) | find full text url
+../3-Phrases/Jabref:URL findFullTextURL(QURL;) | find full text url
+../3-Phrases/Jabref:CONS FindFullText() | find full text
+../3-Phrases/Jabref:FindResult findFullText(QBibtexEntry;) | find full text
+../3-Phrases/Jabref:void FindResult(QURL;QURL;) | find result
+../3-Phrases/Jabref:void FindResult(IQURL;) | find result
+../3-Phrases/Jabref:Map<QBibtexEntry;Qjava.util.List<QFile;>;> findFilesForSet(QCollection<QBibtexEntry;>;QCollection<QString;>;QList<QFile;>;QString;) | find files for set
+../3-Phrases/Jabref:List<QFile;> findFiles(QBibtexEntry;QCollection<QString;>;QCollection<QFile;>;QString;) | find files
+../3-Phrases/Jabref:List<QFile;> findFile(QBibtexEntry;QBibtexDatabase;QCollection<QFile;>;QString;QString;Z) | find file
+../3-Phrases/Jabref:List<QFile;> findFile(QBibtexEntry;QBibtexDatabase;QString;QString;QString;Z) | find file
+../3-Phrases/Jabref:List<QFile;> findFile(QBibtexEntry;QBibtexDatabase;QFile;QString;QString;) | find file
+../3-Phrases/Jabref:Object[] findCompletions(QString;QJTextComponent;) | find completions
+../3-Phrases/Jabref:int findNamePositionStatus(QJTextComponent;) | find name position status
+../3-Phrases/Jabref:int findEntry(QBibtexEntry;) | find entry
+../3-Phrases/Jabref:EventList<QNameAndVersion;> findInstalledPlugins() | find installed plugins
+../3-Phrases/Jabref:String findGroupTypeName(QString;QConnection;) | find group type name
+../3-Phrases/Jabref:String findFile(QString;QString;) | find file
+../3-Phrases/javaHMO:int findItem(QArrayList;QString;) | find item
+../3-Phrases/javaHMO:void findTags() | find tags
+../3-Phrases/javaHMO:void findFiles() | find files
+../3-Phrases/javaHMO:TiVoItem findItem(QContainer;QString;) | find item
+../3-Phrases/javaHMO:Hashtable findShows(QString;) | find shows
+../3-Phrases/javaHMO:void findTags() | find tags
+../3-Phrases/javaHMO:void findFiles() | find files
+../3-Phrases/javaHMO:TiVoItem findItem(QContainer;QString;) | find item
+../3-Phrases/javaHMO:void findAvailablePort() | find available port
+../3-Phrases/javaHMO:int findSync([BII) | find sync
+../3-Phrases/javaHMO:void findFiles(QFileSystemContainer;) | find files
+../3-Phrases/jbidwatcher:int findUnescaped(QString;CI) | find unescaped
+../3-Phrases/jbidwatcher:int findSearch(QSearcher;) | find search
+../3-Phrases/jbidwatcher:Rectangle findCenterBounds(QDimension;) | find center bounds
+../3-Phrases/jbidwatcher:Rectangle findCenterBounds(QGraphicsConfiguration;QDimension;) | find center bounds
+../3-Phrases/jbidwatcher:Auctions findSellerList() | find seller list
+../3-Phrases/jbidwatcher:Auctions findCompletedList() | find completed list
+../3-Phrases/jbidwatcher:Auctions findCategory(QString;) | find category
+../3-Phrases/jbidwatcher:int findSearch(QSearcher;) | find search
+../3-Phrases/jbidwatcher:int findRow(QObject;) | find row
+../3-Phrases/Jftp:int findString([QString;I) | find string
+../3-Phrases/JHotDraw-7.0.8:XMLAttribute findAttribute(QString;) | find attribute
+../3-Phrases/JHotDraw-7.0.8:XMLAttribute findAttribute(QString;QString;) | find attribute
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Connector findCompatibleConnector(QConnector;Z) | find compatible connector
+../3-Phrases/JHotDraw-7.0.8:Figure findFigureInside(QPoint2D.Double;) | find figure inside
+../3-Phrases/JHotDraw-7.0.8:Connector findConnectionTarget(QPoint2D.Double;QDrawing;) | find connection target
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QFigure;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Figure findConnectableFigure(QPoint2D.Double;QDrawing;) | find connectable figure
+../3-Phrases/JHotDraw-7.0.8:Point2D.Double findStart(QConnectionFigure;) | find start
+../3-Phrases/JHotDraw-7.0.8:Point2D.Double findEnd(QConnectionFigure;) | find end
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Connector findCompatibleConnector(QConnector;Z) | find compatible connector
+../3-Phrases/JHotDraw-7.0.8:Figure findSource(QPoint2D.Double;QDrawing;) | find source
+../3-Phrases/JHotDraw-7.0.8:Figure findTarget(QPoint2D.Double;QDrawing;) | find target
+../3-Phrases/JHotDraw-7.0.8:ConnectionFigure findConnection(QPoint2D.Double;QDrawing;) | find connection
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QFigure;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Figure findConnectionStart(QPoint2D.Double;QDrawing;) | find connection start
+../3-Phrases/JHotDraw-7.0.8:Figure findConnectableFigure(QPoint2D.Double;QDrawing;) | find connectable figure
+../3-Phrases/JHotDraw-7.0.8:Figure findFigureInside(QPoint2D.Double;) | find figure inside
+../3-Phrases/JHotDraw-7.0.8:Figure findChild(QPoint2D.Double;) | find child
+../3-Phrases/JHotDraw-7.0.8:int findChildIndex(QPoint2D.Double;) | find child index
+../3-Phrases/JHotDraw-7.0.8:List<QFigure;> findFigures(QRectangle2D.Double;) | find figures
+../3-Phrases/JHotDraw-7.0.8:List<QFigure;> findFiguresWithin(QRectangle2D.Double;) | find figures within
+../3-Phrases/JHotDraw-7.0.8:Figure findFigure(QPoint2D.Double;) | find figure
+../3-Phrases/JHotDraw-7.0.8:Figure findFigureExcept(QPoint2D.Double;QFigure;) | find figure except
+../3-Phrases/JHotDraw-7.0.8:Figure findFigureExcept(QPoint2D.Double;QCollection<QFigure;>;) | find figure except
+../3-Phrases/JHotDraw-7.0.8:Figure findFigureInside(QPoint2D.Double;) | find figure inside
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Connector findCompatibleConnector(QConnector;Z) | find compatible connector
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Connector findCompatibleConnector(QConnector;Z) | find compatible connector
+../3-Phrases/JHotDraw-7.0.8:int findNode(QPoint2D.Double;) | find node
+../3-Phrases/JHotDraw-7.0.8:int findSegment(QPoint2D.Double;) | find segment
+../3-Phrases/JHotDraw-7.0.8:Point2D.Double findStart(QConnectionFigure;) | find start
+../3-Phrases/JHotDraw-7.0.8:Point2D.Double findEnd(QConnectionFigure;) | find end
+../3-Phrases/JHotDraw-7.0.8:Figure findFigureInside(QPoint2D.Double;) | find figure inside
+../3-Phrases/JHotDraw-7.0.8:Figure findFigure(QPoint2D.Double;) | find figure
+../3-Phrases/JHotDraw-7.0.8:Figure findFigureExcept(QPoint2D.Double;QFigure;) | find figure except
+../3-Phrases/JHotDraw-7.0.8:Figure findFigureExcept(QPoint2D.Double;QCollection;) | find figure except
+../3-Phrases/JHotDraw-7.0.8:java.util.List<QFigure;> findFigures(QRectangle2D.Double;) | find figures
+../3-Phrases/JHotDraw-7.0.8:java.util.List<QFigure;> findFiguresWithin(QRectangle2D.Double;) | find figures within
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Connector findCompatibleConnector(QConnector;Z) | find compatible connector
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Figure findFigureInside(QPoint2D.Double;) | find figure inside
+../3-Phrases/JHotDraw-7.0.8:Connector findCompatibleConnector(QConnector;Z) | find compatible connector
+../3-Phrases/JHotDraw-7.0.8:Handle findHandle(QPoint;) | find handle
+../3-Phrases/JHotDraw-7.0.8:Figure findFigure(QPoint;) | find figure
+../3-Phrases/JHotDraw-7.0.8:Collection<QFigure;> findFigures(QRectangle;) | find figures
+../3-Phrases/JHotDraw-7.0.8:Collection<QFigure;> findFiguresWithin(QRectangle;) | find figures within
+../3-Phrases/JHotDraw-7.0.8:Figure findConnectableFigure(QPoint2D.Double;QDrawing;) | find connectable figure
+../3-Phrases/JHotDraw-7.0.8:Connector findConnectionTarget(QPoint2D.Double;QDrawing;) | find connection target
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Connector findCompatibleConnector(QConnector;Z) | find compatible connector
+../3-Phrases/JHotDraw-7.0.8:DrawingView findView(QContainer;) | find view
+../3-Phrases/JHotDraw-7.0.8:Figure findSource(QPoint2D.Double;QDrawing;) | find source
+../3-Phrases/JHotDraw-7.0.8:Figure findTarget(QPoint2D.Double;QDrawing;) | find target
+../3-Phrases/JHotDraw-7.0.8:ConnectionFigure findConnection(QPoint2D.Double;QDrawing;) | find connection
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QFigure;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Figure findConnectionStart(QPoint2D.Double;QDrawing;) | find connection start
+../3-Phrases/JHotDraw-7.0.8:Figure findConnectableFigure(QPoint2D.Double;QDrawing;) | find connectable figure
+../3-Phrases/JHotDraw-7.0.8:Figure findFigure(QPoint2D.Double;) | find figure
+../3-Phrases/JHotDraw-7.0.8:Figure findFigureExcept(QPoint2D.Double;QFigure;) | find figure except
+../3-Phrases/JHotDraw-7.0.8:Figure findFigureExcept(QPoint2D.Double;QCollection<QFigure;>;) | find figure except
+../3-Phrases/JHotDraw-7.0.8:java.util.List<QFigure;> findFigures(QRectangle2D.Double;) | find figures
+../3-Phrases/JHotDraw-7.0.8:java.util.List<QFigure;> findFiguresWithin(QRectangle2D.Double;) | find figures within
+../3-Phrases/JHotDraw-7.0.8:Figure findFigureInside(QPoint2D.Double;) | find figure inside
+../3-Phrases/JHotDraw-7.0.8:Figure findFigureInside(QPoint2D.Double;) | find figure inside
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Connector findCompatibleConnector(QConnector;Z) | find compatible connector
+../3-Phrases/JHotDraw-7.0.8:DrawingView findView(QContainer;) | find view
+../3-Phrases/JHotDraw-7.0.8:Point2D.Double findStart(QConnectionFigure;) | find start
+../3-Phrases/JHotDraw-7.0.8:Point2D.Double findEnd(QConnectionFigure;) | find end
+../3-Phrases/JHotDraw-7.0.8:Point2D.Double findPoint(QConnectionFigure;) | find point
+../3-Phrases/JHotDraw-7.0.8:Handle findHandle(QPoint;) | find handle
+../3-Phrases/JHotDraw-7.0.8:Figure findFigure(QPoint;) | find figure
+../3-Phrases/JHotDraw-7.0.8:Collection<QFigure;> findFigures(QRectangle;) | find figures
+../3-Phrases/JHotDraw-7.0.8:Collection<QFigure;> findFiguresWithin(QRectangle;) | find figures within
+../3-Phrases/JHotDraw-7.0.8:Collection<QT;> findContains(QPoint2D.Double;) | find contains
+../3-Phrases/JHotDraw-7.0.8:Collection<QT;> findIntersects(QRectangle2D;) | find intersects
+../3-Phrases/JHotDraw-7.0.8:Collection<QT;> findIntersects(QRectangle2D.Double;) | find intersects
+../3-Phrases/JHotDraw-7.0.8:Collection<QT;> findInside(QRectangle2D.Double;) | find inside
+../3-Phrases/JHotDraw-7.0.8:void findContains(QPoint2D.Double;QHashSet<QT;>;) | find contains
+../3-Phrases/JHotDraw-7.0.8:void findIntersects(QRectangle2D.Double;QHashSet<QT;>;) | find intersects
+../3-Phrases/JHotDraw-7.0.8:void findInside(QRectangle2D.Double;QHashSet<QT;>;) | find inside
+../3-Phrases/JHotDraw-7.0.8:int findSegment(QPoint2D.Double;F) | find segment
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Connector findCompatibleConnector(QConnector;Z) | find compatible connector
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Connector findCompatibleConnector(QConnector;Z) | find compatible connector
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Connector findCompatibleConnector(QConnector;Z) | find compatible connector
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Connector findCompatibleConnector(QConnector;Z) | find compatible connector
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Connector findCompatibleConnector(QConnector;Z) | find compatible connector
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Connector findCompatibleConnector(QConnector;Z) | find compatible connector
+../3-Phrases/JHotDraw-7.0.8:Connector findConnector(QPoint2D.Double;QConnectionFigure;) | find connector
+../3-Phrases/JHotDraw-7.0.8:Connector findCompatibleConnector(QConnector;Z) | find compatible connector
+../3-Phrases/JRobin:byte findTokenCode(QString;) | find token code
+../3-Phrases/JRobin:Archive findMatchingArchive(QFetchRequest;) | find matching archive
+../3-Phrases/JRobin:Archive findStartMatchArchive(QString;JJ) | find start match archive
+../3-Phrases/JRobin:ArcDef findArchive(QString;I) | find archive
+../3-Phrases/JRobin:Archive findBestArchive(JJJQArrayList;) | find best archive
+../3-Phrases/JRobin:RouterInfo findSelectedRouter() | find selected router
+../3-Phrases/JRobin:LinkInfo findSelectedLink() | find selected link
+../3-Phrases/JRobin:void findIfIndex() | find if index
+../3-Phrases/MegaMek-0.32.0:ArrayList findMoves(QCoords;) | find moves
+../3-Phrases/MegaMek-0.32.0:void findClub() | find club
+../3-Phrases/MegaMek-0.32.0:void findClub() | find club
+../3-Phrases/MegaMek-0.32.0:Entity findSpotter(QIGame;QEntity;QTargetable;) | find spotter
+../3-Phrases/MegaMek-0.32.0:Entity findC3Spotter(QIGame;QEntity;QTargetable;) | find c 3 spotter
+../3-Phrases/MegaMek-0.32.0:void findPathTo(QCoords;I) | find path to
+../3-Phrases/MegaMek-0.32.0:DisplacementAttackAction findTargetedDisplacement() | find targeted displacement
+../3-Phrases/MegaMek-0.32.0:CONS FindClubAction(I) | find club action
+../3-Phrases/MegaMek-0.32.0:void findAllUnused(QIBoard;IQHashSet;QHashSet;QIHex;QHashMap;) | find all unused
+../3-Phrases/MegaMek-0.32.0:void findCliffNeighbours(QIBoard;QCoords;QVector<QCoords;>;QHashSet<QCoords;>;) | find cliff neighbours
+../3-Phrases/MegaMek-0.32.0:int findStartIndex(QString;) | find start index
+../3-Phrases/MegaMek-0.32.0:int findEndIndex(QString;) | find end index
+../3-Phrases/MegaMek-0.32.0:void findGeysers() | find geysers
+../3-Phrases/MegaMek-0.32.0:int findIndex([QString;QString;) | find index
+../3-Phrases/MegaMek-0.32.0:void findElevators() | find elevators
+../3-Phrases/PlanetaMessenger:Class findClass(QString;) | find class
+../3-Phrases/prefuse:VisualItem findItem(QPoint;) | find item
+../3-Phrases/prefuse:Entry findPredecessor(FI) | find predecessor
+../3-Phrases/prefuse:Entry findCeiling(FI) | find ceiling
+../3-Phrases/prefuse:Entry findPredecessor(QEntry;) | find predecessor
+../3-Phrases/prefuse:Entry findCeiling(QEntry;) | find ceiling
+../3-Phrases/prefuse:Entry findPredecessor(QObject;I) | find predecessor
+../3-Phrases/prefuse:Entry findCeiling(QObject;I) | find ceiling
+../3-Phrases/prefuse:Entry findPredecessor(DI) | find predecessor
+../3-Phrases/prefuse:Entry findCeiling(DI) | find ceiling
+../3-Phrases/prefuse:Entry findPredecessor(JI) | find predecessor
+../3-Phrases/prefuse:Entry findCeiling(JI) | find ceiling
+../3-Phrases/prefuse:Entry findPredecessor(II) | find predecessor
+../3-Phrases/prefuse:Entry findCeiling(II) | find ceiling
+../3-Phrases/rhino:boolean findDefPoints(QOptFunctionNode;QNode;[I) | find def points
+../3-Phrases/rhino:Class findNestedClass(QClass;QString;) | find nested class
+../3-Phrases/rhino:CONS FindFunction(QSwingGui;QString;QString;) | find function
+../3-Phrases/rhino:int findExpressionType(QOptFunctionNode;QNode;[I) | find expression type
+../3-Phrases/rhino:int findFunction(QContext;[QMemberBox;[QObject;) | find function
+../3-Phrases/rhino:int findId(QString;) | find id
+../3-Phrases/rhino:int findIndex(I) | find index
+../3-Phrases/rhino:int findIndex(QObject;) | find index
+../3-Phrases/rhino:int findInstanceIdInfo(QString;) | find instance id info
+../3-Phrases/rhino:int find_max_different_column(III) | find max different column
+../3-Phrases/rhino:int findPrototypeId(QString;) | find prototype id
+../3-Phrases/rhino:int find_split(QContext;QScriptable;QString;QString;IQRegExpProxy;QScriptable;[I[I[Z[[QString;) | find split
+../3-Phrases/rhino:int find_split(QContext;QScriptable;QString;QString;QScriptable;[I[I[Z[[QString;) | find split
+../3-Phrases/rhino:MemberBox findExplicitFunction(QString;Z) | find explicit function
+../3-Phrases/rhino:MemberBox findGetter(ZQHashtable;QString;) | find getter
+../3-Phrases/rhino:Method findSingleMethod([QMethod;QString;) | find single method
+../3-Phrases/rhino:NativeCall findFunctionActivation(QContext;QFunction;) | find function activation
+../3-Phrases/rhino-sample100:int findInstanceIdInfo(QString;) | find instance id info
+../3-Phrases/rhino-sample100:int findPrototypeId(QString;) | find prototype id
+../3-Phrases/SweetHome3D:Class findClass(QString;) | find class
+../3-Phrases/SweetHome3D:String findLibrary(QString;) | find library
+../3-Phrases/SweetHome3D:URL findResource(QString;) | find resource
+../3-Phrases/SweetHome3D:Component findComponent(QContainer;QClass;) | find component
+../3-Phrases/vuze:void findNodeReply(QDHTTransportContact;[QDHTTransportContact;) | find node reply
+../3-Phrases/vuze:void findValueReply(QDHTTransportContact;[QDHTTransportValue;BZ) | find value reply
+../3-Phrases/vuze:void findValueReply(QDHTTransportContact;[QDHTTransportContact;) | find value reply
+../3-Phrases/vuze:DHTTransportContact[] findNodeRequest(QDHTTransportContact;[B) | find node request
+../3-Phrases/vuze:DHTTransportFindValueReply findValueRequest(QDHTTransportContact;[BIB) | find value request
+../3-Phrases/vuze:void findNodeReply(QDHTTransportContact;[QDHTTransportContact;) | find node reply
+../3-Phrases/vuze:void findNodeReply(QDHTTransportContact;[QDHTTransportContact;) | find node reply
+../3-Phrases/vuze:void findNodeReply(QDHTTransportContact;[QDHTTransportContact;) | find node reply
+../3-Phrases/vuze:void findNodeReply(QDHTTransportContact;[QDHTTransportContact;) | find node reply
+../3-Phrases/vuze:DHTRouterContact findContact([B) | find contact
+../3-Phrases/vuze:List findClosestContacts([BIZ) | find closest contacts
+../3-Phrases/vuze:List findBestContacts(I) | find best contacts
+../3-Phrases/vuze:List findClosestContacts([BIZ) | find closest contacts
+../3-Phrases/vuze:void findClosestContacts([BIIQDHTRouterNodeImpl;ZQList;) | find closest contacts
+../3-Phrases/vuze:DHTRouterContact findContact([B) | find contact
+../3-Phrases/vuze:DHTRouterNodeImpl findNode([B) | find node
+../3-Phrases/vuze:Object[] findContactSupport([B) | find contact support
+../3-Phrases/vuze:List findBestContacts(I) | find best contacts
+../3-Phrases/vuze:void findAllContacts(QSet;QDHTRouterNodeImpl;) | find all contacts
+../3-Phrases/vuze:void findAllContacts(QList;QDHTRouterNodeImpl;) | find all contacts
+../3-Phrases/vuze:void findContacts() | find contacts
+../3-Phrases/vuze:void findNodeReply(QDHTTransportContact;[QDHTTransportContact;) | find node reply
+../3-Phrases/vuze:void findValueReply(QDHTTransportContact;[QDHTTransportValue;BZ) | find value reply
+../3-Phrases/vuze:void findValueReply(QDHTTransportContact;[QDHTTransportContact;) | find value reply
+../3-Phrases/vuze:DHTTransportContact[] findNodeRequest(QDHTTransportContact;[B) | find node request
+../3-Phrases/vuze:DHTTransportFindValueReply findValueRequest(QDHTTransportContact;[BIB) | find value request
+../3-Phrases/vuze:void findNodeReply(QDHTTransportContact;[QDHTTransportContact;) | find node reply
+../3-Phrases/vuze:void findValueReply(QDHTTransportContact;[QDHTTransportValue;BZ) | find value reply
+../3-Phrases/vuze:void findValueReply(QDHTTransportContact;[QDHTTransportContact;) | find value reply
+../3-Phrases/vuze:DHTTransportLoopbackImpl findTarget([B) | find target
+../3-Phrases/vuze:void findNodeReply(QDHTTransportContact;[QDHTTransportContact;) | find node reply
+../3-Phrases/vuze:void findValueReply(QDHTTransportContact;[QDHTTransportContact;) | find value reply
+../3-Phrases/vuze:void findValueReply(QDHTTransportContact;[QDHTTransportValue;BZ) | find value reply
+../3-Phrases/vuze:DHTTransportContact[] findNodeRequest(QDHTTransportContact;[B) | find node request
+../3-Phrases/vuze:DHTTransportFindValueReply findValueRequest(QDHTTransportContact;[BIB) | find value request
+../3-Phrases/vuze:void findNodeReply(QDHTTransportContact;[QDHTTransportContact;) | find node reply
+../3-Phrases/vuze:DHTTransportContact[] findNodeRequest(QDHTTransportContact;[B) | find node request
+../3-Phrases/vuze:DHTTransportFindValueReply findValueRequest(QDHTTransportContact;[BIB) | find value request
+../3-Phrases/vuze:void findNodeSent(QDHTUDPPacketRequest;) | find node sent
+../3-Phrases/vuze:void findNodeOK() | find node ok
+../3-Phrases/vuze:void findNodeFailed() | find node failed
+../3-Phrases/vuze:void findNodeReceived() | find node received
+../3-Phrases/vuze:void findValueSent(QDHTUDPPacketRequest;) | find value sent
+../3-Phrases/vuze:void findValueOK() | find value ok
+../3-Phrases/vuze:void findValueFailed() | find value failed
+../3-Phrases/vuze:void findValueReceived() | find value received
+../3-Phrases/vuze:DownloadManager findDownloadManager(QString;) | find download manager
+../3-Phrases/vuze:int findIndexPeak(I) | find index peak
+../3-Phrases/vuze:InetAddress[] findCache(QURL;QString;) | find cache
+../3-Phrases/vuze:InetAddress[] findCache(QURL;[B) | find cache
+../3-Phrases/vuze:int findPieceToDownload(QPEPeerTransport;I) | find piece to download
+../3-Phrases/vuze:boolean findRTAPieceToDownload(QPEPeerTransport;ZJ) | find rta piece to download
+../3-Phrases/vuze:int findPieceInEndGameMode(QPEPeerTransport;I) | find piece in end game mode
+../3-Phrases/vuze:Class findLoadedClassHelper(QString;) | find loaded class helper
+../3-Phrases/vuze:Class findClassHelper(QString;) | find class helper
+../3-Phrases/vuze:int[] findVertices(DD) | find vertices
+../3-Phrases/vuze:Image[] findResources(QString;) | find resources
+../3-Phrases/vuze:RowInfo findTopRow(I) | find top row
+../3-Phrases/vuze:RowInfo findBottomRow(II) | find bottom row
+../3-Phrases/vuze:AvatarWidget findWidget(QVuzeBuddy;) | find widget
+../3-Phrases/vuze:FriendWidget findWidget(QVuzeBuddy;) | find widget
+../3-Phrases/vuze:int findFirstFileWithPieceN(I[QDiskManagerFileInfo;) | find first file with piece n
+../3-Phrases/vuze:void findNext() | find next
+../3-Phrases/vuze:int findIndex(QObject;) | find index
+../3-Phrases/vuze:void findNext() | find next
+../3-Phrases/vuze:int findIndex(QObject;) | find index
+../3-Phrases/vuze:LaunchablePlugin[] findLaunchablePlugins(QLoggerChannelListener;) | find launchable plugins
+../3-Phrases/vuze:Shell findAnyShell() | find any shell
+../3-Phrases/vuze:Control findBackgroundImageControl(QControl;) | find background image control
+../3-Phrases/vuze:int findIndex(I[I) | find index
+../3-Phrases/vuze:int findIndex(QString;[QString;) | find index
+../3-Phrases/vuze:int findIndex(I[I) | find index
+../3-Phrases/vuze:Menu findMenu(QMenu;QString;) | find menu
+../3-Phrases/vuze:MenuItem findMenuItem(QMenu;QString;) | find menu item
+../3-Phrases/vuze:int findInsertPointFor(QString;QObject;) | find insert point for
+../3-Phrases/vuze:TreeItem findTreeItem(QString;) | find tree item
+../3-Phrases/vuze:TreeItem findTreeItem(QTree;QString;) | find tree item
+../3-Phrases/vuze:TreeItem findTreeItem(QTreeItem;QString;) | find tree item
+../3-Phrases/vuze:String findProgramKey(QString;) | find program key
+../3-Phrases/vuze:File findFileOnClasspath(QString;) | find file on classpath
+../3-Phrases/vuze:File findFile(QString;) | find file
+../3-Phrases/vuze:File[] findFiles(QString;QString;) | find files
+../3-Phrases/vuze:File[] findFiles(QString;QString;Z) | find files
+../3-Phrases/vuze:File[] findFiles(QString;QString;ZC) | find files
+../3-Phrases/weka:void findLargeItemSets() | find large item sets
+../3-Phrases/weka:void findRulesBruteForce() | find rules brute force
+../3-Phrases/weka:void findRulesQuickly() | find rules quickly
+../3-Phrases/weka:void findLargeCarItemSets() | find large car item sets
+../3-Phrases/weka:void findCarRulesQuickly() | find car rules quickly
+../3-Phrases/weka:void findLargeItemSets(I) | find large item sets
+../3-Phrases/weka:void findRulesQuickly() | find rules quickly
+../3-Phrases/weka:void findLargeCarItemSets(I) | find large car item sets
+../3-Phrases/weka:void findCaRulesQuickly() | find ca rules quickly
+../3-Phrases/weka:double findIntervall(D) | find intervall
+../3-Phrases/weka:void findFrequentSequences() | find frequent sequences
+../3-Phrases/weka:void findKHitMiss(I) | find k hit miss
+../3-Phrases/weka:Vector findCentralTendencies([D) | find central tendencies
+../3-Phrases/weka:Operation findBestArcToAdd(QBayesNet;QInstances;QOperation;) | find best arc to add
+../3-Phrases/weka:Operation findBestArcToDelete(QBayesNet;QInstances;QOperation;) | find best arc to delete
+../3-Phrases/weka:Operation findBestArcToReverse(QBayesNet;QInstances;QOperation;) | find best arc to reverse
+../3-Phrases/weka:Operation findBestArcToAdd(QBayesNet;QInstances;QOperation;) | find best arc to add
+../3-Phrases/weka:Operation findBestArcToDelete(QBayesNet;QInstances;QOperation;) | find best arc to delete
+../3-Phrases/weka:Operation findBestArcToReverse(QBayesNet;QInstances;QOperation;) | find best arc to reverse
+../3-Phrases/weka:void findBestModel() | find best model
+../3-Phrases/weka:void findBestRegression() | find best regression
+../3-Phrases/weka:void findResiduals() | find residuals
+../3-Phrases/weka:boolean findOptimalPointOnLine(IDDDIDDDDDD) | find optimal point on line
+../3-Phrases/weka:void findParamsByCrossValidation(IQInstances;QRandom;) | find params by cross validation
+../3-Phrases/weka:PointDouble findBest() | find best
+../3-Phrases/weka:void findThreshold(QFastVector;) | find threshold
+../3-Phrases/weka:void findCutOff([D[D) | find cut off
+../3-Phrases/weka:int findInstance(I[D) | find instance
+../3-Phrases/weka:NeighborList findNeighbors(QInstance;IQInstances;) | find neighbors
+../3-Phrases/weka:void findWeights(I[[D) | find weights
+../3-Phrases/weka:void findRadius(QInstances;) | find radius
+../3-Phrases/weka:void findCutOff([D[D) | find cut off
+../3-Phrases/weka:void findRules([QInstances;I) | find rules
+../3-Phrases/weka:double findSplitNominal(I) | find split nominal
+../3-Phrases/weka:double findSplitNominalNominal(I) | find split nominal nominal
+../3-Phrases/weka:double findSplitNominalNumeric(I) | find split nominal numeric
+../3-Phrases/weka:double findSplitNumeric(I) | find split numeric
+../3-Phrases/weka:double findSplitNumericNominal(I) | find split numeric nominal
+../3-Phrases/weka:double findSplitNumericNumeric(I) | find split numeric numeric
+../3-Phrases/weka:double[] findLowestZNominalSplit(QInstances;QInstances;I) | find lowest z nominal split
+../3-Phrases/weka:double[] findLowestZNumericSplit(QInstances;I) | find lowest z numeric split
+../3-Phrases/weka:double findSplit(QInstances;I) | find split
+../3-Phrases/weka:double[] findNumericSplitpointAndLS(QInstances;I) | find numeric split point and ls
+../3-Phrases/weka:double findSplitNominal(I) | find split nominal
+../3-Phrases/weka:double findSplitNominalNominal(I) | find split nominal nominal
+../3-Phrases/weka:double findSplitNominalNumeric(I) | find split nominal numeric
+../3-Phrases/weka:double findSplitNumeric(I) | find split numeric
+../3-Phrases/weka:double findSplitNumericNominal(I) | find split numeric nominal
+../3-Phrases/weka:double findSplitNumericNumeric(I) | find split numeric numeric
+../3-Phrases/weka:double[] findLowestZNominalSplit(QInstances;QInstances;I) | find lowest z nominal split
+../3-Phrases/weka:double[] findLowestZNumericSplit(QInstances;I) | find lowest z numeric split
+../3-Phrases/weka:double findSplit(QInstances;I) | find split
+../3-Phrases/weka:double[] findNumericSplitpointAndLS(QInstances;I) | find numeric split point and ls
+../3-Phrases/weka:void findGraft(QInstances;[[D[[DQClassifierTree;DI) | find graft
+../3-Phrases/weka:void findBestLeaf([D[QRuleNode;) | find best leaf
+../3-Phrases/weka:CNode findHost(QInstance;Z) | find host
+../3-Phrases/weka:Vector findPackages() | find packages
+../3-Phrases/weka:double[] findArgmin([D[[D) | find arg min
+../3-Phrases/weka:NeighborList findKNearest(QInstance;I) | find k nearest
+../3-Phrases/weka:void findNearestNeighbours(QInstance;QKDTreeNode;IQMyHeap;D) | find nearest neighbours
+../3-Phrases/weka:void findActionStates() | find action states
+../3-Phrases/weka:lalr_state find_state(Qlalr_item_set;) | find state
+../3-Phrases/weka:boolean find_recovery_config(Z) | find recovery config
+../3-Phrases/weka:Method findReadMethod(QObject;QString;) | find read method
+../3-Phrases/weka:Method findWriteMethod(QObject;QString;) | find write method
+../3-Phrases/weka:NodeList findNodes(QString;) | find nodes
+../3-Phrases/weka:double findMinDistance(QInstances;I) | find min distance
+../3-Phrases/weka:int findNearestPair(DD) | find nearest pair
+../3-Phrases/weka:int findNearestPair(DD) | find nearest pair
+../3-Phrases/weka:int findNearestValue(D) | find nearest value
+../3-Phrases/weka:int findKeyIndex() | find key index
+../3-Phrases/weka:void findNumBins(I) | find num bins
+../3-Phrases/weka:String findNumBinsTipText() | find num bins tip text
+../3-Phrases/weka:String findNumBinsTipText() | find num bins tip text
+../3-Phrases/weka:void findNumBins(I) | find num bins
+../3-Phrases/weka:BeanInstance findInstance(QPoint;) | find instance
+../3-Phrases/weka:Vector findInstances(QRectangle;) | find instances
+../3-Phrases/weka:double findIntervall(D) | find intervall
+../3-Phrases/weka:void findLargeItemSets(I) | find large item sets
+../3-Phrases/weka:void findRulesQuickly() | find rules quickly
+../3-Phrases/weka:void findLargeCarItemSets(I) | find large car item sets
+../3-Phrases/weka:void findCaRulesQuickly() | find ca rules quickly
+../3-Phrases/weka:void findLargeItemSets() | find large item sets
+../3-Phrases/weka:void findRulesBruteForce() | find rules brute force
+../3-Phrases/weka:void findRulesQuickly() | find rules quickly
+../3-Phrases/weka:void findLargeCarItemSets() | find large car item sets
+../3-Phrases/weka:void findCarRulesQuickly() | find car rules quickly
+../3-Phrases/weka:void findFrequentSequences() | find frequent sequences
+../3-Phrases/weka:void findKHitMiss(I) | find k hit miss
+../3-Phrases/weka:Vector findCentralTendencies([D) | find central tendencies
+../3-Phrases/weka:CNode findHost(QInstance;Z) | find host
+../3-Phrases/weka:Vector findPackages() | find packages
+../3-Phrases/weka:double[] findArgmin([D[[D) | find arg min
+../3-Phrases/weka:int findNearestPair(DD) | find nearest pair
+../3-Phrases/weka:double findMinDistance(QInstances;I) | find min distance
+../3-Phrases/weka:int findNearestValue(D) | find nearest value
+../3-Phrases/weka:int findNearestPair(DD) | find nearest pair
+../3-Phrases/weka:int findKeyIndex() | find key index

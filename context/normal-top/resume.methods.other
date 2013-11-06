@@ -1,0 +1,22 @@
+boolean canResumeDownloads() | can resume downloads
+boolean isResumeDataComplete() | is resume data complete
+boolean isTorrentResumeDataComplete(QDownloadManagerState;) | is torrent resume data complete
+boolean isTorrentResumeDataComplete(QDownloadManagerState;QMap;) | is torrent resume data complete
+int clearResumeDataSupport(QDownloadManager;QDiskManagerFileInfo;ZZ) | clear resume data support
+int getResumePriority() | get resume priority
+Map getResumeData() | get resume data
+Map getResumeData(QDownloadManager;) | get resume data
+Map getResumeData(QDownloadManagerState;) | get resume data
+MenuItem addResumeMenuItem(QMenu;) | add resume menu item
+void clearResumeData() | clear resume data
+void clearResumeData(QDownloadManager;QDiskManagerFileInfo;) | clear resume data
+void determineSaveResumeDataInterval() | determine save resume data interval
+void saveResumeData() | save resume data
+void saveResumeData(QDownloadManagerState;QMap;) | save resume data
+void saveResumeData(QMap;) | save resume data
+void saveResumeData(Z) | save resume data
+void setResumeDataCompletelyValid(QDownloadManagerState;) | set resume data completely valid
+void setResumeData(QMap;) | set resume data
+void setResumePriority(I) | set resume priority
+void setTorrentResumeDataComplete(QDownloadManagerState;) | set torrent resume data complete
+void setTorrentResumeDataNearlyComplete(QDownloadManagerState;) | set torrent resume data nearly complete

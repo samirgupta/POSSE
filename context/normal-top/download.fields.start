@@ -1,0 +1,64 @@
+boolean downloadHitLimit | download hit limit
+boolean downloadTestRan | download test ran
+com.aelitis.azureus.core.networkmanager.impl.TransferProcessor download_processor | download processor
+com.aelitis.azureus.core.networkmanager.LimitedRateGroup download_limited_rate_group | download limited rate group
+com.aelitis.azureus.core.networkmanager.LimitedRateGroup download_limiter | download limiter
+com.aelitis.azureus.core.networkmanager.LimitedRateGroup[] download_limiters | download limiters
+com.aelitis.azureus.core.speedmanager.impl.v2.SaturatedMode downloadBandwidthStatus | download bandwidth status
+com.aelitis.azureus.core.speedmanager.impl.v2.SaturatedMode downloadLimitSettingStatus | download limit setting status
+com.aelitis.azureus.core.speedmanager.impl.v2.SpeedLimitConfidence downloadLimitConf | download limit conf
+com.aelitis.azureus.core.speedmanager.impl.v2.TransferMode.State DOWNLOAD_LIMIT_SEARCH | download limit search
+com.aelitis.azureus.core.util.average.Average download_speed_average | download speed average
+com.aelitis.azureus.ui.selectedcontent.DownloadUrlInfo downloadInfo | download info
+int downloadBound | download bound
+int downloadCompletedLive | download completed live
+int download_limit | download limit
+int downloadLimitMax | download limit max
+int downloadLimitMin | download limit min
+int download_set_id | download set id
+int DOWNLOAD_SPEED_ADJUST_MIN_KB_SEC | download speed adjust min kb sec
+int downloadTest | download test
+int DOWNLOAD_TIMEOUT | download timeout
+java.io.File download_dir | download dir
+java.io.File download_location | download location
+java.lang.Object DOWNLOAD_KEY | download key
+java.lang.String DOWNLOAD_AVE | download ave
+java.lang.String downloadButtonLink | download button link
+java.lang.String DOWNLOAD_CONFIGKEY | download config key
+java.lang.String DOWNLOAD_CONF_LIMIT_SETTING | download conf limit setting
+java.lang.String downloaddir | download dir
+java.lang.String downloadHash | download hash
+java.lang.String downloadLinkCSS | download link css
+java.lang.String download_name | download name
+java.lang.String DOWNLOAD_STD_DEV | download std dev
+java.lang.String download_url | download url
+java.util.HashMap downloadViews | download views
+java.util.Map downloadDataMap | download data map
+java.util.Map download_map | download map
+javax.swing.Action _downloadAction | download action
+javax.swing.JButton _downloadButton | download button
+long downloadAtLimitStartTime | download at limit start time
+long download_average | download average
+org.gudy.azureus2.core3.download.DownloadManager download_manager | download manager
+org.gudy.azureus2.core3.download.DownloadManagerState download_manager_state | download manager state
+org.gudy.azureus2.core3.download.DownloadManagerState download_state | download state
+org.gudy.azureus2.core3.download.impl.DownloadManagerImpl download_manager | download manager
+org.gudy.azureus2.core3.util.AEMonitor downloadData_this_mon | download data this mon
+org.gudy.azureus2.core3.util.AEMonitor downloadViews_mon | download views mon
+org.gudy.azureus2.plugins.download.DownloadActivationListener download_activation_listener | download activation listener
+org.gudy.azureus2.plugins.download.DownloadListener download_listener | download listener
+org.gudy.azureus2.plugins.download.DownloadManager download_manager | download manager
+org.gudy.azureus2.plugins.download.DownloadManagerListener download_manager_listener | download manager listener
+org.gudy.azureus2.plugins.download.DownloadTrackerListener download_tracker_listener | download tracker listener
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl.DownloadActivationNotifier download_activation_notifier | download activation notifier
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl.DownloadCompletionNotifier download_completion_notifier | download completion notifier
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl.DownloadNotifier download_notifier | download notifier
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl.DownloadPeerNotifier download_peer_notifier | download peer notifier
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl.DownloadPropertyNotifier download_property_notifier | download property notifier
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl.DownloadTrackerNotifier download_tracker_notifier | download tracker notifier
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl.DownloadTrackerNotifier download_tracker_notifier_instant | download tracker notifier instant
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl.DownloadWillBeRemovedNotifier download_will_be_removed_notifier | download will be removed notifier
+org.gudy.azureus2.pluginsimpl.local.download.DownloadStatsImpl download_stats | download stats
+org.gudy.azureus2.plugins.utils.Monitor download_mon | download mon
+org.gudy.azureus2.ui.swt.config.IntListParameter downloadModeUsedCap | download mode used cap
+org.gudy.azureus2.ui.swt.TrayWindow downloadBasket | download basket

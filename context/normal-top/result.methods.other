@@ -1,0 +1,109 @@
+ArrayList getResultColumns(QElement;) | get result columns
+boolean hasPropertyResultMap(QString;) | has property result map
+boolean scrapeResultOk(QDownload;) | scrape result ok
+boolean supportsMultipleResultSets() | supports multiple result sets
+boolean supportsResultSetConcurrency(II) | supports result set concurrency
+boolean supportsResultSetHoldability(I) | supports result set holdability
+boolean supportsResultSetPositionQueryMethodsOnForwardOnlyCursor() | supports result set position query methods on forward only cursor
+boolean supportsResultSetType(I) | supports result set type
+Class getResultMatrix() | get result matrix
+Criteria setResultTransformer(QResultTransformer;) | set result transformer
+DetachedCriteria setResultTransformer(QResultTransformer;) | set result transformer
+double getResultContinuous([D) | get result continuous
+double getResultInverse([D) | get result inverse
+EntityKey getKeyFromResultSet(IQLoadable;QSerializable;QResultSet;QSessionImplementor;) | get key from result set
+ExecuteUpdateResultCheckStyle getResultCheckStyle(QElement;Z) | get result check style
+FastVector getResultVector() | get result vector
+Hashtable getResultTags() | get result tags
+Image computeResultImage() | compute result image
+Integer getResultSetCount() | get result set count
+Integer getResultType(QString;) | get result type
+int getLastResultNumber() | get last result number
+int[] getResultChromosome() | get result chromosome
+int getResultSetConcurrency() | get result set concurrency
+int getResultSetHoldability() | get result set holdability
+int getResultSetType() | get result set type
+int registerResultSetOutParameter(QCallableStatement;I) | register result set out parameter
+int registerResultSetOutParameter(Qjava.sql.CallableStatement;I) | register result set out parameter
+int toResultSetType() | to result set type
+java.sql.ResultSet getResultSet() | get result set
+JavaType getResultType() | get result type
+jq_Type getResultType() | get result type
+List getResultFromQueryCache(QSessionImplementor;QQueryParameters;QSet;[QType;QQueryCache;QQueryKey;) | get result from query cache
+List getResultList(QList;QResultTransformer;) | get result list
+long getLastNewResultTime() | get last new result time
+Map getSqlResultSetMappings() | get sql result set mappings
+Object buildResultRow([QObject;QResultSet;ZQSessionImplementor;) | build result row
+Object getResultColumnOrRow([QObject;QResultTransformer;QResultSet;QSessionImplementor;) | get result column or row
+Object[] getResultFromTable(QString;QResultProducer;[QObject;) | get result from table
+Object getResultProperty(I) | get result property
+Object[] getResultTypes() | get result types
+Object getRowFromResultSet(QResultSet;QSessionImplementor;QQueryParameters;[QLockMode;QEntityKey;QList;[QEntityKey;Z) | get row from result set
+Object getValueFromResultSet(ResultSet rs, MetaField field) | get value from result set
+Object readObjectFromResultSet(SelectStatement select, LoaderContext loadContext) | read object from result set
+Object[] toResultRow([QObject;) | to result row
+Query setResultTransformer(QResultTransformer;) | set result transformer
+Result getResultMain(QSession;) | get result main
+ResultListener getResultListener() | get result listener
+ResultMatrix getResultMatrix() | get result matrix
+ResultObjectFactory newResultObjectFactory(QueryExpression stmt, boolean ignoreCache, Class resultClass, boolean useFetchPlan) | new result object factory
+ResultProducer getResultProducer() | get result producer
+ResultSet getResultSet() | get result set
+ResultSet getResultSet(CallableStatement ps) | get result set
+ResultSet getResultSet(QCallableStatement;) | get result set
+ResultSet getResultSet(QCallableStatement;QDialect;) | get result set
+ResultSet getResultSet(QPreparedStatement;) | get result set
+ResultSet getResultSet(QPreparedStatement;ZZQRowSelection;QSessionImplementor;) | get result set
+ResultSet getResultSet(Statement statement) | get result set
+ResultSetMappingDefinition buildResultSetMappingDefinition(QElement;QString;QMappings;) | build result set mapping definition
+ResultSetMappingDefinition getResultSetMapping(QString;) | get result set mapping
+ResultTransformer getResultTransformer() | get result transformer
+Serializable getResultId() | get result id
+SQLQuery setResultSetMapping(QString;) | set result set mapping
+String getRawResultOutput() | get raw result output
+String getResultCategorical([D) | get result categorical
+String[] getResultNames() | get result names
+String getResultSetRef() | get result set ref
+String getResultString() | get result string
+Type[] getResultTypes() | get result types
+Type resolveDateTimeArithmeticResultType(QType;QType;) | resolve date time arithmetic result type
+void addResultChangedListener(QResultChangedListener;) | add result changed listener
+void addResultListener(IResultListener listener) | add result listener
+void addResultSetMapping(QResultSetMappingDefinition;) | add result set mapping
+void bindResultSetMappingDefinition(QElement;QString;QMappings;) | bind result set mapping definition
+void clearResultPanel() | clear result panel
+void createResultData(QComposite;QString;I) | create result data
+void createResultLabels(QComposite;Z) | create result labels
+void determineAdditionalResultMeasures() | determine additional result measures
+void displayResultSet(QStatement;QResultSet;[IQString;) | display result set
+void formatResultSet(QResultSet;) | format result set
+void initResultMatrix() | init result matrix
+void loadFromResultSet(QResultSet;IQObject;QString;QEntityKey;QString;QLockMode;QLoadable;QSessionImplementor;) | load from result set
+void lookupResultHandler(QDHTOperationListener;) | lookup result handler
+void NonScalarResultColumnProcessor(I) | non scalar result column processor
+void printResultNames(QResultProducer;) | print result names
+void putResultInQueryCache(QSessionImplementor;QQueryParameters;[QType;QQueryCache;QQueryKey;QList;) | put result in query cache
+void putResultInTable(QString;QResultProducer;[QObject;[QObject;) | put result in table
+void readObjectFromResultSet(ResultSet rs) | read object from result set
+void removeResultChangedListener(QResultChangedListener;) | remove result changed listener
+void ScalarResultColumnProcessor(I) | scalar result column processor
+void ScalarResultColumnProcessor(QString;QType;) | scalar result column processor
+void sendResultToListeners(QNetworkAdminSpeedTesterResult;) | send result to listeners
+void setMaxresultSetSize(int maxResultSetSize) | set max result set size
+void setResultId(QSerializable;) | set result id
+void setResultKeyFromDialog() | set result key from dialog
+void setResultListener(QResultListener;) | set result listener
+void setResultMatrix(QClass;) | set result matrix
+void setResultMatrix(QResultMatrix;) | set result matrix
+void setResultProducer(QResultProducer;) | set result producer
+void setResultType(I) | set result type
+void setResultVector(QFastVector;) | set result vector
+void setShowResultCount(Z) | set show result count
+void setUpResultHistory() | set up result history
+void showResultInText() | show result in text
+void testResult10() | test result 10
+void testResult20() | test result 20
+void testResult24() | test result 24
+void testResult26() | test result 26
+void testResult3() | test result 3
+void testResultOfNonPublicTestCase() | test result of non public test case

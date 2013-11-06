@@ -1,0 +1,9 @@
+boolean openAttachment() | open attachment
+DataHandler getAttachment(String contentId) | get attachment
+DHTRouterContactAttachment getAttachment() | get attachment
+List<Attachment> getAttachments() | get attachments
+Map getAttachments(ActionRequest req) | get attachments
+String getAttachmentDescription(Attachment att) | get attachment description
+void saveAttachment(XWikiAttachment attachment, boolean parentUpdate, XWikiContext context, boolean bTransaction) | save attachment
+void setAttachment(QDHTRouterContactAttachment;) | set attachment
+void testForewardWithAttachment() | test foreward with attachment

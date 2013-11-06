@@ -1,0 +1,21 @@
+boolean _isGenericCompiler() | is generic compiler
+CompilerEnvirons getCompilerEnv() | get compiler env
+CompilerErrorModel getCompilerErrorModel() | get compiler error model
+CompilerInterface compiler() | compiler
+CompilerInterface getActiveCompiler() | get active compiler
+CompilerModel getCompilerModel() | get compiler model
+Interpreter createCompiler() | create compiler
+Iterable<QCompilerInterface;> getAvailableCompilers() | get available compilers
+LinkedList<QDJError;> _parseExceptions2CompilerErrors(QLinkedList<QJExprParseException;>;) | parse exceptions 2 compiler errors
+LinkedList<QDJError;> _visitorErrors2CompilerErrors(QLinkedList<QPair<QString;QJExpressionIF;>;>;) | visitor errors 2 compiler errors
+Object getCompilerData() | get compiler data
+Object getCompilerLock() | get compiler lock
+String adapterForCompiler(QJavaVersion;) | adapter for compiler
+String getCompilerErrorString() | get compiler error string
+void addCompiler(QCompilerInterface;) | add compiler
+void assertActiveCompilerChangedCount(I) | assert active compiler changed count
+void multInt(SimpleNode lhsn, SimpleNode rhsn, NQPyBlockCompiler compiler) | mult int
+void resetCompilerErrors() | reset compiler errors
+void setActiveCompiler(QCompilerInterface;) | set active compiler
+void setCompilerData(QObject;) | set compiler data
+void _setupCompilerPanel(QConfigPanel;) | setup compiler panel

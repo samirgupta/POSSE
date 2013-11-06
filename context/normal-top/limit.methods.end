@@ -1,0 +1,67 @@
+boolean bandwidthUsageAtLimit() | bandwidth usage at limit
+boolean hasNewLimit() | has new limit
+boolean hasTimeLimit() | has time limit
+boolean isUnderStringSizeLimit(QString;) | is under string size limit
+boolean isUnderUtfEncodingLimit(QString;) | is under utf encoding limit
+boolean supportsLimit() | supports limit
+boolean supportsVariableLimit() | supports variable limit
+boolean useLimit(QRowSelection;QDialect;) | use limit
+boolean useMaxForLimit() | use max for limit
+double getStrokeTotalMiterLimit(QFigure;) | get stroke total miter limit
+float getSpeedLimit() | get speed limit
+int choseBestLimit(QSpeedManagerLimitEstimate;IQSpeedLimitConfidence;) | chose best limit
+int filterLimit(II) | filter limit
+int getBatchLimit(B) | get batch limit
+int getCharLimit() | get char limit
+int getClassLimit(I) | get class limit
+int getCurrentDownloadLimit() | get current download limit
+int getCurrentUploadLimit() | get current upload limit
+int getDownloadLimit() | get download limit
+int getDownloadMaxLimit() | get download max limit
+int getDownloadMinLimit() | get download min limit
+int getFrequencyLimit() | get frequency limit
+int getGroupRateLimit(QLimitedRateGroup;) | get group rate limit
+int getLeaderUsageLimit() | get leader usage limit
+int getLegalMinimumAgeLimit() | get legal minimum age limit
+int getLimit() | get limit
+int getMaxOrLimit(QRowSelection;QDialect;) | get max or limit
+int getMessageCounterHistoryDayLimit() | get message counter history day limit
+int getNewLimit() | get new limit
+int getSeedLimit() | get seed limit
+int getUploadLimit() | get upload limit
+int getUploadMaxLimit() | get upload max limit
+int getUploadMinLimit() | get upload min limit
+int getUtfEncodingLimit(QString;II) | get utf encoding limit
+int guessDownloadLimit() | guess download limit
+int guessUploadLimit() | guess upload limit
+limitEstimate getEstimatedLimit(Z) | get estimated limit
+limitEstimate getNullLimit() | get null limit
+limitEstimate loadLimit(QMap;) | load limit
+Map saveLimit(QlimitEstimate;) | save limit
+Query setLimit(int max) | set limit
+SMUpdate checkActiveProgressiveDownloadLimit(QSMUpdate;) | check active progressive download limit
+SMUpdate rampTestingLimit(II) | ramp testing limit
+SpeedManagerLimitEstimate getDownloadLimit() | get download limit
+SpeedManagerLimitEstimate getEstimatedDownloadLimit(Z) | get estimated download limit
+SpeedManagerLimitEstimate getEstimatedUploadLimit(Z) | get estimated upload limit
+SpeedManagerLimitEstimate getLastBadDownloadLimit() | get last bad download limit
+SpeedManagerLimitEstimate getLastBadUploadLimit() | get last bad upload limit
+SpeedManagerLimitEstimate getUploadLimit() | get upload limit
+SpeedManagerLimitEstimate getUploadLimit(Z) | get upload limit
+String getMBitLimit(QTransferStatsView.limitToTextHelper;J) | get m bit limit
+void enforceNodesLimit(TAgent agent) | enforce nodes limit
+void parseLimit(QString;QSelect;Z) | parse limit
+void rateLimit(QInetSocketAddress;) | rate limit
+void resetNewLimit() | reset new limit
+void setCharLimit(I) | set char limit
+void setCurrentDownloadLimit(I) | set current download limit
+void setCurrentUploadLimit(I) | set current upload limit
+void setDownloadLimit(I) | set download limit
+void setDownloadLimit(QSpeedManagerLimitEstimate;) | set download limit
+void setExecutionLimit(J) | set execution limit
+void setFrequencyLimit(I) | set frequency limit
+void setLimit(I) | set limit
+void setLowerLimit(D) | set lower limit
+void setSpeedLimit(F) | set speed limit
+void setUploadLimit(I) | set upload limit
+void setUploadLimit(QSpeedManagerLimitEstimate;) | set upload limit

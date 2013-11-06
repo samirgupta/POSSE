@@ -1,0 +1,25 @@
+boolean addEngineCrits() | add engine crits
+boolean checkEngineExplosion(QEntity;QVector;I) | check engine explosion
+byte[] internalEngineDoFinal([BII) | internal engine do final
+Engine getEngineByUID(QString;) | get engine by uid
+Engine getEngineFromId(J) | get engine from id
+int getCountEngineHeatSinks() | get count engine heat sinks
+int getEngineCount() | get engine count
+int getEngineCritHeat() | get engine crit heat
+int getEngineTypeByString(QString;) | get engine type by string
+int translateEngineCode(I) | translate engine code
+NetGraphModel convertEngineNet(YSpecification engineSpecification, YNet engineNet) | convert engine net
+org.planetamessenger.plugin.JPluginEngineListener getPluginEngineListener() | get plugin engine listener
+String getEngineName() | get engine name
+String getShortEngineName() | get short engine name
+void addEngineSinks(IZ) | add engine sinks
+void addEngineSinks(IZZ) | add engine sinks
+void addPluginEngineListener(QJPluginEngineListener;) | add plugin engine listener
+void addRegistrationEngineListener(QJUserRegistrationListener;) | add registration engine listener
+void clearEngineCrits() | clear engine crits
+void doFusionEngineExplosion(IQCoords;QVector;QVector;) | do fusion engine explosion
+void getEngineOutput(Process engine) | get engine output
+void initLastAuthenticationEngineConfig() | init last authentication engine config
+void internalEngineInit(IQKey;QAlgorithmParameterSpec;QSecureRandom;) | internal engine init
+void removePluginEngineListener(QJPluginEngineListener;) | remove plugin engine listener
+void removeRegistrationEngineListener(QJUserRegistrationListener;) | remove registration engine listener

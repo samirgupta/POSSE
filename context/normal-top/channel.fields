@@ -1,0 +1,18 @@
+com.aelitis.azureus.core.networkmanager.impl.tcp.IncomingSocketChannelManager incoming_socketchannel_manager | incoming socket channel manager
+int channel_id | channel id
+int channel_id_next | channel id next
+int MAX_CHANNELS_PER_SAFE_SELECTOR | max channels per safe selector
+java.lang.String channel_key | channel key
+java.lang.String TYPEID_CHANNEL_ANNOUNCE | typeid channel announce
+java.nio.channels.FileChannel channel | channel
+java.nio.channels.ServerSocketChannel server_channel | server channel
+java.nio.channels.SocketChannel channel | channel
+java.nio.channels.SocketChannel socket_channel | socket channel
+java.nio.channels.SocketChannel source_channel | source channel
+java.nio.channels.SocketChannel target_channel | target channel
+java.nio.channels.spi.AbstractSelectableChannel channel | channel
+java.util.List channels | channels
+java.util.List server_channels | server channels
+java.util.Map channel_listener_map | channel listener map
+org.gudy.azureus2.plugins.logging.LoggerChannel channel | channel
+org.gudy.azureus2.plugins.utils.xml.rss.RSSChannel[] channels | channels

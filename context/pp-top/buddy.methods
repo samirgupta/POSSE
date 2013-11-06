@@ -1,0 +1,13 @@
+CONS VuzeActivitiesBuddyInvited(QList;) | vu ze activities buddy invited
+void buddyAdded(QBuddyPluginBuddy;) | buddy added
+void buddyAdded(QVuzeBuddy;I) | buddy added
+void buddyChanged(QBuddyPluginBuddy;) | buddy changed
+void buddyChanged(QVuzeBuddy;) | buddy changed
+void buddyConnectionEstablished(Z) | buddy connection established
+void buddyMessageFragmentReceived(II) | buddy message fragment received
+void buddyMessageReceived(I) | buddy message received
+void buddyOrderChanged() | buddy order changed
+void buddyRemoved(QBuddyPluginBuddy;) | buddy removed
+void buddyRemoved(QVuzeBuddy;) | buddy removed
+void fireOnBuddyStatusChanged(Qjava.lang.String;I) | fire on buddy status changed
+void onBuddyStatusChanged(JI) | on buddy status changed

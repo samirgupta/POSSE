@@ -1,0 +1,36 @@
+boolean scanRecord(PreambleScanning scan) | scan record
+char scanWhitespace() | scan whitespace
+char scanWhitespace(QStringBuffer;) | scan whitespace
+int scanAttributes(byte input, int offset, int end, int lineNr) | scan attributes
+int scanAttributes([CII[I) | scan attributes
+int scanContent([CII[I[I[I) | scan content
+int scanOneAttribute(char input, int offset, int end, int lineNr) | scan one attribute
+int scanOneAttribute([CII[I) | scan one attribute
+int scanTagName([CII[I) | scan tag name
+String scanIdentifier([CII) | scan identifier
+String scanIdentifier(QIXMLReader;) | scan identifier
+String scanPublicID(QStringBuffer;QIXMLReader;) | scan public id
+String scanString() | scan string
+String scanString([CII[I) | scan string
+String scanString(QIXMLReader;CQIXMLEntityResolver;) | scan string
+String scanSystemID(QIXMLReader;) | scan system id
+Vector scanForBoards(II) | scan for boards
+Vector scanForBoards(IIZ) | scan for boards
+Vector scanForBoardsInDir(QFile;QString;II) | scan for boards in dir
+void scanChildren([CIII) | scan children
+void _scanClassFiles() | scan class files
+void scanData() | scan data
+void scanElement(QXMLElement;) | scan element
+void scanEntries(QEntrySorter;QEntrySorter;QEntrySorter;) | scan entries
+void scanGroups(QMetaData;QMetaData;QMetaData;) | scan groups
+void scanIdentifier(QStringBuffer;) | scan identifier
+void scanMetaData(QMetaData;QMetaData;QMetaData;) | scan meta data
+void scanPath(QString;) | scan path
+void scanPCData(QStringBuffer;) | scan pc data
+void scanPIData(String target, XMLStringBuffer data) | scan pi data
+void scanPreamble(QBibtexDatabase;QBibtexDatabase;QBibtexDatabase;) | scan preamble
+void scanShares() | scan shares
+void scanSomeTag(ZQString;QProperties;) | scan some tag
+void scanString(QStringBuffer;) | scan string
+void scanStrings(QBibtexDatabase;QBibtexDatabase;QBibtexDatabase;) | scan strings
+void scanSuccess(QSubscription;) | scan success

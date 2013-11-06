@@ -1,0 +1,46 @@
+boolean getBinarizeNumericAttributes() | get binarize numeric attributes
+boolean getNormalizeNumericClass() | get normalize numeric class
+boolean[] getNumericColumns() | get numeric columns
+boolean isNumericAt(I) | is numeric at
+boolean isNumericString(QString;) | is numeric string
+boolean isNumericType(QClass;) | is numeric type
+boolean lowerNumericBoundIsOpen() | lower numeric bound is open
+boolean upperNumericBoundIsOpen() | upper numeric bound is open
+byte[] textToNumericFormat(QString;) | text to numeric format
+Class getNumericType(QClass;QClass;) | get numeric type
+double[] findLowestZNumericSplit(QInstances;I) | find lowest z numeric split
+double[] findNumericSplitpointAndLS(QInstances;I) | find numeric split point and ls
+double findSplitNumericNominal(I) | find split numeric nominal
+double[][][] getClusterModelsNumericAtts() | get cluster models numeric atts
+double getLowerNumericBound() | get lower numeric bound
+double getUpperNumericBound() | get upper numeric bound
+Instances getNumericData(QInstances;) | get numeric data
+OneRRule newNumericRule(QAttribute;QInstances;[I) | new numeric rule
+String binarizeNumericAttributesTipText() | binarize numeric attributes tip text
+String convertNumericEscape(QString;I) | convert numeric escape
+String convertNumericEscapes(QString;) | convert numeric escapes
+String decodeAlphaNumericChar(C) | decode alpha numeric char
+String decodeNumericChar(C) | decode numeric char
+String decodeNumericValueOfByte(B) | decode numeric value of byte
+String decodeNumericValueOfByte(BI) | decode numeric value of byte
+String getNumericFunctions() | get numeric functions
+String getNumericOid(QString;) | get numeric oid
+String normalizeNumericClassTipText() | normalize numeric class tip text
+String numNumericTipText() | num numeric tip text
+void addNumericTrainClass(DD) | add numeric train class
+void convertNumericAttToNominal(IQArrayList<QString;>;) | convert numeric att to nominal
+void evaluateNumericSplit(QPredictionNode;QInstances;I) | evaluate numeric split
+void evaluateNumericSplitSingle(IQPredictionNode;QInstances;QInstances;QInstances;) | evaluate numeric split single
+void generateStaticPotentialSplittersAndNumericIndices() | generate static potential splitters and numeric indices
+void handleNumericAttribute(QInstances;) | handle numeric attribute
+void processNumericLiteral(QAST;) | process numeric literal
+void registerNumericTypeMappings() | register numeric type mappings
+void setBinarizeNumericAttributes(Z) | set binarize numeric attributes
+void setNormalizeNumericClass(Z) | set normalize numeric class
+void setNumericFieldsFromPrefs() | set numeric fields from prefs
+void setNumericPriorsFromBuffer() | set numeric priors from buffer
+void setNumericRange(QString;) | set numeric range
+void TwoWayNumericSplit(ID) | two way numeric split
+void TwoWayNumericSplit(IQInstances;) | two way numeric split
+void updateNumericScores([D[DD) | update numeric scores
+void updateWeightsNumericClass(I) | update weights numeric class

@@ -1,0 +1,21 @@
+boolean isKoThisRound() | is ko this round
+boolean isUsedThisRound() | is used this round
+boolean shouldDeployForRound(I) | should deploy for round
+boolean shouldDeployThisRound() | should deploy this round
+int getActiveSinksNextRound() | get active sinks next round
+int getCockpitStatusNextRound() | get cockpit status next round
+int getDeployRound() | get deploy round
+int getHeatPerRound() | get heat per round
+int getRound() | get round
+int probRound(DQRandom;) | prob round
+long getExpireRound() | get expire round
+Vector getEntitiesToDeployForRound(I) | get entities to deploy for round
+void clearDeploymentThisRound() | clear deployment this round
+void incrementAndSendGameRound() | increment and send game round
+void newRound(I) | new round
+void resetEntityRound() | reset entity round
+void setActiveSinksNextRound(I) | set active sinks next round
+void setDeployRound(I) | set deploy round
+void setExpireRound(J) | set expire round
+void setKoThisRound(Z) | set ko this round
+void setUsedThisRound(Z) | set used this round

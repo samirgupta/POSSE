@@ -1,0 +1,15 @@
+Composite createFolderWidget(QComposite;) | create folder widget
+DirectoryChooser makeFolderChooser(QFile;) | make folder chooser
+FileDisplay makeNewFolderDisplay(QFile;) | make new folder display
+Image getFolderImage() | get folder image
+MenuItem addShareFolderContentMenuItem(QMenu;) | add share folder content menu item
+MenuItem addShareFolderContentRecursiveMenuItem(QMenu;) | add share folder content recursive menu item
+MenuItem addShareFolderMenuItem(QMenu;) | add share folder menu item
+String getFolderName() | get folder name
+void addCTabFolder2Listener(CTabFolder2Listener listener) | add c tab folder 2 listener
+void cleanFolderNode(QDefaultMutableTreeNode;) | clean folder node
+void importFolderStructure(QFile;QMindMapNode;Z) | import folder structure
+void insertFolderSortedInto(QInnerNode<*QItemT;>;QInnerNode<*QItemT;>;) | insert folder sorted into
+void outFolderColumn(StringBuffer sb, AlbumFolderBean afb, FolderExplorerClientBean fecb, HttpServletRequest request) | out folder column
+void testCopySchemaFilesToFolder1() | test copy schema files to folder 1
+void testDefaultFolderConfig() | test default folder config

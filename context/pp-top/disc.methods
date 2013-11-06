@@ -1,0 +1,16 @@
+boolean deviceDiscovered(QString;QURL;) | device discovered
+boolean isDiscriminated() | is discriminated
+long getDiscarded() | get discarded
+long getTotalBytesDiscarded() | get total bytes discarded
+long getTotalDiscarded() | get total discarded
+void bytesDiscarded(I) | bytes discarded
+void discarded(I) | discarded
+void discarded(QPEPeer;I) | discarded
+void disconnected() | disconnected
+void disconnected(QConnection;) | disconnected
+void disconnected(QDisconnectedEvent;) | disconnected
+void disconnected(QPlayer;) | disconnected
+void gamePlayerDisconnected(QGamePlayerDisconnectedEvent;) | game player disconnected
+void rootDiscovered(QNetworkInterface;QInetAddress;QString;QURL;) | root discovered
+void serverDisconnected() | server disconnected
+void setTotalDiscarded(J) | set total discarded

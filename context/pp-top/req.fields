@@ -1,0 +1,35 @@
+boolean _cancelRequested | cancel requested
+boolean encoding_requested | encoding requested
+boolean fully_requested | fully requested
+boolean nextLineRequested | next line requested
+boolean rebuild_required | rebuild required
+boolean request_hint_supported | request hint supported
+boolean restartRequired | restart required
+boolean write_required | write required
+byte CRYPTO_REQUIRED | crypto required
+byte PIECE_RECHECK_REQUIRED | piece recheck required
+int COLOR_REQUESTED | color requested
+int COLUMN_SIZE_REQUIRED | column size required
+int CRYPTO_OVERRIDE_NOT_REQUIRED | crypto override not required
+int CRYPTO_OVERRIDE_REQUIRED | crypto override required
+int LABEL_REQUIRED | label required
+int ORDER_LIMIT_REQUIRED | order limit required
+int QUOTED_IDENTIFIER_REQUIRED | quoted identifier required
+int requests_completed | requests completed
+int requests_discarded | requests discarded
+int requests_recovered | requests recovered
+int REQUIRE_TABLEITEM_INITIALIZED | require table item initialized
+int restart_required | restart required
+int SQL_CONSTRAINT_REQUIRED | sql constraint required
+int STREAM_ENCRYPTION_RC4_REQUIRED | stream encryption rc 4  required
+int TOKEN_REQUIRED | token required
+java.lang.String EVENT_HELP_REQUIRED | event help required
+java.lang.String[] requested | requested
+java.lang.String STATUS_REQUESTED | status requested
+java.lang.String TORRENT_AZ_PROP_DHT_BACKUP_REQUESTED | torrent az prop dht backup requested
+java.lang.String TXN_REQUIRED | txn required
+java.util.ArrayList requested | requested
+long request_bytes_queued | request bytes queued
+long requests_queued | requests queued
+long total_requests_processed | total requests processed
+long total_requests_received | total requests received

@@ -1,0 +1,24 @@
+boolean hasPhysicalDiscriminatorColumn(QQueryable;) | has physical discriminator column
+boolean isDiscriminatorFormula() | is discriminator formula
+boolean isDiscriminatorInsertable() | is discriminator insertable
+boolean isDiscriminatorValueNotNull() | is discriminator value not null
+boolean isDiscriminatorValueNull() | is discriminator value null
+Iterator getDiscriminatorColumnIterator() | get discriminator column iterator
+String getDiscriminatorAlias() | get discriminator alias
+String getDiscriminatorAlias(QLoadable;QString;) | get discriminator alias
+String getDiscriminatorAlias(QString;) | get discriminator alias
+String getDiscriminatorColumnName() | get discriminator column name
+String getDiscriminatorFormula() | get discriminator formula
+String getDiscriminatorFormulaTemplate() | get discriminator formula template
+String getDiscriminatorSQLValue() | get discriminator sql value
+String getDiscriminatorValue() | get discriminator value
+String getSubclassForDiscriminatorValue(QObject;) | get subclass for discriminator value
+String getSuffixedDiscriminatorAlias() | get suffixed discriminator alias
+Type getDiscriminatorType() | get discriminator type
+void addDiscriminatorToInsert(QInsert;) | add discriminator to insert
+void addDiscriminatorToSelect(QSelectFragment;QString;QString;) | add discriminator to select
+void addDiscriminatorWhereFragment(QRestrictableStatement;QQueryable;QMap;QString;) | add discriminator where fragment
+void bindDiscriminatorProperty(QTable;QRootClass;QElement;QMappings;) | bind discriminator property
+void initDiscriminatorPropertyPath(QMapping;) | init discriminator property path
+void setDiscriminatorInsertable(Z) | set discriminator insertable
+void setDiscriminatorValue(QString;) | set discriminator value

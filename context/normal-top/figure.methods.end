@@ -1,0 +1,24 @@
+BezierFigure createFigure() | create figure
+BezierFigure getBezierFigure() | get bezier figure
+ConnectionFigure createFigure() | create figure
+Figure createFigure() | create figure
+Figure findConnectableFigure(QPoint2D.Double;QDrawing;) | find connectable figure
+Figure findFigure(QPoint;) | find figure
+Figure findFigure(QPoint2D.Double;) | find figure
+Figure getAddedFigure() | get added figure
+Figure getCreatedFigure() | get created figure
+Figure getEndFigure() | get end figure
+Figure getFigure() | get figure
+Figure getPresentationFigure() | get presentation figure
+Figure getStartFigure() | get start figure
+Figure getTargetFigure() | get target figure
+TextFigure getDurationFigure() | get duration figure
+TextFigure getNameFigure() | get name figure
+TextFigure getStartTimeFigure() | get start time figure
+void addPointToFigure(QPoint2D.Double;) | add point to figure
+void drawFigure(QGraphics2D;) | draw figure
+void drawPresentationFigure(QGraphics2D;) | draw presentation figure
+void setCreatedFigure(QFigure;) | set created figure
+void setFigureBCNameFigure(Label fig) | set figure bc name figure
+void setPresentationFigure(QFigure;) | set presentation figure
+void setTargetFigure(QFigure;) | set target figure

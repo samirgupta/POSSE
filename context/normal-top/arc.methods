@@ -1,0 +1,106 @@
+ArcDef createArcDef() | create arc def
+ArcDef findArchive(QString;I) | find archive
+ArcDef getArcDef() | get arc def
+ArcDef[] getArcDefs() | get arc defs
+Archive findBestArchive(JJJQArrayList;) | find best archive
+Archive findMatchingArchive(QFetchRequest;) | find matching archive
+Archive findStartMatchArchive(QString;JJ) | find start match archive
+Archive getArchive(I) | get archive
+Archive getArchive(QString;I) | get archive
+Archive[] getArchives() | get archives
+Archive getMatchingArchive() | get matching archive
+ArchiveTableModel getArchiveTableModel() | get archive table model
+ArcState getArcState(I) | get arc state
+ArrayList getArchiveList(QConsolidationFunctionType;) | get archive list
+boolean addArcMakesSense(QBayesNet;QInstances;II) | add arc makes sense
+boolean doesElementExistInArchive(QString;) | does element exist in archive
+boolean getUseArcReversal() | get use arc reversal
+boolean isArc(QBayesNet;II) | is arc
+boolean isFileInArchive(QString;) | is file in archive
+boolean isInArchive() | is in archive
+boolean isInArc(QCoords;IQCoords;I) | is in arc
+boolean isInArc(QIGame;IIQTargetable;) | is in arc
+boolean isSecondaryArcWeapon(I) | is secondary arc weapon
+boolean reverseArcMakesSense(QBayesNet;QInstances;II) | reverse arc makes sense
+double getArcHeight() | get arc height
+double getArcWidth() | get arc width
+double measureExtraArcs() | measure extra arcs
+double measureMissingArcs() | measure missing arcs
+double measureReversedArcs() | measure reversed arcs
+int defaultNumArcs() | default num arcs
+int extraArcs(QBayesNet;) | extra arcs
+int firingArcToHitArc(I) | firing arc to hit arc
+int getArcCount() | get arc count
+int getArcIndex() | get arc index
+int getArcIndex(QString;I) | get arc index
+int getFiringArc() | get firing arc
+int getMatchingArchiveIndex(QRrdDb;IQRrdDb;) | get matching archive index
+int getNoArcs() | get no arcs
+int getNumArchives() | get num archives
+int getNumArcs() | get num arcs
+int getThreatHitArc(QCoords;IQCoords;) | get threat hit arc
+int getWeaponArc(I) | get weapon arc
+int missingArcs(QBayesNet;) | missing arcs
+int reversedArcs(QBayesNet;) | reversed arcs
+Iterator getArchives() | get archives
+Iterator getArchives(QConsolidationFunctionType;) | get archives
+long getArcStep() | get arc step
+Operation findBestArcToAdd(QBayesNet;QInstances;QOperation;) | find best arc to add
+Operation findBestArcToDelete(QBayesNet;QInstances;QOperation;) | find best arc to delete
+Operation findBestArcToReverse(QBayesNet;QInstances;QOperation;) | find best arc to reverse
+String numArcsTipText() | num arcs tip text
+String savePbArchs() | save pb archs
+String useArcReversalTipText() | use arc reversal tip text
+Vector slowSyncData(Vector pcRecords, Vector archivedRecords, Vector backupRecords) | slow sync data
+void ActionAddArc() | action add arc
+void ActionDeleteArc() | action delete arc
+void AddArcAction(II) | add arc action
+void AddArcAction(IQFastVector;) | add arc action
+void addArchive() | add archive
+void addArchive([QArcDef;) | add archive
+void addArchive(QArcDef;) | add archive
+void addArchive(QString;) | add archive
+void addArchive(QString;DII) | add archive
+void addArchive(QString;QArcDef;Z) | add archive
+void addArchive(QString;QString;QArcDef;) | add archive
+void addArc(II) | add arc
+void addArcInto(I) | add arc into
+void addArc(QString;QFastVector;) | add arc
+void addArc(QString;QString;) | add arc
+void applyArcAddition(QBayesNet;IIQInstances;) | apply arc addition
+void applyArcDeletion(QBayesNet;IIQInstances;) | apply arc deletion
+void archive(IDJ) | archive
+void archive(QDatasource;DJ) | archive
+void arcTo(DDDZZDD) | arc to
+void calcArcDirections([[Z[[Z) | calc arc directions
+void DeleteArcAction(II) | delete arc action
+void deleteArc(II) | delete arc
+void deleteArc(IQString;) | delete arc
+void deleteArc([QString;) | delete arc
+void deleteArc(QString;I) | delete arc
+void deleteArc(QString;QString;) | delete arc
+void drawArc(IIIIII) | draw arc
+void drawEllipticArc(Point pt, Size sz, double sa, double ea) | draw elliptic arc
+void editArchive() | edit archive
+void extractAllFromZipArchive() | extract all from zip archive
+void fillArc(IIIIII) | fill arc
+void removeArchive() | remove archive
+void removeArchive(QString;I) | remove archive
+void removeArchive(QString;QString;IZ) | remove archive
+void removeArchive(QString;QString;QString;I) | remove archive
+void resizeArchive(QString;QString;IIZ) | resize archive
+void resizeArchive(QString;QString;QString;II) | resize archive
+void setArcChangeInProcess(boolean flag) | set arc change in process
+void setArc(DD) | set arc
+void setArchiveSampleGroup_CollectionDummy(Throwable toThrow) | set archive sample group collection dummy
+void setArcXff(QString;QString;ID) | set arc xff
+void setFiringArc(I) | set firing arc
+void setNrOfArcs(I) | set nr of arcs
+void setNumArcs(I) | set num arcs
+void setUseArcReversal(Z) | set use arc reversal
+void testArchive(QFile;QSet<QString;>;) | test archive
+void testJarArchive() | test jar archive
+void xsetArcrole(Arcrole arcrole) | xset arcrole
+ZipEntry archiveEntry() | archive entry
+ZipEntry entryFromArchive(QString;) | entry from archive
+ZipFile archive() | archive

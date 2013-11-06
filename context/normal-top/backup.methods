@@ -1,0 +1,26 @@
+boolean isSelectedBackup() | is selected backup
+boolean shouldBackup() | should backup
+File getBackupFile() | get backup file
+File getFileOrBackup(QString;) | get file or backup
+long getLastBackup() | get last backup
+Object getBackup() | get backup
+ResourceDownloader[] getBackupDownloaders(QString;) | get backup downloaders
+String getBackupPath(QString;) | get backup path
+String makeBackupFilename(QString;QString;) | make backup filename
+Vector slowSyncData(Vector pcRecords, Vector archivedRecords, Vector backupRecords) | slow sync data
+void backupByDate(QString;QFile;) | backup by date
+void backupData() | backup data
+void backupDone() | backup done
+void backupFile() | backup file
+void backupFile(QFile;I) | backup file
+void backupFile(QFile;Z) | backup file
+void backupFile(QString;Z) | backup file
+void backup(I) | backup
+void deleteBackup() | delete backup
+void deleteNewBackup() | delete new backup
+void renameBackupFile() | rename backup file
+void renameNewBackup() | rename new backup
+void restoreBackup() | restore backup
+void saveBackup(QString;) | save backup
+void setShowBackupFiles(boolean showBackupFiles) | set show backup files
+void setUseBackup(Z) | set use backup

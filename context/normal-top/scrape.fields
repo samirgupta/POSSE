@@ -1,0 +1,54 @@
+boolean bSingleHashScrapes | b single hash scrapes
+boolean full_scrape_enable | full scrape enable
+boolean lastScrapeResultOk | last scrape result ok
+byte ACT_TRACKER_SCRAPE | act tracker scrape
+byte autoUDPscrapeEvery | auto udp scrape every
+int ACT_REPLY_SCRAPE | act reply scrape
+int ACT_REQUEST_SCRAPE | act request scrape
+int DEFAULT_SCRAPE_CACHE_PERIOD | default scrape cache period
+int DEFAULT_SCRAPE_RETRY_PERCENTAGE | default scrape retry percentage
+int FAULTY_SCRAPE_RETRY_INTERVAL | faulty scrape retry interval
+int GROUP_SCRAPES_LIMIT | group scrapes limit
+int GROUP_SCRAPES_MS | group scrapes ms
+int lastModifiedScrapeResultPeers | last modified scrape result peers
+int lastModifiedScrapeResultSeeds | last modified scrape result seeds
+int LDT_TL_SCRAPERESULT | ldt tl scrape result
+int MIN_FIRST_SCRAPE_WAIT | min first scrape wait
+int numActiveScrapes | num active scrapes
+int RT_FULL_SCRAPE | rt full scrape
+int RT_SCRAPE | rt scrape
+int scrape_cache_period | scrape cache period
+int scrape_complete | scrape complete
+int scrapeCount | scrape count
+int scrapeFuzzAdd | scrape fuzz add
+int scrape_incomplete | scrape incomplete
+int SCRAPE_TIMEOUT | scrape timeout
+java.lang.String scrapeURL | scrape url
+java.lang.String ST_TRACKER_SCRAPE_COUNT | st tracker scrape count
+java.lang.String ST_TRACKER_SCRAPE_TIME | st tracker scrape time
+java.util.Map last_scrape | last scrape
+java.util.Map scrape_injection_map | scrape injection map
+long average_scrape_count | average scrape count
+long current_scrape_retry_interval | current scrape retry interval
+long last_scrape | last scrape
+long last_scrape_calc_time | last scrape calc time
+long nextScrapeCheckOn | next scrape check on
+long nextScrapeStartTime | next scrape start time
+long scrape_count | scrape count
+long SCRAPE_DELAY_ERROR_TORRENTS | scrape delay error torrents
+long SCRAPE_DELAY_STOPPED_TORRENTS | scrape delay stopped torrents
+long SCRAPE_INITDELAY_ERROR_TORRENTS | scrape init delay error torrents
+long SCRAPE_INITDELAY_STOPPED_TORRENTS | scrape init delay stopped torrents
+long scrapes | scrapes
+long scrapeStartTime | scrape start time
+long scrape_time | scrape time
+long sos_scrape | sos scrape
+org.gudy.azureus2.core3.tracker.client.impl.bt.TRTrackerBTScraperImpl bt_scraper | bt scraper
+org.gudy.azureus2.core3.tracker.client.impl.bt.TRTrackerBTScraperImpl scraper | scraper
+org.gudy.azureus2.core3.tracker.client.impl.dht.TRTrackerDHTScraperImpl dht_scraper | dht scraper
+org.gudy.azureus2.core3.tracker.client.impl.TRTrackerScraperImpl scraper | scraper
+org.gudy.azureus2.core3.tracker.client.TRTrackerScraper trackerScraper | tracker scraper
+org.gudy.azureus2.core3.util.Average average_scrape | average scrape
+org.gudy.azureus2.plugins.download.DownloadScrapeResult scrape_result | scrape result
+org.gudy.azureus2.pluginsimpl.local.download.DownloadScrapeResultImpl last_scrape_result | last scrape result
+org.gudy.azureus2.pluginsimpl.remote.download.RPDownloadScrapeResult scrape_result | scrape result

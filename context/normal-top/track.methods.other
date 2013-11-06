@@ -1,0 +1,52 @@
+ArrayList getTrackSelection() | get track selection
+boolean isMultiTrackView() | is multi track view
+boolean isTrackUnicity() | is track unicity
+ChartPanel createTrackNumber() | create track number
+float getCurrentTrackPosition() | get current track position
+GP4MeasureTrackPair getMeasureTrackPair() | get measure track pair
+GP4MeasureTrackPair getMeasureTrackPair(II) | get measure track pair
+GP4MeasureTrackPair getTrackMeasurePair(II) | get track measure pair
+GP4MeasureTrackPair readMeasureTrackPair() | read measure track pair
+int getTrackCount() | get track count
+int getTrackNumber() | get track number
+java.util.Vector SequenceToMidiTrackEvents() | sequence to midi track events
+long getCurrentTrackEllapsedTime() | get current track ellapsed time
+long getCurrentTrackTotalTime() | get current track total time
+long getDerivedTrackMetric(QDownload;) | get derived track metric
+long getTrackTime() | get track time
+MidiTrackEvent getMidiTrackEventAt(I) | get midi track event at
+String getActiveTrackIdentifier() | get active track identifier
+String getTrackName() | get track name
+Track changeTrackAlbum(QTrack;QString;QHashSet;) | change track album
+Track changeTrackAuthor(QTrack;QString;QHashSet;) | change track author
+Track changeTrackComment(QTrack;QString;QHashSet;) | change track comment
+Track changeTrackName(QTrack;QString;QHashSet;) | change track name
+Track changeTrackOrder(QTrack;JQHashSet;) | change track order
+Track changeTrackRate(QTrack;J) | change track rate
+Track changeTrackStyle(QTrack;QString;QHashSet;) | change track style
+Track changeTrackYear(QTrack;JQHashSet;) | change track year
+TrackPanel getFirstTrackPanel() | get first track panel
+TrackPanel getNextTrackPanel() | get next track panel
+void addMouseTrackListener(QComposite;QMouseTrackListener;) | add mouse track listener
+void addTrackMeasures() | add track measures
+void addTrackPanel(QGP4Track;) | add track panel
+void addTrackTime(QArrayList;) | add track time
+void addTrackTime(QFile;) | add track time
+void GP4MeasureTrackPairStats() | gp 4 measure track pair stats
+void GP4MeasureTrackPairStats(QGP4MeasureTrackPair;II) | gp 4 measure track pair stats
+void handleTrackResult(QAZInstanceTracked;) | handle track result
+void paintMeasureTrackPair(QGraphics;) | paint measure track pair
+void pushBackTrackState(QREGlobalData;BI) | push back track state
+void removeMouseTrackListener(QComposite;QMouseTrackListener;) | remove mouse track listener
+void removeTrackTime(QArrayList;) | remove track time
+void removeTrackTime(QFile;) | remove track time
+void resetTrackTime() | reset track time
+void setMeasureTrackPair(IQGP4MeasureTrackPair;) | set measure track pair
+void setMeasureTrackPair(QGP4MeasureTrackPair;) | set measure track pair
+void setMidiTrackEvents(Qjava.util.Vector;) | set midi track events
+void setMultiTrackView(Z) | set multi track view
+void setTrackName(QString;) | set track name
+void setTrackNumber(I) | set track number
+void setTrackTime(J) | set track time
+void setTrackUnicity(Z) | set track unicity
+void updateMapTrackUsage(QString;) | update map track usage

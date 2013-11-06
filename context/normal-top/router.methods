@@ -1,0 +1,35 @@
+boolean containsRouterNodeID() | contains router node id
+boolean getRouterActive(I) | get router active
+Device getRouterByHost(QString;) | get router by host
+Device[] getRouters() | get routers
+DHTRouterContact getRouterContact() | get router contact
+DHTRouter getRouter() | get router
+Hashtable getRouterInfo() | get router info
+int addRouter(QRouterInfo;) | add router
+int addRouter(QString;QString;QString;Z) | add router
+int deleteRouter(QRouterInfo;) | delete router
+int getRouterCount() | get router count
+int removeRouter(QString;) | remove router
+int updateRouter(QRouterInfo;) | update router
+int updateRouter(QString;QString;QString;Z) | update router
+long getRouterContacts() | get router contacts
+long getRouterLeaves() | get router leaves
+long getRouterNodes() | get router nodes
+long getRouterUptime() | get router uptime
+RouterInfo findSelectedRouter() | find selected router
+RouterInfo getRouterInfo() | get router info
+RouterInfo getRouterInfo(I) | get router info
+String convertHost2RouterAddress(QInetAddress;) | convert host 2 router address
+String getRouterAddress() | get router address
+String getRouterCommunity(I) | get router community
+String getRouterDescr(I) | get router descr
+String getRouterHost(I) | get router host
+Vector getRouters() | get routers
+void addRouter() | add router
+void checkRouterAddress() | check router address
+void createRouter(QDHTTransportContact;) | create router
+void editRouter() | edit router
+void nodeAddedToRouter(QDHTRouterContact;) | node added to router
+void removeRouter() | remove router
+void setRouterContact(QDHTRouterContact;) | set router contact
+void setRouters(QVector;) | set routers

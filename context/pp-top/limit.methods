@@ -1,0 +1,8 @@
+boolean idleLimitExceeded() | idle limit exceeded
+boolean isConfLimitTestFinished() | is conf limit test finished
+boolean isEitherLimitUnpinned() | is either limit unpinned
+boolean isLimited() | is limited
+boolean isRequestLimitingEnabled() | is request limiting enabled
+boolean limitIgnored() | limit ignored
+CONS FMFileLimited(QFMFileLimited;) | fm file limited
+CONS FMFileLimited(QFMFileOwner;QFMFileManagerImpl;QFile;I) | fm file limited

@@ -1,0 +1,76 @@
+AvatarWidget createBuddyControls(QComposite;QVuzeBuddySWT;) | create buddy controls
+boolean canHandleBuddy(QBuddyPluginBuddy;) | can handle buddy
+boolean isAddBuddyMode() | is add buddy mode
+boolean onBuddyRequestAuthorization(Qjava.lang.String;Qjava.lang.String;) | on buddy request authorization
+buddyData addBuddy(QBuddyPluginBuddy;) | add buddy
+buddyData buddyAlive(QBuddyPluginBuddy;) | buddy alive
+buddyData getBuddyData(QBuddyPluginBuddy;) | get buddy data
+BuddyPluginBuddy addBuddy(QString;I) | add buddy
+BuddyPluginBuddy addBuddy(QString;IZ) | add buddy
+BuddyPluginBuddy getBuddy() | get buddy
+BuddyPluginBuddy getBuddyFromPublicKey(QString;) | get buddy from public key
+BuddyPluginBuddy getBuddyPluginBuddyForVuze(QString;) | get buddy plugin buddy for vu ze
+BuddyPlugin getBuddyPlugin() | get buddy plugin
+File getBuddyConfigDir() | get buddy config dir
+int isBuddy(QPeer;) | is buddy
+JBuddyDetails getBuddyDetails(J) | get buddy details
+long getBuddyPosition(QVuzeBuddy;) | get buddy position
+long getBuddySyncOnShareMinTimeSecs() | get buddy sync on share min time secs
+String generateBuddyAHREF(QString;QString;QString;) | generate buddy ahref
+void addBuddy() | add buddy
+void _addBuddy(QString;) | add buddy
+void addBuddy(QString;) | add buddy
+void addBuddy(QVuzeBuddy;) | add buddy
+void addBuddy(QVuzeBuddySWT;) | add buddy
+void addBuddy(QVuzeBuddy;Z) | add buddy
+void buddyActive() | buddy active
+void buddyConnection(QGenericMessageConnection;Z) | buddy connection
+void buddyData(QBuddyPluginBuddy;) | buddy data
+void buddyDead(QBuddyPluginBuddy;) | buddy dead
+void buddyDownloadData(QDownload;) | buddy download data
+void buddyMessage(IQMap;I) | buddy message
+void buddyMessageSent(IZ) | buddy message sent
+void checkBuddy(QVuzeBuddy;) | check buddy
+void doAddBuddyToShare() | do add buddy to share
+void doRemoveBuddy() | do remove buddy
+void fireOnBuddyDetails(Qjava.lang.String;) | fire on buddy details
+void fireOnBuddyRequestAuthorization(Qjava.lang.String;Qjava.lang.String;) | fire on buddy request authorization
+void handleBuddyInvites() | handle buddy invites
+void linkPKtoBuddy(QString;QVuzeBuddy;) | link pk to buddy
+void markBuddyPeer(QDownload;QPeer;) | mark buddy peer
+void onAuthorizeBuddy(Qjava.lang.String;) | on authorize buddy
+void onBuddyDetails(Qjava.lang.String;) | on buddy details
+void onBuddyRequestAuthorization(JQjava.lang.String;) | on buddy request authorization
+void onUnauthorizeBuddy(Qjava.lang.String;) | on unauthorize buddy
+void receiveBuddyUpdate(QBuddyUpdateTocResponse;) | receive buddy update
+void removeBuddy(QAvatarWidget;) | remove buddy
+void removeBuddy(QBuddyPluginBuddy;) | remove buddy
+void removeBuddy(QVuzeBuddy;) | remove buddy
+void removeBuddy(QVuzeBuddySWT;) | remove buddy
+void removeBuddy(QVuzeBuddy;Z) | remove buddy
+void resetBuddyViewer() | reset buddy viewer
+void sendBuddyMessage(QString;QMap;) | send buddy message
+void setAddBuddyMode(Z) | set add buddy mode
+void setBuddyID(QString;) | set buddy id
+void setBuddy(QVuzeBuddy;) | set buddy
+void setBuddySyncOnShareMinTimeSecs(J) | set buddy sync on share min time secs
+void setBuddyUnchokes(IQArrayList;) | set buddy unchokes
+void setupBuddyPlugin() | setup buddy plugin
+void setVuzeBuddy(QVuzeBuddySWT;) | set vu ze buddy
+void tellBuddyToSyncUp() | tell buddy to sync up
+void unmarkBuddyPeer(QPeer;) | unmark buddy peer
+void updateBuddy(QVuzeBuddy;) | update buddy
+void updateBuddys() | update buddys
+void updateBuddyStatus(QBuddyPluginBuddy;) | update buddy status
+VuzeBuddy createBuddy() | create buddy
+VuzeBuddy createBuddy(QString;) | create buddy
+VuzeBuddy createNewBuddyNoAdd(QMap;) | create new buddy no add
+VuzeBuddy createNewBuddy(QBuddyPluginBuddy;Z) | create new buddy
+VuzeBuddy createNewBuddy(QMap;Z) | create new buddy
+VuzeBuddy createPotentialBuddy(QMap;) | create potential buddy
+VuzeBuddy createRandomBuddy() | create random buddy
+VuzeBuddy getBuddy() | get buddy
+VuzeBuddy getBuddyByLoginID(QString;) | get buddy by login id
+VuzeBuddy getBuddyByPK(QString;) | get buddy by pk
+VuzeBuddy getOrCreatePotentialBuddy(QMap;) | get or create potential buddy
+VuzeBuddySWT getVuzeBuddy() | get vu ze buddy

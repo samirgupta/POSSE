@@ -1,0 +1,30 @@
+boolean canPlayDS(QObject;) | can play ds
+boolean isValidDsType(QString;) | is valid ds type
+DsDef createDsDef() | create ds def
+DsDef getDsDef() | get ds def
+DsDef[] getDsDefs() | get ds defs
+int getDsCount() | get ds count
+int getDSCount() | get ds count
+int getDsIndex() | get ds index
+int getDsIndex(QString;) | get ds index
+int[] getDsIndices() | get ds indices
+String getDsName() | get ds name
+String getDsName(I) | get ds name
+String[] getDsNames() | get ds names
+String getDsType() | get ds type
+String getDsType(I) | get ds type
+void add(Timestamp timestamp, String className, String stackTrace, PrimaryKey entityPrimaryKey, PrimaryKey recordPrimaryKey, DataSourceSet dss) | add
+void dsvSafe(QString;) | dsv safe
+void dumpState(SocketChannel src, SocketChannel dst, boolean clientToServer) | dump state
+void ecDSA() | ec dsa
+void getBytes(int srcBegin, int srcEnd, byte dst, int dstBegin) | get bytes
+void importDsv(QString;QString;) | import dsv
+void setDataSource(String ds) | set data source
+void setDsHeartbeat(QString;QString;J) | set ds heartbeat
+void setDsMaxValue(QString;QString;DZ) | set ds max value
+void setDsMinMaxValue(QString;QString;DDZ) | set ds min max value
+void setDsMinValue(QString;QString;DZ) | set ds min value
+void setPanel(DataSource ds) | set panel
+void testGetFieldValue(String dsName) | test get field value
+void trackExperimentsByHash(DsIntern ds) | track experiments by hash
+void writeArithOp(int operation, GPR dstReg, int dstDisp, GPR srcReg) | write arith op

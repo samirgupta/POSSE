@@ -1,0 +1,23 @@
+boolean isInScriptTag() | is in script tag
+int getScriptType() | get script type
+int getUnixScriptVersion() | get unix script version
+IScriptAlterTableAddPrimaryKey newScriptAlterTableAddPrimaryKey() | new script alter table add primary key
+NSAppleEventDescriptor executeScriptWithAsync(QString;[QObject;) | execute script with async
+NSAppleEventDescriptor executeScriptWithNewThread(QString;[QObject;) | execute script with new thread
+RuntimeException throwAsScriptRuntimeEx(QThrowable;) | throw as script runtime ex
+Script createScriptObject(QObject;QObject;) | create script object
+Script loadScriptFromSource(QContext;QString;QString;IQObject;) | load script from source
+ScriptReaderBase newScriptReader(QDatabase;QString;I) | new script reader
+ScriptWriterBase newScriptWriter(QDatabase;QString;ZZI) | new script writer
+void addJavaScriptAtPositionPlain(FacesContext context, ResourcePosition position, Class myfacesCustomComponent, String resourceName) | add java script at position plain
+void addScriptRuntimeInvoke(QString;QString;) | add script runtime invoke
+void collectScriptOrFnNodes_r(QScriptOrFnNode;QObjArray;) | collect script or fn nodes r
+void generateScriptCtor(QClassFileWriter;QScriptOrFnNode;) | generate script ctor
+void initScriptFunction(QContext;QScriptable;) | init script function
+void initScriptOrFnNodesData(QScriptOrFnNode;) | init script or fn nodes data
+void setInitScriptLanguage(String isl) | set init script language
+void setScriptId(String id) | set script id
+void setScriptType(I) | set script type
+void showScriptAutoUpdateDialog() | show script auto update dialog
+void showScriptManualUpdateDialog(QString;QString;I) | show script manual update dialog
+void testScriptLoading() | test script loading

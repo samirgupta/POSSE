@@ -1,0 +1,30 @@
+int getJoinClosureSpan() | get join closure span
+int getPropertyClosureSpan() | get property closure span
+int[] getSubclassColumnTableNumberClosure() | get subclass column table number closure
+int[] getSubclassFormulaTableNumberClosure() | get subclass formula table number closure
+Iterator getJoinClosureIterator() | get join closure iterator
+Iterator getKeyClosureIterator() | get key closure iterator
+Iterator getPropertyClosureIterator() | get property closure iterator
+Iterator getSubclassClosureIterator() | get subclass closure iterator
+Iterator getSubclassJoinClosureIterator() | get subclass join closure iterator
+Iterator getSubclassPropertyClosureIterator() | get subclass property closure iterator
+Iterator getSubclassTableClosureIterator() | get subclass table closure iterator
+Iterator getTableClosureIterator() | get table closure iterator
+StateSet closure(I) | closure
+StateSet closure(QStateSet;) | closure
+String[] getConstraintOrderedTableNameClosure() | get constraint ordered table name closure
+String[][] getContraintOrderedTableKeyColumnClosure() | get contraint ordered table key column closure
+String[] getSubclassClosure() | get subclass closure
+String[] getSubclassColumnAliasClosure() | get subclass column alias closure
+String[] getSubclassColumnClosure() | get subclass column closure
+String[] getSubclassFormulaAliasClosure() | get subclass formula alias closure
+String[] getSubclassFormulaClosure() | get subclass formula closure
+String[] getSubclassFormulaTemplateClosure() | get subclass formula template closure
+String[][] getSubclassPropertyColumnNameClosure() | get subclass property column name closure
+String[][] getSubclassPropertyFormulaTemplateClosure() | get subclass property formula template closure
+String[] getSubclassPropertyNameClosure() | get subclass property name closure
+String[] getSubclassPropertySubclassNameClosure() | get subclass property subclass name closure
+Type[] getSubclassPropertyTypeClosure() | get subclass property type closure
+void Closure(QString;QString;QString;) | closure
+void compute_closure() | compute closure
+void findClosureBonds(Molecule mol) | find closure bonds

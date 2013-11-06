@@ -1,0 +1,17 @@
+boolean getClassifierCostSensitiveEval() | get classifier cost sensitive eval
+CostDecider getDefaultCostDecider() | get default cost decider
+CostMatrix getCostMatrix() | get cost matrix
+CostMatrix handleCostOption(QString;I) | handle cost option
+Element writeCostMatrixOld(QElement;QObject;QString;) | write cost matrix old
+Instances applyCostMatrix(QInstances;QRandom;) | apply cost matrix
+int getCostToBuy() | get cost to buy
+Object readCostMatrixOld(QElement;) | read cost matrix old
+SelectedTag getCostMatrixSource() | get cost matrix source
+String getFreightCostRule() | get freight cost rule
+String minimizeExpectedCostTipText() | minimize expected cost tip text
+void addCostDetails(DQStringBuffer;[D) | add cost details
+void calcMovementCostFor(QIGame;QCoords;I) | calc movement cost for
+void setCostMatrix(QCostMatrix;) | set cost matrix
+void setCostMatrixSource(QSelectedTag;) | set cost matrix source
+void setCostToBuy(I) | set cost to buy
+void testCumulativeCostFilter() | test cumulative cost filter

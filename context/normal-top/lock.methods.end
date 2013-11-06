@@ -1,0 +1,30 @@
+boolean acquireLock() | acquire lock
+boolean aquireFileLock() | aquire file lock
+boolean isLock() | is lock
+boolean isPosixManditoryFileLock() | is posix manditory file lock
+boolean releaseFileLock() | release file lock
+boolean tryLock() | try lock
+boolean waitForFileLock(QFile;I) | wait for file lock
+byte[] getLock() | get lock
+EntityLock getWriteLock(EntityLockAdapter la, LogAdapter lga) | get write lock
+LockFile newLockFileLock(QString;) | new lock file lock
+Object getCompilerLock() | get compiler lock
+Object getLock() | get lock
+Object getModelLock() | get model lock
+String popLockingUserOfOldLock() | pop locking user of old lock
+String tryToLock(QFile;) | try to lock
+void acquireLock(QString;) | acquire lock
+void acquireReadLock() | acquire read lock
+void acquireWriteLock() | acquire write lock
+void cascadeOnLock(QLockEvent;QEntityPersister;QObject;) | cascade on lock
+void decrementLock(QObject;QLock;) | decrement lock
+void fireLock(QLockEvent;) | fire lock
+void _notifyLock() | notify lock
+void onLock(QLockEvent;) | on lock
+void releaseConnectionIDLock() | release connection id lock
+void releaseLock() | release lock
+void releaseReadLock() | release read lock
+void releaseWriteLock() | release write lock
+void requestLock(String lockStr, int transactionIsolationLevel) | request lock
+void setLock(QObject;) | set lock
+void upgradeLock(QObject;QEntityEntry;QLockMode;QSessionImplementor;) | upgrade lock

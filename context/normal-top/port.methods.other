@@ -1,0 +1,15 @@
+ClientPortPropertiesArray getClientPortPropertiesArrayVal() | get client port properties array val
+int addPortMapping(ZII) | add port mapping
+int getHTTPListeningPortNumber() | get http listening port number
+int getPortA() | get port a
+int getPortB() | get port b
+int getTCPListeningPortNumber() | get tcp listening port number
+int getUDPListeningPortNumber() | get udp listening port number
+int getUDPNonDataListeningPortNumber() | get udp non data listening port number
+String getActivePortCmd() | get active port cmd
+UPnPWANConnectionPortMapping[] getPortMappings() | get port mappings
+void addConfigPortX(QString;ZQString;QString;) | add config port x
+void addPortMapping(ZIQString;) | add port mapping
+void deletePortMapping(ZI) | delete port mapping
+void deletePortMapping(ZII) | delete port mapping
+void setSerialPortParams(int baudRate, DataBits dataBits, Parity parity, StopBits stopBits) | set serial port params

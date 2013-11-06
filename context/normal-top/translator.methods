@@ -1,0 +1,6 @@
+FilterTranslator createFilterTranslator(QString;QString;QMap;QSessionFactoryImplementor;) | create filter translator
+QueryTranslator createQueryTranslator(QString;QString;QMap;QSessionFactoryImplementor;) | create query translator
+QueryTranslatorFactory createQueryTranslatorFactory(QProperties;) | create query translator factory
+QueryTranslatorFactory getQueryTranslatorFactory() | get query translator factory
+QueryTranslator[] getTranslators() | get translators
+void setQueryTranslatorFactory(QQueryTranslatorFactory;) | set query translator factory

@@ -1,0 +1,94 @@
+CONS ChartModelResource(QTaskManager;QHumanResourceManager;QTimeUnitStack;QUIConfiguration;QResourceChart;) | chart model resource
+CONS ColopediaResourceAction(QFreeColClient;) | colo pe dia resource action
+CONS ColorUIResource2(FFF) | color ui resource 2
+CONS ColorUIResource2(FFFF) | color ui resource 2
+CONS ColorUIResource2(I) | color ui resource 2
+CONS ColorUIResource2(III) | color ui resource 2
+CONS ColorUIResource2(IIII) | color ui resource 2
+CONS ColorUIResource2(IZ) | color ui resource 2
+CONS ColorUIResource2(QColor;) | color ui resource 2
+CONS GanttResourcePanel(QGanttProject;QGanttTree2;QUIFacade;) | gantt resource panel
+CONS HumanResourceManager(QRole;) | human resource manager
+CONS HumanResource(QHumanResource;) | human resource
+CONS HumanResource(QHumanResourceManager;) | human resource
+CONS HumanResource(QString;IQHumanResourceManager;) | human resource
+CONS ImageResource(QURL;) | image resource
+CONS ImportResources(QResourceManager;QTaskManager;QRoleManager;QGanttProject;) | import resources
+CONS IntegratedResourceBundle(QResourceBundle;QMap;) | integrated resource bundle
+CONS IntegratedResourceBundle(QResourceBundle;QMap;QCollection;) | integrated resource bundle
+CONS JarResources(QString;) | jar resources
+CONS JResources(QString;) | j resources
+CONS LocaleResourceFilesDialog(Qjava.awt.Dialog;Z) | locale resource files dialog
+CONS LocaleResourceFilesDialog(Qjava.awt.Frame;Z) | locale resource files dialog
+CONS LocalResourceHTTPServer(QPluginInterface;QLoggerChannel;) | local resource http server
+CONS ProjectResource() | project resource
+CONS ProjectResource(I) | project resource
+CONS RefCapablePropertyResourceBundle(QString;QPropertyResourceBundle;QClassLoader;) | ref capable property resource bundle
+CONS RenderedResourceChartImage(QChartModelBase;QAbstractChartImplementation;QBufferedImage;II) | rendered resource chart image
+CONS ResourceAction(QResourceManager;) | resource action
+CONS ResourceAction(QUserPreferences;QClass<*>;QString;) | resource action
+CONS ResourceAction(QUserPreferences;QClass<*>;QString;Z) | resource action
+CONS ResourceActionSet(QIGanttProject;QResourceContext;QGanttProject;QUIFacade;) | resource action set
+CONS ResourceAssignmentCollectionImpl(QResourceAssignmentCollectionImpl;) | resource assignment collection impl
+CONS ResourceAssignmentCollectionImpl(QTaskImpl;QResourceManager;) | resource assignment collection impl
+CONS ResourceBundleUtil(QResourceBundle;) | resource bundle util
+CONS ResourceChartTabContentPanel(QResourceTreeUIFacade;QComponent;) | resource chart tab content panel
+CONS ResourceColumn(QTableColumnExt;I) | resource column
+CONS ResourceColumn(QTableColumnExt;IQClass;) | resource column
+CONS ResourceDialogCustomColumn(QUIFacade;QResourceColumn;) | resource dialog custom column
+CONS ResourceDownloaderAlternateImpl(QResourceDownloaderBaseImpl;[QResourceDownloader;IZ) | resource downloader alternate impl
+CONS ResourceDownloaderBaseImpl(QResourceDownloaderBaseImpl;) | resource downloader base impl
+CONS ResourceDownloaderCancelledException() | resource downloader cancelled exception
+CONS ResourceDownloaderDelayedImpl(QResourceDownloaderBaseImpl;QResourceDownloaderDelayedFactory;) | resource downloader delayed impl
+CONS ResourceDownloaderErrorImpl(QResourceDownloaderBaseImpl;QResourceDownloaderException;) | resource downloader error impl
+CONS ResourceDownloaderException(QString;) | resource downloader exception
+CONS ResourceDownloaderException(QString;QThrowable;) | resource downloader exception
+CONS ResourceDownloaderFileImpl(QResourceDownloaderBaseImpl;QFile;) | resource downloader file impl
+CONS ResourceDownloaderMetaRefreshImpl(QResourceDownloaderBaseImpl;QResourceDownloader;) | resource downloader meta refresh impl
+CONS ResourceDownloaderRetryImpl(QResourceDownloaderBaseImpl;QResourceDownloader;I) | resource downloader retry impl
+CONS ResourceDownloaderTimeoutImpl(QResourceDownloaderBaseImpl;QResourceDownloader;I) | resource downloader timeout impl
+CONS ResourceDownloaderTorrentImpl(QResourceDownloaderBaseImpl;QResourceDownloader;ZQFile;) | resource downloader torrent impl
+CONS ResourceDownloaderURLImpl(QResourceDownloaderBaseImpl;QURL;) | resource downloader url impl
+CONS ResourceDownloaderURLImpl(QResourceDownloaderBaseImpl;QURL;QString;QString;) | resource downloader url impl
+CONS ResourceDownloaderURLImpl(QResourceDownloaderBaseImpl;QURL;QString;ZQString;QString;) | resource downloader url impl
+CONS ResourceDownloaderURLImpl(QResourceDownloaderBaseImpl;QURL;ZQString;QString;) | resource downloader url impl
+CONS ResourceEvent(QResourceManager;[QProjectResource;) | resource event
+CONS ResourceEvent(QResourceManager;QProjectResource;) | resource event
+CONS ResourceExtractor(QComponent;QString;QFile;) | resource extractor
+CONS ResourceLoader() | resource loader
+CONS ResourceLoadGraphicArea(QGanttProject;QZoomManager;) | resource load graphic area
+CONS ResourceLoadRenderer(QChartModelResource;QResourceChart;) | resource load renderer
+CONS ResourceMapping() | resource mapping
+CONS ResourceNode(QProjectResource;) | resource node
+CONS ResourcePropertiesAction(QIGanttProject;QUIFacade;) | resource properties action
+CONS Resource(QGame;QElement;) | resource
+CONS Resource(QGame;QTile;QResourceType;) | resource
+CONS Resource(QGame;QXMLStreamReader;) | resource
+CONS Resource(QURL;) | resource
+CONS ResourcesRendererImpl(QChartModelImpl;) | resources renderer impl
+CONS ResourcesTableModel(QResourceAssignmentCollection;) | resources table model
+CONS ResourceTagHandler(QResourceManager;QRoleManager;QCustomPropertyManager;) | resource tag handler
+CONS ResourceTreeImageGenerator(QHumanResourceManager;) | resource tree image generator
+CONS ResourceTreeTableModel(QResourceManager;) | resource tree table model
+CONS ResourceTreeTable(QIGanttProject;QTreeTableModel;) | resource tree table
+CONS ResourceType(I) | resource type
+CONS ResourceUploaderException(QString;) | resource uploader exception
+CONS ResourceUploaderException(QString;QThrowable;) | resource uploader exception
+CONS ResourceUploaderURLImpl(QURL;QInputStream;QString;QString;) | resource uploader url impl
+CONS ResourceURLContent(QClassLoader;QString;) | resource url content
+CONS ResourceURLContent(QClass<*>;QString;) | resource url content
+CONS ResourceURLContent(QClass<*>;QString;Z) | resource url content
+CONS ResourceURLContent(QURL;Z) | resource url content
+CONS ShareResourceDeletionVetoException(QString;) | share resource deletion veto exception
+CONS ShareResourceDirContentsImpl(QShareManagerImpl;QFile;ZQMap;) | share resource dir contents impl
+CONS ShareResourceDirContentsImpl(QShareManagerImpl;QFile;ZZ) | share resource dir contents impl
+CONS ShareResourceDirImpl(QShareManagerImpl;QFile;QMap;) | share resource dir impl
+CONS ShareResourceDirImpl(QShareManagerImpl;QShareResourceDirContentsImpl;QFile;) | share resource dir impl
+CONS ShareResourceFileImpl(QShareManagerImpl;QFile;QMap;) | share resource file impl
+CONS ShareResourceFileImpl(QShareManagerImpl;QShareResourceDirContentsImpl;QFile;) | share resource file impl
+CONS ShareResourceFileOrDirImpl(QShareManagerImpl;IQFile;QMap;) | share resource file or dir impl
+CONS ShareResourceFileOrDirImpl(QShareManagerImpl;QShareResourceDirContentsImpl;IQFile;) | share resource file or dir impl
+CONS ShareResourceImpl(QShareManagerImpl;I) | share resource impl
+CONS ShareResourceImpl(QShareManagerImpl;IQMap;) | share resource impl
+CONS TestResourceAssignments(QString;) | test resource assignments
+CONS ValidatingResourceBundle(QString;) | validating resource bundle

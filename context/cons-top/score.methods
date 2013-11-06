@@ -1,0 +1,9 @@
+CONS HighScore(QElement;) | high score
+CONS HighScore(QPlayer;QDate;) | high score
+CONS HighScore(QXMLStreamReader;) | high score
+CONS LocalScoreSearchAlgorithm() | local score search algorithm
+CONS LocalScoreSearchAlgorithm(QBayesNet;QInstances;) | local score search algorithm
+CONS ReportHighScoresAction(QFreeColClient;) | report high scores action
+CONS ReportHighScoresPanel(QCanvas;) | report high scores panel
+CONS ScoreInformationDialog() | score information dialog
+CONS ScoreInformationDialog(QJFrame;Z) | score information dialog

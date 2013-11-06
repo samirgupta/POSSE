@@ -1,0 +1,18 @@
+boolean isAddressLocked() | is address locked
+boolean isBasePlanLocked() | is base plan locked
+boolean isLandLocked() | is land locked
+boolean isLocked() | is locked
+boolean isLocked(QString;) | is locked
+boolean isOptimisticLocked() | is optimistic locked
+boolean isPriorityLocked() | is priority locked
+boolean isReadLocked() | is read locked
+boolean isStartStopLocked() | is start stop locked
+boolean isTurretLocked() | is turret locked
+boolean isWriteLocked() | is write locked
+void forceLocked(QObject;QObject;) | force locked
+void keyLockStatusChanged(QCryptoHandler;) | key lock status changed
+void lockChanged(QCryptoHandler;) | lock changed
+void setBasePlanLocked(Z) | set base plan locked
+void setLocked(Z) | set locked
+void setOptimisticLocked(Z) | set optimistic locked
+void setTurretLocked(Z) | set turret locked

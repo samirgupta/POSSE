@@ -1,0 +1,9 @@
+CONS CSVExporter(QJTable;) | csv exporter
+CONS ExporterChooserPage([QExporter;QExportFileWizardImpl.State;) | exporter chooser page
+CONS ExporterToImage() | exporter to image
+CONS JRTxtExporter() | jr txt exporter
+CONS JRTxtExporterParameter(QString;) | jr txt exporter parameter
+CONS RrdExporter(QRrdExportDef;) | rrd exporter
+CONS RrdExporter(QRrdExportDef;QRrdOpener;) | rrd exporter
+CONS XmlExporter() | xml exporter
+CONS XMLExporter() | xml exporter

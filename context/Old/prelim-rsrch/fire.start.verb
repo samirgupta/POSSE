@@ -1,0 +1,259 @@
+Base_Verb:void fireChangeEvent(int property) | fire change event
+Base_Verb:void fireDeletionRule(RefAssociation refAssoc, JmiDeletionRule rule, RefObject droppedEnd, RefObject otherEnd) | fire deletion rule
+Base_Verb:void fireEvent(CVSListener listener) | fire event
+Base_Verb:void firePropertyChange(int propertyId) | fire property change
+Base_Verb:void firePropertyChange(String propertyName, int oldValue, int newValue) | fire property change
+Base_Verb:void fireVetoableChange(String name, Object o, Object n) | fire vetoable change
+DrawSWF:void fireStateChanged() | fire state changed
+drjava2:void fireConsoleInputCompleted(QString;) | fire console input completed
+drjava2:void fireConsoleInputStarted() | fire console input started
+freecol2:void fireActionEvent(QActionEvent;) | fire action event
+freecol2:void fireContentsChanged(II) | fire contents changed
+freecol2:void fireIndexedPropertyChange(QString;III) | fire indexed property change
+freecol2:void fireIndexedPropertyChange(QString;IQObject;QObject;) | fire indexed property change
+freecol2:void fireIndexedPropertyChange(QString;IZZ) | fire indexed property change
+freecol2:void firePropertyChange(QPropertyChangeEvent;) | fire property change
+freecol2:void firePropertyChange(QString;II) | fire property change
+freecol2:void firePropertyChange(QString;QObject;QObject;) | fire property change
+freecol2:void firePropertyChange(QString;ZZ) | fire property change
+freemind:void firePopupMenuCanceled() | fire popup menu canceled
+freemind:void firePopupMenuWillBecomeInvisible() | fire popup menu will become invisible
+freemind:void firePopupMenuWillBecomeVisible() | fire popup menu will become visible
+freemind:void fireTreeNodesChanged(QObject;[QObject;[I[QObject;) | fire tree nodes changed
+freemind:void fireTreeNodesInserted(QObject;[QObject;[I[QObject;) | fire tree nodes inserted
+freemind:void fireTreeNodesRemoved(QObject;[QObject;[I[QObject;) | fire tree nodes removed
+freemind:void fireTreeStructureChanged(QObject;[QObject;[I[QObject;) | fire tree structure changed
+gantt:void fireActionEvent() | fire action event
+gantt:void fireAfterProcessingTimeFrames() | fire after processing time frames
+gantt:void fireAssignmentsChanged() | fire assignments changed
+gantt:void fireAssignmentsChanged(QProjectResource;) | fire assignments changed
+gantt:void fireBeforeProcessingTimeFrames() | fire before processing time frames
+gantt:void fireChangeValueEvent(QChangeValueEvent;) | fire change value event
+gantt:void fireCleanup() | fire cleanup
+gantt:void fireCustomColumnsChange(QCustomColumEvent;) | fire custom columns change
+gantt:void fireDelayObservation() | fire delay observation
+gantt:void fireDependencyAdded(QTaskDependency;) | fire dependency added
+gantt:void fireDependencyRemoved(QTaskDependency;) | fire dependency removed
+gantt:void fireDurationChanged() | fire duration changed
+gantt:void fireEvent() | fire event
+gantt:void fireFrameFinished(QTimeFrame;) | fire frame finished
+gantt:void fireFrameStarted(QTimeFrame;) | fire frame started
+gantt:void fireLanguageChanged() | fire language changed
+gantt:void fireOptionsChanged() | fire options changed
+gantt:void fireProjectClosed() | fire project closed
+gantt:void fireProjectModified(Z) | fire project modified
+gantt:void fireResourceAdded(QProjectResource;) | fire resource added
+gantt:void fireResourceChanged() | fire resource changed
+gantt:void fireResourceChanged(QProjectResource;) | fire resource changed
+gantt:void fireResourcesRemoved([QProjectResource;) | fire resources removed
+gantt:void fireRolesChanged(QRoleSet;) | fire roles changed
+gantt:void fireSelectionChanged() | fire selection changed
+gantt:void fireStartDateChanged(QViewStateEvent;) | fire start date changed
+gantt:void fireTaskAdded(QTask;) | fire task added
+gantt:void fireTaskProgressChanged(QTask;) | fire task progress changed
+gantt:void fireTaskPropertiesChanged(QTask;) | fire task properties changed
+gantt:void fireTaskRemoved(QTask;QTask;) | fire task removed
+gantt:void fireTaskScheduleChanged(QTask;QGanttCalendar;QGanttCalendar;) | fire task schedule changed
+gantt:void fireUndoableEditHappened(QUndoableEditImpl;) | fire undoable edit happened
+gantt:void fireUndoOrRedoHappened() | fire undo or redo happened
+gantt:void fireUnitLineFinished(QTimeUnit;) | fire unit line finished
+gantt:void fireUnitLineStarted(QTimeUnit;) | fire unit line started
+gantt:void fireZoomIn() | fire zoom in
+gantt:void fireZoomingChanged(II) | fire zooming changed
+gantt:void fireZoomOut() | fire zoom out
+hibernate-3.3.1.GA:Object fireMerge(QMergeEvent;) | fire merge
+hibernate-3.3.1.GA:Object fireSaveOrUpdateCopy(QMergeEvent;) | fire save or update copy
+hibernate-3.3.1.GA:Serializable fireSave(QSaveOrUpdateEvent;) | fire save
+hibernate-3.3.1.GA:void fireDelete(QDeleteEvent;) | fire delete
+hibernate-3.3.1.GA:void fireDelete(QDeleteEvent;QSet;) | fire delete
+hibernate-3.3.1.GA:void fireEvict(QEvictEvent;) | fire evict
+hibernate-3.3.1.GA:void fireLoad(QLoadEvent;QLoadType;) | fire load
+hibernate-3.3.1.GA:void fireLock(QLockEvent;) | fire lock
+hibernate-3.3.1.GA:void fireMerge(QMap;QMergeEvent;) | fire merge
+hibernate-3.3.1.GA:void firePersistOnFlush(QMap;QPersistEvent;) | fire persist on flush
+hibernate-3.3.1.GA:void firePersistOnFlush(QPersistEvent;) | fire persist on flush
+hibernate-3.3.1.GA:void firePersist(QMap;QPersistEvent;) | fire persist
+hibernate-3.3.1.GA:void firePersist(QPersistEvent;) | fire persist
+hibernate-3.3.1.GA:void fireRefresh(QMap;QRefreshEvent;) | fire refresh
+hibernate-3.3.1.GA:void fireRefresh(QRefreshEvent;) | fire refresh
+hibernate-3.3.1.GA:void fireReplicate(QReplicateEvent;) | fire replicate
+hibernate-3.3.1.GA:void fireSaveOrUpdateCopy(QMap;QMergeEvent;) | fire save or update copy
+hibernate-3.3.1.GA:void fireSaveOrUpdate(QSaveOrUpdateEvent;) | fire save or update
+hibernate-3.3.1.GA:void fireUpdate(QSaveOrUpdateEvent;) | fire update
+hsqldb:void fireAll(QSession;I) | fire all
+hsqldb:void fireAll(QSession;I[QObject;[QObject;) | fire all
+hsqldb:void fireTableChanged(QTableModelEvent;) | fire table changed
+iReport:void fireActionListenerActionPerformed(Qjava.awt.event.ActionEvent;) | fire action listener action performed
+iReport:void fireCaretEvent() | fire caret event
+iReport:void fireInsertUpdate(QDocumentEvent;) | fire insert update
+iReport:void fireRemoveUpdate(QDocumentEvent;) | fire remove update
+iReport:void fireReportListenerReportBandChanged(Qit.businesslogic.ireport.gui.event.ReportBandChangedEvent;) | fire report listener report band changed
+iReport:void fireReportListenerReportElementsChanged(Qit.businesslogic.ireport.gui.event.ReportElementChangedEvent;) | fire report listener report elements changed
+iReport:void fireReportListenerReportElementsSelectionChanged(Qit.businesslogic.ireport.gui.event.ReportElementsSelectionEvent;) | fire report listener report elements selection changed
+iReport:void fireReportSubDatasetChangedListenerReportSubDatasetChanged(Qit.businesslogic.ireport.gui.event.ReportSubDatasetChangedEvent;) | fire report sub dataset changed listener report sub dataset changed
+iReport:void fireSelectionChangedEvent() | fire selection changed event
+iReport:void fireSheetPropertyValueChangedListenerSheetPropertyValueChanged(Qit.businesslogic.ireport.gui.event.SheetPropertyValueChangedEvent;) | fire sheet property value changed listener sheet property value changed
+iReport:void fireStyleChangedListenerStyleChanged(Qit.businesslogic.ireport.gui.event.StyleChangedEvent;) | fire style changed listener style changed
+iReport:void fireValueChangedListenerValueChanged(Qit.businesslogic.ireport.gui.event.ValueChangedEvent;) | fire value changed listener value changed
+Jabref:void fireDatabaseChanged(QDatabaseChangeEvent;) | fire database changed
+Jabref:void firePropertyChangedEvent(QString;QObject;QObject;) | fire property changed event
+Jabref:void firePropertyChange(QString;QObject;QObject;) | fire property change
+Jabref:void firePropertyChange(QString;ZZ) | fire property change
+jajuk:void fireActionPerformed(QActionEvent;) | fire action performed
+jbidwatcher:void fireCopy(QString;) | fire copy
+jbidwatcher:void fireFeed(QString;) | fire feed
+Jftp:void fireActionFinished(QFtpConnection;) | fire action finished
+Jftp:void fireActionFinished(QNfsConnection;) | fire action finished
+Jftp:void fireActionFinished(QSftpConnection;) | fire action finished
+Jftp:void fireActionFinished(QSmbConnection;) | fire action finished
+Jftp:void fireConnectionFailed(QFtpConnection;QString;) | fire connection failed
+Jftp:void fireConnectionInitialized(QFtpConnection;) | fire connection initialized
+Jftp:void fireDirectoryUpdate() | fire directory update
+Jftp:void fireDirectoryUpdate(QFtpConnection;) | fire directory update
+Jftp:void fireProgressUpdate(QString;QString;I) | fire progress update
+Jftp:void fireUpdate() | fire update
+JHotDraw-7.0.8:void fireAreaInvalidated() | fire area invalidated
+JHotDraw-7.0.8:void fireAreaInvalidated(QBezierPath.Node;) | fire area invalidated
+JHotDraw-7.0.8:void fireAreaInvalidated(QRectangle;) | fire area invalidated
+JHotDraw-7.0.8:void fireAreaInvalidated(QRectangle2D.Double;) | fire area invalidated
+JHotDraw-7.0.8:void fireAttributeChanged(QAttributeKey;QObject;QObject;) | fire attribute changed
+JHotDraw-7.0.8:void fireFigureAdded() | fire figure added
+JHotDraw-7.0.8:void fireFigureAdded(QFigure;) | fire figure added
+JHotDraw-7.0.8:void fireFigureChanged() | fire figure changed
+JHotDraw-7.0.8:void fireFigureChanged(QFigureEvent;) | fire figure changed
+JHotDraw-7.0.8:void fireFigureChanged(QRectangle2D.Double;) | fire figure changed
+JHotDraw-7.0.8:void fireFigureRemoved() | fire figure removed
+JHotDraw-7.0.8:void fireFigureRemoved(QFigure;) | fire figure removed
+JHotDraw-7.0.8:void fireFigureRequestRemove() | fire figure request remove
+JHotDraw-7.0.8:void fireHandleRequestRemove(QRectangle;) | fire handle request remove
+JHotDraw-7.0.8:void fireHandleRequestSecondaryHandles() | fire handle request secondary handles
+JHotDraw-7.0.8:void fireOptionSelected(QJFileChooser;I) | fire option selected
+JHotDraw-7.0.8:void fireOptionSelected(QJOptionPane;) | fire option selected
+JHotDraw-7.0.8:void fireOptionSelected(QJOptionPane;IQObject;QObject;) | fire option selected
+JHotDraw-7.0.8:void firePropertyChange(QString;II) | fire property change
+JHotDraw-7.0.8:void firePropertyChange(QString;QObject;QObject;) | fire property change
+JHotDraw-7.0.8:void firePropertyChange(QString;ZZ) | fire property change
+JHotDraw-7.0.8:void fireSelectionChanged() | fire selection changed
+JHotDraw-7.0.8:void fireToolDone() | fire tool done
+JHotDraw-7.0.8:void fireToolStarted(QDrawingView;) | fire tool started
+JHotDraw-7.0.8:void fireUndoableEditHappened(QUndoableEdit;) | fire undoable edit happened
+JHotDraw-7.0.8:void fireViewTransformChanged() | fire view transform changed
+MegaMek-0.32.0:CONS FireProcessor(QServer;) | fire processor
+MegaMek-0.32.0:void fireOrPhysicalCheck(QPhysicalOption;QEntity;QArrayList;DD) | fire or physical check
+MegaMek-0.32.0:void firePropertyChangeEvent(QString;QObject;QObject;) | fire property change event
+PlanetaMessenger:boolean fireIsNewMessageEnabled(QJContactListItem;) | fire is new message enabled
+PlanetaMessenger:boolean fireIsNewTabEnabled(QJContactListItem;) | fire is new tab enabled
+PlanetaMessenger:void fireActionPerformed() | fire action performed
+PlanetaMessenger:void fireEditingCanceled() | fire editing canceled
+PlanetaMessenger:void fireEditingStopped() | fire editing stopped
+PlanetaMessenger:void fireOnAccept(Qjava.net.Socket;) | fire on accept
+PlanetaMessenger:void fireOnAddUserToContactList(Qjava.lang.String;) | fire on add user to contact list
+PlanetaMessenger:void fireOnBuddyDetails(Qjava.lang.String;) | fire on buddy details
+PlanetaMessenger:void fireOnBuddyRequestAuthorization(Qjava.lang.String;Qjava.lang.String;) | fire on buddy request authorization
+PlanetaMessenger:void fireOnBuddyStatusChanged(Qjava.lang.String;I) | fire on buddy status changed
+PlanetaMessenger:void fireOnChangePassword(Qjava.lang.String;) | fire on change password
+PlanetaMessenger:void fireOnChangePrivacy([Qjava.lang.Object;) | fire on change privacy
+PlanetaMessenger:void fireOnCreate(QJPluginProperties;) | fire on create
+PlanetaMessenger:void fireOnDestroy() | fire on destroy
+PlanetaMessenger:void fireOnFinishUserTyping(Qjava.lang.String;) | fire on finish user typing
+PlanetaMessenger:void fireOnHide() | fire on hide
+PlanetaMessenger:void fireOnLoginAccepted() | fire on login accepted
+PlanetaMessenger:void fireOnLoginFailed() | fire on login failed
+PlanetaMessenger:void fireOnLogin(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;I) | fire on login
+PlanetaMessenger:void fireOnLogout() | fire on logout
+PlanetaMessenger:void fireOnMessage(QJContactListItem;) | fire on message
+PlanetaMessenger:void fireOnNewTab(QJContactListItem;) | fire on new tab
+PlanetaMessenger:void fireOnPasswordChangedFailed() | fire on password changed failed
+PlanetaMessenger:void fireOnPasswordChangedSuccessfull() | fire on password changed successfull
+PlanetaMessenger:void fireOnPluginPropertiesUpdated() | fire on plugin properties updated
+PlanetaMessenger:void fireOnPluginStatusChanged(I) | fire on plugin status changed
+PlanetaMessenger:void fireOnReceiveMessage(Qjava.lang.String;Qjava.util.GregorianCalendar;Qjava.lang.String;) | fire on receive message
+PlanetaMessenger:void fireOnReceive(Qjava.net.DatagramPacket;) | fire on receive
+PlanetaMessenger:void fireOnRegisterExistingUser(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | fire on register existing user
+PlanetaMessenger:void fireOnRegisterNewUser(Qjava.lang.String;Qjava.lang.StringBuffer;Qjava.lang.String;) | fire on register new user
+PlanetaMessenger:void fireOnRegisterUserFailed() | fire on register user failed
+PlanetaMessenger:void fireOnRegisterUserSucessfull() | fire on register user sucessfull
+PlanetaMessenger:void fireOnRemoveUserFromContactList(Qjava.lang.String;) | fire on remove user from contact list
+PlanetaMessenger:void fireOnRequestAuthorization(Qjava.lang.String;Qjava.lang.String;) | fire on request authorization
+PlanetaMessenger:void fireOnSendMessage(Qjava.lang.String;Qjava.lang.String;) | fire on send message
+PlanetaMessenger:void fireOnShow() | fire on show
+PlanetaMessenger:void fireOnStartUserTyping(Qjava.lang.String;) | fire on start user typing
+PlanetaMessenger:void fireOnUnregisterUser() | fire on unregister user
+PlanetaMessenger:void fireOnUnregisterUserSuccessfull() | fire on unregister user successfull
+prefuse:void fireActivityCancelled() | fire activity cancelled
+prefuse:void fireActivityFinished() | fire activity finished
+prefuse:void fireActivityScheduled() | fire activity scheduled
+prefuse:void fireActivityStarted() | fire activity started
+prefuse:void fireActivityStepped() | fire activity stepped
+prefuse:void fireChangeEvent() | fire change event
+prefuse:void fireColumnEvent(ID) | fire column event
+prefuse:void fireColumnEvent(IF) | fire column event
+prefuse:void fireColumnEvent(II) | fire column event
+prefuse:void fireColumnEvent(III) | fire column event
+prefuse:void fireColumnEvent(IJ) | fire column event
+prefuse:void fireColumnEvent(IQObject;) | fire column event
+prefuse:void fireColumnEvent(IZ) | fire column event
+prefuse:void fireDataEvent(QObject;III) | fire data event
+prefuse:void fireExpressionChange() | fire expression change
+prefuse:void fireGraphEvent(QTable;IIII) | fire graph event
+prefuse:void fireItemClicked(QVisualItem;QMouseEvent;) | fire item clicked
+prefuse:void fireItemDragged(QVisualItem;QMouseEvent;) | fire item dragged
+prefuse:void fireItemEntered(QVisualItem;QMouseEvent;) | fire item entered
+prefuse:void fireItemExited(QVisualItem;QMouseEvent;) | fire item exited
+prefuse:void fireItemKeyPressed(QVisualItem;QKeyEvent;) | fire item key pressed
+prefuse:void fireItemKeyReleased(QVisualItem;QKeyEvent;) | fire item key released
+prefuse:void fireItemKeyTyped(QVisualItem;QKeyEvent;) | fire item key typed
+prefuse:void fireItemMoved(QVisualItem;QMouseEvent;) | fire item moved
+prefuse:void fireItemPressed(QVisualItem;QMouseEvent;) | fire item pressed
+prefuse:void fireItemReleased(QVisualItem;QMouseEvent;) | fire item released
+prefuse:void fireItemWheelMoved(QVisualItem;QMouseWheelEvent;) | fire item wheel moved
+prefuse:void fireKeyPressed(QKeyEvent;) | fire key pressed
+prefuse:void fireKeyReleased(QKeyEvent;) | fire key released
+prefuse:void fireKeyTyped(QKeyEvent;) | fire key typed
+prefuse:void fireMouseClicked(QMouseEvent;) | fire mouse clicked
+prefuse:void fireMouseDragged(QMouseEvent;) | fire mouse dragged
+prefuse:void fireMouseEntered(QMouseEvent;) | fire mouse entered
+prefuse:void fireMouseExited(QMouseEvent;) | fire mouse exited
+prefuse:void fireMouseMoved(QMouseEvent;) | fire mouse moved
+prefuse:void fireMousePressed(QMouseEvent;) | fire mouse pressed
+prefuse:void fireMouseReleased(QMouseEvent;) | fire mouse released
+prefuse:void fireMouseWheelMoved(QMouseWheelEvent;) | fire mouse wheel moved
+prefuse:void firePostPaint(QGraphics2D;) | fire post paint
+prefuse:void firePrePaint(QGraphics2D;) | fire pre paint
+prefuse:void fireTableEvent(IIII) | fire table event
+prefuse:void fireTupleEvent(QTable;III) | fire tuple event
+prefuse:void fireTupleEvent(QTuple;I) | fire tuple event
+prefuse:void fireTupleEvent([QTuple;[QTuple;) | fire tuple event
+prefuse:void fireUpdate() | fire update
+rhino:void firePropertyChangeImpl(QObject;QString;QObject;QObject;) | fire property change impl
+rhino:void firePropertyChange(QString;QObject;QObject;) | fire property change
+SweetHome3D:void fireCollectionChanged(QT;IQCollectionEvent.Type;) | fire collection changed
+SweetHome3D:void fireCollectionChanged(QT;QCollectionEvent.Type;) | fire collection changed
+SweetHome3D:void firePropertyChange(QString;QObject;QObject;) | fire property change
+SweetHome3D:void fireStateChanged() | fire state changed
+SweetHome3D:void fireTreeNodesInserted(QTreeModelEvent;) | fire tree nodes inserted
+SweetHome3D:void fireTreeNodesRemoved(QTreeModelEvent;) | fire tree nodes removed
+vuze:boolean fireEvent(IQObject;) | fire event
+vuze:boolean fireEvent(QUIManagerEvent;) | fire event
+vuze:void fireAdded(QBuddyPluginBuddy;) | fire added
+vuze:void fireAttributeListener(QTOTorrent;QString;QObject;) | fire attribute listener
+vuze:void fireChanged() | fire changed
+vuze:void fireCreated(QPluginInterfaceImpl;) | fire created
+vuze:void fireDetailsChanged(QBuddyPluginBuddy;) | fire details changed
+vuze:void fireDownloaded(Z) | fire downloaded
+vuze:void fireEnabledChanged(Z) | fire enabled changed
+vuze:void fireEnabledStateChanged() | fire enabled state changed
+vuze:void fireEvent(I) | fire event
+vuze:void fireEvent(IQObject;) | fire event
+vuze:void fireEventSupport(IQObject;) | fire event support
+vuze:void fireInitialised(Z) | fire initialised
+vuze:void firePluginEvent(I) | fire plugin event
+vuze:void firePluginEvent(QPluginEvent;) | fire plugin event
+vuze:void firePropertyChange(QString;) | fire property change
+vuze:void fireProvidersChangeListeners() | fire providers change listeners
+vuze:void fireReadSelect() | fire read select
+vuze:void fireRemoved(QBuddyPluginBuddy;) | fire removed
+vuze:void fireStateChange(I) | fire state change
+vuze:void fireWriteSelect() | fire write select
+vuze:void fireYGM([QBuddyPluginBuddy;) | fire ygm
+weka:void fireLayoutCompleteEvent(QLayoutCompleteEvent;) | fire layout complete event

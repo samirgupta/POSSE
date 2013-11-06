@@ -1,0 +1,93 @@
+ArrayList createStackItems(QArrayList;ZZ) | create stack items
+ArrayList<QDebugStackData;> getCurrentStackFrameData() | get current stack frame data
+boolean initParents(ContextStack stack) | init parents
+boolean isStackEmpty() | is stack empty
+boolean isStackingViolation() | is stacking violation
+boolean stack_boolean(QCallFrame;I) | stack boolean
+DebugStackData getSelectedStackItem() | get selected stack item
+double stack_double(QCallFrame;I) | stack double
+Entity stackingViolation(QIGame;IQCoords;) | stacking violation
+Entity stackingViolation(QIGame;QEntity;QCoords;QEntity;) | stacking violation
+GeneralPath stackSpline(QGeneralPath;[FFFZFF) | stack spline
+GeneralPath stackSpline(QGeneralPath;[FIIFFZFF) | stack spline
+int getMaximumInterpreterStackDepth() | get maximum interpreter stack depth
+int getMaxStack() | get max stack
+int pushStack() | push stack
+int stackChange(I) | stack change
+int stack_int32(QCallFrame;I) | stack int 32
+int stackPriority(C) | stack priority
+List getStackFrameList(QThrowable;) | get stack frame list
+RuntimeException onEmptyStackTopRead() | on empty stack top read
+short getStackTop() | get stack top
+stackitem_return stackitem() | stack item
+Stack<QHighlightInfo;> _getStackAt(QHighlightInfo;) | get stack at
+Stack<QObject;> getStack() | get stack
+stack_return stack() | stack
+StackState initialStack() | initial stack
+StackTraceElement getStackTrace() | get stack trace
+String generateStackTrace() | generate stack trace
+String getCompressedStackTrace() | get compressed stack trace
+String getCompressedStackTrace(I) | get compressed stack trace
+String getCompressedStackTrace(II) | get compressed stack trace
+String getCompressedStackTrace(QThrowable;I) | get compressed stack trace
+String getCompressedStackTrace(QThrowable;II) | get compressed stack trace
+String getFullStackTrace(QThrowable;) | get full stack trace
+String getNestedExceptionMessageAndStack(QThrowable;) | get nested exception message and stack
+String getPatchedStack(QRhinoException;QString;) | get patched stack
+String[] getRootCauseStackTrace(QThrowable;) | get root cause stack trace
+String getSourcePositionFromStack([I) | get source position from stack
+String getSourcePositionFromStack(QContext;[I) | get source position from stack
+String[] getStackFrames(QString;) | get stack frames
+String[] getStackFrames(QThrowable;) | get stack frames
+String getStackTrace() | get stack trace
+String getStackTrace(I) | get stack trace
+String getStackTrace(QThrowable;) | get stack trace
+String getStackTrace(ZZ) | get stack trace
+String getStackTrace(ZZII) | get stack trace
+String stackTrace() | stack trace
+String stacktrace(QThrowable;) | stacktrace
+String stackTrace(QThrowable;) | stack trace
+String stack_type() | stack type
+TimeUnitStack getTimeUnitStack() | get time unit stack
+void add(Date timestamp, String className, String stackTrace, PrimaryKey entityPrimaryKey, PrimaryKey recordPrimaryKey) | add
+void add(Timestamp timestamp, String className, String stackTrace, PrimaryKey entityPrimaryKey, PrimaryKey recordPrimaryKey, DataSourceSet dss) | add
+void adjustStackTop(I) | adjust stack top
+void badStack(I) | bad stack
+void captureInterpreterStackInfo(QRhinoException;) | capture interpreter stack info
+void clearUndoStack() | clear undo stack
+void debug_stack() | debug stack
+void _displayStackTrace(QJUnitError;) | display stack trace
+void dump_stack() | dump stack
+void logWithStack(QString;QString;) | log with stack
+void NoStackException(QString;) | no stack exception
+void outNoStack(QString;) | out no stack
+void outNoStack(QString;Z) | out no stack
+void outStackTrace() | out stack trace
+void printPartialStackTrace(QPrintWriter;) | print partial stack trace
+void printRootCauseStackTrace(QThrowable;) | print root cause stack trace
+void printRootCauseStackTrace(QThrowable;QPrintStream;) | print root cause stack trace
+void printRootCauseStackTrace(QThrowable;QPrintWriter;) | print root cause stack trace
+void printStackTrace() | print stack trace
+void printStackTrace(PrintStream s) | print stack trace
+void printStackTrace(QPrintStream;) | print stack trace
+void printStackTrace(QPrintWriter;) | print stack trace
+void printStackTrace(QThrowable;) | print stack trace
+void printStackTrace(QThrowable;QObject;) | print stack trace
+void pushRing(Stack stack, Hashtable seen) | push ring
+void setChoicePointStack(ChoicePointStack cps) | set choice point stack
+void setDebugUnreturnedConnectionStackTraces(boolean debugUnreturnedConnectionStackTraces) | set debug unreturned connection stack traces
+void setElementStackCapacity(int newCapacity) | set element stack capacity
+void setMaximumInterpreterStackDepth(I) | set maximum interpreter stack depth
+void setStackingViolation(Z) | set stacking violation
+void _setupStackTraceFrame() | setup stack trace frame
+void showStackTrace(QThrowable;) | show stack trace
+void stackChange(I) | stack change
+void StackFrame(QContext;QDim;QFunctionSource;) | stack frame
+void StackFunction(QTree;) | stack function
+void StackMouseAdapter() | stack mouse adapter
+void stack(QException;) | stack
+void stack(QString;QColor;QString;) | stack
+void testGetStackTrace() | test get stack trace
+void toggleStackTrace() | toggle stack trace
+void trimStackFrames(QList;) | trim stack frames
+void visitStackObjectType(Clazz clazz, Method method, CodeAttribute codeAttribute, int offset, int index, ObjectType objectType) | visit stack object type

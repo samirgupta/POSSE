@@ -1,0 +1,17 @@
+CONS AEJarSigner2(QString;QString;QString;) | ae jar signer 2
+CONS JDKDigestSignature(QString;QDERObjectIdentifier;QDigest;QAsymmetricBlockCipher;) | jdk digest signature
+CONS JDKDSASigner(QString;QDigest;QDSA;) | jdkdsa signer
+CONS PKCS7SignedData([B) | pkcs 7 signed data
+CONS PKCS7SignedData([BQString;) | pkcs 7 signed data
+CONS PKCS7SignedData(QPrivateKey;[QCertificate;[QCRL;QString;QString;) | pkcs 7 signed data
+CONS PKCS7SignedData(QPrivateKey;[QCertificate;QString;) | pkcs 7 signed data
+CONS PKCS7SignedData(QPrivateKey;[QCertificate;QString;QString;) | pkcs 7 signed data
+CONS ResultMatrixSignificance() | result matrix significance
+CONS ResultMatrixSignificance(II) | result matrix significance
+CONS ResultMatrixSignificance(QResultMatrix;) | result matrix significance
+CONS SignedData(QASN1Sequence;) | signed data
+CONS SignedData(QDERInteger;QASN1Set;QContentInfo;QASN1Set;QASN1Set;QASN1Set;) | signed data
+CONS SignerInfo(QASN1Sequence;) | signer info
+CONS SignerInfo(QDERInteger;QIssuerAndSerialNumber;QAlgorithmIdentifier;QASN1Set;QAlgorithmIdentifier;QASN1OctetString;QASN1Set;) | signer info
+CONS SignFunction() | sign function
+CONS SigningDigest(QSmbTransport;QNtlmPasswordAuthentication;) | signing digest

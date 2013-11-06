@@ -1,0 +1,35 @@
+Color getAxisColor() | get axis color
+float computeValueOnPCAAxisXY(float mw, float logP, String fp) | compute value on pca axis xy
+float getXAxis() | get x axis
+float getYAxis() | get y axis
+int getAxis() | get axis
+int getAxis(QJComponent;I) | get axis
+int getAxisType() | get axis type
+Schema getAxisLabelSchema() | get axis label schema
+String getCategoryAxisLabelExpression() | get category axis label expression
+String getTimeAxisLabelExpression() | get time axis label expression
+String getValueAxisLabelExpression() | get value axis label expression
+String getXAxisLabelExpression() | get x axis label expression
+String getYAxisLabelExpression() | get y axis label expression
+TimeAxisUnit getTimeAxis() | get time axis
+ValueAxisUnit getValueAxis() | get value axis
+void AxisPanel(Z) | axis panel
+void paintAxis(QGraphics;) | paint axis
+void setAxisColor(QColor;) | set axis color
+void setAxis(I) | set axis
+void setAxisType(I) | set axis type
+void setCategoryAxisLabelExpression(QString;) | set category axis label expression
+void setFixedDomainAxisSpaceForSubplots(AxisSpace space) | set fixed domain axis space for subplots
+void setFixedRangeAxisSpaceForSubplots(AxisSpace space) | set fixed range axis space for subplots
+void setRangeAxisLocation(AxisLocation location) | set range axis location
+void setTimeAxis(I) | set time axis
+void setTimeAxis(IIIIQString;Z) | set time axis
+void setTimeAxisLabelExpression(QString;) | set time axis label expression
+void setTimeAxisLabel(QString;) | set time axis label
+void setValueAxis() | set value axis
+void setValueAxis(DD) | set value axis
+void setValueAxisLabelExpression(QString;) | set value axis label expression
+void setXAxisLabelExpression(QString;) | set x axis label expression
+void setYAxisLabelExpression(QString;) | set y axis label expression
+void testGetXYZAxis3() | test get xyz axis 3
+void testPrecedingSiblingAxisIterator2() | test preceding sibling axis iterator 2

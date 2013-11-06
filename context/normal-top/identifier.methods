@@ -1,0 +1,147 @@
+AST handleIdentifierError(QToken;QRecognitionException;) | handle identifier error
+AuctionServer getServerForIdentifier(QString;) | get server for identifier
+boolean generateIdentifierList(QBibtexEntry;QMap<QString;QBoolean;>;QHashtable<QInteger;QBibtexEntry;>;) | generate identifier list
+boolean hasEmbeddedCompositeIdentifier() | has embedded composite identifier
+boolean hasEmbeddedIdentifier() | has embedded identifier
+boolean hasIdentifierMapper() | has identifier mapper
+boolean hasIdentifierProperty() | has identifier property
+boolean hasNaturalIdentifier() | has natural identifier
+boolean hasNonIdentifierPropertyNamedId() | has non identifier property named id
+boolean hasNonIdentifierPropertyNamedId(QEntityType;QMapping;) | has non identifier property named id
+boolean isBestRowIdentifiersStrict() | is best row identifiers strict
+boolean isIdentifierAssignedByInsert() | is identifier assigned by insert
+boolean isIdentifierChar(C) | is identifier char
+boolean isIdentifier(QString;QDialect;) | is identifier
+boolean isJavaIdentifier(QString;) | is java identifier
+boolean isNaturalIdentifier() | is natural identifier
+boolean isRegularIdentifier(QString;) | is regular identifier
+boolean isReservedKeywordAsIdentifier() | is reserved keyword as identifier
+boolean isValidIdentifierName(QString;) | is valid identifier name
+boolean isValidIdentifier(QString;) | is valid identifier
+boolean storesLowerCaseIdentifiers() | stores lower case identifiers
+boolean storesLowerCaseQuotedIdentifiers() | stores lower case quoted identifiers
+boolean storesMixedCaseIdentifiers() | stores mixed case identifiers
+boolean storesMixedCaseQuotedIdentifiers() | stores mixed case quoted identifiers
+boolean storesUpperCaseIdentifiers() | stores upper case identifiers
+boolean storesUpperCaseQuotedIdentifiers() | stores upper case quoted identifiers
+boolean supportsMixedCaseIdentifiers() | supports mixed case identifiers
+boolean supportsMixedCaseQuotedIdentifiers() | supports mixed case quoted identifiers
+boolean wasFirstQuotedIdentifier() | was first quoted identifier
+boolean wasQuotedIdentifier() | was quoted identifier
+byte[] getKeyIdentifier() | get key identifier
+Class getIdentifierGeneratorClass(QString;QDialect;) | get identifier generator class
+Class getNativeIdentifierGeneratorClass() | get native identifier generator class
+Component getIdentifierMapper() | get identifier mapper
+DERObjectIdentifier getIdentifier() | get identifier
+DERObjectIdentifier getPolicyIdentifier() | get policy identifier
+Expression Identifier() | identifier
+IdentifierGeneratingInsert prepareIdentifierGeneratingInsert() | prepare identifier generating insert
+IdentifierGenerator createIdentifierGenerator(QDialect;QString;QString;QRootClass;) | create identifier generator
+IdentifierGenerator getIdentifierGenerator() | get identifier generator
+IdentifierGenerator getIdentifierGenerator(QString;) | get identifier generator
+IdentifierProperty buildIdentifierProperty(QPersistentClass;QIdentifierGenerator;) | build identifier property
+IdentifierProperty getIdentifierProperty() | get identifier property
+identifier_return identifier() | identifier
+IdentifierValue getUnsavedIdentifierValue(QString;QGetter;QType;QConstructor;) | get unsaved identifier value
+InsertGeneratedIdentifierDelegate getInsertGeneratedIdentifierDelegate(QPostInsertIdentityPersister;QDialect;Z) | get insert generated identifier delegate
+int[] getBestRowIdentifiers() | get best row identifiers
+int getIdentifierColumnSpan() | get identifier column span
+int[] getNaturalIdentifierProperties() | get natural identifier properties
+int writeIdentifier(QPreparedStatement;QObject;IQSessionImplementor;) | write identifier
+KeyValue getIdentifier() | get identifier
+KeyValue getIdentifierValue() | get identifier value
+long getIdentifier() | get identifier
+Object getIdentifier(QObject;I) | get identifier
+Object getIdentifier(QObject;QSessionImplementor;) | get identifier
+Object[] getNaturalIdentifierSnapshot(QSerializable;QSessionImplementor;) | get natural identifier snapshot
+Object getTransactionIdentifier(QTransaction;) | get transaction identifier
+Object identifier(QString;QString;QString;) | identifier
+Object readIdentifier(QResultSet;QString;QSessionImplementor;) | read identifier
+Object resolveIdentifier(QSerializable;QSessionImplementor;) | resolve identifier
+Properties getIdentifierGeneratorProperties() | get identifier generator properties
+Property getIdentifierProperty() | get identifier property
+ResultSet getBestRowIdentifier(QString;QString;QString;IZ) | get best row identifier
+Serializable determineGeneratedIdentifier(QSessionImplementor;QObject;) | determine generated identifier
+Serializable getContextEntityIdentifier(QObject;) | get context entity identifier
+Serializable getIdentifier() | get identifier
+Serializable getIdentifier(QObject;) | get identifier
+Serializable getIdentifier(QObject;QEntityMode;) | get identifier
+Serializable getIdentifier(QObject;QEntityPersister;QEntityMode;) | get identifier
+Serializable getIdentifier(QObject;QSessionImplementor;) | get identifier
+Serializable getOwnerIdentifier() | get owner identifier
+Serializable getProxyIdentifier(QObject;) | get proxy identifier
+String extractIdentifierFromURLString(QString;) | extract identifier from url string
+String formatIdentifier(QString;) | format identifier
+String generateCanonicalIdentifier(QBibtexEntry;) | generate canonical identifier
+String getActiveTrackIdentifier() | get active track identifier
+String getApplicationIdentifier() | get application identifier
+String getIdentifier() | get identifier
+String[] getIdentifierAliases() | get identifier aliases
+String[] getIdentifierAliases(QLoadable;QString;) | get identifier aliases
+String[] getIdentifierAliases(QString;) | get identifier aliases
+String getIdentifierColumnAlias(QString;) | get identifier column alias
+String getIdentifierColumnName() | get identifier column name
+String[] getIdentifierColumnNames() | get identifier column names
+String[] getIdentifierColumns(QCriteria;) | get identifier columns
+String getIdentifierGeneratorStrategy() | get identifier generator strategy
+String getIdentifier(I) | get identifier
+String getIdentifierOrUniqueKeyPropertyName(QEntityType;) | get identifier or unique key property name
+String getIdentifierOrUniqueKeyPropertyName(QMapping;) | get identifier or unique key property name
+String getIdentifierPropertyName() | get identifier property name
+String getIdentifierPropertyName(QString;) | get identifier property name
+String getIdentifier(QString;) | get identifier
+String getIdentifierQuoteString() | get identifier quote string
+String getIdentifierType() | get identifier type
+String getNextIdentifier(I) | get next identifier
+String getPluginMenuIdentifier(QObject;) | get plugin menu identifier
+String[] getPluginMenuIdentifiers(QObject;) | get plugin menu identifiers
+String getQueryIdentifier() | get query identifier
+String[] getRootTableIdentifierColumnNames() | get root table identifier column names
+String getSuffixedIdentifierAlias() | get suffixed identifier alias
+String getUserIdentifier() | get user identifier
+String identifierSelectFragment(QString;QString;) | identifier select fragment
+String renderIdentifierSelect(II) | render identifier select
+String renderScalarIdentifierSelect(I) | render scalar identifier select
+String scanIdentifier([CII) | scan identifier
+String scanIdentifier(QIXMLReader;) | scan identifier
+TypedValue getTypedIdentifierValue(QCriteria;QObject;) | get typed identifier value
+Type getIdentifierOrUniqueKeyType(QMapping;) | get identifier or unique key type
+Type getIdentifierType() | get identifier type
+Type getIdentifierType(QCriteria;) | get identifier type
+Type getIdentifierType(QMapping;) | get identifier type
+Type getIdentifierType(QSessionImplementor;) | get identifier type
+Type getIdentifierType(QString;) | get identifier type
+void appendIdentifierColumns(QSelectFragment;QString;) | append identifier columns
+void bindIdentifierCollectionSecondPass(QElement;QIdentifierCollection;Qjava.util.Map;QMappings;Qjava.util.Map;) | bind identifier collection second pass
+void checkCompositeIdentifier() | check composite identifier
+void dereferenceEntityIdentifier(QString;QDotNode;) | dereference entity identifier
+void IdentifierCollectionSecondPass(QElement;QMappings;QCollection;Qjava.util.Map;) | identifier collection second pass
+void Identifier(QString;) | identifier
+void initIdentifierPropertyPaths(QMapping;) | init identifier property paths
+void initIdentifierPropertyPaths(QString;QEntityType;[QString;QMapping;) | init identifier property paths
+void makeIdentifier(QElement;QSimpleValue;QMappings;) | make identifier
+void mIDENTIFIER() | m identifier
+void outABagCollectionTypeIdentifierCs(ABagCollectionTypeIdentifierCs node) | out a bag collection type identifier cs
+void renderIdentifierSelect(QQuerySelect;) | render identifier select
+void renderNonScalarIdentifiers(QFromElement;IIQSelectExpression;QASTAppender;) | render non scalar identifiers
+void resetIdentifier(QObject;QSerializable;QObject;) | reset identifier
+void resetIdentifier(QObject;QSerializable;QObject;QEntityMode;) | reset identifier
+void scanIdentifier(QStringBuffer;) | scan identifier
+void setApplicationIdentifier(QString;) | set application identifier
+void setBestRowIdentifiers() | set best row identifiers
+void setEmbeddedIdentifier(Z) | set embedded identifier
+void setIdentifierGeneratorProperties(QProperties;) | set identifier generator properties
+void setIdentifierGeneratorStrategy(QString;) | set identifier generator strategy
+void setIdentifierMapper(QComponent;) | set identifier mapper
+void setIdentifierProperty(QProperty;) | set identifier property
+void setIdentifier(QKeyValue;) | set identifier
+void setIdentifier(QObject;QSerializable;) | set identifier
+void setIdentifier(QObject;QSerializable;QEntityMode;) | set identifier
+void setIdentifier(QSerializable;) | set identifier
+void setIdentifier(QString;) | set identifier
+void setIdentifierType(QString;) | set identifier type
+void setIdentifierValue(QKeyValue;) | set identifier value
+void setNaturalIdentifier(Z) | set natural identifier
+void setReservedKeywordAsIdentifier(Z) | set reserved keyword as identifier
+void ShowBadIdentifierDialog(QString;I) | show bad identifier dialog
+void ShowBadIdentifiersDialog(QHashtable<QInteger;QBibtexEntry;>;) | show bad identifiers dialog

@@ -1,0 +1,42 @@
+boolean isDeploymentComplete() | is deployment complete
+boolean isLegalDeployment(QCoords;QPlayer;) | is legal deployment
+boolean shouldDeployForRound(I) | should deploy for round
+boolean shouldDeploy(I) | should deploy
+boolean shouldDeployThisRound() | should deploy this round
+deploymentParameters createdeploymentParameters(String elementName) | create deployment parameters
+float getDeployDamage(QIGame;QWeaponAttackAction;) | get deploy damage
+int getDeployRound() | get deploy round
+int getFirstDeployableEntityNum() | get first deployable entity num
+int getFirstDeployableEntityNum(QGameTurn;) | get first deployable entity num
+int getLiveDeployedEntitiesOwnedBy(QPlayer;) | get live deployed entities owned by
+int getNextDeployableEntityNum(I) | get next deployable entity num
+int getNextDeployableEntityNum(QGameTurn;I) | get next deployable entity num
+ServletContextIntf deployServletContext(Prim servlet) | deploy servlet context
+Vector calculateMinefieldDeployment() | calculate minefield deployment
+Vector getEntitiesToDeployForRound(I) | get entities to deploy for round
+void calculateDeployment() | calculate deployment
+void checkForCompleteDeployment() | check for complete deployment
+void clearDeploymentThisRound() | clear deployment this round
+void deploy() | deploy
+void deploy(File file) | deploy
+void deploy(IQCoords;I) | deploy
+void deploy(IQCoords;IQVector;) | deploy
+void deploy(IQCoords;IQVector;Z) | deploy
+void deployMinefield(QCoords;) | deploy minefield
+void deployMinefields(QVector;II) | deploy minefields
+void deployOffBoard() | deploy off board
+void drawDeployment() | draw deployment
+void markDeploymentHexesFor(QPlayer;) | mark deployment hexes for
+void printDeployments(PrintWriter out) | print deployments
+void processDeployment(QEntity;QCoords;IQVector;Z) | process deployment
+void processDeployMinefields(QVector;) | process deploy minefields
+void receiveDeployment(QPacket;I) | receive deployment
+void receiveDeployMinefields(QPacket;) | receive deploy minefields
+void receiveDeployMinefields(QPacket;I) | receive deploy minefields
+void refreshDeployment() | refresh deployment
+void sendDeployMinefields(QVector;) | send deploy minefields
+void setDeploymentComplete(Z) | set deployment complete
+void setDeployRound(I) | set deploy round
+void setupRoundDeployment() | setup round deployment
+void sfDeploy() | sf deploy
+void showDeployments(Vector<Deployment> deployments) | show deployments

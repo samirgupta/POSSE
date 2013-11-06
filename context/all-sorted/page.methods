@@ -1,0 +1,328 @@
+../3-Phrases/3PS:boolean isANewPageSequence() | is a new page sequence
+../3-Phrases/Base_Verb:List findByCreateTimeAndPriority(Integer subj, long begin, long end, int priority, PageInfo pageInfo) | find by create time and priority
+../3-Phrases/Base_Verb:int getMaxRowPerPage() | get max row per page
+../3-Phrases/Base_Verb:int print(Graphics graphics, PageFormat pageFormat, int pageIndex) | print
+../3-Phrases/Base_Verb:String getHistoryPagerClass() | get history pager class
+../3-Phrases/Base_Verb:void setMaximumPages(int max) | set maximum pages
+../3-Phrases/Base_Verb:String getRegistrationPage() | get registration page
+../3-Phrases/Base_Verb:Printable getPrintable(int pageIndex) | get printable
+../3-Phrases/Base_Verb:String getSearchResultsPageId() | get search results page id
+../3-Phrases/Base_Verb:int getPageNumber() | get page number
+../3-Phrases/Base_Verb:URL getMainHelpPageUrl() | get main help page url
+../3-Phrases/Base_Verb:void removeChildPage(String name) | remove child page
+../3-Phrases/Base_Verb:void loadTeletextPageMatrix() | load teletext page matrix
+../3-Phrases/Base_Verb:void removePageDetachListener(PageDetachListener listener) | remove page detach listener
+../3-Phrases/Base_Verb:int getLastPageNumber() | get last page number
+../3-Phrases/Base_Verb:void alterPageSize(Dimension in) | alter page size
+../3-Phrases/Base_Verb:void notifyPage(AttributeContainer container, String url) | notify page
+../3-Phrases/Base_Verb:Dimension getPageDimension() | get page dimension
+../3-Phrases/Base_Verb:String getPageEncoding() | get page encoding
+../3-Phrases/Base_Verb:void activateExternalPage(Object parameters, IRequestCycle cycle) | activate external page
+../3-Phrases/Base_Verb:void setPageArray(int i, Page page) | set page array
+../3-Phrases/Base_Verb:void printPage(Graphics g) | print page
+../3-Phrases/Base_Verb:PageRuntimeInfo addPage(String path, SmithContext context, boolean isFullPagePath) | add page
+../3-Phrases/Base_Verb:List getPropertyPages() | get property pages
+../3-Phrases/Base_Verb:boolean processRequest(Client session, ESServletRequest req, DynHtml page, Object info) | process request
+../3-Phrases/Base_Verb:Object setPageVariable(String key, Object value) | set page variable
+../3-Phrases/Base_Verb:void testImagePageTitleKeyAlternateBundle_fr() | test image page title key alternate bundle fr
+../3-Phrases/Base_Verb:IWizardPage getNextPage(IWizardPage page) | get next page
+../3-Phrases/Base_Verb:void setPage(String s) | set page
+../3-Phrases/Base_Verb:PageFormat initPageFormat(Node node) | init page format
+../3-Phrases/drjava2:PageFormat getPageFormat() | get page format
+../3-Phrases/drjava2:void setPageFormat(QPageFormat;) | set page format
+../3-Phrases/drjava2:Pageable getPageable() | get pageable
+../3-Phrases/drjava2:Pageable getPageable() | get pageable
+../3-Phrases/drjava2:PageFormat getPageFormat() | get page format
+../3-Phrases/drjava2:void setPageFormat(QPageFormat;) | set page format
+../3-Phrases/drjava2:Pageable getPageable() | get pageable
+../3-Phrases/drjava2:PageFormat getPageFormat() | get page format
+../3-Phrases/drjava2:void setPageFormat(QPageFormat;) | set page format
+../3-Phrases/drjava2:CONS PagePrinter(IQString;QDrJavaBook;) | page printer
+../3-Phrases/drjava2:void testGetNumberOfPages() | test get number of pages
+../3-Phrases/drjava2:void testGetPageFormat() | test get page format
+../3-Phrases/drjava2:void setUpPagePrinters(QString;) | set up page printers
+../3-Phrases/drjava2:int getNumberOfPages() | get number of pages
+../3-Phrases/drjava2:PageFormat getPageFormat(I) | get page format
+../3-Phrases/drjava2:void _openFileDownloadPage(QString;) | open file download page
+../3-Phrases/drjava2:void _displayPage(QURL;) | display page
+../3-Phrases/drjava2:void _pageSetup() | page setup
+../3-Phrases/drjava2:String introPagePath(QFile;QString;) | intro page path
+../3-Phrases/drjava2:void _nextPage() | next page
+../3-Phrases/drjava2:void _previousPage() | previous page
+../3-Phrases/drjava2:void _goToPage(I) | go to page
+../3-Phrases/drjava2:PageChangerUpdater createPageChanger() | create page changer
+../3-Phrases/drjava2:void showPage() | show page
+../3-Phrases/drjava2:void PagePreview(II) | page preview
+../3-Phrases/drjava2:Pageable getPageable() | get pageable
+../3-Phrases/drjava2:Pageable getPageable() | get pageable
+../3-Phrases/drjava2:Pageable getPageable() | get pageable
+../3-Phrases/freemind:CONS FitToPage() | fit to page
+../3-Phrases/freemind:boolean acquirePrinterJobAndPageFormat() | acquire printer job and page format
+../3-Phrases/freemind:void PageAction(QController;) | page action
+../3-Phrases/freemind:NodeView getNextPage() | get next page
+../3-Phrases/freemind:NodeView getPreviousPage() | get previous page
+../3-Phrases/gantt:void openWebPage() | open web page
+../3-Phrases/gantt:String getPageID() | get page id
+../3-Phrases/gantt:Component buildPageComponent(QIGanttProject;QUIFacade;) | build page component
+../3-Phrases/gantt:String getPageTitle(QString;) | get page title
+../3-Phrases/gantt:String getPageDescription(QString;) | get page description
+../3-Phrases/gantt:CONS FileChooserPage(QState;QIGanttProject;) | file chooser page
+../3-Phrases/gantt:CONS ExporterChooserPage([QExporter;QExportFileWizardImpl.State;) | exporter chooser page
+../3-Phrases/gantt:CONS FileChooserPageBase() | file chooser page base
+../3-Phrases/gantt:String getPageID() | get page id
+../3-Phrases/gantt:Component buildPageComponent(QIGanttProject;QUIFacade;) | build page component
+../3-Phrases/gantt:CONS OptionPageProviderPanel(QOptionPageProvider;QIGanttProject;QUIFacade;) | option page provider panel
+../3-Phrases/gantt:String getPageID() | get page id
+../3-Phrases/gantt:Component buildPageComponent(QIGanttProject;QUIFacade;) | build page component
+../3-Phrases/gantt:CONS OptionsPageBuilder() | options page builder
+../3-Phrases/gantt:CONS OptionsPageBuilder(QComponent;) | options page builder
+../3-Phrases/gantt:JComponent buildPage([QGPOptionGroup;QString;) | build page
+../3-Phrases/gantt:JComponent buildPlanePage([QGPOptionGroup;) | build plane page
+../3-Phrases/gantt:String getPageTitle(QString;) | get page title
+../3-Phrases/gantt:String getPageDescription(QString;) | get page description
+../3-Phrases/gantt:void addPagesFromProviders() | add pages from providers
+../3-Phrases/gantt:String getPageID() | get page id
+../3-Phrases/gantt:Component buildPageComponent(QIGanttProject;QUIFacade;) | build page component
+../3-Phrases/gantt:CONS RoleSetPage([QRoleSet;QI18N;) | role set page
+../3-Phrases/gantt:CONS WeekendConfigurationPage(QGPCalendar;QI18N;QIGanttProject;) | weekend configuration page
+../3-Phrases/gantt:CONS ProjectNamePage(QFrame;QIGanttProject;QI18N;) | project name page
+../3-Phrases/gantt:void addRoleSetPage([QRoleSet;) | add role set page
+../3-Phrases/gantt:void addProjectNamePage(QIGanttProject;) | add project name page
+../3-Phrases/gantt:void addWeekendConfigurationPage(QGPCalendar;QIGanttProject;) | add weekend configuration page
+../3-Phrases/gantt:String getProjectDomainPageTitle() | get project domain page title
+../3-Phrases/gantt:String getProjectWeekendPageTitle() | get project weekend page title
+../3-Phrases/gantt:void nextPage() | next page
+../3-Phrases/gantt:void backPage() | back page
+../3-Phrases/gantt:void addPage(QWizardPage;) | add page
+../3-Phrases/gantt:WizardPage getCurrentPage() | get current page
+../3-Phrases/gantt:CONS FileChooserPage(QState;) | file chooser page
+../3-Phrases/gantt:CONS ImporterChooserPage([QImporter;QState;) | importer chooser page
+../3-Phrases/gantt:void changePageOrientation(I) | change page orientation
+../3-Phrases/gantt:void PagePreview(IIQImage;) | page preview
+../3-Phrases/hsqldb:String getDefaultWebPage() | get default web page
+../3-Phrases/hsqldb:void setDefaultWebPage(QString;) | set default web page
+../3-Phrases/hsqldb:String getDefaultWebPage() | get default web page
+../3-Phrases/iReport:void beforePageInit() | before page init
+../3-Phrases/iReport:void afterPageInit() | after page init
+../3-Phrases/iReport:void afterPageExport() | after page export
+../3-Phrases/iReport:boolean isIsReprintHeaderOnEachPage() | is is reprint header on each page
+../3-Phrases/iReport:void setIsReprintHeaderOnEachPage(Z) | set is reprint header on each page
+../3-Phrases/iReport:boolean isIsResetPageNumber() | is is reset page number
+../3-Phrases/iReport:void setIsResetPageNumber(Z) | set is reset page number
+../3-Phrases/iReport:boolean isIsStartNewPage() | is is start new page
+../3-Phrases/iReport:void setIsStartNewPage(Z) | set is start new page
+../3-Phrases/iReport:int getMinHeightToStartNewPage() | get min height to start new page
+../3-Phrases/iReport:void setMinHeightToStartNewPage(I) | set min height to start new page
+../3-Phrases/iReport:java.lang.String getHyperlinkPageExpression() | get hyperlink page expression
+../3-Phrases/iReport:void setHyperlinkPageExpression(Qjava.lang.String;) | set hyperlink page expression
+../3-Phrases/iReport:java.lang.String getHyperlinkPageExpression() | get hyperlink page expression
+../3-Phrases/iReport:void setHyperlinkPageExpression(Qjava.lang.String;) | set hyperlink page expression
+../3-Phrases/iReport:void beforePageInit() | before page init
+../3-Phrases/iReport:void afterPageInit() | after page init
+../3-Phrases/iReport:java.lang.String getHyperlinkPageExpression() | get hyperlink page expression
+../3-Phrases/iReport:void setHyperlinkPageExpression(Qjava.lang.String;) | set hyperlink page expression
+../3-Phrases/iReport:String getHyperlinkPageExpression() | get hyperlink page expression
+../3-Phrases/iReport:void setHyperlinkPageExpression(QString;) | set hyperlink page expression
+../3-Phrases/iReport:boolean isIsSummaryNewPage() | is is summary new page
+../3-Phrases/iReport:void setIsSummaryNewPage(Z) | set is summary new page
+../3-Phrases/iReport:boolean isIsTitleNewPage() | is is title new page
+../3-Phrases/iReport:void setIsTitleNewPage(Z) | set is title new page
+../3-Phrases/iReport:String getHyperlinkPageExpression() | get hyperlink page expression
+../3-Phrases/iReport:void setHyperlinkPageExpression(QString;) | set hyperlink page expression
+../3-Phrases/iReport:void exportPage(QJRPrintPage;) | export page
+../3-Phrases/iReport:void jCheckBoxSummaryOnNewPageActionPerformed(Qjava.awt.event.ActionEvent;) | j check box summary on new page action performed
+../3-Phrases/iReport:void jCheckBoxTitleOnNewPageActionPerformed(Qjava.awt.event.ActionEvent;) | j check box title on new page action performed
+../3-Phrases/iReport:boolean isSummaryOnNewPage() | is summary on new page
+../3-Phrases/iReport:void setSummaryOnNewPage(Z) | set summary on new page
+../3-Phrases/iReport:boolean isTitleOnNewPage() | is title on new page
+../3-Phrases/iReport:void setTitleOnNewPage(Z) | set title on new page
+../3-Phrases/iReport:void updateFitToPage(QJReportFrame;) | update fit to page
+../3-Phrases/iReport:void jRTextExpressionAreaPageTextChanged() | j r text expression area page text changed
+../3-Phrases/iReport:int getMinHeightStartNewPage() | get min height start new page
+../3-Phrases/iReport:void setMinHeightStartNewPage(I) | set min height start new page
+../3-Phrases/iReport:boolean isPrintHeaderEachPage() | is print header each page
+../3-Phrases/iReport:void setPrintHeaderEachPage(Z) | set print header each page
+../3-Phrases/iReport:boolean isResetPageNumber() | is reset page number
+../3-Phrases/iReport:void setResetPageNumber(Z) | set reset page number
+../3-Phrases/iReport:boolean isStartNewPage() | is start new page
+../3-Phrases/iReport:void setStartNewPage(Z) | set start new page
+../3-Phrases/iReport:CONS TotalPagesObject() | total pages object
+../3-Phrases/iReport:CONS PageXYObject() | page xy object
+../3-Phrases/iReport:CONS PageNumberObject() | page number object
+../3-Phrases/iReport:int getMinHeightStartNewPage() | get min height start new page
+../3-Phrases/iReport:void setMinHeightStartNewPage(I) | set min height start new page
+../3-Phrases/iReport:boolean isPrintHeaderEachPage() | is print header each page
+../3-Phrases/iReport:void setPrintHeaderEachPage(Z) | set print header each page
+../3-Phrases/iReport:boolean isResetPageNumber() | is reset page number
+../3-Phrases/iReport:void setResetPageNumber(Z) | set reset page number
+../3-Phrases/iReport:boolean isStartNewPage() | is start new page
+../3-Phrases/iReport:void setStartNewPage(Z) | set start new page
+../3-Phrases/iReport:CONS PageTransformation() | page transformation
+../3-Phrases/iReport:CONS PageSize() | page size
+../3-Phrases/iReport:String deductPageFormat(II) | deduct page format
+../3-Phrases/iReport:void next_page(Z) | next page
+../3-Phrases/iReport:void prev_page(Z) | prev page
+../3-Phrases/Jabref:void setPage(QString;QClass;) | set page
+../3-Phrases/Jabref:void setPage(QURL;) | set page
+../3-Phrases/Jabref:void setPageOnly(QURL;) | set page only
+../3-Phrases/Jabref:void showPage(QString;) | show page
+../3-Phrases/Jabref:void showPage(QString;QClass;) | show page
+../3-Phrases/Jabref:String loadPage(QURL;) | load page
+../3-Phrases/Jabref:String fixPageRange(QString;) | fix page range
+../3-Phrases/Jabref:String getHelpPage() | get help page
+../3-Phrases/Jabref:String getHelpPage() | get help page
+../3-Phrases/Jabref:String parsePages(QString;) | parse pages
+../3-Phrases/Jabref:String getHelpPage() | get help page
+../3-Phrases/Jabref:String getHelpPage() | get help page
+../3-Phrases/Jabref:String getHelpPage() | get help page
+../3-Phrases/Jabref:String getHelpPage() | get help page
+../3-Phrases/Jabref:String getHelpPage() | get help page
+../3-Phrases/Jabref:String getHelpPage() | get help page
+../3-Phrases/Jabref:String getHelpPage() | get help page
+../3-Phrases/Jabref:String getHelpPage() | get help page
+../3-Phrases/Jabref:String firstPage(QString;) | first page
+../3-Phrases/Jabref:String lastPage(QString;) | last page
+../3-Phrases/Jabref:CONS PageNumbers(QString;) | page numbers
+../3-Phrases/Jabref:void parsePageNums(QString;) | parse page nums
+../3-Phrases/Jabref:void testFirstPage() | test first page
+../3-Phrases/Jabref:void testLastPage() | test last page
+../3-Phrases/javaHMO:int calculatePages(QString;QString;) | calculate pages
+../3-Phrases/javaHMO:int calculatePages(QString;QString;) | calculate pages
+../3-Phrases/javaHMO:int calculatePages(QString;QString;) | calculate pages
+../3-Phrases/jbidwatcher:CONS EbayAuctionURLPager(QString;QAuctionServer;QCleanupHandler;) | ebay auction url pager
+../3-Phrases/jbidwatcher:CONS EbayAuctionURLPager(QString;IQAuctionServer;QCleanupHandler;) | ebay auction url pager
+../3-Phrases/jbidwatcher:String getPageURL(I) | get page url
+../3-Phrases/jbidwatcher:JHTML getPage(QString;) | get page
+../3-Phrases/jbidwatcher:JHTML getPage(I) | get page
+../3-Phrases/jbidwatcher:List getAllURLsOnPage(Z) | get all urls on page
+../3-Phrases/jbidwatcher:StringBuffer setupSnipePage(QString;) | setup snipe page
+../3-Phrases/jbidwatcher:long getPageRequestTime() | get page request time
+../3-Phrases/jbidwatcher:JHTML getPage(I) | get page
+../3-Phrases/jbidwatcher:void setItemsPerPage(I) | set items per page
+../3-Phrases/jbidwatcher:int getItemsPerPage() | get items per page
+../3-Phrases/jbidwatcher:void setLastPageNumber(I) | set last page number
+../3-Phrases/jbidwatcher:StringBuffer getAllCookiesAndPage(QString;) | get all cookies and page
+../3-Phrases/jbidwatcher:StringBuffer getAllCookiesAndPage(QString;QString;) | get all cookies and page
+../3-Phrases/jbidwatcher:StringBuffer getAllCookiesAndPage(QString;QString;Z) | get all cookies and page
+../3-Phrases/jbidwatcher:StringBuffer getAllCookiesAndPage(QString;QString;ZQList;) | get all cookies and page
+../3-Phrases/jbidwatcher:URLConnection getAllCookiesFromPage(QString;QString;Z) | get all cookies from page
+../3-Phrases/jbidwatcher:URLConnection getAllCookiesFromPage(QString;QString;ZQList;) | get all cookies from page
+../3-Phrases/jbidwatcher:URLConnection postFormPage(QString;QString;QString;QString;Z) | post form page
+../3-Phrases/jbidwatcher:StringBuffer receivePage(QURLConnection;) | receive page
+../3-Phrases/jbidwatcher:StringBuffer receivePage_old(QURLConnection;) | receive page old
+../3-Phrases/jbidwatcher:URLConnection getPage(QString;) | get page
+../3-Phrases/jbidwatcher:URLConnection getPage(QString;QString;QString;Z) | get page
+../3-Phrases/jbidwatcher:CONS URLPagerIterator(QAbstractURLPager;I) | url pager iterator
+../3-Phrases/jbidwatcher:void buildPage(QString;QStringBuffer;) | build page
+../3-Phrases/jbidwatcher:int handlePostBidBuyPage(QCookieJar;QStringBuffer;QJHTML.Form;QAuctionEntry;) | handle post bid buy page
+../3-Phrases/jbidwatcher:void fetchImagesFromPage(QJHTML;) | fetch images from page
+../3-Phrases/jbidwatcher:int addAllItemsOnPage(QJHTML;QString;Z) | add all items on page
+../3-Phrases/jbidwatcher:void setErrorPage(QStringBuffer;) | set error page
+../3-Phrases/jbidwatcher:StringBuffer getErrorPage() | get error page
+../3-Phrases/JHotDraw-7.0.8:CONS DrawingPageable(QDrawing;) | drawing pageable
+../3-Phrases/JHotDraw-7.0.8:int getNumberOfPages() | get number of pages
+../3-Phrases/JHotDraw-7.0.8:PageFormat getPageFormat(I) | get page format
+../3-Phrases/JHotDraw-7.0.8:int printPage(QGraphics;QPageFormat;I) | print page
+../3-Phrases/JHotDraw-7.0.8:Pageable createPageable() | create pageable
+../3-Phrases/JHotDraw-7.0.8:Pageable createPageable() | create pageable
+../3-Phrases/JHotDraw-7.0.8:Pageable createPageable() | create pageable
+../3-Phrases/JHotDraw-7.0.8:Pageable createPageable() | create pageable
+../3-Phrases/MegaMek-0.32.0:void computeUnitsPerPage(QDimension;) | compute units per page
+../3-Phrases/MegaMek-0.32.0:void pageUp() | page up
+../3-Phrases/MegaMek-0.32.0:void pageDown() | page down
+../3-Phrases/MegaMek-0.32.0:void computeUnitsPerPage(QDimension;) | compute units per page
+../3-Phrases/MegaMek-0.32.0:void pageUp() | page up
+../3-Phrases/MegaMek-0.32.0:void pageDown() | page down
+../3-Phrases/np:boolean lastPageFirst() | last page first
+../3-Phrases/np:int sizeOfPageThumbnailArray() | size of page thumbnail array
+../3-Phrases/np:void newPage() | new page
+../3-Phrases/np:void indexPage(IRevision rev) | index page
+../3-Phrases/np:void Listener39(IPage page, Object component, Long cycle) | listener 39
+../3-Phrases/np:Query newConnectedForwardPageQuery(String sql, long pageSize) | new connected forward page query
+../3-Phrases/SweetHome3D:DialogView createPageSetupView(QUserPreferences;QPageSetupController;) | create page setup view
+../3-Phrases/SweetHome3D:void setPage(QURL;) | set page
+../3-Phrases/SweetHome3D:void setBrowserPage(QURL;) | set browser page
+../3-Phrases/SweetHome3D:void setPage(I) | set page
+../3-Phrases/SweetHome3D:int getPage() | get page
+../3-Phrases/SweetHome3D:int getPageCount() | get page count
+../3-Phrases/SweetHome3D:PageFormat getPageFormat(QHomePrint;) | get page format
+../3-Phrases/SweetHome3D:DialogView createPageSetupView(QUserPreferences;QPageSetupController;) | create page setup view
+../3-Phrases/SweetHome3D:CONS PageSetupPanel(QUserPreferences;QPageSetupController;) | page setup panel
+../3-Phrases/SweetHome3D:void setHelpPage(QURL;) | set help page
+../3-Phrases/SweetHome3D:URL getHelpPage() | get help page
+../3-Phrases/SweetHome3D:void setBrowserPage(QURL;) | set browser page
+../3-Phrases/SweetHome3D:URL getBrowserPage() | get browser page
+../3-Phrases/SweetHome3D:void setPreviousPageEnabled(Z) | set previous page enabled
+../3-Phrases/SweetHome3D:boolean isPreviousPageEnabled() | is previous page enabled
+../3-Phrases/SweetHome3D:void setNextPageEnabled(Z) | set next page enabled
+../3-Phrases/SweetHome3D:boolean isNextPageEnabled() | is next page enabled
+../3-Phrases/SweetHome3D:void showPage(QURL;) | show page
+../3-Phrases/SweetHome3D:URL getHelpIndexPageURL() | get help index page url
+../3-Phrases/SweetHome3D:void setupPage() | setup page
+../3-Phrases/SweetHome3D:DialogView createPageSetupView(QUserPreferences;QPageSetupController;) | create page setup view
+../3-Phrases/SweetHome3D:CONS PageSetupController(QHome;QUserPreferences;QViewFactory;QUndoableEditSupport;) | page setup controller
+../3-Phrases/SweetHome3D:void modifyPageSetup() | modify page setup
+../3-Phrases/SweetHome3D:void testPageSetupAndPrintPreview() | test page setup and print preview
+../3-Phrases/vuze:pageDetails getWebPageContent([QSearchParameter;QMap;QString;Z) | get web page content
+../3-Phrases/vuze:String getRootPage() | get root page
+../3-Phrases/vuze:String getBasePage() | get base page
+../3-Phrases/vuze:String getLoginPageUrl() | get login page url
+../3-Phrases/vuze:void setLoginPageUrl(QString;) | set login page url
+../3-Phrases/vuze:void pageDetails(QURL;QURL;QString;) | page details
+../3-Phrases/vuze:String getIndexPage() | get index page
+../3-Phrases/vuze:String getPingPage(QString;) | get ping page
+../3-Phrases/vuze:void setPageLoading(ZQString;) | set page loading
+../3-Phrases/vuze:boolean isPageLoading() | is page loading
+../3-Phrases/vuze:CONS AbstractBuddyPageListener(QBrowser;) | abstract buddy page listener
+../3-Phrases/vuze:void handlePageLoadCompleted() | handle page load completed
+../3-Phrases/vuze:void hookOnPageLoaded() | hook on page loaded
+../3-Phrases/vuze:void hookOnPageChanged() | hook on page changed
+../3-Phrases/vuze:void handlePageLoadCompleted() | handle page load completed
+../3-Phrases/vuze:boolean isPageVerified(QString;) | is page verified
+../3-Phrases/vuze:CONS SharePage(QMultipageWizard;) | share page
+../3-Phrases/vuze:String getPageID() | get page id
+../3-Phrases/vuze:CONS AddFriendsPage(QMultipageWizard;) | add friends page
+../3-Phrases/vuze:CONS AddFriendsPage(QMultipageWizard;QSharePage;) | add friends page
+../3-Phrases/vuze:String getPageID() | get page id
+../3-Phrases/vuze:void handlePageLoadCompleted() | handle page load completed
+../3-Phrases/vuze:void createPages() | create pages
+../3-Phrases/vuze:boolean isPageLoading() | is page loading
+../3-Phrases/vuze:void setSharePage(QSharePage;) | set share page
+../3-Phrases/vuze:void resetBrowserPage(QString;) | reset browser page
+../3-Phrases/vuze:void refreshBrowserPage(QString;) | refresh browser page
+../3-Phrases/vuze:void createPages() | create pages
+../3-Phrases/vuze:HTMLPage loadPage(QInputStream;) | load page
+../3-Phrases/vuze:HTMLPage loadPage(QInputStream;QString;) | load page
+../3-Phrases/vuze:HTMLPage loadPage(QInputStream;Z) | load page
+../3-Phrases/vuze:HTMLPage loadPage(QInputStream;QString;Z) | load page
+../3-Phrases/vuze:CONS HTMLPageImpl(QInputStream;QString;Z) | html page impl
+../3-Phrases/vuze:String loadPage(QString;) | load page
+../3-Phrases/vuze:void addPageGenerator(QTrackerWebPageGenerator;) | add page generator
+../3-Phrases/vuze:void removePageGenerator(QTrackerWebPageGenerator;) | remove page generator
+../3-Phrases/vuze:TrackerWebPageGenerator[] getPageGenerators() | get page generators
+../3-Phrases/vuze:TrackerWebPageGenerator[] getPageGenerators() | get page generators
+../3-Phrases/vuze:void addPageGenerator(QTrackerWebPageGenerator;) | add page generator
+../3-Phrases/vuze:void removePageGenerator(QTrackerWebPageGenerator;) | remove page generator
+../3-Phrases/vuze:CONS TrackerWebPageResponseImpl(QOutputStream;QTrackerWebPageRequest;QAsyncController;) | tracker web page response impl
+../3-Phrases/vuze:CONS TrackerWebPageRequestImpl(QTracker;QTrackerWebContext;QInetSocketAddress;QString;QString;QURL;QString;QInputStream;) | tracker web page request impl
+../3-Phrases/vuze:void addPageGenerator(QTrackerWebPageGenerator;) | add page generator
+../3-Phrases/vuze:void removePageGenerator(QTrackerWebPageGenerator;) | remove page generator
+../3-Phrases/vuze:TrackerWebPageGenerator[] getPageGenerators() | get page generators
+../3-Phrases/vuze:boolean processPluginPage(QSFPluginDetailsImpl;QHTMLPage;) | process plugin page
+../3-Phrases/vuze:boolean processPluginPage(QSFPluginDetailsImpl;[QHTMLTable;) | process plugin page
+../3-Phrases/vuze:void setPageCount(I) | set page count
+../3-Phrases/vuze:void pageSelected(I) | page selected
+../3-Phrases/vuze:void addPageSelectionListener(QPageSelectionListener;) | add page selection listener
+../3-Phrases/vuze:int getCurrentPage() | get current page
+../3-Phrases/vuze:void setCurrentPage(I) | set current page
+../3-Phrases/vuze:int getItemsPerPage() | get items per page
+../3-Phrases/vuze:void setItemsPerPage(I) | set items per page
+../3-Phrases/vuze:CONS AbstractWizardPage(QMultipageWizard;) | abstract wizard page
+../3-Phrases/vuze:void createPages() | create pages
+../3-Phrases/vuze:boolean addPage(QIWizardPage;) | add page
+../3-Phrases/vuze:boolean isFirstPage(QString;) | is first page
+../3-Phrases/vuze:boolean isLastPage(QString;) | is last page
+../3-Phrases/vuze:boolean removePage(QIWizardPage;) | remove page
+../3-Phrases/vuze:void showPage(QString;) | show page
+../3-Phrases/vuze:IWizardPage getPage(QString;) | get page
+../3-Phrases/vuze:String getPageID() | get page id

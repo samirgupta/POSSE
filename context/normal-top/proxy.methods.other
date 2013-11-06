@@ -1,0 +1,44 @@
+BasicProxyFactory buildBasicProxyFactory(QClass;[QClass;) | build basic proxy factory
+boolean isAllowProxyCreation() | is allow proxy creation
+Class getConcreteProxyClass() | get concrete proxy class
+Class getConcreteProxyClass(QEntityMode;) | get concrete proxy class
+Class getProxyFactory(QClass;[QClass;) | get proxy factory
+Class getProxyInterface() | get proxy interface
+ClassLoader getProxyClassLoader() | get proxy class loader
+Credentials getProxyCredentials(AuthScope authscope) | get proxy credentials
+HibernateProxy getProxyInstance(QClass;QCGLIBLazyInitializer;) | get proxy instance
+int getHTTPProxyPort() | get http proxy port
+int getNextSOCKSProxyPort() | get next socks proxy port
+int getSocksProxyPort() | get socks proxy port
+JobDefinitionDocument populateMyProxyElements(JobDefinitionDocument pJSDL, CommandLine pCmdLine, Properties pSettings) | populate my proxy elements
+JPanel buildHTTPSProxyPanel() | build https proxy panel
+JPanel buildProxyPanel() | build proxy panel
+JProxySettings getProxySettings() | get proxy settings
+LoadType setAllowProxyCreation(Z) | set allow proxy creation
+Object createProxyIfNecessary(QLoadEvent;QEntityPersister;QEntityKey;QLoadEventListener.LoadType;QPersistenceContext;) | create proxy if necessary
+Object getInterfaceProxyHelper(QContextFactory;[QClass;) | get interface proxy helper
+ProxyFactory buildProxyFactory() | build proxy factory
+ProxyFactory buildProxyFactoryInternal(QPersistentClass;QGetter;QSetter;) | build proxy factory internal
+ProxyFactory buildProxyFactory(QPersistentClass;QGetter;QSetter;) | build proxy factory
+ProxyFactoryFactory getProxyFactoryFactory() | get proxy factory factory
+ProxyFactory getProxyFactory() | get proxy factory
+Serializable getProxyIdentifier(QObject;) | get proxy identifier
+String getHTTPProxyHost() | get http proxy host
+String getNextSOCKSProxyHost() | get next socks proxy host
+String getNextSOCKSProxyVersion() | get next socks proxy version
+String[] getNonProxyHosts() | get non proxy hosts
+String getProxyAddres(QString;) | get proxy addres
+String getProxyHost() | get proxy host
+String getProxyInterfaceName() | get proxy interface name
+String getProxyPwd() | get proxy pwd
+String getSocksProxyHost() | get socks proxy host
+String getSocksProxyPort() | get socks proxy port
+void BasicProxyFactoryImpl(QClass;[QClass;) | basic proxy factory impl
+void loadProxySettings() | load proxy settings
+void makeProxyServer(IQClass;) | make proxy server
+void setAllProxyStatus(Z) | set all proxy status
+void setAllProxyText() | set all proxy text
+void setConnectionProxyInfo(QURLConnection;) | set connection proxy info
+void setProxyInterfaceName(QString;) | set proxy interface name
+void setSocksProxyOptions(QString;QString;) | set socks proxy options
+void updateProxyFirewall(ZZZ) | update proxy firewall

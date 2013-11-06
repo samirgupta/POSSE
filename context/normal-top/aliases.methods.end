@@ -1,0 +1,47 @@
+boolean queryHasAliases() | query has aliases
+CollectionAliases getCollectionAliases() | get collection aliases
+CollectionAliases[] getCollectionAliases() | get collection aliases
+EntityAliases getElementEntityAliases() | get element entity aliases
+EntityAliases getEntityAliases() | get entity aliases
+EntityAliases[] getEntityAliases() | get entity aliases
+HashMap getColumnAliases() | get column aliases
+HsqlArrayList getAliases() | get aliases
+SelectFragment setUsedAliases([QString;) | set used aliases
+String[] getAliases() | get aliases
+String[] getCollectionPropertyColumnAliases(QString;QString;) | get collection property column aliases
+String[] getColumnAliases(I) | get column aliases
+String[] getColumnAliases(QString;I) | get column aliases
+String[] getElementColumnAliases(QString;) | get element column aliases
+String[] getIdentifierAliases() | get identifier aliases
+String[] getIdentifierAliases(QLoadable;QString;) | get identifier aliases
+String[] getIdentifierAliases(QString;) | get identifier aliases
+String[] getIndexColumnAliases(QString;) | get index column aliases
+String[] getKeyColumnAliases(QString;) | get key column aliases
+String[] getProjectedAliases() | get projected aliases
+String[] getProjectedColumnAliases() | get projected column aliases
+String[] getPropertyAliases(QLoadable;I) | get property aliases
+String[] getPropertyAliases(QString;I) | get property aliases
+String[] getQueryReturnAliases() | get query return aliases
+String[] getReturnAliases() | get return aliases
+String[] getReturnAliases(QString;) | get return aliases
+String[] getSubclassPropertyColumnAliases(QString;QString;) | get subclass property column aliases
+String[] getSuffixedElementAliases() | get suffixed element aliases
+String[] getSuffixedIndexAliases() | get suffixed index aliases
+String[] getSuffixedKeyAliases() | get suffixed key aliases
+String[][] getSuffixedPropertyAliases() | get suffixed property aliases
+String[][] getSuffixedPropertyAliases(QLoadable;) | get suffixed property aliases
+String[] getSuffixedVersionAliases() | get suffixed version aliases
+String[] getUserAliases() | get user aliases
+String[] getUserProvidedAliases(QString;[QString;) | get user provided aliases
+Table SYSTEM_ALIASES() | system aliases
+void initAliases([QSelectExpression;) | init aliases
+void loadAliases() | load aliases
+void printAliases(QConsoleInput;) | print aliases
+void replaceAliases([QExpression;I) | replace aliases
+void saveAliases() | save aliases
+void setAliases([QString;) | set aliases
+void test2pAliases() | test 2 p aliases
+void testHiddenCollisionWithAliases() | test hidden collision with aliases
+void testSameTableWithAliases() | test same table with aliases
+void testWhereClausesCollidingWithAliases() | test where clauses colliding with aliases
+void testWhereSelectCollidingWithAliases() | test where select colliding with aliases

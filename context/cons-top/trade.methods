@@ -1,0 +1,26 @@
+CONS AssignTradeRouteAction(QFreeColClient;) | assign trade route action
+CONS ColonyTradeItem(QGame;QPlayer;QPlayer;QColony;) | colony trade item
+CONS ColonyTradeItem(QGame;QXMLStreamReader;) | colony trade item
+CONS DiplomaticTrade(QGame;QElement;) | diplomatic trade
+CONS DiplomaticTrade(QGame;QPlayer;QPlayer;) | diplomatic trade
+CONS DiplomaticTrade(QGame;QPlayer;QPlayer;QList<QTradeItem;>;) | diplomatic trade
+CONS GoldTradeItem(QGame;QPlayer;QPlayer;I) | gold trade item
+CONS GoldTradeItem(QGame;QXMLStreamReader;) | gold trade item
+CONS GoodsTradeItem(QGame;QPlayer;QPlayer;QGoods;QSettlement;) | goods trade item
+CONS GoodsTradeItem(QGame;QXMLStreamReader;) | goods trade item
+CONS ReportTradeAction(QFreeColClient;) | report trade action
+CONS ReportTradePanel(QCanvas;) | report trade panel
+CONS StanceTradeItem(QGame;QPlayer;QPlayer;QStance;) | stance trade item
+CONS StanceTradeItem(QGame;QXMLStreamReader;) | stance trade item
+CONS TradeItem(QGame;QString;QPlayer;QPlayer;) | trade item
+CONS TradeItem(QGame;QXMLStreamReader;) | trade item
+CONS TradeRoute() | trade route
+CONS TradeRouteAction(QFreeColClient;) | trade route action
+CONS TradeRouteDialog(QCanvas;) | trade route dialog
+CONS TradeRouteInputDialog(QCanvas;) | trade route input dialog
+CONS TradeRoute(QGame;QElement;) | trade route
+CONS TradeRoute(QGame;QString;QPlayer;) | trade route
+CONS TradeRoute(QGame;QXMLStreamReader;) | trade route
+CONS TradeRouteStop(QLocation;) | trade route stop
+CONS UnitTradeItem(QGame;QPlayer;QPlayer;QUnit;) | unit trade item
+CONS UnitTradeItem(QGame;QXMLStreamReader;) | unit trade item

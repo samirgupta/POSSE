@@ -1,0 +1,47 @@
+com.aelitis.azureus.core.dht.speed.DHTSpeedTester speed_tester | speed tester
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerImpl speed_manager | speed manager
+com.aelitis.azureus.core.speedmanager.SpeedManager speed_manager | speed manager
+com.aelitis.azureus.core.speedmanager.SpeedManager speedManager | speed manager
+com.aelitis.azureus.core.util.average.Average choke_speed_average | choke speed average
+com.aelitis.azureus.core.util.average.Average download_speed_average | download speed average
+com.aelitis.azureus.core.util.average.Average provider_speed_average | provider speed average
+int data_send_speed_at_close | data send speed at close
+int DOWNLOAD_SPEED_ADJUST_MIN_KB_SEC | download speed adjust min kb sec
+int kHICommandSpeedTest | k hi command speed test
+int minSpeedForActiveDL | min speed for active dl
+int minSpeedForActiveSeeding | min speed for active seeding
+int SPEED_AVERAGE_PERIOD | speed average period
+int SPEED_CONTROL_INITIAL_DELAY | speed control initial delay
+int SPEED_DIVISOR | speed divisor
+int SPEED_HISTORY_COUNT | speed history count
+int SPEED_HISTORY_PERIOD | speed history period
+int SPEED_INCREASE_GRACE_PERIOD | speed increase grace period
+int[][] speeds | speeds
+int speeds_next | speeds next
+int TARGET_SPEED_EXCESS_MARGIN | target speed excess margin
+int TEST_SPEED_FACTOR | test speed factor
+int UPLOAD_SPEED_ADJUST_MIN_KB_SEC | upload speed adjust min kb sec
+int[] x_speeds | x speeds
+int[] y_speeds | y speeds
+java.lang.String CORE_PARAM_BOOLEAN_AUTO_SPEED_ON | core param boolean auto speed on
+java.lang.String CORE_PARAM_BOOLEAN_MAX_UPLOAD_SPEED_SEEDING | core param boolean max upload speed seeding
+java.lang.String CORE_PARAM_INT_MAX_DOWNLOAD_SPEED_KBYTES_PER_SEC | core param int max download speed kbytes per sec
+java.lang.String CORE_PARAM_INT_MAX_UPLOAD_SPEED_KBYTES_PER_SEC | core param int max upload speed kbytes per sec
+java.lang.String CORE_PARAM_INT_MAX_UPLOAD_SPEED_SEEDING_KBYTES_PER_SEC | core param int max upload speed seeding kbytes per sec
+java.lang.String fgSpeedTestActionName | fg speed test action name
+java.lang.String MENU_ID_SPEED_TEST | menu id speed test
+java.lang.String SPEED_TEST_SERVER | speed test server
+java.util.Map parseSpeedPartitionStringCache | parse speed partition string cache
+long FT_AUTO_SPEED_DEFAULT_CLASSIC | ft auto speed default classic
+long last_speed_increase | last speed increase
+long MIN_SPEED_DEFAULT | min speed default
+long speed_change_time | speed change time
+org.gudy.azureus2.core3.util.Average data_receive_speed_no_lan | data receive speed no lan
+org.gudy.azureus2.core3.util.Average data_send_speed_no_lan | data send speed no lan
+org.gudy.azureus2.core3.util.Average protocol_receive_speed_no_lan | protocol receive speed no lan
+org.gudy.azureus2.core3.util.Average protocol_send_speed_no_lan | protocol send speed no lan
+org.gudy.azureus2.core3.util.Average receive_speed_for_choking | receive speed for choking
+org.gudy.azureus2.plugins.torrent.TorrentAttribute speedTestAttrib | speed test attrib
+org.gudy.azureus2.ui.swt.components.graphics.SpeedGraphic downSpeedGraphic | down speed graphic
+org.gudy.azureus2.ui.swt.components.graphics.SpeedGraphic upSpeedGraphic | up speed graphic
+org.gudy.azureus2.ui.swt.config.BooleanParameter enableAutoSpeedWhileSeeding | enable auto speed while seeding

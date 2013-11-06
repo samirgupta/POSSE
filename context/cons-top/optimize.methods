@@ -1,0 +1,6 @@
+CONS AccessOptimizerAdapter(QBulkAccessor;QClass;) | access optimizer adapter
+CONS AccessOptimizerAdapter(QBulkBean;QClass;) | access optimizer adapter
+CONS InstantiationOptimizerAdapter(QFastClass;) | instantiation optimizer adapter
+CONS ReflectionOptimizerImpl(QInstantiationOptimizerAdapter;QAccessOptimizerAdapter;) | reflection optimizer impl
+CONS ReflectionOptimizerImpl(QInstantiationOptimizer;QAccessOptimizer;) | reflection optimizer impl
+CONS RegOptimizer() | reg optimizer

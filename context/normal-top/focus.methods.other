@@ -1,0 +1,23 @@
+boolean isFocusTraversable() | is focus traversable
+boolean _requestFocusInWindow() | request focus in window
+boolean requestFocusInWindow() | request focus in window
+FocusListener[] getFocusListeners() | get focus listeners
+Point2D getFocusPoint() | get focus point
+TupleSet getFocusGroup(QString;) | get focus group
+void addAutoSelectionOnFocusGain(QJTextComponent;) | add auto selection on focus gain
+void addFocusGroup(QString;) | add focus group
+void addFocusGroup(QString;QTupleSet;) | add focus group
+void addFocusListener(FocusListener l) | add focus listener
+void addFocusListener(QFocusListener;) | add focus listener
+void addFocusListener(QPlanController;) | add focus listener
+void jComboBoxPatternFocusLost(Qjava.awt.event.FocusEvent;) | j combo box pattern focus lost
+void jTextFieldColorValueFocusLost(Qjava.awt.event.FocusEvent;) | j text field color value focus lost
+void moveFocusToEntryEditor() | move focus to entry editor
+void onLooseFocusHook() | on loose focus hook
+void onReceiveFocusHook() | on receive focus hook
+void removeFocusListener(FocusListener l) | remove focus listener
+void removeFocusListener(QFocusListener;) | remove focus listener
+void setFocusImmediately(QPosition;) | set focus immediately
+void setFocusOnActiveTextbox() | set focus on active textbox
+void setNextFocusListener(QFocusListener;) | set next focus listener
+void triggerFocusChangedListeners(QTableRowCore;) | trigger focus changed listeners

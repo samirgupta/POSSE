@@ -1,0 +1,15 @@
+AccessOptimizer getAccessOptimizer() | get access optimizer
+boolean useReflectionOptimizer() | use reflection optimizer
+InstantiationOptimizer getInstantiationOptimizer() | get instantiation optimizer
+Object[] getPropertyValuesWithOptimizer(QObject;) | get property values with optimizer
+Optimizer buildOptimizer(QString;QClass;I) | build optimizer
+Optimizer getOptimizer() | get optimizer
+ReflectionOptimizer getReflectionOptimizer(QClass;[QString;[QString;[QClass;) | get reflection optimizer
+RegOptimizer getRegOptimizer() | get reg optimizer
+String regOptimizerTipText() | reg optimizer tip text
+void HiLoOptimizer(QClass;I) | hi lo optimizer
+void NoopOptimizer(QClass;I) | noop optimizer
+void OptimizerSupport(QClass;I) | optimizer support
+void PooledOptimizer(QClass;I) | pooled optimizer
+void setPropertyValuesWithOptimizer(QObject;[QObject;) | set property values with optimizer
+void setRegOptimizer(QRegOptimizer;) | set reg optimizer

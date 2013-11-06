@@ -1,0 +1,19 @@
+boolean addYGMMarker(J) | add ygm marker
+Color getEOLMarkerColor() | get eol marker color
+GP4Marker readMarker() | read marker
+Image wreckMarkerFor(QEntity;) | wreck marker for
+int getPartMarker() | get part marker
+List getYGMMarkers() | get ygm markers
+String[] parseFieldMarker(QString;) | parse field marker
+TimeMarker[] getTimeMarkers() | get time markers
+TimeMarker[] getTimeMarkers(JJ) | get time markers
+TokenMarker getTokenMarker() | get token marker
+ValueMarker[] getValueMarkers() | get value markers
+ValueMarker[] getValueMarkers(DD) | get value markers
+void createConflictError(IMarkerDisplay markerDisplay) | create conflict error
+void gotoMarker(IMarker marker) | goto marker
+void setEOLMarkerColor(QColor;) | set eol marker color
+void setPartMarker() | set part marker
+void setPartMarker(I) | set part marker
+void setTokenMarker(QTokenMarker;) | set token marker
+void WriteMarker(byte data, OutputStream out) | write marker

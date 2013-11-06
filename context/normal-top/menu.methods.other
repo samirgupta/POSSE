@@ -1,0 +1,270 @@
+AbstractAction[] makePopupMenuActions() | make popup menu actions
+Action createMenuAction(QString;QString;) | create menu action
+Action getMenuAction() | get menu action
+Action[] getPopupMenuActions() | get popup menu actions
+boolean getStateOfDeleteMenuItem() | get state of delete menu item
+boolean wasMenuChosen() | was menu chosen
+CommonMenuBar getMenuBar() | get menu bar
+Dimension getPreferredMenuItemSize(QJComponent;QIcon;QIcon;I) | get preferred menu item size
+DrawMenuBar getDrawMenuBar() | get draw menu bar
+Font getMenuFont() | get menu font
+FontUIResource getMenuTextFont() | get menu text font
+freemind.controller.actions.generated.instance.MenuActionBase createMenuActionBase() | create menu action base
+freemind.controller.actions.generated.instance.MenuAction createMenuAction() | create menu action
+freemind.controller.actions.generated.instance.MenuActionType createMenuActionType() | create menu action type
+freemind.controller.actions.generated.instance.MenuCategoryBase createMenuCategoryBase() | create menu category base
+freemind.controller.actions.generated.instance.MenuCategory createMenuCategory() | create menu category
+freemind.controller.actions.generated.instance.MenuCategoryType createMenuCategoryType() | create menu category type
+freemind.controller.actions.generated.instance.MenuCheckedAction createMenuCheckedAction() | create menu checked action
+freemind.controller.actions.generated.instance.MenuCheckedActionType createMenuCheckedActionType() | create menu checked action type
+freemind.controller.actions.generated.instance.MenuSeparator createMenuSeparator() | create menu separator
+freemind.controller.actions.generated.instance.MenuSeparatorType createMenuSeparatorType() | create menu separator type
+freemind.controller.actions.generated.instance.MenuStructure createMenuStructure() | create menu structure
+freemind.controller.actions.generated.instance.MenuStructureType createMenuStructureType() | create menu structure type
+freemind.controller.actions.generated.instance.MenuSubmenu createMenuSubmenu() | create menu submenu
+freemind.controller.actions.generated.instance.MenuSubmenuType createMenuSubmenuType() | create menu submenu type
+freemind.controller.actions.generated.instance.PluginMenuType createPluginMenuType() | create plugin menu type
+int getMenuBarHeight() | get menu bar height
+int getMenuDeprecatedSize() | get menu deprecated size
+int getMenuDescriptionSize() | get menu description size
+int getMenuOptionSpecificationSize() | get menu option specification size
+int getMenuTypenameSize() | get menu typename size
+java.util.List getMenuCategory() | get menu category
+java.util.List getMenuCategoryOrMenuSubmenuOrMenuAction() | get menu category or menu submenu or menu action
+JCheckBoxMenuItem changeMenuLabel(QJCheckBoxMenuItem;QString;) | change menu label
+JCheckBoxMenuItem getCheckBoxMenuItem(QString;) | get check box menu item
+JMenuBar constructDefaultMenuBar() | construct default menu bar
+JMenuBar createMenuBar() | create menu bar
+JMenuBar createMenuBar(QHome;QUserPreferences;QHomeController;) | create menu bar
+JMenuBar createMenuBar(QProject;) | create menu bar
+JMenuBar createMenuBar(QProject;Qjava.util.List<QAction;>;) | create menu bar
+JMenuBar getJMenuBar() | get j menu bar
+JMenuBar getMenuBar() | get menu bar
+JMenu changeMenuLabel(QJMenu;QString;) | change menu label
+JMenuItem addMenuItem(QJMenuItem;QString;) | add menu item
+JMenuItem changeMenuLabel(QJMenuItem;QString;) | change menu label
+JMenuItem createHideShowBackgroundImageMenuItem(QHome;Z) | create hide show background image menu item
+JMenuItem createImportModifyBackgroundImageMenuItem(QHome;Z) | create import modify background image menu item
+JMenuItem createLockUnlockBasePlanMenuItem(QHome;Z) | create lock unlock base plan menu item
+JMenuItem createMenuItem(QJMenu;QString;QString;) | create menu item
+JMenuItem createMenuItem(QJMenu;QString;QString;I) | create menu item
+JMenuItem createMenuItem(String i18nKey, Object textArgs) | create menu item
+JMenuItem createResetLogLevelColorMenuItem() | create reset log level color menu item
+JMenuItem createToggleMenuItem(QAction;ZQJToggleButton.ToggleButtonModel;QButtonGroup;) | create toggle menu item
+JMenuItem getC2cohMenuItem() | get c 2 coh menu item
+JMenuItem getExitMenuItem() | get exit menu item
+JMenuItem getHookMenuItem(QString;QAbstractAction;) | get hook menu item
+JMenuItem getJMenuItem() | get j menu item
+JMenuItem getMenuItem() | get menu item
+JMenuItem getMenuItem(QString;) | get menu item
+JMenuItem getMenuItem(QString;QActionListener;) | get menu item
+JMenuItem getReportsTradeMenuItem() | get reports trade menu item
+JMenuItem getVisualizeMenuItem(QFastVector;QAttribute;) | get visualize menu item
+JMenuItem makeGeneralMenuItem(QString;QString;) | make general menu item
+JMenuItem makeMenuItem(QString;) | make menu item
+JMenuItem makeMenuItem(QString;QString;) | make menu item
+JMenuItem _newCheckBoxMenuItem(QAction;) | new check box menu item
+JRadioButtonMenuItem createMenuRadioButton(QString;QString;QString;IIQKeyStroke;I) | create menu radio button
+JRadioButtonMenuItem getRadioButtonMenuItem(QString;QButtonGroup;) | get radio button menu item
+Listener getLimitMenuItemListener(ZQMenu;QGlobalManager;QString;) | get limit menu item listener
+List getHookMenuPositions(QString;) | get hook menu positions
+MenuBar getFreeMindMenuBar() | get free mind menu bar
+MenuContext getMenuContext() | get menu context
+Menu createDebugMenuItem(QMenu;) | create debug menu item
+Menu getMenuBar() | get menu bar
+MenuItem addAboutMenuItem(QMenu;) | add about menu item
+MenuItem addAllPeersMenuItem(QMenu;) | add all peers menu item
+MenuItem addBlockedIPsMenuItem(QMenu;) | add blocked ips menu item
+MenuItem addBringAllToFrontMenuItem(QMenu;) | add bring all to front menu item
+MenuItem addCheckUpdateMenuItem(QMenu;) | add check update menu item
+MenuItem addCloseDetailsMenuItem(QMenu;) | add close details menu item
+MenuItem addCloseTabMenuItem(QMenu;QMainWindow;) | add close tab menu item
+MenuItem addCloseWindowMenuItem(QMenu;) | add close window menu item
+MenuItem addConfigWizardMenuItem(QMenu;) | add config wizard menu item
+MenuItem addConsoleMenuItem(QMenu;) | add console menu item
+MenuItem addCreateMenuItem(QMenu;) | add create menu item
+MenuItem addDebugHelpMenuItem(QMenu;) | add debug help menu item
+MenuItem addDetailedListMenuItem(QMenu;) | add detailed list menu item
+MenuItem addExitMenuItem(QMenu;) | add exit menu item
+MenuItem addExportMenuItem(QMenu;) | add export menu item
+MenuItem addFAQMenuItem(QMenu;QString;) | add faq menu item
+MenuItem addGetPluginsMenuItem(QMenu;) | add get plugins menu item
+MenuItem addHealthMenuItem(QMenu;) | add health menu item
+MenuItem addHelpSupportMenuItem(QMenu;QString;) | add help support menu item
+MenuItem addImportMenuItem(QMenu;) | add import menu item
+MenuItem addLabelMenuItem(QMenu;QString;) | add label menu item
+MenuItem addLogsViewMenuItem(QMenu;) | add logs view menu item
+MenuItem addMenuItem(QMenuContext;QString;) | add menu item
+MenuItem addMenuItem(QMenu;IIQString;QListener;) | add menu item
+MenuItem addMenuItem(QMenu;IQString;QListener;) | add menu item
+MenuItem addMenuItem(QMenuItem;QString;) | add menu item
+MenuItem addMenuItem(QMenu;QString;QListener;) | add menu item
+MenuItem addMenuItem(QMenu;QString;QListener;I) | add menu item
+MenuItem addMenuItem(QString;QString;) | add menu item
+MenuItem addMinimizeWindowMenuItem(QMenu;) | add minimize window menu item
+MenuItem addMySharesMenuItem(QMenu;) | add my shares menu item
+MenuItem addMyTorrentsMenuItem(QMenu;) | add my torrents menu item
+MenuItem addMyTrackerMenuItem(QMenu;) | add my tracker menu item
+MenuItem addNatTestMenuItem(QMenu;) | add nat test menu item
+MenuItem addOpenTorrentForTrackingMenuItem(QMenu;) | add open torrent for tracking menu item
+MenuItem addOpenTorrentMenuItem(QMenu;) | add open torrent menu item
+MenuItem addOpenVuzeFileMenuItem(QMenu;) | add open vu ze file menu item
+MenuItem addOptionsMenuItem(QMenu;) | add options menu item
+MenuItem addPauseMenuItem(QMenu;) | add pause menu item
+MenuItem addPluginInstallMenuItem(QMenu;) | add plugin install menu item
+MenuItem addPluginUnInstallMenuItem(QMenu;) | add plugin un install menu item
+MenuItem addReleaseNotesMenuItem(QMenu;) | add release notes menu item
+MenuItem addRestartMenuItem(QMenu;) | add restart menu item
+MenuItem addResumeMenuItem(QMenu;) | add resume menu item
+MenuItem addSeparatorMenuItem(QMenu;) | add separator menu item
+MenuItem addShareFileMenuItem(QMenu;) | add share file menu item
+MenuItem addShareFolderContentMenuItem(QMenu;) | add share folder content menu item
+MenuItem addShareFolderContentRecursiveMenuItem(QMenu;) | add share folder content recursive menu item
+MenuItem addShareFolderMenuItem(QMenu;) | add share folder menu item
+MenuItem addSpeedTestMenuItem(QMenu;) | add speed test menu item
+MenuItem addStartAllMenuItem(QMenu;) | add start all menu item
+MenuItem addStatisticsMenuItem(QMenu;) | add statistics menu item
+MenuItem addStopAllMenuItem(QMenu;) | add stop all menu item
+MenuItem addViewToolbarMenuItem(QMenu;) | add view toolbar menu item
+MenuItem addWhatsNewMenuItem(QMenu;) | add whats new menu item
+MenuItem addZoomWindowMenuItem(QMenu;) | add zoom window menu item
+MenuItem createAdvancedMenuItem(QMenu;) | create advanced menu item
+MenuItem createDebugMenuItem(QMenu;) | create debug menu item
+MenuItem createFileMenuItem(QMenu;) | create file menu item
+MenuItem createHelpMenuItem(QMenu;) | create help menu item
+MenuItem createMenuItem(QMenu;QString;QString;) | create menu item
+MenuItem createMenuItem(QMenu;QString;QString;I) | create menu item
+MenuItem createOpenMenuItem(QMenu;) | create open menu item
+MenuItem createPluginsMenuItem(QMenu;Z) | create plugins menu item
+MenuItem createPublishMenuItem(QMenu;) | create publish menu item
+MenuItem createShareMenuItem(QMenu;) | create share menu item
+MenuItem createToolsMenuItem(QMenu;) | create tools menu item
+MenuItem createTopLevelMenuItem(QMenu;QString;) | create top level menu item
+MenuItem createTorrentMenuItem(QMenu;) | create torrent menu item
+MenuItem createTransfersMenuItem(QMenu;) | create transfers menu item
+MenuItem createViewMenuItem(QMenu;) | create view menu item
+MenuItem createViewMenuItem(QSWTSkin;QMenu;QString;QString;QString;ZI) | create view menu item
+MenuItem createWindowMenuItem(QMenu;) | create window menu item
+MenuItem findMenuItem(QMenu;QString;) | find menu item
+MenuKeyListener getMenuKeyListener() | get menu key listener
+MenuKeyListener getMenuKeyListeners() | get menu key listeners
+MenuManager getMenuManager() | get menu manager
+Object getPluginMenuContextObject() | get plugin menu context object
+Point getPopupMenuPoint(QMouseEvent;) | get popup menu point
+StandardColor getMenuItemStandardColor() | get menu item standard color
+String getMenuID() | get menu id
+String getMenuItem() | get menu item
+String getMenuItemText() | get menu item text
+String getMenuTitle() | get menu title
+String getPluginMenuIdentifier(QObject;) | get plugin menu identifier
+String[] getPluginMenuIdentifiers(QObject;) | get plugin menu identifiers
+StructuredMenuHolder getMenuHolder() | get menu holder
+TableContextMenuItem addContextMenuItem(QString;) | add context menu item
+TableContextMenuItem addContextMenuItem(QString;QString;) | add context menu item
+TableContextMenuItem addContextMenuItem(QTableContextMenuItem;QString;) | add context menu item
+TableContextMenuItem[] getContextMenuItems() | get context menu items
+void addChildMenuItem(QMenuItem;) | add child menu item
+void addContextMenuAction(Action action) | add context menu action
+void addContextMenuItem(QTableContextMenuItem;) | add context menu item
+void addGenericMenuItem() | add generic menu item
+void addGenericMenuItem(QAbstractDrawAction;I) | add generic menu item
+void addGenericMenuItem(QString;QAbstractDrawAction;I) | add generic menu item
+void addMenuAndNonTextChildren(QComposite;QMenu;) | add menu and non text children
+void addMenuEventHandlers() | add menu event handlers
+void addMenuFillListener(QTableViewSWTMenuFillListener;) | add menu fill listener
+void _addMenuItem(QJMenu;QAction;QOption<QKeyStroke;>;) | add menu item
+void addMenuItem(QMenuItem;) | add menu item
+void addMenuItem(QString;) | add menu item
+void addMenuItem(QString;C) | add menu item
+void addMenuItem(QString;QActionListener;) | add menu item
+void addMenuItem(QString;QString;C) | add menu item
+void addMenuItem(QStructuredMenuItemHolder;) | add menu item
+void addMenuItems(QJMenu;[QObject;) | add menu items
+void addMenuItems(QMenu;[QString;) | add menu items
+void addMenuItems(QString;QArrayList;) | add menu items
+void addMenuListener(QJMenuListener;) | add menu listener
+void addMenuListener(QMenuListener;) | add menu listener
+void addMenuNotifications() | add menu notifications
+void addPluginMenuItem(QJMenuItem;) | add plugin menu item
+void addPluginMenuItems(QComposite;[QMenuItem;QMenu;ZZQPluginMenuController;) | add plugin menu items
+void addPublishMenuItems(QMenu;) | add publish menu items
+void addStartApplicationMenuItem(String title, CoppeerApplication application) | add start application menu item
+void addViewMenuItems(QMenu;) | add view menu items
+void addWindowMenuToFrame(QJFrame;QSweetHome3D;Z) | add window menu to frame
+void adjustMenuItem(QJMenuItem;) | adjust menu item
+void appendWindowMenuItems(QMenu;) | append window menu items
+void configureJCheckBoxMenuItem(QJCheckBoxMenuItem;QAction;) | configure j check box menu item
+void copyMenuItems(QJMenu;QJMenu;) | copy menu items
+void createIViewInfoMenuItem(QMenu;QIViewInfo;) | create i view info menu item
+void createIViewInfoMenuItems(QMenu;QMap;) | create i view info menu items
+void createMenuAction(QUserPreferences;QMenuActionType;) | create menu action
+void createMenuActions(QUserPreferences;QHomeController;) | create menu actions
+void disableMenuItemsDuringDragAndDrop(QView;QJMenuBar;) | disable menu items during drag and drop
+void enableInstanceMenuItem(boolean b) | enable instance menu item
+void enableMenuItems(QJMenuBar;) | enable menu items
+void firePopupMenuWillBecomeInvisible() | fire popup menu will become invisible
+void firePopupMenuWillBecomeVisible() | fire popup menu will become visible
+void generateMenuItems(QMenu;QAzureusCore;QGlobalManager;Z) | generate menu items
+void GraphMenuAction(QString;QString;QGraphView;) | graph menu action
+void initScreenMenuBar() | init screen menu bar
+void InnerMenuKeyListener() | inner menu key listener
+void insertMenuItem(QJMenu;QJMenuItem;) | insert menu item
+void insertMenuItem(QJMenu;QJMenuItem;I) | insert menu item
+void invokeMenuWillBeShownListeners(QObject;) | invoke menu will be shown listeners
+void jPopupMenuFieldsPopupMenuWillBecomeVisible(Qjavax.swing.event.PopupMenuEvent;) | j popup menu fields popup menu will become visible
+void jPopupMenuParametersPopupMenuWillBecomeVisible(Qjavax.swing.event.PopupMenuEvent;) | j popup menu parameters popup menu will become visible
+void jPopupMenuVariablesPopupMenuWillBecomeVisible(Qjavax.swing.event.PopupMenuEvent;) | j popup menu variables popup menu will become visible
+void linkMenuBar(QShell;) | link menu bar
+void makeMenuBar() | make menu bar
+void makeMenuItem(QJMenu;QString;) | make menu item
+void makeMenuItem(QJMenu;QString;C) | make menu item
+void makeMenuItem(QJMenu;QString;I) | make menu item
+void makeMenuItem(QJMenu;QString;IQKeyStroke;) | make menu item
+void makeMenuItem(QJMenu;QString;QString;C) | make menu item
+void makeMenuItem(QJMenu;QString;QString;IQKeyStroke;) | make menu item
+void makeMenuItem(QJMenu;QString;QString;IQKeyStroke;Z) | make menu item
+void PopupMenuItemAction(QAction;) | popup menu item action
+void popupMenuWillBecomeInvisible(Qjavax.swing.event.PopupMenuEvent;) | popup menu will become invisible
+void popupMenuWillBecomeInvisible(QPopupMenuEvent;) | popup menu will become invisible
+void popupMenuWillBecomeVisible(Qjavax.swing.event.PopupMenuEvent;) | popup menu will become visible
+void popupMenuWillBecomeVisible(QPopupMenuEvent;) | popup menu will become visible
+void printClassMenuList(HtmlPage output, ClassDoc classDocs, boolean categorized) | print class menu list
+void processMenuCategory(QStructuredMenuHolder;QList;QString;) | process menu category
+void processMenuItem(MMenuItem item) | process menu item
+void removeAllMenuItems(QString;) | remove all menu items
+void removeContextMenuItem(QTableContextMenuItem;) | remove context menu item
+void removeMenuItem(QMenuItem;) | remove menu item
+void removeMenuListener(QJMenuListener;) | remove menu listener
+void removeMenuListener(QMenuListener;) | remove menu listener
+void removeSysTrayMenuListener(SysTrayMenuListener listener) | remove sys tray menu listener
+void renameMenuItem(QString;QString;) | rename menu item
+void resetFreeColMenuBar() | reset free col menu bar
+void SelectMenuItem(QEntity;) | select menu item
+void setAutomaticTraceMenuItemStatus() | set automatic trace menu item status
+void setJMenuBar(QJMenuBar;) | set j menu bar
+void setJMenuItem(QJMenuItem;) | set j menu item
+void setMenuBar(QJMenuBar;) | set menu bar
+void setMenuChosen(Z) | set menu chosen
+void setMenuDeprecatedSize(I) | set menu deprecated size
+void setMenuDescriptionSize(I) | set menu description size
+void setMenuItemImage(QMenuItem;QImage;) | set menu item image
+void setMenuItemImage(QMenuItem;QString;) | set menu item image
+void setMenuItem(QJMenuItem;) | set menu item
+void setMenuOptionSpecificationSize(I) | set menu option specification size
+void _setMenuShortcut(QJMenuItem;QAction;QOption<QKeyStroke;>;) | set menu shortcut
+void setMenuTypenameSize(I) | set menu typename size
+void _setThreadDependentDebugMenuItems(Z) | set thread dependent debug menu items
+void _setUpMenuBar() | set up menu bar
+void showProjectMenuItem(String path, String com, String menu) | show project menu item
+void StructuredMenuListener() | structured menu listener
+void TargetMenuItem(QTargetable;) | target menu item
+void unconfigureJCheckBoxMenuItem(QJCheckBoxMenuItem;QAction;) | unconfigure j check box menu item
+void updateJMenuBar() | update j menu bar
+void updateJMenuItemReportLocaleText() | update j menu item report locale text
+void updateJMenuItemReportMaxRecords() | update j menu item report max records
+void updateMenuBar() | update menu bar
+void _updateMenuItem(QKeyStrokeData;) | update menu item
+void updateMenuMRU() | update menu mru
+void updateMenuText(QObject;) | update menu text
+void updateMenuWindowList() | update menu window list
+void ViewMenuItem(QEntity;) | view menu item

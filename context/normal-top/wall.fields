@@ -1,0 +1,79 @@
+boolean boundToWall | bound to wall
+boolean doorOrWindowBoundToWall | door or window bound to wall
+boolean joinedAtEndOfWallAtEnd | joined at end of wall at end
+boolean joinedAtEndOfWallAtStart | joined at end of wall at start
+boolean joinedAtStartOfWallAtEnd | joined at start of wall at end
+boolean joinedAtStartOfWallAtStart | joined at start of wall at start
+boolean movedDoorOrWindowBoundToWall | moved door or window bound to wall
+com.eteks.sweethome3d.model.CollectionChangeSupport<com.eteks.sweethome3d.model.Wall> wallsChangeSupport | walls change support
+com.eteks.sweethome3d.model.CollectionListener<com.eteks.sweethome3d.model.Wall> wallListener | wall listener
+com.eteks.sweethome3d.model.TextureImage wallPattern | wall pattern
+com.eteks.sweethome3d.model.Wall lastWall | last wall
+com.eteks.sweethome3d.model.Wall newWall | new wall
+com.eteks.sweethome3d.model.Wall selectedWall | selected wall
+com.eteks.sweethome3d.model.Wall wall | wall
+com.eteks.sweethome3d.model.Wall wallAtEnd | wall at end
+com.eteks.sweethome3d.model.Wall wallAtStart | wall at start
+com.eteks.sweethome3d.model.Wall wallEndAtEnd | wall end at end
+com.eteks.sweethome3d.model.Wall wallEndAtStart | wall end at start
+com.eteks.sweethome3d.model.Wall wallStartAtEnd | wall start at end
+com.eteks.sweethome3d.model.Wall wallStartAtStart | wall start at start
+com.eteks.sweethome3d.viewcontroller.DialogView wallView | wall view
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState wallCreationState | wall creation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState wallDrawingState | wall drawing state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState wallResizeState | wall resize state
+com.eteks.sweethome3d.viewcontroller.WallController.ModifiedWall[] modifiedWalls | modified walls
+float newWallHeight | new wall height
+float newWallThickness | new wall thickness
+float oldWallsAlpha | old walls alpha
+float wallDistance | wall distance
+float wallHeight | wall height
+float wallsAlpha | walls alpha
+float WALL_STROKE_WIDTH | wall stroke width
+float wallThickness | wall thickness
+int LEFT_WALL_SIDE | left wall side
+int PIXEL_WALL_MARGIN | pixel wall margin
+int RIGHT_WALL_SIDE | right wall side
+java.awt.Color wallsPatternBackgroundCache | walls pattern background cache
+java.awt.Color wallsPatternForegroundCache | walls pattern foreground cache
+java.awt.geom.Area insideWallsAreaCache | inside walls area cache
+java.awt.geom.Area wallsAreaCache | walls area cache
+java.awt.geom.GeneralPath WALL_AND_LINE_RESIZE_INDICATOR | wall and line resize indicator
+java.awt.geom.GeneralPath WALL_ORIENTATION_INDICATOR | wall orientation indicator
+java.awt.image.BufferedImage wallsPatternImageCache | walls pattern image cache
+java.awt.Shape WALL_POINT | wall point
+java.beans.PropertyChangeListener wallChangeListener | wall change listener
+java.beans.PropertyChangeListener wallsAlphaListener | walls alpha listener
+java.lang.Float rectangularWallHeight | rectangular wall height
+java.lang.Float slopingWallHeightAtStart | sl op ing wall height at start
+java.lang.Float sloppingWallHeightAtEnd | slop ping wall height at end
+java.lang.String DOOR_OR_WINDOW_WALL_DISTANCE | door or window wall distance
+java.lang.String DOOR_OR_WINDOW_WALL_THICKNESS | door or window wall thickness
+java.lang.String NEW_WALL_HEIGHT | new wall height
+java.lang.String NEW_WALL_THICKNESS | new wall thickness
+java.lang.String wallAngleToolTipFeedback | wall angle tool tip feedback
+java.lang.String wallLengthToolTipFeedback | wall length tool tip feedback
+java.lang.String WALL_PATTERN | wall pattern
+java.lang.String wallThicknessToolTipFeedback | wall thickness tool tip feedback
+java.util.List<com.eteks.sweethome3d.model.Wall> newWalls | new walls
+java.util.List<com.eteks.sweethome3d.model.Wall> walls | walls
+javax.swing.JComboBox wallPatternComboBox | wall pattern combo box
+javax.swing.JLabel newWallHeightLabel | new wall height label
+javax.swing.JLabel newWallThicknessLabel | new wall thickness label
+javax.swing.JLabel rectangularWallHeightLabel | rectangular wall height label
+javax.swing.JLabel slopingWallHeightAtEndLabel | sl op ing wall height at end label
+javax.swing.JLabel slopingWallHeightAtStartLabel | sl op ing wall height at start label
+javax.swing.JLabel wallOrientationLabel | wall orientation label
+javax.swing.JLabel wallPatternLabel | wall pattern label
+javax.swing.JLabel wallsTransparencyLabel | walls transparency label
+javax.swing.JRadioButton rectangularWallRadioButton | rectangular wall radio button
+javax.swing.JRadioButton slopingWallRadioButton | sl op ing wall radio button
+javax.swing.JSlider wallsTransparencySlider | walls transparency slider
+javax.swing.JSpinner newWallHeightSpinner | new wall height spinner
+javax.swing.JSpinner newWallThicknessSpinner | new wall thickness spinner
+javax.swing.JSpinner rectangularWallHeightSpinner | rectangular wall height spinner
+javax.swing.JSpinner slopingWallHeightAtEndSpinner | sl op ing wall height at end spinner
+javax.swing.JSpinner slopingWallHeightAtStartSpinner | sl op ing wall height at start spinner
+javax.swing.JToggleButton createWallsButton | create walls button
+javax.swing.JToggleButton.ToggleButtonModel createWallsToggleModel | create walls toggle model
+long lastWallCreationTime | last wall creation time

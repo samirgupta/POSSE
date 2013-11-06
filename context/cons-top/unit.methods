@@ -1,0 +1,61 @@
+CONS AbstractUnit() | abstract unit
+CONS AbstractUnit(QString;QRole;I) | abstract unit
+CONS AbstractUnit(QUnitType;QRole;I) | abstract unit
+CONS AbstractUnit(QXMLStreamReader;) | abstract unit
+CONS AIUnit(QAIMain;QElement;) | ai unit
+CONS AIUnit(QAIMain;QString;) | ai unit
+CONS AIUnit(QAIMain;QUnit;) | ai unit
+CONS AIUnit(QAIMain;QXMLStreamReader;) | ai unit
+CONS BottomUnitLineRendererImpl(QChartModelBase;) | bottom unit line renderer impl
+CONS ColopediaUnitAction(QFreeColClient;) | colo pe dia unit action
+CONS DefaultJUnitModel(QMainJVM;QCompilerModel;QGlobalModel;) | default j unit model
+CONS DisbandUnitAction(QFreeColClient;) | disband unit action
+CONS GPTimeUnitStack(QGanttLanguage;) | gp time unit stack
+CONS GregorianTimeUnitStack() | gregorian time unit stack
+CONS JUnitErrorModel([QJUnitError;QGlobalModel;Z) | j unit error model
+CONS JUnitError(QFile;IIQString;ZQString;QString;QString;) | j unit error
+CONS JUnitError(QString;ZQString;) | j unit error
+CONS JUnitPanel(QSingleDisplayModel;QMainFrame;) | j unit panel
+CONS JUnitTestManager(QJUnitModelCallback;QLambda<QClassLoader;QClassLoader;>;) | j unit test manager
+CONS JUnitTestRunner(QJUnitModelCallback;QClassLoader;) | j unit test runner
+CONS ReportUnitPanel(QReportType;ZQCanvas;QReportPanel;) | report unit panel
+CONS SkipUnitAction(QFreeColClient;) | skip unit action
+CONS TimeAxisUnit(IIIIQSimpleDateFormat;ZI) | time axis unit
+CONS TimeUnitDateFrameableImpl(QString;QTimeUnitGraph;QTimeUnit;QDateFrameable;) | time unit date frameable impl
+CONS TimeUnitFunctionOfDateImpl(QString;QTimeUnitGraph;QTimeUnit;QDateFrameable;) | time unit function of date impl
+CONS TimeUnitImpl(QString;QTimeUnitGraph;QTimeUnit;) | time unit impl
+CONS TimeUnitPair(QTimeUnit;QTimeUnit;QTimeUnitStack;) | time unit pair
+CONS TimeUnitText(QString;) | time unit text
+CONS TimeUnitText(QString;QString;QString;) | time unit text
+CONS UnitButton(QFreeColAction;) | unit button
+CONS UnitFailureDialog(QFrame;QHashtable;) | unit failure dialog
+CONS UnitFailureDialog(QJFrame;QHashtable;) | unit failure dialog
+CONS UnitLabel(QUnit;QCanvas;) | unit label
+CONS UnitLabel(QUnit;QCanvas;Z) | unit label
+CONS UnitLabel(QUnit;QCanvas;ZZ) | unit label
+CONS UnitLoadingDialog(QFrame;) | unit loading dialog
+CONS UnitLoadingDialog(QJFrame;) | unit loading dialog
+CONS UnitLocation(IQCoords;I) | unit location
+CONS UnitMoveAnimation(QCanvas;QUnit;QDirection;) | unit move animation
+CONS UnitMoveAnimation(QCanvas;QUnit;QTile;) | unit move animation
+CONS UnitOverview(QClientGUI;) | unit overview
+CONS Unit(QGame;QElement;) | unit
+CONS Unit(QGame;QLocation;QPlayer;QUnitType;QUnitState;) | unit
+CONS Unit(QGame;QLocation;QPlayer;QUnitType;QUnitState;[QEquipmentType;) | unit
+CONS Unit(QGame;QPlayer;QUnitType;) | unit
+CONS Unit(QGame;QString;) | unit
+CONS Unit(QGame;QXMLStreamReader;) | unit
+CONS Unit(QString;D) | unit
+CONS UnitSeekAndDestroyMission(QAIMain;QAIUnit;QLocation;) | unit seek and destroy mission
+CONS UnitSeekAndDestroyMission(QAIMain;QElement;) | unit seek and destroy mission
+CONS UnitSeekAndDestroyMission(QAIMain;QXMLStreamReader;) | unit seek and destroy mission
+CONS UnitTradeItem(QGame;QPlayer;QPlayer;QUnit;) | unit trade item
+CONS UnitTradeItem(QGame;QXMLStreamReader;) | unit trade item
+CONS UnitType(I) | unit type
+CONS UnitWanderHostileMission(QAIMain;QAIUnit;) | unit wander hostile mission
+CONS UnitWanderHostileMission(QAIMain;QElement;) | unit wander hostile mission
+CONS UnitWanderHostileMission(QAIMain;QXMLStreamReader;) | unit wander hostile mission
+CONS UnitWanderMission(QAIMain;QAIUnit;) | unit wander mission
+CONS UnitWanderMission(QAIMain;QElement;) | unit wander mission
+CONS UnitWanderMission(QAIMain;QXMLStreamReader;) | unit wander mission
+CONS ValueAxisUnit(DD) | value axis unit

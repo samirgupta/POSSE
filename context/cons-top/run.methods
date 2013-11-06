@@ -1,0 +1,21 @@
+CONS AERunnableWithCallback(QAECallback;) | ae runnable with callback
+CONS FlowRunner() | flow runner
+CONS JUnitTestRunner(QJUnitModelCallback;QClassLoader;) | j unit test runner
+CONS NestableRuntimeException() | nestable runtime exception
+CONS NestableRuntimeException(QString;) | nestable runtime exception
+CONS NestableRuntimeException(QString;QThrowable;) | nestable runtime exception
+CONS NestableRuntimeException(QThrowable;) | nestable runtime exception
+CONS Runner(QScriptable;QFunction;[QObject;) | runner
+CONS Runner(QScriptable;QScript;) | runner
+CONS RunningAverage() | running average
+CONS RunNumberPanel() | run number panel
+CONS RunNumberPanel(QExperiment;) | run number panel
+CONS RunPanel() | run panel
+CONS RunPanel(QExperiment;) | run panel
+CONS RunProxy(QSwingGui;I) | run proxy
+CONS RuntimeCryptoException() | runtime crypto exception
+CONS RuntimeCryptoException(QString;) | runtime crypto exception
+CONS RuntimeInfo() | runtime info
+CONS ScriptRuntime() | script runtime
+CONS UIRuntimeException(QString;) | ui runtime exception
+CONS UIRuntimeException(QString;QThrowable;) | ui runtime exception

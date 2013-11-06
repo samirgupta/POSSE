@@ -1,0 +1,296 @@
+AbstractFileLoader getURLLoaderForExtension(QString;) | get url loader for extension
+AbstractFileLoader getURLLoaderForFile(QFile;) | get url loader for file
+AbstractFileLoader getURLLoaderForFile(QString;) | get url loader for file
+ArrayList getUrls() | get urls
+AuctionServer getServerForUrlString(QString;) | get server for url string
+boolean acceptsURL(QString;) | accepts url
+boolean announceGroupsContainsURL(QTOTorrent;QString;) | announce groups contains url
+boolean displayURL(QString;) | display url
+boolean doUrlQOS() | do url qos
+boolean hasHitUrl() | has hit url
+boolean isPrefixUrl(QString;QString;) | is prefix url
+boolean isTrackerScrapeUrlValid() | is tracker scrape url valid
+boolean isUrl(QString;) | is url
+boolean isURL(QString;) | is url
+boolean isURL(QString;Z) | is url
+boolean isUrlString(QString;) | is url string
+boolean mergeAnnounceURLs(QTOTorrent;QTOTorrent;) | merge announce urls
+boolean openURL(QURL;) | open url
+boolean redirectTrackerUrl(QHashWrapper;QURL;QURL;) | redirect tracker url
+boolean replaceAnnounceURL(QTOTorrent;QURL;QURL;) | replace announce url
+boolean saveAsURLProject() | save as url project
+boolean setAnnounceURL(QURL;) | set announce url
+boolean urlCanRPC(QString;) | url can rpc
+boolean urlCanRPC(QString;Z) | url can rpc
+boolean validURL(QString;) | valid url
+boolean viewURL(QString;QString;DDZZ) | view url
+boolean viewURL(QString;QString;IIZZ) | view url
+ByteBuffer getThumbnailByURL(QString;) | get thumbnail by url
+ByteBuffer getURL(QURL;) | get url
+ByteBuffer getURL(QURL;QString;) | get url
+byte[] downloadURL(QPluginInterface;QURL;QString;) | download url
+Color getUrlColor() | get url color
+Configuration addURL(QURL;) | add url
+Document showURLDialog(QIGanttProject;) | show url dialog
+File convertFromURLSyntax(QFile;) | convert from url syntax
+File getJarFileFromURL(QString;) | get jar file from url
+FindResult lookForFullTextAtURL(QString;) | look for full text at url
+Folder getFolder(URLName urlname) | get folder
+GPAction getOpenURLAction() | get open url action
+GPAction getSaveURLAction() | get save url action
+HsqlProperties getURLProperties() | get url properties
+HsqlProperties parseURL(QString;Z) | parse url
+HttpURL getURL(QString;) | get url
+InputStream openStream(URL url) | open stream
+int getItemByUrl(QArrayList;QString;) | get item by url
+int getLegendURLMaxCount() | get legend url max count
+int ICLaunchURL(I[B[BI[I[I) | ic launch url
+ItemURL getItemURL() | get item url
+java.lang.String getUrl() | get url
+java.net.URL getURL(I) | get url
+java.net.URL getURL(QString;) | get url
+List getAllURLsOnPage(Z) | get all urls on page
+List<QString;> getZipUrlEntries(QURL;) | get zip url entries
+long getLongURLParam(QString;QString;) | get long url param
+Object readFileOrUrl(QString;Z) | read file or url
+Object readUrl(QContext;QScriptable;[QObject;QFunction;) | read url
+ProtectionDomain getUrlDomain(QURL;) | get url domain
+Stream getStream(URL url) | get stream
+String appendURLSuffix(QString;) | append url suffix
+String computeNextMonthUrl() | compute next month url
+String computePortsForURL(ZZ) | compute ports for url
+String constructUrlFromEprint(QString;) | construct url from epr int
+String constructUrlFromSlaccitation(QString;) | construct url from slac citation
+String constructUrl(QString;) | construct url
+String createJDBCurl(QDBStrings;) | create jdbc url
+String databaseURLTipText() | database url tip text
+String encodeUrl(String url) | encode url
+String encodeURL(String url) | encode url
+String extractIdentifierFromURLString(QString;) | extract identifier from url string
+String findURL(String tail) | find url
+String generateCanonicalURL(QBibtexEntry;) | generate canonical url
+String generateCanonicalURL(QString;) | generate canonical url
+String getAbsoluteURL(QString;) | get absolute url
+String getAssetImageURL() | get asset image url
+String getBaseUrl() | get base url
+String getBrowsableURLFromItem(QString;) | get browsable url from item
+String getCitationsFromUrl(QString;QList<QString;>;) | get citations from url
+String getCleanUrl() | get clean url
+String getContentUrl(QDownloadManager;) | get content url
+String getContentURL(QTOTorrent;) | get content url
+String getCVSDownloadURL() | get cvs download url
+String getDatabaseURL() | get database url
+String getDesciptionURL() | get desciption url
+String getDownloadURL() | get download url
+String getFaceUrl() | get face url
+String getFTPUrl() | get ftp url
+String getIconUrls() | get icon urls
+String getInfoURL() | get info url
+String getInternalConnectionURL() | get internal connection url
+String getLoginPageUrl() | get login page url
+String getMediaServerContentURL(QDownload;) | get media server content url
+String getMediaServerContentURL(QDownloadManager;) | get media server content url
+String getModeURL() | get mode url
+String getNormalizedUrl(QDebuggableScript;) | get normalized url
+String getPageURL(I) | get page url
+String getPlayAfterURL() | get play after url
+String getPortsForURL() | get ports for url
+String getPortsForURLFullCrypto() | get ports for url full crypto
+String getProfileUrl(QString;) | get profile url
+String getRedirectURL() | get redirect url
+String getRelativeUrl() | get relative url
+String getRelativeURLBase() | get relative url base
+String getRequestingURL() | get requesting url
+String getSearchUrl() | get search url
+String getSFDownloadURL() | get sf download url
+String getShortURL(QString;) | get short url
+String getStartURL() | get start url
+String getStringURLFromItem(QString;) | get string url from item
+String getSurveyURL() | get survey url
+String getThumbURL() | get thumb url
+String getUpdateURL() | get update url
+String getUrl() | get url
+String getURL() | get url
+String getUrlAccept() | get url accept
+String getURLParam(QString;QString;) | get url param
+String getURLPath() | get url path
+String[] getURLWhitelist() | get url whitelist
+String getWidgetBGColorURLParam() | get widget bg color url param
+String hashAnnounceURL(QURL;) | hash announce url
+String importURL(QMap;QString;) | import url
+String makeUrlForGeneratedScript(ZQString;I) | make url for generated script
+String makeUrl(I) | make url
+String parseHTMLforURL(QString;) | parse html for url
+String parseTextForURL(QString;Z) | parse text for url
+String parseTextForURL(QString;ZZ) | parse text for url
+String readUrl(QString;QString;Z) | read url
+String retrieveURL() | retrieve url
+String sanitizeUrl(QString;) | sanitize url
+String toRelativeURL(QURL;QURL;) | to relative url
+String trackerURLListToString() | tracker url list to string
+String url() | url
+String urlGetFile(QURL;) | url get file
+String urlRelativeToPlatform(QString;) | url relative to platform
+String urlTipText() | url tip text
+StyleURL getStyleURL() | get style url
+TagsAsset updateAsset(String className, long classPK, String entryNames, Date startDate, Date endDate, Date publishDate, Date expirationDate, String mimeType, String title, String description, String summary, String url, int height, int width) | update asset
+TemporaryURLContent copyToTemporaryURLContent(QContent;) | copy to temporary url content
+TorrentAnnounceURLList getAnnounceURLList() | get announce url list
+TorrentDownloader getURLDownloader(QURL;) | get url downloader
+TorrentDownloader getURLDownloader(QURL;QString;QString;) | get url downloader
+TOTorrentAnnounceURLGroup getAnnounceURLGroup() | get announce url group
+TOTorrentAnnounceURLSet createAnnounceURLSet([QURL;) | create announce url set
+TOTorrentAnnounceURLSet[] getAnnounceURLSets() | get announce url sets
+URL adjustURLForHosting(QURL;) | adjust url for hosting
+URL adjustURL(QURL;) | adjust url
+URLConnection getURLConnection() | get url connection
+URL constructUrl(QString;QURL;) | construct url
+URLContent copyToApplicationURLContent(QContent;QString;) | copy to application url content
+URL findFullTextURL(QURL;) | find full text url
+URL[] generateURLs() | generate urls
+URL getAbsoluteURL() | get absolute url
+URL getAnnounceURL() | get announce url
+URL[] getAnnounceURLs() | get announce urls
+URL[][] getAnnounceURLs() | get announce urls
+URL getBasePathUrl() | get base path url
+URL getControlURL() | get control url
+URL getDecentralisedEmptyURL() | get decentralised empty url
+URL getDescriptionURL() | get description url
+URL getDirAsUrl() | get dir as url
+URL getDirAsUrl(QString;) | get dir as url
+URL getDTDURL() | get dtd url
+URL getFinalURL() | get final url
+URL getHelpIndexPageURL() | get help index page url
+URL getIconUrl(QString;) | get icon url
+URL getInitialURL() | get initial url
+URL getJAREntryURL() | get jar entry url
+URL getMagnetURL([B) | get magnet url
+URL getMagnetURL(QDownload;) | get magnet url
+URL getMainHelpPageUrl() | get main help page url
+URL getMetaRefreshURL() | get meta refresh url
+URL getTrackerUrl() | get tracker url
+URL getTrackerURL() | get tracker url
+URL getURL() | get url
+URL getURLFromItem(QString;) | get url from item
+URL getURLFromString(QString;) | get url from string
+URL getURL(I) | get url
+URL getURL(int columnIndex) | get url
+URL getUrlObj(QString;) | get url obj
+URL getURL(QString;) | get url
+URL getURL(QString;[QObject;) | get url
+URL getURL(QString;QString;) | get url
+URL[] getURLs() | get urls
+URL[] getURLs(QURL;QString;) | get urls
+URLInfo getHitUrl(II) | get hit url
+URLInfo[] getHitUrlInfo() | get hit url info
+URL internURL(QURL;) | intern url
+URL makeURL(QString;) | make url
+URLStreamHandler createURLStreamHandler(QString;) | create url stream handler
+URL toURL() | to url
+URL toURL(QFile;) | to url
+URL urlFromString(QString;) | url from string
+URL urlFromString(QString;QClass;Z) | url from string
+Vector<QString;> getURLFileLoaders() | get url file loaders
+void addTorrentAnnounceURLSet([QURL;) | add torrent announce url set
+void addUrl(QNameValue;) | add url
+void addURL(QURL;) | add url
+void AttachUrl() | attach url
+void browseURL() | browse url
+void checkForBlacklistedURLs(QURL;) | check for blacklisted urls
+void checkURL(QURL;) | check url
+void chooseURLUsername() | choose url username
+void clearRelativeBaseURL() | clear relative base url
+void connect(String driver, String url, String username, String password) | connect
+void constructTrackerUrlLists(Z) | construct tracker url lists
+void createURLDropTarget(QComposite;QText;) | create url drop target
+void DoCopyURL(QComponent;QAuctionEntry;) | do copy url
+void exportJSONURL(QMap;QString;QString;) | export json url
+void exportURL(QMap;QString;QString;) | export url
+void extractCookies(URLConnection urlConnection) | extract cookies
+void getURL(II) | get url
+void getURL(QString;QString;) | get url
+void getUrlsFromPropFile(QString;QArrayList;) | get urls from prop file
+void HackURL() | hack url
+void handleOpenURL() | handle open url
+void handleTorrentURL(QString;) | handle torrent url
+void informURLChange(QURL;QURL;Z) | inform url change
+void informURLRefresh() | inform url refresh
+void installFromURL(QURL;) | install from url
+void invokeURLPopup(QShell;QGlobalManager;) | invoke url popup
+void launchUrl(QString;) | launch url
+void loadAllFromURLString(QObject;QString;) | load all from url string
+void loadParseURL(QString;QString;QCleanupHandler;) | load parse url
+void loadProperties(ClassLoader al, URL url) | load properties
+void loadURL() | load url
+void loadURL(QString;) | load url
+void notifyPage(AttributeContainer container, String url) | notify page
+void onIncomingUrl(QJOscarLib.Integration.Event.IncomingUrlEvent;) | on incoming url
+void openBrowserURL() | open browser url
+void openTorrentURL(QString;) | open torrent url
+void openURL() | open url
+void openURL(QComponent;QString;) | open url
+void openURL(QComponent;QString;Z) | open url
+void openURL(QString;) | open url
+void openURL(QString;QString;) | open url
+void openURL(QString;QString;Z) | open url
+void openURL(QURL;) | open url
+void parseGetURL2(I) | parse get url 2
+void parseURL(QURL;QString;II) | parse url
+void registerSmbURLHandler() | register smb url handler
+void registerTrackerURLExtensions(QAzureusCore;) | register tracker url extensions
+void resetTrackerUrl(Z) | reset tracker url
+void resetURL() | reset url
+void restoreRelativeBaseURL() | restore relative base url
+void setAnnounceURL(QURL;) | set announce url
+void setAnnounceURLSets([QTOTorrentAnnounceURLSet;) | set announce url sets
+void setAnnounceURLs([QURL;) | set announce urls
+void setAssetImageURL(QString;) | set asset image url
+void setAuthFailedUrl(String authFailedUrl) | set auth failed url
+void setAvatarURL(QString;) | set avatar url
+void setDatabaseURL(QString;) | set database url
+void setDescriptionURL(QString;) | set description url
+void setDownloadURL(QString;) | set download url
+void setDownloadUrl(URL downloadUrl) | set download url
+void setFTPUrl(QString;) | set ftp url
+void setInstancesFromURLQ() | set instances from urlq
+void setInstancesFromURL(QURL;) | set instances from url
+void setLoginPageUrl(QString;) | set login page url
+void setNullUrl() | set null url
+void setPropertyUrl(URL _propertiesUrl) | set property url
+void setRedirectURL(QString;) | set redirect url
+void setRelativeURLBase(QString;) | set relative url base
+void setStartURL(QString;) | set start url
+void setThumbURL(QString;) | set thumb url
+void setTorrentURLHandler(QtorrentURLHandler;) | set torrent url handler
+void setTrackerUrl(QString;) | set tracker url
+void setTrackerUrl(QURL;) | set tracker url
+void setUpdateURL(QString;) | set update url
+void setup(String url_naming, String url_interface, String url_lookup, String url_factory, boolean exit_on_closing) | setup
+void setUrlColor(QColor;) | set url color
+void setURLField(QString;) | set url field
+void setURL(IQjava.net.URL;) | set url
+void setURLProperties(QHsqlProperties;) | set url properties
+void setUrl(Qjava.lang.String;) | set url
+void setUrl(QString;) | set url
+void setURL(QString;) | set url
+void setURL(QString;Qjava.net.URL;) | set url
+void setURL(QURL;) | set url
+void setUrls(QArrayList;) | set urls
+void setURLs([QURL;) | set urls
+void setURLStreamHandlerFactory(QURLStreamHandlerFactory;) | set url stream handler factory
+void setURL(String parameterName, URL val) | set url
+void setUrl(String url) | set url
+void ShowBadURLDialog(QString;I) | show bad url dialog
+void ShowMissingURLDialog(I) | show missing url dialog
+void showURL(QString;QString;) | show url
+void testIsURL() | test is url
+void testSanitizeUrl() | test sanitize url
+void testUrlConstructor() | test url constructor
+void testUrlPropertiesLoader() | test url properties loader
+void testURL(QString;QString;) | test url
+void updateTrackerURL() | update tracker url
+void URLDropTarget(QText;Z) | url drop target
+void URLMouseListener(QString;) | url mouse listener
+void urlPath(QStringBuffer;) | url path
+void urlRefresh() | url refresh
+void WeakURLEntry(QURL;) | weak url entry

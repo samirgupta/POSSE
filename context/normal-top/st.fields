@@ -1,0 +1,1778 @@
+boolean _autoRefreshStatus | auto refresh status
+boolean bAutoStart0Peers | b auto start 0 peers
+boolean bCheckingString | b checking string
+boolean bestRowIdentifierStrict | best row identifier strict
+boolean bExportTaskStartDate | b export task start date
+boolean bLogToStdOut | b log to std out
+boolean bOkToStartSeeding | b ok to start seeding
+boolean bShowStatusBar | b show status bar
+boolean bStop | b stop
+boolean bStopOnceBandwidthMet | b stop once bandwidth met
+boolean data_stats_only | data stats only
+boolean DEBUGSTACK | debug stack
+boolean DIAG_TO_STDOUT | diag to stdout
+boolean DISABLE_LAN_LOCAL_STUFF | disable lan local stuff
+boolean distanceStartPoint | distance start point
+boolean _endOfStream | end of stream
+boolean firstLoginStateSync | first login state sync
+boolean firstStep | first step
+boolean force_start | force start
+boolean force_start_non_seed_exists | force start non seed exists
+boolean gotBrowserStyle | got browser style
+boolean hasJustStood | has just stood
+boolean hasStartArrow | has start arrow
+boolean hasStreams | has streams
+boolean higherCDtoStart | higher c dto start
+boolean higherDLtoStart | higher dl to start
+boolean _ignoreCommentsAndStrings | ignore comments and strings
+boolean isInErrorState | is in error state
+boolean isPavementStep | is pavement step
+boolean isPreviousState | is previous state
+boolean isRegistrationStillOpen | is registration still open
+boolean isStackingViolation | is stacking violation
+boolean isStandalone | is standalone
+boolean isStart | is start
+boolean isStartNewColumn | is start new column
+boolean isStartNewPage | is start new page
+boolean isStatePersistent | is state persistent
+boolean isStatic | is static
+boolean isStealthy | is stealthy
+boolean isStopping | is stopping
+boolean isStoredFileAccess | is stored file access
+boolean isStyledText | is styled text
+boolean joinedAtEndOfWallAtStart | joined at end of wall at start
+boolean joinedAtStartOfWallAtEnd | joined at start of wall at end
+boolean joinedAtStartOfWallAtStart | joined at start of wall at start
+boolean lastStep | last step
+boolean latest_forcedStart | latest forced start
+boolean latest_informed_force_start | latest informed force start
+boolean loadOnStartup | load on startup
+boolean logStatements | log statements
+boolean LOG_STATS | log stats
+boolean maintain_peers_state | maintain peers state
+boolean nat_status_probably_ok | nat status probably ok
+boolean[] parameterStream | parameter stream
+boolean prepared_stmt | prepared stmt
+boolean prevStepOnPavement | prev step on pavement
+boolean processStdin | process stdin
+boolean sealedStdLib | sealed std lib
+boolean sendStats | send stats
+boolean separate_prot_data_stats | separate prot data stats
+boolean SHOW_CONNECT_STATS | show connect stats
+boolean SHOW_DISCARD_RATE_STATS | show discard rate stats
+boolean SHOW_ONLINE_STATUS | show online status
+boolean sqlEnforceStrictSize | sql enforce strict size
+boolean start | start
+boolean started_up | started up
+boolean starting | starting
+boolean startNewColumn | start new column
+boolean startNewPage | start new page
+boolean startNow | start now
+boolean startOver | start over
+boolean startPoint | start point
+boolean startup | startup
+boolean startup_complete | startup complete
+boolean _sticky | sticky
+boolean stop | stop
+boolean STOP | stop
+boolean stopOnNull | stop on null
+boolean stopped_for_close | stopped for close
+boolean stopped_for_queue | stopped for queue
+boolean stopping | stopping
+boolean storeOnInsert | store on insert
+boolean stretchWithOverflow | stretch with overflow
+boolean strict_match | strict match
+boolean strictMode | strict mode
+boolean strikeTrought | strike trought
+boolean stuckInSwamp | stuck in swamp
+boolean SUPPORT_ONLINE_STATUS | support online status
+boolean thisStepBackwards | this step backwards
+boolean TRACE_TCP_TRANSPORT_STATS | trace tcp transport stats
+byte COMMAND_STAT_REPLY | command stat reply
+byte COMMAND_STAT_REQUEST | command stat request
+byte CONSTANT_String | constant string
+byte diversification_state | diversification state
+byte[] engineState | engine state
+byte FLAG_INVALID_START | flag invalid start
+byte FLAG_STATS | flag stats
+byte[] HTTP_RESPONSE_START | http response start
+byte[] HTTP_RESPONSE_XML_START | http response xml start
+byte nat_status | nat status
+byte NAT_status | nat status
+byte[] new_stats | new stats
+byte PIECE_STATUS_CHECKING | piece status checking
+byte PIECE_STATUS_MASK_DOWNLOADABLE | piece status mask downloadable
+byte PIECE_STATUS_MASK_NEEDS_CHECK | piece status mask needs check
+byte PIECE_STATUS_WRITTEN | piece status written
+byte PROTOCOL_VERSION_MORE_NODE_STATUS | protocol version more node status
+byte PROTOCOL_VERSION_MORE_STATS | protocol version more stats
+byte PROTOCOL_VERSION_XFER_STATUS | protocol version xfer status
+byte REOP_DOTSTAR | reop dot star
+byte REOP_MINIMALSTAR | reop minimal star
+byte REOP_STAR | reop star
+byte statusFlags | status flags
+byte[] string | string
+char[] stringBuffer | string buffer
+com.aelitis.azureus.core.dht.control.impl.DHTControlStatsImpl stats | stats
+com.aelitis.azureus.core.dht.DHTStorageAdapter storage_adapter | storage adapter
+com.aelitis.azureus.core.dht.router.impl.DHTRouterStatsImpl stats | stats
+com.aelitis.azureus.core.dht.transport.DHTTransportFullStats original_stats | original stats
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTTransportUDPStatsImpl stats | stats
+com.aelitis.azureus.core.dht.transport.udp.impl.packethandler.DHTUDPPacketHandlerStats stats | stats
+com.aelitis.azureus.core.dht.transport.util.DHTTransportStatsImpl stats | stats
+com.aelitis.azureus.core.diskmanager.cache.CacheFileManagerStats cacheStats | cache stats
+com.aelitis.azureus.core.diskmanager.cache.CacheFileManagerStats stats | stats
+com.aelitis.azureus.core.diskmanager.cache.impl.CacheFileManagerStatsImpl stats | stats
+com.aelitis.azureus.core.download.EnhancedDownloadManager.progressiveStats progressive_stats | progressive stats
+com.aelitis.azureus.core.networkmanager.admin.NetworkAdminSpeedTestScheduler nasts | na sts
+com.aelitis.azureus.core.networkmanager.impl.TransportStats stats | stats
+com.aelitis.azureus.core.networkmanager.NetworkManagerStats stats | stats
+com.aelitis.azureus.core.peermanager.messaging.MessageStreamDecoder stream_decoder | stream decoder
+com.aelitis.azureus.core.peermanager.messaging.MessageStreamEncoder stream_encoder | stream encoder
+com.aelitis.azureus.core.proxy.AEProxyState proxy_connect_state | proxy connect state
+com.aelitis.azureus.core.proxy.AEProxyState proxy_read_state | proxy read state
+com.aelitis.azureus.core.proxy.AEProxyState proxy_write_state | proxy write state
+com.aelitis.azureus.core.proxy.socks.impl.AESocksProxyPlugableConnectionDefault.proxyStateRelayData relay_data_state | relay data state
+com.aelitis.azureus.core.security.CryptoSTSEngine sts_engine | sts engine
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerAlgorithmProvider strategy | strategy
+com.aelitis.azureus.core.speedmanager.impl.v2.SaturatedMode downloadBandwidthStatus | download bandwidth status
+com.aelitis.azureus.core.speedmanager.impl.v2.SaturatedMode downloadLimitSettingStatus | download limit setting status
+com.aelitis.azureus.core.speedmanager.impl.v2.SaturatedMode uploadBandwidthStatus | upload bandwidth status
+com.aelitis.azureus.core.speedmanager.impl.v2.SaturatedMode uploadLimitSettingStatus | upload limit setting status
+com.aelitis.azureus.core.util.CopyOnWriteList stats | stats
+com.aelitis.azureus.plugins.dht.impl.DHTPluginStorageManager storage_manager | storage manager
+com.aelitis.azureus.ui.swt.skin.SWTSkinObjectText statusObject | status object
+com.aelitis.azureus.util.JSFunctionParametersParser.ParserState currentState | current state
+com.aelitis.azureus.util.JSFunctionParametersParser.ParserState previousState | previous state
+com.aelitis.net.udp.uc.impl.PRUDPPacketHandlerStatsImpl stats | stats
+com.aelitis.net.udp.uc.PRUDPPacketHandlerStats stats | stats
+com.eteks.sweethome3d.model.TextStyle areaStyle | area style
+com.eteks.sweethome3d.model.TextStyle DEFAULT_ROOM_TEXT_STYLE | default room text style
+com.eteks.sweethome3d.model.TextStyle DEFAULT_TEXT_STYLE | default text style
+com.eteks.sweethome3d.model.TextStyle lengthStyle | length style
+com.eteks.sweethome3d.model.TextStyle nameStyle | name style
+com.eteks.sweethome3d.model.TextStyle style | style
+com.eteks.sweethome3d.model.Wall wallAtStart | wall at start
+com.eteks.sweethome3d.model.Wall wallEndAtStart | wall end at start
+com.eteks.sweethome3d.model.Wall wallStartAtEnd | wall start at end
+com.eteks.sweethome3d.model.Wall wallStartAtStart | wall start at start
+com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController.BackgroundImageWizardStepState imageChoiceStepState | image choice step state
+com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController.BackgroundImageWizardStepState imageOriginStepState | image origin step state
+com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController.BackgroundImageWizardStepState imageScaleStepState | image scale step state
+com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController.Step step | step
+com.eteks.sweethome3d.viewcontroller.HomeController3D.CameraControllerState cameraState | camera state
+com.eteks.sweethome3d.viewcontroller.HomeController3D.CameraControllerState observerCameraState | observer camera state
+com.eteks.sweethome3d.viewcontroller.HomeController3D.CameraControllerState topCameraState | top camera state
+com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController.ImportedFurnitureWizardStepState furnitureAttributesStepState | furniture attributes step state
+com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController.ImportedFurnitureWizardStepState furnitureIconStepState | furniture icon step state
+com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController.ImportedFurnitureWizardStepState furnitureModelStepState | furniture model step state
+com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController.ImportedFurnitureWizardStepState furnitureOrientationStepState | furniture orientation step state
+com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController.Step step | step
+com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardStepsView stepsView | steps view
+com.eteks.sweethome3d.viewcontroller.ImportedTextureWizardController.ImportedTextureWizardStepState textureAttributesStepState | texture attributes step state
+com.eteks.sweethome3d.viewcontroller.ImportedTextureWizardController.ImportedTextureWizardStepState textureImageStepState | texture image step state
+com.eteks.sweethome3d.viewcontroller.ImportedTextureWizardController.Step step | step
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState cameraPitchRotationState | camera pitch rotation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState cameraYawRotationState | camera yaw rotation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState dimensionLineCreationState | dimension line creation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState dimensionLineDrawingState | dimension line drawing state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState dimensionLineOffsetState | dimension line offset state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState dimensionLineResizeState | dimension line resize state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState dragAndDropState | drag and drop state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState labelCreationState | label creation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureElevationState | piece of furniture elevation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureHeightState | piece of furniture height state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureNameOffsetState | piece of furniture name offset state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureResizeState | piece of furniture resize state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureRotationState | piece of furniture rotation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState previousState | previous state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState rectangleSelectionState | rectangle selection state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState roomAreaOffsetState | room area offset state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState roomCreationState | room creation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState roomDrawingState | room drawing state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState roomNameOffsetState | room name offset state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState roomResizeState | room resize state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState selectionMoveState | selection move state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState selectionState | selection state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState state | state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState wallCreationState | wall creation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState wallDrawingState | wall drawing state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState wallResizeState | wall resize state
+com.eteks.sweethome3d.viewcontroller.View stepsView | steps view
+com.eteks.sweethome3d.viewcontroller.View stepView | step view
+com.eteks.sweethome3d.viewcontroller.WizardController.WizardControllerStepState stepState | step state
+double dState | d state
+double iState | i state
+double startLength | start length
+double startTheta | start theta
+double[] stopOffsets | stop offsets
+double[] structureCosts | structure costs
+edu.rice.cs.drjava.config.BooleanOption DEBUG_STEP_DRJAVA | debug step drjava
+edu.rice.cs.drjava.config.BooleanOption DEBUG_STEP_INTERPRETER | debug step interpreter
+edu.rice.cs.drjava.config.BooleanOption DEBUG_STEP_JAVA | debug step java
+edu.rice.cs.drjava.config.BooleanOption DIALOG_AUTOIMPORT_STORE_POSITION | dialog autoimport store position
+edu.rice.cs.drjava.config.BooleanOption DIALOG_CLIPBOARD_HISTORY_STORE_POSITION | dialog clipboard history store position
+edu.rice.cs.drjava.config.BooleanOption DIALOG_COMPLETE_WORD_STORE_POSITION | dialog complete word store position
+edu.rice.cs.drjava.config.BooleanOption DIALOG_DEBUGFRAME_STORE_POSITION | dialog debug frame store position
+edu.rice.cs.drjava.config.BooleanOption DIALOG_EDITEXTERNALPROCESS_STORE_POSITION | dialog edite xternal process store position
+edu.rice.cs.drjava.config.BooleanOption DIALOG_EXTERNALPROCESS_STORE_POSITION | dialog external process store position
+edu.rice.cs.drjava.config.BooleanOption DIALOG_GOTOFILE_STORE_POSITION | dialog goto file store position
+edu.rice.cs.drjava.config.BooleanOption DIALOG_JAROPTIONS_STORE_POSITION | dialog jar options store position
+edu.rice.cs.drjava.config.BooleanOption DIALOG_OPENJAVADOC_STORE_POSITION | dialog open javadoc store position
+edu.rice.cs.drjava.config.BooleanOption DIALOG_TABBEDPANES_STORE_POSITION | dialog tabbed panes store position
+edu.rice.cs.drjava.config.BooleanOption FIND_NO_COMMENTS_STRINGS | find no comments strings
+edu.rice.cs.drjava.config.BooleanOption STICKY_INTERACTIONS_DIRECTORY | sticky interactions directory
+edu.rice.cs.drjava.config.BooleanOption WINDOW_STORE_POSITION | window store position
+edu.rice.cs.drjava.config.IntegerOption WINDOW_STATE | window state
+edu.rice.cs.drjava.config.KeyStrokeOption KEY_DEBUG_STEP_INTO | key debug step into
+edu.rice.cs.drjava.config.KeyStrokeOption KEY_DEBUG_STEP_OUT | key debug step out
+edu.rice.cs.drjava.config.KeyStrokeOption KEY_DEBUG_STEP_OVER | key debug step over
+edu.rice.cs.drjava.config.NonNegativeIntegerOption AUTO_STEP_RATE | auto step rate
+edu.rice.cs.drjava.config.StringOption BROWSER_STRING | browser string
+edu.rice.cs.drjava.config.StringOption DEBUG_STEP_EXCLUDE | debug step exclude
+edu.rice.cs.drjava.config.StringOption DIALOG_AUTOIMPORT_STATE | dialog autoimport state
+edu.rice.cs.drjava.config.StringOption DIALOG_CLIPBOARD_HISTORY_STATE | dialog clipboard history state
+edu.rice.cs.drjava.config.StringOption DIALOG_COMPLETE_WORD_STATE | dialog complete word state
+edu.rice.cs.drjava.config.StringOption DIALOG_DEBUGFRAME_STATE | dialog debug frame state
+edu.rice.cs.drjava.config.StringOption DIALOG_EDITEXTERNALPROCESS_STATE | dialog edite xternal process state
+edu.rice.cs.drjava.config.StringOption DIALOG_EXTERNALPROCESS_STATE | dialog external process state
+edu.rice.cs.drjava.config.StringOption DIALOG_GOTOFILE_STATE | dialog goto file state
+edu.rice.cs.drjava.config.StringOption DIALOG_JAROPTIONS_STATE | dialog jar options state
+edu.rice.cs.drjava.config.StringOption DIALOG_OPENJAVADOC_STATE | dialog open javadoc state
+edu.rice.cs.drjava.config.StringOption DIALOG_TABBEDPANES_STATE | dialog tabbed panes state
+edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedModelState _state | state
+edu.rice.cs.drjava.model.definitions.reducedmodel.Stutter STUTTER | stutter
+edu.rice.cs.drjava.model.FileGroupingState _state | state
+edu.rice.cs.drjava.ui.ClipboardHistoryFrame.FrameState _lastState | last state
+edu.rice.cs.drjava.ui.DetachedFrame.FrameState _lastState | last state
+edu.rice.cs.drjava.ui.EditExternalDialog.FrameState _lastState | last state
+edu.rice.cs.drjava.ui.ExecuteExternalDialog.FrameState _lastState | last state
+edu.rice.cs.drjava.ui.JarOptionsDialog.FrameState _lastState | last state
+edu.rice.cs.drjava.ui.predictive.PredictiveInputFrame.FrameState _lastState | last state
+edu.rice.cs.drjava.ui.predictive.PredictiveInputModel.MatchingStrategy<T> _currentStrategy | current strategy
+edu.rice.cs.drjava.ui.predictive.PredictiveInputModel.MatchingStrategy<T> _strategy | strategy
+edu.rice.cs.drjava.ui.RegionsTreePanel.IChangeState _changeState | change state
+edu.rice.cs.drjava.ui.RegionsTreePanel.IChangeState DEFAULT_STATE | default state
+edu.rice.cs.util.BalancingStreamTokenizer.State _state | state
+edu.rice.cs.util.JoinInputStream _combinedInputJoinedWithDebugStream | combined input joined with debug stream
+edu.rice.cs.util.StreamRedirectThread _stdErrRedirector | std err redirector
+edu.rice.cs.util.StreamRedirectThread _stdOutRedirector | std out redirector
+edu.rice.cs.util.swing.FontChooser.NwList _styleList | style list
+float BORDER_STROKE_WIDTH | border stroke width
+float ceilStructure | ceil structure
+float invSqStepFloat | inv sq step float
+float scaleDistanceXStart | scale distance x start
+float scaleDistanceYStart | scale distance y start
+float startAngle | start angle
+float WALL_STROKE_WIDTH | wall stroke width
+float xStart | x start
+float yStart | y start
+freemind.controller.actions.generated.instance.impl.runtime.PrefixCallback startPrefixCallback | start prefix callback
+freemind.controller.actions.generated.instance.MenuStructure mMenuStructure | m menu structure
+freemind.main.Tools.BooleanHolder booleanHolderForConfirmState | boolean holder for confirm state
+freemind.modes.actions.EdgeStyleAction EdgeStyle_bezier | edge style bezier
+freemind.modes.actions.EdgeStyleAction EdgeStyle_linear | edge style linear
+freemind.modes.actions.EdgeStyleAction edgeStyles | edge styles
+freemind.modes.actions.EdgeStyleAction EdgeStyle_sharp_bezier | edge style sharp bezier
+freemind.modes.actions.EdgeStyleAction EdgeStyle_sharp_linear | edge style sharp linear
+freemind.modes.actions.ImportFolderStructureAction importFolderStructure | import folder structure
+freemind.modes.StylePattern ChildrenStylePattern | children style pattern
+int activation_state | activation state
+int activeStyleClipboard | active style clipboard
+int ACT_REPLY_STATS | act reply stats
+int ACT_REPLY_STORE | act reply store
+int ACT_REQUEST_STATS | act request stats
+int ACT_REQUEST_STORE | act request store
+int ANY_STATEMENT | any statement
+int AT_STATS | at stats
+int AT_STORE | at store
+int azconst_avail | azc on st avail
+int BIT_STRING | bit string
+int BMP_STRING | bmp string
+int browserStyle | browser style
+int BUDDY_STATUS_CHECK_PERIOD_INC | buddy status check period inc
+int BUDDY_STATUS_CHECK_PERIOD_MIN | buddy status check period min
+int cap_style | cap style
+int changeState | change state
+int CLAN_STRUCTURE | clan structure
+int COCKPIT_STANDARD | cockpit standard
+int cockpitStatus | cockpit status
+int cockpitStatusNextRound | cockpit status next round
+int COMMIT_STATEMENT | commit statement
+int compileStartCount | compile start count
+int CONDITION_START | condition start
+int CONDITION_START_END | condition start end
+int CONNECT_ATTEMPT_STALL_TIME | connect attempt stall time
+int connection_state | connection state
+int CONTENT_TYPE_IA5STRING | content type ia 5 string
+int CONTENT_TYPE_UTF8STRING | content type utf 8 string
+int CONTENT_TYPE_VISIBLESTRING | content type visible string
+int counterStart | counter start
+int current_peer_state | current peer state
+int currentState | current state
+int _currentStrategyIndex | current strategy index
+int dbState | db state
+int debuggerStartedCount | debugger started count
+int DEBUG_STEP_TIMER_VALUE | debug step timer value
+int defaultMaxStringLength | default max string length
+int defaultStatsPeriod | default stats period
+int DELETE_STATEMENT | delete statement
+int _distToEnclosingBraceStart | dist to enclosing brace start
+int _distToLineEnclosingBraceStart | dist to line enclosing brace start
+int _distToStart | dist to start
+int DOUBLE_QUOTE_STATE | double quote state
+int drag_drop_line_start | drag drop line start
+int DTOBASESTR_BUFFER_SIZE | dto base str buffer size
+int DTOSTR_EXPONENTIAL | dto str exponential
+int DTOSTR_PRECISION | dto str precision
+int DTOSTR_STANDARD | dto str standard
+int DTOSTR_STANDARD_EXPONENTIAL | dto str standard exponential
+int DT_STRING_ARRAY_TO_STRING | dt string array to string
+int emptyStackTop | empty stack top
+int encodedSourceStart | encoded source start
+int enterAreaStartLabel | enter area start label
+int ET_KEY_STATS_READ | et key stats read
+int ET_OPERATION_STARTS | et operation starts
+int EXCEPTION_TRY_START_SLOT | exception try start slot
+int EXTERNAL_STOP | external stop
+int FADING_STATUS | fading status
+int FEATURE_STRICT_EVAL | feature strict eval
+int FEATURE_STRICT_VARS | feature strict vars
+int FEATURE_TO_STRING_AS_SOURCE | feature to string as source
+int FIELDS_STORE_SIZE | fields store size
+int FIELD_START_IP | field start ip
+int fontStyle | font style
+int FORCED_MIN_AT_START_TICK_LIMIT | forced min at start tick limit
+int FUNCTION_EXPRESSION_STATEMENT | function expression statement
+int FUNCTION_STATEMENT | function statement
+int GENERAL_STRING | general string
+int GRAPHIC_STRING | graphic string
+int GYRO_STANDARD | gyro standard
+int HsqlDateTime_null_string | hsql date time null string
+int IA5_STRING | ia 5  string
+int Icode_CLOSURE_STMT | icode closure stmt
+int Icode_REG_STR1 | icode reg str 1
+int Icode_REG_STR2 | icode reg str 2
+int Icode_REG_STR4 | icode reg str 4
+int Icode_REG_STR_C0 | icode reg str c 0
+int Icode_REG_STR_C1 | icode reg str c 1
+int Icode_REG_STR_C2 | icode reg str c 2
+int Icode_REG_STR_C3 | icode reg str c 3
+int Icode_STARTSUB | icode start sub
+int iCurrentStatus | i current status
+int Id_STAR | id star
+int Id_strike | id strike
+int Id_toDateString | id to date string
+int Id_toGMTString | id to gmt string
+int Id_toLocaleDateString | id to locale date string
+int Id_toLocaleString | id to locale string
+int Id_toLocaleTimeString | id to locale time string
+int Id_toString | id to string
+int Id_toTimeString | id to time string
+int Id_toUTCString | id to utc string
+int[] idxStack | idx stack
+int idxStackTop | idx stack top
+int iFakeFullCopySeedStart | i fake full copy seed start
+int iIgnoreRatioPeers_SeedStart | i ignore ratio peers seed start
+int iIgnoreShareRatio_SeedStart | i ignore share ratio seed start
+int iLastState | i last state
+int indentStep | indent step
+int INDEX_COLOR_FADEDSTARTS | index color faded starts
+int initialisation_state | initialisation state
+int INITIAL_STRINGTABLE_SIZE | initial string table size
+int _initSelStart | init sel start
+int INSERT_STATEMENT | insert statement
+int interactionStartCount | interaction start count
+int internal_content_stream_bps_increase_absolute | internal content stream bps increase absolute
+int internal_content_stream_bps_increase_ratio | internal content stream bps increase ratio
+int INT_STORE_SIZE | int store size
+int INT_STR_OFFSET | int str offset
+int INT_STRUCTURE_OFFSET | int structure offset
+int iNumberStandardCols | i number standard cols
+int INVALID_PREPARED_STATEMENT | invalid prepared statement
+int INVALID_STORAGE_CLASS | invalid storage class
+int INVALID_TRANSACTION_STATE_NO_SUBCLASS | invalid transaction state no subclass
+int IPROXY_OBJECT_TO_STRING | iproxy object to string
+int IPROXY_STRING_IS_COMPILABLE | iproxy string is compilable
+int ipStart | ip start
+int iSelectionStep | i selection step
+int iSqlArgStart | i sql arg start
+int iStartID | i start id
+int iTableStyle | i table style
+int iTotalStatus | i total status
+int itsMaxStack | its max stack
+int itsStackDepth | its stack depth
+int itsStartLabel | its start label
+int itsStartNodeIndex | its start node index
+int JAVA_STRING_TYPE | java string type
+int JDBC_NULL_STREAM | jdbc null stream
+int jdbcStatement_executeUpdate | jdbc statement execute update
+int JDBC_STATEMENT_NOT_RESULTSET | jdbc statement not resultset
+int JDBC_STATEMENT_NOT_ROW_COUNT | jdbc statement not row count
+int join_style | join style
+int JSTYPE_STRING | jstype string
+int JUMP_STANDARD | jump standard
+int junitStartCount | junit start count
+int junitSuiteStartedCount | junit suite started count
+int junitTestStartedCount | junit test started count
+int keyboardState | keyboard state
+int lastDHTstatus | last dht status
+int _lastExitStatus | last exit status
+int lastExitStatus | last exit status
+int last_informed_state | last informed state
+int lastNATstatus | last nat status
+int last_sr_status | last sr status
+int last_status | last status
+int last_status_seq | last status seq
+int latest_state | latest state
+int lineStart | line start
+int line_style | line style
+int LOAD_STRINGS | load strings
+int LOG_PROG_STATS_PERIOD | log prog stats period
+int LOG_PROG_STATS_TICKS | log prog stats ticks
+int longStealthMod | long stealth mod
+int LONG_STORE_SIZE | long store size
+int MAGNETURL_STARTS_AT | magnet url starts at
+int maximumInterpreterStackDepth | maximum interpreter stack depth
+int maxPreferredDetailPanelHeight_Standalone | max preferred detail panel height standalone
+int MAX_STARTUP_FAILURES | max startup failures
+int MAX_STORAGE_KEYS | max storage keys
+int maxStringLength | max string length
+int mediumStealthMod | medium stealth mod
+int menStarting | men starting
+int message_text_state | message text state
+int minHeightStartNewPage | min height start new page
+int minHeightToStartNewPage | min height to start new page
+int MIN_SEEDING_STARTUP_WAIT | min seeding startup wait
+int m_nStunnedTurns | m n stunned turns
+int mountainStyle | mountain style
+int myPosFrameStart | my pos frame start
+int myStartX | my start x
+int myStartY | my start y
+int myState | my state
+int myStateNumber | my state number
+int myZoomStateIndex | my zoom state index
+int nat_status | nat status
+int nbSteps | nb steps
+int network_status | network status
+int nextLineStart | next line start
+int node_status | node status
+int NODE_STATUS_ROUTABLE | node status routable
+int NODE_STATUS_UNKNOWN | node status unknown
+int NORMAL_TOKEN_STATE | normal token state
+int NO_TOKEN_STATE | no token state
+int NUMERIC_STRING | numeric string
+int num_stores | num stores
+int OCTET_STRING | octet string
+int ofsStart | ofs start
+int online_status | online status
+int openedStreams | opened streams
+int PARAM_STRING | param string
+int pcSourceLineStart | pc source line start
+int pen_style | pen style
+int PEV_CONFIGURATION_WIZARD_STARTS | pev configuration wizard starts
+int PHASE_STARTING_SCENARIO | phase starting scenario
+int pre_read_start_buffer | pre read start buffer
+int pre_read_start_position | pre read start position
+int PRINTABLE_STRING | printable string
+int PRIORITY_DW_STALE | priority dw stale
+int PROGRESS_STEP | progress step
+int protocol_state | protocol state
+int RC4_STREAM_KEY_SIZE | rc 4  stream key size
+int RC4_STREAM_KEY_SIZE_BYTES | rc 4  stream key size bytes
+int read_ahead_stats_wait | read ahead stats wait
+int READ_AHEAD_STATS_WAIT_TICKS | read ahead stats wait ticks
+int relStartPos | rel start pos
+int reply_status | reply status
+int REPLY_TRACKER_STATUS | reply tracker status
+int REQUEST_TRACKER_STATUS | request tracker status
+int RESIZE_STEPS | resize steps
+int roundedInternalStructure | rounded internal structure
+int rowFocusStyle | row focus style
+int runningState | running state
+int runStartCount | run start count
+int savedStackTop | saved stack top
+int SCHEMA_STATEMENT | schema statement
+int selectionStart | selection start
+int selectionStartBeforeFocusLost | selection start before focus lost
+int selectionStartLine | selection start line
+int selection_state | selection state
+int _selStart | sel start
+int SEQUENCE_STATEMENT | sequence statement
+int serverState | server state
+int SERVER_STATE_CLOSING | server state closing
+int SERVER_STATE_ONLINE | server state online
+int SERVER_STATE_OPENING | server state opening
+int SERVER_STATE_SHUTDOWN | server state shutdown
+int shellStyle | shell style
+int shortStealthMod | short stealth mod
+int simple_string_pos | simple string pos
+int SINGLE_QUOTE_STATE | single quote state
+int SQLFREESTMT | sql free stmt
+int SQLSTATE | sql state
+int SR_COMPLETE_STARTS_AT | sr complete starts at
+int stalledFPSeeders | stalled fp seeders
+int stalled_piece_timeout | stalled piece timeout
+int stalledSeeders | stalled seeders
+int STALLED_TIMEOUT | stalled timeout
+int STANDALONE | standalone
+int _start | start
+int start | start
+int START | start
+int _startColumn | start column
+int startColumn | start column
+int start_count | start count
+int START_DOWNLOAD_RATE_MAX | start download rate max
+int START_EARLIER_VARIATION | start earlier variation
+int startIndex | start index
+int startingPos | starting pos
+int START_LATER_VARIATION | start later variation
+int startLine | start line
+int STARTMODE_SEEDING | start mode seeding
+int _startOffset | start offset
+int start_piece_number | start piece number
+int start_piece_offset | start piece offset
+int start_port | start port
+int startPos | start pos
+int start_position | start position
+int START_POWER | start power
+int[] startPriorities | start priorities
+int start_state | start state
+int startTime | start time
+int START_UPLOAD_RATE_MAX | start upload rate max
+int STARTUP_TIMEOUT | startup timeout
+int startX | start x
+int startY | start y
+int STAR_TYPE | star type
+int _stat | stat
+int _state | state
+int state | state
+int stateA | state a
+int STATE_ALLOCATING | state allocating
+int stateArmorType | state armor type
+int stateArmorValue | state armor value
+int stateB | state b
+int stateC | state c
+int stateChassisType | state chassis type
+int STATE_CHECKING | state checking
+int stateConflictFlags | state conflict flags
+int stateCurrentWeight | state current weight
+int stateD | state d
+int STATE_DOWNLOADING | state downloading
+int STATE_DUPLICATE | state duplicate
+int STATE_ERROR | state error
+int STATE_FAULTY | state faulty
+int STATE_FINISHING | state finishing
+int stateGroundMP | state ground mp
+int STATE_INIT | state init
+int STATE_INITIALIZING | state initializing
+int stateJumpMP | state jump mp
+int stateJumpType | state jump type
+int STATE_LENGTH | state length
+int STATE_LISTENING | state listening
+int stateManipulatorTypeLeft | state manipulator type left
+int stateManipulatorTypeRight | state manipulator type right
+int stateMaxWeight | state max weight
+int stateMenPerSquad | state men per squad
+int statementID | statement id
+int statementType | statement type
+int stateMinWeight | state min weight
+int STATE_NON_INIT | state non init
+int STATE_NORMAL | state normal
+int STATE_READY | state ready
+int STATE_RECEIVED_SHARE_REQUEST_PENDING | state received share request pending
+int STATE_SEEDING | state seeding
+int STATE_SENT_SHARE_REQUEST_PENDING | state sent share request pending
+int state_set_by_method | state set by method
+int state_set_via_method | state set via method
+int STATE_SHARING_MAP | state sharing map
+int STATE_START | state start
+int STATE_START_OF_DAY | state start of day
+int STATE_STOPPING | state stopping
+int stateTechBase | state tech base
+int STATE_WAITING | state waiting
+int stateWeightClass | state weight class
+int STATIC | static
+int STATICTEXT_ELEMENT | static text element
+int STATITEXT_TAB | stati text tab
+int STAT_OK | stat ok
+int STATS_DURATION_SECS | stats duration secs
+int STAT_SENT | stat sent
+int stats_log_ticks | stats log ticks
+int STATS_LOG_TICKS | stats log ticks
+int STATS_LOG_TIMER | stats log timer
+int stats_packets_duplicates | stats packets duplicates
+int stats_packets_resent_via_timer | stats packets resent via timer
+int stats_packets_unique_sent | stats packets unique sent
+int STATS_PERIOD | stats period
+int statsPeriods | stats periods
+int STATS_PERIOD_SECS | stats period secs
+int STATS_RESET_TIMER | stats reset timer
+int STATS_TICK_COUNT | stats tick count
+int stats_ticks | stats ticks
+int STATS_TICKS | stats ticks
+int STATS_TIME | stats time
+int stats_type | stats type
+int STATS_TYPE_NP_VER2 | stats type np ver 2
+int STATS_TYPE_ORIGINAL | stats type original
+int STATS_UPDATE_FREQUENCY | stats update frequency
+int status | status
+int STATUS | status
+int STATUS_ABORT | status abort
+int STATUS_APPEAR_OFFLINE | status appear offline
+int STATUS_AWAY | status away
+int STATUS_BUSY | status busy
+int STATUS_COMPILED_GROOVY | status compiled groovy
+int STATUS_COMPILING | status compiling
+int STATUS_ERROR_COMPILING | status error compiling
+int STATUSICON_ERROR | status icon error
+int STATUSICON_NONE | status icon none
+int STATUSICON_WARNING | status icon warning
+int STATUS_INITALISING | status initalising
+int STATUS_INVALID_SEQUENCE | status invalid sequence
+int statusLevel | status level
+int STATUS_LOGON_FAIL | status logon fail
+int STATUS_NOT_AVAILABLE | status not available
+int STATUS_OK | status ok
+int STATUS_ONLINE | status online
+int STATUS_REPUBLISH_PERIOD | status republish period
+int STATUS_REPUBLISH_TICKS | status republish ticks
+int STATUS_RUNNING | status running
+int status_seq | status seq
+int ST_COMPACT | st compact
+int ST_CONTACTS | st contacts
+int ST_CONTACTS_DEAD | st contacts dead
+int ST_CONTACTS_LIVE | st contacts live
+int ST_CONTACTS_UNKNOWN | st contacts unknown
+int STDDEV_POP | stddev pop
+int STDDEV_SAMP | stddev samp
+int ST_DIR | st dir
+int ST_DIR_CONTENTS | st dir contents
+int ST_DOWNLOADING | st downloading
+int STEP | step
+int STEP_BACKWARDS | step backwards
+int STEP_CHARGE | step charge
+int STEP_CLEAR_MINEFIELD | step clear minefield
+int STEP_CLIMB_MODE_OFF | step climb mode off
+int STEP_CLIMB_MODE_ON | step climb mode on
+int STEP_COUNT | step count
+int STEP_DFA | step dfa
+int STEP_DIG_IN | step dig in
+int STEP_DOWN | step down
+int STEP_EJECT | step eject
+int STEP_FLEE | step flee
+int STEP_FORTIFY | step fortify
+int STEP_FORWARDS | step forwards
+int STEP_GET_UP | step get up
+int STEP_GO_PRONE | step go prone
+int STEP_HULL_DOWN | step hull down
+int STEP_INTO | step into
+int STEP_LATERAL_LEFT | step lateral left
+int STEP_LATERAL_LEFT_BACKWARDS | step lateral left backwards
+int STEP_LATERAL_RIGHT | step lateral right
+int STEP_LATERAL_RIGHT_BACKWARDS | step lateral right backwards
+int STEP_LAY_MINE | step lay mine
+int STEP_LOAD | step load
+int STEP_OUT | step out
+int STEP_OVER | step over
+int stepRequestedCount | step requested count
+int STEP_SEARCHLIGHT | step searchlight
+int STEPS_PER_SECOND | steps per second
+int STEP_START_JUMP | step start jump
+int STEP_SWIM | step swim
+int STEP_TURN_LEFT | step turn left
+int STEP_TURN_RIGHT | step turn right
+int STEP_UNJAM_RAC | step unjam rac
+int STEP_UNLOAD | step unload
+int STEP_UP | step up
+int stepY | step y
+int ST_ERROR | st error
+int ST_FILE | st file
+int ST_INITIALIZING | st initializing
+int ST_LEAVES | st leaves
+int ST_LINEAR | st linear
+int ST_NODES | st nodes
+int ST_NOT_FOUND | st not found
+int ST_OFFLINE | st offline
+int ST_ONLINE | st online
+int stopAtFrameDepth | stop at frame depth
+int STOP_TO_SEARCH | stop to search
+int storageSize | storage size
+int ST_OTHER | st other
+int ST_PREPARING | st preparing
+int STRAIGHT | straight
+int ST_READY | st ready
+int stream_crypto | stream crypto
+int STREAM_CRYPTO | stream crypto
+int STREAM_ENCRYPTION_NONE | stream encryption none
+int[] streamLengths | stream lengths
+int strength | strength
+int ST_REPLACEMENTS | st replacements
+int ST_REPORTED_ERROR | st reported error
+int STRING | string
+int STRING_BEGIN | string begin
+int stringBufferTop | string buffer top
+int STRING_DATA_TRUNCATION | string data truncation
+int STRINGS_COLUMN_INDEX | strings column index
+int STRING_TAG | string tag
+int strlength | str length
+int strOffset | str offset
+int STRUCT | struct
+int structureFlags | structure flags
+int[] structureLevels | structure levels
+int structureType | structure type
+int ST_RUNNING | st running
+int ST_SCRAPING | st scraping
+int ST_SEEDING | st seeding
+int ST_STOPPING | st stopping
+int ST_TORRENT | st torrent
+int ST_WAITING | st waiting
+int style | style
+int STYLE_BUTTON | style button
+int STYLE_CHECK | style check
+int STYLE_LINK | style link
+int styleMask | style mask
+int STYLE_MENU | style menu
+int STYLE_PUSH | style push
+int STYLE_RADIO | style radio
+int STYLE_SEPARATOR | style separator
+int style_val | style val
+int SYSTEMCOLOR_INDEXSTART | system color index start
+int T61_STRING | t 61  string
+int tag_value_start | tag value start
+int T_ARMOR_STANDARD | t armor standard
+int T_ARMOR_STEALTH | t armor stealth
+int TEXT_STRING_HAS_NEWLINE | text string has newline
+int threadStartedCount | thread started count
+int TICKS_PER_STATS_PERIOD | ticks per stats period
+int T_LRM_STREAK | t lrm streak
+int T_MRM_STREAK | t mrm streak
+int tracker_state | tracker state
+int T_SRM_STREAK | t srm streak
+int T_STRUCTURE_COMPOSITE | t structure composite
+int T_STRUCTURE_ENDO_PROTOTYPE | t structure endo prototype
+int T_STRUCTURE_ENDO_STEEL | t structure endo steel
+int T_STRUCTURE_STANDARD | t structure standard
+int T_STRUCTURE_UNKNOWN | t structure unknown
+int T_TARGSYS_STANDARD | t targsys standard
+int unitsStopAt | units stop at
+int UNIVERSAL_STRING | universal string
+int urlStyle | url style
+int USE_STACK | use stack
+int UTF8_STRING | utf 8  string
+int varStart | var start
+int VIDEOTEX_STRING | videotex string
+int VIEW_STATS | view stats
+int VISIBLE_STRING | visible string
+int WIDGET_STATE_HOVER | widget state hover
+int WIDGET_STATE_NORMAL | widget state normal
+int WIDGET_STATE_NOT_VISIBLE | widget state not visible
+int WINDOW_ELEMENT_STATUSBAR | window element statusbar
+int windStrength | wind strength
+int wzStep | wz step
+int yy_buffer_start | yy buffer start
+int yy_lexical_state | yy lexical state
+int YY_NO_STATE | yy no state
+int YY_START | yy start
+int yy_state_dtrans | yy state dtrans
+it.businesslogic.ireport.gui.documentstructure.DocumentStructurePanel documentStructurePanel | document structure panel
+it.businesslogic.ireport.gui.JNumberField jNumberFieldMinStartNewPage | j number field min start new page
+it.businesslogic.ireport.gui.JRTextExpressionArea jRTextExpressionStartDate | j r text expression start date
+it.businesslogic.ireport.ReportElement newStyle | new style
+it.businesslogic.ireport.ReportElement originalStyle | original style
+it.businesslogic.ireport.ReportElement styleClipboards | style clipboards
+it.businesslogic.ireport.Style defaultStyle | default style
+it.businesslogic.ireport.Style style | style
+java.awt.BasicStroke outlineStroke | outline stroke
+java.awt.Button bStart | b start
+java.awt.Button butChangeStart | but change start
+java.awt.Button[] butStartPos | but start pos
+java.awt.Checkbox stampFilenames | stamp filenames
+java.awt.Choice unitStartChar | unit start char
+java.awt.Color LIGHT_STEEL_BLUE | light steel blue
+java.awt.Color rulerStartColor | ruler start color
+java.awt.Color standardColor | standard color
+java.awt.Color standardEdgeColor | standard edge color
+java.awt.Color standardNodeColor | standard node color
+java.awt.Color standardSelectColor | standard select color
+java.awt.Color startColor | start color
+java.awt.Color STEEL_BLUE | steel blue
+java.awt.Color[] stopColors | stop colors
+java.awt.event.MouseListener myStopEditingMouseListener | my stop editing mouse listener
+java.awt.Font lastStyledFont | last styled font
+java.awt.geom.Point2D start | start
+java.awt.Label labMountainStyle | lab mountain style
+java.awt.Label labStarts | lab starts
+java.awt.Label labStatus | lab status
+java.awt.List lisStartList | lis start list
+java.awt.List lisStarts | lis starts
+java.awt.Panel panStartButtons | pan start buttons
+java.awt.Panel panStarts | pan starts
+java.awt.Panel panStatus | pan status
+java.awt.Point draggedLinkOldStartPoint | dragged link old start point
+java.awt.Point dragStartingPoint | drag starting point
+java.awt.Point myStartPoint | my start point
+java.awt.Point originalStartingPoint | original starting point
+java.awt.Point start | start
+java.awt.Point startInclination | start inclination
+java.awt.Point startPoint | start point
+java.awt.Polygon inStCentralTorso | in st central torso
+java.awt.Polygon inStLeftArm | in st left arm
+java.awt.Polygon inStLeftLeg | in st left leg
+java.awt.Polygon inStLeftTorso | in st left torso
+java.awt.Polygon inStRightArm | in st right arm
+java.awt.Polygon inStRightLeg | in st right leg
+java.awt.Polygon inStRightTorso | in st right torso
+java.awt.Polygon intStHead | int st head
+java.awt.Stroke BOLD_STROKE | bold stroke
+java.awt.Stroke DEF_STROKE | def stroke
+java.awt.Stroke INDICATOR_STROKE | indicator stroke
+java.awt.Stroke POINT_STROKE | point stroke
+java.awt.Stroke selectionStroke | selection stroke
+java.awt.Stroke stroke | stroke
+java.awt.TextField stampFormat | stamp format
+java.awt.TextField texMountainStyle | tex mountain style
+java.awt.TextField tf_start | tf start
+java.awt.TextField tStatus | t status
+java.awt.Window _stackFrame | stack frame
+java.beans.PropertyChangeListener stepStatePropertyChangeListener | step state property change listener
+java.io.BufferedOutputStream fileStreamOut | file stream out
+java.io.BufferedReader dataStreamIn | data stream in
+java.io.DataInputStream dataStreamIn | data stream in
+java.io.File myStartDirectory | my start directory
+java.io.File pathToStore | path to store
+java.io.File startFile | start file
+java.io.File store | store
+java.io.File _storedFile | stored file
+java.io.InputStream _contentStream | content stream
+java.io.InputStream _currentStream | current stream
+java.io.InputStream input_stream | input stream
+java.io.InputStream inStream | in stream
+java.io.InputStream stream | stream
+java.io.OutputStream _combinedOutputStream | combined output stream
+java.io.OutputStream fileStreamOut | file stream out
+java.io.PipedInputStream _combinedErrorStream | combined error stream
+java.io.PipedInputStream _combinedInputStream | combined input stream
+java.io.PipedInputStream _debugInputStream | debug input stream
+java.io.PipedOutputStream _combinedStdErrStream | combined std err stream
+java.io.PipedOutputStream _combinedStdOutStream | combined std out stream
+java.io.PipedOutputStream _debugOutputStream | debug output stream
+java.io.PrintStream errStream | err stream
+java.io.PrintStream myPrintStream | my print stream
+java.io.PrintStream outStream | out stream
+java.io.PrintStream psStd | ps std
+java.io.StreamTokenizer st | st
+java.lang.Class staticType | static type
+java.lang.Class StringClass | string class
+java.lang.Exception _startupException | startup exception
+java.lang.Exception _startupTrace | startup trace
+java.lang.Float slopingWallHeightAtStart | sl op ing wall height at start
+java.lang.Float xStart | x start
+java.lang.Float yStart | y start
+java.lang.Integer startOffset | start offset
+java.lang.Iterable<java.io.File> _startupClassPath | startup class path
+java.lang.Long DRAW_STRETCH | draw stretch
+java.lang.Object[] dms_Startup | dms startup
+java.lang.Object EMPTY_STRING | empty string
+java.lang.Object HAS_STATIC_ACCESSORS | has static accessors
+java.lang.Object interpreterStackInfo | interpreter stack info
+java.lang.Object myCalculatorState | my calculator state
+java.lang.Object PEER_STATS_KEY | peer stats key
+java.lang.Object[] read_torrent_state | read torrent state
+java.lang.Object[] stack | stack
+java.lang.Object STATIC_MUTEX | static mutex
+java.lang.Object[][] stmtArgs | stmt args
+java.lang.Object STRING_TAG | string tag
+java.lang.String ACCESS_STRING | access string
+java.lang.String ADVANCED_MOVE_STEP_DELAY | advanced move step delay
+java.lang.String ADVANCED_STEALTH | advanced stealth
+java.lang.String[] ARMOR_TYPE_STRINGS | armor type strings
+java.lang.String ASSAULT_STRING | assault string
+java.lang.String _associatedString | associated string
+java.lang.String AT_FILE_STORE_TYPES | at file store types
+java.lang.String AT_RESUME_STATE | at resume state
+java.lang.String ATTRIBUTE_isStrikeThrough | attribute is strike through
+java.lang.String ATTRIBUTE_isStyledText | attribute is styled text
+java.lang.String ATTRIBUTE_style | attribute style
+java.lang.String audit_insert_stmt | audit insert stmt
+java.lang.String BA_STRING | ba string
+java.lang.String bencoded_string | bencoded string
+java.lang.String _bgColorString | bg color string
+java.lang.String BUILD_TIME_STRING | build time string
+java.lang.String C3NetIdString | c 3 net id string
+java.lang.String CFG_FC_SEEDSTART | cfg fc seed start
+java.lang.String CHARACTER_RETURN_STYLE | character return style
+java.lang.String classToStart | class to start
+java.lang.String CLASS_WITH_STATIC_FIELD | class with static field
+java.lang.String CLIENT_SETTINGS_STORE_NAME | client settings store name
+java.lang.String[] COCKPIT_SHORT_STRING | cockpit short string
+java.lang.String[] COCKPIT_STRING | cockpit string
+java.lang.String CONFIG_VERSION_STR | config version str
+java.lang.String CONF_SHOW_AT_STARTUP | conf show at startup
+java.lang.String CONF_SHOW_TIP_ON_STARTUP | conf show tip on startup
+java.lang.String CONF_STARTUP_FILE | conf startup file
+java.lang.String CONF_STARTUP_LAST_POSITION | conf startup last position
+java.lang.String CONF_STARTUP_MODE | conf startup mode
+java.lang.String CONF_STATE_CONTINUE | conf state continue
+java.lang.String CONF_STATE_INTRO | conf state intro
+java.lang.String CONF_STATE_REPEAT | conf state repeat
+java.lang.String CONF_STATE_SHUFFLE | conf state shuffle
+java.lang.String CONF_STATE_WAS_PLAYING | conf state was playing
+java.lang.String CORE_PARAM_BOOLEAN_NEW_SEEDS_START_AT_TOP | core param boolean new seeds start at top
+java.lang.String CORE_PARAM_STRING_DEFAULT_SAVE_PATH | core param string default save path
+java.lang.String CORE_PARAM_STRING_LOCAL_BIND_IP | core param string local bind ip
+java.lang.String create_audit_table_stmt | create audit table stmt
+java.lang.String create_test_table_stmt | create test table stmt
+java.lang.String current_indent_string | current indent string
+java.lang.String _currentSearchString | current search string
+java.lang.String DEBUGGER_STYLE | debugger style
+java.lang.String debug_string | debug string
+java.lang.String DEFAULT_SERVER_PORT_STRING | default server port string
+java.lang.String DEFAULT_STATS_FILE_NAME | default stats file name
+java.lang.String DEFAULT_STYLE | default style
+java.lang.String def_String | def string
+java.lang.String deletedIconListAsString | deleted icon list as string
+java.lang.String dir_str | dir str
+java.lang.String DOOR_OR_WINDOW_SASH_START_ANGLE | door or window sash start angle
+java.lang.String DOWNLOAD_STD_DEV | download std dev
+java.lang.String drop_audit_table_stmt | drop audit table stmt
+java.lang.String drop_test_table_stmt | drop test table stmt
+java.lang.String[] DT_STRINGS | dt strings
+java.lang.String eBayDescStart | e bay desc start
+java.lang.String eBayMotorsDescStart | e bay motors desc start
+java.lang.String eBayPrequelTimeString | e bay prequel time string
+java.lang.String eBayPrequelTimeString2 | e bay prequel time string 2
+java.lang.String eBayStartTime | e bay start time
+java.lang.String edgeStyle | edge style
+java.lang.String[] elementStack | element stack
+java.lang.String EMPTY_STRING | empty string
+java.lang.String[] emptyStringArray | empty string array
+java.lang.String[] emptyStrings | empty strings
+java.lang.String[] ENGINE_SOURCE_STRS | engine source strs
+java.lang.String[] ENGINE_TYPE_STRS | engine type strs
+java.lang.String enumStr | enum str
+java.lang.String errorStr | error str
+java.lang.String errorString1 | error string 1
+java.lang.String errorString2 | error string 2
+java.lang.String ERROR_STYLE | error style
+java.lang.String EVENT_MUTE_STATE | event mute state
+java.lang.String EVENT_PLAYER_STOP | event player stop
+java.lang.String EVENT_VIEW_SHOW_STATUS_CHANGED_REQUEST | event view show status changed request
+java.lang.String EXPERT_STEALTH | expert stealth
+java.lang.String FILE_STAT_PERSPECTIVE | file stat perspective
+java.lang.String file_str | file str
+java.lang.String fileString | file string
+java.lang.String findAmountString | find amount string
+java.lang.String findIDString | find id string
+java.lang.String FIND_MULTI_LINE_SEARCH_STR | find multi line search str
+java.lang.String FORMAT_STRING | format string
+java.lang.String FORUM_STABLE_LINK | forum stable link
+java.lang.String fString | f string
+java.lang.String[] FT_STRINGS | ft strings
+java.lang.String fullString | full string
+java.lang.String GENERATED_TAG_STR | generated tag str
+java.lang.String GLOBAL_RATING_STRING | global rating string
+java.lang.String GOOD_STRING | good string
+java.lang.String group_address_str | group address str
+java.lang.String GUN_EMPLACEMENT_STRING | gun emplacement string
+java.lang.String[] GYRO_SHORT_STRING | gyro short string
+java.lang.String[] GYRO_STRING | gyro string
+java.lang.String HAVE_VACANCY_STRING | have vacancy string
+java.lang.String HEAVY_STRING | heavy string
+java.lang.String HOVER_STRING | hover string
+java.lang.String HYDROFOIL_STRING | hydrofoil string
+java.lang.String iconListAsString | icon list as string
+java.lang.String ICON_PERSPECTIVE_STATISTICS | icon perspective statistics
+java.lang.String ICON_STAR_1 | icon star  1
+java.lang.String ICON_STAR_2 | icon star  2
+java.lang.String ICON_STAR_3 | icon star  3
+java.lang.String ICON_STAR_4 | icon star  4
+java.lang.String ICON_STOP | icon stop
+java.lang.String ICON_STYLE | icon style
+java.lang.String IMAGES_STAT_PAPER | images stat paper
+java.lang.String INDENT_STRING | indent string
+java.lang.String INFINITY_STRING | infinity string
+java.lang.String INF_STRING | inf string
+java.lang.String INPUT_BOX_STYLE | input box style
+java.lang.String INSERT_END_OF_STREAM | insert end of stream
+java.lang.String ip_str | ip str
+java.lang.String[] itsStringTable | its string table
+java.lang.String[] JRXMLStyleAttributes | jrxml style attributes
+java.lang.String js_NaN_date_str | js na n date str
+java.lang.String KEY_STARTUP_STYLE | key startup style
+java.lang.String _KeyStroke | key stroke
+java.lang.String lastShellStatus | last shell status
+java.lang.String lastSqlStatement | last sql statement
+java.lang.String lastStatusError | last status error
+java.lang.String LIGHT_STRING | light string
+java.lang.String mainString | main string
+java.lang.String ManagerItem_stopping | manager item stopping
+java.lang.String[] MANIPULATOR_TYPE_STRINGS | manipulator type strings
+java.lang.String match_str | match str
+java.lang.String MEDIUM_STRING | medium string
+java.lang.String MENU_ID_START_ALL_TRANSFERS | menu id start all transfers
+java.lang.String MENU_ID_STATS | menu id stats
+java.lang.String MENU_ID_STOP_ALL_TRANSFERS | menu id stop all transfers
+java.lang.String MOD_DATE_FORMAT_STRING | mod date format string
+java.lang.String MONKEY_STATIC_STUFF | monkey static stuff
+java.lang.String mOutputString | m output string
+java.lang.String mStyle | m style
+java.lang.String[] mtString | mt string
+java.lang.String[] mtStringArray | mt string array
+java.lang.String myString | my string
+java.lang.String myStyleName | my style name
+java.lang.String NAVAL_STRING | naval string
+java.lang.String NETSCAPE_OPEN_PARAMETER_START | netscape open parameter start
+java.lang.String _newestVersionString | newest version string
+java.lang.String nobufferYetString | no buffer yet string
+java.lang.String nodeStyle | node style
+java.lang.String no_str | no str
+java.lang.String NO_VACANCY_STRING | no vacancy string
+java.lang.String now_string | now string
+java.lang.String NULL_STR | null str
+java.lang.String NULL_STRING | null string
+java.lang.String NUMBER_RETURN_STYLE | number return style
+java.lang.String OBJECT_RETURN_STYLE | object return style
+java.lang.String _objString | obj string
+java.lang.String OBSCURED_STRING | obscured string
+java.lang.String OP_CLOSE_PARAM_STATUS | op close param status
+java.lang.String OP_LOGIN_STATUS | op login status
+java.lang.String OP_RESIZE_PARAM_STATE_MAXIMIZE | op resize param state maximize
+java.lang.String OP_RESIZE_PARAM_STATE_MINIMIZE | op resize param state minimize
+java.lang.String OP_RESIZE_PARAM_STATE_RESTORE | op resize param state restore
+java.lang.String OP_RESIZE_PARAM_WINDOW_STATE | op resize param window state
+java.lang.String OP_START | op start
+java.lang.String OP_STARTSHARE | op start share
+java.lang.String OP_STOP | op stop
+java.lang.String OP_STREAMCOMPLETE | op stream complete
+java.lang.String passCfgString | pass cfg string
+java.lang.String pattern_str | pattern str
+java.lang.String PeerManager_status_finishedin | peer manager status finished in
+java.lang.String PERSPECTIVE_NAME_STATISTICS | perspective name statistics
+java.lang.String PID_NET_STATUS | pid net status
+java.lang.String PID_START_STOP_RULES | pid start stop rules
+java.lang.String PREFERENCE_STORAGE_PROPERTY | preference storage property
+java.lang.String[] priostr | prio str
+java.lang.String PROTO_STRING | proto string
+java.lang.String PR_STRING_CONTENT_TYPE | pr string content type
+java.lang.String QUAD_STRING | quad string
+java.lang.String RC4_STREAM_ALG | rc 4  stream alg
+java.lang.String RC4_STREAM_CIPHER | rc 4  stream cipher
+java.lang.String READY_STATUS | ready status
+java.lang.String[] reasonString | reason string
+java.lang.String REASON_UPDATE_CHECK_START | reason update check start
+java.lang.String repstr | rep str
+java.lang.String RESOURCES_EDGE_STYLE | resources edge style
+java.lang.String RESOURCES_NODE_STYLE | resources node style
+java.lang.String RESOURCES_ROOT_NODE_STYLE | resources root node style
+java.lang.String REVISION_STRING | revision string
+java.lang.String sCurrentStatus | s current status
+java.lang.String _searchString | search string
+java.lang.String selectionColorString | selection color string
+java.lang.String selstar | sel star
+java.lang.String[] SEL_STATE_STRINGS | sel state strings
+java.lang.String SHOW_MOVE_STEP | show move step
+java.lang.String simple_string | simple string
+java.lang.String sLastStatus | s last status
+java.lang.String sourceString | source string
+java.lang.String sql_enforce_strict_size | sql enforce strict size
+java.lang.String sqlString | sql string
+java.lang.String sStartURL | s start url
+java.lang.String sStates | s states
+java.lang.String sStatus | s status
+java.lang.String[][] sString | s string
+java.lang.String _stackTrace | stack trace
+java.lang.String STALE_TOOLTIP | stale tooltip
+java.lang.String ST_ALL | st all
+java.lang.String[][] _ST_ALL | st all
+java.lang.String STAMP_FILENAMES | stamp filenames
+java.lang.String STAMP_FORMAT | stamp format
+java.lang.String standardColorPropertyString | standard color property string
+java.lang.String standardStyle | standard style
+java.lang.String standardStylePropertyString | standard style property string
+java.lang.String standard_types | standard types
+java.lang.String STAR3 | star 3
+java.lang.String _start | start
+java.lang.String START | start
+java.lang.String startArrow | start arrow
+java.lang.String _StartArrow | start arrow
+java.lang.String _startComment | start comment
+java.lang.String startDateExpression | start date expression
+java.lang.String _StartInclination | start inclination
+java.lang.String start_ip | start ip
+java.lang.String START_JUNIT_MSG | start junit msg
+java.lang.String START_LOCATION_NAMES | start location names
+java.lang.String[] startModes | start modes
+java.lang.String _StartPoint | start point
+java.lang.String startupCommand | startup command
+java.lang.String START_UPDATING | start updating
+java.lang.String STARTUP_MODE_BESTOF | startup mode best of
+java.lang.String STARTUP_MODE_FILE | startup mode file
+java.lang.String STARTUP_MODE_LAST | startup mode last
+java.lang.String STARTUP_MODE_LAST_KEEP_POS | startup mode last keep pos
+java.lang.String STARTUP_MODE_NOTHING | startup mode nothing
+java.lang.String STARTUP_MODE_NOVELTIES | startup mode novelties
+java.lang.String STARTUP_MODE_SHUFFLE | startup mode shuffle
+java.lang.String START_VALUES | start values
+java.lang.String STAR_WARS_CALL | star wars call
+java.lang.String STAR_WARS_RESPONSE | star wars response
+java.lang.String state | state
+java.lang.String statement | statement
+java.lang.String statementName | statement name
+java.lang.String[] StateNames | state names
+java.lang.String stateTextTypes | state text types
+java.lang.String STATE_TOOLTIP | state tooltip
+java.lang.String STATIC_INNER_TEST_TEXT | static inner test text
+java.lang.String STATS_DISCOVER | stats discover
+java.lang.String STATS_FOUND | stats found
+java.lang.String[] STATS_KEYS | stats keys
+java.lang.String STATS_MAP_BAD | stats map bad
+java.lang.String STATS_MAP_OK | stats map ok
+java.lang.String STATS_READ_BAD | stats read bad
+java.lang.String STATS_READ_OK | stats read ok
+java.lang.String _status | status
+java.lang.String status | status
+java.lang.String STATUS_CLIENT_FAILURE | status client failure
+java.lang.String STATUS_FAILURE | status failure
+java.lang.String STATUS_ICON_WARN | status icon warn
+java.lang.String statusImageKey | status image key
+java.lang.String[] STATUS_KEYS | status keys
+java.lang.String[] STATUS_STRINGS | status strings
+java.lang.String STATUS_SUCCESS | status success
+java.lang.String status_text | status text
+java.lang.String STATUS_TEXT_CLOSE | status text close
+java.lang.String statusTextKey | status text key
+java.lang.String STATUS_UPDATE | status update
+java.lang.String[] STATUS_VALUES | status values
+java.lang.String STD_DEV | std dev
+java.lang.String ST_DISK | st disk
+java.lang.String ST_DISK_READ_BYTES_MULTIPLE | st disk read bytes multiple
+java.lang.String ST_DISK_READ_BYTES_SINGLE | st disk read bytes single
+java.lang.String ST_DISK_READ_BYTES_TOTAL | st disk read bytes total
+java.lang.String ST_DISK_READ_IO_COUNT | st disk read io count
+java.lang.String ST_DISK_READ_IO_TIME | st disk read io time
+java.lang.String ST_DISK_READ_QUEUE_BYTES | st disk read queue bytes
+java.lang.String ST_DISK_READ_QUEUE_LENGTH | st disk read queue length
+java.lang.String ST_DISK_READ_REQUEST_BLOCKS | st disk read request blocks
+java.lang.String ST_DISK_READ_REQUEST_COUNT | st disk read request count
+java.lang.String ST_DISK_READ_REQUEST_MULTIPLE | st disk read request multiple
+java.lang.String ST_DISK_READ_REQUEST_SINGLE | st disk read request single
+java.lang.String ST_DISK_WRITE_BYTES_MULTIPLE | st disk write bytes multiple
+java.lang.String ST_DISK_WRITE_BYTES_SINGLE | st disk write bytes single
+java.lang.String ST_DISK_WRITE_BYTES_TOTAL | st disk write bytes total
+java.lang.String ST_DISK_WRITE_IO_COUNT | st disk write io count
+java.lang.String ST_DISK_WRITE_IO_TIME | st disk write io time
+java.lang.String ST_DISK_WRITE_QUEUE_BYTES | st disk write queue bytes
+java.lang.String ST_DISK_WRITE_QUEUE_LENGTH | st disk write queue length
+java.lang.String ST_DISK_WRITE_REQUEST_BLOCKS | st disk write request blocks
+java.lang.String ST_DISK_WRITE_REQUEST_COUNT | st disk write request count
+java.lang.String stdout | stdout
+java.lang.String STEALTH | stealth
+java.lang.String stealthName | stealth name
+java.lang.String[] ST_NAMES | st names
+java.lang.String ST_NET_HTTP_IN_REQUEST_COUNT | st net http in request count
+java.lang.String ST_NET_HTTP_IN_REQUEST_GETRIGHT_COUNT | st net http in request get right count
+java.lang.String ST_NET_HTTP_IN_REQUEST_INVALID_COUNT | st net http in request invalid count
+java.lang.String ST_NET_HTTP_IN_REQUEST_OK_COUNT | st net http in request ok count
+java.lang.String ST_NET_HTTP_IN_REQUEST_WEBSEED_COUNT | st net http in request web seed count
+java.lang.String ST_NET_READ_CONTROL_CON_COUNT | st net read control con count
+java.lang.String ST_NET_READ_CONTROL_ENTITY_COUNT | st net read control entity count
+java.lang.String ST_NET_READ_CONTROL_LOOP_COUNT | st net read control loop count
+java.lang.String ST_NET_READ_CONTROL_NP_COUNT | st net read control np count
+java.lang.String ST_NET_READ_CONTROL_P_COUNT | st net read control p count
+java.lang.String ST_NET_READ_CONTROL_READY_CON_COUNT | st net read control ready con count
+java.lang.String ST_NET_READ_CONTROL_WAIT_COUNT | st net read control wait count
+java.lang.String ST_NET_TCP_OUT_CANCEL_QUEUE_LENGTH | st net tcp out cancel queue length
+java.lang.String ST_NET_TCP_OUT_CLOSE_QUEUE_LENGTH | st net tcp out close queue length
+java.lang.String ST_NET_TCP_OUT_CONNECT_QUEUE_LENGTH | st net tcp out connect queue length
+java.lang.String ST_NET_TCP_OUT_PENDING_QUEUE_LENGTH | st net tcp out pending queue length
+java.lang.String ST_NET_TCP_SELECT_READ_COUNT | st net tcp select read count
+java.lang.String ST_NET_TCP_SELECT_WRITE_COUNT | st net tcp select write count
+java.lang.String ST_NET_WRITE_CONTROL_CON_COUNT | st net write control con count
+java.lang.String ST_NET_WRITE_CONTROL_ENTITY_COUNT | st net write control entity count
+java.lang.String ST_NET_WRITE_CONTROL_NP_COUNT | st net write control np count
+java.lang.String ST_NET_WRITE_CONTROL_P_COUNT | st net write control p count
+java.lang.String ST_NET_WRITE_CONTROL_READY_BYTE_COUNT | st net write control ready byte count
+java.lang.String ST_NET_WRITE_CONTROL_READY_CON_COUNT | st net write control ready con count
+java.lang.String ST_NET_WRITE_CONTROL_WAIT_COUNT | st net write control wait count
+java.lang.String STOP_MAP_SHARING | stop map sharing
+java.lang.String STOP_SWARM | stop swarm
+java.lang.String STORE_NODE_NAME | store node name
+java.lang.String sTotalStatus | s total status
+java.lang.String ST_PEER_CONTROL_LOOP_COUNT | st peer control loop count
+java.lang.String ST_PEER_CONTROL_SCHEDULE_COUNT | st peer control schedule count
+java.lang.String ST_PEER_CONTROL_WAIT_COUNT | st peer control wait count
+java.lang.String ST_PEER_CONTROL_WAIT_TIME | st peer control wait time
+java.lang.String ST_PEER_CONTROL_YIELD_COUNT | st peer control yield count
+java.lang.String ST_PEER_MANAGER_COUNT | st peer manager count
+java.lang.String ST_PEER_MANAGER_PEER_COUNT | st peer manager peer count
+java.lang.String ST_PEER_MANAGER_PEER_SNUBBED_COUNT | st peer manager peer snubbed count
+java.lang.String ST_PEER_MANAGER_PEER_STALLED_DISK_COUNT | st peer manager peer stalled disk count
+java.lang.String str | str
+java.lang.String strColBegDate | str col beg date
+java.lang.String strColCompletion | str col completion
+java.lang.String strColCoordinator | str col coordinator
+java.lang.String strColDuration | str col duration
+java.lang.String strColEndDate | str col end date
+java.lang.String strColID | str col id
+java.lang.String strColInfo | str col info
+java.lang.String strColName | str col name
+java.lang.String strColPredecessors | str col predecessors
+java.lang.String strColPriority | str col priority
+java.lang.String strColType | str col type
+java.lang.String STR_CR | str cr
+java.lang.String street | street
+java.lang.String stretchType | stretch type
+java.lang.String[][] _str_flavors | str flavors
+java.lang.String string | string
+java.lang.String stringContent | string content
+java.lang.String STRING_DEFAULT | string default
+java.lang.String stringEncoding | string encoding
+java.lang.String stringKey | string key
+java.lang.String stringResult | string result
+java.lang.String STRING_RETURN_STYLE | string return style
+java.lang.String STRING_TAG_STR | string tag str
+java.lang.String stringWindDirection | string wind direction
+java.lang.String stringWindStrength | string wind strength
+java.lang.String STR_NEWLINE | str newline
+java.lang.String strResourceEMail | str resource e mail
+java.lang.String strResourceName | str resource name
+java.lang.String strResourcePhone | str resource phone
+java.lang.String strResourceRole | str resource role
+java.lang.String strResourceRoleForTask | str resource role for task
+java.lang.String STR_SPACE | str space
+java.lang.String STR_TAB | str tab
+java.lang.String STRUCTURE | structure
+java.lang.String[] structureNames | structure names
+java.lang.String structureType | structure type
+java.lang.String ST_TRACKER_ANNOUNCE_COUNT | st tracker announce count
+java.lang.String ST_TRACKER_ANNOUNCE_TIME | st tracker announce time
+java.lang.String ST_TRACKER_READ_BYTES | st tracker read bytes
+java.lang.String ST_TRACKER_SCRAPE_COUNT | st tracker scrape count
+java.lang.String ST_TRACKER_SCRAPE_TIME | st tracker scrape time
+java.lang.String ST_TRACKER_WRITE_BYTES | st tracker write bytes
+java.lang.String stuffExample | stuff example
+java.lang.String ST_XFER_DOWNLOADED_DATA_BYTES | st xfer downloaded data bytes
+java.lang.String ST_XFER_DOWNLOADED_PROTOCOL_BYTES | st xfer downloaded protocol bytes
+java.lang.String ST_XFER_UPLOADED_DATA_BYTES | st xfer uploaded data bytes
+java.lang.String ST_XFER_UPLOADED_PROTOCOL_BYTES | st xfer uploaded protocol bytes
+java.lang.String style | style
+java.lang.String _Style | style
+java.lang.String STYLE_AS_PARENT | style as parent
+java.lang.String STYLE_BUBBLE | style bubble
+java.lang.String styleClass | style class
+java.lang.String STYLE_FORK | style fork
+java.lang.String styleName | style name
+java.lang.String STYLE_PREFIX | style prefix
+java.lang.String styles | styles
+java.lang.String[] STYLES | styles
+java.lang.String subString | sub string
+java.lang.String subSubString | sub sub string
+java.lang.String SWITCH_TAG_STR | switch tag str
+java.lang.String SYSTEM_ERR_STYLE | system err style
+java.lang.String SYSTEM_IN_STYLE | system in style
+java.lang.String SYSTEM_OUT_STYLE | system out style
+java.lang.String targSysStr | targ sys str
+java.lang.String TESTSTRING | test string
+java.lang.String[] tipStrings | tip strings
+java.lang.String TORRENT_STORE | torrent store
+java.lang.String toString | to string
+java.lang.String TRACKED_ASSAULT_STRING | tracked assault string
+java.lang.String TRACKED_HEAVY_STRING | tracked heavy string
+java.lang.String TRACKED_STRING | tracked string
+java.lang.String tracker_peer_id_str | tracker peer id str
+java.lang.String tracker_status_str | tracker status str
+java.lang.String T_SQLSTATE | t sql state
+java.lang.String T_START | t start
+java.lang.String T_STATIC | t static
+java.lang.String T_STDDEV_POP | t stddev pop
+java.lang.String T_STDDEV_SAMP | t stddev samp
+java.lang.String tString | t string
+java.lang.String TYPEID_BUDDYREQUEST | typeid buddyreq ue st
+java.lang.String UNIT_START_CHAR | unit start char
+java.lang.String UNKNOWN_STYLE | unknown style
+java.lang.String UPLOAD_STD_DEV | upload std dev
+java.lang.String url_str | url str
+java.lang.String urlString | url string
+java.lang.String URLSTYLE_HTTP_STR | urls ty le http str
+java.lang.String userCfgString | user cfg string
+java.lang.String VER_AZ_KTORRENT_STYLE | ver az kto rr ent style
+java.lang.String VER_AZ_TRANSMISSION_STYLE | ver az transmission style
+java.lang.String VERSION_STRING | version string
+java.lang.String VERSION_STRING_1_7_0 | version string  1   7   0
+java.lang.String VERSION_STRING_1_8_0 | version string  1   8   0
+java.lang.String VIEW_NAME_STAT | view name stat
+java.lang.String VTOL_STRING | vtol string
+java.lang.String WHEELED_HEAVY_STRING | wheeled heavy string
+java.lang.String WHEELED_STRING | wheeled string
+java.lang.String WINDOW_PREFERENCE_STORAGE_PROPERTY | window preference storage property
+java.lang.String windowState | window state
+java.lang.String XML_DJ_STARTUP_STYLE | xml dj startup style
+java.lang.String XML_DJ_STYLES | xml dj styles
+java.lang.String XML_STYLE | xml style
+java.lang.String XML_STYLES | xml styles
+java.lang.String XML_TRACK_STYLE | xml track style
+java.lang.String yes_str | yes str
+java.lang.String yy_error_string | yy error string
+java.lang.Thread _jvmStarter | jvm starter
+java.net.URL stepIcon | step icon
+java.security.PermissionCollection _statisPermissions | stat is permissions
+java.sql.PreparedStatement insertStmt | insert stmt
+java.sql.PreparedStatement pStmt | p stmt
+java.sql.Statement m_statement | m statement
+java.sql.Statement srcStatement | src statement
+java.sql.Statement sStatement | s statement
+java.sql.Statement statement | statement
+java.sql.Statement stmnt | stmnt
+java.sql.Statement stmt | stmt
+java.util.ArrayList columnStateList | column state list
+java.util.ArrayList custom_style_client_list | custom style client list
+java.util.ArrayList<edu.rice.cs.drjava.model.debug.DebugStackData> _stackFrames | stack frames
+java.util.ArrayList<edu.rice.cs.drjava.ui.InteractionsController.ConsoleStateListener> _consoleStateListeners | console state listeners
+java.util.ArrayList myPreviousStates | my previous states
+java.util.ArrayList myPreviousStateTasks | my previous state tasks
+java.util.Comparator mySortActivitiesByStartDateComparator | my sort activities by start date comparator
+java.util.Comparator mySortTasksByStartDateComparator | my sort tasks by start date comparator
+java.util.Date myNextFrameStartDate | my next frame start date
+java.util.Date myStartDate | my start date
+java.util.Date myUnitStart | my unit start
+java.util.Date projectStart | project start
+java.util.Date _start | start
+java.util.Date start | start
+java.util.Date startDate | start date
+java.util.Date startTime | start time
+java.util.Date timeStamp | time stamp
+java.util.HashMap az_style_code_map | az style code map
+java.util.HashMap<java.lang.Integer,java.lang.String> strokeLinecapMap | stroke line cap map
+java.util.HashMap<java.lang.Integer,java.lang.String> strokeLinejoinMap | stroke linejoin map
+java.util.HashMap<java.lang.String,java.lang.Integer> strokeLinecapMap | stroke line cap map
+java.util.HashMap<java.lang.String,java.lang.Integer> strokeLinejoinMap | stroke linejoin map
+java.util.HashMap<java.lang.String,java.lang.String> hmWrongRightStyleID | hm wrong right style id
+java.util.HashMap<java.lang.String,javax.swing.text.AttributeSet> _styles | styles
+java.util.HashMap mainline_style_code_map | mainline style code map
+java.util.HashMap paused_states | paused states
+java.util.HashMap shadow_style_code_map | shadow style code map
+java.util.HashMap varStorage | var storage
+java.util.HashSet<org.jajuk.base.Style> disabledStyles | disabled styles
+java.util.HashSet<org.jajuk.base.Style> selectedStyles | selected styles
+java.util.HashSet<org.jajuk.base.Style> styles | styles
+java.util.Hashtable DbStmts | db stmts
+java.util.Hashtable hStringJDBCtypes | h string jdb ctypes
+java.util.Hashtable staticFieldAndMethods | static field and methods
+java.util.Hashtable staticMembers | static members
+java.util.Hashtable stores | stores
+java.util.LinkedList viewStack | view stack
+java.util.List _allStatus | all status
+java.util.List<edu.rice.cs.drjava.ui.predictive.PredictiveInputModel.MatchingStrategy<T>> _strategies | strategies
+java.util.List global_state_cache_wrappers | global state cache wrappers
+java.util.List<javax.swing.KeyStroke> strokeList | stroke list
+java.util.List listStructure | list structure
+java.util.List myInitialStarts | my initial starts
+java.util.List myModifiedStateChangeListeners | my modified state change listeners
+java.util.List openedNodesDocumentStructure | opened nodes document structure
+java.util.List rarestStartedPieces | rarest started pieces
+java.util.List saved_stats_to_delete | saved stats to delete
+java.util.List state_vars | state vars
+java.util.List stats_names | stats names
+java.util.List stoppable_threads | stoppable threads
+java.util.List stringPatterns | string patterns
+java.util.Map<com.eteks.sweethome3d.model.TextStyle,com.eteks.sweethome3d.model.TextStyle> textStylesCache | text styles cache
+java.util.Map fileStatCache | file stat cache
+java.util.Map global_state_cache | global state cache
+java.util.Map imported_state | imported state
+java.util.Map keyIdToString | key id to string
+java.util.Map local_storage_keys | local storage keys
+java.util.Map myStyle2painter | my style 2 painter
+java.util.Map myUnitPair_StartDate | my unit pair start date
+java.util.Map newEnabledState | new enabled state
+java.util.Map parseSpeedPartitionStringCache | parse speed partition string cache
+java.util.Map saved_download_manager_state | saved download manager state
+java.util.Map saved_stats | saved stats
+java.util.Map state_map | state map
+java.util.Map stats_types | stats types
+java.util.Map status | status
+java.util.Map stored_values | stored values
+java.util.Map txnStatesByOp | txn states by op
+java.util.Properties DEFAULT_STRINGS | default strings
+java.util.Properties stringProps | string props
+java.util.regex.Pattern[] rejectStdoutPatterns | reject stdout patterns
+java.util.regex.Pattern[] requireStdoutPatterns | require stdout patterns
+java.util.Set myFixedStartTasks | my fixed start tasks
+java.util.Set myStableHolidays | my stable holidays
+java.util.Stack attStack | att stack
+java.util.Stack clipBoundsStack | clip bounds stack
+java.util.Stack<edu.rice.cs.util.BalancingStreamTokenizer.State> _stateStack | state stack
+java.util.Stack myStack | my stack
+java.util.Stack myTagStack | my tag stack
+java.util.Stack<net.n3.nanoxml.XMLElement> stack | stack
+java.util.Stack<org.jhotdraw.samples.svg.io.SVGInputFormat.Viewport> viewportStack | viewport stack
+java.util.Stack reporterStack | reporter stack
+java.util.Stack stack | stack
+java.util.TreeMap stateIcons | state icons
+java.util.Vector<java.lang.String> dataAsStrings | data as strings
+java.util.Vector<java.lang.String> stylesList | styles list
+java.util.Vector steps | steps
+java.util.Vector stringVector | string vector
+java.util.Vector styles | styles
+java.util.Vector tempFileStack | temp file stack
+javax.swing.Action _showStackTraceAction | show stack trace action
+javax.swing.Action _standardNewlineAction | standard newline action
+javax.swing.Action start | start
+javax.swing.ButtonGroup bgStart | bg start
+javax.swing.ImageIcon statictextIcon | static text icon
+javax.swing.JButton butChangeStart | but change start
+javax.swing.JButton[] butStartPos | but start pos
+javax.swing.JButton iReadyStatus | i ready status
+javax.swing.JButton jbStop | jb stop
+javax.swing.JButton jButtonStrikethrought | j button strikethrought
+javax.swing.JButton _showStackTraceButton | show stack trace button
+javax.swing.JButton startDateButton1 | start date button 1
+javax.swing.JButton _stepIntoButton | step into button
+javax.swing.JButton _stepOutButton | step out button
+javax.swing.JButton _stepOverButton | step over button
+javax.swing.JCheckBox cbStartDate | cb start date
+javax.swing.JCheckBox _ignoreCommentsAndStrings | ignore comments and strings
+javax.swing.JCheckBox jCheckBoxStartNewColumn | j check box start new column
+javax.swing.JCheckBox jCheckBoxStartNewPage | j check box start new page
+javax.swing.JCheckBox jCheckBoxStretchWithOverflow | j check box stretch with overflow
+javax.swing.JCheckBox jCheckBoxStrokeTrough | j check box stroke trough
+javax.swing.JCheckBox jCheckBoxStyledText | j check box styled text
+javax.swing.JCheckBox mileStoneCheckBox1 | mile stone check box 1
+javax.swing.JCheckBox stampFilenames | stamp filenames
+javax.swing.JComboBox jcbStartwith | jcb start with
+javax.swing.JComboBox jComboBoxStretchType | j combo box stretch type
+javax.swing.JComboBox jComboBoxStyle | j combo box style
+javax.swing.JComboBox _strategyBox | strategy box
+javax.swing.JComboBox unitStartChar | unit start char
+javax.swing.JLabel _headerStatus | header status
+javax.swing.JLabel jLabelStartDateExpression | j label start date expression
+javax.swing.JLabel jLabelStatusSQL | j label status sql
+javax.swing.JLabel jLabelStep1 | j label step 1
+javax.swing.JLabel jLabelStep2 | j label step 2
+javax.swing.JLabel jLabelStep3 | j label step 3
+javax.swing.JLabel jLabelStep4 | j label step 4
+javax.swing.JLabel jLabelStep5 | j label step 5
+javax.swing.JLabel jLabelStyle | j label style
+javax.swing.JLabel jlStart | jl start
+javax.swing.JLabel jlStartWith | jl start with
+javax.swing.JLabel jStatusLine | j status line
+javax.swing.JLabel labMountainStyle | lab mountain style
+javax.swing.JLabel labStarts | lab starts
+javax.swing.JLabel labStatus | lab status
+javax.swing.JLabel mileStoneLabel1 | mile stone label 1
+javax.swing.JLabel previousStateLabel | previous state label
+javax.swing.JLabel slopingWallHeightAtStartLabel | sl op ing wall height at start label
+javax.swing.JLabel startDateLabel1 | start date label 1
+javax.swing.JLabel status | status
+javax.swing.JLabel _statusBar | status bar
+javax.swing.JLabel statusBar | status bar
+javax.swing.JLabel xStartLabel | x start label
+javax.swing.JLabel yStartLabel | y start label
+javax.swing.JList lisStartList | lis start list
+javax.swing.JList lisStarts | lis starts
+javax.swing.JMenuItem jMenuItemCopyStyle | j menu item copy style
+javax.swing.JMenuItem jMenuItemPasteStyle | j menu item paste style
+javax.swing.JMenuItem jMenuItemStaticText | j menu item static text
+javax.swing.JMenuItem jMenuItemStyles | j menu item styles
+javax.swing.JMenuItem jMenuItemTransformStaticText | j menu item transform static text
+javax.swing.JMenuItem jmiStop | jmi stop
+javax.swing.JMenuItem jmiStyleAddFavorite | jmi style add favorite
+javax.swing.JMenuItem jmiStyleDelete | jmi style delete
+javax.swing.JMenuItem jmiStyleExport | jmi style export
+javax.swing.JMenuItem jmiStylePlay | jmi style play
+javax.swing.JMenuItem jmiStylePlayRepeat | jmi style play repeat
+javax.swing.JMenuItem jmiStylePlayShuffle | jmi style play shuffle
+javax.swing.JMenuItem jmiStyleProperties | jmi style properties
+javax.swing.JMenuItem jmiStylePush | jmi style push
+javax.swing.JPanel jPanelStep1 | j panel step 1
+javax.swing.JPanel jPanelStep2 | j panel step 2
+javax.swing.JPanel jPanelStep3 | j panel step 3
+javax.swing.JPanel jPanelStep4 | j panel step 4
+javax.swing.JPanel jPanelStep5 | j panel step 5
+javax.swing.JPanel jpStart | jp start
+javax.swing.JPanel jpStartwith | jp start with
+javax.swing.JPanel panStartButtons | pan start buttons
+javax.swing.JPanel panStarts | pan starts
+javax.swing.JPanel panStatus | pan status
+javax.swing.JPanel pStatus | p status
+javax.swing.JPanel _tabsAndStatusPane | tabs and status pane
+javax.swing.JPopupMenu jmenuStyle | jmenu style
+javax.swing.JPopupMenu jPopupMenuDocumentStructure | j popup menu document structure
+javax.swing.JPopupMenu jPopupMenuDocumentStructureBand | j popup menu document structure band
+javax.swing.JPopupMenu jPopupMenuDocumentStructureGroup | j popup menu document structure group
+javax.swing.JPopupMenu _stackPopupMenu | stack popup menu
+javax.swing.JProgressBar statusBar | status bar
+javax.swing.JRadioButtonMenuItem jmiCollectionStyle | jmi collection style
+javax.swing.JScrollPane _stackTraceScroll | stack trace scroll
+javax.swing.JSpinner slopingWallHeightAtStartSpinner | sl op ing wall height at start spinner
+javax.swing.JSpinner xStartSpinner | x start spinner
+javax.swing.JSpinner yStartSpinner | y start spinner
+javax.swing.JTable _stackTable | stack table
+javax.swing.JTextArea _stackTextArea | stack text area
+javax.swing.JTextArea _stackTrace | stack trace
+javax.swing.JTextField jTextFieldStatus | j text field status
+javax.swing.JTextField searchString | search string
+javax.swing.JTextField stampFormat | stamp format
+javax.swing.JTextField startDateField1 | start date field 1
+javax.swing.JTextField texMountainStyle | tex mountain style
+javax.swing.JTextField tf_start | tf start
+javax.swing.JToggleButton jToggleButtonStaticTextTool | j toggle button static text tool
+javax.swing.JToggleButton.ToggleButtonModel boldStyleToggleModel | bold style toggle model
+javax.swing.JToggleButton.ToggleButtonModel italicStyleToggleModel | italic style toggle model
+javax.swing.KeyStroke _currentKeyStroke | current key stroke
+javax.swing.text.Position _lineStartPos | line start pos
+javax.swing.text.Position _startPos | start pos
+javax.swing.text.Position _startPosition | start position
+javax.swing.text.SimpleAttributeSet _debugStyle | debug style
+javax.swing.text.SimpleAttributeSet _defaultStyle | default style
+javax.swing.text.SimpleAttributeSet _errStyle | err style
+javax.swing.text.SimpleAttributeSet _systemErrStyle | system err style
+javax.swing.text.SimpleAttributeSet _systemOutStyle | system out style
+javax.swing.text.SimpleAttributeSet _varCommandLineCmdStyle | var command line cmd style
+javax.swing.text.SimpleAttributeSet _varErrorCommandLineCmdStyle | var error command line cmd style
+javax.swing.Timer stoppedChanging | stopped changing
+long connect_start_time | connect start time
+long content_stream_bps_max | content stream bps max
+long content_stream_bps_min | content stream bps min
+long current_check_start | current check start
+long current_write_start | current write start
+long derived_active_start | derived active start
+long downloadAtLimitStartTime | download at limit start time
+long F_ENDO_STEEL | f endo steel
+long file_start | file start
+long first_piece_start | first piece start
+long F_STEALTH | f stealth
+long identityStart | identity start
+long idle_start | idle start
+long last_incoming_sts_create | last incoming sts create
+long last_piece_start | last piece start
+long last_publish_start | last publish start
+long lastStart | last start
+long last_status_check_time | last status check time
+long last_swarm_stats | last swarm stats
+long last_swarm_stats_calc_time | last swarm stats calc time
+long lDateStart | l date start
+long lStatsRefreshCount | l stats refresh count
+long lStatsRefreshTotalTime | l stats refresh total time
+long lStatsRefreshZeroCount | l stats refresh zero count
+long M_STANDARD | m standard
+long nextScrapeStartTime | next scrape start time
+long originalTimeStamp | original time stamp
+long pageLoadingStart | page loading start
+long plugin_start_time | plugin start time
+long _quickerUpdateStart | quicker update start
+long read_count_start | read count start
+long read_start_time | read start time
+long request_start_time | request start time
+long router_start_time | router start time
+long run_start_time | run start time
+long SCRAPE_DELAY_STOPPED_TORRENTS | scrape delay stopped torrents
+long SCRAPE_INITDELAY_STOPPED_TORRENTS | scrape init delay stopped torrents
+long scrapeStartTime | scrape start time
+long session_start_time | session start time
+long[] STANDARD_PIECE_SIZES | standard piece sizes
+long start | start
+long startedOn | started on
+long start_mono_time | start mono time
+long start_position | start position
+long start_time | start time
+long startTime | start time
+long startValue | start value
+long state | state
+long STATE_FLAG_COMPLETE_NO_DND | state flag complete no dnd
+long STATE_FLAG_HASDND | state flag has dnd
+long[] stats | stats
+long STATS_INIT_PERIOD | stats init period
+long STATS_PERIOD | stats period
+long stats_reset_time | stats reset time
+long stats_start_time | stats start time
+long status_check_count | status check count
+long stepped_mono_time | stepped mono time
+long stepped_time | stepped time
+long STOPPED_ETA | stopped eta
+long[] stores | stores
+long store_time | store time
+long store_timeout | store timeout
+long time_stamp | time stamp
+long _timeStartedSeeding | time started seeding
+long total_starts | total starts
+long uploadAtLimitStartTime | upload at limit start time
+megamek.client.bot.Strategy strategy | strategy
+megamek.client.ui.AWT.StartingPositionDialog startingPositionDialog | starting position dialog
+megamek.client.ui.AWT.widget.MechPanelTabStrip tabStrip | tab strip
+megamek.client.ui.AWT.widget.PMSimpleLabel statusL | status l
+megamek.client.ui.AWT.widget.PMSimpleLabel statusR | status r
+megamek.client.ui.swing.StartingPositionDialog startingPositionDialog | starting position dialog
+megamek.client.ui.swing.widget.MechPanelTabStrip tabStrip | tab strip
+megamek.client.ui.swing.widget.PMSimpleLabel statusL | status l
+megamek.client.ui.swing.widget.PMSimpleLabel statusR | status r
+megamek.common.Coords rulerStart | ruler start
+megamek.common.Coords start | start
+megamek.common.InfernoTracker.Inferno STANDARD_ROUND | standard round
+megamek.common.InfernoTracker.Inferno STANDARD_TURN | standard turn
+megamek.common.loaders.ArmorType STANDARD | standard
+megamek.common.loaders.ArmorType STEALTH | stealth
+megamek.common.loaders.DesignType STANDARD | standard
+megamek.common.loaders.HMVArmorType STANDARD | standard
+megamek.common.loaders.InternalStructureType ENDO_STEEL | endo steel
+megamek.common.loaders.InternalStructureType internalStructureType | internal structure type
+megamek.common.loaders.InternalStructureType STANDARD | standard
+megamek.common.loaders.MyomerType STANDARD | standard
+megamek.common.loaders.MyomerType TRIPLE_STRENGTH | triple strength
+megamek.common.MoveStep step | step
+megamek.common.preference.IPreferenceStore store | store
+megamek.common.preference.PreferenceStore clientPreferenceStore | client preference store
+megamek.common.verifier.Structure structure | structure
+net.sourceforge.ganttproject.chart.ChartOptionGroup myStateDiffOptions | my state diff options
+net.sourceforge.ganttproject.chart.ChartViewState myChartViewState | my chart view state
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter myPreviousStateTaskRectanglePainter | my previous state task rectangle painter
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter myProjectTaskStartPainter | my project task start painter
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter mySupertaskStartPainter | my super task start painter
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter myTaskStartEndRectanglePainter | my task start end rectangle painter
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter myTaskStartRectanglePainter | my task start rectangle painter
+net.sourceforge.ganttproject.document.ProxyDocument.FailureState myExitState | my exit state
+net.sourceforge.ganttproject.document.ProxyDocument.FailureState myFailureState | my failure state
+net.sourceforge.ganttproject.document.ProxyDocument.OpenCopyConfirmationState myConfirmationState | my confirmation state
+net.sourceforge.ganttproject.document.ProxyDocument.ParsingState myParsingState | my parsing state
+net.sourceforge.ganttproject.document.ProxyDocument.SuccessState mySuccessState | my success state
+net.sourceforge.ganttproject.export.ExportFileWizardImpl.State myState | my state
+net.sourceforge.ganttproject.GanttCalendar myAcceptableStart | my acceptable start
+net.sourceforge.ganttproject.GanttCalendar myInitialStart | my initial start
+net.sourceforge.ganttproject.GanttCalendar myNewStartDate | my new start date
+net.sourceforge.ganttproject.GanttCalendar myOldStartDate | my old start date
+net.sourceforge.ganttproject.GanttCalendar myStart | my start
+net.sourceforge.ganttproject.GanttCalendar start | start
+net.sourceforge.ganttproject.GanttCalendar taskStartDate | task start date
+net.sourceforge.ganttproject.GanttExportSettings myStorageOptions | my storage options
+net.sourceforge.ganttproject.GanttPreviousState myPreviousState | my previous state
+net.sourceforge.ganttproject.GanttPreviousState previousState | previous state
+net.sourceforge.ganttproject.gui.GanttStatusBar myStatusBar | my status bar
+net.sourceforge.ganttproject.gui.GanttStatusBar statusBar | status bar
+net.sourceforge.ganttproject.gui.options.model.DateOption myStart | my start
+net.sourceforge.ganttproject.gui.previousState.GanttSaveAsPreviousStateBean previousStateBean | previous state bean
+net.sourceforge.ganttproject.gui.zoom.ZoomManager.ZoomState myCurrentZoomState | my current zoom state
+net.sourceforge.ganttproject.gui.zoom.ZoomManager.ZoomState myNewZoomState | my new zoom state
+net.sourceforge.ganttproject.gui.zoom.ZoomManager.ZoomState[] myZoomStates | my zoom states
+net.sourceforge.ganttproject.importer.ImportFileWizardImpl.State myState | my state
+net.sourceforge.ganttproject.print.PrintPreview.StatusBar statusBar | status bar
+net.sourceforge.ganttproject.task.CustomColumnsStorage customColumnsStorage | custom columns storage
+net.sourceforge.ganttproject.task.CustomColumnsStorage customColumnStorage | custom column storage
+net.sourceforge.ganttproject.task.dependency.TaskDependency.Hardness STRONG | strong
+net.sourceforge.ganttproject.task.TaskContainmentHierarchyFacade STUB | stub
+net.sourceforge.ganttproject.task.TaskImpl.FieldChange myStartChange | my start change
+net.sourceforge.ganttproject.task.TaskLength startDelta | start delta
+net.sourceforge.ganttproject.time.gregorian.GPTimeUnitStack myStack | my stack
+net.sourceforge.ganttproject.time.TimeUnitStack myStack | my stack
+net.sourceforge.ganttproject.time.TimeUnitStack myTimeUnitStack | my time unit stack
+net.sourceforge.ganttproject.util.TextLengthCalculatorImpl.State myState | my state
+org.bouncycastle.asn1.ASN1OctetString octStr | oct str
+org.bouncycastle.asn1.DERGeneralizedTime startDate | start date
+org.bouncycastle.asn1.DERObject END_OF_STREAM | end of stream
+org.bouncycastle.asn1.DERObjectIdentifier QCStatements | qc statements
+org.bouncycastle.asn1.DERObjectIdentifier ST | st
+org.bouncycastle.asn1.DERObjectIdentifier stateOrProvinceName | state or province name
+org.bouncycastle.asn1.DERObjectIdentifier STREET | street
+org.bouncycastle.asn1.x509.KeyPurposeId id_kp_timeStamping | id kp time stamping
+org.bouncycastle.asn1.x509.Time startDate | start date
+org.gudy.azureus2.core3.download.DownloadManagerState download_manager_state | download manager state
+org.gudy.azureus2.core3.download.DownloadManagerState download_state | download state
+org.gudy.azureus2.core3.download.DownloadManagerStats dm_stats | dm stats
+org.gudy.azureus2.core3.download.impl.DownloadManagerStatsImpl stats | stats
+org.gudy.azureus2.core3.global.GlobalManagerStats global_manager_stats | global manager stats
+org.gudy.azureus2.core3.global.GlobalManagerStats global_stats | global stats
+org.gudy.azureus2.core3.global.GlobalManagerStats stats | stats
+org.gudy.azureus2.core3.global.impl.GlobalManagerStatsImpl stats | stats
+org.gudy.azureus2.core3.global.impl.GlobalManagerStatsWriter stats_writer | stats writer
+org.gudy.azureus2.core3.logging.LogIDs STDERR | stderr
+org.gudy.azureus2.core3.logging.LogIDs STDOUT | stdout
+org.gudy.azureus2.core3.peer.PEPeerManagerStats _stats | stats
+org.gudy.azureus2.core3.peer.PEPeerManagerStats stats | stats
+org.gudy.azureus2.core3.stats.StatsWriterPeriodic stats_writer | stats writer
+org.gudy.azureus2.core3.stats.transfer.OverallStats overall_stats | overall stats
+org.gudy.azureus2.core3.stats.transfer.OverallStats stats | stats
+org.gudy.azureus2.core3.stats.transfer.OverallStats totalStats | total stats
+org.gudy.azureus2.core3.tracker.client.TRTrackerAnnouncerListener stopping_tracker_client_listener | stopping tracker client listener
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerStatsImpl stats | stats
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerTorrentStatsImpl stats | stats
+org.gudy.azureus2.core3.util.AEMonitor start_stop_mon | start stop mon
+org.gudy.azureus2.core3.util.AEMonitor state_mon | state mon
+org.gudy.azureus2.core3.util.AEMonitor storage_mon | storage mon
+org.gudy.azureus2.core3.util.AESemaphore started_sem | started sem
+org.gudy.azureus2.core3.util.AESemaphore stopping_sem | stopping sem
+org.gudy.azureus2.core3.util.FrequencyLimitedDispatcher check_seeding_only_state_dispatcher | check seeding only state dispatcher
+org.gudy.azureus2.core3.util.ThreadPool start_pool | start pool
+org.gudy.azureus2.core3.util.TimerEventPeriodic buddy_stats_timer | buddy stats timer
+org.gudy.azureus2.plugins.ddb.DistributedDatabaseKeyStats key_stats | key stats
+org.gudy.azureus2.plugins.download.DownloadActivationEvent activation_state | activation state
+org.gudy.azureus2.plugins.download.DownloadManagerStats dm_stats | dm stats
+org.gudy.azureus2.plugins.download.DownloadManagerStats stats | stats
+org.gudy.azureus2.pluginsimpl.local.download.DownloadStatsImpl download_stats | download stats
+org.gudy.azureus2.pluginsimpl.local.PluginStateImpl state | state
+org.gudy.azureus2.pluginsimpl.remote.download.RPDownloadStats stats | stats
+org.gudy.azureus2.plugins.installer.StandardPlugin[] standard_plugins | standard plugins
+org.gudy.azureus2.plugins.peers.PeerStats stats | stats
+org.gudy.azureus2.plugins.torrent.TorrentAttribute ta_state | ta state
+org.gudy.azureus2.plugins.ui.components.UITextField status | status
+org.gudy.azureus2.plugins.ui.config.StringListParameter online_status_param | online status param
+org.gudy.azureus2.ui.common.StartServer start | start
+org.gudy.azureus2.ui.swt.components.BufferedLabel privateStatus | private status
+org.gudy.azureus2.ui.swt.components.BufferedLabel status | status
+org.gudy.azureus2.ui.swt.components.BufferedLabel torrentStatus | torrent status
+org.gudy.azureus2.ui.swt.components.BufferedTruncatedLabel tracker_status | tracker status
+org.gudy.azureus2.ui.swt.components.shell.StyledShell styledShell | styled shell
+org.gudy.azureus2.ui.swt.mainwindow.MainStatusBar mainStatusBar | main status bar
+org.gudy.azureus2.ui.swt.mainwindow.MainStatusBar statusBar | status bar
+org.gudy.azureus2.ui.swt.OpenTorrentWindow stOpenTorrentWindow | st open torrent window
+org.gudy.azureus2.ui.swt.plugins.UISWTStatusEntry status | status
+org.gudy.azureus2.ui.swt.shells.GCStringPrinter lastStringPrinter | last string printer
+org.gudy.azureus2.ui.swt.StartServer startServer | start server
+org.gudy.azureus2.ui.swt.views.stats.TransferStatsView viewStats | view stats
+org.hsqldb.CompiledStatementExecutor compiledStatementExecutor | compiled statement executor
+org.hsqldb.CompiledStatementManager compiledStatementManager | compiled statement manager
+org.hsqldb.Expression eStart | e start
+org.hsqldb.HsqlNameManager staticManager | static manager
+org.hsqldb.jdbc.jdbcStatement sqlStatement | sql statement
+org.hsqldb.lib.IntValueHashMap rightsStringLookup | rights string lookup
+org.hsqldb.lib.StopWatch stopw | stopw
+org.hsqldb.persist.PersistentStore rowStore | row store
+org.hsqldb.persist.ScaledRAInterface store | store
+org.hsqldb.store.ValuePoolHashMap stringPool | string pool
+org.hsqldb.test.TestPreparedSubQueries.sqlStmt[] stmtArray | stmt array
+org.hsqldb.util.SQLStatements Stmts | stmts
+org.jajuk.base.Style startupStyle | startup style
+org.jajuk.base.Style style | style
+org.jajuk.ui.JajukListener jlistener | jli st ener
+org.jhotdraw.draw.AttributeKey<double[]> STROKE_DASHES | stroke dashes
+org.jhotdraw.draw.AttributeKey<java.awt.Color> STROKE_COLOR | stroke color
+org.jhotdraw.draw.AttributeKey<java.lang.Boolean> IS_STROKE_DASH_FACTOR | is stroke dash factor
+org.jhotdraw.draw.AttributeKey<java.lang.Boolean> IS_STROKE_MITER_LIMIT_FACTOR | is stroke miter limit factor
+org.jhotdraw.draw.AttributeKey<java.lang.Double> STROKE_DASH_PHASE | stroke dash phase
+org.jhotdraw.draw.AttributeKey<java.lang.Double> STROKE_INNER_WIDTH_FACTOR | stroke inner width factor
+org.jhotdraw.draw.AttributeKey<java.lang.Double> STROKE_MITER_LIMIT | stroke miter limit
+org.jhotdraw.draw.AttributeKey<java.lang.Double> STROKE_OPACITY | stroke opacity
+org.jhotdraw.draw.AttributeKey<java.lang.Double> STROKE_WIDTH | stroke width
+org.jhotdraw.draw.AttributeKey<java.lang.Integer> STROKE_CAP | stroke cap
+org.jhotdraw.draw.AttributeKey<java.lang.Integer> STROKE_JOIN | stroke join
+org.jhotdraw.draw.AttributeKey<org.jhotdraw.draw.AttributeKeys.StrokePlacement> STROKE_PLACEMENT | stroke placement
+org.jhotdraw.draw.AttributeKey<org.jhotdraw.draw.AttributeKeys.StrokeType> STROKE_TYPE | stroke type
+org.jhotdraw.draw.AttributeKey<org.jhotdraw.draw.AttributeKeys.Underfill> FILL_UNDER_STROKE | fill under stroke
+org.jhotdraw.draw.AttributeKey<org.jhotdraw.draw.LineDecoration> START_DECORATION | start decoration
+org.jhotdraw.draw.AttributeKey<org.jhotdraw.samples.svg.Gradient> STROKE_GRADIENT | stroke gradient
+org.jhotdraw.draw.Connector startConnector | start connector
+org.jhotdraw.xml.css.StyleManager styleManager | style manager
+org.mozilla.javascript.ObjArray frameStack | frame stack
+org.mozilla.javascript.ObjToIntMap allStrings | all strings
+org.mozilla.javascript.ObjToIntMap itsStrings | its strings
+org.mozilla.javascript.regexp.REBackTrackData backTrackStackTop | back track stack top
+org.mozilla.javascript.regexp.REProgState stateStackTop | state stack top
+org.mozilla.javascript.regexp.SubString emptySubString | empty sub string
+org.mozilla.javascript.UintMap itsStringConstHash | its string const hash
+org.syntax.jedit.SyntaxStyle[] styles | styles
+org.w3c.dom.Node _startNode | start node
+short ACC_STATIC | acc static
+short itsMaxStack | its max stack
+short itsStackTop | its stack top
+thePackage.ColumnStateList columnStateList | column state list
+thePackage.ColumnStateList mColumnStateList | m column state list
+thePackage.EventLogger.EntryStatus nullStatus | null status
+thePackage.SearchTableModel _stm | stm

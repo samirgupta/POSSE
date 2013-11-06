@@ -1,0 +1,13 @@
+CONS DDConditionalEstimator(IIZ) | dd conditional estimator
+CONS DiscreteEstimatorBayes(ID) | discrete estimator bayes
+CONS DiscreteEstimatorFullBayes(IDDQDiscreteEstimatorBayes;QDiscreteEstimatorBayes;D) | discrete estimator full bayes
+CONS DiscreteEstimator(ID) | discrete estimator
+CONS DiscreteEstimator(IZ) | discrete estimator
+CONS DKConditionalEstimator(ID) | dk conditional estimator
+CONS DNConditionalEstimator(ID) | dn conditional estimator
+CONS KDConditionalEstimator(ID) | kd conditional estimator
+CONS KernelEstimator(D) | kernel estimator
+CONS KKConditionalEstimator(D) | kk conditional estimator
+CONS MahalanobisEstimator(QMatrix;DD) | mahalanobis estimator
+CONS NDConditionalEstimator(ID) | nd conditional estimator
+CONS NormalEstimator(D) | normal estimator

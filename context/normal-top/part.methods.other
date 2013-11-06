@@ -1,0 +1,28 @@
+boolean isItemPartOfBasePlan(QSelectable;) | is item part of base plan
+boolean isLabelPartOfBasePlan(QLabel;) | is label part of base plan
+boolean isMultiPartResource() | is multi part resource
+boolean isPieceOfFurniturePartOfBasePlan(QHomePieceOfFurniture;) | is piece of furniture part of base plan
+File disabled_getPartFile() | disabled get part file
+Geometry createWallHorizontalPartGeometry([[FF) | create wall horizontal part geometry
+Geometry createWallTopPartGeometry([[FDDDD) | create wall top part geometry
+Geometry createWallVerticalPartGeometry([[FFDDDDQHomeTexture;) | create wall vertical part geometry
+int getPartCount() | get part count
+int getPartMarker() | get part marker
+JavaliMessagePart getPartClipboard() | get part clipboard
+List<QHomePieceOfFurniture;> getFurnitureNotPartOfBasePlan(QList<QHomePieceOfFurniture;>;) | get furniture not part of base plan
+List<QSelectable;> getItemsNotPartOfBasePlan(QList<+QSelectable;>;) | get items not part of base plan
+Node createRoomPartShape() | create room part shape
+Node createWallPartShape(Z) | create wall part shape
+Part getPartObject() | get part object
+SaveSession savePartOfDatabase(QBibtexDatabase;QMetaData;QFile;QJabRefPreferences;[QBibtexEntry;QString;) | save part of database
+String getTwoByteThreePartVersion(BB) | get two byte three part version
+void createPartControl(Composite parent, IMemento memento) | create part control
+void disabled_setPartFile(QFile;) | disabled set part file
+void multiPartKeywords(QString;) | multi part keywords
+void setPartMarker() | set part marker
+void setPartMarker(I) | set part marker
+void testThreePartKeywords() | test three part keywords
+void testThreePartNames() | test three part names
+void testTwoPartKeywords() | test two part keywords
+void updateRoomPartAppearance(QAppearance;QHomeTexture;ZQInteger;Z) | update room part appearance
+void updateRoomPartGeometry(IQHomeTexture;) | update room part geometry

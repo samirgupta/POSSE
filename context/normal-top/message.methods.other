@@ -1,0 +1,140 @@
+boolean hasLocalisedMessageText(QString;) | has localised message text
+boolean _isknownMessageType(I) | is known message type
+boolean peerSupportsMessageType(QString;) | peer supports message type
+BuddyPluginBuddyMessageHandler getMessageHandler() | get message handler
+Builder<QT;> setMessageType(I) | set message type
+byte[] getMessageVersions() | get message versions
+ClientMessageContext getClientMessageContext() | get client message context
+ClientMessageContext getMessageContext() | get message context
+Comparator<QModelMessage;> getModelMessageComparator() | get model message comparator
+GenericMessageRegistration getMessageRegistration() | get message registration
+GenericMessageRegistration registerGenericMessageType(QString;QString;IQGenericMessageHandler;) | register generic message type
+IMessage[] getMessageHistory() | get message history
+IncomingMessageQueue getIncomingMessageQueue() | get incoming message queue
+int getMaximumMessageSize() | get maximum message size
+int getMessageCount() | get message count
+int getMessageCounterHistoryDayLimit() | get message counter history day limit
+int getMessageId() | get message id
+int getMessageInCount() | get message in count
+int getMessageOutCount() | get message out count
+int getMessageType() | get message type
+int getMessageType(QDirectByteBuffer;) | get message type
+int getUnreadMessageCount() | get unread message count
+int midiMessageLength(I) | midi message length
+int openMessageBox(QShell;IIQString;QString;) | open message box
+int openMessageBox(QShell;IQString;[QString;) | open message box
+int openMessageBox(QShell;IQString;QString;) | open message box
+int showMessageBox(QComponent;QString;QString;II) | show message box
+int styleFromMessageType(I) | style from message type
+java.lang.String formatMessageString(QJUserDetails;QJSystemDetails;JQjava.lang.String;Z) | format message string
+JMessagePane getTabbedMessagePane() | get tabbed message pane
+JMOSSendMessageDlg getMessageWindow(I) | get message window
+long getLastMessagePending() | get last message pending
+long getLastMessageReceivedTime() | get last message received time
+long getMessageSequence() | get message sequence
+long getTimeSinceLastDataMessageSent() | get time since last data message sent
+long showMessageBox(QString;QString;J) | show message box
+Message createMessageRecord(OutboxEnvelope envelope, SRInfo srInfo) | create message record
+MessageFormat getMessageFormat(QString;) | get message format
+MessageHandler getMessageHandler() | get message handler
+MessageManager getMessageManager() | get message manager
+Object[] getAllMessageWindows() | get all message windows
+OutgoingMessageQueue getOutgoingMessageQueue() | get outgoing message queue
+String getExceptionMessage_MySQL(QException;) | get exception message my sql
+String getLocalisedMessageText(QString;) | get localised message text
+String getLocalisedMessageText(QString;[QString;) | get localised message text
+String getMessage0(QString;) | get message 0
+String getMessage1(QString;QObject;) | get message 1
+String getMessage2(QString;QObject;QObject;) | get message 2
+String getMessage3(QString;QObject;QObject;QObject;) | get message 3
+String getMessage4(QString;QObject;QObject;QObject;QObject;) | get message 4
+String getMessageByCode(I) | get message by code
+String getMessageByWinerrCode(I) | get message by win err code
+String getMessageID() | get message id
+String[] getMessageIDs() | get message ids
+String getMessageInFragmentDetails() | get message in fragment details
+String getMessageText(QString;) | get message text
+String getMessageText(QString;[QString;) | get message text
+String getMessageText(QString;QString;) | get message text
+String getMessageTypeID() | get message type id
+String getNestedExceptionMessageAndStack(QThrowable;) | get nested exception message and stack
+String MidiMessageToString(QMidiMessage;) | midi message to string
+String statusMessagePrefix() | status message prefix
+Thing setWsdlOutputMessageParts() | set wsdl output message parts
+void addMessageListener(MessageListener l) | add message listener
+void addMessageListener(QBrowserMessageListener;) | add message listener
+void addMessageListener(QVuzeBuddyMessageListener;) | add message listener
+void addToMessageHistory(QString;I) | add to message history
+void buddyMessageSent(IZ) | buddy message sent
+void buildNotificationMessageGui(QString;QString;) | build notification message gui
+void checkMaxMessageSize(I) | check max message size
+void checkMessagePending(I) | check message pending
+void deregisterMessageType(QMessage;) | deregister message type
+void disableCurrentTabMessageIcon() | disable current tab message icon
+void displayMessageAndExit(QString;) | display message and exit
+void enableEnhancedMessageProcessing(Z) | enable enhanced message processing
+void FreeMindJabberMessageListener(QMapSharingController;) | free mind jabber message listener
+void initializePlatformClientMessageContext() | initialize platform client message context
+void integrateLocalisedMessageBundle(QProperties;) | integrate localised message bundle
+void integrateLocalisedMessageBundle(QResourceBundle;) | integrate localised message bundle
+void integrateLocalisedMessageBundle(QString;) | integrate localised message bundle
+void logMessageAndPopup(QString;) | log message and popup
+void logMessageAndPopup(QString;QThrowable;) | log message and popup
+void onMessageError(J) | on message error
+void onMessageSent(J) | on message sent
+void pushMessageNow(QPlatformMessage;QPlatformMessengerListener;) | push message now
+void registerForMessageHandling() | register for message handling
+void registerGenericMapPayloadMessageType(QString;) | register generic map payload message type
+void registerMessageHandler() | register message handler
+void registerMessageType(QMessage;) | register message type
+void removeMessageListener(QBrowserMessageListener;) | remove message listener
+void removeMessageListener(QString;) | remove message listener
+void removeMessageListener(QVuzeBuddyMessageListener;) | remove message listener
+void sendMessageBase(QMap;) | send message base
+void sendMessageSupport(QMap;IIQBuddyPluginBuddyReplyListener;) | send message support
+void setMaximumMessageSize(I) | set maximum message size
+void setMessageBundle(QLocale;) | set message bundle
+void setMessageBundle(QString;QString;QString;) | set message bundle
+void setMessageDispatcher(QBrowserMessageDispatcher;) | set message dispatcher
+void setMessageHandler(QMessageHandler;) | set message handler
+void setMessageHandlerToAllConnections(QMessageHandler;) | set message handler to all connections
+void setMessageId(String messageId) | set message id
+void setMessagePending() | set message pending
+void setMessagePending(QBuddyPluginBuddy;QoperationListener;) | set message pending
+void setMessageSequence(J) | set message sequence
+void setMessageSource(MessageSource messageSource) | set message source
+void setMessageType(I) | set message type
+void setMessageWindowHeight(int height) | set message window height
+void setOutgoingMessageHandler(QDummyConnection;) | set outgoing message handler
+void setOutgoingMessageHandler(QMessageHandler;) | set outgoing message handler
+void setStatusMessageColor(QColor;) | set status message color
+void setStatusMessageFont(QFont;) | set status message font
+void showCommentMessageBox([QObject;QString;I) | show comment message box
+void showErrorMessageBox([QObject;QString;I) | show error message box
+void showErrorMessageBox([QObject;QString;QThrowable;I) | show error message box
+void showErrorMessageBoxUsingResourceString([QObject;QString;QThrowable;I) | show error message box using resource string
+void ShowErrorMessageSwingTask(QString;QString;) | show error message swing task
+void ShowInformationMessageSwingTask(QString;[QString;) | show information message swing task
+void showInternalMessageDialog(QComponent;QString;) | show internal message dialog
+void showInternalMessageDialog(QComponent;QString;QString;I) | show internal message dialog
+void showInternalMessageDialog(QComponent;QString;QString;IQIcon;) | show internal message dialog
+void showMessageAlreadyOpen() | show message already open
+void showMessageBox([QObject;IQString;QString;QString;I) | show message box
+void showMessageBox(QString;QString;) | show message box
+void showMessageBoxUsingResourceString([QObject;IQString;QString;I) | show message box using resource string
+void showMessageDialog(QComponent;QString;) | show message dialog
+void showMessageDialog(QComponent;QString;QString;I) | show message dialog
+void showMessageDialog(QComponent;QString;QString;IQIcon;) | show message dialog
+void showMessageDialog(QJComponent;QJComponent;QString;IQJComponent;) | show message dialog
+void showMessageSheet(QComponent;QObject;) | show message sheet
+void showMessageSheet(QComponent;QObject;I) | show message sheet
+void showMessageSheet(QComponent;QObject;IQIcon;QSheetListener;) | show message sheet
+void showMessageSheet(QComponent;QObject;IQSheetListener;) | show message sheet
+void showMessageSheet(QComponent;QObject;QSheetListener;) | show message sheet
+void ShowModelMessageSwingTask(QModelMessage;) | show model message swing task
+void showWarningMessageBox([QObject;QString;I) | show warning message box
+void startMessageProcessing() | start message processing
+void storeMessageSupport(QBuddyPluginBuddyMessage;QString;) | store message support
+void testMessagePropertyFilterDodgyValues() | test message property filter dodgy values
+void testMessageTag1ArgNamePropertyNoScopeAlternateBundle() | test message tag 1 arg name property no scope alternate bundle
+void testValidMessageTypes() | test valid message types

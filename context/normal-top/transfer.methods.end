@@ -1,0 +1,15 @@
+boolean handleDropTransfer(QString;I) | handle drop transfer
+boolean handleDropTransfer(QURL;I) | handle drop transfer
+boolean secureTransfer() | secure transfer
+byte[] readTransfer(QDHTTransportProgressListener;QDHTTransportContact;[B[BJ) | read transfer
+byte[] writeReadTransfer(QDHTTransportProgressListener;QDHTTransportContact;[B[BJ) | write read transfer
+FtpTransfer getLastInitiatedTransfer() | get last initiated transfer
+void abortTransfer() | abort transfer
+void beginDataTransfer() | begin data transfer
+void beginTransfer() | begin transfer
+void blockedTransfer(I) | blocked transfer
+void draggedTransfer([QFile;QString;) | dragged transfer
+void endDataTransfer() | end data transfer
+void startTransfer(QDirEntry;) | start transfer
+void startTransfer(QString;QString;QVector;QConnectionHandler;) | start transfer
+void writeTransfer(QDHTTransportProgressListener;QDHTTransportContact;[B[B[BJ) | write transfer

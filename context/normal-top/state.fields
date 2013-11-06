@@ -1,0 +1,255 @@
+boolean firstLoginStateSync | first login state sync
+boolean isInErrorState | is in error state
+boolean isPreviousState | is previous state
+boolean isStatePersistent | is state persistent
+boolean logStatements | log statements
+boolean maintain_peers_state | maintain peers state
+byte diversification_state | diversification state
+byte[] engineState | engine state
+com.aelitis.azureus.core.proxy.AEProxyState proxy_connect_state | proxy connect state
+com.aelitis.azureus.core.proxy.AEProxyState proxy_read_state | proxy read state
+com.aelitis.azureus.core.proxy.AEProxyState proxy_write_state | proxy write state
+com.aelitis.azureus.core.proxy.socks.impl.AESocksProxyPlugableConnectionDefault.proxyStateRelayData relay_data_state | relay data state
+com.aelitis.azureus.util.JSFunctionParametersParser.ParserState currentState | current state
+com.aelitis.azureus.util.JSFunctionParametersParser.ParserState previousState | previous state
+com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController.BackgroundImageWizardStepState imageChoiceStepState | image choice step state
+com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController.BackgroundImageWizardStepState imageOriginStepState | image origin step state
+com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController.BackgroundImageWizardStepState imageScaleStepState | image scale step state
+com.eteks.sweethome3d.viewcontroller.HomeController3D.CameraControllerState cameraState | camera state
+com.eteks.sweethome3d.viewcontroller.HomeController3D.CameraControllerState observerCameraState | observer camera state
+com.eteks.sweethome3d.viewcontroller.HomeController3D.CameraControllerState topCameraState | top camera state
+com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController.ImportedFurnitureWizardStepState furnitureAttributesStepState | furniture attributes step state
+com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController.ImportedFurnitureWizardStepState furnitureIconStepState | furniture icon step state
+com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController.ImportedFurnitureWizardStepState furnitureModelStepState | furniture model step state
+com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController.ImportedFurnitureWizardStepState furnitureOrientationStepState | furniture orientation step state
+com.eteks.sweethome3d.viewcontroller.ImportedTextureWizardController.ImportedTextureWizardStepState textureAttributesStepState | texture attributes step state
+com.eteks.sweethome3d.viewcontroller.ImportedTextureWizardController.ImportedTextureWizardStepState textureImageStepState | texture image step state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState cameraPitchRotationState | camera pitch rotation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState cameraYawRotationState | camera yaw rotation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState dimensionLineCreationState | dimension line creation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState dimensionLineDrawingState | dimension line drawing state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState dimensionLineOffsetState | dimension line offset state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState dimensionLineResizeState | dimension line resize state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState dragAndDropState | drag and drop state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState labelCreationState | label creation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureElevationState | piece of furniture elevation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureHeightState | piece of furniture height state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureNameOffsetState | piece of furniture name offset state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureResizeState | piece of furniture resize state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureRotationState | piece of furniture rotation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState previousState | previous state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState rectangleSelectionState | rectangle selection state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState roomAreaOffsetState | room area offset state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState roomCreationState | room creation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState roomDrawingState | room drawing state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState roomNameOffsetState | room name offset state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState roomResizeState | room resize state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState selectionMoveState | selection move state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState selectionState | selection state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState state | state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState wallCreationState | wall creation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState wallDrawingState | wall drawing state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState wallResizeState | wall resize state
+com.eteks.sweethome3d.viewcontroller.WizardController.WizardControllerStepState stepState | step state
+double dState | d state
+double iState | i state
+edu.rice.cs.drjava.config.IntegerOption WINDOW_STATE | window state
+edu.rice.cs.drjava.config.StringOption DIALOG_AUTOIMPORT_STATE | dialog autoimport state
+edu.rice.cs.drjava.config.StringOption DIALOG_CLIPBOARD_HISTORY_STATE | dialog clipboard history state
+edu.rice.cs.drjava.config.StringOption DIALOG_COMPLETE_WORD_STATE | dialog complete word state
+edu.rice.cs.drjava.config.StringOption DIALOG_DEBUGFRAME_STATE | dialog debug frame state
+edu.rice.cs.drjava.config.StringOption DIALOG_EDITEXTERNALPROCESS_STATE | dialog edite xternal process state
+edu.rice.cs.drjava.config.StringOption DIALOG_EXTERNALPROCESS_STATE | dialog external process state
+edu.rice.cs.drjava.config.StringOption DIALOG_GOTOFILE_STATE | dialog goto file state
+edu.rice.cs.drjava.config.StringOption DIALOG_JAROPTIONS_STATE | dialog jar options state
+edu.rice.cs.drjava.config.StringOption DIALOG_OPENJAVADOC_STATE | dialog open javadoc state
+edu.rice.cs.drjava.config.StringOption DIALOG_TABBEDPANES_STATE | dialog tabbed panes state
+edu.rice.cs.drjava.model.definitions.reducedmodel.ReducedModelState _state | state
+edu.rice.cs.drjava.model.FileGroupingState _state | state
+edu.rice.cs.drjava.ui.ClipboardHistoryFrame.FrameState _lastState | last state
+edu.rice.cs.drjava.ui.DetachedFrame.FrameState _lastState | last state
+edu.rice.cs.drjava.ui.EditExternalDialog.FrameState _lastState | last state
+edu.rice.cs.drjava.ui.ExecuteExternalDialog.FrameState _lastState | last state
+edu.rice.cs.drjava.ui.JarOptionsDialog.FrameState _lastState | last state
+edu.rice.cs.drjava.ui.predictive.PredictiveInputFrame.FrameState _lastState | last state
+edu.rice.cs.drjava.ui.RegionsTreePanel.IChangeState _changeState | change state
+edu.rice.cs.drjava.ui.RegionsTreePanel.IChangeState DEFAULT_STATE | default state
+edu.rice.cs.util.BalancingStreamTokenizer.State _state | state
+freemind.main.Tools.BooleanHolder booleanHolderForConfirmState | boolean holder for confirm state
+int activation_state | activation state
+int ANY_STATEMENT | any statement
+int changeState | change state
+int COMMIT_STATEMENT | commit statement
+int connection_state | connection state
+int current_peer_state | current peer state
+int currentState | current state
+int dbState | db state
+int DELETE_STATEMENT | delete statement
+int DOUBLE_QUOTE_STATE | double quote state
+int FUNCTION_EXPRESSION_STATEMENT | function expression statement
+int FUNCTION_STATEMENT | function statement
+int iLastState | i last state
+int initialisation_state | initialisation state
+int INSERT_STATEMENT | insert statement
+int INVALID_PREPARED_STATEMENT | invalid prepared statement
+int INVALID_TRANSACTION_STATE_NO_SUBCLASS | invalid transaction state no subclass
+int jdbcStatement_executeUpdate | jdbc statement execute update
+int JDBC_STATEMENT_NOT_RESULTSET | jdbc statement not resultset
+int JDBC_STATEMENT_NOT_ROW_COUNT | jdbc statement not row count
+int keyboardState | keyboard state
+int last_informed_state | last informed state
+int latest_state | latest state
+int message_text_state | message text state
+int myState | my state
+int myStateNumber | my state number
+int myZoomStateIndex | my zoom state index
+int NORMAL_TOKEN_STATE | normal token state
+int NO_TOKEN_STATE | no token state
+int protocol_state | protocol state
+int runningState | running state
+int SCHEMA_STATEMENT | schema statement
+int selection_state | selection state
+int SEQUENCE_STATEMENT | sequence statement
+int serverState | server state
+int SERVER_STATE_CLOSING | server state closing
+int SERVER_STATE_ONLINE | server state online
+int SERVER_STATE_OPENING | server state opening
+int SERVER_STATE_SHUTDOWN | server state shutdown
+int SINGLE_QUOTE_STATE | single quote state
+int SQLSTATE | sql state
+int start_state | start state
+int _state | state
+int state | state
+int stateA | state a
+int STATE_ALLOCATING | state allocating
+int stateArmorType | state armor type
+int stateArmorValue | state armor value
+int stateB | state b
+int stateC | state c
+int stateChassisType | state chassis type
+int STATE_CHECKING | state checking
+int stateConflictFlags | state conflict flags
+int stateCurrentWeight | state current weight
+int stateD | state d
+int STATE_DOWNLOADING | state downloading
+int STATE_DUPLICATE | state duplicate
+int STATE_ERROR | state error
+int STATE_FAULTY | state faulty
+int STATE_FINISHING | state finishing
+int stateGroundMP | state ground mp
+int STATE_INIT | state init
+int STATE_INITIALIZING | state initializing
+int stateJumpMP | state jump mp
+int stateJumpType | state jump type
+int STATE_LENGTH | state length
+int STATE_LISTENING | state listening
+int stateManipulatorTypeLeft | state manipulator type left
+int stateManipulatorTypeRight | state manipulator type right
+int stateMaxWeight | state max weight
+int stateMenPerSquad | state men per squad
+int statementID | statement id
+int statementType | statement type
+int stateMinWeight | state min weight
+int STATE_NON_INIT | state non init
+int STATE_NORMAL | state normal
+int STATE_READY | state ready
+int STATE_RECEIVED_SHARE_REQUEST_PENDING | state received share request pending
+int STATE_SEEDING | state seeding
+int STATE_SENT_SHARE_REQUEST_PENDING | state sent share request pending
+int state_set_by_method | state set by method
+int state_set_via_method | state set via method
+int STATE_SHARING_MAP | state sharing map
+int STATE_START | state start
+int STATE_START_OF_DAY | state start of day
+int STATE_STOPPING | state stopping
+int stateTechBase | state tech base
+int STATE_WAITING | state waiting
+int stateWeightClass | state weight class
+int tracker_state | tracker state
+int WIDGET_STATE_HOVER | widget state hover
+int WIDGET_STATE_NORMAL | widget state normal
+int WIDGET_STATE_NOT_VISIBLE | widget state not visible
+int yy_lexical_state | yy lexical state
+int YY_NO_STATE | yy no state
+int yy_state_dtrans | yy state dtrans
+java.beans.PropertyChangeListener stepStatePropertyChangeListener | step state property change listener
+java.lang.Object myCalculatorState | my calculator state
+java.lang.Object[] read_torrent_state | read torrent state
+java.lang.String AT_RESUME_STATE | at resume state
+java.lang.String CONF_STATE_CONTINUE | conf state continue
+java.lang.String CONF_STATE_INTRO | conf state intro
+java.lang.String CONF_STATE_REPEAT | conf state repeat
+java.lang.String CONF_STATE_SHUFFLE | conf state shuffle
+java.lang.String CONF_STATE_WAS_PLAYING | conf state was playing
+java.lang.String EVENT_MUTE_STATE | event mute state
+java.lang.String lastSqlStatement | last sql statement
+java.lang.String OP_RESIZE_PARAM_STATE_MAXIMIZE | op resize param state maximize
+java.lang.String OP_RESIZE_PARAM_STATE_MINIMIZE | op resize param state minimize
+java.lang.String OP_RESIZE_PARAM_STATE_RESTORE | op resize param state restore
+java.lang.String OP_RESIZE_PARAM_WINDOW_STATE | op resize param window state
+java.lang.String[] SEL_STATE_STRINGS | sel state strings
+java.lang.String sStates | s states
+java.lang.String state | state
+java.lang.String statement | statement
+java.lang.String statementName | statement name
+java.lang.String[] StateNames | state names
+java.lang.String stateTextTypes | state text types
+java.lang.String STATE_TOOLTIP | state tooltip
+java.lang.String T_SQLSTATE | t sql state
+java.lang.String windowState | window state
+java.sql.Statement m_statement | m statement
+java.sql.Statement srcStatement | src statement
+java.sql.Statement sStatement | s statement
+java.sql.Statement statement | statement
+java.util.ArrayList columnStateList | column state list
+java.util.ArrayList<edu.rice.cs.drjava.ui.InteractionsController.ConsoleStateListener> _consoleStateListeners | console state listeners
+java.util.ArrayList myPreviousStates | my previous states
+java.util.ArrayList myPreviousStateTasks | my previous state tasks
+java.util.HashMap paused_states | paused states
+java.util.List global_state_cache_wrappers | global state cache wrappers
+java.util.List myModifiedStateChangeListeners | my modified state change listeners
+java.util.List state_vars | state vars
+java.util.Map global_state_cache | global state cache
+java.util.Map imported_state | imported state
+java.util.Map newEnabledState | new enabled state
+java.util.Map saved_download_manager_state | saved download manager state
+java.util.Map state_map | state map
+java.util.Map txnStatesByOp | txn states by op
+java.util.Stack<edu.rice.cs.util.BalancingStreamTokenizer.State> _stateStack | state stack
+java.util.TreeMap stateIcons | state icons
+javax.swing.JLabel previousStateLabel | previous state label
+long state | state
+long STATE_FLAG_COMPLETE_NO_DND | state flag complete no dnd
+long STATE_FLAG_HASDND | state flag has dnd
+net.sourceforge.ganttproject.chart.ChartOptionGroup myStateDiffOptions | my state diff options
+net.sourceforge.ganttproject.chart.ChartViewState myChartViewState | my chart view state
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter myPreviousStateTaskRectanglePainter | my previous state task rectangle painter
+net.sourceforge.ganttproject.document.ProxyDocument.FailureState myExitState | my exit state
+net.sourceforge.ganttproject.document.ProxyDocument.FailureState myFailureState | my failure state
+net.sourceforge.ganttproject.document.ProxyDocument.OpenCopyConfirmationState myConfirmationState | my confirmation state
+net.sourceforge.ganttproject.document.ProxyDocument.ParsingState myParsingState | my parsing state
+net.sourceforge.ganttproject.document.ProxyDocument.SuccessState mySuccessState | my success state
+net.sourceforge.ganttproject.export.ExportFileWizardImpl.State myState | my state
+net.sourceforge.ganttproject.GanttPreviousState myPreviousState | my previous state
+net.sourceforge.ganttproject.GanttPreviousState previousState | previous state
+net.sourceforge.ganttproject.gui.previousState.GanttSaveAsPreviousStateBean previousStateBean | previous state bean
+net.sourceforge.ganttproject.gui.zoom.ZoomManager.ZoomState myCurrentZoomState | my current zoom state
+net.sourceforge.ganttproject.gui.zoom.ZoomManager.ZoomState myNewZoomState | my new zoom state
+net.sourceforge.ganttproject.gui.zoom.ZoomManager.ZoomState[] myZoomStates | my zoom states
+net.sourceforge.ganttproject.importer.ImportFileWizardImpl.State myState | my state
+net.sourceforge.ganttproject.util.TextLengthCalculatorImpl.State myState | my state
+org.bouncycastle.asn1.DERObjectIdentifier QCStatements | qc statements
+org.bouncycastle.asn1.DERObjectIdentifier stateOrProvinceName | state or province name
+org.gudy.azureus2.core3.download.DownloadManagerState download_manager_state | download manager state
+org.gudy.azureus2.core3.download.DownloadManagerState download_state | download state
+org.gudy.azureus2.core3.util.AEMonitor state_mon | state mon
+org.gudy.azureus2.core3.util.FrequencyLimitedDispatcher check_seeding_only_state_dispatcher | check seeding only state dispatcher
+org.gudy.azureus2.plugins.download.DownloadActivationEvent activation_state | activation state
+org.gudy.azureus2.pluginsimpl.local.PluginStateImpl state | state
+org.gudy.azureus2.plugins.torrent.TorrentAttribute ta_state | ta state
+org.hsqldb.CompiledStatementExecutor compiledStatementExecutor | compiled statement executor
+org.hsqldb.CompiledStatementManager compiledStatementManager | compiled statement manager
+org.hsqldb.jdbc.jdbcStatement sqlStatement | sql statement
+org.mozilla.javascript.regexp.REProgState stateStackTop | state stack top
+thePackage.ColumnStateList columnStateList | column state list
+thePackage.ColumnStateList mColumnStateList | m column state list

@@ -1,0 +1,36 @@
+boolean has_received_initial_pex | has received initial pex
+boolean last_received_was_keepalive | last received was keepalive
+boolean received_bitfield | received bitfield
+com.aelitis.azureus.plugins.net.buddy.BuddyPluginBuddy.fragmentHandlerReceiver receiver | receiver
+com.aelitis.net.udp.uc.PRUDPPacketReceiver receiver | receiver
+int dht_receive_delay | dht receive delay
+int last_data_received_seconds | last data received seconds
+int receive_buffer_size | receive buffer size
+int receive_delay | receive delay
+int RECEIVE_DONE_SEQ_MAX | receive done seq max
+int receive_last_inorder_alt_sequence | receive last in order alt sequence
+int receive_last_inorder_sequence | receive last in order sequence
+int RECEIVE_OUT_OF_ORDER_ACK_LIMIT | receive out of order ack limit
+int RECEIVE_OUT_OF_ORDER_PACKETS_MAX | receive out of order packets max
+int receive_their_last_inorder_sequence | receive their last in order sequence
+int RECEIVE_UNACK_IN_SEQUENCE_LIMIT | receive unack in sequence limit
+int STATE_RECEIVED_SHARE_REQUEST_PENDING | state received share request pending
+java.lang.String received_frag_details | received frag details
+java.lang.Thread receiver | receiver
+java.util.ArrayList received_messages | received messages
+java.util.LinkedList receive_done_sequences | receive done sequences
+java.util.List receive_out_of_order_packets | receive out of order packets
+java.util.Map receiver_map | receiver map
+long current_receive_out_of_order_count | current receive out of order count
+long current_receive_unack_in_sequence_count | current receive unack in sequence count
+long last_data_message_received_time | last data message received time
+long last_data_received_time | last data received time
+long last_message_received_time | last message received time
+long last_reported_total_received_data | last reported total received data
+long last_reported_total_received_discard | last reported total received discard
+long sent_receive_out_of_order_count | sent receive out of order count
+long sent_receive_unack_in_sequence_count | sent receive unack in sequence count
+org.gudy.azureus2.core3.peer.PEPeer firstReceiver | first receiver
+org.gudy.azureus2.core3.util.Average data_receive_speed_no_lan | data receive speed no lan
+org.gudy.azureus2.core3.util.Average protocol_receive_speed_no_lan | protocol receive speed no lan
+org.gudy.azureus2.core3.util.Average receive_speed_for_choking | receive speed for choking

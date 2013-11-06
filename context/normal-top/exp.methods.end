@@ -1,0 +1,13 @@
+boolean isRegExp() | is reg exp
+boolean isRegExp(QScriptable;) | is reg exp
+boolean matchRegExp(QREGlobalData;QRECompiled;[CIIZ) | match reg exp
+Node createRegExp(I) | create reg exp
+Object compileRegExp(QContext;QString;QString;) | compile reg exp
+Object executeRegExp(QContext;QScriptable;QRegExpImpl;QString;[II) | execute reg exp
+RegExp getRegExp(I) | get reg exp
+Scriptable wrapRegExp(QContext;QScriptable;QObject;) | wrap reg exp
+SEList parseTopLevelExp() | parse top level exp
+SExp parseExp() | parse exp
+void addRegExp(I) | add reg exp
+void readRegExp(I) | read reg exp
+void setInstancesFromExp(QExperiment;) | set instances from exp

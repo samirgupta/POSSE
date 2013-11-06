@@ -1,0 +1,2 @@
+ShoppingCoupon addCoupon(long plid, String code, boolean autoCode, String name, String description, int startDateMonth, int startDateDay, int startDateYear, int startDateHour, int startDateMinute, int endDateMonth, int endDateDay, int endDateYear, int endDateHour, int endDateMinute, boolean neverExpire, boolean active, String limitCategories, String limitSkus, double minOrder, double discount, String discountType) | add coupon
+void setCouponMint(CouponBank couponMint) | set coupon mint

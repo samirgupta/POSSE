@@ -1,0 +1,26 @@
+double getEstimatedErrorsForBranch(QInstances;) | get estimated errors for branch
+double getSizeOfBranch() | get size of branch
+Instances instancesDownBranch(IQInstances;) | instances down branch
+int branchInstanceGoesDown(QInstance;) | branch instance goes down
+int getBranch(QDirection;) | get branch
+int getMaxBranchingFactor() | get max branching factor
+int getNumOfBranches() | get num of branches
+NSDictionary branch() | branch
+PredictionNode getChildForBranch(I) | get child for branch
+ReferenceInstances instancesDownBranch(IQInstances;) | instances down branch
+String maxBranchingFactorTipText() | max branching factor tip text
+void buildBranch(QTreeNode;[QString;I) | build branch
+void ExportBranchAction() | export branch action
+void ExportBranchToHTMLAction(QMindMapController;) | export branch to html action
+void growBranch(QDirection;I) | grow branch
+void ImportBranchAction() | import branch action
+void ImportLinkedBranchAction() | import linked branch action
+void ImportLinkedBranchWithoutRootAction() | import linked branch without root action
+void removeBranch(QDirection;) | remove branch
+void repairBranch(QTrieBranch;I) | repair branch
+void selectBranch(QMindMapNode;Z) | select branch
+void selectBranch(QNodeView;Z) | select branch
+void setBranch(QDirection;I) | set branch
+void setChildForBranch(IQPredictionNode;) | set child for branch
+void setCurrentBranch(int moveBranchNo) | set current branch
+void setMaxBranchingFactor(I) | set max branching factor

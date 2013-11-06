@@ -1,0 +1,13 @@
+boolean isOutbid() | is out bid
+Currency establishCurrentBid(QAuctionEntry;) | establish current bid
+Currency getBid() | get bid
+Currency getCurBid() | get cur bid
+Currency getMinBid() | get min bid
+Currency getSnipeBid() | get snipe bid
+Currency getUSCurBid() | get us cur bid
+int placeFinalBid(QCookieJar;QJHTML.Form;QAuctionEntry;QCurrency;I) | place final bid
+String formatBid(QAuctionEntry;QString;) | format bid
+String formatSnipeAndBid(QAuctionEntry;) | format snipe and bid
+void DoBid(QComponent;QAuctionEntry;) | do bid
+void setBid(QCurrency;) | set bid
+void updateHighBid(QAuctionEntry;) | update high bid

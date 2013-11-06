@@ -1,0 +1,16 @@
+Album changeAlbumName(QAlbum;QString;) | change album name
+Album getAlbum() | get album
+Album registerAlbum(QString;) | register album
+Album registerAlbum(QString;QString;) | register album
+int getAlbumYear() | get album year
+String albumToXML(QAlbum;) | album to xml
+String getAlbum() | get album
+String getAlbumName() | get album name
+String logicalAlbumCollectionToXML() | logical album collection to xml
+Track changeTrackAlbum(QTrack;QString;QHashSet;) | change track album
+void playNextAlbum() | play next album
+void playPreviousAlbum() | play previous album
+void populateTreeByAlbum() | populate tree by album
+void setAlbumName(QString;) | set album name
+void setAlbum(QString;) | set album
+void setAlbumYear(I) | set album year

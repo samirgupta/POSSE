@@ -1,0 +1,37 @@
+boolean isGroupHit() | is group hit
+boolean isHit() | is hit
+boolean isHit(II) | is hit
+boolean isHit(QPoint;QDimension;) | is hit
+boolean isMovementHit() | is movement hit
+boolean isSearchHit() | is search hit
+int getBurnRoundsPerHit() | get burn rounds per hit
+int getCritsHit(I) | get crits hit
+int missilesHit(I) | missiles hit
+int missilesHit(II) | missiles hit
+int missilesHit(IIZ) | missiles hit
+int missilesHit(IIZZ) | missiles hit
+TextHitInfo getNextRightHit(int offset, CaretPolicy policy) | get next right hit
+ToHitData getLegAttackBaseToHit(QEntity;QEntity;) | get leg attack base to hit
+ToHitData getSwarmMekBaseToHit(QEntity;QEntity;) | get swarm mek base to hit
+ToHitData toHit(QIGame;) | to hit
+ToHitData toHit(QIGame;IQTargetable;) | to hit
+ToHitData toHit(QIGame;IQTargetable;I) | to hit
+ToHitData toHit(QIGame;IQTargetable;III) | to hit
+ToHitData toHit(QIGame;IQTargetable;IIIZZQEntity;) | to hit
+ToHitData toHit(QIGame;IQTargetable;QCoords;) | to hit
+ToHitData toHit(QIGame;IQTargetable;QMounted;) | to hit
+ToHitData toHit(QIGame;IQTargetable;QMovePath;) | to hit
+ToHitData toHit(QIGame;QMovePath;) | to hit
+ToHitData toHit(QIGame;QTargetable;QCoords;IIZZ) | to hit
+ToHitData toHit(QIGame;Z) | to hit
+Vector applyCriticalHit(QEntity;IQCriticalSlot;Z) | apply critical hit
+void AddCritHit(QString;) | add crit hit
+void addHit() | add hit
+void CritHit(II) | crit hit
+void handleBreakpointHit(QStackFrame;QContext;) | handle breakpoint hit
+void notifySearchConstraintHit(String constraintId) | notify search constraint hit
+void queryCacheHit(QString;QString;) | query cache hit
+void secondLevelCacheHit(QString;) | second level cache hit
+void setGroupHit(Z) | set group hit
+void setHit(Z) | set hit
+void setSearchHit(Z) | set search hit

@@ -1,0 +1,53 @@
+boolean cascadeAssociationNow(QAssociationType;) | cascade association now
+boolean cascadeNow(I) | cascade now
+boolean doCascade(QCascadingAction;) | do cascade
+boolean hasCascades() | has cascades
+boolean reallyDoCascade(QCascadingAction;) | really do cascade
+boolean removeCascadedRow(I) | remove cascaded row
+boolean requiresNoCascadeChecking() | requires no cascade checking
+boolean supportsCascadeDelete() | supports cascade delete
+boolean supportsCircularCascadeDeleteConstraints() | supports circular cascade delete constraints
+CascadeStyle getCascadeStyle() | get cascade style
+CascadeStyle getCascadeStyle(I) | get cascade style
+CascadeStyle getCascadeStyle(QString;) | get cascade style
+CascadeStyle[] getCascadeStyles() | get cascade styles
+CascadeStyle[] getPropertyCascadeStyles() | get property cascade styles
+CascadingAction getCascadeAction() | get cascade action
+int addCascadedRow(I) | add cascaded row
+int decrementCascadeLevel() | decrement cascade level
+int getCascadeLevel() | get cascade level
+int incrementCascadeLevel() | increment cascade level
+String getCascade() | get cascade
+String getCascadeConstraintsString() | get cascade constraints string
+String getDefaultCascade() | get default cascade
+void cascade() | cascade
+void cascadeAfterDelete(QEventSource;QEntityPersister;QObject;QSet;) | cascade after delete
+void cascadeAfterReplicate(QObject;QEntityPersister;QReplicationMode;QEventSource;) | cascade after replicate
+void cascadeAfterSave(QEventSource;QEntityPersister;QObject;QObject;) | cascade after save
+void cascadeAssociation(QObject;QType;QCascadeStyle;QObject;Z) | cascade association
+void cascadeBeforeDelete(QEventSource;QEntityPersister;QObject;QEntityEntry;QSet;) | cascade before delete
+void cascadeBeforeSave(QEventSource;QEntityPersister;QObject;QObject;) | cascade before save
+void cascadeCollectionElements(QObject;QCollectionType;QCascadeStyle;QType;QObject;Z) | cascade collection elements
+void cascadeCollection(QObject;QCascadeStyle;QObject;QCollectionType;) | cascade collection
+void cascadeComponent(QObject;QAbstractComponentType;QObject;) | cascade component
+void cascadeOnFlush(QEventSource;QEntityPersister;QObject;QObject;) | cascade on flush
+void cascadeOnLock(QLockEvent;QEntityPersister;QObject;) | cascade on lock
+void cascadeOnMerge(QEventSource;QEntityPersister;QObject;QMap;) | cascade on merge
+void cascadeOnUpdate(QSaveOrUpdateEvent;QEntityPersister;QObject;) | cascade on update
+void cascadeProperty(QObject;QType;QCascadeStyle;QObject;Z) | cascade property
+void cascade(QEntityPersister;QObject;) | cascade
+void cascade(QEntityPersister;QObject;QObject;) | cascade
+void cascade(QEventSource;QObject;QString;QObject;Z) | cascade
+void cascadeToOne(QObject;QType;QCascadeStyle;QObject;Z) | cascade to one
+void checkCascadeDelete(QSession;QTable;QHashMappedList;QRow;ZQHashSet;) | check cascade delete
+void checkCascadeDropViews(QNumberSequence;Z) | check cascade drop views
+void checkCascadeDropViews(QTable;Z) | check cascade drop views
+void checkCascadeDropViews(QView;Z) | check cascade drop views
+void checkCascadeUpdate(QSession;QTable;QHashMappedList;QRow;[QObject;[IQTable;QHashSet;) | check cascade update
+void MultipleCascadeStyle([QCascadeStyle;) | multiple cascade style
+void noCascade(QEventSource;QObject;QObject;QEntityPersister;I) | no cascade
+void setCascade(QString;) | set cascade
+void setDefaultCascade(QString;) | set default cascade
+void testCascadedTableRangeFilters() | test cascaded table range filters
+void testCascadedTableTableRowFilter() | test cascaded table table row filter
+void validateCascade(QElement;QString;) | validate cascade

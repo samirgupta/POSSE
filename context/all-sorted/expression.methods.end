@@ -1,0 +1,368 @@
+../3-Phrases/3PS:boolean isLogicalExpression(DefaultMutableTreeNode node) | is logical expression
+../3-Phrases/Base_Verb:Expression getRightExpression() | get right expression
+../3-Phrases/Base_Verb:void testVisitBBoxExpression() | test visit b box expression
+../3-Phrases/Base_Verb:void andExpression() | and expression
+../3-Phrases/Base_Verb:Exp SQLPrimaryExpression() | sql primary expression
+../3-Phrases/Base_Verb:String getExpression() | get expression
+../3-Phrases/Base_Verb:void traverseArrayAccessExpression(ArrayAccessExpression aae) | traverse array access expression
+../3-Phrases/drjava2:void evaluateExpression(QSEList;QProjectFileIR;QDocFileListVisitor;) | evaluate expression
+../3-Phrases/hibernate-3.3.1.GA:CONS NotNullExpression(QString;) | not null expression
+../3-Phrases/hibernate-3.3.1.GA:CONS ExistsSubqueryExpression(QString;QDetachedCriteria;) | exists subquery expression
+../3-Phrases/hibernate-3.3.1.GA:CONS SubqueryExpression(QString;QString;QDetachedCriteria;) | subquery expression
+../3-Phrases/hibernate-3.3.1.GA:CONS SizeExpression(QString;IQString;) | size expression
+../3-Phrases/hibernate-3.3.1.GA:CONS IdentifierEqExpression(QObject;) | identifier eq expression
+../3-Phrases/hibernate-3.3.1.GA:CONS AbstractEmptinessExpression(QString;) | abstract emptiness expression
+../3-Phrases/hibernate-3.3.1.GA:CONS BetweenExpression(QString;QObject;QObject;) | between expression
+../3-Phrases/hibernate-3.3.1.GA:CONS EmptyExpression(QString;) | empty expression
+../3-Phrases/hibernate-3.3.1.GA:CONS IlikeExpression(QString;QObject;) | ilike expression
+../3-Phrases/hibernate-3.3.1.GA:CONS IlikeExpression(QString;QString;QMatchMode;) | ilike expression
+../3-Phrases/hibernate-3.3.1.GA:CONS SimpleSubqueryExpression(QObject;QString;QString;QDetachedCriteria;) | simple subquery expression
+../3-Phrases/hibernate-3.3.1.GA:CONS NotEmptyExpression(QString;) | not empty expression
+../3-Phrases/hibernate-3.3.1.GA:CONS InExpression(QString;[QObject;) | in expression
+../3-Phrases/hibernate-3.3.1.GA:CONS SimpleExpression(QString;QObject;QString;) | simple expression
+../3-Phrases/hibernate-3.3.1.GA:CONS SimpleExpression(QString;QObject;QString;Z) | simple expression
+../3-Phrases/hibernate-3.3.1.GA:CONS PropertyExpression(QString;QString;QString;) | property expression
+../3-Phrases/hibernate-3.3.1.GA:CONS LogicalExpression(QCriterion;QCriterion;QString;) | logical expression
+../3-Phrases/hibernate-3.3.1.GA:CONS PropertySubqueryExpression(QString;QString;QString;QDetachedCriteria;) | property subquery expression
+../3-Phrases/hibernate-3.3.1.GA:CONS NullExpression(QString;) | null expression
+../3-Phrases/hibernate-3.3.1.GA:CONS NotExpression(QCriterion;) | not expression
+../3-Phrases/hibernate-3.3.1.GA:CONS LikeExpression(QString;QString;QCharacter;Z) | like expression
+../3-Phrases/hibernate-3.3.1.GA:CONS LikeExpression(QString;QString;) | like expression
+../3-Phrases/hibernate-3.3.1.GA:CONS LikeExpression(QString;QString;QMatchMode;) | like expression
+../3-Phrases/hibernate-3.3.1.GA:CONS LikeExpression(QString;QString;QMatchMode;QCharacter;Z) | like expression
+../3-Phrases/hibernate-3.3.1.GA:AST processEqualityExpression(QAST;) | process equality expression
+../3-Phrases/hibernate-3.3.1.GA:void resolveSelectExpression(QAST;) | resolve select expression
+../3-Phrases/hibernate-3.3.1.GA:AST getFirstSelectExpression() | get first select expression
+../3-Phrases/hibernate-3.3.1.GA:void resolveSelectExpression() | resolve select expression
+../3-Phrases/hibernate-3.3.1.GA:AST getFirstSelectExpression() | get first select expression
+../3-Phrases/hibernate-3.3.1.GA:AST getFirstSelectExpression() | get first select expression
+../3-Phrases/hibernate-3.3.1.GA:void closeExpression(QQueryTranslatorImpl;QString;) | close expression
+../3-Phrases/hibernate-3.3.1.GA:void openExpression(QQueryTranslatorImpl;QString;) | open expression
+../3-Phrases/hibernate-3.3.1.GA:void doPathExpression(QString;QQueryTranslatorImpl;) | do path expression
+../3-Phrases/hibernate-3.3.1.GA:boolean continuePathExpression(QString;QQueryTranslatorImpl;) | continue path expression
+../3-Phrases/hsqldb:Expression resolveOrderByExpression(QExpression;QSelect;QHsqlArrayList;) | resolve order by expression
+../3-Phrases/hsqldb:Expression parseExpression() | parse expression
+../3-Phrases/hsqldb:Expression readCaseExpression() | read case expression
+../3-Phrases/hsqldb:Expression readCaseWhenExpression() | read case when expression
+../3-Phrases/hsqldb:Expression readCastExpression() | read cast expression
+../3-Phrases/hsqldb:Expression readColumnExpression() | read column expression
+../3-Phrases/hsqldb:Expression readConcatExpression() | read concat expression
+../3-Phrases/hsqldb:Expression readNullIfExpression() | read null if expression
+../3-Phrases/hsqldb:Expression readCoalesceExpression() | read coalesce expression
+../3-Phrases/hsqldb:Expression readExtractExpression() | read extract expression
+../3-Phrases/hsqldb:Expression readPositionExpression() | read position expression
+../3-Phrases/hsqldb:Expression readSubstringExpression() | read substring expression
+../3-Phrases/hsqldb:Expression readSequenceExpression() | read sequence expression
+../3-Phrases/hsqldb:Expression readTrimExpression() | read trim expression
+../3-Phrases/hsqldb:void setDefaultExpression(IQExpression;) | set default expression
+../3-Phrases/hsqldb:Expression processCreateDefaultExpression(III) | process create default expression
+../3-Phrases/hsqldb:void setColDefaultExpression(IQExpression;) | set col default expression
+../3-Phrases/hsqldb:Expression getDefaultExpression() | get default expression
+../3-Phrases/hsqldb:void setDefaultExpression(QExpression;) | set default expression
+../3-Phrases/hsqldb:void setLeftExpression(QExpression;) | set left expression
+../3-Phrases/hsqldb:void setRightExpression(QExpression;) | set right expression
+../3-Phrases/hsqldb:Expression getRightExpression() | get right expression
+../3-Phrases/iReport:java.lang.String getExpression() | get expression
+../3-Phrases/iReport:void setExpression(Qjava.lang.String;) | set expression
+../3-Phrases/iReport:java.lang.String getInitialValueExpression() | get initial value expression
+../3-Phrases/iReport:void setInitialValueExpression(Qjava.lang.String;) | set initial value expression
+../3-Phrases/iReport:java.lang.String getExpression() | get expression
+../3-Phrases/iReport:void setExpression(Qjava.lang.String;) | set expression
+../3-Phrases/iReport:java.lang.String getGroupExpression() | get group expression
+../3-Phrases/iReport:void setGroupExpression(Qjava.lang.String;) | set group expression
+../3-Phrases/iReport:java.lang.String getImageExpression() | get image expression
+../3-Phrases/iReport:void setImageExpression(Qjava.lang.String;) | set image expression
+../3-Phrases/iReport:java.lang.String getAnchorNameExpression() | get anchor name expression
+../3-Phrases/iReport:void setAnchorNameExpression(Qjava.lang.String;) | set anchor name expression
+../3-Phrases/iReport:java.lang.String getHyperlinkReferenceExpression() | get hyperlink reference expression
+../3-Phrases/iReport:void setHyperlinkReferenceExpression(Qjava.lang.String;) | set hyperlink reference expression
+../3-Phrases/iReport:java.lang.String getHyperlinkAnchorExpression() | get hyperlink anchor expression
+../3-Phrases/iReport:void setHyperlinkAnchorExpression(Qjava.lang.String;) | set hyperlink anchor expression
+../3-Phrases/iReport:java.lang.String getHyperlinkPageExpression() | get hyperlink page expression
+../3-Phrases/iReport:void setHyperlinkPageExpression(Qjava.lang.String;) | set hyperlink page expression
+../3-Phrases/iReport:java.lang.String getDefaultValueExpression() | get default value expression
+../3-Phrases/iReport:void setDefaultValueExpression(Qjava.lang.String;) | set default value expression
+../3-Phrases/iReport:void setImageExpression(Qjava.lang.String;) | set image expression
+../3-Phrases/iReport:java.lang.String getClassExpression() | get class expression
+../3-Phrases/iReport:void setClassExpression(Qjava.lang.String;) | set class expression
+../3-Phrases/iReport:java.lang.String getAnchorNameExpression() | get anchor name expression
+../3-Phrases/iReport:void setAnchorNameExpression(Qjava.lang.String;) | set anchor name expression
+../3-Phrases/iReport:java.lang.String getHyperlinkAnchorExpression() | get hyperlink anchor expression
+../3-Phrases/iReport:void setHyperlinkAnchorExpression(Qjava.lang.String;) | set hyperlink anchor expression
+../3-Phrases/iReport:java.lang.String getHyperlinkPageExpression() | get hyperlink page expression
+../3-Phrases/iReport:void setHyperlinkPageExpression(Qjava.lang.String;) | set hyperlink page expression
+../3-Phrases/iReport:java.lang.String getHyperlinkReferenceExpression() | get hyperlink reference expression
+../3-Phrases/iReport:void setHyperlinkReferenceExpression(Qjava.lang.String;) | set hyperlink reference expression
+../3-Phrases/iReport:java.lang.String getPrintWhenExpression() | get print when expression
+../3-Phrases/iReport:void setPrintWhenExpression(Qjava.lang.String;) | set print when expression
+../3-Phrases/iReport:java.lang.String getConnectionExpression() | get connection expression
+../3-Phrases/iReport:void setConnectionExpression(Qjava.lang.String;) | set connection expression
+../3-Phrases/iReport:java.lang.String getDataSourceExpression() | get data source expression
+../3-Phrases/iReport:void setDataSourceExpression(Qjava.lang.String;) | set data source expression
+../3-Phrases/iReport:java.lang.String getParametersMapExpression() | get parameters map expression
+../3-Phrases/iReport:void setParametersMapExpression(Qjava.lang.String;) | set parameters map expression
+../3-Phrases/iReport:java.lang.String getSubreportExpression() | get subreport expression
+../3-Phrases/iReport:void setSubreportExpression(Qjava.lang.String;) | set subreport expression
+../3-Phrases/iReport:java.lang.String getPrintWhenExpression() | get print when expression
+../3-Phrases/iReport:void setPrintWhenExpression(Qjava.lang.String;) | set print when expression
+../3-Phrases/iReport:java.lang.String getAnchorNameExpression() | get anchor name expression
+../3-Phrases/iReport:void setAnchorNameExpression(Qjava.lang.String;) | set anchor name expression
+../3-Phrases/iReport:java.lang.String getHyperlinkReferenceExpression() | get hyperlink reference expression
+../3-Phrases/iReport:void setHyperlinkReferenceExpression(Qjava.lang.String;) | set hyperlink reference expression
+../3-Phrases/iReport:java.lang.String getHyperlinkAnchorExpression() | get hyperlink anchor expression
+../3-Phrases/iReport:void setHyperlinkAnchorExpression(Qjava.lang.String;) | set hyperlink anchor expression
+../3-Phrases/iReport:java.lang.String getHyperlinkPageExpression() | get hyperlink page expression
+../3-Phrases/iReport:void setHyperlinkPageExpression(Qjava.lang.String;) | set hyperlink page expression
+../3-Phrases/iReport:String getAnchorNameExpression() | get anchor name expression
+../3-Phrases/iReport:String getHyperlinkAnchorExpression() | get hyperlink anchor expression
+../3-Phrases/iReport:String getHyperlinkPageExpression() | get hyperlink page expression
+../3-Phrases/iReport:String getHyperlinkReferenceExpression() | get hyperlink reference expression
+../3-Phrases/iReport:void setAnchorNameExpression(QString;) | set anchor name expression
+../3-Phrases/iReport:void setHyperlinkAnchorExpression(QString;) | set hyperlink anchor expression
+../3-Phrases/iReport:void setHyperlinkPageExpression(QString;) | set hyperlink page expression
+../3-Phrases/iReport:void setHyperlinkReferenceExpression(QString;) | set hyperlink reference expression
+../3-Phrases/iReport:String writeChartExpression(QChartReportElement;) | write chart expression
+../3-Phrases/iReport:String getKeyExpression() | get key expression
+../3-Phrases/iReport:void setKeyExpression(QString;) | set key expression
+../3-Phrases/iReport:String getValueExpression() | get value expression
+../3-Phrases/iReport:void setValueExpression(QString;) | set value expression
+../3-Phrases/iReport:String getLabelExpression() | get label expression
+../3-Phrases/iReport:void setLabelExpression(QString;) | set label expression
+../3-Phrases/iReport:String getTitleExpression() | get title expression
+../3-Phrases/iReport:void setTitleExpression(QString;) | set title expression
+../3-Phrases/iReport:String getXAxisLabelExpression() | get x axis label expression
+../3-Phrases/iReport:void setXAxisLabelExpression(QString;) | set x axis label expression
+../3-Phrases/iReport:String getYAxisLabelExpression() | get y axis label expression
+../3-Phrases/iReport:void setYAxisLabelExpression(QString;) | set y axis label expression
+../3-Phrases/iReport:String getTimeAxisLabelExpression() | get time axis label expression
+../3-Phrases/iReport:void setTimeAxisLabelExpression(QString;) | set time axis label expression
+../3-Phrases/iReport:String getValueAxisLabelExpression() | get value axis label expression
+../3-Phrases/iReport:void setValueAxisLabelExpression(QString;) | set value axis label expression
+../3-Phrases/iReport:String getSeriesExpression() | get series expression
+../3-Phrases/iReport:void setSeriesExpression(QString;) | set series expression
+../3-Phrases/iReport:String getXValueExpression() | get x value expression
+../3-Phrases/iReport:void setXValueExpression(QString;) | set x value expression
+../3-Phrases/iReport:String getYValueExpression() | get y value expression
+../3-Phrases/iReport:void setYValueExpression(QString;) | set y value expression
+../3-Phrases/iReport:String getZValueExpression() | get z value expression
+../3-Phrases/iReport:void setZValueExpression(QString;) | set z value expression
+../3-Phrases/iReport:String getSeriesExpression() | get series expression
+../3-Phrases/iReport:void setSeriesExpression(QString;) | set series expression
+../3-Phrases/iReport:String getCategoryExpression() | get category expression
+../3-Phrases/iReport:void setCategoryExpression(QString;) | set category expression
+../3-Phrases/iReport:String getValueExpression() | get value expression
+../3-Phrases/iReport:void setValueExpression(QString;) | set value expression
+../3-Phrases/iReport:String getLabelExpression() | get label expression
+../3-Phrases/iReport:void setLabelExpression(QString;) | set label expression
+../3-Phrases/iReport:String getSeriesExpression() | get series expression
+../3-Phrases/iReport:void setSeriesExpression(QString;) | set series expression
+../3-Phrases/iReport:String getLabelExpression() | get label expression
+../3-Phrases/iReport:void setLabelExpression(QString;) | set label expression
+../3-Phrases/iReport:String getXValueExpression() | get x value expression
+../3-Phrases/iReport:void setXValueExpression(QString;) | set x value expression
+../3-Phrases/iReport:String getYValueExpression() | get y value expression
+../3-Phrases/iReport:void setYValueExpression(QString;) | set y value expression
+../3-Phrases/iReport:String getCategoryAxisLabelExpression() | get category axis label expression
+../3-Phrases/iReport:void setCategoryAxisLabelExpression(QString;) | set category axis label expression
+../3-Phrases/iReport:String getValueAxisLabelExpression() | get value axis label expression
+../3-Phrases/iReport:void setValueAxisLabelExpression(QString;) | set value axis label expression
+../3-Phrases/iReport:String getSeriesExpression() | get series expression
+../3-Phrases/iReport:void setSeriesExpression(QString;) | set series expression
+../3-Phrases/iReport:String getValueExpression() | get value expression
+../3-Phrases/iReport:void setValueExpression(QString;) | set value expression
+../3-Phrases/iReport:String getLabelExpression() | get label expression
+../3-Phrases/iReport:void setLabelExpression(QString;) | set label expression
+../3-Phrases/iReport:String getTimePeriodExpression() | get time period expression
+../3-Phrases/iReport:void setTimePeriodExpression(QString;) | set time period expression
+../3-Phrases/iReport:String getCategoryAxisLabelExpression() | get category axis label expression
+../3-Phrases/iReport:void setCategoryAxisLabelExpression(QString;) | set category axis label expression
+../3-Phrases/iReport:String getValueAxisLabelExpression() | get value axis label expression
+../3-Phrases/iReport:void setValueAxisLabelExpression(QString;) | set value axis label expression
+../3-Phrases/iReport:String getSeriesExpression() | get series expression
+../3-Phrases/iReport:void setSeriesExpression(QString;) | set series expression
+../3-Phrases/iReport:String getDateExpression() | get date expression
+../3-Phrases/iReport:void setDateExpression(QString;) | set date expression
+../3-Phrases/iReport:String getHighExpression() | get high expression
+../3-Phrases/iReport:void setHighExpression(QString;) | set high expression
+../3-Phrases/iReport:String getLowExpression() | get low expression
+../3-Phrases/iReport:void setLowExpression(QString;) | set low expression
+../3-Phrases/iReport:String getOpenExpression() | get open expression
+../3-Phrases/iReport:void setOpenExpression(QString;) | set open expression
+../3-Phrases/iReport:String getCloseExpression() | get close expression
+../3-Phrases/iReport:void setCloseExpression(QString;) | set close expression
+../3-Phrases/iReport:String getVolumeExpression() | get volume expression
+../3-Phrases/iReport:void setVolumeExpression(QString;) | set volume expression
+../3-Phrases/iReport:String getConnectionExpression() | get connection expression
+../3-Phrases/iReport:void setConnectionExpression(QString;) | set connection expression
+../3-Phrases/iReport:String getDataSourceExpression() | get data source expression
+../3-Phrases/iReport:void setDataSourceExpression(QString;) | set data source expression
+../3-Phrases/iReport:String getParametersMapExpression() | get parameters map expression
+../3-Phrases/iReport:void setParametersMapExpression(QString;) | set parameters map expression
+../3-Phrases/iReport:String getSeriesExpression() | get series expression
+../3-Phrases/iReport:void setSeriesExpression(QString;) | set series expression
+../3-Phrases/iReport:String getValueExpression() | get value expression
+../3-Phrases/iReport:void setValueExpression(QString;) | set value expression
+../3-Phrases/iReport:String getLabelExpression() | get label expression
+../3-Phrases/iReport:void setLabelExpression(QString;) | set label expression
+../3-Phrases/iReport:String getStartDateExpression() | get start date expression
+../3-Phrases/iReport:void setStartDateExpression(QString;) | set start date expression
+../3-Phrases/iReport:String getEndDateExpression() | get end date expression
+../3-Phrases/iReport:void setEndDateExpression(QString;) | set end date expression
+../3-Phrases/iReport:String getSeriesExpression() | get series expression
+../3-Phrases/iReport:void setSeriesExpression(QString;) | set series expression
+../3-Phrases/iReport:String getCategoryExpression() | get category expression
+../3-Phrases/iReport:void setCategoryExpression(QString;) | set category expression
+../3-Phrases/iReport:String getValueExpression() | get value expression
+../3-Phrases/iReport:void setValueExpression(QString;) | set value expression
+../3-Phrases/iReport:String getLabelExpression() | get label expression
+../3-Phrases/iReport:void setLabelExpression(QString;) | set label expression
+../3-Phrases/iReport:String getSeriesExpression() | get series expression
+../3-Phrases/iReport:void setSeriesExpression(QString;) | set series expression
+../3-Phrases/iReport:String getValueExpression() | get value expression
+../3-Phrases/iReport:void setValueExpression(QString;) | set value expression
+../3-Phrases/iReport:String getLabelExpression() | get label expression
+../3-Phrases/iReport:void setLabelExpression(QString;) | set label expression
+../3-Phrases/iReport:String getTimePeriodExpression() | get time period expression
+../3-Phrases/iReport:void setTimePeriodExpression(QString;) | set time period expression
+../3-Phrases/iReport:String getSeriesExpression() | get series expression
+../3-Phrases/iReport:void setSeriesExpression(QString;) | set series expression
+../3-Phrases/iReport:String getValueExpression() | get value expression
+../3-Phrases/iReport:void setValueExpression(QString;) | set value expression
+../3-Phrases/iReport:String getLabelExpression() | get label expression
+../3-Phrases/iReport:void setLabelExpression(QString;) | set label expression
+../3-Phrases/iReport:String getStartDateExpression() | get start date expression
+../3-Phrases/iReport:void setStartDateExpression(QString;) | set start date expression
+../3-Phrases/iReport:String getEndDateExpression() | get end date expression
+../3-Phrases/iReport:void setEndDateExpression(QString;) | set end date expression
+../3-Phrases/iReport:String getTimeAxisLabelExpression() | get time axis label expression
+../3-Phrases/iReport:void setTimeAxisLabelExpression(QString;) | set time axis label expression
+../3-Phrases/iReport:String getValueAxisLabelExpression() | get value axis label expression
+../3-Phrases/iReport:void setValueAxisLabelExpression(QString;) | set value axis label expression
+../3-Phrases/iReport:String getSeriesExpression() | get series expression
+../3-Phrases/iReport:void setSeriesExpression(QString;) | set series expression
+../3-Phrases/iReport:String getXValueExpression() | get x value expression
+../3-Phrases/iReport:void setXValueExpression(QString;) | set x value expression
+../3-Phrases/iReport:String getYValueExpression() | get y value expression
+../3-Phrases/iReport:void setYValueExpression(QString;) | set y value expression
+../3-Phrases/iReport:String getZValueExpression() | get z value expression
+../3-Phrases/iReport:void setZValueExpression(QString;) | set z value expression
+../3-Phrases/iReport:String getSeriesExpression() | get series expression
+../3-Phrases/iReport:void setSeriesExpression(QString;) | set series expression
+../3-Phrases/iReport:String getLabelExpression() | get label expression
+../3-Phrases/iReport:void setLabelExpression(QString;) | set label expression
+../3-Phrases/iReport:String getXValueExpression() | get x value expression
+../3-Phrases/iReport:void setXValueExpression(QString;) | set x value expression
+../3-Phrases/iReport:String getYValueExpression() | get y value expression
+../3-Phrases/iReport:void setYValueExpression(QString;) | set y value expression
+../3-Phrases/iReport:String getCategoryAxisLabelExpression() | get category axis label expression
+../3-Phrases/iReport:void setCategoryAxisLabelExpression(QString;) | set category axis label expression
+../3-Phrases/iReport:String getValueAxisLabelExpression() | get value axis label expression
+../3-Phrases/iReport:void setValueAxisLabelExpression(QString;) | set value axis label expression
+../3-Phrases/iReport:String getXAxisLabelExpression() | get x axis label expression
+../3-Phrases/iReport:void setXAxisLabelExpression(QString;) | set x axis label expression
+../3-Phrases/iReport:String getYAxisLabelExpression() | get y axis label expression
+../3-Phrases/iReport:void setYAxisLabelExpression(QString;) | set y axis label expression
+../3-Phrases/iReport:String getCategoryAxisLabelExpression() | get category axis label expression
+../3-Phrases/iReport:void setCategoryAxisLabelExpression(QString;) | set category axis label expression
+../3-Phrases/iReport:String getValueAxisLabelExpression() | get value axis label expression
+../3-Phrases/iReport:void setValueAxisLabelExpression(QString;) | set value axis label expression
+../3-Phrases/iReport:String getTimeAxisLabelExpression() | get time axis label expression
+../3-Phrases/iReport:void setTimeAxisLabelExpression(QString;) | set time axis label expression
+../3-Phrases/iReport:String getValueAxisLabelExpression() | get value axis label expression
+../3-Phrases/iReport:void setValueAxisLabelExpression(QString;) | set value axis label expression
+../3-Phrases/iReport:String getAnchorNameExpression() | get anchor name expression
+../3-Phrases/iReport:void setAnchorNameExpression(QString;) | set anchor name expression
+../3-Phrases/iReport:String getHyperlinkAnchorExpression() | get hyperlink anchor expression
+../3-Phrases/iReport:void setHyperlinkAnchorExpression(QString;) | set hyperlink anchor expression
+../3-Phrases/iReport:String getHyperlinkPageExpression() | get hyperlink page expression
+../3-Phrases/iReport:void setHyperlinkPageExpression(QString;) | set hyperlink page expression
+../3-Phrases/iReport:String getHyperlinkReferenceExpression() | get hyperlink reference expression
+../3-Phrases/iReport:void setHyperlinkReferenceExpression(QString;) | set hyperlink reference expression
+../3-Phrases/iReport:String getSerieExpression() | get serie expression
+../3-Phrases/iReport:void setSerieExpression(QString;) | set serie expression
+../3-Phrases/iReport:String getSelectExpression() | get select expression
+../3-Phrases/iReport:void setSelectExpression(QString;) | set select expression
+../3-Phrases/iReport:java.lang.String getExpression() | get expression
+../3-Phrases/iReport:void setExpression(Qjava.lang.String;) | set expression
+../3-Phrases/iReport:java.lang.String getExpression() | get expression
+../3-Phrases/iReport:void setExpression(Qjava.lang.String;) | set expression
+../3-Phrases/iReport:CONS CustomExpression(QString;) | custom expression
+../3-Phrases/iReport:void setExpression(QString;) | set expression
+../3-Phrases/iReport:String getExpression() | get expression
+../3-Phrases/iReport:java.lang.String getExpression() | get expression
+../3-Phrases/iReport:void setExpression(Qjava.lang.String;) | set expression
+../3-Phrases/Jabref:String getSearchExpression() | get search expression
+../3-Phrases/Jabref:String getSearchExpression() | get search expression
+../3-Phrases/Jabref:CONS SearchExpression(QJabRefPreferences;QHashtable<QString;QString;>;) | search expression
+../3-Phrases/Jabref:void quotedRegularExpression(ZZ) | quoted regular expression
+../3-Phrases/Jabref:void simpleRegularExpression(ZZ) | simple regular expression
+../3-Phrases/Jabref:void searchExpression() | search expression
+../3-Phrases/Jabref:boolean tSearchExpression(QAST;) | t search expression
+../3-Phrases/np:Expression RelationalExpression() | relational expression
+../3-Phrases/prefuse:void visitExpression(QExpression;) | visit expression
+../3-Phrases/prefuse:CONS ColumnExpression(QString;) | column expression
+../3-Phrases/prefuse:CONS FunctionExpression(I) | function expression
+../3-Phrases/prefuse:void visitExpression(QExpression;) | visit expression
+../3-Phrases/prefuse:Expression getMiddleExpression() | get middle expression
+../3-Phrases/prefuse:CONS IfExpression(QPredicate;QExpression;QExpression;) | if expression
+../3-Phrases/prefuse:Expression getThenExpression() | get then expression
+../3-Phrases/prefuse:Expression getElseExpression() | get else expression
+../3-Phrases/prefuse:void setThenExpression(QExpression;) | set then expression
+../3-Phrases/prefuse:void setElseExpression(QExpression;) | set else expression
+../3-Phrases/prefuse:CONS BinaryExpression(IIIQExpression;QExpression;) | binary expression
+../3-Phrases/prefuse:Expression getLeftExpression() | get left expression
+../3-Phrases/prefuse:Expression getRightExpression() | get right expression
+../3-Phrases/prefuse:void setLeftExpression(QExpression;) | set left expression
+../3-Phrases/prefuse:void setRightExpression(QExpression;) | set right expression
+../3-Phrases/prefuse:CONS ArithmeticExpression(IQExpression;QExpression;) | arithmetic expression
+../3-Phrases/prefuse:void visitExpression(QExpression;) | visit expression
+../3-Phrases/prefuse:Expression OrExpression() | or expression
+../3-Phrases/prefuse:Expression XorExpression() | xor expression
+../3-Phrases/prefuse:Expression AndExpression() | and expression
+../3-Phrases/prefuse:Expression EqualityExpression() | equality expression
+../3-Phrases/prefuse:Expression RelationalExpression() | relational expression
+../3-Phrases/prefuse:Expression AdditiveExpression() | additive expression
+../3-Phrases/prefuse:Expression MultiplicativeExpression() | multiplicative expression
+../3-Phrases/prefuse:Expression UnaryExpression() | unary expression
+../3-Phrases/prefuse:Expression PrimaryExpression() | primary expression
+../3-Phrases/prefuse:Expression getExpression() | get expression
+../3-Phrases/prefuse:CONS QueryExpression() | query expression
+../3-Phrases/prefuse:CONS QueryExpression(QString;) | query expression
+../3-Phrases/prefuse:CONS GroupExpression() | group expression
+../3-Phrases/prefuse:CONS GroupExpression(QString;) | group expression
+../3-Phrases/rhino:void generateExpression(QNode;QNode;) | generate expression
+../3-Phrases/rhino:void visitExpression(QNode;I) | visit expression
+../3-Phrases/weka:String getYExpression() | get y expression
+../3-Phrases/weka:void setYExpression(QString;) | set y expression
+../3-Phrases/weka:String getXExpression() | get x expression
+../3-Phrases/weka:void setXExpression(QString;) | set x expression
+../3-Phrases/weka:String sourceExpression(I) | source expression
+../3-Phrases/weka:String sourceExpression(I) | source expression
+../3-Phrases/weka:String sourceExpression(IQInstances;) | source expression
+../3-Phrases/weka:String sourceExpression(IQInstances;) | source expression
+../3-Phrases/weka:String sourceExpression(IQInstances;) | source expression
+../3-Phrases/weka:String sourceExpression(IQInstances;) | source expression
+../3-Phrases/weka:String sourceExpression(IQInstances;) | source expression
+../3-Phrases/weka:String sourceExpression(IQInstances;) | source expression
+../3-Phrases/weka:String sourceExpression(IQInstances;) | source expression
+../3-Phrases/weka:String sourceExpression(IQInstances;) | source expression
+../3-Phrases/weka:double evaluateExpression(QInstance;) | evaluate expression
+../3-Phrases/weka:void evaluateExpression([D) | evaluate expression
+../3-Phrases/weka:String getPostFixExpression() | get post fix expression
+../3-Phrases/weka:Expression getExpression(QNode;QFieldMetaInfo.Optype;QArrayList<QAttribute;>;QTransformationDictionary;) | get expression
+../3-Phrases/weka:Expression getExpression(QString;QNode;QFieldMetaInfo.Optype;QArrayList<QAttribute;>;QTransformationDictionary;) | get expression
+../3-Phrases/weka:String defaultExpression() | default expression
+../3-Phrases/weka:String getExpression() | get expression
+../3-Phrases/weka:void setExpression(QString;) | set expression
+../3-Phrases/weka:void setExpression(QString;) | set expression
+../3-Phrases/weka:String getExpression() | get expression
+../3-Phrases/weka:CONS MathExpression() | math expression
+../3-Phrases/weka:void setExpression(QString;) | set expression
+../3-Phrases/weka:String getExpression() | get expression
+../3-Phrases/weka:String getKernelFactorExpression() | get kernel factor expression
+../3-Phrases/weka:void setKernelFactorExpression(QString;) | set kernel factor expression
+../3-Phrases/weka:void setExpression(QString;) | set expression
+../3-Phrases/weka:String getExpression() | get expression
+../3-Phrases/weka:double evaluateExpression(QInstance;) | evaluate expression
+../3-Phrases/weka:void evaluateExpression([D) | evaluate expression
+../3-Phrases/weka:String getPostFixExpression() | get post fix expression

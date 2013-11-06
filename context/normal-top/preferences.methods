@@ -1,0 +1,25 @@
+DialogView createUserPreferencesView(QUserPreferences;QUserPreferencesController;) | create user preferences view
+IClientPreferences getClientPreferences() | get client preferences
+int[] nrOfReversedPreferences(QInstances;) | nr of reversed preferences
+int[] reversedPreferencesMax(QInstance;) | reversed preferences max
+int[] reversedPreferences(QInstance;) | reversed preferences
+Preferences getPreferences() | get preferences
+UserPreferenceCatalog retrievePreferences(String uuid, UserPreferenceCatalog prefs) | retrieve preferences
+UserPreferences getUserPreferences() | get user preferences
+void addUserPreferencesListener(QUserPreferences;) | add user preferences listener
+void applyPreferences() | apply preferences
+void assertPreferencesEqual(QLengthUnit;ZZZZZFFQUserPreferences;) | assert preferences equal
+void editPreferences() | edit preferences
+void exportPreferences(QString;) | export preferences
+void handlePreferences(QApplicationEvent;) | handle preferences
+void importPreferences(QString;) | import preferences
+void modifyUserPreferences() | modify user preferences
+void preferences() | preferences
+void savePreferences() | save preferences
+void setUserPreferences(QUserPreferences;) | set user preferences
+void testUserPreferencesPanel() | test user preferences panel
+void updateUserPreferencesRecentHomes(QList<QString;>;) | update user preferences recent homes
+void UserPreferencesChangeListener(QFurnitureTable;) | user preferences change listener
+void UserPreferencesChangeListener(QPlanComponent;) | user preferences change listener
+void UserPreferencesPropertiesChangeListener(QHomeController;) | user preferences properties change listener
+void writePreferences(QHomeController;) | write preferences

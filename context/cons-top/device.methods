@@ -1,0 +1,15 @@
+CONS Device() | device
+CONS DeviceItem(QString;QString;QDevice;) | device item
+CONS DeviceList() | device list
+CONS DeviceManager() | device manager
+CONS DeviceNode(QDevice;) | device node
+CONS Device(QNode;) | device
+CONS Device(QString;QString;) | device
+CONS DeviceView() | device view
+CONS DeviceWizard() | device wizard
+CONS MidiDevices(Qjava.awt.Frame;ZQMidi;) | midi devices
+CONS NatPMPDeviceImpl(QNATPMPDeviceAdapter;) | nat pmp device impl
+CONS NatPMPUPnPRootDeviceImpl(QUPnP;QNatPMPDevice;) | nat pmpu pn p root device impl
+CONS NetworkAdminNATDeviceImpl(QUPnPPluginService;) | network admin nat device impl
+CONS UPnPDeviceImpl(QUPnPRootDeviceImpl;QString;QSimpleXMLParserDocumentNode;) | upn p device impl
+CONS UPnPRootDeviceImpl(QUPnPImpl;QNetworkInterface;QInetAddress;QString;QURL;) | upn p root device impl

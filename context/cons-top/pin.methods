@@ -1,0 +1,13 @@
+CONS DHTUDPPacketReplyPing(QDHTTransportUDPImpl;IJQDHTTransportContact;QDHTTransportContact;) | dhtudp packet reply ping
+CONS DHTUDPPacketReplyPing(QDHTUDPPacketNetworkHandler;QInetSocketAddress;QDataInputStream;I) | dhtudp packet reply ping
+CONS DHTUDPPacketRequestPing(QDHTTransportUDPImpl;JQDHTTransportUDPContactImpl;QDHTTransportUDPContactImpl;) | dhtudp packet request ping
+CONS DHTUDPPacketRequestPing(QDHTUDPPacketNetworkHandler;QDataInputStream;JI) | dhtudp packet request ping
+CONS PingGraphic(QScale;QValueFormater;) | ping graphic
+CONS PingSourceStats(QSpeedManagerPingSource;) | ping source stats
+CONS PingSpaceMapper(II) | ping space mapper
+CONS PingSpaceMonitor(IIQTransferMode;) | ping space monitor
+CONS SpeedManagerAlgorithmProviderDHTPing(QSpeedManagerAlgorithmProviderAdapter;) | speed manager algorithm provider dht ping
+CONS SpeedManagerAlgorithmProviderPingMap(QSpeedManagerAlgorithmProviderAdapter;) | speed manager algorithm provider ping map
+CONS SpeedManagerPingMapperImpl(QSpeedManagerImpl;QString;IZZ) | speed manager ping mapper impl
+CONS TestPingSourceImpl(QSpeedManagerAlgorithmProviderAdapter;) | test ping source impl
+CONS TestPingSourceRandom(QSpeedManagerAlgorithmProviderAdapter;) | test ping source random

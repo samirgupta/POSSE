@@ -1,0 +1,6 @@
+CONS ArcDef(QString;DII) | arc def
+CONS Archive(QRRDatabase;) | archive
+CONS Archive(QRrdDb;QArcDef;) | archive
+CONS Archive(QRrdDb;QDataImporter;I) | archive
+CONS ArcState(QArchive;Z) | arc state
+CONS EditArchiveDialog(QFrame;QArcDef;) | edit archive dialog

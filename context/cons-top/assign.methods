@@ -1,0 +1,12 @@
+CONS AssignmentNode(QResourceAssignment;) | assignment node
+CONS AssignmentSpecification(QAST;QQueryable;) | assignment specification
+CONS AssignTradeRouteAction(QFreeColClient;) | assign trade route action
+CONS BooleanAssign(Z) | boolean assign
+CONS ClassAssigner() | class assigner
+CONS ClassAssignerCustomizer() | class assigner customizer
+CONS DeleteAssignmentAction(QResourceManager;QAssignmentContext;QGanttProject;) | delete assignment action
+CONS ResourceAssignmentCollectionImpl(QResourceAssignmentCollectionImpl;) | resource assignment collection impl
+CONS ResourceAssignmentCollectionImpl(QTaskImpl;QResourceManager;) | resource assignment collection impl
+CONS TestResourceAssignments(QString;) | test resource assignments
+CONS UndoableChangeAssignment(QSet<QBibtexEntry;>;QSet<QBibtexEntry;>;) | undoable change assignment
+CONS UndoableChangeAssignment(QSet<QBibtexEntry;>;QSet<QBibtexEntry;>;QGroupTreeNode;) | undoable change assignment

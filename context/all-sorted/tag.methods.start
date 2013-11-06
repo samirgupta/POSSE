@@ -1,0 +1,248 @@
+../3-Phrases/Base_Verb:static TagInfo getTagInfoFromXMLConfiguration(Element renderingInstructions) | tag info get tag info from xml configuration
+../3-Phrases/Base_Verb:SWFVectors tagDefineFont(int id, int numGlyphs) | tag define font
+../3-Phrases/DrawSWF:void tagStartSound(IQSoundInfo;) | tag start sound
+../3-Phrases/DrawSWF:void tagSoundStreamHead(IZZIIZZI) | tag sound stream head
+../3-Phrases/DrawSWF:void tagSoundStreamHead2(IZZIIZZI) | tag sound stream head 2
+../3-Phrases/DrawSWF:void tagSoundStreamBlock([B) | tag sound stream block
+../3-Phrases/DrawSWF:void tagEnd() | tag end
+../3-Phrases/DrawSWF:void tagShowFrame() | tag show frame
+../3-Phrases/DrawSWF:SWFActions tagDoAction() | tag do action
+../3-Phrases/DrawSWF:void tagFreeCharacter(I) | tag free character
+../3-Phrases/DrawSWF:void tagPlaceObject(IIQMatrix;QAlphaTransform;) | tag place object
+../3-Phrases/DrawSWF:void tagRemoveObject(II) | tag remove object
+../3-Phrases/DrawSWF:SWFActions tagPlaceObject2(ZIIIQMatrix;QAlphaTransform;IQString;I) | tag place object 2
+../3-Phrases/DrawSWF:void tagRemoveObject2(I) | tag remove object 2
+../3-Phrases/DrawSWF:void tagFrameLabel(QString;) | tag frame label
+../3-Phrases/DrawSWF:void tagDefineSound(IIIZZI[B) | tag define sound
+../3-Phrases/DrawSWF:void tagDefineButtonSound(IIQSoundInfo;IQSoundInfo;IQSoundInfo;IQSoundInfo;) | tag define button sound
+../3-Phrases/DrawSWF:SWFShape tagDefineShape(IQRect;) | tag define shape
+../3-Phrases/DrawSWF:SWFShape tagDefineShape2(IQRect;) | tag define shape 2
+../3-Phrases/DrawSWF:SWFShape tagDefineShape3(IQRect;) | tag define shape 3
+../3-Phrases/DrawSWF:SWFActions tagDefineButton(IQVector;) | tag define button
+../3-Phrases/DrawSWF:void tagButtonCXForm(IQColorTransform;) | tag button cx form
+../3-Phrases/DrawSWF:SWFActions tagDefineButton2(IZQVector;) | tag define button 2
+../3-Phrases/DrawSWF:void tagSetBackgroundColor(QColor;) | tag set background color
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont(II) | tag define font
+../3-Phrases/DrawSWF:SWFText tagDefineText(IQRect;QMatrix;) | tag define text
+../3-Phrases/DrawSWF:SWFText tagDefineText2(IQRect;QMatrix;) | tag define text 2
+../3-Phrases/DrawSWF:void tagDefineFontInfo(IQString;I[I) | tag define font info
+../3-Phrases/DrawSWF:void tagDefineBitsJPEG2(I[B) | tag define bits jpeg 2
+../3-Phrases/DrawSWF:void tagDefineBitsJPEG2(IQInputStream;) | tag define bits jpeg 2
+../3-Phrases/DrawSWF:void tagDefineBits(I[B) | tag define bits
+../3-Phrases/DrawSWF:void tagJPEGTables([B) | tag jpeg tables
+../3-Phrases/DrawSWF:void tagDefineBitsJPEG3(I[B[B) | tag define bits jpeg 3
+../3-Phrases/DrawSWF:void tagDefineBitsLossless(IIII[QColor;[B) | tag define bits lossless
+../3-Phrases/DrawSWF:void tagDefineBitsLossless2(IIII[QColor;[B) | tag define bits lossless 2
+../3-Phrases/DrawSWF:void tagProtect([B) | tag protect
+../3-Phrases/DrawSWF:void tagDefineTextField(IQString;QString;QRect;IQAlphaColor;IIIIIIII) | tag define text field
+../3-Phrases/DrawSWF:void tagDefineQuickTimeMovie(IQString;) | tag define quick time movie
+../3-Phrases/DrawSWF:SWFTagTypes tagDefineSprite(I) | tag define sprite
+../3-Phrases/DrawSWF:SWFShape tagDefineMorphShape(IQRect;QRect;) | tag define morph shape
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont2(IIQString;IIII[I[I[QRect;[I[I[I) | tag define font 2
+../3-Phrases/DrawSWF:void tagExport([QString;[I) | tag export
+../3-Phrases/DrawSWF:void tagImport(QString;[QString;[I) | tag import
+../3-Phrases/DrawSWF:void tagEnableDebug([B) | tag enable debug
+../3-Phrases/DrawSWF:void tagSerialNumber(QString;) | tag serial number
+../3-Phrases/DrawSWF:void tagGenerator([B) | tag generator
+../3-Phrases/DrawSWF:void tagGeneratorText([B) | tag generator text
+../3-Phrases/DrawSWF:void tagGeneratorCommand([B) | tag generator command
+../3-Phrases/DrawSWF:void tagNameCharacter([B) | tag name character
+../3-Phrases/DrawSWF:void tagGeneratorFont([B) | tag generator font
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont2(IIQString;IIII[I[I[QRect;[I[I[I) | tag define font 2
+../3-Phrases/DrawSWF:CONS TagParser(QSWFTagTypes;) | tag parser
+../3-Phrases/DrawSWF:void tagEnd() | tag end
+../3-Phrases/DrawSWF:void tagShowFrame() | tag show frame
+../3-Phrases/DrawSWF:void tagDefineSound(IIIZZI[B) | tag define sound
+../3-Phrases/DrawSWF:void tagDefineButtonSound(IIQSoundInfo;IQSoundInfo;IQSoundInfo;IQSoundInfo;) | tag define button sound
+../3-Phrases/DrawSWF:void tagStartSound(IQSoundInfo;) | tag start sound
+../3-Phrases/DrawSWF:void tagSoundStreamHead(IZZIIZZI) | tag sound stream head
+../3-Phrases/DrawSWF:void tagSoundStreamHead2(IZZIIZZI) | tag sound stream head 2
+../3-Phrases/DrawSWF:void tagSoundStreamBlock([B) | tag sound stream block
+../3-Phrases/DrawSWF:void tagSerialNumber(QString;) | tag serial number
+../3-Phrases/DrawSWF:void tagGenerator([B) | tag generator
+../3-Phrases/DrawSWF:void tagGeneratorText([B) | tag generator text
+../3-Phrases/DrawSWF:void tagGeneratorCommand([B) | tag generator command
+../3-Phrases/DrawSWF:void tagGeneratorFont([B) | tag generator font
+../3-Phrases/DrawSWF:void tagNameCharacter([B) | tag name character
+../3-Phrases/DrawSWF:void tagDefineBits(I[B) | tag define bits
+../3-Phrases/DrawSWF:void tagJPEGTables([B) | tag jpeg tables
+../3-Phrases/DrawSWF:void tagDefineBitsJPEG3(I[B[B) | tag define bits jpeg 3
+../3-Phrases/DrawSWF:SWFActions tagDoAction() | tag do action
+../3-Phrases/DrawSWF:SWFShape tagDefineShape(IQRect;) | tag define shape
+../3-Phrases/DrawSWF:SWFShape tagDefineShape2(IQRect;) | tag define shape 2
+../3-Phrases/DrawSWF:SWFShape tagDefineShape3(IQRect;) | tag define shape 3
+../3-Phrases/DrawSWF:void tagFreeCharacter(I) | tag free character
+../3-Phrases/DrawSWF:void tagPlaceObject(IIQMatrix;QAlphaTransform;) | tag place object
+../3-Phrases/DrawSWF:SWFActions tagPlaceObject2(ZIIIQMatrix;QAlphaTransform;IQString;I) | tag place object 2
+../3-Phrases/DrawSWF:void tagRemoveObject(II) | tag remove object
+../3-Phrases/DrawSWF:void tagRemoveObject2(I) | tag remove object 2
+../3-Phrases/DrawSWF:void tagSetBackgroundColor(QColor;) | tag set background color
+../3-Phrases/DrawSWF:void tagFrameLabel(QString;) | tag frame label
+../3-Phrases/DrawSWF:SWFTagTypes tagDefineSprite(I) | tag define sprite
+../3-Phrases/DrawSWF:void tagProtect([B) | tag protect
+../3-Phrases/DrawSWF:void tagEnableDebug([B) | tag enable debug
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont(II) | tag define font
+../3-Phrases/DrawSWF:void tagDefineFontInfo(IQString;I[I) | tag define font info
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont2(IIQString;IIII[I[I[QRect;[I[I[I) | tag define font 2
+../3-Phrases/DrawSWF:void tagDefineTextField(IQString;QString;QRect;IQAlphaColor;IIIIIIII) | tag define text field
+../3-Phrases/DrawSWF:SWFText tagDefineText(IQRect;QMatrix;) | tag define text
+../3-Phrases/DrawSWF:SWFText tagDefineText2(IQRect;QMatrix;) | tag define text 2
+../3-Phrases/DrawSWF:SWFActions tagDefineButton(IQVector;) | tag define button
+../3-Phrases/DrawSWF:void tagButtonCXForm(IQColorTransform;) | tag button cx form
+../3-Phrases/DrawSWF:SWFActions tagDefineButton2(IZQVector;) | tag define button 2
+../3-Phrases/DrawSWF:void tagExport([QString;[I) | tag export
+../3-Phrases/DrawSWF:void tagImport(QString;[QString;[I) | tag import
+../3-Phrases/DrawSWF:void tagDefineQuickTimeMovie(IQString;) | tag define quick time movie
+../3-Phrases/DrawSWF:void tagDefineBitsJPEG2(I[B) | tag define bits jpeg 2
+../3-Phrases/DrawSWF:void tagDefineBitsJPEG2(IQInputStream;) | tag define bits jpeg 2
+../3-Phrases/DrawSWF:void tagDefineBitsLossless(IIII[QColor;[B) | tag define bits lossless
+../3-Phrases/DrawSWF:void tagDefineBitsLossless2(IIII[QColor;[B) | tag define bits lossless 2
+../3-Phrases/DrawSWF:SWFShape tagDefineMorphShape(IQRect;QRect;) | tag define morph shape
+../3-Phrases/DrawSWF:void tagEnd() | tag end
+../3-Phrases/DrawSWF:void tagDefineSound(IIIZZI[B) | tag define sound
+../3-Phrases/DrawSWF:void tagDefineButtonSound(IIQSoundInfo;IQSoundInfo;IQSoundInfo;IQSoundInfo;) | tag define button sound
+../3-Phrases/DrawSWF:void tagStartSound(IQSoundInfo;) | tag start sound
+../3-Phrases/DrawSWF:void tagSoundStreamHead(IZZIIZZI) | tag sound stream head
+../3-Phrases/DrawSWF:void tagSoundStreamHead2(IZZIIZZI) | tag sound stream head 2
+../3-Phrases/DrawSWF:void tagSoundStreamBlock([B) | tag sound stream block
+../3-Phrases/DrawSWF:void tagSerialNumber(QString;) | tag serial number
+../3-Phrases/DrawSWF:void tagGenerator([B) | tag generator
+../3-Phrases/DrawSWF:void tagGeneratorText([B) | tag generator text
+../3-Phrases/DrawSWF:void tagGeneratorFont([B) | tag generator font
+../3-Phrases/DrawSWF:void tagGeneratorCommand([B) | tag generator command
+../3-Phrases/DrawSWF:void tagNameCharacter([B) | tag name character
+../3-Phrases/DrawSWF:void tagDefineBits(I[B) | tag define bits
+../3-Phrases/DrawSWF:void tagJPEGTables([B) | tag jpeg tables
+../3-Phrases/DrawSWF:void tagDefineBitsJPEG3(I[B[B) | tag define bits jpeg 3
+../3-Phrases/DrawSWF:void tagShowFrame() | tag show frame
+../3-Phrases/DrawSWF:SWFActions tagDoAction() | tag do action
+../3-Phrases/DrawSWF:SWFShape tagDefineShape(IQRect;) | tag define shape
+../3-Phrases/DrawSWF:SWFShape tagDefineShape2(IQRect;) | tag define shape 2
+../3-Phrases/DrawSWF:SWFShape tagDefineShape3(IQRect;) | tag define shape 3
+../3-Phrases/DrawSWF:void tagFreeCharacter(I) | tag free character
+../3-Phrases/DrawSWF:void tagPlaceObject(IIQMatrix;QAlphaTransform;) | tag place object
+../3-Phrases/DrawSWF:SWFActions tagPlaceObject2(ZIIIQMatrix;QAlphaTransform;IQString;I) | tag place object 2
+../3-Phrases/DrawSWF:void tagRemoveObject(II) | tag remove object
+../3-Phrases/DrawSWF:void tagRemoveObject2(I) | tag remove object 2
+../3-Phrases/DrawSWF:void tagSetBackgroundColor(QColor;) | tag set background color
+../3-Phrases/DrawSWF:void tagFrameLabel(QString;) | tag frame label
+../3-Phrases/DrawSWF:SWFTagTypes tagDefineSprite(I) | tag define sprite
+../3-Phrases/DrawSWF:void tagProtect([B) | tag protect
+../3-Phrases/DrawSWF:void tagEnableDebug([B) | tag enable debug
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont(II) | tag define font
+../3-Phrases/DrawSWF:void tagDefineFontInfo(IQString;I[I) | tag define font info
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont2(IIQString;IIII[I[I[QRect;[I[I[I) | tag define font 2
+../3-Phrases/DrawSWF:void tagDefineTextField(IQString;QString;QRect;IQAlphaColor;IIIIIIII) | tag define text field
+../3-Phrases/DrawSWF:SWFText tagDefineText(IQRect;QMatrix;) | tag define text
+../3-Phrases/DrawSWF:SWFText tagDefineText2(IQRect;QMatrix;) | tag define text 2
+../3-Phrases/DrawSWF:SWFActions tagDefineButton(IQVector;) | tag define button
+../3-Phrases/DrawSWF:void tagButtonCXForm(IQColorTransform;) | tag button cx form
+../3-Phrases/DrawSWF:SWFActions tagDefineButton2(IZQVector;) | tag define button 2
+../3-Phrases/DrawSWF:void tagExport([QString;[I) | tag export
+../3-Phrases/DrawSWF:void tagImport(QString;[QString;[I) | tag import
+../3-Phrases/DrawSWF:void tagDefineQuickTimeMovie(IQString;) | tag define quick time movie
+../3-Phrases/DrawSWF:void tagDefineBitsJPEG2(I[B) | tag define bits jpeg 2
+../3-Phrases/DrawSWF:void tagDefineBitsJPEG2(IQInputStream;) | tag define bits jpeg 2
+../3-Phrases/DrawSWF:SWFShape tagDefineMorphShape(IQRect;QRect;) | tag define morph shape
+../3-Phrases/DrawSWF:void tagDefineBitsLossless(IIII[QColor;[B) | tag define bits lossless
+../3-Phrases/DrawSWF:void tagDefineBitsLossless2(IIII[QColor;[B) | tag define bits lossless 2
+../3-Phrases/DrawSWF:CONS TagWriter(QSWFTags;) | tag writer
+../3-Phrases/DrawSWF:void tagEnd() | tag end
+../3-Phrases/DrawSWF:void tagShowFrame() | tag show frame
+../3-Phrases/DrawSWF:void tagDefineSound(IIIZZI[B) | tag define sound
+../3-Phrases/DrawSWF:void tagDefineButtonSound(IIQSoundInfo;IQSoundInfo;IQSoundInfo;IQSoundInfo;) | tag define button sound
+../3-Phrases/DrawSWF:void tagStartSound(IQSoundInfo;) | tag start sound
+../3-Phrases/DrawSWF:void tagSoundStreamHead(IZZIIZZI) | tag sound stream head
+../3-Phrases/DrawSWF:void tagSoundStreamHead2(IZZIIZZI) | tag sound stream head 2
+../3-Phrases/DrawSWF:void tagSoundStreamBlock([B) | tag sound stream block
+../3-Phrases/DrawSWF:void tagSerialNumber(QString;) | tag serial number
+../3-Phrases/DrawSWF:void tagGenerator([B) | tag generator
+../3-Phrases/DrawSWF:void tagGeneratorText([B) | tag generator text
+../3-Phrases/DrawSWF:void tagGeneratorCommand([B) | tag generator command
+../3-Phrases/DrawSWF:void tagGeneratorFont([B) | tag generator font
+../3-Phrases/DrawSWF:void tagNameCharacter([B) | tag name character
+../3-Phrases/DrawSWF:void tagDefineBits(I[B) | tag define bits
+../3-Phrases/DrawSWF:void tagJPEGTables([B) | tag jpeg tables
+../3-Phrases/DrawSWF:void tagDefineBitsJPEG3(I[B[B) | tag define bits jpeg 3
+../3-Phrases/DrawSWF:SWFActions tagDoAction() | tag do action
+../3-Phrases/DrawSWF:SWFShape tagDefineShape(IQRect;) | tag define shape
+../3-Phrases/DrawSWF:SWFShape tagDefineShape2(IQRect;) | tag define shape 2
+../3-Phrases/DrawSWF:SWFShape tagDefineShape3(IQRect;) | tag define shape 3
+../3-Phrases/DrawSWF:void tagFreeCharacter(I) | tag free character
+../3-Phrases/DrawSWF:void tagPlaceObject(IIQMatrix;QAlphaTransform;) | tag place object
+../3-Phrases/DrawSWF:SWFActions tagPlaceObject2(ZIIIQMatrix;QAlphaTransform;IQString;I) | tag place object 2
+../3-Phrases/DrawSWF:void tagRemoveObject(II) | tag remove object
+../3-Phrases/DrawSWF:void tagRemoveObject2(I) | tag remove object 2
+../3-Phrases/DrawSWF:void tagSetBackgroundColor(QColor;) | tag set background color
+../3-Phrases/DrawSWF:void tagFrameLabel(QString;) | tag frame label
+../3-Phrases/DrawSWF:SWFTagTypes tagDefineSprite(I) | tag define sprite
+../3-Phrases/DrawSWF:void tagProtect([B) | tag protect
+../3-Phrases/DrawSWF:void tagEnableDebug([B) | tag enable debug
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont(II) | tag define font
+../3-Phrases/DrawSWF:void tagDefineFontInfo(IQString;I[I) | tag define font info
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont2(IIQString;IIII[I[I[QRect;[I[I[I) | tag define font 2
+../3-Phrases/DrawSWF:void tagDefineTextField(IQString;QString;QRect;IQAlphaColor;IIIIIIII) | tag define text field
+../3-Phrases/DrawSWF:SWFText tagDefineText(IQRect;QMatrix;) | tag define text
+../3-Phrases/DrawSWF:SWFText tagDefineText2(IQRect;QMatrix;) | tag define text 2
+../3-Phrases/DrawSWF:SWFActions tagDefineButton(IQVector;) | tag define button
+../3-Phrases/DrawSWF:void tagButtonCXForm(IQColorTransform;) | tag button cx form
+../3-Phrases/DrawSWF:SWFActions tagDefineButton2(IZQVector;) | tag define button 2
+../3-Phrases/DrawSWF:void tagExport([QString;[I) | tag export
+../3-Phrases/DrawSWF:void tagImport(QString;[QString;[I) | tag import
+../3-Phrases/DrawSWF:void tagDefineQuickTimeMovie(IQString;) | tag define quick time movie
+../3-Phrases/DrawSWF:void tagDefineBitsJPEG2(I[B) | tag define bits jpeg 2
+../3-Phrases/DrawSWF:void tagDefineBitsLossless(IIII[QColor;[B) | tag define bits lossless
+../3-Phrases/DrawSWF:void tagDefineBitsLossless2(IIII[QColor;[B) | tag define bits lossless 2
+../3-Phrases/DrawSWF:void tagDefineBitsJPEG2(IQInputStream;) | tag define bits jpeg 2
+../3-Phrases/DrawSWF:SWFShape tagDefineMorphShape(IQRect;QRect;) | tag define morph shape
+../3-Phrases/DrawSWF:void tagEnd() | tag end
+../3-Phrases/DrawSWF:void tagStartSound(IQSoundInfo;) | tag start sound
+../3-Phrases/DrawSWF:void tagSoundStreamHead(IZZIIZZI) | tag sound stream head
+../3-Phrases/DrawSWF:void tagSoundStreamHead2(IZZIIZZI) | tag sound stream head 2
+../3-Phrases/DrawSWF:void tagSoundStreamBlock([B) | tag sound stream block
+../3-Phrases/DrawSWF:void tagSerialNumber(QString;) | tag serial number
+../3-Phrases/DrawSWF:void tagGenerator([B) | tag generator
+../3-Phrases/DrawSWF:void tagGeneratorText([B) | tag generator text
+../3-Phrases/DrawSWF:void tagGeneratorFont([B) | tag generator font
+../3-Phrases/DrawSWF:void tagGeneratorCommand([B) | tag generator command
+../3-Phrases/DrawSWF:void tagNameCharacter([B) | tag name character
+../3-Phrases/DrawSWF:void tagDefineBits(I[B) | tag define bits
+../3-Phrases/DrawSWF:void tagJPEGTables([B) | tag jpeg tables
+../3-Phrases/DrawSWF:void tagDefineBitsJPEG3(I[B[B) | tag define bits jpeg 3
+../3-Phrases/DrawSWF:void tagDefineSound(IIIZZI[B) | tag define sound
+../3-Phrases/DrawSWF:void tagDefineButtonSound(IIQSoundInfo;IQSoundInfo;IQSoundInfo;IQSoundInfo;) | tag define button sound
+../3-Phrases/DrawSWF:void tagShowFrame() | tag show frame
+../3-Phrases/DrawSWF:SWFActions tagDoAction() | tag do action
+../3-Phrases/DrawSWF:SWFShape tagDefineShape(IQRect;) | tag define shape
+../3-Phrases/DrawSWF:SWFShape tagDefineShape2(IQRect;) | tag define shape 2
+../3-Phrases/DrawSWF:SWFShape tagDefineShape3(IQRect;) | tag define shape 3
+../3-Phrases/DrawSWF:void tagFreeCharacter(I) | tag free character
+../3-Phrases/DrawSWF:void tagPlaceObject(IIQMatrix;QAlphaTransform;) | tag place object
+../3-Phrases/DrawSWF:SWFActions tagPlaceObject2(ZIIIQMatrix;QAlphaTransform;IQString;I) | tag place object 2
+../3-Phrases/DrawSWF:void tagRemoveObject(II) | tag remove object
+../3-Phrases/DrawSWF:void tagRemoveObject2(I) | tag remove object 2
+../3-Phrases/DrawSWF:void tagSetBackgroundColor(QColor;) | tag set background color
+../3-Phrases/DrawSWF:void tagFrameLabel(QString;) | tag frame label
+../3-Phrases/DrawSWF:SWFTagTypes tagDefineSprite(I) | tag define sprite
+../3-Phrases/DrawSWF:void tagProtect([B) | tag protect
+../3-Phrases/DrawSWF:void tagEnableDebug([B) | tag enable debug
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont(II) | tag define font
+../3-Phrases/DrawSWF:void tagDefineFontInfo(IQString;I[I) | tag define font info
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont2(IIQString;IIII[I[I[QRect;[I[I[I) | tag define font 2
+../3-Phrases/DrawSWF:void tagDefineTextField(IQString;QString;QRect;IQAlphaColor;IIIIIIII) | tag define text field
+../3-Phrases/DrawSWF:SWFText tagDefineText(IQRect;QMatrix;) | tag define text
+../3-Phrases/DrawSWF:SWFText tagDefineText2(IQRect;QMatrix;) | tag define text 2
+../3-Phrases/DrawSWF:SWFActions tagDefineButton(IQVector;) | tag define button
+../3-Phrases/DrawSWF:void tagButtonCXForm(IQColorTransform;) | tag button cx form
+../3-Phrases/DrawSWF:SWFActions tagDefineButton2(IZQVector;) | tag define button 2
+../3-Phrases/DrawSWF:void tagExport([QString;[I) | tag export
+../3-Phrases/DrawSWF:void tagImport(QString;[QString;[I) | tag import
+../3-Phrases/DrawSWF:void tagDefineQuickTimeMovie(IQString;) | tag define quick time movie
+../3-Phrases/DrawSWF:void tagDefineBitsJPEG2(I[B) | tag define bits jpeg 2
+../3-Phrases/DrawSWF:void tagDefineBitsJPEG2(IQInputStream;) | tag define bits jpeg 2
+../3-Phrases/DrawSWF:SWFShape tagDefineMorphShape(IQRect;QRect;) | tag define morph shape
+../3-Phrases/DrawSWF:void tagDefineBitsLossless(IIII[QColor;[B) | tag define bits lossless
+../3-Phrases/DrawSWF:void tagDefineBitsLossless2(IIII[QColor;[B) | tag define bits lossless 2
+../3-Phrases/Jabref:CONS TagToMarkedTextStore() | tag to marked text store
+../3-Phrases/MegaMek-0.32.0:CONS TagInfo(IIIZ) | tag info
+../3-Phrases/rhino:String tag_name(I) | tag name

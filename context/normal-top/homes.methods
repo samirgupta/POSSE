@@ -1,0 +1,8 @@
+List<QHome;> getHomes() | get homes
+List<QString;> getRecentHomes() | get recent homes
+String[] getAvailableHomes() | get available homes
+void addHomesListener(QCollectionListener<QHome;>;) | add homes listener
+void deleteRecentHomes() | delete recent homes
+void removeHomesListener(QCollectionListener<QHome;>;) | remove homes listener
+void setRecentHomes(QList<QString;>;) | set recent homes
+void updateUserPreferencesRecentHomes(QList<QString;>;) | update user preferences recent homes

@@ -1,0 +1,34 @@
+boolean getSoundMute() | get sound mute
+boolean soundRetrieval() | sound retrieval
+byte[] getSoundData() | get sound data
+int startSound(QSound;I) | start sound
+Sound getSoundDefinition() | get sound definition
+Sound getSoundDefinition(QInputStream;) | get sound definition
+Sound getSoundDefinition(QInputStream;I) | get sound definition
+SoundStreamHead getSoundHeader() | get sound header
+String getSoundBingFilename() | get sound bing filename
+String soundex(QString;) | soundex
+void loadSoundClip() | load sound clip
+void parseDefineButtonSound(QInStream;) | parse define button sound
+void parseDefineSound(QInStream;) | parse define sound
+void parseSoundStreamBlock(QInStream;) | parse sound stream block
+void parseSoundStreamHead(ZQInStream;) | parse sound stream head
+void parseStartSound(QInStream;) | parse start sound
+void playSound(QFile;) | play sound
+void playSound(QSoundLibrary.SoundEffect;) | play sound
+void playSound(QString;) | play sound
+void printSoundStreamHead(QString;IZZIIZZI) | print sound stream head
+void setSoundBingFilename(QString;) | set sound bing filename
+void setSoundData([B) | set sound data
+void setSoundHeader(QSoundStreamHead;) | set sound header
+void setSoundMute(Z) | set sound mute
+void setSoundPlayer(QSoundPlayer;) | set sound player
+void SoundPlayerThread(QPlaylist;ZIII) | sound player thread
+void stopSounds() | stop sounds
+void tagDefineButtonSound(IIQSoundInfo;IQSoundInfo;IQSoundInfo;IQSoundInfo;) | tag define button sound
+void tagDefineSound(IIIZZI[B) | tag define sound
+void tagSoundStreamBlock([B) | tag sound stream block
+void tagSoundStreamHead2(IZZIIZZI) | tag sound stream head 2
+void tagSoundStreamHead(IZZIIZZI) | tag sound stream head
+void tagStartSound(IQSoundInfo;) | tag start sound
+void writeSoundStreamHead(IIZZIIZZI) | write sound stream head

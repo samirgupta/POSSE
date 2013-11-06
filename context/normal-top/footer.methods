@@ -1,0 +1,15 @@
+boolean isFloatColumnFooter() | is float column footer
+int getFooterBandHeight() | get footer band height
+it.businesslogic.ireport.Band getGroupFooter() | get group footer
+long getFooter() | get footer
+String getFooterFormat() | get footer format
+String getRolesetTooltipFooter() | get role set tooltip footer
+void populateFooter(QComposite;) | populate footer
+void printFooter(QGraphics2D;QPageFormat;I) | print footer
+void readFooter(RandomAccessFile raf, int location) | read footer
+void setFloatColumnFooter(Z) | set float column footer
+void setFooterBandHeight(I) | set footer band height
+void setFooter(HeaderFooter footer) | set footer
+void setGroupFooter(Qit.businesslogic.ireport.Band;) | set group footer
+void showFooterToggleButton(Z) | show footer toggle button
+void writeFooter(QString;) | write footer

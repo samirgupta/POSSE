@@ -1,0 +1,62 @@
+CONS AsyncTask() | async task
+CONS AsyncTask(QString;) | async task
+CONS GanttPreviousStateTask(IQGanttCalendar;IZZ) | gantt previous state task
+CONS GanttTaskPropertiesBean([QGanttTask;QTaskManager;QHumanResourceManager;QRoleManager;) | gantt task properties bean
+CONS GanttTask(QGanttTask;) | gantt task
+CONS GanttTask(QString;QGanttCalendar;JQTaskManager;I) | gantt task
+CONS GanttTaskRelationship() | gantt task relationship
+CONS GanttTaskRelationship(IIIIQTaskManager;) | gantt task relationship
+CONS GanttTaskRelationship(QTaskManager;) | gantt task relationship
+CONS HsqlTaskQueue() | hsql task queue
+CONS LinkTasksAction(QTaskManager;QTaskSelectionManager;QUIFacade;) | link tasks action
+CONS NewTaskAction(QIGanttProject;) | new task action
+CONS PreviousStateTasksTagHandler(QArrayList;) | previous state tasks tag handler
+CONS RecalculateTaskScheduleAlgorithm(QAdjustTaskBoundsAlgorithm;) | recalculate task schedule algorithm
+CONS RemoteExperimentSubTask() | remote experiment sub task
+CONS TaskActionBase(QTaskManager;QTaskSelectionManager;QUIFacade;) | task action base
+CONS TaskActivityImpl(QTaskImpl;QDate;QDate;) | task activity impl
+CONS TaskActivityImpl(QTaskImpl;QDate;QDate;F) | task activity impl
+CONS TaskAllocationsPanel(QTask;QHumanResourceManager;QRoleManager;Z) | task allocations panel
+CONS TaskBoundaryChartItem(QTask;Z) | task boundary chart item
+CONS TaskContainmentHierarchyFacadeImpl(QGanttTree2;) | task containment hierarchy facade impl
+CONS TaskDependenciesPanel(QTask;) | task dependencies panel
+CONS TaskDependencyCollectionImpl(QTaskContainmentHierarchyFacade.Factory;QEventDispatcher;) | task dependency collection impl
+CONS TaskDependencyEvent(QTaskDependencyCollection;QTaskDependency;) | task dependency event
+CONS TaskDependencyException() | task dependency exception
+CONS TaskDependencyException(QString;) | task dependency exception
+CONS TaskDependencyException(QString;QThrowable;) | task dependency exception
+CONS TaskDependencyException(QThrowable;) | task dependency exception
+CONS TaskDependencyImpl(QTask;QTask;QTaskDependencyCollectionImpl;) | task dependency impl
+CONS TaskDependencySliceAsDependant(QTask;QTaskDependencyCollection;) | task dependency slice as dependant
+CONS TaskDependencySliceAsDependee(QTask;QTaskDependencyCollection;) | task dependency slice as dependee
+CONS TaskDependencySliceImpl(QTask;QTaskDependencyCollection;) | task dependency slice impl
+CONS TaskDisplayColumnsTagHandler(QGanttTreeTable;) | task display columns tag handler
+CONS TaskDocumentOrderComparator(QTaskManagerImpl;) | task document order comparator
+CONS TaskFigure() | task figure
+CONS TaskGridRendererImpl(QChartModelImpl;) | task grid renderer impl
+CONS TaskHierarchyEvent(QObject;QTask;QTask;QTask;) | task hierarchy event
+CONS TaskHierarchyItem(QTask;QTaskHierarchyItem;) | task hierarchy item
+CONS TaskImpl(QTaskImpl;Z) | task impl
+CONS TaskImpl(QTaskManager;I) | task impl
+CONS TaskInteractionHintRenderer() | task interaction hint renderer
+CONS TaskInteractionHintRenderer(QString;II) | task interaction hint renderer
+CONS TaskLengthImpl(QTimeUnit;F) | task length impl
+CONS TaskLengthImpl(QTimeUnit;J) | task length impl
+CONS TaskManagerImpl(QTaskContainmentHierarchyFacade.Factory;QTaskManagerConfig;) | task manager impl
+CONS TaskModelModificationListener(QIGanttProject;) | task model modification listener
+CONS TaskNode(QTask;) | task node
+CONS TaskProgressChartItem(IIQTimeUnit;QTask;) | task progress chart item
+CONS TaskPropertiesAction(QIGanttProject;QTaskSelectionManager;QUIFacade;) | task properties action
+CONS TaskPropertiesTagHandler(QGanttTreeTable;) | task properties tag handler
+CONS TaskPropertyEvent(QObject;) | task property event
+CONS TaskRegularAreaChartItem(QTask;) | task regular area chart item
+CONS TaskRendererImpl(QChartModelImpl;) | task renderer impl
+CONS TaskScheduleEvent(QTask;QGanttCalendar;QGanttCalendar;QGanttCalendar;QGanttCalendar;) | task schedule event
+CONS TaskSelectionManager() | task selection manager
+CONS TaskTagHandler(QTaskManager;QParsingContext;) | task tag handler
+CONS TaskTreeImageGenerator(QGanttTree2;QUIConfiguration;) | task tree image generator
+CONS ThreadedTaskController(QCallable<QVoid;>;QString;QExceptionHandler;QUserPreferences;QViewFactory;) | threaded task controller
+CONS ThreadedTaskPanel(QString;QUserPreferences;QThreadedTaskController;) | threaded task panel
+CONS TimeLimitedTask(QString;IIQtask;) | time limited task
+CONS UnlinkTasksAction(QTaskManager;QTaskSelectionManager;QUIFacade;) | unlink tasks action
+CONS WekaTaskMonitor() | weka task monitor

@@ -1,0 +1,44 @@
+CONS BuildableType() | buildable type
+CONS BuildableType(QString;) | buildable type
+CONS BuildColonyAction(QFreeColClient;) | build colony action
+CONS BuildColonyMission(QAIMain;QAIUnit;) | build colony mission
+CONS BuildColonyMission(QAIMain;QAIUnit;QTile;I) | build colony mission
+CONS BuildColonyMission(QAIMain;QElement;) | build colony mission
+CONS BuildColonyMission(QAIMain;QXMLStreamReader;) | build colony mission
+CONS BuildingBlock() | building block
+CONS BuildingBlock(QInputStream;) | building block
+CONS BuildingBlock([QString;) | building block
+CONS BuildingBlock(QVector;) | building block
+CONS Building(IIQString;QVector;) | building
+CONS BuildingProductionPanel(QCanvas;QUnit;) | building production panel
+CONS Building(QCoords;QIBoard;I) | building
+CONS Building(QGame;QColony;QBuildingType;) | building
+CONS Building(QGame;QElement;) | building
+CONS Building(QGame;QString;) | building
+CONS Building(QGame;QXMLStreamReader;) | building
+CONS BuildingTarget(QCoords;QIBoard;I) | building target
+CONS BuildingTarget(QCoords;QIBoard;Z) | building target
+CONS BuildingTemplate(IQVector;) | building template
+CONS BuildingTemplate(IQVector;III) | building template
+CONS BuildingType(I) | building type
+CONS BuildQueue() | build queue
+CONS BuildQueuePanel(QCanvas;) | build queue panel
+CONS BuildQueue(QElement;) | build queue
+CONS BuildQueue(QIterable<QBuildableType;>;) | build queue
+CONS BuildQueue([QObject;) | build queue
+CONS BuildQueue(QType;) | build queue
+CONS BuildQueue(QXMLStreamReader;) | build queue
+CONS CityBuilder(QMapSettings;QIBoard;) | city builder
+CONS ColopediaBuildingAction(QFreeColClient;) | colo pe dia building action
+CONS JarBuilder(QFile;) | jar builder
+CONS JarBuilder(QFile;QFile;) | jar builder
+CONS JarBuilder(QFile;QManifest;) | jar builder
+CONS MovieBuilder() | movie builder
+CONS MovieBuilder(QMovie;) | movie builder
+CONS MovieBuilder(QMovieBuilder;QMovieClip;) | movie builder
+CONS OptionsPageBuilder() | options page builder
+CONS OptionsPageBuilder(QComponent;) | options page builder
+CONS StdXMLBuilder() | std xml builder
+CONS StdXMLBuilder(QIXMLElement;) | std xml builder
+CONS TBuildInfo(QString;) | t build info
+CONS TreeBuild() | tree build

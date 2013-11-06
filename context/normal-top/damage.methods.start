@@ -1,0 +1,19 @@
+int damageCowl(I) | damage cowl
+Report damageBuilding(QBuilding;I) | damage building
+Report damageBuilding(QBuilding;IQString;) | damage building
+Vector damageCrew(QEntity;I) | damage crew
+Vector damageEntity(QEntity;QHitData;I) | damage entity
+Vector damageEntity(QEntity;QHitData;IZ) | damage entity
+Vector damageEntity(QEntity;QHitData;IZI) | damage entity
+Vector damageEntity(QEntity;QHitData;IZIZ) | damage entity
+Vector damageEntity(QEntity;QHitData;IZIZZ) | damage entity
+Vector damageEntity(QEntity;QHitData;IZIZZZ) | damage entity
+void damageAllShips(QColony;QUnit;QLocation;) | damage all ships
+void damageInfantryIn(QBuilding;I) | damage infantry in
+void DamagePlan(QEntity;) | damage plan
+void DamagePlan(QEntity;I) | damage plan
+void damageRange(QPosition;QPosition;) | damage range
+void damageReport() | damage report
+void damageReport(QRectangle2D;) | damage report
+void damageReport(QVisualItem;QRectangle2D;) | damage report
+void damageShip(QUnit;QColony;QUnit;QLocation;) | damage ship

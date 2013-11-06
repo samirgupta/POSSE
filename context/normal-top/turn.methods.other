@@ -1,0 +1,20 @@
+boolean isTurnSkippable() | is turn skippable
+boolean setPocketToTurnAcross(int p, int timestamp, Object source) | set pocket to turn across
+Enumeration getTurnEnum() | get turn enum
+Image getPathNextTurnImage(QUnit;) | get path next turn image
+int getTurnIndex() | get turn index
+Packet createTurnIndexPacket() | create turn index packet
+Packet createTurnVectorPacket() | create turn vector packet
+TurnVectors generateTurnOrder(QVector;QIGame;) | generate turn order
+Vector getTurnReport() | get turn report
+Vector getTurnVector() | get turn vector
+void changeTurnIndex(I) | change turn index
+void determineTurnOrder(I) | determine turn order
+void determineTurnOrderIUI(I) | determine turn order iui
+void EndTurnPanel() | end turn panel
+void gameTurnChange(QGameTurnChangeEvent;) | game turn change
+void removeTurnFor(QEntity;) | remove turn for
+void resetTurnIndex() | reset turn index
+void sendTurnErrorSkipMessage(QPlayer;) | send turn error skip message
+void setTurnIndex(I) | set turn index
+void setTurnVector(QVector;) | set turn vector

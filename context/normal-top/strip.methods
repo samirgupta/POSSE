@@ -1,0 +1,19 @@
+action_part strip_trailing_action([Qproduction_part;I) | strip trailing action
+byte[] stripHKEY(QString;) | strip hkey
+String newline_strip(QString;) | newline strip
+String stripBrackets(QString;) | strip brackets
+String stripComments(QString;CC) | strip comments
+String stripHigh(QString;) | strip high
+String stripHigh(QString;QString;) | strip high
+String stripId(QString;) | strip id
+String stripInternalSpaces(QString;) | strip internal spaces
+String stripNonValidXMLCharacters(QString;) | strip non valid xml characters
+String stripOutHyperlinks(QString;) | strip out hyperlinks
+String stripPrefix(String name, int offset) | strip prefix
+String strip(QString;) | strip
+String stripSpecialChars(String s) | strip special chars
+String stripWhitespace(QString;) | strip whitespace
+UIFSplitPane createStrippedSplitPane(IQComponent;QComponent;) | create stripped split pane
+void stripTrailingZeroes(QStringBuffer;) | strip trailing zeroes
+void testStripBrackets() | test strip brackets
+void testStripSessionIdWithQueryString() | test strip session id with query string

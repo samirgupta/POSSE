@@ -1,0 +1,16 @@
+CONS LoadAction(QApplication;) | load action
+CONS LoadAction(QFreeColClient;) | load action
+CONS LoadContexts(QPersistenceContext;) | load contexts
+CONS LoadDistribution(QProjectResource;QDate;QTimeUnitStack;QTaskManager;) | load distribution
+CONS Loader() | loader
+CONS LoaderCustomizer() | loader customizer
+CONS Loader(QSessionFactoryImplementor;) | loader
+CONS Loader(QString;) | loader
+CONS LoadEvent(QSerializable;QObject;QEventSource;) | load event
+CONS LoadEvent(QSerializable;QString;QLockMode;QEventSource;) | load event
+CONS LoadEvent(QSerializable;QString;QObject;QLockMode;ZQEventSource;) | load event
+CONS LoadEvent(QSerializable;QString;ZQEventSource;) | load event
+CONS LoadingCollectionEntry(QResultSet;QCollectionPersister;QSerializable;QPersistentCollection;) | loading collection entry
+CONS LoadingSavegameDialog(QCanvas;QFreeColClient;) | loading savegame dialog
+CONS LoadModelsPanel(QListModelsPanel;QEnsembleSelectionLibraryEditor;) | load models panel
+CONS LoadRecentAction(QApplication;QFile;) | load recent action

@@ -1,0 +1,38 @@
+CONS NativeArray() | native array
+CONS NativeArray(J) | native array
+CONS NativeArray([QObject;) | native array
+CONS NativeBoolean(Z) | native boolean
+CONS NativeCall() | native call
+CONS NativeCall(QNativeFunction;QScriptable;[QObject;) | native call
+CONS NativeDate() | native date
+CONS NativeInvocationBridge() | native invocation bridge
+CONS NativeJavaArray(QScriptable;QObject;) | native java array
+CONS NativeJavaClass() | native java class
+CONS NativeJavaClass(QScriptable;QClass;) | native java class
+CONS NativeJavaConstructor(QMemberBox;) | native java constructor
+CONS NativeJavaMethod([QMemberBox;) | native java method
+CONS NativeJavaMethod(QMemberBox;QString;) | native java method
+CONS NativeJavaMethod(QMethod;QString;) | native java method
+CONS NativeJavaObject() | native java object
+CONS NativeJavaObject(QScriptable;QObject;QClass;) | native java object
+CONS NativeJavaPackage(QString;) | native java package
+CONS NativeJavaPackage(QString;QClassLoader;) | native java package
+CONS NativeJavaPackage(ZQString;QClassLoader;) | native java package
+CONS NativeJavaTopPackage(QClassLoader;) | native java top package
+CONS NativeMath() | native math
+CONS NativeNumber(D) | native number
+CONS NativeRegExp() | native reg exp
+CONS NativeRegExpCtor() | native reg exp ctor
+CONS NativeRegExp(QScriptable;QObject;) | native reg exp
+CONS NativeScript(QScript;) | native script
+CONS NativeSQLQueryCollectionReturn(QString;QString;QString;QMap;QLockMode;) | native sql query collection return
+CONS NativeSQLQueryJoinReturn(QString;QString;QString;QMap;QLockMode;) | native sql query join return
+CONS NativeSQLQueryNonScalarReturn(QString;QMap;QLockMode;) | native sql query non scalar return
+CONS NativeSQLQueryPlan(QNativeSQLQuerySpecification;QSessionFactoryImplementor;) | native sql query plan
+CONS NativeSQLQueryRootReturn(QString;QString;QLockMode;) | native sql query root return
+CONS NativeSQLQueryRootReturn(QString;QString;QMap;QLockMode;) | native sql query root return
+CONS NativeSQLQueryScalarReturn(QString;QType;) | native sql query scalar return
+CONS NativeSQLQuerySpecification(QString;[QNativeSQLQueryReturn;QCollection;) | native sql query specification
+CONS NativeString(QString;) | native string
+CONS NativeWith() | native with
+CONS NativeWith(QScriptable;QScriptable;) | native with

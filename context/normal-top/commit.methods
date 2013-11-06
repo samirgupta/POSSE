@@ -1,0 +1,44 @@
+boolean dataDefinitionCausesTransactionCommit() | data definition causes transaction commit
+boolean doesReadCommittedCauseWritersToBlockReaders() | does read committed cause writers to block readers
+boolean getAutoCommit() | get auto commit
+boolean getAutoCommit(QConnection;) | get auto commit
+boolean hasPostCommitEventListeners() | has post commit event listeners
+boolean isAutoCommit() | is auto commit
+boolean isDataDefinitionImplicitCommit() | is data definition implicit commit
+boolean supportsOpenCursorsAcrossCommit() | supports open cursors across commit
+boolean supportsOpenStatementsAcrossCommit() | supports open statements across commit
+double getBestCommitteeErrorEstimate() | get best committee error estimate
+double getBestCommitteeLLEstimate() | get best committee ll estimate
+int committeeSize() | committee size
+int getBestCommitteeChunkSize() | get best committee chunk size
+int getBestCommitteeSize() | get best committee size
+PostDeleteEventListener[] getPostCommitDeleteEventListeners() | get post commit delete event listeners
+PostInsertEventListener[] getPostCommitInsertEventListeners() | get post commit insert event listeners
+PostUpdateEventListener[] getPostCommitUpdateEventListeners() | get post commit update event listeners
+String getAutoCommitStatement() | get auto commit statement
+String getCommitJSONMessage() | get commit json message
+void afterCommitRollback() | after commit rollback
+void commit() | commit
+void commitAndResetAutoCommit() | commit and reset auto commit
+void commitClipboardTransaction() | commit clipboard transaction
+void commit(QCachedObject;) | commit
+void commit(QDigitalDJ;) | commit
+void commit(QSession;) | commit
+void commit(QString;) | commit
+void commit(QString;QString;) | commit
+void commitRowToStore(QRow;) | commit row to store
+void Committee(I) | committee
+void postCommitDelete() | post commit delete
+void postCommitInsert() | post commit insert
+void postCommitUpdate() | post commit update
+void prepareCommit() | prepare commit
+void processCommit() | process commit
+void rollbackAndResetAutoCommit() | rollback and reset auto commit
+void setAutoCommit(Z) | set auto commit
+void setDataDefinitionImplicitCommit(Z) | set data definition implicit commit
+void setPostCommitDeleteEventListeners([QPostDeleteEventListener;) | set post commit delete event listeners
+void setPostCommitInsertEventListeners([QPostInsertEventListener;) | set post commit insert event listeners
+void setPostCommitUpdateEventListeners([QPostUpdateEventListener;) | set post commit update event listeners
+void toggleAutoCommit() | toggle auto commit
+void updateAutoCommitBox() | update auto commit box
+void writeCommitStatement(QSession;) | write commit statement

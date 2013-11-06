@@ -1,0 +1,33 @@
+CONS AbstractExplicitParameterSpecification(II) | abstract explicit parameter specification
+CONS AssignmentSpecification(QAST;QQueryable;) | assignment specification
+CONS CollectionFilterKeyParameterSpecification(QString;QType;I) | collection filter key parameter specification
+CONS DERApplicationSpecific(I[B) | der application specific
+CONS DERApplicationSpecific(IQDEREncodable;) | der application specific
+CONS DERApplicationSpecific(ZIQDEREncodable;) | der application specific
+CONS DynamicFilterParameterSpecification(QString;QString;QType;I) | dynamic filter parameter specification
+CONS ECKeySpec(QECParameterSpec;) | ec key spec
+CONS ECNamedCurveParameterSpec(QString;QECCurve;QECPoint;QBigInteger;) | ec named curve parameter spec
+CONS ECNamedCurveParameterSpec(QString;QECCurve;QECPoint;QBigInteger;QBigInteger;) | ec named curve parameter spec
+CONS ECNamedCurveParameterSpec(QString;QECCurve;QECPoint;QBigInteger;QBigInteger;[B) | ec named curve parameter spec
+CONS ECParameterSpec(QECCurve;QECPoint;QBigInteger;) | ec parameter spec
+CONS ECParameterSpec(QECCurve;QECPoint;QBigInteger;QBigInteger;) | ec parameter spec
+CONS ECParameterSpec(QECCurve;QECPoint;QBigInteger;QBigInteger;[B) | ec parameter spec
+CONS ECPrivateKeySpec(QBigInteger;QECParameterSpec;) | ec private key spec
+CONS ECPublicKeySpec(QECPoint;QECParameterSpec;) | ec public key spec
+CONS ElGamalGenParameterSpec(I) | el gamal gen parameter spec
+CONS ElGamalKeySpec(QElGamalParameterSpec;) | el gamal key spec
+CONS ElGamalParameterSpec(QBigInteger;QBigInteger;) | el gamal parameter spec
+CONS ElGamalPrivateKeySpec(QBigInteger;QElGamalParameterSpec;) | el gamal private key spec
+CONS ElGamalPublicKeySpec(QBigInteger;QElGamalParameterSpec;) | el gamal public key spec
+CONS IEKeySpec(QPrivateKey;QPublicKey;) | ie key spec
+CONS IESParameterSpec([B[BI) | ies parameter spec
+CONS KeySpecificInfo(QASN1Sequence;) | key specific info
+CONS KeySpecificInfo(QDERObjectIdentifier;QASN1OctetString;) | key specific info
+CONS NamedParameterSpecification(IIQString;) | named parameter specification
+CONS NativeSQLQuerySpecification(QString;[QNativeSQLQueryReturn;QCollection;) | native sql query specification
+CONS PositionalParameterSpecification(III) | positional parameter specification
+CONS SpecialOneToOneType(QString;QForeignKeyDirection;QString;ZZQString;QString;) | special one to one type
+CONS SpecialRef(QScriptable;IQString;) | special ref
+CONS Specification(QInputStream;) | specification
+CONS SpecifiedLayout(QString;QString;QString;) | specified layout
+CONS VersionTypeSeedParameterSpecification(QVersionType;) | version type seed parameter specification

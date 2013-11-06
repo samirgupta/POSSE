@@ -1,0 +1,22 @@
+com.eteks.sweethome3d.model.Camera camera | camera
+com.eteks.sweethome3d.model.Camera finalCamera | final camera
+com.eteks.sweethome3d.model.Camera initialCamera | initial camera
+com.eteks.sweethome3d.model.Camera topCamera | top camera
+com.eteks.sweethome3d.model.ObserverCamera observerCamera | observer camera
+com.eteks.sweethome3d.model.ObserverCamera selectedCamera | selected camera
+com.eteks.sweethome3d.viewcontroller.HomeController3D.CameraControllerState cameraState | camera state
+com.eteks.sweethome3d.viewcontroller.HomeController3D.CameraControllerState observerCameraState | observer camera state
+com.eteks.sweethome3d.viewcontroller.HomeController3D.CameraControllerState topCameraState | top camera state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState cameraPitchRotationState | camera pitch rotation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState cameraYawRotationState | camera yaw rotation state
+float observerCameraFieldOfView | observer camera field of view
+float observerCameraZ | observer camera z
+float oldObserverCameraFieldOfView | old observer camera field of view
+float oldObserverCameraZ | old observer camera z
+java.awt.geom.GeneralPath CAMERA_PITCH_ROTATION_INDICATOR | camera pitch rotation indicator
+java.awt.Shape CAMERA_BODY | camera body
+java.awt.Shape CAMERA_HEAD | camera head
+java.awt.Shape CAMERA_YAW_ROTATION_INDICATOR | camera yaw rotation indicator
+java.beans.PropertyChangeListener cameraChangeListener | camera change listener
+java.beans.PropertyChangeListener homeCameraListener | home camera listener
+java.lang.String CAMERA_NAME | camera name

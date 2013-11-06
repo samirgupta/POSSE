@@ -1,0 +1,40 @@
+CONS AlgorithmIdentifier(QASN1Sequence;) | algorithm identifier
+CONS AlgorithmIdentifier(QDERObjectIdentifier;) | algorithm identifier
+CONS AlgorithmIdentifier(QDERObjectIdentifier;QDEREncodable;) | algorithm identifier
+CONS AlgorithmIdentifier(QString;) | algorithm identifier
+CONS AuthorityKeyIdentifier([B) | authority key identifier
+CONS AuthorityKeyIdentifier([BQGeneralNames;QBigInteger;) | authority key identifier
+CONS AuthorityKeyIdentifier(QASN1Sequence;) | authority key identifier
+CONS AuthorityKeyIdentifier(QGeneralNames;QBigInteger;) | authority key identifier
+CONS AuthorityKeyIdentifier(QSubjectPublicKeyInfo;) | authority key identifier
+CONS AuthorityKeyIdentifier(QSubjectPublicKeyInfo;QGeneralNames;QBigInteger;) | authority key identifier
+CONS ClientIdentificationItem(QString;) | client identification item
+CONS DelayedPostInsertIdentifier() | delayed post insert identifier
+CONS DERObjectIdentifier([B) | der object identifier
+CONS DERObjectIdentifier(QString;) | der object identifier
+CONS EntityIdentityInsertAction([QObject;QObject;QEntityPersister;QSessionImplementor;Z) | entity identity insert action
+CONS IdentifierBag(QPersistentClass;) | identifier bag
+CONS IdentifierBagType(QString;QString;Z) | identifier bag type
+CONS IdentifierCollection(QPersistentClass;) | identifier collection
+CONS IdentifierEqExpression(QObject;) | identifier eq expression
+CONS IdentifierGeneratingInsert(QDialect;) | identifier generating insert
+CONS IdentifierGenerationException(QString;) | identifier generation exception
+CONS IdentifierGenerationException(QString;QThrowable;) | identifier generation exception
+CONS IdentifierGeneratorFactory() | identifier generator factory
+CONS IdentifierProjection() | identifier projection
+CONS IdentifierProjection(Z) | identifier projection
+CONS IdentifierProperty(QString;QString;QType;ZQIdentifierValue;QIdentifierGenerator;) | identifier property
+CONS IdentifierProperty(QType;ZZQIdentifierValue;QIdentifierGenerator;) | identifier property
+CONS IdentifierValue() | identifier value
+CONS IdentifierValue(QSerializable;) | identifier value
+CONS IdentityMap(QMap;) | identity map
+CONS IdentitySet() | identity set
+CONS IdentitySet(I) | identity set
+CONS InsertSelectIdentityInsert(QDialect;) | insert select identity insert
+CONS PeerIdentityDataID([B) | peer identity data id
+CONS PersistentIdentifierBag() | persistent identifier bag
+CONS PersistentIdentifierBag(QSessionImplementor;) | persistent identifier bag
+CONS PersistentIdentifierBag(QSessionImplementor;QCollection;) | persistent identifier bag
+CONS SubjectKeyIdentifier([B) | subject key identifier
+CONS SubjectKeyIdentifier(QASN1OctetString;) | subject key identifier
+CONS SubjectKeyIdentifier(QSubjectPublicKeyInfo;) | subject key identifier

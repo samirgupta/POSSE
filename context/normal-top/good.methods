@@ -1,0 +1,136 @@
+AIGoods buyGoodsInEurope(QConnection;QGoodsType;IQLocation;) | buy goods in europe
+ArrayList<QGoods;> getGoodsForSaleInIndianSettlement(QUnit;QSettlement;) | get goods for sale in indian settlement
+boolean canCaptureGoods() | can capture goods
+boolean canCarryGoods() | can carry goods
+boolean good() | good
+boolean isMilitaryGoods() | is military goods
+boolean isNewWorldGoodsType() | is new world goods type
+boolean isTradeGoods() | is trade goods
+BoycottAction showBoycottedGoodsDialog(QGoods;QEurope;) | show boycott ed goods dialog
+Element buyGoods(QConnection;QElement;) | buy goods
+Element goodsForSaleRequest(QConnection;QElement;) | goods for sale request
+Element removeGoods(QElement;) | remove goods
+Element sellGoods(QConnection;QElement;) | sell goods
+Element setGoodsLevels(QConnection;QElement;) | set goods levels
+GoodsContainer getGoodsContainer() | get goods container
+Goods getGoods() | get goods
+Goods getGoods(QGoodsType;) | get goods
+Goods getMostValuableGoods() | get most valuable goods
+Goods removeGoods(QAbstractGoods;) | remove goods
+Goods removeGoods(QGoodsType;) | remove goods
+Goods removeGoods(QGoodsType;I) | remove goods
+Goods selectGoods(QColony;) | select goods
+GoodsType getBestGoodsToProduce(QTile;) | get best goods to produce
+GoodsType getBestGoodsType() | get best goods type
+GoodsType getConsumedGoodsType() | get consumed goods type
+GoodsType getDeliverGoodsType() | get deliver goods type
+GoodsType getGoodsInputType() | get goods input type
+GoodsType getGoodsOutputType() | get goods output type
+GoodsType getGoodsType() | get goods type
+GoodsType getGoodsType(QString;) | get goods type
+GoodsType getProducedGoodsType() | get produced goods type
+GoodsType getSecondaryGoods() | get secondary goods
+GoodsType[] getWantedGoods() | get wanted goods
+GoodsType primaryGoods() | primary goods
+GoodsType secondaryGoods() | secondary goods
+Image getGoodsImage(QGoodsType;) | get goods image
+ImageIcon getGoodsIcon() | get goods icon
+ImageIcon getGoodsImageIcon(QGoodsType;) | get goods image icon
+ImageIcon getScaledGoodsImageIcon(QGoodsType;F) | get scaled goods image icon
+int calculateGoodsInput(II) | calculate goods input
+int getAvailableGoods(QGoodsType;) | get available goods
+int getGoodCriticals(III) | get good criticals
+int getGoodCriticals(QCriticalSlot;I) | get good criticals
+int getGoodSavesCount() | get good saves count
+int getGoodsCount() | get goods count
+int getGoodsCount(QGoodsType;) | get goods count
+int getGoodsInput() | get goods input
+int getGoodsInputAuto(I) | get goods input auto
+int getGoodsInputNextTurn() | get goods input next turn
+int getMaxGoodsIcons() | get max goods icons
+int getMaximumGoodsInput() | get maximum goods input
+int getNrOfGoodOperations() | get nr of good operations
+int getOldGoodsCount(QGoodsType;) | get old goods count
+int getVisibleGoodsCount() | get visible goods count
+int numberOfFarmedGoodsTypes() | number of far med goods types
+int numberOfGoodsTypes() | number of goods types
+int numberOfStoredGoodsTypes() | number of stored goods types
+Iterator<QAIGoods;> getAIGoodsIterator() | get ai goods iterator
+Iterator<QGoods;> getGoodsIterator() | get goods iterator
+JButton getGoodsButton(QGoodsType;) | get goods button
+JButton getGoodsButton(QGoodsType;I) | get goods button
+JButton getGoodsButton(QGoodsType;QString;) | get goods button
+JPopupMenu getGoodsMenu(QGoodsLabel;) | get goods menu
+List<QAbstractGoods;> getGoodsToLoad() | get goods to load
+List<QAbstractGoods;> getGoodsToUnload() | get goods to unload
+List<QGoods;> getCompactGoods() | get compact goods
+List<QGoods;> getFullGoods() | get full goods
+List<QGoods;> getGoods() | get goods
+List<QGoods;> getGoodsGivenBy(QPlayer;) | get goods given by
+List<QGoods;> getGoodsList() | get goods list
+List<QGoods;> getSellGoods() | get sell goods
+List<QGoodsType;> getFarmedGoodsTypeList() | get far med goods type list
+List<QGoodsType;> getGoodsFood() | get goods food
+List<QGoodsType;> getGoodsTypeList() | get goods type list
+List<QGoodsType;> getNewWorldGoodsTypeList() | get new world goods type list
+Operation[] getGoodOperations(QBayesNet;QInstances;I) | get good operations
+Result getHighestMeshIndexWithGoodPing() | get highest mesh index with good ping
+String getGoodsRequiredAsString() | get goods required as string
+String nrOfGoodOperationsTipText() | nr of good operations tip text
+void addCarriedGoods(QUnit;) | add carried goods
+void addGoods(QAbstractGoods;) | add goods
+void addGoods(QGoodsType;I) | add goods
+void addGoods(QGoods;ZZ) | add goods
+void addGoodsTradeItem(QPlayer;QGoods;) | add goods trade item
+void addGoodsWish(QGoodsWish;) | add goods wish
+void addProducedGoods(QTile;) | add produced goods
+void buildGoodsDetail(QGoodsType;) | build goods detail
+void buildGoodsItem(QGoodsType;QDefaultMutableTreeNode;) | build goods item
+void buildGoodsSubtree(QDefaultMutableTreeNode;) | build goods subtree
+void buyGoods(QGoodsType;I) | buy goods
+void buyGoods(QGoodsType;IQUnit;) | buy goods
+void buyTradeGoodsFromEurope(QUnit;) | buy trade goods from europe
+void captureGoods(QUnit;) | capture goods
+void consumeGoods(QGoodsType;I) | consume goods
+void createAIGoods() | create ai goods
+void createAIGoodsInColonies() | create ai goods in colon ies
+void createExportAIGoodsList() | create export ai goods list
+void createGoodsContainer() | create goods container
+void disposeAllToolsGoodsWishes() | dispose all tools goods wishes
+void exportGoods() | export goods
+void GoodsItem(QGoods;) | goods item
+void GoodsPanel() | goods panel
+void GoodsTradeItemPanel(QNegotiationDialog;QPlayer;QList<QGoods;>;) | goods trade item panel
+void hookTuxGoodies(QControl;) | hook tux goodies
+void loadedGoods(QGoods;) | loaded goods
+void loadTradeGoodsFromColony(QUnit;) | load trade goods from colony
+void lookAheadInGoodDirectionsSearch(QBayesNet;QInstances;II) | look ahead in good directions search
+void priceGoods() | price goods
+void priceGoods(QGoodsType;Z) | price goods
+void priceGoods(Z) | price goods
+void produceGoods() | produce goods
+void produceGoodsCenterTile() | produce goods center tile
+void registerSellGoods(QGoods;) | register sell goods
+void removeAIGoods(QAIGoods;) | remove ai goods
+void removeGoods(QAbstractGoods;) | remove goods
+void removeGoods(QGoodsType;) | remove goods
+void removeGoods(QGoodsType;I) | remove goods
+void sellGoods(QGoods;) | sell goods
+void sellTradeGoodsInEurope(QUnit;) | sell trade goods in europe
+void setGoodSavesCount(I) | set good saves count
+void setGoodsIcon(QImageIcon;) | set goods icon
+void setGoodsLevels(QColony;QGoodsType;) | set goods levels
+void setGoods(QGoods;) | set goods
+void setGoodsToLoad(QList<QAbstractGoods;>;) | set goods to load
+void setGoodsToUnload(QList<QAbstractGoods;>;) | set goods to unload
+void setGoodsType(QGoodsType;) | set goods type
+void setMaxGoodsIcons(I) | set max goods icons
+void setMilitaryGoods(Z) | set military goods
+void setNrOfGoodOperations(I) | set nr of good operations
+void setTradeGoods(Z) | set trade goods
+void setWantedGoods(IQGoodsType;) | set wanted goods
+void setWantedGoods([QGoodsType;) | set wanted goods
+void unloadTradeGoodsToColony(QUnit;) | unload trade goods to colony
+void updateGoodsBox(QList<QGoods;>;) | update goods box
+void updateWantedGoods() | update wanted goods
+void WarehouseGoodsPanel(QColony;QGoodsType;) | warehouse goods panel

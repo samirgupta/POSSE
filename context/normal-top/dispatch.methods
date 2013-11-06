@@ -1,0 +1,47 @@
+AggregatedDispatcher createAggregatedDispatcher(JJ) | create aggregated dispatcher
+boolean dispatchImage(int x, int y, int width, int height, String map, byte pixels) | dispatch image
+boolean dispatchKeyEvent(QKeyEvent;) | dispatch key event
+BrowserMessageDispatcher getDispatcher() | get dispatcher
+IDispatcher getServerDispatcher() | get server dispatcher
+List getChangeValueDispatchers() | get change value dispatchers
+OptionEventDispatcher getOptionEventDispatcher() | get option event dispatcher
+RequestDispatcher getRequestDispatcher(String p0) | get request dispatcher
+RPReply dispatch(QRPRequest;) | dispatch
+RPRequestDispatcher getDispatcher() | get dispatcher
+void addChangeValueDispatcher(QChangeValueDispatcher;) | add change value dispatcher
+void addToDispatchers() | add to dispatchers
+void checkPersistentDispatch() | check persistent dispatch
+void closeQueueDispatch() | close queue dispatch
+void dispatch() | dispatch
+void dispatchEvent(QActionEvent;) | dispatch event
+void dispatchEvent(QString;) | dispatch event
+void dispatchInternal(QList;IQObject;) | dispatch internal
+void dispatchInternal(QObject;IQObject;) | dispatch internal
+void dispatch(IQObject;) | dispatch
+void dispatch(IQObject;Z) | dispatch
+void dispatchLoop() | dispatch loop
+void dispatchMessage() | dispatch message
+void dispatchMessage(QHashtable;QJComVcEventListener;) | dispatch message
+void dispatchNextGuiEvent() | dispatch next gui event
+void dispatchNodeAdds() | dispatch node adds
+void dispatchPings() | dispatch pings
+void dispatch(QAERunnable;) | dispatch
+void dispatch(QBrowserMessage;) | dispatch
+void dispatch(QList;) | dispatch
+void dispatch(QObject;IQObject;) | dispatch
+void dispatch(QObject;IQObject;Z) | dispatch
+void dispatchToSpecificService(Element elem) | dispatch to specific service
+void dispatchWithException(IQObject;) | dispatch with exception
+void dispatchWithException(QObject;IQObject;) | dispatch with exception
+void dispatchWithTimeout(QList;QListenerManagerDispatcher;J) | dispatch with timeout
+void doDispatch(QObject;IQObject;) | do dispatch
+void doDispatchWithException(QObject;IQObject;) | do dispatch with exception
+void persistentDispatch() | persistent dispatch
+void persistentDispatchInit() | persistent dispatch init
+void persistentDispatchPending() | persistent dispatch pending
+void persistentDispatchPending(QBuddyPluginBuddy;) | persistent dispatch pending
+void requestDispatcher(I) | request dispatcher
+void requestDispatcher(QDiskManagerReadRequest;QDiskManagerReadRequestListener;QDirectByteBuffer;QList;) | request dispatcher
+void requestDispatcher(QDiskManagerWriteRequest;QDiskManagerWriteRequestListener;QDirectByteBuffer;QList;) | request dispatcher
+void setMessageDispatcher(QBrowserMessageDispatcher;) | set message dispatcher
+XDispatch queryDispatch(URL aURL, String sTarget, int nSearchFlags) | query dispatch

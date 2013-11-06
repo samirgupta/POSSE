@@ -1,0 +1,44 @@
+boolean deployC | deploy c
+boolean deployM | deploy m
+boolean deploymentComplete | deployment complete
+boolean deployV | deploy v
+int COMMAND_DEPLOY_MINEFIELDS | command deploy minefields
+int COMMAND_ENTITY_DEPLOY | command entity deploy
+int deployRound | deploy round
+int lastDeploymentRound | last deployment round
+int PHASE_DEPLOYMENT | phase deployment
+int PHASE_DEPLOY_MINEFIELDS | phase deploy minefields
+java.awt.Choice choDeployment | cho deployment
+java.awt.Label labDeployment | lab deployment
+java.awt.MenuItem deployAssaultDrop | deploy assault drop
+java.awt.MenuItem deployLoad | deploy load
+java.awt.MenuItem deployMinesCommand | deploy mines command
+java.awt.MenuItem deployMinesConventional | deploy mines conventional
+java.awt.MenuItem deployMinesVibrabomb | deploy mines vibrabomb
+java.awt.MenuItem deployNext | deploy next
+java.awt.MenuItem deployRemove | deploy remove
+java.awt.MenuItem deployTurn | deploy turn
+java.awt.MenuItem deployUnload | deploy unload
+java.lang.String DEPLOY_ASSAULTDROP | deploy assaultdrop
+java.lang.String DEPLOY_LOAD | deploy load
+java.lang.String DEPLOY_MINE_COM | deploy mine com
+java.lang.String DEPLOY_MINE_CONV | deploy mine conv
+java.lang.String DEPLOY_MINE_VIBRA | deploy mine vibra
+java.lang.String DEPLOY_NEXT | deploy next
+java.lang.String DEPLOY_REMOVE | deploy remove
+java.lang.String DEPLOY_TURN | deploy turn
+java.lang.String DEPLOY_UNLOAD | deploy unload
+java.util.Hashtable deploymentTable | deployment table
+java.util.Vector deployedMinefields | deployed minefields
+javax.swing.JComboBox choDeployment | cho deployment
+javax.swing.JLabel labDeployment | lab deployment
+javax.swing.JMenuItem deployAssaultDrop | deploy assault drop
+javax.swing.JMenuItem deployLoad | deploy load
+javax.swing.JMenuItem deployMinesCommand | deploy mines command
+javax.swing.JMenuItem deployMinesConventional | deploy mines conventional
+javax.swing.JMenuItem deployMinesVibrabomb | deploy mines vibrabomb
+javax.swing.JMenuItem deployNext | deploy next
+javax.swing.JMenuItem deployRemove | deploy remove
+javax.swing.JMenuItem deployTurn | deploy turn
+javax.swing.JMenuItem deployUnload | deploy unload
+megamek.common.Player m_plDeployer | m pl deployer

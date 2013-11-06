@@ -1,0 +1,19 @@
+boolean isCompiled() | is compiled
+boolean isCompilerTabSelected() | is compiler tab selected
+void activeCompilerChanged() | active compiler changed
+void checkCompileOccurred() | check compile occurred
+void compileAborted(QException;) | compile aborted
+void compileEnded(QFile;QList<+QFile;>;) | compile ended
+void compileStarted() | compile started
+void jButtonCancelCompileActionPerformed(Qjava.awt.event.ActionEvent;) | j button cancel compile action performed
+void jButtonCompileActionPerformed(Qjava.awt.event.ActionEvent;) | j button compile action performed
+void jButtonCompileAllActionPerformed(Qjava.awt.event.ActionEvent;) | j button compile all action performed
+void jButtonCompilerActionPerformed(Qjava.awt.event.ActionEvent;) | j button compiler action performed
+void jCheckBoxUseCurrentFilesDirectoryForCompilesActionPerformed(Qjava.awt.event.ActionEvent;) | j check box use current files directory for compiles action performed
+void jMenuItemCompileActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item compile action performed
+void jMenuItemCompileItemStateChanged(Qjava.awt.event.ItemEvent;) | j menu item compile item state changed
+void testCompileAbortsIfAnyUnsaved() | test compile aborts if any unsaved
+void testCompileAbortsIfUnsaved() | test compile aborts if unsaved
+void testCompileActiveSavedAnyUnsavedButSaveWhenAsked() | test compile active saved any unsaved but save when asked
+void testCompileAfterFileMoved() | test compile after file moved
+void testCompileAnyUnsavedButSaveWhenAsked() | test compile any unsaved but save when asked

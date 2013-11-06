@@ -1,0 +1,81 @@
+boolean getColHidden(I) | get col hidden
+Boolean getColIsIdentity(I) | get col is identity
+boolean getEnumerateColNames() | get enumerate col names
+boolean getPrintColNames() | get print col names
+Class getColClass(I) | get col class
+float[] calcColBC(I[[I) | calc col bc
+FreeColAction getFreeColAction(QString;) | get free col action
+FreeColClient getFreeColClient() | get free col client
+FreeColGameObject getFreeColGameObject(QString;) | get free col game object
+FreeColGameObject getFreeColGameObjectSafely(QString;) | get free col game object safely
+FreeColGameObjectListener getFreeColGameObjectListener() | get free col game object listener
+FreeColGameObject removeFreeColGameObject(QString;) | remove free col game object
+FreeColGameObjectType getFreeColGameObjectType() | get free col game object type
+FreeColServer getFreeColServer() | get free col server
+Integer getColBufLen(I) | get col buf len
+Integer getColCharOctLen(I) | get col char oct len
+Integer getColDataType(I) | get col data type
+Integer getColDataTypeSub(I) | get col data type sub
+Integer getColLen(I) | get col len
+Integer getColNullability(I) | get col nullability
+Integer getColPrecRadix(I) | get col prec radix
+Integer getColScale(I) | get col scale
+Integer getColSize(I) | get col size
+Integer getColSqlDataType(I) | get col sql data type
+Integer getColSqlDateTimeSub(I) | get col sql date time sub
+Integer getColUsage(I) | get col usage
+int getColCount() | get col count
+int getColIndex(QString;) | get col index
+int getColIndex(QString;QString;) | get col index
+int getColNameWidth() | get col name width
+int[] getColOrder() | get col order
+int getColSequence(I) | get col sequence
+int getColSize([[QString;I) | get col size
+int getColSize([[QString;IZZ) | get col size
+int getColTypeCode(I) | get col type code
+int getVisibleColCount() | get visible col count
+Iterator<QFreeColGameObject;> getFreeColGameObjectIterator() | get free col game object iterator
+JPanel getColHeader() | get col header
+Object showFreeColDialog(QFreeColDialog;) | show free col dialog
+String getColDataTypeName(I) | get col data type name
+String getColDefault(I) | get col default
+String getColIsNullable(I) | get col is nullable
+String getColName() | get col name
+String getColName(I) | get col name
+String getColRemark(I) | get col remark
+String getColRemarks(I) | get col remarks
+String getColScopeCat(I) | get col scope cat
+String getColScopeSchem(I) | get col scope schem
+String getColScopeTable(I) | get col scope table
+String getColStClsName() | get col st cls name
+String getColStClsName(I) | get col st cls name
+String getFreeColProtocolVersion() | get free col protocol version
+String getIndexColDirection(II) | get index col direction
+T getFreeColGameObject(QXMLStreamReader;QString;QClass<QT;>;) | get free col game object
+T getFreeColGameObject(QXMLStreamReader;QString;QClass<QT;>;QT;) | get free col game object
+T updateFreeColGameObject(QXMLStreamReader;QClass<QT;>;) | update free col game object
+void addPColRows(QTable;QHsqlArrayList;QString;QString;QString;QString;QInteger;QInteger;QString;QInteger;QInteger;QInteger;QInteger;QInteger;QString;QString;I) | add p col rows
+void checkConvertColDataType(QColumn;QColumn;) | check convert col data type
+void _ensureColInRow(QString;II) | ensure col in row
+void FreeColDragGestureRecognizer(QDragGestureListener;) | free col drag gesture recognizer
+void FreeColFileFilter(QString;QString;) | free col file filter
+void FreeColFileFilter(QString;QString;QString;) | free col file filter
+void FreeColNetworkInputStream(QInputStream;) | free col network input stream
+void removeFreeColGameObject(QString;) | remove free col game object
+void resetFreeColMenuBar() | reset free col menu bar
+void setColDefaultExpression(IQExpression;) | set col default expression
+void setColHidden(IZ) | set col hidden
+void setColName(IQString;) | set col name
+void setColNameWidth(I) | set col name width
+void setColNullability(QColumn;Z) | set col nullability
+void setColOrder([I) | set col order
+void setCOL_SPAN(String col_span) | set col span
+void setEnumerateColNames(Z) | set enumerate col names
+void setFreeColGameObjectListener(QFreeColGameObjectListener;) | set free col game object listener
+void setFreeColGameObject(QString;QFreeColGameObject;) | set free col game object
+void setFreeColServer(QFreeColServer;) | set free col server
+void setOptimalColWidth() | set optimal col width
+void setOptimalColWidths() | set optimal col widths
+void setPrintColNames(Z) | set print col names
+void testColMetaData() | test col meta data
+void writeFreeColGameObject(QFreeColGameObject;QXMLStreamWriter;QPlayer;ZZ) | write free col game object

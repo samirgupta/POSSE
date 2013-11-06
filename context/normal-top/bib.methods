@@ -1,0 +1,53 @@
+BibliographyEntryTemplate getBibliographyEntryTemplateArray() | get bibliography entry template array
+BibtexDatabase parseBibtexDatabase(QList<QString;>;Z) | parse bibtex database
+BibtexEntry bibtexString2BibtexEntry(QString;) | bibtex string 2 bibtex entry
+BibtexEntry getBibtexEntry() | get bibtex entry
+BibtexEntry getBibtexEntryFromDocumentInformation(QPDDocumentInformation;) | get bibtex entry from document information
+BibtexEntry getBibtexEntryFromDublinCore(QXMPSchemaDublinCore;) | get bibtex entry from dublin core
+BibtexEntry getBibtexRepresentation() | get bibtex representation
+BibtexEntry makeBibtexEntry() | make bibtex entry
+BibtexEntry parseEntryBibTeX(QString;Z) | parse entry bib te x
+BibtexEntry t1BibtexEntry() | t 1 bibtex entry
+BibtexEntry t2BibtexEntry() | t 2 bibtex entry
+BibtexEntry t3BibtexEntry() | t 3 bibtex entry
+BibtexEntryType mapMSBibToBibtexType(QString;) | map ms bib to bibtex type
+boolean requiresBibtexKeys() | requires bibtex keys
+Collection<QBibtexEntry;> getBibtexEntries(QString;QString;) | get bibtex entries
+int addBibEntries(QList<QBibtexEntry;>;QString;Z) | add bib entries
+ParserResult openBibFile(QString;Z) | open bib file
+String bibtexDescription(QString;) | bibtex description
+String bibtexEntry2BibtexString(QBibtexEntry;) | bibtex entry 2 bibtex string
+String bibtexXPacket(QString;) | bibtex x packet
+String fixBibkey(QString;) | fix bibkey
+String getMSBibSourceType(QBibtexEntry;) | get ms bib source type
+String makeBibtexString() | make bibtex string
+String t1BibtexString() | t 1 bibtex string
+String t2BibtexString() | t 2 bibtex string
+String t3BibtexString() | t 3 bibtex string
+String toBibTex() | to bib tex
+Vector<QIntegrityMessage;> checkBibtexDatabase(QBibtexDatabase;) | check bibtex database
+Vector<QIntegrityMessage;> checkBibtexEntry(QBibtexEntry;) | check bibtex entry
+void addBibtexEntry(QBibtexEntry;) | add bibtex entry
+void addBibtexEntry(QString;QBibtexEntry;) | add bibtex entry
+void assertBibtexWidth(IQString;) | assert bibtex width
+void BibtexSingleField(QString;) | bibtex single field
+void BibtexSingleField(QString;Z) | bibtex single field
+void BibtexSingleField(QString;ZD) | bibtex single field
+void BibtexSingleField(QString;ZDI) | bibtex single field
+void BibtexSingleField(QString;ZI) | bibtex single field
+void BibtexSingleField(QTXMLReader;QElement;) | bibtex single field
+void guessBibtexFields(QString;) | guess bibtex fields
+void mergeFromBibtex(QJabRefFrame;QBasePanel;QParserResult;ZZZZ) | merge from bibtex
+void populateFromBibtex(QBibtexEntry;) | populate from bibtex
+void setBibtexEntry(QBibtexEntry;) | set bibtex entry
+void setBibtexEntry(QBibtexEntry;QBibtexDatabase;) | set bibtex entry
+void testBibtexParser() | test bibtex parser
+void testCommandLineSingleBib() | test command line single bib
+void testFormatStringStringBibtexEntry() | test format string string bibtex entry
+void testLayoutBibtextype() | test layout bibtex type
+void testSetBibtexEntry() | test set bibtex entry
+void testXMPSchemaBibtexElement() | test xmp schema bibtex element
+void testXMPSchemaBibtexXMPMetadata() | test xmp schema bibtex xmp metadata
+void warnDuplicateBibtexkey() | warn duplicate bibtexkey
+void warnEmptyBibtexkey() | warn empty bibtexkey
+void writeBibFileHeader(QWriter;QString;) | write bib file header

@@ -1,0 +1,21 @@
+boolean hasConfigurationUpdates() | has configuration updates
+boolean othersUpdatesAreVisible(I) | others updates are visible
+boolean ownUpdatesAreVisible(I) | own updates are visible
+boolean supportsBatchUpdates() | supports batch updates
+int numberOfCollectionUpdates() | number of collection updates
+int numberOfUpdates() | number of updates
+MRequestUpdate getUpdates(String confidentialType) | get updates
+Update[] getUpdates() | get updates
+void allUpdatesComplete(ZZ) | all updates complete
+void applyConfigurationUpdates() | apply configuration updates
+void applyUpdates(Z) | apply updates
+void cancelRowUpdates() | cancel row updates
+void checkForUpdates() | check for updates
+void checkUpdates() | check updates
+void disableUpdates() | disable updates
+void DoCheckUpdates() | do check updates
+void enableUpdates() | enable updates
+void setAutomaticUpdates(Z) | set automatic updates
+void testFindNextUpdatesCurrent() | test find next updates current
+void testWriteSingleUpdatesDCAndInfo() | test write single updates dc and info
+void transmitAllPlayerUpdates() | transmit all player updates

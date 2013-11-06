@@ -1,0 +1,8 @@
+CONS SideBar() | side bar
+CONS SideBarEntrySWT(QSideBar;QString;) | side bar entry swt
+CONS SideBarToolTips(QSideBar;QTree;) | side bar tool tips
+CONS SideBarVitalityImageSWT(QSideBarEntrySWT;QString;) | side bar vitality image swt
+CONS SidePane() | side pane
+CONS SidePaneComponent(QSidePaneManager;QURL;QString;) | side pane component
+CONS SidePaneHeader(QString;QURL;QSidePaneComponent;) | side pane header
+CONS SidePaneManager(QJabRefFrame;) | side pane manager

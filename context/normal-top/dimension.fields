@@ -1,0 +1,16 @@
+com.eteks.sweethome3d.model.CollectionChangeSupport<com.eteks.sweethome3d.model.DimensionLine> dimensionLinesChangeSupport | dimension lines change support
+com.eteks.sweethome3d.model.DimensionLine newDimensionLine | new dimension line
+com.eteks.sweethome3d.model.DimensionLine selectedDimensionLine | selected dimension line
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState dimensionLineCreationState | dimension line creation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState dimensionLineDrawingState | dimension line drawing state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState dimensionLineOffsetState | dimension line offset state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState dimensionLineResizeState | dimension line resize state
+float distanceFromResizePointToDimensionBaseLine | distance from resize point to dimension base line
+int xDimension | x dimension
+int yDimension | y dimension
+java.awt.Dimension offscreenDimension | offscreen dimension
+java.awt.geom.GeneralPath DIMENSION_LINE_END | dimension line end
+java.util.List<com.eteks.sweethome3d.model.DimensionLine> dimensionLines | dimension lines
+java.util.List<com.eteks.sweethome3d.model.DimensionLine> dimensionLinesFeedback | dimension lines feedback
+javax.swing.JToggleButton createDimensionsButton | create dimensions button
+javax.swing.JToggleButton.ToggleButtonModel createDimensionLinesToggleModel | create dimension lines toggle model

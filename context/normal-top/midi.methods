@@ -1,0 +1,19 @@
+boolean selectFirstAvailableMidiDevice() | select first available midi device
+GP4MIDIChannel readMIDIChannel() | read midi channel
+int getNumberOfMidiDevices() | get number of midi devices
+int midiMessageLength(I) | midi message length
+java.util.Vector SequenceToMidiTrackEvents() | sequence to midi track events
+MidiDevice.Info[] getMidiDevices() | get midi devices
+MidiEvent getMidiEvent() | get midi event
+Midi getMidi() | get midi
+MidiMessage getMidiMessage() | get midi message
+MidiTrackEvent getMidiTrackEventAt(I) | get midi track event at
+String MidiEventToString(QMidiEvent;) | midi event to string
+String MidiMessageToString(QMidiMessage;) | midi message to string
+void addMidiAbout(Qjavax.swing.JMenuBar;) | add midi about
+void enableMidiInputDevice(int deviceId, boolean enable) | enable midi input device
+void fillMidiChannel() | fill midi channel
+void setCurrentMidiDevice(I) | set current midi device
+void setMidiDevices([QObject;) | set midi devices
+void setMidi(QMidi;) | set midi
+void setMidiTrackEvents(Qjava.util.Vector;) | set midi track events

@@ -1,0 +1,22 @@
+boolean getOutputOffsetMultiplier() | get output offset multiplier
+ControllerState getDimensionLineOffsetState() | get dimension line offset state
+ControllerState getPieceOfFurnitureNameOffsetState() | get piece of furniture name offset state
+ControllerState getRoomAreaOffsetState() | get room area offset state
+ControllerState getRoomNameOffsetState() | get room name offset state
+Date getOffsetAnchor() | get offset anchor
+Date getOffsetEnd() | get offset end
+DimensionLine getOffsetDimensionLineAt(FF) | get offset dimension line at
+int getOffsetOfLine(I) | get offset of line
+int getOffsetPixels() | get offset pixels
+long getOffsetTime(J) | get offset time
+Pair<QInteger;QInteger;> getOffsetAndLength(QString;IIII) | get offset and length
+String outputOffsetMultiplierTipText() | output offset multiplier tip text
+TimeUnit getOffsetUnit() | get offset unit
+void adjustImageOffsetY(int anInt) | adjust image offset y
+void insureOffsetIsCorrect() | insure offset is correct
+void paintRoomAreaOffsetIndicator(QGraphics2D;QRoom;QPaint;F) | paint room area offset indicator
+void paintRoomNameOffsetIndicator(QGraphics2D;QRoom;QPaint;F) | paint room name offset indicator
+void setOutputOffsetMultiplier(Z) | set output offset multiplier
+void setTimeOffsetHours(int timeOffsetHours) | set time offset hours
+void testGetOffsetAndLength() | test get offset and length
+void testOffsetOfActivityStartingOnFriday() | test offset of activity starting on friday

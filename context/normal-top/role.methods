@@ -1,0 +1,88 @@
+AccessibleRole getAccessibleRole() | get accessible role
+boolean getResourceRole() | get resource role
+boolean hasRoleDirect(QString;) | has role direct
+boolean hasRole(QString;) | has role
+boolean isRole(QString;) | is role
+boolean isUserInRole(String arg0) | is user in role
+boolean updateNestedRoles(QString;) | update nested roles
+GeneralName getRoleName() | get role name
+GeneralNames getRoleAuthority() | get role authority
+Grantee getRole(QString;) | get role
+HashSet addGranteeAndRoles(QHashSet;) | add grantee and roles
+HashSet getAllRoles() | get all roles
+HashSet getDirectRoles() | get direct roles
+int getRoleID() | get role id
+JDBCRelationshipRoleMetaData getRelatedRole() | get related role
+Role createRole(QString;I) | create role
+Role findRole(I) | find role
+Role findRole(QString;) | find role
+Role getDefaultRole() | get default role
+Role[] getEnabledRoles() | get enabled roles
+Role[] getProjectLevelRoles() | get project level roles
+Role getRole() | get role
+Role getRoleForAssigment() | get role for assigment
+Role getRoleForAssignment() | get role for assignment
+Role[] getRoles() | get roles
+RoleManager getRoleManager() | get role manager
+RoleSet createRoleSet(QString;) | create role set
+RoleSet getChangedRoleSet() | get changed role set
+RoleSet getProjectRoleSet() | get project role set
+RoleSet getRoleSet(QString;) | get role set
+RoleSet[] getRoleSets() | get role sets
+Set getCollectionRolesByEntityParticipant(QString;) | get collection roles by entity participant
+Set getRoleNames() | get role names
+Set<WSRole> getRoles() | get roles
+String addRole(QString;) | add role
+String allRolesString() | all roles string
+String formatRoleForTooltip(QRole;) | format role for tooltip
+String getAllRolesString() | get all roles string
+String getAssociationRoleReferentialConstraintNameConversionType() | get association role referential constraint name conversion type
+String getAssociationRoleReferentialConstraintNameSuffix() | get association role referential constraint name suffix
+String getCollectionRole() | get collection role
+String[] getCollectionRoleNames() | get collection role names
+String getDirectRolesString() | get direct roles string
+String getEntityOrRoleName() | get entity or role name
+String getPartnerRole() | get partner role
+String getRole() | get role
+String[] getRoleAuthorityAsString() | get role authority as string
+String getRoleName() | get role name
+String getRoleNameAsString() | get role name as string
+String getRole(QString;) | get role
+String getRoleSetDisplayName(QRoleSet;) | get role set display name
+String getRoleSetID() | get role set id
+String getRolesetTooltipFooter() | get role set tooltip footer
+String getRolesetTooltipHeader(QString;) | get role set tooltip header
+Table SYSTEM_ROLE_AUTHORIZATION_DESCRIPTORS() | system role authorization descriptors
+void addRoleListener(QListener;) | add role listener
+void addRoleSetPage([QRoleSet;) | add role set page
+void clearRoleSet() | clear role set
+void deleteRole(QRole;) | delete role
+void dropRole(QString;) | drop role
+void findRoleSet(QString;) | find role set
+void loadRoleSets(QFile;) | load role sets
+void loadRoles(QAttributes;) | load roles
+void processRoleGrantOrRevoke(Z) | process role grant or revoke
+void registerRoleManager(QRoleManager;) | register role manager
+void removeEmptyRole(QGrantee;) | remove empty role
+void removeRoleFromUsers(Role role) | remove role from users
+void removeRoleListener(QListener;) | remove role listener
+void RoleEvent(QRoleManager;QRoleSet;) | role event
+void RoleSetListModel([QRoleSet;QI18N;) | role set list model
+void saveRoleSets(QTransformerHandler;) | save role sets
+void saveRoles(QRoleSet;QTransformerHandler;) | save roles
+void saveRoles(QTransformerHandler;) | save roles
+void setCollectionRole(QString;) | set collection role
+void setDefaultRole(QRole;) | set default role
+void setModifierRole(String modifierRole) | set modifier role
+void setRole() | set role
+void setRoleForAssigment(QRole;) | set role for assigment
+void setRoleForAssignment(QRole;) | set role for assignment
+void setRoleName(QString;) | set role name
+void setRole(QRole;) | set role
+void setRole(QString;) | set role
+void setUpAssignementRolesRenderer() | set up assignement roles renderer
+void setUpRoles() | set up roles
+void setUpRolesComboColumn(QJTable;) | set up roles combo column
+void setUpRolesRenderer() | set up roles renderer
+void setUserrole(MochaListModel userrole) | set user role
+WSRole updateActionsForRole(WSRole wsRole, String ids) | update actions for role

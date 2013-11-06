@@ -1,0 +1,37 @@
+boolean getChatLoungeTabs() | get chat lounge tabs
+boolean isChatWindowVisible() | is chat window visible
+BooleanParameter getEnableChatNotificationsParameter() | get enable chat notifications parameter
+ChatDiscussion getChatDiscussionFor(QVuzeBuddy;) | get chat discussion for
+Chat getChat() | get chat
+chatInstance createChat([QBuddyPluginBuddy;) | create chat
+Element chat(QElement;) | chat
+List getStoredChatMessages() | get stored chat messages
+String getChatText() | get chat text
+void addChatListener(QChatListener;) | add chat listener
+void chatInstance(QString;) | chat instance
+void chatMessage(QString;QMap;) | chat message
+void chatParticipant(QBuddyPluginBuddy;) | chat participant
+void chatParticipant(QString;) | chat participant
+void chat(QString;) | chat
+void deleteChatMessage(QChatMessage;) | delete chat message
+void destroyChat(QchatInstance;) | destroy chat
+void displayChatMessage(QPlayer;QString;Z) | display chat message
+void displayChatMessage(QString;) | display chat message
+void displayChat(QString;QString;Z) | display chat
+void gamePlayerChat(QGamePlayerChatEvent;) | game player chat
+void logChatMessage(QString;QColor;QMap;) | log chat message
+void notifyListenersOfChat(QVuzeBuddy;) | notify listeners of chat
+void processChat(QGamePlayerChatEvent;) | process chat
+void processChat(QGamePlayerChatEvent;QTestBot;) | process chat
+void removeChatListener(QChatListener;) | remove chat listener
+void sendAZ2Chat(QBuddyPluginBuddy;QMap;) | send az 2 chat
+void sendChat(IQString;QString;) | send chat
+void sendChat(QString;) | send chat
+void sendChat(QString;QString;) | send chat
+void sendServerChat(IQString;) | send server chat
+void sendServerChat(QString;) | send server chat
+void setChatDiscussion(QChatDiscussion;) | set chat discussion
+void setChatloungeTabs(Z) | set chatlounge tabs
+void showChatPanel() | show chat panel
+void storeChatMessage(QChatMessage;) | store chat message
+void updatedChat(QVuzeBuddy;) | updated chat

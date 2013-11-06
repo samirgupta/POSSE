@@ -1,0 +1,126 @@
+boolean findRTAPieceToDownload(QPEPeerTransport;ZJ) | find rta piece to download
+boolean getMinPieceSpacing() | get min piece spacing
+boolean isPieceAvailable(I) | is piece available
+boolean isPieceOfFurnitureNameValid() | is piece of furniture name valid
+boolean isPieceOfFurniturePartOfBasePlan(QHomePieceOfFurniture;) | is piece of furniture part of base plan
+boolean readPieceFrom(QGPInputStream;) | read piece from
+boolean seedPieceRecheck() | seed piece recheck
+boolean seedPieceRecheck(QDownloadManager;) | seed piece recheck
+boolean validatePieceReply(QPEPeerTransport;IIQDirectByteBuffer;) | validate piece reply
+BTMessagePiece createCoreBTPieceAdaptation(QMessage;) | create core bt piece adaptation
+ByteBuffer getPieceData() | get piece data
+byte[] getPieceHash(I) | get piece hash
+CatalogPieceOfFurniture getPieceOfFurniture(I) | get piece of furniture
+ControllerState getPieceOfFurnitureElevationState() | get piece of furniture elevation state
+ControllerState getPieceOfFurnitureHeightState() | get piece of furniture height state
+ControllerState getPieceOfFurnitureNameOffsetState() | get piece of furniture name offset state
+ControllerState getPieceOfFurnitureResizeState() | get piece of furniture resize state
+ControllerState getPieceOfFurnitureRotationState() | get piece of furniture rotation state
+DirectByteBuffer getPieceData() | get piece data
+DMPieceList getPieceList(I) | get piece list
+DMPieceMap getPieceMap() | get piece map
+GP4Piece readPieceFrom(QFile;) | read piece from
+HomePieceOfFurniture adjustPieceOfFurnitureElevationAt(QHomePieceOfFurniture;) | adjust piece of furniture elevation at
+HomePieceOfFurniture getElevatedPieceOfFurnitureAt(FF) | get elevated piece of furniture at
+HomePieceOfFurniture getHeightResizedPieceOfFurnitureAt(FF) | get height resized piece of furniture at
+HomePieceOfFurniture getPieceOfFurniture() | get piece of furniture
+HomePieceOfFurniture getPieceOfFurnitureNameAt(FF) | get piece of furniture name at
+HomePieceOfFurniture getRotatedPieceOfFurnitureAt(FF) | get rotated piece of furniture at
+HomePieceOfFurniture getWidthAndDepthResizedPieceOfFurnitureAt(FF) | get width and depth resized piece of furniture at
+int findFirstFileWithPieceN(I[QDiskManagerFileInfo;) | find first file with piece n
+int findPieceInEndGameMode(QPEPeerTransport;I) | find piece in end game mode
+int findPieceToDownload(QPEPeerTransport;I) | find piece to download
+int getFirstPieceNumber() | get first piece number
+int[] getIncomingRequestedPieceNumbers() | get incoming requested piece numbers
+int getLastPieceLength() | get last piece length
+int getLastPieceNumber() | get last piece number
+int[] getOutgoingRequestedPieceNumbers() | get outgoing requested piece numbers
+int getPieceGroupSize() | get piece group size
+int getPieceLength() | get piece length
+int getPieceLength(I) | get piece length
+int getPieceNumber() | get piece number
+int[] getPieceNumbers() | get piece numbers
+int getPieceOffset() | get piece offset
+int getPieceOfFurnitureDeletionIndex(QHomePieceOfFurniture;QHome;I) | get piece of furniture deletion index
+int getPieceOfFurnitureIndex(QHomePieceOfFurniture;) | get piece of furniture index
+int getPieceOfFurnitureInsertionIndex(QHomePieceOfFurniture;QHome;I) | get piece of furniture insertion index
+int getPieceToStart(QBitFlags;) | get piece to start
+int[] getRequestedPieceNumbers() | get requested piece numbers
+int getReservedPieceNumber() | get reserved piece number
+int getStartPieceNumber() | get start piece number
+int getStartPieceOffset() | get start piece offset
+int setStartPieceBasedOnMode(II) | set start piece based on mode
+List buildLastPieceToFileList(QList;IJ) | build last piece to file list
+List getPieceWrites() | get piece writes
+List getPieceWrites(I) | get piece writes
+List getPieceWrites(QPEPeer;) | get piece writes
+List getPieceWrites(QString;) | get piece writes
+long getComputedPieceSize(J) | get computed piece size
+long getComputedPieceSize(JJJJJ) | get computed piece size
+long getFirstPieceLength() | get first piece length
+long getFirstPieceStart() | get first piece start
+long getLastPieceLength() | get last piece length
+long getLastPieceStart() | get last piece start
+long getNeededUndonePieceChange() | get needed undone piece change
+long getPieceCount() | get piece count
+long getPieceCount(JJ) | get piece count
+long getPieceLength() | get piece length
+long getPieceSize() | get piece size
+long getPieceSizeManual() | get piece size manual
+PiecePicker getPiecePicker() | get piece picker
+String getPieceLength() | get piece length
+String getPieceString(I) | get piece string
+TOTorrentCreator createFromFileOrDirWithComputedPieceLength(QFile;QURL;) | create from file or dir with computed piece length
+TOTorrentCreator createFromFileOrDirWithComputedPieceLength(QFile;QURL;JJJJ) | create from file or dir with computed piece length
+TOTorrentCreator createFromFileOrDirWithComputedPieceLength(QFile;QURL;Z) | create from file or dir with computed piece length
+TOTorrentCreator createFromFileOrDirWithComputedPieceLength(QFile;QURL;ZJJJJ) | create from file or dir with computed piece length
+TOTorrentCreator createFromFileOrDirWithFixedPieceLength(QFile;QURL;) | create from file or dir with fixed piece length
+TOTorrentCreator createFromFileOrDirWithFixedPieceLength(QFile;QURL;J) | create from file or dir with fixed piece length
+TOTorrentCreator createFromFileOrDirWithFixedPieceLength(QFile;QURL;Z) | create from file or dir with fixed piece length
+TOTorrentCreator createFromFileOrDirWithFixedPieceLength(QFile;QURL;ZJ) | create from file or dir with fixed piece length
+void addPieceListener(QDownloadManagerPieceListener;) | add piece listener
+void addPieceListener(QDownloadManagerPieceListener;Z) | add piece listener
+void addPieceOfFurniture(QHomePieceOfFurniture;) | add piece of furniture
+void addPieceOfFurniture(QHomePieceOfFurniture;I) | add piece of furniture
+void addPieceRequest(III) | add piece request
+void adjustMagnetizedPieceOfFurniture(QHomePieceOfFurniture;FF) | adjust magnetized piece of furniture
+void AlignedPieceOfFurniture(QHomePieceOfFurniture;Z) | aligned piece of furniture
+void checkFreePieceList(Z) | check free piece list
+void checkPieceOfFurnitureNameInCategory() | check piece of furniture name in category
+void createPieceDistPanel() | create piece dist panel
+void createPieceOfFurnitureNode(QHomePieceOfFurniture;ZZ) | create piece of furniture node
+void deletePieceOfFurniture(QHomePieceOfFurniture;) | delete piece of furniture
+void deselectPieceOfFurniture(QCatalogPieceOfFurniture;) | deselect piece of furniture
+void fillPieceInfoSection() | fill piece info section
+void GP4PieceStats() | gp 4 piece stats
+void GP4PieceStats(QGP4Piece;ZQString;) | gp 4 piece stats
+void ModifiedPieceOfFurniture(QHomePieceOfFurniture;) | modified piece of furniture
+void paintPieceOfFurnitureIcon(QGraphics2D;QHomePieceOfFurniture;QIcon;QShape;FQColor;) | paint piece of furniture icon
+void paintPieceOfFurnitureIcon(QGraphics2D;QHomePieceOfFurniture;QShape;FQColor;QPaintMode;) | paint piece of furniture icon
+void paintPieceOFFurnitureIndicators(QGraphics2D;QHomePieceOfFurniture;QPaint;F) | paint piece of furniture indicators
+void paintPieceOfFurnitureTop(QGraphics2D;QHomePieceOfFurniture;QShape;QBasicStroke;FQColor;QColor;QPaintMode;) | paint piece of furniture top
+void postPieceOfFurnitureElevation(QHomePieceOfFurniture;F) | post piece of furniture elevation
+void postPieceOfFurnitureHeightResize(QHomePieceOfFurniture;F) | post piece of furniture height resize
+void postPieceOfFurnitureMove(QHomePieceOfFurniture;FFFFFZ) | post piece of furniture move
+void postPieceOfFurnitureNameOffset(QHomePieceOfFurniture;FF) | post piece of furniture name offset
+void postPieceOfFurnitureRotation(QHomePieceOfFurniture;FZ) | post piece of furniture rotation
+void postPieceOfFurnitureWidthAndDepthResize(QHomePieceOfFurniture;FFFFZ) | post piece of furniture width and depth resize
+void processPieceCheckResult(QDiskManagerCheckRequest;I) | process piece check result
+void processPieceChecks() | process piece checks
+void removeAllPieceRequests() | remove all piece requests
+void removePieceListener(QDownloadManagerPieceListener;) | remove piece listener
+void removePieceRequest(III) | remove piece request
+void seedPieceRecheck() | seed piece recheck
+void setMinPieceSpacing(Z) | set min piece spacing
+void setPieceDone(QDiskManagerPieceImpl;Z) | set piece done
+void setPieceLength(J) | set piece length
+void setPieceSizeManual(J) | set piece size manual
+void setPieceVersion(B) | set piece version
+void setReservedPieceNumber(I) | set reserved piece number
+void showPieceDetails(II) | show piece details
+void testHomePieceOfFurniturePanel() | test home piece of furniture panel
+void updatePieceOfFurnitureColor() | update piece of furniture color
+void updatePieceOfFurnitureModelNode(QNode;Z) | update piece of furniture model node
+void updatePieceOfFurnitureTransform() | update piece of furniture transform
+void updatePieceOfFurnitureVisibility() | update piece of furniture visibility
+Wall adjustPieceOfFurnitureOnWallAt(QHomePieceOfFurniture;FF) | adjust piece of furniture on wall at

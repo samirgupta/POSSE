@@ -1,0 +1,117 @@
+Area getInsideWallsArea() | get inside walls area
+Area getWallsArea() | get walls area
+Area getWallsArea(QCollection<QWall;>;) | get walls area
+boolean containsWallEndAt(FFF) | contains wall end at
+boolean containsWallStartAt(FFF) | contains wall start at
+boolean equalsWallPoint(FFQWall;) | equals wall point
+boolean isBoundToWall() | is bound to wall
+boolean isJoinedAtEndOfWallAtEnd() | is joined at end of wall at end
+boolean isJoinedAtEndOfWallAtStart() | is joined at end of wall at start
+boolean isJoinedAtStartOfWallAtEnd() | is joined at start of wall at end
+boolean isJoinedAtStartOfWallAtStart() | is joined at start of wall at start
+boolean passBuildingWall(QEntity;QBuilding;QCoords;QCoords;IQString;) | pass building wall
+Collection<QWall;> getWalls() | get walls
+ControllerState getWallCreationState() | get wall creation state
+ControllerState getWallDrawingState() | get wall drawing state
+ControllerState getWallResizeState() | get wall resize state
+DialogView createWallView(QUserPreferences;QWallController;) | create wall view
+float getNewWallHeight() | get new wall height
+float getNewWallThickness() | get new wall thickness
+Float getRectangularWallHeight() | get rectangular wall height
+Float getSlopingWallHeightAtEnd() | get sl op ing wall height at end
+Float getSlopingWallHeightAtStart() | get sl op ing wall height at start
+float getWallDistance() | get wall distance
+float getWallHeight() | get wall height
+float getWallHeightAtEnd() | get wall height at end
+float getWallHeightAtStart() | get wall height at start
+float getWallsAlpha() | get walls alpha
+float[][] getWallSidePoints(I) | get wall side points
+float getWallThickness() | get wall thickness
+Geometry[] createWallGeometries(IQHomeTexture;) | create wall geometries
+Geometry createWallHorizontalPartGeometry([[FF) | create wall horizontal part geometry
+Geometry createWallTopPartGeometry([[FDDDD) | create wall top part geometry
+Geometry createWallVerticalPartGeometry([[FFDDDDQHomeTexture;) | create wall vertical part geometry
+Integer getWallAngle(QWall;) | get wall angle
+Integer getWallAngle(QWall;F) | get wall angle
+JDialog showWallPanel(QUserPreferences;QHomeController;QJFrame;QJComponentTester;) | show wall panel
+JoinedWall[] getJoinedWalls(QList<QWall;>;) | get joined walls
+List<QDimensionLine;> getDimensionLinesAlongWall(QHomePieceOfFurniture;QWall;) | get dimension lines along wall
+List<QGeneralPath;> getRoomPathsFromWalls() | get room paths from walls
+List<QWall;> getWalls([QJoinedWall;) | get walls
+List<QWall;> getWallsSubList(QList<+QSelectable;>;) | get walls sub list
+Node createWallPartShape(Z) | create wall part shape
+Paint getWallPaint(FQColor;QColor;) | get wall paint
+Shape getDoorOrWindowShapeAtWallIntersection(QHomeDoorOrWindow;) | get door or window shape at wall intersection
+TextureImage getWallPattern() | get wall pattern
+void addHomeWallListener() | add home wall listener
+void addWallListener(QGroup;) | add wall listener
+void addWall(QWall;) | add wall
+void addWallsListener(QCollectionListener<QWall;>;) | add walls listener
+void addWalls(QList<QWall;>;) | add walls
+void assertCoordinatesEqualWallPoints(FFFFQWall;) | assert coordinates equal wall points
+void assertWallCollectionContains(QCollection<QWall;>;[QWall;) | assert wall collection contains
+void assertWallControllerEquals(QFloat;QFloat;QFloat;QFloat;QFloat;QFloat;QFloat;QFloat;QInteger;QTextureImage;QInteger;QTextureImage;QWallController;) | assert wall controller equals
+void createNextWall() | create next wall
+void createWallsAroundRoom(QRoom;) | create walls around room
+void deleteWall(QWall;) | delete wall
+void detachJoinedWall(QWall;) | detach joined wall
+void doAddWalls([QJoinedWall;Z) | do add walls
+void doDeleteWalls([QJoinedWall;Z) | do delete walls
+void doModifyWalls([QModifiedWall;QFloat;QFloat;QFloat;QFloat;QInteger;QHomeTexture;QInteger;QHomeTexture;QFloat;QFloat;QFloat;) | do modify walls
+void doReverseWallsDirection([QWall;) | do reverse walls direction
+void endWallCreation() | end wall creation
+void JoinedWall(QWall;) | joined wall
+void joinNewWallEndToWall(QWall;QWall;QWall;) | join new wall end to wall
+void ModifiedWall(QWall;) | modified wall
+void modifySelectedWalls() | modify selected walls
+void modifyWalls() | modify walls
+void moveWallEndPoint(QWall;FFZ) | move wall end point
+void moveWallPoint(QWall;FFZ) | move wall point
+void moveWallPoints(QWall;QFloat;QFloat;QFloat;QFloat;) | move wall points
+void moveWallStartPoint(QWall;FFZ) | move wall start point
+void paintWallAlignmentFeedback(QGraphics2D;QWall;QPoint2D;ZQPaint;QStroke;FQPaint;QStroke;) | paint wall alignment feedback
+void paintWallResizeIndicator(QGraphics2D;QWall;QPaint;F) | paint wall resize indicator
+void paintWallsOutline(QGraphics2D;QList<QSelectable;>;QPaint;QStroke;QPaint;FQColor;) | paint walls outline
+void paintWalls(QGraphics2D;QList<QSelectable;>;FQColor;QColor;QPaintMode;) | paint walls
+void PointMagnetizedToClosestWallOrRoomPoint(QCollection<QRoom;>;FFF) | point magnetized to closest wall or room point
+void postCreateWalls(QList<QWall;>;QList<QSelectable;>;Z) | post create walls
+void postReverseSelectedWallsDirection([QWall;QList<QSelectable;>;) | post reverse selected walls direction
+void postSplitSelectedWall(QJoinedWall;QJoinedWall;QJoinedWall;QList<QSelectable;>;Z) | post split selected wall
+void postWallResize(QWall;FFZ) | post wall resize
+void removeWallsListener(QCollectionListener<QWall;>;) | remove walls listener
+void removeWalls(SObject centre, double range) | remove walls
+void reverseSelectedWallsDirection() | reverse selected walls direction
+void setBoundToWall(Z) | set bound to wall
+void setNewWallHeight(F) | set new wall height
+void setNewWallThickness(F) | set new wall thickness
+void setRectangularWallHeight(QFloat;) | set rectangular wall height
+void setSlopingWallHeightAtEnd(QFloat;) | set sl op ing wall height at end
+void setSlopingWallHeightAtStart(QFloat;) | set sl op ing wall height at start
+void setWallAtEnd(QWall;) | set wall at end
+void setWallAtEnd(QWall;Z) | set wall at end
+void setWallAtStart(QWall;) | set wall at start
+void setWallAtStart(QWall;Z) | set wall at start
+void setWallPattern(QTextureImage;) | set wall pattern
+void setWallsAlpha(F) | set walls alpha
+void showWallAngleFeedback(QWall;) | show wall angle feedback
+void splitSelectedWall() | split selected wall
+void testHomeWalls() | test home walls
+void undoModifyWalls([QModifiedWall;) | undo modify walls
+void updateFilledWallSideAppearance(QAppearance;QHomeTexture;ZQInteger;) | update filled wall side appearance
+void updateOutlineWallSideAppearance(QAppearance;) | update outline wall side appearance
+void updateWallAppearance(Z) | update wall appearance
+void updateWallGeometry() | update wall geometry
+void updateWall(QWall;) | update wall
+void updateWallShapeRadioButtons(QWallController;) | update wall shape radio buttons
+void updateWallSideGeometry(IQHomeTexture;) | update wall side geometry
+void validateDrawnWalls() | validate drawn walls
+void WallsModificationUndoableEdit(QHome;QUserPreferences;QList<QSelectable;>;[QModifiedWall;QFloat;QFloat;QFloat;QFloat;QInteger;QHomeTexture;QInteger;QHomeTexture;QFloat;QFloat;QFloat;) | walls modification undoable edit
+Wall adjustPieceOfFurnitureOnWallAt(QHomePieceOfFurniture;FF) | adjust piece of furniture on wall at
+Wall createWall(FFFFQWall;QWall;) | create wall
+Wall getResizedWallEndAt(FF) | get resized wall end at
+Wall getResizedWallStartAt(FF) | get resized wall start at
+Wall getWall() | get wall
+Wall getWallAtEnd() | get wall at end
+Wall getWallAtStart() | get wall at start
+Wall getWallEndAt(FFQWall;) | get wall end at
+Wall getWallStartAt(FFQWall;) | get wall start at

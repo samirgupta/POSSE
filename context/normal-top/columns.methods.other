@@ -1,0 +1,34 @@
+ArrayList getColumnsConf() | get columns conf
+boolean allColumnsAreDefinedIn(QExpression;QHashSet;) | all columns are defined in
+CustomColumnsManager getCustomColumnsManager() | get custom columns manager
+CustomColumnsStorage getCustomColumnsStorage() | get custom columns storage
+int getColumnsSpacing() | get columns spacing
+int getColumnsWidth() | get columns width
+int getMaxColumnsInGroupBy() | get max columns in group by
+int getMaxColumnsInIndex() | get max columns in index
+int getMaxColumnsInOrderBy() | get max columns in order by
+int getMaxColumnsInSelect() | get max columns in select
+int getMaxColumnsInTable() | get max columns in table
+int getSpecialColumnsCount() | get special columns count
+List getCustomColumnsNames() | get custom columns names
+Map getTableColumnsAsMap(QClass;QString;) | get table columns as map
+String getColumnsConf(QArrayList;) | get columns conf
+String[] getColumnsUsingProjection(QCriteria;QString;) | get columns using projection
+String getNoColumnsInsertString() | get no columns insert string
+void addColumnsToList([QTableColumnCore;QArrayList;) | add columns to list
+void addCustomColumnsListener(QCustomColumsListener;) | add custom columns listener
+void bindColumnsOrFormula(QElement;QSimpleValue;QString;ZQMappings;) | bind columns or formula
+void checkColumnsMatch([IQTable;[I) | check columns match
+void createColumnsConf() | create columns conf
+void DisplayedColumnsList() | displayed columns list
+void fireCustomColumnsChange(QCustomColumEvent;) | fire custom columns change
+void initColumnsAlignements() | init columns alignements
+void registerCustomColumnsManager(QCustomColumnsManager;) | register custom columns manager
+void registerCustomColumnsStorage(QCustomColumnsStorage;) | register custom columns storage
+void setColumnsError(QString;) | set columns error
+void setColumnsFromWorker(QList;) | set columns from worker
+void setColumnsSpacing(I) | set columns spacing
+void setColumnsWidth(I) | set columns width
+void updateDisplayedColumnsOrder() | update displayed columns order
+void updateTableColumnsWidth() | update table columns width
+XMLElement getColumnsToXML() | get columns to xml

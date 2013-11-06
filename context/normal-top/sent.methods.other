@@ -1,0 +1,13 @@
+boolean hasBeenSentTo(QDHTTransportContact;) | has been sent to
+boolean hasSentFirstReply() | has sent first reply
+boolean isSentMessagesFolder() | is sent messages folder
+int getSentCount() | get sent count
+int getStatisticSentAverage() | get statistic sent average
+int getTimeSinceLastDataSentInSeconds() | get time since last data sent in seconds
+void incSentCount() | inc sent count
+void notifyOfExternallySentMessage(QMessage;) | notify of externally sent message
+void setSentFirstReply() | set sent first reply
+void statisticalSentPiece(I) | statistical sent piece
+void testDependencyEventIsSentOnDependencyCreation() | test dependency event is sent on dependency creation
+void testDependencyEventIsSentOnDependencyRemoval() | test dependency event is sent on dependency removal
+void testEventIsSentOnCreatingNewTask() | test event is sent on creating new task

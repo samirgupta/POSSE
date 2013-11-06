@@ -1,0 +1,26 @@
+boolean checkForMASCFailure(QMovePath;QVector;QVector;) | check for masc failure
+boolean isPermanentFailure() | is permanent failure
+boolean triggerFailure() | trigger failure
+int failureCount() | failure count
+int getFailureCount() | get failure count
+int getFailureType() | get failure type
+long getOptimisticFailureCount() | get optimistic failure count
+String getFailure() | get failure
+String getFailureForward() | get failure forward
+Throwable getFailure() | get failure
+void callbackFailure(QThrowable;) | callback failure
+void connectFailure(QThrowable;) | connect failure
+void handshakeFailure(QThrowable;) | handshake failure
+void informFailure(QString;) | inform failure
+void informFailure(QString;QString;) | inform failure
+void logFailure(QString;) | log failure
+void optimisticFailure(QString;) | optimistic failure
+void recoverAfterListenerSetupFailure() | recover after listener setup failure
+void resetFailureCount() | reset failure count
+void selectFailure(QTransportHelper;QObject;QThrowable;) | select failure
+void selectFailure(QVirtualAbstractSelectorListener;QAbstractSelectableChannel;QObject;QThrowable;) | select failure
+void selectFailure(QVirtualChannelSelector;QServerSocketChannel;QObject;QThrowable;) | select failure
+void selectFailure(QVirtualChannelSelector;QSocketChannel;QObject;QThrowable;) | select failure
+void setPermanentFailure(Z) | set permanent failure
+void syntaxFailure() | syntax failure
+void testMakeBraceFailure() | test make brace failure

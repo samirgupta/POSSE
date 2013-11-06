@@ -1,0 +1,14 @@
+CONS DDBaseContactImpl(QDDBaseImpl;QDHTPluginContact;) | dd base contact impl
+CONS DHTControlContactImpl(QDHTTransportContact;) | dht control contact impl
+CONS DHTPluginContactImpl(QDHTPluginImpl;QDHTTransportContact;) | dht plugin contact impl
+CONS DHTRouterContactImpl([BQDHTRouterContactAttachment;Z) | dht router contact impl
+CONS DHTTransportLoopbackContactImpl(QDHTTransportLoopbackImpl;[B) | dht transport loopback contact impl
+CONS DHTTransportUDPContactImpl(ZQDHTTransportUDPImpl;QInetSocketAddress;QInetSocketAddress;BIJ) | dht transport udp contact impl
+CONS JComVcContactItem() | j com vc contact item
+CONS JContactList() | j contact list
+CONS JContactListEvents() | j contact list events
+CONS JContactListItem() | j contact list item
+CONS JContactListItem(IQjava.lang.String;Qjava.lang.String;) | j contact list item
+CONS JContactListManager() | j contact list manager
+CONS JContactListModel() | j contact list model
+CONS JMOSContactDetails(QJContactListItem;) | jmos contact details

@@ -1,0 +1,69 @@
+ADPCMPacket readPacket(I) | read packet
+boolean setPacketSize(I) | set packet size
+byte getPacketType() | get packet type
+INetworkPacket readNetworkPacket() | read network packet
+int getFirstPacketSample() | get first packet sample
+int getMaxIncomingInitialPacketSize(Z) | get max incoming initial packet size
+int getPacketSize() | get packet size
+int readPacketType(QInputStream;[BI) | read packet type
+long getAveragePacketsSent() | get average packets sent
+long getPacketsSent() | get packets sent
+long getTotalPacketsSent() | get total packets sent
+Packet createAddEntityPacket(I) | create add entity packet
+Packet createAllReportsPacket(QPlayer;) | create all reports packet
+Packet createArtilleryPacket(QPlayer;) | create artillery packet
+Packet createAttackPacket(QEntityAction;I) | create attack packet
+Packet createAttackPacket(QVector;I) | create attack packet
+Packet createBoardPacket() | create board packet
+Packet createCollapseBuildingPacket(QBuilding;) | create collapse building packet
+Packet createCollapseBuildingPacket(QVector;) | create collapse building packet
+Packet createEndOfGamePacket() | create end of game packet
+Packet createEntitiesPacket() | create entities packet
+Packet createEntityPacket(I) | create entity packet
+Packet createEntityPacket(IQVector;) | create entity packet
+Packet createFilteredEntitiesPacket(QPlayer;) | create filtered entities packet
+Packet createFilteredFullEntitiesPacket(QPlayer;) | create filtered full entities packet
+Packet createFlarePacket() | create flare packet
+Packet createFullEntitiesPacket() | create full entities packet
+Packet createGameSettingsPacket() | create game settings packet
+Packet createHexChangePacket(QCoords;QIHex;) | create hex change packet
+Packet createMapQueryPacket(QMapSettings;) | create map query packet
+Packet createMapSettingsPacket() | create map settings packet
+Packet createPlayerConnectPacket(I) | create player connect packet
+Packet createPlayerDonePacket(I) | create player done packet
+Packet createPlayerUpdatePacket(I) | create player update packet
+Packet createRemoveEntityPacket(I) | create remove entity packet
+Packet createRemoveEntityPacket(II) | create remove entity packet
+Packet createReportPacket(QPlayer;) | create report packet
+Packet createSpecialReportPacket() | create special report packet
+Packet createTacticalGeniusReportPacket() | create tactical genius report packet
+Packet createTurnIndexPacket() | create turn index packet
+Packet createTurnVectorPacket() | create turn vector packet
+Packet createUpdateBuildingCFPacket(QVector;) | create update building cf packet
+Packet getPacket() | get packet
+PRUDPPacket getPreviousPacket() | get previous packet
+PRUDPPacketHandler getPacketHandler() | get packet handler
+SendPacket getPacket() | get packet
+String bibtexXPacket(QString;) | bibtex x packet
+UDPPacket getRetransmitPacket() | get retransmit packet
+void addPacket(QSendPacket;) | add packet
+void createPacketHandler() | create packet handler
+void enqueueReceiveBuffer(RelReceiveBuffer packet) | enqueue receive buffer
+void execute(Packet packet, Backend backend) | execute
+void handlePacket(QPacket;) | handle packet
+void NetworkPacket(ZI[B) | network packet
+void packetSent(I) | packet sent
+void packetSent(J) | packet sent
+void primordialPacketSent(I) | primordial packet sent
+void processPacket(QINetworkPacket;) | process packet
+void processPacket(QSendPacket;) | process packet
+void receivePacket(QNetworkInterface;QInetAddress;QDatagramPacket;) | receive packet
+void sendDeliveredNotification(String to, String packetID) | send delivered notification
+void sendNetworkPacket([BZ) | send network packet
+void sendPacket2(SshPacket2 packet) | send packet 2
+void sendPacket(PeeringPacket packet) | send packet
+void SendPacket(QPacket;) | send packet
+void sendPacket(QTCM;) | send packet
+void sendPackets(Z) | send packets
+void setPreviousPacket(QPRUDPPacket;) | set previous packet
+void writePacket(QADPCMPacket;QOutStream;Z) | write packet

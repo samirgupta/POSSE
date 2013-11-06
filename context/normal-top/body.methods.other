@@ -1,0 +1,10 @@
+Body getBody1() | get body 1
+boolean theBodyShouldBeEvaluatedAgain() | the body should be evaluated again
+int readBodyWireFormat([BI) | read body wire format
+int writeBodyWireFormat([BI) | write body wire format
+String getBodyMethodName(QScriptOrFnNode;) | get body method name
+String getBodyMethodSignature(QScriptOrFnNode;) | get body method signature
+void generateBodyCode() | generate body code
+void initBodyGeneration() | init body generation
+void printBodyWithoutAuthenticationCheck() | print body without authentication check
+void writeTagBodyContent(JspWriter out, BodyContent _bodyContent) | write tag body content

@@ -1,0 +1,11 @@
+boolean packetReceived(QDatagramPacket;) | packet received
+long getAveragePacketsReceived() | get average packets received
+long getPacketsReceived() | get packets received
+long getTotalPacketsReceived() | get total packets received
+void errorPacketReceived(Qymsg.network.event.SessionErrorEvent;) | error packet received
+void packetReceived(I) | packet received
+void packetReceived(J) | packet received
+void packetReceived(QDHTUDPPacketReply;QInetSocketAddress;J) | packet received
+void packetReceived(QPacketReceivedEvent;) | packet received
+void packetReceived(QPRUDPPacketHandlerRequest;QPRUDPPacket;QInetSocketAddress;) | packet received
+void primordialPacketReceived(I) | primordial packet received

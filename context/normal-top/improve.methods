@@ -1,0 +1,37 @@
+boolean canPerformImprovement(QTileImprovementType;) | can perform improvement
+boolean hasImprovement(QTileImprovementType;) | has improvement
+boolean removeTileImprovementPlan(QTileImprovementPlan;) | remove tile improvement plan
+double getMinImprovement() | get min improvement
+Element workImprovement(QConnection;QElement;) | work improvement
+ImprovementActionType getImprovementActionType(QString;) | get improvement action type
+int getImprovementBonusPotential(QGoodsType;) | get improvement bonus potential
+Iterator<QTileImprovement;> getImprovementIterator() | get improvement iterator
+Iterator<QTileImprovementPlan;> getTileImprovementPlanIterator() | get tile improvement plan iterator
+List<QImprovementActionType;> getImprovementActionTypeList() | get improvement action type list
+List<QTileImprovement;> getCompletedTileImprovements() | get completed tile improvements
+List<QTileImprovement;> getImprovements() | get improvements
+List<QTileImprovement;> getTileImprovements() | get tile improvements
+List<QTileImprovementType;> getTileImprovementTypeList() | get tile improvement type list
+MiscType createCLImprovedJumpJet() | create cl improved jump jet
+MiscType createImprovedJumpJet() | create improved jump jet
+MiscType createImprovedStealth() | create improved stealth
+String minImprovementTipText() | min improvement tip text
+TileImprovement findTileImprovementType(QTileImprovementType;) | find tile improvement type
+TileImprovement getWorkImprovement() | get work improvement
+TileImprovementPlan createTileImprovementPlan() | create tile improvement plan
+TileImprovementPlan updateTileImprovementPlan(QTileImprovementPlan;) | update tile improvement plan
+TileImprovementType findBestTileImprovementType(QTile;QGoodsType;) | find best tile improvement type
+TileImprovementType getRequiredImprovementType() | get required improvement type
+TileImprovementType getTileImprovementType(QString;) | get tile improvement type
+void changeWorkImprovementType(QUnit;QTileImprovementType;) | change work improvement type
+void createTileImprovementPlans() | create tile improvement plans
+void displayAdditionsAndImprovements(QGraphics2D;QMap;QTile;II) | display additions and improvements
+void ImproveSolutions() | improve solutions
+void removeIncompatibleImprovements() | remove incompatible improvements
+void removeTileImprovementPlan(QTileImprovementPlan;) | remove tile improvement plan
+void setMinImprovement(D) | set min improvement
+void setTileImprovementPlan(QTileImprovementPlan;) | set tile improvement plan
+void setWorkImprovement(QTileImprovement;) | set work improvement
+void updateTileImprovementPlan() | update tile improvement plan
+WeaponType createISImprovedNarc() | create is improved narc
+WeaponType createISImprovedNarcOS() | create is improved narc os

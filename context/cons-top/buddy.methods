@@ -1,0 +1,26 @@
+CONS AbstractBuddyPageListener(QBrowser;) | abstract buddy page listener
+CONS BrowserRpcBuddyListener() | browser rpc buddy listener
+CONS BuddyPluginAZ2(QBuddyPlugin;) | buddy plugin az 2
+CONS BuddyPluginBuddyMessageHandler(QBuddyPluginBuddy;QFile;) | buddy plugin buddy message handler
+CONS BuddyPluginBuddyMessage(QBuddyPluginBuddyMessageHandler;IIQMap;IJ) | buddy plugin buddy message
+CONS BuddyPluginBuddy(QBuddyPlugin;IZQString;QString;IIJQList;) | buddy plugin buddy
+CONS BuddyPluginException(QString;) | buddy plugin exception
+CONS BuddyPluginException(QString;QThrowable;) | buddy plugin exception
+CONS BuddyPluginPasswordException(ZQString;QThrowable;) | buddy plugin password exception
+CONS BuddyPluginTimeoutException(QString;Z) | buddy plugin timeout exception
+CONS BuddyPluginTracker(QBuddyPlugin;QBasicPluginConfigModel;) | buddy plugin tracker
+CONS BuddyPluginViewChat(QBuddyPlugin;QDisplay;QBuddyPluginAZ2.chatInstance;) | buddy plugin view chat
+CONS BuddyPluginViewInstance(QBuddyPlugin;QUIInstance;QComposite;) | buddy plugin view instance
+CONS BuddyPluginView(QBuddyPlugin;QUISWTInstance;) | buddy plugin view
+CONS JBuddyDetails() | j buddy details
+CONS VuzeActivitiesBuddyInvited(QList;) | vu ze activities buddy invited
+CONS VuzeActivitiesEntryBuddyLinkup() | vu ze activities entry buddy link up
+CONS VuzeActivitiesEntryBuddyLinkup(QVuzeBuddy;) | vu ze activities entry buddy link up
+CONS VuzeActivitiesEntryBuddyRequest() | vu ze activities entry buddy request
+CONS VuzeBuddyFakeImpl() | vu ze buddy fake impl
+CONS VuzeBuddyFakeImpl(QMap;) | vu ze buddy fake impl
+CONS VuzeBuddyFakeSWTImpl(QMap;) | vu ze buddy fake swt impl
+CONS VuzeBuddyImpl() | vu ze buddy impl
+CONS VuzeBuddyImpl(QString;) | vu ze buddy impl
+CONS VuzeBuddySWTImpl() | vu ze buddy swt impl
+CONS VuzeBuddySWTImpl(QString;) | vu ze buddy swt impl

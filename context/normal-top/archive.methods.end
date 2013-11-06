@@ -1,0 +1,28 @@
+ArcDef findArchive(QString;I) | find archive
+Archive findBestArchive(JJJQArrayList;) | find best archive
+Archive findMatchingArchive(QFetchRequest;) | find matching archive
+Archive findStartMatchArchive(QString;JJ) | find start match archive
+Archive getArchive(I) | get archive
+Archive getArchive(QString;I) | get archive
+Archive getMatchingArchive() | get matching archive
+boolean doesElementExistInArchive(QString;) | does element exist in archive
+boolean isFileInArchive(QString;) | is file in archive
+boolean isInArchive() | is in archive
+void addArchive() | add archive
+void addArchive([QArcDef;) | add archive
+void addArchive(QArcDef;) | add archive
+void addArchive(QString;) | add archive
+void addArchive(QString;DII) | add archive
+void addArchive(QString;QArcDef;Z) | add archive
+void addArchive(QString;QString;QArcDef;) | add archive
+void editArchive() | edit archive
+void extractAllFromZipArchive() | extract all from zip archive
+void removeArchive() | remove archive
+void removeArchive(QString;I) | remove archive
+void removeArchive(QString;QString;IZ) | remove archive
+void removeArchive(QString;QString;QString;I) | remove archive
+void resizeArchive(QString;QString;IIZ) | resize archive
+void resizeArchive(QString;QString;QString;II) | resize archive
+void testArchive(QFile;QSet<QString;>;) | test archive
+void testJarArchive() | test jar archive
+ZipEntry entryFromArchive(QString;) | entry from archive

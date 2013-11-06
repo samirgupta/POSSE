@@ -1,0 +1,15 @@
+CONS RepeatedSongPhraseImpl(QSongPhrase;I) | repeated song phrase impl
+CONS SongAftertouchMessage(III) | song aftertouch message
+CONS SongBendMessage(II) | song bend message
+CONS SongChannelMessage(I) | song channel message
+CONS SongControllerMessage(III) | song controller message
+CONS SongEventImpl(IQSongMessage;) | song event impl
+CONS SongImpl(IQTempo;) | song impl
+CONS SongMeasureImpl(IIII) | song measure impl
+CONS SongNoteMessage(II) | song note message
+CONS SongNoteOffMessage(II) | song note off message
+CONS SongNoteOnMessage(III) | song note on message
+CONS SongPhraseListImpl() | song phrase list impl
+CONS SongPressureMessage(II) | song pressure message
+CONS SongProgramChangeMessage(II) | song program change message
+CONS SongTrackImpl(I) | song track impl

@@ -1,0 +1,23 @@
+boolean addInterpreter(QString;) | add interpreter
+boolean removeInterpreter(QString;) | remove interpreter
+Object getInterpreter() | get interpreter
+Object newInterpreter() | new interpreter
+Object recursiveInterpreter(QInterpreter;QString;QVector;) | recursive interpreter
+Object recursiveInterpreter(QInterpreter;QString;QVector;I) | recursive interpreter
+Option<QPair<QBoolean;QBoolean;>;> setActiveInterpreter(QString;) | set active interpreter
+Option<QPair<QBoolean;QBoolean;>;> setToDefaultInterpreter() | set to default interpreter
+Pair<QBoolean;QBoolean;> setActiveInterpreter(QString;) | set active interpreter
+Pair<QBoolean;QBoolean;> setToDefaultInterpreter() | set to default interpreter
+void addInterpreter(QString;) | add interpreter
+void addInterpreter(QString;QObject;QClass<*>;[QObject;[QString;[QClass<*>;) | add interpreter
+void _copyVariablesFromInterpreter() | copy variables from interpreter
+void _removeCurrentDebugInterpreter(Z) | remove current debug interpreter
+void removeInterpreter() | remove interpreter
+void removeInterpreter(QString;) | remove interpreter
+void _resetInterpreter(QFile;Z) | reset interpreter
+void resetInterpreter(QFile;Z) | reset interpreter
+void setActiveInterpreter(QString;QString;) | set active interpreter
+void setToDefaultInterpreter() | set to default interpreter
+void setWaitingForFirstInterpreter(Z) | set waiting for first interpreter
+void testSwitchActiveInterpreter() | test switch active interpreter
+void testSwitchToNonExistantInterpreter() | test switch to non existant interpreter

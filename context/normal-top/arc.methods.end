@@ -1,0 +1,22 @@
+boolean isArc(QBayesNet;II) | is arc
+boolean isInArc(QCoords;IQCoords;I) | is in arc
+boolean isInArc(QIGame;IIQTargetable;) | is in arc
+int firingArcToHitArc(I) | firing arc to hit arc
+int getFiringArc() | get firing arc
+int getThreatHitArc(QCoords;IQCoords;) | get threat hit arc
+int getWeaponArc(I) | get weapon arc
+void ActionAddArc() | action add arc
+void ActionDeleteArc() | action delete arc
+void addArc(II) | add arc
+void addArc(QString;QFastVector;) | add arc
+void addArc(QString;QString;) | add arc
+void deleteArc(II) | delete arc
+void deleteArc(IQString;) | delete arc
+void deleteArc([QString;) | delete arc
+void deleteArc(QString;I) | delete arc
+void deleteArc(QString;QString;) | delete arc
+void drawArc(IIIIII) | draw arc
+void drawEllipticArc(Point pt, Size sz, double sa, double ea) | draw elliptic arc
+void fillArc(IIIIII) | fill arc
+void setArc(DD) | set arc
+void setFiringArc(I) | set firing arc

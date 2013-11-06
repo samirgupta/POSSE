@@ -1,0 +1,7 @@
+boolean isTrustedObject(Object obj) | is trusted object
+boolean trustCertificate(QString;QX509Certificate;) | trust certificate
+KeyStore getTrustStore() | get trust store
+SSLSocketFactory addCertToTrustStore(QString;Qjava.security.cert.Certificate;Z) | add cert to trust store
+TAIResult negotiateValidateandEstablishTrust(HttpServletRequest req, HttpServletResponse resp) | negotiate validate and establish trust
+void setTrustStoreType(String type) | set trust store type
+void trustDialog(QDisplay;QString;QX509Certificate;) | trust dialog

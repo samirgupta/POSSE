@@ -1,0 +1,43 @@
+ArrayList<QString;> getTrace() | get trace
+boolean isTrace() | is trace
+StackTraceElement getStackTrace() | get stack trace
+String generateStackTrace() | generate stack trace
+String getCompressedStackTrace() | get compressed stack trace
+String getCompressedStackTrace(I) | get compressed stack trace
+String getCompressedStackTrace(II) | get compressed stack trace
+String getCompressedStackTrace(QThrowable;I) | get compressed stack trace
+String getCompressedStackTrace(QThrowable;II) | get compressed stack trace
+String getFullStackTrace(QThrowable;) | get full stack trace
+String getQueueTrace() | get queue trace
+String[] getRootCauseStackTrace(QThrowable;) | get root cause stack trace
+String getStackTrace() | get stack trace
+String getStackTrace(I) | get stack trace
+String getStackTrace(QThrowable;) | get stack trace
+String getStackTrace(ZZ) | get stack trace
+String getStackTrace(ZZII) | get stack trace
+String getStatsTrace() | get stats trace
+String stackTrace() | stack trace
+String stackTrace(QThrowable;) | stack trace
+void _addToIndentTrace(QString;QString;Z) | add to indent trace
+void debuggerAutomaticTrace() | debugger automatic trace
+void _displayStackTrace(QJUnitError;) | display stack trace
+void dumpTrace(QThrowable;) | dump trace
+void milliTrace(QString;) | milli trace
+void outStackTrace() | out stack trace
+void printLastIndentTrace(QPrintStream;) | print last indent trace
+void printPartialStackTrace(QPrintWriter;) | print partial stack trace
+void printRootCauseStackTrace(QThrowable;) | print root cause stack trace
+void printRootCauseStackTrace(QThrowable;QPrintStream;) | print root cause stack trace
+void printRootCauseStackTrace(QThrowable;QPrintWriter;) | print root cause stack trace
+void printStackTrace() | print stack trace
+void printStackTrace(PrintStream s) | print stack trace
+void printStackTrace(QPrintStream;) | print stack trace
+void printStackTrace(QPrintWriter;) | print stack trace
+void printStackTrace(QThrowable;) | print stack trace
+void printStackTrace(QThrowable;QObject;) | print stack trace
+void setTrace(String trace) | set trace
+void setTrace(Z) | set trace
+void showStackTrace(QThrowable;) | show stack trace
+void testGetStackTrace() | test get stack trace
+void testTrace() | test trace
+void toggleStackTrace() | toggle stack trace

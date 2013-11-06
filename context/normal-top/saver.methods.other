@@ -1,0 +1,5 @@
+AbstractFileSaver getSaverForExtension(QString;) | get saver for extension
+AbstractFileSaver getSaverForFile(QFile;) | get saver for file
+AbstractFileSaver getSaverForFile(QString;) | get saver for file
+Vector<QExtensionFileFilter;> filterNonCoreSaverFileFilters(QVector<QExtensionFileFilter;>;) | filter non core saver file filters
+Vector<QExtensionFileFilter;> filterSaverFileFilters(QVector<QExtensionFileFilter;>;) | filter saver file filters

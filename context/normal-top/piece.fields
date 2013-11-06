@@ -1,0 +1,160 @@
+boolean computed_piece_size | computed piece size
+boolean discard_pieces | discard pieces
+boolean enable_seeding_piece_rechecks | enable seeding piece rechecks
+boolean firstPiecePriority | first piece priority
+boolean flush_pieces | flush pieces
+boolean hasNeededUndonePiece | has needed undone piece
+boolean[] hasPieces | has pieces
+boolean hide_a_piece | hide a piece
+boolean onePiecePerBlock | one piece per block
+boolean pieces | pieces
+byte AL_BT_PIECE | al bt piece
+byte AL_MSG_BT_PIECE | al msg bt piece
+byte[] ID_AZ_BAD_PIECE_BYTES | id az bad piece bytes
+byte[] ID_AZ_SESSION_PIECE_BYTES | id az session piece bytes
+byte[] ID_BT_PIECE_BYTES | id bt piece bytes
+byte other_peer_az_bad_piece_version | other peer az bad piece version
+byte other_peer_piece_version | other peer piece version
+byte PIECE_DONE | piece done
+byte PIECE_NOT_DONE | piece not done
+byte[][] pieces | pieces
+byte PIECE_STATUS_CHECKING | piece status checking
+byte PIECE_STATUS_MASK_DOWNLOADABLE | piece status mask downloadable
+byte PIECE_STATUS_MASK_NEEDS_CHECK | piece status mask needs check
+byte PIECE_STATUS_WRITTEN | piece status written
+byte piece_version | piece version
+com.aelitis.azureus.core.lws.LWSDiskManager.sePiece piece | piece
+com.aelitis.azureus.core.lws.LWSDiskManager.sePiece[] pieces | pieces
+com.aelitis.azureus.core.peermanager.messaging.bittorrent.BTPiece bt_piece | bt piece
+com.aelitis.azureus.core.peermanager.messaging.bittorrent.BTPiece piece | piece
+com.aelitis.azureus.core.peermanager.piecepicker.PiecePicker current_piece_pickler | current piece pickler
+com.aelitis.azureus.core.peermanager.piecepicker.PiecePicker piecePicker | piece picker
+com.aelitis.azureus.core.peermanager.piecepicker.util.BitFlags peerHavePieces | peer have pieces
+com.aelitis.azureus.core.peermanager.utils.OutgoingBTPieceMessageHandler outgoing_piece_message_handler | outgoing piece message handler
+com.eteks.sweethome3d.model.CatalogPieceOfFurniture piece | piece
+com.eteks.sweethome3d.model.HomePieceOfFurniture draggedPieceOfFurniture | dragged piece of furniture
+com.eteks.sweethome3d.model.HomePieceOfFurniture leadSelectedPieceOfFurniture | lead selected piece of furniture
+com.eteks.sweethome3d.model.HomePieceOfFurniture movedPieceOfFurniture | moved piece of furniture
+com.eteks.sweethome3d.model.HomePieceOfFurniture piece | piece
+com.eteks.sweethome3d.model.HomePieceOfFurniture selectedPiece | selected piece
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureElevationState | piece of furniture elevation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureHeightState | piece of furniture height state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureNameOffsetState | piece of furniture name offset state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureResizeState | piece of furniture resize state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureRotationState | piece of furniture rotation state
+float angleDraggedPieceOfFurniture | angle dragged piece of furniture
+float angleMovedPieceOfFurniture | angle moved piece of furniture
+float depthDraggedPieceOfFurniture | depth dragged piece of furniture
+float depthMovedPieceOfFurniture | depth moved piece of furniture
+float elevationDraggedPieceOfFurniture | elevation dragged piece of furniture
+float elevationMovedPieceOfFurniture | elevation moved piece of furniture
+float xDraggedPieceOfFurniture | x dragged piece of furniture
+float xMovedPieceOfFurniture | x moved piece of furniture
+float yDraggedPieceOfFurniture | y dragged piece of furniture
+float yMovedPieceOfFurniture | y moved piece of furniture
+int CHECK_REASON_BAD_PIECE_CHECK | check reason bad piece check
+int DM_FREE_PIECELIST_TIMEOUT | dm free piece list timeout
+int first_piece_number | first piece number
+int hidden_piece | hidden piece
+int _lastPiece | last piece
+int last_piece_length | last piece length
+int lastPieceLength | last piece length
+int last_piece_number | last piece number
+int MIN_PIECES_TO_BUFFER | min pieces to buffer
+int _nbPieces | nb pieces
+int nbPieces | nb pieces
+int nbPiecesActive | nb pieces active
+int nbPiecesDone | nb pieces done
+int next_rescan_piece | next rescan piece
+int next_seed_piece_recheck_index | next seed piece recheck index
+int number_of_pieces | number of pieces
+int num_pieces | num pieces
+int piece | piece
+int piece_count | piece count
+int piece_group_size | piece group size
+int PIECE_HASH_TIMEOUT | piece hash timeout
+int pieceIndex | piece index
+int piece_length | piece length
+int pieceLength | piece length
+int piece_number | piece number
+int pieceNumber | piece number
+int[] piece_numbers | piece numbers
+int piece_offset | piece offset
+int piece_size | piece size
+int PRIORITY_W_PIECE_DONE | priority w piece done
+int PRIORITY_W_SAME_PIECE | priority w same piece
+int reserved_piece | reserved piece
+int reservedPiece | reserved piece
+int seedPieceCheckCount | seed piece check count
+int stalled_piece_timeout | stalled piece timeout
+int start_piece_number | start piece number
+int start_piece_offset | start piece offset
+int SUBID_BT_PIECE | subid bt piece
+int SUBID_ID_AZ_BAD_PIECE | subid id az bad piece
+int superSeedModeCurrentPiece | super seed mode current piece
+int uniquePiece | unique piece
+java.awt.Font modifiablePieceFont | modifiable piece font
+java.lang.String ID_AZ_BAD_PIECE | id az bad piece
+java.lang.String ID_AZ_SESSION_PIECE | id az session piece
+java.lang.String ID_BTMESSAGE_PIECE | id btm es sa ge piece
+java.lang.String ID_BT_PIECE | id bt piece
+java.lang.String TABLE_TORRENT_PIECES | table torrent pieces
+java.lang.String TK_PIECE_LENGTH | tk piece length
+java.lang.String TK_PIECES | tk pieces
+java.lang.String VIEW_TORRENT_PIECES | view torrent pieces
+java.util.BitSet piece_map | piece map
+java.util.Comparator compFindPEPiece | comp find pe piece
+java.util.List current_pieces | current pieces
+java.util.List piece_check_result_list | piece check result list
+java.util.List rarestStartedPieces | rarest started pieces
+java.util.Set missing_pieces | missing pieces
+java.util.Vector pieces | pieces
+long first_piece_length | first piece length
+long FIRST_PIECE_MIN_NB | first piece min nb
+long first_piece_start | first piece start
+long FLAG_SCAN_INCOMPLETE_PIECES | flag scan incomplete pieces
+long lastNeededUndonePieceChange | last needed undone piece change
+long last_new_piece_time | last new piece time
+long last_piece_length | last piece length
+long last_pieces_read_time | last pieces read time
+long last_piece_start | last piece start
+long manual_piece_size | manual piece size
+long neededUndonePieceChange | needed undone piece change
+long piece_count | piece count
+long piece_length | piece length
+long piece_map_use_accessor_time | piece map use accessor time
+long[] piece_rtas | piece rt as
+long piece_size | piece size
+long[] provider_piece_priorities | provider piece priorities
+long[] provider_piece_rtas | provider piece rt as
+long rescan_piece_time | rescan piece time
+long[] STANDARD_PIECE_SIZES | standard piece sizes
+long TO_DEFAULT_FIXED_PIECE_SIZE | to default fixed piece size
+long TO_DEFAULT_VARIABLE_PIECE_NUM_LOWER | to default variable piece num lower
+long TO_DEFAULT_VARIABLE_PIECE_NUM_UPPER | to default variable piece num upper
+long TO_DEFAULT_VARIABLE_PIECE_SIZE_MAX | to default variable piece size max
+long TO_DEFAULT_VARIABLE_PIECE_SIZE_MIN | to default variable piece size min
+org.gudy.azureus2.core3.disk.DiskManagerPiece dmPiece | dm piece
+org.gudy.azureus2.core3.disk.DiskManagerPiece[] dm_pieces | dm pieces
+org.gudy.azureus2.core3.disk.DiskManagerPiece[] dmPieces | dm pieces
+org.gudy.azureus2.core3.disk.impl.DiskManagerPieceImpl[] pieces | pieces
+org.gudy.azureus2.core3.disk.impl.piecemapper.DMPieceList[] piece_lists | piece lists
+org.gudy.azureus2.core3.disk.impl.piecemapper.DMPieceMapper piece_mapper | piece mapper
+org.gudy.azureus2.core3.disk.impl.piecemapper.DMPieceMap piece_map_use_accessor | piece map use accessor
+org.gudy.azureus2.core3.disk.impl.piecemapper.impl.PieceMapEntryImpl[] pieces | pieces
+org.gudy.azureus2.core3.logging.LogIDs PIECES | pieces
+org.gudy.azureus2.core3.peer.impl.control.SuperSeedPiece[] superSeedPieces | super seed pieces
+org.gudy.azureus2.core3.peer.impl.PEPieceImpl[] pePieces | pe pieces
+org.gudy.azureus2.core3.peer.PEPiece[] pe_pieces | pe pieces
+org.gudy.azureus2.core3.peer.PEPiece[] pePieces | pe pieces
+org.gudy.azureus2.core3.util.AEMonitor file_piece_mon | file piece mon
+org.gudy.azureus2.core3.util.AEMonitor piece_check_result_list_mon | piece check result list mon
+org.gudy.azureus2.core3.util.AEMonitor piece_listeners_mon | piece listeners mon
+org.gudy.azureus2.core3.util.ListenerManager piece_listeners | piece listeners
+org.gudy.azureus2.core3.util.ListenerManager piece_listeners_aggregator | piece listeners aggregator
+org.gudy.azureus2.pluginsimpl.local.peers.PeerManagerImpl.pieceFacade[] piece_facades | piece facades
+org.gudy.azureus2.ui.swt.components.BufferedLabel pieceNumber | piece number
+org.gudy.azureus2.ui.swt.components.BufferedLabel pieceSize | piece size
+org.gudy.azureus2.ui.swt.components.BufferedLabel piecesPercent | pieces percent
+org.gudy.azureus2.ui.swt.views.piece.MyPieceDistributionView pieceDistView | piece dist view
+org.gudy.azureus2.ui.swt.views.piece.PieceInfoView pieceInfoView | piece info view

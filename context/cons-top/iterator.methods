@@ -1,0 +1,36 @@
+CONS ASTIterator(QAST;) | ast iterator
+CONS ASTParentsFirstIterator(QAST;) | ast parents first iterator
+CONS BreadthFirstIterator() | breadth first iterator
+CONS BreadthFirstIterator(QIterator;II) | breadth first iterator
+CONS BreadthFirstIterator(QNode;II) | breadth first iterator
+CONS CompositeIntIterator([QIntIterator;) | composite int iterator
+CONS CompositeIntIterator(QIntIterator;QIntIterator;) | composite int iterator
+CONS CompositeIterator(I) | composite iterator
+CONS CompositeIterator([QIterator;) | composite iterator
+CONS CompositeIterator(QIterator;QIterator;) | composite iterator
+CONS EmptyIterator() | empty iterator
+CONS EnumerationIterator(QEnumeration;) | enumeration iterator
+CONS FilterIterator(QIterator;QPredicate;) | filter iterator
+CONS FilterRowIterator(QIntIterator;QTable;QPredicate;) | filter row iterator
+CONS GeneratorPropertyIteratorPanel() | generator property iterator panel
+CONS GeneratorPropertyIteratorPanel(QExperiment;) | generator property iterator panel
+CONS IntArrayIterator([III) | int array iterator
+CONS IteratorImpl(QResultSet;QPreparedStatement;QEventSource;[QType;[[QString;QHolderInstantiator;) | iterator impl
+CONS JoinedIterator([QIterator;) | joined iterator
+CONS JoinedIterator(QIterator;QIterator;) | joined iterator
+CONS JoinedIterator(QList;) | joined iterator
+CONS LazyIterator(QMap;) | lazy iterator
+CONS NeighborIterator(QNode;QIterator;) | neighbor iterator
+CONS SingletonIterator(QObject;) | singleton iterator
+CONS SortedTupleIterator(QIterator;IQComparator;) | sorted tuple iterator
+CONS SortedTupleIterator(QIterator;QComparator;) | sorted tuple iterator
+CONS StringIteratorImpl(QIterator;) | string iterator impl
+CONS TableIterator(QTable;QIntIterator;) | table iterator
+CONS TreeNodeIterator(QNode;) | tree node iterator
+CONS UniqueRowIterator(QIntIterator;) | unique row iterator
+CONS URLPagerIterator(QAbstractURLPager;I) | url pager iterator
+CONS WrapperIterator() | wrapper iterator
+CONS WrapperIterator(QIterator;QIterator;) | wrapper iterator
+CONS WrapperIterator([QObject;) | wrapper iterator
+CONS WrapperIterator(QObject;) | wrapper iterator
+CONS WrapperIterator([QObject;Z) | wrapper iterator

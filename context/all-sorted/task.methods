@@ -1,0 +1,574 @@
+../3-Phrases/3PS:boolean isStartTask() | is start task
+../3-Phrases/3PS:boolean isTaskSchedulable(SchedulableTask task) | is task schedulable
+../3-Phrases/Base_Verb:void storeTasksFor(SourceFile sourceFile, CategorizedProblem tasks) | store tasks for
+../3-Phrases/Base_Verb:static String getLifeCycleTaskNameForLifeCycleState(int lifeCycleState) | string get life cycle task name for life cycle state
+../3-Phrases/Base_Verb:int getLengthOfTask() | get length of task
+../3-Phrases/Base_Verb:void setTaskID(int i) | set task id
+../3-Phrases/Base_Verb:Object executeTask(Object proposal, Object proposal_info) | execute task
+../3-Phrases/Base_Verb:void deleteTaskDep(long sid, long tid) | delete task dep
+../3-Phrases/Base_Verb:void callJavaTask(String name, VerilogReg doneReg, VerilogObject argVars) | call java task
+../3-Phrases/Base_Verb:void setTaskname(String name, JWatchDog jwd) | set taskname
+../3-Phrases/Base_Verb:TaskInstance getTaskInstance() | get task instance
+../3-Phrases/Base_Verb:MProjectTypeTask getTasks() | get tasks
+../3-Phrases/Base_Verb:String clearTaskTableStatement() | clear task table statement
+../3-Phrases/Base_Verb:void addTask(String summary, Priority priority, int complete, long dateTime, long startDateTime, long completeDateTime, boolean select) | add task
+../3-Phrases/Base_Verb:void setCompletedTaskCount(int completedTaskCount) | set completed task count
+../3-Phrases/Dguitar:int getLengthOfTask() | get length of task
+../3-Phrases/DrawSWF:void showNewTask(QString;) | show new task
+../3-Phrases/drjava2:void executeAsyncTask(QAsyncTask<QP;QR;>;QP;ZZ) | execute async task
+../3-Phrases/drjava2:void executeAsyncTask(QAsyncTask<QP;QR;>;QP;ZZ) | execute async task
+../3-Phrases/drjava2:void executeAsyncTask(QAsyncTask<QP;QR;>;QP;ZZ) | execute async task
+../3-Phrases/drjava2:void executeAsyncTask(QAsyncTask<QP;QR;>;QP;ZZ) | execute async task
+../3-Phrases/drjava2:void executeAsyncTask(QAsyncTask<QP;QR;>;QP;ZZ) | execute async task
+../3-Phrases/drjava2:CONS AsyncTask() | async task
+../3-Phrases/drjava2:CONS AsyncTask(QString;) | async task
+../3-Phrases/drjava2:void executeTask(QAsyncTask<QP;QR;>;QP;ZZ) | execute task
+../3-Phrases/freecol2:void RefreshCanvasSwingTask() | refresh canvas swing task
+../3-Phrases/freecol2:void RefreshCanvasSwingTask(Z) | refresh canvas swing task
+../3-Phrases/freecol2:void RefreshTilesSwingTask(QTile;QTile;) | refresh tiles swing task
+../3-Phrases/freecol2:void UnitMoveAnimationCanvasSwingTask(QUnit;QTile;) | unit move animation canvas swing task
+../3-Phrases/freecol2:void UnitMoveAnimationCanvasSwingTask(QUnit;QDirection;) | unit move animation canvas swing task
+../3-Phrases/freecol2:void UnitMoveAnimationCanvasSwingTask(QUnit;QTile;Z) | unit move animation canvas swing task
+../3-Phrases/freecol2:void ShowConfirmDialogSwingTask(QString;QString;QString;[QString;) | show confirm dialog swing task
+../3-Phrases/freecol2:void ShowModelMessageSwingTask(QModelMessage;) | show model message swing task
+../3-Phrases/freecol2:void ShowInformationMessageSwingTask(QString;[QString;) | show information message swing task
+../3-Phrases/freecol2:void ShowErrorMessageSwingTask(QString;QString;) | show error message swing task
+../3-Phrases/freecol2:void ShowSelectFoundingFatherSwingTask(QList<QFoundingFather;>;) | show select founding father swing task
+../3-Phrases/freecol2:void ShowNegotiationDialogSwingTask(QUnit;QSettlement;QDiplomaticTrade;) | show negotiation dialog swing task
+../3-Phrases/freecol2:void ShowMonarchPanelSwingTask(QMonarchAction;[QString;) | show monarch panel swing task
+../3-Phrases/freecol2:void clearTaskRegister() | clear task register
+../3-Phrases/freecol2:void TaskEntry(QString;IZQObject;) | task entry
+../3-Phrases/freemind:void TimerBlinkTask(Z) | timer blink task
+../3-Phrases/gantt:List getLastTasks() | get last tasks
+../3-Phrases/gantt:Task[] getCriticalTasks() | get critical tasks
+../3-Phrases/gantt:void checkCriticalTasks(QTask;QList;) | check critical tasks
+../3-Phrases/gantt:Task newTask() | new task
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:TaskContainmentHierarchyFacade getTaskContainment() | get task containment
+../3-Phrases/gantt:CONS GanttPreviousStateTask(IQGanttCalendar;IZZ) | gantt previous state task
+../3-Phrases/gantt:CONS TaskTreeImageGenerator(QGanttTree2;QUIConfiguration;) | task tree image generator
+../3-Phrases/gantt:void printTasks(QGraphics;QList;) | print tasks
+../3-Phrases/gantt:int printTask(QGraphics;QList;) | print task
+../3-Phrases/gantt:Task[] getNestedTasks(QTask;) | get nested tasks
+../3-Phrases/gantt:boolean hasNestedTasks(QTask;) | has nested tasks
+../3-Phrases/gantt:Task getRootTask() | get root task
+../3-Phrases/gantt:TaskNode getTaskNodeForTask(QTask;) | get task node for task
+../3-Phrases/gantt:void writeTasks() | write tasks
+../3-Phrases/gantt:void writeTasksFromLoaded(QArrayList;) | write tasks from loaded
+../3-Phrases/gantt:void writeTask(QWriter;QDefaultMutableTreeNode;) | write task
+../3-Phrases/gantt:CONS TaskModelModificationListener(QIGanttProject;) | task model modification listener
+../3-Phrases/gantt:void taskScheduleChanged(QTaskScheduleEvent;) | task schedule changed
+../3-Phrases/gantt:void taskAdded(QTaskHierarchyEvent;) | task added
+../3-Phrases/gantt:void taskRemoved(QTaskHierarchyEvent;) | task removed
+../3-Phrases/gantt:void taskMoved(QTaskHierarchyEvent;) | task moved
+../3-Phrases/gantt:void taskPropertiesChanged(QTaskPropertyEvent;) | task properties changed
+../3-Phrases/gantt:void taskProgressChanged(QTaskPropertyEvent;) | task progress changed
+../3-Phrases/gantt:void taskScheduleChanged(QTaskScheduleEvent;) | task schedule changed
+../3-Phrases/gantt:Color getTaskColor() | get task color
+../3-Phrases/gantt:void setProjectLevelTaskColor(QColor;) | set project level task color
+../3-Phrases/gantt:Task findTaskUnderMousePointer(II) | find task under mouse pointer
+../3-Phrases/gantt:void ChangeTaskBoundaryInteraction(QMouseEvent;QTaskBoundaryChartItem;) | change task boundary interaction
+../3-Phrases/gantt:Task getTask() | get task
+../3-Phrases/gantt:void ChangeTaskEndInteraction(QMouseEvent;QTaskBoundaryChartItem;) | change task end interaction
+../3-Phrases/gantt:void ChangeTaskStartInteraction(QMouseEvent;QTaskBoundaryChartItem;) | change task start interaction
+../3-Phrases/gantt:void ChangeTaskProgressInteraction(QMouseEvent;QTaskProgressChartItem;) | change task progress interaction
+../3-Phrases/gantt:void MoveTaskInteraction(QMouseEvent;QTask;) | move task interaction
+../3-Phrases/gantt:void MoveTaskInteractions(QMouseEvent;QList;) | move task interactions
+../3-Phrases/gantt:void beginChangeTaskEndInteraction(QMouseEvent;QTaskBoundaryChartItem;) | begin change task end interaction
+../3-Phrases/gantt:void beginChangeTaskStartInteraction(QMouseEvent;QTaskBoundaryChartItem;) | begin change task start interaction
+../3-Phrases/gantt:void beginChangeTaskProgressInteraction(QMouseEvent;QTaskProgressChartItem;) | begin change task progress interaction
+../3-Phrases/gantt:void beginMoveTaskInteraction(QMouseEvent;QTask;) | begin move task interaction
+../3-Phrases/gantt:void beginMoveTaskInteractions(QMouseEvent;QList;) | begin move task interactions
+../3-Phrases/gantt:void beginChangeTaskEndInteraction(QMouseEvent;QTaskBoundaryChartItem;) | begin change task end interaction
+../3-Phrases/gantt:void beginChangeTaskStartInteraction(QMouseEvent;QTaskBoundaryChartItem;) | begin change task start interaction
+../3-Phrases/gantt:void beginChangeTaskProgressInteraction(QMouseEvent;QTaskProgressChartItem;) | begin change task progress interaction
+../3-Phrases/gantt:void beginMoveTaskInteraction(QMouseEvent;QTask;) | begin move task interaction
+../3-Phrases/gantt:void beginMoveTaskInteractions(QMouseEvent;QList;) | begin move task interactions
+../3-Phrases/gantt:void setPreviousStateTasks(QArrayList;) | set previous state tasks
+../3-Phrases/gantt:void setTaskManager(QTaskManager;) | set task manager
+../3-Phrases/gantt:void TaskBar() | task bar
+../3-Phrases/gantt:void registerTaskSelectionManager(QTaskSelectionManager;) | register task selection manager
+../3-Phrases/gantt:void registerTaskManager(QTaskManager;) | register task manager
+../3-Phrases/gantt:TaskSelectionManager getTaskSelectionManager() | get task selection manager
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:void setEditingTask(QTask;) | set editing task
+../3-Phrases/gantt:GanttTask getSelectedTask() | get selected task
+../3-Phrases/gantt:DefaultMutableTreeNode getSelectedTaskNode() | get selected task node
+../3-Phrases/gantt:TaskNode[] getSelectedTaskNodes() | get selected task nodes
+../3-Phrases/gantt:TaskNode[] getOnlyTaskNodes([QDefaultMutableTreeNode;) | get only task nodes
+../3-Phrases/gantt:boolean hasTasks() | has tasks
+../3-Phrases/gantt:ArrayList getAllTasks() | get all tasks
+../3-Phrases/gantt:ArrayList getAllChildTask(QTask;) | get all child task
+../3-Phrases/gantt:ArrayList getAllChildTask(QDefaultMutableTreeNode;) | get all child task
+../3-Phrases/gantt:void selectTasks(QList;) | select tasks
+../3-Phrases/gantt:void selectTask(QTask;Z) | select task
+../3-Phrases/gantt:void HiddenTask(QDefaultMutableTreeNode;QDefaultMutableTreeNode;I) | hidden task
+../3-Phrases/gantt:Set getHiddenTasks() | get hidden tasks
+../3-Phrases/gantt:void displayHiddenTasks() | display hidden tasks
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:boolean hasAProjectTaskDescendant(QDefaultMutableTreeNode;) | has a project task descendant
+../3-Phrases/gantt:ArrayList getProjectTasks() | get project tasks
+../3-Phrases/gantt:void getProjectTasks(QDefaultMutableTreeNode;QArrayList;) | get project tasks
+../3-Phrases/gantt:void setLinkTasksAction(QAction;) | set link tasks action
+../3-Phrases/gantt:Action getLinkTasksAction() | get link tasks action
+../3-Phrases/gantt:void setUnlinkTasksAction(QAction;) | set unlink tasks action
+../3-Phrases/gantt:Action getUnlinkTasksAction() | get unlink tasks action
+../3-Phrases/gantt:void setTaskPropertiesAction(QAction;) | set task properties action
+../3-Phrases/gantt:Action getTaskPropertiesAction() | get task properties action
+../3-Phrases/gantt:void setTaskPropertiesAction(QAction;) | set task properties action
+../3-Phrases/gantt:Action getTaskPropertiesAction() | get task properties action
+../3-Phrases/gantt:CONS TaskContainmentHierarchyFacadeImpl(QGanttTree2;) | task containment hierarchy facade impl
+../3-Phrases/gantt:Task[] getNestedTasks(QTask;) | get nested tasks
+../3-Phrases/gantt:boolean hasNestedTasks(QTask;) | has nested tasks
+../3-Phrases/gantt:Task getRootTask() | get root task
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:String getTaskNamePrefix() | get task name prefix
+../3-Phrases/gantt:String getTrueTaskNamePrefix() | get true task name prefix
+../3-Phrases/gantt:void setDefaultTaskColor(QColor;) | set default task color
+../3-Phrases/gantt:void setPreviousTaskColor(QColor;) | set previous task color
+../3-Phrases/gantt:void setEarlierPreviousTaskColor(QColor;) | set earlier previous task color
+../3-Phrases/gantt:void setLaterPreviousTaskColor(QColor;) | set later previous task color
+../3-Phrases/gantt:void setTaskNamePrefix(QString;) | set task name prefix
+../3-Phrases/gantt:TaskContainmentHierarchyFacade getTaskContainment() | get task containment
+../3-Phrases/gantt:Task newTask() | new task
+../3-Phrases/gantt:void deleteTasks(Z) | delete tasks
+../3-Phrases/gantt:void propertiesTask() | properties task
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:void setCustomColumnValueToAllNestedTask(QTaskContainmentHierarchyFacade;QTask;QString;QObject;) | set custom column value to all nested task
+../3-Phrases/gantt:void removeCustomColumnToAllNestedTask(QTaskContainmentHierarchyFacade;QTask;QString;) | remove custom column to all nested task
+../3-Phrases/gantt:void renameCustomColumnForAllNestedTask(QTaskContainmentHierarchyFacade;QTask;QString;QString;) | rename custom column for all nested task
+../3-Phrases/gantt:void editNewTask(QTask;) | edit new task
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:void setTaskManager(QTaskManager;) | set task manager
+../3-Phrases/gantt:List getTasks() | get tasks
+../3-Phrases/gantt:void setTaskManager(QTaskManager;) | set task manager
+../3-Phrases/gantt:Task newTask() | new task
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:TaskContainmentHierarchyFacade getTaskContainment() | get task containment
+../3-Phrases/gantt:CONS GanttTaskRelationship() | gantt task relationship
+../3-Phrases/gantt:CONS GanttTaskRelationship(QTaskManager;) | gantt task relationship
+../3-Phrases/gantt:CONS GanttTaskRelationship(IIIIQTaskManager;) | gantt task relationship
+../3-Phrases/gantt:GanttTask getPredecessorTask() | get predecessor task
+../3-Phrases/gantt:int getPredecessorTaskID() | get predecessor task id
+../3-Phrases/gantt:void setPredecessorTask(QTask;) | set predecessor task
+../3-Phrases/gantt:void setPredecessorTask(I) | set predecessor task
+../3-Phrases/gantt:Task getSuccessorTask() | get successor task
+../3-Phrases/gantt:int getSuccessorTaskID() | get successor task id
+../3-Phrases/gantt:void setSuccessorTask(QTask;) | set successor task
+../3-Phrases/gantt:void setSuccessorTask(I) | set successor task
+../3-Phrases/gantt:CONS GanttTask(QString;QGanttCalendar;JQTaskManager;I) | gantt task
+../3-Phrases/gantt:CONS GanttTask(QGanttTask;) | gantt task
+../3-Phrases/gantt:void setTaskID(I) | set task id
+../3-Phrases/gantt:CONS NewTaskAction(QIGanttProject;) | new task action
+../3-Phrases/gantt:CONS UnlinkTasksAction(QTaskManager;QTaskSelectionManager;QUIFacade;) | unlink tasks action
+../3-Phrases/gantt:CONS LinkTasksAction(QTaskManager;QTaskSelectionManager;QUIFacade;) | link tasks action
+../3-Phrases/gantt:CONS TaskActionBase(QTaskManager;QTaskSelectionManager;QUIFacade;) | task action base
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:CONS TaskPropertiesAction(QIGanttProject;QTaskSelectionManager;QUIFacade;) | task properties action
+../3-Phrases/gantt:void setTaskManager(QTaskManager;) | set task manager
+../3-Phrases/gantt:Color getDefaultTaskColor() | get default task color
+../3-Phrases/gantt:Color getPreviousTaskColor() | get previous task color
+../3-Phrases/gantt:Color getEarlierPreviousTaskColor() | get earlier previous task color
+../3-Phrases/gantt:Color getLaterPreviousTaskColor() | get later previous task color
+../3-Phrases/gantt:CONS TaskGridRendererImpl(QChartModelImpl;) | task grid renderer impl
+../3-Phrases/gantt:void NewTaskColorOption() | new task color option
+../3-Phrases/gantt:void setVisibleTasks(Qjava.util.List;) | set visible tasks
+../3-Phrases/gantt:void setExplicitlyHiddenTasks(QSet;) | set explicitly hidden tasks
+../3-Phrases/gantt:Task findTaskWithCoordinates(II) | find task with coordinates
+../3-Phrases/gantt:ChartItem findTaskProgressItem(II) | find task progress item
+../3-Phrases/gantt:ChartItem findTaskBoundaryItem(II) | find task boundary item
+../3-Phrases/gantt:GraphicPrimitiveContainer.Rectangle[] getTaskActivityRectangles(QTask;) | get task activity rectangles
+../3-Phrases/gantt:java.util.List getVisibleTasks() | get visible tasks
+../3-Phrases/gantt:void setTaskContainment(QTaskContainmentHierarchyFacade;) | set task containment
+../3-Phrases/gantt:TaskContainmentHierarchyFacade getTaskContainment() | get task containment
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:int setPreviousStateTasks(QArrayList;) | set previous state tasks
+../3-Phrases/gantt:List getTasks() | get tasks
+../3-Phrases/gantt:void setTaskManager(QTaskManager;) | set task manager
+../3-Phrases/gantt:CONS TaskRendererImpl(QChartModelImpl;) | task renderer impl
+../3-Phrases/gantt:List getSortedTaskActivities() | get sorted task activities
+../3-Phrases/gantt:void drawPreviousStateTask(QGanttPreviousStateTask;I) | draw previous state task
+../3-Phrases/gantt:String getTaskLabel(QTask;I) | get task label
+../3-Phrases/gantt:int getPreviousStateTaskIndex(QTask;) | get previous state task index
+../3-Phrases/gantt:void setPreviousStateTasks(QArrayList;) | set previous state tasks
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:List getListForTask(QList;QTask;) | get list for task
+../3-Phrases/gantt:List getTaskLoadsLists(QList;) | get task loads lists
+../3-Phrases/gantt:void buildTasksLoadsRectangles(QList;I) | build tasks loads rectangles
+../3-Phrases/gantt:CONS TaskInteractionHintRenderer() | task interaction hint renderer
+../3-Phrases/gantt:CONS TaskInteractionHintRenderer(QString;II) | task interaction hint renderer
+../3-Phrases/gantt:void setVisibleTasks(Qjava.util.List;) | set visible tasks
+../3-Phrases/gantt:void setTaskContainment(QTaskContainmentHierarchyFacade;) | set task containment
+../3-Phrases/gantt:Task findTaskWithCoordinates(II) | find task with coordinates
+../3-Phrases/gantt:CONS TaskProgressChartItem(IIQTimeUnit;QTask;) | task progress chart item
+../3-Phrases/gantt:Task getTask() | get task
+../3-Phrases/gantt:CONS TaskBoundaryChartItem(QTask;Z) | task boundary chart item
+../3-Phrases/gantt:CONS TaskRegularAreaChartItem(QTask;) | task regular area chart item
+../3-Phrases/gantt:void taskScheduleChanged(QTaskScheduleEvent;) | task schedule changed
+../3-Phrases/gantt:void taskAdded(QTaskHierarchyEvent;) | task added
+../3-Phrases/gantt:void taskRemoved(QTaskHierarchyEvent;) | task removed
+../3-Phrases/gantt:void taskMoved(QTaskHierarchyEvent;) | task moved
+../3-Phrases/gantt:void taskPropertiesChanged(QTaskPropertyEvent;) | task properties changed
+../3-Phrases/gantt:void taskProgressChanged(QTaskPropertyEvent;) | task progress changed
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:String serializeTask(QTask;I) | serialize task
+../3-Phrases/gantt:Color getTaskColor() | get task color
+../3-Phrases/gantt:void setTaskColor(QColor;) | set task color
+../3-Phrases/gantt:Color getEarlierPreviousTaskColor() | get earlier previous task color
+../3-Phrases/gantt:void setEarlierPreviousTaskColor(QColor;) | set earlier previous task color
+../3-Phrases/gantt:Color getLaterPreviousTaskColor() | get later previous task color
+../3-Phrases/gantt:void setLaterPreviousTaskColor(QColor;) | set later previous task color
+../3-Phrases/gantt:Color getPreviousTaskColor() | get previous task color
+../3-Phrases/gantt:void setPreviousTaskColor(QColor;) | set previous task color
+../3-Phrases/gantt:void beginTask(QString;I) | begin task
+../3-Phrases/gantt:void setTaskName(QString;) | set task name
+../3-Phrases/gantt:void subTask(QString;) | sub task
+../3-Phrases/gantt:void setLinkTasksAction(QAction;) | set link tasks action
+../3-Phrases/gantt:void setUnlinkTasksAction(QAction;) | set unlink tasks action
+../3-Phrases/gantt:void changeNameOfTask() | change name of task
+../3-Phrases/gantt:CONS GanttTaskPropertiesBean([QGanttTask;QTaskManager;QHumanResourceManager;QRoleManager;) | gantt task properties bean
+../3-Phrases/gantt:Task[] getReturnTask() | get return task
+../3-Phrases/gantt:void setSelectedTask() | set selected task
+../3-Phrases/gantt:boolean isProjectTask() | is project task
+../3-Phrases/gantt:String getTaskName() | get task name
+../3-Phrases/gantt:boolean canBeProjectTask(QTask;QTaskContainmentHierarchyFacade;) | can be project task
+../3-Phrases/gantt:boolean isProjectTaskOrContainsProjectTask(QTask;) | is project task or contains project task
+../3-Phrases/gantt:String getTaskNamePrefix() | get task name prefix
+../3-Phrases/gantt:boolean getTaskID() | get task id
+../3-Phrases/gantt:boolean getTaskName() | get task name
+../3-Phrases/gantt:boolean getTaskSD() | get task sd
+../3-Phrases/gantt:boolean getTaskED() | get task ed
+../3-Phrases/gantt:boolean getTaskPercent() | get task percent
+../3-Phrases/gantt:boolean getTaskDuration() | get task duration
+../3-Phrases/gantt:boolean getTaskWebLink() | get task web link
+../3-Phrases/gantt:boolean getTaskResources() | get task resources
+../3-Phrases/gantt:boolean getTaskNotes() | get task notes
+../3-Phrases/gantt:Task getTask() | get task
+../3-Phrases/gantt:void TaskComboItem(QTask;) | task combo item
+../3-Phrases/gantt:CONS TaskAllocationsPanel(QTask;QHumanResourceManager;QRoleManager;Z) | task allocations panel
+../3-Phrases/gantt:CONS TaskDependenciesPanel(QTask;) | task dependencies panel
+../3-Phrases/gantt:void saveTasks(QTransformerHandler;) | save tasks
+../3-Phrases/gantt:void writeTasks(QOutputStreamWriter;) | write tasks
+../3-Phrases/gantt:void writeTask(QTransformerHandler;QGanttTask;QCustomColumnsStorage;) | write task
+../3-Phrases/gantt:void writeTaskProperty(QTransformerHandler;QString;QString;QString;QString;) | write task property
+../3-Phrases/gantt:void writeTaskProperty(QTransformerHandler;QString;QString;QString;QString;QString;) | write task property
+../3-Phrases/gantt:void writeTaskProperties(QTransformerHandler;QCustomColumnsStorage;) | write task properties
+../3-Phrases/gantt:float getTaskTextWidth(QTask;) | get task text width
+../3-Phrases/gantt:TextObject task2text(QGanttTask;III) | task 2 text
+../3-Phrases/gantt:BoxObject task2box(QGanttTask;IIZ) | task 2 box
+../3-Phrases/gantt:void drawTasks(QOutputStreamWriter;) | draw tasks
+../3-Phrases/gantt:CONS TaskDisplayColumnsTagHandler(QGanttTreeTable;) | task display columns tag handler
+../3-Phrases/gantt:void loadTaskDisplay(QAttributes;) | load task display
+../3-Phrases/gantt:int getTaskID() | get task id
+../3-Phrases/gantt:void setTaskID(I) | set task id
+../3-Phrases/gantt:void addTaskWithLegacyFixedStart(QTask;) | add task with legacy fixed start
+../3-Phrases/gantt:Set getTasksWithLegacyFixedStart() | get tasks with legacy fixed start
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:void setTaskID(I) | set task id
+../3-Phrases/gantt:void setTaskPropertyID(QString;) | set task property id
+../3-Phrases/gantt:CONS TaskPropertiesTagHandler(QGanttTreeTable;) | task properties tag handler
+../3-Phrases/gantt:void loadTaskProperty(QAttributes;) | load task property
+../3-Phrases/gantt:CONS TaskTagHandler(QTaskManager;QParsingContext;) | task tag handler
+../3-Phrases/gantt:void loadTask(QAttributes;) | load task
+../3-Phrases/gantt:void setTaskID(I) | set task id
+../3-Phrases/gantt:void setDependTaskID(I) | set depend task id
+../3-Phrases/gantt:CONS PreviousStateTasksTagHandler(QArrayList;) | previous state tasks tag handler
+../3-Phrases/gantt:void writePreviousTask(QAttributes;) | write previous task
+../3-Phrases/gantt:ArrayList getTasks() | get tasks
+../3-Phrases/gantt:Task getTask() | get task
+../3-Phrases/gantt:Task getTask() | get task
+../3-Phrases/gantt:List getTasksLoads() | get tasks loads
+../3-Phrases/gantt:Task getTask() | get task
+../3-Phrases/gantt:void setTaskInfo(QTaskInfo;) | set task info
+../3-Phrases/gantt:void setProjectTask(Z) | set project task
+../3-Phrases/gantt:CONS TaskSelectionManager() | task selection manager
+../3-Phrases/gantt:void addTask(QTask;) | add task
+../3-Phrases/gantt:void removeTask(QTask;) | remove task
+../3-Phrases/gantt:boolean isTaskSelected(QTask;) | is task selected
+../3-Phrases/gantt:List getSelectedTasks() | get selected tasks
+../3-Phrases/gantt:CONS TaskImpl(QTaskManager;I) | task impl
+../3-Phrases/gantt:CONS TaskImpl(QTaskImpl;Z) | task impl
+../3-Phrases/gantt:boolean isSupertask() | is super task
+../3-Phrases/gantt:int getTaskID() | get task id
+../3-Phrases/gantt:Task getSupertask() | get super task
+../3-Phrases/gantt:Task[] getNestedTasks() | get nested tasks
+../3-Phrases/gantt:void setTaskIDHack(I) | set task id hack
+../3-Phrases/gantt:void setProjectTask(Z) | set project task
+../3-Phrases/gantt:TaskInfo getTaskInfo() | get task info
+../3-Phrases/gantt:void setTaskInfo(QTaskInfo;) | set task info
+../3-Phrases/gantt:void adjustNestedTasks() | adjust nested tasks
+../3-Phrases/gantt:boolean isSupertask() | is super task
+../3-Phrases/gantt:TaskInfo getTaskInfo() | get task info
+../3-Phrases/gantt:void setTaskInfo(QTaskInfo;) | set task info
+../3-Phrases/gantt:boolean isProjectTask() | is project task
+../3-Phrases/gantt:void setProjectTask(Z) | set project task
+../3-Phrases/gantt:Task getTask() | get task
+../3-Phrases/gantt:Task[] getTasks() | get tasks
+../3-Phrases/gantt:Task getRootTask() | get root task
+../3-Phrases/gantt:GanttTask getTask(I) | get task
+../3-Phrases/gantt:void registerTask(QTask;) | register task
+../3-Phrases/gantt:GanttTask createTask() | create task
+../3-Phrases/gantt:GanttTask createTask(I) | create task
+../3-Phrases/gantt:TaskContainmentHierarchyFacade getTaskHierarchy() | get task hierarchy
+../3-Phrases/gantt:void addTaskListener(QTaskListener;) | add task listener
+../3-Phrases/gantt:int getTaskCount() | get task count
+../3-Phrases/gantt:void deleteTask(QTask;) | delete task
+../3-Phrases/gantt:void processNewTask(QTask;) | process new task
+../3-Phrases/gantt:CONS TaskLengthImpl(QTimeUnit;J) | task length impl
+../3-Phrases/gantt:CONS TaskLengthImpl(QTimeUnit;F) | task length impl
+../3-Phrases/gantt:CONS TaskActivityImpl(QTaskImpl;QDate;QDate;) | task activity impl
+../3-Phrases/gantt:CONS TaskActivityImpl(QTaskImpl;QDate;QDate;F) | task activity impl
+../3-Phrases/gantt:Task getTask() | get task
+../3-Phrases/gantt:Task[] getNestedTasks(QTask;) | get nested tasks
+../3-Phrases/gantt:boolean hasNestedTasks(QTask;) | has nested tasks
+../3-Phrases/gantt:Task getRootTask() | get root task
+../3-Phrases/gantt:Task[] getNestedTasks(QTask;) | get nested tasks
+../3-Phrases/gantt:boolean hasNestedTasks(QTask;) | has nested tasks
+../3-Phrases/gantt:Task getRootTask() | get root task
+../3-Phrases/gantt:int getTaskID() | get task id
+../3-Phrases/gantt:Task getSupertask() | get super task
+../3-Phrases/gantt:Task[] getNestedTasks() | get nested tasks
+../3-Phrases/gantt:TaskInfo getTaskInfo() | get task info
+../3-Phrases/gantt:boolean isProjectTask() | is project task
+../3-Phrases/gantt:void TaskMap(QTaskManagerImpl;) | task map
+../3-Phrases/gantt:void addTask(QTask;) | add task
+../3-Phrases/gantt:Task getTask(I) | get task
+../3-Phrases/gantt:Task[] getTasks() | get tasks
+../3-Phrases/gantt:void removeTask(QTask;) | remove task
+../3-Phrases/gantt:CONS TaskManagerImpl(QTaskContainmentHierarchyFacade.Factory;QTaskManagerConfig;) | task manager impl
+../3-Phrases/gantt:TaskContainmentHierarchyFacade getTaskHierarchy() | get task hierarchy
+../3-Phrases/gantt:GanttTask getTask(I) | get task
+../3-Phrases/gantt:Task getRootTask() | get root task
+../3-Phrases/gantt:Task[] getTasks() | get tasks
+../3-Phrases/gantt:void deleteTask(QTask;) | delete task
+../3-Phrases/gantt:GanttTask createTask() | create task
+../3-Phrases/gantt:GanttTask createTask(I) | create task
+../3-Phrases/gantt:void registerTask(QTask;) | register task
+../3-Phrases/gantt:void setTask(QTask;) | set task
+../3-Phrases/gantt:int getTaskCount() | get task count
+../3-Phrases/gantt:void addTaskListener(QTaskListener;) | add task listener
+../3-Phrases/gantt:void fireTaskProgressChanged(QTask;) | fire task progress changed
+../3-Phrases/gantt:void fireTaskScheduleChanged(QTask;QGanttCalendar;QGanttCalendar;) | fire task schedule changed
+../3-Phrases/gantt:void fireTaskAdded(QTask;) | fire task added
+../3-Phrases/gantt:void fireTaskRemoved(QTask;QTask;) | fire task removed
+../3-Phrases/gantt:void fireTaskPropertiesChanged(QTask;) | fire task properties changed
+../3-Phrases/gantt:Task[] getNestedTasks(QTask;) | get nested tasks
+../3-Phrases/gantt:boolean hasNestedTasks(QTask;) | has nested tasks
+../3-Phrases/gantt:Task getRootTask() | get root task
+../3-Phrases/gantt:TaskContainmentHierarchyFacade getTaskHierarchy() | get task hierarchy
+../3-Phrases/gantt:void onTaskMoved(QTaskImpl;) | on task moved
+../3-Phrases/gantt:CONS TaskNode(QTask;) | task node
+../3-Phrases/gantt:void setTaskInfo(QTaskInfo;) | set task info
+../3-Phrases/gantt:TaskInfo getTaskInfo() | get task info
+../3-Phrases/gantt:Task getTask() | get task
+../3-Phrases/gantt:Task getTask() | get task
+../3-Phrases/gantt:Task getTask() | get task
+../3-Phrases/gantt:CONS TaskDocumentOrderComparator(QTaskManagerImpl;) | task document order comparator
+../3-Phrases/gantt:RecalculateTaskScheduleAlgorithm getRecalculateTaskScheduleAlgorithm() | get recalculate task schedule algorithm
+../3-Phrases/gantt:AdjustTaskBoundsAlgorithm getAdjustTaskBoundsAlgorithm() | get adjust task bounds algorithm
+../3-Phrases/gantt:RecalculateTaskCompletionPercentageAlgorithm getRecalculateTaskCompletionPercentageAlgorithm() | get recalculate task completion percentage algorithm
+../3-Phrases/gantt:ShiftTaskTreeAlgorithm getShiftTaskTreeAlgorithm() | get shift task tree algorithm
+../3-Phrases/gantt:void adjustNestedTasks(QTask;) | adjust nested tasks
+../3-Phrases/gantt:void recalculateSupertaskScheduleBottomUp(QSet;QTaskContainmentHierarchyFacade;) | recalculate super task schedule bottom up
+../3-Phrases/gantt:void recalculateSupertaskSchedule(QTask;QTaskContainmentHierarchyFacade;) | recalculate super task schedule
+../3-Phrases/gantt:void shiftTask(QTask;QTaskLength;) | shift task
+../3-Phrases/gantt:Task[] getCriticalTasks() | get critical tasks
+../3-Phrases/gantt:void sortTasksByStartDate(QList;) | sort tasks by start date
+../3-Phrases/gantt:void processTask([QTask;QTask;QArrayList;) | process task
+../3-Phrases/gantt:void recalculateSupertaskCompletionPercentageBottomUp(QTask;QTaskContainmentHierarchyFacade;) | recalculate super task completion percentage bottom up
+../3-Phrases/gantt:void recalculateSupertaskCompletionPercentage(QTask;QTaskContainmentHierarchyFacade;) | recalculate super task completion percentage
+../3-Phrases/gantt:CONS RecalculateTaskScheduleAlgorithm(QAdjustTaskBoundsAlgorithm;) | recalculate task schedule algorithm
+../3-Phrases/gantt:void modifyTaskStart(QTask;QGanttCalendar;) | modify task start
+../3-Phrases/gantt:void modifyTaskEnd(QTask;QGanttCalendar;) | modify task end
+../3-Phrases/gantt:void markTask(QTask;) | mark task
+../3-Phrases/gantt:void setTaskDependency(QTaskDependency;) | set task dependency
+../3-Phrases/gantt:CONS TaskDependencyImpl(QTask;QTask;QTaskDependencyCollectionImpl;) | task dependency impl
+../3-Phrases/gantt:CONS TaskDependencySliceImpl(QTask;QTaskDependencyCollection;) | task dependency slice impl
+../3-Phrases/gantt:Task getTask() | get task
+../3-Phrases/gantt:CONS TaskDependencySliceAsDependee(QTask;QTaskDependencyCollection;) | task dependency slice as dependee
+../3-Phrases/gantt:CONS TaskDependencyException() | task dependency exception
+../3-Phrases/gantt:CONS TaskDependencyException(QString;) | task dependency exception
+../3-Phrases/gantt:CONS TaskDependencyException(QThrowable;) | task dependency exception
+../3-Phrases/gantt:CONS TaskDependencyException(QString;QThrowable;) | task dependency exception
+../3-Phrases/gantt:CONS TaskDependencyCollectionImpl(QTaskContainmentHierarchyFacade.Factory;QEventDispatcher;) | task dependency collection impl
+../3-Phrases/gantt:TaskContainmentHierarchyFacade getTaskHierarchy() | get task hierarchy
+../3-Phrases/gantt:CONS TaskDependencySliceAsDependant(QTask;QTaskDependencyCollection;) | task dependency slice as dependant
+../3-Phrases/gantt:void setTaskDependency(QTaskDependency;) | set task dependency
+../3-Phrases/gantt:CONS TaskScheduleEvent(QTask;QGanttCalendar;QGanttCalendar;QGanttCalendar;QGanttCalendar;) | task schedule event
+../3-Phrases/gantt:Task getTask() | get task
+../3-Phrases/gantt:CONS TaskHierarchyEvent(QObject;QTask;QTask;QTask;) | task hierarchy event
+../3-Phrases/gantt:Task getTask() | get task
+../3-Phrases/gantt:void taskScheduleChanged(QTaskScheduleEvent;) | task schedule changed
+../3-Phrases/gantt:void taskAdded(QTaskHierarchyEvent;) | task added
+../3-Phrases/gantt:void taskRemoved(QTaskHierarchyEvent;) | task removed
+../3-Phrases/gantt:void taskMoved(QTaskHierarchyEvent;) | task moved
+../3-Phrases/gantt:void taskPropertiesChanged(QTaskPropertyEvent;) | task properties changed
+../3-Phrases/gantt:void taskProgressChanged(QTaskPropertyEvent;) | task progress changed
+../3-Phrases/gantt:CONS TaskDependencyEvent(QTaskDependencyCollection;QTaskDependency;) | task dependency event
+../3-Phrases/gantt:void taskScheduleChanged(QTaskScheduleEvent;) | task schedule changed
+../3-Phrases/gantt:void taskAdded(QTaskHierarchyEvent;) | task added
+../3-Phrases/gantt:void taskRemoved(QTaskHierarchyEvent;) | task removed
+../3-Phrases/gantt:void taskMoved(QTaskHierarchyEvent;) | task moved
+../3-Phrases/gantt:void taskPropertiesChanged(QTaskPropertyEvent;) | task properties changed
+../3-Phrases/gantt:void taskProgressChanged(QTaskPropertyEvent;) | task progress changed
+../3-Phrases/gantt:CONS TaskPropertyEvent(QObject;) | task property event
+../3-Phrases/gantt:Task getTask() | get task
+../3-Phrases/gantt:CONS TaskHierarchyItem(QTask;QTaskHierarchyItem;) | task hierarchy item
+../3-Phrases/gantt:Task getTask() | get task
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:TaskManager newTaskManager() | new task manager
+../3-Phrases/gantt:void testCompletionIs0WhenAllNestedTasksNotStarted() | test completion is 0 when all nested tasks not started
+../3-Phrases/gantt:void testCompletionIs100WhenAllNestedTasksCompleted() | test completion is 100 when all nested tasks completed
+../3-Phrases/gantt:void testCompletionIs50WhenAllNestedTasksHalfCompleted() | test completion is 50 when all nested tasks half completed
+../3-Phrases/gantt:void testAssignmentsDisappearOnTaskDeletion() | test assignments disappear on task deletion
+../3-Phrases/gantt:TaskManager newTaskManager() | new task manager
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:void testTaskOverlappingWeekendIsTwoDaysShorter() | test task overlapping weekend is two days shorter
+../3-Phrases/gantt:void testTaskStartingOnFridayLastingTwoDaysEndsOnTuesday() | test task starting on friday lasting two days ends on tuesday
+../3-Phrases/gantt:void testTaskStartingOnSaturdayLastingOneDayEndsOnTuesday() | test task starting on saturday lasting one day ends on tuesday
+../3-Phrases/gantt:void testTaskStartingOnSundayLastingOneDayEndsOnTuesday() | test task starting on sunday lasting one day ends on tuesday
+../3-Phrases/gantt:void testSupetaskDurationGrowsWhenNestedTasksGrow() | test supe task duration grows when nested tasks grow
+../3-Phrases/gantt:void testSupertaskDurationShrinksWhenNestedTasksShrink() | test super task duration shrinks when nested tasks shrink
+../3-Phrases/gantt:void testLoopingDependencyTargetedAtSupertask() | test looping dependency targeted at super task
+../3-Phrases/gantt:void testDependencyTargetedToNestedTask() | test dependency targeted to nested task
+../3-Phrases/gantt:void testTaskScheduleEventIsSendOnTaskEndChange() | test task schedule event is send on task end change
+../3-Phrases/gantt:void testTaskScheduleEventIsSendOnTaskStartChange() | test task schedule event is send on task start change
+../3-Phrases/gantt:void testTaskScheduleEventIsSendOnTaskDurationChange() | test task schedule event is send on task duration change
+../3-Phrases/gantt:void TaskListenerImpl(QTaskManager;) | task listener impl
+../3-Phrases/gantt:void taskScheduleChanged(QTaskScheduleEvent;) | task schedule changed
+../3-Phrases/gantt:void testEventIsSentOnCreatingNewTask() | test event is sent on creating new task
+../3-Phrases/gantt:void taskAdded(QTaskHierarchyEvent;) | task added
+../3-Phrases/gantt:void testTasksAreInDocumentOrder() | test tasks are in document order
+../3-Phrases/hsqldb:Task addTask(JQRunnable;JZ) | add task
+../3-Phrases/hsqldb:Task nextTask() | next task
+../3-Phrases/hsqldb:void Task(JQRunnable;JZ) | task
+../3-Phrases/hsqldb:void TaskQueue(IQObjectComparator;) | task queue
+../3-Phrases/hsqldb:void addTask(QTask;) | add task
+../3-Phrases/hsqldb:void cancelAllTasks() | cancel all tasks
+../3-Phrases/hsqldb:Task peekTask() | peek task
+../3-Phrases/hsqldb:void signalTaskCancelled(QTask;) | signal task cancelled
+../3-Phrases/hsqldb:Task removeTask() | remove task
+../3-Phrases/hsqldb:Thread getTaskRunnerThread() | get task runner thread
+../3-Phrases/hsqldb:CONS HsqlTaskQueue() | hsql task queue
+../3-Phrases/Jabref:void startBackgroundTasks() | start background tasks
+../3-Phrases/jajuk:boolean isNoTaskBar() | is no task bar
+../3-Phrases/JHotDraw-7.0.8:CONS TaskFigure() | task figure
+../3-Phrases/JRobin:void createSyncTask(I) | create sync task
+../3-Phrases/np:void taskReady(ServerThread s) | task ready
+../3-Phrases/SweetHome3D:ThreadedTaskView createThreadedTaskView(QString;QUserPreferences;QThreadedTaskController;) | create threaded task view
+../3-Phrases/SweetHome3D:void setTaskRunning(ZQView;) | set task running
+../3-Phrases/SweetHome3D:ThreadedTaskView createThreadedTaskView(QString;QUserPreferences;QThreadedTaskController;) | create threaded task view
+../3-Phrases/SweetHome3D:CONS ThreadedTaskPanel(QString;QUserPreferences;QThreadedTaskController;) | threaded task panel
+../3-Phrases/SweetHome3D:void setTaskRunning(ZQView;) | set task running
+../3-Phrases/SweetHome3D:ThreadedTaskView createThreadedTaskView(QString;QUserPreferences;QThreadedTaskController;) | create threaded task view
+../3-Phrases/SweetHome3D:void setTaskRunning(ZQView;) | set task running
+../3-Phrases/SweetHome3D:CONS ThreadedTaskController(QCallable<QVoid;>;QString;QExceptionHandler;QUserPreferences;QViewFactory;) | threaded task controller
+../3-Phrases/SweetHome3D:void executeTask(QView;) | execute task
+../3-Phrases/SweetHome3D:void cancelTask() | cancel task
+../3-Phrases/SweetHome3D:boolean isTaskRunning() | is task running
+../3-Phrases/SweetHome3D:void testThreadedTaskController() | test threaded task controller
+../3-Phrases/vuze:AzureusCoreOperationTask getTask() | get task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTask(QAzureusCoreOperation;QString;) | report current task
+../3-Phrases/vuze:void DhtTask(QThreadPool;) | dht task
+../3-Phrases/vuze:void taskStarted() | task started
+../3-Phrases/vuze:void taskCompleted() | task completed
+../3-Phrases/vuze:void interruptTask() | interrupt task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:AzureusCoreOperationTask getTask() | get task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:AzureusCoreOperationTask getTask() | get task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTask(QAzureusCoreOperation;QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTask(QAzureusCoreOperation;QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTaskByKey(QString;) | report current task by key
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void taskCompleted() | task completed
+../3-Phrases/vuze:void interruptTask() | interrupt task
+../3-Phrases/vuze:void interruptTask() | interrupt task
+../3-Phrases/vuze:void interruptTask() | interrupt task
+../3-Phrases/vuze:void interruptTask() | interrupt task
+../3-Phrases/vuze:void taskWrapper(QNonDaemonTask;) | task wrapper
+../3-Phrases/vuze:void setTaskState(QString;) | set task state
+../3-Phrases/vuze:String getTaskState() | get task state
+../3-Phrases/vuze:void interruptTask() | interrupt task
+../3-Phrases/vuze:void taskStarted() | task started
+../3-Phrases/vuze:void taskCompleted() | task completed
+../3-Phrases/vuze:void addRealTimeTask() | add real time task
+../3-Phrases/vuze:void removeRealTimeTask() | remove real time task
+../3-Phrases/vuze:boolean isRealTimeTaskActive() | is real time task active
+../3-Phrases/vuze:void interruptTask() | interrupt task
+../3-Phrases/vuze:CONS TimeLimitedTask(QString;IIQtask;) | time limited task
+../3-Phrases/vuze:void runAsTask(QAzureusCoreOperationTask;) | run as task
+../3-Phrases/vuze:AERunnable[] getQueuedTasks() | get queued tasks
+../3-Phrases/vuze:AERunnable[] getRunningTasks() | get running tasks
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:DelayedTask createDelayedTask(QRunnable;) | create delayed task
+../3-Phrases/vuze:void interruptTask() | interrupt task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:DelayedTask createDelayedTask(QRunnable;) | create delayed task
+../3-Phrases/vuze:DelayedTaskImpl addDelayedTask(QString;QRunnable;) | add delayed task
+../3-Phrases/vuze:void queueTask(QDelayedTaskImpl;) | queue task
+../3-Phrases/vuze:void DelayedTaskImpl(QString;) | delayed task impl
+../3-Phrases/vuze:void setTask(QRunnable;) | set task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void DMTask([QDownloadManager;) | dm task
+../3-Phrases/vuze:void DMTask([QDownloadManager;Z) | dm task
+../3-Phrases/vuze:void DMTask([QDownloadManager;ZZ) | dm task
+../3-Phrases/vuze:void reportCurrentTask(QAzureusCoreOperation;QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void setNbTasks(I) | set nb tasks
+../3-Phrases/vuze:void nextTask() | next task
+../3-Phrases/vuze:void reportCurrentTaskByKey(QString;) | report current task by key
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void scheduleAutocloseTask() | schedule autoclose task
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/weka:Object executeTask(QTask;) | execute task
+../3-Phrases/weka:void addTaskToQueue(QTask;QString;) | add task to queue
+../3-Phrases/weka:void startTask() | start task
+../3-Phrases/weka:CONS RemoteExperimentSubTask() | remote experiment sub task
+../3-Phrases/weka:TaskStatusInfo getTaskStatus() | get task status
+../3-Phrases/weka:void setTaskResult(QObject;) | set task result
+../3-Phrases/weka:Object getTaskResult() | get task result
+../3-Phrases/weka:TaskStatusInfo getTaskStatus() | get task status
+../3-Phrases/weka:Object executeTask(QTask;) | execute task
+../3-Phrases/weka:void taskStarted() | task started
+../3-Phrases/weka:void taskFinished() | task finished
+../3-Phrases/weka:CONS WekaTaskMonitor() | weka task monitor
+../3-Phrases/weka:void taskStarted() | task started
+../3-Phrases/weka:void taskFinished() | task finished
+../3-Phrases/weka:void taskStarted() | task started
+../3-Phrases/weka:void taskFinished() | task finished
+../3-Phrases/weka:void TrainingTask(IIIIQInstances;) | training task
+../3-Phrases/weka:TaskStatusInfo getTaskStatus() | get task status
+../3-Phrases/weka:TaskStatusInfo getTaskStatus() | get task status
+../3-Phrases/weka:void waitingTask(I) | waiting task
+../3-Phrases/weka:CONS RemoteExperimentSubTask() | remote experiment sub task
+../3-Phrases/weka:TaskStatusInfo getTaskStatus() | get task status
+../3-Phrases/weka:TaskStatusInfo getTaskStatus() | get task status
+../3-Phrases/weka:void setTaskResult(QObject;) | set task result
+../3-Phrases/weka:Object getTaskResult() | get task result
+../3-Phrases/weka:Object executeTask(QTask;) | execute task
+../3-Phrases/weka:Object executeTask(QTask;) | execute task
+../3-Phrases/weka:void addTaskToQueue(QTask;QString;) | add task to queue
+../3-Phrases/weka:void startTask() | start task
+../3-Phrases/weka:CONS WekaTaskMonitor() | weka task monitor
+../3-Phrases/weka:void taskStarted() | task started
+../3-Phrases/weka:void taskFinished() | task finished
+../3-Phrases/weka:void taskStarted() | task started
+../3-Phrases/weka:void taskFinished() | task finished
+../3-Phrases/weka:void taskStarted() | task started
+../3-Phrases/weka:void taskFinished() | task finished

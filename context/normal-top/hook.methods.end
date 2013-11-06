@@ -1,0 +1,24 @@
+MindMapHook createJavaHook(QString;QHookDescriptor;) | create java hook
+ModeControllerHook createModeControllerHook(QString;) | create mode controller hook
+NodeHook createNodeHook(QString;) | create node hook
+NodeHook createNodeHook(QString;QMindMapNode;QMindMap;) | create node hook
+PermanentNodeHook addHook(QPermanentNodeHook;) | add hook
+ReminderHook getHook(QMindMapNode;) | get hook
+void addHook(QMindMapNode;) | add hook
+void addHook(QMindMapNode;QList;QString;) | add hook
+void addShutdownHook() | add shutdown hook
+void addShutdownHook(Thread hook) | add shutdown hook
+void childJustAddedHook(Object child, BCSChild bcsc) | child just added hook
+void decorateHook(QString;QHookDescriptor;QMindMapHook;) | decorate hook
+void downloadManagerAddedHook([QDownloadManager;) | download manager added hook
+void invokeHook(QModeControllerHook;) | invoke hook
+void invokeHook(QNodeHook;) | invoke hook
+void onLooseFocusHook() | on loose focus hook
+void onMouseOverHook() | on mouse over hook
+void onReceiveFocusHook() | on receive focus hook
+void onUpdateChildrenHook(QMindMapNode;) | on update children hook
+void onUpdateNodeHook() | on update node hook
+void removeHook(QPermanentNodeHook;) | remove hook
+void shutdownMapHook() | shutdown map hook
+void startupMapHook() | startup map hook
+void unHook() | un hook

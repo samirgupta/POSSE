@@ -1,0 +1,47 @@
+ActivityBinding getActivityBinding() | get activity binding
+ActivityContextInterface getActivityContextInterface() | get activity context interface
+ActivityModel getActivityModel() | get activity model
+boolean getSensedActivity(int channel, byte state) | get sensed activity
+boolean _removeActivity(QActivity;) | remove activity
+GraphicPrimitiveContainer.Rectangle[] getTaskActivityRectangles(QTask;) | get task activity rectangles
+int _activityCount() | activity count
+int activityCount() | activity count
+IPermission getPermissions(String owner, String activity, String target) | get permissions
+long getLastActivityTime() | get last activity time
+long getTimeSinceLastActivity() | get time since last activity
+long runActivity(J) | run activity
+Rectangle processRegularActivity(QTaskActivity;) | process regular activity
+String getActivityTokens() | get activity tokens
+TableColumnCore[] createActivityBig(QString;) | create activity big
+TableColumnCore[] createActivitySmall(QString;) | create activity small
+TaskActivity getDependantActivity() | get dependant activity
+TaskActivity getDependeeActivity() | get dependee activity
+TaskDependency.ActivityBinding getActivityBinding() | get activity binding
+UITextField getActivity() | get activity
+void activityType(ActivityType elem) | activity type
+void addActivityListener(QActivityListener;) | add activity listener
+void controlActivity(QThreadPool;QDhtTask;) | control activity
+void FinishActivity() | finish activity
+void informActivity(QString;) | inform activity
+void initialiseActivityGroup() | initialise activity group
+void processActivity(QTaskActivity;) | process activity
+void processActivity(QTaskActivity;F) | process activity
+void processFirstActivity(QTaskActivity;) | process first activity
+void processLastActivity(QTaskActivity;) | process last activity
+void processSpecificElements(Element element, Activity activity) | process specific elements
+void refreshActivity() | refresh activity
+void removeActivityListener(QActivityListener;) | remove activity listener
+void removeActivity(QActivity;) | remove activity
+void reportActivity(QResourceDownloader;QString;) | report activity
+void reportActivity(QString;) | report activity
+void resetLastActivityTime() | reset last activity time
+void runActivity(QVisualization;) | run activity
+void ScheduleAfterActivity(QActivity;Z) | schedule after activity
+void sendActivity(QVuzeActivitiesEntry;) | send activity
+void sendActivity(QVuzeActivitiesEntry;[QBuddyPluginBuddy;) | send activity
+void setActivityEntry(QVuzeActivitiesEntry;) | set activity entry
+void setRunningActivityItems(List<ReportActivityItem> items) | set running activity items
+void testOffsetOfActivityStartingOnFriday() | test offset of activity starting on friday
+void TransformActivity() | transform activity
+void UpdateActivity() | update activity
+VuzeActivitiesEntry getActivityEntry() | get activity entry

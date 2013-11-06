@@ -1,0 +1,130 @@
+boolean bActivelySeeding | b actively seeding
+boolean bDefaultForSeeding | b default for seeding
+boolean bOkToStartSeeding | b ok to start seeding
+boolean buddy_seeding_only | buddy seeding only
+boolean disconnect_seeds_when_seeding | disconnect seeds when seeding
+boolean enable_seeding_piece_rechecks | enable seeding piece rechecks
+boolean force_start_non_seed_exists | force start non seed exists
+boolean isSeedingView | is seeding view
+boolean old_seeding_only | old seeding only
+boolean open_for_seeding | open for seeding
+boolean potentially_seeding_only_mode | potentially seeding only mode
+boolean seeding | seeding
+boolean seeding_mode | seeding mode
+boolean seeding_only | seeding only
+boolean seeding_only_mode | seeding only mode
+boolean superSeedMode | super seed mode
+boolean USE_LIGHTWEIGHT_SEEDS | use lightweight seeds
+byte FLAG_SEEDING | flag seeding
+byte relativeSeeding | relative seeding
+byte RELATIVE_SEEDING_NONE | relative seeding none
+com.aelitis.azureus.core.peermanager.peerdb.PeerItem[] peersAddedNoSeeds | peers added no seeds
+com.aelitis.azureus.core.peermanager.uploadslots.SeedingRanker seed_ranker | seed ranker
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSpaceMapper pingMapOfSeedingMode | ping map of seeding mode
+com.aelitis.azureus.core.speedmanager.impl.v2.TransferMode.State SEEDING | seeding
+com.aelitis.azureus.core.util.bloom.BloomFilter known_seeds | known seeds
+com.aelitis.azureus.plugins.extseed.ExternalSeedPlugin ext_seed_plugin | ext seed plugin
+com.aelitis.azureus.plugins.startstoprules.defaultplugin.StartStopRulesDefaultPlugin.RecalcSeedingRanksTask recalcSeedingRanksTask | recalc seeding ranks task
+int AELITIS_BIG_TORRENT_SEED_LIMIT | aelitis big torrent seed limit
+int AELITIS_SMALL_TORRENT_SEED_LIMIT | aelitis small torrent seed limit
+int CHECK_REASON_SEEDING_CHECK | check reason seeding check
+int current_min_seed_announce_mult | current min seed announce mult
+int FIELD_SEEDS | field seeds
+int forcedSeeding | forced seeding
+int forcedSeedingNonFP | forced seeding non fp
+int globalUploadWhenSeedingLimit | global upload when seeding limit
+int IDLE_SEED_DISCONNECT_PERIOD | idle seed disconnect period
+int IDLE_SEED_DISCONNECT_SECS | idle seed disconnect secs
+int iFakeFullCopySeedStart | i fake full copy seed start
+int iFC_MinSeeds | i fc min seeds
+int iFirstPrioritySeedingMinutes | i first priority seeding minutes
+int iIgnoreRatioPeers_SeedStart | i ignore ratio peers seed start
+int iIgnoreSeedCount | i ignore seed count
+int iIgnoreShareRatio_SeedStart | i ignore share ratio seed start
+int iRankTypeSeedFallback | i rank type seed fallback
+int iSeedingRank | i seeding rank
+int lastModifiedScrapeResultSeeds | last modified scrape result seeds
+int LDT_SEEDING_ONLY | ldt seeding only
+int _maxActiveWhenSeeding | max active when seeding
+int max_connections_when_seeding | max connections when seeding
+int max_seed_connections | max seed connections
+int maxSeeders | max seeders
+int max_seed_retention | max seed retention
+int MAX_SEED_TO_PEER_RATIO | max seed to peer ratio
+int max_upload_rate_bps_seeding_only | max upload rate bps seeding only
+int maxUploadSeedingKbs | max upload seeding kbs
+int max_uploads_when_seeding | max uploads when seeding
+int minPeersToBoostNoSeeds | min peers to boost no seeds
+int MIN_SEED_CONNECTION_TIME | min seed connection time
+int MIN_SEEDING_STARTUP_WAIT | min seeding startup wait
+int minSpeedForActiveSeeding | min speed for active seeding
+int nbSeeds | nb seeds
+int nbSuperSeeds | nb super seeds
+int next_seed_piece_recheck_index | next seed piece recheck index
+int non_seed_count | non seed count
+int numSeeding | num seeding
+int numWaitingOrSeeding | num waiting or seeding
+int PR_SEED_COUNT | pr seed count
+int PR_SUPER_SEED_COUNT | pr super seed count
+int RANK_SEEDCOUNT | rank seed count
+int SEED_CHECK_WAIT_MARKER | seed check wait marker
+int seed_count | seed count
+int seeders | seeders
+int seed_limit | seed limit
+int SEEDONLY_SHIFT | seed only shift
+int seedPieceCheckCount | seed piece check count
+int SEED_PORT | seed port
+int _seeds | seeds
+int seeds | seeds
+int stalledFPSeeders | stalled fp seeders
+int stalledSeeders | stalled seeders
+int STARTMODE_SEEDING | start mode seeding
+int STATE_SEEDING | state seeding
+int ST_SEEDING | st seeding
+int superSeedModeCurrentPiece | super seed mode current piece
+int superSeedModeNumberOfAnnounces | super seed mode number of announces
+java.lang.String AUTO_UPLOAD_SEEDING_ENABLED_CONFIGKEY | auto upload seeding enabled config key
+java.lang.String CFG_FC_SEEDSTART | cfg fc seed start
+java.lang.String CORE_PARAM_BOOLEAN_MAX_ACTIVE_SEEDING | core param boolean max active seeding
+java.lang.String CORE_PARAM_BOOLEAN_MAX_UPLOAD_SPEED_SEEDING | core param boolean max upload speed seeding
+java.lang.String CORE_PARAM_BOOLEAN_NEW_SEEDS_START_AT_TOP | core param boolean new seeds start at top
+java.lang.String CORE_PARAM_INT_MAX_ACTIVE_SEEDING | core param int max active seeding
+java.lang.String CORE_PARAM_INT_MAX_UPLOAD_SPEED_SEEDING_KBYTES_PER_SEC | core param int max upload speed seeding kbytes per sec
+java.lang.String CORE_PARAM_INT_MAX_UPLOADS_SEEDING | core param int max uploads seeding
+java.lang.String DHT_SEED_ADDRESS_V4 | dht seed address v 4
+java.lang.String DHT_SEED_ADDRESS_V6 | dht seed address v 6
+java.lang.String ManagerItem_seeding | manager item seeding
+java.lang.String ManagerItem_superseeding | manager item super seeding
+java.lang.String PARAM_MAX_PEERS_WHEN_SEEDING | param max peers when seeding
+java.lang.String PARAM_MAX_SEEDS | param max seeds
+java.lang.String PARAM_MAX_UPLOADS_WHEN_SEEDING | param max uploads when seeding
+java.lang.String PM_SEED_TIME_KEY | pm seed time key
+java.lang.String SEED_ADDRESS_V4 | seed address v 4
+java.lang.String SEED_ADDRESS_V6 | seed address v 6
+java.lang.String ST_NET_HTTP_IN_REQUEST_WEBSEED_COUNT | st net http in request web seed count
+java.lang.String TK_WEBSEED_BT | tk web seed bt
+java.lang.String TK_WEBSEED_GR | tk web seed gr
+java.lang.String UPLOAD_SEEDING_CONFIGKEY | upload seeding config key
+java.lang.String UPLOAD_SEEDING_ENABLED_CONFIGKEY | upload seeding enabled config key
+java.lang.String USED_UPLOAD_CAPACITY_SEEDING_MODE | used upload capacity seeding mode
+java.lang.String webSeedConfig | web seed config
+java.util.List is_seeds | is seeds
+java.util.Map lightweight_seed_map | lightweight seed map
+java.util.Map seed_transport_map | seed transport map
+long last_root_seed_import_time | last root seed import time
+long lTotalSeeds | l total seeds
+long MIN_ROOT_SEED_IMPORT_PERIOD | min root seed import period
+long minSeeds | min seeds
+long node_id_seed_next | node id seed next
+long saved_SecondsOnlySeeding | saved seconds only seeding
+long _timeStartedSeeding | time started seeding
+long total_webseed_requests | total web seed requests
+long WAIT_TIME_FOR_SEEDING_MODE | wait time for seeding mode
+org.gudy.azureus2.core3.peer.impl.control.SuperSeedPiece[] superSeedPieces | super seed pieces
+org.gudy.azureus2.core3.util.FrequencyLimitedDispatcher check_seeding_only_state_dispatcher | check seeding only state dispatcher
+org.gudy.azureus2.plugins.ui.config.BooleanParameter remove_unauthorised_seeding_only | remove unauthorised seeding only
+org.gudy.azureus2.plugins.ui.tables.TableColumn seedingRankColumn | seeding rank column
+org.gudy.azureus2.ui.swt.components.BufferedLabel seeds | seeds
+org.gudy.azureus2.ui.swt.config.BooleanParameter enableAutoSpeedWhileSeeding | enable auto speed while seeding
+org.gudy.azureus2.ui.swt.config.IntListParameter seedModeUsedCap | seed mode used cap
+org.gudy.azureus2.ui.swt.views.MyTorrentsView seedingview | seeding view

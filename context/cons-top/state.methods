@@ -1,0 +1,51 @@
+CONS AbstractStatementExecutor(QHqlSqlWalker;QLogger;) | abstract statement executor
+CONS AESocksProxyState(QAESocksProxyConnection;) | ae socks proxy state
+CONS ArcState(QArchive;Z) | arc state
+CONS CacheSQLStateConverter(QViolatedConstraintNameExtracter;) | cache sql state converter
+CONS ChartViewState(QIGanttProject;QUIFacade;) | chart view state
+CONS ColumnState(I) | column state
+CONS ColumnState(II) | column state
+CONS ColumnStateList() | column state list
+CONS CompiledStatementExecutor(QSession;) | compiled statement executor
+CONS CompiledStatementManager(QDatabase;) | compiled statement manager
+CONS CompiledStatement(QHsqlName;) | compiled statement
+CONS CompiledStatement(QHsqlName;QTable;[I[QExpression;[Z[QSubQuery;[QExpression;) | compiled statement
+CONS CompiledStatement(QSession;QDatabase;QHsqlName;QExpression;[QSubQuery;[QExpression;) | compiled statement
+CONS CompiledStatement(QSession;QDatabase;QHsqlName;QSelect;[QSubQuery;[QExpression;) | compiled statement
+CONS CompiledStatement(QSession;QDatabase;QHsqlName;QTableFilter;[I[QExpression;QExpression;[QSubQuery;[QExpression;) | compiled statement
+CONS CompiledStatement(QSession;QDatabase;QHsqlName;QTableFilter;QExpression;[QSubQuery;[QExpression;) | compiled statement
+CONS CompiledStatement(QSession;QDatabase;QHsqlName;QTable;[I[ZQSelect;[QSubQuery;[QExpression;) | compiled statement
+CONS CompilerState([CII) | compiler state
+CONS DownloadManagerStateImpl(QDownloadManagerImpl;QTorrentUtils.ExtendedTorrent;) | download manager state impl
+CONS GanttCompareToPreviousStateBean(QGanttProject;) | gantt compare to previous state bean
+CONS GanttDialogCompareToPreviousState(QGanttProject;) | gantt dialog compare to previous state
+CONS GanttDialogSaveAsPreviousState(QGanttProject;) | gantt dialog save as previous state
+CONS GanttPreviousState(QString;) | gantt previous state
+CONS GanttPreviousState(QString;QGanttProject;) | gantt previous state
+CONS GanttPreviousStateTask(IQGanttCalendar;IZZ) | gantt previous state task
+CONS GanttSaveAsPreviousStateBean(QGanttProject;) | gantt save as previous state bean
+CONS jdbcCallableStatement(QjdbcConnection;QString;I) | jdbc callable statement
+CONS jdbcPreparedStatement(QjdbcConnection;QString;I) | jdbc prepared statement
+CONS jdbcStatement(QjdbcConnection;I) | jdbc statement
+CONS lalr_state(Qlalr_item_set;) | lalr state
+CONS LexicalStates() | lexical states
+CONS LWSDiskManagerState() | lws disk manager state
+CONS PluginStateImpl(QPluginInterfaceImpl;QPluginInitializer;) | plugin state impl
+CONS PreviousStateTasksTagHandler(QArrayList;) | previous state tasks tag handler
+CONS REProgState(QREProgState;IIIQREBackTrackData;II) | re prog state
+CONS SQLStateConverter(QViolatedConstraintNameExtracter;) | sql state converter
+CONS SQLStatementLogger() | sql statement logger
+CONS SQLStatementLogger(ZZ) | sql statement logger
+CONS StaleObjectStateException(QString;QSerializable;) | stale object state exception
+CONS StaleStateException(QString;) | stale state exception
+CONS StatefulPersistenceContext(QSessionImplementor;) | stateful persistence context
+CONS StateItem(QString;) | state item
+CONS StatelessSessionImpl(QConnection;QSessionFactoryImpl;) | stateless session impl
+CONS StatePairList() | state pair list
+CONS StateSet() | state set
+CONS StateSetEnumerator() | state set enumerator
+CONS StateSetEnumerator(QStateSet;) | state set enumerator
+CONS StateSet(I) | state set
+CONS StateSet(II) | state set
+CONS StateSet(QStateSet;) | state set
+CONS UPnPStateVariableImpl(QUPnPServiceImpl;QSimpleXMLParserDocumentNode;) | upn p state variable impl

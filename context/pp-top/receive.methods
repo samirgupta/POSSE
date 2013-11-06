@@ -1,0 +1,102 @@
+boolean hasBeenReceived() | has been received
+boolean messageReceived(Qcom.aelitis.azureus.core.peermanager.messaging.Message;) | message received
+boolean messageReceived(QMessage;) | message received
+boolean packetReceived(QDatagramPacket;) | packet received
+int getChunksReceived() | get chunks received
+int getReceived() | get received
+long bytesReceived() | bytes received
+long getAverageBytesReceived() | get average bytes received
+long getAveragePacketsReceived() | get average packets received
+long getBytesReceived() | get bytes received
+long getDataBytesReceived() | get data bytes received
+long getOverallDataBytesReceived() | get overall data bytes received
+long getPacketsReceived() | get packets received
+long getProtocolBytesReceived() | get protocol bytes received
+long getTimeSinceGoodDataReceived() | get time since good data received
+long getTimeSinceLastDataMessageReceived() | get time since last data message received
+long getTotalBytesReceived() | get total bytes received
+long getTotalDataBytesReceived() | get total data bytes received
+long getTotalFindNodesReceived() | get total find nodes received
+long getTotalFindValuesReceived() | get total find values received
+long getTotalGoodDataBytesReceived() | get total good data bytes received
+long getTotalKeyBlocksReceived() | get total key blocks received
+long getTotalPacketsReceived() | get total packets received
+long getTotalPingsReceived() | get total pings received
+long getTotalProtocolBytesReceived() | get total protocol bytes received
+long getTotalReceived() | get total received
+long getTotalStoresReceived() | get total stores received
+Map messageReceived(QBuddyPluginBuddy;QMap;) | message received
+Map requestReceived(QAZInstance;QMap;) | request received
+Map requestReceived(QBuddyPluginBuddy;IQMap;) | request received
+String getLastMessageReceived() | get last message received
+void adsReceived(QList;QMap;) | ads received
+void buddyMessageFragmentReceived(II) | buddy message fragment received
+void buddyMessageReceived(I) | buddy message received
+void buzzReceived(Qymsg.network.event.SessionEvent;) | buzz received
+void bytesReceived(I) | bytes received
+void chatLogoffReceived(Qymsg.network.event.SessionChatEvent;) | chat logoff received
+void chatLogonReceived(Qymsg.network.event.SessionChatEvent;) | chat logon received
+void chatMessageReceived(Qymsg.network.event.SessionChatEvent;) | chat message received
+void chatUserUpdateReceived(Qymsg.network.event.SessionChatEvent;) | chat user update received
+void conferenceInviteDeclinedReceived(Qymsg.network.event.SessionConferenceEvent;) | conference invite declined received
+void conferenceInviteReceived(Qymsg.network.event.SessionConferenceEvent;) | conference invite received
+void conferenceLogoffReceived(Qymsg.network.event.SessionConferenceEvent;) | conference logoff received
+void conferenceLogonReceived(Qymsg.network.event.SessionConferenceEvent;) | conference logon received
+void conferenceMessageReceived(Qymsg.network.event.SessionConferenceEvent;) | conference message received
+void contactReceived(Qorg.hn.sleek.jmml.Contact;) | contact received
+void contactRejectionReceived(Qymsg.network.event.SessionEvent;) | contact rejection received
+void contactRequestReceived(Qymsg.network.event.SessionEvent;) | contact request received
+void contactsReceived(BQString;QString;[QString;[QString;) | contacts received
+void contentReceived(QEngine;QString;) | content received
+void dataBytesReceived(I) | data bytes received
+void dataBytesReceived(IZ) | data bytes received
+void dataBytesReceived(QPEPeer;I) | data bytes received
+void dataReceived() | data received
+void errorPacketReceived(Qymsg.network.event.SessionErrorEvent;) | error packet received
+void errorReceived(I) | error received
+void fileTransferReceived(Qymsg.network.event.SessionFileTransferEvent;) | file transfer received
+void findNodeReceived() | find node received
+void findValueReceived() | find value received
+void friendAddedReceived(Qymsg.network.event.SessionFriendEvent;) | friend added received
+void friendRemovedReceived(Qymsg.network.event.SessionFriendEvent;) | friend removed received
+void friendsUpdateReceived(Qymsg.network.event.SessionFriendEvent;) | friends update received
+void groupReceived(IQString;) | group received
+void incomingRequestReceived(QDHTUDPPacketRequest;Z) | incoming request received
+void keyBlockReceived() | key block received
+void listReceived(Qymsg.network.event.SessionEvent;) | list received
+void logoffReceived(Qymsg.network.event.SessionEvent;) | logoff received
+void messageReceived(BQString;QString;QString;) | message received
+void messageReceived(QBuddyPluginAZ2.chatParticipant;QMap;) | message received
+void messageReceived(QClientMessage;) | message received
+void messageReceived(QJabberMessageEvent;) | message received
+void messageReceived(QVuzeBuddy;QString;JQMap;) | message received
+void messageReceived(Qymsg.network.event.SessionEvent;) | message received
+void newMailReceived(Qymsg.network.event.SessionNewMailEvent;) | new mail received
+void notifyReceived(Qymsg.network.event.SessionNotifyEvent;) | notify received
+void offlineMessageReceived(Qymsg.network.event.SessionEvent;) | offline message received
+void packetReceived(I) | packet received
+void packetReceived(J) | packet received
+void packetReceived(QDHTUDPPacketReply;QInetSocketAddress;J) | packet received
+void packetReceived(QPacketReceivedEvent;) | packet received
+void packetReceived(QPRUDPPacketHandlerRequest;QPRUDPPacket;QInetSocketAddress;) | packet received
+void pingReceived() | ping received
+void pingReceived(IZ) | ping received
+void primordialPacketReceived(I) | primordial packet received
+void protocolBytesReceived(I) | protocol bytes received
+void protocolBytesReceived(IZ) | protocol bytes received
+void protocolBytesReceived(QPEPeer;I) | protocol bytes received
+void received(I) | received
+void received(QNetworkInterface;QInetAddress;QInetSocketAddress;[BI) | received
+void receiveUnloadStranded(QPacket;I) | receive unload stranded
+void replyReceived(QBuddyPluginBuddy;QMap;) | reply received
+void replyReceived([QMap;) | reply received
+void replyReceived(QPlatformMessage;QString;QMap;) | reply received
+void replyReceived(QString;QMap;) | reply received
+void replyReceived(QString;QRatingInfoList;) | reply received
+void resultReceived(QSearchInstance;QSearchResult;) | result received
+void resultsReceived(QEngine;[QResult;) | results received
+void scrapeReceived(QTRTrackerScraperResponse;) | scrape received
+void setHasBeenReceived() | set has been received
+void setLastMessageReceived(QString;) | set last message received
+void statsReceived() | stats received
+void storeReceived() | store received

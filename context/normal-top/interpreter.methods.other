@@ -1,0 +1,19 @@
+int getInterpreterReadyCount() | get interpreter ready count
+int getMaximumInterpreterStackDepth() | get maximum interpreter stack depth
+void assertInterpreterChangedCount(I) | assert interpreter changed count
+void assertInterpreterExitedCount(I) | assert interpreter exited count
+void assertInterpreterReadyCount(I) | assert interpreter ready count
+void assertInterpreterResetFailedCount(I) | assert interpreter reset failed count
+void assertInterpreterResettingCount(I) | assert interpreter resetting count
+void captureInterpreterStackInfo(QRhinoException;) | capture interpreter stack info
+void _dumpVariablesIntoInterpreterAndSwitch() | dump variables into interpreter and switch
+void notifyDebugInterpreterAssignment(QString;) | notify debug interpreter assignment
+void _notifyInterpreterReady(QFile;) | notify interpreter ready
+void _notifyInterpreterResetting() | notify interpreter resetting
+void restartInterpreterJVM(Z) | restart interpreter jvm
+void setInterpreterPrivateAccessible(boolean accessible) | set interpreter private accessible
+void setInterpreterPrivateAccessible(Z) | set interpreter private accessible
+void setMaximumInterpreterStackDepth(I) | set maximum interpreter stack depth
+void startInterpreterJVM() | start interpreter jvm
+void stopInterpreterJVM() | stop interpreter jvm
+void _switchToInterpreterForThreadReference(QThreadReference;) | switch to interpreter for thread reference

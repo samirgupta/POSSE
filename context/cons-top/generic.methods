@@ -1,0 +1,31 @@
+CONS AZGenericMapPayload(QString;QMap;B) | az generic map payload
+CONS GenericActionPerformer([QControl;) | generic action performer
+CONS GenericArrayEditor() | generic array editor
+CONS GenericBooleanParameter(QGenericParameterAdapter;QComposite;QString;) | generic boolean parameter
+CONS GenericBooleanParameter(QGenericParameterAdapter;QComposite;QString;QString;) | generic boolean parameter
+CONS GenericBooleanParameter(QGenericParameterAdapter;QComposite;QString;Z) | generic boolean parameter
+CONS GenericBooleanParameter(QGenericParameterAdapter;QComposite;QString;ZQString;) | generic boolean parameter
+CONS GenericBooleanParameter(QGenericParameterAdapter;QComposite;QString;ZQString;QIAdditionalActionPerformer;) | generic boolean parameter
+CONS GenericFileFilter(QString;[QString;) | generic file filter
+CONS GenericFileFilter(QString;QString;) | generic file filter
+CONS GenericIntParameter(QGenericParameterAdapter;QComposite;QString;) | generic int parameter
+CONS GenericIntParameter(QGenericParameterAdapter;QComposite;QString;I) | generic int parameter
+CONS GenericIntParameter(QGenericParameterAdapter;QComposite;QString;II) | generic int parameter
+CONS GenericJDBCException(QString;QSQLException;) | generic jdbc exception
+CONS GenericJDBCException(QString;QSQLException;QString;) | generic jdbc exception
+CONS GenericListener() | generic listener
+CONS GenericMessageConnectionDirect(QString;QString;QGenericMessageEndpointImpl;I[[B) | generic message connection direct
+CONS GenericMessageConnectionImpl(QMessageManagerImpl;QGenericMessageConnectionAdapter;) | generic message connection impl
+CONS GenericMessageConnectionImpl(QMessageManagerImpl;QString;QString;QGenericMessageEndpointImpl;I[[B) | generic message connection impl
+CONS GenericMessageConnectionIndirect(QMessageManagerImpl;QString;QString;QGenericMessageEndpoint;J) | generic message connection indirect
+CONS GenericMessageConnectionIndirect(QMessageManagerImpl;QString;QString;QGenericMessageEndpoint;QInetSocketAddress;QInetSocketAddress;) | generic message connection indirect
+CONS GenericMessageDecoder(QString;QString;) | generic message decoder
+CONS GenericMessageEndpointImpl(QConnectionEndpoint;) | generic message endpoint impl
+CONS GenericMessageEndpointImpl(QInetSocketAddress;) | generic message endpoint impl
+CONS GenericMessage(QString;QString;QDirectByteBuffer;Z) | generic message
+CONS GenericObjectEditor() | generic object editor
+CONS GenericObjectEditor(Z) | generic object editor
+CONS GenericObjectNodeEditor(QGenericObjectNode;) | generic object node editor
+CONS GenericObjectNode(QAddModelsPanel;QObject;QGenericObjectEditor;QString;) | generic object node
+CONS GenericPropertiesCreator() | generic properties creator
+CONS GenericPropertiesCreator(QString;) | generic properties creator

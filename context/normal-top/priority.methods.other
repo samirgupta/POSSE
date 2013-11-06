@@ -1,0 +1,14 @@
+ActivityIteratorExpressionBuilder addPriorityEquals(int i) | add priority equals
+boolean doHighPriorityRead() | do high priority read
+boolean doHighPriorityWrite() | do high priority write
+boolean doNormalPriorityRead() | do normal priority read
+boolean doNormalPriorityWrite() | do normal priority write
+int[] getPriorityOffsets() | get priority offsets
+List getPriorityProviders() | get priority providers
+RateControlledEntity getNextReadyHighPriorityEntity() | get next ready high priority entity
+RateControlledEntity getNextReadyNormalPriorityEntity() | get next ready normal priority entity
+String getPriorityString(int p) | get priority string
+void addPriorityProvider(QPiecePriorityProvider;) | add priority provider
+void calculatePriorityOffsets(QPeerManager;[I) | calculate priority offsets
+void informPriorityChange(QDiskManagerFileInfo;) | inform priority change
+void removePriorityProvider(QPiecePriorityProvider;) | remove priority provider

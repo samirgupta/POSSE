@@ -1,0 +1,554 @@
+../3-Phrases/3PS:boolean isInPeriod(Timestamp date) | is in period
+../3-Phrases/3PS:boolean isSetFutSettDate() | is set fut sett date
+../3-Phrases/3PS:boolean isDateAttribute(EOAttribute eoattribute) | is date attribute
+../3-Phrases/Base_Verb:Date addToDate(Date date) | add to date
+../3-Phrases/Base_Verb:String convertDateToStr(Date date) | convert date to str
+../3-Phrases/Base_Verb:get events for period(calendar calendar, date dt start, date dt end)
+../3-Phrases/Base_Verb:static Object getObjectUsingfindByBoundCreatedDate(String className, Date createdDateFrom, Date createdDateTo) | object get object using find by bound created date
+../3-Phrases/Base_Verb:Date getNextDateAfter(Date afterTime) | get next date after
+../3-Phrases/Base_Verb:static int parseStringForDateInformation(int information, String stringValue, Calendar cal, int fromI) | int parse string for date information
+../3-Phrases/Base_Verb:String format(Date date) | format
+../3-Phrases/Base_Verb:Date addNewDate() | add new date
+../3-Phrases/Base_Verb:void setEndDate(Date newDate) | set end date
+../3-Phrases/Base_Verb:LegRedemptionDate getLegRedemptionDate() | get leg redemption date
+../3-Phrases/Base_Verb:RedemptionDate getRedemptionDate() | get redemption date
+../3-Phrases/Base_Verb:Calendar getLastSuccessfulSyncDate() | get last successful sync date
+../3-Phrases/Base_Verb:void testDateValidation() | test date validation
+../3-Phrases/Base_Verb:String getDate() | get date
+../3-Phrases/Base_Verb:List<XMLGregorianCalendar> getDate() | get date
+../3-Phrases/Base_Verb:static String getWeekID(long date) | string get week id
+../3-Phrases/Base_Verb:Date getBirthDate() | get birth date
+../3-Phrases/Base_Verb:static Date addBusinessDays(Date startDate, int numDays) | date add business days
+../3-Phrases/Base_Verb:Date getCreateDateTime() | get create date time
+../3-Phrases/Base_Verb:void setCheckDates(Date dMinDate, Date dMaxDate) | set check dates
+../3-Phrases/Base_Verb:Date computeDate() | compute date
+../3-Phrases/Base_Verb:void setDateFormat(String javaDatePattern) | set date format
+../3-Phrases/Base_Verb:void setDate(Calendar date) | set date
+../3-Phrases/Base_Verb:void TestDateFormat() | test date format
+../3-Phrases/Base_Verb:void setStartDate(Date temp) | set start date
+../3-Phrases/Base_Verb:void setReportValues(String id, String name, String description, String periodicityTypeID, String forwardingTypeID, Date date) | set report values
+../3-Phrases/Base_Verb:void setSignDateKey(String signDateKey) | set sign date key
+../3-Phrases/Base_Verb:void setStartDate(Date _startDate) | set start date
+../3-Phrases/Base_Verb:Date getDate() | get date
+../3-Phrases/Base_Verb:EndDate getEndDate() | get end date
+../3-Phrases/Base_Verb:void setDateOrdered_Date(Date dateOrdered_Date) | set date ordered date
+../3-Phrases/Base_Verb:InterestAccrualDate getInterestAccrualDate() | get interest accrual date
+../3-Phrases/Base_Verb:static void sellTrades(Environment environment, EODQuoteBundle quoteBundle, Variables variables, Expression sell, Expression buy, int dateOffset, Money tradeCost, List symbols, OrderCache orderCache) | void sell trades
+../3-Phrases/Base_Verb:Calendar getDate() | get date
+../3-Phrases/Base_Verb:void setPubDate(String pubDate) | set pub date
+../3-Phrases/Base_Verb:static void setDateTimeFormat(String dateTimeFormat) | void set date time format
+../3-Phrases/Base_Verb:static Date getSessionStartTime() | date get session start time
+../3-Phrases/Base_Verb:void testIsDateTime() | test is date time
+../3-Phrases/Base_Verb:void addTask(String summary, Priority priority, int complete, long dateTime, long startDateTime, long completeDateTime, boolean select) | add task
+../3-Phrases/Base_Verb:String getDate() | get date
+../3-Phrases/Base_Verb:void setDate(int arg0) | set date
+../3-Phrases/Base_Verb:void setLastLoginDate(Calendar value) | set last login date
+../3-Phrases/Base_Verb:void setDateHeader(String header, long date) | set date header
+../3-Phrases/Base_Verb:void setDateAcct(Timestamp DateAcct) | set date acct
+../3-Phrases/Base_Verb:void setT_Date(Timestamp T_Date) | set t date
+../3-Phrases/Base_Verb:void testDateConstructor1() | test date constructor 1
+../3-Phrases/drjava2:Date _getBuildDate() | get build date
+../3-Phrases/drjava2:void setSavedModDate(J) | set saved mod date
+../3-Phrases/drjava2:long getSavedModDate() | get saved mod date
+../3-Phrases/drjava2:String getStringAfterDate(QString;) | get string after date
+../3-Phrases/freecol2:Date getDate() | get date
+../3-Phrases/freecol2:void setDate(QDate;) | set date
+../3-Phrases/freecol2:boolean isOutOfDate(QTurn;) | is out of date
+../3-Phrases/freemind:Date xmlToDate(QString;) | xml to date
+../3-Phrases/freemind:String dateToString(QDate;) | date to string
+../3-Phrases/freemind:Date getCalendarDate() | get calendar date
+../3-Phrases/freemind:void DateRenderer() | date renderer
+../3-Phrases/gantt:Date getStartDate() | get start date
+../3-Phrases/gantt:Date getEndDate() | get end date
+../3-Phrases/gantt:void setStartDate(QDate;) | set start date
+../3-Phrases/gantt:void setEndDate(QDate;) | set end date
+../3-Phrases/gantt:Date getStartDate() | get start date
+../3-Phrases/gantt:Date getEndDate() | get end date
+../3-Phrases/gantt:void startDateChanged(QChartViewState.ViewStateEvent;) | start date changed
+../3-Phrases/gantt:Date getStartDate() | get start date
+../3-Phrases/gantt:Date getEndDate() | get end date
+../3-Phrases/gantt:Date getStartDate() | get start date
+../3-Phrases/gantt:Date getEndDate() | get end date
+../3-Phrases/gantt:GanttCalendar parseXMLDate(QString;) | parse xml date
+../3-Phrases/gantt:int getDate() | get date
+../3-Phrases/gantt:String getDateAndTime() | get date and time
+../3-Phrases/gantt:TableCellEditor newDateCellEditor() | new date cell editor
+../3-Phrases/gantt:void DateCellEditor() | date cell editor
+../3-Phrases/gantt:Date getStateChangeDate(QDate;Z) | get state change date
+../3-Phrases/gantt:Date getStateChangeDate(QDate;QTimeUnit;ZZ) | get state change date
+../3-Phrases/gantt:DayType getDayTypeDate(QDate;) | get day type date
+../3-Phrases/gantt:Date shiftDate(QDate;QTaskLength;) | shift date
+../3-Phrases/gantt:DayType getDayTypeDate(QDate;) | get day type date
+../3-Phrases/gantt:DayType getDayTypeDate(QDate;) | get day type date
+../3-Phrases/gantt:Date shiftDate(QDate;QTaskLength;) | shift date
+../3-Phrases/gantt:Date getStartDate() | get start date
+../3-Phrases/gantt:Date getEndDate() | get end date
+../3-Phrases/gantt:Date getStartDate() | get start date
+../3-Phrases/gantt:void setStartDate(QDate;) | set start date
+../3-Phrases/gantt:void fireStartDateChanged(QViewStateEvent;) | fire start date changed
+../3-Phrases/gantt:void startDateChanged(QViewStateEvent;) | start date changed
+../3-Phrases/gantt:Date getStartDate() | get start date
+../3-Phrases/gantt:Date getEndDate() | get end date
+../3-Phrases/gantt:void drawDateLine(QDate;IQDate;[QOffset;QColor;I) | draw date line
+../3-Phrases/gantt:void setStartDate(QDate;) | set start date
+../3-Phrases/gantt:Date getStartDate() | get start date
+../3-Phrases/gantt:Date getEndDate() | get end date
+../3-Phrases/gantt:void startDateChanged(QChartViewState.ViewStateEvent;) | start date changed
+../3-Phrases/gantt:void setStartDate(QDate;) | set start date
+../3-Phrases/gantt:Date getEndDate() | get end date
+../3-Phrases/gantt:Date getStartDate() | get start date
+../3-Phrases/gantt:CONS GanttDialogDate(QJDialog;QGanttCalendar;) | gantt dialog date
+../3-Phrases/gantt:CONS GanttDialogDate(QJDialog;QGanttCalendar;Z) | gantt dialog date
+../3-Phrases/gantt:GanttCalendar getDate() | get date
+../3-Phrases/gantt:CONS GanttPanelDate(QGanttCalendar;) | gantt panel date
+../3-Phrases/gantt:void changeDate(QGregorianCalendar;) | change date
+../3-Phrases/gantt:void rollDate(II) | roll date
+../3-Phrases/gantt:GanttCalendar getDate() | get date
+../3-Phrases/gantt:void GanttDialogDateDay(QGanttCalendar;QGanttLanguage;) | gantt dialog date day
+../3-Phrases/gantt:JXDatePicker createDatePicker(QActionListener;) | create date picker
+../3-Phrases/gantt:int getThirdDateConstraint() | get third date constraint
+../3-Phrases/gantt:void DateInterval(QDate;QDate;) | date interval
+../3-Phrases/gantt:CONS DateIntervalListEditor(QDateIntervalModel;) | date interval list editor
+../3-Phrases/gantt:Component createDateComponent(QDateOption;) | create date component
+../3-Phrases/gantt:CONS DefaultDateOption(QString;) | default date option
+../3-Phrases/gantt:DateFormat getDateFormat() | get date format
+../3-Phrases/gantt:String formatDate(QGanttCalendar;) | format date
+../3-Phrases/gantt:String formatShortDate(QGanttCalendar;) | format short date
+../3-Phrases/gantt:GanttCalendar parseDate(QString;) | parse date
+../3-Phrases/gantt:SimpleDateFormat createDateFormat(QString;) | create date format
+../3-Phrases/gantt:void onChangingDates() | on changing dates
+../3-Phrases/gantt:int getThirdDateConstraint() | get third date constraint
+../3-Phrases/gantt:Date getCachedDate(I) | get cached date
+../3-Phrases/gantt:void cacheDate(QDate;I) | cache date
+../3-Phrases/gantt:void setThirdDate(QGanttCalendar;) | set third date
+../3-Phrases/gantt:void setThirdDateConstraint(I) | set third date constraint
+../3-Phrases/gantt:Date shiftDate(QDate;QTimeUnit;J) | shift date
+../3-Phrases/gantt:Date shiftDate(QDate;QTimeUnit;JQGPCalendar;) | shift date
+../3-Phrases/gantt:void applyThirdDateConstraint() | apply third date constraint
+../3-Phrases/gantt:void applyThirdDateConstraint() | apply third date constraint
+../3-Phrases/gantt:int getThirdDateConstraint() | get third date constraint
+../3-Phrases/gantt:void setThirdDate(QGanttCalendar;) | set third date
+../3-Phrases/gantt:void setThirdDateConstraint(I) | set third date constraint
+../3-Phrases/gantt:void applyThirdDateConstraint() | apply third date constraint
+../3-Phrases/gantt:void sortByStartDate(QList;) | sort by start date
+../3-Phrases/gantt:void sortTasksByStartDate(QList;) | sort tasks by start date
+../3-Phrases/gantt:GanttCalendar getOldStartDate() | get old start date
+../3-Phrases/gantt:GanttCalendar getOldFinishDate() | get old finish date
+../3-Phrases/gantt:GanttCalendar getNewStartDate() | get new start date
+../3-Phrases/gantt:GanttCalendar getNewFinishDate() | get new finish date
+../3-Phrases/gantt:void testFinishStartDependenciesOnMovingEndDateForward() | test finish start dependencies on moving end date forward
+../3-Phrases/gantt:void testFinishStartConstraintOnMovingEndDateBackward() | test finish start constraint on moving end date backward
+../3-Phrases/gantt:void testFinishFinishConstraintOnMovingEndDateForward() | test finish finish constraint on moving end date forward
+../3-Phrases/gantt:void testStartStartConstraintOnMovingStartDateForward() | test start start constraint on moving start date forward
+../3-Phrases/gantt:void testStartFinishConstraintOnMovingStartDateForward() | test start finish constraint on moving start date forward
+../3-Phrases/gantt:TimeUnit createDateFrameableTimeUnit(QString;QTimeUnit;IQDateFrameable;) | create date frameable time unit
+../3-Phrases/gantt:TimeUnitFunctionOfDate createTimeUnitFunctionOfDate(QString;QTimeUnit;QDateFrameable;) | create time unit function of date
+../3-Phrases/gantt:CONS TimeUnitFunctionOfDateImpl(QString;QTimeUnitGraph;QTimeUnit;QDateFrameable;) | time unit function of date impl
+../3-Phrases/gantt:CONS TimeUnitDateFrameableImpl(QString;QTimeUnitGraph;QTimeUnit;QDateFrameable;) | time unit date frameable impl
+../3-Phrases/gantt:Date getStartDate() | get start date
+../3-Phrases/gantt:Date getFinishDate() | get finish date
+../3-Phrases/gantt:Date calculateEndDate() | calculate end date
+../3-Phrases/gantt:Date getFinishDate() | get finish date
+../3-Phrases/gantt:Date getStartDate() | get start date
+../3-Phrases/gantt:Date parseDate(QString;QLocale;) | parse date
+../3-Phrases/gantt:String getIsoDate(QDate;) | get iso date
+../3-Phrases/gantt:String getIsoDateNoMillis(QDate;) | get iso date no millis
+../3-Phrases/gantt:String getIsoDateNoHours(QDate;) | get iso date no hours
+../3-Phrases/gantt:CONS InvalidDateException(QString;) | invalid date exception
+../3-Phrases/hibernate-3.3.1.GA:Query setDate(IQDate;) | set date
+../3-Phrases/hibernate-3.3.1.GA:Query setCalendarDate(IQCalendar;) | set calendar date
+../3-Phrases/hibernate-3.3.1.GA:Query setDate(QString;QDate;) | set date
+../3-Phrases/hibernate-3.3.1.GA:Query setCalendarDate(QString;QCalendar;) | set calendar date
+../3-Phrases/hibernate-3.3.1.GA:Date getDate(I) | get date
+../3-Phrases/hibernate-3.3.1.GA:boolean isUpToDate(QSet;QLong;) | is up to date
+../3-Phrases/hibernate-3.3.1.GA:boolean isUpToDate(QSet;QLong;) | is up to date
+../3-Phrases/hibernate-3.3.1.GA:void registerDateTimeTypeMappings() | register date time type mappings
+../3-Phrases/hibernate-3.3.1.GA:void registerDateTimeTypeMappings() | register date time type mappings
+../3-Phrases/hibernate-3.3.1.GA:boolean isDateTimeType(QType;) | is date time type
+../3-Phrases/hibernate-3.3.1.GA:Type resolveDateTimeArithmeticResultType(QType;QType;) | resolve date time arithmetic result type
+../3-Phrases/hibernate-3.3.1.GA:Date getDate(I) | get date
+../3-Phrases/hibernate-3.3.1.GA:Query setDate(IQDate;) | set date
+../3-Phrases/hibernate-3.3.1.GA:Query setCalendarDate(IQCalendar;) | set calendar date
+../3-Phrases/hibernate-3.3.1.GA:Query setDate(QString;QDate;) | set date
+../3-Phrases/hibernate-3.3.1.GA:Query setCalendarDate(QString;QCalendar;) | set calendar date
+../3-Phrases/hibernate-3.3.1.GA:Date getDate(QString;) | get date
+../3-Phrases/hibernate-3.3.1.GA:Date getDate(QString;QCalendar;) | get date
+../3-Phrases/hibernate-3.3.1.GA:void updateDate(QString;QDate;) | update date
+../3-Phrases/hibernate-3.3.1.GA:Date getDate(I) | get date
+../3-Phrases/hibernate-3.3.1.GA:void updateDate(IQDate;) | update date
+../3-Phrases/hibernate-3.3.1.GA:Date getDate(IQCalendar;) | get date
+../3-Phrases/hsqldb:Integer getSqlDateTimeSub() | get sql date time sub
+../3-Phrases/hsqldb:Date dateValue(QString;) | date value
+../3-Phrases/hsqldb:Date getCurrentDate(J) | get current date
+../3-Phrases/hsqldb:String getDateString(Qjava.util.Date;QCalendar;) | get date string
+../3-Phrases/hsqldb:void resetToDate(QCalendar;) | reset to date
+../3-Phrases/hsqldb:long getNormalisedDate(J) | get normalised date
+../3-Phrases/hsqldb:Date getNormalisedDate(QTimestamp;) | get normalised date
+../3-Phrases/hsqldb:Date getNormalisedDate(QDate;) | get normalised date
+../3-Phrases/hsqldb:int getDateTimePart(Qjava.util.Date;I) | get date time part
+../3-Phrases/hsqldb:String toJavaDatePattern(QString;) | to java date pattern
+../3-Phrases/hsqldb:Long datediff(QString;QTimestamp;QTimestamp;) | datediff
+../3-Phrases/hsqldb:Integer getColSqlDateTimeSub(I) | get col sql date time sub
+../3-Phrases/hsqldb:boolean isDatetimeType(I) | is datetime type
+../3-Phrases/hsqldb:Date getCurrentDate() | get current date
+../3-Phrases/hsqldb:Date getDate(I) | get date
+../3-Phrases/hsqldb:Date getDate(IQCalendar;) | get date
+../3-Phrases/hsqldb:void setDate(QString;QDate;) | set date
+../3-Phrases/hsqldb:void setDate(QString;QDate;QCalendar;) | set date
+../3-Phrases/hsqldb:Date getDate(QString;) | get date
+../3-Phrases/hsqldb:Date getDate(QString;QCalendar;) | get date
+../3-Phrases/hsqldb:String getTimeDateFunctions() | get time date functions
+../3-Phrases/hsqldb:void setDate(IQDate;) | set date
+../3-Phrases/hsqldb:void setDate(IQDate;QCalendar;) | set date
+../3-Phrases/hsqldb:Date getDate(I) | get date
+../3-Phrases/hsqldb:Date getDate(QString;) | get date
+../3-Phrases/hsqldb:void updateDate(IQDate;) | update date
+../3-Phrases/hsqldb:void updateDate(QString;QDate;) | update date
+../3-Phrases/hsqldb:Date getDate(IQCalendar;) | get date
+../3-Phrases/hsqldb:Date getDate(QString;QCalendar;) | get date
+../3-Phrases/hsqldb:void writeDate(QDate;) | write date
+../3-Phrases/hsqldb:Date readDate() | read date
+../3-Phrases/hsqldb:Date readDate() | read date
+../3-Phrases/hsqldb:Date readDate() | read date
+../3-Phrases/hsqldb:void writeDate(QDate;) | write date
+../3-Phrases/hsqldb:void writeDate(QDate;) | write date
+../3-Phrases/hsqldb:Date readDate() | read date
+../3-Phrases/hsqldb:void writeDate(QDate;) | write date
+../3-Phrases/hsqldb:Date getOrAddDate(J) | get or add date
+../3-Phrases/hsqldb:Date getDate(J) | get date
+../3-Phrases/hsqldb:CONS TestDateTime(QString;) | test date time
+../3-Phrases/hsqldb:void testBasicDateSupport() | test basic date support
+../3-Phrases/iReport:void jRTextExpressionDateTextChanged() | j r text expression date text changed
+../3-Phrases/iReport:String getDateExpression() | get date expression
+../3-Phrases/iReport:void setDateExpression(QString;) | set date expression
+../3-Phrases/iReport:String getStartDateExpression() | get start date expression
+../3-Phrases/iReport:void setStartDateExpression(QString;) | set start date expression
+../3-Phrases/iReport:String getEndDateExpression() | get end date expression
+../3-Phrases/iReport:void setEndDateExpression(QString;) | set end date expression
+../3-Phrases/iReport:String getStartDateExpression() | get start date expression
+../3-Phrases/iReport:void setStartDateExpression(QString;) | set start date expression
+../3-Phrases/iReport:String getEndDateExpression() | get end date expression
+../3-Phrases/iReport:void setEndDateExpression(QString;) | set end date expression
+../3-Phrases/iReport:void jListDateTypesValueChanged(Qjavax.swing.event.ListSelectionEvent;) | j list date types value changed
+../3-Phrases/iReport:void updateListDateTypes() | update list date types
+../3-Phrases/Jabref:String getPublicationDate(QBibtexEntry;) | get publication date
+../3-Phrases/Jabref:String easyDateFormat() | easy date format
+../3-Phrases/Jabref:String easyDateFormat(QDate;) | easy date format
+../3-Phrases/Jabref:CONS DatePickerButton(QFieldEditor;) | date picker button
+../3-Phrases/Jabref:JComponent getDatePicker() | get date picker
+../3-Phrases/Jabref:String parseDate(QHashMap<QString;QString;>;QString;) | parse date
+../3-Phrases/Jabref:String getDate(QBibtexEntry;) | get date
+../3-Phrases/Jabref:String getDate(QBibtexEntry;) | get date
+../3-Phrases/Jabref:void addDate(QDocument;QElement;QString;QString;) | add date
+../3-Phrases/Jabref:String getBUILD_DATE() | get build date
+../3-Phrases/Jabref:List<QString;> getSequenceDateList(QString;) | get sequence date list
+../3-Phrases/Jabref:void removeSequenceDateValue(QString;QCalendar;) | remove sequence date value
+../3-Phrases/Jabref:void addSequenceDateValue(QString;QCalendar;) | add sequence date value
+../3-Phrases/Jabref:void testGetPublicationDate() | test get publication date
+../3-Phrases/Jabref:void testSetRemoveGetSequenceDateListString() | test set remove get sequence date list string
+../3-Phrases/jajuk:long getDate() | get date
+../3-Phrases/jajuk:void setDate(J) | set date
+../3-Phrases/jajuk:SimpleDateFormat getDateFormatter() | get date formatter
+../3-Phrases/jajuk:Date getAdditionDate() | get addition date
+../3-Phrases/jajuk:void setAdditionDate(QDate;) | set addition date
+../3-Phrases/jajuk:long getDateLastGlobalRefresh() | get date last global refresh
+../3-Phrases/jajuk:long getDateLastRefresh() | get date last refresh
+../3-Phrases/jajuk:Date getDateValue(QString;) | get date value
+../3-Phrases/jajuk:ArrayList<QFormat;> getSupportedDateFormats() | get supported date formats
+../3-Phrases/jajuk:ArrayList<QString;> getSupportedDateFormatsDesc() | get supported date formats desc
+../3-Phrases/jajuk:Format getDateFormat(QString;) | get date format
+../3-Phrases/jajuk:Date getDateValue(QString;) | get date value
+../3-Phrases/jajuk:DateFormat getAdditionDateFormat() | get addition date format
+../3-Phrases/javaHMO:Date getCreationDate() | get creation date
+../3-Phrases/javaHMO:Date getLastChangedDate() | get last changed date
+../3-Phrases/javaHMO:Date getCaptureDate() | get capture date
+../3-Phrases/javaHMO:Date getCreationDate() | get creation date
+../3-Phrases/javaHMO:void setCreationDate(QDate;) | set creation date
+../3-Phrases/javaHMO:Date getLastChangedDate() | get last changed date
+../3-Phrases/javaHMO:void setLastChangedDate(QDate;) | set last changed date
+../3-Phrases/javaHMO:Date getCaptureDate() | get capture date
+../3-Phrases/javaHMO:void setCaptureDate(QDate;) | set capture date
+../3-Phrases/javaHMO:Date getCreationDate() | get creation date
+../3-Phrases/javaHMO:void setCreationDate(QDate;) | set creation date
+../3-Phrases/javaHMO:Date getLastChangedDate() | get last changed date
+../3-Phrases/javaHMO:void setLastChangedDate(QDate;) | set last changed date
+../3-Phrases/javaHMO:Date getCaptureDate() | get capture date
+../3-Phrases/javaHMO:void setCaptureDate(QDate;) | set capture date
+../3-Phrases/javaHMO:Date getCreationDate() | get creation date
+../3-Phrases/javaHMO:Date getLastChangedDate() | get last changed date
+../3-Phrases/javaHMO:Date getCaptureDate() | get capture date
+../3-Phrases/javaHMO:Date getCreationDate() | get creation date
+../3-Phrases/javaHMO:Date getCaptureDate() | get capture date
+../3-Phrases/javaHMO:Date getLastChangedDate() | get last changed date
+../3-Phrases/javaHMO:boolean getSortByCreationDate() | get sort by creation date
+../3-Phrases/javaHMO:void setSortByCreationDate(Z) | set sort by creation date
+../3-Phrases/javaHMO:boolean getSortByLastChangeDate() | get sort by last change date
+../3-Phrases/javaHMO:void setSortByLastChangeDate(Z) | set sort by last change date
+../3-Phrases/javaHMO:void DateComparator() | date comparator
+../3-Phrases/javaHMO:void setReleaseDate(QString;) | set release date
+../3-Phrases/javaHMO:String getReleaseDate() | get release date
+../3-Phrases/javaHMO:Date getCreationDate() | get creation date
+../3-Phrases/javaHMO:Date getLastChangedDate() | get last changed date
+../3-Phrases/javaHMO:Date getCaptureDate() | get capture date
+../3-Phrases/javaHMO:Date getCreationDate() | get creation date
+../3-Phrases/javaHMO:Date getLastChangedDate() | get last changed date
+../3-Phrases/javaHMO:Date getCaptureDate() | get capture date
+../3-Phrases/javaHMO:Date getCreationDate() | get creation date
+../3-Phrases/javaHMO:Date getCaptureDate() | get capture date
+../3-Phrases/javaHMO:Date getLastChangedDate() | get last changed date
+../3-Phrases/javaHMO:Date getCreationDate() | get creation date
+../3-Phrases/javaHMO:Date getLastChangedDate() | get last changed date
+../3-Phrases/javaHMO:Date getCaptureDate() | get capture date
+../3-Phrases/javaHMO:Date getCreationDate() | get creation date
+../3-Phrases/javaHMO:Date getLastChangedDate() | get last changed date
+../3-Phrases/javaHMO:Date getCaptureDate() | get capture date
+../3-Phrases/javaHMO:Date getCreationDate() | get creation date
+../3-Phrases/javaHMO:Date getLastChangedDate() | get last changed date
+../3-Phrases/javaHMO:Date getCaptureDate() | get capture date
+../3-Phrases/javaHMO:Date getCreationDate() | get creation date
+../3-Phrases/javaHMO:Date getLastChangedDate() | get last changed date
+../3-Phrases/javaHMO:Date getCaptureDate() | get capture date
+../3-Phrases/javaHMO:Date getCreationDate() | get creation date
+../3-Phrases/javaHMO:Date getLastChangedDate() | get last changed date
+../3-Phrases/javaHMO:Date getCaptureDate() | get capture date
+../3-Phrases/javaHMO:Date getDate() | get date
+../3-Phrases/javaHMO:void setDate(QDate;) | set date
+../3-Phrases/javaHMO:Date getDateRecorded() | get date recorded
+../3-Phrases/javaHMO:void setDateRecorded(QDate;) | set date recorded
+../3-Phrases/javaHMO:Date getLastChangedDate() | get last changed date
+../3-Phrases/javaHMO:void setLastChangedDate(QDate;) | set last changed date
+../3-Phrases/javaHMO:String dateToHex(QDate;) | date to hex
+../3-Phrases/javaHMO:String hexToDate(QString;) | hex to date
+../3-Phrases/javaHMO:Date hexDate(QString;) | hex date
+../3-Phrases/jbidwatcher:String dateFormat(QSearcher;) | date format
+../3-Phrases/jbidwatcher:Date getStartDate() | get start date
+../3-Phrases/jbidwatcher:Date getEndDate() | get end date
+../3-Phrases/jbidwatcher:String formatDate(QString;) | format date
+../3-Phrases/jbidwatcher:String formatDate(QDate;) | format date
+../3-Phrases/jbidwatcher:void backupByDate(QString;QFile;) | backup by date
+../3-Phrases/jbidwatcher:Date figureDate(QString;QString;Z) | figure date
+../3-Phrases/jbidwatcher:Date figureDate(QString;QString;ZZ) | figure date
+../3-Phrases/jbidwatcher:String getEndDate(QString;) | get end date
+../3-Phrases/jbidwatcher:void checkDates(QString;QAuctionEntry;) | check dates
+../3-Phrases/jbidwatcher:Date getStartDate() | get start date
+../3-Phrases/jbidwatcher:Date getEndDate() | get end date
+../3-Phrases/jbidwatcher:Date getSnipeDate() | get snipe date
+../3-Phrases/jbidwatcher:int compareDate(QObject;QObject;) | compare date
+../3-Phrases/Jftp:long getDate() | get date
+../3-Phrases/Jftp:long getHeaderFieldDate(QString;J) | get header field date
+../3-Phrases/Jftp:int compareDates(QSmbFile;QString;QSmbFile;) | compare dates
+../3-Phrases/Jftp:long getDate() | get date
+../3-Phrases/Jftp:void setDate() | set date
+../3-Phrases/Jftp:Date[] getDates() | get dates
+../3-Phrases/Jftp:void setDate() | set date
+../3-Phrases/Jftp:void setDate(QDate;) | set date
+../3-Phrases/Jftp:String getDate() | get date
+../3-Phrases/Jftp:Date[] sortDates(QString;) | sort dates
+../3-Phrases/Jftp:Date[] sortDates(QString;) | sort dates
+../3-Phrases/Jftp:Date[] sortDates(QString;) | sort dates
+../3-Phrases/Jftp:Date[] sortDates(QString;) | sort dates
+../3-Phrases/Jftp:Date[] sortDates(QString;) | sort dates
+../3-Phrases/Jftp:Date[] sortDates(QString;) | sort dates
+../3-Phrases/Jftp:Date[] sortDates(QString;) | sort dates
+../3-Phrases/JRobin:Date getDate(J) | get date
+../3-Phrases/JRobin:SimpleDateFormat getDateFormat() | get date format
+../3-Phrases/JRobin:Date getStartDate() | get start date
+../3-Phrases/JRobin:void setStartDate(QDate;) | set start date
+../3-Phrases/JRobin:GregorianCalendar getDate(Z) | get date
+../3-Phrases/JRobin:void setDate(QGregorianCalendar;Z) | set date
+../3-Phrases/JRobin:void setInitialDates() | set initial dates
+../3-Phrases/JRobin:Date getStartDate() | get start date
+../3-Phrases/MegaMek-0.32.0:String addDateTimeStamp(QString;) | add date time stamp
+../3-Phrases/np:static DateTime newInstance(XmlOptions options) | date time new instance
+../3-Phrases/np:static long new_Date__SWIG_9() | long new date  swig  9
+../3-Phrases/np:void clockSet(Date date) | clock set
+../3-Phrases/prefuse:boolean canGetDate(QString;) | can get date
+../3-Phrases/prefuse:boolean canSetDate(QString;) | can set date
+../3-Phrases/prefuse:Date getDate(QString;) | get date
+../3-Phrases/prefuse:void setDate(QString;QDate;) | set date
+../3-Phrases/prefuse:Date getDate(I) | get date
+../3-Phrases/prefuse:void setDate(IQDate;) | set date
+../3-Phrases/prefuse:boolean canGetDate(QString;) | can get date
+../3-Phrases/prefuse:boolean canSetDate(QString;) | can set date
+../3-Phrases/prefuse:Date getDate(IQString;) | get date
+../3-Phrases/prefuse:void setDate(IQString;QDate;) | set date
+../3-Phrases/prefuse:Date getDate(II) | get date
+../3-Phrases/prefuse:void setDate(IIQDate;) | set date
+../3-Phrases/prefuse:CONS DateColumn() | date column
+../3-Phrases/prefuse:CONS DateColumn(I) | date column
+../3-Phrases/prefuse:CONS DateColumn(QClass;I) | date column
+../3-Phrases/prefuse:CONS DateColumn(QClass;IIJ) | date column
+../3-Phrases/prefuse:boolean canGetDate() | can get date
+../3-Phrases/prefuse:boolean canSetDate() | can set date
+../3-Phrases/prefuse:Date getDate(I) | get date
+../3-Phrases/prefuse:void setDate(QDate;I) | set date
+../3-Phrases/prefuse:boolean canGetDate() | can get date
+../3-Phrases/prefuse:boolean canSetDate() | can set date
+../3-Phrases/prefuse:Date getDate(I) | get date
+../3-Phrases/prefuse:void setDate(QDate;I) | set date
+../3-Phrases/prefuse:CONS DateTimeParser() | date time parser
+../3-Phrases/prefuse:CONS DateTimeParser(QDateFormat;) | date time parser
+../3-Phrases/prefuse:CONS DateParser() | date parser
+../3-Phrases/prefuse:CONS DateParser(QDateFormat;) | date parser
+../3-Phrases/prefuse:Date parseDate(QString;) | parse date
+../3-Phrases/prefuse:boolean canGetDate(QString;) | can get date
+../3-Phrases/prefuse:boolean canSetDate(QString;) | can set date
+../3-Phrases/prefuse:Date getDate(QString;) | get date
+../3-Phrases/prefuse:void setDate(QString;QDate;) | set date
+../3-Phrases/prefuse:Date getDate(I) | get date
+../3-Phrases/prefuse:void setDate(IQDate;) | set date
+../3-Phrases/prefuse:boolean canGetDate(QString;) | can get date
+../3-Phrases/prefuse:boolean canSetDate(QString;) | can set date
+../3-Phrases/prefuse:Date getDate(QString;) | get date
+../3-Phrases/prefuse:void setDate(QString;QDate;) | set date
+../3-Phrases/prefuse:long getDate(QCalendar;III) | get date
+../3-Phrases/prefuse:Date getDate(QClass;J) | get date
+../3-Phrases/rhino:CONS NativeDate() | native date
+../3-Phrases/rhino:double date_msecFromDate(DDDDDDD) | date msec from date
+../3-Phrases/rhino:double date_parseString(QString;) | date parse string
+../3-Phrases/rhino:double MakeDate(DD) | make date
+../3-Phrases/rhino:double makeDate(D[QObject;I) | make date
+../3-Phrases/rhino:int DateFromTime(D) | date from time
+../3-Phrases/rhino:String date_format(DI) | date format
+../3-Phrases/vuze:long getCreationDate() | get creation date
+../3-Phrases/vuze:void setCreationDate(J) | set creation date
+../3-Phrases/vuze:long getModifiedDate() | get modified date
+../3-Phrases/vuze:long getModifiedDate() | get modified date
+../3-Phrases/vuze:Date getPublishedDate() | get published date
+../3-Phrases/vuze:void ensureEnginesUpToDate() | ensure engines up to date
+../3-Phrases/vuze:CONS DateParserRegex() | date parser regex
+../3-Phrases/vuze:CONS DateParserRegex(QString;ZQString;) | date parser regex
+../3-Phrases/vuze:Date parseDate(QString;) | parse date
+../3-Phrases/vuze:Date parseDateInternal(QString;) | parse date internal
+../3-Phrases/vuze:Date parseDate(QString;) | parse date
+../3-Phrases/vuze:CONS DateParserClassic() | date parser classic
+../3-Phrases/vuze:CONS DateParserClassic(QString;ZQString;) | date parser classic
+../3-Phrases/vuze:Date parseDate(QString;) | parse date
+../3-Phrases/vuze:Date parseDateInternal(QString;) | parse date internal
+../3-Phrases/vuze:Date getPublishedDate() | get published date
+../3-Phrases/vuze:void setPublishedDate(QDate;) | set published date
+../3-Phrases/vuze:void setPublishedDateFromHTML(QString;) | set published date from html
+../3-Phrases/vuze:Date getPublishedDate() | get published date
+../3-Phrases/vuze:DateParser getDateParser() | get date parser
+../3-Phrases/vuze:void setUpToDate(Z) | set up to date
+../3-Phrases/vuze:boolean isUpToDate() | is up to date
+../3-Phrases/vuze:void setUpToDate(Z) | set up to date
+../3-Phrases/vuze:CONS ColumnActivityDate(QString;) | column activity date
+../3-Phrases/vuze:void setUpToDate(Z) | set up to date
+../3-Phrases/vuze:boolean isUpToDate() | is up to date
+../3-Phrases/vuze:void setUpToDate(Z) | set up to date
+../3-Phrases/vuze:Date getDate() | get date
+../3-Phrases/vuze:Date getAdjustedDate() | get adjusted date
+../3-Phrases/vuze:Date getDate() | get date
+../3-Phrases/vuze:Time getStartDate() | get start date
+../3-Phrases/vuze:Time getEndDate() | get end date
+../3-Phrases/vuze:Date getDate() | get date
+../3-Phrases/vuze:Time getStartDate() | get start date
+../3-Phrases/vuze:Time getEndDate() | get end date
+../3-Phrases/vuze:void setStartDate(QDERUTCTime;) | set start date
+../3-Phrases/vuze:void setStartDate(QTime;) | set start date
+../3-Phrases/vuze:void setEndDate(QDERUTCTime;) | set end date
+../3-Phrases/vuze:void setEndDate(QTime;) | set end date
+../3-Phrases/vuze:void setStartDate(QDERGeneralizedTime;) | set start date
+../3-Phrases/vuze:void setEndDate(QDERGeneralizedTime;) | set end date
+../3-Phrases/vuze:void setStartDate(QTime;) | set start date
+../3-Phrases/vuze:void setStartDate(QDERUTCTime;) | set start date
+../3-Phrases/vuze:void setEndDate(QTime;) | set end date
+../3-Phrases/vuze:void setEndDate(QDERUTCTime;) | set end date
+../3-Phrases/vuze:Time getRevocationDate() | get revocation date
+../3-Phrases/vuze:Date getRevocationDate() | get revocation date
+../3-Phrases/vuze:long getTorrentCreationDate() | get torrent creation date
+../3-Phrases/vuze:long getCreationDate() | get creation date
+../3-Phrases/vuze:void setCreationDate(J) | set creation date
+../3-Phrases/vuze:long getTorrentCreationDate() | get torrent creation date
+../3-Phrases/vuze:void markAsUpToDate() | mark as up to date
+../3-Phrases/vuze:void markAsUpToDate() | mark as up to date
+../3-Phrases/vuze:long getCreationDate() | get creation date
+../3-Phrases/vuze:void setCreationDate(J) | set creation date
+../3-Phrases/vuze:long getCreationDate() | get creation date
+../3-Phrases/vuze:void setCreationDate(J) | set creation date
+../3-Phrases/vuze:long getDateAdded() | get date added
+../3-Phrases/vuze:long getCreationDate() | get creation date
+../3-Phrases/vuze:void setCreationDate(J) | set creation date
+../3-Phrases/vuze:long getDateAdded() | get date added
+../3-Phrases/vuze:long getDateAdded() | get date added
+../3-Phrases/vuze:String getHTTPDate(J) | get http date
+../3-Phrases/vuze:String formatDate(JQString;) | format date
+../3-Phrases/vuze:String formatDate(J) | format date
+../3-Phrases/vuze:String formatDateShort(J) | format date short
+../3-Phrases/vuze:String formatDateNum(J) | format date num
+../3-Phrases/vuze:String formatCustomDateOnly(J) | format custom date only
+../3-Phrases/vuze:String formatCustomDateTime(J) | format custom date time
+../3-Phrases/vuze:long getCreationDate() | get creation date
+../3-Phrases/vuze:void setCreationDate(J) | set creation date
+../3-Phrases/vuze:void markAsUpToDate() | mark as up to date
+../3-Phrases/vuze:long getCreationDate() | get creation date
+../3-Phrases/vuze:long getDateAdded() | get date added
+../3-Phrases/vuze:String formatDate(J) | format date
+../3-Phrases/vuze:String formatDateOnly(J) | format date only
+../3-Phrases/vuze:Date getPublicationDate() | get publication date
+../3-Phrases/vuze:Date getPublicationDate() | get publication date
+../3-Phrases/vuze:void markAsUpToDate() | mark as up to date
+../3-Phrases/vuze:long getCreationDate() | get creation date
+../3-Phrases/vuze:long getDateAdded() | get date added
+../3-Phrases/vuze:String formatDate(J) | format date
+../3-Phrases/vuze:String formatDateOnly(J) | format date only
+../3-Phrases/vuze:Date getPublicationDate() | get publication date
+../3-Phrases/vuze:Date getPublicationDate() | get publication date
+../3-Phrases/vuze:Date parseRSSDate(QString;) | parse rss date
+../3-Phrases/vuze:Date parseAtomDate(QString;) | parse atom date
+../3-Phrases/vuze:void markAsUpToDate() | mark as up to date
+../3-Phrases/vuze:long getCreationDate() | get creation date
+../3-Phrases/vuze:long getDateAdded() | get date added
+../3-Phrases/vuze:void setUpToDate(Z) | set up to date
+../3-Phrases/vuze:boolean isUpToDate() | is up to date
+../3-Phrases/vuze:void setUpToDate(Z) | set up to date
+../3-Phrases/vuze:boolean isUpToDate() | is up to date
+../3-Phrases/vuze:void setUpToDate(Z) | set up to date
+../3-Phrases/vuze:CONS ColumnDateSizer(QString;IQString;) | column date sizer
+../3-Phrases/vuze:CONS DateAddedItem(QString;) | date added item
+../3-Phrases/vuze:CONS DateAddedItem(QString;Z) | date added item
+../3-Phrases/vuze:CONS DateCompletedItem(QString;) | date completed item
+../3-Phrases/vuze:CONS DateCompletedItem(QString;Z) | date completed item
+../3-Phrases/vuze:CONS DateAddedItem() | date added item
+../3-Phrases/weka:void upDateCounter(QInstance;) | up date counter
+../3-Phrases/weka:void upDateCounters(QFastVector;QInstances;) | up date counters
+../3-Phrases/weka:void upDateCounter(QInstance;QInstance;) | up date counter
+../3-Phrases/weka:void upDateCounters(QFastVector;QInstances;QInstances;) | up date counters
+../3-Phrases/weka:String getTimeAndDate() | get time and date
+../3-Phrases/weka:void upDate(QInstances;) | up date
+../3-Phrases/weka:void upDate(QInstances;) | up date
+../3-Phrases/weka:void setNumDate(I) | set num date
+../3-Phrases/weka:int getNumDate() | get num date
+../3-Phrases/weka:boolean isDate() | is date
+../3-Phrases/weka:String getDateFormat() | get date format
+../3-Phrases/weka:String formatDate(D) | format date
+../3-Phrases/weka:double parseDate(QString;) | parse date
+../3-Phrases/weka:void setNumDate(I) | set num date
+../3-Phrases/weka:int getNumDate() | get num date
+../3-Phrases/weka:void setNumRelationalDate(I) | set num relational date
+../3-Phrases/weka:int getNumRelationalDate() | get num relational date
+../3-Phrases/weka:String dateFormatTipText() | date format tip text
+../3-Phrases/weka:String getDateFormat() | get date format
+../3-Phrases/weka:void setDateFormat(QString;) | set date format
+../3-Phrases/weka:String dateFormatTipText() | date format tip text
+../3-Phrases/weka:SimpleDateFormat getDateFormat() | get date format
+../3-Phrases/weka:void setDateFormat(QString;) | set date format
+../3-Phrases/weka:void setDateFormat(QSimpleDateFormat;) | set date format
+../3-Phrases/weka:CONS SimpleDateFormatEditor() | simple date format editor
+../3-Phrases/weka:void upDateCounter(QInstance;QInstance;) | up date counter
+../3-Phrases/weka:void upDateCounters(QFastVector;QInstances;QInstances;) | up date counters
+../3-Phrases/weka:void upDateCounter(QInstance;) | up date counter
+../3-Phrases/weka:void upDateCounters(QFastVector;QInstances;) | up date counters
+../3-Phrases/weka:String getTimeAndDate() | get time and date
+../3-Phrases/weka:void setNumDate(I) | set num date
+../3-Phrases/weka:int getNumDate() | get num date
+../3-Phrases/weka:boolean isDate() | is date
+../3-Phrases/weka:String getDateFormat() | get date format
+../3-Phrases/weka:String formatDate(D) | format date
+../3-Phrases/weka:double parseDate(QString;) | parse date
+../3-Phrases/weka:void setNumDate(I) | set num date
+../3-Phrases/weka:int getNumDate() | get num date
+../3-Phrases/weka:void setNumRelationalDate(I) | set num relational date
+../3-Phrases/weka:int getNumRelationalDate() | get num relational date
+../3-Phrases/weka:CONS SimpleDateFormatEditor() | simple date format editor

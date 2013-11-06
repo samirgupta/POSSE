@@ -1,0 +1,18 @@
+CharSetEnumerator characters() | characters
+int getMaxCharactersPerLineCount() | get max characters per line count
+String getExtraNameCharacters() | get extra name characters
+String getProblemCharacters() | get problem characters
+String replaceSpecialCharacters(QString;) | replace special characters
+String saveHTML_escapeUnicodeAndSpecialCharacters(QString;) | save html escape unicode and special characters
+String saveRFT_escapeUnicodeAndSpecialCharacters(QString;) | save rft escape unicode and special characters
+String stripNonValidXMLCharacters(QString;) | strip non valid xml characters
+void characters(char buf, int offset, int len) | characters
+void characters(char buf, int start, int len) | characters
+void characters(char chars, int start, int len) | characters
+void characters([CII) | characters
+void characters(String characters) | characters
+void setValidCharacters(QString;) | set valid characters
+void testNotStartOfStmtDueToEndCharactersInCommentsOrQuotes() | test not start of stmt due to end characters in comments or quotes
+void testReplaceSpecialCharacters() | test replace special characters
+void testSpecialCharacters() | test special characters
+void testStartOfStmtCheckForEndCharacters() | test start of stmt check for end characters

@@ -1,0 +1,25 @@
+boolean confirmDeleteCatalogSelection() | confirm delete catalog selection
+boolean confirmDeleteSelectedCatalogTexture() | confirm delete selected catalog texture
+boolean isCatalogAtStart() | is catalog at start
+FurnitureCatalogController getFurnitureCatalogController() | get furniture catalog controller
+int getMaxCatalogNameLength() | get max catalog name length
+Iterator iterateCatalogNames() | iterate catalog names
+JComponent createCatalogFurniturePane(QHome;QUserPreferences;QHomeController;) | create catalog furniture pane
+String getCatalogId() | get catalog id
+String getCatalogName() | get catalog name
+String getCatalogName(I) | get catalog name
+String getCatalogName(QObject;) | get catalog name
+String getCatalogSeparator() | get catalog separator
+String getCatalogTerm() | get catalog term
+String getDefaultCatalogName() | get default catalog name
+String injectCatalogAndSchema(QString;QString;QString;) | inject catalog and schema
+TableCellRenderer getCatalogIdRenderer() | get catalog id renderer
+View createFurnitureCatalogView(QFurnitureCatalog;QUserPreferences;QFurnitureCatalogController;) | create furniture catalog view
+void addCatalogSelectionListener() | add catalog selection listener
+void FurnitureCatalogChangeListener(QFurnitureCatalogController;) | furniture catalog change listener
+void FurnitureCatalogChangeListener(QHomeController;) | furniture catalog change listener
+void setCatalogName(QString;) | set catalog name
+void setDefaultCatalogName(QString;) | set default catalog name
+void testCatalogTreeCreation() | test catalog tree creation
+void TexturesCatalogChangeListener(QHomeController;) | textures catalog change listener
+void TexturesCatalogListener(QTexturePanel;) | textures catalog listener

@@ -1,0 +1,23 @@
+ArrayList getButtonLayers() | get button layers
+boolean getDrawsLayeredHighlights() | get draws layered highlights
+Button.Layer addLayer(QSymbol;QTransform;QAlphaTransform;IZZZZ) | add layer
+GraphicPrimitiveContainer getLayer(I) | get layer
+GraphicPrimitiveContainer newLayer() | new layer
+Icon[] getLayers() | get layers
+int getLayer() | get layer
+JLabel buildGreyLayer() | build grey layer
+JLayeredPane getLayeredPane() | get layered pane
+LayeredIcon makeLayeredIcon(QIcon;QIcon;) | make layered icon
+RenderableLayer buildShapesLayer() | build shapes layer
+Shape paintLayer(QGraphics;IIQShape;QJTextComponent;QView;) | paint layer
+Species getLeadingSpeciesBALayer(Stand st, int layer) | get leading species ba layer
+String getHiddenLayers() | get hidden layers
+String hiddenLayersTipText() | hidden layers tip text
+void Layer(QSymbol;QTransform;QAlphaTransform;IZZZZ) | layer
+void NeuralLayer(QElement;) | neural layer
+void paintLayeredHighlights(QGraphics;IIQShape;QJTextComponent;QView;) | paint layered highlights
+void setDrawsLayeredHighlights(Z) | set draws layered highlights
+void setHiddenLayers(QString;) | set hidden layers
+void setLayer(I) | set layer
+void setupHiddenLayer() | setup hidden layer
+void unsetLayer() | unset layer

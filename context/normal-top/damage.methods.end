@@ -1,0 +1,39 @@
+boolean isFallDamage() | is fall damage
+boolean resolveCrewDamage(QEntity;Z) | resolve crew damage
+double calculateFallingDamage(DQEntity;) | calculate falling damage
+double getAmmoAdjDamage(QIGame;QWeaponAttackAction;) | get ammo adj damage
+double getDamage(QCEntity;) | get damage
+double getExpectedDamage(QEntity;QMounted;II) | get expected damage
+double getExpectedKickDamage(QEntity;QEntity;QIGame;III) | get expected kick damage
+double getMaxModifiedDamage(QMoveOption;II) | get max modified damage
+double getMinDamage(QCEntity;) | get min damage
+double getModifiedDamage(III) | get modified damage
+float getDeployDamage(QIGame;QWeaponAttackAction;) | get deploy damage
+float getExpectedDamage(QIGame;QWeaponAttackAction;) | get expected damage
+int getDamage() | get damage
+int getDamage(I) | get damage
+int getExplosionDamage() | get explosion damage
+int getSecondaryDamage() | get secondary damage
+int getVibroClawDamage() | get vibro claw damage
+int shieldAbsorptionDamage(IIZ) | shield absorption damage
+PilotingRollData checkLandingWithDamage() | check landing with damage
+PilotingRollData checkRunningWithDamage(I) | check running with damage
+void addDamage(IZID) | add damage
+void addMovementDamage(I) | add movement damage
+void applyBuildingDamage() | apply building damage
+void applyDamage() | apply damage
+void applyDamage(QServer;) | apply damage
+void checkFor20Damage() | check for 20 damage
+void clearDamage() | clear damage
+void doExtremeGravityDamage(QEntity;I) | do extreme gravity damage
+void doMagmaDamage(QEntity;Z) | do magma damage
+void makeFallDamage(Z) | make fall damage
+void resetPossibleDamage() | reset possible damage
+void resolveChargeDamage(QEntity;QEntity;QToHitData;I) | resolve charge damage
+void resolveChargeDamage(QEntity;QEntity;QToHitData;IZZ) | resolve charge damage
+void resolveCrewDamage() | resolve crew damage
+void setDamage(I) | set damage
+void setDamage(J) | set damage
+void setDamage(QCEntity;D) | set damage
+void vehicleMotiveDamage(QTank;I) | vehicle motive damage
+WeaponAttackAction getHighestExpectedDamage(QIGame;QVector;) | get highest expected damage

@@ -1,0 +1,50 @@
+String tag_name(I) | tag name
+SWFActions tagDefineButton2(IZQVector;) | tag define button 2
+SWFActions tagDefineButton(IQVector;) | tag define button
+SWFActions tagDoAction() | tag do action
+SWFActions tagPlaceObject2(ZIIIQMatrix;QAlphaTransform;IQString;I) | tag place object 2
+SWFShape tagDefineMorphShape(IQRect;QRect;) | tag define morph shape
+SWFShape tagDefineShape2(IQRect;) | tag define shape 2
+SWFShape tagDefineShape3(IQRect;) | tag define shape 3
+SWFShape tagDefineShape(IQRect;) | tag define shape
+SWFTagTypes tagDefineSprite(I) | tag define sprite
+SWFText tagDefineText2(IQRect;QMatrix;) | tag define text 2
+SWFText tagDefineText(IQRect;QMatrix;) | tag define text
+SWFVectors tagDefineFont2(IIQString;IIII[I[I[QRect;[I[I[I) | tag define font 2
+SWFVectors tagDefineFont(II) | tag define font
+SWFVectors tagDefineFont(int id, int numGlyphs) | tag define font
+void tagButtonCXForm(IQColorTransform;) | tag button cx form
+void tagDefineBits(I[B) | tag define bits
+void tagDefineBitsJPEG2(I[B) | tag define bits jpeg 2
+void tagDefineBitsJPEG2(IQInputStream;) | tag define bits jpeg 2
+void tagDefineBitsJPEG3(I[B[B) | tag define bits jpeg 3
+void tagDefineBitsLossless2(IIII[QColor;[B) | tag define bits lossless 2
+void tagDefineBitsLossless(IIII[QColor;[B) | tag define bits lossless
+void tagDefineButtonSound(IIQSoundInfo;IQSoundInfo;IQSoundInfo;IQSoundInfo;) | tag define button sound
+void tagDefineFontInfo(IQString;I[I) | tag define font info
+void tagDefineQuickTimeMovie(IQString;) | tag define quick time movie
+void tagDefineSound(IIIZZI[B) | tag define sound
+void tagDefineTextField(IQString;QString;QRect;IQAlphaColor;IIIIIIII) | tag define text field
+void tagEnableDebug([B) | tag enable debug
+void tagEnd() | tag end
+void tagExport([QString;[I) | tag export
+void tagFrameLabel(QString;) | tag frame label
+void tagFreeCharacter(I) | tag free character
+void tagGenerator([B) | tag generator
+void tagGeneratorCommand([B) | tag generator command
+void tagGeneratorFont([B) | tag generator font
+void tagGeneratorText([B) | tag generator text
+void tagImport(QString;[QString;[I) | tag import
+void tagJPEGTables([B) | tag jpeg tables
+void tagNameCharacter([B) | tag name character
+void tagPlaceObject(IIQMatrix;QAlphaTransform;) | tag place object
+void tagProtect([B) | tag protect
+void tagRemoveObject2(I) | tag remove object 2
+void tagRemoveObject(II) | tag remove object
+void tagSerialNumber(QString;) | tag serial number
+void tagSetBackgroundColor(QColor;) | tag set background color
+void tagShowFrame() | tag show frame
+void tagSoundStreamBlock([B) | tag sound stream block
+void tagSoundStreamHead2(IZZIIZZI) | tag sound stream head 2
+void tagSoundStreamHead(IZZIIZZI) | tag sound stream head
+void tagStartSound(IQSoundInfo;) | tag start sound

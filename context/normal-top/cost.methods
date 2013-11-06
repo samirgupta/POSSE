@@ -1,0 +1,64 @@
+boolean getClassifierCostSensitiveEval() | get classifier cost sensitive eval
+boolean getMechSelectorIncludeCost() | get mech selector include cost
+boolean getMinimizeExpectedCost() | get minimize expected cost
+CostDecider getDefaultCostDecider() | get default cost decider
+CostMatrix getCostMatrix() | get cost matrix
+CostMatrix handleCostOption(QString;I) | handle cost option
+double avgCost() | avg cost
+double codingCost() | coding cost
+double[] expectedCosts([D) | expected costs
+double[] expectedCosts([DQInstance;) | expected costs
+double getActuatorCost() | get actuator cost
+double getArmActuatorCost() | get arm actuator cost
+double getArmorCost(I) | get armor cost
+double getCost() | get cost
+double getCost(QStringBuffer;) | get cost
+double getCostsPerUnit() | get costs per unit
+double getLegActuatorCost() | get leg actuator cost
+double getMaxCost(I) | get max cost
+double getMaxCost(IQInstance;) | get max cost
+double getStructureCost(I) | get structure cost
+double totalCost() | total cost
+Element writeCostMatrixOld(QElement;QObject;QString;) | write cost matrix old
+Instances applyCostMatrix(QInstances;QRandom;) | apply cost matrix
+int calcSquadCost() | calc squad cost
+int calcSuitCost() | calc suit cost
+int costToBuy(QGoodsType;) | cost to buy
+int getBaseCost() | get base cost
+int getBasicMoveCost() | get basic move cost
+int getCost() | get cost
+int getCost(QUnit;QTile;QTile;II) | get cost
+int getCostToBuy() | get cost to buy
+int getHeuristicCost() | get heuristic cost
+int getMoveCost(IQTile;) | get move cost
+int getMoveCost(QTile;) | get move cost
+int getMoveCost(QTile;QTile;I) | get move cost
+int getMovementCost(I) | get movement cost
+int getMovementCost(IQTile;) | get movement cost
+int getMovementCost(QTile;) | get movement cost
+int getRemainingFoundingFatherCost() | get remaining founding father cost
+int getTotalFoundingFatherCost() | get total founding father cost
+int getWeaponsAndEquipmentCost() | get weapons and equipment cost
+int movementCost(I) | movement cost
+int resolveVariableCost(QEntity;) | resolve variable cost
+JMenuItem getMniChangeCost() | get mni change cost
+Object readCostMatrixOld(QElement;) | read cost matrix old
+RelOptCost computeSelfCost(RelOptPlanner planner) | compute self cost
+SelectedTag getCostMatrixSource() | get cost matrix source
+String costMatrixSourceTipText() | cost matrix source tip text
+String costMatrixTipText() | cost matrix tip text
+String costTipText() | cost tip text
+String getFreightCostRule() | get freight cost rule
+String minimizeExpectedCostTipText() | minimize expected cost tip text
+void addCostDetails(DQStringBuffer;[D) | add cost details
+void calcMovementCostFor(QIGame;QCoords;I) | calc movement cost for
+void drawMovementCost(QMoveStep;QPoint;QGraphics;QColor;Z) | draw movement cost
+void setCost(D) | set cost
+void setCost(I) | set cost
+void setCostMatrix(QCostMatrix;) | set cost matrix
+void setCostMatrixSource(QSelectedTag;) | set cost matrix source
+void setCostsPerUnit(D) | set costs per unit
+void setCostToBuy(I) | set cost to buy
+void setMechSelectorIncludeCost(Z) | set mech selector include cost
+void setMinimizeExpectedCost(Z) | set minimize expected cost
+void testCumulativeCostFilter() | test cumulative cost filter

@@ -1,0 +1,29 @@
+int bytesToSigned(BB) | bytes to signed
+int getCurrentNumBytesAllowed() | get current num bytes allowed
+int getDataBytesDecoded() | get data bytes decoded
+int getProtocolBytesDecoded() | get protocol bytes decoded
+long bytesReceived() | bytes received
+long getAverageBytesReceived() | get average bytes received
+long getBytesDownloaded() | get bytes downloaded
+long getBytesReceived() | get bytes received
+long getBytesUsed() | get bytes used
+long getDataBytesReceived() | get data bytes received
+long getInitialBytesDownloaded() | get initial bytes downloaded
+long getInitialBytesDownloaded(J) | get initial bytes downloaded
+long getOverallDataBytesReceived() | get overall data bytes received
+long getProtocolBytesReceived() | get protocol bytes received
+long getTotalBytesDiscarded() | get total bytes discarded
+long getTotalBytesReceived() | get total bytes received
+long getTotalDataBytesReceived() | get total data bytes received
+long getTotalGoodDataBytesReceived() | get total good data bytes received
+long getTotalProtocolBytesReceived() | get total protocol bytes received
+void bytesDiscarded(I) | bytes discarded
+void bytesProcessed(I) | bytes processed
+void bytesReceived(I) | bytes received
+void dataBytesReceived(I) | data bytes received
+void dataBytesReceived(IZ) | data bytes received
+void dataBytesReceived(QPEPeer;I) | data bytes received
+void protocolBytesReceived(I) | protocol bytes received
+void protocolBytesReceived(IZ) | protocol bytes received
+void protocolBytesReceived(QPEPeer;I) | protocol bytes received
+void setBytesUsed(I) | set bytes used

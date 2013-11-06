@@ -1,0 +1,8 @@
+boolean canIPBeBanned(QString;) | can ip be banned
+boolean canIPBeBlocked(QString;[B) | can ip be blocked
+boolean hasIPChanged() | has ip changed
+boolean isIPFilterEnabled() | is ip filter enabled
+int getNbIpsBlocked() | get nb ips blocked
+void IPBanned(QBannedIp;) | ip banned
+void IPBlockedListChanged(QIpFilter;) | ip blocked list changed
+void updateIPBlocked() | update ip blocked

@@ -1,0 +1,17 @@
+BeanComparator getRuleParts() | get rule parts
+int defaultMaxRuleSize() | default max rule size
+int defaultMinRuleSize() | default min rule size
+int getMaxRuleSize() | get max rule size
+int getMinRuleSize() | get min rule size
+int getSizeRuleBaseMax() | get size rule base max
+int getSizeRuleBaseMin() | get size rule base min
+RuleItem generateRuleItem(QItemSet;QItemSet;QInstances;II[DQHashtable;) | generate rule item
+RuleStats getRuleStats(I) | get rule stats
+String combinationRuleTipText() | combination rule tip text
+String getRuleDescription(String permission) | get rule description
+String getRuleName() | get rule name
+String maxRuleSizeTipText() | max rule size tip text
+String minRuleSizeTipText() | min rule size tip text
+void setMaxRuleSize(I) | set max rule size
+void setMinRuleSize(I) | set min rule size
+void setRuleProperty(IQObject;QRule;) | set rule property

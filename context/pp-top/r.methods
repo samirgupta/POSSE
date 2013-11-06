@@ -1,0 +1,649 @@
+boolean activationRequested(QDownloadActivationEvent;) | activation requested
+boolean autoFlushIfRequired(QSet;) | auto flush if required
+boolean canBeRemoved() | can be removed
+boolean cancelRequested() | cancel requested
+boolean checkResolved(Z) | check resolved
+boolean endNotReached(C) | end not reached
+boolean endReached(C) | end reached
+boolean flushIsReallyNeeded(QAutoFlushEvent;QEventSource;) | flush is really needed
+boolean getCryptoRequired(I) | get crypto required
+boolean getInRangeAddressesAreAllowed() | get in range addresses are allowed
+boolean getRemoveUnused() | get remove unused
+boolean getRendered() | get rendered
+boolean hasBeenReceived() | has been received
+boolean hasBeenRequested(QDiskManagerReadRequest;) | has been requested
+boolean hasRateChanged() | has rate changed
+boolean hasRerolled() | has rerolled
+boolean isAdditionalFileTypeRegistered(QString;QString;) | is additional file type registered
+boolean isApplicationRegistered() | is application registered
+boolean isAttributeRequired(String elementName, String attrName) | is attribute required
+boolean isBeingReplicated() | is being replicated
+boolean isCacheInvalidationRequired() | is cache invalidation required
+Boolean isCryptoRequested() | is crypto requested
+boolean isDecentralisedBackupRequested() | is decentralised backup requested
+boolean isDHTBackupRequested(QTOTorrent;) | is dht backup requested
+boolean isDriverAllReadyRegistered(QDriver;) | is driver all ready registered
+boolean isFlushRequired() | is flush required
+boolean isFrameEnterExitRequired(QCallFrame;) | is frame enter exit required
+boolean isGeneralPeerReconnectEnabled() | is general peer reconnect enabled
+boolean isIdentifierRollbackEnabled() | is identifier rollback enabled
+boolean isImportRequired(TypeSummary parentSummary) | is import required
+boolean isLANRateEnabled() | is lan rate enabled
+boolean isLeafReached() | is leaf reached
+boolean isNakedEntityReturned() | is naked entity returned
+boolean isNextLineRequested() | is next line requested
+boolean isOnRemovalEnabled() | is on removal enabled
+boolean isPeriodicRescanEnabled() | is periodic rescan enabled
+boolean isReached() | is reached
+boolean isReadCacheEnabled() | is read cache enabled
+boolean isReadLocked() | is read locked
+boolean isRearMounted() | is rear mounted
+boolean isRearMounted(J) | is rear mounted
+boolean isRefined() | is refined
+boolean isRegistered(QNetworkConnectionBase;) | is registered
+boolean isRegistered(QTaskImpl;) | is registered
+boolean isRelationValued() | is relation valued
+boolean isRelativeSeed() | is relative seed
+boolean isReleased() | is released
+boolean isRemembered() | is remembered
+boolean isRemoteInQueueBlocked() | is remote in queue blocked
+boolean isRemoved() | is removed
+boolean isRepeatEnabled() | is repeat enabled
+boolean isRequested() | is requested
+boolean isRequested(I) | is requested
+boolean isRequestLimitingEnabled() | is request limiting enabled
+boolean isRequired() | is required
+boolean isRequired(QString;) | is required
+boolean isReserved(QString;) | is reserved
+boolean isResolved() | is resolved
+boolean isResultRequired(QResultProducer;[QObject;) | is result required
+boolean isRetryAllowed() | is retry allowed
+boolean isRevoked(QCertificate;) | is revoked
+boolean isRoomFloorColoredOrTextured() | is room floor colored or textured
+boolean isRootReached() | is root reached
+boolean isRootSelected() | is root selected
+boolean isRowDeleteEnabled() | is row delete enabled
+boolean isRowDisposed() | is row disposed
+boolean isRowInsertEnabled() | is row insert enabled
+boolean isRunProhibited() | is run prohibited
+boolean isSaveAllRequired() | is save all required
+boolean isScrollableResultSetsEnabled() | is scrollable result sets enabled
+boolean isSelectBeforeUpdateRequired() | is select before update required
+boolean isSignatureSetupRequired(QNtlmPasswordAuthentication;) | is signature setup required
+boolean isSilentRestartEnabled() | is silent restart enabled
+boolean isSourceModified(Resource res) | is source modified
+boolean isSubstitutionRequired() | is substitution required
+boolean isTransactionManagerRequired() | is transaction manager required
+boolean isUDPPeerReconnectEnabled() | is udp peer reconnect enabled
+boolean isVersionIncrementRequired([IZ[Z) | is version increment required
+boolean isVersionIncrementRequired(QFlushEntityEvent;QEntityEntry;QEntityPersister;[I) | is version increment required
+boolean isWrapResultSetsEnabled() | is wrap result sets enabled
+boolean messageReceived(Qcom.aelitis.azureus.core.peermanager.messaging.Message;) | message received
+boolean messageReceived(QMessage;) | message received
+boolean mouseReleased(IIQGraphics2D;) | mouse released
+boolean moveDownloadFilesWhenEndedOrRemoved(ZZ) | move download files when ended or removed
+boolean packetReceived(QDatagramPacket;) | packet received
+boolean proxyCaptureModeRequired() | proxy capture mode required
+boolean ratingSucceeded(QMap;) | rating succeeded
+boolean removeAllowed(QClass;QString;) | remove allowed
+boolean removeIgnored(QClass;QString;) | remove ignored
+boolean removeIgnored(QString;) | remove ignored
+boolean restartRequested(QAzureusCore;) | restart requested
+boolean routed(QPEPeerTransport;) | routed
+boolean rowDeleted() | row deleted
+boolean rowInserted() | row inserted
+boolean rowIsSelected(QListRow;) | row is selected
+boolean rowUpdated() | row updated
+boolean setRequested(QPEPeer;I) | set requested
+boolean stopRequested(QAzureusCore;) | stop requested
+boolean syncInvokeRequired() | sync invoke required
+boolean tabsRemoved() | tabs removed
+byte[] getReserved() | get reserved
+CONS AbstractRed() | abstract red
+CONS AbstractRed(QCachableRed;QMap;) | abstract red
+CONS AbstractRed(QCachableRed;QRectangle;QColorModel;QSampleModel;IIQMap;) | abstract red
+CONS AbstractRed(QCachableRed;QRectangle;QColorModel;QSampleModel;QMap;) | abstract red
+CONS AbstractRed(QCachableRed;QRectangle;QMap;) | abstract red
+CONS AbstractRed(QList;QRectangle;QColorModel;QSampleModel;IIQMap;) | abstract red
+CONS AbstractRed(QList;QRectangle;QColorModel;QSampleModel;QMap;) | abstract red
+CONS AbstractRed(QList;QRectangle;QMap;) | abstract red
+CONS AbstractRed(QRectangle;QMap;) | abstract red
+CONS AbstractTiledRed() | abstract tiled red
+CONS AbstractTiledRed(QCachableRed;QMap;) | abstract tiled red
+CONS AbstractTiledRed(QCachableRed;QRectangle;QColorModel;QSampleModel;IIQMap;) | abstract tiled red
+CONS AbstractTiledRed(QCachableRed;QRectangle;QColorModel;QSampleModel;QMap;) | abstract tiled red
+CONS AbstractTiledRed(QCachableRed;QRectangle;QMap;) | abstract tiled red
+CONS AbstractTiledRed(QList;QRectangle;QColorModel;QSampleModel;IIQMap;) | abstract tiled red
+CONS AbstractTiledRed(QList;QRectangle;QColorModel;QSampleModel;QMap;) | abstract tiled red
+CONS AbstractTiledRed(QList;QRectangle;QMap;) | abstract tiled red
+CONS AbstractTiledRed(QRectangle;QMap;) | abstract tiled red
+CONS AffineRed(QCachableRed;QAffineTransform;QRenderingHints;) | affine red
+CONS Any2LsRGBRed(QCachableRed;) | any 2 ls rgb red
+CONS Any2sRGBRed(QCachableRed;) | any 2 s rgb red
+CONS BufferedImageCachableRed(QBufferedImage;) | buffered image cachable red
+CONS BufferedImageCachableRed(QBufferedImage;II) | buffered image cachable red
+CONS ExternalSeedReaderFactoryWebSeed() | external seed reader factory web seed
+CONS ExternalSeedReaderWebSeed(QExternalSeedPlugin;QTorrent;QURL;QMap;) | external seed reader web seed
+CONS FormatRed(QCachableRed;QColorModel;) | format red
+CONS FormatRed(QCachableRed;QSampleModel;) | format red
+CONS MultiplyAlphaRed(QCachableRed;QCachableRed;) | multiply alpha red
+CONS PadRed(QCachableRed;QRectangle;QPadMode;QRenderingHints;) | pad red
+CONS RenderedImageCachableRed(QRenderedImage;) | rendered image cachable red
+CONS RowInputTextQuoted(QString;QString;QString;Z) | row input text quoted
+CONS RowOutputTextQuoted(QString;QString;QString;ZQString;) | row output text quoted
+CONS ScriptReaderZipped(QDatabase;QString;) | script reader zipped
+CONS TranslateRed(QCachableRed;II) | translate red
+Date getDateRecorded() | get date recorded
+DHTTransportContact importRootSeed() | import root seed
+double getMultRed() | get mult red
+Instances removeIgnored(QInstances;) | remove ignored
+int calcRarestAllowed() | calc rarest allowed
+int getAddRed() | get add red
+int getASRandomSeed() | get as random seed
+int getChunksReceived() | get chunks received
+int getClassifierRandomSeed() | get classifier random seed
+int getCrossesRequired() | get crosses required
+int getDefaultRed() | get default red
+int getHammersRequired(QBuildableType;) | get hammers required
+int getPopulationRequired() | get population required
+int getRandomSeed() | get random seed
+int getReceived() | get received
+int getRed() | get red
+int getRestartRequired() | get restart required
+int getRollsNeeded() | get rolls needed
+int getToolsRequired(QBuildableType;) | get tools required
+int red(I) | red
+Iterator tuplesReversed() | tuples reversed
+List<QAbstractGoods;> getGoodsRequired() | get goods required
+List<QString;> readCollapsed() | read collapsed
+ListRow getRowFocused() | get row focused
+ListRow[] getRowsUnsorted() | get rows unsorted
+LoadType setNakedEntityReturned(Z) | set naked entity returned
+long bytesReceived() | bytes received
+long getAverageBytesReceived() | get average bytes received
+long getAveragePacketsReceived() | get average packets received
+long getBytesReceived() | get bytes received
+long getDataBytesReceived() | get data bytes received
+long getOverallDataBytesReceived() | get overall data bytes received
+long getPacketsReceived() | get packets received
+long getProtocolBytesReceived() | get protocol bytes received
+long getRandomSeed() | get random seed
+long getTimeSinceGoodDataReceived() | get time since good data received
+long getTimeSinceLastDataMessageReceived() | get time since last data message received
+long getTotalBytesReceived() | get total bytes received
+long getTotalDataBytesReceived() | get total data bytes received
+long getTotalFindNodesReceived() | get total find nodes received
+long getTotalFindValuesReceived() | get total find values received
+long getTotalGoodDataBytesReceived() | get total good data bytes received
+long getTotalKeyBlocksReceived() | get total key blocks received
+long getTotalPacketsReceived() | get total packets received
+long getTotalPingsReceived() | get total pings received
+long getTotalProtocolBytesReceived() | get total protocol bytes received
+long getTotalReceived() | get total received
+long getTotalStoresReceived() | get total stores received
+Map messageReceived(QBuddyPluginBuddy;QMap;) | message received
+Map<QString;QBoolean;> getAbilitiesRequired() | get abilities required
+Map<QString;QBoolean;> getLocationAbilitiesRequired() | get location abilities required
+Map<QString;QBoolean;> getUnitAbilitiesRequired() | get unit abilities required
+Map requestReceived(QAZInstance;QMap;) | request received
+Map requestReceived(QBuddyPluginBuddy;IQMap;) | request received
+ReducedModelControl getReduced() | get reduced
+ResultSet wrapResultSetIfEnabled(QResultSet;QSessionImplementor;) | wrap result set if enabled
+RSSFeed getRSSFeed(QInputStream;) | get rss feed
+RSSFeed getRSSFeed(QResourceDownloader;) | get rss feed
+RSSFeed getRSSFeed(QURL;) | get rss feed
+String getJdbcScrollableResultSetEnabled() | get jdbc scrollable result set enabled
+String getLastMessageReceived() | get last message received
+String getReflectionOptimizationEnabled() | get reflection optimization enabled
+String getRSSFeed() | get rss feed
+void activeDocumentRefreshed(QOpenDefinitionsDocument;) | active document refreshed
+void addRssFeed(QNameValue;) | add rss feed
+void adsReceived(QList;QMap;) | ads received
+void alertRaised(QLogAlert;) | alert raised
+void ancestorRemoved(QAncestorEvent;) | ancestor removed
+void ancestorRemoved(Qjavax.swing.event.AncestorEvent;) | ancestor removed
+void ancestorResized(Qjava.awt.event.HierarchyEvent;) | ancestor resized
+void automaticlyReadFieldsCheckBoxActionPerformed(Qjava.awt.event.ActionEvent;) | automaticly read fields check box action performed
+void badPieceReported(QPEPeerTransport;I) | bad piece reported
+void breakpointReached(QBreakpoint;) | breakpoint reached
+void buddyMessageFragmentReceived(II) | buddy message fragment received
+void buddyMessageReceived(I) | buddy message received
+void buddyRemoved(QBuddyPluginBuddy;) | buddy removed
+void buddyRemoved(QVuzeBuddy;) | buddy removed
+void buzzReceived(Qymsg.network.event.SessionEvent;) | buzz received
+void bytesReceived(I) | bytes received
+void canDownloadManagerBeRemoved(QDownloadManager;ZZ) | can download manager be removed
+void canResourceBeDeleted(QShareResource;) | can resource be deleted
+void categoryRemoved(QCategory;) | category removed
+void chatLogoffReceived(Qymsg.network.event.SessionChatEvent;) | chat logoff received
+void chatLogonReceived(Qymsg.network.event.SessionChatEvent;) | chat logon received
+void chatMessageReceived(Qymsg.network.event.SessionChatEvent;) | chat message received
+void chatUserUpdateReceived(Qymsg.network.event.SessionChatEvent;) | chat user update received
+void checkCascadeDropReferenced(QTable;Z) | check cascade drop referenced
+void checkForReSeed(Z) | check for re seed
+void checkRestartNeeded() | check restart needed
+void checkRestartSupported() | check restart supported
+void checkSelectionStateRecorded() | check selection state recorded
+void checkSpeedAndReserved() | check speed and reserved
+void clearRequested(I) | clear requested
+void closeIfRequired() | close if required
+void columnRemoved(QTableColumnModelEvent;) | column removed
+void componentRemoved(QContainerEvent;) | component removed
+void componentResized(QComponentEvent;) | component resized
+void componentResized(Qjava.awt.event.ComponentEvent;) | component resized
+void conferenceInviteDeclinedReceived(Qymsg.network.event.SessionConferenceEvent;) | conference invite declined received
+void conferenceInviteReceived(Qymsg.network.event.SessionConferenceEvent;) | conference invite received
+void conferenceLogoffReceived(Qymsg.network.event.SessionConferenceEvent;) | conference logoff received
+void conferenceLogonReceived(Qymsg.network.event.SessionConferenceEvent;) | conference logon received
+void conferenceMessageReceived(Qymsg.network.event.SessionConferenceEvent;) | conference message received
+void connectionRouted(QNetworkConnection;QObject;) | connection routed
+void contactReceived(Qorg.hn.sleek.jmml.Contact;) | contact received
+void contactRejectionReceived(Qymsg.network.event.SessionEvent;) | contact rejection received
+void contactRemoved([B) | contact removed
+void contactRemovedFailed(I) | contact removed failed
+void contactRemoved(QDHTTransportContact;) | contact removed
+void contactRemoved(Qorg.hn.sleek.jmml.Contact;) | contact removed
+void contactRequestReceived(Qymsg.network.event.SessionEvent;) | contact request received
+void contactsReceived(BQString;QString;[QString;[QString;) | contacts received
+void contentReceived(QEngine;QString;) | content received
+void contextReleased(QContext;) | context released
+void controlResized(QControlEvent;) | control resized
+void _currThreadResumed() | curr thread resumed
+void currThreadResumed() | curr thread resumed
+void dataBytesReceived(I) | data bytes received
+void dataBytesReceived(IZ) | data bytes received
+void dataBytesReceived(QPEPeer;I) | data bytes received
+void dataReceived() | data received
+void dependencyRemoved(QTaskDependencyEvent;) | dependency removed
+void determineReasonAdNotEnabled([QDownloadManager;) | determine reason ad not enabled
+void diskManagerRemoved(QDiskManager;) | disk manager removed
+void diskRequestCompleted(J) | disk request completed
+void divRemoved(Qdiversification;) | div removed
+void downloadManagerRemoved(QCategory;QDownloadManager;) | download manager removed
+void downloadManagerRemoved(QDownloadManager;) | download manager removed
+void downloadRemoved() | download removed
+void downloadRemoved(QDownload;) | download removed
+void downloadRemoved(QFile;QFile;) | download removed
+void downloadWillBeRemoved(QDownload;) | download will be removed
+void downloadWillBeRemoved(QDownloadManager;ZZ) | download will be removed
+void dragGestureRecognized(QDragGestureEvent;) | drag gesture recognized
+void durationRadioButtonActionPerformed(Qjava.awt.event.ActionEvent;) | duration radio button action performed
+void dynamicRadioButtonActionPerformed(Qjava.awt.event.ActionEvent;) | dynamic radio button action performed
+void engineRemoved(QEngine;) | engine removed
+void errorPacketReceived(Qymsg.network.event.SessionErrorEvent;) | error packet received
+void errorReceived(I) | error received
+void figureRemoved(QDrawingEvent;) | figure removed
+void figureRemoved(QFigureEvent;) | figure removed
+void fileRemoved() | file removed
+void fileReverted(QOpenDefinitionsDocument;) | file reverted
+void fileTransferReceived(Qymsg.network.event.SessionFileTransferEvent;) | file transfer received
+void findNodeReceived() | find node received
+void findValueReceived() | find value received
+void fireDependencyRemoved(QTaskDependency;) | fire dependency removed
+void fireFigureRemoved() | fire figure removed
+void fireFigureRemoved(QFigure;) | fire figure removed
+void fireItemKeyReleased(QVisualItem;QKeyEvent;) | fire item key released
+void fireItemReleased(QVisualItem;QMouseEvent;) | fire item released
+void fireKeyReleased(QKeyEvent;) | fire key released
+void fireMouseReleased(QMouseEvent;) | fire mouse released
+void fireOnRegisterUserFailed() | fire on register user failed
+void fireRemoved(QBuddyPluginBuddy;) | fire removed
+void fireReportListenerReportBandChanged(Qit.businesslogic.ireport.gui.event.ReportBandChangedEvent;) | fire report listener report band changed
+void fireReportListenerReportElementsChanged(Qit.businesslogic.ireport.gui.event.ReportElementChangedEvent;) | fire report listener report elements changed
+void fireReportListenerReportElementsSelectionChanged(Qit.businesslogic.ireport.gui.event.ReportElementsSelectionEvent;) | fire report listener report elements selection changed
+void fireReportSubDatasetChangedListenerReportSubDatasetChanged(Qit.businesslogic.ireport.gui.event.ReportSubDatasetChangedEvent;) | fire report sub dataset changed listener report sub dataset changed
+void fireResourceAdded(QProjectResource;) | fire resource added
+void fireResourceChanged() | fire resource changed
+void fireResourceChanged(QProjectResource;) | fire resource changed
+void fireResourcesRemoved([QProjectResource;) | fire resources removed
+void fireRolesChanged(QRoleSet;) | fire roles changed
+void fireTaskRemoved(QTask;QTask;) | fire task removed
+void fireTreeNodesRemoved(QObject;[QObject;[I[QObject;) | fire tree nodes removed
+void fireTreeNodesRemoved(QTreeModelEvent;) | fire tree nodes removed
+void fireUndoOrRedoHappened() | fire undo or redo happened
+void formAncestorResized(Qjava.awt.event.HierarchyEvent;) | form ancestor resized
+void formComponentResized(Qjava.awt.event.ComponentEvent;) | form component resized
+void friendAddedReceived(Qymsg.network.event.SessionFriendEvent;) | friend added received
+void friendRemovedReceived(Qymsg.network.event.SessionFriendEvent;) | friend removed received
+void friendsUpdateReceived(Qymsg.network.event.SessionFriendEvent;) | friends update received
+void groupReceived(IQString;) | group received
+void groupRemoved(IQString;) | group removed
+void groupRenamed(IQString;) | group renamed
+void height1_keyReleased() | height 1  key released
+void height1_keyReleased(QKeyEvent;) | height 1  key released
+void height2_keyReleased() | height 2  key released
+void height2_keyReleased(QKeyEvent;) | height 2  key released
+void incomingRequestReceived(QDHTUDPPacketRequest;Z) | incoming request received
+void informRemoved(QAZOtherInstanceImpl;) | inform removed
+void insertReverseSorted(ID) | insert reverse sorted
+void _interpreterResetFailed(QThrowable;) | interpreter reset failed
+void interpreterResetFailed(QThrowable;) | interpreter reset failed
+void intervalRemoved(Qjavax.swing.event.ListDataEvent;) | interval removed
+void itemKeyReleased(QVisualItem;QKeyEvent;) | item key released
+void itemReleased(QVisualItem;QMouseEvent;) | item released
+void jButtonAddReturnValueActionPerformed(Qjava.awt.event.ActionEvent;) | j button add return value action performed
+void jButtonAlignRightActionPerformed(Qjava.awt.event.ActionEvent;) | j button align right action performed
+void jButtonBoxColorRightActionPerformed(Qjava.awt.event.ActionEvent;) | j button box color right action performed
+void jButtonFormatAlignRightActionPerformed(Qjava.awt.event.ActionEvent;) | j button format align right action performed
+void jButtonFormatAlignToRightMarginActionPerformed(Qjava.awt.event.ActionEvent;) | j button format align to right margin action performed
+void jButtonFormatCenterHRightActionPerformed(Qjava.awt.event.ActionEvent;) | j button format center h right action performed
+void jButtonFormatCenterVRightActionPerformed(Qjava.awt.event.ActionEvent;) | j button format center v right action performed
+void jButtonFormatJoinRightActionPerformed(Qjava.awt.event.ActionEvent;) | j button format join right action performed
+void jButtonFormatRemoveSpaceHActionPerformed(Qjava.awt.event.ActionEvent;) | j button format remove space h action performed
+void jButtonModReturnValueActionPerformed(Qjava.awt.event.ActionEvent;) | j button mod return value action performed
+void jButtonReadBeanAttributes3ActionPerformed(Qjava.awt.event.ActionEvent;) | j button read bean attributes 3 action performed
+void jButtonReadBeanAttributesActionPerformed(Qjava.awt.event.ActionEvent;) | j button read bean attributes action performed
+void jButtonRemoveActionPerformed(Qjava.awt.event.ActionEvent;) | j button remove action performed
+void jButtonRemParameterActionPerformed(Qjava.awt.event.ActionEvent;) | j button rem parameter action performed
+void jButtonRemReturnValueActionPerformed(Qjava.awt.event.ActionEvent;) | j button rem return value action performed
+void jButtonRevertToSavedActionPerformed(Qjava.awt.event.ActionEvent;) | j button revert to saved action performed
+void jButtonRun1ActionPerformed(Qjava.awt.event.ActionEvent;) | j button run 1 action performed
+void jButtonRun2ActionPerformed(Qjava.awt.event.ActionEvent;) | j button run 2 action performed
+void jCheckBoxMenuItemReportVirtualizerActionPerformed(Qjava.awt.event.ActionEvent;) | j check box menu item report virtualizer action performed
+void jCheckBoxPrintRepeatedValuesActionPerformed(Qjava.awt.event.ActionEvent;) | j check box print repeated values action performed
+void jCheckBoxRemoveLineWhenBlankActionPerformed(Qjava.awt.event.ActionEvent;) | j check box remove line when blank action performed
+void jComboBoxReportFontActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box report font action performed
+void jComboBoxReportFontsActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box report fonts action performed
+void jComboBoxResetGroupActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box reset group action performed
+void jComboBoxResetTypeActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box reset type action performed
+void jComboBoxRightActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box right action performed
+void jComboBoxRightMarginUnitActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box right margin unit action performed
+void jComboBoxRotationActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box rotation action performed
+void jEditTextArea1ComponentResized(Qjava.awt.event.ComponentEvent;) | j edit text area 1 component resized
+void jList1dragGestureRecognized(QDragGestureEvent;) | j list 1 drag gesture recognized
+void jMenuItemAlignRightActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item align right action performed
+void jMenuItemHSRemoveActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item hs remove action performed
+void jMenuItemJoinRightActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item join right action performed
+void jMenuItemMaxRecordsActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item max records action performed
+void jMenuItemRecentFileActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item recent file action performed
+void jMenuItemRectangleActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item rectangle action performed
+void jMenuItemRedoActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item redo action performed
+void jMenuItemRefreshActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item refresh action performed
+void jMenuItemRemoveMarginsActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item remove margins action performed
+void jMenuItemReportImportsActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item report imports action performed
+void jMenuItemReportLocaleActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item report locale action performed
+void jMenuItemReportPropertiesActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item report properties action performed
+void jMenuItemReportQuery2ActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item report query 2 action performed
+void jMenuItemReportQueryActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item report query action performed
+void jMenuItemReportSeriesActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item report series action performed
+void jMenuItemRevertToSavedActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item revert to saved action performed
+void jMenuItemRevertToSavedFromListActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item revert to saved from list action performed
+void jMenuItemRightMarginActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item right margin action performed
+void jMenuItemRightSideActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item right side action performed
+void jMenuItemRoundRectangleActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item round rectangle action performed
+void jMenuItemVSRemoveActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item vs remove action performed
+void jNumberFieldRadiusActionPerformed(Qjava.awt.event.ActionEvent;) | j number field radius action performed
+void jNumberFieldRightMarginActionPerformed(Qjava.awt.event.ActionEvent;) | j number field right margin action performed
+void jPanel1AncestorResized(Qjava.awt.event.HierarchyEvent;) | j panel 1 ancestor resized
+void jPanel1ComponentResized(Qjava.awt.event.ComponentEvent;) | j panel 1 component resized
+void jPanelReportAncestorAdded(Qjavax.swing.event.AncestorEvent;) | j panel report ancestor added
+void jPanelReportComponentResized(Qjava.awt.event.ComponentEvent;) | j panel report component resized
+void jPanelReportKeyPressed(Qjava.awt.event.KeyEvent;) | j panel report key pressed
+void jPanelReportMouseDragged(Qjava.awt.event.MouseEvent;) | j panel report mouse dragged
+void jPanelReportMouseMoved(Qjava.awt.event.MouseEvent;) | j panel report mouse moved
+void jPanelReportMousePressed(Qjava.awt.event.MouseEvent;) | j panel report mouse pressed
+void jPanelReportMouseReleased(Qjava.awt.event.MouseEvent;) | j panel report mouse released
+void jPanelToolBarComponentResized(Qjava.awt.event.ComponentEvent;) | j panel tool bar component resized
+void jRadioButton1_NoBackupActionPerformed(Qjava.awt.event.ActionEvent;) | j radio button 1  no backup action performed
+void jRadioButton2_ReplaceExtensionActionPerformed(Qjava.awt.event.ActionEvent;) | j radio button 2  replace extension action performed
+void jRadioButton3_AppendExtensionActionPerformed(Qjava.awt.event.ActionEvent;) | j radio button 3  append extension action performed
+void jRadioButtonJBSetArrayActionPerformed(Qjava.awt.event.ActionEvent;) | j radio button jb set array action performed
+void jRadioButtonMenuItemPreviewCSVActionPerformed(Qjava.awt.event.ActionEvent;) | j radio button menu item preview csv action performed
+void jRadioButtonMenuItemPreviewHTMLActionPerformed(Qjava.awt.event.ActionEvent;) | j radio button menu item preview html action performed
+void jRadioButtonMenuItemPreviewInternalViewerActionPerformed(Qjava.awt.event.ActionEvent;) | j radio button menu item preview internal viewer action performed
+void jRadioButtonMenuItemPreviewJAVAActionPerformed(Qjava.awt.event.ActionEvent;) | j radio button menu item preview java action performed
+void jRadioButtonMenuItemPreviewPDFActionPerformed(Qjava.awt.event.ActionEvent;) | j radio button menu item preview pdf action performed
+void jRadioButtonMenuItemPreviewRTFActionPerformed(Qjava.awt.event.ActionEvent;) | j radio button menu item preview rtf action performed
+void jRadioButtonMenuItemPreviewTXTActionPerformed(Qjava.awt.event.ActionEvent;) | j radio button menu item preview txt action performed
+void jRadioButtonMenuItemPreviewTXTJRActionPerformed(Qjava.awt.event.ActionEvent;) | j radio button menu item preview txt jr action performed
+void jRadioButtonMenuItemPreviewXLSActionPerformed(Qjava.awt.event.ActionEvent;) | j radio button menu item preview xls action performed
+void jRSQLExpressionArea1TextConnectionExpressionTextChanged() | j rsql expression area 1 text connection expression text changed
+void jRTextExpressionAreaAnchorNameTextChanged() | j r text expression area anchor name text changed
+void jRTextExpressionAreaAnchorTextChanged() | j r text expression area anchor text changed
+void jRTextExpressionAreaImageExpressionTextChanged() | j r text expression area image expression text changed
+void jRTextExpressionAreaMapExpressionTextChanged() | j r text expression area map expression text changed
+void jRTextExpressionAreaPageTextChanged() | j r text expression area page text changed
+void jRTextExpressionAreaPrintWhenExpressionInputMethodTextChanged(Qjava.awt.event.InputMethodEvent;) | j r text expression area print when expression input method text changed
+void jRTextExpressionAreaPrintWhenExpressionTextChanged() | j r text expression area print when expression text changed
+void jRTextExpressionAreaReferenceTextChanged() | j r text expression area reference text changed
+void jRTextExpressionAreaSubreportExpressionTextChanged() | j r text expression area subreport expression text changed
+void jRTextExpressionAreaSubreportMapExpressionTextChanged() | j r text expression area subreport map expression text changed
+void jRTextExpressionAreaTextChanged() | j r text expression area text changed
+void jRTextExpressionAreaTextConnectionExpressionTextChanged() | j r text expression area text connection expression text changed
+void jRTextExpressionAreaTextFieldExpressionTextChanged() | j r text expression area text field expression text changed
+void jRTextExpressionCloseTextChanged() | j r text expression close text changed
+void jRTextExpressionDateTextChanged() | j r text expression date text changed
+void jRTextExpressionHighTextChanged() | j r text expression high text changed
+void jRTextExpressionKeyTextChanged() | j r text expression key text changed
+void jRTextExpressionLabelTextChanged() | j r text expression label text changed
+void jRTextExpressionLowTextChanged() | j r text expression low text changed
+void jRTextExpressionOpenTextChanged() | j r text expression open text changed
+void jRTextExpressionSeriesTextChanged() | j r text expression series text changed
+void jRTextExpressionValueTextChanged() | j r text expression value text changed
+void jRTextExpressionVolumeTextChanged() | j r text expression volume text changed
+void jSpinnerRightStateChanged(QChangeEvent;) | j spinner right state changed
+void jTableFieldsKeyReleased(Qjava.awt.event.KeyEvent;) | j table fields key released
+void jTableSubreportReturnValuesListSelectionValueChanged(Qjavax.swing.event.ListSelectionEvent;) | j table subreport return values list selection value changed
+void jTableSubreportReturnValuesMouseClicked(Qjava.awt.event.MouseEvent;) | j table subreport return values mouse clicked
+void jToggleButtonRectRoundToolActionPerformed(Qjava.awt.event.ActionEvent;) | j toggle button rect round tool action performed
+void jToggleButtonRectRoundToolItemStateChanged(Qjava.awt.event.ItemEvent;) | j toggle button rect round tool item state changed
+void jToggleButtonRectToolActionPerformed(Qjava.awt.event.ActionEvent;) | j toggle button rect tool action performed
+void jToggleButtonRectToolItemStateChanged(Qjava.awt.event.ItemEvent;) | j toggle button rect tool item state changed
+void jVerticalScrollBarMouseReleased(Qjava.awt.event.MouseEvent;) | j vertical scroll bar mouse released
+void keyBlockReceived() | key block received
+void keyReleased(Qjava.awt.event.KeyEvent;) | key released
+void keyReleased(QKeyEvent;) | key released
+void listReceived(Qymsg.network.event.SessionEvent;) | list received
+void logoffReceived(Qymsg.network.event.SessionEvent;) | logoff received
+void logRemoved(QClass;) | log removed
+void menuKeyReleased(QMenuKeyEvent;) | menu key released
+void messageReceived(BQString;QString;QString;) | message received
+void messageReceived(QBuddyPluginAZ2.chatParticipant;QMap;) | message received
+void messageReceived(QClientMessage;) | message received
+void messageReceived(QJabberMessageEvent;) | message received
+void messageReceived(QVuzeBuddy;QString;JQMap;) | message received
+void messageReceived(Qymsg.network.event.SessionEvent;) | message received
+void messageRecieved(QVuzeBuddy;QString;QString;JQMap;) | message recieved
+void messageRemoved(Qcom.aelitis.azureus.core.peermanager.messaging.Message;) | message removed
+void messageRemoved(QMessage;) | message removed
+void mouseReleased(Qjava.awt.event.MouseEvent;) | mouse released
+void mouseReleased(QMouseEvent;) | mouse released
+void mouseReleased(QMouseEvent;QItemT;) | mouse released
+void newMailReceived(Qymsg.network.event.SessionNewMailEvent;) | new mail received
+void nodesWereRemoved(QTreeNode;[I[QObject;) | nodes were removed
+void notifyFileRemoved() | notify file removed
+void _notifyInterpreterResetFailed(QThrowable;) | notify interpreter reset failed
+void notifyReceived(Qymsg.network.event.SessionNotifyEvent;) | notify received
+void _notifyRegionRemoved(QR;) | notify region removed
+void notifyRemoved(QDHTRouterContact;) | notify removed
+void notifyStepRequested() | notify step requested
+void numRepetitionsChanged() | num repetitions changed
+void objectRemoved(QNamingEvent;) | object removed
+void objectRenamed(QNamingEvent;) | object renamed
+void offlineMessageReceived(Qymsg.network.event.SessionEvent;) | offline message received
+void onContextReleased(QContext;) | on context released
+void onRegisterUserFailed() | on register user failed
+void packetReceived(I) | packet received
+void packetReceived(J) | packet received
+void packetReceived(QDHTUDPPacketReply;QInetSocketAddress;J) | packet received
+void packetReceived(QPacketReceivedEvent;) | packet received
+void packetReceived(QPRUDPPacketHandlerRequest;QPRUDPPacket;QInetSocketAddress;) | packet received
+void participantRemoved(QBuddyPluginAZ2.chatParticipant;) | participant removed
+void passwordRetrieved() | password retrieved
+void peerManagerRemoved(QDownload;QPeerManager;) | peer manager removed
+void peerManagerRemoved(QPEPeerManager;) | peer manager removed
+void peerRemoved(QDownload;QPeer;) | peer removed
+void peerRemoved(QPeerManager;QPeer;) | peer removed
+void peerRemoved(QPEPeer;) | peer removed
+void peerRemoved(QPEPeerManager;QPEPeer;) | peer removed
+void pieceRemoved(QPEPiece;) | piece removed
+void pingReceived() | ping received
+void pingReceived(IZ) | ping received
+void pluginRemoved(QPlugin;) | plugin removed
+void primordialPacketReceived(I) | primordial packet received
+void projectRunnableChanged() | project runnable changed
+void protocolBytesReceived(I) | protocol bytes received
+void protocolBytesReceived(IZ) | protocol bytes received
+void protocolBytesReceived(QPEPeer;I) | protocol bytes received
+void providerRemoved(QPiecePriorityProvider;) | provider removed
+void providerRemoved(QPieceRTAProvider;) | provider removed
+void ratingUpdated(QGetRatingReply;) | rating updated
+void ratingUpdated(QRatingInfoList;) | rating updated
+void reachabilityChanged(Z) | reachability changed
+void readCompleted(QDiskManagerReadRequest;QDirectByteBuffer;) | read completed
+void readFailed(QDiskManagerReadRequest;QThrowable;) | read failed
+void readFailed(QThrowable;) | read failed
+void readFieldsButtonActionPerformed(Qjava.awt.event.ActionEvent;) | read fields button action performed
+void received(I) | received
+void received(QNetworkInterface;QInetAddress;QInetSocketAddress;[BI) | received
+void receiveUnloadStranded(QPacket;I) | receive unload stranded
+void recountUnopened() | recount unopened
+void refreshBoardsSelected() | refresh boards selected
+void regionAdded(QBreakpoint;) | region added
+void regionAdded(QMovingDocumentRegion;) | region added
+void regionAdded(QR;) | region added
+void regionChanged(QBreakpoint;) | region changed
+void regionChanged(QMovingDocumentRegion;) | region changed
+void regionChanged(QR;) | region changed
+void regionRemoved(QBreakpoint;) | region removed
+void regionRemoved(QMovingDocumentRegion;) | region removed
+void regionRemoved(QR;) | region removed
+void registered(QOpenDefinitionsDocument;QDCacheAdapter;) | registered
+void registerOperationTxnRequired(QString;) | register operation txn required
+void removed() | removed
+void removeDownloadDelayed(QDownload;) | remove download delayed
+void removed(QDHTRouterContact;) | removed
+void removePluginButtonActionPerformed(Qjava.awt.event.ActionEvent;) | remove plugin button action performed
+void removeProfileButtonActionPerformed(Qjava.awt.event.ActionEvent;) | remove profile button action performed
+void removeSelected() | remove selected
+void removeWebSeed(QString;) | remove web seed
+void rendered(QChatMessage;) | rendered
+void rendezvousFailed(QDHTTransportContact;Z) | rendezvous failed
+void replyReceived(QBuddyPluginBuddy;QMap;) | reply received
+void replyReceived([QMap;) | reply received
+void replyReceived(QPlatformMessage;QString;QMap;) | reply received
+void replyReceived(QString;QMap;) | reply received
+void replyReceived(QString;QRatingInfoList;) | reply received
+void reportBandChanged(QReportBandChangedEvent;) | report band changed
+void reportConnected() | report connected
+void reportCreated(QDiskManagerChannel;) | report created
+void reportElementsChanged(QReportElementChangedEvent;) | report elements changed
+void reportElementsSelectionChanged(QReportElementsSelectionEvent;) | report elements selection changed
+void reportFailed(QBuddyPluginBuddyMessage;QThrowable;Z) | report failed
+void reportFailed(QThrowable;) | report failed
+void reportSubDatasetChanged(Qit.businesslogic.ireport.gui.event.ReportSubDatasetChangedEvent;) | report sub dataset changed
+void reportSubDatasetChanged(QReportSubDatasetChangedEvent;) | report sub dataset changed
+void requestCanceled(QDiskManagerReadRequest;) | request canceled
+void requestCancelled(QDiskAccessRequest;) | request cancelled
+void requestCancelled(QPeerReadRequest;) | request cancelled
+void requestCancelled(QPeerReadRequest;QPeer;) | request cancelled
+void requestExecuted(J) | request executed
+void requestFailed(QDiskAccessRequest;QThrowable;) | request failed
+void requestFailed(QPeerReadRequest;) | request failed
+void requestQueued() | request queued
+void resetConsumed() | reset consumed
+void resetWasUsed() | reset was used
+void resourceAdded(QResourceEvent;) | resource added
+void resourceAdded(QShareResource;) | resource added
+void resourceAssignmentsChanged([QProjectResource;) | resource assignments changed
+void resourceAssignmentsChanged(QResourceEvent;) | resource assignments changed
+void resourceChanged(QProjectResource;) | resource changed
+void resourceChanged(QResourceEvent;) | resource changed
+void resourceDeleted(QShareResource;) | resource deleted
+void resourceModified(QShareResource;) | resource modified
+void resourcesRemoved(QResourceEvent;) | resources removed
+void resourceWillBeDeleted(QShareResource;) | resource will be deleted
+void _restoreJUnitActionsEnabled() | restore j unit actions enabled
+void resultChanged(QResultChangedEvent;) | result changed
+void resultReceived(QSearchInstance;QSearchResult;) | result received
+void resultsReceived(QEngine;[QResult;) | results received
+void retransmitExpired() | retransmit expired
+void returnPressed() | return pressed
+void reverseListChanged(QString;) | reverse list changed
+void revert_actionPerformed(QActionEvent;) | revert action performed
+void rolesChanged(QRoleEvent;) | roles changed
+void rootDiscovered(QNetworkInterface;QInetAddress;QString;QURL;) | root discovered
+void routerCreated(QDHTRouter;) | router created
+void rowAdded(QTableRowCore;) | row added
+void rowChanged(IZ) | row changed
+void rowHeightChanged(QListRow;II) | row height changed
+void rowRemoved(QTableRowCore;) | row removed
+void rowSelected() | row selected
+void rowSetFocused(QListRow;) | row set focused
+void rowSetSelected(QListRow;Z) | row set selected
+void runAgainActionPerformed(QActionEvent;) | run again action performed
+void runAggregated(QDiskAccessRequestImpl;[QDiskAccessRequestImpl;) | run aggregated
+void runFailed(QString;) | run failed
+void saveRequired() | save required
+void scanResultsResolved(Z) | scan results resolved
+void scrapeReceived(QTRTrackerScraperResponse;) | scrape received
+void setAddRed(I) | set add red
+void setchordFingeringDisplayed(Z) | setc ho rd fingering displayed
+void setCrossesRequired(I) | set crosses required
+void setDateRecorded(QDate;) | set date recorded
+void setDecentralisedBackupRequested(Z) | set decentralised backup requested
+void setDependenciesRenderingEnabled(Z) | set dependencies rendering enabled
+void setDeployRemoveEnabled(Z) | set deploy remove enabled
+void setDHTBackupRequested(QTOTorrent;Z) | set dht backup requested
+void setFlushRequired(Z) | set flush required
+void setGoodsRequired(QList<QAbstractGoods;>;) | set goods required
+void setHasBeenReceived() | set has been received
+void setIdentifierRollbackEnabled(Z) | set identifier rollback enabled
+void setInRangeAddressesAreAllowed(Z) | set in range addresses are allowed
+void setJdbcScrollableResultSetEnabled(QString;) | set jdbc scrollable result set enabled
+void setLastMessageReceived(QString;) | set last message received
+void setLastRequestedPeerSpeed(I) | set last requested peer speed
+void setMapShareRequestAccepted(QString;Z) | set map share request accepted
+void setMapSharingRequested(QString;QString;QString;) | set map sharing requested
+void setMoveRaiseEnabled(Z) | set move raise enabled
+void setMultRed(D) | set mult red
+void setPopulationRequired(I) | set population required
+void setProgressRenderingEnabled(Z) | set progress rendering enabled
+void setRaiseEnabled(Z) | set raise enabled
+void setRandomSeed(I) | set random seed
+void setRandomSeed(J) | set random seed
+void setRateHasChanged(Z) | set rate has changed
+void setReached(Z) | set reached
+void setRed(I) | set red
+void setRedoEnebled(Z) | set redo enebled
+void setReflectionOptimizationEnabled(QString;) | set reflection optimization enabled
+void setRemembered(QString;I) | set remembered
+void setRemoveEnabled(Z) | set remove enabled
+void setRemoveUnused(Z) | set remove unused
+void setRendered() | set rendered
+void setRepeatEnabled(Z) | set repeat enabled
+void setRequested() | set requested
+void setResolved() | set resolved
+void setRestartRequired(I) | set restart required
+void setRetryAllowed(Z) | set retry allowed
+void setRollsNeeded(I) | set rolls needed
+void setRoomFloorColoredOrTextured(Z) | set room floor colored or textured
+void setRuleTraceEnabled(Z) | set rule trace enabled
+void setRunProhibited(Z) | set run prohibited
+void setScrollableResultSetsEnabled(Z) | set scrollable result sets enabled
+void setWrapResultSetsEnabled(Z) | set wrap result sets enabled
+void shareResourceChanged(QShareResource;QShareResourceEvent;) | share resource changed
+void shiftRightUnsigned() | shift right unsigned
+void singleRadioButtonActionPerformed(Qjava.awt.event.ActionEvent;) | single radio button action performed
+void statsReceived() | stats received
+void stepRequested() | step requested
+void storeReceived() | store received
+void subscriptionRemoved(QSubscription;) | subscription removed
+void taskRemoved(QTaskHierarchyEvent;) | task removed
+void torrentListenerRegistered() | torrent listener registered
+void torrentRemoved(QString;QTOTorrent;) | torrent removed
+void torrentRemoved(QTrackerTorrent;) | torrent removed
+void torrentRemoved(QTRHostTorrent;) | torrent removed
+void torrentWillBeRemoved(QTrackerTorrent;) | torrent will be removed
+void torrentWillBeRemoved(QTRHostTorrent;) | torrent will be removed
+void treeNodesRemoved(Qjavax.swing.event.TreeModelEvent;) | tree nodes removed
+void treeNodesRemoved(QTreeModelEvent;) | tree nodes removed
+void triggerListenerRowAdded(QListRow;) | trigger listener row added
+void triggerListenerRowAdded(QTableRowCore;) | trigger listener row added
+void triggerListenerRowRemoved(QListRow;) | trigger listener row removed
+void triggerListenerRowRemoved(QTableRowCore;) | trigger listener row removed
+void undoOrRedoHappened() | undo or redo happened
+void updateCrossesRequired() | update crosses required
+void visibleRowsChanged() | visible rows changed
+void vuzeNewsEntriesRemoved([QVuzeActivitiesEntry;) | vu ze news entries removed
+void watchRemoved(QDebugWatchData;) | watch removed

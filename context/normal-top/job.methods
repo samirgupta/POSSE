@@ -1,0 +1,13 @@
+boolean acquirePrinterJobAndPageFormat() | acquire printer job and page format
+int getRemainingBLFails(int jobID, GumID gumID) | get remaining bl fails
+Job_chain job_chain(String name) | job chain
+Job createTransferJob(QURL;QFile;) | create transfer job
+JobSetupFactory getJobSetupFactory() | get job setup factory
+void addPatcher(Runnable job) | add patcher
+void cleanUpPrintJob() | clean up print job
+void ErrorJob(QString;) | error job
+void exportJobDescription() | export job description
+void preparePrintJob() | prepare print job
+void removeJob(int jobId) | remove job
+void setC_Job_ID(int C_Job_ID) | set c job id
+void weditobj(MCRServletJob job) | wedit obj

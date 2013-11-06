@@ -1,0 +1,43 @@
+boolean isThroughFrontHex(QIGame;IQEntity;) | is through front hex
+boolean tryIgniteHex(QCoords;IZI) | try ignite hex
+boolean tryIgniteHex(QCoords;IZIZ) | try ignite hex
+Coords nextHex(QCoords;QCoords;) | next hex
+Coords nextHex(QCoords;QIdealHex;QIdealHex;[I) | next hex
+Hex getOtherHex(Hex loc) | get other hex
+IHex getHex() | get hex
+IHex getHex(II) | get hex
+IHex getHex(QCoords;) | get hex
+int unHex(C) | un hex
+int unHex(CC) | un hex
+PyString __hex__() |  hex
+String byteArrayToHex([BI) | byte array to hex
+String byteToHex([B) | byte to hex
+String byteToHex(B) | byte to hex
+String dateToHex(QDate;) | date to hex
+String rawToHex(QString;) | raw to hex
+String toHex([B) | to hex
+String toHex(I) | to hex
+void addArtyAutoHitHex(QCoords;) | add arty auto hit hex
+void addToHex(QCoords;) | add to hex
+void artilleryDamageHex(QCoords;QCoords;IQAmmoType;IQEntity;QEntity;ZI) | artillery damage hex
+void boardChangedHex(QBoardEvent;) | board changed hex
+void centerOnHex(QCoords;) | center on hex
+void clearHex(QIHex;) | clear hex
+void drawHex(QCoords;) | draw hex
+void firstLOSHex(QBoardViewEvent;) | first los hex
+void firstLOSHex(QCoords;) | first los hex
+void initializeHex(II) | initialize hex
+void paintHex(QCoords;) | paint hex
+void printHex(int x) | print hex
+void repaintWorkingHex() | repaint working hex
+void resurfaceHex(QCoords;) | res ur face hex
+void secondLOSHex(QBoardViewEvent;QCoords;) | second los hex
+void secondLOSHex(QCoords;QCoords;) | second los hex
+void sendChangedHex(QCoords;) | send changed hex
+void setCurrentHex(QIHex;) | set current hex
+void setHex(IIQIHex;) | set hex
+void setHex(QCoords;QIHex;) | set hex
+void tryClearHex(QCoords;II) | try clear hex
+void twoHex(QStringBuffer;I) | two hex
+void waitForHex(QIHex;) | wait for hex
+void writeHex([BI[B) | write hex

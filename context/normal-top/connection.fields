@@ -1,0 +1,141 @@
+boolean bConnection | b connection
+boolean is_inbound_connection | is inbound connection
+boolean outbound_connections_complete | outbound connections complete
+boolean shutdownOnNoConnection | shutdown on no connection
+boolean TRACE_CONNECTION_DROPS | trace connection drops
+boolean udp_fallback_for_dropped_connection | udp fallback for dropped connection
+boolean udp_fallback_for_failed_connection | udp fallback for failed connection
+boolean useConnection | use connection
+com.aelitis.azureus.core.networkmanager.ConnectionAttempt connection_attempt | connection attempt
+com.aelitis.azureus.core.networkmanager.ConnectionEndpoint connection_endpoint | connection endpoint
+com.aelitis.azureus.core.networkmanager.impl.http.HTTPNetworkConnection http_connection | http connection
+com.aelitis.azureus.core.networkmanager.impl.http.HTTPNetworkConnection.networkConnectionKey network_connection_key | network connection key
+com.aelitis.azureus.core.networkmanager.impl.MultiPeerDownloader2.connectionList active_connections | active connections
+com.aelitis.azureus.core.networkmanager.impl.MultiPeerDownloader2.connectionList idle_connections | idle connections
+com.aelitis.azureus.core.networkmanager.impl.tcp.TCPTransportImpl proxy_connection | proxy connection
+com.aelitis.azureus.core.networkmanager.impl.udp.UDPConnection connection | connection
+com.aelitis.azureus.core.networkmanager.impl.udp.UDPConnection lead_connection | lead connection
+com.aelitis.azureus.core.networkmanager.impl.udp.UDPConnectionManager _connection_manager | connection manager
+com.aelitis.azureus.core.networkmanager.NetworkConnectionBase connection | connection
+com.aelitis.azureus.core.networkmanager.NetworkConnectionBase network_connection | network connection
+com.aelitis.azureus.core.networkmanager.NetworkConnection connection | connection
+com.aelitis.azureus.core.networkmanager.NetworkConnection.ConnectionListener connection_listener | connection listener
+com.aelitis.azureus.core.networkmanager.NetworkConnection core_connection | core connection
+com.aelitis.azureus.core.proxy.AEProxyConnection connection | connection
+com.aelitis.azureus.core.proxy.socks.AESocksProxyConnection socks_connection | socks connection
+com.aelitis.azureus.core.proxy.socks.AESocksProxyPlugableConnectionFactory connection_factory | connection factory
+com.aelitis.azureus.core.proxy.socks.AESocksProxyPlugableConnection plugable_connection | plugable connection
+com.aelitis.net.upnp.services.UPnPWANConnection connection | connection
+int BID_ERROR_CONNECTION | bid error connection
+int COMMAND_CLOSE_CONNECTION | command close connection
+int CONFIG_DEFAULT_MAX_CONNECTIONS_GLOBAL | config default max connections global
+int CONFIG_DEFAULT_MAX_CONNECTIONS_PER_TORRENT | config default max connections per torrent
+int CONNECTION_CONNECTING | connection connecting
+int connectionCounter | connection counter
+int CONNECTION_FAIL | connection fail
+int connection_id | connection id
+int CONNECTION_IDLE_TIMEOUT | connection idle timeout
+int CONNECTION_IS_BROKEN | connection is broken
+int CONNECTION_KEEP_ALIVE | connection keep alive
+int CONNECTION_PENDING | connection pending
+int connection_state | connection state
+int CONNECTION_WAITING_FOR_HANDSHAKE | connection waiting for handshake
+int DEAD_CONNECTION_TIMEOUT_PERIOD | dead connection timeout period
+int INFO_CONNECTION_READONLY | info connection readonly
+int isReadOnlyConnection | is read only connection
+int jdbcConnection_nativeSQL | jdbc connection native sql
+int MAX_ACTIVE_CONNECTIONS | max active connections
+int MAX_CONCURRENT_CONNECTIONS | max concurrent connections
+int max_connections | max connections
+int maxConnections | max connections
+int MAX_CONNECTIONS_PER_TORRENT | max connections per torrent
+int MAX_CONNECTIONS_TOTAL | max connections total
+int max_connections_when_seeding | max connections when seeding
+int max_outbound_connections | max outbound connections
+int MAX_REMOTE_CONNECTIONS | max remote connections
+int MAX_REMOTE_CONNECTIONS_PER_IP | max remote connections per ip
+int max_seed_connections | max seed connections
+int MAX_UDP_CONNECTIONS | max udp connections
+int MIN_SEED_CONNECTION_TIME | min seed connection time
+int next_connection_id | next connection id
+int outbound_connection_count | outbound connection count
+it.businesslogic.ireport.gui.JRTextExpressionArea jRTextExpressionAreaTextConnectionExpression | j r text expression area text connection expression
+it.businesslogic.ireport.gui.ToolbarConnectionPanel jToolbarConnectionPanel | j toolbar connection panel
+it.businesslogic.ireport.IReportConnection iReportConnection | i report connection
+java.lang.String CONF_NETWORK_CONNECTION_TO | conf network connection to
+java.lang.String connection | connection
+java.lang.String CONNECTION | connection
+java.lang.String connectionExpression | connection expression
+java.lang.String connection_key | connection key
+java.lang.String CORE_PARAM_BOOLEAN_SOCKS_PROXY_NO_INWARD_CONNECTION | core param boolean socks proxy no inward connection
+java.lang.String CORE_PARAM_INT_MAX_CONNECTIONS_GLOBAL | core param int max connections global
+java.lang.String CORE_PARAM_INT_MAX_CONNECTIONS_PER_TORRENT | core param int max connections per torrent
+java.lang.String SC_KEY_MAX_CONNECTIONS | sc key max connections
+java.lang.String SECTION_CONNECTION | section connection
+java.lang.String USE_CONNECTION | use connection
+java.lang.ThreadGroup serverConnectionThreadGroup | server connection thread group
+java.sql.Connection cConnection | c connection
+java.sql.Connection connection | connection
+java.sql.Connection jdbcConnection | jdbc connection
+java.sql.Connection m_connection | m connection
+java.sql.Connection mConnection | m connection
+java.util.ArrayList connections | connections
+java.util.ArrayList connections_cow | connections cow
+java.util.HashMap connections | connections
+java.util.HashMap peer_connections | peer connections
+java.util.HashMap upgraded_connections | upgraded connections
+java.util.HashMap waiting_connections | waiting connections
+java.util.Hashtable connectionIds | connection ids
+java.util.LinkedList connection_writers | connection writers
+java.util.LinkedList ready_connections | ready connections
+java.util.List connections | connections
+java.util.List connections_to_close | connections to close
+java.util.List pending_connections | pending connections
+java.util.Map connection_id_map | connection id map
+java.util.Map connections | connections
+java.util.Map connection_sets | connection sets
+java.util.Map http_connection_map | http connection map
+java.util.Map local_connections | local connections
+java.util.Map remote_connections | remote connections
+java.util.Vector connectionListeners | connection listeners
+java.util.Vector connections | connections
+java.util.Vector connectionsPending | connections pending
+javax.swing.JComboBox jComboBoxConnection | j combo box connection
+javax.swing.JComboBox jComboBoxConnections | j combo box connections
+javax.swing.JComboBox jComboBoxConnectionType | j combo box connection type
+javax.swing.JComboBox jComboBoxDatasetConnectionType | j combo box dataset connection type
+javax.swing.JComboBox jComboBoxSubreportConnectionType | j combo box subreport connection type
+javax.swing.JLabel jlConnectionTO | jl connection to
+javax.swing.JList jListConnections | j list connections
+javax.swing.JMenuItem jMenuItemActiveConnection | j menu item active connection
+javax.swing.JMenuItem jMenuItemConnections | j menu item connections
+javax.swing.JPanel jPanelConnectionRoot | j panel connection root
+javax.swing.JPanel jPanelConnectionType | j panel connection type
+javax.swing.JSlider connectionTO | connection to
+javax.swing.JToolBar jToolBarConnections | j tool bar connections
+long connection_established_time | connection established time
+long _connection_id | connection id
+long connection_id | connection id
+long CONNECTION_ID_LIFETIME | connection id lifetime
+long connection_id_next | connection id next
+long connection_request_id_next | connection request id next
+long INITIAL_CONNECTION_ID | initial connection id
+long last_non_local_connection_time | last non local connection time
+long total_connections | total connections
+megamek.common.net.Connection connection | connection
+megamek.common.net.ConnectionListenerAdapter connectionListener | connection listener
+org.gudy.azureus2.core3.util.AEMonitor connections_mon | connections mon
+org.gudy.azureus2.pluginsimpl.local.messaging.GenericMessageConnectionImpl connection | connection
+org.gudy.azureus2.plugins.messaging.generic.GenericMessageConnection connection | connection
+org.gudy.azureus2.plugins.network.ConnectionManager connection_manager | connection manager
+org.gudy.azureus2.plugins.network.Connection plugin_connection | plugin connection
+org.gudy.azureus2.plugins.utils.Monitor connection_mon | connection mon
+org.hsqldb.jdbc.jdbcConnection connection | connection
+org.hsqldb.jdbc.jdbcConnection intConnection | int connection
+org.hsqldb.util.ConnectionSetting currentConnectionSetting | current connection setting
+org.jhotdraw.draw.ConnectionFigure connection | connection
+org.jhotdraw.draw.ConnectionFigure courtingConnection | court ing connection
+org.jhotdraw.draw.ConnectionFigure currentConnection | current connection
+org.jhotdraw.draw.ConnectionFigure editedConnection | edited connection
+org.jhotdraw.draw.LineConnectionFigure.ConnectionHandler connectionHandler | connection handler
+plugins.collaboration.jabber.view.MapSharingWizardView jabberConnectionWizardView | jabber connection wizard view

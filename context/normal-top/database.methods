@@ -1,0 +1,120 @@
+BasePanel addNewDatabase(QParserResult;QFile;Z) | add new database
+BibtexDatabase createDatabase(QCollection<QBibtexEntry;>;) | create database
+BibtexDatabase database() | database
+BibtexDatabase getDatabase() | get database
+BibtexDatabase getGeneratedDatabase() | get generated database
+BibtexDatabase parseBibtexDatabase(QList<QString;>;Z) | parse bibtex database
+boolean existsInDatabase(QObject;QEventSource;QEntityPersister;) | exists in database
+boolean hasDatabaseSnapshot() | has database snapshot
+boolean isDatabaseGeneratedTimestamp(QType;) | is database generated timestamp
+boolean isExistsInDatabase() | is exists in database
+boolean isFileBasedDatabaseType(QString;) | is file based database type
+boolean isInProcessDatabaseType(QString;) | is in process database type
+boolean isReadOnlyDatabaseFiles(QConnection;) | is read only database files
+boolean isReadOnlyDatabase(QConnection;) | is read only database
+boolean openDatabases() | open databases
+boolean saveDatabase(QFile;ZQString;) | save database
+Collection<AdminDatabaseUser> selectAllDatabaseUsers(String strLastName, String strFirstName, String strEmail, AdminAuthentication authenticationService) | select all database users
+Database databaseForName(QString;QInstances;) | database for name
+DatabaseDataSource getDatabaseConnection(QConnection;) | get database connection
+DatabaseDataSource getDatabaseConnection(QConnection;QSQLDataHandler;) | get database connection
+DatabaseDataSource getDatabaseConnection(QString;QString;QString;QString;) | get database connection
+DatabaseDataSource getDatabaseConnection(QString;QString;QString;QString;QSQLDataHandler;) | get database connection
+Database getDatabase() | get database
+Database getDatabaseObject(QString;QString;QHsqlProperties;) | get database object
+Database getDatabase(QString;QString;QHsqlProperties;) | get database
+DatabaseInformation newDatabaseInformation(QDatabase;) | new database information
+DatabaseInfos getDatabaseInfos(int database, Connection con) | get database infos
+Database lookupDatabaseObject(QString;QString;) | lookup database object
+DatabaseMap getDatabaseMap() | get database map
+DatabaseStructure buildDatabaseStructure(QProperties;QDialect;ZQString;II) | build database structure
+DatabaseStructure getDatabaseStructure() | get database structure
+DistributedDatabase getDistributedDatabase() | get distributed database
+File getDatabaseOutput() | get database output
+int getDatabaseMajorVersion() | get database major version
+int getDatabaseMajorVersion(QDatabaseMetaData;) | get database major version
+int getDatabaseMinorVersion() | get database minor version
+int getDatabase(QString;QString;QServer;QHsqlProperties;) | get database
+int getDatabaseSize() | get database size
+int getDatabaseType() | get database type
+int getFirstEmptyDatabaseIndex() | get first empty database index
+int openDatabase(QString;QString;) | open database
+java.lang.String getDatabase() | get database
+java.lang.String getDatabaseName() | get database name
+JDatabase getDatabase() | get database
+Object[] getCachedDatabaseSnapshot(QEntityKey;) | get cached database snapshot
+Object[] getDatabaseSnapshot() | get database snapshot
+Object[] getDatabaseSnapshot(QSerializable;QEntityPersister;) | get database snapshot
+Object[] getDatabaseSnapshot(QSerializable;QSessionImplementor;) | get database snapshot
+Object[] getDatabaseSnapshot(QSessionImplementor;QEntityPersister;QSerializable;) | get database snapshot
+Object[] importDatabase(QSet<QString;>;QDBStrings;) | import database
+Object[] importDatabase_worker(QDBTYPE;QSet<QString;>;QConnection;) | import database worker
+ParserResult loadDatabase(QFile;QString;) | load database
+PeerDatabase createPeerDatabase() | create peer database
+SaveSession saveDatabase(QBibtexDatabase;QMetaData;QFile;QJabRefPreferences;ZZQString;Z) | save database
+SaveSession savePartOfDatabase(QBibtexDatabase;QMetaData;QFile;QJabRefPreferences;[QBibtexEntry;QString;) | save part of database
+String database_distanceTypeTipText() | database distance type tip text
+String databaseOutputTipText() | database output tip text
+String database(QConnection;) | database
+String database_TypeTipText() | database type tip text
+String databaseURLTipText() | database url tip text
+String getDatabase() | get database
+String getDatabase_distanceType() | get database distance type
+String getDatabaseFullProductVersion() | get database full product version
+String getDatabaseName(IZ) | get database name
+String getDatabasePath(IZ) | get database path
+String getDatabaseProductName() | get database product name
+String getDatabaseProductVersion() | get database product version
+String getDatabase_Type() | get database type
+String getDatabaseType(I) | get database type
+String getDatabaseURL() | get database url
+String setDatabaseProperty(QString;QString;) | set database property
+Vector getDatabaseURIs() | get database ur is
+Vector<QIntegrityMessage;> checkBibtexDatabase(QBibtexDatabase;) | check bibtex database
+void addAuxiliaryDatabaseObject(QAuxiliaryDatabaseObject;) | add auxiliary database object
+void addDatabaseChangeListener(QDatabaseChangeListener;) | add database change listener
+void addDatabaseObject(QString;QString;QDatabase;) | add database object
+void bindAuxiliaryDatabaseObject(QElement;QMappings;) | bind auxiliary database object
+void buildServer(String databaseList, String tableList) | build server
+void CloseDatabaseAction() | close database action
+void closeDatabases(I) | close databases
+void connectToDatabase() | connect to database
+void createDatabase() | create database
+void createDatabase(QString;) | create database
+void createDatabase(QString;QString;QString;) | create database
+void createTestDatabase() | create test database
+void DatabasePropertiesAction() | database properties action
+void deleteDatabase(QString;) | delete database
+void disconnectFromDatabase() | disconnect from database
+void exportDatabase(QBibtexDatabase;QMetaData;QSet<QString;>;QDBStrings;) | export database
+void exportDatabase(QBibtexDatabase;QMetaData;QSet<QString;>;QString;QDBTYPE;) | export database
+void exportDatabase_worker(QDBTYPE;QBibtexDatabase;QMetaData;QSet<QString;>;QObject;) | export database worker
+void initializeNewDatabase() | initialize new database
+void initTextDatabaseRowOutput(QString;QString;QString;ZQString;) | init text database row output
+void NewDatabaseAction() | new database action
+void NewSubDatabaseAction() | new sub database action
+void refreshForNewDatabase(QBibtexDatabase;) | refresh for new database
+void refreshGroupsForNewDatabase(QBibtexDatabase;) | refresh groups for new database
+void releaseDatabase(I) | release database
+void removeDatabaseChangeListener(QDatabaseChangeListener;) | remove database change listener
+void removeDatabase(QDatabase;) | remove database
+void SaveDatabaseAction() | save database action
+void setDatabase_distanceType(QString;) | set database distance type
+void setDatabaseID(String ak) | set database id
+void setDatabaseName(IQString;) | set database name
+void setDatabaseOutput(QFile;) | set database output
+void setDatabasePath(IQString;) | set database path
+void setDatabase(QBibtexDatabase;) | set database
+void setDatabase(Qjava.lang.String;) | set database
+void setDatabase(QString;) | set database
+void setDatabaseSnapshot([QObject;) | set database snapshot
+void setDatabase_Type(QString;) | set database type
+void setDatabaseURL(QString;) | set database url
+void setDatabaseVariables() | set database variables
+void setInstancesFromDatabaseTable(QString;) | set instances from database table
+void setReferenceDatabase(QBibtexDatabase;) | set reference database
+void setupDatabase() | setup database
+void setUpDatabase() | set up database
+void storeTempDatabase() | store temp database
+void testLoadFromMySQLDatabase() | test load from my sql database
+void translateDefaultDatabaseProperty(QHsqlProperties;) | translate default database property

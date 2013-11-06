@@ -1,0 +1,1198 @@
+../3-Phrases/3PS:boolean isAction() | is action
+../3-Phrases/Base_Verb:void specsAction() | specs action
+../3-Phrases/Base_Verb:void postSaveAction(Vector resCommands) | post save action
+../3-Phrases/Base_Verb:void executeWriteAction(Editor editor, DataContext dataContext) | execute write action
+../3-Phrases/Base_Verb:void setAction(ModeAction action) | set action
+../3-Phrases/Base_Verb:void processAction(PortletConfig config, ActionRequest req, ActionResponse res) | process action
+../3-Phrases/Base_Verb:IAction getAction(DashboardEditor editor, String actionID) | get action
+../3-Phrases/Base_Verb:EdgeStyleFormatAction createNodeStyleFormatAction(MindMapNode selected, String style) | create node style format action
+../3-Phrases/Base_Verb:void setAction(String action) | set action
+../3-Phrases/Base_Verb:ActionListener getColorChangedAction() | get color changed action
+../3-Phrases/Base_Verb:Action buildDeleteAction(Configurable target) | build delete action
+../3-Phrases/Base_Verb:String getAction() | get action
+../3-Phrases/Base_Verb:void unregisterKeyboardAction(KeyStroke aKeyStroke) | unregister keyboard action
+../3-Phrases/Base_Verb:void commandAction(Command c, Displayable d) | command action
+../3-Phrases/Base_Verb:void addContextMenuAction(Action action) | add context menu action
+../3-Phrases/Base_Verb:void configAction(SchemaAction iAction, Annotation iAnnotation, XmlConfigActionType iXmlNode) | config action
+../3-Phrases/Base_Verb:void addAction(Action action) | add action
+../3-Phrases/Base_Verb:boolean executeAction(double x, double y) | execute action
+../3-Phrases/Base_Verb:PersistenceAction createPersistenceAction(PersistenceContext persistenceContext, AbstractCollectionField collectionField, int actionType) | create persistence action
+../3-Phrases/Base_Verb:void addAction(RuleAction act) | add action
+../3-Phrases/Base_Verb:Action getUndoAction() | get undo action
+../3-Phrases/Base_Verb:void setPasteAction(IAction action) | set paste action
+../3-Phrases/Base_Verb:void performAsyncAction(KopiAction action) | perform async action
+../3-Phrases/Base_Verb:String getAction() | get action
+../3-Phrases/Base_Verb:static AbstractAction getPlayClipsAddAction(int mode) | abstract action get play clips add action
+../3-Phrases/DrawSWF:CONS ClearAction(QString;QString;QDrawingPanel;) | clear action
+../3-Phrases/DrawSWF:CONS ClearAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | clear action
+../3-Phrases/DrawSWF:CONS ExitAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | exit action
+../3-Phrases/DrawSWF:CONS SaveAction(QString;QString;QDrawingPanel;) | save action
+../3-Phrases/DrawSWF:CONS SaveAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | save action
+../3-Phrases/DrawSWF:CONS SetColorAction(QDrawingPanel;ZQAbstractButton;) | set color action
+../3-Phrases/DrawSWF:CONS SetCanvasSizeAction(QString;QString;QDrawingPanel;QJFrame;) | set canvas size action
+../3-Phrases/DrawSWF:CONS SetCanvasSizeAction(QString;QString;QString;QDrawingPanel;QJFrame;IQKeyStroke;) | set canvas size action
+../3-Phrases/DrawSWF:CONS AbstractDrawAction(QString;QString;QDrawingPanel;) | abstract draw action
+../3-Phrases/DrawSWF:CONS AbstractDrawAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | abstract draw action
+../3-Phrases/DrawSWF:CONS AbstractDrawAction(QDrawingPanel;) | abstract draw action
+../3-Phrases/DrawSWF:CONS OpenOptionsDialogAction(QString;QString;QDrawingPanel;) | open options dialog action
+../3-Phrases/DrawSWF:CONS OpenOptionsDialogAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | open options dialog action
+../3-Phrases/DrawSWF:CONS SaveSWFAction(QString;QString;QDrawingPanel;) | save swf action
+../3-Phrases/DrawSWF:CONS SaveSWFAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | save swf action
+../3-Phrases/DrawSWF:CONS SetDrawingModeAction(QString;QDrawingPanel;IQMainWindow;I) | set drawing mode action
+../3-Phrases/DrawSWF:CONS SetDrawingModeAction(QString;QString;QDrawingPanel;IIQKeyStroke;QMainWindow;I) | set drawing mode action
+../3-Phrases/DrawSWF:CONS GraphicTemplateAction(QString;QString;QDrawingPanel;) | graphic template action
+../3-Phrases/DrawSWF:CONS GraphicTemplateAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | graphic template action
+../3-Phrases/DrawSWF:CONS NewFileAction(QString;QString;QDrawingPanel;) | new file action
+../3-Phrases/DrawSWF:CONS NewFileAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | new file action
+../3-Phrases/DrawSWF:CONS SetDrawing2GradientAction(QDrawingPanel;IQMainWindow;IZ) | set drawing 2 gradient action
+../3-Phrases/DrawSWF:CONS PlayAction(QString;QString;QDrawingPanel;Z) | play action
+../3-Phrases/DrawSWF:CONS PlayAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;Z) | play action
+../3-Phrases/DrawSWF:CONS AboutAction(QString;QString;QDrawingPanel;) | about action
+../3-Phrases/DrawSWF:CONS AboutAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | about action
+../3-Phrases/DrawSWF:CONS ObjectListAction(QString;QString;QString;QDrawingPanel;IQDrawObjectList;) | object list action
+../3-Phrases/DrawSWF:CONS SetLineWidthAction(QString;QString;QDrawingPanel;) | set line width action
+../3-Phrases/DrawSWF:CONS SetLineWidthAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | set line width action
+../3-Phrases/DrawSWF:CONS RedoAction(QString;QString;QDrawingPanel;) | redo action
+../3-Phrases/DrawSWF:CONS RedoAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | redo action
+../3-Phrases/DrawSWF:CONS UndoAction(QString;QString;QDrawingPanel;) | undo action
+../3-Phrases/DrawSWF:CONS UndoAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | undo action
+../3-Phrases/DrawSWF:CONS FileAction(QString;QString;QDrawingPanel;ZZ) | file action
+../3-Phrases/DrawSWF:CONS FileAction(QString;QString;QString;QDrawingPanel;ZIQKeyStroke;Z) | file action
+../3-Phrases/DrawSWF:void addPlayAction(QString;QString;QString;IQKeyStroke;Z) | add play action
+../3-Phrases/DrawSWF:void addUndoAction(QString;QString;QString;IQKeyStroke;) | add undo action
+../3-Phrases/DrawSWF:void addRedoAction(QString;QString;QString;IQKeyStroke;) | add redo action
+../3-Phrases/DrawSWF:void addClearAction(QString;QString;QString;IQKeyStroke;) | add clear action
+../3-Phrases/DrawSWF:void addSetColorAction(QJMenu;QString;QString;QString;IQKeyStroke;QString;QColor;I) | add set color action
+../3-Phrases/DrawSWF:void addSetLineWidthAction(QString;QString;QString;IQKeyStroke;) | add set line width action
+../3-Phrases/DrawSWF:void addSetCanvasSizeAction(QString;QString;QString;IQKeyStroke;) | add set canvas size action
+../3-Phrases/DrawSWF:void addNewFileAction(QString;QString;QString;IQKeyStroke;) | add new file action
+../3-Phrases/DrawSWF:void addFileAction(QString;QString;QString;ZIQKeyStroke;Z) | add file action
+../3-Phrases/DrawSWF:void addSaveAction(QString;QString;QString;IQKeyStroke;) | add save action
+../3-Phrases/DrawSWF:void addGraphicTemplateAction(QString;QString;QString;IQKeyStroke;) | add graphic template action
+../3-Phrases/DrawSWF:void addSaveSWFAction(QString;QString;QString;IQKeyStroke;) | add save swf action
+../3-Phrases/DrawSWF:CONS RemoteSaveAction(QString;QString;QDrawingPanel;) | remote save action
+../3-Phrases/DrawSWF:CONS RemoteSaveAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | remote save action
+../3-Phrases/DrawSWF:void addPlayAction(QString;QString;QString;IQKeyStroke;Z) | add play action
+../3-Phrases/DrawSWF:void addSetColorAction(QString;QString;QString;IQKeyStroke;QString;QColor;I) | add set color action
+../3-Phrases/DrawSWF:void addSetLineWidthAction(QString;QString;QString;IQKeyStroke;) | add set line width action
+../3-Phrases/DrawSWF:void addSetCanvasSizeAction(QString;QString;QString;IQKeyStroke;) | add set canvas size action
+../3-Phrases/DrawSWF:void addFileAction(QString;QString;QString;ZIQKeyStroke;Z) | add file action
+../3-Phrases/DrawSWF:void addGraphicTemplateAction(QString;QString;QString;IQKeyStroke;) | add graphic template action
+../3-Phrases/DrawSWF:void addSaveSWFAction(QString;QString;QString;IQKeyStroke;) | add save swf action
+../3-Phrases/DrawSWF:void addSaveAction(QString;QString;QString;IQKeyStroke;) | add save action
+../3-Phrases/DrawSWF:void addUndoAction(QString;QString;QString;IQKeyStroke;) | add undo action
+../3-Phrases/DrawSWF:void addRedoAction(QString;QString;QString;IQKeyStroke;) | add redo action
+../3-Phrases/DrawSWF:void addClearAction(QString;QString;QString;IQKeyStroke;) | add clear action
+../3-Phrases/DrawSWF:SWFActions tagDoAction() | tag do action
+../3-Phrases/DrawSWF:void parseDoAction(QInStream;) | parse do action
+../3-Phrases/DrawSWF:SWFActions tagDoAction() | tag do action
+../3-Phrases/DrawSWF:SWFActions tagDoAction() | tag do action
+../3-Phrases/DrawSWF:SWFActions tagDoAction() | tag do action
+../3-Phrases/DrawSWF:SWFActions tagDoAction() | tag do action
+../3-Phrases/drjava2:CONS DocumentDebugAction(QJPDADebugger;QOpenDefinitionsDocument;I) | document debug action
+../3-Phrases/drjava2:CONS DebugAction(QJPDADebugger;) | debug action
+../3-Phrases/drjava2:void BeginWordAction(QString;Z) | begin word action
+../3-Phrases/drjava2:void EndWordAction(QString;Z) | end word action
+../3-Phrases/drjava2:void PreviousWordAction(QString;Z) | previous word action
+../3-Phrases/drjava2:void NextWordAction(QString;Z) | next word action
+../3-Phrases/drjava2:void SelectWordAction() | select word action
+../3-Phrases/drjava2:IndentRuleAction makeAction(QString;) | make action
+../3-Phrases/drjava2:IndentRuleAction makeAction([QString;IIII) | make action
+../3-Phrases/drjava2:void performDefaultAction() | perform default action
+../3-Phrases/drjava2:void _popupAction(QMouseEvent;) | popup action
+../3-Phrases/drjava2:void closeAction() | close action
+../3-Phrases/drjava2:void downloadAction() | download action
+../3-Phrases/drjava2:void updateAction() | update action
+../3-Phrases/drjava2:void ResourceAction(QString;QString;) | resource action
+../3-Phrases/drjava2:void ConsolidatedAction(QString;) | consolidated action
+../3-Phrases/drjava2:void DecoratedAction(QAbstractAction;Z) | decorated action
+../3-Phrases/drjava2:void _setUpAction(QAction;QString;QString;QString;) | set up action
+../3-Phrases/drjava2:void _setUpAction(QAction;QString;QString;) | set up action
+../3-Phrases/drjava2:void _popupAction(QMouseEvent;) | popup action
+../3-Phrases/drjava2:void _popupAction(QMouseEvent;) | popup action
+../3-Phrases/drjava2:void _popupAction(QMouseEvent;) | popup action
+../3-Phrases/drjava2:void setPrevPaneAction(QAction;) | set prev pane action
+../3-Phrases/drjava2:void setNextPaneAction(QAction;) | set next pane action
+../3-Phrases/drjava2:void performDefaultAction() | perform default action
+../3-Phrases/drjava2:void performDefaultAction() | perform default action
+../3-Phrases/drjava2:void performDefaultAction() | perform default action
+../3-Phrases/drjava2:void addShiftAction(QOption<QKeyStroke;>;QString;) | add shift action
+../3-Phrases/drjava2:void addShiftAction(QOption<QKeyStroke;>;QAction;) | add shift action
+../3-Phrases/drjava2:Action getAction() | get action
+../3-Phrases/drjava2:Action getShiftAction() | get shift action
+../3-Phrases/drjava2:void setAction(QAction;) | set action
+../3-Phrases/drjava2:void setShiftAction(QAction;) | set shift action
+../3-Phrases/drjava2:void noAction() | no action
+../3-Phrases/drjava2:void yesAction() | yes action
+../3-Phrases/drjava2:void IndentKeyAction(QString;QAction;) | indent key action
+../3-Phrases/drjava2:void IndentKeyAction(QString;QAction;Z) | indent key action
+../3-Phrases/drjava2:void _popupAction(QMouseEvent;) | popup action
+../3-Phrases/drjava2:UndoAction getUndoAction() | get undo action
+../3-Phrases/drjava2:RedoAction getRedoAction() | get redo action
+../3-Phrases/drjava2:void UndoAction() | undo action
+../3-Phrases/drjava2:void RedoAction() | redo action
+../3-Phrases/drjava2:void performDefaultAction() | perform default action
+../3-Phrases/drjava2:AbstractAction getBackAction() | get back action
+../3-Phrases/drjava2:AbstractAction getForwardAction() | get forward action
+../3-Phrases/drjava2:void _popupAction(QMouseEvent;) | popup action
+../3-Phrases/drjava2:Action _getAddAction() | get add action
+../3-Phrases/drjava2:Action _getAddAction() | get add action
+../3-Phrases/drjava2:void performDefaultAction() | perform default action
+../3-Phrases/drjava2:void _popupAction(QMouseEvent;) | popup action
+../3-Phrases/drjava2:void _setupAction(QAction;QString;QString;) | setup action
+../3-Phrases/drjava2:void _popupAction(QMouseEvent;) | popup action
+../3-Phrases/drjava2:Action _getAddAction() | get add action
+../3-Phrases/drjava2:Action _getAddAction() | get add action
+../3-Phrases/drjava2:Action _getAddAction() | get add action
+../3-Phrases/drjava2:Action _getAddAction() | get add action
+../3-Phrases/drjava2:void _popupAction(QMouseEvent;) | popup action
+../3-Phrases/drjava2:AbstractAction createDelegateAction(QString;QAction;) | create delegate action
+../3-Phrases/freecol2:boolean confirmHostileAction(QUnit;QTile;) | confirm hostile action
+../3-Phrases/freecol2:Element monarchAction(QElement;) | monarch action
+../3-Phrases/freecol2:CONS ReportRequirementsAction(QFreeColClient;) | report requirements action
+../3-Phrases/freecol2:CONS LoadAction(QFreeColClient;) | load action
+../3-Phrases/freecol2:CONS ReportContinentalCongressAction(QFreeColClient;) | report continental congress action
+../3-Phrases/freecol2:CONS DeclareIndependenceAction(QFreeColClient;) | declare independence action
+../3-Phrases/freecol2:CONS DetermineHighSeasAction(QFreeColClient;) | determine high seas action
+../3-Phrases/freecol2:CONS FortifyAction(QFreeColClient;) | fortify action
+../3-Phrases/freecol2:CONS RenameAction(QFreeColClient;) | rename action
+../3-Phrases/freecol2:CONS ColopediaSkillAction(QFreeColClient;) | colo pe dia skill action
+../3-Phrases/freecol2:CONS ColopediaNationAction(QFreeColClient;) | colo pe dia nation action
+../3-Phrases/freecol2:CONS FindColonyAction(QFreeColClient;) | find colony action
+../3-Phrases/freecol2:CONS ReportLabourAction(QFreeColClient;) | report labour action
+../3-Phrases/freecol2:CONS ReportColonyAction(QFreeColClient;) | report colony action
+../3-Phrases/freecol2:CONS DisplayTileRegionsAction(QFreeColClient;) | display tile regions action
+../3-Phrases/freecol2:CONS MapboardAction(QFreeColClient;QString;QString;IQKeyStroke;) | map board action
+../3-Phrases/freecol2:CONS MapboardAction(QFreeColClient;QString;QString;I) | map board action
+../3-Phrases/freecol2:CONS MapboardAction(QFreeColClient;QString;QString;QKeyStroke;) | map board action
+../3-Phrases/freecol2:CONS MapboardAction(QFreeColClient;QString;QString;) | map board action
+../3-Phrases/freecol2:CONS AssignTradeRouteAction(QFreeColClient;) | assign trade route action
+../3-Phrases/freecol2:CONS MiniMapChangeBackgroundAction(QFreeColClient;) | mini map change background action
+../3-Phrases/freecol2:CONS ColopediaGoodsAction(QFreeColClient;) | colo pe dia goods action
+../3-Phrases/freecol2:CONS GotoAction(QFreeColClient;) | goto action
+../3-Phrases/freecol2:CONS ReconnectAction(QFreeColClient;) | reconnect action
+../3-Phrases/freecol2:CONS ChangeWindowedModeAction(QFreeColClient;) | change windowed mode action
+../3-Phrases/freecol2:CONS ScaleMapAction(QFreeColClient;) | scale map action
+../3-Phrases/freecol2:CONS ColopediaFatherAction(QFreeColClient;) | colo pe dia father action
+../3-Phrases/freecol2:CONS ExecuteGotoOrdersAction(QFreeColClient;) | execute goto orders action
+../3-Phrases/freecol2:CONS DisbandUnitAction(QFreeColClient;) | disband unit action
+../3-Phrases/freecol2:CONS NewEmptyMapAction(QFreeColClient;) | new empty map action
+../3-Phrases/freecol2:CONS ClearOrdersAction(QFreeColClient;) | clear orders action
+../3-Phrases/freecol2:CONS ReportIndianAction(QFreeColClient;) | report indian action
+../3-Phrases/freecol2:CONS ChangeAction(QFreeColClient;) | change action
+../3-Phrases/freecol2:CONS MiniMapZoomInAction(QFreeColClient;) | mini map zoom in action
+../3-Phrases/freecol2:CONS ImprovementAction(QFreeColClient;QImprovementActionType;) | improvement action
+../3-Phrases/freecol2:CONS UnloadAction(QFreeColClient;) | unload action
+../3-Phrases/freecol2:CONS ShowMainAction(QFreeColClient;) | show main action
+../3-Phrases/freecol2:CONS SelectableAction(QFreeColClient;QString;QString;IQKeyStroke;) | selectable action
+../3-Phrases/freecol2:CONS SelectableAction(QFreeColClient;QString;QString;I) | selectable action
+../3-Phrases/freecol2:CONS SelectableAction(QFreeColClient;QString;QString;QKeyStroke;) | selectable action
+../3-Phrases/freecol2:CONS SelectableAction(QFreeColClient;QString;QString;) | selectable action
+../3-Phrases/freecol2:CONS BuildColonyAction(QFreeColClient;) | build colony action
+../3-Phrases/freecol2:CONS ReportMilitaryAction(QFreeColClient;) | report military action
+../3-Phrases/freecol2:CONS ChatAction(QFreeColClient;) | chat action
+../3-Phrases/freecol2:CONS ZoomInAction(QFreeColClient;) | zoom in action
+../3-Phrases/freecol2:CONS DebugShowCoordinatesAction(QFreeColClient;) | debug show coordinates action
+../3-Phrases/freecol2:CONS NewAction(QFreeColClient;) | new action
+../3-Phrases/freecol2:CONS EndTurnAction(QFreeColClient;) | end turn action
+../3-Phrases/freecol2:CONS SentryAction(QFreeColClient;) | sentry action
+../3-Phrases/freecol2:CONS SaveAction(QFreeColClient;) | save action
+../3-Phrases/freecol2:CONS ColopediaResourceAction(QFreeColClient;) | colo pe dia resource action
+../3-Phrases/freecol2:CONS ReportReligionAction(QFreeColClient;) | report religion action
+../3-Phrases/freecol2:CONS ToggleViewModeAction(QFreeColClient;) | toggle view mode action
+../3-Phrases/freecol2:CONS DebugCrossBugAction(QFreeColClient;) | debug cross bug action
+../3-Phrases/freecol2:CONS ReportHistoryAction(QFreeColClient;) | report history action
+../3-Phrases/freecol2:CONS ReportHighScoresAction(QFreeColClient;) | report high scores action
+../3-Phrases/freecol2:CONS ReportExplorationAction(QFreeColClient;) | report exploration action
+../3-Phrases/freecol2:CONS SkipUnitAction(QFreeColClient;) | skip unit action
+../3-Phrases/freecol2:CONS OpenAction(QFreeColClient;) | open action
+../3-Phrases/freecol2:CONS ColopediaNationTypeAction(QFreeColClient;) | colo pe dia nation type action
+../3-Phrases/freecol2:CONS WaitAction(QFreeColClient;) | wait action
+../3-Phrases/freecol2:CONS ColopediaTerrainAction(QFreeColClient;) | colo pe dia terrain action
+../3-Phrases/freecol2:CONS EuropeAction(QFreeColClient;) | europe action
+../3-Phrases/freecol2:CONS DisplayTileOwnersAction(QFreeColClient;) | display tile owners action
+../3-Phrases/freecol2:CONS GotoTileAction(QFreeColClient;) | goto tile action
+../3-Phrases/freecol2:CONS RetireAction(QFreeColClient;) | retire action
+../3-Phrases/freecol2:CONS AboutAction(QFreeColClient;) | about action
+../3-Phrases/freecol2:CONS ZoomOutAction(QFreeColClient;) | zoom out action
+../3-Phrases/freecol2:CONS ReportCargoAction(QFreeColClient;) | report cargo action
+../3-Phrases/freecol2:CONS ColopediaBuildingAction(QFreeColClient;) | colo pe dia building action
+../3-Phrases/freecol2:CONS FreeColAction(QFreeColClient;QString;QString;) | free col action
+../3-Phrases/freecol2:CONS FreeColAction(QFreeColClient;QString;QString;I) | free col action
+../3-Phrases/freecol2:CONS FreeColAction(QFreeColClient;QString;QString;QKeyStroke;) | free col action
+../3-Phrases/freecol2:CONS FreeColAction(QFreeColClient;QString;QString;IQKeyStroke;) | free col action
+../3-Phrases/freecol2:CONS FreeColAction(QFreeColClient;QString;QString;IQKeyStroke;Z) | free col action
+../3-Phrases/freecol2:CONS QuitAction(QFreeColClient;) | quit action
+../3-Phrases/freecol2:CONS ReportTurnAction(QFreeColClient;) | report turn action
+../3-Phrases/freecol2:CONS DisplayGridAction(QFreeColClient;) | display grid action
+../3-Phrases/freecol2:CONS PreferencesAction(QFreeColClient;) | preferences action
+../3-Phrases/freecol2:FreeColAction getFreeColAction(QString;) | get free col action
+../3-Phrases/freecol2:CONS ReportNavalAction(QFreeColClient;) | report naval action
+../3-Phrases/freecol2:CONS ReportTradeAction(QFreeColClient;) | report trade action
+../3-Phrases/freecol2:CONS DisplayTileNamesAction(QFreeColClient;) | display tile names action
+../3-Phrases/freecol2:CONS ReportForeignAction(QFreeColClient;) | report foreign action
+../3-Phrases/freecol2:CONS ColopediaUnitAction(QFreeColClient;) | colo pe dia unit action
+../3-Phrases/freecol2:CONS MapControlsAction(QFreeColClient;) | map controls action
+../3-Phrases/freecol2:CONS DisplayTileEmptyAction(QFreeColClient;) | display tile empty action
+../3-Phrases/freecol2:CONS MiniMapZoomOutAction(QFreeColClient;) | mini map zoom out action
+../3-Phrases/freecol2:CONS TradeRouteAction(QFreeColClient;) | trade route action
+../3-Phrases/freecol2:void configurePropertiesFromAction(QAction;) | configure properties from action
+../3-Phrases/freecol2:MonarchAction getAction() | get action
+../3-Phrases/freecol2:Element monarchAction(QDummyConnection;QElement;) | monarch action
+../3-Phrases/freecol2:void monarchAction(QServerPlayer;) | monarch action
+../3-Phrases/freemind:void executeAction(QActionPair;) | execute action
+../3-Phrases/freemind:void executeAction(QActionPair;) | execute action
+../3-Phrases/freemind:ActionPair filterAction(QActionPair;) | filter action
+../3-Phrases/freemind:Cursor getCursorByAction(I) | get cursor by action
+../3-Phrases/freemind:void setDropAction(QString;) | set drop action
+../3-Phrases/freemind:JMenuItem addAction(QAction;QString;) | add action
+../3-Phrases/freemind:void QuitAction(QController;) | quit action
+../3-Phrases/freemind:void CloseAction(QController;) | close action
+../3-Phrases/freemind:void PrintAction(QController;Z) | print action
+../3-Phrases/freemind:void PageAction(QController;) | page action
+../3-Phrases/freemind:void DocumentationAction(QController;) | documentation action
+../3-Phrases/freemind:void AboutAction(QController;) | about action
+../3-Phrases/freemind:void LicenseAction(QController;) | license action
+../3-Phrases/freemind:void HistoryPreviousMapAction(QController;) | history previous map action
+../3-Phrases/freemind:void HistoryNextMapAction(QController;) | history next map action
+../3-Phrases/freemind:void NavigationPreviousMapAction(QController;) | navigation previous map action
+../3-Phrases/freemind:void NavigationNextMapAction(QController;) | navigation next map action
+../3-Phrases/freemind:void MoveToRootAction(QController;) | move to root action
+../3-Phrases/freemind:void ToggleMenubarAction(QController;) | toggle menubar action
+../3-Phrases/freemind:void ToggleToolbarAction(QController;) | toggle toolbar action
+../3-Phrases/freemind:void ToggleLeftToolbarAction(QController;) | toggle left toolbar action
+../3-Phrases/freemind:void ZoomInAction(QController;) | zoom in action
+../3-Phrases/freemind:void ZoomOutAction(QController;) | zoom out action
+../3-Phrases/freemind:void PropertyAction(QController;) | property action
+../3-Phrases/freemind:void BackgroundAction(QController;QIcon;) | background action
+../3-Phrases/freemind:void OptionAntialiasAction(QController;) | option antialias action
+../3-Phrases/freemind:void OptionHTMLExportFoldingAction(QController;) | option html export folding action
+../3-Phrases/freemind:void OptionSelectionMechanismAction(QController;) | option selection mechanism action
+../3-Phrases/freemind:void OpenFAQAction(QController;) | open faq action
+../3-Phrases/freemind:Action getAction() | get action
+../3-Phrases/freemind:void setAction(QAction;) | set action
+../3-Phrases/freemind:void executeAction(QActionPair;) | execute action
+../3-Phrases/freemind:ActionPair filterAction(QActionPair;) | filter action
+../3-Phrases/freemind:void executeAction(QActionPair;) | execute action
+../3-Phrases/freemind:void executeAction(QActionPair;) | execute action
+../3-Phrases/freemind:XmlAction getDoAction() | get do action
+../3-Phrases/freemind:XmlAction getUndoAction() | get undo action
+../3-Phrases/freemind:void executeAction(QActionPair;) | execute action
+../3-Phrases/freemind:CONS FreemindAction(QString;QIcon;QModeController;) | freemind action
+../3-Phrases/freemind:CONS FreemindAction(QString;QString;QModeController;) | freemind action
+../3-Phrases/freemind:void executeAction(QActionPair;) | execute action
+../3-Phrases/freemind:CONS AbstractXmlAction(QString;QIcon;QModeController;) | abstract xml action
+../3-Phrases/freemind:java.util.List getMenuCategoryOrMenuSubmenuOrMenuAction() | get menu category or menu submenu or menu action
+../3-Phrases/freemind:java.util.List getPluginAction() | get plugin action
+../3-Phrases/freemind:java.util.List getCompoundActionOrSelectNodeActionOrCutNodeAction() | get compound action or select node action or cut node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.DeleteNodeAction createDeleteNodeAction() | create delete node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.RevertXmlAction createRevertXmlAction() | create revert xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.TextNodeAction createTextNodeAction() | create text node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.HookNodeAction createHookNodeAction() | create hook node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.MenuAction createMenuAction() | create menu action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.CutNodeAction createCutNodeAction() | create cut node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.EditNodeAction createEditNodeAction() | create edit node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.SelectNodeAction createSelectNodeAction() | create select node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.ArrowLinkPointXmlAction createArrowLinkPointXmlAction() | create arrow link point xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.EdgeColorFormatAction createEdgeColorFormatAction() | create edge color format action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.FontNodeAction createFontNodeAction() | create font node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.BoldNodeAction createBoldNodeAction() | create bold node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.UnderlinedNodeAction createUnderlinedNodeAction() | create underlined node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PasteNodeAction createPasteNodeAction() | create paste node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginAction createPluginAction() | create plugin action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.CollaborationAction createCollaborationAction() | create collaboration action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.AddIconAction createAddIconAction() | create add icon action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.XmlAction createXmlAction() | create xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.FontSizeNodeAction createFontSizeNodeAction() | create font size node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.RemoveAllIconsXmlAction createRemoveAllIconsXmlAction() | create remove all icons xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.EdgeWidthFormatAction createEdgeWidthFormatAction() | create edge width format action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.NewNodeAction createNewNodeAction() | create new node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.AddCloudXmlAction createAddCloudXmlAction() | create add cloud xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.FormatNodeAction createFormatNodeAction() | create format node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.CloudColorXmlAction createCloudColorXmlAction() | create cloud color xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.ArrowLinkColorXmlAction createArrowLinkColorXmlAction() | create arrow link color xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.NodeColorFormatAction createNodeColorFormatAction() | create node color format action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.NodeBackgroundColorFormatAction createNodeBackgroundColorFormatAction() | create node background color format action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.RemoveLastIconXmlAction createRemoveLastIconXmlAction() | create remove last icon xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.CompoundAction createCompoundAction() | create compound action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.MoveNodesAction createMoveNodesAction() | create move nodes action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.EdgeStyleFormatAction createEdgeStyleFormatAction() | create edge style format action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.AddArrowLinkXmlAction createAddArrowLinkXmlAction() | create add arrow link xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.ItalicNodeAction createItalicNodeAction() | create italic node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.NodeAction createNodeAction() | create node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.NodeStyleFormatAction createNodeStyleFormatAction() | create node style format action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.ArrowLinkArrowXmlAction createArrowLinkArrowXmlAction() | create arrow link arrow xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.MenuCheckedAction createMenuCheckedAction() | create menu checked action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.UndoXmlAction createUndoXmlAction() | create undo xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.AddLinkXmlAction createAddLinkXmlAction() | create add link xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.RemoveArrowLinkXmlAction createRemoveArrowLinkXmlAction() | create remove arrow link xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.MoveNodeXmlAction createMoveNodeXmlAction() | create move node xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.FoldAction createFoldAction() | create fold action
+../3-Phrases/freemind:java.util.List getCompoundActionOrSelectNodeActionOrCutNodeAction() | get compound action or select node action or cut node action
+../3-Phrases/freemind:java.util.List getMenuCategoryOrMenuSubmenuOrMenuAction() | get menu category or menu submenu or menu action
+../3-Phrases/freemind:java.util.List getPluginAction() | get plugin action
+../3-Phrases/freemind:void decorateAction(QString;QAbstractAction;) | decorate action
+../3-Phrases/freemind:boolean isUndoAction() | is undo action
+../3-Phrases/freemind:void OpenAction(QControllerAdapter;) | open action
+../3-Phrases/freemind:void SaveAction(QControllerAdapter;) | save action
+../3-Phrases/freemind:void SaveAsAction(QControllerAdapter;) | save as action
+../3-Phrases/freemind:void ModeControllerHookAction(QString;QModeController;) | mode controller hook action
+../3-Phrases/freemind:void EditLongAction() | edit long action
+../3-Phrases/freemind:void SetLinkByFileChooserAction() | set link by file chooser action
+../3-Phrases/freemind:void SetImageByFileChooserAction() | set image by file chooser action
+../3-Phrases/freemind:void FollowLinkAction() | follow link action
+../3-Phrases/freemind:boolean isUndoAction() | is undo action
+../3-Phrases/freemind:CONS NodeDownAction(QControllerAdapter;) | node down action
+../3-Phrases/freemind:CONS ApplyPatternAction(QModeController;QStylePattern;) | apply pattern action
+../3-Phrases/freemind:CONS CopyAction(QControllerAdapter;) | copy action
+../3-Phrases/freemind:CONS UndoAction(QControllerAdapter;) | undo action
+../3-Phrases/freemind:CONS UndoAction(QControllerAdapter;QString;QIcon;QModeController;) | undo action
+../3-Phrases/freemind:boolean isUndoAction() | is undo action
+../3-Phrases/freemind:void undoDoAction(QActionPair;) | undo do action
+../3-Phrases/freemind:CONS ToggleFoldedAction(QControllerAdapter;) | toggle folded action
+../3-Phrases/freemind:CompoundAction createFoldAction(QListIterator;ZZ) | create fold action
+../3-Phrases/freemind:FoldAction createSingleFoldAction(ZQMindMapNode;Z) | create single fold action
+../3-Phrases/freemind:CONS ImportExplorerFavoritesAction(QModeController;) | import explorer favorites action
+../3-Phrases/freemind:CONS RemoveLastIconAction(QModeController;) | remove last icon action
+../3-Phrases/freemind:RemoveLastIconXmlAction createRemoveLastIconXmlAction(QMindMapNode;) | create remove last icon xml action
+../3-Phrases/freemind:void setIconAction(QIconAction;) | set icon action
+../3-Phrases/freemind:CONS UnderlinedAction(QControllerAdapter;) | underlined action
+../3-Phrases/freemind:CONS ToggleChildrenFoldedAction(QControllerAdapter;) | toggle children folded action
+../3-Phrases/freemind:CONS NodeColorBlendAction(QControllerAdapter;) | node color blend action
+../3-Phrases/freemind:CONS NewChildAction(QControllerAdapter;) | new child action
+../3-Phrases/freemind:NewNodeAction getAddNodeAction(QMindMapNode;IQString;Qfreemind.main.Tools.BooleanHolder;) | get add node action
+../3-Phrases/freemind:CONS EdgeStyleAction(QModeController;QString;) | edge style action
+../3-Phrases/freemind:EdgeStyleFormatAction createNodeStyleFormatAction(QMindMapNode;QString;) | create node style format action
+../3-Phrases/freemind:CONS DeleteChildAction(QControllerAdapter;) | delete child action
+../3-Phrases/freemind:DeleteNodeAction getDeleteNodeAction(QString;) | get delete node action
+../3-Phrases/freemind:CONS CloudColorAction(QModeController;) | cloud color action
+../3-Phrases/freemind:CloudColorXmlAction createCloudColorXmlAction(QMindMapNode;QColor;) | create cloud color xml action
+../3-Phrases/freemind:CONS MoveNodeAction(QControllerAdapter;) | move node action
+../3-Phrases/freemind:CONS FontSizeAction(QControllerAdapter;) | font size action
+../3-Phrases/freemind:FontSizeNodeAction createFontSizeNodeAction(QMindMapNode;QString;) | create font size node action
+../3-Phrases/freemind:CONS NodeGeneralAction(QModeController;QString;QString;) | node general action
+../3-Phrases/freemind:CONS NodeGeneralAction(QModeController;QString;QString;QSingleNodeOperation;) | node general action
+../3-Phrases/freemind:CONS NodeGeneralAction(QModeController;QString;QString;Qfreemind.controller.actions.NodeActorXml;) | node general action
+../3-Phrases/freemind:void setRemoveAction(QRemoveArrowLinkAction;) | set remove action
+../3-Phrases/freemind:CONS AddArrowLinkAction(QModeController;) | add arrow link action
+../3-Phrases/freemind:AddArrowLinkXmlAction createAddArrowLinkXmlAction(QMindMapNode;QMindMapNode;QString;) | create add arrow link xml action
+../3-Phrases/freemind:CONS NodeColorAction(QModeController;) | node color action
+../3-Phrases/freemind:NodeColorFormatAction createNodeColorFormatAction(QMindMapNode;QColor;) | create node color format action
+../3-Phrases/freemind:CONS FindAction(QModeController;) | find action
+../3-Phrases/freemind:void FindNextAction(QModeController;QFindAction;) | find next action
+../3-Phrases/freemind:CONS EdgeColorAction(QModeController;) | edge color action
+../3-Phrases/freemind:EdgeColorFormatAction createEdgeColorFormatAction(QMindMapNode;QColor;) | create edge color format action
+../3-Phrases/freemind:CONS NewMapAction(QControllerAdapter;QControllerAdapter;) | new map action
+../3-Phrases/freemind:CONS SelectAllAction(QModeController;) | select all action
+../3-Phrases/freemind:CONS RevertAction(QModeController;) | revert action
+../3-Phrases/freemind:RevertXmlAction createRevertXmlAction(QFile;) | create revert xml action
+../3-Phrases/freemind:RevertXmlAction createRevertXmlAction(QMindMap;QString;QString;) | create revert xml action
+../3-Phrases/freemind:RevertXmlAction createRevertXmlAction(QString;QString;QString;) | create revert xml action
+../3-Phrases/freemind:CONS ImportFolderStructureAction(QModeController;) | import folder structure action
+../3-Phrases/freemind:CONS RemoveArrowLinkAction(QModeController;QMindMapArrowLinkModel;) | remove arrow link action
+../3-Phrases/freemind:RemoveArrowLinkXmlAction createRemoveArrowLinkXmlAction(QString;) | create remove arrow link xml action
+../3-Phrases/freemind:AddArrowLinkXmlAction createAddArrowLinkXmlAction(QMindMapLink;) | create add arrow link xml action
+../3-Phrases/freemind:CONS NodeUpAction(QControllerAdapter;) | node up action
+../3-Phrases/freemind:MoveNodesAction createMoveNodesAction(QMindMapNode;QList;I) | create move nodes action
+../3-Phrases/freemind:CONS EdgeWidthAction(QModeController;I) | edge width action
+../3-Phrases/freemind:EdgeWidthFormatAction createEdgeWidthFormatAction(QMindMapNode;I) | create edge width format action
+../3-Phrases/freemind:CONS IconAction(QModeController;QMindIcon;QRemoveLastIconAction;) | icon action
+../3-Phrases/freemind:AddIconAction createAddIconAction(QMindMapNode;QMindIcon;) | create add icon action
+../3-Phrases/freemind:CONS NewSiblingAction(QControllerAdapter;) | new sibling action
+../3-Phrases/freemind:ArrowLinkPointXmlAction createArrowLinkPointXmlAction(QMindMapArrowLink;QPoint;QPoint;) | create arrow link point xml action
+../3-Phrases/freemind:CONS SelectBranchAction(QModeController;) | select branch action
+../3-Phrases/freemind:CONS EditAction(QControllerAdapter;) | edit action
+../3-Phrases/freemind:CONS ChangeArrowsInArrowLinkAction(QModeController;QString;QString;QMindMapArrowLinkModel;ZZ) | change arrows in arrow link action
+../3-Phrases/freemind:ArrowLinkArrowXmlAction createArrowLinkArrowXmlAction(QMindMapArrowLinkModel;ZZ) | create arrow link arrow xml action
+../3-Phrases/freemind:ArrowLinkArrowXmlAction createArrowLinkArrowXmlAction(QMindMapArrowLinkModel;QString;QString;) | create arrow link arrow xml action
+../3-Phrases/freemind:CONS GotoLinkNodeAction(QModeController;QMindMapNode;) | goto link node action
+../3-Phrases/freemind:CONS ColorArrowLinkAction(QModeController;QMindMapArrowLinkModel;) | color arrow link action
+../3-Phrases/freemind:ArrowLinkColorXmlAction createArrowLinkColorXmlAction(QMindMapLink;QColor;) | create arrow link color xml action
+../3-Phrases/freemind:CONS BoldAction(QControllerAdapter;) | bold action
+../3-Phrases/freemind:CONS NewPreviousSiblingAction(QControllerAdapter;) | new previous sibling action
+../3-Phrases/freemind:CONS AddLocalLinkAction(QModeController;) | add local link action
+../3-Phrases/freemind:CONS FontFamilyAction(QControllerAdapter;) | font family action
+../3-Phrases/freemind:FontNodeAction createFontNodeAction(QMindMapNode;QString;) | create font node action
+../3-Phrases/freemind:CONS CloudAction(QModeController;) | cloud action
+../3-Phrases/freemind:AddCloudXmlAction createAddCloudXmlAction(QMindMapNode;ZQColor;) | create add cloud xml action
+../3-Phrases/freemind:CONS NodeStyleAction(QModeController;QString;) | node style action
+../3-Phrases/freemind:NodeStyleFormatAction createNodeStyleFormatAction(QMindMapNode;QString;) | create node style format action
+../3-Phrases/freemind:CONS RemoveAllIconsAction(QModeController;QIconAction;) | remove all icons action
+../3-Phrases/freemind:RemoveAllIconsXmlAction createRemoveAllIconsXmlAction(QMindMapNode;) | create remove all icons xml action
+../3-Phrases/freemind:CONS NodeBackgroundColorAction(QModeController;) | node background color action
+../3-Phrases/freemind:void RemoveNodeBackgroundColorAction(QModeController;) | remove node background color action
+../3-Phrases/freemind:NodeBackgroundColorFormatAction createNodeBackgroundColorFormatAction(QMindMapNode;QColor;) | create node background color format action
+../3-Phrases/freemind:CONS CutAction(QControllerAdapter;) | cut action
+../3-Phrases/freemind:CutNodeAction getCutNodeAction(QTransferable;QMindMapNode;) | get cut node action
+../3-Phrases/freemind:CutNodeAction getCutNodeAction(QTransferable;QNodeCoordinate;) | get cut node action
+../3-Phrases/freemind:CONS NodeHookAction(QString;QModeController;) | node hook action
+../3-Phrases/freemind:HookNodeAction createHookNodeAction(QMindMapNode;QList;QString;) | create hook node action
+../3-Phrases/freemind:CONS PasteAction(QControllerAdapter;) | paste action
+../3-Phrases/freemind:PasteNodeAction getPasteNodeAction(QTransferable;QNodeCoordinate;) | get paste node action
+../3-Phrases/freemind:CONS CopySingleAction(QControllerAdapter;) | copy single action
+../3-Phrases/freemind:CONS ItalicAction(QControllerAdapter;) | italic action
+../3-Phrases/freemind:CONS RedoAction(QControllerAdapter;) | redo action
+../3-Phrases/freemind:CONS JoinNodesAction(QModeController;) | join nodes action
+../3-Phrases/freemind:CONS SetLinkByTextFieldAction(QModeController;) | set link by text field action
+../3-Phrases/freemind:AddLinkXmlAction createAddLinkXmlAction(QMindMapNode;QString;) | create add link xml action
+../3-Phrases/freemind:GotoLinkNodeAction getGotoLinkNodeAction(QMindMapNode;) | get goto link node action
+../3-Phrases/freemind:void FollowLinkAction() | follow link action
+../3-Phrases/freemind:void CenterAction() | center action
+../3-Phrases/freemind:void OpenPathAction() | open path action
+../3-Phrases/freemind:void ExportToHTMLAction(QMindMapController;) | export to html action
+../3-Phrases/freemind:void ExportBranchToHTMLAction(QMindMapController;) | export branch to html action
+../3-Phrases/freemind:void ExportBranchAction() | export branch action
+../3-Phrases/freemind:void ImportBranchAction() | import branch action
+../3-Phrases/freemind:void ImportLinkedBranchAction() | import linked branch action
+../3-Phrases/freemind:void ImportLinkedBranchWithoutRootAction() | import linked branch without root action
+../3-Phrases/freemind:void FollowLinkAction() | follow link action
+../3-Phrases/freemind:void EvaluateAction() | evaluate action
+../3-Phrases/freemind:void ChangeTabAction(QCardLayout;QJPanel;QString;) | change tab action
+../3-Phrases/freemind:void EditCopyAction(QJTextComponent;) | edit copy action
+../3-Phrases/freemind:CollaborationAction createCollaborationAction(QString;QString;) | create collaboration action
+../3-Phrases/freemind:ActionPair filterAction(QActionPair;) | filter action
+../3-Phrases/gantt:Action getCopyAction() | get copy action
+../3-Phrases/gantt:Action getCutAction() | get cut action
+../3-Phrases/gantt:Action getPasteAction() | get paste action
+../3-Phrases/gantt:void ProxyOkAction(QAction;QJDialog;QCommiter;) | proxy ok action
+../3-Phrases/gantt:Action createOkAction(QAction;QJDialog;QCommiter;) | create ok action
+../3-Phrases/gantt:Action createCancelAction(QAction;QJDialog;QCommiter;) | create cancel action
+../3-Phrases/gantt:Action getScrollCenterAction(QScrollingManager;QTaskSelectionManager;QString;) | get scroll center action
+../3-Phrases/gantt:void ScrollGanttChartCenterAction(QScrollingManager;QTaskSelectionManager;QString;) | scroll gantt chart center action
+../3-Phrases/gantt:Action createMenuAction(QString;QString;) | create menu action
+../3-Phrases/gantt:Action getIndentAction() | get indent action
+../3-Phrases/gantt:Action getUnindentAction() | get unindent action
+../3-Phrases/gantt:Action getMoveDownAction() | get move down action
+../3-Phrases/gantt:Action getMoveUpAction() | get move up action
+../3-Phrases/gantt:void setLinkTasksAction(QAction;) | set link tasks action
+../3-Phrases/gantt:Action getLinkTasksAction() | get link tasks action
+../3-Phrases/gantt:void setUnlinkTasksAction(QAction;) | set unlink tasks action
+../3-Phrases/gantt:Action getUnlinkTasksAction() | get unlink tasks action
+../3-Phrases/gantt:void setTaskPropertiesAction(QAction;) | set task properties action
+../3-Phrases/gantt:Action getTaskPropertiesAction() | get task properties action
+../3-Phrases/gantt:Action getMoveUpAction() | get move up action
+../3-Phrases/gantt:Action getMoveDownAction() | get move down action
+../3-Phrases/gantt:Action getResourcePropertiesAction() | get resource properties action
+../3-Phrases/gantt:void setTaskPropertiesAction(QAction;) | set task properties action
+../3-Phrases/gantt:Action getTaskPropertiesAction() | get task properties action
+../3-Phrases/gantt:AbstractAction getActiveAction() | get active action
+../3-Phrases/gantt:Action getCopyAction() | get copy action
+../3-Phrases/gantt:Action getCutAction() | get cut action
+../3-Phrases/gantt:Action getPasteAction() | get paste action
+../3-Phrases/gantt:void setAction(QAction;) | set action
+../3-Phrases/gantt:void addAction(QAction;QKeyStroke;) | add action
+../3-Phrases/gantt:Action getOptionsDialogAction() | get options dialog action
+../3-Phrases/gantt:Action getCopyAction() | get copy action
+../3-Phrases/gantt:Action getCutAction() | get cut action
+../3-Phrases/gantt:Action getPasteAction() | get paste action
+../3-Phrases/gantt:void setAction(QAction;) | set action
+../3-Phrases/gantt:CONS NewArtefactAction(QActiveActionProvider;QString;) | new artefact action
+../3-Phrases/gantt:AbstractAction getActiveAction() | get active action
+../3-Phrases/gantt:CONS ScrollGanttChartLeftAction(QScrollingManager;QString;) | scroll gantt chart left action
+../3-Phrases/gantt:CONS AddBlankLineAction(QGanttTree2;) | add blank line action
+../3-Phrases/gantt:CONS UndoAction(QGPUndoManager;QString;QGanttProject;) | undo action
+../3-Phrases/gantt:CONS RefreshViewAction(QUIFacade;QGanttOptions;) | refresh view action
+../3-Phrases/gantt:Action getDeleteHumanAction() | get delete human action
+../3-Phrases/gantt:CONS RedoAction(QGPUndoManager;QString;QGanttProject;) | redo action
+../3-Phrases/gantt:CONS ZoomInAction(QZoomManager;QString;) | zoom in action
+../3-Phrases/gantt:CONS NewTaskAction(QIGanttProject;) | new task action
+../3-Phrases/gantt:CONS OkAction() | ok action
+../3-Phrases/gantt:CONS ResourceAction(QResourceManager;) | resource action
+../3-Phrases/gantt:CONS CalculateCriticalPathAction(QTaskManager;QGanttTree2;QGanttOptions;QUIConfiguration;QGanttProject;) | calculate critical path action
+../3-Phrases/gantt:CONS NewHumanAction(QResourceManager;QRoleManager;QJFrame;QGanttProject;) | new human action
+../3-Phrases/gantt:CONS CancelAction() | cancel action
+../3-Phrases/gantt:CONS DeleteHumanAction(QResourceManager;QResourceContext;QGanttProject;QUIFacade;) | delete human action
+../3-Phrases/gantt:CONS SwitchViewAction(QGanttProject;) | switch view action
+../3-Phrases/gantt:CONS DeleteAssignmentAction(QResourceManager;QAssignmentContext;QGanttProject;) | delete assignment action
+../3-Phrases/gantt:CONS ScrollGanttChartRightAction(QScrollingManager;QString;) | scroll gantt chart right action
+../3-Phrases/gantt:CONS GPAction() | gp action
+../3-Phrases/gantt:CONS GPAction(QString;QString;) | gp action
+../3-Phrases/gantt:CONS GPAction(QString;) | gp action
+../3-Phrases/gantt:CONS ZoomOutAction(QZoomManager;QString;) | zoom out action
+../3-Phrases/gantt:CONS SaveURLAction(QGanttProject;) | save url action
+../3-Phrases/gantt:GPAction getNewProjectAction() | get new project action
+../3-Phrases/gantt:GPAction getOpenProjectAction() | get open project action
+../3-Phrases/gantt:GPAction getSaveProjectAction() | get save project action
+../3-Phrases/gantt:GPAction getSaveProjectAsAction() | get save project as action
+../3-Phrases/gantt:GPAction getOpenURLAction() | get open url action
+../3-Phrases/gantt:GPAction getExitAction() | get exit action
+../3-Phrases/gantt:GPAction getSaveURLAction() | get save url action
+../3-Phrases/gantt:GPAction getPrintAction() | get print action
+../3-Phrases/gantt:CONS SaveProjectAsAction(QGanttProject;) | save project as action
+../3-Phrases/gantt:CONS OpenURLAction(QGanttProject;) | open url action
+../3-Phrases/gantt:CONS PrintAction(QGanttProject;) | print action
+../3-Phrases/gantt:CONS ExitAction(QGanttProject;) | exit action
+../3-Phrases/gantt:CONS SaveProjectAction(QGanttProject;) | save project action
+../3-Phrases/gantt:CONS OpenProjectAction(QGanttProject;) | open project action
+../3-Phrases/gantt:CONS NewProjectAction(QGanttProject;) | new project action
+../3-Phrases/gantt:CONS ResourcePropertiesAction(QIGanttProject;QUIFacade;) | resource properties action
+../3-Phrases/gantt:CONS UnlinkTasksAction(QTaskManager;QTaskSelectionManager;QUIFacade;) | unlink tasks action
+../3-Phrases/gantt:CONS LinkTasksAction(QTaskManager;QTaskSelectionManager;QUIFacade;) | link tasks action
+../3-Phrases/gantt:CONS TaskPropertiesAction(QIGanttProject;QTaskSelectionManager;QUIFacade;) | task properties action
+../3-Phrases/gantt:CONS ToggleChartAction(QChart;QGPViewManager;) | toggle chart action
+../3-Phrases/gantt:CONS OptionsDialogAction([QGPOptionGroup;QUIFacade;) | options dialog action
+../3-Phrases/gantt:CONS PublicHolidayDialogAction(QIGanttProject;QUIFacade;) | public holiday dialog action
+../3-Phrases/gantt:CONS OpenDocumentAction(IQDocument;QActionListener;) | open document action
+../3-Phrases/gantt:boolean canEnableTestAction(QGPOptionGroup;) | can enable test action
+../3-Phrases/gantt:CONS ExportFileAction(QUIFacade;QIGanttProject;QGanttOptions;) | export file action
+../3-Phrases/gantt:Action getMoveUpAction() | get move up action
+../3-Phrases/gantt:Action getMoveDownAction() | get move down action
+../3-Phrases/gantt:Action getIndentAction() | get indent action
+../3-Phrases/gantt:Action getUnindentAction() | get unindent action
+../3-Phrases/gantt:Action getMoveUpAction() | get move up action
+../3-Phrases/gantt:Action getMoveDownAction() | get move down action
+../3-Phrases/gantt:void setLinkTasksAction(QAction;) | set link tasks action
+../3-Phrases/gantt:void setUnlinkTasksAction(QAction;) | set unlink tasks action
+../3-Phrases/gantt:CONS BooleanOptionAction(QBooleanOption;) | boolean option action
+../3-Phrases/gantt:void CheckBoxAction(IQString;QButtonModel;) | check box action
+../3-Phrases/gantt:void NextAction() | next action
+../3-Phrases/gantt:void BackAction() | back action
+../3-Phrases/gantt:CONS ImportFileAction(QUIFacade;QGanttProject;) | import file action
+../3-Phrases/hibernate-3.3.1.GA:CONS EntityDeleteAction(QSerializable;[QObject;QObject;QObject;QEntityPersister;ZQSessionImplementor;) | entity delete action
+../3-Phrases/hibernate-3.3.1.GA:CONS CollectionAction(QCollectionPersister;QPersistentCollection;QSerializable;QSessionImplementor;) | collection action
+../3-Phrases/hibernate-3.3.1.GA:CONS EntityIdentityInsertAction([QObject;QObject;QEntityPersister;QSessionImplementor;Z) | entity identity insert action
+../3-Phrases/hibernate-3.3.1.GA:CONS EntityUpdateAction(QSerializable;[QObject;[IZ[QObject;QObject;QObject;QObject;QObject;QEntityPersister;QSessionImplementor;) | entity update action
+../3-Phrases/hibernate-3.3.1.GA:CONS CollectionRecreateAction(QPersistentCollection;QCollectionPersister;QSerializable;QSessionImplementor;) | collection recreate action
+../3-Phrases/hibernate-3.3.1.GA:CONS EntityInsertAction(QSerializable;[QObject;QObject;QObject;QEntityPersister;QSessionImplementor;) | entity insert action
+../3-Phrases/hibernate-3.3.1.GA:CONS BulkOperationCleanupAction(QSessionImplementor;[QQueryable;) | bulk operation cleanup action
+../3-Phrases/hibernate-3.3.1.GA:CONS BulkOperationCleanupAction(QSessionImplementor;QSet;) | bulk operation cleanup action
+../3-Phrases/hibernate-3.3.1.GA:CONS EntityAction(QSessionImplementor;QSerializable;QObject;QEntityPersister;) | entity action
+../3-Phrases/hibernate-3.3.1.GA:CONS CollectionUpdateAction(QPersistentCollection;QCollectionPersister;QSerializable;ZQSessionImplementor;) | collection update action
+../3-Phrases/hibernate-3.3.1.GA:CONS CollectionRemoveAction(QPersistentCollection;QCollectionPersister;QSerializable;ZQSessionImplementor;) | collection remove action
+../3-Phrases/hibernate-3.3.1.GA:CONS CollectionRemoveAction(QObject;QCollectionPersister;QSerializable;ZQSessionImplementor;) | collection remove action
+../3-Phrases/hibernate-3.3.1.GA:void postAction() | post action
+../3-Phrases/hibernate-3.3.1.GA:void postAction() | post action
+../3-Phrases/hibernate-3.3.1.GA:void afterAction(QPersistentCollection;) | after action
+../3-Phrases/hibernate-3.3.1.GA:CONS CascadingAction() | cascading action
+../3-Phrases/hibernate-3.3.1.GA:void addAction(QEntityInsertAction;) | add action
+../3-Phrases/hibernate-3.3.1.GA:void addAction(QEntityDeleteAction;) | add action
+../3-Phrases/hibernate-3.3.1.GA:void addAction(QEntityUpdateAction;) | add action
+../3-Phrases/hibernate-3.3.1.GA:void addAction(QCollectionRecreateAction;) | add action
+../3-Phrases/hibernate-3.3.1.GA:void addAction(QCollectionRemoveAction;) | add action
+../3-Phrases/hibernate-3.3.1.GA:void addAction(QCollectionUpdateAction;) | add action
+../3-Phrases/hibernate-3.3.1.GA:void addAction(QEntityIdentityInsertAction;) | add action
+../3-Phrases/hibernate-3.3.1.GA:void addAction(QBulkOperationCleanupAction;) | add action
+../3-Phrases/hibernate-3.3.1.GA:CascadingAction getCascadeAction() | get cascade action
+../3-Phrases/hibernate-3.3.1.GA:CascadingAction getCascadeAction() | get cascade action
+../3-Phrases/hibernate-3.3.1.GA:CascadingAction getCascadeAction() | get cascade action
+../3-Phrases/hibernate-3.3.1.GA:CascadingAction getCascadeAction() | get cascade action
+../3-Phrases/hibernate-3.3.1.GA:CascadingAction getCascadingAction() | get cascading action
+../3-Phrases/hibernate-3.3.1.GA:CascadingAction getCascadeAction() | get cascade action
+../3-Phrases/hibernate-3.3.1.GA:CascadingAction getCascadeAction() | get cascade action
+../3-Phrases/hibernate-3.3.1.GA:CascadingAction getCascadeAction() | get cascade action
+../3-Phrases/hsqldb:int getDeleteAction() | get delete action
+../3-Phrases/hsqldb:int getUpdateAction() | get update action
+../3-Phrases/hsqldb:void logAction(QSession;) | log action
+../3-Phrases/hsqldb:String getFKAction(I) | get fk action
+../3-Phrases/hsqldb:boolean addDeleteAction(QTable;QRow;) | add delete action
+../3-Phrases/hsqldb:boolean addInsertAction(QTable;QRow;) | add insert action
+../3-Phrases/iReport:void postAction() | post action
+../3-Phrases/iReport:int getAction() | get action
+../3-Phrases/iReport:void setAction(I) | set action
+../3-Phrases/iReport:int getAction() | get action
+../3-Phrases/iReport:void setAction(I) | set action
+../3-Phrases/iReport:int getAction() | get action
+../3-Phrases/iReport:void setAction(I) | set action
+../3-Phrases/iReport:int getAction() | get action
+../3-Phrases/iReport:void setAction(I) | set action
+../3-Phrases/iReport:ActionListener getAction(QString;) | get action
+../3-Phrases/iReport:void executeAction(QActionListener;QObject;QString;) | execute action
+../3-Phrases/iReport:void handleGrabAction(QKeyEvent;) | handle grab action
+../3-Phrases/Jabref:void OkAction() | ok action
+../3-Phrases/Jabref:void CancelAction() | cancel action
+../3-Phrases/Jabref:void addAction(QAction;) | add action
+../3-Phrases/Jabref:void AboutAction() | about action
+../3-Phrases/Jabref:void GeneralAction(QString;QString;QString;QURL;) | general action
+../3-Phrases/Jabref:void GeneralAction(QString;QString;QString;QString;QKeyStroke;) | general action
+../3-Phrases/Jabref:void GeneralAction(QString;QString;) | general action
+../3-Phrases/Jabref:void GeneralAction(QString;QString;QKeyStroke;) | general action
+../3-Phrases/Jabref:void GeneralAction(QString;QString;QString;) | general action
+../3-Phrases/Jabref:void GeneralAction(QString;QString;QString;QKeyStroke;) | general action
+../3-Phrases/Jabref:void NewEntryAction(QKeyStroke;) | new entry action
+../3-Phrases/Jabref:void NewEntryAction(QString;) | new entry action
+../3-Phrases/Jabref:void NewEntryAction(QString;QKeyStroke;) | new entry action
+../3-Phrases/Jabref:void SelectKeysAction() | select keys action
+../3-Phrases/Jabref:void CloseAction() | close action
+../3-Phrases/Jabref:void CloseDatabaseAction() | close database action
+../3-Phrases/Jabref:void NewDatabaseAction() | new database action
+../3-Phrases/Jabref:void ImportCiteSeerAction() | import cite seer action
+../3-Phrases/Jabref:void FetchCiteSeerAction() | fetch cite seer action
+../3-Phrases/Jabref:void NewSubDatabaseAction() | new sub database action
+../3-Phrases/Jabref:void IntegrityCheckAction() | integrity check action
+../3-Phrases/Jabref:void ShowPrefsAction() | show prefs action
+../3-Phrases/Jabref:void SaveSessionAction() | save session action
+../3-Phrases/Jabref:void LoadSessionAction() | load session action
+../3-Phrases/Jabref:void ChangeTabAction(Z) | change tab action
+../3-Phrases/Jabref:void EditAction(QString;QURL;) | edit action
+../3-Phrases/Jabref:void CustomizeExportsAction() | customize exports action
+../3-Phrases/Jabref:void CustomizeImportsAction() | customize imports action
+../3-Phrases/Jabref:void CustomizeEntryTypeAction() | customize entry type action
+../3-Phrases/Jabref:void GenFieldsCustomizationAction() | gen fields customization action
+../3-Phrases/Jabref:void DatabasePropertiesAction() | database properties action
+../3-Phrases/Jabref:void IncreaseTableFontSizeAction() | increase table font size action
+../3-Phrases/Jabref:void DecreaseTableFontSizeAction() | decrease table font size action
+../3-Phrases/Jabref:boolean getAction() | get action
+../3-Phrases/Jabref:CONS HelpAction(QHelpDialog;QString;) | help action
+../3-Phrases/Jabref:CONS HelpAction(QHelpDialog;QString;QString;) | help action
+../3-Phrases/Jabref:CONS HelpAction(QHelpDialog;QString;QString;QURL;) | help action
+../3-Phrases/Jabref:CONS HelpAction(QString;QHelpDialog;QString;QString;) | help action
+../3-Phrases/Jabref:CONS HelpAction(QString;QHelpDialog;QString;QString;QKeyStroke;) | help action
+../3-Phrases/Jabref:CONS HelpAction(QString;QHelpDialog;QString;QString;QURL;) | help action
+../3-Phrases/Jabref:void BasicAction(QString;QString;QURL;) | basic action
+../3-Phrases/Jabref:void BasicAction(QString;QString;QURL;QKeyStroke;) | basic action
+../3-Phrases/Jabref:void BasicAction(QString;) | basic action
+../3-Phrases/Jabref:void BasicAction(QString;QKeyStroke;) | basic action
+../3-Phrases/Jabref:void PasteAction() | paste action
+../3-Phrases/Jabref:void CopyAction() | copy action
+../3-Phrases/Jabref:void ReplaceAction() | replace action
+../3-Phrases/Jabref:void DeleteAction() | delete action
+../3-Phrases/Jabref:void CloseAction() | close action
+../3-Phrases/Jabref:void CopyKeyAction() | copy key action
+../3-Phrases/Jabref:void StoreFieldAction() | store field action
+../3-Phrases/Jabref:void SwitchLeftAction() | switch left action
+../3-Phrases/Jabref:void SwitchRightAction() | switch right action
+../3-Phrases/Jabref:void NextEntryAction() | next entry action
+../3-Phrases/Jabref:void PrevEntryAction() | prev entry action
+../3-Phrases/Jabref:void GenerateKeyAction(QJabRefFrame;) | generate key action
+../3-Phrases/Jabref:void UndoAction() | undo action
+../3-Phrases/Jabref:void RedoAction() | redo action
+../3-Phrases/Jabref:void SaveDatabaseAction() | save database action
+../3-Phrases/Jabref:void ChangeTypeAction(QBibtexEntryType;QBasePanel;) | change type action
+../3-Phrases/Jabref:void AutoSetFileAction() | auto set file action
+../3-Phrases/Jabref:void DeleteRowAction() | delete row action
+../3-Phrases/Jabref:void AddRowAction() | add row action
+../3-Phrases/Jabref:void DeleteRowAction() | delete row action
+../3-Phrases/Jabref:void AddRowAction() | add row action
+../3-Phrases/Jabref:void CloseAction(QStringDialog;) | close action
+../3-Phrases/Jabref:void NewStringAction(QStringDialog;) | new string action
+../3-Phrases/Jabref:void StoreContentAction(QStringDialog;) | store content action
+../3-Phrases/Jabref:void RemoveStringAction(QStringDialog;) | remove string action
+../3-Phrases/Jabref:void UndoAction() | undo action
+../3-Phrases/Jabref:void RedoAction() | redo action
+../3-Phrases/Jabref:void DeleteRowAction() | delete row action
+../3-Phrases/Jabref:void AddRowAction() | add row action
+../3-Phrases/Jabref:void AbstractMoveRowAction(QString;QImageIcon;) | abstract move row action
+../3-Phrases/Jabref:void MoveRowUpAction() | move row up action
+../3-Phrases/Jabref:void MoveRowDownAction() | move row down action
+../3-Phrases/Jabref:void UpdateOrderAction() | update order action
+../3-Phrases/Jabref:void UpdateWidthsAction() | update widths action
+../3-Phrases/Jabref:void MyNextVisualPositionAction(QAction;I) | my next visual position action
+../3-Phrases/Jabref:void newWordAction() | new word action
+../3-Phrases/Jabref:void CloseAction() | close action
+../3-Phrases/Jabref:void BackAction() | back action
+../3-Phrases/Jabref:void ForwardAction() | forward action
+../3-Phrases/Jabref:void ContentsAction() | contents action
+../3-Phrases/Jabref:CONS BrowseAction(QJFrame;QJTextField;Z) | browse action
+../3-Phrases/Jabref:void PrintAction() | print action
+../3-Phrases/Jabref:Action getPrintAction() | get print action
+../3-Phrases/Jabref:void CloseAction() | close action
+../3-Phrases/Jabref:Action getCloseAction() | get close action
+../3-Phrases/Jabref:CONS MnemonicAwareAction() | mnemonic aware action
+../3-Phrases/Jabref:CONS MnemonicAwareAction(QImageIcon;) | mnemonic aware action
+../3-Phrases/Jabref:void StoreFieldAction() | store field action
+../3-Phrases/Jabref:void UndoAction() | undo action
+../3-Phrases/Jabref:void RedoAction() | redo action
+../3-Phrases/Jabref:void CloseAction() | close action
+../3-Phrases/Jabref:AbstractAction getAction(QGroupTreeNode;[QBibtexEntry;ZZ) | get action
+../3-Phrases/Jabref:void ChangeTypeAction(QBibtexEntryType;QBasePanel;) | change type action
+../3-Phrases/Jabref:void CancelAction() | cancel action
+../3-Phrases/Jabref:CONS SaveDatabaseAction(QBasePanel;) | save database action
+../3-Phrases/Jabref:AbstractAction getExportAction(QJabRefFrame;Z) | get export action
+../3-Phrases/Jabref:void ExportAction(QJabRefFrame;Z) | export action
+../3-Phrases/Jabref:CONS ExportToClipboardAction(QJabRefFrame;QBibtexDatabase;) | export to clipboard action
+../3-Phrases/Jabref:CONS SaveAllAction(QJabRefFrame;) | save all action
+../3-Phrases/Jabref:CONS FindFullTextAction(QBasePanel;) | find full text action
+../3-Phrases/Jabref:void performAction(QBasePanel;QParserResult;) | perform action
+../3-Phrases/Jabref:CONS MoveFileAction(QJabRefFrame;QEntryEditor;QFileListEditor;Z) | move file action
+../3-Phrases/Jabref:CONS WriteXMPAction(QBasePanel;) | write xmp action
+../3-Phrases/Jabref:Action getMenuAction() | get menu action
+../3-Phrases/Jabref:void MenuAction() | menu action
+../3-Phrases/Jabref:CONS WriteXMPEntryEditorAction(QBasePanel;QEntryEditor;) | write xmp entry editor action
+../3-Phrases/Jabref:CONS PushToApplicationAction(QJabRefFrame;QPushToApplication;) | push to application action
+../3-Phrases/Jabref:AbstractAction getAction(QJabRefFrame;) | get action
+../3-Phrases/Jabref:AbstractAction getAction(QJDialog;) | get action
+../3-Phrases/Jabref:void EditExternalFileTypesAction(QJabRefFrame;) | edit external file types action
+../3-Phrases/Jabref:void EditExternalFileTypesAction(QJDialog;) | edit external file types action
+../3-Phrases/Jabref:CONS RemoveFromGroupAction(QGroupTreeNode;QBasePanel;) | remove from group action
+../3-Phrases/Jabref:CONS RemoveFromGroupAction() | remove from group action
+../3-Phrases/Jabref:void NodeAction(QString;) | node action
+../3-Phrases/Jabref:void EditGroupAction() | edit group action
+../3-Phrases/Jabref:void AddGroupAction() | add group action
+../3-Phrases/Jabref:void AddSubgroupAction() | add subgroup action
+../3-Phrases/Jabref:void RemoveGroupAndSubgroupsAction() | remove group and subgroups action
+../3-Phrases/Jabref:void RemoveSubgroupsAction() | remove subgroups action
+../3-Phrases/Jabref:void RemoveGroupKeepSubgroupsAction() | remove group keep subgroups action
+../3-Phrases/Jabref:void SortDirectSubgroupsAction() | sort direct subgroups action
+../3-Phrases/Jabref:void SortAllSubgroupsAction() | sort all subgroups action
+../3-Phrases/Jabref:void ExpandSubtreeAction() | expand subtree action
+../3-Phrases/Jabref:void CollapseSubtreeAction() | collapse subtree action
+../3-Phrases/Jabref:void MoveNodeUpAction() | move node up action
+../3-Phrases/Jabref:void MoveNodeDownAction() | move node down action
+../3-Phrases/Jabref:void MoveNodeLeftAction() | move node left action
+../3-Phrases/Jabref:void MoveNodeRightAction() | move node right action
+../3-Phrases/Jabref:CONS AddToGroupAction(QGroupTreeNode;ZQBasePanel;) | add to group action
+../3-Phrases/Jabref:CONS AddToGroupAction(Z) | add to group action
+../3-Phrases/Jabref:CONS SortTabsAction(QJabRefFrame;) | sort tabs action
+../3-Phrases/Jabref:AbstractAction getAction(QGroupTreeNode;) | get action
+../3-Phrases/Jabref:void AddToGroupAction(QGroupTreeNode;) | add to group action
+../3-Phrases/Jabref:Action getAction() | get action
+../3-Phrases/Jabref:void FetcherAction() | fetcher action
+../3-Phrases/Jabref:CONS OpenDatabaseAction(QJabRefFrame;Z) | open database action
+../3-Phrases/Jabref:void performAction(QBasePanel;QParserResult;) | perform action
+../3-Phrases/Jabref:CONS AppendDatabaseAction(QJabRefFrame;QBasePanel;) | append database action
+../3-Phrases/Jabref:void performAction(QBasePanel;QParserResult;) | perform action
+../3-Phrases/Jabref:AbstractAction getImportAction(QJabRefFrame;Z) | get import action
+../3-Phrases/Jabref:void ImportAction(QJabRefFrame;Z) | import action
+../3-Phrases/Jabref:CONS AbbreviateAction(QBasePanel;Z) | abbreviate action
+../3-Phrases/Jabref:CONS UnabbreviateAction(QBasePanel;) | unabbreviate action
+../3-Phrases/Jabref:CONS ManageJournalsAction(QJabRefFrame;) | manage journals action
+../3-Phrases/Jabref:void DownloadAction(QJTextField;) | download action
+../3-Phrases/Jabref:void BrowseAction(QJTextField;Z) | browse action
+../3-Phrases/Jabref:CONS PluginInstallerAction(QJabRefFrame;) | plugin installer action
+../3-Phrases/Jabref:CONS DbConnectAction(QBasePanel;) | db connect action
+../3-Phrases/Jabref:AbstractAction getAction() | get action
+../3-Phrases/Jabref:CONS DbImportAction(QJabRefFrame;) | db import action
+../3-Phrases/Jabref:AbstractAction getAction() | get action
+../3-Phrases/Jabref:void DbImpAction() | db imp action
+../3-Phrases/Jabref:CONS MassSetFieldAction(QJabRefFrame;) | mass set field action
+../3-Phrases/Jabref:void ErrorConsoleAction(QJFrame;) | error console action
+../3-Phrases/Jabref:AbstractAction getAction(QJFrame;) | get action
+../3-Phrases/Jabref:void BrowseAction(QJTextField;QJabRefFrame;) | browse action
+../3-Phrases/Jabref:void PasteAction() | paste action
+../3-Phrases/Jabref:void LoadAction() | load action
+../3-Phrases/Jabref:void ClearAction() | clear action
+../3-Phrases/Jabref:void MenuHeaderAction() | menu header action
+../3-Phrases/Jabref:CONS BasicAction(QString;QString;QURL;) | basic action
+../3-Phrases/Jabref:CONS BasicAction(QString;QString;QURL;QKeyStroke;) | basic action
+../3-Phrases/Jabref:CONS BasicAction(QString;) | basic action
+../3-Phrases/Jabref:CONS BasicAction(QString;QKeyStroke;) | basic action
+../3-Phrases/jajuk:void configurePropertiesFromAction(QAction;) | configure properties from action
+../3-Phrases/jajuk:CONS ShowAboutAction() | show about action
+../3-Phrases/jajuk:CONS TipOfTheDayAction() | tip of the day action
+../3-Phrases/jajuk:CONS NextAlbumAction() | next album action
+../3-Phrases/jajuk:CONS WizardAction() | wizard action
+../3-Phrases/jajuk:CONS PreviousTrackAction() | previous track action
+../3-Phrases/jajuk:CONS PlayPauseAction() | play pause action
+../3-Phrases/jajuk:CONS RewindTrackAction() | rewind track action
+../3-Phrases/jajuk:CONS IncreaseVolumeAction() | increase volume action
+../3-Phrases/jajuk:CONS GlobalRandomAction() | global random action
+../3-Phrases/jajuk:CONS FinishAlbumAction() | finish album action
+../3-Phrases/jajuk:CONS StopTrackAction() | stop track action
+../3-Phrases/jajuk:CONS ExitAction() | exit action
+../3-Phrases/jajuk:CONS PreviousAlbumAction() | previous album action
+../3-Phrases/jajuk:CONS FastForwardTrackAction() | fast forward track action
+../3-Phrases/jajuk:CONS BestOfAction() | best of action
+../3-Phrases/jajuk:CONS ContinueModeAction() | continue mode action
+../3-Phrases/jajuk:CONS QualityAction() | quality action
+../3-Phrases/jajuk:CONS DecreaseVolumeAction() | decrease volume action
+../3-Phrases/jajuk:CONS ShuffleModeAction() | shuffle mode action
+../3-Phrases/jajuk:CONS MuteAction() | mute action
+../3-Phrases/jajuk:CONS HelpRequiredAction() | help required action
+../3-Phrases/jajuk:CONS NextTrackAction() | next track action
+../3-Phrases/jajuk:CONS RepeatModeAction() | repeat mode action
+../3-Phrases/jajuk:CONS DJAction() | dj action
+../3-Phrases/jajuk:CONS RefactorAction(QArrayList<QFile;>;) | refactor action
+../3-Phrases/jajuk:ActionBase getAction(QJajukAction;) | get action
+../3-Phrases/jajuk:void installAction(QJajukAction;QActionBase;Z) | install action
+../3-Phrases/jajuk:CONS IntroModeAction() | intro mode action
+../3-Phrases/jajuk:CONS NoveltiesAction() | novelties action
+../3-Phrases/javaHMO:void MenuAction(QString;QImageIcon;QString;QInteger;) | menu action
+../3-Phrases/jbidwatcher:void messageAction(QObject;) | message action
+../3-Phrases/jbidwatcher:void messageAction(QObject;) | message action
+../3-Phrases/jbidwatcher:void messageAction(QObject;) | message action
+../3-Phrases/jbidwatcher:void DoAction(QObject;QString;QObject;) | do action
+../3-Phrases/jbidwatcher:void DoAction(QObject;QString;QAuctionEntry;) | do action
+../3-Phrases/jbidwatcher:void messageAction(QObject;) | message action
+../3-Phrases/jbidwatcher:void messageAction(QObject;) | message action
+../3-Phrases/jbidwatcher:void DoAction(QString;I) | do action
+../3-Phrases/jbidwatcher:void messageAction(QObject;) | message action
+../3-Phrases/jbidwatcher:void messageAction(QObject;) | message action
+../3-Phrases/jbidwatcher:void messageAction(QObject;) | message action
+../3-Phrases/jbidwatcher:void messageAction(QObject;) | message action
+../3-Phrases/jbidwatcher:void DoAction(QObject;QString;QObject;) | do action
+../3-Phrases/jbidwatcher:void messageAction(QObject;) | message action
+../3-Phrases/jbidwatcher:void messageAction(QObject;) | message action
+../3-Phrases/jbidwatcher:void messageAction(QObject;) | message action
+../3-Phrases/jbidwatcher:void messageAction(QObject;) | message action
+../3-Phrases/jbidwatcher:void DoAction(QString;QObject;) | do action
+../3-Phrases/jbidwatcher:void DoAction(QObject;QString;QObject;) | do action
+../3-Phrases/JHotDraw-7.0.8:Action getAction(QString;) | get action
+../3-Phrases/JHotDraw-7.0.8:void putAction(QString;QAction;) | put action
+../3-Phrases/JHotDraw-7.0.8:Action getAction(QString;) | get action
+../3-Phrases/JHotDraw-7.0.8:void putAction(QString;QAction;) | put action
+../3-Phrases/JHotDraw-7.0.8:void putAction(QString;QAction;) | put action
+../3-Phrases/JHotDraw-7.0.8:Action getAction(QString;) | get action
+../3-Phrases/JHotDraw-7.0.8:Action getAction(QString;) | get action
+../3-Phrases/JHotDraw-7.0.8:void putAction(QString;QAction;) | put action
+../3-Phrases/JHotDraw-7.0.8:CONS AboutAction(QApplication;) | about action
+../3-Phrases/JHotDraw-7.0.8:CONS FocusAction(QProject;) | focus action
+../3-Phrases/JHotDraw-7.0.8:CONS ArrangeAction(QArrangeable;QArrangeable.Arrangement;) | arrange action
+../3-Phrases/JHotDraw-7.0.8:CONS MinimizeAction(QApplication;) | minimize action
+../3-Phrases/JHotDraw-7.0.8:CONS OSXTogglePaletteAction(QDefaultOSXApplication;QWindow;QString;) | osx toggle palette action
+../3-Phrases/JHotDraw-7.0.8:CONS ExportAction(QApplication;) | export action
+../3-Phrases/JHotDraw-7.0.8:CONS ClearRecentFilesAction(QApplication;) | clear recent files action
+../3-Phrases/JHotDraw-7.0.8:CONS ExitAction(QApplication;) | exit action
+../3-Phrases/JHotDraw-7.0.8:CONS AbstractSaveBeforeAction(QApplication;) | abstract save before action
+../3-Phrases/JHotDraw-7.0.8:CONS DeleteAction() | delete action
+../3-Phrases/JHotDraw-7.0.8:CONS AbstractProjectAction(QApplication;) | abstract project action
+../3-Phrases/JHotDraw-7.0.8:CONS ToggleToolBarAction(QJToolBar;QString;) | toggle tool bar action
+../3-Phrases/JHotDraw-7.0.8:CONS ToggleProjectPropertyAction(QApplication;QString;) | toggle project property action
+../3-Phrases/JHotDraw-7.0.8:CONS ToggleProjectPropertyAction(QApplication;QString;QClass;QObject;QObject;) | toggle project property action
+../3-Phrases/JHotDraw-7.0.8:CONS OpenAction(QApplication;) | open action
+../3-Phrases/JHotDraw-7.0.8:CONS SaveAction(QApplication;) | save action
+../3-Phrases/JHotDraw-7.0.8:CONS SaveAction(QApplication;Z) | save action
+../3-Phrases/JHotDraw-7.0.8:CONS LoadAction(QApplication;) | load action
+../3-Phrases/JHotDraw-7.0.8:CONS OSXDropOnDockAction(QApplication;) | osx drop on dock action
+../3-Phrases/JHotDraw-7.0.8:CONS CloseAction(QApplication;) | close action
+../3-Phrases/JHotDraw-7.0.8:CONS MaximizeAction(QApplication;) | maximize action
+../3-Phrases/JHotDraw-7.0.8:CONS ToggleVisibleAction(QComponent;QString;) | toggle visible action
+../3-Phrases/JHotDraw-7.0.8:CONS DuplicateAction() | duplicate action
+../3-Phrases/JHotDraw-7.0.8:CONS ClearAction(QApplication;) | clear action
+../3-Phrases/JHotDraw-7.0.8:CONS CopyAction() | copy action
+../3-Phrases/JHotDraw-7.0.8:CONS RedoAction(QApplication;) | redo action
+../3-Phrases/JHotDraw-7.0.8:Action getRealRedoAction() | get real redo action
+../3-Phrases/JHotDraw-7.0.8:CONS AbstractApplicationAction(QApplication;) | abstract application action
+../3-Phrases/JHotDraw-7.0.8:CONS OpenRecentAction(QApplication;QFile;) | open recent action
+../3-Phrases/JHotDraw-7.0.8:CONS PasteAction() | paste action
+../3-Phrases/JHotDraw-7.0.8:CONS CutAction() | cut action
+../3-Phrases/JHotDraw-7.0.8:CONS SelectAllAction() | select all action
+../3-Phrases/JHotDraw-7.0.8:CONS LoadRecentAction(QApplication;QFile;) | load recent action
+../3-Phrases/JHotDraw-7.0.8:CONS UndoAction(QApplication;) | undo action
+../3-Phrases/JHotDraw-7.0.8:Action getRealRedoAction() | get real redo action
+../3-Phrases/JHotDraw-7.0.8:CONS ProjectPropertyAction(QApplication;QString;QObject;) | project property action
+../3-Phrases/JHotDraw-7.0.8:CONS ProjectPropertyAction(QApplication;QString;QClass;QObject;) | project property action
+../3-Phrases/JHotDraw-7.0.8:CONS PrintAction(QApplication;) | print action
+../3-Phrases/JHotDraw-7.0.8:CONS NewAction(QApplication;) | new action
+../3-Phrases/JHotDraw-7.0.8:CONS SaveAsAction(QApplication;) | save as action
+../3-Phrases/JHotDraw-7.0.8:CONS AbstractEditorAction(QDrawingEditor;) | abstract editor action
+../3-Phrases/JHotDraw-7.0.8:CONS UngroupAction(QDrawingEditor;) | ungroup action
+../3-Phrases/JHotDraw-7.0.8:CONS UngroupAction(QDrawingEditor;QCompositeFigure;) | ungroup action
+../3-Phrases/JHotDraw-7.0.8:CONS GroupAction(QDrawingEditor;) | group action
+../3-Phrases/JHotDraw-7.0.8:CONS GroupAction(QDrawingEditor;QCompositeFigure;) | group action
+../3-Phrases/JHotDraw-7.0.8:CONS ZoomAction(QDrawingEditor;DQAbstractButton;) | zoom action
+../3-Phrases/JHotDraw-7.0.8:CONS ZoomAction(QDrawingView;DQAbstractButton;) | zoom action
+../3-Phrases/JHotDraw-7.0.8:CONS ApplyAttributesAction(QDrawingEditor;) | apply attributes action
+../3-Phrases/JHotDraw-7.0.8:CONS AbstractViewAction(QDrawingEditor;) | abstract view action
+../3-Phrases/JHotDraw-7.0.8:CONS AbstractViewAction(QDrawingView;) | abstract view action
+../3-Phrases/JHotDraw-7.0.8:CONS AttributeAction(QDrawingEditor;QAttributeKey;QObject;) | attribute action
+../3-Phrases/JHotDraw-7.0.8:CONS AttributeAction(QDrawingEditor;QAttributeKey;QObject;QIcon;) | attribute action
+../3-Phrases/JHotDraw-7.0.8:CONS AttributeAction(QDrawingEditor;QAttributeKey;QObject;QString;) | attribute action
+../3-Phrases/JHotDraw-7.0.8:CONS AttributeAction(QDrawingEditor;QAttributeKey;QObject;QString;QIcon;) | attribute action
+../3-Phrases/JHotDraw-7.0.8:CONS AttributeAction(QDrawingEditor;QAttributeKey;QObject;QString;QIcon;QAction;) | attribute action
+../3-Phrases/JHotDraw-7.0.8:CONS AttributeAction(QDrawingEditor;QMap<QAttributeKey;QObject;>;QString;QIcon;) | attribute action
+../3-Phrases/JHotDraw-7.0.8:void setAction(QAction;QRectangle;) | set action
+../3-Phrases/JHotDraw-7.0.8:void performAction(Qjava.awt.event.MouseEvent;) | perform action
+../3-Phrases/JHotDraw-7.0.8:CONS MoveToBackAction(QDrawingEditor;) | move to back action
+../3-Phrases/JHotDraw-7.0.8:CONS AlignAction(QDrawingEditor;) | align action
+../3-Phrases/JHotDraw-7.0.8:CONS ToggleGridAction(QDrawingEditor;) | toggle grid action
+../3-Phrases/JHotDraw-7.0.8:CONS ToggleGridAction(QDrawingEditor;QConstrainer;QConstrainer;) | toggle grid action
+../3-Phrases/JHotDraw-7.0.8:CONS ToggleGridAction(QDrawingView;QConstrainer;QConstrainer;) | toggle grid action
+../3-Phrases/JHotDraw-7.0.8:CONS MoveToFrontAction(QDrawingEditor;) | move to front action
+../3-Phrases/JHotDraw-7.0.8:CONS ZoomEditorAction(QDrawingEditor;DQAbstractButton;) | zoom editor action
+../3-Phrases/JHotDraw-7.0.8:CONS ZoomEditorAction(QDrawingEditor;DQAbstractButton;Z) | zoom editor action
+../3-Phrases/JHotDraw-7.0.8:CONS DefaultAttributeAction(QDrawingEditor;QAttributeKey;) | default attribute action
+../3-Phrases/JHotDraw-7.0.8:CONS DefaultAttributeAction(QDrawingEditor;[QAttributeKey;) | default attribute action
+../3-Phrases/JHotDraw-7.0.8:CONS DefaultAttributeAction(QDrawingEditor;QAttributeKey;QIcon;) | default attribute action
+../3-Phrases/JHotDraw-7.0.8:CONS DefaultAttributeAction(QDrawingEditor;QAttributeKey;QString;) | default attribute action
+../3-Phrases/JHotDraw-7.0.8:CONS DefaultAttributeAction(QDrawingEditor;QAttributeKey;QString;QIcon;) | default attribute action
+../3-Phrases/JHotDraw-7.0.8:CONS DefaultAttributeAction(QDrawingEditor;[QAttributeKey;QString;QIcon;) | default attribute action
+../3-Phrases/JHotDraw-7.0.8:CONS AbstractSelectedAction(QDrawingEditor;) | abstract selected action
+../3-Phrases/JHotDraw-7.0.8:CONS MoveAction(QDrawingEditor;II) | move action
+../3-Phrases/JHotDraw-7.0.8:CONS ColorChooserAction(QDrawingEditor;QAttributeKey;) | color chooser action
+../3-Phrases/JHotDraw-7.0.8:CONS ColorChooserAction(QDrawingEditor;QAttributeKey;QIcon;) | color chooser action
+../3-Phrases/JHotDraw-7.0.8:CONS ColorChooserAction(QDrawingEditor;QAttributeKey;QString;) | color chooser action
+../3-Phrases/JHotDraw-7.0.8:CONS ColorChooserAction(QDrawingEditor;QAttributeKey;QString;QIcon;) | color chooser action
+../3-Phrases/JHotDraw-7.0.8:CONS SelectSameAction(QDrawingEditor;) | select same action
+../3-Phrases/JHotDraw-7.0.8:CONS PickAttributesAction(QDrawingEditor;) | pick attributes action
+../3-Phrases/JHotDraw-7.0.8:CONS CombineAction(QDrawingEditor;) | combine action
+../3-Phrases/JHotDraw-7.0.8:CONS SplitAction(QDrawingEditor;) | split action
+../3-Phrases/JHotDraw-7.0.8:void UndoAction() | undo action
+../3-Phrases/JHotDraw-7.0.8:void RedoAction() | redo action
+../3-Phrases/JHotDraw-7.0.8:Action getUndoAction() | get undo action
+../3-Phrases/JHotDraw-7.0.8:Action getRedoAction() | get redo action
+../3-Phrases/JHotDraw-7.0.8:void configureAction(QAction;QString;) | configure action
+../3-Phrases/JHotDraw-7.0.8:void configureAction(QAction;QString;QClass;) | configure action
+../3-Phrases/JRobin:void nodeChangedAction() | node changed action
+../3-Phrases/JRobin:void nodeChangedAction() | node changed action
+../3-Phrases/MegaMek-0.32.0:AbstractAttackAction toAction() | to action
+../3-Phrases/MegaMek-0.32.0:void gameNewAction(QGameNewActionEvent;) | game new action
+../3-Phrases/MegaMek-0.32.0:void gameNewAction(QGameNewActionEvent;) | game new action
+../3-Phrases/MegaMek-0.32.0:void mouseAction(IIII) | mouse action
+../3-Phrases/MegaMek-0.32.0:void mouseAction(QCoords;II) | mouse action
+../3-Phrases/MegaMek-0.32.0:void mouseAction(IIII) | mouse action
+../3-Phrases/MegaMek-0.32.0:void mouseAction(QCoords;II) | mouse action
+../3-Phrases/MegaMek-0.32.0:void gameNewAction(QGameNewActionEvent;) | game new action
+../3-Phrases/MegaMek-0.32.0:boolean getNagForNoAction() | get nag for no action
+../3-Phrases/MegaMek-0.32.0:void setNagForNoAction(Z) | set nag for no action
+../3-Phrases/MegaMek-0.32.0:void gameNewAction(QGameNewActionEvent;) | game new action
+../3-Phrases/MegaMek-0.32.0:void mouseAction(IIII) | mouse action
+../3-Phrases/MegaMek-0.32.0:void mouseAction(QCoords;II) | mouse action
+../3-Phrases/MegaMek-0.32.0:void mouseAction(IIII) | mouse action
+../3-Phrases/MegaMek-0.32.0:void mouseAction(QCoords;II) | mouse action
+../3-Phrases/MegaMek-0.32.0:void gameNewAction(QGameNewActionEvent;) | game new action
+../3-Phrases/MegaMek-0.32.0:void gameNewAction(QGameNewActionEvent;) | game new action
+../3-Phrases/MegaMek-0.32.0:boolean getNagForNoAction() | get nag for no action
+../3-Phrases/MegaMek-0.32.0:void setNagForNoAction(Z) | set nag for no action
+../3-Phrases/MegaMek-0.32.0:void addAction(QEntityAction;) | add action
+../3-Phrases/MegaMek-0.32.0:void removeAction(QObject;) | remove action
+../3-Phrases/MegaMek-0.32.0:void addLayMinefieldAction(QLayMinefieldAction;) | add lay minefield action
+../3-Phrases/MegaMek-0.32.0:void addAction(QEntityAction;) | add action
+../3-Phrases/MegaMek-0.32.0:void removeAction(QObject;) | remove action
+../3-Phrases/MegaMek-0.32.0:void addLayMinefieldAction(QLayMinefieldAction;) | add lay minefield action
+../3-Phrases/MegaMek-0.32.0:CONS TriggerAPPodAction(II) | trigger ap pod action
+../3-Phrases/MegaMek-0.32.0:CONS PushAttackAction(IIQCoords;) | push attack action
+../3-Phrases/MegaMek-0.32.0:CONS PushAttackAction(IIIQCoords;) | push attack action
+../3-Phrases/MegaMek-0.32.0:CONS BrushOffAttackAction(IIII) | brush off attack action
+../3-Phrases/MegaMek-0.32.0:CONS GrappleAttackAction(II) | grapple attack action
+../3-Phrases/MegaMek-0.32.0:CONS GrappleAttackAction(III) | grapple attack action
+../3-Phrases/MegaMek-0.32.0:CONS UnloadStrandedAction(II) | unload stranded action
+../3-Phrases/MegaMek-0.32.0:CONS KickAttackAction(III) | kick attack action
+../3-Phrases/MegaMek-0.32.0:CONS KickAttackAction(IIII) | kick attack action
+../3-Phrases/MegaMek-0.32.0:CONS TorsoTwistAction(II) | torso twist action
+../3-Phrases/MegaMek-0.32.0:CONS FlipArmsAction(IZ) | flip arms action
+../3-Phrases/MegaMek-0.32.0:CONS AbstractEntityAction(I) | abstract entity action
+../3-Phrases/MegaMek-0.32.0:CONS PhysicalAttackAction(II) | physical attack action
+../3-Phrases/MegaMek-0.32.0:CONS PhysicalAttackAction(III) | physical attack action
+../3-Phrases/MegaMek-0.32.0:CONS PunchAttackAction(III) | punch attack action
+../3-Phrases/MegaMek-0.32.0:CONS PunchAttackAction(IIII) | punch attack action
+../3-Phrases/MegaMek-0.32.0:CONS BreakGrappleAttackAction(II) | break grapple attack action
+../3-Phrases/MegaMek-0.32.0:CONS BreakGrappleAttackAction(III) | break grapple attack action
+../3-Phrases/MegaMek-0.32.0:CONS TripAttackAction(II) | trip attack action
+../3-Phrases/MegaMek-0.32.0:CONS TripAttackAction(III) | trip attack action
+../3-Phrases/MegaMek-0.32.0:CONS LayMinefieldAction(II) | lay minefield action
+../3-Phrases/MegaMek-0.32.0:CONS ArtilleryAttackAction() | artillery attack action
+../3-Phrases/MegaMek-0.32.0:CONS ArtilleryAttackAction(QWeaponResult;QIGame;IQVector;QCoords;) | artillery attack action
+../3-Phrases/MegaMek-0.32.0:CONS FiringModeChangeAction(II) | firing mode change action
+../3-Phrases/MegaMek-0.32.0:CONS ThrashAttackAction(II) | thrash attack action
+../3-Phrases/MegaMek-0.32.0:CONS ThrashAttackAction(III) | thrash attack action
+../3-Phrases/MegaMek-0.32.0:CONS ThrashAttackAction(IQTargetable;) | thrash attack action
+../3-Phrases/MegaMek-0.32.0:CONS FindClubAction(I) | find club action
+../3-Phrases/MegaMek-0.32.0:CONS ProtomechPhysicalAttackAction(II) | protomech physical attack action
+../3-Phrases/MegaMek-0.32.0:CONS ProtomechPhysicalAttackAction(III) | protomech physical attack action
+../3-Phrases/MegaMek-0.32.0:CONS LayExplosivesAttackAction(II) | lay explosives attack action
+../3-Phrases/MegaMek-0.32.0:CONS LayExplosivesAttackAction(III) | lay explosives attack action
+../3-Phrases/MegaMek-0.32.0:CONS DisplacementAttackAction(IIQCoords;) | displacement attack action
+../3-Phrases/MegaMek-0.32.0:CONS DisplacementAttackAction(IIIQCoords;) | displacement attack action
+../3-Phrases/MegaMek-0.32.0:CONS AbstractAttackAction(II) | abstract attack action
+../3-Phrases/MegaMek-0.32.0:CONS AbstractAttackAction(III) | abstract attack action
+../3-Phrases/MegaMek-0.32.0:CONS SearchlightAttackAction(II) | searchlight attack action
+../3-Phrases/MegaMek-0.32.0:CONS SearchlightAttackAction(III) | searchlight attack action
+../3-Phrases/MegaMek-0.32.0:Vector resolveAction(QIGame;) | resolve action
+../3-Phrases/MegaMek-0.32.0:CONS UnjamAction(I) | unjam action
+../3-Phrases/MegaMek-0.32.0:CONS ChargeAttackAction(QEntity;QTargetable;) | charge attack action
+../3-Phrases/MegaMek-0.32.0:CONS ChargeAttackAction(IIIQCoords;) | charge attack action
+../3-Phrases/MegaMek-0.32.0:CONS DodgeAction(I) | dodge action
+../3-Phrases/MegaMek-0.32.0:CONS DfaAttackAction(IIQCoords;) | dfa attack action
+../3-Phrases/MegaMek-0.32.0:CONS DfaAttackAction(IIIQCoords;) | dfa attack action
+../3-Phrases/MegaMek-0.32.0:CONS ClubAttackAction(IIQMounted;) | club attack action
+../3-Phrases/MegaMek-0.32.0:CONS ClubAttackAction(IIIQMounted;) | club attack action
+../3-Phrases/MegaMek-0.32.0:CONS NukeAttackAction(QCoords;IIIII) | nuke attack action
+../3-Phrases/MegaMek-0.32.0:CONS NukeAttackAction(QCoords;II) | nuke attack action
+../3-Phrases/MegaMek-0.32.0:CONS WeaponAttackAction(III) | weapon attack action
+../3-Phrases/MegaMek-0.32.0:CONS WeaponAttackAction(IIII) | weapon attack action
+../3-Phrases/MegaMek-0.32.0:CONS JumpJetAttackAction(III) | jump jet attack action
+../3-Phrases/MegaMek-0.32.0:CONS JumpJetAttackAction(IIII) | jump jet attack action
+../3-Phrases/MegaMek-0.32.0:CONS ClearMinefieldAction(I) | clear minefield action
+../3-Phrases/MegaMek-0.32.0:CONS SpotAction(I) | spot action
+../3-Phrases/MegaMek-0.32.0:EntityAction getAction() | get action
+../3-Phrases/MegaMek-0.32.0:void gameNewAction(QGameNewActionEvent;) | game new action
+../3-Phrases/MegaMek-0.32.0:void gameNewAction(QGameNewActionEvent;) | game new action
+../3-Phrases/np:void fullScreenAction() | full screen action
+../3-Phrases/prefuse:Action putAction(QString;QAction;) | put action
+../3-Phrases/prefuse:Action getAction(QString;) | get action
+../3-Phrases/prefuse:CONS GroupAction() | group action
+../3-Phrases/prefuse:CONS GroupAction(QVisualization;) | group action
+../3-Phrases/prefuse:CONS GroupAction(QVisualization;J) | group action
+../3-Phrases/prefuse:CONS GroupAction(QVisualization;JJ) | group action
+../3-Phrases/prefuse:CONS GroupAction(QString;) | group action
+../3-Phrases/prefuse:CONS GroupAction(QString;J) | group action
+../3-Phrases/prefuse:CONS GroupAction(QString;JJ) | group action
+../3-Phrases/prefuse:CONS GroupAction(QVisualization;QString;) | group action
+../3-Phrases/prefuse:CONS GroupAction(QVisualization;QString;J) | group action
+../3-Phrases/prefuse:CONS GroupAction(QVisualization;QString;JJ) | group action
+../3-Phrases/prefuse:CONS ItemAction() | item action
+../3-Phrases/prefuse:CONS ItemAction(QVisualization;) | item action
+../3-Phrases/prefuse:CONS ItemAction(QString;) | item action
+../3-Phrases/prefuse:CONS ItemAction(QString;QPredicate;) | item action
+../3-Phrases/prefuse:CONS ItemAction(QVisualization;QString;) | item action
+../3-Phrases/prefuse:CONS ItemAction(QVisualization;QString;QPredicate;) | item action
+../3-Phrases/prefuse:CONS CompositeAction() | composite action
+../3-Phrases/prefuse:CONS CompositeAction(QVisualization;) | composite action
+../3-Phrases/prefuse:CONS CompositeAction(J) | composite action
+../3-Phrases/prefuse:CONS CompositeAction(QVisualization;J) | composite action
+../3-Phrases/prefuse:CONS CompositeAction(JJ) | composite action
+../3-Phrases/prefuse:CONS RepaintAction() | repaint action
+../3-Phrases/prefuse:CONS RepaintAction(QVisualization;) | repaint action
+../3-Phrases/prefuse:CONS EncoderAction() | encoder action
+../3-Phrases/prefuse:CONS EncoderAction(QVisualization;) | encoder action
+../3-Phrases/prefuse:CONS EncoderAction(QString;) | encoder action
+../3-Phrases/prefuse:CONS EncoderAction(QString;QPredicate;) | encoder action
+../3-Phrases/prefuse:CONS EncoderAction(QVisualization;QString;) | encoder action
+../3-Phrases/prefuse:CONS EncoderAction(QVisualization;QString;QPredicate;) | encoder action
+../3-Phrases/prefuse:void visitAction(QAction;) | visit action
+../3-Phrases/prefuse:void visitAction(QAction;) | visit action
+../3-Phrases/prefuse:void visitAction(QAction;) | visit action
+../3-Phrases/prefuse:void visitAction(QAction;) | visit action
+../3-Phrases/prefuse:CONS StrokeAction() | stroke action
+../3-Phrases/prefuse:CONS StrokeAction(QString;) | stroke action
+../3-Phrases/prefuse:CONS StrokeAction(QString;QBasicStroke;) | stroke action
+../3-Phrases/prefuse:CONS ColorAction(QString;QString;) | color action
+../3-Phrases/prefuse:CONS ColorAction(QString;QString;I) | color action
+../3-Phrases/prefuse:CONS ColorAction(QString;QPredicate;QString;) | color action
+../3-Phrases/prefuse:CONS ColorAction(QString;QPredicate;QString;I) | color action
+../3-Phrases/prefuse:CONS DataColorAction(QString;QString;IQString;) | data color action
+../3-Phrases/prefuse:CONS DataColorAction(QString;QString;IQString;[I) | data color action
+../3-Phrases/prefuse:CONS DataSizeAction(QString;QString;) | data size action
+../3-Phrases/prefuse:CONS DataSizeAction(QString;QString;I) | data size action
+../3-Phrases/prefuse:CONS DataSizeAction(QString;QString;II) | data size action
+../3-Phrases/prefuse:CONS SizeAction() | size action
+../3-Phrases/prefuse:CONS SizeAction(QString;) | size action
+../3-Phrases/prefuse:CONS SizeAction(QString;D) | size action
+../3-Phrases/prefuse:CONS ShapeAction() | shape action
+../3-Phrases/prefuse:CONS ShapeAction(QString;) | shape action
+../3-Phrases/prefuse:CONS ShapeAction(QString;I) | shape action
+../3-Phrases/prefuse:CONS DataShapeAction(QString;QString;) | data shape action
+../3-Phrases/prefuse:CONS DataShapeAction(QString;QString;[I) | data shape action
+../3-Phrases/prefuse:CONS FontAction() | font action
+../3-Phrases/prefuse:CONS FontAction(QString;) | font action
+../3-Phrases/prefuse:CONS FontAction(QString;QFont;) | font action
+../3-Phrases/prefuse:void runAction(QMouseEvent;) | run action
+../3-Phrases/prefuse:CONS ExportDisplayAction(QDisplay;) | export display action
+../3-Phrases/prefuse:CONS ForceConfigAction(QJFrame;QForceSimulator;) | force config action
+../3-Phrases/prefuse:void GraphMenuAction(QString;QString;QGraphView;) | graph menu action
+../3-Phrases/prefuse:void OpenGraphAction(QGraphView;) | open graph action
+../3-Phrases/prefuse:void ZipColorAction(QString;) | zip color action
+../3-Phrases/prefuse:void TreeRootAction(QString;) | tree root action
+../3-Phrases/prefuse:void NodeColorAction(QString;) | node color action
+../3-Phrases/prefuse:void TextColorAction(QString;) | text color action
+../3-Phrases/prefuse:void BorderColorAction(QString;) | border color action
+../3-Phrases/prefuse:void FillColorAction(QString;) | fill color action
+../3-Phrases/prefuse:void OrientAction(I) | orient action
+../3-Phrases/prefuse:void NodeColorAction(QString;) | node color action
+../3-Phrases/rhino:void initQuitAction(QQuitAction;) | init quit action
+../3-Phrases/rhino:void setExitAction(QRunnable;) | set exit action
+../3-Phrases/rhino-fieldSample:void setExitAction(QRunnable;) | set exit action
+../3-Phrases/rhino-fieldSample:void setExitAction(QRunnable;) | set exit action
+../3-Phrases/rhino-fieldSample:void initQuitAction(QQuitAction;) | init quit action
+../3-Phrases/SweetHome3D:Action getToolBarAction(QJComponent;QHomePane.ActionType;) | get tool bar action
+../3-Phrases/SweetHome3D:CONS PluginAction() | plugin action
+../3-Phrases/SweetHome3D:CONS PluginAction(QString;QString;QClassLoader;) | plugin action
+../3-Phrases/SweetHome3D:CONS PluginAction(QString;QString;QClassLoader;Z) | plugin action
+../3-Phrases/SweetHome3D:CONS ControllerAction(QUserPreferences;QClass<*>;QString;QObject;QString;[QObject;) | controller action
+../3-Phrases/SweetHome3D:void MoveCameraAction(I) | move camera action
+../3-Phrases/SweetHome3D:void RotateCameraYawAction(F) | rotate camera yaw action
+../3-Phrases/SweetHome3D:void RotateCameraPitchAction(F) | rotate camera pitch action
+../3-Phrases/SweetHome3D:boolean acceptDropAction(II) | accept drop action
+../3-Phrases/SweetHome3D:CONS ResourceAction(QUserPreferences;QClass<*>;QString;) | resource action
+../3-Phrases/SweetHome3D:CONS ResourceAction(QUserPreferences;QClass<*>;QString;Z) | resource action
+../3-Phrases/SweetHome3D:void AbstractDecoratedAction(QAction;) | abstract decorated action
+../3-Phrases/SweetHome3D:void MenuItemAction(QAction;) | menu item action
+../3-Phrases/SweetHome3D:void PopupMenuItemAction(QAction;) | popup menu item action
+../3-Phrases/SweetHome3D:void ToolBarAction(QAction;) | tool bar action
+../3-Phrases/SweetHome3D:void ButtonAction(QAction;) | button action
+../3-Phrases/SweetHome3D:void MoveSelectionAction(II) | move selection action
+../3-Phrases/SweetHome3D:void ToggleMagnetismAction(Z) | toggle magnetism action
+../3-Phrases/SweetHome3D:void SetDuplicationActivatedAction(Z) | set duplication activated action
+../3-Phrases/SweetHome3D:void SetEditionActivatedAction(Z) | set edition activated action
+../3-Phrases/SweetHome3D:void createAction(QActionType;QUserPreferences;QObject;QString;[QObject;) | create action
+../3-Phrases/SweetHome3D:void createClipboardAction(QActionType;QUserPreferences;QAction;) | create clipboard action
+../3-Phrases/SweetHome3D:void createMenuAction(QUserPreferences;QMenuActionType;) | create menu action
+../3-Phrases/SweetHome3D:Action createLockUnlockBasePlanAction(QHome;Z) | create lock unlock base plan action
+../3-Phrases/SweetHome3D:Action createImportModifyBackgroundImageAction(QHome;Z) | create import modify background image action
+../3-Phrases/SweetHome3D:Action createHideShowBackgroundImageAction(QHome;Z) | create hide show background image action
+../3-Phrases/SweetHome3D:void enablePasteAction() | enable paste action
+../3-Phrases/SweetHome3D:void enableSelectAllAction() | enable select all action
+../3-Phrases/SweetHome3D:void runAction(QHomeController;QHomePane.ActionType;) | run action
+../3-Phrases/SweetHome3D:void runAction(QHomeController;QHomePane.ActionType;) | run action
+../3-Phrases/SweetHome3D:void runAction(QHomePane.ActionType;) | run action
+../3-Phrases/SweetHome3D:Action getAction(QHomePane.ActionType;) | get action
+../3-Phrases/SweetHome3D:void runAction(QHomeController;QHomePane.ActionType;) | run action
+../3-Phrases/SweetHome3D:void runAction(QHomeController;QHomePane.ActionType;) | run action
+../3-Phrases/SweetHome3D:Action getAction(QHomeController;QHomePane.ActionType;) | get action
+../3-Phrases/SweetHome3D:void runAction(QHomeController;QHomePane.ActionType;) | run action
+../3-Phrases/vuze:void _runDefaultAction(I) | run default action
+../3-Phrases/vuze:void hookImageAction() | hook image action
+../3-Phrases/vuze:UPnPAction getAction(QString;) | get action
+../3-Phrases/vuze:int getAction() | get action
+../3-Phrases/vuze:UPnPAction getAction(QString;) | get action
+../3-Phrases/vuze:UPnPAction getAction(QString;) | get action
+../3-Phrases/vuze:void addMoveAction(QString;QString;) | add move action
+../3-Phrases/vuze:void addChangeRightsAction(QString;QString;) | add change rights action
+../3-Phrases/vuze:void addRemoveAction(QString;) | add remove action
+../3-Phrases/vuze:void addMoveAction(QString;QString;) | add move action
+../3-Phrases/vuze:void addChangeRightsAction(QString;QString;) | add change rights action
+../3-Phrases/vuze:void addRemoveAction(QString;) | add remove action
+../3-Phrases/vuze:void appendAction(QString;) | append action
+../3-Phrases/vuze:String getAction() | get action
+../3-Phrases/vuze:void performAction() | perform action
+../3-Phrases/vuze:void performAction() | perform action
+../3-Phrases/vuze:void performAction() | perform action
+../3-Phrases/vuze:void performAction() | perform action
+../3-Phrases/vuze:void performAction() | perform action
+../3-Phrases/vuze:void performAction() | perform action
+../3-Phrases/vuze:void performAction() | perform action
+../3-Phrases/vuze:void performAction() | perform action
+../3-Phrases/vuze:void performAction() | perform action
+../3-Phrases/vuze:void performAction() | perform action
+../3-Phrases/vuze:void performAction() | perform action
+../3-Phrases/vuze:void performAction() | perform action
+../3-Phrases/vuze:void performAction() | perform action
+../3-Phrases/vuze:void runDefaultAction(I) | run default action
+../3-Phrases/weka:void MyAction(QString;QString;QString;QString;) | my action
+../3-Phrases/weka:void addUndoAction(QUndoAction;) | add undo action
+../3-Phrases/weka:void AddNodeAction(QString;III) | add node action
+../3-Phrases/weka:void DeleteNodeAction(I) | delete node action
+../3-Phrases/weka:void DeleteSelectionAction(QFastVector;) | delete selection action
+../3-Phrases/weka:void AddArcAction(II) | add arc action
+../3-Phrases/weka:void AddArcAction(IQFastVector;) | add arc action
+../3-Phrases/weka:void DeleteArcAction(II) | delete arc action
+../3-Phrases/weka:void SetDistributionAction(I[[D) | set distribution action
+../3-Phrases/weka:void RenameAction(IQString;QString;) | rename action
+../3-Phrases/weka:void RenameValueAction(IQString;QString;) | rename value action
+../3-Phrases/weka:void AddValueAction(IQString;) | add value action
+../3-Phrases/weka:void DelValueAction(IQString;) | del value action
+../3-Phrases/weka:void alignAction(QFastVector;) | align action
+../3-Phrases/weka:void alignLeftAction(QFastVector;) | align left action
+../3-Phrases/weka:void alignRightAction(QFastVector;) | align right action
+../3-Phrases/weka:void alignTopAction(QFastVector;) | align top action
+../3-Phrases/weka:void alignBottomAction(QFastVector;) | align bottom action
+../3-Phrases/weka:void centerHorizontalAction(QFastVector;) | center horizontal action
+../3-Phrases/weka:void centerVerticalAction(QFastVector;) | center vertical action
+../3-Phrases/weka:void spaceHorizontalAction(QFastVector;) | space horizontal action
+../3-Phrases/weka:void spaceVerticalAction(QFastVector;) | space vertical action
+../3-Phrases/weka:void SetPositionAction(III) | set position action
+../3-Phrases/weka:void SetGroupPositionAction(QFastVector;II) | set group position action
+../3-Phrases/weka:void LayoutGraphAction(QFastVector;QFastVector;) | layout graph action
+../3-Phrases/weka:void PasteAction(QString;I) | paste action
+../3-Phrases/weka:weka.core.parser.java_cup.runtime.Symbol do_action(IQweka.core.parser.java_cup.runtime.lr_parser;Qjava.util.Stack;I) | do action
+../3-Phrases/weka:weka.core.parser.java_cup.runtime.Symbol CUP$Parser$do_action(IQweka.core.parser.java_cup.runtime.lr_parser;Qjava.util.Stack;I) | cup$parser$do action
+../3-Phrases/weka:int[] zzUnpackAction() | zz unpack action
+../3-Phrases/weka:int zzUnpackAction(QString;I[I) | zz unpack action
+../3-Phrases/weka:boolean isLookAction() | is look action
+../3-Phrases/weka:void setLookAction(Z) | set look action
+../3-Phrases/weka:boolean isEOFAction(QObject;) | is eof action
+../3-Phrases/weka:Action getAction(I) | get action
+../3-Phrases/weka:void setAction(IQAction;) | set action
+../3-Phrases/weka:weka.core.parser.java_cup.runtime.Symbol do_action(IQweka.core.parser.java_cup.runtime.lr_parser;Qjava.util.Stack;I) | do action
+../3-Phrases/weka:weka.core.parser.java_cup.runtime.Symbol CUP$LexParse$do_action(IQweka.core.parser.java_cup.runtime.lr_parser;Qjava.util.Stack;I) | cup$lex parse$do action
+../3-Phrases/weka:Action getAction(I) | get action
+../3-Phrases/weka:int[] zzUnpackAction() | zz unpack action
+../3-Phrases/weka:int zzUnpackAction(QString;I[I) | zz unpack action
+../3-Phrases/weka:Action getAction(QStateSet;) | get action
+../3-Phrases/weka:boolean is_action() | is action
+../3-Phrases/weka:CONS parse_action() | parse action
+../3-Phrases/weka:CONS nonassoc_action() | nonassoc action
+../3-Phrases/weka:weka.core.parser.java_cup.runtime.Symbol do_action(IQweka.core.parser.java_cup.runtime.lr_parser;Qjava.util.Stack;I) | do action
+../3-Phrases/weka:weka.core.parser.java_cup.runtime.Symbol CUP$parser$do_action(IQweka.core.parser.java_cup.runtime.lr_parser;Qjava.util.Stack;I) | cup$parser$do action
+../3-Phrases/weka:boolean is_action() | is action
+../3-Phrases/weka:CONS reduce_action(Qproduction;) | reduce action
+../3-Phrases/weka:boolean is_action() | is action
+../3-Phrases/weka:action_part strip_trailing_action([Qproduction_part;I) | strip trailing action
+../3-Phrases/weka:parse_action insert_action(Qparse_action;Qparse_action;I) | insert action
+../3-Phrases/weka:CONS shift_action(Qlalr_state;) | shift action
+../3-Phrases/weka:Symbol do_action(IQlr_parser;QStack;I) | do action
+../3-Phrases/weka:short get_action(II) | get action
+../3-Phrases/weka:int[] zzUnpackAction() | zz unpack action
+../3-Phrases/weka:int zzUnpackAction(QString;I[I) | zz unpack action
+../3-Phrases/weka:weka.core.parser.java_cup.runtime.Symbol do_action(IQweka.core.parser.java_cup.runtime.lr_parser;Qjava.util.Stack;I) | do action
+../3-Phrases/weka:weka.core.parser.java_cup.runtime.Symbol CUP$Parser$do_action(IQweka.core.parser.java_cup.runtime.lr_parser;Qjava.util.Stack;I) | cup$parser$do action

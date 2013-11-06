@@ -1,0 +1,19 @@
+CONS AlphaColorChooser(QString;QColor;) | alpha color chooser
+CONS AlphaColor(IIII) | alpha color
+CONS AlphaColorJButton(QColor;) | alpha color j button
+CONS AlphaColorJButton(QColor;IIII) | alpha color j button
+CONS AlphaColorJButton(QIIconFactory;QString;) | alpha color j button
+CONS AlphaColorJButton(QIIconFactory;QString;QColor;) | alpha color j button
+CONS AlphaColorJMenuItem(QColor;) | alpha color j menu item
+CONS AlphaColorJMenuItem(QColor;IIII) | alpha color j menu item
+CONS AlphaColorJMenuItem(QIIconFactory;QString;QColor;) | alpha color j menu item
+CONS AlphaColor(QColor;I) | alpha color
+CONS AlphaColor(QInStream;) | alpha color
+CONS AlphaTransform() | alpha transform
+CONS AlphaTransform(DDDD) | alpha transform
+CONS AlphaTransform(DDDDIIII) | alpha transform
+CONS AlphaTransform(IIII) | alpha transform
+CONS AlphaTransform(QColorTransform;) | alpha transform
+CONS AlphaTransform(QInStream;) | alpha transform
+CONS KeyAlphaFilter(I) | key alpha filter
+CONS MultiplyAlphaRed(QCachableRed;QCachableRed;) | multiply alpha red

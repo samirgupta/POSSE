@@ -1,0 +1,444 @@
+CONS AEProxyException(QString;) | ae proxy exception
+CONS AEProxyException(QString;QThrowable;) | ae proxy exception
+CONS AEVerifierException(IQString;) | ae verifier exception
+CONS AEWin32AccessExceptionImpl(QString;QString;) | ae win 32 access exception impl
+CONS AEWin32AccessException(QString;) | ae win 32 access exception
+CONS AlreadyOpenException([QOpenDefinitionsDocument;) | already open exception
+CONS AlreadyOpenException(QOpenDefinitionsDocument;) | already open exception
+CONS AppendableException() | appendable exception
+CONS AppendableException(QString;) | appendable exception
+CONS AppendableException(QString;QThrowable;) | appendable exception
+CONS AppendableException(QThrowable;) | appendable exception
+CONS AzureusCoreException(QString;) | azureus core exception
+CONS AzureusCoreException(QString;QThrowable;) | azureus core exception
+CONS BatchedTooManyRowsAffectedException(QString;III) | batched too many rows affected exception
+CONS BatchFailedException(QString;) | batch failed exception
+CONS BatchFailedException(QString;QThrowable;) | batch failed exception
+CONS BEncodingException() | b encoding exception
+CONS BEncodingException(QString;) | b encoding exception
+CONS BIFFormatException(QString;) | bif format exception
+CONS BraceException(QString;) | brace exception
+CONS BuddyPluginException(QString;) | buddy plugin exception
+CONS BuddyPluginException(QString;QThrowable;) | buddy plugin exception
+CONS BuddyPluginPasswordException(ZQString;QThrowable;) | buddy plugin password exception
+CONS BuddyPluginTimeoutException(QString;Z) | buddy plugin timeout exception
+CONS BulkAccessorException(QString;) | bulk accessor exception
+CONS BulkAccessorException(QString;I) | bulk accessor exception
+CONS BulkAccessorException(QString;QThrowable;) | bulk accessor exception
+CONS BulkAccessorException(QThrowable;I) | bulk accessor exception
+CONS CacheException(QString;) | cache exception
+CONS CacheException(QString;QThrowable;) | cache exception
+CONS CacheException(QThrowable;) | cache exception
+CONS CacheFileManagerException(QCacheFile;QString;) | cache file manager exception
+CONS CacheFileManagerException(QCacheFile;QString;QThrowable;) | cache file manager exception
+CONS CacheFileManagerException(QCacheFile;QString;QThrowable;I) | cache file manager exception
+CONS CallbackException(QException;) | callback exception
+CONS CallbackException(QString;) | callback exception
+CONS CallbackException(QString;QException;) | callback exception
+CONS CannotRenameException(QString;) | cannot rename exception
+CONS CannotRenameException(QString;QThrowable;) | cannot rename exception
+CONS CharClassException() | char class exception
+CONS CharClassException(QString;) | char class exception
+CONS CheckVersionRequiredException(QString;) | check version required exception
+CONS ClassNameNotFoundException(QString;) | class name not found exception
+CONS ClientIDException(QString;) | client id exception
+CONS ClientIDException(QString;QThrowable;) | client id exception
+CONS ConfigurationParameterNotFoundException() | configuration parameter not found exception
+CONS ConfigurationParameterNotFoundException(QString;) | configuration parameter not found exception
+CONS ConstraintViolationException(QString;QSQLException;QString;) | constraint violation exception
+CONS ConstraintViolationException(QString;QSQLException;QString;QString;) | constraint violation exception
+CONS CryptoException() | crypto exception
+CONS CryptoException(QString;) | crypto exception
+CONS CryptoManagerException(QString;) | crypto manager exception
+CONS CryptoManagerException(QString;QThrowable;) | crypto manager exception
+CONS CryptoManagerPasswordException(ZQString;) | crypto manager password exception
+CONS CryptoManagerPasswordException(ZQString;QThrowable;) | crypto manager password exception
+CONS CustomColumnsException(IQString;) | custom columns exception
+CONS CustomizationException(QString;) | customization exception
+CONS CustomizationException(QString;QThrowable;) | customization exception
+CONS DataAccessPointException() | data access point exception
+CONS DataAccessPointException(QString;) | data access point exception
+CONS DataException(QString;QSQLException;) | data exception
+CONS DataException(QString;QSQLException;QString;) | data exception
+CONS DataIOException() | data io exception
+CONS DataIOException(QString;) | data io exception
+CONS DataIOException(QString;QThrowable;) | data io exception
+CONS DataIOException(QThrowable;) | data io exception
+CONS DataLengthException() | data length exception
+CONS DataLengthException(QString;) | data length exception
+CONS DataParseException() | data parse exception
+CONS DataParseException(QString;) | data parse exception
+CONS DataParseException(QString;QThrowable;) | data parse exception
+CONS DataParseException(QThrowable;) | data parse exception
+CONS DataReadOnlyException() | data read only exception
+CONS DataReadOnlyException(QString;) | data read only exception
+CONS DataReadOnlyException(QString;QThrowable;) | data read only exception
+CONS DataReadOnlyException(QThrowable;) | data read only exception
+CONS DataTypeException() | data type exception
+CONS DataTypeException(QClass;) | data type exception
+CONS DataTypeException(QString;) | data type exception
+CONS DataTypeException(QString;QThrowable;) | data type exception
+CONS DataTypeException(QThrowable;) | data type exception
+CONS DebugException() | debug exception
+CONS DebugException(QString;) | debug exception
+CONS DebugException(QString;QThrowable;) | debug exception
+CONS DebugException(QThrowable;) | debug exception
+CONS DetailedSemanticException(QString;) | detailed semantic exception
+CONS DetailedSemanticException(QString;QThrowable;) | detailed semantic exception
+CONS DHTTransportException(QString;) | dht transport exception
+CONS DHTTransportException(QString;QThrowable;) | dht transport exception
+CONS DHTUDPPacketHandlerException(QString;) | dhtudp packet handler exception
+CONS DHTUDPPacketHandlerException(QString;QThrowable;) | dhtudp packet handler exception
+CONS DHTUDPPacketHandlerException(QThrowable;) | dhtudp packet handler exception
+CONS DiskManagerException() | disk manager exception
+CONS DiskManagerException(QString;) | disk manager exception
+CONS DiskManagerException(QString;QThrowable;) | disk manager exception
+CONS DiskManagerException(QThrowable;) | disk manager exception
+CONS DistributedDatabaseException(QString;) | distributed database exception
+CONS DistributedDatabaseException(QString;QThrowable;) | distributed database exception
+CONS DocumentClosedException(QOpenDefinitionsDocument;QString;) | document closed exception
+CONS DownloadException(QString;) | download exception
+CONS DownloadException(QString;QThrowable;) | download exception
+CONS DownloadManagerException(QString;) | download manager exception
+CONS DownloadManagerException(QString;QThrowable;) | download manager exception
+CONS DownloadRemovalVetoException(QString;) | download removal veto exception
+CONS DownloadRemovalVetoException(QString;Z) | download removal veto exception
+CONS DRMUpdateRequiredException(QString;) | drm update required exception
+CONS DuplicateMappingException(QString;QString;) | duplicate mapping exception
+CONS DuplicateMappingException(QString;QString;QString;) | duplicate mapping exception
+CONS EditDocumentException(QThrowable;) | edit document exception
+CONS EditDocumentException(QThrowable;QString;) | edit document exception
+CONS EncryptionNotSupportedException(QString;) | encryption not supported exception
+CONS EnsembleModelMismatchException(QString;) | ensemble model mismatch exception
+CONS EntityLoadingException() | entity loading exception
+CONS EntityLoadingException(QString;) | entity loading exception
+CONS EvaluatorException(QString;) | evaluator exception
+CONS EvaluatorException(QString;QString;I) | evaluator exception
+CONS EvaluatorException(QString;QString;IQString;I) | evaluator exception
+CONS ExceededDRMDeliveryLimitException(QString;) | exceeded drm delivery limit exception
+CONS ExceptionParsedSection([QString;) | exception parsed section
+CONS ExceptionTableEntry(IIIS) | exception table entry
+CONS ExceptionUtils() | exception utils
+CONS ExportException(QString;) | export exception
+CONS ExportException(QString;QThrowable;) | export exception
+CONS ExternalSeedException(QString;) | external seed exception
+CONS ExternalSeedException(QString;QThrowable;) | external seed exception
+CONS FileFormatException() | file format exception
+CONS FileFormatException(QString;) | file format exception
+CONS FileFormatException(QString;QThrowable;) | file format exception
+CONS FileFormatException(QThrowable;) | file format exception
+CONS FileIsADirectoryException(QString;) | file is a directory exception
+CONS FileMovedException(QFile;QString;) | file moved exception
+CONS FMFileManagerException(QString;) | fm file manager exception
+CONS FMFileManagerException(QString;QThrowable;) | fm file manager exception
+CONS FreeColException(QString;) | free col exception
+CONS GeneratorException() | generator exception
+CONS GenericJDBCException(QString;QSQLException;) | generic jdbc exception
+CONS GenericJDBCException(QString;QSQLException;QString;) | generic jdbc exception
+CONS GlobalManagerDownloadRemovalVetoException(QString;) | global manager download removal veto exception
+CONS GlobalManagerDownloadRemovalVetoException(QString;Z) | global manager download removal veto exception
+CONS GP3FormatException(QString;) | gp 3 format exception
+CONS GP4FormatException(QString;) | gp 4 format exception
+CONS GP4FormatException(QString;QThrowable;) | gp 4 format exception
+CONS GPFormatException(QString;) | gp format exception
+CONS GPFormatException(QString;QThrowable;) | gp format exception
+CONS GroupNotSelectedException(QString;) | group not selected exception
+CONS HibernateException(QString;) | hibernate exception
+CONS HibernateException(QString;QThrowable;) | hibernate exception
+CONS HibernateException(QThrowable;) | hibernate exception
+CONS HostNameToIPResolverException(QString;) | host name to ip resolver exception
+CONS HostNameToIPResolverException(QString;Z) | host name to ip resolver exception
+CONS HsqlException(QResult;) | hsql exception
+CONS HsqlException(QString;QString;I) | hsql exception
+CONS HsqlException(QThrowable;QString;I) | hsql exception
+CONS HsqlInternalException(QHsqlException;) | hsql internal exception
+CONS HTMLException(QString;QThrowable;) | html exception
+CONS IdentifierGenerationException(QString;) | identifier generation exception
+CONS IdentifierGenerationException(QString;QThrowable;) | identifier generation exception
+CONS IllegalHomonymException() | illegal homonym exception
+CONS IllegalHomonymException(QString;) | illegal homonym exception
+CONS ImageResizeException(QString;) | image resize exception
+CONS IncompatibleComparatorException() | incompatible comparator exception
+CONS IncompatibleComparatorException(QString;) | incompatible comparator exception
+CONS IncompatibleComparatorException(QString;QThrowable;) | incompatible comparator exception
+CONS IncompatibleComparatorException(QThrowable;) | incompatible comparator exception
+CONS InstantiationException(QString;QClass;) | instantiation exception
+CONS InstantiationException(QString;QClass;QException;) | instantiation exception
+CONS InstantiationException(QString;QClass;QThrowable;) | instantiation exception
+CONS InteractionsException(QString;) | interactions exception
+CONS InterpreterInterruptedException(IIII) | interpreter interrupted exception
+CONS InterruptedPrinterException() | interrupted printer exception
+CONS InterruptedPrinterException(QString;) | interrupted printer exception
+CONS InterruptedRecorderException() | interrupted recorder exception
+CONS InterruptedRecorderException(QString;) | interrupted recorder exception
+CONS InvalidCipherTextException() | invalid cipher text exception
+CONS InvalidCipherTextException(QString;) | invalid cipher text exception
+CONS InvalidDateException(QString;) | invalid date exception
+CONS InvalidInputException(QString;) | invalid input exception
+CONS InvalidMappingException(QString;QString;) | invalid mapping exception
+CONS InvalidMappingException(QString;QString;QString;) | invalid mapping exception
+CONS InvalidMappingException(QString;QString;QString;QThrowable;) | invalid mapping exception
+CONS InvalidMappingException(QString;QString;QThrowable;) | invalid mapping exception
+CONS InvalidPackageException(IQString;) | invalid package exception
+CONS InvalidPathException(QString;) | invalid path exception
+CONS InvalidWithClauseException(QString;) | invalid with clause exception
+CONS InvalidWithClauseException(QString;QString;) | invalid with clause exception
+CONS IPCException() | ipc exception
+CONS IPCException(QString;) | ipc exception
+CONS IPCException(QString;QThrowable;) | ipc exception
+CONS IPCException(QThrowable;) | ipc exception
+CONS IPFilterException(QString;) | ip filter exception
+CONS IPFilterException(QString;QThrowable;) | ip filter exception
+CONS JajukException(QString;) | jajuk exception
+CONS JajukException(QString;QString;QThrowable;) | jajuk exception
+CONS JajukException(QString;QThrowable;) | jajuk exception
+CONS JavadocException(QString;) | javadoc exception
+CONS JavaScriptException(QObject;) | java script exception
+CONS JavaScriptException(QObject;QString;I) | java script exception
+CONS JDBCConnectionException(QString;QSQLException;) | jdbc connection exception
+CONS JDBCConnectionException(QString;QSQLException;QString;) | jdbc connection exception
+CONS JDBCExceptionHelper() | jdbc exception helper
+CONS JDBCException(QString;QSQLException;) | jdbc exception
+CONS JDBCException(QString;QSQLException;QString;) | jdbc exception
+CONS JDBCExceptionReporter() | jdbc exception reporter
+CONS KeyCollisionException() | key collision exception
+CONS KeyCollisionException(QString;) | key collision exception
+CONS KeyCollisionException(QString;QThrowable;) | key collision exception
+CONS KeyCollisionException(QThrowable;) | key collision exception
+CONS LazyInitializationException(QString;) | lazy initialization exception
+CONS LexingException(QString;) | lexing exception
+CONS LicenseAquisitionException(QString;) | license aquisition exception
+CONS LineNotExecutableException(QString;) | line not executable exception
+CONS LocaleUtilEncodingException([QString;[QString;) | locale util encoding exception
+CONS LocaleUtilEncodingException(QThrowable;) | locale util encoding exception
+CONS LocaleUtilEncodingException(Z) | locale util encoding exception
+CONS LocationFullException() | location full exception
+CONS LocationFullException(QString;) | location full exception
+CONS LockAcquisitionException(QString;QSQLException;) | lock acquisition exception
+CONS LockAcquisitionException(QString;QSQLException;QString;) | lock acquisition exception
+CONS MacroException() | macro exception
+CONS MacroException(QString;) | macro exception
+CONS MagnetPluginException(QString;QThrowable;) | magnet plugin exception
+CONS MagnetURIHandlerException(QString;QThrowable;) | magnet uri handler exception
+CONS MalformedProjectFileException(QString;) | malformed project file exception
+CONS MappingException(QString;) | mapping exception
+CONS MappingException(QString;QThrowable;) | mapping exception
+CONS MappingException(QThrowable;) | mapping exception
+CONS MappingNotFoundException(QString;QString;) | mapping not found exception
+CONS MappingNotFoundException(QString;QString;QString;) | mapping not found exception
+CONS MappingNotFoundException(QString;QString;QString;QThrowable;) | mapping not found exception
+CONS MappingNotFoundException(QString;QString;QThrowable;) | mapping not found exception
+CONS MCGroupException(QString;) | mc group exception
+CONS MCGroupException(QString;QThrowable;) | mc group exception
+CONS MessageException(QString;) | message exception
+CONS MessageException(QString;QThrowable;) | message exception
+CONS MetaSearchException(QString;) | meta search exception
+CONS MetaSearchException(QString;QThrowable;) | meta search exception
+CONS MrtgException(QException;) | mrtg exception
+CONS MrtgException(QString;) | mrtg exception
+CONS NATTraversalException(QString;) | nat traversal exception
+CONS NbtException(II) | nbt exception
+CONS NestableException() | nestable exception
+CONS NestableException(QString;) | nestable exception
+CONS NestableException(QString;QThrowable;) | nestable exception
+CONS NestableException(QThrowable;) | nestable exception
+CONS NestableRuntimeException() | nestable runtime exception
+CONS NestableRuntimeException(QString;) | nestable runtime exception
+CONS NestableRuntimeException(QString;QThrowable;) | nestable runtime exception
+CONS NestableRuntimeException(QThrowable;) | nestable runtime exception
+CONS NetworkAdminException(QString;) | network admin exception
+CONS NetworkAdminException(QString;QThrowable;) | network admin exception
+CONS NoCachingEnabledException() | no caching enabled exception
+CONS NoneAccessibleFileException(QString;) | none accessible file exception
+CONS NoneAccessibleFileException(QString;QThrowable;) | none accessible file exception
+CONS NonUniqueObjectException(QSerializable;QString;) | non unique object exception
+CONS NonUniqueObjectException(QString;QSerializable;QString;) | non unique object exception
+CONS NonUniqueResultException(I) | non unique result exception
+CONS NoRouteToServerException() | no route to server exception
+CONS NoSuchDocumentException(QString;) | no such document exception
+CONS NoSupportForMissingValuesException() | no support for missing values exception
+CONS NoSupportForMissingValuesException(QString;) | no support for missing values exception
+CONS NotLoggedInException() | not logged in exception
+CONS NotLoggedInException(QString;) | not logged in exception
+CONS NotLoggedInException(QString;QThrowable;) | not logged in exception
+CONS NotLoggedInException(QThrowable;) | not logged in exception
+CONS NumberClassNotFoundException(QString;) | number class not found exception
+CONS ObjectDeletedException(QString;QSerializable;QString;) | object deleted exception
+CONS ObjectNotFoundException(QSerializable;QString;) | object not found exception
+CONS OptionException(QString;) | option exception
+CONS OptionModificationException(QString;) | option modification exception
+CONS OptionParseException(QString;QString;QString;) | option parse exception
+CONS OptionProcessingException(QString;) | option processing exception
+CONS OptionRegistrationException(QString;) | option registration exception
+CONS OptionRegistrationException(QString;QOption;) | option registration exception
+CONS ParseException() | parse exception
+CONS ParseException(QString;) | parse exception
+CONS ParseException(QToken;[[I[QString;) | parse exception
+CONS PersistentObjectException(QString;) | persistent object exception
+CONS PlatformManagerException(QString;) | platform manager exception
+CONS PlatformManagerException(QString;QThrowable;) | platform manager exception
+CONS PlatformMessengerException(QString;) | platform messenger exception
+CONS PlatformMessengerException(QString;QThrowable;) | platform messenger exception
+CONS PluginDeprecationException() | plugin deprecation exception
+CONS PluginDeprecationException(QString;) | plugin deprecation exception
+CONS PluginDeprecationException(QString;QThrowable;) | plugin deprecation exception
+CONS PluginDeprecationException(QThrowable;) | plugin deprecation exception
+CONS PluginException(QString;) | plugin exception
+CONS PluginException(QString;QThrowable;) | plugin exception
+CONS PluginException(QThrowable;) | plugin exception
+CONS PropertyAccessException(QThrowable;QString;ZQClass;QString;) | property access exception
+CONS PropertyNotFoundException(QString;) | property not found exception
+CONS PropertyValueException(QString;QString;QString;) | property value exception
+CONS PRUDPPacketHandlerException(QString;) | prudp packet handler exception
+CONS PRUDPPacketHandlerException(QString;QThrowable;) | prudp packet handler exception
+CONS QueryException(QException;) | query exception
+CONS QueryException(QString;) | query exception
+CONS QueryException(QString;QString;) | query exception
+CONS QueryException(QString;QThrowable;) | query exception
+CONS QueryExecutionRequestException(QString;QString;) | query execution request exception
+CONS QueryParameterException(QException;) | query parameter exception
+CONS QueryParameterException(QString;) | query parameter exception
+CONS QueryParameterException(QString;QString;) | query parameter exception
+CONS QueryParameterException(QString;QThrowable;) | query parameter exception
+CONS QuerySyntaxException(QString;) | query syntax exception
+CONS QuerySyntaxException(QString;QString;) | query syntax exception
+CONS RecorderException() | recorder exception
+CONS RecorderException(QString;) | recorder exception
+CONS RecorderException(QString;QThrowable;) | recorder exception
+CONS ResourceDownloaderCancelledException() | resource downloader cancelled exception
+CONS ResourceDownloaderException(QString;) | resource downloader exception
+CONS ResourceDownloaderException(QString;QThrowable;) | resource downloader exception
+CONS ResourceUploaderException(QString;) | resource uploader exception
+CONS ResourceUploaderException(QString;QThrowable;) | resource uploader exception
+CONS RhinoException() | rhino exception
+CONS RhinoException(QString;) | rhino exception
+CONS RPException(QString;) | rp exception
+CONS RPException(QString;QThrowable;) | rp exception
+CONS RPException(QThrowable;) | rp exception
+CONS RPInternalProcessException(QThrowable;) | rp internal process exception
+CONS RPMethodAccessDeniedException() | rp method access denied exception
+CONS RPNoObjectIDException() | rp no object id exception
+CONS RPObjectNoLongerExistsException() | rp object no longer exists exception
+CONS RPThrowableAsReplyException(QThrowable;) | rp throwable as reply exception
+CONS RRDException() | rrd exception
+CONS RrdException(QException;) | rrd exception
+CONS RrdException(QString;) | rrd exception
+CONS RRDException(QString;) | rrd exception
+CONS RuntimeCryptoException() | runtime crypto exception
+CONS RuntimeCryptoException(QString;) | runtime crypto exception
+CONS SaveException(QString;) | save exception
+CONS SaveException(QString;I) | save exception
+CONS SaveException(QString;QBibtexEntry;) | save exception
+CONS ScannerException(QErrorMessages;) | scanner exception
+CONS ScannerException(QErrorMessages;I) | scanner exception
+CONS ScannerException(QFile;QErrorMessages;) | scanner exception
+CONS ScannerException(QFile;QErrorMessages;I) | scanner exception
+CONS ScannerException(QFile;QErrorMessages;II) | scanner exception
+CONS ScannerException(QFile;QString;QErrorMessages;II) | scanner exception
+CONS SearchException(QString;) | search exception
+CONS SearchException(QString;QThrowable;) | search exception
+CONS SearchException(QThrowable;) | search exception
+CONS SearchLoginException(QString;) | search login exception
+CONS SearchLoginException(QString;QThrowable;) | search login exception
+CONS SearchLoginException(QThrowable;) | search login exception
+CONS SerializationException(QString;QException;) | serialization exception
+CONS SessionException(QString;) | session exception
+CONS SExpParseException(QString;) | s exp parse exception
+CONS SFPluginDetailsException(QString;) | sf plugin details exception
+CONS SFPluginDetailsException(QString;QThrowable;) | sf plugin details exception
+CONS ShareException(QString;) | share exception
+CONS ShareException(QString;QThrowable;) | share exception
+CONS ShareResourceDeletionVetoException(QString;) | share resource deletion veto exception
+CONS SmbAuthException(I) | smb auth exception
+CONS SmbException() | smb exception
+CONS SmbException(IQThrowable;) | smb exception
+CONS SmbException(IZ) | smb exception
+CONS SmbException(QString;) | smb exception
+CONS SmbException(QString;QThrowable;) | smb exception
+CONS SQLExceptionConverterFactory() | sql exception converter factory
+CONS SQLGrammarException(QString;QSQLException;) | sql grammar exception
+CONS SQLGrammarException(QString;QSQLException;QString;) | sql grammar exception
+CONS StaleObjectStateException(QString;QSerializable;) | stale object state exception
+CONS StaleStateException(QString;) | stale state exception
+CONS StreamRedirectException(QString;) | stream redirect exception
+CONS StreamRedirectException(QString;QThrowable;) | stream redirect exception
+CONS SubscriptionException(QString;) | subscription exception
+CONS SubscriptionException(QString;QThrowable;) | subscription exception
+CONS SWTThreadAlreadyInstanciatedException() | swt thread already instanciated exception
+CONS TaskDependencyException() | task dependency exception
+CONS TaskDependencyException(QString;) | task dependency exception
+CONS TaskDependencyException(QString;QThrowable;) | task dependency exception
+CONS TaskDependencyException(QThrowable;) | task dependency exception
+CONS TooManyRowsAffectedException(QString;II) | too many rows affected exception
+CONS TorrentDownloaderException(QString;) | torrent downloader exception
+CONS TorrentEncodingException([QString;[QString;) | torrent encoding exception
+CONS TorrentEncodingException(QString;QThrowable;) | torrent encoding exception
+CONS TorrentException() | torrent exception
+CONS TorrentException(QString;) | torrent exception
+CONS TorrentException(QString;QThrowable;) | torrent exception
+CONS TorrentException(QThrowable;) | torrent exception
+CONS TOTorrentException(QString;I) | to torrent exception
+CONS TOTorrentException(QString;IQThrowable;) | to torrent exception
+CONS TrackerException(QString;) | tracker exception
+CONS TrackerException(QString;QThrowable;) | tracker exception
+CONS TrackerTorrentRemovalVetoException(QString;) | tracker torrent removal veto exception
+CONS TransactionException(QString;) | transaction exception
+CONS TransactionException(QString;QThrowable;) | transaction exception
+CONS TransientObjectException(QString;) | transient object exception
+CONS TransportException() | transport exception
+CONS TransportException(QString;) | transport exception
+CONS TransportException(QString;QThrowable;) | transport exception
+CONS TransportException(QThrowable;) | transport exception
+CONS TRHostException(QString;) | tr host exception
+CONS TRHostException(QString;QThrowable;) | tr host exception
+CONS TRHostTorrentRemovalVetoException(QString;) | tr host torrent removal veto exception
+CONS TRTrackerAnnouncerException(QString;) | tr tracker announcer exception
+CONS TRTrackerAnnouncerException(QString;QThrowable;) | tr tracker announcer exception
+CONS TRTrackerServerException(IQString;QMap;) | tr tracker server exception
+CONS TRTrackerServerException(QString;) | tr tracker server exception
+CONS TRTrackerServerException(QString;QThrowable;) | tr tracker server exception
+CONS TypeMismatchException(QString;) | type mismatch exception
+CONS TypeMismatchException(QString;QThrowable;) | type mismatch exception
+CONS TypeMismatchException(QThrowable;) | type mismatch exception
+CONS UIException(QString;) | ui exception
+CONS UIException(QString;QThrowable;) | ui exception
+CONS UIRuntimeException(QString;) | ui runtime exception
+CONS UIRuntimeException(QString;QThrowable;) | ui runtime exception
+CONS UISWTViewEventCancelledException() | uiswt view event cancelled exception
+CONS UISWTViewEventCancelledException(QString;) | uiswt view event cancelled exception
+CONS UISWTViewEventCancelledException(QString;QThrowable;) | uiswt view event cancelled exception
+CONS UISWTViewEventCancelledException(QThrowable;) | uiswt view event cancelled exception
+CONS UnassignedClassException() | unassigned class exception
+CONS UnassignedClassException(QString;) | unassigned class exception
+CONS UnassignedDatasetException() | unassigned dataset exception
+CONS UnassignedDatasetException(QString;) | unassigned dataset exception
+CONS UnexpectedException() | unexpected exception
+CONS UnexpectedException(QString;) | unexpected exception
+CONS UnexpectedException(QThrowable;) | unexpected exception
+CONS UnexpectedException(QThrowable;QString;) | unexpected exception
+CONS UnresolvableObjectException(QSerializable;QString;) | unresolvable object exception
+CONS UnresolvableObjectException(QString;QSerializable;QString;) | unresolvable object exception
+CONS UnsupportedAttributeTypeException() | unsupported attribute type exception
+CONS UnsupportedAttributeTypeException(QString;) | unsupported attribute type exception
+CONS UnsupportedClassTypeException() | unsupported class type exception
+CONS UnsupportedClassTypeException(QString;) | unsupported class type exception
+CONS UnsupportedVersionException(QString;I) | unsupported version exception
+CONS UpdateException(QString;) | update exception
+CONS UpdateException(QString;QThrowable;) | update exception
+CONS UPnPException(QString;) | upn p exception
+CONS UPnPException(QString;QThrowable;) | upn p exception
+CONS VMException(QString;) | vm exception
+CONS VuzeCryptoException(QString;QThrowable;) | vu ze crypto exception
+CONS WekaException() | weka exception
+CONS WekaException(QString;) | weka exception
+CONS WrappedException(QThrowable;) | wrapped exception
+CONS WrongClassException(QString;QSerializable;QString;) | wrong class exception
+CONS XMLException(QException;) | xml exception
+CONS XMLException(QString;) | xml exception
+CONS XMLException(QString;IQException;) | xml exception
+CONS XMLException(QString;IQException;QString;Z) | xml exception
+CONS XMLException(QString;IQString;) | xml exception
+CONS XMLParseException(QString;) | xml parse exception
+CONS XMLParseException(QString;IQString;) | xml parse exception
+CONS XMLParseException(QString;QString;) | xml parse exception
+CONS XMLValidationException(IQString;IQString;QString;QString;QString;) | xml validation exception

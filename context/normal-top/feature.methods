@@ -1,0 +1,29 @@
+boolean addFeature(QFeature;) | add feature
+boolean getFeature(String name) | get feature
+boolean hasFeature(Feature f) | has feature
+boolean hasFeature(I) | has feature
+boolean notEqualFeatures(QInstance;QInstance;) | not equal features
+FeatureContainer getFeatureContainer() | get feature container
+FeatureValuePath createFeatureValuePath(String featureValuePath) | create feature value path
+IndexedFeature createIndexedFeature(String _name, VisibilityKind _visibility, Boolean _isAscending) | create indexed feature
+int countFeatures(QBitSet;) | count features
+int getFeatureSubID() | get feature sub id
+int getFeatureValue(int addr, int feat) | get feature value
+int getNumFeatures() | get num features
+int lockFeatures(Query query) | lock features
+int removeFeature(Feature _feature) | remove feature
+long getFeatureFlags() | get feature flags
+Looper featureIterator() | feature iterator
+Refresher getRefresher(EStructuralFeature feature, Notification msg) | get refresher
+String getFeatureID() | get feature id
+String numFeaturesTipText() | num features tip text
+String printFeatures() | print features
+templateInfo[] listFeaturedTemplates() | list featured templates
+void addFeatureExtractionParam(Object poParam) | add feature extraction param
+void addFeature(QFeature;) | add feature
+void eSet(int featureID, Object newValue) | e set
+void setFeatureContainer(QFeatureContainer;) | set feature container
+void setFeatureType(GF_FeatureType FeatureType) | set feature type
+void setMultipleFeatures(boolean weightPerState) | set multiple features
+void setNumFeatures(I) | set num features
+void visitFeatureNode(FeatureNode node) | visit feature node

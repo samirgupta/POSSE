@@ -1,0 +1,37 @@
+ArrayList<QURL;> getRemoteCoversList(QString;) | get remote covers list
+boolean checkCoverage() | check coverage
+boolean covers(QInstance;) | covers
+boolean isAbsoluteDefaultCover(QDirectory;QString;) | is absolute default cover
+boolean isAttackerCover() | is attacker cover
+boolean isCover(QInstance;) | is cover
+boolean isNoCover() | is no cover
+boolean isStandardCover(QString;) | is standard cover
+boolean isTargetCover() | is target cover
+boolean removePartialCoverHits(III) | remove partial cover hits
+double getCover() | get cover
+double getCoverG() | get cover g
+double getCoverP() | get cover p
+File getCoverFile() | get cover file
+Instances coveredBy(QInstances;) | covered by
+Instances[] coveredByRule(QInstances;) | covered by rule
+Instances notCoveredBy(QInstances;) | not covered by
+Instances notCoveredInstances() | not covered instances
+Instances rmCoveredBySuccessives(QInstances;QFastVector;I) | rm covered by successives
+int getAttackerCover() | get attacker cover
+int getCover() | get cover
+int getCoverNumber() | get cover number
+int getTargetCover() | get target cover
+Stack<Qd_node;> getCoverSet(IQStack<QStack<Qd_node;>;>;) | get cover set
+String varianceCoveredTipText() | variance covered tip text
+void buildCoverTree(QInstances;) | build cover tree
+void copy_cover_sets(QCoverTreeNode;QMyHeap;QStack<QStack<Qd_node;>;>;QStack<QStack<Qd_node;>;>;II) | copy cover sets
+void CoverSelectionWizard() | cover selection wizard
+void CoverTreeNode() | cover tree node
+void CoverTreeNode(QInteger;DDQStack<QCoverTreeNode;>;II) | cover tree node
+void displayCover(I) | display cover
+void displayCurrentCover() | display current cover
+void print_cover_sets(QStack<QStack<Qd_node;>;>;QStack<Qd_node;>;II) | print cover sets
+void setAttackerCover(I) | set attacker cover
+void setCover(I) | set cover
+void setPartialCover(I) | set partial cover
+void setTargetCover(I) | set target cover

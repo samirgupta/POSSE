@@ -1,0 +1,17 @@
+byte refreshErrLoopCount | refresh err loop count
+byte tooltipErrLoopCount | tooltip err loop count
+edu.rice.cs.drjava.config.ColorOption SYSTEM_ERR_COLOR | system err color
+edu.rice.cs.util.StreamRedirectThread _stdErrRedirector | std err redirector
+int CONNECTERR_EXITVAL | connect err exit val
+int FILEERR_EXITVAL | file err exit val
+int iConsecutiveErrCount | i consecutive err count
+int INPUTERR_EXITVAL | input err exit val
+int IOERR_EXITVAL | io err exit val
+int RCERR_EXITVAL | rc err exit val
+int SQLERR_EXITVAL | sql err exit val
+int SQLTOOLERR_EXITVAL | sqltool err exit val
+int SYNTAXERR_EXITVAL | syntax err exit val
+java.awt.Color INTERACTIONS_SYSTEM_ERR_COLOR | interactions system err color
+java.io.PipedOutputStream _combinedStdErrStream | combined std err stream
+java.lang.String SYSTEM_ERR_STYLE | system err style
+javax.swing.text.SimpleAttributeSet _systemErrStyle | system err style

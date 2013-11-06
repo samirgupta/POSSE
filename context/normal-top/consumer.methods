@@ -1,0 +1,8 @@
+boolean isConsumer(ImageConsumer ic) | is consumer
+long getConsumerId() | get consumer id
+String sendDelta(String path, InputStream source, long sourceOffset, InputStream target, ISVNDeltaConsumer consumer, boolean computeChecksum) | send delta
+void disconnect_pull_consumer() | disconnect pull consumer
+void registerConsumer(QTickConsumer;) | register consumer
+void registerMonotonousConsumer(QTickConsumer;) | register monotonous consumer
+void unregisterConsumer(QTickConsumer;) | unregister consumer
+void unregisterMonotonousConsumer(QTickConsumer;) | unregister monotonous consumer

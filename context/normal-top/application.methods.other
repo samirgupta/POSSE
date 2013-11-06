@@ -1,0 +1,37 @@
+ApplicationContext getGlobalApplicationContext() | get global application context
+boolean isApplicationVersionSuperiorTo(QString;) | is application version superior to
+ClassLoader getApplicationClassLoader() | get application class loader
+File createApplicationFile(QString;) | create application file
+File getApplicationEXELocation() | get application exe location
+File getApplicationFile(QString;) | get application file
+File getApplicationFolder() | get application folder
+File getApplicationPluginsFolder() | get application plugins folder
+HttpContext createApplicationContext(WebApp app) | create application context
+int getApplicationTag() | get application tag
+List<QPushToApplicationExtension;> getPushToApplicationExtensions() | get push to application extensions
+PropertyChangeListener createApplicationListener() | create application listener
+String getApplicationCommandLine() | get application command line
+String getApplicationEntryPoint() | get application entry point
+String getApplicationIdentifier() | get application identifier
+String getApplicationInstallDir(QString;) | get application install dir
+String getApplicationName() | get application name
+String getApplicationPath() | get application path
+String getApplicationSupportFolder() | get application support folder
+String getXHTMLApplicationData(ServletContext context) | get xhtml application data
+URLContent copyToApplicationURLContent(QContent;QString;) | copy to application url content
+void addStartApplicationMenuItem(String title, CoppeerApplication application) | add start application menu item
+void bindToApplicationMenu(QSweetHome3D;QContentManager;QViewFactory;) | bind to application menu
+void determineApplicationName() | determine application name
+void hookApplicationMenu(QDisplay;) | hook application menu
+void initApplicationActions() | init application actions
+void initApplicationClassLoader(QClassLoader;) | init application class loader
+void installApplicationListeners(QApplication;) | install application listeners
+void openFileWithApplicationOnWindows(QString;QString;) | open file with application on windows
+void PushToApplicationExtension(QPlugin;QExtension;) | push to application extension
+void setApplicationClassLoader(QClassLoader;) | set application class loader
+void setApplicationEntryPoint(QString;) | set application entry point
+void setApplicationFile(String applicationFile) | set application file
+void setApplication_for_selected_or_unselected_KB() | set application for selected or unselected kb
+void setApplicationIdentifier(QString;) | set application identifier
+void setApplicationName(QString;) | set application name
+void uninstallApplicationListeners(QApplication;) | uninstall application listeners

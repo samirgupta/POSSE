@@ -1,0 +1,37 @@
+byte AL_MSG_BT_REQUEST | al msg bt request
+byte[] block_request | block request
+byte COMMAND_STAT_REQUEST | command stat request
+byte[] key_block_request | key block request
+byte NATOp_AddrRequest | nat op addr request
+byte PT_READ_REQUEST | pt read request
+byte PT_WRITE_REQUEST | pt write request
+com.aelitis.azureus.core.networkmanager.impl.http.HTTPNetworkConnection.httpRequest http_request | http request
+com.aelitis.azureus.plugins.extseed.impl.ExternalSeedReaderRequest active_read_request | active read request
+com.aelitis.azureus.plugins.extseed.impl.ExternalSeedReaderRequest current_request | current request
+int ACT_NAT_REQUEST | act nat request
+int ACT_VERSION_REQUEST | act version request
+int EVENT_CREATE_REQUEST | event create request
+int MT_REQUEST | mt request
+int NATAddrRequest | nat addr request
+int RT_BIND_REQUEST | rt bind request
+int RT_CLOSE_REQUEST | rt close request
+int RT_CONNECT_REQUEST | rt connect request
+int RT_PUNCH_REQUEST | rt punch request
+int RT_QUERY_REQUEST | rt query request
+int SUBID_BT_REQUEST | subid bt request
+java.lang.String current_request | current request
+java.lang.String eBayDutchRequest | e bay dutch request
+java.lang.String evalRequest | eval request
+java.lang.String EVENT_VIEW_CLOSE_REQUEST | event view close request
+java.lang.String EVENT_VIEW_REFRESH_REQUEST | event view refresh request
+java.lang.String EVENT_VIEW_SHOW_REQUEST | event view show request
+java.lang.String EVENT_VIEW_SHOW_STATUS_CHANGED_REQUEST | event view show status changed request
+java.lang.String HEADER_BAD_REQUEST | header bad request
+java.lang.String ID_AZ_SESSION_REQUEST | id az session request
+java.lang.String ID_BTMESSAGE_REQUEST | id btm es sa ge request
+java.lang.String ID_BT_REQUEST | id bt request
+org.bouncycastle.asn1.DERObjectIdentifier pkcs_9_at_extensionRequest | pkcs  9  at extension request
+org.gudy.azureus2.core3.disk.DiskManagerReadRequest dm_request | dm request
+org.gudy.azureus2.core3.util.IPToHostNameResolverRequest ip_resolver_request | ip resolver request
+org.gudy.azureus2.pluginsimpl.local.disk.DiskManagerChannelImpl.request current_request | current request
+org.gudy.azureus2.plugins.peers.PeerReadRequest current_request | current request

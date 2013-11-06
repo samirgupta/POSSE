@@ -1,0 +1,23 @@
+ArrayList buildPredicates() | build predicates
+boolean isEquivalentToBetweenPredicate() | is equivalent to between predicate
+boolean isEquivalentToBetweenPredicateAugmentedWithLike() | is equivalent to between predicate augmented with like
+boolean isEquivalentToEqualsPredicate() | is equivalent to equals predicate
+boolean isEquivalentToFalsePredicate() | is equivalent to false predicate
+boolean isEquivalentToNotNullPredicate() | is equivalent to not null predicate
+boolean supportsSubselectAsInPredicateLHS() | supports subselect as in predicate lhs
+Expression parseAllAnyPredicate() | parse all any predicate
+Expression parseBetweenPredicate(QExpression;) | parse between predicate
+Expression parseInPredicate(QExpression;) | parse in predicate
+Expression parseLikePredicate(QExpression;) | parse like predicate
+Point getOperatorPosition(Predicate predicate, String predStr, IPosition position) | get operator position
+Predicate buildPredicate(QInstances;QAttribute;Z) | build predicate
+Predicate getFilterPredicate() | get filter predicate
+Predicate getPredicate() | get predicate
+Predicate getSubPredicate(QPredicate;) | get sub predicate
+Predicate getTestPredicate() | get test predicate
+Predicate predicate(QString;) | predicate
+void initPredicate() | init predicate
+void setFilterPredicate(QPredicate;) | set filter predicate
+void setPredicate(QPredicate;) | set predicate
+void setPredicate(QString;) | set predicate
+void setTestPredicate(QPredicate;) | set test predicate

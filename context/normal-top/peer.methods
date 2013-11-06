@@ -1,0 +1,212 @@
+ArrayList generateTestPeers() | generate test peers
+ArrayList getAllPeers() | get all peers
+ArrayList getNextOptimisticPeers(QArrayList;ZZI) | get next optimistic peers
+ArrayList globalGetAllDownloadPeers() | global get all download peers
+ArrayList rankPeers(IQArrayList;) | rank peers
+boolean getSendPeerIds() | get send peer ids
+boolean ignorePeerPort(I) | ignore peer port
+boolean isConnectedToPeer(QPeerItem;) | is connected to peer
+boolean isPeerSourceEnabledByDefault(QString;) | is peer source enabled by default
+boolean peerSupportsMessageType(QString;) | peer supports message type
+boolean removePeerConnection(QNetworkConnectionBase;) | remove peer connection
+byte[] createPeerID() | create peer id
+byte[] createWebSeedPeerID() | create web seed peer id
+byte[] generatePeerID(QTorrent;Z) | generate peer id
+byte[] generatePeerID(QTOTorrent;Z) | generate peer id
+byte[] getAnonymousPeerId(QString;I) | get anonymous peer id
+byte[] getAZPeerIdentity() | get az peer identity
+byte[] getDownloadPeerId() | get download peer id
+byte[] getPeerId() | get peer id
+byte[] getPeerID() | get peer id
+byte[] peerIDStringToBytes(QString;) | peer id string to bytes
+CachePeer categorisePeer([BQInetAddress;I) | categorise peer
+Class peerFindLoadedClass(QString;) | peer find loaded class
+Class peerLoadClass(QString;) | peer load class
+Composite createPeerInfoPanel(QComposite;) | create peer info panel
+DownloadAnnounceResultPeer[] getPeers() | get peers
+HashWrapper getPeerId() | get peer id
+int calcPeersNoUs(QDownload;) | calc peers no us
+int getAnnounceCachePeerThreshold() | get announce cache peer threshold
+int getBadNATPeerCount() | get bad nat peer count
+int getDiscoveredPeerCount() | get discovered peer count
+int getMaxAllowedPeersPerVolley(ZZ) | get max allowed peers per volley
+int getMaxPeersToSend() | get max peers to send
+int getNbPeers() | get nb peers
+int getNbPeersStalledPendingLoad() | get nb peers stalled pending load
+int getNumberOfPeers() | get number of peers
+int getPeerCount() | get peer count
+int getPeers() | get peers
+int getPeerState() | get peer state
+int getReportedPeerCount() | get reported peer count
+List extractPeers(QString;QMap;IZ) | extract peers
+List getPeers() | get peers
+List getPeers(QString;) | get peers
+List mapForeignPeers([QPeer;) | map foreign peers
+long getEstimatedDownloadRateOfPeer() | get estimated download rate of peer
+long getEstimatedUploadRateOfPeer() | get estimated upload rate of peer
+long getTotalAveragePerPeer() | get total average per peer
+long getTotalBytesDownloadedByPeer() | get total bytes downloaded by peer
+long getTotalSwarmsPeerRate(ZZ) | get total swarms peer rate
+Map getPeerMap() | get peer map
+MenuItem addAllPeersMenuItem(QMenu;) | add all peers menu item
+MouseListener getPeer() | get peer
+org.gudy.azureus2.plugins.peers.PeerManager getPeerManager() | get peer manager
+PeerDatabase createPeerDatabase() | create peer database
+PeerDescriptor[] getPendingPeers(QString;) | get pending peers
+PeerExchangerItem createPeerExchangeConnection(QPEPeerTransport;) | create peer exchange connection
+PeerExchangerItem registerPeerConnection(QPeerItem;QPeerExchangerItem.Helper;) | register peer connection
+PeerForeignDelegate lookupForeignPeer(QPeer;) | lookup foreign peer
+Peer[] getPeers() | get peers
+Peer[] getPeers(QString;) | get peers
+PeerIdentityDataID getPeerIdentityDataID() | get peer identity data id
+PeerImpl getPeerForPEPeer(QPEPeer;) | get peer for pe peer
+PeerItem createPeerItem([BBBI) | create peer item
+PeerItem createPeerItem(QString;IBBIBI) | create peer item
+PeerItem[] extractPeers(QString;QMap;) | extract peers
+PeerItem[] getAddedPeers() | get added peers
+PeerItem[] getAddedPeers(Z) | get added peers
+PeerItem getBasePeer() | get base peer
+PeerItem[] getConnectedPeers() | get connected peers
+PeerItem[] getDiscoveredPeers() | get discovered peers
+PeerItem[] getDroppedPeers() | get dropped peers
+PeerItem[] getExchangedPeersSortedByLeastPopularFirst() | get exchanged peers sorted by least popular first
+PeerItem[] getNewlyAddedPeerConnections() | get newly added peer connections
+PeerItem[] getNewlyDroppedPeerConnections() | get newly dropped peer connections
+PeerItem getNextOptimisticConnectPeer() | get next optimistic connect peer
+PeerItem getNextOptimisticConnectPeer(I) | get next optimistic connect peer
+PeerItem getPeerItemIdentity() | get peer item identity
+PeerItem getSelfPeer() | get self peer
+PeerManager getPeerManager() | get peer manager
+PeerManagerImpl getPeerManager(QPEPeerManager;) | get peer manager
+PeerManagerRegistration getPeerManagerRegistration() | get peer manager registration
+PeerStats createPeerStats(QPeer;) | create peer stats
+PEPeerControl getPeerControl() | get peer control
+PEPeer[] getCurrentPeers() | get current peers
+PEPeer getPeer() | get peer
+PEPeer getPEPeer() | get pe peer
+PEPeerManager getPeerManager() | get peer manager
+PEPeer mapForeignPeer(QPeer;) | map foreign peer
+PEPeerStats createPeerStats(QPEPeer;) | create peer stats
+PEPeerTransport getNextOptimisticPeerExec(QArrayList;) | get next optimistic peer exec
+PEPeerTransport getNextOptimisticPeer(QArrayList;) | get next optimistic peer
+PEPeerTransport getNextOptimisticPeer(QArrayList;ZZ) | get next optimistic peer
+PEPeerTransport getPeer() | get peer
+Set getBiasedPeers() | get biased peers
+String extractReadableVersionSubstringFromPeerID(QString;) | extract readable version substring from peer id
+String getClientNameFromPeerID() | get client name from peer id
+String[] getDefaultEnabledPeerSources() | get default enabled peer sources
+String getPeerSource() | get peer source
+String[] getPeerSources() | get peer sources
+String getPrintablePeerID([B) | get printable peer id
+String getPrintablePeerID([BC) | get printable peer id
+String makePeerIDReadableAndUsable([B) | make peer id readable and usable
+TrackerPeer getPeer() | get peer
+TrackerPeer[] getPeers() | get peers
+TRHostPeer getPeer() | get peer
+TRHostPeer[] getPeers() | get peers
+TRTrackerAnnouncerResponsePeer[] getPeers() | get peers
+TRTrackerAnnouncerResponsePeer[] getPeersFromCache(I) | get peers from cache
+TRTrackerServerPeerBase[] getQueuedPeers() | get queued peers
+TRTrackerServerPeer getPeer() | get peer
+TRTrackerServerPeer[] getPeers() | get peers
+TRTrackerServerPeer[] getPeers([B) | get peers
+TRTrackerServerPeerImpl importPeer(QMap;) | import peer
+TRTrackerServerPeerImpl peerContact(QString;QString;QHashWrapper;IIIBBQString;QString;ZZQString;JJJJIQDHTNetworkPosition;) | peer contact
+void addConnectedPeer(QPeerItem;) | add connected peer
+void addDiscoveredPeer(QPeerItem;) | add discovered peer
+void addExplicitBiasedPeer(QString;I) | add explicit biased peer
+void addExtendedPeersFromTracker(QMap;) | add extended peers from tracker
+void addPeer() | add peer
+void addPeerConnection(QNetworkConnectionBase;) | add peer connection
+void addPeerListener(QDownloadManagerPeerListener;) | add peer listener
+void addPeerListener(QDownloadManagerPeerListener;Z) | add peer listener
+void addPeerListener(QDownloadPeerListener;) | add peer listener
+void addPeerListener(QTRTrackerServerTorrentPeerListener;) | add peer listener
+void addPeer(QPeer;) | add peer
+void addPeer(QPEPeer;) | add peer
+void addPeer(QString;I) | add peer
+void addPeer(QString;IIZ) | add peer
+void addPeer(QString;IIZQMap;) | add peer
+void addPeer(QString;IZ) | add peer
+void addPeersFromTracker([QTRTrackerAnnouncerResponsePeer;) | add peers from tracker
+void addPeers(QDownload;QList;) | add peers
+void addPeerTransport(QPEPeerTransport;) | add peer transport
+void addToDisconnectedCachePeers(QCachePeer;) | add to disconnected cache peers
+void addToPeerTransports(QPEPeerTransport;) | add to peer transports
+void CachePeerImpl(IQInetAddress;I) | cache peer impl
+void cancelCompatiblePeersLocation(QMessageManagerListener;) | cancel compatible peers location
+void cancelPeerConnection(QNetworkConnectionBase;) | cancel peer connection
+void changePeerState(I) | change peer state
+void checkForPeerListCompaction(Z) | check for peer list compaction
+void checkPeers() | check peers
+void checkPeers(J) | check peers
+void closeAndRemoveAllPeers(QString;Z) | close and remove all peers
+void closeAndRemovePeer(QPEPeerTransport;QString;Z) | close and remove peer
+void compatiblePeerFound(QDownload;QPeer;QMessage;) | compatible peer found
+void decodePeerExchange(QAZStylePeerExchange;) | decode peer exchange
+void deregisterPeerConnection(QNetworkConnectionBase;) | deregister peer connection
+void deregisterPeerConnection(QPeerItem;) | deregister peer connection
+void downgradePeerConnection(QNetworkConnectionBase;) | downgrade peer connection
+void dropConnectedPeer(QPeerItem;) | drop connected peer
+void exportPeer(QLinkedList;QTRTrackerServerPeerImpl;ZBBQDHTNetworkPosition;) | export peer
+void fillPeerInfoSection() | fill peer info section
+void importPeers(QList;) | import peers
+void insertPeers(QString;QMap;[QPeerItem;) | insert peers
+void insertPeers(QString;QMap;ZQList;I) | insert peers
+void insertPeers(QString;QMap;Z[QPeerItem;) | insert peers
+void lightweightPeer(QString;IQHashWrapper;) | lightweight peer
+void locateCompatiblePeers(QPluginInterface;QMessage;QMessageManagerListener;) | locate compatible peers
+void markBuddyPeer(QDownload;QPeer;) | mark buddy peer
+void peerEvent(QTRTrackerServerPeer;IQString;) | peer event
+void peerHasPiece(QPEPeer;) | peer has piece
+void PeerIdentity([BI) | peer identity
+void peerLeft() | peer left
+void PeerManagerRegistrationImpl(QHashWrapper;QPeerManagerRegistrationAdapter;) | peer manager registration impl
+void peerMightBeBad(QPeer;) | peer might be bad
+void PeerNATTraversal(QPeerNATInitiator;QInetSocketAddress;QPeerNATTraversalAdapter;) | peer nat traversal
+void peerVerifiedAsSelf(QPEPeerTransport;) | peer verified as self
+void pieceRevealedToPeer() | piece revealed to peer
+void ping(int peerID) | ping
+void QueuedPeer(QString;IIIBBIZZ) | queued peer
+void readIgnorePeerPorts() | read ignore peer ports
+void RealTimePeerRequest(QPEPeerTransport;QDiskManagerReadRequest;) | real time peer request
+void recheckPeers() | recheck peers
+void recordPeer(QString;[BQString;IZ) | record peer
+void registerPeerConnection(QNetworkConnectionBase;) | register peer connection
+void registerPeerConnection(QNetworkConnectionBase;Z) | register peer connection
+void removePeer() | remove peer
+void removePeerListener(QDownloadManagerPeerListener;) | remove peer listener
+void removePeerListener(QDownloadPeerListener;) | remove peer listener
+void removePeerListener(QTRTrackerServerTorrentPeerListener;) | remove peer listener
+void removePeer(QExternalSeedPeer;) | remove peer
+void removePeer(QPeer;) | remove peer
+void removePeer(QPeer;QString;) | remove peer
+void removePeer(QPEPeer;) | remove peer
+void removePeer(QPEPeer;QString;) | remove peer
+void removePeer(QTRTrackerServerPeerImpl;IIQString;) | remove peer
+void removePeer(QTRTrackerServerPeerImpl;IQString;) | remove peer
+void render(BridgePeer peer, BridgeRenderContext context, Object renderObject) | render
+void resetPeerCon() | reset peer con
+void setBiasedPeers(QSet;) | set biased peers
+void setMinBiasedPeers(I) | set min biased peers
+void setNbPeersFromHTML(QString;) | set nb peers from html
+void setPeer() | set peer
+void setPeerMap(QMap;) | set peer map
+void setPeer(QPEPeer;) | set peer
+void setPeers(I) | set peers
+void setPeers([I[S) | set peers
+void setPeerSources([QString;) | set peer sources
+void setPeers([QTRTrackerAnnouncerResponsePeer;) | set peers
+void setSeedsPeers(II) | set seeds peers
+void setSelfPeer(QPeerItem;) | set self peer
+void showAllPeersView() | show all peers view
+void trackPeer(QDownload;QPeer;) | track peer
+void trackPeers(QDownload;) | track peers
+void trackPeers(QDownload;QPeerManager;) | track peers
+void unmarkBuddyPeer(QPeer;) | unmark buddy peer
+void untrackPeers(QDownload;) | untr ack peers
+void updateBiasedPeers(QSet;) | update biased peers
+void updatePeerExchange() | update peer exchange
+void updatePeersInSuperSeedMode() | update peers in super seed mode
+void upgradePeerConnection(QNetworkConnectionBase;) | upgrade peer connection
+void upgradePeerConnection(QNetworkConnectionBase;QRateHandler;) | upgrade peer connection

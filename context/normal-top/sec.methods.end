@@ -1,0 +1,22 @@
+int convertMeshIndex2bitsPerSec(I) | convert mesh index 2 bits per sec
+int getBytesPerSec() | get bytes per sec
+int getDownloadEndBytesPerSec() | get download end bytes per sec
+int getDownloadStartBytesPerSec() | get download start bytes per sec
+int getGlobalDownloadRateBytesPerSec() | get global download rate bytes per sec
+int getUploadEndBytesPerSec() | get upload end bytes per sec
+int getUploadSpeedKBSec(Z) | get upload speed kb sec
+int getUploadStartBytesPerSec() | get upload start bytes per sec
+long getMaxDownBytePerSec() | get max down byte per sec
+long getMaxUpBytePerSec() | get max up byte per sec
+long getProgressiveActiveBytesPerSec() | get progressive active bytes per sec
+SpeedManagerLimitEstimate getEstimatedDownloadCapacityBytesPerSec() | get estimated download capacity bytes per sec
+SpeedManagerLimitEstimate getEstimatedUploadCapacityBytesPerSec() | get estimated upload capacity bytes per sec
+String formatByteCountToBase10KBEtcPerSec(J) | format byte count to base 10 kb etc per sec
+String formatByteCountToBitsPerSec(J) | format byte count to bits per sec
+String formatByteCountToKiBEtcPerSec(J) | format byte count to ki b etc per sec
+String formatByteCountToKiBEtcPerSec(JZ) | format byte count to ki b etc per sec
+String formatDataProtByteCountToKiBEtcPerSec(JJ) | format data prot byte count to ki b etc per sec
+String formatTimeBySec(JZ) | format time by sec
+void setBytesPerSec(I) | set bytes per sec
+void setEstimatedDownloadCapacityBytesPerSec(IF) | set estimated download capacity bytes per sec
+void setEstimatedUploadCapacityBytesPerSec(IF) | set estimated upload capacity bytes per sec

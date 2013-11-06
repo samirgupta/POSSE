@@ -1,0 +1,17 @@
+double getManualThresholdValue() | get manual threshold value
+int getThresholdInstance(QInstances;D) | get threshold instance
+String confirmationThresholdTipText() | confirmation threshold tip text
+String frequencyThresholdTipText() | frequency threshold tip text
+String likelihoodThresholdTipText() | likelihood threshold tip text
+String manualThresholdValueTipText() | manual threshold value tip text
+String maxThresholdTipText() | max threshold tip text
+String minThresholdTipText() | min threshold tip text
+String noiseThresholdTipText() | noise threshold tip text
+String percentThresholdTipText() | percent threshold tip text
+String selectionThresholdTipText() | selection threshold tip text
+String validationThresholdTipText() | validation threshold tip text
+String weightThresholdTipText() | weight threshold tip text
+void addThresholdDataListener(QThresholdDataListener;) | add threshold data listener
+void notifyThresholdListeners(QThresholdDataEvent;) | notify threshold listeners
+void removeThresholdDataListener(QThresholdDataListener;) | remove threshold data listener
+void setManualThresholdValue(D) | set manual threshold value

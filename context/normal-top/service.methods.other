@@ -1,0 +1,16 @@
+BaseServiceUnitManager createServiceUnitManager() | create service unit manager
+boolean implementsIHostServiceForBean() | implements i host service for bean
+InetAddress[] getMultiHomedServiceBindAddresses(Z) | get multi homed service bind addresses
+InetAddress getSingleHomedServiceBindAddress() | get single homed service bind address
+InetAddress getSingleHomedServiceBindAddress(I) | get single homed service bind address
+Iterator getServiceProviders(Class category, Filter filter, boolean useOrdering) | get service providers
+QName getServiceName() | get service name
+ServiceLightValue getServiceLightValue(AuthzSubjectValue subject, Integer id) | get service light value
+ServiceNameType addNewServiceName() | add new service name
+String getServiceName() | get service name
+String[] getServiceNames() | get service names
+String getServiceType() | get service type
+void setServiceInfos(ServiceInfos infos) | set service infos
+void setServiceName(String name) | set service name
+void StandaloneServiceManager(QAppletContext;QURL;) | standalone service manager
+void userServiceEventImplementation(int eventType, IUserBean iub) | user service event implementation

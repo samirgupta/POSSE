@@ -1,0 +1,8 @@
+CONS AppearancePrefsTab(QJabRefPreferences;) | appearance prefs tab
+CONS EntryEditorPrefsTab(QJabRefFrame;QJabRefPreferences;) | entry editor prefs tab
+CONS GroupsPrefsTab(QJabRefPreferences;) | groups prefs tab
+CONS PrefsDialog3(QJabRefFrame;) | prefs dialog 3
+CONS PreviewPrefsTab(QJabRefPreferences;) | preview prefs tab
+CONS TablePrefsTab(QJabRefPreferences;QJabRefFrame;) | table prefs tab
+CONS ToolBarPrefsHandler(QJToolBar;QString;QPreferences;) | tool bar prefs handler
+CONS XmpPrefsTab() | xmp prefs tab

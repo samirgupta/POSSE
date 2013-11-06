@@ -1,0 +1,14 @@
+com.aelitis.azureus.core.networkmanager.impl.http.HTTPMessageDecoder decoder | decoder
+com.aelitis.azureus.core.networkmanager.impl.ProtocolDecoderPHE phe_decoder | phe decoder
+com.aelitis.azureus.core.peermanager.messaging.azureus.AZMessageDecoder decoder | decoder
+com.aelitis.azureus.core.peermanager.messaging.MessageStreamDecoder stream_decoder | stream decoder
+java.nio.charset.CharsetDecoder decoder | decoder
+java.util.List decoders | decoders
+java.util.Map packet_decoders | packet decoders
+org.gudy.azureus2.core3.internat.LocaleUtilDecoder[] all_decoders | all decoders
+org.gudy.azureus2.core3.internat.LocaleUtilDecoder decoder | decoder
+org.gudy.azureus2.core3.internat.LocaleUtilDecoder fallback_decoder | fallback decoder
+org.gudy.azureus2.core3.internat.LocaleUtilDecoder[] general_decoders | general decoders
+org.gudy.azureus2.core3.internat.LocaleUtilDecoder rememberedDecoder | remembered decoder
+org.gudy.azureus2.core3.internat.LocaleUtilDecoder system_decoder | system decoder
+org.gudy.azureus2.plugins.messaging.MessageStreamDecoder plug_decoder | plug decoder

@@ -1,0 +1,104 @@
+boolean confirmReplaceFurnitureLibrary(QString;) | confirm replace furniture library
+boolean isFurnitureSortedPropertyBackwardCompatible(QHomePieceOfFurniture.SortableProperty;) | is furniture sorted property backward compatible
+boolean isFurnitureViewedFromTop() | is furniture viewed from top
+boolean isPieceOfFurnitureNameValid() | is piece of furniture name valid
+boolean isPieceOfFurniturePartOfBasePlan(QHomePieceOfFurniture;) | is piece of furniture part of base plan
+Comparator<QHomePieceOfFurniture;> getFurnitureComparator(QHome;) | get furniture comparator
+Comparator<QHomePieceOfFurniture;> getFurnitureComparator(QSortableProperty;) | get furniture comparator
+ControllerState getPieceOfFurnitureElevationState() | get piece of furniture elevation state
+ControllerState getPieceOfFurnitureHeightState() | get piece of furniture height state
+ControllerState getPieceOfFurnitureNameOffsetState() | get piece of furniture name offset state
+ControllerState getPieceOfFurnitureResizeState() | get piece of furniture resize state
+ControllerState getPieceOfFurnitureRotationState() | get piece of furniture rotation state
+DialogView createHomeFurnitureView(QUserPreferences;QHomeFurnitureController;) | create home furniture view
+File getPluginFurnitureLibrariesFolder() | get plugin furniture libraries folder
+FurnitureCatalogController getFurnitureCatalogController() | get furniture catalog controller
+FurnitureCatalog getFurnitureCatalog() | get furniture catalog
+FurnitureController getFurnitureController() | get furniture controller
+HomePieceOfFurniture adjustPieceOfFurnitureElevationAt(QHomePieceOfFurniture;) | adjust piece of furniture elevation at
+HomePieceOfFurniture getElevatedPieceOfFurnitureAt(FF) | get elevated piece of furniture at
+HomePieceOfFurniture getHeightResizedPieceOfFurnitureAt(FF) | get height resized piece of furniture at
+HomePieceOfFurniture getPieceOfFurnitureNameAt(FF) | get piece of furniture name at
+HomePieceOfFurniture getRotatedPieceOfFurnitureAt(FF) | get rotated piece of furniture at
+HomePieceOfFurniture getWidthAndDepthResizedPieceOfFurnitureAt(FF) | get width and depth resized piece of furniture at
+HomePieceOfFurniture.SortableProperty getFurnitureSortedProperty() | get furniture sorted property
+ImportedFurnitureWizardStepState getFurnitureAttributesStepState() | get furniture attributes step state
+ImportedFurnitureWizardStepState getFurnitureIconStepState() | get furniture icon step state
+ImportedFurnitureWizardStepState getFurnitureModelStepStatee() | get furniture model step stat ee
+ImportedFurnitureWizardStepState getFurnitureOrientationStepState() | get furniture orientation step state
+ImportedFurnitureWizardStepsView createImportedFurnitureWizardStepsView(QCatalogPieceOfFurniture;QString;ZQUserPreferences;QImportedFurnitureWizardController;) | create imported furniture wizard steps view
+int getFurnitureCount() | get furniture count
+int getPieceOfFurnitureDeletionIndex(QHomePieceOfFurniture;QHome;I) | get piece of furniture deletion index
+int getPieceOfFurnitureIndex(QHomePieceOfFurniture;) | get piece of furniture index
+int getPieceOfFurnitureInsertionIndex(QHomePieceOfFurniture;QHome;I) | get piece of furniture insertion index
+JComponent createCatalogFurniturePane(QHome;QUserPreferences;QHomeController;) | create catalog furniture pane
+JMenu createFurnitureDisplayPropertyMenu(QHome;QUserPreferences;) | create furniture display property menu
+JMenu createFurnitureSortMenu(QHome;QUserPreferences;) | create furniture sort menu
+List<QHomePieceOfFurniture;> createHomeFurnitureFromCatalog(QFurnitureCatalog;) | create home furniture from catalog
+List<QHomePieceOfFurniture;> getFurnitureNotPartOfBasePlan(QList<QHomePieceOfFurniture;>;) | get furniture not part of base plan
+List<QHomePieceOfFurniture;> getFurnitureSubList(QList<+QSelectable;>;) | get furniture sub list
+List<QHomePieceOfFurniture.SortableProperty;> getFurnitureVisibleProperties() | get furniture visible properties
+String showImportFurnitureLibraryDialog() | show import furniture library dialog
+View createFurnitureCatalogView(QFurnitureCatalog;QUserPreferences;QFurnitureCatalogController;) | create furniture catalog view
+View createFurnitureView(QHome;QUserPreferences;QFurnitureController;) | create furniture view
+void addFurnitureLibrary(QString;) | add furniture library
+void addFurnitureListener(QCollectionListener<QCatalogPieceOfFurniture;>;) | add furniture listener
+void addFurnitureListener(QCollectionListener<QHomePieceOfFurniture;>;) | add furniture listener
+void addFurnitureListener(QGroup;) | add furniture listener
+void addFurnitureSortListener() | add furniture sort listener
+void addHomeFurnitureListener() | add home furniture listener
+void alignSelectedFurnitureOnBottom() | align selected furniture on bottom
+void alignSelectedFurnitureOnLeft() | align selected furniture on left
+void alignSelectedFurnitureOnRight() | align selected furniture on right
+void alignSelectedFurnitureOnTop() | align selected furniture on top
+void assertFurnitureControllerEquals(QString;QFloat;QFloat;QFloat;QInteger;QFloat;QFloat;QFloat;QInteger;QBoolean;QBoolean;QHomeFurnitureController;) | assert furniture controller equals
+void assertFurnitureFirstRowEquals(QJTable;[QObject;) | assert furniture first row equals
+void assertFurnitureIsSortedByName(QJTable;Z) | assert furniture is sorted by name
+void CatalogFurnitureListener(QCatalogTreeModel;) | catalog furniture listener
+void checkPieceOfFurnitureNameInCategory() | check piece of furniture name in category
+void createPieceOfFurnitureNode(QHomePieceOfFurniture;ZZ) | create piece of furniture node
+void doAlignFurnitureOnBottom([QAlignedPieceOfFurniture;QHomePieceOfFurniture;) | do align furniture on bottom
+void doAlignFurnitureOnLeft([QAlignedPieceOfFurniture;QHomePieceOfFurniture;) | do align furniture on left
+void doAlignFurnitureOnRight([QAlignedPieceOfFurniture;QHomePieceOfFurniture;) | do align furniture on right
+void doAlignFurnitureOnTop([QAlignedPieceOfFurniture;QHomePieceOfFurniture;) | do align furniture on top
+void importFurnitureLibrary() | import furniture library
+void importFurnitureLibrary(QString;) | import furniture library
+void paintFurnitureName(QGraphics2D;QList<QHomePieceOfFurniture;>;QList<QSelectable;>;FQColor;QPaintMode;) | paint furniture name
+void paintFurnitureOutline(QGraphics2D;QList<QSelectable;>;QPaint;QStroke;QPaint;FQColor;) | paint furniture outline
+void paintPieceOfFurnitureIcon(QGraphics2D;QHomePieceOfFurniture;QIcon;QShape;FQColor;) | paint piece of furniture icon
+void paintPieceOfFurnitureIcon(QGraphics2D;QHomePieceOfFurniture;QShape;FQColor;QPaintMode;) | paint piece of furniture icon
+void paintPieceOFFurnitureIndicators(QGraphics2D;QHomePieceOfFurniture;QPaint;F) | paint piece of furniture indicators
+void paintPieceOfFurnitureTop(QGraphics2D;QHomePieceOfFurniture;QShape;QBasicStroke;FQColor;QColor;QPaintMode;) | paint piece of furniture top
+void PieceOfFurnitureImportationUndoableEdit(QHome;QUserPreferences;QList<QSelectable;>;QHomePieceOfFurniture;I) | piece of furniture importation undoable edit
+void PieceOfFurnitureTopViewIcon(QHomePieceOfFurniture;QComponent;) | piece of furniture top view icon
+void postPieceOfFurnitureElevation(QHomePieceOfFurniture;F) | post piece of furniture elevation
+void postPieceOfFurnitureHeightResize(QHomePieceOfFurniture;F) | post piece of furniture height resize
+void postPieceOfFurnitureMove(QHomePieceOfFurniture;FFFFFZ) | post piece of furniture move
+void postPieceOfFurnitureNameOffset(QHomePieceOfFurniture;FF) | post piece of furniture name offset
+void postPieceOfFurnitureRotation(QHomePieceOfFurniture;FZ) | post piece of furniture rotation
+void postPieceOfFurnitureWidthAndDepthResize(QHomePieceOfFurniture;FFFFZ) | post piece of furniture width and depth resize
+void readFurnitureCatalog(QPreferences;) | read furniture catalog
+void removeFurnitureListener(QCollectionListener<QCatalogPieceOfFurniture;>;) | remove furniture listener
+void removeFurnitureListener(QCollectionListener<QHomePieceOfFurniture;>;) | remove furniture listener
+void setFurnitureCatalog(QFurnitureCatalog;) | set furniture catalog
+void setFurnitureFilter(QFurnitureFilter;) | set furniture filter
+void setFurnitureFilter(QFurnitureTable.FurnitureFilter;) | set furniture filter
+void setFurnitureSortedProperty(QHomePieceOfFurniture.SortableProperty;) | set furniture sorted property
+void setFurnitureViewedFromTop(Z) | set furniture viewed from top
+void setFurnitureVisibleProperties(QList<QHomePieceOfFurniture.SortableProperty;>;) | set furniture visible properties
+void testFurnitureTableCreation() | test furniture table creation
+void testFurnitureTableFilter() | test furniture table filter
+void testFurnitureTableSort() | test furniture table sort
+void testFurnitureVisibleProperties() | test furniture visible properties
+void testHomeFurnitureUndoableActions() | test home furniture undoable actions
+void testHomePieceOfFurniturePanel() | test home piece of furniture panel
+void testImportFurnitureWizard() | test import furniture wizard
+void toggleFurnitureSortOrder() | toggle furniture sort order
+void toggleFurnitureSort(QHomePieceOfFurniture.SortableProperty;) | toggle furniture sort
+void toggleFurnitureVisibleProperty(QHomePieceOfFurniture.SortableProperty;) | toggle furniture visible property
+void updatePieceOfFurnitureColor() | update piece of furniture color
+void updatePieceOfFurnitureModelNode(QNode;Z) | update piece of furniture model node
+void updatePieceOfFurnitureTransform() | update piece of furniture transform
+void updatePieceOfFurnitureVisibility() | update piece of furniture visibility
+void writeFurnitureCatalog(QPreferences;) | write furniture catalog
+Wall adjustPieceOfFurnitureOnWallAt(QHomePieceOfFurniture;FF) | adjust piece of furniture on wall at

@@ -1,0 +1,46 @@
+boolean isClientOptionsDialogShowing() | is client options dialog showing
+boolean showClientOptionsDialog() | show client options dialog
+ClientIDManager getClientIDManager() | get client id manager
+ClientMessageContext getClientMessageContext() | get client message context
+ClientOptionsDialog getClientOptionsDialog() | get client options dialog
+ClientOptions getClientOptions() | get client options
+ClientPortPropertiesArray getClientPortPropertiesArrayVal() | get client port properties array val
+Connection createClientConnection(QString;II) | create client connection
+File getClientOptionsFile() | get client options file
+IClientPreferences getClientPreferences() | get client preferences
+InetSocketAddress getClientAddress2() | get client address 2
+Map getClientData(QInetSocketAddress;QMap;) | get client data
+Object getClientData() | get client data
+Object getClientProperty(QString;) | get client property
+Rectangle getClientArea() | get client area
+String getAzStyleClientName(QString;) | get az style client name
+String getAzStyleClientVersion(QString;QString;) | get az style client version
+String getClientAddress() | get client address
+String getClientDescription([B) | get client description
+String getClientIP() | get client ip
+String getClientName() | get client name
+String getClientNameFromExtensionHandshake() | get client name from extension handshake
+String getClientNameFromPeerID() | get client name from peer id
+String getClientVersion() | get client version
+String getMainlineStyleClientName(QString;) | get mainline style client name
+String getShadowStyleClientName(QString;) | get shadow style client name
+String getSubstringStyleClientVersion(QClientData;QString;[B) | get substring style client version
+String getTrackerClientExtensions() | get tracker client extensions
+String logUnknownClient0([B) | log unknown client 0
+void addClientConnection(QClientConnection;) | add client connection
+void addCloseClientListener(QCloseClientListener;) | add close client listener
+void calculateClientArea() | calculate client area
+void initializePlatformClientMessageContext() | initialize platform client message context
+void loadClientOptions() | load client options
+void loadClientOptions(QFile;) | load client options
+void logClientDiscrepancy(QString;QString;QString;QString;[B) | log client discrepancy
+void logClientDiscrepancyToFile(QString;) | log client discrepancy to file
+void putClientProperty(QString;QObject;) | put client property
+void removeClientConnection(QClientConnection;) | remove client connection
+void saveClientOptions() | save client options
+void saveClientOptions(QFile;) | save client options
+void setClientEnv(ClientEnv clientEnv) | set client env
+void setClientIP(QString;) | set client ip
+void setClientResolver(QTRTrackerScraperClientResolver;) | set client resolver
+void setTrackerClientExtensions(QString;) | set tracker client extensions
+void testClient2PbxMessage() | test client 2 pbx message

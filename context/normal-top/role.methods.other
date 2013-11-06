@@ -1,0 +1,39 @@
+boolean hasRoleDirect(QString;) | has role direct
+GeneralName getRoleName() | get role name
+GeneralNames getRoleAuthority() | get role authority
+int getRoleID() | get role id
+Role getRoleForAssigment() | get role for assigment
+Role getRoleForAssignment() | get role for assignment
+RoleManager getRoleManager() | get role manager
+RoleSet createRoleSet(QString;) | create role set
+RoleSet getChangedRoleSet() | get changed role set
+RoleSet getProjectRoleSet() | get project role set
+RoleSet getRoleSet(QString;) | get role set
+RoleSet[] getRoleSets() | get role sets
+Set getRoleNames() | get role names
+String formatRoleForTooltip(QRole;) | format role for tooltip
+String getAssociationRoleReferentialConstraintNameConversionType() | get association role referential constraint name conversion type
+String getAssociationRoleReferentialConstraintNameSuffix() | get association role referential constraint name suffix
+String[] getCollectionRoleNames() | get collection role names
+String getEntityOrRoleName() | get entity or role name
+String[] getRoleAuthorityAsString() | get role authority as string
+String getRoleName() | get role name
+String getRoleNameAsString() | get role name as string
+String getRoleSetDisplayName(QRoleSet;) | get role set display name
+String getRoleSetID() | get role set id
+String getRolesetTooltipFooter() | get role set tooltip footer
+String getRolesetTooltipHeader(QString;) | get role set tooltip header
+Table SYSTEM_ROLE_AUTHORIZATION_DESCRIPTORS() | system role authorization descriptors
+void addRoleListener(QListener;) | add role listener
+void addRoleSetPage([QRoleSet;) | add role set page
+void clearRoleSet() | clear role set
+void findRoleSet(QString;) | find role set
+void loadRoleSets(QFile;) | load role sets
+void processRoleGrantOrRevoke(Z) | process role grant or revoke
+void registerRoleManager(QRoleManager;) | register role manager
+void removeRoleFromUsers(Role role) | remove role from users
+void removeRoleListener(QListener;) | remove role listener
+void saveRoleSets(QTransformerHandler;) | save role sets
+void setRoleForAssigment(QRole;) | set role for assigment
+void setRoleForAssignment(QRole;) | set role for assignment
+void setRoleName(QString;) | set role name

@@ -1,0 +1,21 @@
+CONS MiniMapZoomInAction(QFreeColClient;) | mini map zoom in action
+CONS MiniMapZoomOutAction(QFreeColClient;) | mini map zoom out action
+CONS ZoomAction(QDrawingEditor;DQAbstractButton;) | zoom action
+CONS ZoomAction(QDrawingView;DQAbstractButton;) | zoom action
+CONS ZoomControl() | zoom control
+CONS ZoomControl(I) | zoom control
+CONS ZoomEditorAction(QDrawingEditor;DQAbstractButton;) | zoom editor action
+CONS ZoomEditorAction(QDrawingEditor;DQAbstractButton;Z) | zoom editor action
+CONS ZoomEvent(QZoomManager;QZoomState;) | zoom event
+CONS ZoomInAction(QFreeColClient;) | zoom in action
+CONS ZoomInAction(QZoomManager;QString;) | zoom in action
+CONS ZoomingPanControl() | zooming pan control
+CONS ZoomingPanControl(Z) | zooming pan control
+CONS ZoomManager(QTimeUnitStack;) | zoom manager
+CONS ZoomOutAction(QFreeColClient;) | zoom out action
+CONS ZoomOutAction(QZoomManager;QString;) | zoom out action
+CONS ZoomToFitControl() | zoom to fit control
+CONS ZoomToFitControl(I) | zoom to fit control
+CONS ZoomToFitControl(QString;) | zoom to fit control
+CONS ZoomToFitControl(QString;I) | zoom to fit control
+CONS ZoomToFitControl(QString;IJI) | zoom to fit control

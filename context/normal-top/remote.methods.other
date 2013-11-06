@@ -1,0 +1,34 @@
+ArrayList<QURL;> getRemoteCoversList(QString;) | get remote covers list
+boolean isRemoteClosing() | is remote closing
+boolean isRemoteComplete() | is remote complete
+byte[] getRemotePublicKey() | get remote public key
+DefaultListModel getRemoteHosts() | get remote hosts
+HashWrapper getRemoteSessionID() | get remote session id
+InetSocketAddress getRemoteAddress() | get remote address
+InetSocketAddress getRemoteSocketAddress() | get remote socket address
+int getNbRemoteConnectionsExcludingUDP() | get nb remote connections excluding udp
+int getRemoteFreqDivCount() | get remote freq div count
+int getRemoteSizeDivCount() | get remote size div count
+long getLastRemoteConnectionTime() | get last remote connection time
+RemoteListener openRemoteListener(QJabRef;) | open remote listener
+RPPluginInterface createRemotePluginInterface(QPluginInterface;) | create remote plugin interface
+String getRemoteAddress() | get remote address
+String getRemoteConnectionStatus() | get remote connection status
+String getRemoteHost() | get remote host
+String getRemoteUser() | get remote user
+void addRemoteExperimentListener(QRemoteExperimentListener;) | add remote experiment listener
+void addRemoteHost(QString;) | add remote host
+void downloadRemoteTorrent(QString;) | download remote torrent
+void downloadRemoteTorrent(QString;QString;) | download remote torrent
+void executeRemoteCommand(QCompoundAction;) | execute remote command
+void _handleRemoteException(QRemoteException;) | handle remote exception
+void openRemoteExternalFile(QMetaData;QString;QExternalFileType;) | open remote external file
+void openRemoteProject(QIGanttProject;) | open remote project
+void openRemoteTorrent(QString;) | open remote torrent
+void saveToRemoteHost(QString;) | save to remote host
+void setRemoteComplete(Z) | set remote complete
+void setRemoteHosts(QDefaultListModel;) | set remote hosts
+void setRemoteHosts(QVector;) | set remote hosts
+void updateRemoteDir() | update remote dir
+void updateRemoteDirectory(QBasicConnection;) | update remote directory
+void updateRemoteDirGUI() | update remote dir gui

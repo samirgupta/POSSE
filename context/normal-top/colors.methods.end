@@ -1,0 +1,25 @@
+Color[] getColors() | get colors
+Color[] getForegroundColors() | get foreground colors
+Color[] getGradientColors() | get gradient colors
+Color[] getStopColors() | get stop colors
+Color mixColors(QColor;QColor;) | mix colors
+ColorScheme getColors() | get colors
+FastVector getColors() | get colors
+ImageMedia countColors(ImageMedia originalImage) | count colors
+void allocateDynamicColors() | allocate dynamic colors
+void allocateNonDynamicColors() | allocate non dynamic colors
+void collectColors(QHashSet;) | collect colors
+void DoHelpColors() | do help colors
+void durationDefaultOrSelectedColors() | duration default or selected colors
+void dynamicDefaultOrSelectedColors() | dynamic default or selected colors
+void initializeColors() | initialize colors
+void setColors([QColor;) | set colors
+void setColors(QColor;QColor;QColor;) | set colors
+void setColors(QColorScheme;) | set colors
+void setColors(QColorScheme;I) | set colors
+void _setColors(QComponent;) | set colors
+void setColors(QFastVector;) | set colors
+void setGroundColors(String value) | set ground colors
+void setLineColors([QColor;) | set line colors
+void setLineColors(QColor;QColor;QColor;QColor;QColor;QColor;) | set line colors
+void updateColors() | update colors

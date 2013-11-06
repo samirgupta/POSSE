@@ -1,0 +1,677 @@
+../3-Phrases/Base_Verb:boolean getStateOfDeleteMenuItem() | get state of delete menu item
+../3-Phrases/Base_Verb:void setLinkedItem(ItemID linkedItem) | set linked item
+../3-Phrases/Base_Verb:void addStartApplicationMenuItem(String title, CoppeerApplication application) | add start application menu item
+../3-Phrases/Base_Verb:void selectFirstItem() | select first item
+../3-Phrases/Base_Verb:void enableInstanceMenuItem(boolean b) | enable instance menu item
+../3-Phrases/Base_Verb:String getItem(int index) | get item
+../3-Phrases/Base_Verb:boolean placeRandomItem() | place random item
+../3-Phrases/Base_Verb:JMenuItem getC2cohMenuItem() | get c 2 coh menu item
+../3-Phrases/Base_Verb:void processMenuItem(MMenuItem item) | process menu item
+../3-Phrases/Base_Verb:void setClassItem(String classname) | set class item
+../3-Phrases/Base_Verb:JMenuItem createMenuItem(String i18nKey, Object textArgs) | create menu item
+../3-Phrases/Base_Verb:Item makeVoidItem() | make void item
+../3-Phrases/Base_Verb:IItem getItem(int x, int y) | get item
+../3-Phrases/Base_Verb:ListItem getItem(int itemId, int col) | get item
+../3-Phrases/Base_Verb:JMenuItem createResetLogLevelColorMenuItem() | create reset log level color menu item
+../3-Phrases/Base_Verb:void deleteClassificationItem(String classifID) | delete classification item
+../3-Phrases/Base_Verb:String getMenuItem() | get menu item
+../3-Phrases/Base_Verb:void showProjectMenuItem(String path, String com, String menu) | show project menu item
+../3-Phrases/Base_Verb:QIconViewItem findItem(QPoint pos) | find item
+../3-Phrases/Base_Verb:void addItem(AbstractButton itemView) | add item
+../3-Phrases/Base_Verb:JMenuItem getExitMenuItem() | get exit menu item
+../3-Phrases/Base_Verb:Object findNextItem(Object component, String classname, Object item) | find next item
+../3-Phrases/Base_Verb:void addThinletItem(String strLabel, Image imgIcon, String strName, String strKey, Object objTarget) | add thinlet item
+../3-Phrases/Base_Verb:YAWLPopupMenuItem buildManageResourcingItem() | build manage resourcing item
+../3-Phrases/Dguitar:CONS MidiEventPanelItem() | midi event panel item
+../3-Phrases/Dguitar:CONS MidiEventPanelItem(QMidiTrackEvent;IZQActionListener;) | midi event panel item
+../3-Phrases/DrawSWF:void addGenericMenuItem(QString;QAbstractDrawAction;I) | add generic menu item
+../3-Phrases/DrawSWF:void addGenericMenuItem() | add generic menu item
+../3-Phrases/DrawSWF:void addGenericMenuItem(QAbstractDrawAction;I) | add generic menu item
+../3-Phrases/DrawSWF:void addGenericMenuItem(QAbstractDrawAction;I) | add generic menu item
+../3-Phrases/DrawSWF:void addGenericMenuItem(QAbstractDrawAction;I) | add generic menu item
+../3-Phrases/DrawSWF:void addGenericMenuItem(QAbstractDrawAction;I) | add generic menu item
+../3-Phrases/DrawSWF:void addGenericMenuItem(QAbstractDrawAction;I) | add generic menu item
+../3-Phrases/DrawSWF:void addGenericMenuItem(QAbstractDrawAction;I) | add generic menu item
+../3-Phrases/DrawSWF:void addGenericToolbarItem(QAbstractDrawAction;I) | add generic toolbar item
+../3-Phrases/DrawSWF:void addGenericToolbarItem(QAbstractDrawAction;I) | add generic toolbar item
+../3-Phrases/DrawSWF:void addGenericToolbarItem(QAbstractDrawAction;I) | add generic toolbar item
+../3-Phrases/DrawSWF:void addGenericToolbarItem(QAbstractDrawAction;I) | add generic toolbar item
+../3-Phrases/DrawSWF:void addGenericToolbarItem(QAbstractDrawAction;I) | add generic toolbar item
+../3-Phrases/DrawSWF:CONS AlphaColorJMenuItem(QColor;) | alpha color j menu item
+../3-Phrases/DrawSWF:CONS AlphaColorJMenuItem(QColor;IIII) | alpha color j menu item
+../3-Phrases/DrawSWF:CONS AlphaColorJMenuItem(QIIconFactory;QString;QColor;) | alpha color j menu item
+../3-Phrases/DrawSWF:CONS GradientJRadioButtonMenuItem(QMultipleGradientPaint;) | gradient j radio button menu item
+../3-Phrases/DrawSWF:CONS GradientJRadioButtonMenuItem(QMultipleGradientPaint;IIII) | gradient j radio button menu item
+../3-Phrases/DrawSWF:CONS GradientJRadioButtonMenuItem(QIIconFactory;QString;QMultipleGradientPaint;) | gradient j radio button menu item
+../3-Phrases/DrawSWF:CONS GradientJRadioButtonMenuItem(QIIconFactory;QString;) | gradient j radio button menu item
+../3-Phrases/drjava2:boolean atFirstItem() | at first item
+../3-Phrases/drjava2:boolean atLastItem() | at last item
+../3-Phrases/drjava2:T prevItem() | prev item
+../3-Phrases/drjava2:T nextItem() | next item
+../3-Phrases/drjava2:ReducedToken prevItem() | prev item
+../3-Phrases/drjava2:ReducedToken nextItem() | next item
+../3-Phrases/drjava2:void testPrevItem() | test prev item
+../3-Phrases/drjava2:void testNextItem() | test next item
+../3-Phrases/drjava2:void selectItem(QDJError;) | select item
+../3-Phrases/drjava2:void _selectFoundOrReplacedItem(I) | select found or replaced item
+../3-Phrases/drjava2:void _selectFoundOrReplacedItem(II) | select found or replaced item
+../3-Phrases/drjava2:void _addMenuItem(QJMenu;QAction;QOption<QKeyStroke;>;) | add menu item
+../3-Phrases/drjava2:JMenuItem _newCheckBoxMenuItem(QAction;) | new check box menu item
+../3-Phrases/drjava2:void _updateMenuItem(QKeyStrokeData;) | update menu item
+../3-Phrases/drjava2:JMenuItem getJMenuItem() | get j menu item
+../3-Phrases/drjava2:void setJMenuItem(QJMenuItem;) | set j menu item
+../3-Phrases/drjava2:void ListItem(QString;) | list item
+../3-Phrases/drjava2:void selectItem(QDJError;) | select item
+../3-Phrases/drjava2:DebugStackData getSelectedStackItem() | get selected stack item
+../3-Phrases/drjava2:void setCurrentItem(QT;) | set current item
+../3-Phrases/drjava2:T getItem() | get item
+../3-Phrases/drjava2:T getCurrentItem() | get current item
+../3-Phrases/drjava2:void setCurrentItem(QT;) | set current item
+../3-Phrases/drjava2:CONS DummyINavigatorItem(QString;) | dummy i navigator item
+../3-Phrases/drjava2:void setSelectedItem(QString;) | set selected item
+../3-Phrases/freecol2:boolean hasItem() | has item
+../3-Phrases/freecol2:JMenuItem getMenuItem(QString;) | get menu item
+../3-Phrases/freecol2:JMenuItem getMenuItem(QString;QActionListener;) | get menu item
+../3-Phrases/freecol2:JCheckBoxMenuItem getCheckBoxMenuItem(QString;) | get check box menu item
+../3-Phrases/freecol2:JRadioButtonMenuItem getRadioButtonMenuItem(QString;QButtonGroup;) | get radio button menu item
+../3-Phrases/freecol2:JMenuItem getReportsTradeMenuItem() | get reports trade menu item
+../3-Phrases/freecol2:void GoodsItem(QGoods;) | goods item
+../3-Phrases/freecol2:void buildTerrainItem(QTileType;QDefaultMutableTreeNode;) | build terrain item
+../3-Phrases/freecol2:void buildResourceItem(QResourceType;QDefaultMutableTreeNode;) | build resource item
+../3-Phrases/freecol2:void buildUnitItem(QUnitType;FQDefaultMutableTreeNode;) | build unit item
+../3-Phrases/freecol2:void buildGoodsItem(QGoodsType;QDefaultMutableTreeNode;) | build goods item
+../3-Phrases/freecol2:void buildFatherItem(QFoundingFather;QDefaultMutableTreeNode;) | build father item
+../3-Phrases/freecol2:void buildNationItem(QNation;QDefaultMutableTreeNode;) | build nation item
+../3-Phrases/freecol2:void buildNationTypeItem(QNationType;QDefaultMutableTreeNode;) | build nation type item
+../3-Phrases/freecol2:ServerInfo getItem(I) | get item
+../3-Phrases/freecol2:CONS ChoiceItem(QString;I) | choice item
+../3-Phrases/freecol2:CONS ChoiceItem(QString;QObject;) | choice item
+../3-Phrases/freecol2:CONS ChoiceItem(QObject;) | choice item
+../3-Phrases/freecol2:CONS ColopediaTreeItem(QPanelType;QString;) | colo pe dia tree item
+../3-Phrases/freecol2:CONS ColopediaTreeItem(QFreeColGameObjectType;QString;QImageIcon;) | colo pe dia tree item
+../3-Phrases/freecol2:void addColonyTradeItem(QPlayer;QColony;) | add colony trade item
+../3-Phrases/freecol2:void addGoldTradeItem(QPlayer;I) | add gold trade item
+../3-Phrases/freecol2:void addGoodsTradeItem(QPlayer;QGoods;) | add goods trade item
+../3-Phrases/freecol2:void StanceItem(QStance;) | stance item
+../3-Phrases/freecol2:CONS UnitTradeItem(QGame;QPlayer;QPlayer;QUnit;) | unit trade item
+../3-Phrases/freecol2:CONS UnitTradeItem(QGame;QXMLStreamReader;) | unit trade item
+../3-Phrases/freecol2:CONS GoodsTradeItem(QGame;QPlayer;QPlayer;QGoods;QSettlement;) | goods trade item
+../3-Phrases/freecol2:CONS GoodsTradeItem(QGame;QXMLStreamReader;) | goods trade item
+../3-Phrases/freecol2:TileItem addTileItem(QTileItem;) | add tile item
+../3-Phrases/freecol2:TileItem removeTileItem(QTileItem;) | remove tile item
+../3-Phrases/freecol2:BuildableType firstItem() | first item
+../3-Phrases/freecol2:Object lastItem() | last item
+../3-Phrases/freecol2:CONS TileItem(QGame;QTile;) | tile item
+../3-Phrases/freecol2:CONS TileItem(QGame;QXMLStreamReader;) | tile item
+../3-Phrases/freecol2:CONS TileItem(QGame;QElement;) | tile item
+../3-Phrases/freecol2:CONS TileItem(QGame;QString;) | tile item
+../3-Phrases/freecol2:CONS GoldTradeItem(QGame;QPlayer;QPlayer;I) | gold trade item
+../3-Phrases/freecol2:CONS GoldTradeItem(QGame;QXMLStreamReader;) | gold trade item
+../3-Phrases/freecol2:CONS TradeItem(QGame;QString;QPlayer;QPlayer;) | trade item
+../3-Phrases/freecol2:CONS TradeItem(QGame;QXMLStreamReader;) | trade item
+../3-Phrases/freecol2:CONS ColonyTradeItem(QGame;QPlayer;QPlayer;QColony;) | colony trade item
+../3-Phrases/freecol2:CONS ColonyTradeItem(QGame;QXMLStreamReader;) | colony trade item
+../3-Phrases/freecol2:CONS StanceTradeItem(QGame;QPlayer;QPlayer;QStance;) | stance trade item
+../3-Phrases/freecol2:CONS StanceTradeItem(QGame;QXMLStreamReader;) | stance trade item
+../3-Phrases/freecol2:MetaItem getItem(QString;I) | get item
+../3-Phrases/freecol2:CONS MetaItem(QString;QString;IIIZQString;I) | meta item
+../3-Phrases/freemind:JMenuItem addMenuItem(QJMenuItem;QString;) | add menu item
+../3-Phrases/freemind:void addMenuItem(QStructuredMenuItemHolder;) | add menu item
+../3-Phrases/freemind:void addMenuItem(QStructuredMenuItemHolder;) | add menu item
+../3-Phrases/freemind:void addMenuItem(QStructuredMenuItemHolder;) | add menu item
+../3-Phrases/freemind:void addMenuItem(QStructuredMenuItemHolder;) | add menu item
+../3-Phrases/freemind:void addMenuItem(QStructuredMenuItemHolder;) | add menu item
+../3-Phrases/freemind:void addMenuItem(QStructuredMenuItemHolder;) | add menu item
+../3-Phrases/freemind:void adjustMenuItem(QJMenuItem;) | adjust menu item
+../3-Phrases/freemind:void addItem(QStructuredMenuItemHolder;) | add item
+../3-Phrases/freemind:JMenuItem getMenuItem() | get menu item
+../3-Phrases/freemind:void setMenuItem(QJMenuItem;) | set menu item
+../3-Phrases/freemind:void setZoomByItem(QObject;) | set zoom by item
+../3-Phrases/freemind:JMenuItem getHookMenuItem(QString;QAbstractAction;) | get hook menu item
+../3-Phrases/gantt:void setOnlySelectedItem(Z) | set only selected item
+../3-Phrases/gantt:boolean isOnlySelectedItem() | is only selected item
+../3-Phrases/gantt:JMenuItem createNewItem(QString;) | create new item
+../3-Phrases/gantt:JMenuItem createNewItem(QString;QString;) | create new item
+../3-Phrases/gantt:void renameMenuItem(QString;QString;) | rename menu item
+../3-Phrases/gantt:ChartItem findTaskProgressItem(II) | find task progress item
+../3-Phrases/gantt:ChartItem findTaskBoundaryItem(II) | find task boundary item
+../3-Phrases/gantt:CONS TaskProgressChartItem(IIQTimeUnit;QTask;) | task progress chart item
+../3-Phrases/gantt:CONS ChartItem(QTask;) | chart item
+../3-Phrases/gantt:CONS TaskBoundaryChartItem(QTask;Z) | task boundary chart item
+../3-Phrases/gantt:CONS TaskRegularAreaChartItem(QTask;) | task regular area chart item
+../3-Phrases/gantt:void setSelectedItem(QObject;) | set selected item
+../3-Phrases/gantt:Object getSelectedItem() | get selected item
+../3-Phrases/gantt:void removeItem() | remove item
+../3-Phrases/gantt:void TaskComboItem(QTask;) | task combo item
+../3-Phrases/gantt:CONS TaskHierarchyItem(QTask;QTaskHierarchyItem;) | task hierarchy item
+../3-Phrases/gantt:TaskHierarchyItem getContainerItem() | get container item
+../3-Phrases/gantt:void addNestedItem(QTaskHierarchyItem;) | add nested item
+../3-Phrases/gantt:TaskHierarchyItem getRootItem() | get root item
+../3-Phrases/gantt:TaskHierarchyItem createItem(QTask;) | create item
+../3-Phrases/gantt:LineItem createLineItem(QDate;QDate;) | create line item
+../3-Phrases/gantt:LineItem getLineItem(I) | get line item
+../3-Phrases/gantt:void LineItem(QDate;QDate;) | line item
+../3-Phrases/hibernate-3.3.1.GA:SoftLock lockItem(QObject;QObject;) | lock item
+../3-Phrases/hibernate-3.3.1.GA:void unlockItem(QObject;QSoftLock;) | unlock item
+../3-Phrases/hibernate-3.3.1.GA:SoftLock lockItem(QObject;QObject;) | lock item
+../3-Phrases/hibernate-3.3.1.GA:void unlockItem(QObject;QSoftLock;) | unlock item
+../3-Phrases/hibernate-3.3.1.GA:SoftLock lockItem(QObject;QObject;) | lock item
+../3-Phrases/hibernate-3.3.1.GA:void unlockItem(QObject;QSoftLock;) | unlock item
+../3-Phrases/hibernate-3.3.1.GA:SoftLock lockItem(QObject;QObject;) | lock item
+../3-Phrases/hibernate-3.3.1.GA:void unlockItem(QObject;QSoftLock;) | unlock item
+../3-Phrases/iReport:CONS JRVersionItem(IQString;) | jr version item
+../3-Phrases/iReport:Object getItem() | get item
+../3-Phrases/iReport:void setItem(QObject;) | set item
+../3-Phrases/iReport:void addItem(QSheetProperty;) | add item
+../3-Phrases/iReport:CONS PasteStyledElementItem(QReportElement;QReportElement;QReportElement;) | paste styled element item
+../3-Phrases/iReport:CONS ReplacedElementItem(QReportElement;QReportElement;) | replaced element item
+../3-Phrases/Jabref:void addPluginMenuItem(QJMenuItem;) | add plugin menu item
+../3-Phrases/Jabref:void addItem(QString;I) | add item
+../3-Phrases/Jabref:void removeItem(QString;) | remove item
+../3-Phrases/Jabref:stackitem_return stackitem() | stack item
+../3-Phrases/Jabref:CONS ExternalFileMenuItem(QJabRefFrame;QBibtexEntry;QString;QString;QIcon;QMetaData;QExternalFileType;) | external file menu item
+../3-Phrases/Jabref:CONS ExternalFileMenuItem(QJabRefFrame;QBibtexEntry;QString;QString;QIcon;QMetaData;QString;) | external file menu item
+../3-Phrases/Jabref:CONS ImportMenuItem(QJabRefFrame;Z) | import menu item
+../3-Phrases/Jabref:CONS ImportMenuItem(QJabRefFrame;ZQImportFormat;) | import menu item
+../3-Phrases/Jabref:JMenuItem getMenuItem() | get menu item
+../3-Phrases/jajuk:CONS SliderMenuItem(IIIQString;) | slider menu item
+../3-Phrases/jajuk:StackItem getCurrentItem() | get current item
+../3-Phrases/jajuk:StackItem getItem(I) | get item
+../3-Phrases/jajuk:int getLastRepeatedItem() | get last repeated item
+../3-Phrases/jajuk:CONS HistoryItem(QString;J) | history item
+../3-Phrases/jajuk:IPropertyable getItem(QString;) | get item
+../3-Phrases/jajuk:void removeItem(QString;) | remove item
+../3-Phrases/jajuk:IPropertyable changeItem(QIPropertyable;QString;QObject;QHashSet;) | change item
+../3-Phrases/jajuk:void addItem(QString;J) | add item
+../3-Phrases/jajuk:HistoryItem getHistoryItem(I) | get history item
+../3-Phrases/jajuk:CONS StackItem(QFile;) | stack item
+../3-Phrases/jajuk:CONS StackItem(QFile;Z) | stack item
+../3-Phrases/jajuk:CONS StackItem(QFile;ZZ) | stack item
+../3-Phrases/jajuk:String getTagItem(QString;) | get tag item
+../3-Phrases/jajuk:void setTagItem(QString;QString;) | set tag item
+../3-Phrases/jajuk:String getTagItem(QString;) | get tag item
+../3-Phrases/jajuk:void setTagItem(QString;QString;) | set tag item
+../3-Phrases/jajuk:String getTagItem(QString;) | get tag item
+../3-Phrases/jajuk:void setTagItem(QString;QString;) | set tag item
+../3-Phrases/jajuk:CONS PlaylistFileItem(IQString;QPlaylistFile;QString;) | playlist file item
+../3-Phrases/jajuk:boolean containsVoidItem() | contains void item
+../3-Phrases/jajuk:boolean containsVoidItem() | contains void item
+../3-Phrases/jajuk:StackItem getItem(I) | get item
+../3-Phrases/jajuk:ArrayList getRepositoryCurrentPlaylistFileItem() | get repository current playlist file item
+../3-Phrases/jajuk:PlaylistFileItem getCurrentPlaylistFileItem() | get current playlist file item
+../3-Phrases/jajuk:void setCurrentPlaylistFileItem(QPlaylistFileItem;) | set current playlist file item
+../3-Phrases/jajuk:ArrayList getRepositoryCurrentPlaylistFileItem() | get repository current playlist file item
+../3-Phrases/jajuk:void CatalogItem(QAlbum;QString;QTrack;) | catalog item
+../3-Phrases/jajuk:void removeItem(QPlaylistFileItem;) | remove item
+../3-Phrases/jajuk:ArrayList getRepositoryCurrentPlaylistFileItem() | get repository current playlist file item
+../3-Phrases/jajuk:void removeItem(QPlaylistFileItem;) | remove item
+../3-Phrases/jajuk:void selectPlaylistFileItem(QPlaylistFileItem;) | select playlist file item
+../3-Phrases/jajuk:void removeItem(QPlaylistFileItem;) | remove item
+../3-Phrases/jajuk:CONS DeviceItem(QString;QString;QDevice;) | device item
+../3-Phrases/jajuk:Object getShuffleItem(QCollection;) | get shuffle item
+../3-Phrases/javaHMO:TiVoItem getItem() | get item
+../3-Phrases/javaHMO:CONS DefaultImageItem(QString;IQString;) | default image item
+../3-Phrases/javaHMO:CONS ImageItem(QString;QString;) | image item
+../3-Phrases/javaHMO:CONS InternetImageItem(QString;QString;QString;) | internet image item
+../3-Phrases/javaHMO:TiVoItem getItem(QTiVoDocumentRequest;) | get item
+../3-Phrases/javaHMO:int findItem(QArrayList;QString;) | find item
+../3-Phrases/javaHMO:TiVoItem getItem() | get item
+../3-Phrases/javaHMO:TiVoItem getItem(QTiVoDocumentRequest;) | get item
+../3-Phrases/javaHMO:void addItem(QTiVoItem;) | add item
+../3-Phrases/javaHMO:String getAnchorItem() | get anchor item
+../3-Phrases/javaHMO:void setAnchorItem(QString;) | set anchor item
+../3-Phrases/javaHMO:TiVoItem getItem(QTiVoDocumentRequest;) | get item
+../3-Phrases/javaHMO:TiVoItem getItem(QTiVoDocumentRequest;) | get item
+../3-Phrases/javaHMO:void addItem(QTiVoItem;) | add item
+../3-Phrases/javaHMO:TiVoItem getItem() | get item
+../3-Phrases/javaHMO:CONS DesktopItem(QDesktopContainer;QString;QString;) | desktop item
+../3-Phrases/javaHMO:CONS EmailItem(QEmailContainer;QString;QString;QString;QString;QString;Z) | email item
+../3-Phrases/javaHMO:CONS TicTacToeItem(QGamesContainer;QString;QString;) | tic tac toe item
+../3-Phrases/javaHMO:void iTunesItem(QString;QString;QString;QString;QString;QString;QString;JIII) | i tunes item
+../3-Phrases/javaHMO:TiVoItem findItem(QContainer;QString;) | find item
+../3-Phrases/javaHMO:CONS JukeboxItem(QString;QString;QJukeboxContainer;) | jukebox item
+../3-Phrases/javaHMO:CONS MovieItem(QMovieContainer;QString;QString;QHashtable;III) | movie item
+../3-Phrases/javaHMO:TiVoItem findItem(QContainer;QString;) | find item
+../3-Phrases/javaHMO:CONS RssItem(QRssChannel;QString;QString;QString;QString;QString;Z) | rss item
+../3-Phrases/javaHMO:CONS StocksItem(QStocksContainer;QString;QString;QString;QString;QString;QString;QString;QString;QString;QString;QString;QString;QString;QString;QString;QString;QString;QString;QString;) | stocks item
+../3-Phrases/javaHMO:void addListItem(QNameValue;) | add list item
+../3-Phrases/javaHMO:CONS WeatherItem(QWeatherContainer;QString;QString;I) | weather item
+../3-Phrases/javaHMO:CONS AlertItem(QWeatherContainer;QString;QString;QString;QString;QString;Z) | alert item
+../3-Phrases/jbidwatcher:JMenuItem makeMenuItem(QString;) | make menu item
+../3-Phrases/jbidwatcher:JMenuItem makeMenuItem(QString;QString;) | make menu item
+../3-Phrases/jbidwatcher:JMenuItem makeGeneralMenuItem(QString;QString;) | make general menu item
+../3-Phrases/jbidwatcher:void makeMenuItem(QJMenu;QString;QString;IQKeyStroke;) | make menu item
+../3-Phrases/jbidwatcher:void makeMenuItem(QJMenu;QString;QString;IQKeyStroke;Z) | make menu item
+../3-Phrases/jbidwatcher:void makeMenuItem(QJMenu;QString;IQKeyStroke;) | make menu item
+../3-Phrases/jbidwatcher:void makeMenuItem(QJMenu;QString;QString;C) | make menu item
+../3-Phrases/jbidwatcher:void makeMenuItem(QJMenu;QString;C) | make menu item
+../3-Phrases/jbidwatcher:void makeMenuItem(QJMenu;QString;I) | make menu item
+../3-Phrases/jbidwatcher:void makeMenuItem(QJMenu;QString;) | make menu item
+../3-Phrases/jbidwatcher:void addMenuItem(QString;) | add menu item
+../3-Phrases/jbidwatcher:void addMenuItem(QString;C) | add menu item
+../3-Phrases/jbidwatcher:void addMenuItem(QString;QString;C) | add menu item
+../3-Phrases/jbidwatcher:void setSelectedItem(QObject;) | set selected item
+../3-Phrases/jbidwatcher:Object lookupItem(QString;) | lookup item
+../3-Phrases/jbidwatcher:String getBrowsableURLFromItem(QString;) | get browsable url from item
+../3-Phrases/jbidwatcher:String getStringURLFromItem(QString;) | get string url from item
+../3-Phrases/jbidwatcher:URL getURLFromItem(QString;) | get url from item
+../3-Phrases/jbidwatcher:AuctionEntry getItem() | get item
+../3-Phrases/jbidwatcher:String getStringURLFromItem(QString;) | get string url from item
+../3-Phrases/jbidwatcher:String getBrowsableURLFromItem(QString;) | get browsable url from item
+../3-Phrases/jbidwatcher:URL getURLFromItem(QString;) | get url from item
+../3-Phrases/Jftp:String getActiveItem() | get active item
+../3-Phrases/Jftp:CONS BookmarkItem(QString;) | bookmark item
+../3-Phrases/Jftp:Object getSelectedItem() | get selected item
+../3-Phrases/Jftp:void addItem(QObject;) | add item
+../3-Phrases/JHotDraw-7.0.8:void configureJCheckBoxMenuItem(QJCheckBoxMenuItem;QAction;) | configure j check box menu item
+../3-Phrases/JHotDraw-7.0.8:void unconfigureJCheckBoxMenuItem(QJCheckBoxMenuItem;QAction;) | unconfigure j check box menu item
+../3-Phrases/MegaMek-0.32.0:MenuItem createMenuItem(QMenu;QString;QString;I) | create menu item
+../3-Phrases/MegaMek-0.32.0:MenuItem createMenuItem(QMenu;QString;QString;) | create menu item
+../3-Phrases/MegaMek-0.32.0:void ViewMenuItem(QEntity;) | view menu item
+../3-Phrases/MegaMek-0.32.0:void SelectMenuItem(QEntity;) | select menu item
+../3-Phrases/MegaMek-0.32.0:void TargetMenuItem(QTargetable;) | target menu item
+../3-Phrases/MegaMek-0.32.0:Object getItem() | get item
+../3-Phrases/MegaMek-0.32.0:Object getItem() | get item
+../3-Phrases/MegaMek-0.32.0:JMenuItem createMenuItem(QJMenu;QString;QString;I) | create menu item
+../3-Phrases/MegaMek-0.32.0:JMenuItem createMenuItem(QJMenu;QString;QString;) | create menu item
+../3-Phrases/MegaMek-0.32.0:void ViewMenuItem(QEntity;) | view menu item
+../3-Phrases/MegaMek-0.32.0:void SelectMenuItem(QEntity;) | select menu item
+../3-Phrases/MegaMek-0.32.0:void TargetMenuItem(QTargetable;) | target menu item
+../3-Phrases/MegaMek-0.32.0:Object getItem() | get item
+../3-Phrases/MegaMek-0.32.0:Object getItem() | get item
+../3-Phrases/MegaMek-0.32.0:Object getItem() | get item
+../3-Phrases/MegaMek-0.32.0:Object getItem(QString;QString;) | get item
+../3-Phrases/MegaMek-0.32.0:Object getItem(QString;QString;) | get item
+../3-Phrases/MegaMek-0.32.0:Object getItem(QString;QString;) | get item
+../3-Phrases/np:void unsetSubItem() | unset sub item
+../3-Phrases/PlanetaMessenger:JTabContent getActiveItem() | get active item
+../3-Phrases/PlanetaMessenger:boolean addItem(QJContactListItem;) | add item
+../3-Phrases/PlanetaMessenger:JContactListItem getItem(IQjava.lang.String;) | get item
+../3-Phrases/PlanetaMessenger:boolean removeItem(QJContactListItem;) | remove item
+../3-Phrases/PlanetaMessenger:boolean removeSelectedItem() | remove selected item
+../3-Phrases/PlanetaMessenger:JProfileMutableTreeNode addTreeItem(QJProfileMutableTreeNode;IIQString;Qjava.lang.String;QJLookAndFeelInfo;IZ) | add tree item
+../3-Phrases/PlanetaMessenger:JProfileTreeItem getSelectedItem() | get selected item
+../3-Phrases/PlanetaMessenger:void removeSelectedItem() | remove selected item
+../3-Phrases/PlanetaMessenger:void JStatusComboItem(Qjava.lang.String;I) | j status combo item
+../3-Phrases/PlanetaMessenger:CONS JProtocolTreeItem() | j protocol tree item
+../3-Phrases/PlanetaMessenger:CONS JProtocolTreeItem(Qjava.lang.String;Qjava.lang.String;I) | j protocol tree item
+../3-Phrases/PlanetaMessenger:CONS JProfileTreeItem() | j profile tree item
+../3-Phrases/PlanetaMessenger:CONS JProfileTreeItem(QString;IIQString;QJLookAndFeelInfo;I) | j profile tree item
+../3-Phrases/PlanetaMessenger:CONS JContactListItem() | j contact list item
+../3-Phrases/PlanetaMessenger:CONS JContactListItem(IQjava.lang.String;Qjava.lang.String;) | j contact list item
+../3-Phrases/PlanetaMessenger:CONS JComVcContactItem() | j com vc contact item
+../3-Phrases/PlanetaMessenger:JComVcContactItem parseItem(Qjava.lang.String;) | parse item
+../3-Phrases/prefuse:VisualItem findItem(QPoint;) | find item
+../3-Phrases/prefuse:VisualItem getVisualItem(QString;QTuple;) | get visual item
+../3-Phrases/prefuse:boolean isZoomOverItem() | is zoom over item
+../3-Phrases/prefuse:void setZoomOverItem(Z) | set zoom over item
+../3-Phrases/prefuse:boolean isZoomOverItem() | is zoom over item
+../3-Phrases/prefuse:void setZoomOverItem(Z) | set zoom over item
+../3-Phrases/prefuse:Object getSelectedItem() | get selected item
+../3-Phrases/prefuse:void setSelectedItem(QObject;) | set selected item
+../3-Phrases/prefuse:void addItem(QForceItem;) | add item
+../3-Phrases/prefuse:boolean removeItem(QForceItem;) | remove item
+../3-Phrases/prefuse:CONS ForceItem() | force item
+../3-Phrases/prefuse:NodeItem getSourceItem() | get source item
+../3-Phrases/prefuse:NodeItem getTargetItem() | get target item
+../3-Phrases/prefuse:NodeItem getAdjacentItem(QNodeItem;) | get adjacent item
+../3-Phrases/prefuse:VisualItem getDecoratedItem() | get decorated item
+../3-Phrases/prefuse:VisualItem getItem(I) | get item
+../3-Phrases/prefuse:VisualItem addItem() | add item
+../3-Phrases/prefuse:boolean containsItem(QVisualItem;) | contains item
+../3-Phrases/prefuse:void addItem(QVisualItem;) | add item
+../3-Phrases/prefuse:void removeItem(QVisualItem;) | remove item
+../3-Phrases/prefuse:NodeItem getSourceItem() | get source item
+../3-Phrases/prefuse:NodeItem getTargetItem() | get target item
+../3-Phrases/prefuse:NodeItem getAdjacentItem(QNodeItem;) | get adjacent item
+../3-Phrases/prefuse:VisualItem getDecoratedItem() | get decorated item
+../3-Phrases/prefuse:boolean containsItem(QVisualItem;) | contains item
+../3-Phrases/prefuse:void addItem(QVisualItem;) | add item
+../3-Phrases/prefuse:void removeItem(QVisualItem;) | remove item
+../3-Phrases/prefuse:void addMenuItem(QString;QActionListener;) | add menu item
+../3-Phrases/prefuse:void testGetVisualItem() | test get visual item
+../3-Phrases/rhino:void ReplaceItem(IIQString;) | replace item
+../3-Phrases/SweetHome3D:void deselectItem(QSelectable;) | deselect item
+../3-Phrases/SweetHome3D:T getItem() | get item
+../3-Phrases/SweetHome3D:Object getItem() | get item
+../3-Phrases/SweetHome3D:void setItem(QObject;) | set item
+../3-Phrases/SweetHome3D:JMenuItem createToggleMenuItem(QAction;ZQJToggleButton.ToggleButtonModel;QButtonGroup;) | create toggle menu item
+../3-Phrases/SweetHome3D:JMenuItem createLockUnlockBasePlanMenuItem(QHome;Z) | create lock unlock base plan menu item
+../3-Phrases/SweetHome3D:JMenuItem createImportModifyBackgroundImageMenuItem(QHome;Z) | create import modify background image menu item
+../3-Phrases/SweetHome3D:JMenuItem createHideShowBackgroundImageMenuItem(QHome;Z) | create hide show background image menu item
+../3-Phrases/SweetHome3D:Object getItem() | get item
+../3-Phrases/SweetHome3D:void setItem(QObject;) | set item
+../3-Phrases/SweetHome3D:void selectItem(QSelectable;) | select item
+../3-Phrases/vuze:void NotificationItem(I) | notification item
+../3-Phrases/vuze:PeerItem createPeerItem(QString;IBBIBI) | create peer item
+../3-Phrases/vuze:PeerItem createPeerItem([BBBI) | create peer item
+../3-Phrases/vuze:CONS PeerItem(QString;IBBIBI) | peer item
+../3-Phrases/vuze:CONS PeerItem([BBBI) | peer item
+../3-Phrases/vuze:CONS PeerExchangerItem(QPeerDatabase;QPeerItem;QHelper;) | peer exchanger item
+../3-Phrases/vuze:boolean setTableItem(I) | set table item
+../3-Phrases/vuze:boolean setTableItem(IZ) | set table item
+../3-Phrases/vuze:void removeContextMenuItem(QTableContextMenuItem;) | remove context menu item
+../3-Phrases/vuze:void removeContextMenuItem(QTableContextMenuItem;) | remove context menu item
+../3-Phrases/vuze:TableContextMenuItem addContextMenuItem(QString;) | add context menu item
+../3-Phrases/vuze:void setShareItem(QSelectedContentV3;QString;) | set share item
+../3-Phrases/vuze:SelectedContentV3 getShareItem() | get share item
+../3-Phrases/vuze:MenuItem createDebugMenuItem(QMenu;) | create debug menu item
+../3-Phrases/vuze:void setSelectedLanguageItem() | set selected language item
+../3-Phrases/vuze:MenuItem createViewMenuItem(QSWTSkin;QMenu;QString;QString;QString;ZI) | create view menu item
+../3-Phrases/vuze:void sideBarItem() | side bar item
+../3-Phrases/vuze:void setTreeItem(QTreeItem;QSideBarEntrySWT;) | set tree item
+../3-Phrases/vuze:TreeItem getTreeItem() | get tree item
+../3-Phrases/vuze:CONS ToolBarItem(QString;QString;) | tool bar item
+../3-Phrases/vuze:CONS ToolBarItem(QString;QString;QString;) | tool bar item
+../3-Phrases/vuze:void triggerToolBarItem() | trigger tool bar item
+../3-Phrases/vuze:boolean setTableItem(IZ) | set table item
+../3-Phrases/vuze:boolean setTableItem(I) | set table item
+../3-Phrases/vuze:void triggerToolBarItem() | trigger tool bar item
+../3-Phrases/vuze:void triggerToolBarItem() | trigger tool bar item
+../3-Phrases/vuze:void triggerToolBarItem() | trigger tool bar item
+../3-Phrases/vuze:void triggerToolBarItem() | trigger tool bar item
+../3-Phrases/vuze:void triggerToolBarItem() | trigger tool bar item
+../3-Phrases/vuze:void triggerToolBarItem() | trigger tool bar item
+../3-Phrases/vuze:void triggerToolBarItem() | trigger tool bar item
+../3-Phrases/vuze:void triggerToolBarItem() | trigger tool bar item
+../3-Phrases/vuze:void triggerToolBarItem() | trigger tool bar item
+../3-Phrases/vuze:ToolBarItem getToolBarItem(QString;) | get tool bar item
+../3-Phrases/vuze:void addToolBarItem(QToolBarItem;) | add tool bar item
+../3-Phrases/vuze:void addToolBarItem(QToolBarItem;QString;QSWTSkinObject;) | add tool bar item
+../3-Phrases/vuze:TreeItem getTreeItem() | get tree item
+../3-Phrases/vuze:void setTreeItem(QTreeItem;) | set tree item
+../3-Phrases/vuze:void showTreeItem(QTreeItem;) | show tree item
+../3-Phrases/vuze:TreeItem createTreeItem(QObject;QString;QObject;QViewTitleInfo;QString;ZI) | create tree item
+../3-Phrases/vuze:void setupTreeItem(QIView;QTreeItem;QString;QViewTitleInfo;QString;QComposite;QObject;Z) | setup tree item
+../3-Phrases/vuze:ShareItem getItem() | get item
+../3-Phrases/vuze:ShareItem getItem() | get item
+../3-Phrases/vuze:MenuItem addMenuItem(QString;QString;) | add menu item
+../3-Phrases/vuze:MenuItem addMenuItem(QMenuContext;QString;) | add menu item
+../3-Phrases/vuze:MenuItem addMenuItem(QMenuItem;QString;) | add menu item
+../3-Phrases/vuze:MenuItem getItem(QString;) | get item
+../3-Phrases/vuze:TableContextMenuItem addContextMenuItem(QString;QString;) | add context menu item
+../3-Phrases/vuze:TableContextMenuItem addContextMenuItem(QTableContextMenuItem;QString;) | add context menu item
+../3-Phrases/vuze:TableContextMenuItem addContextMenuItem(QString;) | add context menu item
+../3-Phrases/vuze:void serialiseItem(QMap;) | serialise item
+../3-Phrases/vuze:ShareItemImpl deserialiseItem(QShareResourceImpl;QMap;) | deserialise item
+../3-Phrases/vuze:ShareItem getItem() | get item
+../3-Phrases/vuze:MenuItem addMenuItem(QString;QString;) | add menu item
+../3-Phrases/vuze:MenuItem addMenuItem(QMenuContext;QString;) | add menu item
+../3-Phrases/vuze:MenuItem addMenuItem(QMenuItem;QString;) | add menu item
+../3-Phrases/vuze:MenuItem getItem(QString;) | get item
+../3-Phrases/vuze:void addChildMenuItem(QMenuItem;) | add child menu item
+../3-Phrases/vuze:TableContextMenuItem addContextMenuItem(QTableContextMenuItem;QString;) | add context menu item
+../3-Phrases/vuze:TableContextMenuItem addContextMenuItem(QString;QString;) | add context menu item
+../3-Phrases/vuze:void addMenuItem(QMenuItem;) | add menu item
+../3-Phrases/vuze:void removeMenuItem(QMenuItem;) | remove menu item
+../3-Phrases/vuze:void FileStatsCacheItem(QFile;) | file stats cache item
+../3-Phrases/vuze:BufferedToolItem createBufferedToolItem(QToolBar;IQString;QString;QString;) | create buffered tool item
+../3-Phrases/vuze:Item createTabItem(QIView;Z) | create tab item
+../3-Phrases/vuze:CONS BufferedToolItem(QToolBar;I) | buffered tool item
+../3-Phrases/vuze:void copyToItem(QTableItem;) | copy to item
+../3-Phrases/vuze:boolean setTableItem(IZ) | set table item
+../3-Phrases/vuze:boolean setTableItem(IZZ) | set table item
+../3-Phrases/vuze:Menu createDebugMenuItem(QMenu;) | create debug menu item
+../3-Phrases/vuze:void createIViewInfoMenuItem(QMenu;QIViewInfo;) | create i view info menu item
+../3-Phrases/vuze:void setSelectedLanguageItem() | set selected language item
+../3-Phrases/vuze:MenuItem createFileMenuItem(QMenu;) | create file menu item
+../3-Phrases/vuze:MenuItem createTransfersMenuItem(QMenu;) | create transfers menu item
+../3-Phrases/vuze:MenuItem createViewMenuItem(QMenu;) | create view menu item
+../3-Phrases/vuze:MenuItem createPublishMenuItem(QMenu;) | create publish menu item
+../3-Phrases/vuze:MenuItem createAdvancedMenuItem(QMenu;) | create advanced menu item
+../3-Phrases/vuze:MenuItem createTorrentMenuItem(QMenu;) | create torrent menu item
+../3-Phrases/vuze:MenuItem createToolsMenuItem(QMenu;) | create tools menu item
+../3-Phrases/vuze:MenuItem createPluginsMenuItem(QMenu;Z) | create plugins menu item
+../3-Phrases/vuze:MenuItem createWindowMenuItem(QMenu;) | create window menu item
+../3-Phrases/vuze:MenuItem createHelpMenuItem(QMenu;) | create help menu item
+../3-Phrases/vuze:MenuItem addCreateMenuItem(QMenu;) | add create menu item
+../3-Phrases/vuze:MenuItem createOpenMenuItem(QMenu;) | create open menu item
+../3-Phrases/vuze:MenuItem addLogsViewMenuItem(QMenu;) | add logs view menu item
+../3-Phrases/vuze:MenuItem addOpenTorrentMenuItem(QMenu;) | add open torrent menu item
+../3-Phrases/vuze:MenuItem addOpenTorrentForTrackingMenuItem(QMenu;) | add open torrent for tracking menu item
+../3-Phrases/vuze:MenuItem addOpenVuzeFileMenuItem(QMenu;) | add open vu ze file menu item
+../3-Phrases/vuze:MenuItem createShareMenuItem(QMenu;) | create share menu item
+../3-Phrases/vuze:MenuItem addShareFileMenuItem(QMenu;) | add share file menu item
+../3-Phrases/vuze:MenuItem addShareFolderMenuItem(QMenu;) | add share folder menu item
+../3-Phrases/vuze:MenuItem addShareFolderContentMenuItem(QMenu;) | add share folder content menu item
+../3-Phrases/vuze:MenuItem addShareFolderContentRecursiveMenuItem(QMenu;) | add share folder content recursive menu item
+../3-Phrases/vuze:MenuItem addImportMenuItem(QMenu;) | add import menu item
+../3-Phrases/vuze:MenuItem addExportMenuItem(QMenu;) | add export menu item
+../3-Phrases/vuze:MenuItem addCloseWindowMenuItem(QMenu;) | add close window menu item
+../3-Phrases/vuze:MenuItem addCloseTabMenuItem(QMenu;QMainWindow;) | add close tab menu item
+../3-Phrases/vuze:MenuItem addCloseDetailsMenuItem(QMenu;) | add close details menu item
+../3-Phrases/vuze:MenuItem addRestartMenuItem(QMenu;) | add restart menu item
+../3-Phrases/vuze:MenuItem addExitMenuItem(QMenu;) | add exit menu item
+../3-Phrases/vuze:MenuItem addStartAllMenuItem(QMenu;) | add start all menu item
+../3-Phrases/vuze:MenuItem addStopAllMenuItem(QMenu;) | add stop all menu item
+../3-Phrases/vuze:MenuItem addPauseMenuItem(QMenu;) | add pause menu item
+../3-Phrases/vuze:MenuItem addResumeMenuItem(QMenu;) | add resume menu item
+../3-Phrases/vuze:MenuItem addMyTorrentsMenuItem(QMenu;) | add my torrents menu item
+../3-Phrases/vuze:MenuItem addDetailedListMenuItem(QMenu;) | add detailed list menu item
+../3-Phrases/vuze:MenuItem addAllPeersMenuItem(QMenu;) | add all peers menu item
+../3-Phrases/vuze:MenuItem addMyTrackerMenuItem(QMenu;) | add my tracker menu item
+../3-Phrases/vuze:MenuItem addMySharesMenuItem(QMenu;) | add my shares menu item
+../3-Phrases/vuze:MenuItem addViewToolbarMenuItem(QMenu;) | add view toolbar menu item
+../3-Phrases/vuze:MenuItem addBlockedIPsMenuItem(QMenu;) | add blocked ips menu item
+../3-Phrases/vuze:MenuItem addConsoleMenuItem(QMenu;) | add console menu item
+../3-Phrases/vuze:MenuItem addStatisticsMenuItem(QMenu;) | add statistics menu item
+../3-Phrases/vuze:MenuItem addNatTestMenuItem(QMenu;) | add nat test menu item
+../3-Phrases/vuze:MenuItem addSpeedTestMenuItem(QMenu;) | add speed test menu item
+../3-Phrases/vuze:MenuItem addConfigWizardMenuItem(QMenu;) | add config wizard menu item
+../3-Phrases/vuze:MenuItem addOptionsMenuItem(QMenu;) | add options menu item
+../3-Phrases/vuze:MenuItem addMinimizeWindowMenuItem(QMenu;) | add minimize window menu item
+../3-Phrases/vuze:MenuItem addBringAllToFrontMenuItem(QMenu;) | add bring all to front menu item
+../3-Phrases/vuze:MenuItem addZoomWindowMenuItem(QMenu;) | add zoom window menu item
+../3-Phrases/vuze:MenuItem addAboutMenuItem(QMenu;) | add about menu item
+../3-Phrases/vuze:MenuItem addHealthMenuItem(QMenu;) | add health menu item
+../3-Phrases/vuze:MenuItem addWhatsNewMenuItem(QMenu;) | add whats new menu item
+../3-Phrases/vuze:MenuItem addFAQMenuItem(QMenu;QString;) | add faq menu item
+../3-Phrases/vuze:MenuItem addReleaseNotesMenuItem(QMenu;) | add release notes menu item
+../3-Phrases/vuze:MenuItem addHelpSupportMenuItem(QMenu;QString;) | add help support menu item
+../3-Phrases/vuze:MenuItem addGetPluginsMenuItem(QMenu;) | add get plugins menu item
+../3-Phrases/vuze:MenuItem addDebugHelpMenuItem(QMenu;) | add debug help menu item
+../3-Phrases/vuze:MenuItem addCheckUpdateMenuItem(QMenu;) | add check update menu item
+../3-Phrases/vuze:MenuItem addPluginInstallMenuItem(QMenu;) | add plugin install menu item
+../3-Phrases/vuze:MenuItem addPluginUnInstallMenuItem(QMenu;) | add plugin un install menu item
+../3-Phrases/vuze:MenuItem addLabelMenuItem(QMenu;QString;) | add label menu item
+../3-Phrases/vuze:MenuItem addSeparatorMenuItem(QMenu;) | add separator menu item
+../3-Phrases/vuze:MenuItem createTopLevelMenuItem(QMenu;QString;) | create top level menu item
+../3-Phrases/vuze:MenuItem addMenuItem(QMenu;QString;QListener;) | add menu item
+../3-Phrases/vuze:MenuItem addMenuItem(QMenu;QString;QListener;I) | add menu item
+../3-Phrases/vuze:MenuItem addMenuItem(QMenu;IQString;QListener;) | add menu item
+../3-Phrases/vuze:MenuItem addMenuItem(QMenu;IIQString;QListener;) | add menu item
+../3-Phrases/vuze:MenuItem findMenuItem(QMenu;QString;) | find menu item
+../3-Phrases/vuze:void editTreeItem(QTreeItem;) | edit tree item
+../3-Phrases/vuze:void editTreeItem(QTreeItem;) | edit tree item
+../3-Phrases/vuze:TreeItem findTreeItem(QString;) | find tree item
+../3-Phrases/vuze:TreeItem findTreeItem(QTree;QString;) | find tree item
+../3-Phrases/vuze:TreeItem findTreeItem(QTreeItem;QString;) | find tree item
+../3-Phrases/vuze:BufferedTableItem getBufferedTableItem() | get buffered table item
+../3-Phrases/vuze:void paintItem(QEvent;) | paint item
+../3-Phrases/vuze:void createBufferedTableItem(I) | create buffered table item
+../3-Phrases/vuze:BufferedTableItem getBufferedTableItem() | get buffered table item
+../3-Phrases/vuze:boolean setTableItem(IZ) | set table item
+../3-Phrases/vuze:boolean setTableItem(I) | set table item
+../3-Phrases/vuze:BufferedTableItem getBufferedTableItem() | get buffered table item
+../3-Phrases/vuze:void addContextMenuItem(QTableContextMenuItem;) | add context menu item
+../3-Phrases/vuze:void removeContextMenuItem(QTableContextMenuItem;) | remove context menu item
+../3-Phrases/vuze:CONS SizeItem() | size item
+../3-Phrases/vuze:CONS DoneItem() | done item
+../3-Phrases/vuze:CONS NameItem() | name item
+../3-Phrases/vuze:CONS PieceCountItem() | piece count item
+../3-Phrases/vuze:CONS PriorityItem() | priority item
+../3-Phrases/vuze:CONS StorageTypeItem() | storage type item
+../3-Phrases/vuze:CONS ProgressGraphItem() | progress graph item
+../3-Phrases/vuze:CONS PathItem() | path item
+../3-Phrases/vuze:CONS RemainingPiecesItem() | remaining pieces item
+../3-Phrases/vuze:CONS FileExtensionItem() | file extension item
+../3-Phrases/vuze:CONS FirstPieceItem() | first piece item
+../3-Phrases/vuze:CONS PercentItem() | percent item
+../3-Phrases/vuze:CONS ModeItem() | mode item
+../3-Phrases/vuze:CONS CategoryItem() | category item
+../3-Phrases/vuze:CONS TypeItem() | type item
+../3-Phrases/vuze:CONS NameItem() | name item
+../3-Phrases/vuze:CONS StatusItem(QString;Z) | status item
+../3-Phrases/vuze:CONS StatusItem(QString;) | status item
+../3-Phrases/vuze:CONS UpItem(QString;) | up item
+../3-Phrases/vuze:CONS SizeItem(QString;) | size item
+../3-Phrases/vuze:CONS AvgAvailItem(QString;) | avg avail item
+../3-Phrases/vuze:CONS RankItem(QString;) | rank item
+../3-Phrases/vuze:CONS RankItem(QString;Z) | rank item
+../3-Phrases/vuze:CONS DateAddedItem(QString;) | date added item
+../3-Phrases/vuze:CONS DateAddedItem(QString;Z) | date added item
+../3-Phrases/vuze:CONS CategoryItem(QString;) | category item
+../3-Phrases/vuze:CONS TimeSinceUploadItem(QString;) | time since upload item
+../3-Phrases/vuze:CONS UpSpeedItem(QString;) | up speed item
+../3-Phrases/vuze:CONS NetworksItem(QString;) | networks item
+../3-Phrases/vuze:CONS TorrentPathItem(QString;) | torrent path item
+../3-Phrases/vuze:CONS SecondsSeedingItem(QString;) | seconds seeding item
+../3-Phrases/vuze:CONS PiecesItem(QString;) | pieces item
+../3-Phrases/vuze:CONS PiecesItem(QString;I) | pieces item
+../3-Phrases/vuze:CONS PeersItem(QString;) | peers item
+../3-Phrases/vuze:CONS NameItem(QString;) | name item
+../3-Phrases/vuze:CONS DownSpeedLimitItem(QString;) | down speed limit item
+../3-Phrases/vuze:CONS TrackerNameItem(QString;) | tracker name item
+../3-Phrases/vuze:CONS CommentItem(QString;) | comment item
+../3-Phrases/vuze:CONS AvailabilityItem(QString;) | availability item
+../3-Phrases/vuze:CONS BadAvailTimeItem(QString;) | bad avail time item
+../3-Phrases/vuze:CONS DownItem(QString;) | down item
+../3-Phrases/vuze:CONS CommentIconItem(QString;) | comment icon item
+../3-Phrases/vuze:CONS DoneItem(QString;) | done item
+../3-Phrases/vuze:CONS ETAItem(QString;) | eta item
+../3-Phrases/vuze:CONS HealthItem(QString;) | health item
+../3-Phrases/vuze:CONS TimeSinceDownloadItem(QString;) | time since download item
+../3-Phrases/vuze:CONS DownSpeedItem(QString;) | down speed item
+../3-Phrases/vuze:CONS UpSpeedLimitItem(QString;) | up speed limit item
+../3-Phrases/vuze:CONS SeedToPeerRatioItem(QString;) | seed to peer ratio item
+../3-Phrases/vuze:CONS MaxUploadsItem(QString;) | max uploads item
+../3-Phrases/vuze:CONS TrackerNextAccessItem(QString;) | tracker next access item
+../3-Phrases/vuze:CONS ShareRatioItem(QString;) | share ratio item
+../3-Phrases/vuze:CONS TotalSpeedItem(QString;) | total speed item
+../3-Phrases/vuze:CONS SeedsItem(QString;) | seeds item
+../3-Phrases/vuze:CONS TrackerStatusItem(QString;) | tracker status item
+../3-Phrases/vuze:CONS FilesDoneItem(QString;) | files done item
+../3-Phrases/vuze:CONS CompletedItem(QString;) | completed item
+../3-Phrases/vuze:CONS SecondsDownloadingItem(QString;) | seconds downloading item
+../3-Phrases/vuze:CONS PeerSourcesItem(QString;) | peer sources item
+../3-Phrases/vuze:CONS OnlyCDing4Item(QString;) | only c ding 4 item
+../3-Phrases/vuze:CONS RemainingItem(QString;) | remaining item
+../3-Phrases/vuze:CONS DateCompletedItem(QString;) | date completed item
+../3-Phrases/vuze:CONS DateCompletedItem(QString;Z) | date completed item
+../3-Phrases/vuze:CONS SavePathItem(QString;) | save path item
+../3-Phrases/vuze:CONS CompletionItem(QString;) | completion item
+../3-Phrases/vuze:CONS CompletionItem(QString;I) | completion item
+../3-Phrases/vuze:CONS TrackerItem() | tracker item
+../3-Phrases/vuze:CONS CategoryItem() | category item
+../3-Phrases/vuze:CONS PeerCountItem() | peer count item
+../3-Phrases/vuze:CONS ScrapeCountItem() | scrape count item
+../3-Phrases/vuze:CONS TotalBytesInItem() | total bytes in item
+../3-Phrases/vuze:CONS AverageBytesOutItem() | average bytes out item
+../3-Phrases/vuze:CONS CompletedCountItem() | completed count item
+../3-Phrases/vuze:CONS DownloadedItem() | downloaded item
+../3-Phrases/vuze:CONS StatusItem() | status item
+../3-Phrases/vuze:CONS AverageBytesInItem() | average bytes in item
+../3-Phrases/vuze:CONS UploadedItem() | uploaded item
+../3-Phrases/vuze:CONS BadNATCountItem() | bad nat count item
+../3-Phrases/vuze:CONS PassiveItem() | passive item
+../3-Phrases/vuze:CONS SeedCountItem() | seed count item
+../3-Phrases/vuze:CONS AnnounceCountItem() | announce count item
+../3-Phrases/vuze:CONS DateAddedItem() | date added item
+../3-Phrases/vuze:CONS TotalBytesOutItem() | total bytes out item
+../3-Phrases/vuze:CONS LeftItem() | left item
+../3-Phrases/vuze:CONS NameItem() | name item
+../3-Phrases/vuze:CONS UpSpeedLimitItem(QString;) | up speed limit item
+../3-Phrases/vuze:CONS EncryptionItem(QString;) | encryption item
+../3-Phrases/vuze:CONS UniquePieceItem(QString;) | unique piece item
+../3-Phrases/vuze:CONS InterestedItem(QString;) | interested item
+../3-Phrases/vuze:CONS LANItem(QString;) | lan item
+../3-Phrases/vuze:CONS UpItem(QString;) | up item
+../3-Phrases/vuze:CONS HandshakeReservedBytesItem(QString;) | handshake reserved bytes item
+../3-Phrases/vuze:CONS TimeUntilCompleteItem(QString;) | time until complete item
+../3-Phrases/vuze:CONS ClientIdentificationItem(QString;) | client identification item
+../3-Phrases/vuze:CONS DownItem(QString;) | down item
+../3-Phrases/vuze:CONS PortItem(QString;) | port item
+../3-Phrases/vuze:CONS ChokedItem(QString;) | choked item
+../3-Phrases/vuze:CONS HostNameItem(QString;) | host name item
+../3-Phrases/vuze:CONS PeerIDItem(QString;) | peer id item
+../3-Phrases/vuze:CONS TypeItem(QString;) | type item
+../3-Phrases/vuze:CONS TimeToSendPieceItem(QString;) | time to send piece item
+../3-Phrases/vuze:CONS StateItem(QString;) | state item
+../3-Phrases/vuze:CONS GainItem(QString;) | gain item
+../3-Phrases/vuze:CONS StatUpItem(QString;) | stat up item
+../3-Phrases/vuze:CONS PieceItem(QString;) | piece item
+../3-Phrases/vuze:CONS ClientItem(QString;) | client item
+../3-Phrases/vuze:CONS TotalDownSpeedItem(QString;) | total down speed item
+../3-Phrases/vuze:CONS PeerByteIDItem(QString;) | peer byte id item
+../3-Phrases/vuze:CONS UpDownRatioItem(QString;) | up down ratio item
+../3-Phrases/vuze:CONS DownSpeedItem(QString;) | down speed item
+../3-Phrases/vuze:CONS PercentItem(QString;) | percent item
+../3-Phrases/vuze:CONS DiscardedItem(QString;) | discarded item
+../3-Phrases/vuze:CONS MessagingItem(QString;) | messaging item
+../3-Phrases/vuze:CONS ConnectedTimeItem(QString;) | connected time item
+../3-Phrases/vuze:CONS InterestingItem(QString;) | interesting item
+../3-Phrases/vuze:CONS PiecesItem(QString;) | pieces item
+../3-Phrases/vuze:CONS UpSpeedItem(QString;) | up speed item
+../3-Phrases/vuze:CONS IncomingRequestCountItem(QString;) | incoming request count item
+../3-Phrases/vuze:CONS ChokingItem(QString;) | choking item
+../3-Phrases/vuze:CONS IpItem(QString;) | ip item
+../3-Phrases/vuze:CONS DownSpeedLimitItem(QString;) | down speed limit item
+../3-Phrases/vuze:CONS UpRatioItem(QString;) | up ratio item
+../3-Phrases/vuze:CONS PeerSourceItem(QString;) | peer source item
+../3-Phrases/vuze:CONS OptimisticUnchokeItem(QString;) | optimistic unchoke item
+../3-Phrases/vuze:CONS SnubbedItem(QString;) | snubbed item
+../3-Phrases/vuze:CONS DownloadNameItem(QString;) | download name item
+../3-Phrases/vuze:CONS OutgoingRequestCountItem(QString;) | outgoing request count item
+../3-Phrases/vuze:CONS DLedFromOthersItem(QString;) | d led from others item
+../3-Phrases/vuze:CONS ReservedByItem() | reserved by item
+../3-Phrases/vuze:CONS BlockCountItem() | block count item
+../3-Phrases/vuze:CONS PriorityItem() | priority item
+../3-Phrases/vuze:CONS PieceNumberItem() | piece number item
+../3-Phrases/vuze:CONS SizeItem() | size item
+../3-Phrases/vuze:CONS BlocksItem() | blocks item
+../3-Phrases/vuze:CONS TypeItem() | type item
+../3-Phrases/vuze:CONS AvailabilityItem() | availability item
+../3-Phrases/vuze:CONS WritersItem() | writers item
+../3-Phrases/vuze:CONS SpeedItem() | speed item
+../3-Phrases/vuze:CONS RequestedItem() | requested item
+../3-Phrases/vuze:CONS CompletedItem() | completed item
+../3-Phrases/weka:void setItem([I) | set item
+../3-Phrases/weka:CONS RuleItem() | rule item
+../3-Phrases/weka:CONS RuleItem(QRuleItem;) | rule item
+../3-Phrases/weka:CONS RuleItem(QItemSet;QItemSet;II[DQHashtable;) | rule item
+../3-Phrases/weka:RuleItem generateRuleItem(QItemSet;QItemSet;QInstances;II[DQHashtable;) | generate rule item
+../3-Phrases/weka:void AddItem(QString;) | add item
+../3-Phrases/weka:void AddItem(QInteger;) | add item
+../3-Phrases/weka:void DeleteItem(QString;) | delete item
+../3-Phrases/weka:void DeleteItem(QInteger;) | delete item
+../3-Phrases/weka:CONS lalr_item(Qproduction;IQterminal_set;) | lalr item
+../3-Phrases/weka:CONS lalr_item(Qproduction;Qterminal_set;) | lalr item
+../3-Phrases/weka:CONS lalr_item(Qproduction;) | lalr item
+../3-Phrases/weka:Object getSelectedItem() | get selected item
+../3-Phrases/weka:void setSelectedItem(QObject;) | set selected item
+../3-Phrases/weka:void insertMenuItem(QJMenu;QJMenuItem;) | insert menu item
+../3-Phrases/weka:void insertMenuItem(QJMenu;QJMenuItem;I) | insert menu item
+../3-Phrases/weka:void CheckBoxListItem(QObject;) | check box list item
+../3-Phrases/weka:void CheckBoxListItem(QObject;Z) | check box list item
+../3-Phrases/weka:void insertMenuItem(QJMenu;QJMenuItem;) | insert menu item
+../3-Phrases/weka:void insertMenuItem(QJMenu;QJMenuItem;I) | insert menu item
+../3-Phrases/weka:void setSelectedItem(QJComboBox;QString;) | set selected item
+../3-Phrases/weka:void setSelectedItem(QJComboBox;QString;) | set selected item
+../3-Phrases/weka:JMenuItem getVisualizeMenuItem(QFastVector;QAttribute;) | get visualize menu item
+../3-Phrases/weka:CONS RuleItem() | rule item
+../3-Phrases/weka:CONS RuleItem(QRuleItem;) | rule item
+../3-Phrases/weka:CONS RuleItem(QItemSet;QItemSet;II[DQHashtable;) | rule item
+../3-Phrases/weka:RuleItem generateRuleItem(QItemSet;QItemSet;QInstances;II[DQHashtable;) | generate rule item
+../3-Phrases/weka:void setItem([I) | set item
+../3-Phrases/weka:void AddItem(QString;) | add item
+../3-Phrases/weka:void AddItem(QInteger;) | add item
+../3-Phrases/weka:void DeleteItem(QString;) | delete item
+../3-Phrases/weka:void DeleteItem(QInteger;) | delete item
+../3-Phrases/weka:void CheckBoxListItem(QObject;) | check box list item
+../3-Phrases/weka:void CheckBoxListItem(QObject;Z) | check box list item
+../3-Phrases/weka:void insertMenuItem(QJMenu;QJMenuItem;) | insert menu item
+../3-Phrases/weka:void insertMenuItem(QJMenu;QJMenuItem;I) | insert menu item
+../3-Phrases/weka:Object getSelectedItem() | get selected item
+../3-Phrases/weka:void setSelectedItem(QObject;) | set selected item
+../3-Phrases/weka:void insertMenuItem(QJMenu;QJMenuItem;) | insert menu item
+../3-Phrases/weka:void insertMenuItem(QJMenu;QJMenuItem;I) | insert menu item

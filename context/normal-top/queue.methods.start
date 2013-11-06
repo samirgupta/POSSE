@@ -1,0 +1,16 @@
+BuddyPluginBuddyMessage queueMessage(IQMap;I) | queue message
+DiskAccessRequest queueReadRequest(QCacheFile;JQDirectByteBuffer;SQDiskAccessRequestListener;) | queue read request
+DiskAccessRequest queueWriteRequest(QCacheFile;JQDirectByteBuffer;ZQDiskAccessRequestListener;) | queue write request
+void QueueEntry(QPEPeerTransportProtocol;) | queue entry
+void queueHaveMessage(IZ) | queue have message
+void queueMessage(QPlatformMessage;QPlatformMessengerListener;) | queue message
+void queueMessage(QPlatformMessage;QPlatformMessengerListener;Z) | queue message
+void QueueNode(QObject;) | queue node
+void queueOperation(QObject;) | queue operation
+void QueueRecord() | queue record
+void queueRegistration(QClass;) | queue registration
+void queueRegistration(QPlugin;QString;) | queue registration
+void queueRequest(QDiskAccessRequestImpl;) | queue request
+void queueShare(QSelectedContentV3;QString;QString;) | queue share
+void queueTask(QDelayedTaskImpl;) | queue task
+void queueTorrents([QObject;QShell;) | queue torrents

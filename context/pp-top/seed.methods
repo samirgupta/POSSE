@@ -1,0 +1,43 @@
+boolean isKnownSeed(QInetSocketAddress;) | is known seed
+boolean isMaxConnectionsWhenSeedingEnabled() | is max connections when seeding enabled
+boolean isMaxUploadsWhenSeedingEnabled() | is max uploads when seeding enabled
+boolean isRelativeSeed() | is relative seed
+boolean isSeed() | is seed
+byte[] getSeed() | get seed
+CONS ExternalSeedReaderFactoryWebSeed() | external seed reader factory web seed
+CONS ExternalSeedReaderWebSeed(QExternalSeedPlugin;QTorrent;QURL;QMap;) | external seed reader web seed
+CONS HTTPNetworkConnectionWebSeed(QHTTPNetworkManager;QNetworkConnection;QPEPeerTransport;) | http network connection web seed
+CONS LightWeightSeed(QLightWeightSeedManager;QString;QHashWrapper;QURL;QFile;QLightWeightSeedAdapter;) | light weight seed
+DHTTransportContact importRootSeed() | import root seed
+DHTTransportContact importSeed(QInetAddress;I) | import seed
+DHTTransportContact importSeed(QString;I) | import seed
+int defaultSeed() | default seed
+int getASRandomSeed() | get as random seed
+int getClassifierRandomSeed() | get classifier random seed
+int getClusteringSeed() | get clustering seed
+int getRandomSeed() | get random seed
+int getSeed() | get seed
+long getRandomSeed() | get random seed
+long getSeed() | get seed
+Object seed(QSessionImplementor;) | seed
+Object seed(QVersionType;QSessionImplementor;) | seed
+void addHTTPSeed(QString;I) | add http seed
+void addSeed(QDownload;QMap;) | add seed
+void addWebSeed(QString;QMap;) | add web seed
+void checkForReSeed(Z) | check for re seed
+void checkSeed() | check seed
+void lightweightSeed(JJJB) | lightweight seed
+void removeWebSeed(QString;) | remove web seed
+void seed() | seed
+void seedingStatusChanged(ZZ) | seeding status changed
+void seedStatusChanged() | seed status changed
+void seedStatusChanged(QPeerExchangerItem;) | seed status changed
+void seed(Z) | seed
+void setClusteringSeed(I) | set clustering seed
+void setKnownSeed(QInetSocketAddress;) | set known seed
+void setRandomSeed(I) | set random seed
+void setRandomSeed(J) | set random seed
+void setSeed(I) | set seed
+void setSeed(J) | set seed
+void setSeed(Z) | set seed
+void webSeedsChanged(QString;QString;QMap;) | web seeds changed

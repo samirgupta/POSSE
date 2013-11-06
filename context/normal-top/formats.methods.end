@@ -1,0 +1,17 @@
+ArrayList<QFormat;> getSupportedDateFormats() | get supported date formats
+java.util.List<QInputFormat;> getInputFormats() | get input formats
+java.util.List<QOutputFormat;> getOutputFormats() | get output formats
+List<QIExportFormat;> getExportFormats() | get export formats
+List<QInputFormat;> getInputFormats() | get input formats
+List<QOutputFormat;> getOutputFormats() | get output formats
+Map<QString;QIExportFormat;> getExportFormats() | get export formats
+SortedSet<QImportFormat;> getBuiltInInputFormats() | get built in input formats
+SortedSet<QImportFormat;> getCustomImportFormats() | get custom import formats
+SortedSet<QImportFormat;> getImportFormats() | get import formats
+TreeMap<QString;QExportFormat;> getCustomExportFormats() | get custom export formats
+void initFormats() | init formats
+void resetImportFormats() | reset import formats
+void setInputFormats(Qjava.util.List<QInputFormat;>;) | set input formats
+void setInputFormats(QList<QInputFormat;>;) | set input formats
+void setOutputFormats(Qjava.util.List<QOutputFormat;>;) | set output formats
+void setOutputFormats(QList<QOutputFormat;>;) | set output formats

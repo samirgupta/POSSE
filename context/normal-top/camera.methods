@@ -1,0 +1,27 @@
+CameraControllerState getObserverCameraState() | get observer camera state
+CameraControllerState getTopCameraState() | get top camera state
+Camera getCamera() | get camera
+Camera getPitchRotatedCameraAt(FF) | get pitch rotated camera at
+Camera getTopCamera() | get top camera
+Camera getYawRotatedCameraAt(FF) | get yaw rotated camera at
+ControllerState getCameraPitchRotationState() | get camera pitch rotation state
+ControllerState getCameraYawRotationState() | get camera yaw rotation state
+ObserverCamera getObserverCamera() | get observer camera
+void addCameraListeners(QView;QTransformGroup;) | add camera listeners
+void assertCoordinatesAndAnglesEqualCameraLocationAndAngles(FFFFFQCamera;) | assert coordinates and angles equal camera location and angles
+void CameraInterpolator(QTransformGroup;) | camera interpolator
+void MoveCameraAction(I) | move camera action
+void moveCamera(F) | move camera
+void moveCamera(QCamera;) | move camera
+void paintCamera(QGraphics2D;QList<QSelectable;>;QPaint;QStroke;QPaint;FQColor;QColor;) | paint camera
+void paintCameraRotationIndicators(QGraphics2D;QObserverCamera;QPaint;F) | paint camera rotation indicators
+void RotateCameraPitchAction(F) | rotate camera pitch action
+void rotateCameraPitch(F) | rotate camera pitch
+void RotateCameraYawAction(F) | rotate camera yaw action
+void rotateCameraYaw(F) | rotate camera yaw
+void setCameraDepth(float percent) | set camera depth
+void setCamera(QCamera;) | set camera
+void setCameraState(QCameraControllerState;) | set camera state
+void testHomeCamera() | test home camera
+void TopCameraState() | top camera state
+void updateCameraFromHomeBounds() | update camera from home bounds

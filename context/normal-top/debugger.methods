@@ -1,0 +1,26 @@
+boolean isDebuggerReady() | is debugger ready
+Debugger debugger() | debugger
+Debugger getDebugger() | get debugger
+Object getDebuggerContextData() | get debugger context data
+OpenDefinitionsDocument _startupDebugger(QFile;QString;) | startup debugger
+OpenDefinitionsDocument _startupDebugger(QString;QString;) | startup debugger
+String adapterForDebugger(QJavaVersion;) | adapter for debugger
+void assertDebuggerShutdownCount(I) | assert debugger shutdown count
+void assertDebuggerStartedCount(I) | assert debugger started count
+void _cleanUpDebugger() | clean up debugger
+void debuggerAutomaticTrace() | debugger automatic trace
+void debuggerClearAllBreakpoints() | debugger clear all breakpoints
+void debuggerResume() | debugger resume
+void debuggerShutdown() | debugger shutdown
+void debuggerStep(QDebugger.StepType;) | debugger step
+void debuggerToggle() | debugger toggle
+void debuggerToggleBreakpoint() | debugger toggle breakpoint
+void hideDebugger() | hide debugger
+void _hideDebuggerPanel() | hide debugger panel
+void notifyDebugger_r(QContext;QDebuggableScript;QString;) | notify debugger r
+void notifyDebuggerShutdown() | notify debugger shutdown
+void removeFromDebugger() | remove from debugger
+void setDebugger(QDebugger;QObject;) | set debugger
+void _setupDebugger() | setup debugger
+void showDebugger() | show debugger
+void _showDebuggerPanel() | show debugger panel

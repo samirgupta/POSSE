@@ -1,0 +1,58 @@
+boolean isAlwaysHookPaintListener() | is always hook paint listener
+Collection getActivatedHooks() | get activated hooks
+freemind.controller.actions.generated.instance.HookNodeAction createHookNodeAction() | create hook node action
+freemind.controller.actions.generated.instance.HookNodeActionType createHookNodeActionType() | create hook node action type
+HookDescriptor getHookDescriptor(QString;) | get hook descriptor
+HookFactory getHookFactory() | get hook factory
+HookNodeAction createHookNodeAction(QMindMapNode;QList;QString;) | create hook node action
+java.lang.String getHookName() | get hook name
+JMenuItem getHookMenuItem(QString;QAbstractAction;) | get hook menu item
+List getHookMenuPositions(QString;) | get hook menu positions
+List getHooks() | get hooks
+MindMapHook createJavaHook(QString;QHookDescriptor;) | create java hook
+ModeControllerHook createModeControllerHook(QString;) | create mode controller hook
+NodeHook createNodeHook(QString;) | create node hook
+NodeHook createNodeHook(QString;QMindMapNode;QMindMap;) | create node hook
+PermanentNodeHook addHook(QPermanentNodeHook;) | add hook
+PermanentNodeHook getHookInNode(QMindMapNode;QString;) | get hook in node
+ReminderHook getHook(QMindMapNode;) | get hook
+String getHookName() | get hook name
+Vector getPossibleModeControllerHooks(QClass;) | get possible mode controller hooks
+Vector getPossibleNodeHooks(QClass;) | get possible node hooks
+void addHook(QMindMapNode;) | add hook
+void addHook(QMindMapNode;QList;QString;) | add hook
+void addSelectionForHooks(QNodeView;) | add selection for hooks
+void addShutdownHook() | add shutdown hook
+void addShutdownHook(Thread hook) | add shutdown hook
+void childJustAddedHook(Object child, BCSChild bcsc) | child just added hook
+void createActivatedHooks() | create activated hooks
+void createHooks() | create hooks
+void createNodeHookActions() | create node hook actions
+void decorateHook(QString;QHookDescriptor;QMindMapHook;) | decorate hook
+void downloadManagerAddedHook([QDownloadManager;) | download manager added hook
+void hook() | hook
+void hookApplicationMenu(QDisplay;) | hook application menu
+void hookFAQLink() | hook faq link
+void hookImageAction() | hook image action
+void hookListeners() | hook listeners
+void hookListeners(QAzureusCore;QMainWindow;) | hook listeners
+void hookShareListener() | hook share listener
+void hookTuxGoodies(QControl;) | hook tux goodies
+void invokeHook(QModeControllerHook;) | invoke hook
+void invokeHook(QNodeHook;) | invoke hook
+void invokeHooksRecursively(QNodeAdapter;QMindMap;) | invoke hooks recursively
+void ModeControllerHookAction(QString;QModeController;) | mode controller hook action
+void onLooseFocusHook() | on loose focus hook
+void onMouseOverHook() | on mouse over hook
+void onReceiveFocusHook() | on receive focus hook
+void onUpdateChildrenHook(QMindMapNode;) | on update children hook
+void onUpdateNodeHook() | on update node hook
+void recursiveCallUpdateHooks(QMindMapNode;QMindMapNode;) | recursive call update hooks
+void removeHook(QPermanentNodeHook;) | remove hook
+void removeHooks(QMindMapNode;) | remove hooks
+void removeSelectionForHooks(QNodeView;) | remove selection for hooks
+void setAlwaysHookPaintListener(Z) | set always hook paint listener
+void setHookName(Qjava.lang.String;) | set hook name
+void shutdownMapHook() | shutdown map hook
+void startupMapHook() | startup map hook
+void unHook() | un hook

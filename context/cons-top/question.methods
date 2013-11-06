@@ -1,0 +1,20 @@
+CONS IndentRuleQuestion(QIndentRule;QIndentRule;) | indent rule question
+CONS QuestionBraceIsCurly(QIndentRule;QIndentRule;) | question brace is curly
+CONS QuestionBraceIsParenOrBracket(QIndentRule;QIndentRule;) | question brace is paren or bracket
+CONS QuestionCurrLineEmptyOrEnterPress(QIndentRule;QIndentRule;) | question curr line empty or enter press
+CONS QuestionCurrLineEmpty(QIndentRule;QIndentRule;) | question curr line empty
+CONS QuestionCurrLineIsWingComment(QIndentRule;QIndentRule;) | question curr line is wing comment
+CONS QuestionCurrLineStartsWith(QString;QIndentRule;QIndentRule;) | question curr line starts with
+CONS QuestionCurrLineStartsWithSkipComments(QString;QIndentRule;QIndentRule;) | question curr line starts with skip comments
+CONS QuestionExistsCharInPrevStmt(CQIndentRule;QIndentRule;) | question exists char in prev stmt
+CONS QuestionExistsCharInStmt(CCQIndentRule;QIndentRule;) | question exists char in stmt
+CONS QuestionFollowedByStar(QIndentRule;QIndentRule;) | question followed by star
+CONS QuestionHasCharPrecedingOpenBrace([CQIndentRule;QIndentRule;) | question has char preceding open brace
+CONS QuestionInsideComment(QIndentRule;QIndentRule;) | question inside comment
+CONS QuestionLineContains(CQIndentRule;QIndentRule;) | question line contains
+CONS QuestionNewParenPhrase(QIndentRule;QIndentRule;) | question new paren phrase
+CONS QuestionPrevLineStartsComment(QIndentRule;QIndentRule;) | question prev line starts comment
+CONS QuestionPrevLineStartsJavaDocWithText(QIndentRule;QIndentRule;) | question prev line starts java doc with text
+CONS QuestionPrevLineStartsWith(QString;QIndentRule;QIndentRule;) | question prev line starts with
+CONS QuestionStartAfterOpenBrace(QIndentRule;QIndentRule;) | question start after open brace
+CONS QuestionStartingNewStmt(QIndentRule;QIndentRule;) | question starting new stmt

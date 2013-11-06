@@ -1,0 +1,18 @@
+CONS ColonyPlan(QAIMain;QColony;) | colony plan
+CONS ColonyPlan(QAIMain;QElement;) | colony plan
+CONS FilterQueryPlan(QString;QString;ZQMap;QSessionFactoryImplementor;) | filter query plan
+CONS HQLQueryPlan(QString;QString;ZQMap;QSessionFactoryImplementor;) | hql query plan
+CONS HQLQueryPlan(QString;ZQMap;QSessionFactoryImplementor;) | hql query plan
+CONS JPlanetaMessengerStatus(I) | j planeta messenger status
+CONS JPlanetaMessengerStatus(IQjava.lang.Object;) | j planeta messenger status
+CONS NativeSQLQueryPlan(QNativeSQLQuerySpecification;QSessionFactoryImplementor;) | native sql query plan
+CONS PlanComponent(QHome;QUserPreferences;QPlanController;) | plan component
+CONS PlanController(QHome;QUserPreferences;QViewFactory;QContentManager;QUndoableEditSupport;) | plan controller
+CONS PlanTransferHandler(QHome;QContentManager;QHomeController;) | plan transfer handler
+CONS QueryPlanCache(QSessionFactoryImplementor;) | query plan cache
+CONS TileImprovementPlan(QAIMain;QElement;) | tile improvement plan
+CONS TileImprovementPlan(QAIMain;QString;) | tile improvement plan
+CONS TileImprovementPlan(QAIMain;QTile;QTileImprovementType;I) | tile improvement plan
+CONS TileImprovementPlan(QAIMain;QXMLStreamReader;) | tile improvement plan
+CONS WorkLocationPlan(QAIMain;QElement;) | work location plan
+CONS WorkLocationPlan(QAIMain;QWorkLocation;QGoodsType;) | work location plan

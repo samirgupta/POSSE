@@ -1,0 +1,20 @@
+AutoFlushEventListener[] getAutoFlushEventListeners() | get auto flush event listeners
+boolean isFlushModeNever() | is flush mode never
+boolean isManualFlushMode(QFlushMode;) | is manual flush mode
+boolean onFlushDirty(QObject;QSerializable;[QObject;[QObject;[QString;[QType;) | on flush dirty
+Criteria setFlushMode(QFlushMode;) | set flush mode
+FlushEntityEventListener[] getFlushEntityEventListeners() | get flush entity event listeners
+FlushEventListener[] getFlushEventListeners() | get flush event listeners
+FlushMode getFlushMode() | get flush mode
+FlushMode getFlushMode(QString;) | get flush mode
+int getDontFlushFromFind() | get dont flush from find
+long getFlushCount() | get flush count
+PersistEventListener[] getPersistOnFlushEventListeners() | get persist on flush event listeners
+Query setFlushMode(QFlushMode;) | set flush mode
+void clearFromFlushNeededCheck(I) | clear from flush needed check
+void onFlushEntity(QFlushEntityEvent;) | on flush entity
+void setAutoFlushEventListeners([QAutoFlushEventListener;) | set auto flush event listeners
+void setFlushEntityEventListeners([QFlushEntityEventListener;) | set flush entity event listeners
+void setFlushEventListeners([QFlushEventListener;) | set flush event listeners
+void setFlushMode(QFlushMode;) | set flush mode
+void setPersistOnFlushEventListeners([QPersistEventListener;) | set persist on flush event listeners

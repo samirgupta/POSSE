@@ -1,0 +1,5 @@
+CONS EncryptedData(QASN1Sequence;) | encrypted data
+CONS EncryptedData(QDERObjectIdentifier;QAlgorithmIdentifier;QDEREncodable;) | encrypted data
+CONS EncryptedMindMapNode(QObject;QFreeMindMain;) | encrypted mind map node
+CONS EncryptedPrivateKeyInfo(QAlgorithmIdentifier;[B) | encrypted private key info
+CONS EncryptedPrivateKeyInfo(QASN1Sequence;) | encrypted private key info

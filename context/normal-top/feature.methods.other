@@ -1,0 +1,10 @@
+FeatureContainer getFeatureContainer() | get feature container
+FeatureValuePath createFeatureValuePath(String featureValuePath) | create feature value path
+int getFeatureSubID() | get feature sub id
+int getFeatureValue(int addr, int feat) | get feature value
+long getFeatureFlags() | get feature flags
+String getFeatureID() | get feature id
+void addFeatureExtractionParam(Object poParam) | add feature extraction param
+void setFeatureContainer(QFeatureContainer;) | set feature container
+void setFeatureType(GF_FeatureType FeatureType) | set feature type
+void visitFeatureNode(FeatureNode node) | visit feature node

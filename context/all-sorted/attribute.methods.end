@@ -1,0 +1,755 @@
+../3-Phrases/3PS:boolean hasAttribute(String name) | has attribute
+../3-Phrases/3PS:boolean isDateAttribute(EOAttribute eoattribute) | is date attribute
+../3-Phrases/Base_Verb:void revertToParentFromLeaveAttribute(String uri, String local, String qname) | revert to parent from leave attribute
+../3-Phrases/Base_Verb:Element getAllChildrenWithAttribute(Element root, String elementname, String attribname, String attribval) | get all children with attribute
+../3-Phrases/Base_Verb:int getIntegerAttribute(PrimaryKey attributePk, int defaultValue) | get integer attribute
+../3-Phrases/Base_Verb:CMLAttribute getDictRefAttribute() | get dict ref attribute
+../3-Phrases/Base_Verb:CMLAttribute getTypeAttribute() | get type attribute
+../3-Phrases/Base_Verb:AttributeSet getCharacterAttribute(int index) | get character attribute
+../3-Phrases/Base_Verb:Variant addAttribute(Variant uri, Variant LocalName, Variant qName, Variant type) | add attribute
+../3-Phrases/Base_Verb:DataAttribute getAttribute(String name) | get attribute
+../3-Phrases/Base_Verb:String getAttribute(String name) | get attribute
+../3-Phrases/Base_Verb:void setAttribute(FigureAttributeConstant attributeConstant, Object value) | set attribute
+../3-Phrases/Base_Verb:Object getAttribute(String s) | get attribute
+../3-Phrases/Base_Verb:Object getAttribute(String name) | get attribute
+../3-Phrases/Base_Verb:String getARLAttribute() | get arl attribute
+../3-Phrases/Base_Verb:void setAttribute(String key, Object value, int scope) | set attribute
+../3-Phrases/Base_Verb:void visitAttribute(Attribute attr) | visit attribute
+../3-Phrases/Base_Verb:void mergeAttribute(Attribute other) | merge attribute
+../3-Phrases/Base_Verb:void setAttribute(int attribute) | set attribute
+../3-Phrases/Base_Verb:Object getAttribute(String name) | get attribute
+../3-Phrases/Base_Verb:void setAttribute(String name, Object value) | set attribute
+../3-Phrases/Base_Verb:Object visitAttribute(XMIObject attr, Object arg) | visit attribute
+../3-Phrases/Base_Verb:void enterAttribute(String ___uri, String ___local) | enter attribute
+../3-Phrases/Base_Verb:void enterAttribute(String ___uri, String ___local, String ___qname) | enter attribute
+../3-Phrases/Base_Verb:void enterAttribute(String ___uri, String ___local, String ___qname) | enter attribute
+../3-Phrases/Base_Verb:void enterAttribute(String ___uri, String ___local, String ___qname) | enter attribute
+../3-Phrases/Base_Verb:void leaveAttribute(String ___uri, String ___local) | leave attribute
+../3-Phrases/Base_Verb:void leaveAttribute(String ___uri, String ___local, String ___qname) | leave attribute
+../3-Phrases/Base_Verb:void leaveAttribute(String ___uri, String ___local, String ___qname) | leave attribute
+../3-Phrases/Base_Verb:void leaveAttribute(String ___uri, String ___local, String ___qname) | leave attribute
+../3-Phrases/Base_Verb:void leaveAttribute(String ___uri, String ___local, String ___qname) | leave attribute
+../3-Phrases/Base_Verb:void leaveAttribute(String ___uri, String ___local, String ___qname) | leave attribute
+../3-Phrases/Base_Verb:Object getAttribute(String name, Object defaultValue) | get attribute
+../3-Phrases/Base_Verb:int scanOneAttribute(char input, int offset, int end, int lineNr) | scan one attribute
+../3-Phrases/Base_Verb:void enterAttribute(String $__uri, String $__local, String $__qname) | enter attribute
+../3-Phrases/drjava2:void setAttribute(QString;QString;) | set attribute
+../3-Phrases/drjava2:String getAttribute(QString;) | get attribute
+../3-Phrases/drjava2:void visitAttribute(QAttribute;) | visit attribute
+../3-Phrases/freecol2:boolean hasAttribute(QXMLStreamReader;QString;) | has attribute
+../3-Phrases/freecol2:int getAttribute(QXMLStreamReader;QString;I) | get attribute
+../3-Phrases/freecol2:float getAttribute(QXMLStreamReader;QString;F) | get attribute
+../3-Phrases/freecol2:boolean getAttribute(QXMLStreamReader;QString;Z) | get attribute
+../3-Phrases/freecol2:String getAttribute(QXMLStreamReader;QString;QString;) | get attribute
+../3-Phrases/freecol2:void writeAttribute(QXMLStreamWriter;QString;QFreeColObject;) | write attribute
+../3-Phrases/freecol2:void setAttribute(QString;QString;) | set attribute
+../3-Phrases/freecol2:void setAttribute(QString;I) | set attribute
+../3-Phrases/freecol2:String getAttribute(QString;) | get attribute
+../3-Phrases/freecol2:boolean hasAttribute(QString;) | has attribute
+../3-Phrases/freecol2:boolean hasAttribute(QNode;QString;) | has attribute
+../3-Phrases/freecol2:String[] arrayAttribute(QNode;QString;QString;) | array attribute
+../3-Phrases/freecol2:String[] arrayAttribute(QNode;QString;) | array attribute
+../3-Phrases/freecol2:String[] arrayAttribute(QNode;QString;[QString;) | array attribute
+../3-Phrases/freecol2:char charAttribute(QNode;QString;) | char attribute
+../3-Phrases/freecol2:char charAttribute(QNode;QString;C) | char attribute
+../3-Phrases/freecol2:float floatAttribute(QNode;QString;) | float attribute
+../3-Phrases/freecol2:float floatAttribute(QNode;QString;F) | float attribute
+../3-Phrases/freecol2:float[] floatArrayAttribute(QNode;QString;QString;) | float array attribute
+../3-Phrases/freecol2:float[] floatArrayAttribute(QNode;QString;) | float array attribute
+../3-Phrases/freecol2:float[] floatArrayAttribute(QNode;QString;[F) | float array attribute
+../3-Phrases/freecol2:int intAttribute(QNode;QString;) | int attribute
+../3-Phrases/freecol2:int intAttribute(QNode;QString;I) | int attribute
+../3-Phrases/freecol2:int[] intArrayAttribute(QNode;QString;QString;) | int array attribute
+../3-Phrases/freecol2:int[] intArrayAttribute(QNode;QString;) | int array attribute
+../3-Phrases/freecol2:int[] intArrayAttribute(QNode;QString;[I) | int array attribute
+../3-Phrases/freecol2:boolean booleanAttribute(QNode;QString;) | boolean attribute
+../3-Phrases/freecol2:boolean booleanAttribute(QNode;QString;Z) | boolean attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(QString;QString;QString;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(QString;QString;QString;) | leave attribute
+../3-Phrases/freemind:void unexpectedEnterAttribute(QString;QString;QString;) | unexpected enter attribute
+../3-Phrases/freemind:void unexpectedLeaveAttribute(QString;QString;QString;) | unexpected leave attribute
+../3-Phrases/freemind:Object spawnChildFromEnterAttribute(QClass;IQString;QString;QString;) | spawn child from enter attribute
+../3-Phrases/freemind:Object spawnChildFromLeaveAttribute(QClass;IQString;QString;QString;) | spawn child from leave attribute
+../3-Phrases/freemind:void spawnHandlerFromEnterAttribute(QUnmarshallingEventHandler;IQString;QString;QString;) | spawn handler from enter attribute
+../3-Phrases/freemind:void spawnHandlerFromLeaveAttribute(QUnmarshallingEventHandler;IQString;QString;QString;) | spawn handler from leave attribute
+../3-Phrases/freemind:void revertToParentFromEnterAttribute(QString;QString;QString;) | revert to parent from enter attribute
+../3-Phrases/freemind:void revertToParentFromLeaveAttribute(QString;QString;QString;) | revert to parent from leave attribute
+../3-Phrases/freemind:void enterAttribute(QString;QString;QString;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(QString;QString;QString;) | leave attribute
+../3-Phrases/freemind:void enterAttribute(QString;QString;QString;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(QString;QString;QString;) | leave attribute
+../3-Phrases/freemind:int getAttribute(QString;QString;) | get attribute
+../3-Phrases/freemind:void consumeAttribute(I) | consume attribute
+../3-Phrases/freemind:String eatAttribute(I) | eat attribute
+../3-Phrases/freemind:int getAttribute(QString;QString;) | get attribute
+../3-Phrases/freemind:void consumeAttribute(I) | consume attribute
+../3-Phrases/freemind:String eatAttribute(I) | eat attribute
+../3-Phrases/freemind:void startAttribute(QString;QString;) | start attribute
+../3-Phrases/freemind:void endAttribute() | end attribute
+../3-Phrases/freemind:void enterAttribute(QString;QString;QString;) | enter attribute
+../3-Phrases/freemind:void leaveAttribute(QString;QString;QString;) | leave attribute
+../3-Phrases/freemind:void startAttribute(QString;QString;) | start attribute
+../3-Phrases/freemind:void endAttribute() | end attribute
+../3-Phrases/freemind:void startAttribute(QString;QString;) | start attribute
+../3-Phrases/freemind:void endAttribute() | end attribute
+../3-Phrases/freemind:void setAttribute(QString;QObject;) | set attribute
+../3-Phrases/freemind:void setIntAttribute(QString;I) | set int attribute
+../3-Phrases/freemind:void setDoubleAttribute(QString;D) | set double attribute
+../3-Phrases/freemind:Object getAttribute(QString;) | get attribute
+../3-Phrases/freemind:Object getAttribute(QString;QObject;) | get attribute
+../3-Phrases/freemind:Object getAttribute(QString;QHashtable;QString;Z) | get attribute
+../3-Phrases/freemind:String getStringAttribute(QString;) | get string attribute
+../3-Phrases/freemind:String getStringAttribute(QString;QString;) | get string attribute
+../3-Phrases/freemind:String getStringAttribute(QString;QHashtable;QString;Z) | get string attribute
+../3-Phrases/freemind:int getIntAttribute(QString;) | get int attribute
+../3-Phrases/freemind:int getIntAttribute(QString;I) | get int attribute
+../3-Phrases/freemind:int getIntAttribute(QString;QHashtable;QString;Z) | get int attribute
+../3-Phrases/freemind:double getDoubleAttribute(QString;) | get double attribute
+../3-Phrases/freemind:double getDoubleAttribute(QString;D) | get double attribute
+../3-Phrases/freemind:double getDoubleAttribute(QString;QHashtable;QString;Z) | get double attribute
+../3-Phrases/freemind:boolean getBooleanAttribute(QString;QString;QString;Z) | get boolean attribute
+../3-Phrases/freemind:void removeAttribute(QString;) | remove attribute
+../3-Phrases/freemind:void setAttribute(QString;QObject;) | set attribute
+../3-Phrases/freemind:void setNodeAttribute(QString;QString;QNodeAdapter;) | set node attribute
+../3-Phrases/gantt:void addAttribute(QString;QString;QAttributesImpl;) | add attribute
+../3-Phrases/gantt:void addAttribute(QString;QString;QAttributesImpl;) | add attribute
+../3-Phrases/hibernate-3.3.1.GA:MetaAttribute getMetaAttribute(QString;) | get meta attribute
+../3-Phrases/hibernate-3.3.1.GA:MetaAttribute getMetaAttribute(QString;) | get meta attribute
+../3-Phrases/hibernate-3.3.1.GA:MetaAttribute getMetaAttribute(QString;) | get meta attribute
+../3-Phrases/hibernate-3.3.1.GA:CONS MetaAttribute(QString;) | meta attribute
+../3-Phrases/hibernate-3.3.1.GA:MetaAttribute getMetaAttribute(QString;) | get meta attribute
+../3-Phrases/hibernate-3.3.1.GA:Element addAttribute(QString;QString;) | add attribute
+../3-Phrases/hibernate-3.3.1.GA:Element addAttribute(QQName;QString;) | add attribute
+../3-Phrases/hibernate-3.3.1.GA:Element addAttribute(QString;QString;) | add attribute
+../3-Phrases/hibernate-3.3.1.GA:Element addAttribute(QQName;QString;) | add attribute
+../3-Phrases/hsqldb:Boolean isUnsignedAttribute() | is unsigned attribute
+../3-Phrases/hsqldb:Boolean isUnsignedAttribute(I) | is unsigned attribute
+../3-Phrases/hsqldb:Object getAttribute(I) | get attribute
+../3-Phrases/hsqldb:void setAttribute(QObject;I) | set attribute
+../3-Phrases/iReport:Object getAttribute(QString;) | get attribute
+../3-Phrases/iReport:Object getAttribute(QString;Z) | get attribute
+../3-Phrases/iReport:java.lang.String getAttribute(QString;) | get attribute
+../3-Phrases/iReport:java.lang.String getAttribute(QString;QString;) | get attribute
+../3-Phrases/Jabref:int readIntegerAttribute(QElement;QString;I) | read integer attribute
+../3-Phrases/Jabref:String readStringAttribute(QElement;QString;QString;) | read string attribute
+../3-Phrases/Jabref:double readDoubleAttribute(QElement;QString;D) | read double attribute
+../3-Phrases/jbidwatcher:int scanOneAttribute([CII[I) | scan one attribute
+../3-Phrases/jbidwatcher:XMLParseException valueMissingForAttribute(QString;I) | value missing for attribute
+../3-Phrases/JHotDraw-7.0.8:String getAttribute(QString;) | get attribute
+../3-Phrases/JHotDraw-7.0.8:String getAttribute(QString;QString;) | get attribute
+../3-Phrases/JHotDraw-7.0.8:String getAttribute(QString;QString;QString;) | get attribute
+../3-Phrases/JHotDraw-7.0.8:int getAttribute(QString;I) | get attribute
+../3-Phrases/JHotDraw-7.0.8:int getAttribute(QString;QString;I) | get attribute
+../3-Phrases/JHotDraw-7.0.8:Object getAttribute(QString;QString;QMap;QString;) | get attribute
+../3-Phrases/JHotDraw-7.0.8:double getDoubleAttribute(QString;QString;D) | get double attribute
+../3-Phrases/JHotDraw-7.0.8:void setAttribute(QString;QString;) | set attribute
+../3-Phrases/JHotDraw-7.0.8:void setAttribute(QString;QString;QString;) | set attribute
+../3-Phrases/JHotDraw-7.0.8:void removeAttribute(QString;) | remove attribute
+../3-Phrases/JHotDraw-7.0.8:void removeAttribute(QString;QString;) | remove attribute
+../3-Phrases/JHotDraw-7.0.8:boolean hasAttribute(QString;) | has attribute
+../3-Phrases/JHotDraw-7.0.8:boolean hasAttribute(QString;QString;) | has attribute
+../3-Phrases/JHotDraw-7.0.8:CONS XMLAttribute(QString;QString;QString;QString;QString;) | xml attribute
+../3-Phrases/JHotDraw-7.0.8:XMLAttribute findAttribute(QString;) | find attribute
+../3-Phrases/JHotDraw-7.0.8:XMLAttribute findAttribute(QString;QString;) | find attribute
+../3-Phrases/JHotDraw-7.0.8:String getAttribute(QString;) | get attribute
+../3-Phrases/JHotDraw-7.0.8:String getAttribute(QString;QString;) | get attribute
+../3-Phrases/JHotDraw-7.0.8:String getAttribute(QString;QString;QString;) | get attribute
+../3-Phrases/JHotDraw-7.0.8:double getDoubleAttribute(QString;QString;D) | get double attribute
+../3-Phrases/JHotDraw-7.0.8:int getAttribute(QString;I) | get attribute
+../3-Phrases/JHotDraw-7.0.8:int getAttribute(QString;QString;I) | get attribute
+../3-Phrases/JHotDraw-7.0.8:Object getAttribute(QString;QString;QMap;QString;) | get attribute
+../3-Phrases/JHotDraw-7.0.8:void setAttribute(QString;QString;) | set attribute
+../3-Phrases/JHotDraw-7.0.8:void setAttribute(QString;QString;QString;) | set attribute
+../3-Phrases/JHotDraw-7.0.8:void removeAttribute(QString;) | remove attribute
+../3-Phrases/JHotDraw-7.0.8:void removeAttribute(QString;QString;) | remove attribute
+../3-Phrases/JHotDraw-7.0.8:boolean hasAttribute(QString;) | has attribute
+../3-Phrases/JHotDraw-7.0.8:boolean hasAttribute(QString;QString;) | has attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;QString;QString;QString;QString;) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void processAttribute(QVector;QVector;QVector;) | process attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;QString;QString;QString;QString;) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void missingAttribute(QString;IQString;QString;) | missing attribute
+../3-Phrases/JHotDraw-7.0.8:void unexpectedAttribute(QString;IQString;QString;) | unexpected attribute
+../3-Phrases/JHotDraw-7.0.8:void errorMissingAttribute(QString;IQString;QString;) | error missing attribute
+../3-Phrases/JHotDraw-7.0.8:void errorUnexpectedAttribute(QString;IQString;QString;) | error unexpected attribute
+../3-Phrases/JHotDraw-7.0.8:void setAttribute(QAttributeKey;QObject;) | set attribute
+../3-Phrases/JHotDraw-7.0.8:void basicSetAttribute(QAttributeKey;QObject;) | basic set attribute
+../3-Phrases/JHotDraw-7.0.8:Object getAttribute(QAttributeKey;) | get attribute
+../3-Phrases/JHotDraw-7.0.8:void setAttribute(QAttributeKey;QObject;) | set attribute
+../3-Phrases/JHotDraw-7.0.8:void basicSetAttribute(QAttributeKey;QObject;) | basic set attribute
+../3-Phrases/JHotDraw-7.0.8:Object getAttribute(QAttributeKey;) | get attribute
+../3-Phrases/JHotDraw-7.0.8:void removeAttribute(QAttributeKey;) | remove attribute
+../3-Phrases/JHotDraw-7.0.8:boolean hasAttribute(QAttributeKey;) | has attribute
+../3-Phrases/JHotDraw-7.0.8:AttributeKey getAttribute() | get attribute
+../3-Phrases/JHotDraw-7.0.8:void setAttribute(QAttributeKey;QObject;) | set attribute
+../3-Phrases/JHotDraw-7.0.8:void basicSetAttribute(QAttributeKey;QObject;) | basic set attribute
+../3-Phrases/JHotDraw-7.0.8:Object getAttribute(QAttributeKey;) | get attribute
+../3-Phrases/JHotDraw-7.0.8:void removeAttribute(QAttributeKey;) | remove attribute
+../3-Phrases/JHotDraw-7.0.8:boolean hasAttribute(QAttributeKey;) | has attribute
+../3-Phrases/JHotDraw-7.0.8:void basicSetAttribute(QAttributeKey;QObject;) | basic set attribute
+../3-Phrases/JHotDraw-7.0.8:void setAttribute(QAttributeKey;QObject;) | set attribute
+../3-Phrases/JHotDraw-7.0.8:void basicSetAttribute(QAttributeKey;QObject;) | basic set attribute
+../3-Phrases/JHotDraw-7.0.8:Object getAttribute(QAttributeKey;) | get attribute
+../3-Phrases/JHotDraw-7.0.8:void setDefaultAttribute(QAttributeKey;QObject;) | set default attribute
+../3-Phrases/JHotDraw-7.0.8:Object getDefaultAttribute(QAttributeKey;) | get default attribute
+../3-Phrases/JHotDraw-7.0.8:void setAttribute(QAttributeKey;QObject;) | set attribute
+../3-Phrases/JHotDraw-7.0.8:Object getDefaultAttribute(QAttributeKey;) | get default attribute
+../3-Phrases/JHotDraw-7.0.8:void setDefaultAttribute(QAttributeKey;QObject;) | set default attribute
+../3-Phrases/JHotDraw-7.0.8:void setAttribute(QAttributeKey;QObject;) | set attribute
+../3-Phrases/JHotDraw-7.0.8:void basicSetAttribute(QAttributeKey;QObject;) | basic set attribute
+../3-Phrases/JHotDraw-7.0.8:Object getAttribute(QAttributeKey;) | get attribute
+../3-Phrases/JHotDraw-7.0.8:void removeAttribute(QAttributeKey;) | remove attribute
+../3-Phrases/JHotDraw-7.0.8:boolean hasAttribute(QAttributeKey;) | has attribute
+../3-Phrases/JHotDraw-7.0.8:void changeAttribute() | change attribute
+../3-Phrases/JHotDraw-7.0.8:void changeAttribute(QColor;) | change attribute
+../3-Phrases/JHotDraw-7.0.8:void setAttribute(QAttributeKey;QObject;) | set attribute
+../3-Phrases/JHotDraw-7.0.8:void basicSetAttribute(QAttributeKey;QObject;) | basic set attribute
+../3-Phrases/JHotDraw-7.0.8:void basicSetAttribute(QAttributeKey;QObject;) | basic set attribute
+../3-Phrases/JHotDraw-7.0.8:void basicSetAttribute(QAttributeKey;QObject;) | basic set attribute
+../3-Phrases/JHotDraw-7.0.8:String readInheritAttribute(QIXMLElement;QString;QString;) | read inherit attribute
+../3-Phrases/JHotDraw-7.0.8:double readInheritFontSizeAttribute(QIXMLElement;QString;QString;) | read inherit font size attribute
+../3-Phrases/JHotDraw-7.0.8:String readAttribute(QIXMLElement;QString;QString;) | read attribute
+../3-Phrases/JHotDraw-7.0.8:void readTransformAttribute(QIXMLElement;QHashMap<QAttributeKey;QObject;>;) | read transform attribute
+../3-Phrases/JHotDraw-7.0.8:void writeTransformAttribute(QIXMLElement;QMap<QAttributeKey;QObject;>;) | write transform attribute
+../3-Phrases/JHotDraw-7.0.8:void writeAttribute(QIXMLElement;QString;QString;QString;) | write attribute
+../3-Phrases/JHotDraw-7.0.8:void writeAttribute(QIXMLElement;QString;QString;QString;QString;) | write attribute
+../3-Phrases/JHotDraw-7.0.8:void writeAttribute(QIXMLElement;QString;DD) | write attribute
+../3-Phrases/JHotDraw-7.0.8:void writeAttribute(QIXMLElement;QString;QString;DD) | write attribute
+../3-Phrases/JHotDraw-7.0.8:String getAttribute(QString;QString;) | get attribute
+../3-Phrases/JHotDraw-7.0.8:java.util.List<QString;> getInheritedAttribute(QString;) | get inherited attribute
+../3-Phrases/JHotDraw-7.0.8:int getAttribute(QString;I) | get attribute
+../3-Phrases/JHotDraw-7.0.8:double getAttribute(QString;D) | get attribute
+../3-Phrases/JHotDraw-7.0.8:boolean getAttribute(QString;Z) | get attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;QString;) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;I) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;Z) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;F) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;D) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;FF) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;II) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;DD) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;ZZ) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;QString;QString;) | add attribute
+../3-Phrases/JHotDraw-7.0.8:String getAttribute(QString;QString;) | get attribute
+../3-Phrases/JHotDraw-7.0.8:int getAttribute(QString;I) | get attribute
+../3-Phrases/JHotDraw-7.0.8:double getAttribute(QString;D) | get attribute
+../3-Phrases/JHotDraw-7.0.8:boolean getAttribute(QString;Z) | get attribute
+../3-Phrases/JHotDraw-7.0.8:java.util.List<QString;> getInheritedAttribute(QString;) | get inherited attribute
+../3-Phrases/JHotDraw-7.0.8:String getAttribute(QString;QString;) | get attribute
+../3-Phrases/JHotDraw-7.0.8:java.util.List<QString;> getInheritedAttribute(QString;) | get inherited attribute
+../3-Phrases/JHotDraw-7.0.8:int getAttribute(QString;I) | get attribute
+../3-Phrases/JHotDraw-7.0.8:double getAttribute(QString;D) | get attribute
+../3-Phrases/JHotDraw-7.0.8:boolean getAttribute(QString;Z) | get attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;QString;) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;QString;QString;) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;I) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;II) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;Z) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;ZZ) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;F) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;FF) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;D) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;DD) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;QString;) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;I) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;Z) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;F) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;D) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;FF) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;II) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;DD) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;ZZ) | add attribute
+../3-Phrases/JHotDraw-7.0.8:void addAttribute(QString;QString;QString;) | add attribute
+../3-Phrases/prefuse:void parseAttribute(QAttributes;) | parse attribute
+../3-Phrases/rhino:boolean isXMLAttribute() | is xml attribute
+../3-Phrases/rhino:void setCodeAttribute([B) | set code attribute
+../3-Phrases/rhino-fieldSample:boolean isXMLAttribute() | is xml attribute
+../3-Phrases/vuze:String getAttribute(QTorrentAttribute;) | get attribute
+../3-Phrases/vuze:void setAttribute(QTorrentAttribute;QString;) | set attribute
+../3-Phrases/vuze:String[] getListAttribute(QTorrentAttribute;) | get list attribute
+../3-Phrases/vuze:void setListAttribute(QTorrentAttribute;[QString;) | set list attribute
+../3-Phrases/vuze:void setMapAttribute(QTorrentAttribute;QMap;) | set map attribute
+../3-Phrases/vuze:Map getMapAttribute(QTorrentAttribute;) | get map attribute
+../3-Phrases/vuze:void setIntAttribute(QTorrentAttribute;I) | set int attribute
+../3-Phrases/vuze:int getIntAttribute(QTorrentAttribute;) | get int attribute
+../3-Phrases/vuze:void setLongAttribute(QTorrentAttribute;J) | set long attribute
+../3-Phrases/vuze:long getLongAttribute(QTorrentAttribute;) | get long attribute
+../3-Phrases/vuze:void setBooleanAttribute(QTorrentAttribute;Z) | set boolean attribute
+../3-Phrases/vuze:boolean getBooleanAttribute(QTorrentAttribute;) | get boolean attribute
+../3-Phrases/vuze:boolean hasAttribute(QTorrentAttribute;) | has attribute
+../3-Phrases/vuze:void setAttribute(QString;QString;) | set attribute
+../3-Phrases/vuze:String getAttribute(QString;) | get attribute
+../3-Phrases/vuze:void setIntAttribute(QString;I) | set int attribute
+../3-Phrases/vuze:int getIntAttribute(QString;) | get int attribute
+../3-Phrases/vuze:void setLongAttribute(QString;J) | set long attribute
+../3-Phrases/vuze:long getLongAttribute(QString;) | get long attribute
+../3-Phrases/vuze:void setBooleanAttribute(QString;Z) | set boolean attribute
+../3-Phrases/vuze:boolean getBooleanAttribute(QString;) | get boolean attribute
+../3-Phrases/vuze:boolean hasAttribute(QString;) | has attribute
+../3-Phrases/vuze:void setListAttribute(QString;[QString;) | set list attribute
+../3-Phrases/vuze:String[] getListAttribute(QString;) | get list attribute
+../3-Phrases/vuze:String getListAttribute(QString;I) | get list attribute
+../3-Phrases/vuze:void setMapAttribute(QString;QMap;) | set map attribute
+../3-Phrases/vuze:Map getMapAttribute(QString;) | get map attribute
+../3-Phrases/vuze:void addAttribute(QString;QASN1Encodable;) | add attribute
+../3-Phrases/vuze:void addAttribute(QAttribute;) | add attribute
+../3-Phrases/vuze:void setBagAttribute(QDERObjectIdentifier;QDEREncodable;) | set bag attribute
+../3-Phrases/vuze:DEREncodable getBagAttribute(QDERObjectIdentifier;) | get bag attribute
+../3-Phrases/vuze:void setBagAttribute(QDERObjectIdentifier;QDEREncodable;) | set bag attribute
+../3-Phrases/vuze:DEREncodable getBagAttribute(QDERObjectIdentifier;) | get bag attribute
+../3-Phrases/vuze:void setBagAttribute(QDERObjectIdentifier;QDEREncodable;) | set bag attribute
+../3-Phrases/vuze:DEREncodable getBagAttribute(QDERObjectIdentifier;) | get bag attribute
+../3-Phrases/vuze:CONS X509Attribute(QASN1Encodable;) | x 509 attribute
+../3-Phrases/vuze:CONS X509Attribute(QString;QASN1Encodable;) | x 509 attribute
+../3-Phrases/vuze:CONS X509Attribute(QString;QASN1EncodableVector;) | x 509 attribute
+../3-Phrases/vuze:void setAttribute(QString;QString;) | set attribute
+../3-Phrases/vuze:String getAttribute(QString;) | get attribute
+../3-Phrases/vuze:void setMapAttribute(QString;QMap;) | set map attribute
+../3-Phrases/vuze:Map getMapAttribute(QString;) | get map attribute
+../3-Phrases/vuze:void setListAttribute(QString;[QString;) | set list attribute
+../3-Phrases/vuze:String[] getListAttribute(QString;) | get list attribute
+../3-Phrases/vuze:String getListAttribute(QString;I) | get list attribute
+../3-Phrases/vuze:void setIntAttribute(QString;I) | set int attribute
+../3-Phrases/vuze:int getIntAttribute(QString;) | get int attribute
+../3-Phrases/vuze:void setLongAttribute(QString;J) | set long attribute
+../3-Phrases/vuze:long getLongAttribute(QString;) | get long attribute
+../3-Phrases/vuze:void setBooleanAttribute(QString;Z) | set boolean attribute
+../3-Phrases/vuze:boolean getBooleanAttribute(QString;) | get boolean attribute
+../3-Phrases/vuze:boolean hasAttribute(QString;) | has attribute
+../3-Phrases/vuze:void setAttribute(QString;QString;) | set attribute
+../3-Phrases/vuze:String getAttribute(QString;) | get attribute
+../3-Phrases/vuze:String getStringAttribute(QString;) | get string attribute
+../3-Phrases/vuze:void setStringAttribute(QString;QString;) | set string attribute
+../3-Phrases/vuze:long getLongAttribute(QString;) | get long attribute
+../3-Phrases/vuze:void setLongAttribute(QString;J) | set long attribute
+../3-Phrases/vuze:void setListAttribute(QString;[QString;) | set list attribute
+../3-Phrases/vuze:String getListAttribute(QString;I) | get list attribute
+../3-Phrases/vuze:String[] getListAttribute(QString;) | get list attribute
+../3-Phrases/vuze:void setListAttribute(QString;QList;) | set list attribute
+../3-Phrases/vuze:Map getMapAttribute(QString;) | get map attribute
+../3-Phrases/vuze:void setMapAttribute(QString;QMap;) | set map attribute
+../3-Phrases/vuze:void setMapAttribute(QString;QMap;Z) | set map attribute
+../3-Phrases/vuze:boolean hasAttribute(QString;) | has attribute
+../3-Phrases/vuze:void setIntAttribute(QString;I) | set int attribute
+../3-Phrases/vuze:int getIntAttribute(QString;) | get int attribute
+../3-Phrases/vuze:void setBooleanAttribute(QString;Z) | set boolean attribute
+../3-Phrases/vuze:boolean getBooleanAttribute(QString;) | get boolean attribute
+../3-Phrases/vuze:void setAttribute(QString;QString;) | set attribute
+../3-Phrases/vuze:String getAttribute(QString;) | get attribute
+../3-Phrases/vuze:void setListAttribute(QString;[QString;) | set list attribute
+../3-Phrases/vuze:String getListAttribute(QString;I) | get list attribute
+../3-Phrases/vuze:String[] getListAttribute(QString;) | get list attribute
+../3-Phrases/vuze:void setMapAttribute(QString;QMap;) | set map attribute
+../3-Phrases/vuze:Map getMapAttribute(QString;) | get map attribute
+../3-Phrases/vuze:boolean hasAttribute(QString;) | has attribute
+../3-Phrases/vuze:int getIntAttribute(QString;) | get int attribute
+../3-Phrases/vuze:long getLongAttribute(QString;) | get long attribute
+../3-Phrases/vuze:boolean getBooleanAttribute(QString;) | get boolean attribute
+../3-Phrases/vuze:void setIntAttribute(QString;I) | set int attribute
+../3-Phrases/vuze:void setLongAttribute(QString;J) | set long attribute
+../3-Phrases/vuze:void setBooleanAttribute(QString;Z) | set boolean attribute
+../3-Phrases/vuze:String getAttribute(QString;) | get attribute
+../3-Phrases/vuze:void addAttribute(QString;QString;) | add attribute
+../3-Phrases/vuze:void addAttribute(QString;I) | add attribute
+../3-Phrases/vuze:void addAttribute(QString;Z) | add attribute
+../3-Phrases/vuze:String getAttribute(QTorrentAttribute;) | get attribute
+../3-Phrases/vuze:void setAttribute(QTorrentAttribute;QString;) | set attribute
+../3-Phrases/vuze:String[] getListAttribute(QTorrentAttribute;) | get list attribute
+../3-Phrases/vuze:void setListAttribute(QTorrentAttribute;[QString;) | set list attribute
+../3-Phrases/vuze:void setMapAttribute(QTorrentAttribute;QMap;) | set map attribute
+../3-Phrases/vuze:Map getMapAttribute(QTorrentAttribute;) | get map attribute
+../3-Phrases/vuze:int getIntAttribute(QTorrentAttribute;) | get int attribute
+../3-Phrases/vuze:void setIntAttribute(QTorrentAttribute;I) | set int attribute
+../3-Phrases/vuze:long getLongAttribute(QTorrentAttribute;) | get long attribute
+../3-Phrases/vuze:void setLongAttribute(QTorrentAttribute;J) | set long attribute
+../3-Phrases/vuze:boolean getBooleanAttribute(QTorrentAttribute;) | get boolean attribute
+../3-Phrases/vuze:void setBooleanAttribute(QTorrentAttribute;Z) | set boolean attribute
+../3-Phrases/vuze:boolean hasAttribute(QTorrentAttribute;) | has attribute
+../3-Phrases/vuze:void setAttribute(QTorrentAttribute;QString;) | set attribute
+../3-Phrases/vuze:String getAttribute(QTorrentAttribute;) | get attribute
+../3-Phrases/vuze:TorrentAttribute getAttribute(QString;) | get attribute
+../3-Phrases/vuze:TorrentAttribute getPluginAttribute(QString;) | get plugin attribute
+../3-Phrases/vuze:TorrentAttribute getAttribute() | get attribute
+../3-Phrases/vuze:SimpleXMLParserDocumentAttribute getAttribute(QString;) | get attribute
+../3-Phrases/vuze:String getAttribute(QTorrentAttribute;) | get attribute
+../3-Phrases/vuze:String[] getListAttribute(QTorrentAttribute;) | get list attribute
+../3-Phrases/vuze:void setListAttribute(QTorrentAttribute;[QString;) | set list attribute
+../3-Phrases/vuze:void setMapAttribute(QTorrentAttribute;QMap;) | set map attribute
+../3-Phrases/vuze:Map getMapAttribute(QTorrentAttribute;) | get map attribute
+../3-Phrases/vuze:void setAttribute(QTorrentAttribute;QString;) | set attribute
+../3-Phrases/vuze:boolean hasAttribute(QTorrentAttribute;) | has attribute
+../3-Phrases/vuze:boolean getBooleanAttribute(QTorrentAttribute;) | get boolean attribute
+../3-Phrases/vuze:void setBooleanAttribute(QTorrentAttribute;Z) | set boolean attribute
+../3-Phrases/vuze:int getIntAttribute(QTorrentAttribute;) | get int attribute
+../3-Phrases/vuze:void setIntAttribute(QTorrentAttribute;I) | set int attribute
+../3-Phrases/vuze:long getLongAttribute(QTorrentAttribute;) | get long attribute
+../3-Phrases/vuze:void setLongAttribute(QTorrentAttribute;J) | set long attribute
+../3-Phrases/vuze:String convertAttribute(QTorrentAttribute;) | convert attribute
+../3-Phrases/vuze:TorrentAttribute convertAttribute(QString;) | convert attribute
+../3-Phrases/vuze:void setAttribute(QTorrentAttribute;QString;) | set attribute
+../3-Phrases/vuze:String getAttribute(QTorrentAttribute;) | get attribute
+../3-Phrases/vuze:void setAttribute(QTorrentAttribute;QString;) | set attribute
+../3-Phrases/vuze:String getAttribute(QTorrentAttribute;) | get attribute
+../3-Phrases/vuze:TorrentAttribute getAttribute() | get attribute
+../3-Phrases/vuze:TorrentAttribute getAttribute() | get attribute
+../3-Phrases/vuze:TorrentAttribute getAttribute(QString;) | get attribute
+../3-Phrases/vuze:TorrentAttribute getPluginAttribute(QString;) | get plugin attribute
+../3-Phrases/vuze:SimpleXMLParserDocumentAttribute getAttribute(QString;) | get attribute
+../3-Phrases/vuze:SimpleXMLParserDocumentAttribute getAttribute(QString;) | get attribute
+../3-Phrases/vuze:String getAttribute(QTorrentAttribute;) | get attribute
+../3-Phrases/vuze:void setAttribute(QTorrentAttribute;QString;) | set attribute
+../3-Phrases/vuze:String[] getListAttribute(QTorrentAttribute;) | get list attribute
+../3-Phrases/vuze:void setMapAttribute(QTorrentAttribute;QMap;) | set map attribute
+../3-Phrases/vuze:Map getMapAttribute(QTorrentAttribute;) | get map attribute
+../3-Phrases/vuze:boolean getBooleanAttribute(QTorrentAttribute;) | get boolean attribute
+../3-Phrases/vuze:int getIntAttribute(QTorrentAttribute;) | get int attribute
+../3-Phrases/vuze:long getLongAttribute(QTorrentAttribute;) | get long attribute
+../3-Phrases/vuze:boolean hasAttribute(QTorrentAttribute;) | has attribute
+../3-Phrases/vuze:void setBooleanAttribute(QTorrentAttribute;Z) | set boolean attribute
+../3-Phrases/vuze:void setIntAttribute(QTorrentAttribute;I) | set int attribute
+../3-Phrases/vuze:void setListAttribute(QTorrentAttribute;[QString;) | set list attribute
+../3-Phrases/vuze:void setLongAttribute(QTorrentAttribute;J) | set long attribute
+../3-Phrases/vuze:TorrentAttribute getAttribute(QString;) | get attribute
+../3-Phrases/vuze:TorrentAttribute getPluginAttribute(QString;) | get plugin attribute
+../3-Phrases/weka:boolean[] canHandleClassAsNthAttribute(ZZZZZZII) | can handle class as nth attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:boolean[] canHandleClassAsNthAttribute(ZZZZZZII) | can handle class as nth attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute([I[I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute([I[I) | evaluate attribute
+../3-Phrases/weka:List<QSubset;> RankEachAttribute() | rank each attribute
+../3-Phrases/weka:boolean[] canHandleClassAsNthAttribute(ZZZZZZII) | can handle class as nth attribute
+../3-Phrases/weka:boolean foundUsefulAttribute() | found useful attribute
+../3-Phrases/weka:boolean[] canHandleClassAsNthAttribute(ZZZZZZII) | can handle class as nth attribute
+../3-Phrases/weka:CONS KStarNominalAttribute(QInstance;QInstance;IQInstances;[[IQKStarCache;) | k star nominal attribute
+../3-Phrases/weka:CONS KStarNumericAttribute(QInstance;QInstance;IQInstances;[[IQKStarCache;) | k star numeric attribute
+../3-Phrases/weka:void handleEnumeratedAttribute(QInstances;) | handle enumerated attribute
+../3-Phrases/weka:void handleNumericAttribute(QInstances;) | handle numeric attribute
+../3-Phrases/weka:void handleEnumeratedAttribute(QInstances;) | handle enumerated attribute
+../3-Phrases/weka:void handleNumericAttribute(QInstances;) | handle numeric attribute
+../3-Phrases/weka:void handleEnumeratedAttribute(QInstances;) | handle enumerated attribute
+../3-Phrases/weka:void handleNumericAttribute(QInstances;) | handle numeric attribute
+../3-Phrases/weka:int[] sortByAttribute(QInstances;I) | sort by attribute
+../3-Phrases/weka:Attribute classAttribute() | class attribute
+../3-Phrases/weka:Attribute classAttribute() | class attribute
+../3-Phrases/weka:void undoRandomizeAttribute() | undo randomize attribute
+../3-Phrases/weka:void randomizeAttribute(IQRandom;I) | randomize attribute
+../3-Phrases/weka:void renameAttribute(IQString;) | rename attribute
+../3-Phrases/weka:void renameAttribute(QAttribute;QString;) | rename attribute
+../3-Phrases/weka:Attribute generateAttribute(II) | generate attribute
+../3-Phrases/weka:boolean isAttribute() | is attribute
+../3-Phrases/weka:FastVector parseAttribute(QFastVector;) | parse attribute
+../3-Phrases/weka:Attribute determineClassAttribute() | determine class attribute
+../3-Phrases/weka:int[] zzUnpackAttribute() | zz unpack attribute
+../3-Phrases/weka:int zzUnpackAttribute(QString;I[I) | zz unpack attribute
+../3-Phrases/weka:int[] zzUnpackAttribute() | zz unpack attribute
+../3-Phrases/weka:int zzUnpackAttribute(QString;I[I) | zz unpack attribute
+../3-Phrases/weka:Attribute getFieldAsAttribute() | get field as attribute
+../3-Phrases/weka:Attribute getFieldAsAttribute() | get field as attribute
+../3-Phrases/weka:Attribute getFieldAsAttribute() | get field as attribute
+../3-Phrases/weka:Attribute getFieldAsAttribute() | get field as attribute
+../3-Phrases/weka:Attribute getFieldAsAttribute() | get field as attribute
+../3-Phrases/weka:void addAttribute(QElement;QAttribute;) | add attribute
+../3-Phrases/weka:Attribute createAttribute(QElement;) | create attribute
+../3-Phrases/weka:boolean[] canHandleClassAsNthAttribute(QAttrTypes;IIII) | can handle class as nth attribute
+../3-Phrases/weka:void setDetectionPerAttribute(Z) | set detection per attribute
+../3-Phrases/weka:boolean getDetectionPerAttribute() | get detection per attribute
+../3-Phrases/weka:int[] zzUnpackAttribute() | zz unpack attribute
+../3-Phrases/weka:int zzUnpackAttribute(QString;I[I) | zz unpack attribute
+../3-Phrases/weka:void setAttribute(I) | set attribute
+../3-Phrases/weka:void setAttribute(I) | set attribute
+../3-Phrases/weka:void renameAttribute() | rename attribute
+../3-Phrases/weka:void deleteAttribute(Z) | delete attribute
+../3-Phrases/weka:void deleteAttribute() | delete attribute
+../3-Phrases/weka:void renameAttribute() | rename attribute
+../3-Phrases/weka:void setXAttribute(I) | set x attribute
+../3-Phrases/weka:void setYAttribute(I) | set y attribute
+../3-Phrases/weka:void setXAttribute(I) | set x attribute
+../3-Phrases/weka:void setYAttribute(I) | set y attribute
+../3-Phrases/weka:void configureForClassAttribute() | configure for class attribute
+../3-Phrases/weka:void addInstanceNumberAttribute() | add instance number attribute
+../3-Phrases/weka:void newColorAttribute(IQInstances;) | new color attribute
+../3-Phrases/weka:boolean[] canHandleClassAsNthAttribute(ZZZZZZII) | can handle class as nth attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute([I[I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute([I[I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:boolean[] canHandleClassAsNthAttribute(ZZZZZZII) | can handle class as nth attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:List<QSubset;> RankEachAttribute() | rank each attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:double evaluateAttribute(I) | evaluate attribute
+../3-Phrases/weka:boolean[] canHandleClassAsNthAttribute(ZZZZZZII) | can handle class as nth attribute
+../3-Phrases/weka:boolean isAttribute() | is attribute
+../3-Phrases/weka:Attribute classAttribute() | class attribute
+../3-Phrases/weka:void undoRandomizeAttribute() | undo randomize attribute
+../3-Phrases/weka:void randomizeAttribute(IQRandom;I) | randomize attribute
+../3-Phrases/weka:void renameAttribute(IQString;) | rename attribute
+../3-Phrases/weka:void renameAttribute(QAttribute;QString;) | rename attribute
+../3-Phrases/weka:Attribute generateAttribute(II) | generate attribute
+../3-Phrases/weka:Attribute classAttribute() | class attribute
+../3-Phrases/weka:boolean[] canHandleClassAsNthAttribute(QAttrTypes;IIII) | can handle class as nth attribute
+../3-Phrases/weka:void setAttribute(I) | set attribute
+../3-Phrases/weka:void setAttribute(I) | set attribute

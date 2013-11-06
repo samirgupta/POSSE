@@ -1,0 +1,207 @@
+../3-Phrases/3PS:boolean isOptionExist(CliOption option) | is option exist
+../3-Phrases/Base_Verb:String getNonOptionArgsUsage() | get non option args usage
+../3-Phrases/Base_Verb:static String createOptionList(Collection allValues, Set selectedValues, ToStringPairTransformer objectToStringPairTransformer) | string create option list
+../3-Phrases/Base_Verb:Vector listOptionAll() | list option all
+../3-Phrases/Base_Verb:JOptionPane getOptionPane() | get option pane
+../3-Phrases/Base_Verb:void writeOptionFile(String filename) | write option file
+../3-Phrases/drjava2:CONS StringOptionTest(QString;) | string option test
+../3-Phrases/drjava2:CONS NonNegativeIntegerOptionTest(QString;) | non negative integer option test
+../3-Phrases/drjava2:CONS IntegerOptionTest(QString;) | integer option test
+../3-Phrases/drjava2:CONS ColorOptionTest(QString;) | color option test
+../3-Phrases/drjava2:CONS BooleanOptionTest(QString;) | boolean option test
+../3-Phrases/drjava2:CONS ForcedChoiceOptionTest(QString;) | forced choice option test
+../3-Phrases/drjava2:CONS KeyStrokeOptionTest(QString;) | key stroke option test
+../3-Phrases/drjava2:CONS LongOptionTest(QString;) | long option test
+../3-Phrases/drjava2:void addOptionListener(QOption<QT;>;QOptionListener<QT;>;) | add option listener
+../3-Phrases/drjava2:void removeOptionListener(QOption<QT;>;QOptionListener<QT;>;) | remove option listener
+../3-Phrases/drjava2:OptionMap getOptionMap() | get option map
+../3-Phrases/drjava2:void _registerOptionListeners() | register option listeners
+../3-Phrases/drjava2:void attachOptionListeners(QAbstractDJDocument;) | attach option listeners
+../3-Phrases/drjava2:OptionListener<QInteger;> getHistoryOptionListener() | get history option listener
+../3-Phrases/drjava2:void testOptionListenerToString() | test option listener to string
+../3-Phrases/drjava2:OptionListener<QInteger;> getHistoryOptionListener() | get history option listener
+../3-Phrases/drjava2:void FindResultsColorOptionListener(I) | find results color option listener
+../3-Phrases/drjava2:void KeyStrokeOptionListener(QJMenuItem;QAction;QKeyStroke;) | key stroke option listener
+../3-Phrases/drjava2:void KeyStrokeOptionListener(QAction;QKeyStroke;) | key stroke option listener
+../3-Phrases/drjava2:void FindResultsColorOptionListener(I) | find results color option listener
+../3-Phrases/drjava2:CONS FontOptionComponent(QFontOption;QString;QSwingFrame;) | font option component
+../3-Phrases/drjava2:CONS FontOptionComponent(QFontOption;QString;QSwingFrame;QString;) | font option component
+../3-Phrases/drjava2:CONS VectorFileOptionComponent(QVectorOption<QFile;>;QString;QSwingFrame;) | vector file option component
+../3-Phrases/drjava2:CONS VectorFileOptionComponent(QVectorOption<QFile;>;QString;QSwingFrame;QString;) | vector file option component
+../3-Phrases/drjava2:CONS VectorFileOptionComponent(QVectorOption<QFile;>;QString;QSwingFrame;Z) | vector file option component
+../3-Phrases/drjava2:CONS VectorFileOptionComponent(QVectorOption<QFile;>;QString;QSwingFrame;QString;Z) | vector file option component
+../3-Phrases/drjava2:CONS VectorOptionComponent(QVectorOption<QT;>;QString;QSwingFrame;) | vector option component
+../3-Phrases/drjava2:CONS VectorOptionComponent(QVectorOption<QT;>;QString;QSwingFrame;QString;) | vector option component
+../3-Phrases/drjava2:CONS BooleanOptionComponentTest(QString;) | boolean option component test
+../3-Phrases/drjava2:CONS ToolbarOptionComponent(QString;QSwingFrame;) | toolbar option component
+../3-Phrases/drjava2:CONS ToolbarOptionComponent(QString;QSwingFrame;QString;) | toolbar option component
+../3-Phrases/drjava2:CONS DirectoryOptionComponent(QFileOption;QString;QSwingFrame;QDirectoryChooser;) | directory option component
+../3-Phrases/drjava2:CONS DirectoryOptionComponent(QFileOption;QString;QSwingFrame;QString;QDirectoryChooser;) | directory option component
+../3-Phrases/drjava2:CONS FileOptionComponentTest(QString;) | file option component test
+../3-Phrases/drjava2:CONS StringOptionComponent(QStringOption;QString;QSwingFrame;) | string option component
+../3-Phrases/drjava2:CONS StringOptionComponent(QStringOption;QString;QSwingFrame;QString;) | string option component
+../3-Phrases/drjava2:void addOptionComponent(QConfigPanel;QOptionComponent<QX;>;) | add option component
+../3-Phrases/drjava2:CONS ColorOptionComponent(QColorOption;QString;QSwingFrame;) | color option component
+../3-Phrases/drjava2:CONS ColorOptionComponent(QColorOption;QString;QSwingFrame;Z) | color option component
+../3-Phrases/drjava2:CONS ColorOptionComponent(QColorOption;QString;QSwingFrame;ZZ) | color option component
+../3-Phrases/drjava2:CONS ColorOptionComponent(QColorOption;QString;QSwingFrame;QString;) | color option component
+../3-Phrases/drjava2:CONS ColorOptionComponent(QColorOption;QString;QSwingFrame;QString;Z) | color option component
+../3-Phrases/drjava2:CONS ColorOptionComponent(QColorOption;QString;QSwingFrame;QString;ZZ) | color option component
+../3-Phrases/drjava2:CONS IntegerOptionComponent(QIntegerOption;QString;QSwingFrame;) | integer option component
+../3-Phrases/drjava2:CONS IntegerOptionComponent(QIntegerOption;QString;QSwingFrame;QString;) | integer option component
+../3-Phrases/drjava2:CONS KeyStrokeOptionComponent(QKeyStrokeOption;QString;QSwingFrame;) | key stroke option component
+../3-Phrases/drjava2:CONS KeyStrokeOptionComponent(QKeyStrokeOption;QString;QSwingFrame;QString;) | key stroke option component
+../3-Phrases/drjava2:CONS ColorOptionComponentTest(QString;) | color option component test
+../3-Phrases/drjava2:CONS ForcedChoiceOptionComponent(QForcedChoiceOption;QString;QSwingFrame;) | forced choice option component
+../3-Phrases/drjava2:CONS ForcedChoiceOptionComponent(QForcedChoiceOption;QString;QSwingFrame;QString;) | forced choice option component
+../3-Phrases/drjava2:CONS VectorClassnameOptionComponent(QVectorOption<QString;>;QString;QSwingFrame;) | vector classname option component
+../3-Phrases/drjava2:CONS VectorClassnameOptionComponent(QVectorOption<QString;>;QString;QSwingFrame;QString;) | vector classname option component
+../3-Phrases/drjava2:CONS VectorStringOptionComponent(QVectorOption<QString;>;QString;QSwingFrame;) | vector string option component
+../3-Phrases/drjava2:CONS VectorStringOptionComponent(QVectorOption<QString;>;QString;QSwingFrame;QString;) | vector string option component
+../3-Phrases/drjava2:CONS VectorStringOptionComponent(QVectorOption<QString;>;QString;QSwingFrame;Z) | vector string option component
+../3-Phrases/drjava2:CONS VectorStringOptionComponent(QVectorOption<QString;>;QString;QSwingFrame;QString;Z) | vector string option component
+../3-Phrases/drjava2:CONS FileOptionComponent(QFileOption;QString;QSwingFrame;QJFileChooser;) | file option component
+../3-Phrases/drjava2:CONS FileOptionComponent(QFileOption;QString;QSwingFrame;QString;QJFileChooser;) | file option component
+../3-Phrases/drjava2:CONS BooleanOptionComponent(QBooleanOption;QString;QSwingFrame;Z) | boolean option component
+../3-Phrases/drjava2:CONS BooleanOptionComponent(QBooleanOption;QString;QSwingFrame;QString;Z) | boolean option component
+../3-Phrases/drjava2:CONS BooleanOptionComponent(QBooleanOption;QString;QSwingFrame;) | boolean option component
+../3-Phrases/drjava2:CONS BooleanOptionComponent(QBooleanOption;QString;QSwingFrame;QString;) | boolean option component
+../3-Phrases/freecol2:CONS PercentageOptionUI(QPercentageOption;Z) | percentage option ui
+../3-Phrases/freecol2:CONS LanguageOptionUI(QLanguageOption;Z) | language option ui
+../3-Phrases/freecol2:CONS FileOptionUI(QFileOption;Z) | file option ui
+../3-Phrases/freecol2:CONS RangeOptionUI(QRangeOption;Z) | range option ui
+../3-Phrases/freecol2:CONS SelectOptionUI(QSelectOption;Z) | select option ui
+../3-Phrases/freecol2:CONS BooleanOptionUI(QBooleanOption;Z) | boolean option ui
+../3-Phrases/freecol2:JComponent getOptionUI(QString;) | get option ui
+../3-Phrases/freecol2:CONS IntegerOptionUI(QIntegerOption;Z) | integer option ui
+../3-Phrases/freecol2:CONS AudioMixerOptionUI(QAudioMixerOption;Z) | audio mixer option ui
+../3-Phrases/freecol2:OptionGroup getOptionGroup(QString;) | get option group
+../3-Phrases/freecol2:void addOptionGroup(QOptionGroup;) | add option group
+../3-Phrases/freemind:void addOptionSet(QAction;[QString;QJMenu;QString;) | add option set
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.OptionPanelWindowConfigurationStorage createOptionPanelWindowConfigurationStorage() | create option panel window configuration storage
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.OptionPanelWindowConfigurationStorageType createOptionPanelWindowConfigurationStorageType() | create option panel window configuration storage type
+../3-Phrases/freemind:boolean binOptionIsTrue(QString;) | bin option is true
+../3-Phrases/freemind:Properties getOptionProperties() | get option properties
+../3-Phrases/freemind:boolean binOptionIsTrue(QString;) | bin option is true
+../3-Phrases/gantt:void addOptionGroups([QGPOptionGroup;) | add option groups
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups() | get option groups
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups() | get option groups
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups() | get option groups
+../3-Phrases/gantt:GPOptionGroup[] getChartOptionGroups() | get chart option groups
+../3-Phrases/gantt:GPOptionGroup[] getChartOptionGroups() | get chart option groups
+../3-Phrases/gantt:CONS LabelPositionOptionImpl(QString;) | label position option impl
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups() | get option groups
+../3-Phrases/gantt:boolean isProjectBoundariesOptionOn() | is project boundaries option on
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups() | get option groups
+../3-Phrases/gantt:GPOptionGroup[] getChartOptionGroups() | get chart option groups
+../3-Phrases/gantt:void addOptionChangeListener(QGPOptionChangeListener;) | add option change listener
+../3-Phrases/gantt:OptionEventDispatcher getOptionEventDispatcher() | get option event dispatcher
+../3-Phrases/gantt:CONS ChartOptionGroup(QString;[QGPOption;QChartModelImpl.OptionEventDispatcher;) | chart option group
+../3-Phrases/gantt:GPOptionGroup getOptionGroup() | get option group
+../3-Phrases/gantt:GPOptionGroup[] getNetworkOptionGroups() | get network option groups
+../3-Phrases/gantt:void StringOptionImpl(QString;QString;QString;) | string option impl
+../3-Phrases/gantt:GPOptionGroup getOptionGroup() | get option group
+../3-Phrases/gantt:GPOptionGroup[] getNetworkOptionGroups() | get network option groups
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups(QIGanttProject;QUIFacade;) | get option groups
+../3-Phrases/gantt:String getOptionGroupLabel(QGPOptionGroup;) | get option group label
+../3-Phrases/gantt:String getOptionLabel(QGPOption;) | get option label
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups() | get option groups
+../3-Phrases/gantt:GPOptionGroup getOptionGroup() | get option group
+../3-Phrases/gantt:GPOptionGroup getOptionGroup() | get option group
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups() | get option groups
+../3-Phrases/gantt:String getOptionLabel(QGPOption;) | get option label
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups(QIGanttProject;QUIFacade;) | get option groups
+../3-Phrases/gantt:CONS EnumerationOptionComboBoxModel(QEnumerationOption;) | enumeration option combo box model
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups(QIGanttProject;QUIFacade;) | get option groups
+../3-Phrases/gantt:CONS BooleanOptionAction(QBooleanOption;) | boolean option action
+../3-Phrases/gantt:void setOptionKeyPrefix(QString;) | set option key prefix
+../3-Phrases/gantt:Component createStandaloneOptionPanel(QGPOption;) | create standalone option panel
+../3-Phrases/gantt:Component createOptionLabel(QGPOption;) | create option label
+../3-Phrases/gantt:Component createOptionComponent(QGPOption;) | create option component
+../3-Phrases/gantt:String getOptionGroupLabel(QGPOptionGroup;) | get option group label
+../3-Phrases/gantt:String getOptionLabel(QGPOption;) | get option label
+../3-Phrases/gantt:CONS GeneralOptionPanel(QString;QString;) | general option panel
+../3-Phrases/gantt:CONS GeneralOptionPanel(QString;QString;QFrame;) | general option panel
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups(QIGanttProject;QUIFacade;) | get option groups
+../3-Phrases/gantt:CONS GPOptionGroup(QString;[QGPOption;) | gp option group
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups() | get option groups
+../3-Phrases/iReport:boolean isShowOptionDialogSynchronize(QString;QString;) | is show option dialog synchronize
+../3-Phrases/iReport:CONS I18nOptionPane() | i 18 n option pane
+../3-Phrases/iReport:int showInternalOptionDialog(QComponent;QString;QString;IIQIcon;[QString;QString;) | show internal option dialog
+../3-Phrases/iReport:int showOptionDialog(QComponent;QString;QString;IIQIcon;[QString;QString;) | show option dialog
+../3-Phrases/iReport:int showOptionDialog(QComponent;QString;QString;IIQIcon;[QString;QString;QString;) | show option dialog
+../3-Phrases/Jabref:Iterator<QOption;> getOptionIterator() | get option iterator
+../3-Phrases/Jabref:void addOptionListener(QOptionListener;) | add option listener
+../3-Phrases/Jabref:void removeOptionListener(QOptionListener;) | remove option listener
+../3-Phrases/Jabref:void setOptionCommand(QString;) | set option command
+../3-Phrases/Jabref:void addOptionListener(QOptionListener;) | add option listener
+../3-Phrases/Jabref:void removeOptionListener(QOptionListener;) | remove option listener
+../3-Phrases/Jabref:void setOptionCommand(QString;) | set option command
+../3-Phrases/Jabref:String getDefaultOptionFilename() | get default option filename
+../3-Phrases/Jabref:void setDefaultOptionFilename(QString;) | set default option filename
+../3-Phrases/Jabref:void writeOptionFile(QString;) | write option file
+../3-Phrases/Jabref:void loadOptionFile(QString;) | load option file
+../3-Phrases/Jabref:void setHelpOptionSpecificationSize(I) | set help option specification size
+../3-Phrases/Jabref:void setMenuOptionSpecificationSize(I) | set menu option specification size
+../3-Phrases/Jabref:void setFileCompleteOptionSize(I) | set file complete option size
+../3-Phrases/Jabref:String getHelpOptionSpecification() | get help option specification
+../3-Phrases/Jabref:String getOptionFileLine() | get option file line
+../3-Phrases/Jabref:int getHelpOptionSpecificationSize() | get help option specification size
+../3-Phrases/Jabref:int getMenuOptionSpecificationSize() | get menu option specification size
+../3-Phrases/Jabref:int getFileCompleteOptionSize() | get file complete option size
+../3-Phrases/Jabref:void JOptionChoice(QString;I) | j option choice
+../3-Phrases/Jabref:String getBracketedOptionField(I) | get bracketed option field
+../3-Phrases/jajuk:JOptionPane getNarrowOptionPane(I) | get narrow option pane
+../3-Phrases/jajuk:void NarrowOptionPane(I) | narrow option pane
+../3-Phrases/jajuk:JOptionPane getOptionPane() | get option pane
+../3-Phrases/JHotDraw-7.0.8:void fireOptionSelected(QJOptionPane;) | fire option selected
+../3-Phrases/JHotDraw-7.0.8:void fireOptionSelected(QJOptionPane;IQObject;QObject;) | fire option selected
+../3-Phrases/JHotDraw-7.0.8:void fireOptionSelected(QJFileChooser;I) | fire option selected
+../3-Phrases/JHotDraw-7.0.8:void showOptionSheet(QComponent;QObject;IIQIcon;[QObject;QObject;QSheetListener;) | show option sheet
+../3-Phrases/JHotDraw-7.0.8:JOptionPane getOptionPane() | get option pane
+../3-Phrases/MegaMek-0.32.0:CONS DialogOptionComponent(QDialogOptionListener;QIOption;) | dialog option component
+../3-Phrases/MegaMek-0.32.0:CONS DialogOptionComponent(QDialogOptionListener;QIOption;Z) | dialog option component
+../3-Phrases/MegaMek-0.32.0:CONS DialogOptionComponent(QDialogOptionListener;QIOption;) | dialog option component
+../3-Phrases/MegaMek-0.32.0:CONS DialogOptionComponent(QDialogOptionListener;QIOption;Z) | dialog option component
+../3-Phrases/MegaMek-0.32.0:IOptionInfo getOptionInfo(QString;) | get option info
+../3-Phrases/MegaMek-0.32.0:Enumeration getOptionNames() | get option names
+../3-Phrases/MegaMek-0.32.0:void addOptionName(QString;) | add option name
+../3-Phrases/MegaMek-0.32.0:IOptionInfo getOptionInfo(QString;) | get option info
+../3-Phrases/MegaMek-0.32.0:Enumeration getOptionNames() | get option names
+../3-Phrases/MegaMek-0.32.0:IOption parseOptionNode(QParsedXML;) | parse option node
+../3-Phrases/MegaMek-0.32.0:IOptionInfo getOptionInfo(QString;) | get option info
+../3-Phrases/MegaMek-0.32.0:Enumeration getOptionNames() | get option names
+../3-Phrases/MegaMek-0.32.0:IOptionInfo getOptionInfo(QString;) | get option info
+../3-Phrases/MegaMek-0.32.0:void addOptionInfo(QOptionGroup;QString;) | add option info
+../3-Phrases/MegaMek-0.32.0:void setOptionInfo(QString;QOptionInfo;) | set option info
+../3-Phrases/MegaMek-0.32.0:String getOptionDisplayableName(QString;) | get option displayable name
+../3-Phrases/MegaMek-0.32.0:String getOptionDescription(QString;) | get option description
+../3-Phrases/SweetHome3D:void createOptionButtons(QUserPreferences;QWizardController;) | create option buttons
+../3-Phrases/SweetHome3D:void updateNextFinishOptionButton(QWizardController;) | update next finish option button
+../3-Phrases/weka:String makeOptionString(QAssociator;) | make option string
+../3-Phrases/weka:String makeOptionString(QASEvaluation;QASSearch;) | make option string
+../3-Phrases/weka:String makeOptionString(QClassifier;Z) | make option string
+../3-Phrases/weka:String makeOptionString(QKernel;) | make option string
+../3-Phrases/weka:String numAttemptsOfGeneOptionTipText() | num attempts of gene option tip text
+../3-Phrases/weka:String numFoldersMIOptionTipText() | num folders mi option tip text
+../3-Phrases/weka:String makeOptionString(QClusterer;Z) | make option string
+../3-Phrases/weka:int getOptionPos(C[QString;) | get option pos
+../3-Phrases/weka:int getOptionPos(QString;[QString;) | get option pos
+../3-Phrases/weka:void setOptionHandler(QOptionHandler;) | set option handler
+../3-Phrases/weka:OptionHandler getOptionHandler() | get option handler
+../3-Phrases/weka:String toOptionList([QTag;) | to option list
+../3-Phrases/weka:String toOptionSynopsis([QTag;) | to option synopsis
+../3-Phrases/weka:String makeOptionStr(QAbstractFileLoader;) | make option str
+../3-Phrases/weka:String makeOptionStr(QAbstractFileSaver;) | make option str
+../3-Phrases/weka:String makeOptionString(QDataGenerator;) | make option string
+../3-Phrases/weka:String makeOptionString(QAssociator;) | make option string
+../3-Phrases/weka:String makeOptionString(QASEvaluation;QASSearch;) | make option string
+../3-Phrases/weka:String makeOptionString(QClassifier;Z) | make option string
+../3-Phrases/weka:String makeOptionString(QClusterer;Z) | make option string
+../3-Phrases/weka:String toOptionList([QTag;) | to option list
+../3-Phrases/weka:String toOptionSynopsis([QTag;) | to option synopsis
+../3-Phrases/weka:void setOptionHandler(QOptionHandler;) | set option handler
+../3-Phrases/weka:OptionHandler getOptionHandler() | get option handler
+../3-Phrases/weka:int getOptionPos(C[QString;) | get option pos
+../3-Phrases/weka:int getOptionPos(QString;[QString;) | get option pos
+../3-Phrases/weka:String makeOptionString(QDataGenerator;) | make option string

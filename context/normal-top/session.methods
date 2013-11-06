@@ -1,0 +1,138 @@
+AmplifierServletSession getSession() | get session
+boolean isConnectedToSession() | is connected to session
+boolean isRequestedSessionIdValid() | is requested session id valid
+boolean isSameSession(QUploadSession;) | is same session
+boolean isSessionOnly() | is session only
+boolean isTransactionSessionOpen(QUnit;QSettlement;) | is transaction session open
+boolean isWrittenToThisSession() | is written to this session
+boolean processRequest(Client session, ESServletRequest req, DynHtml page, Object info) | process request
+boolean setCurrentSession(QSessionImplementor;) | set current session
+boolean unsetSession(QSessionImplementor;) | unset session
+byte[] getSessionKey() | get session key
+byte[] getUserSessionKey([B) | get user session key
+char[] getSessionPassword(QString;) | get session password
+CurrentSessionContext buildCurrentSessionContext() | build current session context
+Element closeTransactionSession(QConnection;QElement;) | close transaction session
+Element getTransactionSession(QConnection;QElement;) | get transaction session
+EventSource getSession() | get session
+GraphController getGraphControllers(ISession session) | get graph controllers
+HashWrapper getReconnectSessionID() | get reconnect session id
+HashWrapper getRemoteSessionID() | get remote session id
+IABTValue setMakeUniqueInObjectSet(IABTUserSession session, IABTObject object, IABTAttribute property, IABTValue myValue, IABTValue newValue, String parentName, String arrayName) | set make unique in object set
+IKeyRecoverySessionLocal getKeyRecoverySession() | get key recovery session
+int getSessionCount() | get session count
+int getSessionHits() | get session hits
+int getSessionID() | get session id
+int getSessionNumber() | get session number
+int getSessionType() | get session type
+JabberSession getSession() | get session
+java.util.Map<QString;QBoolean;> getTransactionSession(QUnit;QSettlement;) | get transaction session
+java.util.Map<QString;QObject;> getTransactionSession(QUnit;QSettlement;) | get transaction session
+JGCSDataSession getDataSession() | get data session
+LinkedList pickBestDownloadSessions(I) | pick best download sessions
+long getSessionCloseCount() | get session close count
+long getSessionOpenCount() | get session open count
+long getSessionUpTime() | get session up time
+long getSessionUptimeSeconds() | get session uptime seconds
+Map sessionMap() | session map
+Map sessionMap(Z) | session map
+Object loadFromSessionCache(QLoadEvent;QEntityKey;QLoadEventListener.LoadType;) | load from session cache
+org.hibernate.classic.Session currentSession() | current session
+org.hibernate.classic.Session getCurrentSession() | get current session
+org.hibernate.classic.Session openSession() | open session
+org.hibernate.classic.Session openSession(QConnection;) | open session
+org.hibernate.classic.Session openSession(QConnection;QInterceptor;) | open session
+org.hibernate.classic.Session openSession(QConnection;ZZQConnectionReleaseMode;) | open session
+org.hibernate.classic.Session openSession(QInterceptor;) | open session
+org.hibernate.classic.Session openTemporarySession() | open temporary session
+QueueSession getQueueSession() | get queue session
+Result newSessionAttributesResult() | new session attributes result
+Result resetSession() | reset session
+SaveSession getSaveSession(QString;QFile;) | get save session
+Session buildOrObtainSession() | build or obtain session
+Session currentSession() | current session
+Session existingSession(QSessionFactory;) | existing session
+SessionFactory buildSessionFactory() | build session factory
+SessionFactory getSessionFactory() | get session factory
+SessionFactoryHelper getSessionFactoryHelper() | get session factory helper
+SessionFactoryImplementor getSessionFactory() | get session factory
+SessionFactoryObserver getSessionFactoryObserver() | get session factory observer
+Session[] getAllSessions() | get all sessions
+Session getSession() | get session
+Session getSession(I) | get session
+Session getSession(II) | get session
+Session getSession(QEntityMode;) | get session
+Session getSysSession() | get sys session
+Session getSysSession(QString;QUser;) | get sys session
+Session getSysSession(QString;Z) | get sys session
+Session[] getVisibleSessions(QSession;) | get visible sessions
+SessionGUI getSessionAt(int index) | get session at
+SessionImplementor getSession() | get session
+SessionImpl openSession(QConnection;ZJQInterceptor;) | open session
+Session[] listVisibleSessions(QSession;) | list visible sessions
+SessionManager getSessionManager() | get session manager
+Session newSession(IQString;QString;) | new session
+Session newSession(QDatabase;QUser;ZZ) | new session
+Session newSession(QString;QString;QString;QString;QHsqlProperties;) | new session
+SmbSession getSmbSession() | get smb session
+SmbSession getSmbSession(QNtlmPasswordAuthentication;) | get smb session
+SSLSession getSession(byte sessionId) | get session
+StatelessSession openStatelessSession() | open stateless session
+StatelessSession openStatelessSession(QConnection;) | open stateless session
+String extractSession(String pathInfo) | extract session
+String getSession() | get session
+String getSessionFactoryName() | get session factory name
+String getSessionTime() | get session time
+Table SYSTEM_SESSIONINFO() | system session info
+Table SYSTEM_SESSIONS() | system sessions
+UploadSession getNextBestSession(QLinkedList;) | get next best session
+UploadSession getSession() | get session
+UploadSession pickNextOptimisticSession() | pick next optimistic session
+UploadSession pickOptSession() | pick opt session
+void addSessionId(QSession;) | add session id
+void checkOtherSession() | check other session
+void cleanupAnyOrphanedSession(QSessionFactory;) | cleanup any orphaned session
+void closeAllSessions() | close all sessions
+void closeSession() | close session
+void closeTransactionSession(QUnit;QSettlement;) | close transaction session
+void delete(Serializable id, Object version, Object object, SessionImplementor session) | delete
+void dropTrigger(String name, Session session) | drop trigger
+void finalizeSaveSession(QSaveSession;) | finalize save session
+void generateSessionId() | generate session id
+void getUserSessionKey([B[BI) | get user session key
+void incSessionHits() | inc session hits
+void linkSession(II) | link session
+void LoadSessionAction() | load session action
+void openSession() | open session
+void parseSessionFactory(QElement;QString;) | parse session factory
+void populate(Statements statements, ResolverSession session) | populate
+void put(HttpSession session, Object value) | put
+void reload(DjSession session) | reload
+void removeSession(I) | remove session
+void removeSession(QSession;) | remove session
+void resetSession() | reset session
+void restoreSessionTotals(JJJJJJ) | restore session totals
+void SaveSessionAction() | save session action
+void saveSessionTotals() | save session totals
+void sessionPasswordCorrect() | session password correct
+void sessionPasswordIncorrect() | session password incorrect
+void Session(QNetworkConnection;[B) | session
+void sessionSetup(QServerMessageBlock;QServerMessageBlock;) | session setup
+void setChartDataAtSession(FacesContext facesContext) | set chart data at session
+void setSessionContext(SessionContext context) | set session context
+void setSessionFactoryName(QString;) | set session factory name
+void setSessionFactoryObserver(QSessionFactoryObserver;) | set session factory observer
+void setSessionFactory(QSessionFactoryImplementor;) | set session factory
+void setSessionFactory(SessionFactory sessionFactory) | set session factory
+void setSession(GenieSession session) | set session
+void setSessionKey([B) | set session key
+void setSessionOnly(Z) | set session only
+void setSession(QSessionImplementor;) | set session
+void setSession(QString;) | set session
+void setSession(QUploadSession;) | set session
+void setSession(Session session) | set session
+void setWrittenToThisSession(Z) | set written to this session
+void shareSessionIsAlive(AnyLogicContext alc) | share session is alive
+void testSessionUserFunc() | test session user func
+void testStripSessionIdWithQueryString() | test strip session id with query string
+void update(HttpSession session) | update

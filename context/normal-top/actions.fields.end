@@ -1,0 +1,16 @@
+int ALL_ACTIONS | all actions
+java.util.Collection<javax.swing.Action> drawingActions | drawing actions
+java.util.Collection<javax.swing.Action> selectionActions | selection actions
+java.util.HashMap formatActions | format actions
+java.util.HashMap<java.lang.String,java.util.Vector<edu.rice.cs.drjava.model.debug.jpda.DocumentDebugAction<?>>> _pendingActions | pending actions
+java.util.LinkedList<javax.swing.Action> paletteActions | palette actions
+java.util.LinkedList<javax.swing.Action> toolBarActions | tool bar actions
+java.util.List<javax.swing.Action> pluginActions | plugin actions
+java.util.List myRolloverActions | my rollover actions
+java.util.List pending_actions | pending actions
+java.util.Vector hookActions | hook actions
+java.util.Vector iconActions | icon actions
+java.util.Vector pendingLayMinefieldActions | pending lay minefield actions
+javax.swing.AbstractAction[] myActions | my actions
+javax.swing.ButtonGroup bgActions | bg actions
+net.sourceforge.ganttproject.action.ResourceActionSet myResourceActions | my resource actions

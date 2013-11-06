@@ -1,0 +1,18 @@
+boolean closeFileWithoutPrompt(QOpenDefinitionsDocument;) | close file without prompt
+boolean hasPrompt() | has prompt
+boolean _isCursorAfterPrompt() | is cursor after prompt
+int _getPositionBeforePrompt() | get position before prompt
+JPanel buildFirewallPrompt() | build firewall prompt
+String getPrompt() | get prompt
+void assertPostPrompt() | assert post prompt
+void assertPrePrompt() | assert pre prompt
+void disablePrompt() | disable prompt
+void insertBeforeLastPrompt(QString;QString;) | insert before last prompt
+void insertPrompt() | insert prompt
+void moveToPrompt() | move to prompt
+void setHasPrompt(Z) | set has prompt
+void setPrompt(QString;) | set prompt
+void setupDisablePrompt(QUIInstance;) | setup disable prompt
+void testCannotEditBeforePrompt() | test cannot edit before prompt
+void testCaretMovementCyclesWhenAtPrompt() | test caret movement cycles when at prompt
+void testLeftBeforePromptMovesToPrompt() | test left before prompt moves to prompt

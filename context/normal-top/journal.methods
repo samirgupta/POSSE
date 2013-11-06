@@ -1,0 +1,10 @@
+ArrayList<QJournalEntry;> getJournals() | get journals
+JournalData getJournalData(SocieteLocal sl) | get journal data
+Map<QString;QString;> getJournals() | get journals
+void addJournalListToAutoCompleter() | add journal list to auto completer
+void initializeJournalNames() | initialize journal names
+void JournalEntry(QString;QString;) | journal entry
+void readJournalList(QFile;) | read journal list
+void readJournalList(QReader;) | read journal list
+void readJournalList(QString;) | read journal list
+void setJournals(QMap<QString;QString;>;) | set journals

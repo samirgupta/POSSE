@@ -1,0 +1,413 @@
+../3-Phrases/3PS:boolean supportsOrderByUnrelated() | supports order by unrelated
+../3-Phrases/Base_Verb:static List<PrimaryKey> findEnabledByLogin(String login) | list<primary key> find enabled by login
+../3-Phrases/Base_Verb:static List<PrimaryKey> findEnabledByMainCountry(String country) | list<primary key> find enabled by main country
+../3-Phrases/Base_Verb:static List<PrimaryKey> findEnabledByLastName(String name) | list<primary key> find enabled by last name
+../3-Phrases/Base_Verb:static List<PrimaryKey> findEnabledBySocialSecurityNumber(String ssn) | list<primary key> find enabled by social security number
+../3-Phrases/Base_Verb:static List<PrimaryKey> findEnabledByAddress2(String address) | list<primary key> find enabled by address 2
+../3-Phrases/Base_Verb:List<PrimaryKey> findEnabledPrimaryKeysByFirstName(String name) | find enabled primary keys by first name
+../3-Phrases/Base_Verb:List<StandardGlobalCatalogAccount> findEnabledByEmployeeID(String employeeID) | find enabled by employee id
+../3-Phrases/Base_Verb:List<StandardReadBean> findByEnabledFlag(String enabledFlag) | find by enabled flag
+../3-Phrases/Base_Verb:List<StandardReadBean> findByEnabledFlag(String enabledFlag) | find by enabled flag
+../3-Phrases/Base_Verb:List<PrimaryKey> findPrimaryKeysByEnabledFlag(String enabledFlag) | find primary keys by enabled flag
+../3-Phrases/Base_Verb:List findByCreateTimeAndPriority(Integer subj, long begin, long end, int priority, PageInfo pageInfo) | find by create time and priority
+../3-Phrases/Base_Verb:AllTypes findByPrimaryKey(String name) | find by primary key
+../3-Phrases/Base_Verb:static AgClassification retrieveByPK(ObjectKey pk) | ag classification retrieve by pk
+../3-Phrases/Base_Verb:void setCountryRelatedBySecCountryId(Country v) | set country related by sec country id
+../3-Phrases/Base_Verb:static String getByIDandType(int id, int type) | string get by id and type
+../3-Phrases/Base_Verb:X509Certificate findNotaryCertByIndex(String responderCN, int idx) | find notary cert by index
+../3-Phrases/Base_Verb:ObservationRemote get_observations_by_time(QualifiedPersonId who, String what, TimeSpan when, int max_sequence, ObservationRemoteIteratorHolder the_rest) | get observations by time
+../3-Phrases/Base_Verb:List findByCommentInfo(Object commentInfo) | find by comment info
+../3-Phrases/Base_Verb:PhoneNumber listPhoneNumbersByType(int TYPE) | list phone numbers by type
+../3-Phrases/Base_Verb:static CyrusUser findByPrimaryKey(long userId) | cyrus user find by primary key
+../3-Phrases/Base_Verb:Goal getGoalByContent(String goalDoc) | get goal by content
+../3-Phrases/Base_Verb:NodeList getElementsByTagNameNS(String namespaceURI, String localName) | get elements by tag name ns
+../3-Phrases/Base_Verb:List findByC_C_C_P(long companyId, long classNameId, long classPK, boolean primary, int begin, int end) | find by c c c p
+../3-Phrases/Base_Verb:void trackExperimentsByHash(DsIntern ds) | track experiments by hash
+../3-Phrases/Base_Verb:static Function retrieveByFunctionCode(String code) | function retrieve by function code
+../3-Phrases/Base_Verb:int deleteByWhere(String where) | delete by where
+../3-Phrases/Base_Verb:static void sortBy2DDistance(IAtom atoms, Point2d point) | void sort by 2 d distance
+../3-Phrases/Base_Verb:NT getDominatingNodeByCat(String cat) | get dominating node by cat
+../3-Phrases/Base_Verb:List<People> findByName(String name) | find by name
+../3-Phrases/Base_Verb:OperationDesc getOperationsByName(String methodName) | get operations by name
+../3-Phrases/Base_Verb:JournalTemplate findByG_S_PrevAndNext(long id, long groupId, String structureId, OrderByComparator obc) | find by g s prev and next
+../3-Phrases/Base_Verb:ListConfigurationVO getForUserByTypeAndName(Type type, String name, UserVO user) | get for user by type and name
+../3-Phrases/Base_Verb:Location searchByLocation(String location) | search by location
+../3-Phrases/Base_Verb:Set getLocksByUserId(long userId) | get locks by user id
+../3-Phrases/Base_Verb:String getCreatedByName() | get created by name
+../3-Phrases/Base_Verb:void getClassForByName(String className) | get class for by name
+../3-Phrases/Base_Verb:CtClass lookupClassByJvmName(String jvmName) | lookup class by jvm name
+../3-Phrases/Base_Verb:Collection getMaterialItemInfosBySupSetForPrepare(Integer p0_Integer) | get material item infos by sup set for prepare
+../3-Phrases/Base_Verb:MockOperation getMockOperationByName(String name) | get mock operation by name
+../3-Phrases/Base_Verb:String readStringByDelimiter(String delimiter, int maxLength) | read string by delimiter
+../3-Phrases/Base_Verb:static Object getObjectUsingfindByBoundCreatedDate(String className, Date createdDateFrom, Date createdDateTo) | object get object using find by bound created date
+../3-Phrases/Base_Verb:static OrgGroupRole findByRoleId_Last(long roleId, OrderByComparator obc) | org group role find by role id last
+../3-Phrases/Base_Verb:static PartyClassificationGroup findByPrimaryKeyGeneric(GenericDelegator delegator, String partyClassificationGroupId, boolean cache) | party classification group find by primary key generic
+../3-Phrases/Base_Verb:static ProcessExecutionTransition findByPrimaryKey(PrimaryKey processExecutionTransitionPk) | process execution transition find by primary key
+../3-Phrases/Base_Verb:static ProductFeatureCatGrpAppl findByPrimaryKey(GenericDelegator delegator, String productCategoryId, String productFeatureGroupId, Date fromDate) | product feature cat grp appl find by primary key
+../3-Phrases/Base_Verb:Collection getSampleInfoByIds(String ids) | get sample info by ids
+../3-Phrases/Base_Verb:OutputStream _OB_op_get_observations_by_time(InputStream in, ResponseHandler handler) | ob op get observations by time
+../3-Phrases/Base_Verb:ModelElement findByRef(String pRef) | find by ref
+../3-Phrases/Base_Verb:ReviewsComments selectByPk(int cid) | select by pk
+../3-Phrases/Base_Verb:static SCProductVersion fetchByPrimaryKey(long productVersionId) | sc product version fetch by primary key
+../3-Phrases/Base_Verb:static Seasonality findByPrimaryKey(GenericDelegator delegator, String idName, boolean cache) | seasonality find by primary key
+../3-Phrases/Base_Verb:List selectAllBySECID(int secid) | select all by sec id
+../3-Phrases/Base_Verb:static long __createSectionIterator__Ogre_ConfigFile_SettingsBySectionr(long c) | long   create section iterator  ogre config file settings by sectio nr
+../3-Phrases/Base_Verb:static List findByCategoryId(long categoryId) | list find by category id
+../3-Phrases/Base_Verb:void incrementByFitness() | increment by fitness
+../3-Phrases/Base_Verb:static int insertStatementsByTripleNoAuth_6(PreparedStatementCache sqlCache, long subj, long prop, String sessionPrefix) | int insert statements by triple no auth  6
+../3-Phrases/Base_Verb:Collection findBySoid(Long soid) | find by so id
+../3-Phrases/Base_Verb:void sortByColumn(int column, boolean ascending) | sort by column
+../3-Phrases/Base_Verb:void testFindByIdUsingDynamicSQL() | test find by id using dynamic sql
+../3-Phrases/Base_Verb:void testGetObjectByIdFromCache() | test get object by id from cache
+../3-Phrases/Base_Verb:static TimeSheet findByPrimaryKeyGeneric(GenericDelegator delegator, String idNumber, boolean cache) | time sheet find by primary key generic
+../3-Phrases/Base_Verb:UserProfile getUserProfileById(IPerson person, int profileId) | get user profile by id
+../3-Phrases/Base_Verb:int countByPortraitId(long portraitId) | count by portrait id
+../3-Phrases/Base_Verb:static User fetchByPrimaryKey(long userId) | user fetch by primary key
+../3-Phrases/Base_Verb:PCStateMan getStateManagerById(Object oid) | get state manager by id
+../3-Phrases/Base_Verb:static MemopsBaseClass getByKey(Project root, List fullKey) | memops base class get by key
+../3-Phrases/Base_Verb:static DisplacedBySDTValue parse(URL u) | displaced by sdtvalue parse
+../3-Phrases/Base_Verb:List getGroupsbyId(CaGroups caGroups) | get groups by id
+../3-Phrases/DrawSWF:void copyToRasterByBlocks(QWritableRaster;) | copy to raster by blocks
+../3-Phrases/drjava2:void testModifiedByOther() | test modified by other
+../3-Phrases/drjava2:void testModifiedByOtherFalse() | test modified by other false
+../3-Phrases/drjava2:int compareByPosition(QDJError;) | compare by position
+../3-Phrases/drjava2:CONS QuestionFollowedByStar(QIndentRule;QIndentRule;) | question followed by star
+../3-Phrases/freecol2:boolean definedOnlyByBuildingType(QString;) | defined only by building type
+../3-Phrases/freecol2:Region getRegionByName(QString;) | get region by name
+../3-Phrases/freecol2:Player getPlayerByName(QString;) | get player by name
+../3-Phrases/freecol2:boolean hasBeenAttackedByPrivateers() | has been attacked by private ers
+../3-Phrases/freecol2:void setAttackedByPrivateers() | set attacked by private ers
+../3-Phrases/freecol2:int getFoodConsumptionByType(QGoodsType;) | get food consumption by type
+../3-Phrases/freemind:Cursor getCursorByAction(I) | get cursor by action
+../3-Phrases/freemind:void setZoomByItem(QObject;) | set zoom by item
+../3-Phrases/freemind:boolean executableByExtension(QString;) | executable by extension
+../3-Phrases/freemind:List getSelectedsByDepth() | get selecteds by depth
+../3-Phrases/freemind:void sortNodesByDepth(QList;) | sort nodes by depth
+../3-Phrases/freemind:void setLinkByFileChooser() | set link by file chooser
+../3-Phrases/freemind:void setImageByFileChooser() | set image by file chooser
+../3-Phrases/freemind:String getLinkByFileChooser(QFileFilter;) | get link by file chooser
+../3-Phrases/freemind:void SetLinkByFileChooserAction() | set link by file chooser action
+../3-Phrases/freemind:void SetImageByFileChooserAction() | set image by file chooser action
+../3-Phrases/freemind:List getSelectedsByDepth() | get selecteds by depth
+../3-Phrases/freemind:void sortNodesByDepth(QList;) | sort nodes by depth
+../3-Phrases/freemind:CONS SetLinkByTextFieldAction(QModeController;) | set link by text field action
+../3-Phrases/freemind:ArrayList getSelectedsSortedByY() | get selecteds sorted by y
+../3-Phrases/freemind:ArrayList getSelectedNodesSortedByY() | get selected nodes sorted by y
+../3-Phrases/gantt:void initByDefault() | init by default
+../3-Phrases/gantt:GanttLookAndFeelInfo getInfoByClass(QString;) | get info by class
+../3-Phrases/gantt:GanttLookAndFeelInfo getInfoByName(QString;) | get info by name
+../3-Phrases/gantt:ProjectResource getById(I) | get by id
+../3-Phrases/gantt:ProjectResource getById(I) | get by id
+../3-Phrases/gantt:CustomColumn getCustomColumnByID(QString;) | get custom column by id
+../3-Phrases/gantt:void sortByStartDate(QList;) | sort by start date
+../3-Phrases/gantt:void sortTasksByStartDate(QList;) | sort tasks by start date
+../3-Phrases/gantt:void testRecalculateOnChangingDurationByMutator() | test recalculate on changing duration by mutator
+../3-Phrases/gantt:void testRecalculateOnChangingStartByFixingDurationMutator() | test recalculate on changing start by fixing duration mutator
+../3-Phrases/hibernate-3.3.1.GA:boolean isMinimalPutsEnabledByDefault() | is minimal puts enabled by default
+../3-Phrases/hibernate-3.3.1.GA:boolean isMinimalPutsEnabledByDefault() | is minimal puts enabled by default
+../3-Phrases/hibernate-3.3.1.GA:boolean isMinimalPutsEnabledByDefault() | is minimal puts enabled by default
+../3-Phrases/hibernate-3.3.1.GA:boolean isMinimalPutsEnabledByDefault() | is minimal puts enabled by default
+../3-Phrases/hibernate-3.3.1.GA:boolean isMinimalPutsEnabledByDefault() | is minimal puts enabled by default
+../3-Phrases/hibernate-3.3.1.GA:boolean isMinimalPutsEnabledByDefault() | is minimal puts enabled by default
+../3-Phrases/hibernate-3.3.1.GA:PersistentClass locatePersistentClassByEntityName(QString;) | locate persistent class by entity name
+../3-Phrases/hibernate-3.3.1.GA:Object readElementByIndex(QObject;) | read element by index
+../3-Phrases/hibernate-3.3.1.GA:Set getCollectionRolesByEntityParticipant(QString;) | get collection roles by entity participant
+../3-Phrases/hibernate-3.3.1.GA:Map getEntitiesByKey() | get entities by key
+../3-Phrases/hibernate-3.3.1.GA:Map getCollectionsByKey() | get collections by key
+../3-Phrases/hibernate-3.3.1.GA:Map getEntitiesByKey() | get entities by key
+../3-Phrases/hibernate-3.3.1.GA:Map getCollectionsByKey() | get collections by key
+../3-Phrases/hibernate-3.3.1.GA:boolean isDirtyCheckHandledByInterceptor() | is dirty check handled by interceptor
+../3-Phrases/hibernate-3.3.1.GA:void setDirtyCheckHandledByInterceptor(Z) | set dirty check handled by interceptor
+../3-Phrases/hibernate-3.3.1.GA:FromElement findJoinByPath(QString;) | find join by path
+../3-Phrases/hibernate-3.3.1.GA:FromElement findJoinByPathLocal(QString;) | find join by path local
+../3-Phrases/hibernate-3.3.1.GA:void addJoinByPathMap(QString;QFromElement;) | add join by path map
+../3-Phrases/hibernate-3.3.1.GA:FromClause locateChildFromClauseWithJoinByPath(QString;) | locate child from clause with join by path
+../3-Phrases/hibernate-3.3.1.GA:void addCollectionJoinFromElementByPath(QString;QFromElement;) | add collection join from element by path
+../3-Phrases/hibernate-3.3.1.GA:boolean isDereferencedBySuperclassOrSubclassProperty() | is dereferenced by superclass or subclass property
+../3-Phrases/hibernate-3.3.1.GA:boolean isDereferencedBySuperclassProperty() | is dereferenced by superclass property
+../3-Phrases/hibernate-3.3.1.GA:boolean isDereferencedBySubclassProperty() | is dereferenced by subclass property
+../3-Phrases/hibernate-3.3.1.GA:boolean hasOrderByClause() | has order by clause
+../3-Phrases/hibernate-3.3.1.GA:OrderByClause getOrderByClause() | get order by clause
+../3-Phrases/hibernate-3.3.1.GA:OrderByClause locateOrderByClause() | locate order by clause
+../3-Phrases/hibernate-3.3.1.GA:EntityPersister findEntityPersisterByName(QString;) | find entity persister by name
+../3-Phrases/hibernate-3.3.1.GA:void appendOrderByToken(QString;) | append order by token
+../3-Phrases/hibernate-3.3.1.GA:void appendGroupByToken(QString;) | append group by token
+../3-Phrases/hibernate-3.3.1.GA:String getSelectByUniqueKeyString(QString;) | get select by unique key string
+../3-Phrases/hibernate-3.3.1.GA:boolean isLookupByNaturalKey() | is lookup by natural key
+../3-Phrases/hibernate-3.3.1.GA:Set getCollectionRolesByEntityParticipant(QString;) | get collection roles by entity participant
+../3-Phrases/hibernate-3.3.1.GA:void commaAfterByOrFromOrSelect() | comma after by or from or select
+../3-Phrases/hibernate-3.3.1.GA:SQLLoadable getEntityPersisterByAlias(QString;) | get entity persister by alias
+../3-Phrases/hibernate-3.3.1.GA:String getEntitySuffixByAlias(QString;) | get entity suffix by alias
+../3-Phrases/hibernate-3.3.1.GA:SQLLoadableCollection getCollectionPersisterByAlias(QString;) | get collection persister by alias
+../3-Phrases/hibernate-3.3.1.GA:String getCollectionSuffixByAlias(QString;) | get collection suffix by alias
+../3-Phrases/hibernate-3.3.1.GA:Map getPropertyResultsMapByAlias(QString;) | get property results map by alias
+../3-Phrases/hibernate-3.3.1.GA:SQLLoadable getEntityPersisterByAlias(QString;) | get entity persister by alias
+../3-Phrases/hibernate-3.3.1.GA:String getEntitySuffixByAlias(QString;) | get entity suffix by alias
+../3-Phrases/hibernate-3.3.1.GA:SQLLoadableCollection getCollectionPersisterByAlias(QString;) | get collection persister by alias
+../3-Phrases/hibernate-3.3.1.GA:String getCollectionSuffixByAlias(QString;) | get collection suffix by alias
+../3-Phrases/hibernate-3.3.1.GA:Map getPropertyResultsMapByAlias(QString;) | get property results map by alias
+../3-Phrases/hibernate-3.3.1.GA:Object loadByUniqueKey(QSessionImplementor;QObject;) | load by unique key
+../3-Phrases/hibernate-3.3.1.GA:void setTypeByReflection(QString;QString;) | set type by reflection
+../3-Phrases/hibernate-3.3.1.GA:void setTypeByReflection(QString;QString;) | set type by reflection
+../3-Phrases/hibernate-3.3.1.GA:boolean isAffectedByEnabledFilters(QSessionImplementor;) | is affected by enabled filters
+../3-Phrases/hibernate-3.3.1.GA:Object getElementByIndex(QSerializable;QObject;QSessionImplementor;QObject;) | get element by index
+../3-Phrases/hibernate-3.3.1.GA:Object getElementByIndex(QSerializable;QObject;QSessionImplementor;QObject;) | get element by index
+../3-Phrases/hibernate-3.3.1.GA:String getSQLOrderByString(QString;) | get sql order by string
+../3-Phrases/hibernate-3.3.1.GA:String getManyToManyOrderByString(QString;) | get many to many order by string
+../3-Phrases/hibernate-3.3.1.GA:String getSQLOrderByString(QString;) | get sql order by string
+../3-Phrases/hibernate-3.3.1.GA:String getManyToManyOrderByString(QString;) | get many to many order by string
+../3-Phrases/hibernate-3.3.1.GA:Object decrementIndexByBase(QObject;) | decrement index by base
+../3-Phrases/hibernate-3.3.1.GA:Object incrementIndexByBase(QObject;) | increment index by base
+../3-Phrases/hibernate-3.3.1.GA:String generateDetectRowByIndexString() | generate detect row by index string
+../3-Phrases/hibernate-3.3.1.GA:String generateSelectRowByIndexString() | generate select row by index string
+../3-Phrases/hibernate-3.3.1.GA:String generateDetectRowByElementString() | generate detect row by element string
+../3-Phrases/hibernate-3.3.1.GA:boolean isAffectedByEnabledFilters(QSessionImplementor;) | is affected by enabled filters
+../3-Phrases/hibernate-3.3.1.GA:Object getElementByIndex(QSerializable;QObject;QSessionImplementor;QObject;) | get element by index
+../3-Phrases/hibernate-3.3.1.GA:String[] getSQLUpdateByRowIdStrings() | get sql update by row id strings
+../3-Phrases/hibernate-3.3.1.GA:String[] getSQLLazyUpdateByRowIdStrings() | get sql lazy update by row id strings
+../3-Phrases/hibernate-3.3.1.GA:Object loadByUniqueKey(QString;QObject;QSessionImplementor;) | load by unique key
+../3-Phrases/hibernate-3.3.1.GA:String getSelectByUniqueKeyString(QString;) | get select by unique key string
+../3-Phrases/hibernate-3.3.1.GA:String createWhereByKey(IQString;) | create where by key
+../3-Phrases/hibernate-3.3.1.GA:boolean isIdentifierAssignedByInsert() | is identifier assigned by insert
+../3-Phrases/hibernate-3.3.1.GA:boolean isIdentifierAssignedByInsert() | is identifier assigned by insert
+../3-Phrases/hibernate-3.3.1.GA:Object loadByUniqueKey(QString;QObject;QSessionImplementor;) | load by unique key
+../3-Phrases/hibernate-3.3.1.GA:Element elementByID(QString;) | element by id
+../3-Phrases/hibernate-3.3.1.GA:String renderOrderByStringTemplate(QString;QDialect;QSQLFunctionRegistry;) | render order by string template
+../3-Phrases/hibernate-3.3.1.GA:Select setOrderByClause(QString;) | set order by clause
+../3-Phrases/hibernate-3.3.1.GA:Select setGroupByClause(QString;) | set group by clause
+../3-Phrases/hibernate-3.3.1.GA:void setGroupByTokens(QIterator;) | set group by tokens
+../3-Phrases/hibernate-3.3.1.GA:void setOrderByTokens(QIterator;) | set order by tokens
+../3-Phrases/hibernate-3.3.1.GA:Element elementByID(QString;) | element by id
+../3-Phrases/hibernate-3.3.1.GA:boolean isIdentifierAssignedByInsert() | is identifier assigned by insert
+../3-Phrases/hibernate-3.3.1.GA:Object loadByUniqueKey(QString;QString;QObject;QSessionImplementor;) | load by unique key
+../3-Phrases/hsqldb:Expression resolveOrderByExpression(QExpression;QSelect;QHsqlArrayList;) | resolve order by expression
+../3-Phrases/hsqldb:Expression resolveOrderByColumnIndex(QExpression;QHsqlArrayList;I) | resolve order by column index
+../3-Phrases/hsqldb:void collectInGroupByExpressions(QHsqlArrayList;) | collect in group by expressions
+../3-Phrases/hsqldb:void checkAggregateOrGroupByColumns(II) | check aggregate or group by columns
+../3-Phrases/hsqldb:void checkAggregateOrGroupByOrderColumns(II) | check aggregate or group by order columns
+../3-Phrases/hsqldb:boolean inAggregateOrGroupByClause(QExpression;) | in aggregate or group by clause
+../3-Phrases/hsqldb:void collectInGroupByExpressions(QHsqlArrayList;) | collect in group by expressions
+../3-Phrases/hsqldb:boolean supportsOrderByUnrelated() | supports order by unrelated
+../3-Phrases/hsqldb:boolean supportsGroupByUnrelated() | supports group by unrelated
+../3-Phrases/hsqldb:boolean supportsGroupByBeyondSelect() | supports group by beyond select
+../3-Phrases/hsqldb:void populateBySerialIntKeys(Qjava.util.HashMap;Qorg.hsqldb.lib.HashMap;I) | populate by serial int keys
+../3-Phrases/hsqldb:void populateBySerialIntKeysInt(Qjava.util.HashMap;Qorg.hsqldb.lib.IntKeyHashMap;I) | populate by serial int keys int
+../3-Phrases/hsqldb:void populateBySerialIntKeysInt(QDoubleIntIndex;Qorg.hsqldb.lib.IntKeyHashMap;I) | populate by serial int keys int
+../3-Phrases/hsqldb:void populateByRandomIntKeysInt(QDoubleIntIndex;Qorg.hsqldb.lib.IntKeyHashMap;I) | populate by random int keys int
+../3-Phrases/hsqldb:void populateByRandomIntKeys(Qjava.util.HashMap;Qorg.hsqldb.lib.HashMap;I) | populate by random int keys
+../3-Phrases/hsqldb:void populateByRandomIntKeysInt(Qjava.util.HashMap;Qorg.hsqldb.lib.IntKeyHashMap;I) | populate by random int keys int
+../3-Phrases/hsqldb:void depopulateByIterator(Qjava.util.HashMap;Qorg.hsqldb.lib.HashMap;I) | depopulate by iterator
+../3-Phrases/hsqldb:void depopulateByIntIterator(Qjava.util.HashMap;Qorg.hsqldb.lib.IntKeyHashMap;I) | depopulate by int iterator
+../3-Phrases/hsqldb:void clearByIntIterator(Qjava.util.HashMap;Qorg.hsqldb.lib.IntKeyHashMap;) | clear by int iterator
+../3-Phrases/hsqldb:void compareByUIterator(Qjava.util.HashMap;Qorg.hsqldb.lib.HashMap;) | compare by u iterator
+../3-Phrases/hsqldb:void compareByHIterator(Qjava.util.HashMap;Qorg.hsqldb.lib.HashMap;) | compare by h iterator
+../3-Phrases/hsqldb:void compareByUIteratorInt(Qjava.util.HashMap;Qorg.hsqldb.lib.IntKeyHashMap;) | compare by u iterator int
+../3-Phrases/hsqldb:void compareByHIteratorInt(Qjava.util.HashMap;Qorg.hsqldb.lib.IntKeyHashMap;) | compare by h iterator int
+../3-Phrases/hsqldb:void compareByHIteratorInt(QDoubleIntIndex;Qorg.hsqldb.lib.IntKeyHashMap;) | compare by h iterator int
+../3-Phrases/hsqldb:CONS TestGroupByHaving(QString;) | test group by having
+../3-Phrases/hsqldb:void testAggregatedGroupByHaving1() | test aggregated group by having 1
+../3-Phrases/hsqldb:void testAggregatedGroupByHaving2() | test aggregated group by having 2
+../3-Phrases/hsqldb:void testHavingWithoutGroupBy1() | test having without group by 1
+../3-Phrases/hsqldb:void testHavingWithoutGroupBy2() | test having without group by 2
+../3-Phrases/iReport:Group getGroupByName(QString;) | get group by name
+../3-Phrases/iReport:Band getBandByName(QString;) | get band by name
+../3-Phrases/iReport:Band getBandByPosition(I) | get band by position
+../3-Phrases/iReport:IReportFont getReportFontByName(QString;) | get report font by name
+../3-Phrases/iReport:Vector sortFieldsByName(QVector;) | sort fields by name
+../3-Phrases/iReport:Vector sortVariablesByName(QVector;) | sort variables by name
+../3-Phrases/iReport:Vector sortParametersByName(QVector;) | sort parameters by name
+../3-Phrases/iReport:JReportFrame findReportFrameByFile(QFile;) | find report frame by file
+../3-Phrases/iReport:JReportFrame findReportFrameByFilename(QString;) | find report frame by filename
+../3-Phrases/iReport:void jButtonOrderByAlphaActionPerformed(Qjava.awt.event.ActionEvent;) | j button order by alpha action performed
+../3-Phrases/iReport:void jButtonOrderByCategoryActionPerformed(Qjava.awt.event.ActionEvent;) | j button order by category action performed
+../3-Phrases/Jabref:void setSortingByCitationCount() | set sorting by citation count
+../3-Phrases/Jabref:ExternalFileType getExternalFileTypeByName(QString;) | get external file type by name
+../3-Phrases/Jabref:ExternalFileType getExternalFileTypeByExt(QString;) | get external file type by ext
+../3-Phrases/Jabref:ExternalFileType getExternalFileTypeByMimeType(QString;) | get external file type by mime type
+../3-Phrases/Jabref:BibtexEntry getEntryById(QString;) | get entry by id
+../3-Phrases/Jabref:BibtexEntry getEntryByKey(QString;) | get entry by key
+../3-Phrases/Jabref:BibtexEntry[] getEntriesByKey(QString;) | get entries by key
+../3-Phrases/Jabref:LayoutFormatter getLayoutFormatterByClassName(QString;QString;) | get layout formatter by class name
+../3-Phrases/Jabref:ImportFormat getByCliId(QString;) | get by cli id
+../3-Phrases/Jabref:void testCommandLineByKey() | test command line by key
+../3-Phrases/jajuk:Type getTypeByExtension(QString;) | get type by extension
+../3-Phrases/jajuk:Type getTypeByTechDesc(QString;) | get type by tech desc
+../3-Phrases/jajuk:Style getStyleByName(QString;) | get style by name
+../3-Phrases/jajuk:File getFileByPath(QString;) | get file by path
+../3-Phrases/jajuk:ArrayList<QFile;> getSortedByRate() | get sorted by rate
+../3-Phrases/jajuk:void filterFilesByRate(QArrayList<QFile;>;) | filter files by rate
+../3-Phrases/jajuk:DigitalDJ getDJByName(QString;) | get dj by name
+../3-Phrases/jajuk:DigitalDJ getDJByID(QString;) | get dj by id
+../3-Phrases/jajuk:Ambience getAmbienceByName(QString;) | get ambience by name
+../3-Phrases/jajuk:IView getViewByContainer(QContainer;) | get view by container
+../3-Phrases/jajuk:IView getViewByDockingView(Qnet.infonode.docking.View;) | get view by docking view
+../3-Phrases/jajuk:void populateTreeByStyle() | populate tree by style
+../3-Phrases/jajuk:void populateTreeByAuthor() | populate tree by author
+../3-Phrases/jajuk:void populateTreeByAlbum() | populate tree by album
+../3-Phrases/jajuk:String formatTimeBySec(JZ) | format time by sec
+../3-Phrases/jajuk:ArrayList<Qorg.jajuk.base.File;> filterByAmbience(QArrayList<Qorg.jajuk.base.File;>;QAmbience;) | filter by ambience
+../3-Phrases/javaHMO:int getItemByUrl(QArrayList;QString;) | get item by url
+../3-Phrases/javaHMO:boolean getSortByType() | get sort by type
+../3-Phrases/javaHMO:void setSortByType(Z) | set sort by type
+../3-Phrases/javaHMO:boolean getSortByTitle() | get sort by title
+../3-Phrases/javaHMO:void setSortByTitle(Z) | set sort by title
+../3-Phrases/javaHMO:boolean getSortByCreationDate() | get sort by creation date
+../3-Phrases/javaHMO:void setSortByCreationDate(Z) | set sort by creation date
+../3-Phrases/javaHMO:boolean getSortByLastChangeDate() | get sort by last change date
+../3-Phrases/javaHMO:void setSortByLastChangeDate(Z) | set sort by last change date
+../3-Phrases/javaHMO:int getItemByUrl(QArrayList;QString;) | get item by url
+../3-Phrases/javaHMO:int getItemByUrl(QArrayList;QString;) | get item by url
+../3-Phrases/jbidwatcher:Class getSortByColumnClass(I) | get sort by column class
+../3-Phrases/jbidwatcher:Object getSortByValueAt(II) | get sort by value at
+../3-Phrases/jbidwatcher:Searcher getSearchByIndex(I) | get search by index
+../3-Phrases/jbidwatcher:Searcher getSearchById(J) | get search by id
+../3-Phrases/jbidwatcher:void selectBySearch(QString;) | select by search
+../3-Phrases/jbidwatcher:Object getSortByValueAt(II) | get sort by value at
+../3-Phrases/jbidwatcher:Class getSortByColumnClass(I) | get sort by column class
+../3-Phrases/jbidwatcher:void backupByDate(QString;QFile;) | backup by date
+../3-Phrases/jbidwatcher:void sortByList() | sort by list
+../3-Phrases/jbidwatcher:AuctionServer getServerByName(QString;) | get server by name
+../3-Phrases/jbidwatcher:Searcher getSearchByName(QString;) | get search by name
+../3-Phrases/jbidwatcher:Searcher getSearchByIndex(I) | get search by index
+../3-Phrases/jbidwatcher:Searcher getSearchById(J) | get search by id
+../3-Phrases/jbidwatcher:Class getSortByColumnClass(I) | get sort by column class
+../3-Phrases/jbidwatcher:Object getSortByValueAt(II) | get sort by value at
+../3-Phrases/jbidwatcher:ByteBuffer getThumbnailById(QString;) | get thumbnail by id
+../3-Phrases/jbidwatcher:ByteBuffer getThumbnailByURL(QString;) | get thumbnail by url
+../3-Phrases/jbidwatcher:int compareByClass(QObject;QObject;QClass;) | compare by class
+../3-Phrases/Jftp:UniAddress getByName(QString;) | get by name
+../3-Phrases/Jftp:UniAddress getByName(QString;Z) | get by name
+../3-Phrases/Jftp:NbtAddress getByName(QString;) | get by name
+../3-Phrases/Jftp:NbtAddress getByName(QString;IQString;) | get by name
+../3-Phrases/Jftp:NbtAddress getByName(QString;IQString;QInetAddress;) | get by name
+../3-Phrases/Jftp:NbtAddress[] getAllByName(QString;IQString;QInetAddress;) | get all by name
+../3-Phrases/Jftp:NbtAddress[] getAllByAddress(QString;) | get all by address
+../3-Phrases/Jftp:NbtAddress[] getAllByAddress(QString;IQString;) | get all by address
+../3-Phrases/Jftp:NbtAddress[] getAllByAddress(QNbtAddress;) | get all by address
+../3-Phrases/Jftp:NbtAddress getByName(QString;) | get by name
+../3-Phrases/Jftp:NbtAddress getByName(QName;) | get by name
+../3-Phrases/Jftp:NbtAddress[] getAllByName(QName;QInetAddress;) | get all by name
+../3-Phrases/Jftp:NbtAddress getByName(QName;QInetAddress;) | get by name
+../3-Phrases/Jftp:String getMessageByCode(I) | get message by code
+../3-Phrases/Jftp:int getStatusByCode(I) | get status by code
+../3-Phrases/Jftp:String getMessageByWinerrCode(I) | get message by win err code
+../3-Phrases/JRobin:Port getLinkByIfDescr(QString;) | get link by if descr
+../3-Phrases/JRobin:Device getRouterByHost(QString;) | get router by host
+../3-Phrases/JRobin:int getIfIndexByIfDescr(QString;) | get if index by if descr
+../3-Phrases/MegaMek-0.32.0:int getEngineTypeByString(QString;) | get engine type by string
+../3-Phrases/MegaMek-0.32.0:boolean isAffectedByECM(QEntity;QCoords;QCoords;) | is affected by ecm
+../3-Phrases/MegaMek-0.32.0:boolean isAffectedByAngelECM(QEntity;QCoords;QCoords;) | is affected by angel ecm
+../3-Phrases/MegaMek-0.32.0:boolean isProtectedByECM(QEntity;QCoords;QCoords;) | is protected by ecm
+../3-Phrases/MegaMek-0.32.0:boolean isProtectedByAngelECM(QEntity;QCoords;QCoords;) | is protected by angel ecm
+../3-Phrases/MegaMek-0.32.0:int getPickedUpByExternalId() | get picked up by external id
+../3-Phrases/MegaMek-0.32.0:void setPickedUpByExternalId(I) | set picked up by external id
+../3-Phrases/MegaMek-0.32.0:int getPickedUpById() | get picked up by id
+../3-Phrases/MegaMek-0.32.0:void setPickedUpById(I) | set picked up by id
+../3-Phrases/MegaMek-0.32.0:ArtilleryModifier getModifierByCoords(QVector;QCoords;) | get modifier by coords
+../3-Phrases/MegaMek-0.32.0:void setSeenByEnemy(Z) | set seen by enemy
+../3-Phrases/MegaMek-0.32.0:boolean isSeenByEnemy() | is seen by enemy
+../3-Phrases/MegaMek-0.32.0:boolean canUnstickByJumping() | can unstick by jumping
+../3-Phrases/MegaMek-0.32.0:void setCanUnstickByJumping(Z) | set can unstick by jumping
+../3-Phrases/MegaMek-0.32.0:void addTargetedBySwarm(II) | add targeted by swarm
+../3-Phrases/MegaMek-0.32.0:boolean getTargetedBySwarm(II) | get targeted by swarm
+../3-Phrases/MegaMek-0.32.0:void createBldgByCoords() | create bldg by coords
+../3-Phrases/MegaMek-0.32.0:int getBuildingTypeByCF(I) | get building type by cf
+../3-Phrases/np:void topicsByKeyword(SearchData sd) | topics by keyword
+../3-Phrases/np:Collection ejbHomeXfindByCorrelationKeys(String keys, boolean exact) | ejb home xf ind by correlation keys
+../3-Phrases/PlanetaMessenger:JPluginProperties getPluginPropertiesByClassName(QString;) | get plugin properties by class name
+../3-Phrases/rhino:FunctionSource functionSourceByName(QString;) | function source by name
+../3-Phrases/rhino:Object getByGetter(QGetterSlot;QScriptable;) | get by getter
+../3-Phrases/rhino:void setBySetter(QGetterSlot;QScriptable;QObject;) | set by setter
+../3-Phrases/SweetHome3D:void assertFurnitureIsSortedByName(QJTable;Z) | assert furniture is sorted by name
+../3-Phrases/vuze:long getTotalBytesDownloadedByPeer() | get total bytes downloaded by peer
+../3-Phrases/vuze:VuzeActivitiesEntry getEntryByID(QString;) | get entry by id
+../3-Phrases/vuze:VuzeBuddy getBuddyByPK(QString;) | get buddy by pk
+../3-Phrases/vuze:VuzeBuddy getBuddyByLoginID(QString;) | get buddy by login id
+../3-Phrases/vuze:List getSharesByCode(QString;) | get shares by code
+../3-Phrases/vuze:List getSharesByPK(QString;) | get shares by pk
+../3-Phrases/vuze:List sortContactsByDistance(QList;) | sort contacts by distance
+../3-Phrases/vuze:List sortContactsByDistance(QList;) | sort contacts by distance
+../3-Phrases/vuze:subscriptionDetails getSubscriptionBySID([B) | get subscription by sid
+../3-Phrases/vuze:long getPopularityBySID([B) | get popularity by sid
+../3-Phrases/vuze:Engine getEngineByUID(QString;) | get engine by uid
+../3-Phrases/vuze:Engine getEngineByUID(QString;) | get engine by uid
+../3-Phrases/vuze:PeerItem[] getExchangedPeersSortedByLeastPopularFirst() | get exchanged peers sorted by least popular first
+../3-Phrases/vuze:boolean isChokedByMe() | is choked by me
+../3-Phrases/vuze:long getTotalBytesDownloadedByPeer() | get total bytes downloaded by peer
+../3-Phrases/vuze:Subscription getSubscriptionByID(QString;) | get subscription by id
+../3-Phrases/vuze:Subscription getSubscriptionByID(QString;) | get subscription by id
+../3-Phrases/vuze:void reportCurrentTaskByKey(QString;) | report current task by key
+../3-Phrases/vuze:boolean loadTorrentByB64(QAzureusCore;QString;) | load torrent by b 64
+../3-Phrases/vuze:boolean loadTorrentByB64(QAzureusCore;QBrowserMessage;QString;) | load torrent by b 64
+../3-Phrases/vuze:SWTSkinObjectTab getTabByID(QString;) | get tab by id
+../3-Phrases/vuze:boolean setActiveTabByID(QString;) | set active tab by id
+../3-Phrases/vuze:SWTSkinObject[] getSkinObjectsByType(QString;) | get skin objects by type
+../3-Phrases/vuze:SWTSkinObject getSkinObjectByID(QString;) | get skin object by id
+../3-Phrases/vuze:SWTSkinObject getSkinObjectByID(QString;QSWTSkinObject;) | get skin object by id
+../3-Phrases/vuze:void setImageByID(QString;QAECallback;) | set image by id
+../3-Phrases/vuze:SkinView getByClass(QClass;) | get by class
+../3-Phrases/vuze:SkinView[] getMultiByClass(QClass;) | get multi by class
+../3-Phrases/vuze:SkinView getBySkinObjectID(QString;) | get by skin object id
+../3-Phrases/vuze:boolean showItemByID(QString;) | show item by id
+../3-Phrases/vuze:void showItemByTabID(QString;) | show item by tab id
+../3-Phrases/vuze:X9ECParameters getByName(QString;) | get by name
+../3-Phrases/vuze:X9ECParameters getByOID(QDERObjectIdentifier;) | get by oid
+../3-Phrases/vuze:SimpleBigDecimal approximateDivisionByN(QBigInteger;QBigInteger;QBigInteger;BII) | approximate division by n
+../3-Phrases/vuze:boolean isChokedByMe() | is choked by me
+../3-Phrases/vuze:boolean isPeerSourceEnabledByDefault(QString;) | is peer source enabled by default
+../3-Phrases/vuze:long getTotalBytesDownloadedByPeer() | get total bytes downloaded by peer
+../3-Phrases/vuze:boolean isChokedByMe() | is choked by me
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByID(QString;Z) | get plugin interface by id
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByClass(QString;Z) | get plugin interface by class
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByClass(QClass;Z) | get plugin interface by class
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByID(QString;) | get plugin interface by id
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByClass(QString;) | get plugin interface by class
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByClass(QClass;) | get plugin interface by class
+../3-Phrases/vuze:boolean wasCreatedByUs() | was created by us
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByID(QString;) | get plugin interface by id
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByID(QString;Z) | get plugin interface by id
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByClass(QClass;) | get plugin interface by class
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByClass(QClass;Z) | get plugin interface by class
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByClass(QString;) | get plugin interface by class
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByClass(QString;Z) | get plugin interface by class
+../3-Phrases/vuze:boolean isChokedByMe() | is choked by me
+../3-Phrases/vuze:boolean wasCreatedByUs() | was created by us
+../3-Phrases/vuze:boolean wasCreatedByUs() | was created by us
+../3-Phrases/vuze:void initHSLbyRGB(III) | init hsl by rgb
+../3-Phrases/vuze:void initRGBbyHSL(III) | init rgb by hsl
+../3-Phrases/vuze:void reportCurrentTaskByKey(QString;) | report current task by key
+../3-Phrases/vuze:TableColumnCore getTableColumnByOffset(I) | get table column by offset
+../3-Phrases/vuze:CONS ReservedByItem() | reserved by item
+../3-Phrases/weka:String weightByDistanceTipText() | weight by distance tip text
+../3-Phrases/weka:void setWeightByDistance(Z) | set weight by distance
+../3-Phrases/weka:boolean getWeightByDistance() | get weight by distance
+../3-Phrases/weka:int[] rankBySVM(IQInstances;) | rank by svm
+../3-Phrases/weka:void findParamsByCrossValidation(IQInstances;QRandom;) | find params by cross validation
+../3-Phrases/weka:CONS RegressionByDiscretization() | regression by discretization
+../3-Phrases/weka:String weightByConfidenceTipText() | weight by confidence tip text
+../3-Phrases/weka:void setWeightByConfidence(Z) | set weight by confidence
+../3-Phrases/weka:boolean getWeightByConfidence() | get weight by confidence
+../3-Phrases/weka:double measurePercentAttsUsedByDT() | measure percent atts used by dt
+../3-Phrases/weka:Instances[] coveredByRule(QInstances;) | covered by rule
+../3-Phrases/weka:Instances rmCoveredBySuccessives(QInstances;QFastVector;I) | rm covered by successives
+../3-Phrases/weka:int[] sortByAttribute(QInstances;I) | sort by attribute
+../3-Phrases/weka:DoubleVector dividedByEquals(QDoubleVector;) | divided by equals
+../3-Phrases/weka:void putBySubstitute(D) | put by substitute
+../3-Phrases/weka:void putBySubstitute(ID) | put by substitute
+../3-Phrases/weka:PropertyDescriptor getDescriptorByName(QObject;QString;) | get descriptor by name
+../3-Phrases/weka:boolean getSplitByDataSet() | get split by data set
+../3-Phrases/weka:void setSplitByDataSet(Z) | set split by data set
+../3-Phrases/weka:double[] distributionsByOriginalIndex([D) | distributions by original index
+../3-Phrases/weka:void calculateCutPointsByMDL(IQInstances;) | calculate cut points by mdl
+../3-Phrases/weka:void calculateCutPointsByEqualWidthBinning(I) | calculate cut points by equal width binning
+../3-Phrases/weka:void calculateCutPointsByEqualFrequencyBinning(I) | calculate cut points by equal frequency binning
+../3-Phrases/weka:Hashtable sortClassesByRoot(QString;) | sort classes by root
+../3-Phrases/weka:void scaleByMax() | scale by max
+../3-Phrases/weka:void scaleByInd() | scale by ind
+../3-Phrases/weka:int[] rankBySVM(IQInstances;) | rank by svm
+../3-Phrases/weka:String weightByDistanceTipText() | weight by distance tip text
+../3-Phrases/weka:void setWeightByDistance(Z) | set weight by distance
+../3-Phrases/weka:boolean getWeightByDistance() | get weight by distance
+../3-Phrases/weka:boolean getSplitByDataSet() | get split by data set
+../3-Phrases/weka:void setSplitByDataSet(Z) | set split by data set
+../3-Phrases/weka:Hashtable sortClassesByRoot(QString;) | sort classes by root

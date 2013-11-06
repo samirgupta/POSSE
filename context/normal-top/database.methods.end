@@ -1,0 +1,45 @@
+BasePanel addNewDatabase(QParserResult;QFile;Z) | add new database
+BibtexDatabase createDatabase(QCollection<QBibtexEntry;>;) | create database
+BibtexDatabase getDatabase() | get database
+BibtexDatabase getGeneratedDatabase() | get generated database
+BibtexDatabase parseBibtexDatabase(QList<QString;>;Z) | parse bibtex database
+boolean existsInDatabase(QObject;QEventSource;QEntityPersister;) | exists in database
+boolean isExistsInDatabase() | is exists in database
+boolean isReadOnlyDatabase(QConnection;) | is read only database
+boolean saveDatabase(QFile;ZQString;) | save database
+Database getDatabase() | get database
+Database getDatabase(QString;QString;QHsqlProperties;) | get database
+DistributedDatabase getDistributedDatabase() | get distributed database
+int getDatabase(QString;QString;QServer;QHsqlProperties;) | get database
+int openDatabase(QString;QString;) | open database
+java.lang.String getDatabase() | get database
+JDatabase getDatabase() | get database
+Object[] importDatabase(QSet<QString;>;QDBStrings;) | import database
+ParserResult loadDatabase(QFile;QString;) | load database
+PeerDatabase createPeerDatabase() | create peer database
+SaveSession saveDatabase(QBibtexDatabase;QMetaData;QFile;QJabRefPreferences;ZZQString;Z) | save database
+SaveSession savePartOfDatabase(QBibtexDatabase;QMetaData;QFile;QJabRefPreferences;[QBibtexEntry;QString;) | save part of database
+String getDatabase() | get database
+Vector<QIntegrityMessage;> checkBibtexDatabase(QBibtexDatabase;) | check bibtex database
+void connectToDatabase() | connect to database
+void createDatabase() | create database
+void createDatabase(QString;) | create database
+void createDatabase(QString;QString;QString;) | create database
+void createTestDatabase() | create test database
+void deleteDatabase(QString;) | delete database
+void disconnectFromDatabase() | disconnect from database
+void exportDatabase(QBibtexDatabase;QMetaData;QSet<QString;>;QDBStrings;) | export database
+void exportDatabase(QBibtexDatabase;QMetaData;QSet<QString;>;QString;QDBTYPE;) | export database
+void initializeNewDatabase() | initialize new database
+void refreshForNewDatabase(QBibtexDatabase;) | refresh for new database
+void refreshGroupsForNewDatabase(QBibtexDatabase;) | refresh groups for new database
+void releaseDatabase(I) | release database
+void removeDatabase(QDatabase;) | remove database
+void setDatabase(QBibtexDatabase;) | set database
+void setDatabase(Qjava.lang.String;) | set database
+void setDatabase(QString;) | set database
+void setReferenceDatabase(QBibtexDatabase;) | set reference database
+void setupDatabase() | setup database
+void setUpDatabase() | set up database
+void storeTempDatabase() | store temp database
+void testLoadFromMySQLDatabase() | test load from my sql database

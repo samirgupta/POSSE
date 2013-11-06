@@ -1,0 +1,112 @@
+AmmoType createCLLB10XClusterAmmo() | create cllb 10 x cluster ammo
+AmmoType createCLLB20XClusterAmmo() | create cllb 20 x cluster ammo
+AmmoType createCLLB2XClusterAmmo() | create cllb 2 x cluster ammo
+AmmoType createCLLB5XClusterAmmo() | create cllb 5 x cluster ammo
+AmmoType createISLB10XClusterAmmo() | create is lb 10 x cluster ammo
+AmmoType createISLB20XClusterAmmo() | create is lb 20 x cluster ammo
+AmmoType createISLB2XClusterAmmo() | create is lb 2 x cluster ammo
+AmmoType createISLB5XClusterAmmo() | create is lb 5 x cluster ammo
+AmmoType createISTHBLB20XClusterAmmo() | create isthblb 20 x cluster ammo
+AmmoType createISTHBLB2XClusterAmmo() | create isthblb 2 x cluster ammo
+AmmoType createISTHBLB5XClusterAmmo() | create isthblb 5 x cluster ammo
+boolean expandCluster(QDataObject;) | expand cluster
+boolean getClustererStoreClustersForVis() | get clusterer store clusters for vis
+boolean[] updateableClusterer() | updateable clusterer
+ClusterDefinition[] getClusterDefinitions() | get cluster definitions
+ClusterDefinition[] getClusters() | get clusters
+Clusterer getClusterer() | get clusterer
+DensityBasedClusterer getClusterer() | get clusterer
+DensityBasedClusterer getDensityBasedClusterer() | get density based clusterer
+DiscreteFunction fitForSingleCluster(QDoubleVector;I) | fit for single cluster
+double[] clusterPriors() | cluster priors
+double[] getClusterAssignments() | get cluster assignments
+double[][][] getClusterModelsNumericAtts() | get cluster models numeric atts
+double[] getClusterPriors() | get cluster priors
+double[] logDensityPerClusterForInstance(QInstance;) | log density per cluster for instance
+FastVector defineClustersGRID(QRandom;) | define clusters grid
+FastVector defineClusters(QRandom;) | define clusters
+FastVector defineClustersRANDOM(QRandom;) | define clusters random
+float getSampleNormalizedSum(KMCluster cluster, int column, float mean) | get sample normalized sum
+Instances getClusterCentroids() | get cluster centroids
+Instances getClusterStandardDevs() | get cluster standard devs
+Instances makeClusterDataSetClass(QInstances;Qweka.clusterers.Clusterer;QString;) | make cluster data set class
+Instances makeClusterDataSetProbabilities(QInstances;Qweka.clusterers.Clusterer;QString;) | make cluster data set probabilities
+int AddInstanceToBestCluster(QInstance;) | add instance to best cluster
+int clusterInstance(IQInput;QPartition;) | cluster instance
+int clusterInstance(QInstance;) | cluster instance
+int clusterProcessedInstance(QInstance;) | cluster processed instance
+int clusterProcessedInstance(QInstance;QInstances;) | cluster processed instance
+int clusterProcessedInstance(QInstance;Z) | cluster processed instance
+int defaultNumClusters() | default num clusters
+int[] getClassesToClusters() | get classes to clusters
+int getClustererTestMode() | get clusterer test mode
+int getClusterLabel() | get cluster label
+int[][][] getClusterNominalCounts() | get cluster nominal counts
+int[] getClusterSizes() | get cluster sizes
+int getMaxNumClusters() | get max num clusters
+int getMinNumClusters() | get min num clusters
+int getNumberOfGeneratedClusters() | get number of generated clusters
+int getNumClusters() | get num clusters
+int MoveInstanceToBestCluster(QInstance;) | move instance to best cluster
+int numberOfClusters() | number of clusters
+int run_ModelCluster_number_of_nodes_set_(int _value_) | run model cluster number of nodes set
+JComponent clusteringResultsTable() | clustering results table
+Object getClusterer() | get clusterer
+SelectedTag defaultClusterSubType() | default cluster sub type
+SelectedTag defaultClusterType() | default cluster type
+SelectedTag getClusterSubType() | get cluster sub type
+SelectedTag getClusterType() | get cluster type
+String clusterDefinitionsTipText() | cluster definitions tip text
+String clustererTipText() | clusterer tip text
+String clusteringSeedTipText() | clustering seed tip text
+String clusterResultsToString() | cluster results to string
+String clusterSubTypeTipText() | cluster sub type tip text
+String clusterTypeTipText() | cluster type tip text
+String defaultClustererString() | default clusterer string
+String densityBasedClustererTipText() | density based clusterer tip text
+String evaluateClusterer(QClusterer;[QString;) | evaluate clusterer
+String getClustererSpec() | get clusterer spec
+String maxNumClustersTipText() | max num clusters tip text
+String minNumClustersTipText() | min num clusters tip text
+String numClustersTipText() | num clusters tip text
+String printClusterings(QClusterer;QString;QString;QRange;) | print clusterings
+String printClusterStats(QClusterer;QString;) | print cluster stats
+void acceptClusterer(QBatchClustererEvent;) | accept clusterer
+void addBatchClustererListener(QBatchClustererListener;) | add batch clusterer listener
+void assignClusterNums([I) | assign cluster nums
+void buildClusterer() | build clusterer
+void buildClusterer(QInstances;) | build clusterer
+void Cluster(ID[ID) | cluster
+void Cluster(IDQRandom;) | cluster
+void CVClusters() | cv clusters
+void determineNumberOfClusters() | determine number of clusters
+void evaluateClusterer(QInstances;) | evaluate clusterer
+void evaluateClusterer(QInstances;QString;) | evaluate clusterer
+void evaluateClustersWithRespectToClass(QInstances;QString;) | evaluate clusters with respect to class
+void expandClusterOrder(QDataObject;QUpdateQueue;) | expand cluster order
+void loadClusterer() | load clusterer
+void notifyBatchClustererListeners(QBatchClustererEvent;) | notify batch clusterer listeners
+void removeBatchClustererListener(QBatchClustererListener;) | remove batch clusterer listener
+void removeCluster(AuthzSubjectValue subj, Integer clusterId) | remove cluster
+void runClusterer(QClusterer;[QString;) | run clusterer
+void saveClusterer(QString;QClusterer;QInstances;) | save clusterer
+void saveClusterer(QString;QClusterer;QInstances;[I) | save clusterer
+void setClusterDefinitions([QClusterDefinition;) | set cluster definitions
+void setClustererName(QString;) | set clusterer name
+void setClusterer(QClusterer;) | set clusterer
+void setClusterer(QDensityBasedClusterer;) | set clusterer
+void setClusterer(Qweka.clusterers.Clusterer;) | set clusterer
+void setClusterLabel(I) | set cluster label
+void setClusterName(String clusterName) | set cluster name
+void setClusterSubType(QSelectedTag;) | set cluster sub type
+void setClusterType(QSelectedTag;) | set cluster type
+void setDensityBasedClusterer(QDensityBasedClusterer;) | set density based clusterer
+void setMaxNumClusters(I) | set max num clusters
+void setMinNumClusters(I) | set min num clusters
+void setNumClusters(I) | set num clusters
+void startClusterer() | start clusterer
+void stopClusterer() | stop clusterer
+void updateClusterer(QInstance;) | update clusterer
+void visualizeClusterAssignments(QVisualizePanel;) | visualize cluster assignments
+void visualizeClusterer(QString;II) | visualize clusterer
+weka.clusterers.Clusterer getClusterer() | get clusterer

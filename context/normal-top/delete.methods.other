@@ -1,0 +1,79 @@
+Action buildDeleteAction(Configurable target) | build delete action
+Action getDeleteHumanAction() | get delete human action
+boolean addDeleteAction(QTable;QRow;) | add delete action
+boolean confirmDeleteCatalogSelection() | confirm delete catalog selection
+boolean confirmDeleteSelectedCatalogTexture() | confirm delete selected catalog texture
+boolean getDeleteEmptyBins() | get delete empty bins
+boolean getDeleteFileOnCancel() | get delete file on cancel
+boolean getStateOfDeleteMenuItem() | get state of delete menu item
+boolean invokeDeleteLifecycle(QEventSource;QObject;QEntityPersister;) | invoke delete lifecycle
+boolean isCustomDeleteAllCallable() | is custom delete all callable
+boolean isCustomDeleteCallable() | is custom delete callable
+boolean isDeleteAllCallable() | is delete all callable
+boolean isDeleteCallable() | is delete callable
+boolean isDeleteCallable(I) | is delete callable
+boolean showDeleteConfirmationDialog(I) | show delete confirmation dialog
+boolean supportsCircularCascadeDeleteConstraints() | supports circular cascade delete constraints
+CompiledStatement compileDeleteStatement() | compile delete statement
+DeleteEventListener[] getDeleteEventListeners() | get delete event listeners
+DeleteNodeAction getDeleteNodeAction(QString;) | get delete node action
+ExecuteUpdateResultCheckStyle getCustomSQLDeleteAllCheckStyle() | get custom sql delete all check style
+ExecuteUpdateResultCheckStyle getCustomSQLDeleteCheckStyle() | get custom sql delete check style
+ExecuteUpdateResultCheckStyle getDeleteAllCheckStyle() | get delete all check style
+ExecuteUpdateResultCheckStyle getDeleteCheckStyle() | get delete check style
+freemind.controller.actions.generated.instance.DeleteNodeAction createDeleteNodeAction() | create delete node action
+freemind.controller.actions.generated.instance.DeleteNodeActionType createDeleteNodeActionType() | create delete node action type
+int getDeleteAction() | get delete action
+long getDeleteCount() | get delete count
+long getEntityDeleteCount() | get entity delete count
+PostDeleteEventListener[] getPostCommitDeleteEventListeners() | get post commit delete event listeners
+PostDeleteEventListener[] getPostDeleteEventListeners() | get post delete event listeners
+PreDeleteEventListener[] getPreDeleteEventListeners() | get pre delete event listeners
+PreparedStatement makePSToDeleteFromChildTables(String childTableName, String primaryColumnNames) | make ps to delete from child tables
+Result executeDeleteStatement(QCompiledStatement;) | execute delete statement
+String generateDeleteRowString() | generate delete row string
+String generateDeleteString() | generate delete string
+String generateDeleteString(I) | generate delete string
+String getCustomSQLDeleteAll() | get custom sql delete all
+String getDeleteStatement() | get delete statement
+String getSQLDeleteRowString() | get sql delete row string
+String getSQLDeleteString() | get sql delete string
+String[] getSQLDeleteStrings() | get sql delete strings
+void ActionDeleteArc() | action delete arc
+void ActionDeleteNode() | action delete node
+void addDeleteParameter(String paramName, float param) | add delete parameter
+void doDeleteDimensionLines([QDimensionLine;Z) | do delete dimension lines
+void doDeleteFurniture([QHomePieceOfFurniture;Z) | do delete furniture
+void doDeleteItems(QList<QSelectable;>;) | do delete items
+void doDeleteLabel(QHome;QLabel;Z) | do delete label
+void doDeleteLabels([QLabel;Z) | do delete labels
+void doDeleteRooms([QRoom;Z) | do delete rooms
+void doDeleteWalls([QJoinedWall;Z) | do delete walls
+void forceDeleteAttributeAt(I) | force delete attribute at
+void postDeleteItems(QList<+QSelectable;>;Z) | post delete items
+void sendDeleteEntity(I) | send delete entity
+void setCustomSQLDeleteAll(QString;ZQExecuteUpdateResultCheckStyle;) | set custom sql delete all
+void setDeleteEmptyBins(Z) | set delete empty bins
+void setDeleteEventListeners([QDeleteEventListener;) | set delete event listeners
+void setDeleteFileOnCancel(Z) | set delete file on cancel
+void setEditDeleteEnable() | set edit delete enable
+void setPostCommitDeleteEventListeners([QPostDeleteEventListener;) | set post commit delete event listeners
+void setPostDeleteEventListeners([QPostDeleteEventListener;) | set post delete event listeners
+void setPreDeleteEventListeners([QPreDeleteEventListener;) | set pre delete event listeners
+void smartDeleteClassFiles(QMap<QFile;QSet<QString;>;>;) | smart delete class files
+void testCharacterDataImpl_deleteData() | test character data impl delete data
+void testDeleteAndCombine() | test delete and combine
+void testDeleteAndCombine2() | test delete and combine 2
+void testDeleteAndCombine3() | test delete and combine 3
+void testDeleteAndMergeTwoGaps() | test delete and merge two gaps
+void testDeleteBlockCommentMakesLineComment() | test delete block comment makes line comment
+void testDeleteDirectoryOnExit() | test delete directory on exit
+void testDeleteFileBeforeCloseAll() | test delete file before close all
+void testDeleteFileWhileOpen() | test delete file while open
+void testDeleteFreesBlockCommentEnd() | test delete frees block comment end
+void testDeleteNewlineAndShadowBlockCommentStart() | test delete newline and shadow block comment start
+void testStartDeleteGap() | test start delete gap
+void textDeleteDoc() | text delete doc
+void textGetLineDeleteText() | text get line delete text
+void textGetLineDeleteText2() | text get line delete text 2
+void writeDeleteStatement(QSession;QTable;[QObject;) | write delete statement

@@ -1,0 +1,59 @@
+boolean checkCurrentProject() | check current project
+boolean _closeProject() | close project
+boolean closeProject() | close project
+boolean _closeProject(Z) | close project
+boolean inProject() | in project
+boolean inProject(QFile;) | in project
+boolean saveAsProject() | save as project
+boolean saveAsURLProject() | save as url project
+File getCurrentProject() | get current project
+File[] getNewFilesInProject() | get new files in project
+IGanttProject getProject() | get project
+Map getFilesSortedToProject(List filesToCheck) | get files sorted to project
+PrjInfos createNewProject(QIGanttProject;QUIFacade;) | create new project
+Project basicCreateProject() | basic create project
+Project createProject() | create project
+Project getCurrentProject() | get current project
+ProjectRemote getProject() | get project
+void actualOpenProject(String fileName) | actual open project
+void afterSaveProject(QIGanttProject;) | after save project
+void autoRefreshProject() | auto refresh project
+void closeProject(Z) | close project
+void _compileProject() | compile project
+void compileProject() | compile project
+void configNewProject() | config new project
+void createNewProject(QFile;) | create new project
+void createProject(QIGanttProject;) | create project
+void _editProject() | edit project
+void exportOldProject(QFile;QHashMap<QOpenDefinitionsDocument;QDocumentInfoGetter;>;) | export old project
+void initProject(QApplication;QProject;) | init project
+void _junitProject() | junit project
+void junitProject() | junit project
+void _loadProject(QProjectFileIR;) | load project
+void _newProject() | new project
+void newProject() | new project
+void _openFileOrProject() | open file or project
+void openNewFilesInProject() | open new files in project
+void _openProject() | open project
+void openProject(QDocument;QIGanttProject;) | open project
+void openProject(QFile;) | open project
+void openProject(QFileOpenSelector;) | open project
+void openProject(QFile;QFileOpenSelector;) | open project
+void openProject(QIGanttProject;) | open project
+void openRemoteProject(QIGanttProject;) | open remote project
+void printProject() | print project
+void registerGanttProject(QGanttProject;) | register gantt project
+void reloadProject(QFile;QHashMap<QOpenDefinitionsDocument;QDocumentInfoGetter;>;) | reload project
+void _runProject() | run project
+void _saveProject() | save project
+void saveProject() | save project
+void saveProject(QDocument;) | save project
+void saveProject(QFile;QHashMap<QOpenDefinitionsDocument;QDocumentInfoGetter;>;) | save project
+void saveProject(QIGanttProject;) | save project
+void setCurrentProject(QProject;) | set current project
+void setProject(IProject project) | set project
+void testCloseAllClosesProject() | test close all closes project
+void testLegacyParseProject() | test legacy parse project
+void testParseProject() | test parse project
+void testSaveProject() | test save project
+void updateProject(QProject;QProject;) | update project

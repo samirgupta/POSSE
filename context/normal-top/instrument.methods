@@ -1,0 +1,10 @@
+boolean isUnInstrumentable(CtClass cc) | is un instrumentable
+boolean loadInstruments() | load instruments
+boolean setInstrument(I) | set instrument
+boolean shouldInstrumentClass(QString;) | should instrument class
+boolean shouldInstrumentField(QString;QString;) | should instrument field
+Instrument getLoadedInstruments() | get loaded instruments
+int getInstrument() | get instrument
+String[] getInstrumentStrings() | get instrument strings
+void setCurrentInstrument() | set current instrument
+void setInstrument(I) | set instrument

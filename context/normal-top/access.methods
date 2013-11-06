@@ -1,0 +1,85 @@
+AccessDescription[] getAccessDescriptions() | get access descriptions
+Access getAccessGlobal() | get access global
+AccessibleRole getAccessibleRole() | get accessible role
+AccessibleText getAccessibleText() | get accessible text
+AccessMode getAccessMode() | get access mode
+AccessOptimizer getAccessOptimizer() | get access optimizer
+AEWin32Access getAccessor(Z) | get accessor
+boolean canAccess(I) | can access
+boolean handleReadAccess(QString;QString;) | handle read access
+boolean handleWriteAccess(QString;QString;) | handle write access
+boolean isAccessible(QHsqlName;) | is accessible
+boolean isAccessible(QHsqlName;I) | is accessible
+boolean isAccessible(QString;) | is accessible
+boolean isAccessibleTable(QTable;) | is accessible table
+boolean isBasicPropertyAccessor() | is basic property accessor
+boolean isDirectlyAccessible() | is directly accessible
+boolean isDirectlyAccessible(QObject;I) | is directly accessible
+boolean isStoredFileAccess() | is stored file access
+boolean setCurrentAccessibleValue(Number number) | set current accessible value
+boolean setPrivateAccessible(Z) | set private accessible
+boolean shouldTransformFieldAccess(QString;QString;QString;) | should transform field access
+boolean tryToMakeAccessible(QObject;) | try to make accessible
+byte getAccessFlags() | get access flags
+CollectionRegionAccessStrategy buildAccessStrategy(QAccessType;) | build access strategy
+CollectionRegionAccessStrategy getCacheAccessStrategy() | get cache access strategy
+DERObjectIdentifier getAccessMethod() | get access method
+DiskAccessController getDefaultDiskAccessController() | get default disk access controller
+DiskAccessController getDiskAccessController() | get disk access controller
+EntityRegionAccessStrategy buildAccessStrategy(QAccessType;) | build access strategy
+EntityRegionAccessStrategy getCacheAccessStrategy() | get cache access strategy
+Expression expandArrayAccess(Environment env, ArrayAccess expr) | expand array access
+FileAccess getFileAccess() | get file access
+GeneralName getAccessLocation() | get access location
+int getAccessCount() | get access count
+int getAccessCountCeiling(II) | get access count ceiling
+int getAccessibleChildrenCount() | get accessible children count
+int getAccessMode() | get access mode
+Iterator iterateAccessibleTriggerClassNames(QUser;) | iterate accessible trigger class names
+Iterator iterateAllAccessibleMethods(QSession;Z) | iterate all accessible methods
+ITexture operatorMemberAccessFromAPointer() | operator member access from a pointer
+JComponent getInputFormatAccessory() | get input format accessory
+JComponent getOutputFormatAccessory() | get output format accessory
+long getTableAccessCount() | get table access count
+Method findAccessor(QClass;QString;[QClass;I) | find accessor
+Method searchAccessibleMethod(QMethod;[QClass;) | search accessible method
+Node attributeAccess(QNode;I) | attribute access
+PropertyAccessor buildPropertyAccessor(QProperty;) | build property accessor
+PropertyAccessor getDom4jPropertyAccessor(QString;QType;QSessionFactoryImplementor;) | get dom 4 j property accessor
+PropertyAccessor getDynamicMapPropertyAccessor() | get dynamic map property accessor
+PropertyAccessor getPojoPropertyAccessor(QString;) | get pojo property accessor
+PropertyAccessor getPropertyAccessor(QClass;) | get property accessor
+PropertyAccessor getPropertyAccessor(QClass;QString;) | get property accessor
+PropertyAccessor getPropertyAccessor(QProperty;QEntityMode;) | get property accessor
+PropertyAccessor getPropertyAccessor(QString;) | get property accessor
+PropertyAccessor resolveCustomAccessor(QString;) | resolve custom accessor
+String accessModifiersAsShouldBe(IMethodInfo oldmth, IMethodInfo newmth) | access modifiers as should be
+String getAccessibleDescription() | get accessible description
+String getAccessorPropertyName(QEntityMode;) | get accessor property name
+String getDefaultAccess() | get default access
+String getMediaAccessKey() | get media access key
+String getPropertyAccessorName() | get property accessor name
+void accessCheck() | access check
+void begin_class(int version, int access, String className, Type superType, Type interfaces, String sourceFile) | begin class
+void checkAccess(QString;QRPRequest;) | check access
+void checkTableWriteAccess(QSession;QTable;) | check table write access
+void checkTableWriteAccess(QTable;I) | check table write access
+void clearAccessibleSelection() | clear accessible selection
+void findAccessors(QClass;[QString;[QString;[QClass;[QMethod;[QMethod;) | find accessors
+void _getAccessibleRowExtentAt() | get accessible row extent at
+void lookForVariableAccess(QOptFunctionNode;QNode;) | look for variable access
+void reserveAccess(QString;) | reserve access
+void resetAccessCount() | reset access count
+void setAccessCountFloor(I) | set access count floor
+void setAccessMode(I) | set access mode
+void setAccessModeSupport(I) | set access mode support
+void setDefaultAccess(QString;) | set default access
+void setDirectlyAccessible(Z) | set directly accessible
+void setInterpreterPrivateAccessible(boolean accessible) | set interpreter private accessible
+void setInterpreterPrivateAccessible(Z) | set interpreter private accessible
+void setMediaAccessKey(QString;) | set media access key
+void setPrivateAccessible(Z) | set private accessible
+void setPropertyAccessorName(QString;) | set property accessor name
+void setXMLAccess(XMLAccess xmlAccess) | set xml access
+void testAccessIdFieldAfterContextIsNotActive() | test access id field after context is not active
+void traverseArrayAccessExpression(ArrayAccessExpression aae) | traverse array access expression

@@ -1,0 +1,33 @@
+BeanConnection createBeanConnection(IIQString;Z) | create bean connection
+BeanContext getBeanContext() | get bean context
+BeanContextServices getSourceAsBeanContextServices() | get source as bean context services
+BeanDescriptor getBeanDescriptor() | get bean descriptor
+Class getBeanType(String bean) | get bean type
+Element writeBeanConnection(QElement;QObject;QString;) | write bean connection
+Element writeBeanInstance(QElement;QObject;QString;) | write bean instance
+Element writeBeanLoader(QElement;QObject;QString;) | write bean loader
+Element writeBeanSaver(QElement;QObject;QString;) | write bean saver
+Element writeBeanVisual(QElement;QObject;QString;) | write bean visual
+JRDataSource createBeanCollectionDatasource() | create bean collection datasource
+Object readBeanConnection(QElement;) | read bean connection
+Object readBeanInstance(QElement;) | read bean instance
+Object readBeanVisual(QElement;) | read bean visual
+String getModelMBeanClassName() | get model m bean class name
+Vector getBeanConnectionRelation(QMetaBean;) | get bean connection relation
+Vector getBeanInfoInputs() | get bean info inputs
+Vector getBeanInfoOutputs() | get bean info outputs
+Vector getBeanInfos(QVector;I) | get bean infos
+Vector getBeanInfoSubFlow() | get bean info sub flow
+Vector getBeanInstances() | get bean instances
+Vector getBeanInstancesForIDs(QVector;) | get bean instances for ids
+Vector getIDsForBeanInstances(QVector;) | get ids for bean instances
+void addBeanConnectionRelation(QMetaBean;QString;) | add bean connection relation
+void addBeanInstances(QVector;) | add bean instances
+void rebuildBeanConnections(QVector;QObject;) | rebuild bean connections
+void removeBeanContextMembershipListener(BeanContextMembershipListener bcml) | remove bean context membership listener
+void setBeanConnection(QBeanConnection;QVector;) | set bean connection
+void setBeanContext(QBeanContext;) | set bean context
+void setBeanHome(BeanHome _home) | set bean home
+void setBeanInstances(QVector;QJComponent;) | set bean instances
+void setMBeanServer(MBeanServer server) | set m bean server
+void updateBeanFieldsOnly(Persistable beanToUpdate) | update bean fields only

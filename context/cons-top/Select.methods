@@ -1,0 +1,29 @@
+CONS SelectableAction(QFreeColClient;QString;QString;) | selectable action
+CONS SelectableAction(QFreeColClient;QString;QString;I) | selectable action
+CONS SelectableAction(QFreeColClient;QString;QString;IQKeyStroke;) | selectable action
+CONS SelectableAction(QFreeColClient;QString;QString;QKeyStroke;) | selectable action
+CONS SelectAllAction() | select all action
+CONS SelectAllAction(QModeController;) | select all action
+CONS SelectAmountDialog(QCanvas;QGoodsType;IZ) | select amount dialog
+CONS SelectAreaTracker() | select area tracker
+CONS SelectArtyAutoHitHexDisplay(QClientGUI;) | select arty auto hit hex display
+CONS SelectBranchAction(QModeController;) | select branch action
+CONS SelectColorsPanel() | select colors panel
+CONS SelectedContent() | selected content
+CONS SelectedContent(QDownloadManager;) | selected content
+CONS SelectedContent(QString;QString;) | selected content
+CONS SelectedContentV3() | selected content v 3
+CONS SelectedContentV3(QDownloadManager;) | selected content v 3
+CONS SelectedContentV3(QSelectedContent;) | selected content v 3
+CONS SelectedContentV3(QString;QString;ZZ) | selected content v 3
+CONS SelectedTag(I[QTag;) | selected tag
+CONS SelectedTag(QString;[QTag;) | selected tag
+CONS SelectFragment() | select fragment
+CONS SelectionEvent(QObject;QList<+QObject;>;) | selection event
+CONS SelectionTool() | selection tool
+CONS SelectLockingStrategy(QLockable;QLockMode;) | select locking strategy
+CONS SelectOption(QXMLStreamReader;) | select option
+CONS SelectOptionUI(QSelectOption;Z) | select option ui
+CONS SelectorGuard(QString;QGuardListener;) | selector guard
+CONS Select(QDialect;) | select
+CONS SelectSameAction(QDrawingEditor;) | select same action

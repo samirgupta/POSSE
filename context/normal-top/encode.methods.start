@@ -1,0 +1,67 @@
+boolean encodeObject(QObject;) | encode object
+boolean encodeToFile([BQString;) | encode to file
+ByteBuffer encodeEvent() | encode event
+byte[] encode3to4([B[BI) | encode 3 to 4
+byte[] encode3to4([BI) | encode 3 to 4
+byte[] encode3to4([BII[BI) | encode 3 to 4
+byte[] encodeBlock([BII) | encode block
+byte[] encodeContact(QDHTTransportContact;) | encode contact
+byte[] encodeKey([B) | encode key
+byte[] encodePublicKey() | encode public key
+byte[] encodePublishValue(QDHTTransportContact;) | encode publish value
+byte[] encodeRawPublicKey() | encode raw public key
+byte[] encodeSubscriptionDetails(QSubscriptionImpl;) | encode subscription details
+com.aelitis.azureus.core.networkmanager.RawMessage[] encodeMessage(Qcom.aelitis.azureus.core.peermanager.messaging.Message;) | encode message
+int encodeDouble(char ch) | encode double
+int encodeStyle() | encode style
+int encodeTableColumnAttrs(I) | encode table column attrs
+List encodeToJSONArray(QCollection;) | encode to json array
+Map encodeToJSONObject(QMap;) | encode to json object
+RawMessage encodeBitField() | encode bit field
+RawMessage encodeChoke() | encode choke
+RawMessage encodeHandShake(QMessage;) | encode hand shake
+RawMessage encodeMessage(QMessage;) | encode message
+RawMessage[] encodeMessage(QMessage;) | encode message
+RawMessage[] encodePiece(QMessage;) | encode piece
+RawMessage encodeUnchoke() | encode unchoke
+StringBuffer encodeToXML(QMap;Z) | encode to xml
+String encodeBookmarkRelative(QFileRegion;QString;) | encode bookmark relative
+String encodeBreakpointRelative(QDebugBreakpointData;QString;) | encode breakpoint relative
+String encodeBytes([B) | encode bytes
+String encodeBytes([BI) | encode bytes
+String encodeBytes([BII) | encode bytes
+String encodeBytes([BIII) | encode bytes
+String encodeBytes([BIIZ) | encode bytes
+String encodeBytes([BZ) | encode bytes
+String encodeBytesToString([B) | encode bytes to string
+String encodeColor(QColor;) | encode color
+String encodeDocFileAbsolute(QDocFile;QString;) | encode doc file absolute
+String encodeDocFile(QDocFile;QString;Z) | encode doc file
+String encodeDocFileRelative(QDocFile;QString;) | encode doc file relative
+String encodeEntry(QFileListEntry;) | encode entry
+String encodeFieldType(QClass;) | encode field type
+String encodeFileAbsolute(QFile;QString;) | encode file absolute
+String encodeFileRelative(QFile;QString;QFile;) | encode file relative
+String encodeFromFile(QString;) | encode from file
+String encodeHeader(QhttpRequest;) | encode header
+String encodeHTML(QString;) | encode html
+String encodeIntArray([I) | encode int array
+String encodeObject(Qjava.io.Serializable;) | encode object
+String encodeObject(Qjava.io.Serializable;I) | encode object
+String encodeObject(Qjava.io.Serializable;Z) | encode object
+String encodeParameters(QMap;[QString;) | encode parameters
+String encodeStringArray([[QString;) | encode string array
+String encodeStringArray([QString;) | encode string array
+String encodeString([B) | encode string
+String encodeString([BII) | encode string
+String encodeString(QString;) | encode string
+String encodeString(QString;QString;) | encode string
+String encodeString(QString;Z) | encode string
+String encodeToJSON(QCollection;) | encode to json
+String encodeToJSON(QMap;) | encode to json
+String encodeTransporters(QEntity;) | encode transporters
+String encodeUrl(String url) | encode url
+String encodeURL(String url) | encode url
+String encodeWatch(QDebugWatchData;QString;) | encode watch
+void encodeData(QPacket;QWriter;) | encode data
+void encodeResults(QSubscription;QMap;) | encode results

@@ -1,0 +1,13 @@
+boolean TRACE_CLEANUP | trace cleanup
+edu.rice.cs.drjava.config.BooleanOption PROMPT_BEFORE_CLEAN | prompt before clean
+edu.rice.cs.util.swing.AsyncTask<java.io.File,java.util.List<java.io.File>> _findFilesToCleanTask | find files to clean task
+int CACHE_CLEANER_TICKS | cache cleaner ticks
+int clean_count | clean count
+int IMMEDIATE_CLEANUP_GOAL | immediate cleanup goal
+int IMMEDIATE_CLEANUP_TRIGGER | immediate cleanup trigger
+int SCHEDULED_CLEANUP_GOAL | scheduled cleanup goal
+int SCHEDULED_CLEANUP_INTERVAL | scheduled cleanup interval
+int SCHEDULED_CLEANUP_TRIGGER | scheduled cleanup trigger
+long cleaner_ticks | cleaner ticks
+net.sourceforge.ganttproject.task.dependency.TaskDependencyCollectionImpl.MutationInfo myCleanupMutation | my cleanup mutation
+thePackage.CleanupHandler cleanupHandler | cleanup handler

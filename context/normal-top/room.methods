@@ -1,0 +1,62 @@
+ControllerState getRoomAreaOffsetState() | get room area offset state
+ControllerState getRoomCreationState() | get room creation state
+ControllerState getRoomDrawingState() | get room drawing state
+ControllerState getRoomNameOffsetState() | get room name offset state
+ControllerState getRoomResizeState() | get room resize state
+DialogView createRoomView(QUserPreferences;QRoomController;) | create room view
+float getRoomHeightAt(FF) | get room height at
+float getRoomSideLength(QRoom;I) | get room side length
+Geometry[] createRoomGeometries(IQHomeTexture;) | create room geometries
+Integer getRoomSideAngle(QRoom;I) | get room side angle
+JDialog showRoomPanel(QUserPreferences;QHomeController;QJFrame;QJComponentTester;) | show room panel
+List<QGeneralPath;> getRoomPathsFromWalls() | get room paths from walls
+List<QRoom;> getRooms() | get rooms
+List<QRoom;> getRoomsSubList(QList<+QSelectable;>;) | get rooms sub list
+Node createRoomPartShape() | create room part shape
+Room createRoomAt(FF) | create room at
+Room createRoom(FFFF) | create room
+Room getResizedRoomAt(FF) | get resized room at
+Room getRoom() | get room
+Room getRoomAreaAt(FF) | get room area at
+Room getRoomNameAt(FF) | get room name at
+String getRoomList() | get room list
+void addRoomListener(QGroup;) | add room listener
+void addRoom(QRoom;) | add room
+void addRoom(QRoom;I) | add room
+void addRoomsListener(QCollectionListener<QRoom;>;) | add rooms listener
+void addRooms(QList<QRoom;>;) | add rooms
+void createWallsAroundRoom(QRoom;) | create walls around room
+void deleteRoom(QRoom;) | delete room
+void doAddRooms([QRoom;[IZ) | do add rooms
+void doDeleteRooms([QRoom;Z) | do delete rooms
+void doModifyRooms([QModifiedRoom;QString;QBoolean;QBoolean;QInteger;QHomeTexture;QBoolean;QInteger;QHomeTexture;) | do modify rooms
+void endRoomSide() | end room side
+void ensureRoom(I) | ensure room
+void ModifiedRoom(QRoom;) | modified room
+void modifyRooms() | modify rooms
+void modifySelectedRooms() | modify selected rooms
+void moveRoomPoint(QRoom;FFI) | move room point
+void paintRoomAlignmentFeedback(QGraphics2D;QRoom;QPoint2D;ZQPaint;QStroke;FQPaint;QStroke;) | paint room alignment feedback
+void paintRoomAreaOffsetIndicator(QGraphics2D;QRoom;QPaint;F) | paint room area offset indicator
+void paintRoomNameOffsetIndicator(QGraphics2D;QRoom;QPaint;F) | paint room name offset indicator
+void paintRoomResizeIndicators(QGraphics2D;QRoom;QPaint;F) | paint room resize indicators
+void paintRoomsNameAndArea(QGraphics2D;QList<QSelectable;>;FQColor;QPaintMode;) | paint rooms name and area
+void paintRoomsOutline(QGraphics2D;QList<QSelectable;>;QPaint;QStroke;QPaint;FQColor;) | paint rooms outline
+void paintRooms(QGraphics2D;QList<QSelectable;>;FQColor;QPaintMode;) | paint rooms
+void PointMagnetizedToClosestWallOrRoomPoint(QCollection<QRoom;>;FFF) | point magnetized to closest wall or room point
+void postCreateRooms(QList<QRoom;>;QList<QSelectable;>;Z) | post create rooms
+void postCreateRooms([QRoom;[IQList<QSelectable;>;Z) | post create rooms
+void postRoomAreaOffset(QRoom;FF) | post room area offset
+void postRoomNameOffset(QRoom;FF) | post room name offset
+void postRoomResize(QRoom;FFI) | post room resize
+void removeRoomsListener(QCollectionListener<QRoom;>;) | remove rooms listener
+void RoomsModificationUndoableEdit(QHome;QUserPreferences;QList<QSelectable;>;[QModifiedRoom;QString;QBoolean;QInteger;QHomeTexture;QBoolean;QInteger;QHomeTexture;QBoolean;) | rooms modification undoable edit
+void RoomTestFrame() | room test frame
+void showRoomAngleFeedback(QRoom;I) | show room angle feedback
+void testRoomCreation() | test room creation
+void undoModifyRooms([QModifiedRoom;) | undo modify rooms
+void updateRoomAppearance(Z) | update room appearance
+void updateRoomGeometry() | update room geometry
+void updateRoomPartAppearance(QAppearance;QHomeTexture;ZQInteger;Z) | update room part appearance
+void updateRoomPartGeometry(IQHomeTexture;) | update room part geometry
+void validateDrawnRoom() | validate drawn room

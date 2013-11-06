@@ -1,0 +1,12 @@
+CONS BackgroundImageWizardStepsPanel(QBackgroundImage;QUserPreferences;QBackgroundImageWizardController;) | background image wizard steps panel
+CONS GreedyStepwise() | greedy stepwise
+CONS ImportedFurnitureWizardStepsPanel(QCatalogPieceOfFurniture;QString;ZQUserPreferences;QImportedFurnitureWizardController;) | imported furniture wizard steps panel
+CONS ImportedTextureWizardStepsPanel(QCatalogTexture;QString;QUserPreferences;QImportedTextureWizardController;) | imported texture wizard steps panel
+CONS MoveStep(QMovePath;I) | move step
+CONS MoveStep(QMovePath;II) | move step
+CONS MoveStep(QMovePath;IQTargetable;) | move step
+CONS SteppedComboBox() | stepped combo box
+CONS SteppedComboBox(QComboBoxModel;) | stepped combo box
+CONS SteppedComboBox([QObject;) | stepped combo box
+CONS SteppedComboBox(QVector;) | stepped combo box
+CONS Step(QJPDADebugger;II) | step

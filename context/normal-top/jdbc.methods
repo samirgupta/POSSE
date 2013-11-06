@@ -1,0 +1,25 @@
+boolean isJdbcBatchVersionedData() | is jdbc batch versioned data
+boolean isJDBCConnection() | is jdbc connection
+boolean jdbcCompliant() | jdbc compliant
+Connection getJDBCConnection() | get jdbc connection
+Integer getJdbcFetchSize() | get jdbc fetch size
+int getJdbcBatchSize() | get jdbc batch size
+int getJDBCMajorVersion() | get jdbc major version
+int getJDBCMinorVersion() | get jdbc minor version
+java.lang.String getJDBCDriver() | get jdbc driver
+JDBCContext getJDBCContext() | get jdbc context
+String createJDBCurl(QDBStrings;) | create jdbc url
+String getDefaultJdbcDriverName() | get default jdbc driver name
+String getJdbcBatchSize() | get jdbc batch size
+String getJDBCdriver(QDBStrings;) | get jdbc driver
+String getJdbcFetchSize() | get jdbc fetch size
+String getJdbcTypeClass(I) | get jdbc type class
+void JdbcDelegate(QSessionImplementor;) | jdbc delegate
+void setDefaultJdbcDriver(QString;) | set default jdbc driver
+void setJdbcBatchSize(I) | set jdbc batch size
+void setJdbcBatchSize(QString;) | set jdbc batch size
+void setJdbcBatchVersionedData(Z) | set jdbc batch versioned data
+void setJDBCDriver(Qjava.lang.String;) | set jdbc driver
+void setJdbcFetchSize(QInteger;) | set jdbc fetch size
+void setJdbcFetchSize(QString;) | set jdbc fetch size
+void testJDBCSavepoints() | test jdbc savepoints

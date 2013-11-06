@@ -1,0 +1,12 @@
+CONS HistoryChangedEvent(QObject;QString;QDefaultListModel;) | history changed event
+CONS LanguageChangedEvent(Qjava.util.Locale;) | language changed event
+CONS ReportBandChangedEvent(QJReportFrame;QBand;I) | report band changed event
+CONS ReportElementChangedEvent(QJReportFrame;QReportElement;I) | report element changed event
+CONS ReportElementChangedEvent(QJReportFrame;QVector;I) | report element changed event
+CONS ReportSubDatasetChangedEvent(QJReportFrame;QVector;I) | report sub dataset changed event
+CONS ReportSubDatasetChangedEvent(QSubDataset;QObject;II) | report sub dataset changed event
+CONS ResultChangedEvent(QObject;QString;QString;QString;QString;) | result changed event
+CONS SheetPropertyValueChangedEvent(QString;QObject;QObject;QObject;) | sheet property value changed event
+CONS StyleChangedEvent(QObject;IQStyle;QStyle;) | style changed event
+CONS SubDatasetObjectChangedEvent(QSubDataset;IIQObject;QObject;) | sub dataset object changed event
+CONS ValueChangedEvent(QJComponent;DD) | value changed event

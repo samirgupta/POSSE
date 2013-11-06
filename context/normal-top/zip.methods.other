@@ -1,0 +1,19 @@
+boolean isGZipFile(QString;) | is g zip file
+boolean isZipFile(QString;) | is zip file
+boolean isZipName(QString;) | is zip name
+boolean loadMechsFromZipFile(QVector;QSet;JQFile;) | load mechs from zip file
+int getZipCount() | get zip count
+List<QString;> getZipUrlEntries(QURL;) | get zip url entries
+TestResult performTestsFromZipFile(File zfile) | perform tests from zip file
+void deleteZipTable() | delete zip table
+void extractAllFromZipArchive() | extract all from zip archive
+void selectZipTable() | select zip table
+void setZipFilePath(QDirEntry;) | set zip file path
+void setZipFile(QZipFile;) | set zip file
+void writeHomeZipEntries(QZipOutputStream;QString;QHomeURLContent;) | write home zip entries
+void writeResourceZipEntries(QZipOutputStream;QString;QResourceURLContent;) | write resource zip entries
+void writeZipEntries(QZipOutputStream;QString;QURLContent;) | write zip entries
+void writeZipEntry(QZipOutputStream;QString;QContent;) | write zip entry
+ZipEntry[] getSelectableZipEntries(QZipFile;) | get selectable zip entries
+ZipEntry getZipEntry(I) | get zip entry
+ZipFile getZipFile() | get zip file

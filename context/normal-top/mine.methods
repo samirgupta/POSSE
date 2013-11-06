@@ -1,0 +1,76 @@
+AmmoType createBAMineLauncherAmmo() | create ba mine launcher ammo
+boolean canClearMinefield(QAmmoType;) | can clear minefield
+boolean canDeliverMinefield(QAmmoType;) | can deliver minefield
+boolean canLayMine() | can lay mine
+boolean containsMinefield(QCoords;) | contains minefield
+boolean containsMinefield(QMinefield;) | contains minefield
+boolean hasMinefields() | has minefields
+boolean isClearingMinefield() | is clearing minefield
+boolean isLayingMines() | is laying mines
+boolean isMine() | is mine
+Enumeration getLayMinefieldActions() | get lay minefield actions
+Enumeration getMinedCoords() | get mined coords
+FastVector[] mineCARs(QInstances;) | mine ca rs
+Image getMinefieldSign() | get minefield sign
+int chooseMineToLay() | choose mine to lay
+int getMine() | get mine
+int getMineId() | get mine id
+int getMineToLay() | get mine to lay
+int getMineType() | get mine type
+int getNbrMinefields(QCoords;) | get nbr minefields
+MiscType createLightMinesweeper() | create light minesweeper
+MiscType createMine() | create mine
+MiscType createMinesweeper() | create minesweeper
+Vector calculateMinefieldDeployment() | calculate minefield deployment
+Vector getLayMinefieldActionsVector() | get lay minefield actions vector
+Vector getMinefields() | get minefields
+Vector getMinefields(QCoords;) | get minefields
+void addLayMinefieldAction(QLayMinefieldAction;) | add lay minefield action
+void addMinefieldHelper(QMinefield;) | add minefield helper
+void addMinefield(QMinefield;) | add minefield
+void addMinefields(QVector;) | add minefields
+void clearMinefields() | clear minefields
+void clearMinefieldsHelper() | clear minefields helper
+void deliverFASCAMMinefield(QCoords;I) | deliver fascam minefield
+void deliverThunderActiveMinefield(QCoords;II) | deliver thunder active minefield
+void deliverThunderAugMinefield(QCoords;II) | deliver thunder aug minefield
+void deliverThunderInfernoMinefield(QCoords;II) | deliver thunder inferno minefield
+void deliverThunderMinefield(QCoords;II) | deliver thunder minefield
+void deliverThunderVibraMinefield(QCoords;III) | deliver thunder vibra minefield
+void deployMinefield(QCoords;) | deploy minefield
+void deployMinefields(QVector;II) | deploy minefields
+void disableMineSetting() | disable mine setting
+void doEntityDisplacementMinefieldCheck(QEntity;QCoords;QCoords;) | do entity displacement minefield check
+void drawMinefields() | draw minefields
+void enableMinefields(Z) | enable minefields
+void enterMinefield(QEntity;QMinefield;QCoords;QCoords;Z) | enter minefield
+void enterMinefield(QEntity;QMinefield;QCoords;QCoords;ZI) | enter minefield
+void MineChoicePanel(QMounted;) | mine choice panel
+void processDeployMinefields(QVector;) | process deploy minefields
+void receiveDeployMinefields(QPacket;) | receive deploy minefields
+void receiveDeployMinefields(QPacket;I) | receive deploy minefields
+void receiveRemoveMinefield(QPacket;) | receive remove minefield
+void receiveRevealMinefield(QPacket;) | receive reveal minefield
+void receiveSendingMinefields(QPacket;) | receive sending minefields
+void refreshMinefield() | refresh minefield
+void removeMinefieldHelper(QMinefield;) | remove minefield helper
+void removeMinefield(QMinefield;) | remove minefield
+void removeMinefield(QPlayer;QMinefield;) | remove minefield
+void removeMinefields() | remove minefields
+void removeMinefieldsFrom(QCoords;) | remove minefields from
+void resetLayMinefieldActions() | reset lay minefield actions
+void resolveClearMinefieldAttempts(QVector;) | resolve clear minefield attempts
+void revealMinefield(QMinefield;) | reveal minefield
+void revealMinefield(QPlayer;QMinefield;) | reveal minefield
+void sendDeployMinefields(QVector;) | send deploy minefields
+void setClearingMinefield(Z) | set clearing minefield
+void setLayingMines(Z) | set laying mines
+void setMinefields(QVector;) | set minefields
+void setMinefieldType(EntityType pMinefieldType) | set minefield type
+void setMineToLay(I) | set mine to lay
+void setMineType(I) | set mine type
+void setMine(Z) | set mine
+void setupMinefield() | setup minefield
+void setupMines() | setup mines
+void updateMinefield() | update minefield
+WeaponType createBAMineLauncher() | create ba mine launcher

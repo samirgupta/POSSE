@@ -1,0 +1,638 @@
+../3-Phrases/Base_Verb:RenderableLayer buildShapesLayer() | build shapes layer
+../3-Phrases/Base_Verb:void buildEditRecord() | build edit record
+../3-Phrases/Base_Verb:JComponent buildJumping2Panel() | build jumping 2 panel
+../3-Phrases/Base_Verb:HashMap buildHashMap(Object valueObject, String collectionToGet, String fieldToUseAsKey, boolean setField, String fieldToUseToFillMap) | build hash map
+../3-Phrases/Base_Verb:DataObject buildDataObject(Data data) | build data object
+../3-Phrases/Base_Verb:Action buildDeleteAction(Configurable target) | build delete action
+../3-Phrases/Base_Verb:IDocumentImpl buildDocument(URL aUrl) | build document
+../3-Phrases/Base_Verb:void buildServer(String databaseList, String tableList) | build server
+../3-Phrases/Base_Verb:String buildBcc() | build bcc
+../3-Phrases/Base_Verb:List buildMaximalEdgeRings(Collection dirEdges) | build maximal edge rings
+../3-Phrases/Base_Verb:CartoucheInterface buildCartouche(int type, int leftPart, BasicItemListInterface e, int rightPart) | build cartouche
+../3-Phrases/Base_Verb:MyMenu buildImportMenu() | build import menu
+../3-Phrases/Base_Verb:String buildIntegerPatternString() | build integer pattern string
+../3-Phrases/Base_Verb:void buildExtraSchedules(List<Schedule> schedules, Schedule schedule, List<Map.Entry<CourseDescriptor,SortedSet<UniqueSection>>> extra, int index) | build extra schedules
+../3-Phrases/Base_Verb:boolean build_list(BlockControl the_block, SizeControl the_size) | build list
+../3-Phrases/Base_Verb:Collection buildConfigurationFile(String filename) | build configuration file
+../3-Phrases/Base_Verb:JPanel buildButtonsPanel() | build buttons panel
+../3-Phrases/Base_Verb:JMenu buildMainMenu() | build main menu
+../3-Phrases/Base_Verb:YAWLPopupMenuItem buildManageResourcingItem() | build manage resourcing item
+../3-Phrases/Base_Verb:void buildInitialContext() | build initial context
+../3-Phrases/Base_Verb:String buildPositionString() | build position string
+../3-Phrases/Base_Verb:Map buildMap(Attributes attributes) | build map
+../3-Phrases/Base_Verb:void buildLoggerMap(Element rootElem) | build logger map
+../3-Phrases/drjava2:void buildTree(I) | build tree
+../3-Phrases/drjava2:void buildGUI(QContainer;) | build gui
+../3-Phrases/drjava2:JPanel _buildDirectoryPanel() | build directory panel
+../3-Phrases/freecol2:void buildColony() | build colony
+../3-Phrases/freecol2:void buildGameMenu() | build game menu
+../3-Phrases/freecol2:void buildViewMenu() | build view menu
+../3-Phrases/freecol2:void buildToolsMenu() | build tools menu
+../3-Phrases/freecol2:void buildColopediaMenu() | build colo pe dia menu
+../3-Phrases/freecol2:JLabel buildGreyLayer() | build grey layer
+../3-Phrases/freecol2:void buildGameMenu() | build game menu
+../3-Phrases/freecol2:void buildViewMenu() | build view menu
+../3-Phrases/freecol2:void buildOrdersMenu() | build orders menu
+../3-Phrases/freecol2:void buildReportMenu() | build report menu
+../3-Phrases/freecol2:void buildColopediaMenu() | build colo pe dia menu
+../3-Phrases/freecol2:CONS BuildColonyAction(QFreeColClient;) | build colony action
+../3-Phrases/freecol2:void buildDebugMenu() | build debug menu
+../3-Phrases/freecol2:void buildIndianAdvisorPanel(QPlayer;QPlayer;) | build indian advisor panel
+../3-Phrases/freecol2:void buildList() | build list
+../3-Phrases/freecol2:void buildButton(QImage;QString;QMapTransform;) | build button
+../3-Phrases/freecol2:JTree buildTree() | build tree
+../3-Phrases/freecol2:void buildTerrainSubtree(QDefaultMutableTreeNode;) | build terrain subtree
+../3-Phrases/freecol2:void buildResourceSubtree(QDefaultMutableTreeNode;) | build resource subtree
+../3-Phrases/freecol2:void buildUnitSubtree(QDefaultMutableTreeNode;) | build unit subtree
+../3-Phrases/freecol2:void buildGoodsSubtree(QDefaultMutableTreeNode;) | build goods subtree
+../3-Phrases/freecol2:void buildSkillsSubtree(QDefaultMutableTreeNode;) | build skills subtree
+../3-Phrases/freecol2:void buildBuildingSubtree(QDefaultMutableTreeNode;) | build building subtree
+../3-Phrases/freecol2:void buildFathersSubtree(QDefaultMutableTreeNode;) | build fathers subtree
+../3-Phrases/freecol2:void buildNationsSubtree(QDefaultMutableTreeNode;) | build nations subtree
+../3-Phrases/freecol2:void buildNationTypesSubtree(QDefaultMutableTreeNode;) | build nation types subtree
+../3-Phrases/freecol2:void buildTerrainItem(QTileType;QDefaultMutableTreeNode;) | build terrain item
+../3-Phrases/freecol2:void buildResourceItem(QResourceType;QDefaultMutableTreeNode;) | build resource item
+../3-Phrases/freecol2:void buildUnitItem(QUnitType;FQDefaultMutableTreeNode;) | build unit item
+../3-Phrases/freecol2:void buildGoodsItem(QGoodsType;QDefaultMutableTreeNode;) | build goods item
+../3-Phrases/freecol2:void buildFatherItem(QFoundingFather;QDefaultMutableTreeNode;) | build father item
+../3-Phrases/freecol2:void buildNationItem(QNation;QDefaultMutableTreeNode;) | build nation item
+../3-Phrases/freecol2:void buildNationTypeItem(QNationType;QDefaultMutableTreeNode;) | build nation type item
+../3-Phrases/freecol2:void buildTerrainDetail(QTileType;) | build terrain detail
+../3-Phrases/freecol2:void buildResourceDetail(QResourceType;) | build resource detail
+../3-Phrases/freecol2:void buildUnitDetail(QUnitType;) | build unit detail
+../3-Phrases/freecol2:void buildGoodsDetail(QGoodsType;) | build goods detail
+../3-Phrases/freecol2:void buildBuildingDetail(QBuildingType;) | build building detail
+../3-Phrases/freecol2:void buildFatherDetail(QFoundingFather;) | build father detail
+../3-Phrases/freecol2:void buildNationDetail(QNation;) | build nation detail
+../3-Phrases/freecol2:void buildNationTypeDetail(QNationType;) | build nation type detail
+../3-Phrases/freecol2:void buildEuropeanNationTypeDetail(QEuropeanNationType;) | build european nation type detail
+../3-Phrases/freecol2:void buildIndianNationTypeDetail(QIndianNationType;) | build indian nation type detail
+../3-Phrases/freecol2:CONS BuildQueuePanel(QCanvas;) | build queue panel
+../3-Phrases/freecol2:void BuildQueueTransferable(QBuildQueue;) | build queue transferable
+../3-Phrases/freecol2:void BuildQueueCellRenderer() | build queue cell renderer
+../3-Phrases/freecol2:CONS BuildQueue() | build queue
+../3-Phrases/freecol2:CONS BuildQueue([QObject;) | build queue
+../3-Phrases/freecol2:CONS BuildQueue(QIterable<QBuildableType;>;) | build queue
+../3-Phrases/freecol2:CONS BuildQueue(QXMLStreamReader;) | build queue
+../3-Phrases/freecol2:CONS BuildQueue(QElement;) | build queue
+../3-Phrases/freecol2:CONS BuildQueue(QType;) | build queue
+../3-Phrases/freecol2:void buildColony(QColony;) | build colony
+../3-Phrases/freecol2:CONS BuildColonyMission(QAIMain;QAIUnit;QTile;I) | build colony mission
+../3-Phrases/freecol2:CONS BuildColonyMission(QAIMain;QAIUnit;) | build colony mission
+../3-Phrases/freecol2:CONS BuildColonyMission(QAIMain;QElement;) | build colony mission
+../3-Phrases/freecol2:CONS BuildColonyMission(QAIMain;QXMLStreamReader;) | build colony mission
+../3-Phrases/freecol2:Element buildColony(QConnection;QElement;) | build colony
+../3-Phrases/freemind:void buildClassList() | build class list
+../3-Phrases/freemind:void buildPanel() | build panel
+../3-Phrases/freemind:void buildShareMapSelectionGui() | build share map selection gui
+../3-Phrases/freemind:void buildConnectToServerGui() | build connect to server gui
+../3-Phrases/freemind:void buildSelectUserGui() | build select user gui
+../3-Phrases/freemind:void buildNotificationMessageGui(QString;QString;) | build notification message gui
+../3-Phrases/freemind:void buildMapShareAcceptDeclineGui(QString;) | build map share accept decline gui
+../3-Phrases/gantt:ResourceNode buildTree() | build tree
+../3-Phrases/gantt:void buildAssignmentsSubtree(QResourceNode;) | build assignments subtree
+../3-Phrases/gantt:void buildTasksLoadsRectangles(QList;I) | build tasks loads rectangles
+../3-Phrases/gantt:Component buildPageComponent(QIGanttProject;QUIFacade;) | build page component
+../3-Phrases/gantt:Component buildPageComponent(QIGanttProject;QUIFacade;) | build page component
+../3-Phrases/gantt:Component buildPageComponent(QIGanttProject;QUIFacade;) | build page component
+../3-Phrases/gantt:JComponent buildPage([QGPOptionGroup;QString;) | build page
+../3-Phrases/gantt:JComponent buildPlanePage([QGPOptionGroup;) | build plane page
+../3-Phrases/gantt:Component buildPageComponent(QIGanttProject;QUIFacade;) | build page component
+../3-Phrases/gantt:void buildDistanceGraph(QTask;) | build distance graph
+../3-Phrases/gantt:void buildDistanceGraph([QTaskDependency;I) | build distance graph
+../3-Phrases/hibernate-3.3.1.GA:String buildPropertyPath(QString;QString;) | build property path
+../3-Phrases/hibernate-3.3.1.GA:ProxyFactory buildProxyFactory() | build proxy factory
+../3-Phrases/hibernate-3.3.1.GA:BasicProxyFactory buildBasicProxyFactory(QClass;[QClass;) | build basic proxy factory
+../3-Phrases/hibernate-3.3.1.GA:ProxyFactory buildProxyFactory() | build proxy factory
+../3-Phrases/hibernate-3.3.1.GA:BasicProxyFactory buildBasicProxyFactory(QClass;[QClass;) | build basic proxy factory
+../3-Phrases/hibernate-3.3.1.GA:ProxyFactory buildProxyFactory() | build proxy factory
+../3-Phrases/hibernate-3.3.1.GA:BasicProxyFactory buildBasicProxyFactory(QClass;[QClass;) | build basic proxy factory
+../3-Phrases/hibernate-3.3.1.GA:CollectionRegionAccessStrategy buildAccessStrategy(QAccessType;) | build access strategy
+../3-Phrases/hibernate-3.3.1.GA:Cache buildCache(QString;QProperties;) | build cache
+../3-Phrases/hibernate-3.3.1.GA:Cache buildCache(QString;QProperties;) | build cache
+../3-Phrases/hibernate-3.3.1.GA:Cache buildCache(QString;QProperties;) | build cache
+../3-Phrases/hibernate-3.3.1.GA:EntityRegionAccessStrategy buildAccessStrategy(QAccessType;) | build access strategy
+../3-Phrases/hibernate-3.3.1.GA:EntityRegion buildEntityRegion(QString;QProperties;QCacheDataDescription;) | build entity region
+../3-Phrases/hibernate-3.3.1.GA:CollectionRegion buildCollectionRegion(QString;QProperties;QCacheDataDescription;) | build collection region
+../3-Phrases/hibernate-3.3.1.GA:QueryResultsRegion buildQueryResultsRegion(QString;QProperties;) | build query results region
+../3-Phrases/hibernate-3.3.1.GA:TimestampsRegion buildTimestampsRegion(QString;QProperties;) | build timestamps region
+../3-Phrases/hibernate-3.3.1.GA:EntityRegion buildEntityRegion(QString;QProperties;QCacheDataDescription;) | build entity region
+../3-Phrases/hibernate-3.3.1.GA:CollectionRegion buildCollectionRegion(QString;QProperties;QCacheDataDescription;) | build collection region
+../3-Phrases/hibernate-3.3.1.GA:QueryResultsRegion buildQueryResultsRegion(QString;QProperties;) | build query results region
+../3-Phrases/hibernate-3.3.1.GA:TimestampsRegion buildTimestampsRegion(QString;QProperties;) | build timestamps region
+../3-Phrases/hibernate-3.3.1.GA:EntityRegion buildEntityRegion(QString;QProperties;QCacheDataDescription;) | build entity region
+../3-Phrases/hibernate-3.3.1.GA:CollectionRegion buildCollectionRegion(QString;QProperties;QCacheDataDescription;) | build collection region
+../3-Phrases/hibernate-3.3.1.GA:QueryResultsRegion buildQueryResultsRegion(QString;QProperties;) | build query results region
+../3-Phrases/hibernate-3.3.1.GA:TimestampsRegion buildTimestampsRegion(QString;QProperties;) | build timestamps region
+../3-Phrases/hibernate-3.3.1.GA:CollectionRegionAccessStrategy buildAccessStrategy(QAccessType;) | build access strategy
+../3-Phrases/hibernate-3.3.1.GA:EntityRegionAccessStrategy buildAccessStrategy(QAccessType;) | build access strategy
+../3-Phrases/hibernate-3.3.1.GA:ResultSetMappingDefinition buildResultSetMappingDefinition(QElement;QString;QMappings;) | build result set mapping definition
+../3-Phrases/hibernate-3.3.1.GA:void buildMappings() | build mappings
+../3-Phrases/hibernate-3.3.1.GA:SessionFactory buildSessionFactory() | build session factory
+../3-Phrases/hibernate-3.3.1.GA:Settings buildSettings() | build settings
+../3-Phrases/hibernate-3.3.1.GA:Settings buildSettings(QProperties;) | build settings
+../3-Phrases/hibernate-3.3.1.GA:Mapping buildMapping() | build mapping
+../3-Phrases/hibernate-3.3.1.GA:Settings buildSettings(QProperties;) | build settings
+../3-Phrases/hibernate-3.3.1.GA:BytecodeProvider buildBytecodeProvider(QString;) | build bytecode provider
+../3-Phrases/hibernate-3.3.1.GA:BytecodeProvider buildBytecodeProvider(QProperties;) | build bytecode provider
+../3-Phrases/hibernate-3.3.1.GA:BytecodeProvider buildBytecodeProvider(QString;) | build bytecode provider
+../3-Phrases/hibernate-3.3.1.GA:String buildTableNameKey(QString;QString;QString;) | build table name key
+../3-Phrases/hibernate-3.3.1.GA:CleanupSynch buildCleanupSynch(QObject;) | build cleanup synch
+../3-Phrases/hibernate-3.3.1.GA:Session buildOrObtainSession() | build or obtain session
+../3-Phrases/hibernate-3.3.1.GA:Session buildOrObtainSession() | build or obtain session
+../3-Phrases/hibernate-3.3.1.GA:CleanupSynch buildCleanupSynch() | build cleanup synch
+../3-Phrases/hibernate-3.3.1.GA:SQLExceptionConverter buildSQLExceptionConverter() | build sql exception converter
+../3-Phrases/hibernate-3.3.1.GA:SQLExceptionConverter buildSQLExceptionConverter() | build sql exception converter
+../3-Phrases/hibernate-3.3.1.GA:Dialect buildDialect(QProperties;QString;I) | build dialect
+../3-Phrases/hibernate-3.3.1.GA:Dialect buildDialect(QString;) | build dialect
+../3-Phrases/hibernate-3.3.1.GA:String buildPropertyPath(QString;QString;) | build property path
+../3-Phrases/hibernate-3.3.1.GA:int[] buildPositionsArray() | build positions array
+../3-Phrases/hibernate-3.3.1.GA:ParameterMetadata buildNativeSQLParameterMetadata(QString;) | build native sql parameter metadata
+../3-Phrases/hibernate-3.3.1.GA:ParameterMetadata buildParameterMetadata(QParameterTranslations;QString;) | build parameter metadata
+../3-Phrases/hibernate-3.3.1.GA:SQLExceptionConverter buildSQLExceptionConverter(QDialect;QProperties;) | build sql exception converter
+../3-Phrases/hibernate-3.3.1.GA:SQLExceptionConverter buildMinimalSQLExceptionConverter() | build minimal sql exception converter
+../3-Phrases/hibernate-3.3.1.GA:StatementExecutor buildAppropriateStatementExecutor(QHqlSqlWalker;) | build appropriate statement executor
+../3-Phrases/hibernate-3.3.1.GA:QueryException buildIllegalCollectionDereferenceException(QString;QFromReferenceNode;) | build illegal collection dereference exception
+../3-Phrases/hibernate-3.3.1.GA:QueryException buildIllegalCollectionDereferenceException(QString;QFromReferenceNode;) | build illegal collection dereference exception
+../3-Phrases/hibernate-3.3.1.GA:Optimizer buildOptimizer(QString;QClass;I) | build optimizer
+../3-Phrases/hibernate-3.3.1.GA:DatabaseStructure buildDatabaseStructure(QProperties;QDialect;ZQString;II) | build database structure
+../3-Phrases/hibernate-3.3.1.GA:AccessCallback buildCallback(QSessionImplementor;) | build callback
+../3-Phrases/hibernate-3.3.1.GA:String buildSelectQuery(QDialect;) | build select query
+../3-Phrases/hibernate-3.3.1.GA:String buildUpdateQuery() | build update query
+../3-Phrases/hibernate-3.3.1.GA:String buildInsertQuery() | build insert query
+../3-Phrases/hibernate-3.3.1.GA:AccessCallback buildCallback(QSessionImplementor;) | build callback
+../3-Phrases/hibernate-3.3.1.GA:AccessCallback buildCallback(QSessionImplementor;) | build callback
+../3-Phrases/hibernate-3.3.1.GA:CurrentSessionContext buildCurrentSessionContext() | build current session context
+../3-Phrases/hibernate-3.3.1.GA:Map buildNamedParameterLocMap(QQueryParameters;) | build named parameter loc map
+../3-Phrases/hibernate-3.3.1.GA:Object buildResultRow([QObject;QResultSet;ZQSessionImplementor;) | build result row
+../3-Phrases/hibernate-3.3.1.GA:String buildSqlDropIndexString(QDialect;QTable;QString;QString;QString;) | build sql drop index string
+../3-Phrases/hibernate-3.3.1.GA:String buildSqlCreateIndexString(QDialect;QString;QTable;QIterator;ZQString;QString;) | build sql create index string
+../3-Phrases/hibernate-3.3.1.GA:Type buildType() | build type
+../3-Phrases/hibernate-3.3.1.GA:TransactionFactory buildTransactionFactory(QProperties;) | build transaction factory
+../3-Phrases/hibernate-3.3.1.GA:IdentifierProperty buildIdentifierProperty(QPersistentClass;QIdentifierGenerator;) | build identifier property
+../3-Phrases/hibernate-3.3.1.GA:VersionProperty buildVersionProperty(QProperty;Z) | build version property
+../3-Phrases/hibernate-3.3.1.GA:StandardProperty buildStandardProperty(QProperty;Z) | build standard property
+../3-Phrases/hibernate-3.3.1.GA:Instantiator buildInstantiator(QComponent;) | build instantiator
+../3-Phrases/hibernate-3.3.1.GA:PropertyAccessor buildPropertyAccessor(QProperty;) | build property accessor
+../3-Phrases/hibernate-3.3.1.GA:Getter buildGetter(QComponent;QProperty;) | build getter
+../3-Phrases/hibernate-3.3.1.GA:Setter buildSetter(QComponent;QProperty;) | build setter
+../3-Phrases/hibernate-3.3.1.GA:Instantiator buildInstantiator(QComponent;) | build instantiator
+../3-Phrases/hibernate-3.3.1.GA:PropertyAccessor buildPropertyAccessor(QProperty;) | build property accessor
+../3-Phrases/hibernate-3.3.1.GA:Getter buildGetter(QComponent;QProperty;) | build getter
+../3-Phrases/hibernate-3.3.1.GA:Setter buildSetter(QComponent;QProperty;) | build setter
+../3-Phrases/hibernate-3.3.1.GA:Instantiator buildInstantiator(QComponent;) | build instantiator
+../3-Phrases/hibernate-3.3.1.GA:Getter buildGetter(QComponent;QProperty;) | build getter
+../3-Phrases/hibernate-3.3.1.GA:Setter buildSetter(QComponent;QProperty;) | build setter
+../3-Phrases/hibernate-3.3.1.GA:Instantiator buildInstantiator(QComponent;) | build instantiator
+../3-Phrases/hibernate-3.3.1.GA:Getter buildGetter(QComponent;QProperty;) | build getter
+../3-Phrases/hibernate-3.3.1.GA:Setter buildSetter(QComponent;QProperty;) | build setter
+../3-Phrases/hibernate-3.3.1.GA:ComponentTuplizer buildComponentTuplizer(QString;QComponent;) | build component tuplizer
+../3-Phrases/hibernate-3.3.1.GA:ProxyFactory buildProxyFactory(QPersistentClass;QGetter;QSetter;) | build proxy factory
+../3-Phrases/hibernate-3.3.1.GA:ProxyFactory buildProxyFactoryInternal(QPersistentClass;QGetter;QSetter;) | build proxy factory internal
+../3-Phrases/hibernate-3.3.1.GA:Instantiator buildInstantiator(QPersistentClass;) | build instantiator
+../3-Phrases/hibernate-3.3.1.GA:Getter buildPropertyGetter(QProperty;QPersistentClass;) | build property getter
+../3-Phrases/hibernate-3.3.1.GA:Setter buildPropertySetter(QProperty;QPersistentClass;) | build property setter
+../3-Phrases/hibernate-3.3.1.GA:PropertyAccessor buildPropertyAccessor(QProperty;) | build property accessor
+../3-Phrases/hibernate-3.3.1.GA:Getter buildPropertyGetter(QProperty;QPersistentClass;) | build property getter
+../3-Phrases/hibernate-3.3.1.GA:Setter buildPropertySetter(QProperty;QPersistentClass;) | build property setter
+../3-Phrases/hibernate-3.3.1.GA:Instantiator buildInstantiator(QPersistentClass;) | build instantiator
+../3-Phrases/hibernate-3.3.1.GA:ProxyFactory buildProxyFactory(QPersistentClass;QGetter;QSetter;) | build proxy factory
+../3-Phrases/hibernate-3.3.1.GA:EntityTuplizer buildEntityTuplizer(QString;QPersistentClass;QEntityMetamodel;) | build entity tuplizer
+../3-Phrases/hibernate-3.3.1.GA:PropertyAccessor buildPropertyAccessor(QProperty;) | build property accessor
+../3-Phrases/hibernate-3.3.1.GA:Getter buildPropertyGetter(QProperty;QPersistentClass;) | build property getter
+../3-Phrases/hibernate-3.3.1.GA:Setter buildPropertySetter(QProperty;QPersistentClass;) | build property setter
+../3-Phrases/hibernate-3.3.1.GA:Instantiator buildInstantiator(QPersistentClass;) | build instantiator
+../3-Phrases/hibernate-3.3.1.GA:ProxyFactory buildProxyFactory(QPersistentClass;QGetter;QSetter;) | build proxy factory
+../3-Phrases/hibernate-3.3.1.GA:Getter buildPropertyGetter(QProperty;QPersistentClass;) | build property getter
+../3-Phrases/hibernate-3.3.1.GA:Setter buildPropertySetter(QProperty;QPersistentClass;) | build property setter
+../3-Phrases/hibernate-3.3.1.GA:Instantiator buildInstantiator(QPersistentClass;) | build instantiator
+../3-Phrases/hibernate-3.3.1.GA:ProxyFactory buildProxyFactory(QPersistentClass;QGetter;QSetter;) | build proxy factory
+../3-Phrases/hibernate-3.3.1.GA:Configuration buildConfiguration() | build configuration
+../3-Phrases/hibernate-3.3.1.GA:Properties buildProperties() | build properties
+../3-Phrases/hsqldb:Result buildResult(QSession;I) | build result
+../3-Phrases/Jabref:JPanel buildHeader(QJLabel;QJToolBar;) | build header
+../3-Phrases/Jabref:void buildGUI() | build gui
+../3-Phrases/Jabref:void buildPopupMenu() | build popup menu
+../3-Phrases/Jabref:JPanel buildMainPanel() | build main panel
+../3-Phrases/Jabref:JPanel buildButtonPanel() | build button panel
+../3-Phrases/Jabref:void buildExternalsPanel() | build externals panel
+../3-Phrases/Jabref:void buildList() | build list
+../3-Phrases/Jabref:void buildTokenTypeASTClassMap() | build token type ast class map
+../3-Phrases/javaHMO:JPanel buildHeader(QJLabel;) | build header
+../3-Phrases/jbidwatcher:JPanel buildButtonPane(QActionListener;) | build button pane
+../3-Phrases/jbidwatcher:JPanel buildSpendingLimits() | build spending limits
+../3-Phrases/jbidwatcher:JPanel buildCheckboxPanel() | build checkbox panel
+../3-Phrases/jbidwatcher:JPanel buildDropdownPanel() | build dropdown panel
+../3-Phrases/jbidwatcher:JPanel buildLinuxBrowserLaunch() | build linux browser launch
+../3-Phrases/jbidwatcher:JPanel buildOverridePreference() | build override preference
+../3-Phrases/jbidwatcher:JButton buildTestButton() | build test button
+../3-Phrases/jbidwatcher:JPanel buildCheckboxPanel() | build checkbox panel
+../3-Phrases/jbidwatcher:void buildNewConfigList(QJComboBox;QJTextField;) | build new config list
+../3-Phrases/jbidwatcher:JPanel buildAdvancedConfiguration() | build advanced configuration
+../3-Phrases/jbidwatcher:JPanel buildSnipeSettings() | build snipe settings
+../3-Phrases/jbidwatcher:String buildInfoHTML(QAuctionEntry;Z) | build info html
+../3-Phrases/jbidwatcher:String buildInfoHTML(QAuctionEntry;ZZ) | build info html
+../3-Phrases/jbidwatcher:void buildMenu(QJPopupMenu;) | build menu
+../3-Phrases/jbidwatcher:JPanel buildBottomPanel() | build bottom panel
+../3-Phrases/jbidwatcher:String buildHTMLComment(QAuctionEntry;) | build html comment
+../3-Phrases/jbidwatcher:StringBuffer buildHeaders(QString;[[B) | build headers
+../3-Phrases/jbidwatcher:StringBuffer buildHTML(QString;) | build html
+../3-Phrases/jbidwatcher:JPanel buildLinePanel(QString;QString;) | build line panel
+../3-Phrases/jbidwatcher:void buildTabList() | build tab list
+../3-Phrases/jbidwatcher:StringBuffer buildSaveBuffer(QXMLElement;QXMLElement;) | build save buffer
+../3-Phrases/jbidwatcher:StringBuffer buildHeaders(QString;[[B) | build headers
+../3-Phrases/jbidwatcher:StringBuffer buildHTML(QString;) | build html
+../3-Phrases/jbidwatcher:JPanel buildRadioButtons() | build radio buttons
+../3-Phrases/jbidwatcher:JPanel buildFirewallPrompt() | build firewall prompt
+../3-Phrases/jbidwatcher:JPanel buildProxyPanel() | build proxy panel
+../3-Phrases/jbidwatcher:JPanel buildHTTPSProxyPanel() | build https proxy panel
+../3-Phrases/jbidwatcher:Searcher buildSearch(JQString;QString;QString;QString;QString;I) | build search
+../3-Phrases/jbidwatcher:int buildEntryFlags(QAuctionEntry;) | build entry flags
+../3-Phrases/jbidwatcher:void buildCurrencyList(QJComboBox;) | build currency list
+../3-Phrases/jbidwatcher:void buildTabList() | build tab list
+../3-Phrases/jbidwatcher:JPanel buildDropdownPanel() | build dropdown panel
+../3-Phrases/jbidwatcher:JPanel buildColumnPanel() | build column panel
+../3-Phrases/jbidwatcher:JScrollPane buildSearchTable(QJSearchContext;) | build search table
+../3-Phrases/jbidwatcher:void buildPage(QString;QStringBuffer;) | build page
+../3-Phrases/jbidwatcher:String buildTitle(QJHTML;) | build title
+../3-Phrases/jbidwatcher:JPanel buildUsernamePanel() | build username panel
+../3-Phrases/jbidwatcher:JPanel buildCheckboxPanel() | build checkbox panel
+../3-Phrases/jbidwatcher:JPanel buildBrowseTargetPanel() | build browse target panel
+../3-Phrases/jbidwatcher:JPanel buildFilePathSettings() | build file path settings
+../3-Phrases/jbidwatcher:JPanel buildHeaderBar(QJFrame;QActionListener;) | build header bar
+../3-Phrases/jbidwatcher:JFrame buildFrame() | build frame
+../3-Phrases/JHotDraw-7.0.8:String buildMessage(QString;IQException;QString;Z) | build message
+../3-Phrases/MegaMek-0.32.0:LosEffects.AttackInfo buildAttackInfo(QCoords;QCoords;II) | build attack info
+../3-Phrases/MegaMek-0.32.0:void buildSouthParams(Z) | build south params
+../3-Phrases/MegaMek-0.32.0:void buildPointsArrays() | build points arrays
+../3-Phrases/MegaMek-0.32.0:LosEffects.AttackInfo buildAttackInfo(QCoords;QCoords;II) | build attack info
+../3-Phrases/MegaMek-0.32.0:void buildSouthParams(Z) | build south params
+../3-Phrases/MegaMek-0.32.0:void buildPointsArrays() | build points arrays
+../3-Phrases/MegaMek-0.32.0:void buildGridCity(III) | build grid city
+../3-Phrases/MegaMek-0.32.0:Vector buildTown(IIII) | build town
+../3-Phrases/MegaMek-0.32.0:void buildHubCity(III) | build hub city
+../3-Phrases/MegaMek-0.32.0:void buildMetroCity(II) | build metro city
+../3-Phrases/MegaMek-0.32.0:void buildStraightRoad(QCoords;II) | build straight road
+../3-Phrases/MegaMek-0.32.0:Entity[] buildFactionEntities(QProperties;QPlayer;) | build faction entities
+../3-Phrases/prefuse:void buildSpanningTree(QNode;) | build spanning tree
+../3-Phrases/rhino:Block[] buildBlocks([QNode;) | build blocks
+../3-Phrases/rhino:String buildIndicator(I) | build indicator
+../3-Phrases/rhino:void buildStatementList_r(QNode;QObjArray;) | build statement list r
+../3-Phrases/vuze:String buildID(QString;) | build id
+../3-Phrases/vuze:DHTStorageBlock[] buildKeyBlockDetails(QByteArrayHashMap;) | build key block details
+../3-Phrases/vuze:void buildObjectList(QControl;QArrayList;) | build object list
+../3-Phrases/vuze:void buildMenu(QShell;) | build menu
+../3-Phrases/vuze:void buildBackground(QControl;) | build background
+../3-Phrases/vuze:Point buildMaxSize([QRectangle;) | build max size
+../3-Phrases/vuze:void buildTopBarViews() | build top bar views
+../3-Phrases/vuze:void buildImage() | build image
+../3-Phrases/vuze:BERConstructedOctetString buildConstructedOctetString() | build constructed octet string
+../3-Phrases/vuze:DERObject buildObject(I[B) | build object
+../3-Phrases/vuze:DERObject buildObject(III) | build object
+../3-Phrases/vuze:BERConstructedOctetString buildConstructedOctetString(QDERObject;) | build constructed octet string
+../3-Phrases/vuze:BERConstructedOctetString buildDerConstructedOctetString(I) | build der constructed octet string
+../3-Phrases/vuze:ASN1EncodableVector buildEncodableVector(QDERObject;) | build encodable vector
+../3-Phrases/vuze:ASN1EncodableVector buildDerEncodableVector(I) | build der encodable vector
+../3-Phrases/vuze:void buildFileLookupTables(QTOTorrentFile;QString;) | build file lookup tables
+../3-Phrases/vuze:void buildFileLookupTables([QTOTorrentFile;QLocaleUtilDecoder;) | build file lookup tables
+../3-Phrases/vuze:void buildFileLookupTable(QTOTorrentFile;QLocaleUtilDecoder;C) | build file lookup table
+../3-Phrases/vuze:List buildLastPieceToFileList(QList;IJ) | build last piece to file list
+../3-Phrases/vuze:long buildFromPackages(QOutputStream;QClassLoader;[QString;QMap;QString;) | build from packages
+../3-Phrases/vuze:void buildFromResources(QOutputStream;QClassLoader;QString;[QString;QString;) | build from resources
+../3-Phrases/vuze:long buildFromResources2(QOutputStream;QClassLoader;QString;[QString;QString;) | build from resources 2
+../3-Phrases/vuze:long buildFromResourcesSupport(QJarOutputStream;QClassLoader;QString;[QString;) | build from resources support
+../3-Phrases/vuze:void buildMenu(QMenu;) | build menu
+../3-Phrases/vuze:void buildObjectList(QControl;QArrayList;) | build object list
+../3-Phrases/vuze:String buildName(QLocale;) | build name
+../3-Phrases/vuze:void buildPluginMenu(QMenu;QShell;Z) | build plugin menu
+../3-Phrases/vuze:void buildMenu(QMenu;) | build menu
+../3-Phrases/vuze:void buildMenu(QMenu;) | build menu
+../3-Phrases/vuze:void buildMenu(QMenu;) | build menu
+../3-Phrases/vuze:void buildMenu(QMenu;) | build menu
+../3-Phrases/vuze:void buildMenu(QMenu;) | build menu
+../3-Phrases/vuze:void buildMenu(QMenu;) | build menu
+../3-Phrases/vuze:GCStringPrinter buildSP(QGC;) | build sp
+../3-Phrases/vuze:void buildWindow() | build window
+../3-Phrases/vuze:void buildCat([QCategory;) | build cat
+../3-Phrases/vuze:void buildMenu(QMenu;) | build menu
+../3-Phrases/vuze:TableCellMouseEvent buildMouseEvent(QMouseEvent;I) | build mouse event
+../3-Phrases/vuze:void buildMenu(QMenu;) | build menu
+../3-Phrases/weka:void buildAssociations(QInstances;) | build associations
+../3-Phrases/weka:void buildAssociations(QInstances;) | build associations
+../3-Phrases/weka:void buildAssociations(QInstances;) | build associations
+../3-Phrases/weka:void buildAssociations(QInstances;) | build associations
+../3-Phrases/weka:Predicate buildPredicate(QInstances;QAttribute;Z) | build predicate
+../3-Phrases/weka:ArrayList buildPredicates() | build predicates
+../3-Phrases/weka:void buildAssociations(QInstances;) | build associations
+../3-Phrases/weka:void buildAssociations(QInstances;) | build associations
+../3-Phrases/weka:void buildDistribution(DD) | build distribution
+../3-Phrases/weka:void buildAssociations(QInstances;) | build associations
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildAttributeConstructor(QInstances;) | build attribute constructor
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildAttributeConstructor(QInstances;) | build attribute constructor
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildStructure() | build structure
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildStructure(QDocument;) | build structure
+../3-Phrases/weka:void buildInstances(QDocument;QString;) | build instances
+../3-Phrases/weka:void buildStructure(QBayesNet;QInstances;) | build structure
+../3-Phrases/weka:void buildStructure(QBayesNet;QInstances;) | build structure
+../3-Phrases/weka:void buildStructure(QBayesNet;QInstances;) | build structure
+../3-Phrases/weka:void buildStructure(QBayesNet;QInstances;) | build structure
+../3-Phrases/weka:void buildStructure(QBayesNet;QInstances;) | build structure
+../3-Phrases/weka:void buildStructure(QBayesNet;QInstances;) | build structure
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;IIZII) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:String buildLogisticModelsTipText() | build logistic models tip text
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildWeight() | build weight
+../3-Phrases/weka:void buildRLSRegression() | build rls regression
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildKernel(QInstances;) | build kernel
+../3-Phrases/weka:void buildKernel(QInstances;) | build kernel
+../3-Phrases/weka:void buildKernel(QInstances;) | build kernel
+../3-Phrases/weka:void buildKernel(QInstances;) | build kernel
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildKernel(QInstances;) | build kernel
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifierUsingResampling(QInstances;) | build classifier using resampling
+../3-Phrases/weka:void buildClassifierWithWeights(QInstances;) | build classifier with weights
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifierForNode(QNDTree;QInstances;) | build classifier for node
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildCNN() | build cnn
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;IIZII) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:String buildLogisticModelsTipText() | build logistic models tip text
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildKernel(QInstances;) | build kernel
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:double buildRuleset(QInstances;DQVector;) | build ruleset
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildRule(QInstances;QInstances;) | build rule
+../3-Phrases/weka:void buildDecList(QInstances;QInstances;Z) | build dec list
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildDecList(QInstances;Z) | build dec list
+../3-Phrases/weka:void buildRule(QInstances;) | build rule
+../3-Phrases/weka:void buildDecList(QInstances;Z) | build dec list
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildTree([[I[[DQInstances;D[DQInstances;DDII) | build tree
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildTree([[I[[DQInstances;[DQInstances;DZ[IQRandom;I) | build tree
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildTree([[I[[DQInstances;D[DQInstances;DDII) | build tree
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildTree([[I[[DQInstances;[DQInstances;DZ[IQRandom;I) | build tree
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildTree(QInstances;[[QSimpleLinearRegression;DD) | build tree
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildTree(QInstances;[[QSimpleLinearRegression;DD) | build tree
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildTree(QInstances;[[QSimpleLinearRegression;DD) | build tree
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildTree(QInstances;[[QSimpleLinearRegression;DD) | build tree
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildTree(QInstances;Z) | build tree
+../3-Phrases/weka:void buildTree(QInstances;QInstances;Z) | build tree
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildTree(QInstances;[[QSimpleLinearRegression;DD) | build tree
+../3-Phrases/weka:void buildClassifier(QInstances;[[D[[D) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildLinearModel([I) | build linear model
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:String buildRegressionTreeTipText() | build regression tree tip text
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildCoverTree(QInstances;) | build cover tree
+../3-Phrases/weka:void buildTree() | build tree
+../3-Phrases/weka:void buildKDTree(QInstances;) | build kd tree
+../3-Phrases/weka:BallNode buildTree() | build tree
+../3-Phrases/weka:BallNode buildTreeMiddleOut(II) | build tree middle out
+../3-Phrases/weka:void buildLeavesMiddleOut(QBallNode;) | build leaves middle out
+../3-Phrases/weka:BallNode buildTree() | build tree
+../3-Phrases/weka:BallNode buildTree() | build tree
+../3-Phrases/weka:BallNode buildTree() | build tree
+../3-Phrases/weka:void build_parser() | build parser
+../3-Phrases/weka:lalr_state build_machine(Qproduction;) | build machine
+../3-Phrases/weka:void build_table_entries(Qparse_action_table;Qparse_reduce_table;) | build table entries
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildEstimator(QEstimator;[QString;Z) | build estimator
+../3-Phrases/weka:void buildEstimator(QEstimator;QInstances;IIIZ) | build estimator
+../3-Phrases/weka:void buildBranch(QTreeNode;[QString;I) | build branch
+../3-Phrases/weka:void buildAssociations(QInstances;) | build associations
+../3-Phrases/weka:void buildClusterer() | build clusterer
+../3-Phrases/weka:void buildGenerator(QInstances;) | build generator
+../3-Phrases/weka:void buildGenerator(QInstances;) | build generator
+../3-Phrases/weka:void buildClassifierTree(QClassifier;) | build classifier tree
+../3-Phrases/weka:void buildDistribution(DD) | build distribution
+../3-Phrases/weka:Predicate buildPredicate(QInstances;QAttribute;Z) | build predicate
+../3-Phrases/weka:ArrayList buildPredicates() | build predicates
+../3-Phrases/weka:void buildAssociations(QInstances;) | build associations
+../3-Phrases/weka:void buildAssociations(QInstances;) | build associations
+../3-Phrases/weka:void buildAssociations(QInstances;) | build associations
+../3-Phrases/weka:void buildAssociations(QInstances;) | build associations
+../3-Phrases/weka:void buildAssociations(QInstances;) | build associations
+../3-Phrases/weka:void buildAssociations(QInstances;) | build associations
+../3-Phrases/weka:void buildAssociations(QInstances;) | build associations
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildAttributeConstructor(QInstances;) | build attribute constructor
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildAttributeConstructor(QInstances;) | build attribute constructor
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildEvaluator(QInstances;) | build evaluator
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClassifier(QInstances;) | build classifier
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildClusterer(QInstances;) | build clusterer
+../3-Phrases/weka:void buildEstimator(QEstimator;[QString;Z) | build estimator
+../3-Phrases/weka:void buildEstimator(QEstimator;QInstances;IIIZ) | build estimator
+../3-Phrases/weka:void buildBranch(QTreeNode;[QString;I) | build branch

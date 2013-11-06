@@ -1,0 +1,12 @@
+void torrentAdded(QTrackerTorrent;) | torrent added
+void torrentAdded(QTRHostTorrent;) | torrent added
+void torrentChanged() | torrent changed
+void torrentChanged(QTrackerTorrent;) | torrent changed
+void torrentChanged(QTRHostTorrent;) | torrent changed
+void torrentCreationFailed(QException;) | torrent creation failed
+void torrentListenerRegistered() | torrent listener registered
+void torrentRemoved(QString;QTOTorrent;) | torrent removed
+void torrentRemoved(QTrackerTorrent;) | torrent removed
+void torrentRemoved(QTRHostTorrent;) | torrent removed
+void torrentWillBeRemoved(QTrackerTorrent;) | torrent will be removed
+void torrentWillBeRemoved(QTRHostTorrent;) | torrent will be removed

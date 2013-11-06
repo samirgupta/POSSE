@@ -1,0 +1,12 @@
+CONS AlertDialog(QFrame;QString;QString;) | alert dialog
+CONS AlertDialog(QFrame;QString;QString;Z) | alert dialog
+CONS AlertItem(QWeatherContainer;QString;QString;QString;QString;QString;Z) | alert item
+CONS Alerts() | alerts
+CONS LogAlert([QObject;ZIQString;) | log alert
+CONS LogAlert(QObject;ZIQString;) | log alert
+CONS LogAlert(QObject;ZQString;QThrowable;) | log alert
+CONS LogAlert(ZIQString;) | log alert
+CONS LogAlert(ZIQString;I) | log alert
+CONS LogAlert(ZIQString;QThrowable;) | log alert
+CONS LogAlert(ZQString;QThrowable;) | log alert
+CONS UserAlerts(QGlobalManager;) | user alerts

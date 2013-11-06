@@ -1,0 +1,10 @@
+boolean setPacketSize(I) | set packet size
+byte getPacketType() | get packet type
+int getFirstPacketSample() | get first packet sample
+int getMaxIncomingInitialPacketSize(Z) | get max incoming initial packet size
+int getPacketSize() | get packet size
+int readPacketType(QInputStream;[BI) | read packet type
+PRUDPPacketHandler getPacketHandler() | get packet handler
+void createPacketHandler() | create packet handler
+void primordialPacketSent(I) | primordial packet sent
+void sendPacket2(SshPacket2 packet) | send packet 2

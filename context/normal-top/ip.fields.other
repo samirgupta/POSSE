@@ -1,0 +1,13 @@
+boolean apply_ip_filter | apply ip filter
+boolean bind_ip_set | bind ip set
+com.aelitis.azureus.core.util.bloom.BloomFilter bad_ip_bloom_filter | bad ip bloom filter
+int BAD_IP_BLOOM_FILTER_SIZE | bad ip bloom filter size
+int LT_IP_FILTER | lt ip filter
+int MAX_IP_OVERRIDE_PEERS | max ip override peers
+java.lang.String CONFIG_BIND_IP_DEFAULT | config bind ip default
+java.lang.String MENU_ID_IP_FILTER | menu id ip filter
+java.net.InetAddress last_public_ip_address | last public ip address
+java.util.Map bad_ip_map | bad ip map
+long BAN_IP_PERSIST_TIME | ban ip persist time
+long last_public_ip_address_time | last public ip address time
+org.gudy.azureus2.core3.util.AEMonitor bad_ip_map_mon | bad ip map mon

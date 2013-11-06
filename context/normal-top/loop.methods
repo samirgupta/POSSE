@@ -1,0 +1,40 @@
+boolean isLoopback() | is loopback
+boolean isLoopback(QString;) | is loopback
+boolean isLooping(QTaskDependency;) | is looping
+boolean isLooping(QTaskDependency;QSet;) | is looping
+DHTTransport createLoopback(I) | create loopback
+InetSocketAddress adjustLoopback(QInetSocketAddress;) | adjust loopback
+int getLoopCount() | get loop count
+Jump getLoop() | get loop
+Node createLoopNode(QNode;I) | create loop node
+Node createLoop(QNode.Jump;IQNode;QNode;QNode;QNode;) | create loop
+Node enterLoop(QNode;) | enter loop
+Node getLabelLoop(QNode;) | get label loop
+Object interpretLoop(QContext;QCallFrame;QObject;) | interpret loop
+void accept_loop() | accept loop
+void acceptLoop(QServerSocket;) | accept loop
+void acceptLoop(QServerSocketChannel;) | accept loop
+void assertIsLooping(QTask;QTask;) | assert is looping
+void closeLoop() | close loop
+void dispatchLoop() | dispatch loop
+void dumpThreadsLoop(QString;) | dump threads loop
+void exitLoop() | exit loop
+void InfiniteLoopException(QString;) | infinite loop exception
+void loop() | loop
+void mainLoop() | main loop
+void processLoop() | process loop
+void queryLoop() | query loop
+void readProcessorLoop() | read processor loop
+void receiveLoop(QAESemaphore;) | receive loop
+void recvLoop(QDatagramSocket;QInetSocketAddress;) | recv loop
+void selectLoop(QVirtualChannelSelector;) | select loop
+void serverLoop() | server loop
+void setLoopCount(I) | set loop count
+void setLoopingIcon(Icon loopingIcon) | set looping icon
+void setLoop(QJump;) | set loop
+void startLineLoop() | start line loop
+void stretchOutLoops(int ii) | stretch out loops
+void testInfiniteLoop() | test infinite loop
+void testLoopingDependencyTargetedAtSupertask() | test looping dependency targeted at super task
+void timerLoop() | timer loop
+void writeProcessorLoop() | write processor loop

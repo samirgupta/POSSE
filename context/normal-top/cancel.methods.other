@@ -1,0 +1,16 @@
+Action createCancelAction(QAction;QJDialog;QCommiter;) | create cancel action
+BTMessageCancel createCoreBTCancelAdaptation(QMessage;) | create core bt cancel adaptation
+JButton getCancelButton() | get cancel button
+JButton getJCancelButton() | get j cancel button
+long getCancelDelay() | get cancel delay
+void addCancelListener(QActionListener;) | add cancel listener
+void removeCancelListener(QActionListener;) | remove cancel listener
+void setCancelButton(Z) | set cancel button
+void setCancelColor(QColor;) | set cancel color
+void setCancelComponent(QAbstractButton;) | set cancel component
+void setCancelDelay(J) | set cancel delay
+void testCancelDoesNotChangeConfig() | test cancel does not change config
+void testCancelFirstSave() | test cancel first save
+void testCancelOpenFile() | test cancel open file
+void testCancelOpenMultipleFiles() | test cancel open multiple files
+void testHasCancel_False() | test has cancel false

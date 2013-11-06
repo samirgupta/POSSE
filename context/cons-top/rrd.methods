@@ -1,0 +1,66 @@
+CONS RrdBackend(QString;) | rrd backend
+CONS RrdDbPool() | rrd db pool
+CONS RrdDb(QRrdDef;) | rrd db
+CONS RrdDb(QRrdDef;QRrdBackendFactory;) | rrd db
+CONS RrdDb(QString;) | rrd db
+CONS RrdDb(QString;QRrdBackendFactory;) | rrd db
+CONS RrdDb(QString;QString;) | rrd db
+CONS RrdDb(QString;QString;QRrdBackendFactory;) | rrd db
+CONS RrdDb(QString;Z) | rrd db
+CONS RrdDb(QString;ZQRrdBackendFactory;) | rrd db
+CONS RrdDef(QString;) | rrd def
+CONS RrdDef(QString;J) | rrd def
+CONS RrdDef(QString;JJ) | rrd def
+CONS RrdDefTemplate(QFile;) | rrd def template
+CONS RrdDefTemplate(QInputSource;) | rrd def template
+CONS RrdDefTemplate(QString;) | rrd def template
+CONS RrdDoubleArray(QRrdUpdater;I) | rrd double array
+CONS RrdDouble(QRrdUpdater;) | rrd double
+CONS RRDException() | rrd exception
+CONS RrdException(QException;) | rrd exception
+CONS RrdException(QString;) | rrd exception
+CONS RRDException(QString;) | rrd exception
+CONS RrdExportDef() | rrd export def
+CONS RrdExportDef(JJ) | rrd export def
+CONS RrdExportDef(QDate;QDate;) | rrd export def
+CONS RrdExportDef(QGregorianCalendar;QGregorianCalendar;) | rrd export def
+CONS RrdExportDefTemplate(QFile;) | rrd export def template
+CONS RrdExportDefTemplate(QInputSource;) | rrd export def template
+CONS RrdExportDefTemplate(QString;) | rrd export def template
+CONS RrdExporter(QRrdExportDef;) | rrd exporter
+CONS RrdExporter(QRrdExportDef;QRrdOpener;) | rrd exporter
+CONS RrdExport(QRrdExportDef;) | rrd export
+CONS RrdExport(QRrdExportDef;I) | rrd export
+CONS RrdExport(QRrdExportDef;QRrdOpener;) | rrd export
+CONS RrdExport(QRrdExportDef;QRrdOpener;I) | rrd export
+CONS RrdFileBackend(QString;ZI) | rrd file backend
+CONS RRDFile(QFile;) | rrd file
+CONS RRDFile(QString;) | rrd file
+CONS RrdGraph() | rrd graph
+CONS RrdGraphDef() | rrd graph def
+CONS RrdGraphDef(JJ) | rrd graph def
+CONS RrdGraphDef(QDate;QDate;) | rrd graph def
+CONS RrdGraphDef(QGregorianCalendar;QGregorianCalendar;) | rrd graph def
+CONS RrdGraphDefTemplate(QFile;) | rrd graph def template
+CONS RrdGraphDefTemplate(QInputSource;) | rrd graph def template
+CONS RrdGraphDefTemplate(QString;) | rrd graph def template
+CONS RrdGraph(QRrdGraphDef;) | rrd graph
+CONS RrdGraph(QRrdGraphDef;Z) | rrd graph
+CONS RrdGraph(Z) | rrd graph
+CONS RrdInspector(QString;) | rrd inspector
+CONS RrdInt(QRrdUpdater;) | rrd int
+CONS RrdLong(QRrdUpdater;) | rrd long
+CONS RrdMemoryBackend(QString;) | rrd memory backend
+CONS RrdNioBackend(QString;ZIII) | rrd nio backend
+CONS RrdNode(QRrdDb;) | rrd node
+CONS RrdNode(QRrdDb;I) | rrd node
+CONS RrdNode(QRrdDb;II) | rrd node
+CONS RrdOpener(Z) | rrd opener
+CONS RrdOpener(ZZ) | rrd opener
+CONS RrdPrimitive(QRrdUpdater;I) | rrd primitive
+CONS RrdPrimitive(QRrdUpdater;II) | rrd primitive
+CONS RrdString(QRrdUpdater;) | rrd string
+CONS RrdtoolGraph(QString;) | rrdtool graph
+CONS RrdToolkit() | rrd toolkit
+CONS RrdToolReader(QString;) | rrd tool reader
+CONS RrdWriter() | rrd writer

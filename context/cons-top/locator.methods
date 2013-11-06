@@ -1,0 +1,25 @@
+CONS AbstractLocator() | abstract locator
+CONS AttributeLocator(QInstances;I) | attribute locator
+CONS AttributeLocator(QInstances;I[I) | attribute locator
+CONS AttributeLocator(QInstances;III) | attribute locator
+CONS BezierLabelLocator() | bezier label locator
+CONS BezierLabelLocator(DDD) | bezier label locator
+CONS BezierPointLocator(I) | bezier point locator
+CONS BezierPointLocator(II) | bezier point locator
+CONS FileLocator() | file locator
+CONS FontSizeLocator() | font size locator
+CONS LocatorConnector() | locator connector
+CONS LocatorConnector(QFigure;QLocator;) | locator connector
+CONS LocatorHandle(QFigure;QLocator;) | locator handle
+CONS LocatorLayouter() | locator layouter
+CONS RelationalLocator(QInstances;) | relational locator
+CONS RelationalLocator(QInstances;[I) | relational locator
+CONS RelationalLocator(QInstances;II) | relational locator
+CONS RelativeDecoratorLocator() | relative decorator locator
+CONS RelativeDecoratorLocator(DD) | relative decorator locator
+CONS RelativeDecoratorLocator(DDZ) | relative decorator locator
+CONS RelativeLocator() | relative locator
+CONS RelativeLocator(DD) | relative locator
+CONS StringLocator(QInstances;) | string locator
+CONS StringLocator(QInstances;[I) | string locator
+CONS StringLocator(QInstances;II) | string locator

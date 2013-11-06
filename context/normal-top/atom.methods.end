@@ -1,0 +1,14 @@
+Atom parseAtom(QTokens.SExpToken;) | parse atom
+boolean deleteAtom(Atom atom) | delete atom
+Integer forBoolAtom(QBoolAtom;) | for bool atom
+Integer forNumberAtom(QNumberAtom;) | for number atom
+Integer forTextAtom(QTextAtom;) | for text atom
+List<QInteger;> forBoolAtom(QBoolAtom;) | for bool atom
+List<QInteger;> forNumberAtom(QNumberAtom;) | for number atom
+List<QInteger;> forTextAtom(QTextAtom;) | for text atom
+Ret forBoolAtom(QBoolAtom;) | for bool atom
+Ret forNumberAtom(QNumberAtom;) | for number atom
+Ret forTextAtom(QTextAtom;) | for text atom
+String forBoolAtom(QBoolAtom;) | for bool atom
+String forNumberAtom(QNumberAtom;) | for number atom
+String forTextAtom(QTextAtom;) | for text atom

@@ -1,0 +1,305 @@
+boolean computed_piece_size | computed piece size
+boolean discard_pieces | discard pieces
+boolean emulated_ping_source | emulated ping source
+boolean enable_seeding_piece_rechecks | enable seeding piece rechecks
+boolean firstPiecePriority | first piece priority
+boolean flush_pieces | flush pieces
+boolean GET_PI_METHODS_OPERATIONAL_FLAG_DEFAULT | get pi methods operational flag default
+boolean hasNeededUndonePiece | has needed undone piece
+boolean[] hasPieces | has pieces
+boolean hide_a_piece | hide a piece
+boolean onePiecePerBlock | one piece per block
+boolean pieces | pieces
+boolean ping_mode | ping mode
+boolean ping_outstanding | ping outstanding
+boolean useVariancePingMap | use variance ping map
+byte AL_BT_PIECE | al bt piece
+byte AL_MSG_BT_PIECE | al msg bt piece
+byte[] ID_AZ_BAD_PIECE_BYTES | id az bad piece bytes
+byte[] ID_AZ_SESSION_PIECE_BYTES | id az session piece bytes
+byte[] ID_BT_PIECE_BYTES | id bt piece bytes
+byte other_peer_az_bad_piece_version | other peer az bad piece version
+byte other_peer_piece_version | other peer piece version
+byte PIECE_DONE | piece done
+byte PIECE_NOT_DONE | piece not done
+byte[][] pieces | pieces
+byte PIECE_STATUS_CHECKING | piece status checking
+byte PIECE_STATUS_MASK_DOWNLOADABLE | piece status mask downloadable
+byte PIECE_STATUS_MASK_NEEDS_CHECK | piece status mask needs check
+byte PIECE_STATUS_WRITTEN | piece status written
+byte piece_version | piece version
+byte[] pivot | pivot
+char PIPE_SEPARATOR_CHAR | pipe separator char
+com.aelitis.azureus.core.dht.transport.DHTTransportContact best_pingee | best ping ee
+com.aelitis.azureus.core.lws.LWSDiskManager.sePiece piece | piece
+com.aelitis.azureus.core.lws.LWSDiskManager.sePiece[] pieces | pieces
+com.aelitis.azureus.core.peermanager.messaging.bittorrent.BTPiece bt_piece | bt piece
+com.aelitis.azureus.core.peermanager.messaging.bittorrent.BTPiece piece | piece
+com.aelitis.azureus.core.peermanager.piecepicker.PiecePicker current_piece_pickler | current piece pickler
+com.aelitis.azureus.core.peermanager.piecepicker.PiecePicker piecePicker | piece picker
+com.aelitis.azureus.core.peermanager.piecepicker.util.BitFlags peerHavePieces | peer have pieces
+com.aelitis.azureus.core.peermanager.uploadslots.UploadSessionPicker picker | picker
+com.aelitis.azureus.core.peermanager.utils.OutgoingBTPieceMessageHandler outgoing_piece_message_handler | outgoing piece message handler
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerPingMapperImpl ping_mapper | ping mapper
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerPingMapperImpl[] ping_mappers | ping mappers
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerPingMapperImpl.pingValue[] pings | pings
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerPingMapperImpl.pingValue prev_ping | prev ping
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSourceManager pingSourceManager | ping source manager
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSpaceMapper pingMap | ping map
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSpaceMapper pingMapOfDownloadMode | ping map of download mode
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSpaceMapper pingMapOfSeedingMode | ping map of seeding mode
+com.aelitis.azureus.core.speedmanager.SpeedManagerPingMapper transientPingMap | transient ping map
+com.aelitis.azureus.core.util.average.Average ping_average_history | ping average history
+com.eteks.sweethome3d.model.CatalogPieceOfFurniture piece | piece
+com.eteks.sweethome3d.model.HomePieceOfFurniture draggedPieceOfFurniture | dragged piece of furniture
+com.eteks.sweethome3d.model.HomePieceOfFurniture leadSelectedPieceOfFurniture | lead selected piece of furniture
+com.eteks.sweethome3d.model.HomePieceOfFurniture movedPieceOfFurniture | moved piece of furniture
+com.eteks.sweethome3d.model.HomePieceOfFurniture piece | piece
+com.eteks.sweethome3d.model.HomePieceOfFurniture selectedPiece | selected piece
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState cameraPitchRotationState | camera pitch rotation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureElevationState | piece of furniture elevation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureHeightState | piece of furniture height state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureNameOffsetState | piece of furniture name offset state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureResizeState | piece of furniture resize state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureRotationState | piece of furniture rotation state
+double currPing | curr ping
+double PIXEL | pixel
+double TWICE_PI | twice pi
+edu.rice.cs.drjava.ui.predictive.PredictiveInputModel<T> _pim | pim
+float angleDraggedPieceOfFurniture | angle dragged piece of furniture
+float angleMovedPieceOfFurniture | angle moved piece of furniture
+float depthDraggedPieceOfFurniture | depth dragged piece of furniture
+float depthMovedPieceOfFurniture | depth moved piece of furniture
+float elevationDraggedPieceOfFurniture | elevation dragged piece of furniture
+float elevationMovedPieceOfFurniture | elevation moved piece of furniture
+float oldPitch | old pitch
+float pitch | pitch
+float pixSz | pix sz
+float xDraggedPieceOfFurniture | x dragged piece of furniture
+float xMovedPieceOfFurniture | x moved piece of furniture
+float yDraggedPieceOfFurniture | y dragged piece of furniture
+float yMovedPieceOfFurniture | y moved piece of furniture
+int ACT_REPLY_PING | act reply ping
+int ACT_REQUEST_PING | act request ping
+int ANY_PING_INDEX | any ping index
+int AT_PING | at ping
+int badPingInMilliSec | bad ping in milli sec
+int bad_pings | bad pings
+int best_ping | best ping
+int CHECK_REASON_BAD_PIECE_CHECK | check reason bad piece check
+int CONTACT_HISTORY_PING_SIZE | contact history ping size
+int CONTACT_PING_SECS | contact ping secs
+int DM_FREE_PIECELIST_TIMEOUT | dm free piece list timeout
+int first_piece_number | first piece number
+int GOOD_PING_INDEX | good ping index
+int goodPingInMilliSec | good ping in milli sec
+int hidden_piece | hidden piece
+int Id_PI | id pi
+int INDEX_PING_BAD | index ping bad
+int INDEX_PING_GOOD | index ping good
+int INDEX_PING_NEUTRAL | index ping neutral
+int last_good_ping | last good ping
+int _lastPiece | last piece
+int last_piece_length | last piece length
+int lastPieceLength | last piece length
+int last_piece_number | last piece number
+int maxGoodPing | max good ping
+int max_ping | max ping
+int max_pings | max pings
+int minBadPing | min bad ping
+int MIN_PIECES_TO_BUFFER | min pieces to buffer
+int myAtomUnitPixels | my atom unit pixels
+int myOffsetPixels | my offset pixels
+int nBadPings | n bad pings
+int _nbPieces | nb pieces
+int nbPieces | nb pieces
+int nbPiecesActive | nb pieces active
+int nbPiecesDone | nb pieces done
+int nbPixels | nb pixels
+int next_rescan_piece | next rescan piece
+int next_seed_piece_recheck_index | next seed piece recheck index
+int nGoodPings | n good pings
+int nNeutralPings | n neutral pings
+int number_of_pieces | number of pieces
+int num_pieces | num pieces
+int pi | pi
+int pickedUpByExternalId | picked up by external id
+int pickedUpById | picked up by id
+int piece | piece
+int piece_count | piece count
+int piece_group_size | piece group size
+int PIECE_HASH_TIMEOUT | piece hash timeout
+int pieceIndex | piece index
+int piece_length | piece length
+int pieceLength | piece length
+int piece_number | piece number
+int pieceNumber | piece number
+int[] piece_numbers | piece numbers
+int piece_offset | piece offset
+int piece_size | piece size
+int PilotDamageTaken | pilot damage taken
+int piloting | piloting
+int PING_AVERAGE_HISTORY_COUNT | ping average history count
+int PING_CHOKE_TIME | ping choke time
+int ping_count | ping count
+int pingCount | ping count
+int pings | pings
+int ping_time | ping time
+int PIXEL_MARGIN | pixel margin
+int pixelsPerLevel | pixels per level
+int PIXELS_PER_ROW | pixels per row
+int PIXEL_WALL_MARGIN | pixel wall margin
+int[] POSSIBLE_PILOT_DAMAGE | possible pilot damage
+int PRIORITY_W_PIECE_DONE | priority w piece done
+int PRIORITY_W_SAME_PIECE | priority w same piece
+int RAPIDS | ra pids
+int RENDEZVOUS_CLIENT_PING_PERIOD | rendezvous client ping period
+int RENDEZVOUS_PING_FAIL_LIMIT | rendezvous ping fail limit
+int reserved_piece | reserved piece
+int reservedPiece | reserved piece
+int RT_INTERNAL_REPLY_PING | rt internal reply ping
+int RT_INTERNAL_REQUEST_PING | rt internal request ping
+int savedPixels | saved pixels
+int seedPieceCheckCount | seed piece check count
+int S_PILE_DRIVER | s pile driver
+int stalled_piece_timeout | stalled piece timeout
+int start_piece_number | start piece number
+int start_piece_offset | start piece offset
+int SUBID_BT_PIECE | subid bt piece
+int SUBID_ID_AZ_BAD_PIECE | subid id az bad piece
+int superSeedModeCurrentPiece | super seed mode current piece
+int TEST_PING_ROUTE | test ping route
+int uniquePiece | unique piece
+int uploadChokePingCount | upload choke ping count
+int uploadPinCounter | upload pin counter
+it.businesslogic.ireport.chart.PieDataset pieDataset | pie dataset
+java.awt.Button m_bPick | m b pick
+java.awt.Button m_bPickClose | m b pick close
+java.awt.Color DEEP_PINK | deep pink
+java.awt.Color HOT_PINK | hot pink
+java.awt.Color LIGHT_PINK | light pink
+java.awt.Color PINK | pink
+java.awt.Font modifiablePieceFont | modifiable piece font
+java.awt.geom.GeneralPath CAMERA_PITCH_ROTATION_INDICATOR | camera pitch rotation indicator
+java.awt.Label labPiloting | lab piloting
+java.awt.TextField fldPiloting | fld piloting
+java.io.PrintWriter inPipe | in pipe
+java.lang.Double piValue | pi value
+java.lang.Float sloppingWallHeightAtEnd | slop ping wall height at end
+java.lang.String CONFIG_CHOKE_PING | config choke ping
+java.lang.String ID_AZ_BAD_PIECE | id az bad piece
+java.lang.String ID_AZ_SESSION_PIECE | id az session piece
+java.lang.String ID_BTMESSAGE_PIECE | id btm es sa ge piece
+java.lang.String ID_BT_PIECE | id bt piece
+java.lang.String PID_BUDDY | pid buddy
+java.lang.String PID_CORE_PATCH_CHECKER | pid core patch checker
+java.lang.String PID_CORE_UPDATE_CHECKER | pid core update checker
+java.lang.String PID_DEFAULT_TRACKER_WEB | pid default tracker web
+java.lang.String PID_DHT | pid dht
+java.lang.String PID_DHT_TRACKER | pid dht tracker
+java.lang.String PID_LOCAL_TRACKER | pid local tracker
+java.lang.String PID_MAGNET | pid magnet
+java.lang.String PID_NET_STATUS | pid net status
+java.lang.String PID_PLATFORM_CHECKER | pid platform checker
+java.lang.String PID_PLUGIN_UPDATE_CHECKER | pid plugin update checker
+java.lang.String PID_REMOVE_RULES | pid remove rules
+java.lang.String PID_SHARE_HOSTER | pid share hoster
+java.lang.String PID_START_STOP_RULES | pid start stop rules
+java.lang.String PID_TRACKER_PEER_AUTH | pid tracker peer auth
+java.lang.String PID_UPNP | pid upnp
+java.lang.String PIE | pie
+java.lang.String PIE3D | pie 3 d
+java.lang.String PILOT | pilot
+java.lang.String PILOTING | piloting
+java.lang.String PIPE_SEPARATOR | pipe separator
+java.lang.String TABLE_TORRENT_PIECES | table torrent pieces
+java.lang.String TK_PIECE_LENGTH | tk piece length
+java.lang.String TK_PIECES | tk pieces
+java.lang.String UPLOAD_CHOKE_PING_COUNT | upload choke ping count
+java.lang.String VIEW_TORRENT_PIECES | view torrent pieces
+java.util.BitSet piece_map | piece map
+java.util.Comparator compFindPEPiece | comp find pe piece
+java.util.List active_pings | active pings
+java.util.List current_pieces | current pieces
+java.util.List loaded_pi_list | loaded pi list
+java.util.List outstanding_pings | outstanding pings
+java.util.List piece_check_result_list | piece check result list
+java.util.List pingTimeList | ping time list
+java.util.List rarestStartedPieces | rarest started pieces
+java.util.Map pingAverages | ping averages
+java.util.Map ping_sources | ping sources
+java.util.Set missing_pieces | missing pieces
+java.util.Vector pickedUpMechWarriors | picked up mech warriors
+java.util.Vector pieces | pieces
+java.util.Vector pilotRolls | pilot rolls
+javax.swing.JButton m_bPick | m b pick
+javax.swing.JButton m_bPickClose | m b pick close
+javax.swing.JLabel labPiloting | lab piloting
+javax.swing.JTextField fldPiloting | fld piloting
+long clFirstBadPingTime | cl first bad ping time
+long first_piece_length | first piece length
+long FIRST_PIECE_MIN_NB | first piece min nb
+long first_piece_start | first piece start
+long FLAG_SCAN_INCOMPLETE_PIECES | flag scan incomplete pieces
+long lastNeededUndonePieceChange | last needed undone piece change
+long last_new_piece_time | last new piece time
+long last_piece_length | last piece length
+long last_pieces_read_time | last pieces read time
+long last_piece_start | last piece start
+long lastPingRemoval | last ping removal
+long manual_piece_size | manual piece size
+long M_ARMOR_PIERCING | m armor piercing
+long neededUndonePieceChange | needed undone piece change
+long piece_count | piece count
+long piece_length | piece length
+long piece_map_use_accessor_time | piece map use accessor time
+long[] piece_rtas | piece rt as
+long piece_size | piece size
+long[] pings | pings
+long PING_TIMEOUT | ping timeout
+long[] provider_piece_priorities | provider piece priorities
+long[] provider_piece_rtas | provider piece rt as
+long rescan_piece_time | rescan piece time
+long[] STANDARD_PIECE_SIZES | standard piece sizes
+long TIME_BETWEEN_BAD_PING_REMOVALS | time between bad ping removals
+long TIME_BETWEEN_SLOW_PING_REMOVALS | time between slow ping removals
+long TO_DEFAULT_FIXED_PIECE_SIZE | to default fixed piece size
+long TO_DEFAULT_VARIABLE_PIECE_NUM_LOWER | to default variable piece num lower
+long TO_DEFAULT_VARIABLE_PIECE_NUM_UPPER | to default variable piece num upper
+long TO_DEFAULT_VARIABLE_PIECE_SIZE_MAX | to default variable piece size max
+long TO_DEFAULT_VARIABLE_PIECE_SIZE_MIN | to default variable piece size min
+megamek.client.ui.AWT.widget.PMSimpleLabel pilotL | pilot l
+megamek.client.ui.AWT.widget.PMSimpleLabel pilotR | pilot r
+megamek.client.ui.swing.widget.PMSimpleLabel pilotL | pilot l
+megamek.client.ui.swing.widget.PMSimpleLabel pilotR | pilot r
+org.gudy.azureus2.core3.disk.DiskManagerPiece dmPiece | dm piece
+org.gudy.azureus2.core3.disk.DiskManagerPiece[] dm_pieces | dm pieces
+org.gudy.azureus2.core3.disk.DiskManagerPiece[] dmPieces | dm pieces
+org.gudy.azureus2.core3.disk.impl.DiskManagerPieceImpl[] pieces | pieces
+org.gudy.azureus2.core3.disk.impl.piecemapper.DMPieceList[] piece_lists | piece lists
+org.gudy.azureus2.core3.disk.impl.piecemapper.DMPieceMapper piece_mapper | piece mapper
+org.gudy.azureus2.core3.disk.impl.piecemapper.DMPieceMap piece_map_use_accessor | piece map use accessor
+org.gudy.azureus2.core3.disk.impl.piecemapper.impl.PieceMapEntryImpl[] pieces | pieces
+org.gudy.azureus2.core3.logging.LogIDs PIECES | pieces
+org.gudy.azureus2.core3.peer.impl.control.SuperSeedPiece[] superSeedPieces | super seed pieces
+org.gudy.azureus2.core3.peer.impl.PEPieceImpl[] pePieces | pe pieces
+org.gudy.azureus2.core3.peer.PEPiece[] pe_pieces | pe pieces
+org.gudy.azureus2.core3.peer.PEPiece[] pePieces | pe pieces
+org.gudy.azureus2.core3.util.AEMonitor file_piece_mon | file piece mon
+org.gudy.azureus2.core3.util.AEMonitor piece_check_result_list_mon | piece check result list mon
+org.gudy.azureus2.core3.util.AEMonitor piece_listeners_mon | piece listeners mon
+org.gudy.azureus2.core3.util.ListenerManager piece_listeners | piece listeners
+org.gudy.azureus2.core3.util.ListenerManager piece_listeners_aggregator | piece listeners aggregator
+org.gudy.azureus2.platform.PlatformManagerCapabilities PingAvailability | ping availability
+org.gudy.azureus2.pluginsimpl.local.peers.PeerManagerImpl.pieceFacade[] piece_facades | piece facades
+org.gudy.azureus2.pluginsimpl.local.PluginInitializer pi | pi
+org.gudy.azureus2.pluginsimpl.local.PluginInterfaceImpl pi | pi
+org.gudy.azureus2.plugins.PluginInterface pi | pi
+org.gudy.azureus2.plugins.ui.config.StringParameter ping_target | ping target
+org.gudy.azureus2.ui.swt.components.BufferedLabel pieceNumber | piece number
+org.gudy.azureus2.ui.swt.components.BufferedLabel pieceSize | piece size
+org.gudy.azureus2.ui.swt.components.BufferedLabel piecesPercent | pieces percent
+org.gudy.azureus2.ui.swt.components.graphics.PingGraphic pingGraph | ping graph
+org.gudy.azureus2.ui.swt.views.piece.MyPieceDistributionView pieceDistView | piece dist view
+org.gudy.azureus2.ui.swt.views.piece.PieceInfoView pieceInfoView | piece info view
+org.hsqldb.DIProcedureInfo pi | pi

@@ -1,0 +1,121 @@
+Action getTaskPropertiesAction() | get task properties action
+AdjustTaskBoundsAlgorithm getAdjustTaskBoundsAlgorithm() | get adjust task bounds algorithm
+boolean getTaskDuration() | get task duration
+boolean getTaskID() | get task id
+boolean getTaskName() | get task name
+boolean getTaskNotes() | get task notes
+boolean getTaskPercent() | get task percent
+boolean getTaskResources() | get task resources
+boolean getTaskSD() | get task sd
+boolean getTaskWebLink() | get task web link
+boolean hasAProjectTaskDescendant(QDefaultMutableTreeNode;) | has a project task descendant
+boolean isNoTaskBar() | is no task bar
+boolean isRealTimeTaskActive() | is real time task active
+boolean isTaskRunning() | is task running
+boolean isTaskSchedulable(SchedulableTask task) | is task schedulable
+ChartItem findTaskBoundaryItem(II) | find task boundary item
+ChartItem findTaskProgressItem(II) | find task progress item
+Color getDefaultTaskColor() | get default task color
+Color getEarlierPreviousTaskColor() | get earlier previous task color
+Color getLaterPreviousTaskColor() | get later previous task color
+Color getPreviousTaskColor() | get previous task color
+Color getTaskColor() | get task color
+DefaultMutableTreeNode getSelectedTaskNode() | get selected task node
+float getTaskTextWidth(QTask;) | get task text width
+GraphicPrimitiveContainer.Rectangle[] getTaskActivityRectangles(QTask;) | get task activity rectangles
+int getPredecessorTaskID() | get predecessor task id
+int getPreviousStateTaskIndex(QTask;) | get previous state task index
+int getSuccessorTaskID() | get successor task id
+int getTaskCount() | get task count
+int getTaskID() | get task id
+List getSortedTaskActivities() | get sorted task activities
+List getTaskLoadsLists(QList;) | get task loads lists
+Object getTaskResult() | get task result
+RecalculateTaskCompletionPercentageAlgorithm getRecalculateTaskCompletionPercentageAlgorithm() | get recalculate task completion percentage algorithm
+RecalculateTaskScheduleAlgorithm getRecalculateTaskScheduleAlgorithm() | get recalculate task schedule algorithm
+ShiftTaskTreeAlgorithm getShiftTaskTreeAlgorithm() | get shift task tree algorithm
+String clearTaskTableStatement() | clear task table statement
+String getTaskLabel(QTask;I) | get task label
+String getTaskName() | get task name
+String getTaskNamePrefix() | get task name prefix
+String getTaskState() | get task state
+String getTrueTaskNamePrefix() | get true task name prefix
+TaskContainmentHierarchyFacade getTaskContainment() | get task containment
+TaskContainmentHierarchyFacade getTaskHierarchy() | get task hierarchy
+Task findTaskUnderMousePointer(II) | find task under mouse pointer
+Task findTaskWithCoordinates(II) | find task with coordinates
+TaskInfo getTaskInfo() | get task info
+TaskInstance getTaskInstance() | get task instance
+TaskManager getTaskManager() | get task manager
+TaskManager newTaskManager() | new task manager
+TaskNode[] getOnlyTaskNodes([QDefaultMutableTreeNode;) | get only task nodes
+TaskNode[] getSelectedTaskNodes() | get selected task nodes
+TaskSelectionManager getTaskSelectionManager() | get task selection manager
+TaskStatusInfo getTaskStatus() | get task status
+ThreadedTaskView createThreadedTaskView(QString;QUserPreferences;QThreadedTaskController;) | create threaded task view
+Thread getTaskRunnerThread() | get task runner thread
+void addTaskListener(QTaskListener;) | add task listener
+void addTaskToQueue(QTask;QString;) | add task to queue
+void addTaskWithLegacyFixedStart(QTask;) | add task with legacy fixed start
+void beginChangeTaskEndInteraction(QMouseEvent;QTaskBoundaryChartItem;) | begin change task end interaction
+void beginChangeTaskProgressInteraction(QMouseEvent;QTaskProgressChartItem;) | begin change task progress interaction
+void beginChangeTaskStartInteraction(QMouseEvent;QTaskBoundaryChartItem;) | begin change task start interaction
+void beginMoveTaskInteraction(QMouseEvent;QTask;) | begin move task interaction
+void beginMoveTaskInteractions(QMouseEvent;QList;) | begin move task interactions
+void ChangeTaskBoundaryInteraction(QMouseEvent;QTaskBoundaryChartItem;) | change task boundary interaction
+void ChangeTaskEndInteraction(QMouseEvent;QTaskBoundaryChartItem;) | change task end interaction
+void ChangeTaskProgressInteraction(QMouseEvent;QTaskProgressChartItem;) | change task progress interaction
+void ChangeTaskStartInteraction(QMouseEvent;QTaskBoundaryChartItem;) | change task start interaction
+void clearTaskRegister() | clear task register
+void DelayedTaskImpl(QString;) | delayed task impl
+void deleteTaskDep(long sid, long tid) | delete task dep
+void loadTaskDisplay(QAttributes;) | load task display
+void loadTaskProperty(QAttributes;) | load task property
+void modifyTaskEnd(QTask;QGanttCalendar;) | modify task end
+void modifyTaskStart(QTask;QGanttCalendar;) | modify task start
+void MoveTaskInteraction(QMouseEvent;QTask;) | move task interaction
+void MoveTaskInteractions(QMouseEvent;QList;) | move task interactions
+void NewTaskColorOption() | new task color option
+void recalculateSupertaskCompletionPercentageBottomUp(QTask;QTaskContainmentHierarchyFacade;) | recalculate super task completion percentage bottom up
+void recalculateSupertaskCompletionPercentage(QTask;QTaskContainmentHierarchyFacade;) | recalculate super task completion percentage
+void recalculateSupertaskScheduleBottomUp(QSet;QTaskContainmentHierarchyFacade;) | recalculate super task schedule bottom up
+void recalculateSupertaskSchedule(QTask;QTaskContainmentHierarchyFacade;) | recalculate super task schedule
+void registerTaskManager(QTaskManager;) | register task manager
+void registerTaskSelectionManager(QTaskSelectionManager;) | register task selection manager
+void reportCurrentTaskByKey(QString;) | report current task by key
+void setCompletedTaskCount(int completedTaskCount) | set completed task count
+void setDefaultTaskColor(QColor;) | set default task color
+void setDependTaskID(I) | set depend task id
+void setEarlierPreviousTaskColor(QColor;) | set earlier previous task color
+void setLaterPreviousTaskColor(QColor;) | set later previous task color
+void setPreviousTaskColor(QColor;) | set previous task color
+void setProjectLevelTaskColor(QColor;) | set project level task color
+void setTaskColor(QColor;) | set task color
+void setTaskContainment(QTaskContainmentHierarchyFacade;) | set task containment
+void setTaskDependency(QTaskDependency;) | set task dependency
+void setTaskIDHack(I) | set task id hack
+void setTaskID(I) | set task id
+void setTaskID(int i) | set task id
+void setTaskInfo(QTaskInfo;) | set task info
+void setTaskManager(QTaskManager;) | set task manager
+void setTaskNamePrefix(QString;) | set task name prefix
+void setTaskName(QString;) | set task name
+void setTaskPropertiesAction(QAction;) | set task properties action
+void setTaskPropertyID(QString;) | set task property id
+void setTaskResult(QObject;) | set task result
+void setTaskRunning(ZQView;) | set task running
+void setTaskState(QString;) | set task state
+void testAssignmentsDisappearOnTaskDeletion() | test assignments disappear on task deletion
+void testSupertaskDurationShrinksWhenNestedTasksShrink() | test super task duration shrinks when nested tasks shrink
+void testSupetaskDurationGrowsWhenNestedTasksGrow() | test supe task duration grows when nested tasks grow
+void testTaskOverlappingWeekendIsTwoDaysShorter() | test task overlapping weekend is two days shorter
+void testTaskScheduleEventIsSendOnTaskDurationChange() | test task schedule event is send on task duration change
+void testTaskScheduleEventIsSendOnTaskEndChange() | test task schedule event is send on task end change
+void testTaskScheduleEventIsSendOnTaskStartChange() | test task schedule event is send on task start change
+void testTaskStartingOnFridayLastingTwoDaysEndsOnTuesday() | test task starting on friday lasting two days ends on tuesday
+void testTaskStartingOnSaturdayLastingOneDayEndsOnTuesday() | test task starting on saturday lasting one day ends on tuesday
+void testTaskStartingOnSundayLastingOneDayEndsOnTuesday() | test task starting on sunday lasting one day ends on tuesday
+void testThreadedTaskController() | test threaded task controller
+void writeTaskProperties(QTransformerHandler;QCustomColumnsStorage;) | write task properties
+void writeTaskProperty(QTransformerHandler;QString;QString;QString;QString;) | write task property
+void writeTaskProperty(QTransformerHandler;QString;QString;QString;QString;QString;) | write task property

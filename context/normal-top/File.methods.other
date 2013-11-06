@@ -1,0 +1,6 @@
+String getRelativePath(File dirF, File baseDirF) | get relative path
+void copyReadOnly(File src, File dest, FileCopierCallback cb, Object cbarg) | copy read only
+void generateDaysToAdd(Connection conn, File outputDir) | generate days to add
+void save(JasperPrint jasperPrint, File file) | save
+void showDocumentWithSameNameExists(String title, File file) | show document with same name exists
+void write(Resource resources, File path) | write

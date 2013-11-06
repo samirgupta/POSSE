@@ -1,0 +1,89 @@
+boolean isCompiledQueryEqual(ForwardQueryResult qc) | is compiled query equal
+boolean isDefaultQueryRange(Attribute attr) | is default query range
+boolean supportsResultSetPositionQueryMethodsOnForwardOnlyCursor() | supports result set position query methods on forward only cursor
+CallableStatement prepareCallableQueryStatement(QString;ZQScrollMode;) | prepare callable query statement
+double getQueryValue(Metric jdsn) | get query value
+FilterQueryPlan getFilterQueryPlan(QObject;QString;QQueryParameters;Z) | get filter query plan
+FilterQueryPlan getFilterQueryPlan(QString;QString;ZQMap;) | get filter query plan
+HQLQueryPlan getHQLQueryPlan(QString;Z) | get hql query plan
+HQLQueryPlan getHQLQueryPlan(QString;ZQMap;) | get hql query plan
+int bindQueryParameters(QPreparedStatement;QQueryParameters;IQNamedParameterSource;QSessionImplementor;) | bind query parameters
+int getQueryTimeout() | get query timeout
+int readSmbQueryFileBasicInfoWireFormat([BI) | read smb query file basic info wire format
+int readSmbQueryFileStandardInfoWireFormat([BI) | read smb query file standard info wire format
+int readSmbQueryFSSizeInfoWireFormat([BI) | read smb query fs size info wire format
+it.businesslogic.ireport.gui.ReportQueryDialog getReportQueryDialog() | get report query dialog
+List doQueryAndInitializeNonLazyCollections(QSessionImplementor;QQueryParameters;Z) | do query and initialize non lazy collections
+List getCustomQueryReturns() | get custom query returns
+List getQuerySpaces() | get query spaces
+List getResultFromQueryCache(QSessionImplementor;QQueryParameters;QSet;[QType;QQueryCache;QQueryKey;) | get result from query cache
+List listIgnoreQueryCache(QSessionImplementor;QQueryParameters;) | list ignore query cache
+List listUsingQueryCache(QSessionImplementor;QQueryParameters;QSet;[QType;) | list using query cache
+long getQueryCacheHitCount() | get query cache hit count
+long getQueryCacheMissCount() | get query cache miss count
+long getQueryCachePutCount() | get query cache put count
+long getQueryExecutionCount() | get query execution count
+long getQueryExecutionMaxTime() | get query execution max time
+Map getQuerySubstitutions() | get query substitutions
+NativeSQLQueryPlan getNativeSQLQueryPlan(QNativeSQLQuerySpecification;) | get native sql query plan
+NativeSQLQueryReturn[] getQueryReturns() | get query returns
+NativeSQLQuerySpecification generateQuerySpecification(QMap;) | generate query specification
+Packet createMapQueryPacket(QMapSettings;) | create map query packet
+PreparedStatement prepareQueryStatement(QQueryParameters;ZQSessionImplementor;) | prepare query statement
+PreparedStatement prepareQueryStatement(QString;ZQScrollMode;) | prepare query statement
+QueryCacheFactory createQueryCacheFactory(QProperties;) | create query cache factory
+QueryCacheFactory getQueryCacheFactory() | get query cache factory
+QueryCache getQueryCache() | get query cache
+QueryCache getQueryCache(QString;) | get query cache
+QueryCache getQueryCache(QString;QUpdateTimestampsCache;QSettings;QProperties;) | get query cache
+QueryPanel getQueryPanel() | get query panel
+QueryParameters getQueryParameters() | get query parameters
+QueryParameters getQueryParameters(QMap;) | get query parameters
+QueryPlanCache getQueryPlanCache() | get query plan cache
+QueryResultsRegion buildQueryResultsRegion(QString;QProperties;) | build query results region
+QueryStatistics getQueryStatistics(QString;) | get query statistics
+QueryTranslator createQueryTranslator(QString;QString;QMap;QSessionFactoryImplementor;) | create query translator
+QueryTranslatorFactory createQueryTranslatorFactory(QProperties;) | create query translator factory
+QueryTranslatorFactory getQueryTranslatorFactory() | get query translator factory
+Serializable[] getQuerySpaces() | get query spaces
+Set getQuerySpaces() | get query spaces
+SQLQuery addQuerySpaces([QSerializable;) | add query spaces
+SQLQuery addSynchronizedQuerySpace(QString;) | add synchronized query space
+StringBuffer toQueryPrefix(QString;) | to query prefix
+String getQueryExecutionMaxTimeQueryString() | get query execution max time query string
+String getQueryIdentifier() | get query identifier
+String getQueryName() | get query name
+String[] getQueryReturnAliases() | get query return aliases
+String getQuerySequencesString() | get query sequences string
+String getQueryString() | get query string
+String getQuerySubstitutions() | get query substitutions
+String toQueryString() | to query string
+Type[] getQueryReturnTypes() | get query return types
+void addQueryExecuteListener(QQueryExecuteListener;) | add query execute listener
+void addQueryReturn(QNativeSQLQueryReturn;) | add query return
+void addQuerySpaces([QSerializable;) | add query spaces
+void checkQueryExist(QString;) | check query exist
+void closeQueryOutputStream() | close query output stream
+void closeQueryStatement(QPreparedStatement;) | close query statement
+void closeQueryStatement(QPreparedStatement;QResultSet;) | close query statement
+void createQueryLoader() | create query loader
+void FilterQueryPlanKey(QString;QString;ZQMap;) | filter query plan key
+void HQLQueryPlanKey(QString;ZQMap;) | hql query plan key
+void notifyQueryExecuteListeners(QResultSet;QException;) | notify query execute listeners
+void putResultInQueryCache(QSessionImplementor;QQueryParameters;[QType;QQueryCache;QQueryKey;QList;) | put result in query cache
+void removeQueryExecuteListener(QQueryExecuteListener;) | remove query execute listener
+void setQueryCacheFactory(QQueryCacheFactory;) | set query cache factory
+void setQueryPanel(QQueryPanel;) | set query panel
+void setQueryParameter(String queryParameter) | set query parameter
+void setQuerySpaces(QSet;) | set query spaces
+void setQueryString(QString;) | set query string
+void setQuerySubstitutions(QMap;) | set query substitutions
+void setQuerySubstitutions(QString;) | set query substitutions
+void setQueryTimeout(I) | set query timeout
+void setQueryTranslatorFactory(QQueryTranslatorFactory;) | set query translator factory
+void setQueryURI(String value) | set query uri
+void setReportQueryDialog(Qit.businesslogic.ireport.gui.ReportQueryDialog;) | set report query dialog
+void test38RegistryManagementServicesSoap12QuerySites() | test 38 registry management services soap 12 query sites
+void testQueryThatReturnsNumber() | test query that returns number
+void testStripSessionIdWithQueryString() | test strip session id with query string
+void throwQueryException() | throw query exception

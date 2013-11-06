@@ -1,0 +1,21 @@
+boolean canPing() | can ping
+boolean checkForBadPing([QSpeedManagerPingSource;) | check for bad ping
+boolean hadChockingPing() | had chocking ping
+boolean hadChockingPing(Z) | had chocking ping
+boolean requestPing([B) | request ping
+int getPing() | get ping
+Result getHighestMeshIndexWithAnyPing() | get highest mesh index with any ping
+Result getHighestMeshIndexWithGoodPing() | get highest mesh index with good ping
+void activePing(QList;) | active ping
+void addPing(IIIZ) | add ping
+void potentialPing(QDHTTransportContact;F) | potential ping
+void requestPing(QDHTRouterContact;) | request ping
+void requestPing(QDHTRouterContactImpl;) | request ping
+void sendImmediatePing(QDHTTransportReplyHandler;J) | send immediate ping
+void sendImmediatePing(QDHTTransportUDPContactImpl;QDHTTransportReplyHandler;J) | send immediate ping
+void sendPing(QDHTTransportContact;QDHTTransportReplyHandler;) | send ping
+void sendPing(QDHTTransportReplyHandler;) | send ping
+void sendPing(QDHTTransportUDPContactImpl;QDHTTransportReplyHandler;) | send ping
+void sendPing(QDHTTransportUDPContactImpl;QDHTTransportReplyHandler;JI) | send ping
+void updateLimitTestingPing(F) | update limit testing ping
+void updateLimitTestingPing(I) | update limit testing ping

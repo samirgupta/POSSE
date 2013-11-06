@@ -1,0 +1,58 @@
+ArrayList findAllOutputSamples(Map conditions) | find all output samples
+Collection getSampleInfoByIds(String ids) | get sample info by ids
+Date getLastSampleTime() | get last sample time
+Date getLinkLastSampleTime(II) | get link last sample time
+DefaultCategoryDataset getSampleCategoryDataset() | get sample category dataset
+double getGeneratorSamplesBase() | get generator samples base
+double getSampleSizePercent() | get sample size percent
+float getSampleNormalizedSum(KMCluster cluster, int column, float mean) | get sample normalized sum
+Instance randomSample([DIQRandom;) | random sample
+Instances generateRandomSample(QInstances;IQRandom;) | generate random sample
+Instances sampleWithoutReplacement(QInstances;IQRandom;) | sample without replacement
+int getFirstPacketSample() | get first packet sample
+int getLinkSampleCount(II) | get link sample count
+int getNumSamplesPerRegion() | get num samples per region
+int getSample() | get sample
+int getSampleCount() | get sample count
+int[] getSampleIntArray(Qorg.hsqldb.lib.DoubleIntIndex;I) | get sample int array
+int getSampleRate() | get sample rate
+int getSampleSize() | get sample size
+int getSamplesPerFrame() | get samples per frame
+int peekSample() | peek sample
+long getLastSampleTime() | get last sample time
+long getLastSampleTime(JJJ) | get last sample time
+long getSampleCount() | get sample count
+RawSample createRawSample([QString;) | create raw sample
+Sample createSample() | create sample
+Sample createSample(J) | create sample
+SampleModel fixSampleModel(QCachableRed;) | fix sample model
+SampleModel fixSampleModel(QCachableRed;QColorModel;QRectangle;) | fix sample model
+SampleModel fixSampleModel(QCachableRed;QRectangle;) | fix sample model
+SampleModel getSampleModel() | get sample model
+SampleModel makeSampleModel(QCachableRed;QColorModel;) | make sample model
+String getSampleProperty() | get sample property
+String sampleSizePercentTipText() | sample size percent tip text
+String sampleSizeTipText() | sample size tip text
+void getSample(int index, short pixel) | get sample
+void getSamples() | get samples
+void processSample(QRawSample;) | process sample
+void pushSample(I) | push sample
+void putSample(int channelIndex, int entryIndex, int newValue) | put sample
+void runSample() | run sample
+void sample(IQString;) | sample
+void sample(QString;) | sample
+void sample(String val) | sample
+void selectSubSample(QInstances;) | select sub sample
+void setArchiveSampleGroup_CollectionDummy(Throwable toThrow) | set archive sample group collection dummy
+void setBitsPerSample(int bps) | set bits per sample
+void setGeneratorSamplesBase(D) | set generator samples base
+void setLastSampleTime(J) | set last sample time
+void setLastSampleTime(QDate;) | set last sample time
+void setNumSamplesPerRegion(I) | set num samples per region
+void setSampleCount(I) | set sample count
+void setSample(int x, int y, int b, int s, DataBuffer data) | set sample
+void setSampleProperty(QString;) | set sample property
+void setSampleSize(I) | set sample size
+void setSampleSizePercent(D) | set sample size percent
+void showSample() | show sample
+void updateSample() | update sample

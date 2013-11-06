@@ -1,0 +1,31 @@
+boolean handshake_complete | handshake complete
+boolean handshake_sent | handshake sent
+boolean reading_handshake_message | reading handshake message
+boolean REQUIRE_CRYPTO_HANDSHAKE | require crypto handshake
+boolean sent_handshake | sent handshake
+byte AL_MSG_LT_HANDSHAKE | al msg lt handshake
+byte handshake | handshake
+byte[] handshake_reserved_bytes | handshake reserved bytes
+byte HANDSHAKE_TYPE_CRYPTO | handshake type crypto
+byte HANDSHAKE_TYPE_PLAIN | handshake type plain
+byte[] ID_AZ_HANDSHAKE_BYTES | id az handshake bytes
+byte[] ID_BT_HANDSHAKE_BYTES | id bt handshake bytes
+byte[] ID_LT_HANDSHAKE_BYTES | id lt handshake bytes
+byte other_peer_handshake_version | other peer handshake version
+int AZ_HANDSHAKE_PAD_MAX | az handshake pad max
+int CONNECTION_WAITING_FOR_HANDSHAKE | connection waiting for handshake
+int HANDSHAKE_FAKE_LENGTH | handshake fake length
+int handshake_type | handshake type
+int HANDSHAKE_TYPE_CRYPTO | handshake type crypto
+int HANDSHAKE_TYPE_PLAIN | handshake type plain
+int socks5_handshake_phase | socks 5  handshake phase
+int SUBID_AZ_HANDSHAKE | subid az handshake
+int SUBID_BT_HANDSHAKE | subid bt handshake
+int SUBID_LT_HANDSHAKE | subid lt handshake
+java.lang.String client_handshake | client handshake
+java.lang.String client_handshake_version | client handshake version
+java.lang.String ID_AZ_HANDSHAKE | id az handshake
+java.lang.String ID_BT_HANDSHAKE | id bt handshake
+java.lang.String ID_LT_HANDSHAKE | id lt handshake
+java.lang.String incoming_handshake | incoming handshake
+java.nio.ByteBuffer legacy_handshake_header | legacy handshake header

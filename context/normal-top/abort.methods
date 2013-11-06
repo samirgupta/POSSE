@@ -1,0 +1,17 @@
+Runner prepareForAbort(Runner runners) | prepare for abort
+void abort() | abort
+void abortBatch(QSQLException;) | abort batch
+void abortDueToInternalError(String errorMessage, ASTNode location) | abort due to internal error
+void abortExperiment() | abort experiment
+void abortInvalidAndOneTimeMissions() | abort invalid and one time missions
+void abortInvalidMissions() | abort invalid missions
+void abortProgress() | abort progress
+void abort(QString;) | abort
+void abort(QString;QThrowable;) | abort
+void abortTransfer() | abort transfer
+void abortUpdate() | abort update
+void abortUpdate(QString;) | abort update
+void abortUpdate(QString;Z) | abort update
+void abortUpdate(Z) | abort update
+void abortWish(QWish;) | abort wish
+void recordUserAbort() | record user abort

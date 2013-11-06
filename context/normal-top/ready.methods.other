@@ -1,0 +1,16 @@
+ArrayList getReadyFiles() | get ready files
+ArrayList<QFile;> getReadyFiles() | get ready files
+ArrayList<QFile;> getReadyFiles(QHashSet;) | get ready files
+boolean isAllPlayersReadyToLaunch() | is all players ready to launch
+boolean isReadyForSerialization() | is ready for serialization
+boolean isReadyForWrite(QEventWaiter;) | is ready for write
+int getInterpreterReadyCount() | get interpreter ready count
+int getReadyConnectionCount(QEventWaiter;) | get ready connection count
+long getBytesReadyToWrite() | get bytes ready to write
+long isReadyForRead(QEventWaiter;) | is ready for read
+RateControlledEntity getNextReadyHighPriorityEntity() | get next ready high priority entity
+RateControlledEntity getNextReadyNormalPriorityEntity() | get next ready normal priority entity
+void addToReadyList(QNetworkConnectionBase;) | add to ready list
+void assertInterpreterReadyCount(I) | assert interpreter ready count
+void resetReadyButton() | reset ready button
+void setReadyForRead() | set ready for read

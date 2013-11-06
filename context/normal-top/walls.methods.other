@@ -1,0 +1,13 @@
+Area getInsideWallsArea() | get inside walls area
+Area getWallsArea() | get walls area
+Area getWallsArea(QCollection<QWall;>;) | get walls area
+float getWallsAlpha() | get walls alpha
+List<QWall;> getWallsSubList(QList<+QSelectable;>;) | get walls sub list
+void addWallsListener(QCollectionListener<QWall;>;) | add walls listener
+void createWallsAroundRoom(QRoom;) | create walls around room
+void doReverseWallsDirection([QWall;) | do reverse walls direction
+void paintWallsOutline(QGraphics2D;QList<QSelectable;>;QPaint;QStroke;QPaint;FQColor;) | paint walls outline
+void postReverseSelectedWallsDirection([QWall;QList<QSelectable;>;) | post reverse selected walls direction
+void removeWallsListener(QCollectionListener<QWall;>;) | remove walls listener
+void reverseSelectedWallsDirection() | reverse selected walls direction
+void setWallsAlpha(F) | set walls alpha

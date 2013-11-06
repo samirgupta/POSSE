@@ -1,0 +1,77 @@
+BoardSelectionDialog getBoardSelectionDialog() | get board selection dialog
+Board solve(Board board) | solve
+boolean boardIsSize(QString;II) | board is size
+boolean boardShip(QUnit;QUnit;) | board ship
+boolean isOffBoard() | is off board
+Element boardShip(QConnection;QElement;) | board ship
+Enumeration getBoardsAvailable() | get boards available
+ForumStats getBoardStatus() | get board status
+IBoard createBoard(QProperties;) | create board
+IBoard getBoard() | get board
+IBoard getNewBoard() | get new board
+IBoard getOldBoard() | get old board
+IBoardView getBoardView() | get board view
+Image getEntireBoardImage() | get entire board image
+int getBoardHeight() | get board height
+int getBoardWidth() | get board width
+int getOffBoardDirection() | get off board direction
+int getOffBoardDistance() | get off board distance
+it.businesslogic.ireport.chart.Dataset getChartDatasetClipBoard() | get chart dataset clip board
+MiscType createBABoardingClaw() | create ba boarding claw
+Packet createBoardPacket() | create board packet
+String getBoardingEquipment() | get boarding equipment
+String getBoardNum() | get board num
+Vector getBoardBuildings() | get board buildings
+Vector getBoardsAvailableVector() | get boards available vector
+Vector getBoardsSelectedVector() | get boards selected vector
+Vector getChartSeriesClipBoard() | get chart series clip board
+Vector getClipBoard() | get clip board
+Vector scanForBoards(II) | scan for boards
+Vector scanForBoards(IIZ) | scan for boards
+Vector scanForBoardsInDir(QFile;QString;II) | scan for boards in dir
+void addBoardListener(QBoardListener;) | add board listener
+void addBoardViewListener(QBoardViewListener;) | add board view listener
+void applyBoardSettings() | apply board settings
+void boardChangedEntity(QBoardViewEvent;) | board changed entity
+void boardChangedHex(QBoardEvent;) | board changed hex
+void boardLoad() | board load
+void boardNew() | board new
+void boardNewAttack(QBoardViewEvent;) | board new attack
+void boardNewBoard(QBoardEvent;) | board new board
+void boardNewXX() | board new xx
+void boardSave() | board save
+void boardSaveAs() | board save as
+void boardSaveAsImage() | board save as image
+void boardSaveImage() | board save image
+void boardShip(QUnit;) | board ship
+void ClipBoard() | clip board
+void copyBoardInto([QIHex;IIIQIBoard;) | copy board into
+void copyToClipBoard(QString;) | copy to clip board
+void deployOffBoard() | deploy off board
+void gameBoardNew(QGameBoardNewEvent;) | game board new
+void moveBoardImage() | move board image
+void previewBoard() | preview board
+void processBoardEvent(QBoardEvent;) | process board event
+void processBoardViewEvent(QBoardViewEvent;) | process board view event
+void receiveBoard(QPacket;) | receive board
+void refreshBoardsAvailable() | refresh boards available
+void refreshBoardSettings() | refresh board settings
+void removeBoardListener(QBoardListener;) | remove board listener
+void removeBoardViewListener(QBoardViewListener;) | remove board view listener
+void replaceBoardWithRandom(QString;) | replace board with random
+void setBoardBuildings(QVector;) | set board buildings
+void setBoard(QIBoard;) | set board
+void setBoardsAvailableVector(QVector;) | set boards available vector
+void setBoardSize(II) | set board size
+void setBoardsSelectedVector(QVector;) | set boards selected vector
+void setBoard(Z) | set board
+void setChartDatasetClipBoard(Qit.businesslogic.ireport.chart.Dataset;) | set chart dataset clip board
+void setChartSeriesClipBoard(QVector;) | set chart series clip board
+void setClipBoardContent(QVector;) | set clip board content
+void setNullBoards(QString;) | set null boards
+void setOffBoard(II) | set off board
+void setupBoardSettings() | setup board settings
+void showBoardPopup(QPoint;) | show board popup
+void updateBoard() | update board
+void updateBoardImage() | update board image
+void updateBoardSize() | update board size

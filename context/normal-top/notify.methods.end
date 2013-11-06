@@ -1,0 +1,14 @@
+void addNotify() | add notify
+void addNotify(QDrawing;) | add notify
+void addNotify(QDrawingEditor;) | add notify
+void addRepaintNotify(QComponent;) | add repaint notify
+void informNotify(QNetworkInterface;QInetAddress;QInetAddress;QString;QURL;QString;QString;) | inform notify
+void maybeNotify() | maybe notify
+void mkSelectionNotify(int time, int requestor, int selection, int target, int property) | mk selection notify
+void receivedNotify(QNetworkInterface;QInetAddress;QInetAddress;QString;QURL;QString;QString;) | received notify
+void removeNotify() | remove notify
+void removeNotify(QDrawing;) | remove notify
+void removeNotify(QDrawingEditor;) | remove notify
+void setParameterRawNoNotify(QString;QObject;) | set parameter raw no notify
+void statusChangeNotify(StatusObservable observed) | status change notify
+void updateAndNotify(I) | update and notify

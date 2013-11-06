@@ -1,0 +1,101 @@
+BoardSelectionDialog getBoardSelectionDialog() | get board selection dialog
+boolean isFinishSelectionOK() | is finish selection ok
+boolean isSelectionRectangular() | is selection rectangular
+Collection<QAction;> createSelectionActions(QDrawingEditor;) | create selection actions
+Color getSelectionColor() | get selection color
+ControllerState getRectangleSelectionState() | get rectangle selection state
+ControllerState getSelectionMoveState() | get selection move state
+ControllerState getSelectionState() | get selection state
+double getSelectionThreshold() | get selection threshold
+double measureSelectionTime() | measure selection time
+File getNewLeadSelectionFile() | get new lead selection file
+File getOldLeadSelectionFile() | get old lead selection file
+int getInitialSelectionEnd() | get initial selection end
+int getInitialSelectionStart() | get initial selection start
+int getSelectionCount() | get selection count
+int getSelectionEnd() | get selection end
+int getSelectionEnd(I) | get selection end
+int getSelectionEndLine() | get selection end line
+int getSelectionStart() | get selection start
+int getSelectionStart(I) | get selection start
+int getSelectionStartLine() | get selection start line
+int getSelectionState() | get selection state
+java.util.List<QHandle;> getSelectionHandles() | get selection handles
+Listener makeSelectionListener(QMenuItem;) | make selection listener
+Listener makeSelectionListener(Qorg.gudy.azureus2.plugins.ui.menus.MenuItem;) | make selection listener
+List getDisabledOnSelectionParameters() | get disabled on selection parameters
+List getEnabledOnSelectionParameters() | get enabled on selection parameters
+ListSelectionModel getSelectionModel() | get selection model
+Rectangle2D.Double getSelectionBounds() | get selection bounds
+Rectangle2D getSelectionBounds(Z) | get selection bounds
+SelectedTag getAttributeSelectionMethod() | get attribute selection method
+SelectedTag getForwardSelectionMethod() | get forward selection method
+String attributeSelectionMethodTipText() | attribute selection method tip text
+String conservativeForwardSelectionTipText() | conservative forward selection tip text
+String forwardSelectionMethodTipText() | forward selection method tip text
+String hyperparameterSelectionTipText() | hyper parameter selection tip text
+String invertSelectionTipText() | invert selection tip text
+String printSelectionResults() | print selection results
+String useTournamentSelectionTipText() | use tournament selection tip text
+TaskSelectionManager getTaskSelectionManager() | get task selection manager
+TreePath getAnchorSelectionPath() | get anchor selection path
+TreePath getSelectionPath() | get selection path
+void addAutoSelectionOnFocusGain(QJTextComponent;) | add auto selection on focus gain
+void addCatalogSelectionListener() | add catalog selection listener
+void addFigureSelectionListener(QFigureSelectionListener;) | add figure selection listener
+void addHomeSelectionListener() | add home selection listener
+void addListSelectionListener(QListSelectionListener;) | add list selection listener
+void addPageSelectionListener(QPageSelectionListener;) | add page selection listener
+void addSelectionForHooks(QNodeView;) | add selection for hooks
+void addSelectionListener(ISelectionListener listener) | add selection listener
+void addSelectionListener(QButtonListenerAdapter;) | add selection listener
+void addSelectionListener(QChartSelectionListener;) | add selection listener
+void addSelectionListener(QListener;) | add selection listener
+void addSelectionListener(QListEventListener<QBibtexEntry;>;) | add selection listener
+void addSelectionListener(QSelectionListener;) | add selection listener
+void addSelectionListener(QTableSelectionListener;Z) | add selection listener
+void addSelectionListeners(QFurnitureCatalog;QFurnitureCatalogController;) | add selection listeners
+void addSelectionListeners(QHome;QFurnitureController;) | add selection listeners
+void addSelectionToolTo(QJToolBar;QDrawingEditor;) | add selection tool to
+void addSelectionToolTo(QJToolBar;QDrawingEditor;QCollection<QAction;>;QCollection<QAction;>;) | add selection tool to
+void addSelectionToShare() | add selection to share
+void addTreeSelectionListener(PropertyChangeListener listener) | add tree selection listener
+void assertSelectionContains(QHome;[QWall;) | assert selection contains
+void attributeSelectionChange(QAttributePanelEvent;) | attribute selection change
+void buildShareMapSelectionGui() | build share map selection gui
+void CoverSelectionWizard() | cover selection wizard
+void DeleteSelectionAction(QFastVector;) | delete selection action
+void enableSafeSelectionMode() | enable safe selection mode
+void extendSelectionWithKeyMove(QNodeView;QKeyEvent;) | extend selection with key move
+void fireSelectionChangedEvent() | fire selection changed event
+void makeSelectionVisible() | make selection visible
+void mkSelectionNotify(int time, int requestor, int selection, int target, int property) | mk selection notify
+void MoveSelectionAction(II) | move selection action
+void OptionSelectionMechanismAction(QController;) | option selection mechanism action
+void recordSelectionState() | record selection state
+void registerTaskSelectionManager(QTaskSelectionManager;) | register task selection manager
+void removeFigureSelectionListener(QFigureSelectionListener;) | remove figure selection listener
+void removeSelectionForHooks(QNodeView;) | remove selection for hooks
+void removeSelectionListener(QChartSelectionListener;) | remove selection listener
+void removeSelectionListener(QListener;) | remove selection listener
+void removeSelectionListener(QSelectionListener;) | remove selection listener
+void requestSelectionUpdate(QItemT;) | request selection update
+void saveSelectionToClipboard(Z) | save selection to clipboard
+void setAttributeSelectionMethod(QSelectedTag;) | set attribute selection method
+void setFileSelectionMode(I) | set file selection mode
+void setForwardSelectionMethod(QSelectedTag;) | set forward selection method
+void setListSelectionMode(I) | set list selection mode
+void setSelectionColor(QColor;) | set selection color
+void setSelectionEnd(I) | set selection end
+void setSelectionEnd(int selectionEnd) | set selection end
+void setSelectionModel(QListSelectionModel;) | set selection model
+void setSelectionRectangular(Z) | set selection rectangular
+void setSelectionStart(I) | set selection start
+void setSelectionStart(int selectionStart) | set selection start
+void setSelectionState(I) | set selection state
+void setSelectionThreshold(D) | set selection threshold
+void showMapSharingSelectionDialog() | show map sharing selection dialog
+void triggerSelectionListener(QSideBarEntrySWT;QSideBarEntrySWT;) | trigger selection listener
+void triggerSelectionListeners([QTableRowCore;) | trigger selection listeners
+void updateSelectionMethod(QController;) | update selection method
+void updateSelectionUI(I) | update selection ui

@@ -1,0 +1,5 @@
+CONS ClearRecentFilesAction(QApplication;) | clear recent files action
+CONS LoadRecentAction(QApplication;QFile;) | load recent action
+CONS OpenRecentAction(QApplication;QFile;) | open recent action
+CONS RecentDocFrame(QMainFrame;) | recent doc frame
+CONS RecentFileManager(IQJMenu;QRecentFileAction;QVectorOption<QFile;>;) | recent file manager

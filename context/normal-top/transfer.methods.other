@@ -1,0 +1,40 @@
+boolean canTransferCriticals(I) | can transfer criticals
+boolean isGlobalTransferBarShown() | is global transfer bar shown
+boolean isTransferAvailable() | is transfer available
+boolean needTransferTransaction() | need transfer transaction
+byte[] getTransferKey() | get transfer key
+byte[] runTransferQueue(QtransferQueue;QDHTTransportProgressListener;QDHTTransportContact;[B[BJZ) | run transfer queue
+DataFlavor[] getTransferDataFlavors() | get transfer data flavors
+DistributedDatabaseTransferType getStandardTransferType(I) | get standard transfer type
+HitData getTransferLocation(QHitData;) | get transfer location
+int getTransferLocation(I) | get transfer location
+int getTransferStatus() | get transfer status
+int handleTransferRequest(QDHTTransportUDPContactImpl;J[B[B[BIIZZ) | handle transfer request
+java.awt.datatransfer.DataFlavor[] getTransferDataFlavors() | get transfer data flavors
+Job createTransferJob(QURL;QFile;) | create transfer job
+MenuItem addTransferBarToMenu(QMenu;) | add transfer bar to menu
+Object getTransferData(QDataFlavor;) | get transfer data
+Object getTransferData(Qjava.awt.datatransfer.DataFlavor;) | get transfer data
+SaveLocationChange getTransferDetails(QDownloadManager;QContextDescriptor;QFile;) | get transfer details
+StringBuffer getTransferData(QTransferable;) | get transfer data
+String getTransferModeAsString() | get transfer mode as string
+String getTransferStatus() | get transfer status
+TransferMode getTransferMode() | get transfer mode
+transferQueue lookupTransferQueue(QMap;J) | lookup transfer queue
+void addTransferHandler(QDistributedDatabaseTransferType;QDistributedDatabaseTransferHandler;) | add transfer handler
+void addTransferMenu(QShell;) | add transfer menu
+void closeGlobalTransferBar() | close global transfer bar
+void createTransferHandlers(QHome;QHomeController;) | create transfer handlers
+void downgradeTransferProcessing(QNetworkConnectionBase;) | downgrade transfer processing
+void FileListEditorTransferHandler() | file list editor transfer handler
+void FileTransferHandler(QOptionsTable;) | file transfer handler
+void FileTransferHandler(ZQOptionsTable;) | file transfer handler
+void registerTransferHandler([BQDHTTransportTransferHandler;) | register transfer handler
+void setAuthorizedTransferListener(QPlatformAuthorizedSender;) | set authorized transfer listener
+void setCurrentTransferRates(II) | set current transfer rates
+void showGlobalTransferBar() | show global transfer bar
+void startTransferProcessing(QNetworkConnectionBase;) | start transfer processing
+void stopTransferProcessing(QNetworkConnectionBase;) | stop transfer processing
+void testTransferHandler() | test transfer handler
+void updateTransferMode() | update transfer mode
+void upgradeTransferProcessing(QNetworkConnectionBase;) | upgrade transfer processing

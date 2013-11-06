@@ -1,0 +1,44 @@
+CONS AbstractAttackAction(II) | abstract attack action
+CONS AbstractAttackAction(III) | abstract attack action
+CONS ArtilleryAttackAction() | artillery attack action
+CONS ArtilleryAttackAction(QWeaponResult;QIGame;IQVector;QCoords;) | artillery attack action
+CONS AttackOption(QCEntity;QMounted;DQToHitData;I) | attack option
+CONS BreakGrappleAttackAction(II) | break grapple attack action
+CONS BreakGrappleAttackAction(III) | break grapple attack action
+CONS BrushOffAttackAction(IIII) | brush off attack action
+CONS ChargeAttackAction(IIIQCoords;) | charge attack action
+CONS ChargeAttackAction(QEntity;QTargetable;) | charge attack action
+CONS ClubAttackAction(IIIQMounted;) | club attack action
+CONS ClubAttackAction(IIQMounted;) | club attack action
+CONS DfaAttackAction(IIIQCoords;) | dfa attack action
+CONS DfaAttackAction(IIQCoords;) | dfa attack action
+CONS DisplacementAttackAction(IIIQCoords;) | displacement attack action
+CONS DisplacementAttackAction(IIQCoords;) | displacement attack action
+CONS GAAttack(QTestBot;QCEntity;QArrayList;IIZ) | ga attack
+CONS GrappleAttackAction(II) | grapple attack action
+CONS GrappleAttackAction(III) | grapple attack action
+CONS JumpJetAttackAction(III) | jump jet attack action
+CONS JumpJetAttackAction(IIII) | jump jet attack action
+CONS KickAttackAction(III) | kick attack action
+CONS KickAttackAction(IIII) | kick attack action
+CONS LayExplosivesAttackAction(II) | lay explosives attack action
+CONS LayExplosivesAttackAction(III) | lay explosives attack action
+CONS NukeAttackAction(QCoords;II) | nuke attack action
+CONS NukeAttackAction(QCoords;IIIII) | nuke attack action
+CONS PhysicalAttackAction(II) | physical attack action
+CONS PhysicalAttackAction(III) | physical attack action
+CONS ProtomechPhysicalAttackAction(II) | protomech physical attack action
+CONS ProtomechPhysicalAttackAction(III) | protomech physical attack action
+CONS PunchAttackAction(III) | punch attack action
+CONS PunchAttackAction(IIII) | punch attack action
+CONS PushAttackAction(IIIQCoords;) | push attack action
+CONS PushAttackAction(IIQCoords;) | push attack action
+CONS SearchlightAttackAction(II) | searchlight attack action
+CONS SearchlightAttackAction(III) | searchlight attack action
+CONS ThrashAttackAction(II) | thrash attack action
+CONS ThrashAttackAction(III) | thrash attack action
+CONS ThrashAttackAction(IQTargetable;) | thrash attack action
+CONS TripAttackAction(II) | trip attack action
+CONS TripAttackAction(III) | trip attack action
+CONS WeaponAttackAction(III) | weapon attack action
+CONS WeaponAttackAction(IIII) | weapon attack action

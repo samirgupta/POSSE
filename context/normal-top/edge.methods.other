@@ -1,0 +1,42 @@
+boolean getAutoEdgeScroll() | get auto edge scroll
+boolean getClickEdgeScroll() | get click edge scroll
+boolean hasEdgeRemaining() | has edge remaining
+Color getEdgeColor() | get edge color
+EdgeAdapter createEdgeAdapter(QNodeAdapter;QFreeMindMain;) | create edge adapter
+EdgeColorFormatAction createEdgeColorFormatAction(QMindMapNode;QColor;) | create edge color format action
+EdgeWidthFormatAction createEdgeWidthFormatAction(QMindMapNode;I) | create edge width format action
+freemind.controller.actions.generated.instance.EdgeColorFormatAction createEdgeColorFormatAction() | create edge color format action
+freemind.controller.actions.generated.instance.EdgeColorFormatActionType createEdgeColorFormatActionType() | create edge color format action type
+freemind.controller.actions.generated.instance.EdgeStyleFormatAction createEdgeStyleFormatAction() | create edge style format action
+freemind.controller.actions.generated.instance.EdgeStyleFormatActionType createEdgeStyleFormatActionType() | create edge style format action type
+freemind.controller.actions.generated.instance.EdgeWidthFormatAction createEdgeWidthFormatAction() | create edge width format action
+freemind.controller.actions.generated.instance.EdgeWidthFormatActionType createEdgeWidthFormatActionType() | create edge width format action type
+int getEdgeCount() | get edge count
+int getEdgeLength(SuffixNode child) | get edge length
+int getEdgeType() | get edge type
+int getEdgeWidth() | get edge width
+IntIterator childEdgeRows(I) | child edge rows
+IntIterator inEdgeRows(I) | in edge rows
+IntIterator outEdgeRows(I) | out edge rows
+int lowerEdgeType() | lower edge type
+List buildMaximalEdgeRings(Collection dirEdges) | build maximal edge rings
+Renderer getDefaultEdgeRenderer() | get default edge renderer
+String getEdgeSourceField() | get edge source field
+String getEdgeStyle() | get edge style
+String getEdgeTargetField() | get edge target field
+Table getEdgeTable() | get edge table
+void addEdgeHandles(QFigure;QCollection<QHandle;>;) | add edge handles
+void ComputeEdgeStrengths() | compute edge strengths
+void removeGapsWithEdgeConcentration([I) | remove gaps with edge concentration
+void setAutoEdgeScroll(Z) | set auto edge scroll
+void setClickEdgeScroll(Z) | set click edge scroll
+void setDefaultEdgeRenderer(QRenderer;) | set default edge renderer
+void setEdgeColor(QColor;) | set edge color
+void setEdgeColor(QMindMapNode;QColor;) | set edge color
+void setEdgeStyle(QMindMapNode;QString;) | set edge style
+void setEdgeStyle(QString;) | set edge style
+void setEdgeTable(QTable;) | set edge table
+void setEdgeType(I) | set edge type
+void setEdgeWidth(I) | set edge width
+void setEdgeWidth(QMindMapNode;I) | set edge width
+void setUpEdgePopup() | set up edge popup

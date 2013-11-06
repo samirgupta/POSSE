@@ -1,0 +1,18 @@
+boolean hasContacted(QPlayer;) | has contacted
+void contactAddedFailed(I) | contact added failed
+void contactAdded(QDHTSpeedTesterContact;) | contact added
+void contactAdded(Qorg.hn.sleek.jmml.Contact;) | contact added
+void contactDied(QDHTSpeedTesterContact;) | contact died
+void contactImported(QDHTTransportContact;) | contact imported
+void contactPropertyChanged(QContactChangeEvent;) | contact property changed
+void contactReceived(Qorg.hn.sleek.jmml.Contact;) | contact received
+void contactRejectionReceived(Qymsg.network.event.SessionEvent;) | contact rejection received
+void contactRemoved([B) | contact removed
+void contactRemovedFailed(I) | contact removed failed
+void contactRemoved(QDHTTransportContact;) | contact removed
+void contactRemoved(Qorg.hn.sleek.jmml.Contact;) | contact removed
+void contactRequestReceived(Qymsg.network.event.SessionEvent;) | contact request received
+void contactsReceived(BQString;QString;[QString;[QString;) | contacts received
+void localContactChanged(QDHTPluginContact;) | local contact changed
+void localContactChanged(QDHTTransportContact;) | local contact changed
+void setContacted(QPlayer;Z) | set contacted

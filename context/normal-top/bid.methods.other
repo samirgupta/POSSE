@@ -1,0 +1,17 @@
+boolean isBidOn() | is bid on
+Color snipeBidBackground(QAuctionEntry;) | snipe bid background
+Color snipeBidColor(QAuctionEntry;) | snipe bid color
+Currency getBestBidValue(QAuctionEntry;) | get best bid value
+Currency getMinimumBidIncrement(QCurrency;I) | get minimum bid increment
+int getBidCount(QJHTML;I) | get bid count
+int getBidPrice(QGoodsType;I) | get bid price
+int getBidQuantity() | get bid quantity
+int handlePostBidBuyPage(QCookieJar;QStringBuffer;QJHTML.Form;QAuctionEntry;) | handle post bid buy page
+JHTML.Form getBidForm(QCookieJar;QAuctionEntry;QCurrency;I) | get bid form
+String genBidSnipeHTML(QAuctionEntry;QCurrency;) | gen bid snipe html
+String getBidResult(QCurrency;I) | get bid result
+String getDefBidSize() | get def bid size
+void BadBidException(QString;I) | bad bid exception
+void establishCurrentBidFixedPrice(QAuctionEntry;) | establish current bid fixed price
+void setBidQuantity(I) | set bid quantity
+void setMaxBidFromServer(QAuctionEntry;QCurrency;) | set max bid from server

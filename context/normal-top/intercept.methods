@@ -1,0 +1,19 @@
+boolean handleInterception(QFlushEntityEvent;) | handle interception
+boolean invokeInterceptor(QSessionImplementor;QObject;QEntityEntry;[QObject;QEntityPersister;) | invoke interceptor
+boolean isDirtyCheckHandledByInterceptor() | is dirty check handled by interceptor
+Configuration setInterceptor(QInterceptor;) | set interceptor
+double getIntercept() | get intercept
+double intercept() | intercept
+FieldInterceptor extractFieldInterceptor(QObject;) | extract field interceptor
+FieldInterceptor injectFieldInterceptor(QObject;QString;QSet;QSessionImplementor;) | inject field interceptor
+Interceptor getInterceptor() | get interceptor
+Object getEntityUsingInterceptor(QEntityKey;) | get entity using interceptor
+Object intercept(Object obj, Method proxyMethod, Object paramVals, MethodProxy proxy) | intercept
+Object intercept(QObject;QMethod;[QObject;QMethodProxy;) | intercept
+Object intercept(QObject;QString;QObject;) | intercept
+void EventInterceptor(QValidationEventHandler;) | event interceptor
+void markInterceptorDirty(QObject;QEntityPersister;QEventSource;) | mark interceptor dirty
+void markInterceptorDirty(QObject;QObject;) | mark interceptor dirty
+void PassThroughInterceptor(QString;) | pass through interceptor
+void setDirtyCheckHandledByInterceptor(Z) | set dirty check handled by interceptor
+void transferHandlerInterceptor(QDHTTransportTransferHandler;) | transfer handler interceptor

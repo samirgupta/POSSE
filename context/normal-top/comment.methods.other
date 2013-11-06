@@ -1,0 +1,40 @@
+boolean isBlockCommentEnd() | is block comment end
+boolean isBlockCommentStart() | is block comment start
+boolean isCommentOpen(QString;I) | is comment open
+boolean isCommentStart() | is comment start
+boolean isCommentStart(QString;I) | is comment start
+boolean setCommentAndFormatLinks(QControl;QString;) | set comment and format links
+boolean supportsCommentOn() | supports comment on
+int getCommentLineCount() | get comment line count
+int getFileCommentSize() | get file comment size
+Iterator sqlCommentStrings(QDialect;QString;QString;) | sql comment strings
+List findByCommentInfo(Object commentInfo) | find by comment info
+String formatCommentOn(QString;) | format comment on
+String getCommentText() | get comment text
+void _checkPreviousInsertCommentChar(QString;) | check previous insert comment char
+void helperCommentTest(QString;IIQString;) | helper comment test
+void setFileCommentSize(I) | set file comment size
+void showCommentMessageBox([QObject;QString;I) | show comment message box
+void _splitCurrentIfCommentBlock(ZZ) | split current if comment block
+void testAfterBlockComment2() | test after block comment 2
+void testAfterBlockComment3() | test after block comment 3
+void testAfterBlockComment4() | test after block comment 4
+void testBlockCommentStartEatsEnd() | test block comment start eats end
+void testBreakBlockCommentWithStar() | test break block comment with star
+void testBreakCloseBlockCommentWithStar() | test break close block comment with star
+void testCommentOutMultipleLines() | test comment out multiple lines
+void testCommentOutSingleLine() | test comment out single line
+void testCommentPrefix() | test comment prefix
+void testDeleteFreesBlockCommentEnd() | test delete frees block comment end
+void testDeleteNewlineAndShadowBlockCommentStart() | test delete newline and shadow block comment start
+void testIndentInsideCommentBlock() | test indent inside comment block
+void testInsertBlockCommentEnd() | test insert block comment end
+void testInsertBraceAndBreakBlockCommentStart() | test insert brace and break block comment start
+void testLineCommentBreakCrazy() | test line comment break crazy
+void testLineCommentStealsBlockCommentSlash() | test line comment steals block comment slash
+void testLineCommentStealsLineCommentSlash() | test line comment steals line comment slash
+void testMultilineCommentOrUncommentAfterScroll() | test multiline comment or uncomment after scroll
+void testMultipleCommentLinesBack() | test multiple comment lines back
+void testQuoteBreakComment2() | test quote break comment 2
+void textUndoAndRedoAfterMultipleLineCommentAndUncomment() | text undo and redo after multiple line comment and uncomment
+void writeCommentExtension(QOutputStream;) | write comment extension

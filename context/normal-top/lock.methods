@@ -1,0 +1,108 @@
+Action createLockUnlockBasePlanAction(QHome;Z) | create lock unlock base plan action
+boolean acquireLock() | acquire lock
+boolean aquireFileLock() | aquire file lock
+boolean createLockFile() | create lock file
+boolean deleteLockFile() | delete lock file
+boolean deleteLockFile(QFile;) | delete lock file
+boolean doOptionalLockActions() | do optional lock actions
+boolean hasLockFile(QFile;) | has lock file
+boolean isLock() | is lock
+boolean isPosixManditoryFileLock() | is posix manditory file lock
+boolean releaseFileLock() | release file lock
+boolean tryLock() | try lock
+boolean upgradeLocks() | upgrade locks
+boolean waitForFileLock(QFile;I) | wait for file lock
+boolean wasLockedConcurrently() | was locked concurrently
+byte[] getLock() | get lock
+Criteria setLockMode(QLockMode;) | set lock mode
+Criteria setLockMode(QString;QLockMode;) | set lock mode
+DetachedCriteria setLockMode(QLockMode;) | set lock mode
+DetachedCriteria setLockMode(QString;QLockMode;) | set lock mode
+EntityLock getWriteLock(EntityLockAdapter la, LogAdapter lga) | get write lock
+int getLockDAVMinutes() | get lock dav minutes
+int getLockMode() | get lock mode
+int getOptimisticLockMode() | get optimistic lock mode
+int getOptimisticLockMode(QAttribute;) | get optimistic lock mode
+int lockFeatures(Query query) | lock features
+int nextLockId() | next lock id
+int optimisticLockMode() | optimistic lock mode
+JComponent createLockUnlockBasePlanButton(QHome;) | create lock unlock base plan button
+JMenuItem createLockUnlockBasePlanMenuItem(QHome;Z) | create lock unlock base plan menu item
+LockEventListener[] getLockEventListeners() | get lock event listeners
+LockFile getLockFile() | get lock file
+LockFile newLockFileLock(QString;) | new lock file lock
+LockFile newLockFile(QString;) | new lock file
+LockFile newNIOLockFile() | new nio lock file
+LockingStrategy generateLocker(QLockMode;) | generate locker
+LockingStrategy getLocker(QLockMode;) | get locker
+LockingStrategy getLockingStrategy(QLockable;QLockMode;) | get locking strategy
+Lock lock(JI) | lock
+LockMode getCurrentLockMode(QObject;) | get current lock mode
+LockMode getLockMode() | get lock mode
+LockMode[] getLockModeArray() | get lock mode array
+LockMode getLockMode(QString;) | get lock mode
+LockMode[] getLockModes(QMap;) | get lock modes
+long getLockFileTimeStamp(QFile;) | get lock file time stamp
+Map getLockModes() | get lock modes
+Object getCompilerLock() | get compiler lock
+Object getLock() | get lock
+Object getModelLock() | get model lock
+Object load(Class entityClass, Serializable id, LockMode lockMode) | load
+Object lockAndLoad(QLoadEvent;QEntityPersister;QEntityKey;QLoadEventListener.LoadType;QSessionImplementor;) | lock and load
+Query setLockMode(QString;QLockMode;) | set lock mode
+Schema lockSchema() | lock schema
+Select setLockMode(QLockMode;) | set lock mode
+Set getLocksByUserId(long userId) | get locks by user id
+SimpleSelect setLockMode(QLockMode;) | set lock mode
+SoftLock lockItem(QObject;QObject;) | lock item
+SoftLock lock(QObject;QObject;) | lock
+SoftLock lockRegion() | lock region
+String appendLockHint(QLockMode;QString;) | append lock hint
+String applyLocks(QString;QMap;QDialect;) | apply locks
+String applyLocksToSql(QString;QMap;QMap;) | apply locks to sql
+String generateLockString() | generate lock string
+String getPk_lock_garage() | get pk lock garage
+String getTurretLockedString(QTank;) | get turret locked string
+String popLockingUserOfOldLock() | pop locking user of old lock
+String tryToLock(QFile;) | try to lock
+void acquireLock(QString;) | acquire lock
+void AcquireLockState(QParsingState;QOpenCopyConfirmationState;) | acquire lock state
+void acquireReadLock() | acquire read lock
+void acquireWriteLock() | acquire write lock
+void cascadeOnLock(QLockEvent;QEntityPersister;QObject;) | cascade on lock
+void decrementLock(QObject;QLock;) | decrement lock
+void deleteLockUse(int index) | delete lock use
+void fireLock(QLockEvent;) | fire lock
+void handleLockExpiry(QObject;) | handle lock expiry
+void initLockers() | init lockers
+void lock() | lock
+void lockBasePlan() | lock base plan
+void lockFile(I) | lock file
+void LockHeldExternallyException(QLockFile;QString;JJ) | lock held externally exception
+void Lock(JIQObject;) | lock
+void lockLocation(Z) | lock location
+void lockOpener() | lock opener
+void lock(QObject;) | lock
+void lock(QObject;QLockMode;) | lock
+void lock(QSerializable;QObject;QObject;QLockMode;QSessionImplementor;) | lock
+void lock(QSerializable;QObject;QObject;QSessionImplementor;) | lock
+void lock(QString;QObject;QLockMode;) | lock
+void lockTurret() | lock turret
+void lock(Z) | lock
+void _notifyLock() | notify lock
+void onLock(QLockEvent;) | on lock
+void ReadUncommittedLockingStrategy(QLockable;QLockMode;) | read uncommitted locking strategy
+void releaseConnectionIDLock() | release connection id lock
+void releaseLock() | release lock
+void releaseReadLock() | release read lock
+void releaseWriteLock() | release write lock
+void requestLock(String lockStr, int transactionIsolationLevel) | request lock
+void setLockDAVMinutes(I) | set lock dav minutes
+void setLockEventListeners([QLockEventListener;) | set lock event listeners
+void setLockModeArray([QLockMode;) | set lock mode array
+void setLockMode(I) | set lock mode
+void setLockMode(QLockMode;) | set lock mode
+void setLockModes(QMap;) | set lock modes
+void setLock(QObject;) | set lock
+void setOptimisticLockMode(I) | set optimistic lock mode
+void upgradeLock(QObject;QEntityEntry;QLockMode;QSessionImplementor;) | upgrade lock

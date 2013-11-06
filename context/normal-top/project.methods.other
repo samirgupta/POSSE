@@ -1,0 +1,99 @@
+ArrayList getProjectTasks() | get project tasks
+boolean addProjectClassPath(QFile;) | add project class path
+boolean addProjectFilesClassPath(QFile;) | add project files class path
+boolean canBeProjectTask(QTask;QTaskContainmentHierarchyFacade;) | can be project task
+boolean _checkProjectClose() | check project close
+boolean checkProjectFile([QString;) | check project file
+boolean hasAProjectTaskDescendant(QDefaultMutableTreeNode;) | has a project task descendant
+boolean inNewProjectPath(QFile;) | in new project path
+boolean inProjectPath() | in project path
+boolean inProjectPath(QFile;) | in project path
+boolean inProjectPath(QOpenDefinitionsDocument;) | in project path
+boolean isProjectActive() | is project active
+boolean isProjectBoundariesOptionOn() | is project boundaries option on
+boolean isProjectTask() | is project task
+boolean isProjectTaskOrContainsProjectTask(QTask;) | is project task or contains project task
+BooleanOption getProjectBoundariesOption() | get project boundaries option
+boolean _saveProjectAs() | save project as
+Class getProjectClass() | get project class
+Component wrapProjectComponent(QProject;) | wrap project component
+Date getProjectEnd() | get project end
+Date getProjectStart() | get project start
+File getProjectFile() | get project file
+File[] getProjectFiles() | get project files
+File getProjectRoot() | get project root
+FileGroupingState makeProjectFileGroupingState(QFile;QString;QFile;QFile;QFile;[QFile;[QFile;[QFile;QIterable<QFile;>;QFile;IZ) | make project file grouping state
+float getProjectTextWidth() | get project text width
+GanttProject getGanttProjectSingleton() | get gantt project singleton
+GanttProject getProjectFrame() | get project frame
+GPAction getNewProjectAction() | get new project action
+GPAction getOpenProjectAction() | get open project action
+GPAction getSaveProjectAction() | get save project action
+GPAction getSaveProjectAsAction() | get save project as action
+HashMap<QOpenDefinitionsDocument;QDocumentInfoGetter;> gatherProjectDocInfo() | gather project doc info
+InterfaceProjectUI getProjectUI() | get project ui
+Iterable<QFile;> getProjectCP() | get project cp
+Iterable<QFile;> getProjectFilesCP() | get project files cp
+Iterator getProjectItems(int selectedRows) | get project items
+java.lang.String getProjectName() | get project name
+JFrame getProjectFrame() | get project frame
+JMenu _setUpProjectMenu(I) | set up project menu
+List getSelectedProjectHolderTreeNodes() | get selected project holder tree nodes
+List<QOpenDefinitionsDocument;> getNonProjectDocuments() | get non project documents
+List<QOpenDefinitionsDocument;> getProjectDocuments() | get project documents
+ProjectAspect findSelectedProjectAspect() | find selected project aspect
+ProjectBoundsAlgorithm getProjectBoundsAlgorithm() | get project bounds algorithm
+ProjectProfile _makeProjectProfile(QFile;QHashMap<QOpenDefinitionsDocument;QDocumentInfoGetter;>;) | make project profile
+ProjectUIFacade getProjectUIFacade() | get project ui facade
+Role[] getProjectLevelRoles() | get project level roles
+RoleSet getProjectRoleSet() | get project role set
+String getNewProjectWizardWindowTitle() | get new project wizard window title
+String getProjectDescription() | get project description
+String getProjectDomainPageTitle() | get project domain page title
+String getProjectID() | get project id
+String getProjectName() | get project name
+String getProjectOrganization() | get project organization
+String getProjectWeekendPageTitle() | get project weekend page title
+TaskLength getProjectLength() | get project length
+UIConfiguration getProjectConfig() | get project config
+URL getProjectCalendar() | get project calendar
+void addProjectClassPath(QFile;) | add project class path
+void addProjectCP(QFile;) | add project cp
+void addProjectEventListener(QProjectEventListener;) | add project event listener
+void addProjectFilesClassPath(QFile;) | add project files class path
+void addProjectFilesCP(QFile;) | add project files cp
+void addProjectNamePage(QIGanttProject;) | add project name page
+void createIsDbfProjectGroup(Composite parent) | create is dbf project group
+void createProjectMenu() | create project menu
+void getProjectTasks(QDefaultMutableTreeNode;QArrayList;) | get project tasks
+void initProjectActions(QProject;) | init project actions
+void installProjectListeners(QProject;) | install project listeners
+void _openProjectHelper(QFile;) | open project helper
+void _openProjectUpdate() | open project update
+void PrivateProjectException(QString;) | private project exception
+void refreshProjectInfos() | refresh project infos
+void removeProjectEventListener(QProjectEventListener;) | remove project event listener
+void removeProjectListener(ShrimpProjectListener listener) | remove project listener
+void saveProjectAs(QIGanttProject;) | save project as
+void _saveProjectHelper(QFile;) | save project helper
+void saveProjectRemotely(QIGanttProject;) | save project remotely
+void setProjectClassName(QString;) | set project class name
+void setProjectClass(QClass;) | set project class
+void setProjectFile(QFile;) | set project file
+void setProjectLevelTaskColor(QColor;) | set project level task color
+void setProjectName(Qjava.lang.String;) | set project name
+void setProjectName(QString;) | set project name
+void setProjectOpen(boolean value) | set project open
+void setProjectPlotTimes(FF) | set project plot times
+void setProjectRoot(QFile;) | set project root
+void setProjectTask(Z) | set project task
+void _setUpProjectButtons(QFile;) | set up project buttons
+void showNewProjectWizard(QIGanttProject;) | show new project wizard
+void _showProjectFileParseError(QMalformedProjectFileException;) | show project file parse error
+void showProjectMenuItem(String path, String com, String menu) | show project menu item
+void testLegacyParseProjectPJT() | test legacy parse project pjt
+void testParseProjectPJT() | test parse project pjt
+void testProjectForm() | test project form
+void uninstallProjectListeners(QProject;) | uninstall project listeners
+void updateRecentProjectMenu(QJMenu;QVector;) | update recent project menu
+void writeProjectInfos(QOutputStreamWriter;) | write project infos

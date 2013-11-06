@@ -1,0 +1,5 @@
+CONS FMFileLimited(QFMFileLimited;) | fm file limited
+CONS FMFileLimited(QFMFileOwner;QFMFileManagerImpl;QFile;I) | fm file limited
+CONS FrequencyLimitedDispatcher(QAERunnable;I) | frequency limited dispatcher
+CONS LimitedInputStream(QInputStream;) | limited input stream
+CONS TimeLimitedTask(QString;IIQtask;) | time limited task

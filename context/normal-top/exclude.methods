@@ -1,0 +1,26 @@
+ASN1Sequence getExcludedSubtrees() | get excluded subtrees
+boolean excludeEmpty() | exclude empty
+boolean exclude(QAST;) | exclude
+boolean hasExcludedName(QString;) | has excluded name
+boolean isExcludedFile(QFile;) | is excluded file
+boolean mustExcludeDirectories() | must exclude directories
+Component _excludedFilesComponent() | excluded files component
+DocFile[] getExcludedFiles() | get excluded files
+Example excludeNone() | exclude none
+Example excludeProperty(QString;) | exclude property
+Example excludeZeroes() | exclude zeroes
+Set getExcludedPropertyNames() | get excluded property names
+void addExcludedFile(QDocFile;) | add excluded file
+void addExcludedFile(QDocumentInfoGetter;) | add excluded file
+void addExcludedFile(QFile;) | add excluded file
+void addExcludedName(QString;) | add excluded name
+void addOptionalExcludedName(QString;) | add optional excluded name
+void alwaysExcludeDirectories() | always exclude directories
+void clearExcludedFile() | clear excluded file
+void excludeStandardObjectNames() | exclude standard object names
+void removeExcludedFile(QFile;) | remove excluded file
+void removeExcludedName(QString;) | remove excluded name
+void setExcludedFiles([QFile;) | set excluded files
+void setExcludedFiles(QList<QDocFile;>;) | set excluded files
+void testExcludeList() | test exclude list
+void testGetMultipleExcludesComments() | test get multiple excludes comments

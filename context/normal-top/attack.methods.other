@@ -1,0 +1,9 @@
+CombatResult generateAttackResult(QColony;QUnit;) | generate attack result
+CombatResult generateAttackResult(QUnit;QUnit;) | generate attack result
+int getOtherAttackInfo() | get other attack info
+LosEffects.AttackInfo buildAttackInfo(QCoords;QCoords;II) | build attack info
+Packet createAttackPacket(QEntityAction;I) | create attack packet
+Packet createAttackPacket(QVector;I) | create attack packet
+ToHitData getLegAttackBaseToHit(QEntity;QEntity;) | get leg attack base to hit
+void sendAttackData(IQVector;) | send attack data
+void setOtherAttackInfo(I) | set other attack info

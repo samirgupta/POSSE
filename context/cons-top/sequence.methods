@@ -1,0 +1,20 @@
+CONS BERSequence() | ber sequence
+CONS BERSequenceGenerator(QOutputStream;) | ber sequence generator
+CONS BERSequenceGenerator(QOutputStream;IZ) | ber sequence generator
+CONS BERSequenceParser(QASN1ObjectParser;) | ber sequence parser
+CONS BERSequence(QDEREncodable;) | ber sequence
+CONS BERSequence(QDEREncodableVector;) | ber sequence
+CONS DERSequence() | der sequence
+CONS DERSequenceGenerator(QOutputStream;) | der sequence generator
+CONS DERSequenceGenerator(QOutputStream;IZ) | der sequence generator
+CONS DERSequence([QASN1Encodable;) | der sequence
+CONS DERSequence(QDEREncodable;) | der sequence
+CONS DERSequence(QDEREncodableVector;) | der sequence
+CONS JoinSequence(QSessionFactoryImplementor;) | join sequence
+CONS NumberSequence(QHsqlName;JJI) | number sequence
+CONS ProcessSequence([QProcessCreator;) | process sequence
+CONS Sequence() | sequence
+CONS Sequence(I) | sequence
+CONS SequenceManager() | sequence manager
+CONS Sequence(QFastVector;) | sequence
+CONS SequenceStructure(QDialect;QString;II) | sequence structure

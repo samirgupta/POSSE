@@ -1,0 +1,62 @@
+Boolean addValueToSerie(QString;QObject;) | add value to serie
+Boolean resetSerie(QString;) | reset serie
+CategorySeries readCategorySeries(QNode;) | read category series
+double getStartYValue(int series, int item) | get start y value
+double powerSeries(DDD) | power series
+int getSeriesCount() | get series count
+java.util.Vector getSeries(QString;Qjava.util.Properties;Qit.businesslogic.ireport.IReportScriptlet;) | get series
+Number getLow(int series, int item) | get low
+Number getStartValue(int series, Object category) | get start value
+Number getStartX(int series, int item) | get start x
+Shape getSeriesShape(int series) | get series shape
+String generateLabelString(XYDataset dataset, int series, int item) | generate label string
+String[] getNeededSeries() | get needed series
+String getSerieAsString(QString;) | get serie as string
+String getSerieExpression() | get serie expression
+String getSerieName() | get serie name
+String getSerieReset() | get serie reset
+String getSeriesExpression() | get series expression
+String getSeriesName(int i) | get series name
+String getSerieType() | get serie type
+TimePeriodSeries readTimePeriodSeries(QNode;) | read time period series
+TimeSeriesDataset getTimeSeriesDataset() | get time series dataset
+TimeSeries readTimeSeries(QNode;) | read time series
+Vector getCategorySeries() | get category series
+Vector getChartSeriesClipBoard() | get chart series clip board
+Vector getSerie(QString;) | get serie
+Vector getTimePeriodSeries() | get time period series
+Vector getTimeSeries() | get time series
+Vector getXYSeries() | get xy series
+Vector getXYZSeries() | get xyz series
+void calculateSeries() | calculate series
+void calculateSeries(I) | calculate series
+void processSeries() | process series
+void purgeSeries(QString;I) | purge series
+void readTimeSeriesDataset(QNode;QChartReportElement2;) | read time series dataset
+void readTimeSeriesPlot(QNode;QTimeSeriesPlot;) | read time series plot
+void remove(double x, String seriesName) | remove
+void resetSeries(QString;) | reset series
+void setCategorySeries(QVector;) | set category series
+void setChartSeriesClipBoard(QVector;) | set chart series clip board
+void setNeededSeries([QString;) | set needed series
+void setSerieExpression(QString;) | set serie expression
+void setSerieName(QString;) | set serie name
+void setSerieReset(QString;) | set serie reset
+void setSeriesExpression(QString;) | set series expression
+void setSeriesToGroupMap(KeyToGroupMap map) | set series to group map
+void setSerieType(QString;) | set serie type
+void setTimePeriodSeries(QVector;) | set time period series
+void setTimeSeriesDataset(QTimeSeriesDataset;) | set time series dataset
+void setTimeSeries(QVector;) | set time series
+void setXYSeries(QVector;) | set xy series
+void setXYZSeries(QVector;) | set xyz series
+void updateSeriesComboBoxes() | update series combo boxes
+void updateSeriesList() | update series list
+void updateSeriesType() | update series type
+void writeCategorySeries(QCategorySeries;QPrintWriter;) | write category series
+void writeTimePeriodSeries(QTimePeriodSeries;QPrintWriter;) | write time period series
+void writeTimeSeries(QTimeSeries;QPrintWriter;) | write time series
+void writeXYSeries(QXYSeries;QPrintWriter;) | write xy series
+void writeXYZSeries(QXYZSeries;QPrintWriter;) | write xyz series
+XYSeries readXYSeries(QNode;) | read xy series
+XYZSeries readXYZSeries(QNode;) | read xyz series

@@ -1,0 +1,1199 @@
+../3-Phrases/Base_Verb:Object readObjectFromResultSet(SelectStatement select, LoaderContext loadContext) | read object from result set
+../3-Phrases/Base_Verb:String readStringByDelimiter(String delimiter, int maxLength) | read string by delimiter
+../3-Phrases/Base_Verb:void readObjectFromResultSet(ResultSet rs) | read object from result set
+../3-Phrases/Base_Verb:byte readUserMemory(int memAddr, int noBytes) | read user memory
+../3-Phrases/Base_Verb:Classified_Object read_TypeCode(TypeCode tc) | read type code
+../3-Phrases/Base_Verb:void readObject(ObjectInputStream s) | read object
+../3-Phrases/Base_Verb:void readExternal(ObjectInput objectinput) | read external
+../3-Phrases/Base_Verb:void readClut16(byte data) | read clut 16
+../3-Phrases/Base_Verb:void readObject(ObjectInputStream s) | read object
+../3-Phrases/Base_Verb:Object readResolve() | read resolve
+../3-Phrases/Base_Verb:void readObject(ObjectInputStream stream) | read object
+../3-Phrases/Base_Verb:Object readArguments(InputStream is) | read arguments
+../3-Phrases/Base_Verb:void readModel(String fileName) | read model
+../3-Phrases/Base_Verb:void readIsCyclic(boolean isCyclic, NestedValue nv) | read is cyclic
+../3-Phrases/Base_Verb:void readTree(EvolutionState state, LineNumberReader reader) | read tree
+../3-Phrases/Base_Verb:void readHeader(LineInput in) | read header
+../3-Phrases/Base_Verb:void readFooter(RandomAccessFile raf, int location) | read footer
+../3-Phrases/Base_Verb:long readUnsignedInt() | read unsigned int
+../3-Phrases/Base_Verb:Object readThisLine(String theLine) | read this line
+../3-Phrases/Base_Verb:void readData(InputStreamHook stream) | read data
+../3-Phrases/Base_Verb:char ReadByte() | read byte
+../3-Phrases/Base_Verb:Object readNext() | read next
+../3-Phrases/Base_Verb:String readString() | read string
+../3-Phrases/Base_Verb:ByteArray readInput(InputStream i) | read input
+../3-Phrases/Base_Verb:void readAttributeElement(IConfigurationElement element) | read attribute element
+../3-Phrases/Base_Verb:String readForm(String fname, String server) | read form
+../3-Phrases/Base_Verb:void readFile(IFile file) | read file
+../3-Phrases/Base_Verb:void readObject(ObjectInputStream s) | read object
+../3-Phrases/Base_Verb:void readExternal(ObjectInput in) | read external
+../3-Phrases/Base_Verb:void readProcessData(XmlElement xmlElement, CreationContext creationContext) | read process data
+../3-Phrases/Base_Verb:short readLEShort(byte byteArray) | read le short
+../3-Phrases/Base_Verb:void readObject(ObjectInputStream in) | read object
+../3-Phrases/Base_Verb:void readChartTitleElement(Node xmlElement, ChartReportElement2 re) | read chart title element
+../3-Phrases/Base_Verb:Entity readEntity() | read entity
+../3-Phrases/Base_Verb:LispList readLists() | read lists
+../3-Phrases/Base_Verb:void readObject(ObjectInputStream s) | read object
+../3-Phrases/Base_Verb:void readSrc() | read src
+../3-Phrases/Base_Verb:boolean readCheckBox(Object field) | read check box
+../3-Phrases/Base_Verb:void readFile() | read file
+../3-Phrases/Base_Verb:void read_interface(IXOLElement $IXOLElement) | read interface
+../3-Phrases/Base_Verb:String readExternalIds(boolean inNotation) | read external ids
+../3-Phrases/Base_Verb:int read_font_info(int u, int nom, int aire, int s) | read font info
+../3-Phrases/Dguitar:GP4Piece readPiece() | read piece
+../3-Phrases/Dguitar:GP4Beat readBeat() | read beat
+../3-Phrases/Dguitar:boolean readBoolean() | read boolean
+../3-Phrases/Dguitar:byte readByte() | read byte
+../3-Phrases/Dguitar:GP4Color readColor() | read color
+../3-Phrases/Dguitar:int readInt() | read int
+../3-Phrases/Dguitar:int readIntMSB() | read int msb
+../3-Phrases/Dguitar:GP4Marker readMarker() | read marker
+../3-Phrases/Dguitar:GP4Measure readMeasure(QGP4Measure;) | read measure
+../3-Phrases/Dguitar:GP4MeasureTrackPair readMeasureTrackPair() | read measure track pair
+../3-Phrases/Dguitar:GP4MIDIChannel readMIDIChannel() | read midi channel
+../3-Phrases/Dguitar:GP4Note readNote() | read note
+../3-Phrases/Dguitar:String readStringByte(I) | read string byte
+../3-Phrases/Dguitar:String readStringInteger() | read string integer
+../3-Phrases/Dguitar:String readStringIntegerPlusOne() | read string integer plus one
+../3-Phrases/Dguitar:GP4Track readTrack() | read track
+../3-Phrases/Dguitar:int readUnsignedByte() | read unsigned byte
+../3-Phrases/Dguitar:GP4ChordDiagram readChordDiagram() | read chord diagram
+../3-Phrases/Dguitar:GP4GraceNote readGraceNote() | read grace note
+../3-Phrases/Dguitar:GP4BendPoint readBendPoint() | read bend point
+../3-Phrases/Dguitar:GP4Bend readBend() | read bend
+../3-Phrases/Dguitar:GP4EffectsOnNote readEffectsOnNote() | read effects on note
+../3-Phrases/Dguitar:GP4EffectsOnBeat readEffectsOnBeat(QGP3EffectsOnBeat;) | read effects on beat
+../3-Phrases/Dguitar:GP4MixTableChange readMixTableChange() | read mix table change
+../3-Phrases/Dguitar:GP4Piece readPiece() | read piece
+../3-Phrases/Dguitar:GP4Beat readBeat() | read beat
+../3-Phrases/Dguitar:boolean readBoolean() | read boolean
+../3-Phrases/Dguitar:byte readByte() | read byte
+../3-Phrases/Dguitar:GP4Color readColor() | read color
+../3-Phrases/Dguitar:int readInt() | read int
+../3-Phrases/Dguitar:GP4Marker readMarker() | read marker
+../3-Phrases/Dguitar:GP4Measure readMeasure(QGP4Measure;) | read measure
+../3-Phrases/Dguitar:GP4MeasureTrackPair readMeasureTrackPair() | read measure track pair
+../3-Phrases/Dguitar:GP4MIDIChannel readMIDIChannel() | read midi channel
+../3-Phrases/Dguitar:GP4Note readNote() | read note
+../3-Phrases/Dguitar:String readStringByte(I) | read string byte
+../3-Phrases/Dguitar:String readStringInteger() | read string integer
+../3-Phrases/Dguitar:String readStringIntegerPlusOne() | read string integer plus one
+../3-Phrases/Dguitar:GP4Track readTrack() | read track
+../3-Phrases/Dguitar:int readUnsignedByte() | read unsigned byte
+../3-Phrases/Dguitar:GP4ChordType readChordType() | read chord type
+../3-Phrases/Dguitar:GP4Root readRoot() | read root
+../3-Phrases/Dguitar:GP4TonalityType readTonalityType(I) | read tonality type
+../3-Phrases/Dguitar:String readChordName() | read chord name
+../3-Phrases/Dguitar:GP4ChordDiagram readChordDiagram() | read chord diagram
+../3-Phrases/Dguitar:GP4GraceNote readGraceNote() | read grace note
+../3-Phrases/Dguitar:GP4BendPoint readBendPoint() | read bend point
+../3-Phrases/Dguitar:GP4Bend readBend() | read bend
+../3-Phrases/Dguitar:GP4EffectsOnNote readEffectsOnNote() | read effects on note
+../3-Phrases/Dguitar:GP4EffectsOnBeat readEffectsOnBeat() | read effects on beat
+../3-Phrases/Dguitar:GP4MixTableChange readMixTableChange() | read mix table change
+../3-Phrases/Dguitar:GP4Piece readPieceFrom(QFile;) | read piece from
+../3-Phrases/Dguitar:GP4Piece readPiece() | read piece
+../3-Phrases/Dguitar:boolean readPieceFrom(QGPInputStream;) | read piece from
+../3-Phrases/Dguitar:void readAndShow(QInputStream;) | read and show
+../3-Phrases/Dguitar:boolean readAndDisplay(QGPInputStream;) | read and display
+../3-Phrases/DrawSWF:void readFile() | read file
+../3-Phrases/DrawSWF:void readTags() | read tags
+../3-Phrases/DrawSWF:int readOneTag() | read one tag
+../3-Phrases/DrawSWF:void readHeader() | read header
+../3-Phrases/DrawSWF:ADPCMPacket readPacket(I) | read packet
+../3-Phrases/DrawSWF:MP3Frame readFrame(QInputStream;) | read frame
+../3-Phrases/DrawSWF:byte[] readStringBytes() | read string bytes
+../3-Phrases/DrawSWF:String readString() | read string
+../3-Phrases/DrawSWF:long readUBits(I) | read u bits
+../3-Phrases/DrawSWF:int readUI8() | read ui 8
+../3-Phrases/DrawSWF:int readUI16() | read ui 16
+../3-Phrases/DrawSWF:short readSI16() | read si 16
+../3-Phrases/DrawSWF:long readUI32() | read ui 32
+../3-Phrases/DrawSWF:int readSBits(I) | read s bits
+../3-Phrases/DrawSWF:int readSI32() | read si 32
+../3-Phrases/DrawSWF:float readFloat() | read float
+../3-Phrases/DrawSWF:double readDouble() | read double
+../3-Phrases/DrawSWF:Object readResolve() | read resolve
+../3-Phrases/DrawSWF:Object readResolve() | read resolve
+../3-Phrases/drjava2:List<QDocFile;> readSourceFiles(QString;QString;) | read source files
+../3-Phrases/drjava2:List<QFile;> readFiles(QString;) | read files
+../3-Phrases/drjava2:List<QString;> readCollapsed() | read collapsed
+../3-Phrases/drjava2:List<QDebugBreakpointData;> readBreakpoints() | read breakpoints
+../3-Phrases/drjava2:List<QDebugWatchData;> readWatches() | read watches
+../3-Phrases/drjava2:List<QFileRegion;> readBookmarks() | read bookmarks
+../3-Phrases/drjava2:void readText(Z) | read text
+../3-Phrases/drjava2:byte[] readStreamAsBytes(QInputStream;) | read stream as bytes
+../3-Phrases/drjava2:String readFileAsSwingText(QFile;) | read file as swing text
+../3-Phrases/drjava2:String readFileAsString(QFile;) | read file as string
+../3-Phrases/drjava2:void _readInputIntoBuffer() | read input into buffer
+../3-Phrases/drjava2:Tokens.SExpToken readToken() | read token
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;QSpecification;) | read from xml
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;) | read from xml
+../3-Phrases/freecol2:void readFromXMLElement(QElement;) | read from xml element
+../3-Phrases/freecol2:void readFromXMLElement(QElement;) | read from xml element
+../3-Phrases/freecol2:void readAttributes(QXMLStreamReader;QSpecification;) | read attributes
+../3-Phrases/freecol2:void readChildren(QXMLStreamReader;QSpecification;) | read children
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;QGame;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readAttributes(QXMLStreamReader;QSpecification;) | read attributes
+../3-Phrases/freecol2:FreeColObject readChild(QXMLStreamReader;QSpecification;) | read child
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readAttributes(QXMLStreamReader;QSpecification;) | read attributes
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;QSpecification;) | read from xml
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLElement(QElement;) | read from xml element
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;) | read from xml
+../3-Phrases/freecol2:int[] readFromArrayElement(QString;QXMLStreamReader;[I) | read from array element
+../3-Phrases/freecol2:T[] readFromArrayElement(QString;QXMLStreamReader;QClass<QT;>;) | read from array element
+../3-Phrases/freecol2:List<QT;> readFromListElement(QString;QXMLStreamReader;QClass<QT;>;) | read from list element
+../3-Phrases/freecol2:String[] readFromArrayElement(QString;QXMLStreamReader;[QString;) | read from array element
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readAttributes(QXMLStreamReader;) | read attributes
+../3-Phrases/freecol2:void readChildren(QXMLStreamReader;) | read children
+../3-Phrases/freecol2:void readAttributes(QXMLStreamReader;) | read attributes
+../3-Phrases/freecol2:void readAttributes(QXMLStreamReader;QSpecification;) | read attributes
+../3-Phrases/freecol2:void readChildren(QXMLStreamReader;QSpecification;) | read children
+../3-Phrases/freecol2:void readAttributes(QXMLStreamReader;QSpecification;) | read attributes
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readAttributes(QXMLStreamReader;QSpecification;) | read attributes
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readAttributes(QXMLStreamReader;QSpecification;) | read attributes
+../3-Phrases/freecol2:void readChildren(QXMLStreamReader;QSpecification;) | read children
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;) | read from xml
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;) | read from xml
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readAttributes(QXMLStreamReader;QSpecification;) | read attributes
+../3-Phrases/freecol2:void readChildren(QXMLStreamReader;QSpecification;) | read children
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readAttributes(QXMLStreamReader;) | read attributes
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readAttributes(QXMLStreamReader;QSpecification;) | read attributes
+../3-Phrases/freecol2:void readChildren(QXMLStreamReader;QSpecification;) | read children
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;QGame;) | read from xml
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readAttributes(QXMLStreamReader;) | read attributes
+../3-Phrases/freecol2:void readChildren(QXMLStreamReader;) | read children
+../3-Phrases/freecol2:void readAttributes(QXMLStreamReader;QSpecification;) | read attributes
+../3-Phrases/freecol2:void readChildren(QXMLStreamReader;QSpecification;) | read children
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;QSpecification;) | read from xml
+../3-Phrases/freecol2:void readAttributes(QXMLStreamReader;QSpecification;) | read attributes
+../3-Phrases/freecol2:void readChildren(QXMLStreamReader;QSpecification;) | read children
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;QSpecification;) | read from xml
+../3-Phrases/freecol2:void readAttributes(QXMLStreamReader;QSpecification;) | read attributes
+../3-Phrases/freecol2:void readChildren(QXMLStreamReader;QSpecification;) | read children
+../3-Phrases/freecol2:FreeColObject readChild(QXMLStreamReader;QSpecification;) | read child
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readAttributes(QXMLStreamReader;QSpecification;) | read attributes
+../3-Phrases/freecol2:void readChildren(QXMLStreamReader;QSpecification;) | read children
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXML(QElement;) | read from xml
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLElement(QElement;) | read from xml element
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;) | read from xml
+../3-Phrases/freecol2:void readFromXMLElement(QElement;) | read from xml element
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLElement(QElement;) | read from xml element
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;) | read from xml
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromServerAdditionElement(QXMLStreamReader;) | read from server addition element
+../3-Phrases/freecol2:void readFromServerAdditionElement(QXMLStreamReader;) | read from server addition element
+../3-Phrases/freemind:char readChar() | read char
+../3-Phrases/freemind:StringBuffer readFileStart(QFile;I) | read file start
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:void readObject(QObjectInputStream;) | read object
+../3-Phrases/hibernate-3.3.1.GA:void readObject(QObjectInputStream;) | read object
+../3-Phrases/hibernate-3.3.1.GA:void readObject(QObjectInputStream;) | read object
+../3-Phrases/hibernate-3.3.1.GA:void readObject(QObjectInputStream;) | read object
+../3-Phrases/hibernate-3.3.1.GA:int readInt(QObject;QString;I) | read int
+../3-Phrases/hibernate-3.3.1.GA:char readChar(QObject;QString;C) | read char
+../3-Phrases/hibernate-3.3.1.GA:byte readByte(QObject;QString;B) | read byte
+../3-Phrases/hibernate-3.3.1.GA:boolean readBoolean(QObject;QString;Z) | read boolean
+../3-Phrases/hibernate-3.3.1.GA:short readShort(QObject;QString;S) | read short
+../3-Phrases/hibernate-3.3.1.GA:float readFloat(QObject;QString;F) | read float
+../3-Phrases/hibernate-3.3.1.GA:double readDouble(QObject;QString;D) | read double
+../3-Phrases/hibernate-3.3.1.GA:long readLong(QObject;QString;J) | read long
+../3-Phrases/hibernate-3.3.1.GA:Object readObject(QObject;QString;QObject;) | read object
+../3-Phrases/hibernate-3.3.1.GA:byte[] readByteCode(QInputStream;) | read byte code
+../3-Phrases/hibernate-3.3.1.GA:byte[] readByteCode(QFile;) | read byte code
+../3-Phrases/hibernate-3.3.1.GA:byte[] readByteCode(QZipInputStream;) | read byte code
+../3-Phrases/hibernate-3.3.1.GA:CONS ReadOnlyCache() | read only cache
+../3-Phrases/hibernate-3.3.1.GA:CONS ReadWriteCache() | read write cache
+../3-Phrases/hibernate-3.3.1.GA:void readObject(Qjava.io.ObjectInputStream;) | read object
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:void readObject(QObjectInputStream;) | read object
+../3-Phrases/hibernate-3.3.1.GA:Object readFrom(QResultSet;QCollectionPersister;QCollectionAliases;QObject;) | read from
+../3-Phrases/hibernate-3.3.1.GA:Object readFrom(QResultSet;QCollectionPersister;QCollectionAliases;QObject;) | read from
+../3-Phrases/hibernate-3.3.1.GA:Object readFrom(QResultSet;QCollectionPersister;QCollectionAliases;QObject;) | read from
+../3-Phrases/hibernate-3.3.1.GA:Object readFrom(QResultSet;QCollectionPersister;QCollectionAliases;QObject;) | read from
+../3-Phrases/hibernate-3.3.1.GA:Object readFrom(QResultSet;QCollectionPersister;QCollectionAliases;QObject;) | read from
+../3-Phrases/hibernate-3.3.1.GA:boolean readSize() | read size
+../3-Phrases/hibernate-3.3.1.GA:Boolean readIndexExistence(QObject;) | read index existence
+../3-Phrases/hibernate-3.3.1.GA:Boolean readElementExistence(QObject;) | read element existence
+../3-Phrases/hibernate-3.3.1.GA:Object readElementByIndex(QObject;) | read element by index
+../3-Phrases/hibernate-3.3.1.GA:Object readFrom(QResultSet;QCollectionPersister;QCollectionAliases;QObject;) | read from
+../3-Phrases/hibernate-3.3.1.GA:Object readFrom(QResultSet;QCollectionPersister;QCollectionAliases;QObject;) | read from
+../3-Phrases/hibernate-3.3.1.GA:Object readFrom(QResultSet;QCollectionPersister;QCollectionAliases;QObject;) | read from
+../3-Phrases/hibernate-3.3.1.GA:Object readFrom(QResultSet;QCollectionPersister;QCollectionAliases;QObject;) | read from
+../3-Phrases/hibernate-3.3.1.GA:void readObject(QObjectInputStream;) | read object
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:void ReadUncommittedLockingStrategy(QLockable;QLockMode;) | read uncommitted locking strategy
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:void readObject(QObjectInputStream;) | read object
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:void readObject(QObjectInputStream;) | read object
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:boolean readBoolean(QObject;QString;Z) | read boolean
+../3-Phrases/hibernate-3.3.1.GA:byte readByte(QObject;QString;B) | read byte
+../3-Phrases/hibernate-3.3.1.GA:char readChar(QObject;QString;C) | read char
+../3-Phrases/hibernate-3.3.1.GA:double readDouble(QObject;QString;D) | read double
+../3-Phrases/hibernate-3.3.1.GA:float readFloat(QObject;QString;F) | read float
+../3-Phrases/hibernate-3.3.1.GA:int readInt(QObject;QString;I) | read int
+../3-Phrases/hibernate-3.3.1.GA:long readLong(QObject;QString;J) | read long
+../3-Phrases/hibernate-3.3.1.GA:short readShort(QObject;QString;S) | read short
+../3-Phrases/hibernate-3.3.1.GA:Object readObject(QObject;QString;QObject;) | read object
+../3-Phrases/hibernate-3.3.1.GA:boolean readBoolean(QObject;QString;Z) | read boolean
+../3-Phrases/hibernate-3.3.1.GA:byte readByte(QObject;QString;B) | read byte
+../3-Phrases/hibernate-3.3.1.GA:char readChar(QObject;QString;C) | read char
+../3-Phrases/hibernate-3.3.1.GA:double readDouble(QObject;QString;D) | read double
+../3-Phrases/hibernate-3.3.1.GA:float readFloat(QObject;QString;F) | read float
+../3-Phrases/hibernate-3.3.1.GA:int readInt(QObject;QString;I) | read int
+../3-Phrases/hibernate-3.3.1.GA:long readLong(QObject;QString;J) | read long
+../3-Phrases/hibernate-3.3.1.GA:short readShort(QObject;QString;S) | read short
+../3-Phrases/hibernate-3.3.1.GA:Object readObject(QObject;QString;QObject;) | read object
+../3-Phrases/hibernate-3.3.1.GA:void readObject(QObjectInputStream;) | read object
+../3-Phrases/hibernate-3.3.1.GA:void readObject(QObjectInputStream;) | read object
+../3-Phrases/hibernate-3.3.1.GA:void readCollectionElements([QObject;QResultSet;QSessionImplementor;) | read collection elements
+../3-Phrases/hibernate-3.3.1.GA:void readCollectionElement(QObject;QSerializable;QCollectionPersister;QCollectionAliases;QResultSet;QSessionImplementor;) | read collection element
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readKey(QResultSet;[QString;QSessionImplementor;) | read key
+../3-Phrases/hibernate-3.3.1.GA:Object readElement(QResultSet;QObject;[QString;QSessionImplementor;) | read element
+../3-Phrases/hibernate-3.3.1.GA:Object readIndex(QResultSet;[QString;QSessionImplementor;) | read index
+../3-Phrases/hibernate-3.3.1.GA:Object readIdentifier(QResultSet;QString;QSessionImplementor;) | read identifier
+../3-Phrases/hibernate-3.3.1.GA:Object readElement(QResultSet;QObject;[QString;QSessionImplementor;) | read element
+../3-Phrases/hibernate-3.3.1.GA:Object readIndex(QResultSet;[QString;QSessionImplementor;) | read index
+../3-Phrases/hibernate-3.3.1.GA:Object readIdentifier(QResultSet;QString;QSessionImplementor;) | read identifier
+../3-Phrases/hibernate-3.3.1.GA:Object readKey(QResultSet;[QString;QSessionImplementor;) | read key
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:void readObject(Qjava.io.ObjectInputStream;) | read object
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:Object readResolve() | read resolve
+../3-Phrases/hibernate-3.3.1.GA:void readObject(Qjava.io.ObjectInputStream;) | read object
+../3-Phrases/hibernate-3.3.1.GA:void readObject(Qjava.io.ObjectInputStream;) | read object
+../3-Phrases/hsqldb:Expression readAggregate() | read aggregate
+../3-Phrases/hsqldb:Expression readOr() | read or
+../3-Phrases/hsqldb:Expression readAnd() | read and
+../3-Phrases/hsqldb:Expression readCondition() | read condition
+../3-Phrases/hsqldb:void readThis(I) | read this
+../3-Phrases/hsqldb:Expression readConcat() | read concat
+../3-Phrases/hsqldb:Expression readSum() | read sum
+../3-Phrases/hsqldb:Expression readFactor() | read factor
+../3-Phrases/hsqldb:Expression readTerm() | read term
+../3-Phrases/hsqldb:Expression readCaseExpression() | read case expression
+../3-Phrases/hsqldb:Expression readCaseWhenExpression() | read case when expression
+../3-Phrases/hsqldb:Expression readCastExpression() | read cast expression
+../3-Phrases/hsqldb:Expression readColumnExpression() | read column expression
+../3-Phrases/hsqldb:Expression readConcatExpression() | read concat expression
+../3-Phrases/hsqldb:Expression readNullIfExpression() | read null if expression
+../3-Phrases/hsqldb:Expression readCoalesceExpression() | read coalesce expression
+../3-Phrases/hsqldb:Expression readExtractExpression() | read extract expression
+../3-Phrases/hsqldb:Expression readPositionExpression() | read position expression
+../3-Phrases/hsqldb:Expression readSubstringExpression() | read substring expression
+../3-Phrases/hsqldb:Expression readSequenceExpression() | read sequence expression
+../3-Phrases/hsqldb:Expression readTrimExpression() | read trim expression
+../3-Phrases/hsqldb:Expression readDefaultClause(I) | read default clause
+../3-Phrases/hsqldb:void readToken() | read token
+../3-Phrases/hsqldb:void readRowInfo(QRowInputInterface;) | read row info
+../3-Phrases/hsqldb:void readTableColumnAttrs(QRowInputBinary;I) | read table column attrs
+../3-Phrases/hsqldb:void readMultiResult(QRowInputBinary;) | read multi result
+../3-Phrases/hsqldb:int readLine(QInputStream;QOutputStream;) | read line
+../3-Phrases/hsqldb:void readFully([B) | read fully
+../3-Phrases/hsqldb:void readFully([BII) | read fully
+../3-Phrases/hsqldb:boolean readBoolean() | read boolean
+../3-Phrases/hsqldb:byte readByte() | read byte
+../3-Phrases/hsqldb:int readUnsignedByte() | read unsigned byte
+../3-Phrases/hsqldb:short readShort() | read short
+../3-Phrases/hsqldb:int readUnsignedShort() | read unsigned short
+../3-Phrases/hsqldb:char readChar() | read char
+../3-Phrases/hsqldb:int readInt() | read int
+../3-Phrases/hsqldb:long readLong() | read long
+../3-Phrases/hsqldb:float readFloat() | read float
+../3-Phrases/hsqldb:double readDouble() | read double
+../3-Phrases/hsqldb:String readLine() | read line
+../3-Phrases/hsqldb:String readUTF() | read utf
+../3-Phrases/hsqldb:int readInt() | read int
+../3-Phrases/hsqldb:long readLong() | read long
+../3-Phrases/hsqldb:String readUTF([BII) | read utf
+../3-Phrases/hsqldb:String readUTF([BII[C) | read utf
+../3-Phrases/hsqldb:long readHeartbeat() | read heartbeat
+../3-Phrases/hsqldb:int readInt() | read int
+../3-Phrases/hsqldb:long readLong() | read long
+../3-Phrases/hsqldb:void readIntoBuffer() | read into buffer
+../3-Phrases/hsqldb:long readLong() | read long
+../3-Phrases/hsqldb:int readInt() | read int
+../3-Phrases/hsqldb:RowInputInterface readObject(I) | read object
+../3-Phrases/hsqldb:int readHeaderLine() | read header line
+../3-Phrases/hsqldb:int readSize(I) | read size
+../3-Phrases/hsqldb:RowInputInterface readObject(I) | read object
+../3-Phrases/hsqldb:int readInt() | read int
+../3-Phrases/hsqldb:long readLong() | read long
+../3-Phrases/hsqldb:void readIntoBuffer() | read into buffer
+../3-Phrases/hsqldb:long readLong() | read long
+../3-Phrases/hsqldb:int readInt() | read int
+../3-Phrases/hsqldb:String readField() | read field
+../3-Phrases/hsqldb:String readNumberField() | read number field
+../3-Phrases/hsqldb:String readString() | read string
+../3-Phrases/hsqldb:short readShortData() | read short data
+../3-Phrases/hsqldb:int readIntData() | read int data
+../3-Phrases/hsqldb:long readLongData() | read long data
+../3-Phrases/hsqldb:int readType() | read type
+../3-Phrases/hsqldb:String readChar(I) | read char
+../3-Phrases/hsqldb:Integer readSmallint() | read smallint
+../3-Phrases/hsqldb:Integer readInteger() | read integer
+../3-Phrases/hsqldb:Long readBigint() | read bigint
+../3-Phrases/hsqldb:Double readReal(I) | read real
+../3-Phrases/hsqldb:BigDecimal readDecimal() | read decimal
+../3-Phrases/hsqldb:Time readTime() | read time
+../3-Phrases/hsqldb:Date readDate() | read date
+../3-Phrases/hsqldb:Timestamp readTimestamp() | read timestamp
+../3-Phrases/hsqldb:Boolean readBit() | read bit
+../3-Phrases/hsqldb:Object readOther() | read other
+../3-Phrases/hsqldb:Binary readBinary(I) | read binary
+../3-Phrases/hsqldb:byte[] readByteArray() | read byte array
+../3-Phrases/hsqldb:int readType() | read type
+../3-Phrases/hsqldb:short readShortData() | read short data
+../3-Phrases/hsqldb:int readIntData() | read int data
+../3-Phrases/hsqldb:long readLongData() | read long data
+../3-Phrases/hsqldb:String readString() | read string
+../3-Phrases/hsqldb:String readChar(I) | read char
+../3-Phrases/hsqldb:Integer readSmallint() | read smallint
+../3-Phrases/hsqldb:Integer readInteger() | read integer
+../3-Phrases/hsqldb:Long readBigint() | read bigint
+../3-Phrases/hsqldb:Double readReal(I) | read real
+../3-Phrases/hsqldb:BigDecimal readDecimal() | read decimal
+../3-Phrases/hsqldb:Boolean readBit() | read bit
+../3-Phrases/hsqldb:Time readTime() | read time
+../3-Phrases/hsqldb:Date readDate() | read date
+../3-Phrases/hsqldb:Timestamp readTimestamp() | read timestamp
+../3-Phrases/hsqldb:Object readOther() | read other
+../3-Phrases/hsqldb:Binary readBinary(I) | read binary
+../3-Phrases/hsqldb:String readString() | read string
+../3-Phrases/hsqldb:String readVarString() | read var string
+../3-Phrases/hsqldb:String readLongVarString() | read long var string
+../3-Phrases/hsqldb:short readShortData() | read short data
+../3-Phrases/hsqldb:int readIntData() | read int data
+../3-Phrases/hsqldb:long readLongData() | read long data
+../3-Phrases/hsqldb:int readType() | read type
+../3-Phrases/hsqldb:String readChar(I) | read char
+../3-Phrases/hsqldb:Integer readSmallint() | read smallint
+../3-Phrases/hsqldb:Integer readInteger() | read integer
+../3-Phrases/hsqldb:Long readBigint() | read bigint
+../3-Phrases/hsqldb:Double readReal(I) | read real
+../3-Phrases/hsqldb:BigDecimal readDecimal() | read decimal
+../3-Phrases/hsqldb:Time readTime() | read time
+../3-Phrases/hsqldb:Date readDate() | read date
+../3-Phrases/hsqldb:Timestamp readTimestamp() | read timestamp
+../3-Phrases/hsqldb:Boolean readBit() | read bit
+../3-Phrases/hsqldb:Object readOther() | read other
+../3-Phrases/hsqldb:Binary readBinary(I) | read binary
+../3-Phrases/hsqldb:int readType() | read type
+../3-Phrases/hsqldb:String readString() | read string
+../3-Phrases/hsqldb:short readShortData() | read short data
+../3-Phrases/hsqldb:int readIntData() | read int data
+../3-Phrases/hsqldb:long readLongData() | read long data
+../3-Phrases/hsqldb:Object[] readData([I) | read data
+../3-Phrases/hsqldb:int readIntData() | read int data
+../3-Phrases/hsqldb:long readLongData() | read long data
+../3-Phrases/hsqldb:int readType() | read type
+../3-Phrases/hsqldb:String readString() | read string
+../3-Phrases/hsqldb:String readChar(I) | read char
+../3-Phrases/hsqldb:Integer readSmallint() | read smallint
+../3-Phrases/hsqldb:Integer readInteger() | read integer
+../3-Phrases/hsqldb:Long readBigint() | read bigint
+../3-Phrases/hsqldb:Double readReal(I) | read real
+../3-Phrases/hsqldb:BigDecimal readDecimal() | read decimal
+../3-Phrases/hsqldb:Boolean readBit() | read bit
+../3-Phrases/hsqldb:Time readTime() | read time
+../3-Phrases/hsqldb:Date readDate() | read date
+../3-Phrases/hsqldb:Timestamp readTimestamp() | read timestamp
+../3-Phrases/hsqldb:Object readOther() | read other
+../3-Phrases/hsqldb:Binary readBinary(I) | read binary
+../3-Phrases/hsqldb:Object[] readData([I) | read data
+../3-Phrases/hsqldb:String readLine() | read line
+../3-Phrases/hsqldb:void readDDL(QSession;) | read ddl
+../3-Phrases/hsqldb:void readExistingData(QSession;) | read existing data
+../3-Phrases/hsqldb:boolean readLoggedStatement(QSession;) | read logged statement
+../3-Phrases/hsqldb:void readDDL(QSession;) | read ddl
+../3-Phrases/hsqldb:void readExistingData(QSession;) | read existing data
+../3-Phrases/hsqldb:boolean readRow(QTable;) | read row
+../3-Phrases/hsqldb:int readTableTerm() | read table term
+../3-Phrases/hsqldb:String readTableInit() | read table init
+../3-Phrases/hsqldb:boolean readRow(QRowInputBase;I) | read row
+../3-Phrases/hsqldb:boolean readLoggedStatement(QSession;) | read logged statement
+../3-Phrases/hsqldb:void readAll(QSession;) | read all
+../3-Phrases/hsqldb:void readDDL(QSession;) | read ddl
+../3-Phrases/hsqldb:void readExistingData(QSession;) | read existing data
+../3-Phrases/hsqldb:boolean readLoggedStatement(QSession;) | read logged statement
+../3-Phrases/hsqldb:void readTabProfileTest(QStatement;) | read tab profile test
+../3-Phrases/hsqldb:String readFile(QString;) | read file
+../3-Phrases/iReport:void readBandElements(QNode;QBand;) | read band elements
+../3-Phrases/iReport:it.businesslogic.ireport.JRParameter readParameterElement(QNode;) | read parameter element
+../3-Phrases/iReport:it.businesslogic.ireport.JRField readFieldElement(QNode;) | read field element
+../3-Phrases/iReport:it.businesslogic.ireport.JRVariable readVariableElement(QNode;) | read variable element
+../3-Phrases/iReport:it.businesslogic.ireport.Style readStyle(QNode;) | read style
+../3-Phrases/iReport:it.businesslogic.ireport.Group readGroupElement(QSubDataset;QNode;Z) | read group element
+../3-Phrases/iReport:void readBandElements(QString;QNode;QBand;QReportElement;) | read band elements
+../3-Phrases/iReport:void readChartElement(QNode;QChartReportElement2;) | read chart element
+../3-Phrases/iReport:void readChartTitleElement(QNode;QChartReportElement2;) | read chart title element
+../3-Phrases/iReport:IReportFont readFontElement(QNode;) | read font element
+../3-Phrases/iReport:void readDataset(QNode;QChartReportElement2;) | read dataset
+../3-Phrases/iReport:void readPieDataset(QNode;QChartReportElement2;) | read pie dataset
+../3-Phrases/iReport:void readCategoryDataset(QNode;QChartReportElement2;) | read category dataset
+../3-Phrases/iReport:void readTimePeriodDataset(QNode;QChartReportElement2;) | read time period dataset
+../3-Phrases/iReport:void readXYDataset(QNode;QChartReportElement2;) | read xy dataset
+../3-Phrases/iReport:void readXYZDataset(QNode;QChartReportElement2;) | read xyz dataset
+../3-Phrases/iReport:void readTimeSeriesDataset(QNode;QChartReportElement2;) | read time series dataset
+../3-Phrases/iReport:void readHighLowDataset(QNode;QChartReportElement2;) | read high low dataset
+../3-Phrases/iReport:CategorySeries readCategorySeries(QNode;) | read category series
+../3-Phrases/iReport:TimePeriodSeries readTimePeriodSeries(QNode;) | read time period series
+../3-Phrases/iReport:TimeSeries readTimeSeries(QNode;) | read time series
+../3-Phrases/iReport:XYSeries readXYSeries(QNode;) | read xy series
+../3-Phrases/iReport:XYZSeries readXYZSeries(QNode;) | read xyz series
+../3-Phrases/iReport:void readPiePlot(QNode;QPiePlot;) | read pie plot
+../3-Phrases/iReport:void readPie3DPlot(QNode;QPie3DPlot;) | read pie 3 d plot
+../3-Phrases/iReport:void readBarPlot(QNode;QBarPlot;) | read bar plot
+../3-Phrases/iReport:void readBar3DPlot(QNode;QBar3DPlot;) | read bar 3 d plot
+../3-Phrases/iReport:void readLinePlot(QNode;QLinePlot;) | read line plot
+../3-Phrases/iReport:void readAreaPlot(QNode;QAreaPlot;) | read area plot
+../3-Phrases/iReport:void readScatterPlot(QNode;QScatterPlot;) | read scatter plot
+../3-Phrases/iReport:void readBubblePlot(QNode;QBubblePlot;) | read bubble plot
+../3-Phrases/iReport:void readTimeSeriesPlot(QNode;QTimeSeriesPlot;) | read time series plot
+../3-Phrases/iReport:void readHighLowPlot(QNode;QHighLowPlot;) | read high low plot
+../3-Phrases/iReport:void readCandlestickPlot(QNode;QCandlestickPlot;) | read candlestick plot
+../3-Phrases/iReport:void readPlot(QNode;QPlot;) | read plot
+../3-Phrases/iReport:void readChartSubTitleElement(QNode;QChartReportElement2;) | read chart sub title element
+../3-Phrases/iReport:void readXMLReportElement(QNode;QReportElement;) | read xml report element
+../3-Phrases/iReport:void readBoxElement(QNode;QReportElement;) | read box element
+../3-Phrases/iReport:String readPCDATA(QNode;) | read pcdata
+../3-Phrases/iReport:String readPCDATA(QNode;Z) | read pcdata
+../3-Phrases/iReport:void readXMLTextElement(QNode;QTextReportElement;) | read xml text element
+../3-Phrases/iReport:String readPCDATA(QNode;) | read pcdata
+../3-Phrases/iReport:void readFieldsButtonActionPerformed(Qjava.awt.event.ActionEvent;) | read fields button action performed
+../3-Phrases/Jabref:void readLayout(QString;) | read layout
+../3-Phrases/Jabref:void readLayout() | read layout
+../3-Phrases/Jabref:HashMap<QString;QString;> readIconThemeFile(QURL;QString;) | read icon theme file
+../3-Phrases/Jabref:void readXML(QString;) | read xml
+../3-Phrases/Jabref:void readPrefs() | read prefs
+../3-Phrases/Jabref:HashMap<QString;QString;> readFormatterFile(QString;) | read formatter file
+../3-Phrases/Jabref:String readpreLine() | read pre line
+../3-Phrases/Jabref:void readLine() | read line
+../3-Phrases/Jabref:String readMultipleLines() | read multiple lines
+../3-Phrases/Jabref:void readPrefs() | read prefs
+../3-Phrases/Jabref:int readTag(QString;QStringBuffer;I) | read tag
+../3-Phrases/Jabref:String readLine(QBufferedReader;) | read line
+../3-Phrases/Jabref:String readJabRefVersionNumber() | read jab ref version number
+../3-Phrases/Jabref:void readJournalList(QString;) | read journal list
+../3-Phrases/Jabref:void readJournalList(QFile;) | read journal list
+../3-Phrases/Jabref:void readJournalList(QReader;) | read journal list
+../3-Phrases/Jabref:int readIntegerAttribute(QElement;QString;I) | read integer attribute
+../3-Phrases/Jabref:String readStringAttribute(QElement;QString;QString;) | read string attribute
+../3-Phrases/Jabref:double readDoubleAttribute(QElement;QString;D) | read double attribute
+../3-Phrases/Jabref:List<QBibtexEntry;> readXMP(QString;) | read xmp
+../3-Phrases/Jabref:List<QBibtexEntry;> readXMP(QFile;) | read xmp
+../3-Phrases/Jabref:List<QBibtexEntry;> readXMP(QInputStream;) | read xmp
+../3-Phrases/Jabref:XMPMetadata readRawXMP(QInputStream;) | read raw xmp
+../3-Phrases/Jabref:XMPMetadata readRawXMP(QFile;) | read raw xmp
+../3-Phrases/Jabref:void readBuildVersionData(QString;) | read build version data
+../3-Phrases/Jabref:String readManually(QFile;) | read manually
+../3-Phrases/Jabref:Vector<QString;> readLines(QString;) | read lines
+../3-Phrases/Jabref:Vector<QString;> readLines(QString;Z) | read lines
+../3-Phrases/jajuk:StringBuffer readFile(QString;) | read file
+../3-Phrases/jajuk:StringBuffer readJarFile(QString;) | read jar file
+../3-Phrases/javaHMO:PlanarImage readImage(QString;) | read image
+../3-Phrases/jbidwatcher:int readInt(QFileInputStream;) | read int
+../3-Phrases/Jftp:int readWireFormat([BI) | read wire format
+../3-Phrases/Jftp:int readScopeWireFormat([BI) | read scope wire format
+../3-Phrases/Jftp:int readTrailerWireFormat(QInputStream;[BI) | read trailer wire format
+../3-Phrases/Jftp:int readInt2([BI) | read int 2
+../3-Phrases/Jftp:int readInt4([BI) | read int 4
+../3-Phrases/Jftp:int readNameTrnId([BI) | read name trn id
+../3-Phrases/Jftp:int readWireFormat([BI) | read wire format
+../3-Phrases/Jftp:int readHeaderWireFormat([BI) | read header wire format
+../3-Phrases/Jftp:int readQuestionSectionWireFormat([BI) | read question section wire format
+../3-Phrases/Jftp:int readResourceRecordWireFormat([BI) | read resource record wire format
+../3-Phrases/Jftp:int readBodyWireFormat([BI) | read body wire format
+../3-Phrases/Jftp:int readRDataWireFormat([BI) | read r data wire format
+../3-Phrases/Jftp:int readBodyWireFormat([BI) | read body wire format
+../3-Phrases/Jftp:int readRDataWireFormat([BI) | read r data wire format
+../3-Phrases/Jftp:int readBodyWireFormat([BI) | read body wire format
+../3-Phrases/Jftp:int readRDataWireFormat([BI) | read r data wire format
+../3-Phrases/Jftp:int readBodyWireFormat([BI) | read body wire format
+../3-Phrases/Jftp:int readRDataWireFormat([BI) | read r data wire format
+../3-Phrases/Jftp:int readBodyWireFormat([BI) | read body wire format
+../3-Phrases/Jftp:int readRDataWireFormat([BI) | read r data wire format
+../3-Phrases/Jftp:int readNodeNameArray([BI) | read node name array
+../3-Phrases/Jftp:int readTrailerWireFormat(QInputStream;[BI) | read trailer wire format
+../3-Phrases/Jftp:int readInt2([BI) | read int 2
+../3-Phrases/Jftp:int readInt4([BI) | read int 4
+../3-Phrases/Jftp:int readLength([BI) | read length
+../3-Phrases/Jftp:int readPacketType(QInputStream;[BI) | read packet type
+../3-Phrases/Jftp:int readWireFormat(QInputStream;[BI) | read wire format
+../3-Phrases/Jftp:int readHeaderWireFormat(QInputStream;[BI) | read header wire format
+../3-Phrases/Jftp:int readTrailerWireFormat(QInputStream;[BI) | read trailer wire format
+../3-Phrases/Jftp:int readULong([BI) | read u long
+../3-Phrases/Jftp:int readUShort([BI) | read u short
+../3-Phrases/Jftp:byte[] readSecurityBuffer([BI) | read security buffer
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:void readFully([B) | read fully
+../3-Phrases/Jftp:void readFully([BII) | read fully
+../3-Phrases/Jftp:boolean readBoolean() | read boolean
+../3-Phrases/Jftp:byte readByte() | read byte
+../3-Phrases/Jftp:int readUnsignedByte() | read unsigned byte
+../3-Phrases/Jftp:short readShort() | read short
+../3-Phrases/Jftp:int readUnsignedShort() | read unsigned short
+../3-Phrases/Jftp:char readChar() | read char
+../3-Phrases/Jftp:int readInt() | read int
+../3-Phrases/Jftp:long readLong() | read long
+../3-Phrases/Jftp:float readFloat() | read float
+../3-Phrases/Jftp:double readDouble() | read double
+../3-Phrases/Jftp:String readLine() | read line
+../3-Phrases/Jftp:String readUTF() | read utf
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readSmbQueryFileStandardInfoWireFormat([BI) | read smb query file standard info wire format
+../3-Phrases/Jftp:int readSmbQueryFileBasicInfoWireFormat([BI) | read smb query file basic info wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readInt2([BI) | read int 2
+../3-Phrases/Jftp:int readInt4([BI) | read int 4
+../3-Phrases/Jftp:long readInt8([BI) | read int 8
+../3-Phrases/Jftp:long readTime([BI) | read time
+../3-Phrases/Jftp:long readUTime([BI) | read u time
+../3-Phrases/Jftp:String readString([BI) | read string
+../3-Phrases/Jftp:String readString([BIIZ) | read string
+../3-Phrases/Jftp:int readStringLength([BII) | read string length
+../3-Phrases/Jftp:int readHeaderWireFormat([BI) | read header wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:String readString([BII) | read string
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readWireFormat([BII) | read wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readAndXWireFormat([BI) | read and x wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readSetupWireFormat([BII) | read setup wire format
+../3-Phrases/Jftp:int readParametersWireFormat([BII) | read parameters wire format
+../3-Phrases/Jftp:int readDataWireFormat([BII) | read data wire format
+../3-Phrases/Jftp:int readSmbInfoAllocationWireFormat([BI) | read smb info allocation wire format
+../3-Phrases/Jftp:int readSmbQueryFSSizeInfoWireFormat([BI) | read smb query fs size info wire format
+../3-Phrases/Jftp:int readFsFullSizeInformationWireFormat([BI) | read fs full size information wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:int readParameterWordsWireFormat([BI) | read parameter words wire format
+../3-Phrases/Jftp:int readBytesWireFormat([BI) | read bytes wire format
+../3-Phrases/Jftp:String[][] readFromFile(I) | read from file
+../3-Phrases/JHotDraw-7.0.8:char readChar(QIXMLReader;C) | read char
+../3-Phrases/JHotDraw-7.0.8:void readDecorator(QDOMInput;) | read decorator
+../3-Phrases/JHotDraw-7.0.8:void readAttributes(QDOMInput;) | read attributes
+../3-Phrases/JHotDraw-7.0.8:void readPoints(QDOMInput;) | read points
+../3-Phrases/JHotDraw-7.0.8:void readBounds(QDOMInput;) | read bounds
+../3-Phrases/JHotDraw-7.0.8:void readAttributes(QDOMInput;) | read attributes
+../3-Phrases/JHotDraw-7.0.8:List<QFigure;> readFigures(QTransferable;) | read figures
+../3-Phrases/JHotDraw-7.0.8:List<QFigure;> readFigures(QTransferable;) | read figures
+../3-Phrases/JHotDraw-7.0.8:void readPoints(QDOMInput;) | read points
+../3-Phrases/JHotDraw-7.0.8:void readLiner(QDOMInput;) | read liner
+../3-Phrases/JHotDraw-7.0.8:void readAttributes(QDOMInput;) | read attributes
+../3-Phrases/JHotDraw-7.0.8:java.util.List<QFigure;> readFigures(QTransferable;) | read figures
+../3-Phrases/JHotDraw-7.0.8:void readDecorator(QDOMInput;) | read decorator
+../3-Phrases/JHotDraw-7.0.8:void readAttributes(QDOMInput;) | read attributes
+../3-Phrases/JHotDraw-7.0.8:LinkedList<QFigure;> readFigures(QInputStream;) | read figures
+../3-Phrases/JHotDraw-7.0.8:Figure readElement(QIXMLElement;) | read element
+../3-Phrases/JHotDraw-7.0.8:void readDefsElement(QIXMLElement;) | read defs element
+../3-Phrases/JHotDraw-7.0.8:Figure readGElement(QIXMLElement;) | read g element
+../3-Phrases/JHotDraw-7.0.8:Figure readSVGElement(QIXMLElement;) | read svg element
+../3-Phrases/JHotDraw-7.0.8:Figure readRectElement(QIXMLElement;) | read rect element
+../3-Phrases/JHotDraw-7.0.8:Figure readCircleElement(QIXMLElement;) | read circle element
+../3-Phrases/JHotDraw-7.0.8:Figure readEllipseElement(QIXMLElement;) | read ellipse element
+../3-Phrases/JHotDraw-7.0.8:Figure readImageElement(QIXMLElement;) | read image element
+../3-Phrases/JHotDraw-7.0.8:Figure readLineElement(QIXMLElement;) | read line element
+../3-Phrases/JHotDraw-7.0.8:Figure readPolylineElement(QIXMLElement;) | read polyline element
+../3-Phrases/JHotDraw-7.0.8:Figure readPolygonElement(QIXMLElement;) | read polygon element
+../3-Phrases/JHotDraw-7.0.8:Figure readPathElement(QIXMLElement;) | read path element
+../3-Phrases/JHotDraw-7.0.8:Figure readTextElement(QIXMLElement;) | read text element
+../3-Phrases/JHotDraw-7.0.8:Figure readTextAreaElement(QIXMLElement;) | read text area element
+../3-Phrases/JHotDraw-7.0.8:void readTSpanElement(QIXMLElement;QDefaultStyledDocument;) | read t span element
+../3-Phrases/JHotDraw-7.0.8:Figure readSwitchElement(QIXMLElement;) | read switch element
+../3-Phrases/JHotDraw-7.0.8:Figure readUseElement(QIXMLElement;) | read use element
+../3-Phrases/JHotDraw-7.0.8:String readInheritAttribute(QIXMLElement;QString;QString;) | read inherit attribute
+../3-Phrases/JHotDraw-7.0.8:double readInheritFontSizeAttribute(QIXMLElement;QString;QString;) | read inherit font size attribute
+../3-Phrases/JHotDraw-7.0.8:String readAttribute(QIXMLElement;QString;QString;) | read attribute
+../3-Phrases/JHotDraw-7.0.8:void readCoreAttributes(QIXMLElement;QHashMap<QAttributeKey;QObject;>;) | read core attributes
+../3-Phrases/JHotDraw-7.0.8:void readTextAttributes(QIXMLElement;QMap<QAttributeKey;QObject;>;) | read text attributes
+../3-Phrases/JHotDraw-7.0.8:void readTextFlowAttributes(QIXMLElement;QHashMap<QAttributeKey;QObject;>;) | read text flow attributes
+../3-Phrases/JHotDraw-7.0.8:void readTransformAttribute(QIXMLElement;QHashMap<QAttributeKey;QObject;>;) | read transform attribute
+../3-Phrases/JHotDraw-7.0.8:void readSolidColorElement(QIXMLElement;) | read solid color element
+../3-Phrases/JHotDraw-7.0.8:void readImageAttributes(QIXMLElement;QHashMap<QAttributeKey;QObject;>;) | read image attributes
+../3-Phrases/JHotDraw-7.0.8:void readShapeAttributes(QIXMLElement;QHashMap<QAttributeKey;QObject;>;) | read shape attributes
+../3-Phrases/JHotDraw-7.0.8:void readUseShapeAttributes(QIXMLElement;QHashMap<QAttributeKey;QObject;>;) | read use shape attributes
+../3-Phrases/JHotDraw-7.0.8:void readViewportAttributes(QIXMLElement;QHashMap<QAttributeKey;QObject;>;) | read viewport attributes
+../3-Phrases/JHotDraw-7.0.8:void readGraphicsAttributes(QIXMLElement;QFigure;) | read graphics attributes
+../3-Phrases/JHotDraw-7.0.8:void readLinearGradientElement(QIXMLElement;) | read linear gradient element
+../3-Phrases/JHotDraw-7.0.8:void readRadialGradientElement(QIXMLElement;) | read radial gradient element
+../3-Phrases/JHotDraw-7.0.8:void readFontAttributes(QIXMLElement;QMap<QAttributeKey;QObject;>;) | read font attributes
+../3-Phrases/JHotDraw-7.0.8:LinkedList<QFigure;> readFigures(QTransferable;) | read figures
+../3-Phrases/JHotDraw-7.0.8:Object readObject() | read object
+../3-Phrases/JHotDraw-7.0.8:Object readObject(I) | read object
+../3-Phrases/JHotDraw-7.0.8:Object readObject() | read object
+../3-Phrases/JHotDraw-7.0.8:Object readObject(I) | read object
+../3-Phrases/JHotDraw-7.0.8:Object readObject() | read object
+../3-Phrases/JHotDraw-7.0.8:Object readObject(I) | read object
+../3-Phrases/JRobin:byte[] readBytes() | read bytes
+../3-Phrases/JRobin:int readInt() | read int
+../3-Phrases/JRobin:long readLong() | read long
+../3-Phrases/JRobin:double readDouble() | read double
+../3-Phrases/JRobin:double readDouble(I) | read double
+../3-Phrases/JRobin:double[] readDouble(II) | read double
+../3-Phrases/JRobin:String readString() | read string
+../3-Phrases/JRobin:byte[] readAll() | read all
+../3-Phrases/JRobin:int readInt(J) | read int
+../3-Phrases/JRobin:long readLong(J) | read long
+../3-Phrases/JRobin:double readDouble(J) | read double
+../3-Phrases/JRobin:double[] readDouble(JI) | read double
+../3-Phrases/JRobin:String readString(J) | read string
+../3-Phrases/JRobin:double readDouble() | read double
+../3-Phrases/JRobin:int readInt() | read int
+../3-Phrases/JRobin:int readInt(Z) | read int
+../3-Phrases/JRobin:String readString(I) | read string
+../3-Phrases/JRobin:String readVariable(QBufferedReader;QString;) | read variable
+../3-Phrases/JRobin:String readVariable(QBufferedReader;QString;) | read variable
+../3-Phrases/MegaMek-0.32.0:void readObject(QObjectInputStream;) | read object
+../3-Phrases/MegaMek-0.32.0:short readUnsignedByte(QDataInputStream;) | read unsigned byte
+../3-Phrases/MegaMek-0.32.0:int readUnsignedShort(QDataInputStream;) | read unsigned short
+../3-Phrases/MegaMek-0.32.0:long readUnsignedInt(QDataInputStream;) | read unsigned int
+../3-Phrases/MegaMek-0.32.0:short readUnsignedByte(QDataInputStream;) | read unsigned byte
+../3-Phrases/MegaMek-0.32.0:int readUnsignedShort(QDataInputStream;) | read unsigned short
+../3-Phrases/MegaMek-0.32.0:float readFloat(QDataInputStream;) | read float
+../3-Phrases/MegaMek-0.32.0:void readCrits(QBufferedReader;I) | read crits
+../3-Phrases/MegaMek-0.32.0:INetworkPacket readNetworkPacket() | read network packet
+../3-Phrases/MegaMek-0.32.0:INetworkPacket readNetworkPacket() | read network packet
+../3-Phrases/MegaMek-0.32.0:INetworkPacket readNetworkPacket() | read network packet
+../3-Phrases/MegaMek-0.32.0:boolean readInputStream(QInputStream;) | read input stream
+../3-Phrases/MegaMek-0.32.0:void readXMLOptions(QParsedXML;) | read xml options
+../3-Phrases/MegaMek-0.32.0:void readCeilWeight(QParsedXML;) | read ceil weight
+../3-Phrases/MegaMek-0.32.0:void readOptions(QParsedXML;) | read options
+../3-Phrases/prefuse:char ReadByte() | read byte
+../3-Phrases/prefuse:char readChar() | read char
+../3-Phrases/prefuse:Table readTable(QInputStream;) | read table
+../3-Phrases/prefuse:void readValue(IIQString;) | read value
+../3-Phrases/prefuse:void readValue(IIQString;) | read value
+../3-Phrases/prefuse:void readValue(IIQString;) | read value
+../3-Phrases/prefuse:Graph readGraph(QInputStream;) | read graph
+../3-Phrases/prefuse:Table readTable(QString;) | read table
+../3-Phrases/prefuse:Table readTable(QURL;) | read table
+../3-Phrases/prefuse:Table readTable(QFile;) | read table
+../3-Phrases/prefuse:Table readTable(QString;) | read table
+../3-Phrases/prefuse:Table readTable(QURL;) | read table
+../3-Phrases/prefuse:Table readTable(QFile;) | read table
+../3-Phrases/prefuse:Table readTable(QInputStream;) | read table
+../3-Phrases/prefuse:Graph readGraph(QString;) | read graph
+../3-Phrases/prefuse:Graph readGraph(QURL;) | read graph
+../3-Phrases/prefuse:Graph readGraph(QFile;) | read graph
+../3-Phrases/prefuse:Graph readGraph(QInputStream;) | read graph
+../3-Phrases/prefuse:Graph readGraph(QInputStream;) | read graph
+../3-Phrases/prefuse:Graph readGraph(QString;) | read graph
+../3-Phrases/prefuse:Graph readGraph(QURL;) | read graph
+../3-Phrases/prefuse:Graph readGraph(QFile;) | read graph
+../3-Phrases/prefuse:Graph readGraph(QInputStream;) | read graph
+../3-Phrases/prefuse:void readObject(Qjava.io.ObjectInputStream;) | read object
+../3-Phrases/prefuse:ByteArrayList readAsBytes(QInputStream;) | read as bytes
+../3-Phrases/prefuse:String readAsString(QInputStream;) | read as string
+../3-Phrases/prefuse:String readAsString(QString;) | read as string
+../3-Phrases/rhino:boolean readCDATA() | read cdata
+../3-Phrases/rhino:boolean readEntity() | read entity
+../3-Phrases/rhino:boolean readPI() | read pi
+../3-Phrases/rhino:boolean readQuotedString(I) | read quoted string
+../3-Phrases/rhino:boolean readXmlComment() | read xml comment
+../3-Phrases/rhino:byte[] readStream(QInputStream;I) | read stream
+../3-Phrases/rhino:Class[] readParameters(QObjectInputStream;) | read parameters
+../3-Phrases/rhino:Member readMember(QObjectInputStream;) | read member
+../3-Phrases/rhino:Object readAdapterObject(QScriptable;QObjectInputStream;) | read adapter object
+../3-Phrases/rhino:Object readFileOrUrl(QString;Z) | read file or url
+../3-Phrases/rhino:Object readFile(QContext;QScriptable;[QObject;QFunction;) | read file
+../3-Phrases/rhino:Object readResolve() | read resolve
+../3-Phrases/rhino:Object readUrl(QContext;QScriptable;[QObject;QFunction;) | read url
+../3-Phrases/rhino:String readFile(QString;) | read file
+../3-Phrases/rhino:String readReader(QReader;) | read reader
+../3-Phrases/rhino:String readReader(QReader;I) | read reader
+../3-Phrases/rhino:String readSource(QFile;) | read source
+../3-Phrases/rhino:String readUrl(QString;QString;Z) | read url
+../3-Phrases/rhino:void readData(QReader;) | read data
+../3-Phrases/rhino:void readObject(QObjectInputStream;) | read object
+../3-Phrases/rhino:void readRegExp(I) | read reg exp
+../3-Phrases/rhino-sample100:Member readMember(QObjectInputStream;) | read member
+../3-Phrases/SweetHome3D:Home readHome(QURL;Z) | read home
+../3-Phrases/SweetHome3D:Home readHome(QString;) | read home
+../3-Phrases/SweetHome3D:Home readHome(QString;) | read home
+../3-Phrases/SweetHome3D:void readTextures(QResourceBundle;QURL;QMap<QTexturesCategory;QMap<QCatalogTexture;QInteger;>;>;) | read textures
+../3-Phrases/SweetHome3D:void readFurnitureCatalog(QPreferences;) | read furniture catalog
+../3-Phrases/SweetHome3D:void readTexturesCatalog(QPreferences;) | read textures catalog
+../3-Phrases/SweetHome3D:void readFurniture(QResourceBundle;QURL;QMap<QFurnitureCategory;QMap<QCatalogPieceOfFurniture;QInteger;>;>;QList<QString;>;) | read furniture
+../3-Phrases/SweetHome3D:Home readHome() | read home
+../3-Phrases/SweetHome3D:Texture readTexture(QContent;) | read texture
+../3-Phrases/SweetHome3D:void readObject(QObjectInputStream;) | read object
+../3-Phrases/SweetHome3D:Home readHome(QString;) | read home
+../3-Phrases/SweetHome3D:void readObject(QObjectInputStream;) | read object
+../3-Phrases/SweetHome3D:void readObject(QObjectInputStream;) | read object
+../3-Phrases/SweetHome3D:void readObject(QObjectInputStream;) | read object
+../3-Phrases/SweetHome3D:void readObject(QObjectInputStream;) | read object
+../3-Phrases/SweetHome3D:void readObject(QObjectInputStream;) | read object
+../3-Phrases/SweetHome3D:void readObject(QObjectInputStream;) | read object
+../3-Phrases/SweetHome3D:void readObject(QObjectInputStream;) | read object
+../3-Phrases/SweetHome3D:void readObject(QObjectInputStream;) | read object
+../3-Phrases/SweetHome3D:void readPlugin(QResourceBundle;QString;QClassLoader;) | read plugin
+../3-Phrases/SweetHome3D:void readActionPropertyValues(QString;QString;QClassLoader;) | read action property values
+../3-Phrases/SweetHome3D:BranchGroup readModel(QContent;) | read model
+../3-Phrases/SweetHome3D:void readActionProperties(QUserPreferences;QClass<*>;QString;) | read action properties
+../3-Phrases/SweetHome3D:BufferedImage readImage(QContent;QUserPreferences;) | read image
+../3-Phrases/SweetHome3D:BufferedImage readImage(QUserPreferences;QContent;) | read image
+../3-Phrases/vuze:Message[] readMessages() | read messages
+../3-Phrases/vuze:byte[] readTransfer(QDHTTransportProgressListener;QDHTTransportContact;[B[BJ) | read transfer
+../3-Phrases/vuze:byte[] readTransfer(QDHTTransportProgressListener;QDHTTransportContact;[B[BJ) | read transfer
+../3-Phrases/vuze:byte[] readTransfer(QDHTTransportProgressListener;QDHTTransportContact;[B[BJ) | read transfer
+../3-Phrases/vuze:void readCache(QDirectByteBuffer;JZZ) | read cache
+../3-Phrases/vuze:void readState() | read state
+../3-Phrases/vuze:void readSupport(QDirectByteBuffer;J) | read support
+../3-Phrases/vuze:void readSupport(QDirectByteBuffer;J) | read support
+../3-Phrases/vuze:void readSupport([QDirectByteBuffer;J) | read support
+../3-Phrases/vuze:void readConfig(Z) | read config
+../3-Phrases/vuze:InetAddress readExternalAddress() | read external address
+../3-Phrases/vuze:DirectByteBuffer readBlock(III) | read block
+../3-Phrases/vuze:CONS ReadController() | read controller
+../3-Phrases/vuze:void readProcessorLoop() | read processor loop
+../3-Phrases/vuze:void readFailed(QThrowable;) | read failed
+../3-Phrases/vuze:void readWakeup() | read wakeup
+../3-Phrases/vuze:void readConfig() | read config
+../3-Phrases/vuze:int readMessage(QByteBuffer;) | read message
+../3-Phrases/vuze:void readStream(QString;QTransportHelperFilter;) | read stream
+../3-Phrases/vuze:void readCompleted(QDiskManagerReadRequest;QDirectByteBuffer;) | read completed
+../3-Phrases/vuze:void readFailed(QDiskManagerReadRequest;QThrowable;) | read failed
+../3-Phrases/vuze:boolean readSupport(QSocketChannel;) | read support
+../3-Phrases/vuze:boolean readSupport(QSocketChannel;) | read support
+../3-Phrases/vuze:boolean readSupport(QSocketChannel;) | read support
+../3-Phrases/vuze:boolean readSupport(QSocketChannel;) | read support
+../3-Phrases/vuze:boolean readSupport(QSocketChannel;) | read support
+../3-Phrases/vuze:boolean readSupport(QSocketChannel;) | read support
+../3-Phrases/vuze:boolean readSupport(QSocketChannel;) | read support
+../3-Phrases/vuze:boolean readSupport(QSocketChannel;) | read support
+../3-Phrases/vuze:boolean readSupport(QSocketChannel;) | read support
+../3-Phrases/vuze:boolean readSupport(QSocketChannel;) | read support
+../3-Phrases/vuze:boolean readSupport(QSocketChannel;) | read support
+../3-Phrases/vuze:void readFromPersistentMap() | read from persistent map
+../3-Phrases/vuze:String readHeader(QInputStream;) | read header
+../3-Phrases/vuze:void readRecentAddresses() | read recent addresses
+../3-Phrases/vuze:Map readMapFromFile(QString;) | read map from file
+../3-Phrases/vuze:void readVersionData() | read version data
+../3-Phrases/vuze:void readDiversifications() | read diversifications
+../3-Phrases/vuze:void readKeyBlocks() | read key blocks
+../3-Phrases/vuze:int readBytes(I) | read bytes
+../3-Phrases/vuze:int readBytes(I) | read bytes
+../3-Phrases/vuze:int readBytes(I) | read bytes
+../3-Phrases/vuze:void readData(QExternalSeedReaderRequest;) | read data
+../3-Phrases/vuze:void readData(IIIQExternalSeedHTTPDownloaderListener;) | read data
+../3-Phrases/vuze:void readData(QExternalSeedReaderRequest;) | read data
+../3-Phrases/vuze:void readData(IIIQExternalSeedHTTPDownloaderListener;) | read data
+../3-Phrases/vuze:void readData(IIIQExternalSeedHTTPDownloaderListener;) | read data
+../3-Phrases/vuze:Map readConfigFile(QFile;) | read config file
+../3-Phrases/vuze:Map readConfig() | read config
+../3-Phrases/vuze:Map readConfigFile(QFile;) | read config file
+../3-Phrases/vuze:Map readRequest(QBuddyPluginBuddyMessage;) | read request
+../3-Phrases/vuze:Map readReply(QBuddyPluginBuddyMessage;) | read reply
+../3-Phrases/vuze:Map readContent(QString;) | read content
+../3-Phrases/vuze:String readFromClipboard() | read from clipboard
+../3-Phrases/vuze:String readAzpdFile(QFile;) | read az pd file
+../3-Phrases/vuze:Map readAzpdFileToMap(QFile;) | read az pd file to map
+../3-Phrases/vuze:byte[] readIndefiniteLengthFully() | read indefinite length fully
+../3-Phrases/vuze:DERObject readObject() | read object
+../3-Phrases/vuze:int readLength() | read length
+../3-Phrases/vuze:void readFully([B) | read fully
+../3-Phrases/vuze:DERObject readObject() | read object
+../3-Phrases/vuze:DEREncodable readObject() | read object
+../3-Phrases/vuze:DEREncodable readObject() | read object
+../3-Phrases/vuze:DEREncodable readObject() | read object
+../3-Phrases/vuze:ASN1EncodableVector readVector() | read vector
+../3-Phrases/vuze:DEREncodable readObject() | read object
+../3-Phrases/vuze:DEREncodable readObject() | read object
+../3-Phrases/vuze:int readLength() | read length
+../3-Phrases/vuze:DEREncodable readObject() | read object
+../3-Phrases/vuze:int readLength() | read length
+../3-Phrases/vuze:void readFully([B) | read fully
+../3-Phrases/vuze:byte[] readDefiniteLengthFully(I) | read definite length fully
+../3-Phrases/vuze:byte[] readIndefiniteLengthFully() | read indefinite length fully
+../3-Phrases/vuze:DERObject readObject() | read object
+../3-Phrases/vuze:int readTagNumber(I) | read tag number
+../3-Phrases/vuze:DEREncodable readObject() | read object
+../3-Phrases/vuze:DEREncodable readObject() | read object
+../3-Phrases/vuze:String readLine(QInputStream;) | read line
+../3-Phrases/vuze:Certificate readDERCertificate(QInputStream;) | read der certificate
+../3-Phrases/vuze:Certificate readPKCS7Certificate(QInputStream;) | read pkcs 7 certificate
+../3-Phrases/vuze:Certificate readPEMCertificate(QInputStream;) | read pem certificate
+../3-Phrases/vuze:CRL readDERCRL(QInputStream;) | read der crl
+../3-Phrases/vuze:CRL readPEMCRL(QInputStream;) | read pem crl
+../3-Phrases/vuze:Object readObject() | read object
+../3-Phrases/vuze:byte[] readBytes(QString;) | read bytes
+../3-Phrases/vuze:PublicKey readRSAPublicKey(QString;) | read rsa public key
+../3-Phrases/vuze:PublicKey readPublicKey(QString;) | read public key
+../3-Phrases/vuze:X509Certificate readCertificate(QString;) | read certificate
+../3-Phrases/vuze:X509CRL readCRL(QString;) | read crl
+../3-Phrases/vuze:PKCS10CertificationRequest readCertificateRequest(QString;) | read certificate request
+../3-Phrases/vuze:X509AttributeCertificate readAttributeCertificate(QString;) | read attribute certificate
+../3-Phrases/vuze:ContentInfo readPKCS7(QString;) | read pkcs 7
+../3-Phrases/vuze:KeyPair readKeyPair(QString;QString;) | read key pair
+../3-Phrases/vuze:ECNamedCurveParameterSpec readECParameters(QString;) | read ec parameters
+../3-Phrases/vuze:KeyPair readECPrivateKey(QString;) | read ec private key
+../3-Phrases/vuze:void readCompleted(QDiskManagerReadRequest;QDirectByteBuffer;) | read completed
+../3-Phrases/vuze:void readFailed(QDiskManagerReadRequest;QThrowable;) | read failed
+../3-Phrases/vuze:DirectByteBuffer readBlock(III) | read block
+../3-Phrases/vuze:DirectByteBuffer readBlock(III) | read block
+../3-Phrases/vuze:DirectByteBuffer readBlock(III) | read block
+../3-Phrases/vuze:void readBlock(QDiskManagerReadRequest;QDiskManagerReadRequestListener;) | read block
+../3-Phrases/vuze:void readCompleted(QDiskManagerReadRequest;QDirectByteBuffer;) | read completed
+../3-Phrases/vuze:void readFailed(QDiskManagerReadRequest;QThrowable;) | read failed
+../3-Phrases/vuze:DirectByteBuffer readBlock(III) | read block
+../3-Phrases/vuze:void readCompleted(QDiskManagerReadRequest;QDirectByteBuffer;) | read completed
+../3-Phrases/vuze:void readFailed(QDiskManagerReadRequest;QThrowable;) | read failed
+../3-Phrases/vuze:void readBlock(QDiskManagerReadRequest;QDiskManagerReadRequestListener;) | read block
+../3-Phrases/vuze:void readCompleted(QDiskManagerReadRequest;QDirectByteBuffer;) | read completed
+../3-Phrases/vuze:void readFailed(QDiskManagerReadRequest;QThrowable;) | read failed
+../3-Phrases/vuze:void readCompleted(QDiskManagerReadRequest;QDirectByteBuffer;) | read completed
+../3-Phrases/vuze:void readFailed(QDiskManagerReadRequest;QThrowable;) | read failed
+../3-Phrases/vuze:void readTorrent(QString;QString;[BZZZI) | read torrent
+../3-Phrases/vuze:void readTorrent() | read torrent
+../3-Phrases/vuze:void readParameters() | read parameters
+../3-Phrases/vuze:String readString(QBufferedInputStream;[BQString;) | read string
+../3-Phrases/vuze:void readIgnorePeerPorts() | read ignore peer ports
+../3-Phrases/vuze:void readConfigValues() | read config values
+../3-Phrases/vuze:mapEntry readGenericMapEntry(QSimpleXMLParserDocumentNode;) | read generic map entry
+../3-Phrases/vuze:Object readGenericValue(QSimpleXMLParserDocumentNode;) | read generic value
+../3-Phrases/vuze:byte[] readGenericBytes(QSimpleXMLParserDocumentNode;) | read generic bytes
+../3-Phrases/vuze:Long readGenericLong(QSimpleXMLParserDocumentNode;) | read generic long
+../3-Phrases/vuze:Map readGenericMap(QSimpleXMLParserDocumentNode;) | read generic map
+../3-Phrases/vuze:byte[] readLocalisableString(QSimpleXMLParserDocumentNode;) | read local is able string
+../3-Phrases/vuze:List readGenericList(QSimpleXMLParserDocumentNode;) | read generic list
+../3-Phrases/vuze:String readStringFromMetaData(QMap;QString;) | read string from meta data
+../3-Phrases/vuze:String readStringFromMetaData([B) | read string from meta data
+../3-Phrases/vuze:void readConfig() | read config
+../3-Phrases/vuze:void readConfigSettings() | read config settings
+../3-Phrases/vuze:void readConfig() | read config
+../3-Phrases/vuze:Map readResilientConfigFile(QString;) | read resilient config file
+../3-Phrases/vuze:Map readResilientConfigFile(QString;Z) | read resilient config file
+../3-Phrases/vuze:Map readResilientFile(QFile;) | read resilient file
+../3-Phrases/vuze:Map readResilientFile(QFile;QString;Z) | read resilient file
+../3-Phrases/vuze:Map readResilientFileSupport(QFile;QString;Z) | read resilient file support
+../3-Phrases/vuze:Map readResilientFile(QString;QFile;QString;IZ) | read resilient file
+../3-Phrases/vuze:String readFileAsString(QFile;IQString;) | read file as string
+../3-Phrases/vuze:String readFileAsString(QFile;I) | read file as string
+../3-Phrases/vuze:String readInputStreamAsString(QInputStream;I) | read input stream as string
+../3-Phrases/vuze:String readInputStreamAsString(QInputStream;IQString;) | read input stream as string
+../3-Phrases/vuze:String readFileEndAsString(QFile;I) | read file end as string
+../3-Phrases/vuze:byte[] readInputStreamAsByteArray(QInputStream;) | read input stream as byte array
+../3-Phrases/vuze:byte[] readFileAsByteArray(QFile;) | read file as byte array
+../3-Phrases/vuze:TOTorrent readFromFile(QFile;Z) | read from file
+../3-Phrases/vuze:ExtendedTorrent readDelegateFromFile(QFile;Z) | read delegate from file
+../3-Phrases/vuze:TOTorrent readFromFile(QFile;ZZ) | read from file
+../3-Phrases/vuze:TOTorrent readFromBEncodedInputStream(QInputStream;) | read from b encoded input stream
+../3-Phrases/vuze:String readStringValue(IQString;QString;) | read string value
+../3-Phrases/vuze:int readWordValue(IQString;QString;) | read word value
+../3-Phrases/vuze:String readStringValue(IQString;QString;) | read string value
+../3-Phrases/vuze:int readWordValue(IQString;QString;) | read word value
+../3-Phrases/vuze:String readStringValue(IQString;QString;) | read string value
+../3-Phrases/vuze:int readWordValue(IQString;QString;) | read word value
+../3-Phrases/vuze:void readKeyStats(QDistributedDatabaseListener;QDistributedDatabaseKey;J) | read key stats
+../3-Phrases/vuze:int readBytes(I) | read bytes
+../3-Phrases/vuze:Map readResilientBEncodedFile(QFile;QString;Z) | read resilient b encoded file
+../3-Phrases/vuze:void readKeyStats(QDistributedDatabaseListener;QDistributedDatabaseKey;J) | read key stats
+../3-Phrases/vuze:int readBytes(I) | read bytes
+../3-Phrases/vuze:void readAZConfig() | read az config
+../3-Phrases/vuze:void readAZConfigSupport() | read az config support
+../3-Phrases/vuze:void readTorrent(QShareItemImpl;) | read torrent
+../3-Phrases/vuze:void readTorrent(QShareItemImpl;) | read torrent
+../3-Phrases/vuze:Map readResilientBEncodedFile(QFile;QString;Z) | read resilient b encoded file
+../3-Phrases/vuze:String readLine() | read line
+../3-Phrases/vuze:void readPatchEntries(QInputStream;) | read patch entries
+../3-Phrases/vuze:String readTextFrom(QInputStream;) | read text from
+../3-Phrases/vuze:String readTextFrom(QString;) | read text from
+../3-Phrases/vuze:String readTextFrom(QFile;) | read text from
+../3-Phrases/weka:void readObject(Qjava.io.ObjectInputStream;) | read object
+../3-Phrases/weka:void readObject(QObjectInputStream;) | read object
+../3-Phrases/weka:void readOldFormat(QReader;) | read old format
+../3-Phrases/weka:void readBIFFromFile(QString;) | read bif from file
+../3-Phrases/weka:void readParameterList(QElement;) | read parameter list
+../3-Phrases/weka:void readFactorsAndCovariates(QElement;QString;) | read factors and covariates
+../3-Phrases/weka:void readPPMatrix(QElement;) | read pp matrix
+../3-Phrases/weka:void readParamMatrix(QElement;) | read param matrix
+../3-Phrases/weka:Properties readProperties(QString;) | read properties
+../3-Phrases/weka:boolean readInstance(QReader;) | read instance
+../3-Phrases/weka:void readProperties() | read properties
+../3-Phrases/weka:void readStructure(QStreamTokenizer;) | read structure
+../3-Phrases/weka:void readHeader(QStreamTokenizer;) | read header
+../3-Phrases/weka:Instance readInstance(QInstances;) | read instance
+../3-Phrases/weka:Instance readInstance(QInstances;Z) | read instance
+../3-Phrases/weka:void readHeader(I) | read header
+../3-Phrases/weka:void readTillEOL() | read till eol
+../3-Phrases/weka:Instance readInstance(QResultSet;) | read instance
+../3-Phrases/weka:void readHeader(QStreamTokenizer;) | read header
+../3-Phrases/weka:void readSkelFile(QFile;) | read skel file
+../3-Phrases/weka:void readSkel(QBufferedReader;) | read skel
+../3-Phrases/weka:void readDefault() | read default
+../3-Phrases/weka:void read_lookahead() | read lookahead
+../3-Phrases/weka:Object readDefaultListModel(QElement;) | read default list model
+../3-Phrases/weka:Object readCollection(QElement;) | read collection
+../3-Phrases/weka:Object readMap(QElement;) | read map
+../3-Phrases/weka:Object readMatrix(QElement;) | read matrix
+../3-Phrases/weka:Object readMatrixOld(QElement;) | read matrix old
+../3-Phrases/weka:Object readCostMatrixOld(QElement;) | read cost matrix old
+../3-Phrases/weka:Object readBinary(QString;) | read binary
+../3-Phrases/weka:boolean readBooleanFromXML(QElement;) | read boolean from xml
+../3-Phrases/weka:byte readByteFromXML(QElement;) | read byte from xml
+../3-Phrases/weka:char readCharFromXML(QElement;) | read char from xml
+../3-Phrases/weka:double readDoubleFromXML(QElement;) | read double from xml
+../3-Phrases/weka:float readFloatFromXML(QElement;) | read float from xml
+../3-Phrases/weka:int readIntFromXML(QElement;) | read int from xml
+../3-Phrases/weka:long readLongFromXML(QElement;) | read long from xml
+../3-Phrases/weka:short readShortFromXML(QElement;) | read short from xml
+../3-Phrases/weka:Object readFromXML(QObject;QString;QElement;) | read from xml
+../3-Phrases/weka:Object readFromXML(QElement;) | read from xml
+../3-Phrases/weka:Document readPreProcess(QDocument;) | read pre process
+../3-Phrases/weka:Object readPostProcess(QObject;) | read post process
+../3-Phrases/weka:void readObject(Qjava.io.ObjectInputStream;) | read object
+../3-Phrases/weka:Object readPostProcess(QObject;) | read post process
+../3-Phrases/weka:Object readPropertyNode(QElement;) | read property node
+../3-Phrases/weka:Object readResolve() | read resolve
+../3-Phrases/weka:void readObject(QObjectInputStream;) | read object
+../3-Phrases/weka:void readObject(QObjectInputStream;) | read object
+../3-Phrases/weka:Document readPreProcess(QDocument;) | read pre process
+../3-Phrases/weka:Object readPostProcess(QObject;) | read post process
+../3-Phrases/weka:Object readColor(QElement;) | read color
+../3-Phrases/weka:Object readDimension(QElement;) | read dimension
+../3-Phrases/weka:Object readFont(QElement;) | read font
+../3-Phrases/weka:Object readPoint(QElement;) | read point
+../3-Phrases/weka:Object readColorUIResource(QElement;) | read color ui resource
+../3-Phrases/weka:Object readFontUIResource(QElement;) | read font ui resource
+../3-Phrases/weka:Object readBeanInstance(QElement;) | read bean instance
+../3-Phrases/weka:Object readBeanConnection(QElement;) | read bean connection
+../3-Phrases/weka:Object readLoader(QElement;) | read loader
+../3-Phrases/weka:Object readSaver(QElement;) | read saver
+../3-Phrases/weka:Object readBeanVisual(QElement;) | read bean visual
+../3-Phrases/weka:Object readMetaBean(QElement;) | read meta bean
+../3-Phrases/weka:void readProperties() | read properties
+../3-Phrases/weka:void readBIF(QString;) | read bif
+../3-Phrases/weka:void readBIF(QInputStream;) | read bif
+../3-Phrases/weka:void readDOT(QReader;) | read dot
+../3-Phrases/weka:void readObject(QObjectInputStream;) | read object
+../3-Phrases/weka:void readOldFormat(QReader;) | read old format
+../3-Phrases/weka:boolean readInstance(QReader;) | read instance
+../3-Phrases/weka:Properties readProperties(QString;) | read properties
+../3-Phrases/weka:void readProperties() | read properties
+../3-Phrases/weka:void readObject(Qjava.io.ObjectInputStream;) | read object

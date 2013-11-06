@@ -1,0 +1,18 @@
+Instance randomSample([DIQRandom;) | random sample
+Instances generateRandomSample(QInstances;IQRandom;) | generate random sample
+int getFirstPacketSample() | get first packet sample
+int getSample() | get sample
+int peekSample() | peek sample
+RawSample createRawSample([QString;) | create raw sample
+Sample createSample() | create sample
+Sample createSample(J) | create sample
+void getSample(int index, short pixel) | get sample
+void processSample(QRawSample;) | process sample
+void pushSample(I) | push sample
+void putSample(int channelIndex, int entryIndex, int newValue) | put sample
+void runSample() | run sample
+void selectSubSample(QInstances;) | select sub sample
+void setBitsPerSample(int bps) | set bits per sample
+void setSample(int x, int y, int b, int s, DataBuffer data) | set sample
+void showSample() | show sample
+void updateSample() | update sample

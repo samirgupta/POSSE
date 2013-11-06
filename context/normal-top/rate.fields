@@ -1,0 +1,51 @@
+boolean allowRate | allow rate
+boolean RATE_LIMIT_LAN_TOO | rate limit lan too
+boolean SHOW_DISCARD_RATE_STATS | show discard rate stats
+boolean use_units_rate_bits | use units rate bits
+com.aelitis.azureus.core.networkmanager.impl.RateHandler rate_handler | rate handler
+com.aelitis.azureus.core.networkmanager.LimitedRateGroup download_limited_rate_group | download limited rate group
+com.aelitis.azureus.core.networkmanager.LimitedRateGroup max_rate | max rate
+com.aelitis.azureus.core.networkmanager.LimitedRateGroup upload_limited_rate_group | upload limited rate group
+com.aelitis.azureus.core.util.average.Average capped_download_rate_average | capped download rate average
+com.aelitis.azureus.core.util.average.Average discard_rate_average | discard rate average
+edu.rice.cs.drjava.config.NonNegativeIntegerOption AUTO_STEP_RATE | auto step rate
+int baseDamageAbsorptionRate | base damage absorption rate
+int burst_rate | burst rate
+int DEFAULT_FRAME_RATE | default frame rate
+int external_max_download_rate_bps | external max download rate bps
+int highestDownloadRate | highest download rate
+int highestUploadRate | highest upload rate
+int INC_RATE_TIME | inc rate time
+int max_download_rate_bps | max download rate bps
+int max_lan_download_rate_bps | max lan download rate bps
+int max_lan_upload_rate_bps | max lan upload rate bps
+int max_upload_rate_bps | max upload rate bps
+int max_upload_rate_bps_normal | max upload rate bps normal
+int max_upload_rate_bps_seeding_only | max upload rate bps seeding only
+int rate | rate
+int rate_bytes_read | rate bytes read
+int RATE_COLUMN_SIZE | rate column size
+int rateKiB | rate ki b
+int rate_limit_discard_bytes | rate limit discard bytes
+int rate_limit_discard_packets | rate limit discard packets
+int refreshRate | refresh rate
+int sessionMaxUploadRate | session max upload rate
+int START_DOWNLOAD_RATE_MAX | start download rate max
+int START_UPLOAD_RATE_MAX | start upload rate max
+int UNLIMITED_RATE | unlimited rate
+int upRates | up rates
+java.lang.String RATE_TYPE_CONTENT | rate type content
+java.lang.String[] units_rate | units rate
+java.lang.String XML_TRACK_RATE | xml track rate
+java.util.Comparator rateComparator | rate comparator
+java.util.List external_rate_limiters_cow | external rate limiters cow
+long data_send_rate_at_close | data send rate at close
+long DL_VITALITY_REFRESH_RATE | dl vitality refresh rate
+long lMaxRate | l max rate
+long peakRate | peak rate
+long repeatRate | repeat rate
+org.gudy.azureus2.core3.util.AESemaphore rate_sem | rate sem
+org.gudy.azureus2.core3.util.Average byte_rate | byte rate
+org.gudy.azureus2.ui.swt.pluginsimpl.UISWTGraphicImpl graphicRate | graphic rate
+org.gudy.azureus2.ui.swt.pluginsimpl.UISWTGraphicImpl graphicRateDown | graphic rate down
+org.gudy.azureus2.ui.swt.pluginsimpl.UISWTGraphicImpl graphicRateUp | graphic rate up

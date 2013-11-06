@@ -1,0 +1,14 @@
+boolean azpdFileFound(QPlatformMessage;) | az pd file found
+File determineAzpdFileLocation(QDownloadManager;) | determine az pd file location
+File determineAzpdFileName(QPlatformMessage;) | determine az pd file name
+File getAzpdDir() | get az pd dir
+Map readAzpdFileToMap(QFile;) | read az pd file to map
+Map saveDefaultResponseToAzpdFile(QPlatformMessage;) | save default response to az pd file
+Map saveResponseToAzpdFile(QMap;QPlatformMessage;) | save response to az pd file
+String getTempAzpdTemplate() | get temp az pd template
+String readAzpdFile(QFile;) | read az pd file
+void deleteAzpdFile(QDownloadManager;) | delete az pd file
+void saveTempAzpdFile(QFile;) | save temp az pd file
+void startAzpdFileCheckTimer([QDownloadManager;) | start az pd file check timer
+void startLazyAzpdFileCheckThread([QDownloadManager;) | start lazy az pd file check thread
+void writeAzpdFile(QFile;QString;) | write az pd file

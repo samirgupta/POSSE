@@ -1,0 +1,32 @@
+CONS Binary([BZ) | binary
+CONS BinaryExpression(IIIQExpression;QExpression;) | binary expression
+CONS BinaryOpProperty(QString;QString;QLambda2<QP;QQ;QR;>;QLambda<QString;QP;>;QLambda<QString;QQ;>;QLambda<QR;QString;>;) | binary op property
+CONS BinaryOpProperty(QString;QString;QLambda2<QP;QQ;QR;>;QString;QString;QLambda<QString;QP;>;QString;QString;QLambda<QString;QQ;>;QLambda<QR;QString;>;) | binary op property
+CONS BinarySparseInstance(D[D) | binary sparse instance
+CONS BinarySparseInstance(D[II) | binary sparse instance
+CONS BinarySparseInstance(I) | binary sparse instance
+CONS BinarySparseInstance(QInstance;) | binary sparse instance
+CONS BinarySparseInstance(QSparseInstance;) | binary sparse instance
+CONS BinC45ModelSelection(IQInstances;) | bin c 45 model selection
+CONS BinC45Split(IID) | bin c 45 split
+CONS DependencyActivityBindingImpl(QTaskActivity;QTaskActivity;[QDate;) | dependency activity binding impl
+CONS DynamicQueryBinding(QTupleSet;QString;) | dynamic query binding
+CONS HbmBinder() | hbm binder
+CONS KeyBindingManager() | key binding manager
+CONS KeyBindingsDialog(QHashMap<QString;QString;>;QHashMap<QString;QString;>;) | key bindings dialog
+CONS ListQueryBinding(QTupleSet;QString;) | list query binding
+CONS ListQueryBinding(QTupleSet;QString;Z) | list query binding
+CONS NominalToBinary() | nominal to binary
+CONS ParameterBinder() | parameter binder
+CONS RangeQueryBinding(QTupleSet;QString;) | range query binding
+CONS RangeQueryBinding(QTupleSet;QString;Z) | range query binding
+CONS RowInputBinary() | row input binary
+CONS RowInputBinary([B) | row input binary
+CONS RowInputBinary(QRowOutputBinary;) | row input binary
+CONS RowOutputBinary() | row output binary
+CONS RowOutputBinary([B) | row output binary
+CONS RowOutputBinary(I) | row output binary
+CONS ScriptReaderBinary(QDatabase;QString;) | script reader binary
+CONS ScriptWriterBinary(QDatabase;QString;ZZ) | script writer binary
+CONS SearchQueryBinding(QTupleSet;QString;) | search query binding
+CONS SearchQueryBinding(QTupleSet;QString;QSearchTupleSet;) | search query binding

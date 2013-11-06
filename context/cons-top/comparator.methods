@@ -1,0 +1,30 @@
+CONS BibtexStringComparator(Z) | bibtex string comparator
+CONS CompositeComparator(I) | composite comparator
+CONS CompositeComparator(IZ) | composite comparator
+CONS CompositeComparator([QComparator;) | composite comparator
+CONS CompositeComparator([QComparator;Z) | composite comparator
+CONS EntryComparator(ZZQString;) | entry comparator
+CONS EntryComparator(ZZQString;QComparator<QBibtexEntry;>;) | entry comparator
+CONS FieldComparator(QString;) | field comparator
+CONS FieldComparator(QString;Z) | field comparator
+CONS FieldComparatorStack(QList<+QComparator<-QT;>;>;) | field comparator stack
+CONS FigureLayerComparator() | figure layer comparator
+CONS FirstColumnComparator(QBibtexDatabase;) | first column comparator
+CONS HitOrMissComparator(QMatcher<QBibtexEntry;>;) | hit or miss comparator
+CONS IconComparator([QString;) | icon comparator
+CONS IncompatibleComparatorException() | incompatible comparator exception
+CONS IncompatibleComparatorException(QString;) | incompatible comparator exception
+CONS IncompatibleComparatorException(QString;QThrowable;) | incompatible comparator exception
+CONS IncompatibleComparatorException(QThrowable;) | incompatible comparator exception
+CONS InstanceComparator() | instance comparator
+CONS InstanceComparator(Z) | instance comparator
+CONS InstancesComparator(I) | instances comparator
+CONS InstancesComparator(IZ) | instances comparator
+CONS MarkedComparator(QComparator<QBibtexEntry;>;) | marked comparator
+CONS MechSummaryComparator(I) | mech summary comparator
+CONS TaskDocumentOrderComparator(QTaskManagerImpl;) | task document order comparator
+CONS TrackComparator(I) | track comparator
+CONS TupleComparator(IQClass;Z) | tuple comparator
+CONS TupleComparator(IQClass;ZQComparator;) | tuple comparator
+CONS TupleComparator(QString;QClass;Z) | tuple comparator
+CONS TupleComparator(QString;QClass;ZQComparator;) | tuple comparator

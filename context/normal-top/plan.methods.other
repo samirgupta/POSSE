@@ -1,0 +1,22 @@
+Action createLockUnlockBasePlanAction(QHome;Z) | create lock unlock base plan action
+Float getPlanScale() | get plan scale
+Iterator<QTileImprovementPlan;> getTileImprovementPlanIterator() | get tile improvement plan iterator
+JComponent createLockUnlockBasePlanButton(QHome;) | create lock unlock base plan button
+JComponent createPlanView3DPane(QHome;QUserPreferences;QHomeController;) | create plan view 3 d pane
+JMenuItem createLockUnlockBasePlanMenuItem(QHome;Z) | create lock unlock base plan menu item
+PlanController getPlanController() | get plan controller
+PlanView createPlanView(QHome;QUserPreferences;QPlanController;) | create plan view
+QueryPlanCache getQueryPlanCache() | get query plan cache
+Rectangle2D getPlanBounds() | get plan bounds
+String getSelectedPlanName() | get selected plan name
+void addPlanControllerListener() | add plan controller listener
+void addPlanControllerListener(QPlanController;) | add plan controller listener
+void FilterQueryPlanKey(QString;QString;ZQMap;) | filter query plan key
+void HQLQueryPlanKey(QString;ZQMap;) | hql query plan key
+void invalidatePlanBoundsAndRevalidate() | invalidate plan bounds and revalidate
+void runPlanContollerTest() | run plan contoller test
+void setPlanRulersVisible(QJScrollPane;QHomeController;Z) | set plan rulers visible
+void testPlanComponentWithFurniture() | test plan component with furniture
+void testPlanComponentWithKeyboard() | test plan component with keyboard
+void testPlanComponentWithMouse() | test plan component with mouse
+void testPlanContoller() | test plan contoller

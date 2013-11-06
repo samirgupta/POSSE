@@ -1,0 +1,34 @@
+ArrayList getPlanned() | get planned
+boolean isBasePlanLocked() | is base plan locked
+boolean isDefaultPluginEnabled(QString;) | is default plugin enabled
+boolean isPlanned() | is planned
+boolean isPlanPrinted() | is plan printed
+boolean isPlayerAccumulated() | is player accumulated
+boolean isStringPlayed(I) | is string played
+boolean pluginPeerSourceEnabled() | plugin peer source enabled
+Client getPlayerListSelected(QJList;) | get player list selected
+Client getPlayerListSelected(QList;) | get player list selected
+StackItem getLastPlayed() | get last played
+void addPluginButtonActionPerformed(Qjava.awt.event.ActionEvent;) | add plugin button action performed
+void checkPluginsInitialised() | check plugins initialised
+void computesPlanned(Z) | computes planned
+void fireOnPluginPropertiesUpdated() | fire on plugin properties updated
+void fireOnPluginStatusChanged(I) | fire on plugin status changed
+void gamePlayerConnected(QGamePlayerConnectedEvent;) | game player connected
+void gamePlayerDisconnected(QGamePlayerDisconnectedEvent;) | game player disconnected
+void jListPluginsMouseClicked(Qjava.awt.event.MouseEvent;) | j list plugins mouse clicked
+void jListPluginsValueChanged(Qjavax.swing.event.ListSelectionEvent;) | j list plugins value changed
+void jMenuItemPluginActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item plugin action performed
+void jMenuItemPluginConfigActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item plugin config action performed
+void onPluginConnectionStatusChanged(Qorg.planetamessenger.plugin.JPlugin;I) | on plugin connection status changed
+void onPluginPropertiesUpdated() | on plugin properties updated
+void onPluginStatusChanged(I) | on plugin status changed
+void onPluginStatusChanged(Qorg.planetamessenger.plugin.JPlugin;I) | on plugin status changed
+void pluginAdded(QPlugin;) | plugin added
+void pluginRemoved(QPlugin;) | plugin removed
+void pluginViewAdded(QIViewInfo;) | plugin view added
+void removePluginButtonActionPerformed(Qjava.awt.event.ActionEvent;) | remove plugin button action performed
+void setBasePlanLocked(Z) | set base plan locked
+void setDefaultPluginEnabled(QString;Z) | set default plugin enabled
+void setPlanned(Z) | set planned
+void setPlayerAccumulated(Z) | set player accumulated

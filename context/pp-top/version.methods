@@ -1,0 +1,13 @@
+boolean isOwnerVersioned(QSessionImplementor;) | is owner versioned
+boolean isVersionChanged(QObject;QEventSource;QEntityPersister;QObject;) | is version changed
+boolean isVersioned() | is versioned
+boolean isVersioned(QString;) | is versioned
+boolean isVersionIncrementDisabled() | is version increment disabled
+boolean isVersionIncrementRequired([IZ[Z) | is version increment required
+boolean isVersionIncrementRequired(QFlushEntityEvent;QEntityEntry;QEntityPersister;[I) | is version increment required
+boolean isVersionPropertyGenerated() | is version property generated
+String getBatchVersionedDataEnabled() | get batch versioned data enabled
+String[] getVersionsSupported() | get versions supported
+void prepareVersioned(QAST;QAST;) | prepare versioned
+void setBatchVersionedDataEnabled(QString;) | set batch versioned data enabled
+void versionUpdated(QSubscriptionBodyImpl;Z) | version updated

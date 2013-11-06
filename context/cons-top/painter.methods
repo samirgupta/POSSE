@@ -1,0 +1,8 @@
+CONS BackgroundPainter(QImage;ZZ) | background painter
+CONS BackgroundPainter(QString;ZZ) | background painter
+CONS ColoringGlyphPainter(QRunnable;) | coloring glyph painter
+CONS StyledPainterImpl(QChartUIConfiguration;) | styled painter impl
+CONS SWTBGImagePainter(QControl;I) | swt bg image painter
+CONS SWTBGImagePainter(QControl;QImage;I) | swt bg image painter
+CONS SWTBGImagePainter(QControl;QImage;QImage;QImage;I) | swt bg image painter
+CONS TextAreaPainter(QJEditTextArea;QTextAreaDefaults;) | text area painter

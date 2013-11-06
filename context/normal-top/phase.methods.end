@@ -1,0 +1,16 @@
+boolean isEligibleForTargetingPhase() | is eligible for targeting phase
+int getLastPhase() | get last phase
+int getNewPhase() | get new phase
+int getOldPhase() | get old phase
+int getPhase() | get phase
+int usedInPhase() | used in phase
+Key doPhase(QKey;Z) | do phase
+Key engineDoPhase(QKey;Z) | engine do phase
+void changePhase(I) | change phase
+void collectionPhase(int phaseId) | collection phase
+void endCurrentPhase() | end current phase
+void executePhase(I) | execute phase
+void prepareForPhase(I) | prepare for phase
+void resetEntityPhase(I) | reset entity phase
+void setLastPhase(I) | set last phase
+void setPhase(I) | set phase

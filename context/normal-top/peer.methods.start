@@ -1,0 +1,13 @@
+boolean peerSupportsMessageType(QString;) | peer supports message type
+byte[] peerIDStringToBytes(QString;) | peer id string to bytes
+Class peerFindLoadedClass(QString;) | peer find loaded class
+Class peerLoadClass(QString;) | peer load class
+TRTrackerServerPeerImpl peerContact(QString;QString;QHashWrapper;IIIBBQString;QString;ZZQString;JJJJIQDHTNetworkPosition;) | peer contact
+void peerEvent(QTRTrackerServerPeer;IQString;) | peer event
+void peerHasPiece(QPEPeer;) | peer has piece
+void PeerIdentity([BI) | peer identity
+void peerLeft() | peer left
+void PeerManagerRegistrationImpl(QHashWrapper;QPeerManagerRegistrationAdapter;) | peer manager registration impl
+void peerMightBeBad(QPeer;) | peer might be bad
+void PeerNATTraversal(QPeerNATInitiator;QInetSocketAddress;QPeerNATTraversalAdapter;) | peer nat traversal
+void peerVerifiedAsSelf(QPEPeerTransport;) | peer verified as self

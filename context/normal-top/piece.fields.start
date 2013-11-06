@@ -1,0 +1,43 @@
+byte PIECE_DONE | piece done
+byte PIECE_NOT_DONE | piece not done
+byte PIECE_STATUS_CHECKING | piece status checking
+byte PIECE_STATUS_MASK_DOWNLOADABLE | piece status mask downloadable
+byte PIECE_STATUS_MASK_NEEDS_CHECK | piece status mask needs check
+byte PIECE_STATUS_WRITTEN | piece status written
+byte piece_version | piece version
+com.aelitis.azureus.core.peermanager.piecepicker.PiecePicker piecePicker | piece picker
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureElevationState | piece of furniture elevation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureHeightState | piece of furniture height state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureNameOffsetState | piece of furniture name offset state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureResizeState | piece of furniture resize state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState pieceOfFurnitureRotationState | piece of furniture rotation state
+int piece_count | piece count
+int piece_group_size | piece group size
+int PIECE_HASH_TIMEOUT | piece hash timeout
+int pieceIndex | piece index
+int piece_length | piece length
+int pieceLength | piece length
+int piece_number | piece number
+int pieceNumber | piece number
+int[] piece_numbers | piece numbers
+int piece_offset | piece offset
+int piece_size | piece size
+java.util.BitSet piece_map | piece map
+java.util.List piece_check_result_list | piece check result list
+long piece_count | piece count
+long piece_length | piece length
+long piece_map_use_accessor_time | piece map use accessor time
+long[] piece_rtas | piece rt as
+long piece_size | piece size
+org.gudy.azureus2.core3.disk.impl.piecemapper.DMPieceList[] piece_lists | piece lists
+org.gudy.azureus2.core3.disk.impl.piecemapper.DMPieceMapper piece_mapper | piece mapper
+org.gudy.azureus2.core3.disk.impl.piecemapper.DMPieceMap piece_map_use_accessor | piece map use accessor
+org.gudy.azureus2.core3.util.AEMonitor piece_check_result_list_mon | piece check result list mon
+org.gudy.azureus2.core3.util.AEMonitor piece_listeners_mon | piece listeners mon
+org.gudy.azureus2.core3.util.ListenerManager piece_listeners | piece listeners
+org.gudy.azureus2.core3.util.ListenerManager piece_listeners_aggregator | piece listeners aggregator
+org.gudy.azureus2.pluginsimpl.local.peers.PeerManagerImpl.pieceFacade[] piece_facades | piece facades
+org.gudy.azureus2.ui.swt.components.BufferedLabel pieceNumber | piece number
+org.gudy.azureus2.ui.swt.components.BufferedLabel pieceSize | piece size
+org.gudy.azureus2.ui.swt.views.piece.MyPieceDistributionView pieceDistView | piece dist view
+org.gudy.azureus2.ui.swt.views.piece.PieceInfoView pieceInfoView | piece info view

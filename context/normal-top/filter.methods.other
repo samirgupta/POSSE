@@ -1,0 +1,74 @@
+AST createFromFilterElement(QAST;QAST;) | create from filter element
+boolean getRemoveFilterClassnames() | get remove filter classnames
+boolean getRemoveFilterName() | get remove filter name
+boolean hasFilterCondition() | has filter condition
+boolean isShowingFilterSearch() | is showing filter search
+boolean removeCapabilitiesFilterListener(QCapabilitiesFilterChangeListener;) | remove capabilities filter listener
+FilterConfig getFilterConfig() | get filter config
+FilterDefinition getFilterDefinition() | get filter definition
+FilterDefinition getFilterDefinition(QString;) | get filter definition
+FilterQueryPlan getFilterQueryPlan(QObject;QString;QQueryParameters;Z) | get filter query plan
+FilterQueryPlan getFilterQueryPlan(QString;QString;ZQMap;) | get filter query plan
+FilterTranslator createFilterTranslator(QString;QString;QMap;QSessionFactoryImplementor;) | create filter translator
+int addFilterColumns(QTableFilter;QHsqlArrayList;I) | add filter columns
+int bindFilterParameterValues(QPreparedStatement;QQueryParameters;IQSessionImplementor;) | bind filter parameter values
+IpFilterManager getIpFilterManager() | get ip filter manager
+java.util.Map getFilterMap() | get filter map
+java.util.Map getManyToManyFilterMap() | get many to many filter map
+Map getFilterDefinitions() | get filter definitions
+Map getFilterMap() | get filter map
+Object getFilterParameterValue(QString;) | get filter parameter value
+OpenFileFilter getFileFilterForField(QString;) | get file filter for field
+Predicate getFilterPredicate() | get filter predicate
+SelectedTag getFilterType() | get filter type
+Set createFilterKeys(QMap;QEntityMode;) | create filter keys
+Set getDefinedFilterNames() | get defined filter names
+Set getEnabledFilterNames() | get enabled filter names
+Set getUtilizedFilterNames() | get utilized filter names
+String defaultFilterString() | default filter string
+String discriminatorFilterFragment(QString;) | discriminator filter fragment
+String generateFilterConditionAlias(QString;) | generate filter condition alias
+String getDefaultFilterCondition() | get default filter condition
+String getFilterAttributes() | get filter attributes
+String getFilterName() | get filter name
+String getFilterPathData() | get filter path data
+String getFilterPathTorrent() | get filter path torrent
+String getFilterSpec() | get filter spec
+String getFilterSpec(QFilter;) | get filter spec
+String getFilterTableName() | get filter table name
+String getManyToManyFilterFragment(QString;QMap;) | get many to many filter fragment
+String getProjectionFilterSpec() | get projection filter spec
+String getTableIdFromFilterMode(IZ) | get table id from filter mode
+String getTagFilterName() | get tag filter name
+String nominalToBinaryFilterTipText() | nominal to binary filter tip text
+String oneToManyFilterFragment(QString;) | one to many filter fragment
+String[] parseFilterParameterName(QString;) | parse filter parameter name
+String projectionFilterTipText() | projection filter tip text
+String removeFilterName(QString;) | remove filter name
+String setFilterPathData(QString;) | set filter path data
+String setFilterPathTorrent(QString;) | set filter path torrent
+Type getFilterParameterType(QString;) | get filter parameter type
+void addCapabilitiesFilterListener(QCapabilitiesFilterChangeListener;) | add capabilities filter listener
+void addFilterDefinition(QFilterDefinition;) | add filter definition
+void addFilterMethod(Map<LifecycleStage,List<Method>> methodMap, LifecycleStage stage, Method method) | add filter method
+void batchFilterFile(QFilter;[QString;) | batch filter file
+void CapabilitiesFilterChangeEvent(QObject;QCapabilities;) | capabilities filter change event
+void CapabilitiesFilterDialog() | capabilities filter dialog
+void extractFilterAttributes(QString;) | extract filter attributes
+void glConvolutionFilter1D(int target, int internalformat, int width, int format, int type, ByteBuffer image) | gl convolution filter 1 d
+void notifyCapabilitiesFilterListener(QCapabilities;) | notify capabilities filter listener
+void openFilterDialog() | open filter dialog
+void parseFilterDef(QElement;QMappings;) | parse filter def
+void setFilterAttributes(QString;) | set filter attributes
+void setFilterClass(String filterClass) | set filter class
+void setFilterConditions(QSession;) | set filter conditions
+void setFilterConfig(FilterConfig filterConfig) | set filter config
+void setFilterConfig(QFilterConfig;) | set filter config
+void setFilterPredicate(QPredicate;) | set filter predicate
+void setFilterType(int filterType) | set filter type
+void setFilterType(QSelectedTag;) | set filter type
+void setHasFilterCondition(Z) | set has filter condition
+void setRemoveFilterName(Z) | set remove filter name
+void testDirectoryFilterDescription() | test directory filter description
+void testMessagePropertyFilterDodgyValues() | test message property filter dodgy values
+void testSaveNullClassPropertyFilterHandler() | test save null class property filter handler

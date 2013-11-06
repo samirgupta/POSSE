@@ -1,0 +1,22 @@
+boolean isRulersVisible() | is rulers visible
+Color getRulerColor1() | get ruler color 1
+Color getRulerColor2() | get ruler color 2
+int getRulerPosX() | get ruler pos x
+int getRulerPosY() | get ruler pos y
+int getRulerSizeHeight() | get ruler size height
+int getRulerSizeWidth() | get ruler size width
+String getRulerName() | get ruler name
+View getHorizontalRuler() | get horizontal ruler
+View getHorizontalRulerView() | get horizontal ruler view
+View getVerticalRuler() | get vertical ruler
+View getVerticalRulerView() | get vertical ruler view
+void drawRuler(QCoords;QCoords;QColor;QColor;) | draw ruler
+void paintRuler(QGraphics2D;F) | paint ruler
+void PlanRulerComponent(I) | plan ruler component
+void RulersVisibilityChangeListener(QHomePane;QJScrollPane;QHomeController;) | rulers visibility change listener
+void setPlanRulersVisible(QJScrollPane;QHomeController;Z) | set plan rulers visible
+void setRulerPosX(I) | set ruler pos x
+void setRulerPosY(I) | set ruler pos y
+void setRulerSizeHeight(I) | set ruler size height
+void setRulerSizeWidth(I) | set ruler size width
+void setRulersVisible(Z) | set rulers visible

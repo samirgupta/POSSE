@@ -1,0 +1,92 @@
+boolean getQuoteSpecials() | get quote specials
+boolean isDoubleQuote() | is double quote
+boolean isEscapedDoubleQuote() | is escaped double quote
+boolean isEscapedSingleQuote() | is escaped single quote
+boolean isQuote(QString;) | is quote
+boolean isSingleQuote() | is single quote
+boolean readQuotedString(I) | read quoted string
+boolean storesLowerCaseQuotedIdentifiers() | stores lower case quoted identifiers
+boolean storesMixedCaseQuotedIdentifiers() | stores mixed case quoted identifiers
+boolean storesUpperCaseQuotedIdentifiers() | stores upper case quoted identifiers
+boolean supportsMixedCaseQuotedIdentifiers() | supports mixed case quoted identifiers
+boolean wasFirstQuotedIdentifier() | was first quoted identifier
+boolean wasQuotedIdentifier() | was quoted identifier
+char closeQuote() | close quote
+char openQuote() | open quote
+QuoteRequestType getQuoteRequestType() | get quote request type
+String backQuoteChars(QString;) | back quote chars
+StringBuffer parseQuotedFieldExactly() | parse quoted field exactly
+String _escapeQuotesAndBackslashes(QString;) | escape quotes and backslashes
+String getIdentifierQuoteString() | get identifier quote string
+String getQuotedName() | get quoted name
+String getQuotedName(QDialect;) | get quoted name
+String getQuotedSchema() | get quoted schema
+String getQuotedSchema(QDialect;) | get quoted schema
+String _getQuoteType(QString;) | get quote type
+String quoteForHTML(QString;) | quote for html
+String quoteMeta(QString;) | quote meta
+String quote(QString;) | quote
+String quote(QString;QString;C) | quote
+String quote(QString;QString;CI) | quote
+String quoteXMLChars(QString;) | quote xml chars
+String toQuotedString(QString;CZ) | to quoted string
+String unbackQuoteChars(QString;) | unb ack quote chars
+void addQuotes(QString;QString;) | add quotes
+void defaultThreeQuoteCurlySetup() | default three quote curly setup
+void defaultThreeQuoteDollarCurlySetup() | default three quote dollar curly setup
+void defaultThreeQuoteSetup() | default three quote setup
+void defaultTwoQuoteCurlySetup() | default two quote curly setup
+void defaultTwoQuoteSetup() | default two quote setup
+void _insertNewQuote(QString;) | insert new quote
+void insertQuote(QString;) | insert quote
+void KeywordStartsWithQuoteException(QString;) | keyword starts with quote exception
+void mQUOTE(Z) | m quote
+void quotedRegularExpression(ZZ) | quoted regular expression
+void QuotedTextToken(QString;) | quoted text token
+void QuoteStartsWithWhitespaceException(QString;) | quote starts with whitespace exception
+void testAddKeywordQuotes() | test add keyword quotes
+void testAddNewQuotes() | test add new quotes
+void testAddQuotesRepeat() | test add quotes repeat
+void testAddQuotesWhitespace() | test add quotes whitespace
+void testColonNotInTernaryOpDueToQuestionMarkInCommentsOrQuotes() | test colon not in ternary op due to question mark in comments or quotes
+void testDollarEscapedQuoted2() | test dollar escaped quoted 2
+void testDollarNestedQuotedKeywords() | test dollar nested quoted keywords
+void testDollarNestedQuotedKeywordsWSSignificant() | test dollar nested quoted keywords ws significant
+void testEscapeAtFrontBeforeQuote() | test escape at front before quote
+void testEscapeDollarNestedQuotedKeywords() | test escape dollar nested quoted keywords
+void testEscapeDollarNestedQuotedKeywordsWithEscapeWSSignificant() | test escape dollar nested quoted keywords with escape ws significant
+void testEscapeDollarNestedQuotedKeywordsWithEscapeWSSignificant2() | test escape dollar nested quoted keywords with escape ws significant 2
+void testEscapeDollarNestedQuotedKeywordsWSSignificant() | test escape dollar nested quoted keywords ws significant
+void testEscapeNestedQuotedNW() | test escape nested quoted nw
+void testEscapePipeDollarNestedQuotedKeywords() | test escape pipe dollar nested quoted keywords
+void testEscapePipeDollarNestedQuotedKeywordsWithEscape2WSSignificant() | test escape pipe dollar nested quoted keywords with escape 2 ws significant
+void testEscapePipeDollarNestedQuotedKeywordsWithEscape2WSSignificant2() | test escape pipe dollar nested quoted keywords with escape 2 ws significant 2
+void testEscapePipeDollarNestedQuotedKeywordsWithEscapeWSSignificant() | test escape pipe dollar nested quoted keywords with escape ws significant
+void testEscapePipeDollarNestedQuotedKeywordsWithEscapeWSSignificant2() | test escape pipe dollar nested quoted keywords with escape ws significant 2
+void testEscapePipeDollarNestedQuotedKeywordsWSSignificant() | test escape pipe dollar nested quoted keywords ws significant
+void testEscapePipeNestedQuotedNW() | test escape pipe nested quoted nw
+void testEscapePipeQuotedNW() | test escape pipe quoted nw
+void testEscapeQuotedNW() | test escape quoted nw
+void testInsertNewlineEndQuote() | test insert newline end quote
+void testInsertQuoteToQuoteBlock() | test insert quote to quote block
+void testInsideQuoteNext() | test inside quote next
+void testInsideQuotePrevious() | test inside quote previous
+void testInterpretJavaQuotedEscapedArgs() | test interpret java quoted escaped args
+void testInterpretJavaSingleQuotedArgs() | test interpret java single quoted args
+void testLineDoesNotContainColonDueToQuotes() | test line does not contain colon due to quotes
+void testNestedQuotedNW() | test nested quoted nw
+void testNonMatchingQuotes() | test non matching quotes
+void testNotStartOfStmtDueToEndCharactersInCommentsOrQuotes() | test not start of stmt due to end characters in comments or quotes
+void testQuote() | test quote
+void testQuoteBreakComment2() | test quote break comment 2
+void testQuoteBreaksComment() | test quote breaks comment
+void testQuotedNW() | test quoted nw
+void testQuotesSimple() | test quotes simple
+void testQuotesWithGap() | test quotes with gap
+void testThreeQuoteCurlySetup() | test three quote curly setup
+void testThreeQuoteSetup() | test three quote setup
+void testTokenizeQuotedEscapedArgs() | test tokenize quoted escaped args
+void testTokenizeSingleQuotedArgs() | test tokenize single quoted args
+void testTwoQuoteCurlySetup() | test two quote curly setup
+void testWhitespaceKeywordsQuotes() | test whitespace keywords quotes
+void testWordRangeKeywordsQuotes() | test word range keywords quotes

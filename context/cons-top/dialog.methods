@@ -1,0 +1,291 @@
+CONS AboutDialog(QFrame;) | about dialog
+CONS AboutDialog(QGanttProject;) | about dialog
+CONS AboutDialog(QJFrame;) | about dialog
+CONS ActiveConnectionDialog(Qjava.awt.Frame;Z) | active connection dialog
+CONS AimedShotDialog(QFrame;QString;QString;[QString;[ZIZQItemListener;QActionListener;) | aimed shot dialog
+CONS AimedShotDialog(QJFrame;QString;QString;[QString;[ZIZQItemListener;QActionListener;) | aimed shot dialog
+CONS AlertDialog(QFrame;QString;QString;) | alert dialog
+CONS AlertDialog(QFrame;QString;QString;Z) | alert dialog
+CONS AttachFileDialog(QDialog;QMetaData;QBibtexEntry;QString;) | attach file dialog
+CONS AttachFileDialog(QFrame;QMetaData;QBibtexEntry;QString;) | attach file dialog
+CONS AutoGroupDialog(QJabRefFrame;QBasePanel;QGroupSelector;QGroupTreeNode;QString;QString;QString;) | auto group dialog
+CONS BandsDialog(Qjava.awt.Frame;Z) | bands dialog
+CONS BoardNewDialog(QFrame;[QString;I) | board new dialog
+CONS BoardNewDialog(QJFrame;) | board new dialog
+CONS BoardSelectionDialog(QClientGUI;) | board selection dialog
+CONS CamoChoiceDialog(QFrame;) | camo choice dialog
+CONS CamoChoiceDialog(QJFrame;) | camo choice dialog
+CONS CaptureGoodsDialog(QCanvas;) | capture goods dialog
+CONS CategorySeriesDialog(Qjava.awt.Frame;Z) | category series dialog
+CONS ChangeDisplayDialog(QJFrame;QBasePanel;QBibtexDatabase;QDefaultMutableTreeNode;) | change display dialog
+CONS ChartPropertiesDialog(Qjava.awt.Dialog;Z) | chart properties dialog
+CONS ChartPropertiesDialog(Qjava.awt.Frame;Z) | chart properties dialog
+CONS ChartSelectionJDialog(Qjava.awt.Dialog;Z) | chart selection j dialog
+CONS ChartSelectionJDialog(Qjava.awt.Frame;Z) | chart selection j dialog
+CONS CheckUpdateDialog(Qjava.awt.Frame;Z) | check update dialog
+CONS ChoiceDialog(QFrame;QString;QString;[QString;) | choice dialog
+CONS ChoiceDialog(QFrame;QString;QString;[QString;Z) | choice dialog
+CONS ChoiceDialog(QJFrame;QString;QString;[QString;) | choice dialog
+CONS ChoiceDialog(QJFrame;QString;QString;[QString;Z) | choice dialog
+CONS ChooseFoundingFatherDialog(QCanvas;) | choose founding father dialog
+CONS ClassPathDialog(Qjava.awt.Frame;Z) | class path dialog
+CONS ClientDialog(QFrame;QString;) | client dialog
+CONS ClientDialog(QFrame;QString;Z) | client dialog
+CONS ClientDialog(QJFrame;QString;) | client dialog
+CONS ClientDialog(QJFrame;QString;Z) | client dialog
+CONS ClientOptionsDialog(QCanvas;QFreeColClient;) | client options dialog
+CONS ColorDialog() | color dialog
+CONS ColorDialog(QJFrame;) | color dialog
+CONS CommonAboutDialog(QFrame;) | common about dialog
+CONS CommonAboutDialog(QJFrame;) | common about dialog
+CONS CommonHelpDialog(QFrame;QFile;) | common help dialog
+CONS CommonHelpDialog(QJFrame;QFile;) | common help dialog
+CONS CommonSettingsDialog(QFrame;) | common settings dialog
+CONS CommonSettingsDialog(QJFrame;) | common settings dialog
+CONS CompatibilityDialog(Qjava.awt.Frame;Z) | compatibility dialog
+CONS ConfirmCheckBoxDialog(QJFrame;QString;QObject;) | confirm check box dialog
+CONS ConfirmCheckBoxDialog(QJFrame;QString;QObject;QString;) | confirm check box dialog
+CONS ConfirmCheckBoxDialog(QJFrame;QString;QObject;QString;II) | confirm check box dialog
+CONS ConfirmDialog(QFrame;QString;QString;) | confirm dialog
+CONS ConfirmDialog(QFrame;QString;QString;C) | confirm dialog
+CONS ConfirmDialog(QFrame;QString;QString;Z) | confirm dialog
+CONS ConfirmDialog(QFrame;QString;QString;ZC) | confirm dialog
+CONS ConfirmDialog(QJFrame;QString;QString;) | confirm dialog
+CONS ConfirmDialog(QJFrame;QString;QString;Z) | confirm dialog
+CONS ConfirmDialog(QJFrame;QString;QString;ZC) | confirm dialog
+CONS ConfirmDialog(QString;QString;I) | confirm dialog
+CONS ConnectDialog(QFrame;) | connect dialog
+CONS ConnectDialog(QJFrame;) | connect dialog
+CONS ConnectionDialog(QFrame;QString;) | connection dialog
+CONS ConnectionDialog(Qjava.awt.Frame;Z) | connection dialog
+CONS ConnectionDialogSwing(QJFrame;QString;) | connection dialog swing
+CONS ConnectionsDialog(Qjava.awt.Frame;Z) | connections dialog
+CONS ContentSelectorDialog2(QDialog;QJabRefFrame;QBasePanel;ZQMetaData;QString;) | content selector dialog 2
+CONS ContentSelectorDialog2(QFrame;QJabRefFrame;QBasePanel;ZQMetaData;QString;) | content selector dialog 2
+CONS ContentSelectorDialog_Close_actionAdapter(QContentSelectorDialog;) | content selector dialog close action adapter
+CONS ContentSelectorDialog_fieldSelector_actionAdapter(QContentSelectorDialog;) | content selector dialog field selector action adapter
+CONS ContentSelectorDialog(QJabRefFrame;ZQMetaData;) | content selector dialog
+CONS ContentSelectorDialog(QJabRefFrame;ZQMetaData;QString;) | content selector dialog
+CONS CustomBattleArmorDialog(QClientGUI;) | custom battle armor dialog
+CONS CustomBattleArmorDialog(QClientGUI;QUnitLoadingDialog;) | custom battle armor dialog
+CONS CustomExportDialog(QJabRefFrame;) | custom export dialog
+CONS CustomExportDialog(QJabRefFrame;QString;QString;QString;) | custom export dialog
+CONS CustomMechDialog(QClientGUI;QClient;QEntity;Z) | custom mech dialog
+CONS DatabaseConnectionDialog(QFrame;) | database connection dialog
+CONS DatabaseConnectionDialog(QFrame;QString;QString;) | database connection dialog
+CONS DatabaseConnectionDialog(QFrame;QString;QString;Z) | database connection dialog
+CONS DatabasePropertiesDialog(QJFrame;) | database properties dialog
+CONS DBConnectDialog(QJFrame;QDBStrings;) | db connect dialog
+CONS DeclarationDialog(QCanvas;QFreeColClient;) | declaration dialog
+CONS DialogOptionComponent(QDialogOptionListener;QIOption;) | dialog option component
+CONS DialogOptionComponent(QDialogOptionListener;QIOption;Z) | dialog option component
+CONS DrJavaScrollableDialog(QJFrame;QString;QString;QString;) | dr java scrollable dialog
+CONS DrJavaScrollableDialog(QJFrame;QString;QString;QString;II) | dr java scrollable dialog
+CONS DrJavaScrollableDialog(QJFrame;QString;QString;QString;IIZ) | dr java scrollable dialog
+CONS DrJavaScrollableDialog(QJFrame;QString;QString;QString;Z) | dr java scrollable dialog
+CONS DumpCargoDialog(QCanvas;) | dump cargo dialog
+CONS DuplicateResolverDialog(QJDialog;QBibtexEntry;QBibtexEntry;I) | duplicate resolver dialog
+CONS DuplicateResolverDialog(QJFrame;QBibtexEntry;QBibtexEntry;I) | duplicate resolver dialog
+CONS EditArchiveDialog(QFrame;QArcDef;) | edit archive dialog
+CONS EditDatasourceDialog(QFrame;QDsDef;) | edit datasource dialog
+CONS EditExternalDialog(QMainFrame;) | edit external dialog
+CONS EditLinkDialog(QFrame;QRouterInfo;QLinkInfo;) | edit link dialog
+CONS EditLinkDialog(QFrame;QRouterInfo;[QString;) | edit link dialog
+CONS EditNodeDialog(QNodeView;QString;QKeyEvent;QModeController;QEditControl;) | edit node dialog
+CONS EditRouterDialog(QFrame;) | edit router dialog
+CONS EditRouterDialog(QFrame;QRouterInfo;) | edit router dialog
+CONS ElementPropertiesDialog(Qjava.awt.Frame;Z) | element properties dialog
+CONS EnterPasswordDialog() | enter password dialog
+CONS EnterPasswordDialog(QJFrame;QModeController;Z) | enter password dialog
+CONS EntryCustomizationDialog2(QJabRefFrame;) | entry customization dialog 2
+CONS EntryCustomizationDialog(QJabRefFrame;) | entry customization dialog
+CONS EntryCustomizationDialog(QJabRefFrame;QBibtexEntryType;) | entry customization dialog
+CONS EntryTypeDialog(QJabRefFrame;) | entry type dialog
+CONS ExecuteExternalDialog(QMainFrame;) | execute external dialog
+CONS ExecuteExternalDialog(QMainFrame;ZIQCompletionMonitor;) | execute external dialog
+CONS ExitsDialog(QFrame;) | exits dialog
+CONS ExitsDialog(QJFrame;) | exits dialog
+CONS ExportCustomizationDialog(QJabRefFrame;) | export customization dialog
+CONS ExportDialog(QFile;) | export dialog
+CONS ExportPreferencesDialog(Qjava.awt.Frame;Z) | export preferences dialog
+CONS FieldPatternDialog(Qjava.awt.Frame;Z) | field pattern dialog
+CONS FieldWeightDialog(QJabRefFrame;) | field weight dialog
+CONS FindColonyDialog(QCanvas;) | find colony dialog
+CONS FontDialog(QJFrame;) | font dialog
+CONS FontsDialog(Qjava.awt.Frame;Z) | fonts dialog
+CONS FontSelectorDialog(QComponent;QFont;) | font selector dialog
+CONS FreeColDialog() | free col dialog
+CONS FreeColDialog(QCanvas;) | free col dialog
+CONS FromAuxDialog_Cancel_actionAdapter(QFromAuxDialog;) | from aux dialog cancel action adapter
+CONS FromAuxDialog_generate_actionAdapter(QFromAuxDialog;) | from aux dialog generate action adapter
+CONS FromAuxDialog_ok_actionAdapter(QFromAuxDialog;) | from aux dialog ok action adapter
+CONS FromAuxDialog(QJabRefFrame;QString;ZQJTabbedPane;) | from aux dialog
+CONS GameOptionsDialog(QCanvas;QFreeColClient;) | game options dialog
+CONS GameOptionsDialog(QClientGUI;) | game options dialog
+CONS GameOptionsDialog(QFrame;QGameOptions;) | game options dialog
+CONS GameOptionsDialog(QJFrame;QGameOptions;) | game options dialog
+CONS GanttDialogCalendar(QJFrame;) | gantt dialog calendar
+CONS GanttDialogCompareToPreviousState(QGanttProject;) | gantt dialog compare to previous state
+CONS GanttDialogCustomColumn(QUIFacade;QCustomColumn;) | gantt dialog custom column
+CONS GanttDialogDate(QJDialog;QGanttCalendar;) | gantt dialog date
+CONS GanttDialogDate(QJDialog;QGanttCalendar;Z) | gantt dialog date
+CONS GanttDialogInfo(QFrame;IIQString;QString;) | gantt dialog info
+CONS GanttDialogPerson(QUIFacade;QGanttLanguage;QHumanResource;) | gantt dialog person
+CONS GanttDialogProperties([QGanttTask;) | gantt dialog properties
+CONS GanttDialogPublicHoliday(QIGanttProject;QUIFacade;) | gantt dialog public holiday
+CONS GanttDialogSaveAsPreviousState(QGanttProject;) | gantt dialog save as previous state
+CONS GeneralDialog(QGanttProject;QString;ZQGeneralOptionPanel;) | general dialog
+CONS GrabKeyDialog(QFreeMindMain;QDialog;QKeyBinding;QVector;QBuffer;) | grab key dialog
+CONS GroupDialog(QJabRefFrame;QBasePanel;QAbstractGroup;) | group dialog
+CONS GroupDialog(Qjava.awt.Dialog;Z) | group dialog
+CONS GroupsDialog(Qjava.awt.Dialog;Z) | groups dialog
+CONS GroupsDialog(Qjava.awt.Frame;Z) | groups dialog
+CONS HelpDialog(QFrame;) | help dialog
+CONS HelpDialog(QFrame;QURL;) | help dialog
+CONS HelpDialog(QJabRefFrame;) | help dialog
+CONS HelpDialog(QJDialog;QURL;) | help dialog
+CONS HistorySaveDialog(QJFrame;) | history save dialog
+CONS HostDialog(QFrame;) | host dialog
+CONS HostDialog(QJFrame;) | host dialog
+CONS IconSelectionPopupDialog(QJFrame;QVector;QVector;QFreeMindMain;) | icon selection popup dialog
+CONS ImportCustomizationDialog(QJabRefFrame;) | import customization dialog
+CONS ImportDialog(Qjava.awt.Dialog;Z) | import dialog
+CONS ImportInspectionDialog(QJabRefFrame;QBasePanel;[QString;QString;Z) | import inspection dialog
+CONS InformationDialog([QString;[QImageIcon;) | information dialog
+CONS InformationDialog(QString;QImageIcon;) | information dialog
+CONS InsertVariableDialog(QMainFrame;QCompletionMonitor;) | insert variable dialog
+CONS IReportChartDialog(Qjava.awt.Dialog;Z) | i report chart dialog
+CONS IReportChartDialog(Qjava.awt.Frame;Z) | i report chart dialog
+CONS JarOptionsDialog(QMainFrame;) | jar options dialog
+CONS JavadocDialog(QJFrame;) | javadoc dialog
+CONS JHTMLDialog(QString;QString;QString;QString;QString;QString;IQString;) | jhtml dialog
+CONS JHTMLDialog(QString;QString;QString;QString;QString;QString;QString;QString;IQString;) | jhtml dialog
+CONS JRFieldDialog(Qjava.awt.Frame;Z) | jr field dialog
+CONS JRFontDialog(Qjava.awt.Frame;Z) | jr font dialog
+CONS JRGroupDialog(QJReportFrame;Z) | jr group dialog
+CONS JRParameterDialog(Qjava.awt.Frame;Z) | jr parameter dialog
+CONS JRPropertyDialog(Qjava.awt.Frame;Z) | jr property dialog
+CONS JRSubreportParameterDialog(Qjava.awt.Dialog;Z) | jr subreport parameter dialog
+CONS JRSubreportReturnValueDialog(Qjava.awt.Dialog;Z) | jr subreport return value dialog
+CONS JRVariableDialog(QSubDataset;Qjava.awt.Frame;Z) | jr variable dialog
+CONS KeyBindingsDialog(QHashMap<QString;QString;>;QHashMap<QString;QString;>;) | key bindings dialog
+CONS ListSelectorDialog(QFrame;QJList;) | list selector dialog
+CONS LoadingSavegameDialog(QCanvas;QFreeColClient;) | loading savegame dialog
+CONS LocaleEditorDialog(Qjava.awt.Frame;Z) | locale editor dialog
+CONS LocaleResourceFilesDialog(Qjava.awt.Dialog;Z) | locale resource files dialog
+CONS LocaleResourceFilesDialog(Qjava.awt.Frame;Z) | locale resource files dialog
+CONS LOSDialog(QFrame;ZZ) | los dialog
+CONS LOSDialog(QJFrame;ZZ) | los dialog
+CONS ManagePluginsDialog(QJabRefFrame;) | manage plugins dialog
+CONS MapGeneratorOptionsDialog(QCanvas;QFreeColClient;) | map generator options dialog
+CONS MaxRecordsDialog(Qjava.awt.Dialog;Z) | max records dialog
+CONS MaxRecordsDialog(Qjava.awt.Frame;Z) | max records dialog
+CONS MechSelectorDialog(QClientGUI;QUnitLoadingDialog;) | mech selector dialog
+CONS MergeDialog_Cancel_actionAdapter(QMergeDialog;) | merge dialog cancel action adapter
+CONS MergeDialog_ok_actionAdapter(QMergeDialog;) | merge dialog ok action adapter
+CONS MergeDialog(QJabRefFrame;QString;Z) | merge dialog
+CONS MessageDialog(QString;QString;IQString;QIcon;) | message dialog
+CONS MineLayingDialog(QFrame;QEntity;) | mine laying dialog
+CONS MineLayingDialog(QJFrame;QEntity;) | mine laying dialog
+CONS NegotiationDialog(QCanvas;QUnit;QSettlement;) | negotiation dialog
+CONS NegotiationDialog(QCanvas;QUnit;QSettlement;QDiplomaticTrade;) | negotiation dialog
+CONS NewLocaleFileDialog(Qjava.awt.Dialog;Z) | new locale file dialog
+CONS NewLocaleFileDialog(Qjava.awt.Frame;Z) | new locale file dialog
+CONS OpenFileDialog(QGanttProject;) | open file dialog
+CONS OpenFileDialog(QString;) | open file dialog
+CONS OpenOptionsDialogAction(QString;QString;QDrawingPanel;) | open options dialog action
+CONS OpenOptionsDialogAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | open options dialog action
+CONS OptionsDialog() | options dialog
+CONS OptionsDialogAction([QGPOptionGroup;QUIFacade;) | options dialog action
+CONS OptionsDialog(Qjava.awt.Frame;Z) | options dialog
+CONS OutputFormatDialog(QFrame;) | output format dialog
+CONS PasswordDialog(Qjava.awt.Frame;Z) | password dialog
+CONS PasswordDialog(QString;) | password dialog
+CONS PictureDialog() | picture dialog
+CONS PlayerListDialog(QFrame;QClient;) | player list dialog
+CONS PlayerListDialog(QJFrame;QClient;) | player list dialog
+CONS PluginConfigurationDialog(Qjavax.swing.JFrame;) | plugin configuration dialog
+CONS PreCombatDialog(QUnit;QUnit;QSettlement;QCanvas;) | pre combat dialog
+CONS PrefsDialog3(QJabRefFrame;) | prefs dialog 3
+CONS ProjectDialog(Qjava.awt.Frame;Z) | project dialog
+CONS PromptDialog(QFrame;Z) | prompt dialog
+CONS PropertiesDialog(Qjava.awt.Frame;Z) | properties dialog
+CONS PropertiesDialog(QObject;) | properties dialog
+CONS PropertyDialog(QDialog;QPropertyEditor;) | property dialog
+CONS PropertyDialog(QDialog;QPropertyEditor;II) | property dialog
+CONS PropertyDialog(QFrame;QPropertyEditor;) | property dialog
+CONS PropertyDialog(QFrame;QPropertyEditor;II) | property dialog
+CONS PropertyDialog(QPropertyEditor;II) | property dialog
+CONS PropertySelectorDialog(QFrame;QObject;) | property selector dialog
+CONS PublicHolidayDialogAction(QIGanttProject;QUIFacade;) | public holiday dialog action
+CONS RandomMapDialog(QFrame;QIMapSettingsObserver;QMapSettings;) | random map dialog
+CONS RandomMapDialog(QJFrame;QIMapSettingsObserver;QMapSettings;) | random map dialog
+CONS RecruitDialog(QCanvas;) | recruit dialog
+CONS RemoteSaveDialog() | remote save dialog
+CONS ReplaceStringDialog(QJabRefFrame;) | replace string dialog
+CONS ReportImportsDialog(Qjava.awt.Dialog;Z) | report imports dialog
+CONS ReportImportsDialog(Qjava.awt.Frame;Z) | report imports dialog
+CONS ReportQueryDialog(Qjava.awt.Frame;Z) | report query dialog
+CONS ReportSeriesDialog(Qjava.awt.Dialog;Z) | report series dialog
+CONS ReportSeriesDialog(Qjava.awt.Frame;Z) | report series dialog
+CONS ResourceDialogCustomColumn(QUIFacade;QResourceColumn;) | resource dialog custom column
+CONS ResumeDialog(QDirEntry;) | resume dialog
+CONS RSSDialog() | rss dialog
+CONS ScenarioDialog(QFrame;[QPlayer;) | scenario dialog
+CONS ScenarioDialog(QJFrame;[QPlayer;) | scenario dialog
+CONS ScoreInformationDialog() | score information dialog
+CONS ScoreInformationDialog(QJFrame;Z) | score information dialog
+CONS ScrollableDialog(QJFrame;QString;QString;QString;) | scrollable dialog
+CONS ScrollableDialog(QJFrame;QString;QString;QString;II) | scrollable dialog
+CONS ScrollableDialog(QJFrame;QString;QString;QString;IIZ) | scrollable dialog
+CONS ScrollableDialog(QJFrame;QString;QString;QString;Z) | scrollable dialog
+CONS ScrollableListDialog(QFrame;QString;QString;QList<QT;>;QList<QT;>;IIIQIcon;ZQList<QJButton;>;QList<QJComponent;>;Z) | scrollable list dialog
+CONS ScrollableListSelectionDialog(QFrame;QString;QString;QCollection<*>;QString;) | scrollable list selection dialog
+CONS ScrollableListSelectionDialog(QFrame;QString;QString;QCollection<*>;QString;QSelectionState;I) | scrollable list selection dialog
+CONS ScrollableListSelectionDialog(QFrame;QString;QString;QCollection<*>;QString;QSelectionState;IIIQIcon;) | scrollable list selection dialog
+CONS ScrollableListSelectionDialog(QFrame;QString;QString;QCollection<*>;QString;QSelectionState;IIIQIcon;Z) | scrollable list selection dialog
+CONS SearchInfoDialog() | search info dialog
+CONS SearchResultsDialog(QJabRefFrame;QString;) | search results dialog
+CONS SelectAmountDialog(QCanvas;QGoodsType;IZ) | select amount dialog
+CONS SerieDialog(Qjava.awt.Dialog;Z) | serie dialog
+CONS ServerDialog(QGanttProject;) | server dialog
+CONS SettingsDialog(QGanttProject;) | settings dialog
+CONS SingleChoiceDialog(QFrame;QString;QString;[QString;) | single choice dialog
+CONS SingleChoiceDialog(QJFrame;QString;QString;[QString;) | single choice dialog
+CONS SnipeDialog() | snipe dialog
+CONS SplashDialog(Qjava.awt.Frame;Z) | splash dialog
+CONS SqlViewerDialog(QJFrame;) | sql viewer dialog
+CONS StartingPositionDialog(QClientGUI;) | starting position dialog
+CONS StringDialog(QJabRefFrame;QBasePanel;QBibtexDatabase;QJabRefPreferences;) | string dialog
+CONS StyleDialog(Qjava.awt.Dialog;Z) | style dialog
+CONS StyleDialog(Qjava.awt.Frame;Z) | style dialog
+CONS StylesDialog(Qjava.awt.Frame;Z) | styles dialog
+CONS StylesSelectionDialog(QHashSet;) | styles selection dialog
+CONS SubDatasetDialog(Qjava.awt.Dialog;Z) | sub dataset dialog
+CONS SubDatasetDialog(Qjava.awt.Frame;Z) | sub dataset dialog
+CONS SubDatasetsDialog(Qjava.awt.Frame;Z) | sub datasets dialog
+CONS TextInputDialog(QJabRefFrame;QBasePanel;QString;ZQBibtexEntry;) | text input dialog
+CONS TimePeriodSeriesDialog(Qjava.awt.Frame;Z) | time period series dialog
+CONS TimeSeriesDialog(Qjava.awt.Frame;Z) | time series dialog
+CONS TipsDialog(QJFrame;Z) | tips dialog
+CONS ToGoDialog(QJFrame;QServerConfiguration;) | to go dialog
+CONS TotalObjectDialog(Qjava.awt.Frame;Z) | total object dialog
+CONS TradeRouteDialog(QCanvas;) | trade route dialog
+CONS TradeRouteInputDialog(QCanvas;) | trade route input dialog
+CONS TrainDialog(QCanvas;QEuropePanel.EuropeAction;) | train dialog
+CONS TriggerAPPodDialog(QFrame;QEntity;) | trigger ap pod dialog
+CONS TriggerAPPodDialog(QJFrame;QEntity;) | trigger ap pod dialog
+CONS UnitFailureDialog(QFrame;QHashtable;) | unit failure dialog
+CONS UnitFailureDialog(QJFrame;QHashtable;) | unit failure dialog
+CONS UnitLoadingDialog(QFrame;) | unit loading dialog
+CONS UnitLoadingDialog(QJFrame;) | unit loading dialog
+CONS ValuesDialog(Qjava.awt.Dialog;Z) | values dialog
+CONS ValuesDialog(Qjava.awt.Frame;Z) | values dialog
+CONS VibrabombSettingDialog(QFrame;) | vibrabomb setting dialog
+CONS VibrabombSettingDialog(QJFrame;) | vibrabomb setting dialog
+CONS ViewerDialog(QFrame;) | viewer dialog
+CONS WarehouseDialog(QCanvas;) | warehouse dialog
+CONS WizardDialog(Qjava.awt.Frame;Z) | wizard dialog
+CONS XYSeriesDialog(Qjava.awt.Frame;Z) | xy series dialog
+CONS XYZSeriesDialog(Qjava.awt.Frame;Z) | xyz series dialog
+CONS ZaurusConnectionDialog(QFrame;QString;) | zaurus connection dialog

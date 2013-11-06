@@ -1,0 +1,52 @@
+byte[] peer_id | peer id
+byte[] peer_id_bytes | peer id bytes
+byte PEER_SOURCE_DHT | peer source dht
+byte PEER_SOURCE_INCOMING | peer source incoming
+byte PEER_SOURCE_PEER_EXCHANGE | peer source peer exchange
+byte PEER_SOURCE_PLUGIN | peer source plugin
+byte PEER_SOURCE_TRACKER | peer source tracker
+com.aelitis.azureus.core.peermanager.peerdb.PeerDatabase peer_database | peer database
+com.aelitis.azureus.core.peermanager.peerdb.PeerExchangerItem peer_exchange_item | peer exchange item
+com.aelitis.azureus.core.peermanager.peerdb.PeerItem peer_item_identity | peer item identity
+com.aelitis.azureus.core.peermanager.PeerManagerRegistration peer_manager_registration | peer manager registration
+com.aelitis.azureus.core.peermanager.piecepicker.util.BitFlags peerHavePieces | peer have pieces
+int PEER_CHECK_PERIOD | peer check period
+int PEER_CHECK_TICKS | peer check ticks
+int peer_count | peer count
+int PEER_INJECT_GRACE_PERIOD | peer inject grace period
+int peer_list_hole_count | peer list hole count
+int PEER_RECHECK_PERIOD | peer recheck period
+int PEER_RECHECK_TICKS | peer recheck ticks
+int PEER_SIZE | peer size
+java.lang.Object PEER_KEY | peer key
+java.lang.Object PEER_STATS_KEY | peer stats key
+java.lang.String PEER_CACHE_KEY | peer cache key
+java.lang.String PeerManager_status_finishedin | peer manager status finished in
+java.lang.String PEER_NAT_TRAVERSE_DONE_KEY | peer nat traverse done key
+java.lang.String[] peer_networks | peer networks
+java.lang.String peer_source | peer source
+java.util.ArrayList peer_manager_listeners_cow | peer manager listeners cow
+java.util.ArrayList peer_transports_cow | peer transports cow
+java.util.HashMap peer_connections | peer connections
+java.util.HashMap peer_listeners | peer listeners
+java.util.List peer_list | peer list
+java.util.List peer_listeners | peer listeners
+java.util.List peer_listeners_cow | peer listeners cow
+java.util.List[] peer_requests | peer requests
+java.util.Map peer_listeners | peer listeners
+java.util.Map peerListeners | peer listeners
+java.util.Map peer_map | peer map
+java.util.Map peer_reuse_map | peer reuse map
+long peer_manager_change_time | peer manager change time
+org.gudy.azureus2.core3.peer.impl.PEPeerControl peerControl | peer control
+org.gudy.azureus2.core3.peer.PEPeerManagerListener peerManagerListener | peer manager listener
+org.gudy.azureus2.core3.peer.PEPeerManager peer_manager | peer manager
+org.gudy.azureus2.core3.util.AEMonitor peer_listeners_mon | peer listeners mon
+org.gudy.azureus2.core3.util.AEMonitor peer_transports_mon | peer transports mon
+org.gudy.azureus2.core3.util.HashWrapper peer_id | peer id
+org.gudy.azureus2.core3.util.HashWrapper peerSessionID | peer session id
+org.gudy.azureus2.core3.util.ListenerManager peer_listeners | peer listeners
+org.gudy.azureus2.core3.util.ListenerManager peer_listeners_aggregator | peer listeners aggregator
+org.gudy.azureus2.pluginsimpl.local.peers.PeerManagerImpl peer_manager | peer manager
+org.gudy.azureus2.plugins.torrent.TorrentAttribute peer_sources_attribute | peer sources attribute
+org.gudy.azureus2.ui.swt.views.PeersGraphicView.PeerComparator peerComparator | peer comparator

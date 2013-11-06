@@ -1,0 +1,19 @@
+boolean getMeasurePerformance() | get measure performance
+GP4MeasureTrackPair getMeasureTrackPair() | get measure track pair
+GP4MeasureTrackPair getMeasureTrackPair(II) | get measure track pair
+GP4MeasureTrackPair getTrackMeasurePair(II) | get track measure pair
+GP4MeasureTrackPair readMeasureTrackPair() | read measure track pair
+int getMeasureNumber(I) | get measure number
+int getPerformanceMeasureCount() | get performance measure count
+int getScoreMeasureCount() | get score measure count
+String evaluationMeasureTipText() | evaluation measure tip text
+void addMeasureEvents(QTrack;QSongMeasure;I) | add measure events
+void GP4MeasureTrackPairStats() | gp 4 measure track pair stats
+void GP4MeasureTrackPairStats(QGP4MeasureTrackPair;II) | gp 4 measure track pair stats
+void paintMeasureTrackPair(QGraphics;) | paint measure track pair
+void setMeasureNumberFont(QFont;) | set measure number font
+void setMeasureNumber(II) | set measure number
+void setMeasurePerformance(Z) | set measure performance
+void setMeasureTrackPair(IQGP4MeasureTrackPair;) | set measure track pair
+void setMeasureTrackPair(QGP4MeasureTrackPair;) | set measure track pair
+void setPA_Measure_ID(int PA_Measure_ID) | set pa measure id

@@ -1,0 +1,17 @@
+boolean cascadeAssociationNow(QAssociationType;) | cascade association now
+boolean cascadeNow(I) | cascade now
+void cascadeAfterDelete(QEventSource;QEntityPersister;QObject;QSet;) | cascade after delete
+void cascadeAfterReplicate(QObject;QEntityPersister;QReplicationMode;QEventSource;) | cascade after replicate
+void cascadeAfterSave(QEventSource;QEntityPersister;QObject;QObject;) | cascade after save
+void cascadeAssociation(QObject;QType;QCascadeStyle;QObject;Z) | cascade association
+void cascadeBeforeDelete(QEventSource;QEntityPersister;QObject;QEntityEntry;QSet;) | cascade before delete
+void cascadeBeforeSave(QEventSource;QEntityPersister;QObject;QObject;) | cascade before save
+void cascadeCollectionElements(QObject;QCollectionType;QCascadeStyle;QType;QObject;Z) | cascade collection elements
+void cascadeCollection(QObject;QCascadeStyle;QObject;QCollectionType;) | cascade collection
+void cascadeComponent(QObject;QAbstractComponentType;QObject;) | cascade component
+void cascadeOnFlush(QEventSource;QEntityPersister;QObject;QObject;) | cascade on flush
+void cascadeOnLock(QLockEvent;QEntityPersister;QObject;) | cascade on lock
+void cascadeOnMerge(QEventSource;QEntityPersister;QObject;QMap;) | cascade on merge
+void cascadeOnUpdate(QSaveOrUpdateEvent;QEntityPersister;QObject;) | cascade on update
+void cascadeProperty(QObject;QType;QCascadeStyle;QObject;Z) | cascade property
+void cascadeToOne(QObject;QType;QCascadeStyle;QObject;Z) | cascade to one

@@ -1,0 +1,86 @@
+boolean compileOSAScript([QCharSequence;QFile;) | compile osa script
+boolean compileOSAScript(QCharSequence;QFile;) | compile osa script
+boolean getScripting() | get scripting
+boolean isGeneratedScript() | is generated script
+boolean isGeneratedScript(QString;) | is generated script
+boolean isInScriptTag() | is in script tag
+boolean isProcessingScript() | is processing script
+boolean parseRrdtoolScript() | parse rrdtool script
+boolean visibleToScripts(QString;) | visible to scripts
+InteractionsScriptModel loadHistoryAsScript(FileOpenSelector selector) | load history as script
+InteractionsScriptModel loadHistoryAsScript(QFileOpenSelector;) | load history as script
+InterpretedFunction createScript(QInterpreterData;QObject;) | create script
+int getScriptletHandling() | get scriptlet handling
+int getScriptType() | get script type
+int getUnixScriptVersion() | get unix script version
+IScriptAlterTableAddPrimaryKey newScriptAlterTableAddPrimaryKey() | new script alter table add primary key
+java.lang.String getScriptletClass() | get scriptlet class
+NSAppleEventDescriptor executeScript(QString;[QObject;) | execute script
+NSAppleEventDescriptor executeScriptWithAsync(QString;[QObject;) | execute script with async
+NSAppleEventDescriptor executeScriptWithNewThread(QString;[QObject;) | execute script with new thread
+Object doScriptableIncrDecr(QScriptable;QString;QScriptable;QObject;I) | do scriptable incr decr
+Object evaluateScript(QScript;QContext;QScriptable;) | evaluate script
+Result getScript(QDatabase;Z) | get script
+Result processScript() | process script
+RuntimeException throwAsScriptRuntimeEx(QThrowable;) | throw as script runtime ex
+Scriptable lastStoredScriptable(QContext;) | last stored scriptable
+Scriptable runScript(QScript;) | run script
+Script createScriptObject(QObject;QObject;) | create script object
+Script loadCompiledScript(QContext;QString;QObject;) | load compiled script
+Script loadScriptFromSource(QContext;QString;QString;IQObject;) | load script from source
+ScriptOrFnNode createScript() | create script
+ScriptReaderBase newScriptReader(QDatabase;QString;I) | new script reader
+ScriptWriterBase newScriptWriter(QDatabase;QString;ZZI) | new script writer
+String decompileScript(QScript;I) | decompile script
+String[] generateDropSchemaScript(QDialect;) | generate drop schema script
+String[] generateSchemaCreationScript(QDialect;) | generate schema creation script
+String[] generateSchemaUpdateScript(QDialect;QDatabaseMetadata;) | generate schema update script
+String getPostConfigurationScript() | get post configuration script
+String getScript() | get script
+String getScriptletFileName() | get scriptlet file name
+String getScriptletFileName(QString;) | get scriptlet file name
+String makeUrlForGeneratedScript(ZQString;I) | make url for generated script
+String performOSAScript([QCharSequence;) | perform osa script
+String performOSAScript(QCharSequence;) | perform osa script
+String performOSAScript(QFile;) | perform osa script
+String scriptSignature([QObject;) | script signature
+void addJavaScriptAtPositionPlain(FacesContext context, ResourcePosition position, Class myfacesCustomComponent, String resourceName) | add java script at position plain
+void addScriptRuntimeInvoke(QString;QString;) | add script runtime invoke
+void checkStartupScript() | check startup script
+void _closeInteractionsScript() | close interactions script
+void collectScriptOrFnNodes_r(QScriptOrFnNode;QObjArray;) | collect script or fn nodes r
+void compileScript(QString;QString;) | compile script
+void deleteNewScript() | delete new script
+void evalScript(QString;QString;) | eval script
+void generateScriptCtor(QClassFileWriter;QScriptOrFnNode;) | generate script ctor
+void importScript(QReader;QStatement;) | import script
+void initScriptFunction(QContext;QScriptable;) | init script function
+void initScriptOrFnNodesData(QScriptOrFnNode;) | init script or fn nodes data
+void initScript(QNativeFunction;QScriptable;QContext;QScriptable;Z) | init script
+void initScript(QScriptOrFnNode;QNode;) | init script
+void insertFromScript([QObject;) | insert from script
+void killScripts(QStringBuffer;) | kill scripts
+void processScript() | process script
+void registerTopScript(QDebuggableScript;QString;) | register top script
+void renameNewScript() | rename new script
+void runScript(QDatabase;QString;I) | run script
+void setInitScriptLanguage(String isl) | set init script language
+void setLoadCompleteScript(String loadCompleteScript) | set load complete script
+void setOnChange(String script) | set on change
+void setOnClick(String script) | set on click
+void setOnFocus(String script) | set on focus
+void setOnKeyUp(String script) | set on key up
+void setOnMouseUp(String script) | set on mouse up
+void setOnUnload(String script) | set on unload
+void setScriptId(String id) | set script id
+void setScripting(Z) | set scripting
+void setScriptletClass(Qjava.lang.String;) | set scriptlet class
+void setScriptletHandling(I) | set scriptlet handling
+void setScriptType(I) | set script type
+void showScriptAutoUpdateDialog() | show script auto update dialog
+void showScriptManualUpdateDialog(QString;QString;I) | show script manual update dialog
+void storeScriptable(QContext;QScriptable;) | store scriptable
+void testMainScript(QConnection;Z) | test main script
+void testScriptLoading() | test script loading
+void testScript(QConnection;QString;) | test script
+void writeScript(Z) | write script

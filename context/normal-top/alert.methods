@@ -1,0 +1,20 @@
+boolean determineAlert() | determine alert
+Button createAlertButton(QComposite;QString;) | create alert button
+EventData resolveAlerts(EventData event, EventsFilter filter) | resolve alerts
+LinkedList parseAlerts(QString;) | parse alerts
+void addAlertListener(QLogAlertListener;) | add alert listener
+void addAlertListener(QLoggerAlertListener;) | add alert listener
+void Alert(QString;QString;) | alert
+void doAlertDialog(QString;QString;) | do alert dialog
+void logAlert(IQString;) | log alert
+void logAlert(IQString;[QString;) | log alert
+void logAlert(IQString;Z) | log alert
+void logAlert(QString;QThrowable;) | log alert
+void logAlert(QString;ZI) | log alert
+void logAlertRepeatable(IQString;) | log alert repeatable
+void logAlertRepeatable(QString;QThrowable;) | log alert repeatable
+void playSystemAlert() | play system alert
+void registerAlertHandler() | register alert handler
+void removeAlertListener(QLogAlertListener;) | remove alert listener
+void removeAlertListener(QLoggerAlertListener;) | remove alert listener
+void showAlert(QLogAlert;) | show alert

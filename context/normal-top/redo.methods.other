@@ -1,0 +1,13 @@
+Action getRealRedoAction() | get real redo action
+Action getRedoAction() | get redo action
+boolean hasRedoInformation() | has redo information
+RedoAction getRedoAction() | get redo action
+String getRedoMsg() | get redo msg
+String getRedoPresentationName() | get redo presentation name
+UndoOperation getRedoOperation() | get redo operation
+void addRedoAction(QString;QString;QString;IQKeyStroke;) | add redo action
+void setUndoRedoName(QString;QString;) | set undo redo name
+void textUndoAndRedoAfterMultipleLineCommentAndUncomment() | text undo and redo after multiple line comment and uncomment
+void textUndoAndRedoAfterMultipleLineIndent() | text undo and redo after multiple line indent
+void textUndoOrRedoSetsUnmodifiedState() | text undo or redo sets unmodified state
+void updateRedoState() | update redo state

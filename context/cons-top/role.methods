@@ -1,0 +1,12 @@
+CONS RoleImpl(IQString;QRoleSet;) | role impl
+CONS RoleManagerImpl() | role manager impl
+CONS RolePersistentID(QString;) | role persistent id
+CONS RoleSetImpl(QString;QRoleManagerImpl;) | role set impl
+CONS RoleSetPage([QRoleSet;QI18N;) | role set page
+CONS RolesSettingsPanel(QGanttProject;) | roles settings panel
+CONS RolesTableModel() | roles table model
+CONS RoleSyntax(QASN1Sequence;) | role syntax
+CONS RoleSyntax(QGeneralName;) | role syntax
+CONS RoleSyntax(QGeneralNames;QGeneralName;) | role syntax
+CONS RoleSyntax(QString;) | role syntax
+CONS RoleTagHandler(QRoleManager;) | role tag handler

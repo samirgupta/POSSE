@@ -1,0 +1,21 @@
+CONS BaseGeneralDataRegionAdapter(QCache;QSettings;) | base general data region adapter
+CONS BaseRegionAdapter(QCache;QSettings;) | base region adapter
+CONS BaseTransactionalDataRegionAdapter(QCache;QSettings;QCacheDataDescription;) | base transactional data region adapter
+CONS BrowserDocumentRegion(QOpenDefinitionsDocument;QPosition;QPosition;) | browser document region
+CONS CollectionRegionAdapter(QCache;QSettings;QCacheDataDescription;) | collection region adapter
+CONS DisplayTileRegionsAction(QFreeColClient;) | display tile regions action
+CONS DocumentRegion(QOpenDefinitionsDocument;II) | document region
+CONS DummyDocumentRegion(QFile;II) | dummy document region
+CONS EntityRegionAdapter(QCache;QSettings;QCacheDataDescription;) | entity region adapter
+CONS MovingDocumentRegion(QOpenDefinitionsDocument;IIII) | moving document region
+CONS NoCachingRegionFactory(QProperties;) | no caching region factory
+CONS QueryResultsRegionAdapter(QCache;QSettings;) | query results region adapter
+CONS RegionFactoryCacheProviderBridge(QProperties;) | region factory cache provider bridge
+CONS Region(QGame;) | region
+CONS Region(QGame;QString;) | region
+CONS Region(QGame;QXMLStreamReader;) | region
+CONS RegionsListPanel(QMainFrame;QString;) | regions list panel
+CONS RegionsTreePanel(QMainFrame;QString;QRegionManager<QR;>;) | regions tree panel
+CONS ServerRegion(QGame;QString;QRegionType;) | server region
+CONS ServerRegion(QGame;QString;QRegionType;QRegion;) | server region
+CONS TimestampsRegionAdapter(QCache;QSettings;) | timestamps region adapter

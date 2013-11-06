@@ -1,0 +1,9 @@
+boolean acceptDiplomaticTrade(QDiplomaticTrade;) | accept diplomatic trade
+boolean canTrade(QGoods;) | can trade
+boolean canTrade(QGoods;I) | can trade
+boolean canTrade(QGoodsType;) | can trade
+boolean canTrade(QGoodsType;I) | can trade
+Element diplomaticTrade(QConnection;QElement;) | diplomatic trade
+Element diplomaticTrade(QDummyConnection;QElement;) | diplomatic trade
+Element diplomaticTrade(QElement;) | diplomatic trade
+void makeTrade() | make trade

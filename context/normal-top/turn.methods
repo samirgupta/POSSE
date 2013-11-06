@@ -1,0 +1,124 @@
+boolean getChecksTurnedOff() | get checks turned off
+boolean hasMoreTurns() | has more turns
+boolean isLoadableThisTurn() | is loadable this turn
+boolean isMyTurn() | is my turn
+boolean isNewTurn() | is new turn
+boolean isNextPlayerInNewTurn() | is next player in new turn
+boolean isSelectableThisTurn() | is selectable this turn
+boolean isTurning() | is turning
+boolean isTurnSkippable() | is turn skippable
+boolean isUnloadedThisTurn() | is unloaded this turn
+boolean oppositeTurn(QMoveStep;) | opposite turn
+boolean phaseHasTurns(I) | phase has turns
+boolean setPocketToTurnAcross(int p, int timestamp, Object source) | set pocket to turn across
+boolean shouldCallNewTurn(QFreeColGameObject;) | should call new turn
+Element endTurn(QConnection;QElement;) | end turn
+Element newTurn(QElement;) | new turn
+Enumeration getTurnEnum() | get turn enum
+Enumeration getTurns() | get turns
+GameTurn changeToNextTurn() | change to next turn
+GameTurn getTurn() | get turn
+Image getPathNextTurnImage(QUnit;) | get path next turn image
+int getAdditionalProductionNextTurn(QUnit;) | get additional production next turn
+int getAddWorkTurns() | get add work turns
+int getArrowIVTurnsLeftToBurn() | get arrow iv turns left to burn
+int getBasicWorkTurns() | get basic work turns
+int getBellsProductionNextTurn() | get bells production next turn
+int getEducationTurns(QUnitType;) | get education turns
+int getEvenTurns() | get even turns
+int getGoodsInputNextTurn() | get goods input next turn
+int getIndependenceTurn() | get independence turn
+int getInfernoBurnTurns(QCoords;) | get inferno burn turns
+int getInfernoIVBurnTurns(QCoords;) | get inferno iv burn turns
+int getJammedTurns() | get jammed turns
+int getMASCTurns() | get masc turns
+int getMultiTurns(QIGame;) | get multi turns
+int getNeededTurnsOfTraining() | get needed turns of training
+int getNeededTurnsOfTraining(QUnitType;QUnitType;) | get needed turns of training
+int getNormalTurns() | get normal turns
+int getNormalTurns(QIGame;) | get normal turns
+int getOtherTurns() | get other turns
+int getProductionNextTurn() | get production next turn
+int getProductionNextTurn(QGoodsType;) | get production next turn
+int getStunnedTurns() | get stunned turns
+int getTotalTurns() | get total turns
+int getTransportDropTurns() | get transport drop turns
+int getTurn() | get turn
+int getTurnIndex() | get turn index
+int getTurns() | get turns
+int getTurnsForRepair() | get turns for repair
+int getTurnsLeftToBurn() | get turns left to burn
+int getTurnsOfTraining() | get turns of training
+int getTurnsToComplete() | get turns to complete
+int getTurnsToReach(QLocation;) | get turns to reach
+int getTurnsToReach(QTile;) | get turns to reach
+int getTurnsToReach(QTile;QTile;) | get turns to reach
+int lateralShiftForTurn(II) | lateral shift for turn
+int turnForLateralShift(I) | turn for lateral shift
+int turns(DDDDDD) | turns
+MovePath calculateMoveTurn() | calculate move turn
+Packet createTurnIndexPacket() | create turn index packet
+Packet createTurnVectorPacket() | create turn vector packet
+PhysicalOption calculatePhysicalTurn() | calculate physical turn
+PhysicalOption calculatePhysicalTurn(QTestBot;) | calculate physical turn
+String checksTurnedOffTipText() | checks turned off tip text
+Turn getFirstTurn() | get first turn
+Turn getLastTurn() | get last turn
+Turn getTurn() | get turn
+TurnVectors generateTurnOrder(QVector;QIGame;) | generate turn order
+Vector getTurnReport() | get turn report
+Vector getTurnVector() | get turn vector
+void beginMyTurn() | begin my turn
+void calculateFiringTurn() | calculate firing turn
+void calculateMyTurn() | calculate my turn
+void changeToNextTurn() | change to next turn
+void changeTurnIndex(I) | change turn index
+void CounterGrappleTurn(II) | counter grapple turn
+void determineTurnOrder(I) | determine turn order
+void determineTurnOrderIUI(I) | determine turn order iui
+void endCurrentTurn(QEntity;) | end current turn
+void endMyTurn() | end my turn
+void endTurn() | end turn
+void EndTurnPanel() | end turn panel
+void endTurn(QServerPlayer;) | end turn
+void EntityClassTurn(II) | entity class turn
+void gameTurnChange(QGameTurnChangeEvent;) | game turn change
+void incrementEvenTurns() | increment even turns
+void incrementMultiTurns() | increment multi turns
+void incrementOtherTurns() | increment other turns
+void insertNextTurn(QGameTurn;) | insert next turn
+void newTurn() | new turn
+void receiveTurns(QPacket;) | receive turns
+void removeTurnFor(QEntity;) | remove turn for
+void resetEvenTurns() | reset even turns
+void resetMultiTurns() | reset multi turns
+void resetOtherTurns() | reset other turns
+void resetTurnIndex() | reset turn index
+void sendTurnErrorSkipMessage(QPlayer;) | send turn error skip message
+void setChecksTurnedOff(Z) | set checks turned off
+void setFirstTurn(QTurn;) | set first turn
+void setIndependenceTurn(I) | set independence turn
+void setJammedTurns(I) | set jammed turns
+void setLastTurn(QTurn;) | set last turn
+void setMASCTurns(I) | set masc turns
+void setStunnedTurns(I) | set stunned turns
+void setTurn(I) | set turn
+void setTurnIndex(I) | set turn index
+void setTurning(Z) | set turning
+void setTurn(QTurn;) | set turn
+void setTurnsLeftToBurn(I) | set turns left to burn
+void setTurnsOfTraining(I) | set turns of training
+void setTurnsToComplete(I) | set turns to complete
+void setTurnVector(QVector;) | set turn vector
+void skipCurrentTurn() | skip current turn
+void SpecificEntityTurn(II) | specific entity turn
+void TriggerAPPodTurn(II) | trigger ap pod turn
+void turnChecksOff() | turn checks off
+void turnChecksOn() | turn checks on
+void turnOffLights(QNode;) | turn off lights
+void turnOffLogging() | turn off logging
+void turnOnConsoleLogging() | turn on console logging
+void turnOnFileLogging() | turn on file logging
+void UnitNumberTurn(IC) | unit number turn
+void UnloadStrandedTurn([I) | unload stranded turn
+void UnloadStrandedTurn(QEnumeration;) | unload stranded turn

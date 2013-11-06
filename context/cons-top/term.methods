@@ -1,0 +1,7 @@
+CONS non_terminal(QString;) | non terminal
+CONS non_terminal(QString;QString;) | non terminal
+CONS terminal(QString;) | terminal
+CONS terminal(QString;QString;) | terminal
+CONS terminal(QString;QString;II) | terminal
+CONS terminal_set() | terminal set
+CONS terminal_set(Qterminal_set;) | terminal set

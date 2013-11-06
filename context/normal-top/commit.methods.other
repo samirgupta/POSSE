@@ -1,0 +1,15 @@
+boolean hasPostCommitEventListeners() | has post commit event listeners
+PostDeleteEventListener[] getPostCommitDeleteEventListeners() | get post commit delete event listeners
+PostInsertEventListener[] getPostCommitInsertEventListeners() | get post commit insert event listeners
+PostUpdateEventListener[] getPostCommitUpdateEventListeners() | get post commit update event listeners
+String getAutoCommitStatement() | get auto commit statement
+String getCommitJSONMessage() | get commit json message
+void afterCommitRollback() | after commit rollback
+void postCommitDelete() | post commit delete
+void postCommitInsert() | post commit insert
+void postCommitUpdate() | post commit update
+void setPostCommitDeleteEventListeners([QPostDeleteEventListener;) | set post commit delete event listeners
+void setPostCommitInsertEventListeners([QPostInsertEventListener;) | set post commit insert event listeners
+void setPostCommitUpdateEventListeners([QPostUpdateEventListener;) | set post commit update event listeners
+void updateAutoCommitBox() | update auto commit box
+void writeCommitStatement(QSession;) | write commit statement

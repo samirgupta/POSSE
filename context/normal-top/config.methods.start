@@ -1,0 +1,9 @@
+Composite configSectionCreate(QComposite;) | config section create
+String configSectionGetName() | config section get name
+String configSectionGetParentSection() | config section get parent section
+void configAction(SchemaAction iAction, Annotation iAnnotation, XmlConfigActionType iXmlNode) | config action
+void configDirty() | config dirty
+void configDirty(QSubscriptionImpl;) | config dirty
+void configNewProject() | config new project
+void configSectionDelete() | config section delete
+void configSectionSave() | config section save

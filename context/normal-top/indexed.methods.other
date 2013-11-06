@@ -1,0 +1,12 @@
+IndexedFeature createIndexedFeature(String _name, VisibilityKind _visibility, Boolean _isAscending) | create indexed feature
+int[] getIndexedPath() | get indexed path
+Object getIndexedEntry(I) | get indexed entry
+void addIndexedQuadrilateralToPath(QIndexedGeometryArray;IIII[FQGeneralPath;IQArea;) | add indexed quadrilateral to path
+void addIndexedTriangleToPath(QIndexedGeometryArray;III[FQGeneralPath;IQArea;) | add indexed triangle to path
+void createDocIndexedSQL(String sectionName, String doc, int sort_type) | create doc indexed sql
+void exportIndexedTriangle(QIndexedGeometryArray;III[II) | export indexed triangle
+void fireIndexedPropertyChange(QString;III) | fire indexed property change
+void fireIndexedPropertyChange(QString;IQObject;QObject;) | fire indexed property change
+void fireIndexedPropertyChange(QString;IZZ) | fire indexed property change
+void writeIndexedQuadrilateral(QIndexedGeometryArray;IIII[I[I[I) | write indexed quadrilateral
+void writeIndexedTriangle(QIndexedGeometryArray;III[I[I[I) | write indexed triangle

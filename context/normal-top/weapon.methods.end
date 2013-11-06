@@ -1,0 +1,25 @@
+boolean isSecondaryArcWeapon(I) | is secondary arc weapon
+boolean loadWeapon(QMounted;QMounted;) | load weapon
+float getWeightWeapon() | get weight weapon
+int getFirstWeapon() | get first weapon
+int getNextWeapon(I) | get next weapon
+Mounted getMainWeapon() | get main weapon
+Mounted getSelectedArtilleryWeapon() | get selected artillery weapon
+Mounted getTorsoWeapon(Z) | get torso weapon
+StringBuffer printWeapon() | print weapon
+StringBuffer printWeapon(QStringBuffer;) | print weapon
+StringBuffer printWeapon(QStringBuffer;II) | print weapon
+void addWeapon() | add weapon
+void addWeapon(QChargeAttackAction;) | add weapon
+void addWeapon(QClubAttackAction;) | add weapon
+void addWeapon(QDfaAttackAction;) | add weapon
+void addWeapon(QKickAttackAction;) | add weapon
+void addWeapon(QMounted;) | add weapon
+void addWeapon(QProtomechPhysicalAttackAction;) | add weapon
+void addWeapon(QPunchAttackAction;) | add weapon
+void addWeapon(QPushAttackAction;) | add weapon
+void addWeapon(QSearchlightAttackAction;) | add weapon
+void addWeapon(QWeaponAttackAction;) | add weapon
+void loadWeapon(QMounted;) | load weapon
+void nextWeapon() | next weapon
+void selectWeapon(I) | select weapon

@@ -1,0 +1,288 @@
+../3-Phrases/Base_Verb:void setParentEntity(DbEntity parentEntity) | set parent entity
+../3-Phrases/Base_Verb:static String replaceEntity(String line, int from, int to) | string replace entity
+../3-Phrases/Base_Verb:Entity readEntity() | read entity
+../3-Phrases/Base_Verb:void setEntity(Entity e) | set entity
+../3-Phrases/Base_Verb:Entity getEntity() | get entity
+../3-Phrases/freemind:void FormularEntity(QString;QString;QString;QString;) | formular entity
+../3-Phrases/freemind:void FormularEntity(QXMLElement;) | formular entity
+../3-Phrases/freemind:void StringEntity(QXMLElement;) | string entity
+../3-Phrases/freemind:void CheckBoxEntity(QXMLElement;) | check box entity
+../3-Phrases/freemind:void ChoiceEntity(QXMLElement;) | choice entity
+../3-Phrases/freemind:void skippedEntity(QString;) | skipped entity
+../3-Phrases/freemind:void skippedEntity(QString;) | skipped entity
+../3-Phrases/freemind:boolean isUnparsedEntity(QString;) | is unparsed entity
+../3-Phrases/freemind:boolean isUnparsedEntity(QString;) | is unparsed entity
+../3-Phrases/freemind:void resolveEntity(QStringBuffer;) | resolve entity
+../3-Phrases/freemind:XMLParseException unknownEntity(QString;) | unknown entity
+../3-Phrases/hibernate-3.3.1.GA:Query setEntity(IQObject;) | set entity
+../3-Phrases/hibernate-3.3.1.GA:Query setEntity(QString;QObject;) | set entity
+../3-Phrases/hibernate-3.3.1.GA:Object getEntity(QString;QSerializable;) | get entity
+../3-Phrases/hibernate-3.3.1.GA:void evictEntity(QString;) | evict entity
+../3-Phrases/hibernate-3.3.1.GA:void evictEntity(QString;QSerializable;) | evict entity
+../3-Phrases/hibernate-3.3.1.GA:SQLQuery addEntity(QString;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:SQLQuery addEntity(QString;QString;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:SQLQuery addEntity(QString;QString;QLockMode;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:SQLQuery addEntity(QClass;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:SQLQuery addEntity(QString;QClass;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:SQLQuery addEntity(QString;QClass;QLockMode;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:Object getEntity(QString;QSerializable;) | get entity
+../3-Phrases/hibernate-3.3.1.GA:boolean affectedEntity(QSet;[QSerializable;) | affected entity
+../3-Phrases/hibernate-3.3.1.GA:void handleEntity(QString;QString;QMappings;) | handle entity
+../3-Phrases/hibernate-3.3.1.GA:void handleEntity(QString;QString;QMappings;) | handle entity
+../3-Phrases/hibernate-3.3.1.GA:void initializeEntity(QObject;ZQSessionImplementor;QPreLoadEvent;QPostLoadEvent;) | initialize entity
+../3-Phrases/hibernate-3.3.1.GA:void addUninitializedEntity(QEntityKey;QObject;QEntityPersister;QLockMode;ZQSessionImplementor;) | add uninitialized entity
+../3-Phrases/hibernate-3.3.1.GA:void addUninitializedCachedEntity(QEntityKey;QObject;QEntityPersister;QLockMode;ZQObject;QSessionImplementor;) | add uninitialized cached entity
+../3-Phrases/hibernate-3.3.1.GA:void addEntity(QEntityKey;QObject;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:Object getEntity(QEntityKey;) | get entity
+../3-Phrases/hibernate-3.3.1.GA:boolean containsEntity(QEntityKey;) | contains entity
+../3-Phrases/hibernate-3.3.1.GA:Object removeEntity(QEntityKey;) | remove entity
+../3-Phrases/hibernate-3.3.1.GA:Object getEntity(QEntityUniqueKey;) | get entity
+../3-Phrases/hibernate-3.3.1.GA:void addEntity(QEntityUniqueKey;QObject;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:EntityEntry addEntity(QObject;QStatus;[QObject;QEntityKey;QObject;QLockMode;ZQEntityPersister;ZZ) | add entity
+../3-Phrases/hibernate-3.3.1.GA:void addEntity(QEntityKey;QObject;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:Object getEntity(QEntityKey;) | get entity
+../3-Phrases/hibernate-3.3.1.GA:boolean containsEntity(QEntityKey;) | contains entity
+../3-Phrases/hibernate-3.3.1.GA:Object removeEntity(QEntityKey;) | remove entity
+../3-Phrases/hibernate-3.3.1.GA:Object getEntity(QEntityUniqueKey;) | get entity
+../3-Phrases/hibernate-3.3.1.GA:void addEntity(QEntityUniqueKey;QObject;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:EntityEntry addEntity(QObject;QStatus;[QObject;QEntityKey;QObject;QLockMode;ZQEntityPersister;ZZ) | add entity
+../3-Phrases/hibernate-3.3.1.GA:void onFlushEntity(QFlushEntityEvent;) | on flush entity
+../3-Phrases/hibernate-3.3.1.GA:Object getEntity() | get entity
+../3-Phrases/hibernate-3.3.1.GA:Object getEntity() | get entity
+../3-Phrases/hibernate-3.3.1.GA:void setEntity(QObject;) | set entity
+../3-Phrases/hibernate-3.3.1.GA:Object getEntity() | get entity
+../3-Phrases/hibernate-3.3.1.GA:Object getEntity() | get entity
+../3-Phrases/hibernate-3.3.1.GA:void setEntity(QObject;) | set entity
+../3-Phrases/hibernate-3.3.1.GA:Object getEntity() | get entity
+../3-Phrases/hibernate-3.3.1.GA:Object getEntity() | get entity
+../3-Phrases/hibernate-3.3.1.GA:PostLoadEvent setEntity(QObject;) | set entity
+../3-Phrases/hibernate-3.3.1.GA:Object getEntity() | get entity
+../3-Phrases/hibernate-3.3.1.GA:Object getEntity() | get entity
+../3-Phrases/hibernate-3.3.1.GA:PreLoadEvent setEntity(QObject;) | set entity
+../3-Phrases/hibernate-3.3.1.GA:Object getEntity() | get entity
+../3-Phrases/hibernate-3.3.1.GA:Object processEntity(QObject;QEntityType;) | process entity
+../3-Phrases/hibernate-3.3.1.GA:void deleteTransientEntity(QEventSource;QObject;ZQEntityPersister;QSet;) | delete transient entity
+../3-Phrases/hibernate-3.3.1.GA:void deleteEntity(QEventSource;QObject;QEntityEntry;ZQEntityPersister;QSet;) | delete entity
+../3-Phrases/hibernate-3.3.1.GA:void onFlushEntity(QFlushEntityEvent;) | on flush entity
+../3-Phrases/hibernate-3.3.1.GA:Object processEntity(QObject;QEntityType;) | process entity
+../3-Phrases/hibernate-3.3.1.GA:boolean isReturnableEntity(QSelectExpression;) | is returnable entity
+../3-Phrases/hibernate-3.3.1.GA:void dereferenceEntity(QEntityType;ZQString;ZQAST;) | dereference entity
+../3-Phrases/hibernate-3.3.1.GA:boolean isEntity() | is entity
+../3-Phrases/hibernate-3.3.1.GA:boolean isReturnableEntity() | is returnable entity
+../3-Phrases/hibernate-3.3.1.GA:boolean isReturnableEntity() | is returnable entity
+../3-Phrases/hibernate-3.3.1.GA:boolean isReturnableEntity() | is returnable entity
+../3-Phrases/hibernate-3.3.1.GA:boolean isReturnableEntity() | is returnable entity
+../3-Phrases/hibernate-3.3.1.GA:void initializeEntity(QFromClause;QString;QEntityPersister;QEntityType;QString;QString;) | initialize entity
+../3-Phrases/hibernate-3.3.1.GA:boolean isEntity() | is entity
+../3-Phrases/hibernate-3.3.1.GA:boolean isReturnableEntity() | is returnable entity
+../3-Phrases/hibernate-3.3.1.GA:void dereferenceEntity(QString;QEntityType;QQueryTranslatorImpl;) | dereference entity
+../3-Phrases/hibernate-3.3.1.GA:Object getEntity() | get entity
+../3-Phrases/hibernate-3.3.1.GA:void evictEntity(QString;QSerializable;) | evict entity
+../3-Phrases/hibernate-3.3.1.GA:void evictEntity(QString;) | evict entity
+../3-Phrases/hibernate-3.3.1.GA:SQLQuery addEntity(QClass;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:SQLQuery addEntity(QString;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:SQLQuery addEntity(QString;QString;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:SQLQuery addEntity(QString;QClass;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:SQLQuery addEntity(QString;QString;QLockMode;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:SQLQuery addEntity(QString;QClass;QLockMode;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:Query setEntity(IQObject;) | set entity
+../3-Phrases/hibernate-3.3.1.GA:Query setEntity(QString;QObject;) | set entity
+../3-Phrases/hibernate-3.3.1.GA:List loadEntity(QSessionImplementor;QObject;QType;QObject;QString;QSerializable;QEntityPersister;) | load entity
+../3-Phrases/hibernate-3.3.1.GA:List loadEntity(QSessionImplementor;QObject;QObject;QType;QType;QEntityPersister;) | load entity
+../3-Phrases/hibernate-3.3.1.GA:void createForeignKeyOfEntity(QString;) | create foreign key of entity
+../3-Phrases/hibernate-3.3.1.GA:void createForeignKeyOfEntity(QString;) | create foreign key of entity
+../3-Phrases/hibernate-3.3.1.GA:Object getEntity() | get entity
+../3-Phrases/hibernate-3.3.1.GA:boolean canExtractIdOutOfEntity() | can extract id out of entity
+../3-Phrases/hibernate-3.3.1.GA:boolean canExtractIdOutOfEntity() | can extract id out of entity
+../3-Phrases/hibernate-3.3.1.GA:Element addEntity(QString;QString;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:void loadEntity(QString;) | load entity
+../3-Phrases/hibernate-3.3.1.GA:void fetchEntity(QString;) | fetch entity
+../3-Phrases/hibernate-3.3.1.GA:void updateEntity(QString;) | update entity
+../3-Phrases/hibernate-3.3.1.GA:void insertEntity(QString;) | insert entity
+../3-Phrases/hibernate-3.3.1.GA:void deleteEntity(QString;) | delete entity
+../3-Phrases/hibernate-3.3.1.GA:void loadEntity(QString;) | load entity
+../3-Phrases/hibernate-3.3.1.GA:void fetchEntity(QString;) | fetch entity
+../3-Phrases/hibernate-3.3.1.GA:void updateEntity(QString;) | update entity
+../3-Phrases/hibernate-3.3.1.GA:void insertEntity(QString;) | insert entity
+../3-Phrases/hibernate-3.3.1.GA:void deleteEntity(QString;) | delete entity
+../3-Phrases/hibernate-3.3.1.GA:Element addEntity(QString;QString;) | add entity
+../3-Phrases/hibernate-3.3.1.GA:InputSource resolveEntity(QString;QString;) | resolve entity
+../3-Phrases/iReport:org.xml.sax.InputSource resolveEntity(QString;QString;) | resolve entity
+../3-Phrases/iReport:org.xml.sax.InputSource resolveEntity(QString;QString;) | resolve entity
+../3-Phrases/iReport:org.xml.sax.InputSource resolveEntity(QString;QString;) | resolve entity
+../3-Phrases/iReport:org.xml.sax.InputSource resolveEntity(QString;QString;) | resolve entity
+../3-Phrases/iReport:org.xml.sax.InputSource resolveEntity(QString;QString;) | resolve entity
+../3-Phrases/JHotDraw-7.0.8:void addInternalEntity(QString;QString;) | add internal entity
+../3-Phrases/JHotDraw-7.0.8:void addExternalEntity(QString;QString;QString;) | add external entity
+../3-Phrases/JHotDraw-7.0.8:Reader getEntity(QIXMLReader;QString;) | get entity
+../3-Phrases/JHotDraw-7.0.8:boolean isExternalEntity(QString;) | is external entity
+../3-Phrases/JHotDraw-7.0.8:Reader openExternalEntity(QIXMLReader;QString;QString;) | open external entity
+../3-Phrases/JHotDraw-7.0.8:void processEntity(QIXMLReader;QIXMLEntityResolver;) | process entity
+../3-Phrases/JHotDraw-7.0.8:void processEntity(QString;QIXMLReader;QIXMLEntityResolver;) | process entity
+../3-Phrases/JHotDraw-7.0.8:void errorInvalidEntity(QString;IQString;) | error invalid entity
+../3-Phrases/JHotDraw-7.0.8:void errorUnexpectedEntity(QString;IQString;) | error unexpected entity
+../3-Phrases/JHotDraw-7.0.8:void addInternalEntity(QString;QString;) | add internal entity
+../3-Phrases/JHotDraw-7.0.8:void addExternalEntity(QString;QString;QString;) | add external entity
+../3-Phrases/JHotDraw-7.0.8:Reader getEntity(QIXMLReader;QString;) | get entity
+../3-Phrases/JHotDraw-7.0.8:boolean isExternalEntity(QString;) | is external entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity(I) | get entity
+../3-Phrases/MegaMek-0.32.0:void moveEntity(IQMovePath;) | move entity
+../3-Phrases/MegaMek-0.32.0:void sendAddEntity(QEntity;) | send add entity
+../3-Phrases/MegaMek-0.32.0:void sendUpdateEntity(QEntity;) | send update entity
+../3-Phrases/MegaMek-0.32.0:void sendDeleteEntity(I) | send delete entity
+../3-Phrases/MegaMek-0.32.0:CONS CEntity(QEntity;QTestBot;) | c entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:CEntity getCEntity() | get c entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:BattleArmor getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:void selectEntity(I) | select entity
+../3-Phrases/MegaMek-0.32.0:void displayEntity(QEntity;) | display entity
+../3-Phrases/MegaMek-0.32.0:Entity getCurrentEntity() | get current entity
+../3-Phrases/MegaMek-0.32.0:void selectEntity(I) | select entity
+../3-Phrases/MegaMek-0.32.0:void redrawMovingEntity(QEntity;QCoords;I) | redraw moving entity
+../3-Phrases/MegaMek-0.32.0:void redrawEntity(QEntity;) | redraw entity
+../3-Phrases/MegaMek-0.32.0:void selectEntity(I) | select entity
+../3-Phrases/MegaMek-0.32.0:void boardChangedEntity(QBoardViewEvent;) | board changed entity
+../3-Phrases/MegaMek-0.32.0:void selectEntity(I) | select entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void selectEntity(I) | select entity
+../3-Phrases/MegaMek-0.32.0:Entity getNextEntity(Z) | get next entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void selectEntity(I) | select entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void redrawMovingEntity(QEntity;QCoords;I) | redraw moving entity
+../3-Phrases/MegaMek-0.32.0:void redrawEntity(QEntity;) | redraw entity
+../3-Phrases/MegaMek-0.32.0:void selectEntity(I) | select entity
+../3-Phrases/MegaMek-0.32.0:void selectEntity(I) | select entity
+../3-Phrases/MegaMek-0.32.0:void displayEntity(QEntity;) | display entity
+../3-Phrases/MegaMek-0.32.0:Entity getCurrentEntity() | get current entity
+../3-Phrases/MegaMek-0.32.0:void selectEntity(I) | select entity
+../3-Phrases/MegaMek-0.32.0:Entity getNextEntity(Z) | get next entity
+../3-Phrases/MegaMek-0.32.0:BattleArmor getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:void selectEntity(I) | select entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(QEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:boolean isValidEntity(QEntity;QIGame;) | is valid entity
+../3-Phrases/MegaMek-0.32.0:boolean isValidEntity(QEntity;QIGame;) | is valid entity
+../3-Phrases/MegaMek-0.32.0:boolean isValidEntity(QEntity;QIGame;) | is valid entity
+../3-Phrases/MegaMek-0.32.0:boolean isValidEntity(QEntity;QIGame;) | is valid entity
+../3-Phrases/MegaMek-0.32.0:boolean isValidEntity(QEntity;QIGame;) | is valid entity
+../3-Phrases/MegaMek-0.32.0:boolean isValidEntity(QEntity;QIGame;) | is valid entity
+../3-Phrases/MegaMek-0.32.0:boolean isValidEntity(QEntity;QIGame;) | is valid entity
+../3-Phrases/MegaMek-0.32.0:Entity getOutOfGameEntity(I) | get out of game entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity(I) | get entity
+../3-Phrases/MegaMek-0.32.0:void addEntity(IQEntity;) | add entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(IQEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(IQEntity;QVector;) | set entity
+../3-Phrases/MegaMek-0.32.0:boolean hasEntity(I) | has entity
+../3-Phrases/MegaMek-0.32.0:void removeEntity(II) | remove entity
+../3-Phrases/MegaMek-0.32.0:Entity getFirstEntity(QCoords;) | get first entity
+../3-Phrases/MegaMek-0.32.0:Entity getFirstEnemyEntity(QCoords;QEntity;) | get first enemy entity
+../3-Phrases/MegaMek-0.32.0:Entity getFirstEntity() | get first entity
+../3-Phrases/MegaMek-0.32.0:Entity getFirstEntity(QGameTurn;) | get first entity
+../3-Phrases/MegaMek-0.32.0:Entity getNextEntity(I) | get next entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:void setFromEntity(QEntity;QIGame;) | set from entity
+../3-Phrases/MegaMek-0.32.0:Entity getOutOfGameEntity(I) | get out of game entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity(I) | get entity
+../3-Phrases/MegaMek-0.32.0:void addEntity(IQEntity;) | add entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(IQEntity;) | set entity
+../3-Phrases/MegaMek-0.32.0:void setEntity(IQEntity;QVector;) | set entity
+../3-Phrases/MegaMek-0.32.0:boolean hasEntity(I) | has entity
+../3-Phrases/MegaMek-0.32.0:void removeEntity(II) | remove entity
+../3-Phrases/MegaMek-0.32.0:Entity getFirstEntity(QCoords;) | get first entity
+../3-Phrases/MegaMek-0.32.0:Entity getFirstEnemyEntity(QCoords;QEntity;) | get first enemy entity
+../3-Phrases/MegaMek-0.32.0:Entity getFirstEntity() | get first entity
+../3-Phrases/MegaMek-0.32.0:Entity getFirstEntity(QGameTurn;) | get first entity
+../3-Phrases/MegaMek-0.32.0:Entity getNextEntity(I) | get next entity
+../3-Phrases/MegaMek-0.32.0:InputStream resolveExternalEntity(QString;QString;QString;) | resolve external entity
+../3-Phrases/MegaMek-0.32.0:InputStream resolveDTDEntity(QString;QString;QString;) | resolve dtd entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity(QIGame;) | get entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:boolean showOverweightedEntity() | show over weighted entity
+../3-Phrases/MegaMek-0.32.0:boolean showUnderweightedEntity() | show underweighted entity
+../3-Phrases/MegaMek-0.32.0:boolean showOverweightedEntity() | show over weighted entity
+../3-Phrases/MegaMek-0.32.0:boolean showUnderweightedEntity() | show underweighted entity
+../3-Phrases/MegaMek-0.32.0:boolean checkEntity(QEntity;QString;Z) | check entity
+../3-Phrases/MegaMek-0.32.0:boolean checkEntity(QEntity;QString;ZZ) | check entity
+../3-Phrases/MegaMek-0.32.0:Entity loadEntity(QFile;QString;) | load entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:boolean correctEntity(QStringBuffer;) | correct entity
+../3-Phrases/MegaMek-0.32.0:boolean correctEntity(QStringBuffer;Z) | correct entity
+../3-Phrases/MegaMek-0.32.0:StringBuffer printEntity() | print entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:boolean correctEntity(QStringBuffer;) | correct entity
+../3-Phrases/MegaMek-0.32.0:boolean correctEntity(QStringBuffer;Z) | correct entity
+../3-Phrases/MegaMek-0.32.0:StringBuffer printEntity() | print entity
+../3-Phrases/MegaMek-0.32.0:Entity getEntity() | get entity
+../3-Phrases/MegaMek-0.32.0:boolean correctEntity(QStringBuffer;) | correct entity
+../3-Phrases/MegaMek-0.32.0:boolean correctEntity(QStringBuffer;Z) | correct entity
+../3-Phrases/MegaMek-0.32.0:StringBuffer printEntity() | print entity
+../3-Phrases/MegaMek-0.32.0:CONS TestEntity(QTestEntityOption;QEngine;QArmor;QStructure;) | test entity
+../3-Phrases/MegaMek-0.32.0:boolean showOverweightedEntity() | show over weighted entity
+../3-Phrases/MegaMek-0.32.0:boolean showUnderweightedEntity() | show underweighted entity
+../3-Phrases/MegaMek-0.32.0:Vector damageEntity(QEntity;QHitData;IZ) | damage entity
+../3-Phrases/MegaMek-0.32.0:Vector damageEntity(QEntity;QHitData;I) | damage entity
+../3-Phrases/MegaMek-0.32.0:Vector damageEntity(QEntity;QHitData;IZI) | damage entity
+../3-Phrases/MegaMek-0.32.0:Vector damageEntity(QEntity;QHitData;IZIZ) | damage entity
+../3-Phrases/MegaMek-0.32.0:Vector damageEntity(QEntity;QHitData;IZIZZ) | damage entity
+../3-Phrases/MegaMek-0.32.0:Vector damageEntity(QEntity;QHitData;IZIZZZ) | damage entity
+../3-Phrases/MegaMek-0.32.0:Vector criticalEntity(QEntity;I) | critical entity
+../3-Phrases/MegaMek-0.32.0:Vector criticalEntity(QEntity;II) | critical entity
+../3-Phrases/MegaMek-0.32.0:Vector oneCriticalEntity(QEntity;I) | one critical entity
+../3-Phrases/MegaMek-0.32.0:Vector criticalEntity(QEntity;IIZ) | critical entity
+../3-Phrases/MegaMek-0.32.0:Vector destroyEntity(QEntity;QString;) | destroy entity
+../3-Phrases/MegaMek-0.32.0:Vector destroyEntity(QEntity;QString;Z) | destroy entity
+../3-Phrases/MegaMek-0.32.0:Vector destroyEntity(QEntity;QString;ZZ) | destroy entity
+../3-Phrases/MegaMek-0.32.0:Vector ejectEntity(QEntity;Z) | eject entity
+../3-Phrases/MegaMek-0.32.0:Vector abandonEntity(QEntity;) | abandon entity
+../3-Phrases/MegaMek-0.32.0:InputStream resolveExternalEntity(QString;QString;QString;) | resolve external entity
+../3-Phrases/MegaMek-0.32.0:InputStream resolveDTDEntity(QString;QString;QString;) | resolve dtd entity
+../3-Phrases/rhino:boolean readEntity() | read entity
+../3-Phrases/vuze:void addWriteEntity(QRateControlledEntity;) | add write entity
+../3-Phrases/vuze:void removeWriteEntity(QRateControlledEntity;) | remove write entity
+../3-Phrases/vuze:void addReadEntity(QRateControlledEntity;) | add read entity
+../3-Phrases/vuze:void removeReadEntity(QRateControlledEntity;) | remove read entity
+../3-Phrases/vuze:RateControlledEntity getNextReadyNormalPriorityEntity() | get next ready normal priority entity
+../3-Phrases/vuze:RateControlledEntity getNextReadyHighPriorityEntity() | get next ready high priority entity
+../3-Phrases/vuze:void addReadEntity(QRateControlledEntity;) | add read entity
+../3-Phrases/vuze:void removeReadEntity(QRateControlledEntity;) | remove read entity
+../3-Phrases/vuze:RateControlledEntity getNextReadyNormalPriorityEntity() | get next ready normal priority entity
+../3-Phrases/vuze:RateControlledEntity getNextReadyHighPriorityEntity() | get next ready high priority entity
+../3-Phrases/vuze:void addWriteEntity(QRateControlledEntity;) | add write entity
+../3-Phrases/vuze:void removeWriteEntity(QRateControlledEntity;) | remove write entity
+../3-Phrases/vuze:void addEntity(QString;I) | add entity

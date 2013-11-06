@@ -1,0 +1,64 @@
+CONS AbstractEntityAction(I) | abstract entity action
+CONS AbstractEntityJoinWalker(QOuterJoinLoadable;QSessionFactoryImplementor;QMap;) | abstract entity join walker
+CONS AbstractEntityJoinWalker(QOuterJoinLoadable;QSessionFactoryImplementor;QMap;QString;) | abstract entity join walker
+CONS AbstractEntityLoader(QOuterJoinLoadable;QType;QSessionFactoryImplementor;QMap;) | abstract entity loader
+CONS AbstractEntityPersister(QPersistentClass;QEntityRegionAccessStrategy;QSessionFactoryImplementor;) | abstract entity persister
+CONS AbstractEntityTuplizer(QEntityMetamodel;QPersistentClass;) | abstract entity tuplizer
+CONS AliasToEntityMapResultTransformer() | alias to entity map result transformer
+CONS BasicEntityPropertyMapping(QAbstractEntityPersister;) | basic entity property mapping
+CONS BatchingEntityLoader(QEntityPersister;[I[QLoader;) | batching entity loader
+CONS CascadeEntityJoinWalker(QOuterJoinLoadable;QCascadingAction;QSessionFactoryImplementor;) | cascade entity join walker
+CONS CascadeEntityLoader(QOuterJoinLoadable;QCascadingAction;QSessionFactoryImplementor;) | cascade entity loader
+CONS CEntity(QEntity;QTestBot;) | c entity
+CONS ColumnEntityAliases(QMap;QLoadable;QString;) | column entity aliases
+CONS ComponentEntityModeToTuplizerMapping(QComponent;) | component entity mode to tuplizer mapping
+CONS DefaultEntityAliases(QLoadable;QString;) | default entity aliases
+CONS DefaultEntityAliases(QMap;QLoadable;QString;) | default entity aliases
+CONS DistinctRootEntityResultTransformer() | distinct root entity result transformer
+CONS Dom4jEntityTuplizer(QEntityMetamodel;QPersistentClass;) | dom 4 j entity tuplizer
+CONS DynamicMapEntityTuplizer(QEntityMetamodel;QPersistentClass;) | dynamic map entity tuplizer
+CONS Entity() | entity
+CONS EntityAccessStrategyAdapter(QEntityRegion;QCacheConcurrencyStrategy;QSettings;) | entity access strategy adapter
+CONS EntityAction(QSessionImplementor;QSerializable;QObject;QEntityPersister;) | entity action
+CONS EntityDeleteAction(QSerializable;[QObject;QObject;QObject;QEntityPersister;ZQSessionImplementor;) | entity delete action
+CONS EntityEntityModeToTuplizerMapping(QPersistentClass;QEntityMetamodel;) | entity entity mode to tuplizer mapping
+CONS EntityEntry(QSessionFactoryImplementor;QString;QSerializable;QEntityMode;QStatus;[QObject;[QObject;QObject;QLockMode;ZZZ) | entity entry
+CONS EntityEntry(QStatus;[QObject;QObject;QSerializable;QObject;QLockMode;ZQEntityPersister;QEntityMode;ZZ) | entity entry
+CONS EntityFetchReturn(QString;QEntityAliases;QNonScalarReturn;QString;QLockMode;) | entity fetch return
+CONS EntityHandler(IQRateHandler;) | entity handler
+CONS EntityIdentityInsertAction([QObject;QObject;QEntityPersister;QSessionImplementor;Z) | entity identity insert action
+CONS EntityInsertAction(QSerializable;[QObject;QObject;QObject;QEntityPersister;QSessionImplementor;) | entity insert action
+CONS EntityJoinWalker(QOuterJoinLoadable;[QString;IQLockMode;QSessionFactoryImplementor;QMap;) | entity join walker
+CONS EntityKey(QSerializable;QEntityPersister;QEntityMode;) | entity key
+CONS EntityKey(QSerializable;QString;QString;QType;ZQSessionFactoryImplementor;QEntityMode;) | entity key
+CONS EntityLoadContext(QLoadContexts;QResultSet;) | entity load context
+CONS EntityLoader(QOuterJoinLoadable;IQLockMode;QSessionFactoryImplementor;QMap;) | entity loader
+CONS EntityLoader(QOuterJoinLoadable;QLockMode;QSessionFactoryImplementor;QMap;) | entity loader
+CONS EntityLoader(QOuterJoinLoadable;[QString;QType;IQLockMode;QSessionFactoryImplementor;QMap;) | entity loader
+CONS EntityLoadingException() | entity loading exception
+CONS EntityLoadingException(QString;) | entity loading exception
+CONS EntityMetamodel(QPersistentClass;QSessionFactoryImplementor;) | entity metamodel
+CONS EntityMode(QString;) | entity mode
+CONS EntityModeToTuplizerMapping() | entity mode to tuplizer mapping
+CONS EntityModeToTuplizerMapping(QMap;) | entity mode to tuplizer mapping
+CONS EntityRegionAdapter(QCache;QSettings;QCacheDataDescription;) | entity region adapter
+CONS EntityStatistics(QString;) | entity statistics
+CONS EntityType(QString;QString;ZZZ) | entity type
+CONS EntityUniqueKey(QString;QString;QObject;QType;QEntityMode;QSessionFactoryImplementor;) | entity unique key
+CONS EntityUpdateAction(QSerializable;[QObject;[IZ[QObject;QObject;QObject;QObject;QObject;QEntityPersister;QSessionImplementor;) | entity update action
+CONS EntityVerifier(QFile;) | entity verifier
+CONS FlushEntityEvent(QEventSource;QObject;QEntityEntry;) | flush entity event
+CONS GameEntityChangeEvent(QObject;QEntity;) | game entity change event
+CONS GameEntityChangeEvent(QObject;QEntity;QVector;) | game entity change event
+CONS GameEntityEvent(QObject;QEntity;I) | game entity event
+CONS GameEntityNewEvent(QObject;QEntity;) | game entity new event
+CONS GameEntityNewEvent(QObject;QVector;) | game entity new event
+CONS GameEntityNewOffboardEvent(QObject;) | game entity new offboard event
+CONS GameEntityRemoveEvent(QObject;QEntity;) | game entity remove event
+CONS JoinedSubclassEntityPersister(QPersistentClass;QEntityRegionAccessStrategy;QSessionFactoryImplementor;QMapping;) | joined subclass entity persister
+CONS PojoEntityTuplizer(QEntityMetamodel;QPersistentClass;) | pojo entity tuplizer
+CONS RootEntityResultTransformer() | root entity result transformer
+CONS SingleTableEntityPersister(QPersistentClass;QEntityRegionAccessStrategy;QSessionFactoryImplementor;QMapping;) | single table entity persister
+CONS TestEntity(QTestEntityOption;QEngine;QArmor;QStructure;) | test entity
+CONS UnionSubclassEntityPersister(QPersistentClass;QEntityRegionAccessStrategy;QSessionFactoryImplementor;QMapping;) | union subclass entity persister
+CONS XMLEntityResolver() | xml entity resolver

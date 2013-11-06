@@ -1,0 +1,8 @@
+CONS ExternalLoginCookieListener(QCookiesListener;QBrowser;) | external login cookie listener
+CONS ExternalLoginWindow(QExternalLoginListener;QString;QString;ZQString;Z) | external login window
+CONS LoginInfoManager() | login info manager
+CONS ProxyLoginHandler(QTCPTransportImpl;QInetSocketAddress;QProxyListener;) | proxy login handler
+CONS ProxyLoginHandler(QTCPTransportImpl;QInetSocketAddress;QProxyListener;QString;QString;QString;) | proxy login handler
+CONS SearchLoginException(QString;) | search login exception
+CONS SearchLoginException(QString;QThrowable;) | search login exception
+CONS SearchLoginException(QThrowable;) | search login exception

@@ -1,0 +1,31 @@
+boolean addToPingMapData(IQTransferMode;) | add to ping map data
+boolean calculateMediaDHTPingTime() | calculate media dht ping time
+boolean calculatePingMetric() | calculate ping metric
+boolean forcePingSourceChange([QSpeedManagerPingSource;) | force ping source change
+boolean getPingOutstanding() | get ping outstanding
+int getCurrentPingMillis() | get current ping millis
+int getIdlePingMillis() | get idle ping millis
+int getMaxPingMillis() | get max ping millis
+int getPingPeriod() | get ping period
+int getPingTime() | get ping time
+region addPingSupport(IIII) | add ping support
+SpeedManagerPingMapper createTransientPingMapper() | create transient ping mapper
+SpeedManagerPingMapper getPingMapper() | get ping mapper
+SpeedManagerPingSource[] getPingSources() | get ping sources
+String getPingPage(QString;) | get ping page
+String getPingTarget() | get ping target
+void addPingHistory(IZ) | add ping history
+void addPingTime(I) | add ping time
+void addPingTime(QSpeedManagerPingSource;) | add ping time
+void addToPingMapData(I) | add to ping map data
+void betaLogPingMapperEstimates(QString;QSpeedManagerLimitEstimate;ZQSpeedManagerLimitEstimate;QPingSpaceMapper;QPingSpaceMapper;) | beta log ping mapper estimates
+void checkPingSources([QSpeedManagerPingSource;) | check ping sources
+void initPingSpaceMap() | init ping space map
+void initPingSpaceMap(II) | init ping space map
+void logPingMapData() | log ping map data
+void refreshPingPanel() | refresh ping panel
+void resetPingSpace() | reset ping space
+void sendPingSupport(QDHTTransportContact;QDHTTransportReplyHandler;) | send ping support
+void setPingOutstanding(Z) | set ping outstanding
+void setPingPeriod(I) | set ping period
+void setPingTime(I) | set ping time

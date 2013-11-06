@@ -1,0 +1,16 @@
+BayesNetEstimator getEstimator() | get estimator
+boolean getUseKernelEstimator() | get use kernel estimator
+boolean[] incrementalEstimator() | incremental estimator
+boolean[] supervisedEstimator() | supervised estimator
+Estimator getEstimator() | get estimator
+Estimator getEstimator(D) | get estimator
+SelectedTag getEstimator() | get estimator
+String estimatorTipText() | estimator tip text
+String useKernelEstimatorTipText() | use kernel estimator tip text
+void buildEstimator(QEstimator;QInstances;IIIZ) | build estimator
+void buildEstimator(QEstimator;[QString;Z) | build estimator
+void new_estimators() | new estimators
+void setEstimator(QBayesNetEstimator;) | set estimator
+void setEstimator(QEstimator;) | set estimator
+void setEstimator(QSelectedTag;) | set estimator
+void setUseKernelEstimator(Z) | set use kernel estimator

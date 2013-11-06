@@ -1,0 +1,101 @@
+boolean addTorrentToGM(QTOTorrent;) | add torrent to gm
+boolean hasTorrentChange() | has torrent change
+boolean isDifferentTorrentLocation(QFile;) | is different torrent location
+boolean isTorrentDownloading(QHashWrapper;) | is torrent downloading
+boolean isTorrentFile(QString;) | is torrent file
+boolean isTorrentResumeDataComplete(QDownloadManagerState;) | is torrent resume data complete
+boolean isTorrentResumeDataComplete(QDownloadManagerState;QMap;) | is torrent resume data complete
+boolean isTorrentRunning(QHashWrapper;) | is torrent running
+boolean loadTorrentByB64(QAzureusCore;QBrowserMessage;QString;) | load torrent by b 64
+boolean loadTorrentByB64(QAzureusCore;QString;) | load torrent by b 64
+byte[] getTorrentHash() | get torrent hash
+File copyTorrentFileToSaveDir(QFile;Z) | copy torrent file to save dir
+File getTorrentFile() | get torrent file
+File getTorrentFile(QShareItemImpl;) | get torrent file
+File normaliseTorrentLocation(QFile;) | normalise torrent location
+File normaliseTorrentLocation(QFile;QString;) | normalise torrent location
+int getTorrentCount() | get torrent count
+List getTorrentAttributeListeners() | get torrent attribute listeners
+LocaleUtilDecoderCandidate[] getTorrentCandidates(QTOTorrent;) | get torrent candidates
+LocaleUtilDecoder getTorrentEncodingIfAvailable(QTOTorrent;) | get torrent encoding if available
+LocaleUtilDecoder getTorrentEncoding(QTOTorrent;) | get torrent encoding
+long getTorrentCreationDate() | get torrent creation date
+long getTorrentDataSizeFromFileOrDir(QFile;) | get torrent data size from file or dir
+long getTorrentDataSizeFromFileOrDirSupport(QFile;) | get torrent data size from file or dir support
+Map constructJSTorrentProgress([BQString;IJ) | construct js torrent progress
+MenuItem addOpenTorrentForTrackingMenuItem(QMenu;) | add open torrent for tracking menu item
+MenuItem addOpenTorrentMenuItem(QMenu;) | add open torrent menu item
+MenuItem createTorrentMenuItem(QMenu;) | create torrent menu item
+MyTorrentsView createTorrentView(QAzureusCore;QString;Z[QTableColumnCore;) | create torrent view
+MyTorrentsView getTorrentview() | get torrent view
+ResourceDownloader getTorrentDownloader(QResourceDownloader;Z) | get torrent downloader
+ResourceDownloader getTorrentDownloader(QResourceDownloader;ZQFile;) | get torrent downloader
+String getBannedTorrentName() | get banned torrent name
+String getBlockedTorrentName() | get blocked torrent name
+String getCurrentTorrentEncoding(QTOTorrent;) | get current torrent encoding
+String getNewTorrentLocation() | get new torrent location
+String getTorrentComment() | get torrent comment
+String getTorrentCreatedBy() | get torrent created by
+String getTorrentFile() | get torrent file
+String getTorrentFileName() | get torrent file name
+String getTorrentFileName(QTOTorrent;) | get torrent file name
+String getTorrentLocation() | get torrent location
+String getTorrentName() | get torrent name
+String getTorrentSummary(QDownloadManager;) | get torrent summary
+String[] getValidTorrentNames() | get valid torrent names
+String nicePrintTorrentHash(QTOTorrent;) | nice print torrent hash
+String nicePrintTorrentHash(QTOTorrent;Z) | nice print torrent hash
+TorrentManager getTorrentManager() | get torrent manager
+TOTorrentFile getCacheFileTorrentFile() | get cache file torrent file
+TOTorrentFile getTorrentFile() | get torrent file
+TRHostTorrent lookupHostTorrentViaHash([B) | lookup host torrent via hash
+void addTorrentAnnounceURLSet([QURL;) | add torrent announce url set
+void addTorrentAttributeListener(QtorrentAttributeListener;) | add torrent attribute listener
+void addTorrentAttributeListener(QTorrentAttributeListener;) | add torrent attribute listener
+void addTorrentMenu() | add torrent menu
+void addTorrentMenu(QShell;) | add torrent menu
+void BitTorrentResult(QMap;QMap;) | bit torrent result
+void BitTorrentResult(QString;) | bit torrent result
+void createTorrentDropTarget(QComposite;Z) | create torrent drop target
+void createTorrentFile(QString;) | create torrent file
+void createTorrentListArea(QComposite;) | create torrent list area
+void deleteTorrentFile() | delete torrent file
+void fillTorrentMenu(QMenu;[QDownloadManager;QAzureusCore;QComposite;ZIQTableView;) | fill torrent menu
+void handleTorrentURL(QString;) | handle torrent url
+void hostTorrentStateChange(QTRHostTorrent;) | host torrent state change
+void mergeTorrentDetails(QTOTorrent;) | merge torrent details
+void moveTorrentFile0(QFile;QString;) | move torrent file 0
+void moveTorrentFile(QFile;) | move torrent file
+void moveTorrentFile(QFile;QString;) | move torrent file
+void moveTorrentFile(QSaveLocationChange;) | move torrent file
+void openTorrentFile(QString;) | open torrent file
+void openTorrentSimple() | open torrent simple
+void openTorrentTrackingOnly() | open torrent tracking only
+void openTorrentURL(QString;) | open torrent url
+void openTorrentWindow() | open torrent window
+void _openTorrentWindow(QString;[QString;Z) | open torrent window
+void openTorrentWindow(QString;[QString;Z) | open torrent window
+void printTorrentDetails(QPrintStream;QDownloadManager;IZ) | print torrent details
+void refreshTorrentMenu() | refresh torrent menu
+void registerTorrentFile() | register torrent file
+void removeTorrentAttributeListener(QtorrentAttributeListener;) | remove torrent attribute listener
+void removeTorrentAttributeListener(QTorrentAttributeListener;) | remove torrent attribute listener
+void renameTorrentSafe(QString;) | rename torrent safe
+void setDefaultTorrentEncoding(QTOTorrent;) | set default torrent encoding
+void setTLSTorrentHash(QHashWrapper;) | set tls torrent hash
+void setTorrentCreator(QTOTorrentCreator;) | set torrent creator
+void setTorrentEncoding(QTOTorrent;QString;) | set torrent encoding
+void setTorrentFileName(QString;) | set torrent file name
+void setTorrentFile(QFile;QString;) | set torrent file
+void setTorrentFile(QString;) | set torrent file
+void setTorrentInvalid(QString;) | set torrent invalid
+void setTorrentLink(QString;) | set torrent link
+void setTorrentName(QString;) | set torrent name
+void setTorrentResumeDataComplete(QDownloadManagerState;) | set torrent resume data complete
+void setTorrentResumeDataNearlyComplete(QDownloadManagerState;) | set torrent resume data nearly complete
+void setTorrentSaveDir(QString;) | set torrent save dir
+void setTorrentSaveDir(QString;QString;) | set torrent save dir
+void setTorrentURLHandler(QtorrentURLHandler;) | set torrent url handler
+void tryToSetDefaultTorrentEncoding(QTOTorrent;) | try to set default torrent encoding
+void tryToSetTorrentEncoding(QTOTorrent;QString;) | try to set torrent encoding
+void writeTorrentIfExists(QTOTorrent;) | write torrent if exists

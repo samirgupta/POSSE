@@ -1,0 +1,68 @@
+boolean canToggleSuperSeedMode() | can toggle super seed mode
+boolean getActivelySeeding() | get actively seeding
+boolean isPotentiallySeedingOnly() | is potentially seeding only
+boolean isSeeding() | is seeding
+boolean isSeedingOnly() | is seeding only
+boolean isSeedingOnlyUploadRate() | is seeding only upload rate
+boolean isStateSeeding() | is state seeding
+boolean isSuperSeeding() | is super seeding
+boolean isSuperSeedMode() | is super seed mode
+boolean seedPieceRecheck() | seed piece recheck
+boolean seedPieceRecheck(QDownloadManager;) | seed piece recheck
+boolean seedVersion([QObject;IQVersionType;QSessionImplementor;) | seed version
+byte[] createWebSeedPeerID() | create web seed peer id
+ExternalSeedManualPeer[] getManualWebSeeds(QDownload;) | get manual web seeds
+ExternalSeedPlugin getExternalSeedPlugin() | get external seed plugin
+ExternalSeedReader[] getSeedReaders(QExternalSeedPlugin;QDownload;) | get seed readers
+ExternalSeedReader[] getSeedReaders(QExternalSeedPlugin;QDownload;QMap;) | get seed readers
+InetAddress getSeedAddress() | get seed address
+int calcMaxSeeders(I) | calc max seeders
+int calcSeedsNoUs(QDownload;) | calc seeds no us
+int calcSeedsNoUs(QDownload;I) | calc seeds no us
+int getConnectedSeeds() | get connected seeds
+int getMaxConnectionsWhenSeeding() | get max connections when seeding
+int getMaxSeedConnections() | get max seed connections
+int getMaxSeedRetention() | get max seed retention
+int getMaxUploadRateBPSSeedingOnly() | get max upload rate bps seeding only
+int getMaxUploadsWhenSeeding() | get max uploads when seeding
+int getNbSeeds() | get nb seeds
+int getNbSuperSeeds() | get nb super seeds
+int getNonSeedCount() | get non seed count
+int getSeedCount() | get seed count
+int getSeedCountForScrape(Z) | get seed count for scrape
+int getSeeders() | get seeders
+int getSeedingRank() | get seeding rank
+int getSeedLimit() | get seed limit
+int getSeeds() | get seeds
+int recalcSeedingRank() | recalc seeding rank
+int transferSeeds(Permission fromPermissionOid, Permission toPermissionOid) | transfer seeds
+long getSecondsOnlySeeding() | get seconds only seeding
+long getSeedAnnounceIntervalMultiplier() | get seed announce interval multiplier
+long getTimeStartedSeeding() | get time started seeding
+Map getWebSeeds() | get web seeds
+MyTorrentsView getSeedingview() | get seeding view
+String clusteringSeedTipText() | clustering seed tip text
+String randomSeedTipText() | random seed tip text
+String seedTipText() | seed tip text
+void checkSeedingMode() | check seeding mode
+void checkSeedingOnlyState() | check seeding only state
+void checkSeedingOnlyStateSupport() | check seeding only state support
+void checkSeeds() | check seeds
+void initialiseSuperSeedMode() | initialise super seed mode
+void recalcAllSeedingRanks(Z) | recalc all seeding ranks
+void seedPieceRecheck() | seed piece recheck
+void setLeechersSeeders(II) | set leechers seeders
+void setNbSeedsFromHTML(QString;) | set nb seeds from html
+void setNbSuperSeedsFromHTML(QString;) | set nb super seeds from html
+void setSeedingOnlyState(ZZ) | set seeding only state
+void setSeedingRank(I) | set seeding rank
+void setSeeds(I) | set seeds
+void setSeedsPeers(II) | set seeds peers
+void setStateSeeding(Z) | set state seeding
+void setSuperSeedMode(Z) | set super seed mode
+void shuffle(int seed) | shuffle
+void updatePeersInSuperSeedMode() | update peers in super seed mode
+void updateSeedingMode() | update seeding mode
+void updateSeedSettings(F) | update seed settings
+void updateSuperSeedPiece(QPEPeer;I) | update super seed piece
+void updateWebSeeds() | update web seeds

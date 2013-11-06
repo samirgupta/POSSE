@@ -1,0 +1,18 @@
+CONS action_production(Qproduction;Qnon_terminal;[Qproduction_part;IQString;I) | action production
+CONS BuildingProductionPanel(QCanvas;QUnit;) | building production panel
+CONS ColonyTileProductionPanel(QCanvas;QColonyTile;QGoodsType;) | colony tile production panel
+CONS ColumnAzProduct(QString;) | column az product
+CONS ProductionLabel(QGoods;QCanvas;) | production label
+CONS ProductionLabel(QGoodsType;IIQCanvas;) | production label
+CONS ProductionLabel(QGoodsType;IQCanvas;) | production label
+CONS ProductionMultiplesLabel(QGoods;QCanvas;) | production multiples label
+CONS ProductionMultiplesLabel([QGoodsType;[IIQCanvas;) | production multiples label
+CONS ProductionMultiplesLabel(QGoodsType;IIQCanvas;) | production multiples label
+CONS ProductionMultiplesLabel(QGoodsType;IQCanvas;) | production multiples label
+CONS ProductionMultiplesLabel(QGoodsType;IQGoodsType;IQCanvas;) | production multiples label
+CONS production_part(QString;) | production part
+CONS production(Qnon_terminal;[Qproduction_part;I) | production
+CONS production(Qnon_terminal;[Qproduction_part;III) | production
+CONS production(Qnon_terminal;[Qproduction_part;IQString;) | production
+CONS production(Qnon_terminal;[Qproduction_part;IQString;II) | production
+CONS ReportProductionPanel(QGoodsType;QCanvas;QReportPanel;) | report production panel

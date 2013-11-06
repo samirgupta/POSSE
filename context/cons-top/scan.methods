@@ -1,0 +1,14 @@
+CONS CDScanView() | cd scan view
+CONS ChangeScanner(QJabRefFrame;QBasePanel;) | change scanner
+CONS LexScan(Qjava.io.InputStream;) | lex scan
+CONS LexScan(Qjava.io.Reader;) | lex scan
+CONS ScannerException(QErrorMessages;) | scanner exception
+CONS ScannerException(QErrorMessages;I) | scanner exception
+CONS ScannerException(QFile;QErrorMessages;) | scanner exception
+CONS ScannerException(QFile;QErrorMessages;I) | scanner exception
+CONS ScannerException(QFile;QErrorMessages;II) | scanner exception
+CONS ScannerException(QFile;QString;QErrorMessages;II) | scanner exception
+CONS Scanner(QInputStream;QSymbolFactory;) | scanner
+CONS Scanner(Qjava.io.InputStream;) | scanner
+CONS Scanner(Qjava.io.Reader;) | scanner
+CONS StringScanner(QString;) | string scanner

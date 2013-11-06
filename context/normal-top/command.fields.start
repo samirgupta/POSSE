@@ -1,0 +1,78 @@
+byte COMMAND_ACK | command ack
+byte COMMAND_CLOSE | command close
+byte COMMAND_CRYPTO | command crypto
+byte COMMAND_DATA | command data
+byte COMMAND_STAT_REPLY | command stat reply
+byte COMMAND_STAT_REQUEST | command stat request
+int COMMAND_BLDG_ADD | command bldg add
+int COMMAND_BLDG_COLLAPSE | command bldg collapse
+int COMMAND_BLDG_REMOVE | command bldg remove
+int COMMAND_BLDG_UPDATE_CF | command bldg update cf
+int COMMAND_BUDDY_SYNC | command buddy sync
+int COMMAND_CHANGE_HEX | command change hex
+int COMMAND_CHAT | command chat
+int COMMAND_CLIENT_NAME | command client name
+int COMMAND_CLOSE_CONNECTION | command close connection
+int COMMAND_CONDITION_CHECK | command condition check
+int COMMAND_DEPLOY_MINEFIELDS | command deploy minefields
+int COMMAND_END_OF_GAME | command end of game
+int COMMAND_ENTITY_ADD | command entity add
+int COMMAND_ENTITY_AMMOCHANGE | command entity ammo change
+int COMMAND_ENTITY_ATTACK | command entity attack
+int COMMAND_ENTITY_DEPLOY | command entity deploy
+int COMMAND_ENTITY_MODECHANGE | command entity mode change
+int COMMAND_ENTITY_MOVE | command entity move
+int COMMAND_ENTITY_REMOVE | command entity remove
+int COMMAND_ENTITY_SYSTEMMODECHANGE | command entity system mode change
+int COMMAND_ENTITY_UPDATE | command entity update
+int COMMAND_ENTITY_VISIBILITY_INDICATOR | command entity visibility indicator
+int COMMAND_LOCAL_PN | command local pn
+int COMMANDNUM_MALFORMAT | command num malformat
+int COMMANDPANEL_HEIGHT | command panel height
+int COMMAND_PHASE_CHANGE | command phase change
+int COMMAND_PLAYER_ADD | command player add
+int COMMAND_PLAYER_READY | command player ready
+int COMMAND_PLAYER_REMOVE | command player remove
+int COMMAND_PLAYER_UPDATE | command player update
+int COMMAND_QUERY_MAP_SETTINGS | command query map settings
+int COMMAND_REMOVE_MINEFIELD | command remove minefield
+int COMMAND_REROLL_INITIATIVE | command reroll initiative
+int COMMAND_REVEAL_MINEFIELD | command reveal minefield
+int COMMAND_ROUND_UPDATE | command round update
+int COMMAND_SENDING_ARTILLERYATTACKS | command sending artillery attacks
+int COMMAND_SENDING_BOARD | command sending board
+int COMMAND_SENDING_ENTITIES | command sending entities
+int COMMAND_SENDING_FLARES | command sending flares
+int COMMAND_SENDING_GAME_SETTINGS | command sending game settings
+int COMMAND_SENDING_MAP_SETTINGS | command sending map settings
+int COMMAND_SENDING_MINEFIELDS | command sending minefields
+int COMMAND_SENDING_PLAYERS | command sending players
+int COMMAND_SENDING_REPORTS | command sending reports
+int COMMAND_SENDING_REPORTS_ALL | command sending reports all
+int COMMAND_SENDING_REPORTS_SPECIAL | command sending reports special
+int COMMAND_SENDING_REPORTS_TACTICAL_GENIUS | command sending reports tactical genius
+int COMMAND_SENDING_TURNS | command sending turns
+int COMMAND_SEND_SAVEGAME | command send savegame
+int COMMAND_SERVER_CORRECT_NAME | command server correct name
+int COMMAND_SERVER_GREETING | command server greeting
+int COMMAND_SET_ARTYAUTOHITHEXES | command set artyautohithexes
+int COMMAND_SWITCH_TO_TAB | command switch to tab
+int COMMAND_TURN | command turn
+java.lang.String COMMAND_CHECK_BUDDY_MANAGER | command check buddy manager
+java.util.LinkedList commandQueue | command queue
+java.util.List command_queue | command queue
+javax.swing.JButton _commandEnclosingFileBtn | command enclosing file btn
+javax.swing.JButton _commandWorkDirBtn | command work dir btn
+javax.swing.JLabel _commandLinePreviewLabel | command line preview label
+javax.swing.JPanel _commandPanel | command panel
+javax.swing.JTextPane _commandEnclosingFileLine | command enclosing file line
+javax.swing.JTextPane _commandEnclosingFileLinePreview | command enclosing file line preview
+javax.swing.JTextPane _commandLine | command line
+javax.swing.JTextPane _commandLinePreview | command line preview
+javax.swing.JTextPane _commandWorkDirLine | command work dir line
+javax.swing.JTextPane _commandWorkDirLinePreview | command work dir line preview
+javax.swing.text.SimpleAttributeSet _commandLineCmdAS | command line cmd as
+javax.swing.text.StyledDocument _commandEnclosingFileLineDoc | command enclosing file line doc
+javax.swing.text.StyledDocument _commandLineDoc | command line doc
+javax.swing.text.StyledDocument _commandWorkDirLineDoc | command work dir line doc
+org.hsqldb.lib.IntValueHashMap commandSet | command set

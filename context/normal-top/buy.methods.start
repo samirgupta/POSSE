@@ -1,0 +1,10 @@
+AIGoods buyGoodsInEurope(QConnection;QGoodsType;IQLocation;) | buy goods in europe
+Element buyGoods(QConnection;QElement;) | buy goods
+Element buyProposition(QConnection;QElement;) | buy proposition
+int buyProposition(QUnit;QGoods;I) | buy proposition
+void buyCargo(QConnection;) | buy cargo
+void buyFromSettlement(QUnit;QIndianSettlement;QGoods;I) | buy from settlement
+void buyGoods(QGoodsType;I) | buy goods
+void buyGoods(QGoodsType;IQUnit;) | buy goods
+void buyLand(QTile;) | buy land
+void buyTradeGoodsFromEurope(QUnit;) | buy trade goods from europe

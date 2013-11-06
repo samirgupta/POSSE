@@ -1,0 +1,8 @@
+edu.rice.cs.drjava.config.ForcedChoiceOption SLAVE_JVM_XMX | slave jvm xmx
+edu.rice.cs.drjava.config.StringOption SLAVE_JVM_ARGS | slave jvm args
+edu.rice.cs.util.newjvm.AbstractMasterJVM.SlaveFactory _slaveFactory | slave factory
+edu.rice.cs.util.newjvm.IntegratedMasterSlaveTest.TestSlaveRemote _slave | slave
+edu.rice.cs.util.newjvm.SlaveRemote _slave | slave
+int BT_MAX_SLAVES | bt max slaves
+java.lang.Object _slaveLock | slave lock
+java.lang.String _quitSlaveThreadName | quit slave thread name

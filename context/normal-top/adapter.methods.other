@@ -1,0 +1,9 @@
+byte[] createAdapterCode(QObjToIntMap;QString;QClass;[QClass;QString;) | create adapter code
+Class getAdapterClass(QScriptable;QClass;[QClass;QScriptable;) | get adapter class
+Class loadAdapterClass(QString;[B) | load adapter class
+Object getAdapterSelf(QClass;QObject;) | get adapter self
+Object readAdapterObject(QScriptable;QObjectInputStream;) | read adapter object
+Scriptable createAdapterWrapper(QScriptable;QObject;) | create adapter wrapper
+void JavaAdapterSignature(QClass;[QClass;QObjToIntMap;) | java adapter signature
+void setParentAdapterFactory(ComposedAdapterFactory parentAdapterFactory) | set parent adapter factory
+void writeAdapterObject(QObject;QObjectOutputStream;) | write adapter object

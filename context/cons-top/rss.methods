@@ -1,0 +1,14 @@
+CONS RSSChannelImpl(QSimpleXMLParserDocumentNode;Z) | rss channel impl
+CONS RssChannel(QString;QString;QString;) | rss channel
+CONS RssContainer() | rss container
+CONS RSSDialog() | rss dialog
+CONS RSSEngine(QMetaSearchImpl;JJQString;QJSONObject;) | rss engine
+CONS RSSEngine(QMetaSearchImpl;JJQString;QString;ZQString;QString;[QString;) | rss engine
+CONS RSSEngine(QMetaSearchImpl;QMap;) | rss engine
+CONS RSSFeeder() | rss feeder
+CONS RSSFeedImpl(QUtilities;QInputStream;) | rss feed impl
+CONS RSSFeedImpl(QUtilities;QResourceDownloader;) | rss feed impl
+CONS RSSItemImpl(QSimpleXMLParserDocumentNode;Z) | rss item impl
+CONS RssItem(QRssChannel;QString;QString;QString;QString;QString;Z) | rss item
+CONS RssOptionsPanel(QRssContainer;) | rss options panel
+CONS RSSParser(QURL;) | rss parser

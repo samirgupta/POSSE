@@ -1,0 +1,17 @@
+CONS AbstractStringDistanceFunction() | abstract string distance function
+CONS AbstractStringDistanceFunction(QInstances;) | abstract string distance function
+CONS ChebyshevDistance() | chebyshev distance
+CONS ChebyshevDistance(QInstances;) | chebyshev distance
+CONS EditDistance() | edit distance
+CONS EditDistance(QInstances;) | edit distance
+CONS EuclideanDistance() | euclidean distance
+CONS EuclideanDistance(QInstances;) | euclidean distance
+CONS GraphDistanceFilter(QString;) | graph distance filter
+CONS GraphDistanceFilter(QString;I) | graph distance filter
+CONS GraphDistanceFilter(QString;QString;I) | graph distance filter
+CONS ManhattanDistance() | manhattan distance
+CONS ManhattanDistance(QInstances;) | manhattan distance
+CONS MedianDistanceFromArbitraryPoint() | median distance from arbitrary point
+CONS MedianDistanceFromArbitraryPoint([IQInstances;QEuclideanDistance;) | median distance from arbitrary point
+CONS NormalizableDistance() | normalizable distance
+CONS NormalizableDistance(QInstances;) | normalizable distance

@@ -1,0 +1,79 @@
+boolean getSendPeerIds() | get send peer ids
+boolean ignorePeerPort(I) | ignore peer port
+boolean isPeerSourceEnabledByDefault(QString;) | is peer source enabled by default
+boolean removePeerConnection(QNetworkConnectionBase;) | remove peer connection
+byte[] createPeerID() | create peer id
+byte[] createWebSeedPeerID() | create web seed peer id
+byte[] generatePeerID(QTorrent;Z) | generate peer id
+byte[] generatePeerID(QTOTorrent;Z) | generate peer id
+byte[] getAnonymousPeerId(QString;I) | get anonymous peer id
+byte[] getAZPeerIdentity() | get az peer identity
+byte[] getDownloadPeerId() | get download peer id
+byte[] getPeerId() | get peer id
+byte[] getPeerID() | get peer id
+Composite createPeerInfoPanel(QComposite;) | create peer info panel
+HashWrapper getPeerId() | get peer id
+int getAnnounceCachePeerThreshold() | get announce cache peer threshold
+int getBadNATPeerCount() | get bad nat peer count
+int getDiscoveredPeerCount() | get discovered peer count
+int getPeerCount() | get peer count
+int getPeerState() | get peer state
+int getReportedPeerCount() | get reported peer count
+long getTotalSwarmsPeerRate(ZZ) | get total swarms peer rate
+Map getPeerMap() | get peer map
+org.gudy.azureus2.plugins.peers.PeerManager getPeerManager() | get peer manager
+PeerDatabase createPeerDatabase() | create peer database
+PeerExchangerItem createPeerExchangeConnection(QPEPeerTransport;) | create peer exchange connection
+PeerExchangerItem registerPeerConnection(QPeerItem;QPeerExchangerItem.Helper;) | register peer connection
+PeerIdentityDataID getPeerIdentityDataID() | get peer identity data id
+PeerItem createPeerItem([BBBI) | create peer item
+PeerItem createPeerItem(QString;IBBIBI) | create peer item
+PeerItem[] getNewlyAddedPeerConnections() | get newly added peer connections
+PeerItem[] getNewlyDroppedPeerConnections() | get newly dropped peer connections
+PeerItem getPeerItemIdentity() | get peer item identity
+PeerManager getPeerManager() | get peer manager
+PeerManagerImpl getPeerManager(QPEPeerManager;) | get peer manager
+PeerManagerRegistration getPeerManagerRegistration() | get peer manager registration
+PeerStats createPeerStats(QPeer;) | create peer stats
+PEPeerControl getPeerControl() | get peer control
+PEPeerManager getPeerManager() | get peer manager
+PEPeerStats createPeerStats(QPEPeer;) | create peer stats
+PEPeerTransport getNextOptimisticPeerExec(QArrayList;) | get next optimistic peer exec
+String extractReadableVersionSubstringFromPeerID(QString;) | extract readable version substring from peer id
+String getClientNameFromPeerID() | get client name from peer id
+String[] getDefaultEnabledPeerSources() | get default enabled peer sources
+String getPeerSource() | get peer source
+String[] getPeerSources() | get peer sources
+String getPrintablePeerID([B) | get printable peer id
+String getPrintablePeerID([BC) | get printable peer id
+String makePeerIDReadableAndUsable([B) | make peer id readable and usable
+void addPeerConnection(QNetworkConnectionBase;) | add peer connection
+void addPeerListener(QDownloadManagerPeerListener;) | add peer listener
+void addPeerListener(QDownloadManagerPeerListener;Z) | add peer listener
+void addPeerListener(QDownloadPeerListener;) | add peer listener
+void addPeerListener(QTRTrackerServerTorrentPeerListener;) | add peer listener
+void addPeerTransport(QPEPeerTransport;) | add peer transport
+void addToPeerTransports(QPEPeerTransport;) | add to peer transports
+void CachePeerImpl(IQInetAddress;I) | cache peer impl
+void cancelPeerConnection(QNetworkConnectionBase;) | cancel peer connection
+void changePeerState(I) | change peer state
+void checkForPeerListCompaction(Z) | check for peer list compaction
+void compatiblePeerFound(QDownload;QPeer;QMessage;) | compatible peer found
+void decodePeerExchange(QAZStylePeerExchange;) | decode peer exchange
+void deregisterPeerConnection(QNetworkConnectionBase;) | deregister peer connection
+void deregisterPeerConnection(QPeerItem;) | deregister peer connection
+void downgradePeerConnection(QNetworkConnectionBase;) | downgrade peer connection
+void fillPeerInfoSection() | fill peer info section
+void readIgnorePeerPorts() | read ignore peer ports
+void RealTimePeerRequest(QPEPeerTransport;QDiskManagerReadRequest;) | real time peer request
+void registerPeerConnection(QNetworkConnectionBase;) | register peer connection
+void registerPeerConnection(QNetworkConnectionBase;Z) | register peer connection
+void removePeerListener(QDownloadManagerPeerListener;) | remove peer listener
+void removePeerListener(QDownloadPeerListener;) | remove peer listener
+void removePeerListener(QTRTrackerServerTorrentPeerListener;) | remove peer listener
+void resetPeerCon() | reset peer con
+void setPeerMap(QMap;) | set peer map
+void setPeerSources([QString;) | set peer sources
+void updatePeerExchange() | update peer exchange
+void upgradePeerConnection(QNetworkConnectionBase;) | upgrade peer connection
+void upgradePeerConnection(QNetworkConnectionBase;QRateHandler;) | upgrade peer connection

@@ -1,0 +1,42 @@
+boolean anyBiddingErrors(QComponent;QAuctionEntry;) | any bidding errors
+boolean isBidOn() | is bid on
+boolean isHighBidder() | is high bidder
+boolean isOutbid() | is out bid
+Color snipeBidBackground(QAuctionEntry;) | snipe bid background
+Color snipeBidColor(QAuctionEntry;) | snipe bid color
+Currency establishCurrentBid(QAuctionEntry;) | establish current bid
+Currency getBestBidValue(QAuctionEntry;) | get best bid value
+Currency getBid() | get bid
+Currency getCurBid() | get cur bid
+Currency getMinBid() | get min bid
+Currency getMinimumBidIncrement(QCurrency;I) | get minimum bid increment
+Currency getSnipeBid() | get snipe bid
+Currency getUSCurBid() | get us cur bid
+int bid(QAuctionEntry;QCurrency;I) | bid
+int bid(QCurrency;) | bid
+int bid(QCurrency;I) | bid
+int getBidCount(QJHTML;I) | get bid count
+int getBidPrice(QGoodsType;I) | get bid price
+int getBidQuantity() | get bid quantity
+int getNumBidders() | get num bidders
+int handlePostBidBuyPage(QCookieJar;QStringBuffer;QJHTML.Form;QAuctionEntry;) | handle post bid buy page
+int placeFinalBid(QCookieJar;QJHTML.Form;QAuctionEntry;QCurrency;I) | place final bid
+JHTML.Form getBidForm(QCookieJar;QAuctionEntry;QCurrency;I) | get bid form
+List getBidderNames(QAuctionEntry;) | get bidder names
+String formatBid(QAuctionEntry;QString;) | format bid
+String formatSnipeAndBid(QAuctionEntry;) | format snipe and bid
+String genBidSnipeHTML(QAuctionEntry;QCurrency;) | gen bid snipe html
+String getBidResult(QCurrency;I) | get bid result
+String getDefBidSize() | get def bid size
+String getHighBidder() | get high bidder
+String getHighBidderEmail() | get high bidder email
+void BadBidException(QString;I) | bad bid exception
+void checkDutchHighBidder() | check dutch high bidder
+void checkHighBidder() | check high bidder
+void checkHighBidder(Z) | check high bidder
+void DoBid(QComponent;QAuctionEntry;) | do bid
+void establishCurrentBidFixedPrice(QAuctionEntry;) | establish current bid fixed price
+void setBid(QCurrency;) | set bid
+void setBidQuantity(I) | set bid quantity
+void setMaxBidFromServer(QAuctionEntry;QCurrency;) | set max bid from server
+void updateHighBid(QAuctionEntry;) | update high bid

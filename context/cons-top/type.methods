@@ -1,0 +1,130 @@
+CONS AccessType(QString;) | access type
+CONS AdaptedImmutableType(QNullableType;) | adapted immutable type
+CONS AmmoType() | ammo type
+CONS AnyType() | any type
+CONS AnyType(QType;QType;) | any type
+CONS ArmorType(QString;I) | armor type
+CONS ArrayType(QString;QString;QClass;Z) | array type
+CONS BagType(QString;QString;Z) | bag type
+CONS BuildableType() | buildable type
+CONS BuildableType(QString;) | buildable type
+CONS BuildingType(I) | building type
+CONS ChassisType(QString;I) | chassis type
+CONS CollectionType(QString;QString;Z) | collection type
+CONS ColopediaNationTypeAction(QFreeColClient;) | colo pe dia nation type action
+CONS ColumnActivityType(QString;) | column activity type
+CONS ComponentType(QComponentMetamodel;) | component type
+CONS CompositeCustomType(QClass;QProperties;) | composite custom type
+CONS ConnectionTypesSample() | connection types sample
+CONS ConsolidationFunctionType(I) | consolidation function type
+CONS CustomCollectionType(QClass;QString;QString;Z) | custom collection type
+CONS CustomEntryType(QString;[QString;[QString;) | custom entry type
+CONS CustomEntryType(QString;QString;QString;) | custom entry type
+CONS CustomType(QClass;QProperties;) | custom type
+CONS DataSourceType(I) | data source type
+CONS DataTypeException() | data type exception
+CONS DataTypeException(QClass;) | data type exception
+CONS DataTypeException(QString;) | data type exception
+CONS DataTypeException(QString;QThrowable;) | data type exception
+CONS DataTypeException(QThrowable;) | data type exception
+CONS DayTypeAlternance(QDayType;QTaskLength;QDate;) | day type alternance
+CONS DesignType(QString;I) | design type
+CONS DITypeInfo() | di type info
+CONS EmbeddedComponentType(QComponentMetamodel;) | embedded component type
+CONS EngineType(QString;I) | engine type
+CONS EntityType(QString;QString;ZZZ) | entity type
+CONS EntryTypeDialog(QJabRefFrame;) | entry type dialog
+CONS EntryTypeList(QList<QString;>;) | entry type list
+CONS EquipmentType() | equipment type
+CONS EquipmentType(I) | equipment type
+CONS EuropeanNationType(I) | european nation type
+CONS ExternalFileTypeEditor(QJDialog;) | external file type editor
+CONS ExternalFileTypeEditor(QJFrame;) | external file type editor
+CONS ExternalFileTypeEntryEditor(QJDialog;QExternalFileType;) | external file type entry editor
+CONS ExternalFileTypeEntryEditor(QJFrame;QExternalFileType;) | external file type entry editor
+CONS ExternalFileType([QString;) | external file type
+CONS ExternalFileType(QString;QString;QString;QString;QString;) | external file type
+CONS FromElementType(QFromElement;QEntityPersister;QEntityType;) | from element type
+CONS GoodsType(I) | goods type
+CONS GP4BendType(I) | gp 4 bend type
+CONS GP4ChordType(I) | gp 4 chord type
+CONS GP4TonalityType(I) | gp 4 tonality type
+CONS HeatSinkType(QString;I) | heat sink type
+CONS HMPType(QString;I) | hmp type
+CONS HMVArmorType(QString;I) | hmv armor type
+CONS HMVEngineType(QString;I) | hmv engine type
+CONS HMVMovementType(QString;I) | hmv movement type
+CONS HMVTechType(QString;I) | hmv tech type
+CONS HMVType(QString;I) | hmv type
+CONS IdentifierBagType(QString;QString;Z) | identifier bag type
+CONS ImprovementActionType() | improvement action type
+CONS IndianNationType(I) | indian nation type
+CONS InternalStructureType(QString;I) | internal structure type
+CONS JDBCTypes() | jdbc types
+CONS ListType(QString;QString;Z) | list type
+CONS ManyToOneType(QString;) | many to one type
+CONS ManyToOneType(QString;QString;ZZZZ) | many to one type
+CONS ManyToOneType(QString;Z) | many to one type
+CONS MapType(QString;QString;Z) | map type
+CONS MetaType(QMap;QType;) | meta type
+CONS MiscType() | misc type
+CONS MyomerType(QString;I) | myomer type
+CONS NationType(I) | nation type
+CONS NetscapeCertType(I) | netscape cert type
+CONS NetscapeCertType(QDERBitString;) | netscape cert type
+CONS OneToOneType(QString;QForeignKeyDirection;QString;ZZZQString;QString;) | one to one type
+CONS OrderedMapType(QString;QString;Z) | ordered map type
+CONS OrderedSetType(QString;QString;Z) | ordered set type
+CONS PrintTransferTypes() | print transfer types
+CONS RangeType(III) | range type
+CONS RangeType(IIII) | range type
+CONS RangeType(IIIII) | range type
+CONS ResourceType(I) | resource type
+CONS SerializableType(QClass;) | serializable type
+CONS SetType(QString;QString;Z) | set type
+CONS SortedMapType(QString;QString;QComparator;Z) | sorted map type
+CONS SortedSetType(QString;QString;QComparator;Z) | sorted set type
+CONS SpecialOneToOneType(QString;QForeignKeyDirection;QString;ZZQString;QString;) | special one to one type
+CONS StorageTypeItem() | storage type item
+CONS SWFTagTypesImpl(QSWFTagTypes;) | swf tag types impl
+CONS TechType(QString;I) | tech type
+CONS TileImprovementType(I) | tile improvement type
+CONS TileType(I) | tile type
+CONS Type1Message() | type 1 message
+CONS Type1Message([B) | type 1 message
+CONS Type1Message(IQString;QString;) | type 1 message
+CONS Type2Message() | type 2 message
+CONS Type2Message([B) | type 2 message
+CONS Type2Message(I[BQString;) | type 2 message
+CONS Type2Message(QType1Message;) | type 2 message
+CONS Type2Message(QType1Message;[BQString;) | type 2 message
+CONS Type3Message() | type 3 message
+CONS Type3Message([B) | type 3 message
+CONS Type3Message(I[B[BQString;QString;QString;) | type 3 message
+CONS Type3Message(QType2Message;) | type 3 message
+CONS Type3Message(QType2Message;QString;QString;QString;QString;) | type 3 message
+CONS TypeDef(QString;QProperties;) | type def
+CONS TypedValue(QType;QObject;QEntityMode;) | typed value
+CONS TypeFactory() | type factory
+CONS TypeInferencer() | type inferencer
+CONS TypeInferencer(QParserFactory;) | type inferencer
+CONS TypeItem() | type item
+CONS TypeItem(QString;) | type item
+CONS TypeLib() | type lib
+CONS TypeManager() | type manager
+CONS TypeMismatchException(QString;) | type mismatch exception
+CONS TypeMismatchException(QString;QThrowable;) | type mismatch exception
+CONS TypeMismatchException(QThrowable;) | type mismatch exception
+CONS TypeOr(QS;QT;) | type or
+CONS Type(QString;QString;QString;QClass;QClass;) | type
+CONS UndoableChangeType(QBibtexEntry;QBibtexEntryType;QBibtexEntryType;) | undoable change type
+CONS UnitType(I) | unit type
+CONS UnknownEntryType(QString;) | unknown entry type
+CONS UnknownExternalFileType(QString;) | unknown external file type
+CONS UnsupportedAttributeTypeException() | unsupported attribute type exception
+CONS UnsupportedAttributeTypeException(QString;) | unsupported attribute type exception
+CONS UnsupportedClassTypeException() | unsupported class type exception
+CONS UnsupportedClassTypeException(QString;) | unsupported class type exception
+CONS VersionTypeSeedParameterSpecification(QVersionType;) | version type seed parameter specification
+CONS WeaponType() | weapon type
+CONS Win32TransferTypes() | win 32 transfer types

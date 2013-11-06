@@ -1,0 +1,9 @@
+boolean activateCitationFetcher() | activate citation fetcher
+boolean activateImportFetcher() | activate import fetcher
+List<QEntryFetcherExtension;> getEntryFetcherExtensions() | get entry fetcher extensions
+net.sf.jabref.imports.EntryFetcher getEntryFetcher() | get entry fetcher
+void deactivateCitationFetcher() | deactivate citation fetcher
+void deactivateImportFetcher() | deactivate import fetcher
+void EntryFetcherExtension(QPlugin;QExtension;) | entry fetcher extension
+void FetcherAction() | fetcher action
+void ImageFetcher(QJHTML;) | image fetcher

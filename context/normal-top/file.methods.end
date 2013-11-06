@@ -1,0 +1,638 @@
+AbstractFileLoader getLoaderForFile(QFile;) | get loader for file
+AbstractFileLoader getLoaderForFile(QString;) | get loader for file
+AbstractFileLoader getURLLoaderForFile(QFile;) | get url loader for file
+AbstractFileLoader getURLLoaderForFile(QString;) | get url loader for file
+AbstractFileSaver getSaverForFile(QFile;) | get saver for file
+AbstractFileSaver getSaverForFile(QString;) | get saver for file
+ArrayList getFilesFromFile(Qorg.jajuk.base.File;) | get files from file
+BibtexDatabase import_File(QString;QString;) | import file
+BIFReader processFile(QString;) | process file
+boolean canAbandonFile() | can abandon file
+boolean canAbandonFile(QOpenDefinitionsDocument;) | can abandon file
+boolean checkProjectFile([QString;) | check project file
+boolean closeFile(QOpenDefinitionsDocument;) | close file
+boolean copyFile(QFile;QFile;) | copy file
+boolean copyFile(QFile;QFile;Z) | copy file
+boolean copyFile(QFile;QOutputStream;Z) | copy file
+boolean copyFile(QString;QString;) | copy file
+boolean createLockFile() | create lock file
+boolean createNewFile() | create new file
+boolean createNewFile(QFile;) | create new file
+boolean decodeToFile(QString;QString;) | decode to file
+boolean deleteAutoSaveFile(QBasePanel;) | delete auto save file
+boolean deleteLockFile() | delete lock file
+boolean deleteLockFile(QFile;) | delete lock file
+boolean deletePluginFile(QFile;) | delete plugin file
+boolean displayFile(QString;) | display file
+boolean dumpFile(QString;QString;) | dump file
+boolean encodeToFile([BQString;) | encode to file
+boolean getExplicitPropsFile() | get explicit props file
+boolean handleFile(QFile;) | handle file
+boolean hasLockFile(QFile;) | has lock file
+boolean ignoreFile(QString;) | ignore file
+boolean isAddedFile() | is added file
+boolean isAddedFile(I) | is added file
+boolean isAddedFile(QFile;) | is added file
+boolean isAuxiliaryFile() | is auxiliary file
+boolean isAuxiliaryFile(QFile;) | is auxiliary file
+boolean isClassFile(QFile;) | is class file
+boolean isExcludedFile(QFile;) | is excluded file
+boolean isFile() | is file
+boolean isFirstFile() | is first file
+boolean isGZipFile(QString;) | is g zip file
+boolean isHiddenFile(File f) | is hidden file
+boolean isJarFile(QFile;) | is jar file
+boolean isMonoFile() | is mono file
+boolean isSourceFile() | is source file
+boolean isTorrentFile(QString;) | is torrent file
+boolean isVeryfirstFile(QFile;) | is very first file
+boolean isZipFile(QString;) | is zip file
+boolean loadExifFile(String fileName) | load exif file
+boolean loadMechsFromZipFile(QVector;QSet;JQFile;) | load mechs from zip file
+boolean logToFile(QLogEvent;QStringBuffer;) | log to file
+boolean logToFile(QStringBuffer;) | log to file
+boolean mapPlaylistFile(QString;) | map playlist file
+boolean openFile(QFile;) | open file
+boolean parseAuxFile(QString;) | parse aux file
+boolean processFile(QString;) | process file
+boolean putPropertiesFromFile(QString;) | put properties from file
+boolean quitFile() | quit file
+boolean quitFile(QOpenDefinitionsDocument;) | quit file
+boolean removeFile(QString;) | remove file
+boolean renameFile(QFile;QFile;) | rename file
+boolean renameFile(QFile;QFile;Z) | rename file
+boolean renameFile(QFile;QFile;ZQFileFilter;) | rename file
+boolean saveFile(QFileSaveSelector;) | save file
+boolean saveFile(QLinkedList;QFile;QDrawingPanel;) | save file
+boolean saveToFile(QString;QObject;) | save to file
+boolean setFile(QFile;) | set file
+boolean shouldRevertFile(QOpenDefinitionsDocument;) | should revert file
+boolean useFile(QString;QString;) | use file
+boolean validFile(QFile;) | valid file
+boolean verifyFile(File f) | verify file
+boolean writeBlockFile(QString;) | write block file
+boolean writeConfigFile(QFile;QMap;) | write config file
+boolean writeToFile(QString;QObject;) | write to file
+boolean writeToFile(QString;QObject;Z) | write to file
+boolean writeToFile(QString;QString;) | write to file
+boolean writeToFile(QString;QString;Z) | write to file
+boolean zeroFile(QDiskManagerFileInfoImpl;J) | zero file
+byte[] compileToClassFile(QCompilerEnvirons;QString;QScriptOrFnNode;QString;Z) | compile to class file
+byte[] decodeFromFile(QString;) | decode from file
+byte[] getBytesFromFile(QString;) | get bytes from file
+CacheFile createFile(QCacheFileOwner;QFile;I) | create file
+CacheFile getCacheFile() | get cache file
+CacheFile getFile() | get file
+CacheFileWithCache getFile() | get file
+Collection buildConfigurationFile(String filename) | build configuration file
+Configuration addCacheableFile(QFile;) | add cacheable file
+Configuration addCacheableFile(QString;) | add cacheable file
+Configuration addFile(QFile;) | add file
+Configuration addFile(QString;) | add file
+DiskManagerFileInfo getFile() | get file
+DiskManagerFileInfo getPrimaryFile() | get primary file
+DiskManagerFileInfoImpl getFile() | get file
+DocFile getAbsoluteFile() | get absolute file
+DocFile getCanonicalFile() | get canonical file
+DocFile parseFile(QSExp;QString;) | parse file
+Document saveFile() | save file
+Engine[] loadFromVuzeFile(QFile;) | load from vu ze file
+Engine[] loadFromVuzeFile(QVuzeFile;) | load from vu ze file
+ExtendedTorrent readDelegateFromFile(QFile;Z) | read delegate from file
+File canonicalFile(QFile;) | canonical file
+File canonicalFile(QString;) | canonical file
+File checkAndCreateFile(QString;) | check and create file
+File chooseFile() | choose file
+File chooseFile(QString;QString;) | choose file
+File convertStringToFile(QString;) | convert string to file
+File createApplicationFile(QString;) | create application file
+File createFile(Clob clob) | create file
+File createFile(QString;) | create file
+File createTempFile() | create temp file
+File createTemporaryFile() | create temporary file
+File disabled_getPartFile() | disabled get part file
+FileDisplay newFile(QFile;QFileDisplayManager;) | new file
+File _fillTempFile(QString;QString;) | fill temp file
+File findFile(QString;) | find file
+File getAbsoluteFile() | get absolute file
+File getAliasesFile() | get aliases file
+File getApplicationFile(QString;) | get application file
+File getAutoSaveFile(QFile;) | get auto save file
+File getAvatarFile() | get avatar file
+File getBackupFile() | get backup file
+File getCachedClassFile() | get cached class file
+File getCanonicalFile() | get canonical file
+File getCanonicalFile(QFile;) | get canonical file
+File getChosenFile(QJFileChooser;I) | get chosen file
+File getClientOptionsFile() | get client options file
+File getConfigFile() | get config file
+File getCoverFile() | get cover file
+File getCreateJarFile() | get create jar file
+File getCurrentFile() | get current file
+File getDataFile() | get data file
+File getDebugFile() | get debug file
+File getDebugVectorsFile() | get debug vectors file
+File getDrJavaFile() | get dr java file
+File getFile() | get file
+File getFile(PackFile packFile) | get file
+File getFile(QFile;QString;) | get file
+File getFile(QString;) | get file
+File getFile(Z) | get file
+File _getFullFile(QFile;) | get full file
+File getGlobalStateFile() | get global state file
+File getHoldOutFile() | get hold out file
+File getInitFile() | get init file
+File getInputCenterFile() | get input center file
+File getKernelMatrixFile() | get kernel matrix file
+File getLinkedFile() | get linked file
+File getLogFile() | get log file
+File getLogFile(QAEDiagnosticsLogger;) | get log file
+File getMainClassContainingFile() | get main class containing file
+File _getMainFile() | get main file
+File getModelFile() | get model file
+File getNewLeadSelectionFile() | get new lead selection file
+File getNextFile(QFile;) | get next file
+File getNoveltyFile() | get nov el ty file
+File getOldLeadSelectionFile() | get old lead selection file
+File getOutputCenterFile() | get output center file
+File getOutputFile() | get output file
+File getOutputFile(QFile;QString;) | get output file
+File getParentFile() | get parent file
+File getPatternsFile() | get patterns file
+File getPlayeableFile(Z) | get playeable file
+File getPluginUserFile(QString;) | get plugin user file
+File getPreviousFile(QFile;) | get previous file
+File getProjectFile() | get project file
+File getPropertiesFile() | get properties file
+File getRawFile() | get raw file
+File getResourcesFile() | get resources file
+File getResultsFile(QSubscriptionImpl;) | get results file
+File getSaveFile(QJFileChooser;) | get save file
+File getSelectedFile() | get selected file
+File getSemaphoreFile(QFile;) | get semaphore file
+File getSerializedClassifierFile() | get serialized classifier file
+File getShuffleFile() | get shuffle file
+File getSourceFile() | get source file
+File getSourceFile(QString;) | get source file
+File getStateFile() | get state file
+File getStateFile([B) | get state file
+File getStateFile(QString;) | get state file
+File getStorageFile() | get storage file
+File getTargetFile() | get target file
+File getTempFile() | get temp file
+File getTempFile(QString;) | get temp file
+File getTemporaryFile() | get temporary file
+File getTorrentFile() | get torrent file
+File getTorrentFile(QShareItemImpl;) | get torrent file
+File getTraceFile() | get trace file
+File getUserFile(QString;) | get user file
+File getVuzeFile(QSubscriptionImpl;) | get vu ze file
+File getWorkingDirectoryFile() | get working directory file
+File internFile(QFile;) | intern file
+File lazyGetFile() | lazy get file
+File _locateClassFile() | locate class file
+File makeFile(QFile;QString;) | make file
+File makeFile(QString;) | make file
+FileModel createFile(String name) | create file
+File _parsePackagesFile(QFile;QFile;) | parse packages file
+File plBlockFile(QString;) | pl block file
+File plBlockFile(String type) | pl block file
+FilePluginInstaller installFromFile(QFile;) | install from file
+File proposeOutputFile(QIGanttProject;) | propose output file
+File proposeOutputFile(QIGanttProject;QExporter;) | propose output file
+File realFile() | real file
+File registerFile(QString;QString;QDirectory;QTrack;JJ) | register file
+File retrieveFile() | retrieve file
+File tempFile() | temp file
+File tempFile(I) | temp file
+File tempFile(QString;) | temp file
+File writeStringToNewTempFile(QString;QString;QString;) | write string to new temp file
+File writeToNewTempFile(QString;) | write to new temp file
+FMFile createFile(QFMFileOwner;QFile;I) | create file
+FMFile getFile() | get file
+FMFile getFMFile() | get fm file
+Graph getGraphFile(QComponent;) | get graph file
+GZip loadFile(QString;) | load file
+H4File getH4File() | get h 4 file
+HashMap<QString;QString;> readFormatterFile(QString;) | read formatter file
+HashMap<QString;QString;> readIconThemeFile(QURL;QString;) | read icon theme file
+HsqlProperties getPropertiesFromFile(QString;) | get properties from file
+IFile getCridFile(String name) | get crid file
+int checkForExistingFile(QDirEntry;) | check for existing file
+int[] writeTableToDataFile(QTable;) | write table to data file
+ItemFile getItemFile(QFile;) | get item file
+ItemFile getItemFile(QZipEntry;QZipFile;) | get item file
+JarJDKToolsLibrary makeFromFile(QFile;QGlobalModel;) | make from file
+java.awt.Image loadImageFromFile(QString;) | load image from file
+java.io.File getFile() | get file
+JReportFrame findReportFrameByFile(QFile;) | find report frame by file
+JReportFrame openFile(QFile;) | open file
+JReportFrame openFile(QString;) | open file
+LinkedList loadFile(QFile;QDrawingPanel;) | load file
+List<QBibtexEntry;> importFromFile(QImportFormat;QString;) | import from file
+List<QBibtexEntry;> importFromFile(QString;QString;) | import from file
+List<QFile;> findFile(QBibtexEntry;QBibtexDatabase;QCollection<QFile;>;QString;QString;Z) | find file
+List<QFile;> findFile(QBibtexEntry;QBibtexDatabase;QFile;QString;QString;) | find file
+List<QFile;> findFile(QBibtexEntry;QBibtexDatabase;QString;QString;QString;Z) | find file
+LockFile getLockFile() | get lock file
+LockFile newLockFile(QString;) | new lock file
+LockFile newNIOLockFile() | new nio lock file
+long convertFile(QFile;) | convert file
+long getAverageBytesReadFromFile() | get average bytes read from file
+long getAverageBytesWrittenToFile() | get average bytes written to file
+long getBytesReadFromFile() | get bytes read from file
+long getBytesWrittenToFile() | get bytes written to file
+Manifest getManifestFromFile(QString;) | get manifest from file
+Map readConfigFile(QFile;) | read config file
+Map readMapFromFile(QString;) | read map from file
+Map readResilientBEncodedFile(QFile;QString;Z) | read resilient b encoded file
+Map readResilientConfigFile(QString;) | read resilient config file
+Map readResilientConfigFile(QString;Z) | read resilient config file
+Map readResilientFile(QFile;) | read resilient file
+Map readResilientFile(QFile;QString;Z) | read resilient file
+Map readResilientFile(QString;QFile;QString;IZ) | read resilient file
+Map saveDefaultResponseToAzpdFile(QPlatformMessage;) | save default response to az pd file
+Map saveResponseToAzpdFile(QMap;QPlatformMessage;) | save response to az pd file
+NamedCompound upgradePdfPsToFile(QBibtexDatabase;[QString;) | upgrade pdf ps to file
+Object getConverterForFile(QString;QHashtable<QString;QString;>;) | get converter for file
+Object loadFromFile(QString;) | load from file
+Object readFile(QContext;QScriptable;[QObject;QFunction;) | read file
+OpenDefinitionsDocument getDocumentForFile(QFile;) | get document for file
+OpenDefinitionsDocument newFile() | new file
+OpenDefinitionsDocument newFile(QFile;) | new file
+OpenDefinitionsDocument _openFile(QFile;) | open file
+OpenDefinitionsDocument openFile(QFile;) | open file
+OpenDefinitionsDocument openFile(QFileOpenSelector;) | open file
+OpenDefinitionsDocument _rawOpenFile(QFile;) | raw open file
+ParserResult importFile(QString;) | import file
+ParserResult openBibFile(QString;Z) | open bib file
+PlaylistFile getPlayeablePlaylistFile() | get playeable playlist file
+PlaylistFile getPlaylistFile() | get playlist file
+PlaylistFile registerPlaylistFile(Qjava.io.File;QDirectory;) | register playlist file
+PlaylistFile registerPlaylistFile(QString;QString;QDirectory;) | register playlist file
+SchemaExport setImportFile(QString;) | set import file
+SchemaExport setOutputFile(QString;) | set output file
+ShareResourceFile addFile(QFile;) | add file
+ShareResourceFile addFile(QShareResourceDirContentsImpl;QFile;) | add file
+ShareResourceFile getFile(QFile;) | get file
+Storage newScaledRAFile(QDatabase;QString;ZIQString;QString;) | new scaled ra file
+StringBuffer readFile(QString;) | read file
+StringBuffer readJarFile(QString;) | read jar file
+String chooseFile() | choose file
+String chooseFile(QString;) | choose file
+String classToFile(QString;) | class to file
+String convertFile(String loadName, String saveName, int imageDataStart) | convert file
+String copyInputStreamToTmpFile(QInputStream;QString;) | copy input stream to tmp file
+String createTemporaryFile() | create temporary file
+String encodeDocFile(QDocFile;QString;Z) | encode doc file
+String encodeFromFile(QString;) | encode from file
+String findFile(QBibtexEntry;QBibtexDatabase;QFile;QString;) | find file
+String findFile(QBibtexEntry;QBibtexDatabase;QString;) | find file
+String findFile(QBibtexEntry;QBibtexDatabase;[QString;QString;Z) | find file
+String findFile(QBibtexEntry;QBibtexDatabase;QString;QString;Z) | find file
+String findFile(QBibtexEntry;QExternalFileType;QList<QString;>;) | find file
+String findFile(QString;QString;) | find file
+String getArffFile() | get arff file
+String getBIFFile() | get bif file
+String getBoundsFile() | get bounds file
+String getCanonicalFile(QString;QString;Z) | get canonical file
+String getDtdFile() | get dtd file
+String getExportFile() | get export file
+String getFile() | get file
+String getFile(QString;) | get file
+String getGraphTemplateFile() | get graph template file
+String getHardwareFile() | get hardware file
+String getHostFromFile() | get host from file
+String getImportFile() | get import file
+String getLastFile() | get last file
+String getModelListFile() | get model list file
+String getNewFile(QJFrame;QFile;QString;IZ) | get new file
+String getNewFile(QJFrame;QFile;QString;IZQJComponent;) | get new file
+String getNewFile(QJFrame;QFile;QString;QString;IZ) | get new file
+String getNewFile(QJFrame;QFile;QString;QString;IZZQJComponent;) | get new file
+String getOnlyFile(QString;) | get only file
+String getPrimaryFile() | get primary file
+String getProgramForFile(QString;) | get program for file
+String getRawFile(QString;) | get raw file
+String getResultsFromFile(QFile;) | get results from file
+String getRrdFile() | get rrd file
+String getRrdTemplateFile() | get rrd template file
+String getStringFromFile(QString;) | get string from file
+String getTEMPLATEFILE() | get template file
+String getTorrentFile() | get torrent file
+String getXmlFile() | get xml file
+String giveFile(QStringTokenizer;I) | give file
+String layoutFile() | layout file
+String parseFile(String html, int depth, HashMap p) | parse file
+String readAzpdFile(QFile;) | read az pd file
+String readFile(QString;) | read file
+String[][] readFromFile(I) | read from file
+String[] splitFile(QFile;) | split file
+String urlGetFile(QURL;) | url get file
+SubscriptionImpl getSubscriptionFromVuzeFile([BIQFile;) | get subscription from vu ze file
+SubscriptionImpl getSubscriptionFromVuzeFile([BIQVuzeFile;) | get subscription from vu ze file
+Table getTableFile(QComponent;) | get table file
+TestResult performTestsFromZipFile(File zfile) | perform tests from zip file
+TestSqlFile getSqlFile(I) | get sql file
+Thread autoSetFile(QString;QFieldEditor;) | auto set file
+Torrent createFromBEncodedFile(QFile;) | create from b encoded file
+Torrent createFromBEncodedFile(QFile;I) | create from b encoded file
+Torrent createFromBEncodedFile(QFile;Z) | create from b encoded file
+Torrent createFromDataFile(QFile;QURL;) | create from data file
+Torrent createFromDataFile(QFile;QURL;Z) | create from data file
+TOTorrent deserialiseFromBEncodedFile(QFile;) | deserialise from b encoded file
+TOTorrent deserialiseFromXMLFile(QFile;) | deserialise from xml file
+TOTorrentFile getCacheFileTorrentFile() | get cache file torrent file
+TOTorrentFile getTorrentFile() | get torrent file
+TOTorrent readFromFile(QFile;Z) | read from file
+TOTorrent readFromFile(QFile;ZZ) | read from file
+URL hostFile(QFile;) | host file
+void addAuxFile(QFile;) | add aux file
+void addAuxiliaryFile(QDocFile;) | add auxiliary file
+void addAuxiliaryFile(QDocumentInfoGetter;) | add auxiliary file
+void addAuxiliaryFile(QOpenDefinitionsDocument;) | add auxiliary file
+void addClassPathFile(QFile;) | add class path file
+void addExcludedFile(QDocFile;) | add excluded file
+void addExcludedFile(QDocumentInfoGetter;) | add excluded file
+void addExcludedFile(QFile;) | add excluded file
+void addFile(IQFile;) | add file
+void addFile(QArrayList;QFile;) | add file
+void addFile(QArrayList;QSaveLocationChange;) | add file
+void addFile(QArrayList;QString;) | add file
+void addFile(QFile;) | add file
+void addFile(QFile;QString;QString;) | add file
+void addFile(Qorg.jajuk.base.File;) | add file
+void addFile(QPlaylistFile;) | add file
+void addFile(QString;) | add file
+void addIfFile(QFile;QSet<-QFile;>;) | add if file
+void addIncludedFile(QFile;) | add included file
+void addPlaylistFile(QPlaylistFile;) | add playlist file
+void addRecentFile(QFile;) | add recent file
+void addResourceFile(QString;QString;QZipOutputStream;) | add resource file
+void addSourceFile(QDocFile;) | add source file
+void addSourceFile(QDocumentInfoGetter;) | add source file
+void AttachFile(QString;) | attach file
+void backupFile() | backup file
+void backupFile(QFile;I) | backup file
+void backupFile(QFile;Z) | backup file
+void backupFile(QString;Z) | backup file
+void batchFilterFile(QFilter;[QString;) | batch filter file
+void browseFile(QString;QFieldEditor;) | browse file
+void changeFile(Qorg.jajuk.base.File;Qorg.jajuk.base.File;) | change file
+void changeFile([QString;) | change file
+void changeFile(QString;QFile;) | change file
+void changePlaylistFile(QPlaylistFile;QPlaylistFile;) | change playlist file
+void checkFile(QFile;QString;) | check file
+void checkValidFile() | check valid file
+void chooseDestinationFile() | choose destination file
+void _chooseFile() | choose file
+void chooseFile() | choose file
+void chooseFile(QBrowserMessage;) | choose file
+void chooseFile(QJTextPane;) | choose file
+void cleanUpFile() | clean up file
+void clear4newFile() | clear 4 new file
+void clearExcludedFile() | clear excluded file
+void clearIncludedFile() | clear included file
+void closeFile() | close file
+void closeFile(QCacheFileWithCache;) | close file
+void closeFile(QFMFileLimited;) | close file
+void closeFile(Z) | close file
+void _completeOpenFile(QOpenDefinitionsDocument;) | complete open file
+void compressFile(QString;QString;QFileAccess;) | compress file
+void copyFile(QFile;QFile;) | copy file
+void copyFile(QInputStream;QFile;) | copy file
+void copyFile(QInputStream;QOutputStream;) | copy file
+void copyFile(QInputStream;QOutputStream;Z) | copy file
+void copyFile(QString;QString;Z) | copy file
+void copyToFile(QTOTorrent;QFile;) | copy to file
+void createEmptyFile(QString;) | create empty file
+void createNewFile() | create new file
+void createTextFile() | create text file
+void createTorrentFile(QString;) | create torrent file
+void decompressFile(QString;QString;QFileAccess;) | decompress file
+void deleteAsxFile(QDownloadManager;) | delete asx file
+void deleteAzpdFile(QDownloadManager;) | delete az pd file
+void deleteFile(QFile;) | delete file
+void deleteFile(String fileName) | delete file
+void deleteFile(Z) | delete file
+void deleteResilientConfigFile(QString;) | delete resilient config file
+void deleteTorrentFile() | delete torrent file
+void disabled_setPartFile(QFile;) | disabled set part file
+void displayFile(QString;) | display file
+void doFile(QHttpServletRequest;QHttpServletResponse;QSmbFile;) | do file
+void downloadFile() | download file
+void DownloadFile() | download file
+void downLoadFile(QString;QFieldEditor;QComponent;) | down load file
+void downloadToFile() | download to file
+void dump2File(QString;QStringBuffer;) | dump 2 file
+void dumpToFile(QString;QFile;) | dump to file
+void execOnFile(File _target, FudaaUI _ui) | exec on file
+void exportToFile(QExportableProject;QFile;Qjavax.swing.filechooser.FileFilter;QComponent;) | export to file
+void exportToVuzeFile(QFile;) | export to vu ze file
+void filterFile(QFilter;[QString;) | filter file
+void _followFile() | follow file
+void generateFile(QString;QLinkedList;) | generate file
+void getUrlsFromPropFile(QString;QArrayList;) | get urls from prop file
+void HackFile() | hack file
+void handleDroppedfile(QString;QExternalFileType;ZQBibtexEntry;) | handle dropped file
+void handleDroppedfile(QString;QExternalFileType;ZQMainTable;I) | handle dropped file
+void handleFile(QAzureusCore;QString;Z) | handle file
+void handleOpenFile(QApplicationEvent;) | handle open file
+void importMindmanagerFile(QFile;) | import mind manager file
+void initFromArffFile(QString;) | init from arff file
+void installFromFile(QFile;) | install from file
+void LinkLocalFile() | link local file
+void loadFile() | load file
+void loadFile(QFile;) | load file
+void loadFile(QString;) | load file
+void loadFromFile(File f) | load from file
+void loadFromFile(QString;) | load from file
+void loadInferenceDataFromFile() | load inference data from file
+void loadListFile() | load list file
+void loadOptionFile(QString;) | load option file
+void loadXMLFromFile(QString;QXMLElement;) | load xml from file
+void lockFile(I) | lock file
+void logClientDiscrepancyToFile(QString;) | log client discrepancy to file
+void logFile(QString;QStringBuffer;) | log file
+void logToFile(QString;) | log to file
+void moveFile(QDiskManagerFileInfo;QFile;) | move file
+void moveFile(QFile;) | move file
+void moveFile(QFile;Z) | move file
+void moveTorrentFile(QFile;) | move torrent file
+void moveTorrentFile(QFile;QString;) | move torrent file
+void moveTorrentFile(QSaveLocationChange;) | move torrent file
+void newFile(QString;) | new file
+void NullFile() | null file
+void openExtProcessFile(QFile;) | open ext process file
+void openExtProcessJarFile(QFile;) | open ext process jar file
+void openFile() | open file
+void openFile(QFile;) | open file
+void openFile(QJFileChooser;QProject;) | open file
+void openFile(QProject;) | open file
+void openFile(QProject;QJFileChooser;) | open file
+void openLogFile(boolean truncate) | open log file
+void openRemoteExternalFile(QMetaData;QString;QExternalFileType;) | open remote external file
+void openSelectedFile() | open selected file
+void openTorrentFile(QString;) | open torrent file
+void playFile(int ids) | play file
+void PrefixAndFile(QString;QFile;) | prefix and file
+void processClassFile(QFile;) | process class file
+void processConfigFile(String base, Element element, Object component, ConfigureCommand command) | process config file
+void processDataFile() | process data file
+void process_file() | process file
+void processFile(QContext;QScriptable;QString;) | process file
+void processFile(QFile;) | process file
+void process_file(QString;) | process file
+void processJarFile(QFile;) | process jar file
+void readBIFFromFile(QString;) | read bif from file
+void readFile() | read file
+void readFile(IFile file) | read file
+void readSkelFile(QFile;) | read skel file
+void recheckFile(QDiskManagerFileInfo;) | recheck file
+void recheckFile(QDownloadManager;QDiskManagerFileInfo;) | recheck file
+void registerFile(QDirectory;) | register file
+void registerTorrentFile() | register torrent file
+void releaseFile() | release file
+void releaseFile(QFMFile;) | release file
+void remAuxFile(QFile;) | rem aux file
+void removeAuxiliaryFile(QOpenDefinitionsDocument;) | remove auxiliary file
+void removeExcludedFile(QFile;) | remove excluded file
+void removeFile() | remove file
+void removeFile(QFile;) | remove file
+void removeFile(Qorg.jajuk.base.File;) | remove file
+void removeIncludedFile(QFile;) | remove included file
+void removePlaylistFile(QPlaylistFile;) | remove playlist file
+void renameBackupFile() | rename backup file
+void renameDataFile() | rename data file
+void replaceFile(QFile;QFile;) | replace file
+void reserveFile() | reserve file
+void resetFile(QDiskManagerFileInfo;) | reset file
+void revertFile() | revert file
+void runFile(QTOTorrent;QString;) | run file
+void runFile(QTOTorrent;QString;Z) | run file
+void saveFile() | save file
+void saveFile(QFileSaver;) | save file
+void saveFile(QOpenDefinitionsDocument;QFileSaveSelector;) | save file
+void saveFile(QString;) | save file
+void saveHostToFile() | save host to file
+void saveInstancesToFile(QAbstractFileSaver;QInstances;) | save instances to file
+void saveListFile(QVector;) | save list file
+void saveTempAzpdFile(QFile;) | save temp az pd file
+void saveToFile(IQFile;) | save to file
+void saveToFile(QFile;) | save to file
+void saveToFile(QProject;QFile;) | save to file
+void saveXMLFile() | save xml file
+void saveXMLFile(QString;) | save xml file
+void selectFile() | select file
+void serialiseToBEncodedFile(QFile;) | serialise to b encoded file
+void serialiseToFile(QFile;) | serialise to file
+void serialiseToXMLFile(QFile;) | serialise to xml file
+void setApplicationFile(String applicationFile) | set application file
+void setArffFile(QString;) | set arff file
+void setBIFFile(QString;) | set bif file
+void setBoundsFile(QString;) | set bounds file
+void setCachedClassFile(QFile;) | set cached class file
+void setConfigurationFile(QString;) | set configuration file
+void setControlFile() | set control file
+void setCreateJarFile(QFile;) | set create jar file
+void setDebugVectorsFile(QFile;) | set debug vectors file
+void setExplicitPropsFile(Z) | set explicit props file
+void setExportFile(QString;) | set export file
+void setFile() | set file
+void setFile(QFile;) | set file
+void setFile(Qjava.io.File;) | set file
+void setFile(QString;) | set file
+void setFile(QString;QFile;) | set file
+void setFile(String fileBaseName) | set file
+void setFile(String pathName) | set file
+void setFirstFile(Z) | set first file
+void setHoldOutFile(QFile;) | set hold out file
+void setImportFile(QString;) | set import file
+void setInitFile(QFile;) | set init file
+void setInputCenterFile(QFile;) | set input center file
+void setInstancesFromFile(QAbstractFileLoader;) | set instances from file
+void setInstancesFromFile(QFile;) | set instances from file
+void setKernelMatrixFile(QFile;) | set kernel matrix file
+void setLogFile(QFile;) | set log file
+void setModelFile(QFile;) | set model file
+void setModelListFile(QString;) | set model list file
+void setOutputCenterFile(QFile;) | set output center file
+void setOutputFile(QFile;) | set output file
+void setOutputFile(QString;) | set output file
+void setPrimaryFile(QString;) | set primary file
+void setProjectFile(QFile;) | set project file
+void setPropertiesFile(QString;) | set properties file
+void setSelectedFile(QFile;) | set selected file
+void setSerializedClassifierFile(QFile;) | set serialized classifier file
+void setSourceFile(QFile;) | set source file
+void setStorageFile(QFile;) | set storage file
+void setTorrentFile(QFile;QString;) | set torrent file
+void setTorrentFile(QString;) | set torrent file
+void setUpFile() | set up file
+void setXmlFile(QString;) | set xml file
+void setZipFile(QZipFile;) | set zip file
+void shareFile(QAzureusCore;QShell;) | share file
+void shareFile(QAzureusCore;QString;) | share file
+void showFile(QFile;) | show file
+void showFile(QString;) | show file
+void showTextFile(QString;QString;ZII) | show text file
+void signJarFile(QFile;) | sign jar file
+void signJarFile(QFile;QOutputStream;) | sign jar file
+void slotEditPasteFile() | slot edit paste file
+void storeOpenDocumentSpreadsheetFile(QFile;QInputStream;) | store open document spreadsheet file
+void storeOpenOfficeFile(QFile;QInputStream;) | store open office file
+void testCancelOpenFile() | test cancel open file
+void testCustomConfigFile() | test custom config file
+void testFile() | test file
+void testFindFile() | test find file
+void testGetDocumentForFile() | test get document for file
+void testGetVolumeOfFile() | test get volume of file
+void testNoClassFile() | test no class file
+void testOpenNonexistentFile() | test open nonexistent file
+void testOpenRealFile() | test open real file
+void testParseFile() | test parse file
+void testReadAndWriteTempFile() | test read and write temp file
+void testRemoveFile() | test remove file
+void testReopenFile() | test reopen file
+void testRevertFile() | test revert file
+void testSaveFile() | test save file
+void testSplitFile() | test split file
+void TestSqlFile(QString;QString;) | test sql file
+void testWriteFile() | test write file
+void touchFile() | touch file
+void unlockFile() | unlock file
+void updateSourceFile(SourceObject sourceToUpdate) | update source file
+void writeAppearancesToMTLFile() | write appearances to mtl file
+void writeASXFile(QFile;QDownloadManager;) | write asx file
+void writeAzpdFile(QFile;QString;) | write az pd file
+void writeBytesAsFile(QString;[B) | write bytes as file
+void writeFile(QString;QString;) | write file
+void writeMapToFile(QMap;QString;) | write map to file
+void writeOptionFile(QString;) | write option file
+void writeOptionFile(String filename) | write option file
+void writeResilientBEncodedFile(QFile;QString;QMap;Z) | write resilient b encoded file
+void writeResilientConfigFile(QString;QMap;) | write resilient config file
+void writeResilientFile(QFile;QMap;) | write resilient file
+void writeResilientFile(QFile;QString;QMap;) | write resilient file
+void writeResilientFile(QFile;QString;QMap;Z) | write resilient file
+void writeResilientFile(QFile;QString;QMap;ZZ) | write resilient file
+void writeSemaphoreFile(QFile;) | write semaphore file
+void writeStringToFile(QFile;QString;) | write string to file
+void writeStringToFile(QFile;QString;Z) | write string to file
+void writeToFile(QFile;) | write to file
+void writeToFile(QFileSaveSelector;) | write to file
+void writeToFile(QFileSaveSelector;QString;) | write to file
+void writeToFile([[QString;I) | write to file
+void writeToFile(QTOTorrent;) | write to file
+void writeToFile(QTOTorrent;QFile;) | write to file
+void writeToFile(QTOTorrent;QFile;Z) | write to file
+void writeToFile(QTOTorrent;Z) | write to file
+void writeVuzeFile(QSubscriptionImpl;) | write vu ze file
+VuzeFile getVuzeFile() | get vu ze file
+VuzeFile getVuzeFile(QInputStream;) | get vu ze file
+VuzeFile loadAndHandleVuzeFile(QString;I) | load and handle vu ze file
+VuzeFile loadVuzeFile([B) | load vu ze file
+VuzeFile loadVuzeFile(QInputStream;) | load vu ze file
+VuzeFile loadVuzeFile(QMap;) | load vu ze file
+VuzeFile loadVuzeFile(QString;) | load vu ze file
+ZipFile getZipFile() | get zip file

@@ -1,0 +1,26 @@
+boolean checkBuildingCollapseWhileMoving(QBuilding;QEntity;QCoords;) | check building collapse while moving
+boolean checkForCollapse(QBuilding;QHashtable;) | check for collapse
+boolean hasCollapsedDescendant(QTreePath;) | has collapsed descendant
+Packet createCollapseBuildingPacket(QBuilding;) | create collapse building packet
+Packet createCollapseBuildingPacket(QVector;) | create collapse building packet
+String[] getCollapsedPaths() | get collapsed paths
+void addCollapsedPath(QString;) | add collapsed path
+void collapse() | collapse
+void collapseAll() | collapse all
+void collapseAll(TreeNode parentTreeNode) | collapse all
+void collapseBuilding(QBuilding;) | collapse building
+void collapseBuilding(QBuilding;QHashtable;) | collapse building
+void collapseBuilding(QVector;) | collapse building
+void collapsePaths(QHashSet<QString;>;) | collapse paths
+void collapsePaths([QString;) | collapse paths
+void collapse(QModelIterator;) | collapse
+void CollapseSubtreeAction() | collapse subtree action
+void collapseSubtree(QGroupTreeNode;) | collapse subtree
+void collapseToToolbar() | collapse to toolbar
+void notifyOfCollapse(IIQNode<QT;>;) | notify of collapse
+void receiveBuildingCollapse(QPacket;) | receive building collapse
+void setCollapsedPaths(QList<QString;>;) | set collapsed paths
+void testCollapse() | test collapse
+void testCollapsedPaths() | test collapsed paths
+void testNotifyCollapse() | test notify collapse
+void treeWillCollapse(QTreeExpansionEvent;) | tree will collapse

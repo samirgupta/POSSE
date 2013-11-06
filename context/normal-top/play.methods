@@ -1,0 +1,233 @@
+AIPlayer getAIPlayer() | get ai player
+ArrayList applyPlayOption(QArrayList;) | apply play option
+ArrayList getGlobalBestofPlaylist() | get global best of playlist
+ArrayList getGlobalNoveltiesPlaylist() | get global novelties playlist
+ArrayList getGlobalNoveltiesPlaylist(Z) | get global novelties playlist
+ArrayList getPlaylistFileItems() | get playlist file items
+ArrayList getPlaylists() | get playlists
+ArrayList getRepositoryCurrentPlaylistFileItem() | get repository current playlist file item
+ArrayList<QFile;> generatePlaylist() | generate playlist
+ArrayList<QFile;> getGlobalShufflePlaylist() | get global shuffle playlist
+ArrayList<QPlaylistFile;> getPlaylistFiles() | get playlist files
+boolean canAddNewPlayer() | can add new player
+boolean canPlay() | can play
+boolean canPlayDS(QObject;) | can play ds
+boolean canPlay(QDownloadManager;) | can play
+boolean canPlay(QTOTorrent;) | can play
+boolean canPlayViaExternalEMP(QTOTorrent;) | can play via external emp
+boolean developmentPlay() | development play
+boolean embeddedPlayerAvail() | embedded player avail
+boolean exec(String message, PlayerImpl player, SendTextMessage response) | exec
+boolean getPlaylists() | get playlists
+boolean hasWon(BoundedUniverse u, byte playersColour) | has won
+boolean isAllPlayersReadyToLaunch() | is all players ready to launch
+boolean isCurrentPlayer(QPlayer;) | is current player
+boolean isHumanPlayersLeft() | is human players left
+boolean isNextPlayerInNewTurn() | is next player in new turn
+boolean isNoMultiplePlay() | is no multiple play
+boolean isOffboardPlayable() | is offboard playable
+boolean isPhasePlayable(I) | is phase playable
+boolean isPlayable() | is playable
+boolean isPlayerVictor(I) | is player victor
+boolean isPlayerVictor(QPlayer;) | is player victor
+boolean isPlaying() | is playing
+boolean isPlaylist(QString;) | is playlist
+boolean isSingleplayer() | is single player
+boolean isStopPlaying() | is stop playing
+boolean mapPlaylistFile(QString;) | map playlist file
+boolean play() | play
+boolean playerNameInUse(QString;) | player name in use
+boolean playOrStream(QDownloadManager;) | play or stream
+boolean _playOrStream(QDownloadManager;QSWTSkinButtonUtility;) | play or stream
+boolean playOrStream(QDownloadManager;QSWTSkinButtonUtility;) | play or stream
+boolean play(QFile;FJ) | play
+boolean prepareForPlay(QDownloadManager;) | prepare for play
+boolean runInMediaPlayer(QString;) | run in media player
+boolean standardPlay() | standard play
+Class getPlayerImpl() | get player impl
+Element addPlayer(QElement;) | add player
+Element continuePlaying(QConnection;QElement;) | continue playing
+Element getVacantPlayers(QConnection;QElement;) | get vacant players
+Element playerReady(QElement;) | player ready
+Element removePlayer(QElement;) | remove player
+Element setCurrentPlayer(QDummyConnection;QElement;) | set current player
+Element setCurrentPlayer(QElement;) | set current player
+Enumeration getPlayers() | get players
+File getPlayeableFile(Z) | get playeable file
+File getPlayer(String type) | get player
+HumanPlayer getHumanPlayer() | get human player
+Image getPlayerCamo(QPlayer;) | get player camo
+Integer getPlayerID() | get player id
+int getCurrentlyPlaying() | get currently playing
+int getGoalPlayers() | get goal players
+int getMaximumPlayers() | get maximum players
+int getNextPlayerIndex() | get next player index
+int getNoOfPlayers() | get no of players
+int getNumberOfLivingHumanPlayers() | get number of living human players
+int getNumberOfPlayers() | get number of players
+int getPlayerId() | get player id
+int getPlayerNum() | get player num
+int getVictoryPlayerId() | get victory player id
+Iterator<Player> players() | players
+Iterator<QPlayer;> getPlayerIterator() | get player iterator
+List<QPlayer;> getEuropeanPlayers() | get european players
+List<QPlayer;> getPlayers() | get players
+List<QServerPlayer;> getOtherPlayers(QPlayer;) | get other players
+List<QString;> getVacantPlayers(QString;I) | get vacant players
+long getProgressivePlayETA() | get progressive play eta
+long getProgressivePlayETA(Z) | get progressive play eta
+long getTotalTimeToPlay() | get total time to play
+Map getPlayerDataMap(QDownloadManager;) | get player data map
+Packet createPlayerConnectPacket(I) | create player connect packet
+Packet createPlayerDonePacket(I) | create player done packet
+Packet createPlayerUpdatePacket(I) | create player update packet
+PlayerBase getPlayerBase() | get player base
+Player[] createPlayers(QProperties;) | create players
+PlayerExploredTile getPlayerExploredTile(QPlayer;) | get player explored tile
+Player getCurrentPlayer() | get current player
+Player getFirstPlayer() | get first player
+Player getLocalPlayer() | get local player
+Player getMyPlayer() | get my player
+Player getNextPlayer() | get next player
+Player getPlayer() | get player
+Player getPlayerAfter(QPlayer;) | get player after
+Player getPlayerByName(QString;) | get player by name
+Player getPlayer(I) | get player
+Player getPlayer(QString;) | get player
+Player getREFPlayer() | get ref player
+Player nextPlayer() | next player
+PlayerType getPlayerType() | get player type
+PlaylistFile changePlaylistFileName(QPlaylistFile;QString;) | change playlist file name
+PlaylistFile getPlayeablePlaylistFile() | get playeable playlist file
+PlaylistFile getPlaylistFile() | get playlist file
+PlaylistFileItem getCurrentPlaylistFileItem() | get current playlist file item
+PlaylistFile registerPlaylistFile(Qjava.io.File;QDirectory;) | register playlist file
+PlaylistFile registerPlaylistFile(QString;QString;QDirectory;) | register playlist file
+Playlist getPlaylist(QPlaylistFile;) | get playlist
+Playlist getPlayList(QPlaylistFile;) | get play list
+Playlist registerPlaylist(QPlaylistFile;) | register playlist
+Playlist registerPlaylist(QString;QPlaylistFile;) | register playlist
+ServerPlayer addAIPlayer(QNation;) | add ai player
+ServerPlayer createREFPlayer(QServerPlayer;) | create ref player
+ServerPlayer getPlayer(QConnection;) | get player
+Set<QPlaylistFile;> getPlaylistFiles() | get playlist files
+String getLastPlayerName() | get last player name
+String getPlayAfterURL() | get play after url
+String getPlayerName() | get player name
+String getPlayLink() | get play link
+String getPlaylistPath() | get playlist path
+Team getTeamForPlayer(QPlayer;) | get team for player
+Vector getPlayerEntities(QPlayer;) | get player entities
+Vector getPlayersVector() | get players vector
+void addPlayAction(QString;QString;QString;IQKeyStroke;Z) | add play action
+void addPlayer(IQPlayer;) | add player
+void addPlayer(QPlayer;) | add player
+void addPlaylistFile(QPlaylistFile;) | add playlist file
+void addPlaylist(QNameValue;) | add playlist
+void announce(Container player, String args) | announce
+void calculatePlayerBVs() | calculate player b vs
+void changeLife(Player player, int newValue) | change life
+void changePlaylistFile(QPlaylistFile;QPlaylistFile;) | change playlist file
+void changeRelationWithPlayer(QPlayer;QStance;) | change relation with player
+void continuePlaying() | continue playing
+void createPlayerExploredTile(QPlayer;) | create player explored tile
+void gamePlayerChange(QGamePlayerChangeEvent;) | game player change
+void gamePlayerChat(QGamePlayerChatEvent;) | game player chat
+void hcPlay() | hc play
+void movePlayerToSquare(Player player, Point destination) | move player to square
+void onPlaylist(QPlaylist;) | on playlist
+void play() | play
+void PlayerExploredTile(QPlayer;QTileItemContainer;) | player explored tile
+void PlayerExploredTile(QXMLStreamReader;) | player explored tile
+void playFile(int ids) | play file
+void PlaylistContainer(QPlaylistProxy;QString;QString;) | playlist container
+void PlayListEditorTableModel() | play list editor table model
+void PlaylistFilter() | playlist filter
+void playMusicOnce(QString;) | play music once
+void playMusicOnce(QString;I) | play music once
+void playMusic(QString;) | play music
+void playNext() | play next
+void playNextAlbum() | play next album
+void playOnce(QPlaylist;) | play once
+void playOnce(QPlaylist;I) | play once
+void playOrStreamDataSource(QObject;QSWTSkinButtonUtility;) | play or stream data source
+void playOrStreamDataSource(QObject;QSWTSkinButtonUtility;QString;) | play or stream data source
+void playOrStream(QDownloadManager;) | play or stream
+void playPrevious() | play previous
+void playPreviousAlbum() | play previous album
+void play(QFile;FJF) | play
+void play(Qorg.jajuk.base.File;FJF) | play
+void play(QPlaylist;) | play
+void play(QPlaylistFileItem;) | play
+void play(QPlaylist;I) | play
+void play(QPlaylist;ZIII) | play
+void playSound(QFile;) | play sound
+void playSound(QSoundLibrary.SoundEffect;) | play sound
+void playSound(QString;) | play sound
+void play(String filepath) | play
+void playSystemAlert() | play system alert
+void playViaMediaServer(QDownload;) | play via media server
+void play(ZZZ) | play
+void populatePlaylists() | populate playlists
+void prepareToPlay() | prepare to play
+void rawplay(QAudioFormat;QAudioInputStream;) | raw play
+void receivePlayerDone(QPacket;I) | receive player done
+void receivePlayerInfo(QPacket;) | receive player info
+void receivePlayerInfo(QPacket;I) | receive player info
+void receivePlayerName(QPacket;I) | receive player name
+void refreshPlayerInfo() | refresh player info
+void refreshPlayerList() | refresh player list
+void refreshPlayerList(QJList;QClient;) | refresh player list
+void refreshPlayerList(QList;QClient;) | refresh player list
+void refreshPlayersTable() | refresh players table
+void refreshPlaylist(QPlaylistFile;) | refresh playlist
+void removePlayer(I) | remove player
+void removePlayerInternal(Topic arg0) | remove player internal
+void removePlayer(QPlayer;) | remove player
+void removePlaylistFile(QPlaylistFile;) | remove playlist file
+void removePlaylist(QPlaylist;) | remove playlist
+void resetActivePlayersDone() | reset active players done
+void resetPlayersDone() | reset players done
+void revealMapForAllPlayers() | reveal map for all players
+void selectPlaylistFileItem(QPlaylistFileItem;) | select playlist file item
+void sendPlayerInfo() | send player info
+void setCanPlay(Z) | set can play
+void setCurrentPlayer(QPlayer;) | set current player
+void setCurrentPlaylistFileItem(QPlaylistFileItem;) | set current playlist file item
+void setGoalPlayers(I) | set goal players
+void setLastPlayerCamoName(QString;) | set last player camo name
+void setLastPlayerCategory(QString;) | set last player category
+void setLastPlayerColor(I) | set last player color
+void setLastPlayerName(QString;) | set last player name
+void setLocalPlayer(QPlayer;) | set local player
+void setMaximumPlayers(I) | set maximum players
+void setMyPlayer(QPlayer;) | set my player
+void setPlayable(Z) | set playable
+void setPlayer(IQPlayer;) | set player
+void setPlayerName(int no, String name) | set player name
+void setPlayerName(QString;) | set player name
+void setPlayerNum(I) | set player num
+void setPlayer(QServerPlayer;) | set player
+void setPlayerType(QPlayerType;) | set player type
+void setPlayLink(QString;) | set play link
+void setPlaylistPath(QString;) | set playlist path
+void setPlaylistPath(String playlistPath) | set playlist path
+void setPlaylist(QPlaylistFile;) | set playlist
+void setPlaylists(QArrayList;) | set playlists
+void setSinglePlayerOptions(Z) | set single player options
+void setSingleplayer(Z) | set single player
+void setSoundPlayer(QSoundPlayer;) | set sound player
+void setupPlayerInfo() | setup player info
+void setVictoryPlayerId(I) | set victory player id
+void showPlayerList() | show player list
+void SoundPlayerThread(QPlaylist;ZIII) | sound player thread
+void startSingleplayerGame(QString;IZI) | start single player game
+void stopPlaying() | stop playing
+void transmitAllPlayerConnects(I) | transmit all player connects
+void transmitAllPlayerDones() | transmit all player don es
+void transmitAllPlayerUpdates() | transmit all player updates
+void updatePlayerChoice() | update player choice
+void updatePlayerExploredTile(QPlayer;) | update player explored tile
+void updatePlayerExploredTiles() | update player explored tiles
+void updatePlayer(QPlayer;) | update player
+void validatePlayerInfo(I) | validate player info

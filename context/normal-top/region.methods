@@ -1,0 +1,113 @@
+ArrayList<QFileRegion;> getFileRegions() | get file regions
+ArrayList<QR;> getRegions() | get regions
+ArrayList<QR;> getSelectedRegions() | get selected regions
+boolean isCurrentRegionFirst() | is current region first
+boolean isCurrentRegionLast() | is current region last
+boolean isInFollowLinkRegion(D) | is in follow link region
+boolean isInVerticalRegion(DD) | is in vertical region
+boolean matchesRegion(QHighlightInfo;) | matches region
+boolean onlineUpdate(DcObject dco, DcServer server, DcRegion region) | online update
+boolean regionMatches(boolean ignoreCase, int toffset, String other, int ooffset, int len) | region matches
+boolean regionMatches(ZQSegment;I[C) | region matches
+boolean regionMatches(ZQSegment;IQString;) | region matches
+BrowserDocumentRegion getCurrentRegion() | get current region
+BrowserDocumentRegion nextCurrentRegion(QGlobalEventNotifier;) | next current region
+BrowserDocumentRegion prevCurrentRegion(QGlobalEventNotifier;) | prev current region
+Collection<QRegion;> getRegions() | get regions
+Collection<QR;> getRegionsOverlapping(QOpenDefinitionsDocument;II) | get regions overlapping
+CollectionRegion buildCollectionRegion(QString;QProperties;QCacheDataDescription;) | build collection region
+CollectionRegion getRegion() | get region
+Criteria setCacheRegion(QString;) | set cache region
+double[] calculateRegionProbs(II) | calculate region probs
+EntityRegion buildEntityRegion(QString;QProperties;QCacheDataDescription;) | build entity region
+EntityRegion getRegion() | get region
+int getNumSamplesPerRegion() | get num samples per region
+int getRegionTypeId() | get region type id
+List<QString;> getRegionNames() | get region names
+Map getAllSecondLevelCacheRegions() | get all second level cache regions
+Pair<QR;QR;> getRegionInterval(QOpenDefinitionsDocument;I) | get region interval
+QueryResultsRegion buildQueryResultsRegion(QString;QProperties;) | build query results region
+QueryResultsRegion getRegion() | get region
+Query setCacheRegion(QString;) | set cache region
+Rectangle getControlRegion(QPoint2D;) | get control region
+RegionFactory createRegionFactory(QProperties;Z) | create region factory
+RegionFactory getRegionFactory() | get region factory
+Region getDiscoverableRegion() | get discoverable region
+Region getRegion() | get region
+Region getRegionByName(QString;) | get region by name
+Region getRegion(QString;) | get region
+Region getRoundedRegion(QRectangle;) | get rounded region
+Region getSecondLevelCacheRegion(QString;) | get second level cache region
+RegionListUserObj<QBrowserDocumentRegion;> getUserObjForRegion(QBrowserDocumentRegion;) | get user obj for region
+RegionListUserObj<QBrowserDocumentRegion;> makeRegionListUserObj(QBrowserDocumentRegion;) | make region list user obj
+RegionListUserObj<QR;> getUserObjForRegion(QR;) | get user obj for region
+RegionListUserObj<QR;> makeRegionListUserObj(QR;) | make region list user obj
+RegionModel getRegionModel() | get region model
+RegionTreeUserObj<QBreakpoint;> makeRegionTreeUserObj(QBreakpoint;) | make region tree user obj
+RegionTreeUserObj<QR;> makeRegionTreeUserObj(QR;) | make region tree user obj
+R getRegionAt(QOpenDefinitionsDocument;I) | get region at
+R region() | region
+ServerRegion getRegion() | get region
+Shape getDependencyRegion(IQRectangle;) | get dependency region
+Shape getDependencyRegion(IQRectangle2D;) | get dependency region
+Shape getDirtyRegion(IQRectangle;) | get dirty region
+Shape getDirtyRegion(IQRectangle2D;) | get dirty region
+SoftLock lockRegion() | lock region
+SortedSet<QBrowserDocumentRegion;> getRegions() | get regions
+SortedSet<QR;> getRegions(QOpenDefinitionsDocument;) | get regions
+String getCacheRegion() | get cache region
+String getCacheRegionName() | get cache region name
+String getCacheRegionPrefix() | get cache region prefix
+String getDefaultRegionName(QRegionType;) | get default region name
+String getRegionName() | get region name
+String[] getSecondLevelCacheRegionNames() | get second level cache region names
+String replaceLineRegion(QString;IIQString;B) | replace line region
+TimestampsRegion buildTimestampsRegion(QString;QProperties;) | build timestamps region
+TimestampsRegion getRegion() | get region
+T newDocumentRegion(QOpenDefinitionsDocument;II) | new document region
+void addBrowserRegion(QBrowserDocumentRegion;) | add browser region
+void addBrowserRegion(QBrowserDocumentRegion;QGlobalEventNotifier;) | add browser region
+void addPolarRegions() | add polar regions
+void addRegion(QR;) | add region
+void addRegion(QR;I) | add region
+void assertRegionAddedCount(I) | assert region added count
+void assertRegionChangedCount(I) | assert region changed count
+void assertRegionRemovedCount(I) | assert region removed count
+void backRegion() | back region
+void BreakpointRegionTreeUserObj(QBreakpoint;) | breakpoint region tree user obj
+void changeRegion(QBrowserDocumentRegion;QLambda<QBrowserDocumentRegion;QObject;>;) | change region
+void changeRegion(QR;QLambda<QR;QObject;>;) | change region
+void clearBrowserRegions() | clear browser regions
+void clearRegion(QGraphics2D;QRectangle2D;) | clear region
+void clearRegions() | clear regions
+void createLandRegions(QMap;) | create land regions
+void createOceanRegions(QMap;) | create ocean regions
+void evictCollectionRegions() | evict collection regions
+void evictEntityRegions() | evict entity regions
+void forwardRegion() | forward region
+void goToRegion() | go to region
+void goToRegionAndHighlight(QIDocumentRegion;) | go to region and highlight
+void insertNewRegionNode(QR;QDefaultMutableTreeNode;I) | insert new region node
+void RegionListUserObj(QR;) | region list user obj
+void region(QpingValue;QpingValue;) | region
+void RegionTree(QDefaultTreeModel;) | region tree
+void RegionTreeUserObj(QR;) | region tree user obj
+void removeBrowserRegion(QBrowserDocumentRegion;) | remove browser region
+void removeRegion(QR;) | remove region
+void removeRegions(QIterable<+QR;>;) | remove regions
+void removeRegions(QOpenDefinitionsDocument;) | remove regions
+void setCacheRegionName(QString;) | set cache region name
+void setCacheRegionPrefix(QString;) | set cache region prefix
+void setCacheRegion(QString;) | set cache region
+void setCurrentRegion(QBrowserDocumentRegion;) | set current region
+void setNumSamplesPerRegion(I) | set num samples per region
+void setRegionFactory(QRegionFactory;) | set region factory
+void setRegion(QRegion;) | set region
+void setRegion(QServerRegion;) | set region
+void _setupRegionList() | setup region list
+void _setupRegionTree() | setup region tree
+void testBrowserDocumentRegion() | test browser document region
+void testDummyDocumentRegion() | test dummy document region
+void testRegionManager() | test region manager
+void testSimpleDocumentRegion() | test simple document region
+void unlockRegion(QSoftLock;) | unlock region

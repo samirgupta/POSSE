@@ -1,0 +1,14 @@
+Element spawnWildcard(IQString;QString;QString;QAttributes;) | spawn wildcard
+Object spawnChildFromEnterAttribute(QClass;IQString;QString;QString;) | spawn child from enter attribute
+Object spawnChildFromEnterElement(QClass;IQString;QString;QString;QAttributes;) | spawn child from enter element
+Object spawnChildFromLeaveAttribute(QClass;IQString;QString;QString;) | spawn child from leave attribute
+Object spawnChildFromLeaveElement(QClass;IQString;QString;QString;) | spawn child from leave element
+Object spawnChildFromText(QClass;IQString;) | spawn child from text
+UnmarshallingEventHandler spawnChild(Class clazz, int memento) | spawn child
+UnmarshallingEventHandler spawnChild(QClass;I) | spawn child
+void spawnHandlerFromEnterAttribute(QUnmarshallingEventHandler;IQString;QString;QString;) | spawn handler from enter attribute
+void spawnHandlerFromEnterElement(QUnmarshallingEventHandler;IQString;QString;QString;QAttributes;) | spawn handler from enter element
+void spawnHandlerFromFromText(QUnmarshallingEventHandler;IQString;) | spawn handler from from text
+void spawnHandlerFromLeaveAttribute(QUnmarshallingEventHandler;IQString;QString;QString;) | spawn handler from leave attribute
+void spawnHandlerFromLeaveElement(QUnmarshallingEventHandler;IQString;QString;QString;) | spawn handler from leave element
+void spawnHandlerFromText(QUnmarshallingEventHandler;IQString;) | spawn handler from text

@@ -1,0 +1,151 @@
+boolean getIgnoreCommentsAndStrings() | get ignore comments and strings
+boolean _inBlockComment() | in block comment
+boolean inBlockComment() | in block comment
+boolean _inBlockComment(I) | in block comment
+boolean inLineComment() | in line comment
+boolean isBlockCommentEnd() | is block comment end
+boolean isBlockCommentStart() | is block comment start
+boolean isCommentOpen(QString;I) | is comment open
+boolean isCommentStart() | is comment start
+boolean isCommentStart(QString;I) | is comment start
+boolean isLineComment() | is line comment
+boolean isOpenComment() | is open comment
+boolean _isStartOfComment(QString;I) | is start of comment
+boolean printComments(SchemaObject obj, boolean leading) | print comments
+boolean readXmlComment() | read xml comment
+boolean setCommentAndFormatLinks(QControl;QString;) | set comment and format links
+boolean supportsCommentOn() | supports comment on
+boolean writeBlockComment(QString;) | write block comment
+byte[] getComment() | get comment
+Comment[] getComments() | get comments
+Criteria setComment(QString;) | set comment
+Delete setComment(QString;) | set comment
+DetachedCriteria setComment(QString;) | set comment
+Element addComment(QString;) | add comment
+InsertSelect setComment(QString;) | set comment
+Insert setComment(QString;) | set comment
+int commentBlock(II) | comment block
+int commentCursorOffset() | comment cursor offset
+int commentLines(II) | comment lines
+int getCommentLineCount() | get comment line count
+int getComments() | get comments
+int getFileCommentSize() | get file comment size
+Iterator sqlCommentStrings(QDialect;QString;QString;) | sql comment strings
+List findByCommentInfo(Object commentInfo) | find by comment info
+Query setComment(QString;) | set comment
+Select setComment(QString;) | set comment
+SimpleSelect setComment(QString;) | set comment
+String buildHTMLComment(QAuctionEntry;) | build html comment
+String formatCommentOn(QString;) | format comment on
+String getColumnComment(QString;) | get column comment
+String getComment() | get comment
+String getCommentText() | get comment text
+String getLMSComment() | get lms comment
+String getTableComment(QString;) | get table comment
+String getTitleAndComment(QAuctionEntry;) | get title and comment
+String getTorrentComment() | get torrent comment
+String getUserComment() | get user comment
+String prependComment(QString;QQueryParameters;) | prepend comment
+String stripComments(QString;CC) | strip comments
+Track changeTrackComment(QTrack;QString;QHashSet;) | change track comment
+Update setComment(QString;) | set comment
+void addComment(QComment;) | add comment
+void addComment(QString;) | add comment
+void addComment(String commenterId, String commenterName, String comment, Long chapterId) | add comment
+void bindComment(QTable;QElement;) | bind comment
+void _checkPreviousInsertCommentChar(QString;) | check previous insert comment char
+void comment(char ch, int start, int length) | comment
+void _commentLine() | comment line
+void _commentLines() | comment lines
+void commentLines() | comment lines
+void comment(QString;) | comment
+void comment(String comment) | comment
+void DeleteComment(QAuctionEntry;) | delete comment
+void deleteLineCommentSlashOpensBlockComment() | delete line comment slash opens block comment
+void DoComment(QComponent;QAuctionEntry;) | do comment
+void editComment() | edit comment
+void emptyComment(QTransformerHandler;) | empty comment
+void helperCommentTest(QString;IIQString;) | helper comment test
+void mLINE_COMMENT() | m line comment
+void NoCommentsInsert(QDialect;) | no comments insert
+void parseComment() | parse comment
+void plotComments(QGraphics2D;) | plot comments
+void PosInBlockComment(I) | pos in block comment
+void promptUserForComment([QDownloadManager;) | prompt user for comment
+void recordComment(QString;) | record comment
+void setComment([B) | set comment
+void setComment(QString;) | set comment
+void setCommentsFromHTML(QString;) | set comments from html
+void setComments(QString;) | set comments
+void setComment(String comment) | set comment
+void setFileCommentSize(I) | set file comment size
+void setIgnoreCommentsAndStrings(Z) | set ignore comments and strings
+void setUserComment(QString;) | set user comment
+void showCommentMessageBox([QObject;QString;I) | show comment message box
+void ShowComment(QComponent;QAuctionEntry;) | show comment
+void skipComment() | skip comment
+void skipComment(QIXMLReader;) | skip comment
+void _splitCurrentIfCommentBlock(ZZ) | split current if comment block
+void testAfterBlockComment() | test after block comment
+void testAfterBlockComment2() | test after block comment 2
+void testAfterBlockComment3() | test after block comment 3
+void testAfterBlockComment4() | test after block comment 4
+void testAfterCommentedOutSlashStar() | test after commented out slash star
+void testBasicBlockComment() | test basic block comment
+void testBlockCommentStartEatsEnd() | test block comment start eats end
+void testBreakBlockCommentWithStar() | test break block comment with star
+void testBreakCloseBlockCommentWithStar() | test break close block comment with star
+void testColonInTernaryOpIgnoreWhitespaceAndComments() | test colon in ternary op ignore whitespace and comments
+void testColonNotInTernaryOpDueToQuestionMarkInCommentsOrQuotes() | test colon not in ternary op due to question mark in comments or quotes
+void testComment() | test comment
+void testCommentedBrace() | test commented brace
+void testCommentedOutSlashStar() | test commented out slash star
+void testCommentedOutSlashStarAfter() | test commented out slash star after
+void testCommentedOutSlashStarAt() | test commented out slash star at
+void testCommentedOutSlashStarBefore() | test commented out slash star before
+void testCommentedPrefix() | test commented prefix
+void testCommentedPrefixDontSearchComment() | test commented prefix dont search comment
+void testCommentedPrefixSearchComment() | test commented prefix search comment
+void testCommentOutMultipleLines() | test comment out multiple lines
+void testCommentOutSingleLine() | test comment out single line
+void testCommentPrefix() | test comment prefix
+void testComments() | test comments
+void testCommentsAfterBrace() | test comments after brace
+void testDeleteBlockCommentMakesLineComment() | test delete block comment makes line comment
+void testDeleteFreesBlockCommentEnd() | test delete frees block comment end
+void testDeleteNewlineAndShadowBlockCommentStart() | test delete newline and shadow block comment start
+void testEndOfBlockComment() | test end of block comment
+void testGetMultipleExcludesComments() | test get multiple excludes comments
+void testHalfLineComment() | test half line comment
+void testIgnoreCommentsCStyle() | test ignore comments c style
+void testIndentComments() | test indent comments
+void testIndentInsideCommentBlock() | test indent inside comment block
+void testInsertBlockCommentEnd() | test insert block comment end
+void testInsertBlockInsideBlockComment() | test insert block inside block comment
+void testInsertBraceAndBreakBlockCommentStart() | test insert brace and break block comment start
+void testInsertBraceAndBreakLineComment() | test insert brace and break line comment
+void testInsertNewlineEndLineComment() | test insert newline end line comment
+void testInsideComment() | test inside comment
+void testLineBeginsComment() | test line begins comment
+void testLineCommentBreakCrazy() | test line comment break crazy
+void testLineCommentStealsBlockCommentSlash() | test line comment steals block comment slash
+void testLineCommentStealsLineCommentSlash() | test line comment steals line comment slash
+void testLineDoesNotContainColonDueToComments() | test line does not contain colon due to comments
+void testLineEndsComment() | test line ends comment
+void testMultilineCommentOrUncommentAfterScroll() | test multiline comment or uncomment after scroll
+void testMultipleCommentLinesBack() | test multiple comment lines back
+void testNotRecognizeComments() | test not recognize comments
+void testNotRecognizeComments2() | test not recognize comments 2
+void testNotStartOfStmtDueToEndCharactersInCommentsOrQuotes() | test not start of stmt due to end characters in comments or quotes
+void testParenDelimsWithComment() | test paren delims with comment
+void testQuoteBreakComment2() | test quote break comment 2
+void testQuoteBreaksComment() | test quote breaks comment
+void testStartOfStmtIgnoreWhiteSpaceAndCommentsInBetween() | test start of stmt ignore white space and comments in between
+void testUnmaskBlockCommentedLineComment() | test unmask block commented line comment
+void testWingComment() | test wing comment
+void textTopLevelClassNameWComments() | text top level class name w comments
+void textUndoAndRedoAfterMultipleLineCommentAndUncomment() | text undo and redo after multiple line comment and uncomment
+void unsetComments() | unset comments
+void writeCommentExtension(QOutputStream;) | write comment extension
+void writeComment(QObject;) | write comment
+void writeOpenComment(Writer writer, Comments comments) | write open comment

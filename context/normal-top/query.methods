@@ -1,0 +1,212 @@
+Answer executeQuery(Graph graph, QueryEngine queryEngine) | execute query
+ArrayList<QString;> parseQuery(QString;) | parse query
+boolean isCompiledQueryEqual(ForwardQueryResult qc) | is compiled query equal
+boolean isDefaultQueryRange(Attribute attr) | is default query range
+boolean isShallowQuery() | is shallow query
+boolean isSubQuery() | is sub query
+boolean processQuery(QString;QImportInspector;QOutputPrinter;) | process query
+boolean queryHasAliases() | query has aliases
+boolean queryHasParameter(QString;QString;Z) | query has parameter
+boolean supportsResultSetPositionQueryMethodsOnForwardOnlyCursor() | supports result set position query methods on forward only cursor
+CallableStatement prepareCallableQueryStatement(QString;ZQScrollMode;) | prepare callable query statement
+Collection<QBibtexEntry;> query(QString;QEntryFetcher;) | query
+double getQueryValue(Metric jdsn) | get query value
+DynamicQuery getColumnDynamicQuery(Column c) | get column dynamic query
+FilterQueryPlan getFilterQueryPlan(QObject;QString;QQueryParameters;Z) | get filter query plan
+FilterQueryPlan getFilterQueryPlan(QString;QString;ZQMap;) | get filter query plan
+Hits initSearch(String queryString) | init search
+HQLQueryPlan getHQLQueryPlan(QString;Z) | get hql query plan
+HQLQueryPlan getHQLQueryPlan(QString;ZQMap;) | get hql query plan
+Info queryPath(QString;I) | query path
+int bindQueryParameters(QPreparedStatement;QQueryParameters;IQNamedParameterSource;QSessionImplementor;) | bind query parameters
+int getQueryTimeout() | get query timeout
+int lockFeatures(Query query) | lock features
+int performQuery(QArrayList;) | perform query
+int query(QString;QMap;) | query
+int queryRowCount(QString;) | query row count
+int readSmbQueryFileBasicInfoWireFormat([BI) | read smb query file basic info wire format
+int readSmbQueryFileStandardInfoWireFormat([BI) | read smb query file standard info wire format
+int readSmbQueryFSSizeInfoWireFormat([BI) | read smb query fs size info wire format
+int sendQuery(QDHTTransportContact;) | send query
+it.businesslogic.ireport.gui.ReportQueryDialog getReportQueryDialog() | get report query dialog
+java.lang.String getQuery() | get query
+List doQueryAndInitializeNonLazyCollections(QSessionImplementor;QQueryParameters;Z) | do query and initialize non lazy collections
+List doQuery(QSessionImplementor;QQueryParameters;Z) | do query
+List epsilonRangeQuery(DQDataObject;) | epsilon range query
+List find(String query, Object obj, Type type) | find
+List findWithDynamicQuery(DynamicQueryInitializer queryInitializer, int begin, int end) | find with dynamic query
+List getCustomQueryReturns() | get custom query returns
+List getQuerySpaces() | get query spaces
+List getResultFromQueryCache(QSessionImplementor;QQueryParameters;QSet;[QType;QQueryCache;QQueryKey;) | get result from query cache
+List k_nextNeighbourQuery(IDQDataObject;) | k next neighbour query
+List listCustomQuery(QCustomQuery;QQueryParameters;) | list custom query
+List listIgnoreQueryCache(QSessionImplementor;QQueryParameters;) | list ignore query cache
+List listUsingQueryCache(QSessionImplementor;QQueryParameters;QSet;[QType;) | list using query cache
+List queryForList(String sql, Map paramMap, Class elementType) | query for list
+long getQueryCacheHitCount() | get query cache hit count
+long getQueryCacheMissCount() | get query cache miss count
+long getQueryCachePutCount() | get query cache put count
+long getQueryExecutionCount() | get query execution count
+long getQueryExecutionMaxTime() | get query execution max time
+long queryForLong(String sql, Object args, int argTypes) | query for long
+long queryFSInformation(I) | query fs information
+Map getQuerySubstitutions() | get query substitutions
+NamedQueryDefinition getNamedQuery(QString;) | get named query
+NamedQueryDefinition getQuery(QString;) | get query
+NamedSQLQueryDefinition getNamedSQLQuery(QString;) | get named sql query
+NativeSQLQueryPlan getNativeSQLQueryPlan(QNativeSQLQuerySpecification;) | get native sql query plan
+NativeSQLQueryReturn[] getQueryReturns() | get query returns
+NativeSQLQuerySpecification generateQuerySpecification(QMap;) | generate query specification
+NativeWith enterDotQuery(QScriptable;) | enter dot query
+NbtAddress doNameQuery(QName;QInetAddress;) | do name query
+Node createDotQuery(QNode;QNode;I) | create dot query
+Object doquery(String query, Object subst) | do query
+Object[] getQueryableInterfaces() | get queryable interfaces
+Object queryForClass(QClass;) | query for class
+Object queryForClass(QClass;[QObject;) | query for class
+Object queryForClass([QObject;QClass;) | query for class
+Object updateDotQuery(Z) | update dot query
+Object updateDotQuery(ZQScriptable;) | update dot query
+Packet createMapQueryPacket(QMapSettings;) | create map query packet
+PreparedStatement prepareQueryStatement(QQueryParameters;ZQSessionImplementor;) | prepare query statement
+PreparedStatement prepareQueryStatement(QString;ZQScrollMode;) | prepare query statement
+QueryableCollection getQueryableCollection() | get queryable collection
+QueryableCollection getQueryableCollection(QString;QString;QSessionFactoryImplementor;) | get queryable collection
+QueryableCollection requireQueryableCollection(QString;) | require queryable collection
+Queryable findQueryableUsingImports(QSessionFactoryImplementor;QString;) | find queryable using imports
+Queryable findQueryableUsingImports(QString;) | find queryable using imports
+Queryable getAffectedQueryable() | get affected queryable
+Queryable[] getAffectedQueryables() | get affected queryables
+Queryable getQueryable() | get queryable
+QueryCacheFactory createQueryCacheFactory(QProperties;) | create query cache factory
+QueryCacheFactory getQueryCacheFactory() | get query cache factory
+QueryCache getQueryCache() | get query cache
+QueryCache getQueryCache(QString;) | get query cache
+QueryCache getQueryCache(QString;QUpdateTimestampsCache;QSettings;QProperties;) | get query cache
+Query createQuery(QString;) | create query
+Query createSQLQuery(QString;[QString;[QClass;) | create sql query
+Query createSQLQuery(QString;QString;QClass;) | create sql query
+Query getNamedQuery(QString;) | get named query
+Query getNamedSQLQuery(QString;) | get named sql query
+Query newConnectedForwardPageQuery(String sql, long pageSize) | new connected forward page query
+QueryPanel getQueryPanel() | get query panel
+QueryParameters getQueryParameters() | get query parameters
+QueryParameters getQueryParameters(QMap;) | get query parameters
+QueryPlanCache getQueryPlanCache() | get query plan cache
+QueryResultsRegion buildQueryResultsRegion(QString;QProperties;) | build query results region
+QueryStatistics getQueryStatistics(QString;) | get query statistics
+QueryTranslator createQueryTranslator(QString;QString;QMap;QSessionFactoryImplementor;) | create query translator
+QueryTranslatorFactory createQueryTranslatorFactory(QProperties;) | create query translator factory
+QueryTranslatorFactory getQueryTranslatorFactory() | get query translator factory
+ResultSet executeQuery() | execute query
+ResultSet executeQuery(QString;) | execute query
+Scriptable enterDotQuery(QObject;QScriptable;) | enter dot query
+Scriptable leaveDotQuery(QScriptable;) | leave dot query
+ScrollableResults scrollCustomQuery(QCustomQuery;QQueryParameters;) | scroll custom query
+SearchQueryBinding getSearchQuery() | get search query
+Serializable[] getQuerySpaces() | get query spaces
+Set getQuerySpaces() | get query spaces
+Set<ObjectName> queryNames(ObjectName name, QueryExp query) | query names
+Set queryObjectNames(QueryExp exp) | query object names
+SQLCustomQuery getCustomQuery() | get custom query
+SQLQuery addQuerySpaces([QSerializable;) | add query spaces
+SQLQuery addSynchronizedQuerySpace(QString;) | add synchronized query space
+SQLQuery createSQLQuery(QString;) | create sql query
+StringBuffer toQueryPrefix(QString;) | to query prefix
+String buildInsertQuery() | build insert query
+String buildSelectQuery(QDialect;) | build select query
+String buildUpdateQuery() | build update query
+String createQuery(Qorg.jajuk.base.File;) | create query
+String createTableStructureQuery() | create table structure query
+String endOfQuery(Z) | end of query
+String getHQLQuery() | get hql query
+String getQuery() | get query
+String getQueryExecutionMaxTimeQueryString() | get query execution max time query string
+String getQueryIdentifier() | get query identifier
+String getQueryName() | get query name
+String[] getQueryReturnAliases() | get query return aliases
+String getQuerySequencesString() | get query sequences string
+String getQueryString() | get query string
+String getQuerySubstitutions() | get query substitutions
+String getSearchQuery() | get search query
+String getSourceQuery() | get source query
+String interpretQuery() | interpret query
+String limitQuery(QString;II) | limit query
+String queryAuxConfiguration(QString;QString;) | query aux configuration
+String queryConfiguration(QString;) | query configuration
+String queryConfiguration(QString;QString;) | query configuration
+String queryDisplayProperty(QString;) | query display property
+String queryDisplayProperty(QString;QString;) | query display property
+String queryLookup(QString;QString;) | query lookup
+String queryTipText() | query tip text
+String toQueryString() | to query string
+Type[] getQueryReturnTypes() | get query return types
+Type getReturnTypes(String queryString) | get return types
+Vector serveSelectAdapter(Hashtable visitedvalues, SelectQuery query, Vector values) | serve select adapter
+void addOrderBy(SelectionQuery query, String queryString, Map tables) | add order by
+void addQueryExecuteListener(QQueryExecuteListener;) | add query execute listener
+void addQuery(QString;QNamedQueryDefinition;) | add query
+void addQueryReturn(QNativeSQLQueryReturn;) | add query return
+void addQuerySpaces([QSerializable;) | add query spaces
+void addSQLQuery(QString;QNamedSQLQueryDefinition;) | add sql query
+void afterNontransactionalQuery(Z) | after nontransactional query
+void bindNamedQuery(QElement;QString;QMappings;) | bind named query
+void bindNamedSQLQuery(QElement;QString;QMappings;) | bind named sql query
+void cancelLastQuery() | cancel last query
+void cancelQuery() | cancel query
+void CDPQuery(QString;) | cdp query
+void checkGeneralCondForTradeQuery(QElement;QPlayer;QUnit;QSettlement;QGoods;) | check general cond for trade query
+void checkQueryExist(QString;) | check query exist
+void checkQuery(QQueryParameters;) | check query
+void closeQueryOutputStream() | close query output stream
+void closeQueryStatement(QPreparedStatement;) | close query statement
+void closeQueryStatement(QPreparedStatement;QResultSet;) | close query statement
+void converterQuery(QFile;) | converter query
+void copyQuery() | copy query
+void createAndSetInnerQuery(QCriteriaQuery;QSessionFactoryImplementor;) | create and set inner query
+void createQueryLoader() | create query loader
+void executeQuery() | execute query
+void FilterQueryPlanKey(QString;QString;ZQMap;) | filter query plan key
+void gameMapQuery(QGameMapQueryEvent;) | game map query
+void HQLQueryPlanKey(QString;ZQMap;) | hql query plan key
+void initQuery(QQuery;QNamedQueryDefinition;) | init query
+void logQuery(QString;QString;) | log query
+void notifyQueryExecuteListeners(QResultSet;QException;) | notify query execute listeners
+void parseQuery() | parse query
+void postQuery(QDataSourceWorker.Entry;) | post query
+void preQuery(QDataSourceWorker.Entry;) | pre query
+void processQuery(QAST;QAST;) | process query
+void processQuery(QInputStream;) | process query
+void putResultInQueryCache(QSessionImplementor;QQueryParameters;[QType;QQueryCache;QQueryKey;QList;) | put result in query cache
+void queryCacheHit(QString;QString;) | query cache hit
+void queryCacheMiss(QString;QString;) | query cache miss
+void queryCachePut(QString;QString;) | query cache put
+void queryLoop() | query loop
+void query(QString;) | query
+void QueryThread(QSem;QString;IQString;QInetAddress;) | query thread
+void receiveQuery(QDHTTransportUDPContact;QMap;QMap;) | receive query
+void removeQueryExecuteListener(QQueryExecuteListener;) | remove query execute listener
+void search(String query) | search
+void sendMapQuery(QMapSettings;) | send map query
+void setInstancesFromDBaseQuery() | set instances from d base query
+void setQueryableCollection(QQueryableCollection;) | set queryable collection
+void setQueryCacheFactory(QQueryCacheFactory;) | set query cache factory
+void setQueryPanel(QQueryPanel;) | set query panel
+void setQueryParameter(String queryParameter) | set query parameter
+void setQuery(Qjava.lang.String;) | set query
+void setQuery(QString;) | set query
+void setQuerySpaces(QSet;) | set query spaces
+void setQueryString(QString;) | set query string
+void setQuerySubstitutions(QMap;) | set query substitutions
+void setQuerySubstitutions(QString;) | set query substitutions
+void setQueryTimeout(I) | set query timeout
+void setQueryTranslatorFactory(QQueryTranslatorFactory;) | set query translator factory
+void setQueryURI(String value) | set query uri
+void setReportQueryDialog(Qit.businesslogic.ireport.gui.ReportQueryDialog;) | set report query dialog
+void test38RegistryManagementServicesSoap12QuerySites() | test 38 registry management services soap 12 query sites
+void testQueryThatReturnsNumber() | test query that returns number
+void testStripSessionIdWithQueryString() | test strip session id with query string
+void throwQueryException() | throw query exception
+void visitDotQuery(QNode;QNode;) | visit dot query
+void writeQuery(LangWriter out, Family family, Relationship relationship) | write query
+XDispatch queryDispatch(URL aURL, String sTarget, int nSearchFlags) | query dispatch

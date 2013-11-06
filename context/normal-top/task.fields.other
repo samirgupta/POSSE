@@ -1,0 +1,82 @@
+boolean bExportTaskDuration | b export task duration
+boolean bExportTaskEndDate | b export task end date
+boolean bExportTaskID | b export task id
+boolean bExportTaskName | b export task name
+boolean bExportTaskNotes | b export task notes
+boolean bExportTaskPercent | b export task percent
+boolean bExportTaskResources | b export task resources
+boolean bExportTaskStartDate | b export task start date
+boolean bExportTaskWebLink | b export task web link
+boolean bNoTaskBar | b no task bar
+float myTaskLength | my task length
+int lastTaskPercent | last task percent
+int myFirstTaskID | my first task id
+int mySecondTaskID | my second task id
+int myTaskID | my task id
+int predecessorTaskID | predecessor task id
+int realtime_task_count | realtime task count
+int successorTaskID | successor task id
+java.awt.Color myEarlierPreviousTaskColor | my earlier previous task color
+java.awt.Color myLaterPreviousTaskColor | my later previous task color
+java.awt.Color myPreviousTaskColor | my previous task color
+java.awt.Color myProjectLevelTaskColor | my project level task color
+java.awt.Color myTaskColor | my task color
+java.awt.Component myTaskTree | my task tree
+java.awt.image.BufferedImage myTaskImage | my task image
+java.lang.String ID_TASK_ADVANCEMENT | id task advancement
+java.lang.String ID_TASK_COORDINATOR | id task coordinator
+java.lang.String ID_TASK_DATES | id task dates
+java.lang.String ID_TASK_ID | id task id
+java.lang.String ID_TASK_LENGTH | id task length
+java.lang.String ID_TASK_NAME | id task name
+java.lang.String ID_TASK_PREDECESSORS | id task predecessors
+java.lang.String ID_TASK_RESOURCES | id task resources
+java.lang.String myTaskName | my task name
+java.lang.String sTaskNamePrefix | s task name prefix
+java.util.Map myTask2treeNode | my task 2 tree node
+java.util.Map myTask_WorkingRectanglesLength | my task working rectangles length
+javax.swing.Action myTaskPropertiesAction | my task properties action
+javax.swing.JCheckBox cbTaskDuration | cb task duration
+javax.swing.JCheckBox cbTaskID | cb task id
+javax.swing.JCheckBox cbTaskName | cb task name
+javax.swing.JCheckBox cbTaskNotes | cb task notes
+javax.swing.JCheckBox cbTaskPercent | cb task percent
+javax.swing.JCheckBox cbTaskResources | cb task resources
+javax.swing.JCheckBox cbTaskWebLink | cb task web link
+javax.swing.JCheckBox projectTaskCheckBox1 | project task check box 1
+javax.swing.JTextField tfTaskPrefix | tf task prefix
+long lastTaskTimeSecs | last task time secs
+net.sourceforge.ganttproject.action.NewTaskAction myNewTaskAction | my new task action
+net.sourceforge.ganttproject.action.task.TaskPropertiesAction myTaskPropertiesAction | my task properties action
+net.sourceforge.ganttproject.chart.item.TaskProgressChartItem myTaskProgrssItem | my task prog rss item
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter myPreviousStateTaskRectanglePainter | my previous state task rectangle painter
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter myProjectTaskEndPainter | my project task end painter
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter myProjectTaskStartPainter | my project task start painter
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter mySupertaskEndPainter | my super task end painter
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter mySupertaskStartPainter | my super task start painter
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter myTaskEndRectanglePainter | my task end rectangle painter
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter myTaskHolidayRectanglePainter | my task holiday rectangle painter
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter myTaskProjectTaskRectanglePainter | my task project task rectangle painter
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter myTaskRectanglePainter | my task rectangle painter
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter myTaskStartEndRectanglePainter | my task start end rectangle painter
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter myTaskStartRectanglePainter | my task start rectangle painter
+net.sourceforge.ganttproject.chart.StyledPainterImpl.RectanglePainter myTaskSupertaskRectanglePainter | my task super task rectangle painter
+net.sourceforge.ganttproject.chart.TaskGridRendererImpl myTaskGridRendererImpl | my task grid renderer impl
+net.sourceforge.ganttproject.chart.TaskRendererImpl myTaskRendererImpl | my task renderer impl
+net.sourceforge.ganttproject.gui.options.model.ColorOption myTaskAheadOfScheduleColor | my task ahead of schedule color
+net.sourceforge.ganttproject.gui.options.model.ColorOption myTaskBehindScheduleColor | my task behind schedule color
+net.sourceforge.ganttproject.gui.options.model.ColorOption myTaskDefaultColorOption | my task default color option
+net.sourceforge.ganttproject.gui.options.model.ColorOption myTaskOnScheduleColor | my task on schedule color
+net.sourceforge.ganttproject.task.algorithm.AdjustTaskBoundsAlgorithm myAdjustTaskBoundsAlgorithm | my adjust task bounds algorithm
+net.sourceforge.ganttproject.task.algorithm.RecalculateTaskScheduleAlgorithm myRecalculateTaskScheduleAlgorithm | my recalculate task schedule algorithm
+net.sourceforge.ganttproject.task.algorithm.ShiftTaskTreeAlgorithm myShiftTaskTreeAlgorithm | my shift task tree algorithm
+net.sourceforge.ganttproject.task.hierarchy.TaskHierarchyItem myTaskHierarchyItem | my task hierarchy item
+net.sourceforge.ganttproject.task.TaskContainmentHierarchyFacade.Factory myTaskHierarchyFactory | my task hierarchy factory
+net.sourceforge.ganttproject.task.TaskContainmentHierarchyFacade myTaskContainment | my task containment
+net.sourceforge.ganttproject.task.TaskContainmentHierarchyFacade myTaskHierarchy | my task hierarchy
+net.sourceforge.ganttproject.task.TaskInfo myTaskInfo | my task info
+net.sourceforge.ganttproject.task.TaskManagerImpl.TaskMap myTaskMap | my task map
+net.sourceforge.ganttproject.task.TaskManager myTaskManager | my task manager
+net.sourceforge.ganttproject.task.TaskSelectionManager myTaskSelectionManager | my task selection manager
+net.sourceforge.ganttproject.TaskTreeImageGenerator myTaskImageGenerator | my task image generator
+org.gudy.azureus2.core3.util.AEThread2 delayed_task_thread | delayed task thread

@@ -1,0 +1,10 @@
+ImportedFurnitureWizardStepsView createImportedFurnitureWizardStepsView(QCatalogPieceOfFurniture;QString;ZQUserPreferences;QImportedFurnitureWizardController;) | create imported furniture wizard steps view
+ImportedSymbol[] getImportedSymbols() | get imported symbols
+ResultSet getImportedKeys(QString;QString;QString;) | get imported keys
+String getImportedClassName(QString;) | get imported class name
+String getImportedClass(QString;QSessionFactoryImplementor;) | get imported class
+View createImportedTextureWizardStepsView(QCatalogTexture;QString;QUserPreferences;QImportedTextureWizardController;) | create imported texture wizard steps view
+void addImportedEntries(QBasePanel;QList<QBibtexEntry;>;QString;Z) | add imported entries
+void addImportedSchema(String targetNamespace) | add imported schema
+void fetchImportedKeys() | fetch imported keys
+void testImportedTextureWizard() | test imported texture wizard

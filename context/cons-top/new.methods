@@ -1,0 +1,41 @@
+CONS BoardNewDialog(QFrame;[QString;I) | board new dialog
+CONS BoardNewDialog(QJFrame;) | board new dialog
+CONS ColumnActivityNew(QString;) | column activity new
+CONS ColumnSubscriptionNbNewResults(QString;) | column subscription nb new results
+CONS ColumnSubscriptionNew(QString;) | column subscription new
+CONS FormatNewNodes(QModeController;QMindMap;) | format new nodes
+CONS GameBoardNewEvent(QObject;QIBoard;QIBoard;) | game board new event
+CONS GameEntityNewEvent(QObject;QEntity;) | game entity new event
+CONS GameEntityNewEvent(QObject;QVector;) | game entity new event
+CONS GameEntityNewOffboardEvent(QObject;) | game entity new offboard event
+CONS GameNewActionEvent(QObject;QEntityAction;) | game new action event
+CONS NewAction(QApplication;) | new action
+CONS NewAction(QFreeColClient;) | new action
+CONS NewAIPlayer() | new ai player
+CONS NewAIPlayer(QAIMain;QElement;) | new ai player
+CONS NewAIPlayer(QAIMain;QServerPlayer;) | new ai player
+CONS NewAIPlayer(QAIMain;QXMLStreamReader;) | new ai player
+CONS NewArtefactAction(QActiveActionProvider;QString;) | new artefact action
+CONS NewChildAction(QControllerAdapter;) | new child action
+CONS NewEmptyMapAction(QFreeColClient;) | new empty map action
+CONS NewFileAction(QString;QString;QDrawingPanel;) | new file action
+CONS NewFileAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | new file action
+CONS NewHumanAction(QResourceManager;QRoleManager;QJFrame;QGanttProject;) | new human action
+CONS NewJVMTest(QString;) | new jvm test
+CONS NewLocaleFileDialog(Qjava.awt.Dialog;Z) | new locale file dialog
+CONS NewLocaleFileDialog(Qjava.awt.Frame;Z) | new locale file dialog
+CONS NewMapAction(QControllerAdapter;QControllerAdapter;) | new map action
+CONS NewPanel(QCanvas;) | new panel
+CONS NewParentNode() | new parent node
+CONS NewPreviousSiblingAction(QControllerAdapter;) | new previous sibling action
+CONS NewProjectAction(QGanttProject;) | new project action
+CONS NewProjectWizardWindow(QUIFacade;QI18N;) | new project wizard window
+CONS NewPropertyWizard() | new property wizard
+CONS NewsGroup() | news group
+CONS NewsGroup(QString;I) | news group
+CONS NewSiblingAction(QControllerAdapter;) | new sibling action
+CONS NewTaskAction(QIGanttProject;) | new task action
+CONS NewTorrentWizard(QAzureusCore;QDisplay;) | new torrent wizard
+CONS NewVersionPopup(QMainFrame;) | new version popup
+CONS QuestionNewParenPhrase(QIndentRule;QIndentRule;) | question new paren phrase
+CONS QuestionStartingNewStmt(QIndentRule;QIndentRule;) | question starting new stmt

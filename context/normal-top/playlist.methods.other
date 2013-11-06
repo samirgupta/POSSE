@@ -1,0 +1,19 @@
+ArrayList getPlaylistFileItems() | get playlist file items
+ArrayList getRepositoryCurrentPlaylistFileItem() | get repository current playlist file item
+ArrayList<QPlaylistFile;> getPlaylistFiles() | get playlist files
+boolean mapPlaylistFile(QString;) | map playlist file
+PlaylistFile changePlaylistFileName(QPlaylistFile;QString;) | change playlist file name
+PlaylistFile getPlayeablePlaylistFile() | get playeable playlist file
+PlaylistFile getPlaylistFile() | get playlist file
+PlaylistFileItem getCurrentPlaylistFileItem() | get current playlist file item
+PlaylistFile registerPlaylistFile(Qjava.io.File;QDirectory;) | register playlist file
+PlaylistFile registerPlaylistFile(QString;QString;QDirectory;) | register playlist file
+Set<QPlaylistFile;> getPlaylistFiles() | get playlist files
+String getPlaylistPath() | get playlist path
+void addPlaylistFile(QPlaylistFile;) | add playlist file
+void changePlaylistFile(QPlaylistFile;QPlaylistFile;) | change playlist file
+void removePlaylistFile(QPlaylistFile;) | remove playlist file
+void selectPlaylistFileItem(QPlaylistFileItem;) | select playlist file item
+void setCurrentPlaylistFileItem(QPlaylistFileItem;) | set current playlist file item
+void setPlaylistPath(QString;) | set playlist path
+void setPlaylistPath(String playlistPath) | set playlist path

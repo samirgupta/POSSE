@@ -1,0 +1,16 @@
+Instances getDatasetFormat() | get dataset format
+int getCurrentDatasetNumber() | get current dataset number
+it.businesslogic.ireport.chart.Dataset getChartDatasetClipBoard() | get chart dataset clip board
+Range getDatasetKeyColumns() | get dataset key columns
+void addReportSubDatasetChangedListener(Qit.businesslogic.ireport.gui.event.ReportSubDatasetChangedListener;) | add report sub dataset changed listener
+void addSubDatasetObjectChangedListener(Qit.businesslogic.ireport.gui.event.SubDatasetObjectChangedListener;) | add sub dataset object changed listener
+void removeReportSubDatasetChangedListener(Qit.businesslogic.ireport.gui.event.ReportSubDatasetChangedListener;) | remove report sub dataset changed listener
+void removeSubDatasetObjectChangedListener(Qit.businesslogic.ireport.gui.event.SubDatasetObjectChangedListener;) | remove sub dataset object changed listener
+void resetDatasetBasedOn(QIndexes;) | reset dataset based on
+void setChartDatasetClipBoard(Qit.businesslogic.ireport.chart.Dataset;) | set chart dataset clip board
+void setDatasetFormat(QInstances;) | set dataset format
+void setDatasetKeyColumns(QRange;) | set dataset key columns
+void setDatasetKeyFromDialog() | set dataset key from dialog
+void setDatasetPanel(QDataset;) | set dataset panel
+void updateSubDatasetNode(QDefaultMutableTreeNode;) | update sub dataset node
+void updateSubDatasetNode(QSubDataset;) | update sub dataset node

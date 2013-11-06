@@ -1,0 +1,196 @@
+ArrayList getProjectTasks() | get project tasks
+boolean addProjectClassPath(QFile;) | add project class path
+boolean addProjectFilesClassPath(QFile;) | add project files class path
+boolean canBeProjectTask(QTask;QTaskContainmentHierarchyFacade;) | can be project task
+boolean checkCurrentProject() | check current project
+boolean _checkProjectClose() | check project close
+boolean checkProjectFile([QString;) | check project file
+boolean _closeProject() | close project
+boolean closeProject() | close project
+boolean _closeProject(Z) | close project
+boolean hasAProjectTaskDescendant(QDefaultMutableTreeNode;) | has a project task descendant
+boolean hasProjection() | has projection
+boolean inNewProjectPath(QFile;) | in new project path
+boolean inProject() | in project
+boolean inProjectionList() | in projection list
+boolean inProjectPath() | in project path
+boolean inProjectPath(QFile;) | in project path
+boolean inProjectPath(QOpenDefinitionsDocument;) | in project path
+boolean inProject(QFile;) | in project
+boolean isProjectActive() | is project active
+boolean isProjectBoundariesOptionOn() | is project boundaries option on
+boolean isProjectTask() | is project task
+boolean isProjectTaskOrContainsProjectTask(QTask;) | is project task or contains project task
+boolean isSharingToolsAmongProjects() | is sharing tools among projects
+BooleanOption getProjectBoundariesOption() | get project boundaries option
+boolean sameDefinition(AntTypeDefinition other, Project project) | same definition
+boolean saveAsProject() | save as project
+boolean saveAsURLProject() | save as url project
+boolean _saveProjectAs() | save project as
+Class getProjectClass() | get project class
+Collection<QProject;> projects() | projects
+ColumnProjection getColumnProjection() | get column projection
+Component wrapProjectComponent(QProject;) | wrap project component
+Criteria getProjectionCriteria() | get projection criteria
+Criteria setProjection(QProjection;) | set projection
+Date getProjectEnd() | get project end
+Date getProjectStart() | get project start
+DetachedCriteria setProjection(QProjection;) | set projection
+double computeRandomProjection(IIQInstance;) | compute random projection
+double projectionFactor(Coordinate p) | projection factor
+Enum getProjection() | get projection
+File getCurrentProject() | get current project
+File[] getNewFilesInProject() | get new files in project
+File getProjectFile() | get project file
+File[] getProjectFiles() | get project files
+File getProjectRoot() | get project root
+FileGroupingState makeProjectFileGroupingState(QFile;QString;QFile;QFile;QFile;[QFile;[QFile;[QFile;QIterable<QFile;>;QFile;IZ) | make project file grouping state
+Filter getProjectionFilter() | get projection filter
+float getProjectTextWidth() | get project text width
+GanttProject getGanttProjectSingleton() | get gantt project singleton
+GanttProject getProjectFrame() | get project frame
+GPAction getNewProjectAction() | get new project action
+GPAction getOpenProjectAction() | get open project action
+GPAction getSaveProjectAction() | get save project action
+GPAction getSaveProjectAsAction() | get save project as action
+HashMap<QOpenDefinitionsDocument;QDocumentInfoGetter;> gatherProjectDocInfo() | gather project doc info
+IGanttProject getProject() | get project
+InterfaceProjectUI getProjectUI() | get project ui
+Iterable<QFile;> getProjectCP() | get project cp
+Iterable<QFile;> getProjectFilesCP() | get project files cp
+Iterator getProjectItems(int selectedRows) | get project items
+java.lang.String getProjectName() | get project name
+java.util.Vector getRecentProjectsList() | get recent projects list
+JFrame getProjectFrame() | get project frame
+JMenu _setUpProjectMenu(I) | set up project menu
+List getProjectionList() | get projection list
+List getSelectedProjectHolderTreeNodes() | get selected project holder tree nodes
+List<ProjectMilestone> listMilestones(Project project) | list milestones
+List<QOpenDefinitionsDocument;> getNonProjectDocuments() | get non project documents
+List<QOpenDefinitionsDocument;> getProjectDocuments() | get project documents
+Map getFilesSortedToProject(List filesToCheck) | get files sorted to project
+PrjInfos createNewProject(QIGanttProject;QUIFacade;) | create new project
+ProjectAspect findSelectedProjectAspect() | find selected project aspect
+Project basicCreateProject() | basic create project
+ProjectBoundsAlgorithm getProjectBoundsAlgorithm() | get project bounds algorithm
+Project createProject() | create project
+Project getCurrentProject() | get current project
+Projection getProjection() | get projection
+Projection getProjection(I) | get projection
+ProjectionList projectionList() | projection list
+Projection sqlGroupProjection(QString;QString;[QString;[QType;) | sql group projection
+Projection sqlProjection(QString;[QString;[QType;) | sql projection
+ProjectProfile _makeProjectProfile(QFile;QHashMap<QOpenDefinitionsDocument;QDocumentInfoGetter;>;) | make project profile
+ProjectRemote getProject() | get project
+ProjectUIFacade getProjectUIFacade() | get project ui facade
+Role[] getProjectLevelRoles() | get project level roles
+RoleSet getProjectRoleSet() | get project role set
+String[] getColumnsUsingProjection(QCriteria;QString;) | get columns using projection
+String getNewProjectWizardWindowTitle() | get new project wizard window title
+String getProjectDescription() | get project description
+String getProjectDomainPageTitle() | get project domain page title
+String[] getProjectedAliases() | get projected aliases
+String[] getProjectedColumnAliases() | get projected column aliases
+String getProjectID() | get project id
+String getProjectionFilterSpec() | get projection filter spec
+String getProjectName() | get project name
+String getProjectOrganization() | get project organization
+String getProjectWeekendPageTitle() | get project weekend page title
+String projectionFilterTipText() | projection filter tip text
+TaskLength getProjectLength() | get project length
+Type[] getProjectedTypes() | get projected types
+Type getTypeUsingProjection(QCriteria;QString;) | get type using projection
+UIConfiguration getProjectConfig() | get project config
+URL getProjectCalendar() | get project calendar
+Vector getProjects() | get projects
+void actualOpenProject(String fileName) | actual open project
+void addProjectClassPath(QFile;) | add project class path
+void addProjectCP(QFile;) | add project cp
+void addProjectEventListener(QProjectEventListener;) | add project event listener
+void addProjectFilesClassPath(QFile;) | add project files class path
+void addProjectFilesCP(QFile;) | add project files cp
+void addProjectionListener(QProjectionListener;) | add projection listener
+void addProjectNamePage(QIGanttProject;) | add project name page
+void afterSaveProject(QIGanttProject;) | after save project
+void autoRefreshProject() | auto refresh project
+void closeProject(Z) | close project
+void _compileProject() | compile project
+void compileProject() | compile project
+void configNewProject() | config new project
+void createIsDbfProjectGroup(Composite parent) | create is dbf project group
+void createNewProject(QFile;) | create new project
+void createProjectMenu() | create project menu
+void createProject(QIGanttProject;) | create project
+void _editProject() | edit project
+void exportOldProject(QFile;QHashMap<QOpenDefinitionsDocument;QDocumentInfoGetter;>;) | export old project
+void getProjectTasks(QDefaultMutableTreeNode;QArrayList;) | get project tasks
+void initProjectActions(QProject;) | init project actions
+void initProjection(QString;QString;QString;QString;QLockMode;) | init projection
+void initProject(QApplication;QProject;) | init project
+void installProjectListeners(QProject;) | install project listeners
+void _junitProject() | junit project
+void junitProject() | junit project
+void _loadProject(QProjectFileIR;) | load project
+void _newProject() | new project
+void newProject() | new project
+void _openFileOrProject() | open file or project
+void openNewFilesInProject() | open new files in project
+void _openProject() | open project
+void _openProjectHelper(QFile;) | open project helper
+void openProject(QDocument;QIGanttProject;) | open project
+void openProject(QFile;) | open project
+void openProject(QFileOpenSelector;) | open project
+void openProject(QFile;QFileOpenSelector;) | open project
+void openProject(QIGanttProject;) | open project
+void _openProjectUpdate() | open project update
+void openRemoteProject(QIGanttProject;) | open remote project
+void printProject() | print project
+void PrivateProjectException(QString;) | private project exception
+void ProjectFileGroupingState(QFile;) | project file grouping state
+void ProjectFileGroupingState(QFile;QString;QFile;QFile;QFile;[QFile;[QFile;[QFile;QIterable<QFile;>;QFile;IZ) | project file grouping state
+void refreshProjectInfos() | refresh project infos
+void registerGanttProject(QGanttProject;) | register gantt project
+void reloadProject(QFile;QHashMap<QOpenDefinitionsDocument;QDocumentInfoGetter;>;) | reload project
+void removeProjectEventListener(QProjectEventListener;) | remove project event listener
+void removeProjectionListener(QProjectionListener;) | remove projection listener
+void removeProjectListener(ShrimpProjectListener listener) | remove project listener
+void _runProject() | run project
+void _saveProject() | save project
+void saveProject() | save project
+void saveProjectAs(QIGanttProject;) | save project as
+void _saveProjectHelper(QFile;) | save project helper
+void saveProject(QDocument;) | save project
+void saveProject(QFile;QHashMap<QOpenDefinitionsDocument;QDocumentInfoGetter;>;) | save project
+void saveProject(QIGanttProject;) | save project
+void saveProjectRemotely(QIGanttProject;) | save project remotely
+void setColumnProjection(QColumnProjection;) | set column projection
+void setCurrentProject(QProject;) | set current project
+void setInProjectionList(Z) | set in projection list
+void setProjectClassName(QString;) | set project class name
+void setProjectClass(QClass;) | set project class
+void setProjectFile(QFile;) | set project file
+void setProjectionFilter(QFilter;) | set projection filter
+void setProject(IProject project) | set project
+void setProjectLevelTaskColor(QColor;) | set project level task color
+void setProjectName(Qjava.lang.String;) | set project name
+void setProjectName(QString;) | set project name
+void setProjectOpen(boolean value) | set project open
+void setProjectPlotTimes(FF) | set project plot times
+void setProjectRoot(QFile;) | set project root
+void setProjectTask(Z) | set project task
+void setRecentProjectsList(Qjava.util.Vector;) | set recent projects list
+void _setUpProjectButtons(QFile;) | set up project buttons
+void showNewProjectWizard(QIGanttProject;) | show new project wizard
+void _showProjectFileParseError(QMalformedProjectFileException;) | show project file parse error
+void showProjectMenuItem(String path, String com, String menu) | show project menu item
+void testCloseAllClosesProject() | test close all closes project
+void testLegacyParseProject() | test legacy parse project
+void testLegacyParseProjectPJT() | test legacy parse project pjt
+void testParseProject() | test parse project
+void testParseProjectPJT() | test parse project pjt
+void testProjectForm() | test project form
+void testSaveProject() | test save project
+void uninstallProjectListeners(QProject;) | uninstall project listeners
+void updateProject(QProject;QProject;) | update project
+void updateRecentProjectMenu(QJMenu;QVector;) | update recent project menu
+void writeProjectInfos(QOutputStreamWriter;) | write project infos

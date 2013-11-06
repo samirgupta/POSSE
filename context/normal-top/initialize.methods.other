@@ -1,0 +1,4 @@
+InitializeCollectionEventListener[] getInitializeCollectionEventListeners() | get initialize collection event listeners
+List doQueryAndInitializeNonLazyCollections(QSessionImplementor;QQueryParameters;Z) | do query and initialize non lazy collections
+void onInitializeCollection(QInitializeCollectionEvent;) | on initialize collection
+void setInitializeCollectionEventListeners([QInitializeCollectionEventListener;) | set initialize collection event listeners

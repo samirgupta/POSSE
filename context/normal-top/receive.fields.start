@@ -1,0 +1,12 @@
+int receive_buffer_size | receive buffer size
+int receive_delay | receive delay
+int RECEIVE_DONE_SEQ_MAX | receive done seq max
+int receive_last_inorder_alt_sequence | receive last in order alt sequence
+int receive_last_inorder_sequence | receive last in order sequence
+int RECEIVE_OUT_OF_ORDER_ACK_LIMIT | receive out of order ack limit
+int RECEIVE_OUT_OF_ORDER_PACKETS_MAX | receive out of order packets max
+int receive_their_last_inorder_sequence | receive their last in order sequence
+int RECEIVE_UNACK_IN_SEQUENCE_LIMIT | receive unack in sequence limit
+java.util.LinkedList receive_done_sequences | receive done sequences
+java.util.List receive_out_of_order_packets | receive out of order packets
+org.gudy.azureus2.core3.util.Average receive_speed_for_choking | receive speed for choking

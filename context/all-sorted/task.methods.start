@@ -1,0 +1,96 @@
+../3-Phrases/freecol2:void TaskEntry(QString;IZQObject;) | task entry
+../3-Phrases/gantt:CONS TaskTreeImageGenerator(QGanttTree2;QUIConfiguration;) | task tree image generator
+../3-Phrases/gantt:CONS TaskModelModificationListener(QIGanttProject;) | task model modification listener
+../3-Phrases/gantt:void taskScheduleChanged(QTaskScheduleEvent;) | task schedule changed
+../3-Phrases/gantt:void taskAdded(QTaskHierarchyEvent;) | task added
+../3-Phrases/gantt:void taskRemoved(QTaskHierarchyEvent;) | task removed
+../3-Phrases/gantt:void taskMoved(QTaskHierarchyEvent;) | task moved
+../3-Phrases/gantt:void taskPropertiesChanged(QTaskPropertyEvent;) | task properties changed
+../3-Phrases/gantt:void taskProgressChanged(QTaskPropertyEvent;) | task progress changed
+../3-Phrases/gantt:void taskScheduleChanged(QTaskScheduleEvent;) | task schedule changed
+../3-Phrases/gantt:void TaskBar() | task bar
+../3-Phrases/gantt:CONS TaskContainmentHierarchyFacadeImpl(QGanttTree2;) | task containment hierarchy facade impl
+../3-Phrases/gantt:CONS TaskActionBase(QTaskManager;QTaskSelectionManager;QUIFacade;) | task action base
+../3-Phrases/gantt:CONS TaskPropertiesAction(QIGanttProject;QTaskSelectionManager;QUIFacade;) | task properties action
+../3-Phrases/gantt:CONS TaskGridRendererImpl(QChartModelImpl;) | task grid renderer impl
+../3-Phrases/gantt:CONS TaskRendererImpl(QChartModelImpl;) | task renderer impl
+../3-Phrases/gantt:CONS TaskInteractionHintRenderer() | task interaction hint renderer
+../3-Phrases/gantt:CONS TaskInteractionHintRenderer(QString;II) | task interaction hint renderer
+../3-Phrases/gantt:CONS TaskProgressChartItem(IIQTimeUnit;QTask;) | task progress chart item
+../3-Phrases/gantt:CONS TaskBoundaryChartItem(QTask;Z) | task boundary chart item
+../3-Phrases/gantt:CONS TaskRegularAreaChartItem(QTask;) | task regular area chart item
+../3-Phrases/gantt:void taskScheduleChanged(QTaskScheduleEvent;) | task schedule changed
+../3-Phrases/gantt:void taskAdded(QTaskHierarchyEvent;) | task added
+../3-Phrases/gantt:void taskRemoved(QTaskHierarchyEvent;) | task removed
+../3-Phrases/gantt:void taskMoved(QTaskHierarchyEvent;) | task moved
+../3-Phrases/gantt:void taskPropertiesChanged(QTaskPropertyEvent;) | task properties changed
+../3-Phrases/gantt:void taskProgressChanged(QTaskPropertyEvent;) | task progress changed
+../3-Phrases/gantt:void TaskComboItem(QTask;) | task combo item
+../3-Phrases/gantt:CONS TaskAllocationsPanel(QTask;QHumanResourceManager;QRoleManager;Z) | task allocations panel
+../3-Phrases/gantt:CONS TaskDependenciesPanel(QTask;) | task dependencies panel
+../3-Phrases/gantt:TextObject task2text(QGanttTask;III) | task 2 text
+../3-Phrases/gantt:BoxObject task2box(QGanttTask;IIZ) | task 2 box
+../3-Phrases/gantt:CONS TaskDisplayColumnsTagHandler(QGanttTreeTable;) | task display columns tag handler
+../3-Phrases/gantt:CONS TaskPropertiesTagHandler(QGanttTreeTable;) | task properties tag handler
+../3-Phrases/gantt:CONS TaskTagHandler(QTaskManager;QParsingContext;) | task tag handler
+../3-Phrases/gantt:CONS TaskSelectionManager() | task selection manager
+../3-Phrases/gantt:CONS TaskImpl(QTaskManager;I) | task impl
+../3-Phrases/gantt:CONS TaskImpl(QTaskImpl;Z) | task impl
+../3-Phrases/gantt:CONS TaskLengthImpl(QTimeUnit;J) | task length impl
+../3-Phrases/gantt:CONS TaskLengthImpl(QTimeUnit;F) | task length impl
+../3-Phrases/gantt:CONS TaskActivityImpl(QTaskImpl;QDate;QDate;) | task activity impl
+../3-Phrases/gantt:CONS TaskActivityImpl(QTaskImpl;QDate;QDate;F) | task activity impl
+../3-Phrases/gantt:void TaskMap(QTaskManagerImpl;) | task map
+../3-Phrases/gantt:CONS TaskManagerImpl(QTaskContainmentHierarchyFacade.Factory;QTaskManagerConfig;) | task manager impl
+../3-Phrases/gantt:CONS TaskNode(QTask;) | task node
+../3-Phrases/gantt:CONS TaskDocumentOrderComparator(QTaskManagerImpl;) | task document order comparator
+../3-Phrases/gantt:CONS TaskDependencyImpl(QTask;QTask;QTaskDependencyCollectionImpl;) | task dependency impl
+../3-Phrases/gantt:CONS TaskDependencySliceImpl(QTask;QTaskDependencyCollection;) | task dependency slice impl
+../3-Phrases/gantt:CONS TaskDependencySliceAsDependee(QTask;QTaskDependencyCollection;) | task dependency slice as dependee
+../3-Phrases/gantt:CONS TaskDependencyException() | task dependency exception
+../3-Phrases/gantt:CONS TaskDependencyException(QString;) | task dependency exception
+../3-Phrases/gantt:CONS TaskDependencyException(QThrowable;) | task dependency exception
+../3-Phrases/gantt:CONS TaskDependencyException(QString;QThrowable;) | task dependency exception
+../3-Phrases/gantt:CONS TaskDependencyCollectionImpl(QTaskContainmentHierarchyFacade.Factory;QEventDispatcher;) | task dependency collection impl
+../3-Phrases/gantt:CONS TaskDependencySliceAsDependant(QTask;QTaskDependencyCollection;) | task dependency slice as dependant
+../3-Phrases/gantt:CONS TaskScheduleEvent(QTask;QGanttCalendar;QGanttCalendar;QGanttCalendar;QGanttCalendar;) | task schedule event
+../3-Phrases/gantt:CONS TaskHierarchyEvent(QObject;QTask;QTask;QTask;) | task hierarchy event
+../3-Phrases/gantt:void taskScheduleChanged(QTaskScheduleEvent;) | task schedule changed
+../3-Phrases/gantt:void taskAdded(QTaskHierarchyEvent;) | task added
+../3-Phrases/gantt:void taskRemoved(QTaskHierarchyEvent;) | task removed
+../3-Phrases/gantt:void taskMoved(QTaskHierarchyEvent;) | task moved
+../3-Phrases/gantt:void taskPropertiesChanged(QTaskPropertyEvent;) | task properties changed
+../3-Phrases/gantt:void taskProgressChanged(QTaskPropertyEvent;) | task progress changed
+../3-Phrases/gantt:CONS TaskDependencyEvent(QTaskDependencyCollection;QTaskDependency;) | task dependency event
+../3-Phrases/gantt:void taskScheduleChanged(QTaskScheduleEvent;) | task schedule changed
+../3-Phrases/gantt:void taskAdded(QTaskHierarchyEvent;) | task added
+../3-Phrases/gantt:void taskRemoved(QTaskHierarchyEvent;) | task removed
+../3-Phrases/gantt:void taskMoved(QTaskHierarchyEvent;) | task moved
+../3-Phrases/gantt:void taskPropertiesChanged(QTaskPropertyEvent;) | task properties changed
+../3-Phrases/gantt:void taskProgressChanged(QTaskPropertyEvent;) | task progress changed
+../3-Phrases/gantt:CONS TaskPropertyEvent(QObject;) | task property event
+../3-Phrases/gantt:CONS TaskHierarchyItem(QTask;QTaskHierarchyItem;) | task hierarchy item
+../3-Phrases/gantt:void TaskListenerImpl(QTaskManager;) | task listener impl
+../3-Phrases/gantt:void taskScheduleChanged(QTaskScheduleEvent;) | task schedule changed
+../3-Phrases/gantt:void taskAdded(QTaskHierarchyEvent;) | task added
+../3-Phrases/hsqldb:void TaskQueue(IQObjectComparator;) | task queue
+../3-Phrases/JHotDraw-7.0.8:CONS TaskFigure() | task figure
+../3-Phrases/np:void taskReady(ServerThread s) | task ready
+../3-Phrases/vuze:void taskStarted() | task started
+../3-Phrases/vuze:void taskCompleted() | task completed
+../3-Phrases/vuze:void taskCompleted() | task completed
+../3-Phrases/vuze:void taskWrapper(QNonDaemonTask;) | task wrapper
+../3-Phrases/vuze:void taskStarted() | task started
+../3-Phrases/vuze:void taskCompleted() | task completed
+../3-Phrases/weka:void taskStarted() | task started
+../3-Phrases/weka:void taskFinished() | task finished
+../3-Phrases/weka:void taskStarted() | task started
+../3-Phrases/weka:void taskFinished() | task finished
+../3-Phrases/weka:void taskStarted() | task started
+../3-Phrases/weka:void taskFinished() | task finished
+../3-Phrases/weka:void taskStarted() | task started
+../3-Phrases/weka:void taskFinished() | task finished
+../3-Phrases/weka:void taskStarted() | task started
+../3-Phrases/weka:void taskFinished() | task finished
+../3-Phrases/weka:void taskStarted() | task started
+../3-Phrases/weka:void taskFinished() | task finished

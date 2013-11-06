@@ -1,0 +1,36 @@
+AlignedPieceOfFurniture[] getAlignedFurniture(QList<QHomePieceOfFurniture;>;QHomePieceOfFurniture;Z) | get aligned furniture
+CatalogPieceOfFurniture getPieceOfFurniture(I) | get piece of furniture
+HomePieceOfFurniture getPieceOfFurniture() | get piece of furniture
+List<QCatalogPieceOfFurniture;> getFurniture() | get furniture
+List<QCatalogPieceOfFurniture;> getSelectedFurniture() | get selected furniture
+List<QHomePieceOfFurniture;> getFurniture() | get furniture
+void addFurniture(QList<QHomePieceOfFurniture;>;) | add furniture
+void addHomeFurniture() | add home furniture
+void addPieceOfFurniture(QHomePieceOfFurniture;) | add piece of furniture
+void addPieceOfFurniture(QHomePieceOfFurniture;I) | add piece of furniture
+void adjustMagnetizedPieceOfFurniture(QHomePieceOfFurniture;FF) | adjust magnetized piece of furniture
+void AlignedPieceOfFurniture(QHomePieceOfFurniture;Z) | aligned piece of furniture
+void deleteFurniture(QList<QHomePieceOfFurniture;>;) | delete furniture
+void deletePieceOfFurniture(QHomePieceOfFurniture;) | delete piece of furniture
+void deselectPieceOfFurniture(QCatalogPieceOfFurniture;) | deselect piece of furniture
+void doAddFurniture([QHomePieceOfFurniture;[IZ) | do add furniture
+void doDeleteFurniture([QHomePieceOfFurniture;Z) | do delete furniture
+void doModifyFurniture([QModifiedPieceOfFurniture;QString;QBoolean;QFloat;QFloat;QFloat;QFloat;QFloat;QFloat;QFloat;QInteger;QBoolean;QBoolean;) | do modify furniture
+void filterAndSortFurniture() | filter and sort furniture
+void importFurniture() | import furniture
+void importFurniture(QString;) | import furniture
+void ModifiedPieceOfFurniture(QHomePieceOfFurniture;) | modified piece of furniture
+void modifyFurniture() | modify furniture
+void modifySelectedFurniture() | modify selected furniture
+void paintFurniture(QGraphics2D;QList<QHomePieceOfFurniture;>;QList<QSelectable;>;FQColor;QColor;QPaintMode;Z) | paint furniture
+void readFurniture(QResourceBundle;QURL;QMap<QFurnitureCategory;QMap<QCatalogPieceOfFurniture;QInteger;>;>;QList<QString;>;) | read furniture
+void selectAddedFurniture() | select added furniture
+void setSelectedFurniture(QList<QCatalogPieceOfFurniture;>;) | set selected furniture
+void setSelectedFurniture(QList<QHomePieceOfFurniture;>;) | set selected furniture
+void sortFurniture(QHomePieceOfFurniture.SortableProperty;) | sort furniture
+void testHomeFurniture() | test home furniture
+void testPlanComponentWithFurniture() | test plan component with furniture
+void undoAlignFurniture([QAlignedPieceOfFurniture;Z) | undo align furniture
+void undoModifyFurniture([QModifiedPieceOfFurniture;) | undo modify furniture
+void updateTableSelectedFurniture(QList<QSelectable;>;) | update table selected furniture
+void updateTreeSelectedFurniture(QFurnitureCatalog;QFurnitureCatalogController;) | update tree selected furniture

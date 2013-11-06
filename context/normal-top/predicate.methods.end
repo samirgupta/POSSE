@@ -1,0 +1,18 @@
+boolean isEquivalentToBetweenPredicate() | is equivalent to between predicate
+boolean isEquivalentToEqualsPredicate() | is equivalent to equals predicate
+boolean isEquivalentToFalsePredicate() | is equivalent to false predicate
+boolean isEquivalentToNotNullPredicate() | is equivalent to not null predicate
+Expression parseAllAnyPredicate() | parse all any predicate
+Expression parseBetweenPredicate(QExpression;) | parse between predicate
+Expression parseInPredicate(QExpression;) | parse in predicate
+Expression parseLikePredicate(QExpression;) | parse like predicate
+Predicate buildPredicate(QInstances;QAttribute;Z) | build predicate
+Predicate getFilterPredicate() | get filter predicate
+Predicate getPredicate() | get predicate
+Predicate getSubPredicate(QPredicate;) | get sub predicate
+Predicate getTestPredicate() | get test predicate
+void initPredicate() | init predicate
+void setFilterPredicate(QPredicate;) | set filter predicate
+void setPredicate(QPredicate;) | set predicate
+void setPredicate(QString;) | set predicate
+void setTestPredicate(QPredicate;) | set test predicate

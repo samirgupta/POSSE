@@ -1,0 +1,86 @@
+boolean[] getBytesInCache(QTOTorrent;[J[J) | get bytes in cache
+boolean writeBytesAsFile2(QString;[B) | write bytes as file 2
+byte[] decodeBytesFromString(QString;) | decode bytes from string
+byte[] generate20BytesHash(I) | generate 20 bytes hash
+byte[] getBytesFromFile(QString;) | get bytes from file
+byte[] getBytesFromInputStream(Qjava.io.InputStream;I) | get bytes from input stream
+byte[] getBytesFromResourceLocation(QString;) | get bytes from resource location
+byte[] getBytesFromStream(QInputStream;) | get bytes from stream
+byte[] getPNGBytesForSize(II) | get png bytes for size
+byte[] getPNGBytesForWidth(I) | get png bytes for width
+byte[] makeBytesOutOfString(QString;Z) | make bytes out of string
+int getBytesInCount() | get bytes in count
+int getBytesLength() | get bytes length
+int getBytesOutCount() | get bytes out count
+int getBytesPerSec() | get bytes per sec
+int getDownloadEndBytesPerSec() | get download end bytes per sec
+int getDownloadRateLimitBytesPerSecond() | get download rate limit bytes per second
+int getDownloadStartBytesPerSec() | get download start bytes per sec
+int getEffectiveUploadRateLimitBytesPerSecond() | get effective upload rate limit bytes per second
+int getGlobalDownloadRateBytesPerSec() | get global download rate bytes per sec
+int getGlobalDownloadRateLimitBytesPerSecond() | get global download rate limit bytes per second
+int getRateLimitBytesPerSecond() | get rate limit bytes per second
+int getUploadEndBytesPerSec() | get upload end bytes per sec
+int getUploadRateLimitBytesPerSecond() | get upload rate limit bytes per second
+int getUploadStartBytesPerSec() | get upload start bytes per sec
+int readBytesWireFormat([BI) | read bytes wire format
+int writeBytesWireFormat([BI) | write bytes wire format
+long getAverageBytesIn() | get average bytes in
+long getAverageBytesOut() | get average bytes out
+long getAverageBytesReadFromCache() | get average bytes read from cache
+long getAverageBytesReadFromFile() | get average bytes read from file
+long getAverageBytesSent() | get average bytes sent
+long getAverageBytesWrittenToCache() | get average bytes written to cache
+long getAverageBytesWrittenToFile() | get average bytes written to file
+long getBytesIn() | get bytes in
+long getBytesOut() | get bytes out
+long getBytesRead() | get bytes read
+long getBytesReadFromCache() | get bytes read from cache
+long getBytesReadFromFile() | get bytes read from file
+long getBytesReadyToWrite() | get bytes ready to write
+long getBytesRemaining() | get bytes remaining
+long getBytesSent() | get bytes sent
+long getBytesWritten() | get bytes written
+long getBytesWrittenToCache() | get bytes written to cache
+long getBytesWrittenToFile() | get bytes written to file
+long getDataBytesSent() | get data bytes sent
+long getDownloadBytesPerSecond() | get download bytes per second
+long getNetworkReceiveBytesPerSecond() | get network receive bytes per second
+long getNetworkSendBytesPerSecond() | get network send bytes per second
+long getOverallDataBytesSent() | get overall data bytes sent
+long getProgressiveActiveBytesPerSec() | get progressive active bytes per sec
+long getProtocolBytesSent() | get protocol bytes sent
+long getStreamBytesPerSecondMax() | get stream bytes per second max
+long getStreamBytesPerSecondMin() | get stream bytes per second min
+long getTotalBytesDownloadedByPeer() | get total bytes downloaded by peer
+long getTotalBytesIn() | get total bytes in
+long getTotalBytesOut() | get total bytes out
+long getTotalBytesSent() | get total bytes sent
+long getTotalDataBytesSent() | get total data bytes sent
+long getTotalProtocolBytesSent() | get total protocol bytes sent
+SpeedManagerLimitEstimate getEstimatedDownloadCapacityBytesPerSec() | get estimated download capacity bytes per sec
+SpeedManagerLimitEstimate getEstimatedUploadCapacityBytesPerSec() | get estimated upload capacity bytes per sec
+String encodeBytesToString([B) | encode bytes to string
+void cacheBytesRead(I) | cache bytes read
+void cacheBytesWritten(J) | cache bytes written
+void copyBytesFrom(byte srcBytes, int srcOffset, int nbBytesToCopy, int destOffset) | copy bytes from
+void dataBytesSent(I) | data bytes sent
+void dataBytesSent(IZ) | data bytes sent
+void dataBytesSent(QPEPeer;I) | data bytes sent
+void fileBytesRead(I) | file bytes read
+void fileBytesWritten(J) | file bytes written
+void getBytesInCache([Z[J[J) | get bytes in cache
+void protocolBytesSent(I) | protocol bytes sent
+void protocolBytesSent(IZ) | protocol bytes sent
+void protocolBytesSent(QPEPeer;I) | protocol bytes sent
+void reportBytesRead(I) | report bytes read
+void setBytesPerSec(I) | set bytes per sec
+void setBytesRead(J) | set bytes read
+void setBytesWritten(J) | set bytes written
+void setDownloadRateLimitBytesPerSecond(I) | set download rate limit bytes per second
+void setEstimatedDownloadCapacityBytesPerSec(IF) | set estimated download capacity bytes per sec
+void setEstimatedUploadCapacityBytesPerSec(IF) | set estimated upload capacity bytes per sec
+void setGlobalDownloadRateLimitBytesPerSecond(I) | set global download rate limit bytes per second
+void setUploadRateLimitBytesPerSecond(I) | set upload rate limit bytes per second
+void squashBytesToInts([BI[III) | squash bytes to ints
+void writeBytesAsFile(QString;[B) | write bytes as file

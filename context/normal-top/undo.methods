@@ -1,0 +1,89 @@
+AbstractUndoableEdit getUndoForAddPreviousEntries() | get undo for add previous entries
+Action getUndoAction() | get undo action
+boolean canUndo() | can undo
+boolean getSleepUndo() | get sleep undo
+boolean hasUndoInformation() | has undo information
+boolean hasUndownloadedBlock() | has undownloaded block
+boolean isUndoable() | is undoable
+boolean isUndoAction() | is undo action
+boolean undoManagerCanRedo() | undo manager can redo
+boolean undoManagerCanUndo() | undo manager can undo
+CompoundUndoManager getUndoManager() | get undo manager
+freemind.controller.actions.generated.instance.UndoXmlAction createUndoXmlAction() | create undo xml action
+freemind.controller.actions.generated.instance.UndoXmlActionType createUndoXmlActionType() | create undo xml action type
+GPUndoManager getUndoManager() | get undo manager
+HitData getUndoneLocation() | get undone location
+int getUndoNumber() | get undo number
+long getNeededUndonePieceChange() | get needed undone piece change
+String getUndoMsg() | get undo msg
+String getUndoPresentationName() | get undo presentation name
+String undo() | undo
+UndoableEdit getNextUndo() | get next undo
+UndoableEditListener[] getUndoableEditListeners() | get undoable edit listeners
+UndoableEditSupport getUndoableEditSupport() | get undoable edit support
+UndoAction getUndoAction() | get undo action
+UndoOperation getUndoOperation() | get undo operation
+void ActionUndo() | action undo
+void addUndoableEditListener(QGPUndoListener;) | add undoable edit listener
+void addUndoableEditListener(QUndoableEditListener;) | add undoable edit listener
+void addUndoableEdit(QUndoableEdit;) | add undoable edit
+void addUndoAction(QString;QString;QString;IQKeyStroke;) | add undo action
+void addUndoAction(QUndoAction;) | add undo action
+void addUndoOperation(QUndoOperation;) | add undo operation
+void addUndoPoint() | add undo point
+void addUndoRedo(QAbstractDocument.DefaultDocumentEvent;QRunnable;QRunnable;) | add undo redo
+void addUndoSupportListener() | add undo support listener
+void assertUndoableEditCount(I) | assert undoable edit count
+void BackgroundImageUndoableEdit(QHome;QUserPreferences;ZQBackgroundImage;QBackgroundImage;) | background image undoable edit
+void CaretUndo(II) | caret undo
+void clearUndo() | clear undo
+void clearUndoStack() | clear undo stack
+void CommandUndoableEdit(QRunnable;QRunnable;) | command undoable edit
+void deleteWithoutUndo(QMindMapNode;) | delete without undo
+void FurnitureModificationUndoableEdit(QHome;QUserPreferences;QList<QSelectable;>;[QModifiedPieceOfFurniture;QString;QBoolean;QFloat;QFloat;QFloat;QFloat;QFloat;QFloat;QFloat;QInteger;QBoolean;QBoolean;) | furniture modification undoable edit
+void Home3DAttributesModificationUndoableEdit(QHome;QUserPreferences;FFIQHomeTexture;IQHomeTexture;IFFFIQHomeTexture;IQHomeTexture;IF) | home 3 d attributes modification undoable edit
+void HomePrintModificationUndoableEdit(QHome;QUserPreferences;QHomePrint;QHomePrint;) | home print modification undoable edit
+void informUndoPartner(QActionPair;) | inform undo partner
+void LabelCreationUndoableEdit(QHome;QUserPreferences;QList<QSelectable;>;ZQLabel;Z) | label creation undoable edit
+void LabelModificationUndoableEdit(QHome;QUserPreferences;QList<QSelectable;>;[QModifiedLabel;QString;) | label modification undoable edit
+void PieceOfFurnitureImportationUndoableEdit(QHome;QUserPreferences;QList<QSelectable;>;QHomePieceOfFurniture;I) | piece of furniture importation undoable edit
+void registerUndoManager(QGPUndoManager;) | register undo manager
+void removeUndoableEditListener(QGPUndoListener;) | remove undoable edit listener
+void removeUndoableEditListener(QUndoableEditListener;) | remove undoable edit listener
+void removeUndoableEditListener(UndoableEditListener listener) | remove undoable edit listener
+void _resetUndo() | reset undo
+void resetUndo() | reset undo
+void resetUndoManager() | reset undo manager
+void RoomsModificationUndoableEdit(QHome;QUserPreferences;QList<QSelectable;>;[QModifiedRoom;QString;QBoolean;QInteger;QHomeTexture;QBoolean;QInteger;QHomeTexture;QBoolean;) | rooms modification undoable edit
+void setNonUndoableChange(Z) | set non undoable change
+void setSleepUndo(Z) | set sleep undo
+void setUndoableEditSupport(QUndoableEditSupport;) | set undoable edit support
+void setUndoneLocation(QHitData;) | set undone location
+void setUndoNumber(I) | set undo number
+void setUndoPosition(II) | set undo position
+void setUndoRedoName(QString;QString;) | set undo redo name
+void SimpleUndoableEditListener() | simple undoable edit listener
+void testGranularUndo() | test granular undo
+void testHomeFurnitureUndoableActions() | test home furniture undoable actions
+void testUndoEventsOccur() | test undo events occur
+void textCompoundUndoManager() | text compound undo manager
+void textUndoAndRedoAfterMultipleLineCommentAndUncomment() | text undo and redo after multiple line comment and uncomment
+void textUndoAndRedoAfterMultipleLineIndent() | text undo and redo after multiple line indent
+void textUndoOrRedoSetsUnmodifiedState() | text undo or redo sets unmodified state
+void undo() | undo
+void undoableEdit(QString;QRunnable;) | undoable edit
+void UndoAction() | undo action
+void undoAlignFurniture([QAlignedPieceOfFurniture;Z) | undo align furniture
+void undoDoAction(QActionPair;) | undo do action
+void undo(II) | undo
+void undoIt() | undo it
+void undoModifyFurniture([QModifiedPieceOfFurniture;) | undo modify furniture
+void undoModifyLabels([QModifiedLabel;) | undo modify labels
+void undoModifyRooms([QModifiedRoom;) | undo modify rooms
+void undoModifyWalls([QModifiedWall;) | undo modify walls
+void undoOrRedo() | undo or redo
+void undoRandomizeAttribute() | undo randomize attribute
+void updateUndoMenu(QJReportFrame;) | update undo menu
+void updateUndoState() | update undo state
+void WallsModificationUndoableEdit(QHome;QUserPreferences;QList<QSelectable;>;[QModifiedWall;QFloat;QFloat;QFloat;QFloat;QInteger;QHomeTexture;QInteger;QHomeTexture;QFloat;QFloat;QFloat;) | walls modification undoable edit
+XmlAction getUndoAction() | get undo action

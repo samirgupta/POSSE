@@ -1,0 +1,30 @@
+boolean equalsDimensionLinePoint(FFQDimensionLine;) | equals dimension line point
+Collection<QDimensionLine;> getDimensionLines() | get dimension lines
+ControllerState getDimensionLineCreationState() | get dimension line creation state
+ControllerState getDimensionLineDrawingState() | get dimension line drawing state
+ControllerState getDimensionLineOffsetState() | get dimension line offset state
+ControllerState getDimensionLineResizeState() | get dimension line resize state
+DimensionLine createDimensionLine(FFFFF) | create dimension line
+DimensionLine getOffsetDimensionLineAt(FF) | get offset dimension line at
+DimensionLine getResizedDimensionLineEndAt(FF) | get resized dimension line end at
+DimensionLine getResizedDimensionLineStartAt(FF) | get resized dimension line start at
+List<QDimensionLine;> getDimensionLinesAlongWall(QHomePieceOfFurniture;QWall;) | get dimension lines along wall
+List<QDimensionLine;> getDimensionLinesSubList(QList<+QSelectable;>;) | get dimension lines sub list
+Set getDimensionTaxonomy(Concept dimensionElement) | get dimension taxonomy
+void addDimensionLine(QDimensionLine;) | add dimension line
+void addDimensionLinesListener(QCollectionListener<QDimensionLine;>;) | add dimension lines listener
+void addDimensionLines(QList<QDimensionLine;>;) | add dimension lines
+void assertDimensionEqualPiece(FFFQHomePieceOfFurniture;) | assert dimension equal piece
+void assertEqualsDimensionLine(FFFFFQDimensionLine;) | assert equals dimension line
+void deleteDimensionLine(QDimensionLine;) | delete dimension line
+void doAddDimensionLines([QDimensionLine;Z) | do add dimension lines
+void doDeleteDimensionLines([QDimensionLine;Z) | do delete dimension lines
+void moveDimensionLinePoint(QDimensionLine;FFZ) | move dimension line point
+void paintDimensionLineAlignmentFeedback(QGraphics2D;QDimensionLine;QPoint2D;QPaint;QStroke;F) | paint dimension line alignment feedback
+void paintDimensionLineResizeIndicator(QGraphics2D;QDimensionLine;QPaint;F) | paint dimension line resize indicator
+void paintDimensionLines(QGraphics2D;QCollection<QDimensionLine;>;QList<QSelectable;>;QPaint;QStroke;QPaint;QStroke;FQColor;QColor;QPaintMode;Z) | paint dimension lines
+void postCreateDimensionLines(QList<QDimensionLine;>;QList<QSelectable;>;Z) | post create dimension lines
+void postDimensionLineOffset(QDimensionLine;F) | post dimension line offset
+void postDimensionLineResize(QDimensionLine;FFZ) | post dimension line resize
+void removeDimensionLinesListener(QCollectionListener<QDimensionLine;>;) | remove dimension lines listener
+void setDimensionLinesFeedback(QList<QDimensionLine;>;) | set dimension lines feedback

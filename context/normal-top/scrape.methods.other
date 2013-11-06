@@ -1,0 +1,26 @@
+boolean checkScrapeResult(QTRTrackerScraperResponse;) | check scrape result
+boolean isTrackerScrapeUrlValid() | is tracker scrape url valid
+DownloadScrapeResult getLastScrapeResult() | get last scrape result
+int calcScrapeIntervalSecs(II) | calc scrape interval secs
+int getScrapeCachePeriod() | get scrape cache period
+int getScrapeCompleteCount() | get scrape complete count
+int getScrapeIncompleteCount() | get scrape incomplete count
+long getAverageScrapeCount() | get average scrape count
+long getMinScrapeRetryInterval() | get min scrape retry interval
+long getNextScrapeCheckOn() | get next scrape check on
+long getNextScrapeStartTime() | get next scrape start time
+long getScrapeCount() | get scrape count
+long getScrapeRetryInterval(QTRTrackerServerTorrentImpl;) | get scrape retry interval
+long getScrapeStartTime() | get scrape start time
+long getScrapeTime() | get scrape time
+Map exportScrapeToMap(QString;QString;Z) | export scrape to map
+Object[] getActiveScrapeResponse() | get active scrape response
+TRTrackerScraperResponse getTrackerScrapeResponse() | get tracker scrape response
+void addScrapeInterval(JQMap;) | add scrape interval
+void addScrapeInterval(QTRTrackerServerTorrentImpl;QMap;) | add scrape interval
+void handleAnnounceScrapeStatus(QDownload;QString;) | handle announce scrape status
+void setNextScrapeStartTime(J) | set next scrape start time
+void setScrapeResult(II) | set scrape result
+void setScrapeResult(QDownloadScrapeResult;) | set scrape result
+void setScrapeStartTime(J) | set scrape start time
+void setTrackerScrapeResponse(QTRTrackerScraperResponse;) | set tracker scrape response

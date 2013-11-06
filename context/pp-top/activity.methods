@@ -1,0 +1,12 @@
+void activityCancelled(QActivity;) | activity cancelled
+void activityChanged(QDHTControlActivity;I) | activity changed
+void activityFinished(QActivity;) | activity finished
+void activityFinished(ZQString;QObject;) | activity finished
+void activityScheduled(QActivity;) | activity scheduled
+void activityStarted(QActivity;) | activity started
+void activityStepped(QActivity;) | activity stepped
+void fireActivityCancelled() | fire activity cancelled
+void fireActivityFinished() | fire activity finished
+void fireActivityScheduled() | fire activity scheduled
+void fireActivityStarted() | fire activity started
+void fireActivityStepped() | fire activity stepped

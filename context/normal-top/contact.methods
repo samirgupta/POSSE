@@ -1,0 +1,104 @@
+activePing getContact() | get contact
+boolean addToContactList(JZ) | add to contact list
+boolean addToContactList(Qorg.planetamessenger.plugin.JPlugin;Qjava.lang.String;Qjava.lang.String;) | add to contact list
+boolean addToContactList(Qorg.planetamessenger.plugin.JPlugin;QString;QString;) | add to contact list
+boolean addToContactList(Qorg.planetamessenger.plugin.JPlugin;QString;QString;Z) | add to contact list
+boolean isContact() | is contact
+boolean notifyContactList() | notify contact list
+boolean removeFromContactList(J) | remove from contact list
+boolean removeFromContactList(Qorg.planetamessenger.plugin.JPlugin;Qjava.lang.String;) | remove from contact list
+boolean removeFromContactList(Qorg.planetamessenger.plugin.JPlugin;QString;) | remove from contact list
+boolean updateContactInfo(QJContactListItem;) | update contact info
+boolean updateContactList() | update contact list
+boolean verifyContact(QDHTTransportContact;Z) | verify contact
+byte[] encodeContact(QDHTTransportContact;) | encode contact
+DHTPluginContact getContact() | get contact
+DHTPluginContact importContact(QInetSocketAddress;) | import contact
+DHTRouterContact addContact([BQDHTRouterContactAttachment;Z) | add contact
+DHTRouterContact addContactSupport([BQDHTRouterContactAttachment;Z) | add contact support
+DHTRouterContact contactAlive([BQDHTRouterContactAttachment;) | contact alive
+DHTRouterContact contactDead([BZ) | contact dead
+DHTRouterContact findContact([B) | find contact
+DHTRouterContact getLocalContact() | get local contact
+DHTRouterContact getRouterContact() | get router contact
+DHTTransportContact[] deserialiseContacts(QDHTTransportUDPImpl;QDataInputStream;) | deserialise contacts
+DHTTransportContact getContact() | get contact
+DHTTransportContact[] getContacts() | get contacts
+DHTTransportContact getLocalContact() | get local contact
+DHTTransportContact[] getReachableContacts() | get reachable contacts
+DHTTransportContact getTransportContact() | get transport contact
+DHTTransportContact importContact(QDataInputStream;) | import contact
+DHTTransportUDPContact decodeContact([B) | decode contact
+DHTTransportUDPContactImpl deserialiseContact(QDHTTransportUDPImpl;QDataInputStream;) | deserialise contact
+DHTTransportUDPContact importContact(QInetSocketAddress;B) | import contact
+DistributedDatabaseContact getContact() | get contact
+DistributedDatabaseContact getLocalContact() | get local contact
+DistributedDatabaseContact importContact(QInetSocketAddress;) | import contact
+Hashtable getContactList(Qorg.planetamessenger.plugin.JPlugin;) | get contact list
+InetSocketAddress askContactForExternalAddress(QDHTTransportUDPContactImpl;) | ask contact for external address
+int countContactMessages(QJContactListItem;) | count contact messages
+int getContactFlag() | get contact flag
+int getContactNumber() | get contact number
+java.util.Hashtable getContactList(Qorg.planetamessenger.plugin.JPlugin;) | get contact list
+JContactListManager getContactListManager() | get contact list manager
+List findBestContacts(I) | find best contacts
+List findClosestContacts([BIZ) | find closest contacts
+List getAllContacts() | get all contacts
+List getClosestContactsList([BIZ) | get closest contacts list
+List getClosestKContactsList([BZ) | get closest k contacts list
+List getContacts() | get contacts
+List sortContactsByDistance(QList;) | sort contacts by distance
+long getContactCount() | get contact count
+long getContactCount(QDHTRouterNodeImpl;) | get contact count
+long getLastContactTime() | get last contact time
+long getRouterContacts() | get router contacts
+Object[] findContactSupport([B) | find contact support
+org.planetamessenger.mos.ui.JContactList getContactList() | get contact list
+Set getClosestContactsSet([BIZ) | get closest contacts set
+String contactsToString(QList;) | contacts to string
+String getContactBlockText() | get contact block text
+String getContactMessages(QJContactListItem;) | get contact messages
+TRTrackerServerPeerImpl peerContact(QString;QString;QHashWrapper;IIIBBQString;QString;ZZQString;JJJJIQDHTNetworkPosition;) | peer contact
+void addContactListListener(QJContactListListener;) | add contact list listener
+void addContact(QtestSource;) | add contact
+void addToLibContactList() | add to lib contact list
+void anonContact(QDHTTransportContact;) | anon contact
+void banContact(QDHTTransportContact;QString;) | ban contact
+void clearContactList() | clear contact list
+void contactAdjacent(QTile;) | contact adjacent
+void contactAlive(QDHTTransportUDPContactImpl;) | contact alive
+void contactFound(QDistributedDatabaseContact;) | contact found
+void contactKnown([BQDHTRouterContactAttachment;) | contact known
+void exportContact(QDataOutputStream;) | export contact
+void exportContact(QDHTTransportContact;QDataOutputStream;) | export contact
+void exportContacts(QDHT;) | export contacts
+void findAllContacts(QList;QDHTRouterNodeImpl;) | find all contacts
+void findAllContacts(QSet;QDHTRouterNodeImpl;) | find all contacts
+void findClosestContacts([BIIQDHTRouterNodeImpl;ZQList;) | find closest contacts
+void findContacts() | find contacts
+void fireOnAddUserToContactList(Qjava.lang.String;) | fire on add user to contact list
+void fireOnRemoveUserFromContactList(Qjava.lang.String;) | fire on remove user from contact list
+void importContact(QDHTTransportUDPContactImpl;) | import contact
+void importContacts(QDHT;) | import contacts
+void initializeContacts(EvolutionState state) | initialize contacts
+void loadMessagesToContactList() | load messages to contact list
+void onAddUserToContactList(Qjava.lang.String;) | on add user to contact list
+void onRemoveUserFromContactList(Qjava.lang.String;) | on remove user from contact list
+void pingContact(QDHTSpeedTesterContact;) | ping contact
+void pingContacts(I) | ping contacts
+void refreshContacts(QList;QDHTTransportContact;) | refresh contacts
+void removeContactListInterface(QJContactListListener;) | remove contact list interface
+void removeContact(QDHTTransportContact;) | remove contact
+void removeContact(QtestSource;) | remove contact
+void serialiseContact(QDataOutputStream;QDHTTransportContact;) | serialise contact
+void serialiseContacts(QDataOutputStream;[QDHTTransportContact;) | serialise contacts
+void setContactCount(int contactCount) | set contact count
+void setContactFlag(I) | set contact flag
+void setContactInfo(String contactInfo) | set contact info
+void setContactNumber(I) | set contact number
+void setContacts([QDHTTransportContact;) | set contacts
+void setLocalContact() | set local contact
+void setRouterContact(QDHTRouterContact;) | set router contact
+void sortedTransportContactSet([BZ) | sorted transport contact set
+void updateContactStatus(QDHTTransportUDPContactImpl;IZ) | update contact status
+void updateLocalContact(QDHTTransportContact;) | update local contact

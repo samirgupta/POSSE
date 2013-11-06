@@ -1,0 +1,36 @@
+CONS DHTUDPPacketReplyError(QDHTTransportUDPImpl;IJQDHTTransportContact;QDHTTransportContact;) | dhtudp packet reply error
+CONS DHTUDPPacketReplyError(QDHTUDPPacketNetworkHandler;QInetSocketAddress;QDataInputStream;I) | dhtudp packet reply error
+CONS DHTUDPPacketReplyFindNode(QDHTTransportUDPImpl;IJQDHTTransportContact;QDHTTransportContact;) | dhtudp packet reply find node
+CONS DHTUDPPacketReplyFindNode(QDHTUDPPacketNetworkHandler;QInetSocketAddress;QDataInputStream;I) | dhtudp packet reply find node
+CONS DHTUDPPacketReplyFindValue(QDHTTransportUDPImpl;IJQDHTTransportContact;QDHTTransportContact;) | dhtudp packet reply find value
+CONS DHTUDPPacketReplyFindValue(QDHTUDPPacketNetworkHandler;QInetSocketAddress;QDataInputStream;I) | dhtudp packet reply find value
+CONS DHTUDPPacketReplyKeyBlock(QDHTTransportUDPImpl;IJQDHTTransportContact;QDHTTransportContact;) | dhtudp packet reply key block
+CONS DHTUDPPacketReplyKeyBlock(QDHTUDPPacketNetworkHandler;QInetSocketAddress;QDataInputStream;I) | dhtudp packet reply key block
+CONS DHTUDPPacketReplyPing(QDHTTransportUDPImpl;IJQDHTTransportContact;QDHTTransportContact;) | dhtudp packet reply ping
+CONS DHTUDPPacketReplyPing(QDHTUDPPacketNetworkHandler;QInetSocketAddress;QDataInputStream;I) | dhtudp packet reply ping
+CONS DHTUDPPacketReply(QDHTTransportUDPImpl;IIJQDHTTransportContact;QDHTTransportContact;) | dhtudp packet reply
+CONS DHTUDPPacketReply(QDHTUDPPacketNetworkHandler;QInetSocketAddress;QDataInputStream;II) | dhtudp packet reply
+CONS DHTUDPPacketReplyStats(QDHTTransportUDPImpl;IJQDHTTransportContact;QDHTTransportContact;) | dhtudp packet reply stats
+CONS DHTUDPPacketReplyStats(QDHTUDPPacketNetworkHandler;QInetSocketAddress;QDataInputStream;I) | dhtudp packet reply stats
+CONS DHTUDPPacketReplyStore(QDHTTransportUDPImpl;IJQDHTTransportContact;QDHTTransportContact;) | dhtudp packet reply store
+CONS DHTUDPPacketReplyStore(QDHTUDPPacketNetworkHandler;QInetSocketAddress;QDataInputStream;I) | dhtudp packet reply store
+CONS NetworkAdminNATUDPReply(I) | network admin nat udp reply
+CONS NetworkAdminNATUDPReply(QDataInputStream;I) | network admin nat udp reply
+CONS NetworkReplyObject(IZ) | network reply object
+CONS PRUDPPacketReplyAnnounce2(I) | prudp packet reply announce 2
+CONS PRUDPPacketReplyAnnounce2(QDataInputStream;I) | prudp packet reply announce 2
+CONS PRUDPPacketReplyAnnounce(I) | prudp packet reply announce
+CONS PRUDPPacketReplyAnnounce(QDataInputStream;I) | prudp packet reply announce
+CONS PRUDPPacketReplyConnect(IJ) | prudp packet reply connect
+CONS PRUDPPacketReplyConnect(QDataInputStream;I) | prudp packet reply connect
+CONS PRUDPPacketReplyError(IQString;) | prudp packet reply error
+CONS PRUDPPacketReplyError(QDataInputStream;I) | prudp packet reply error
+CONS PRUDPPacketReply(II) | prudp packet reply
+CONS PRUDPPacketReplyScrape2(I) | prudp packet reply scrape 2
+CONS PRUDPPacketReplyScrape2(QDataInputStream;I) | prudp packet reply scrape 2
+CONS PRUDPPacketReplyScrape(I) | prudp packet reply scrape
+CONS PRUDPPacketReplyScrape(QDataInputStream;I) | prudp packet reply scrape
+CONS RPReply(QObject;) | rp reply
+CONS RPThrowableAsReplyException(QThrowable;) | rp throwable as reply exception
+CONS VersionCheckClientUDPReply(I) | version check client udp reply
+CONS VersionCheckClientUDPReply(QDataInputStream;I) | version check client udp reply

@@ -1,0 +1,12 @@
+com.aelitis.azureus.core.networkmanager.impl.TransferProcessor download_processor | download processor
+com.aelitis.azureus.core.networkmanager.impl.TransferProcessor lan_download_processor | lan download processor
+com.aelitis.azureus.core.networkmanager.impl.TransferProcessor lan_upload_processor | lan upload processor
+com.aelitis.azureus.core.networkmanager.impl.TransferProcessor upload_processor | upload processor
+com.aelitis.azureus.core.util.CopyOnWriteList processors | processors
+int active_write_queue_processor_count | active write queue processor count
+int MAX_PROCESSORS | max processors
+int processor_num | processor num
+java.util.List myPreImporterProcessors | my pre importer processors
+java.util.List processors | processors
+java.util.Vector<megamek.server.DynamicTerrainProcessor> terrainProcessors | terrain processors
+org.gudy.azureus2.core3.tracker.server.impl.tcp.nonblocking.TRNonBlockingServerProcessorFactory processor_factory | processor factory

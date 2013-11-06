@@ -1,0 +1,33 @@
+ArrayList<QItemT;> getDocuments() | get documents
+ArrayList<QItemT;> getDocumentsInBin(QString;) | get documents in bin
+boolean getSearchAllDocuments() | get search all documents
+boolean hasModifiedDocuments() | has modified documents
+boolean hasModifiedDocuments(QList<QOpenDefinitionsDocument;>;) | has modified documents
+boolean hasOutOfSyncDocuments() | has out of sync documents
+boolean hasOutOfSyncDocuments(QList<QOpenDefinitionsDocument;>;) | has out of sync documents
+boolean hasUntitledDocuments() | has untitled documents
+int getNumDocuments() | get num documents
+java.util.List<QItemT;> getSelectedDocuments() | get selected documents
+List<QHelpDocument;> searchInHelpDocuments(QURL;[QString;) | search in help documents
+List<QOpenDefinitionsDocument;> getAuxiliaryDocuments() | get auxiliary documents
+List<QOpenDefinitionsDocument;> getNonProjectDocuments() | get non project documents
+List<QOpenDefinitionsDocument;> getOpenDefinitionsDocuments() | get open definitions documents
+List<QOpenDefinitionsDocument;> getProjectDocuments() | get project documents
+List<QOpenDefinitionsDocument;> getSortedOpenDefinitionsDocuments() | get sorted open definitions documents
+OpenDefinitionsDocument[] getOpenDocuments() | get open documents
+Set<QOpenDefinitionsDocument;> getDocuments() | get documents
+Set<QURL;> getReferencedDocuments() | get referenced documents
+String getUserDocumentsDir() | get user documents dir
+void addComponentListenerToOpenDocumentsList(QComponentListener;) | add component listener to open documents list
+void addToRecentDocuments(QDocument;) | add to recent documents
+void _attemptSaveAllDocuments() | attempt save all documents
+void setDocumentsMRU(QDocumentsMRU;) | set documents mru
+void setSearchAllDocuments(Z) | set search all documents
+void testErrorsInMultipleDocuments() | test errors in multiple documents
+void testGetDefinitionsDocuments() | test get definitions documents
+void testGetDocumentsInBin() | test get documents in bin
+void testGetSelectedDocuments() | test get selected documents
+void testHasModifiedDocuments() | test has modified documents
+void testNewDocumentsInAndOutOfTheCache() | test new documents in and out of the cache
+void testOldDocumentsInAndOutOfTheCache() | test old documents in and out of the cache
+void updateOpenedDocumentsList() | update opened documents list

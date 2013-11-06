@@ -1,0 +1,23 @@
+boolean isItemPartOfBasePlan(QSelectable;) | is item part of base plan
+boolean isLabelPartOfBasePlan(QLabel;) | is label part of base plan
+boolean isPieceOfFurniturePartOfBasePlan(QHomePieceOfFurniture;) | is piece of furniture part of base plan
+boolean removeTileImprovementPlan(QTileImprovementPlan;) | remove tile improvement plan
+FilterQueryPlan getFilterQueryPlan(QObject;QString;QQueryParameters;Z) | get filter query plan
+FilterQueryPlan getFilterQueryPlan(QString;QString;ZQMap;) | get filter query plan
+HQLQueryPlan getHQLQueryPlan(QString;Z) | get hql query plan
+HQLQueryPlan getHQLQueryPlan(QString;ZQMap;) | get hql query plan
+List<QHomePieceOfFurniture;> getFurnitureNotPartOfBasePlan(QList<QHomePieceOfFurniture;>;) | get furniture not part of base plan
+List<QSelectable;> getItemsNotPartOfBasePlan(QList<+QSelectable;>;) | get items not part of base plan
+NativeSQLQueryPlan getNativeSQLQueryPlan(QNativeSQLQuerySpecification;) | get native sql query plan
+Result processExplainPlan() | process explain plan
+TileImprovementPlan createTileImprovementPlan() | create tile improvement plan
+TileImprovementPlan updateTileImprovementPlan(QTileImprovementPlan;) | update tile improvement plan
+void CritHitPlan(QEntity;) | crit hit plan
+void DamagePlan(QEntity;) | damage plan
+void DamagePlan(QEntity;I) | damage plan
+void lockBasePlan() | lock base plan
+void removeTileImprovementPlan(QTileImprovementPlan;) | remove tile improvement plan
+void SetAmmoPlan(QEntity;) | set ammo plan
+void setTileImprovementPlan(QTileImprovementPlan;) | set tile improvement plan
+void unlockBasePlan() | unlock base plan
+void updateTileImprovementPlan() | update tile improvement plan

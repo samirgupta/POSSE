@@ -1,0 +1,64 @@
+ActionForm getBean(String id, String scope) | get bean
+BeanConnection createBeanConnection(IIQString;Z) | create bean connection
+BeanContext getBeanContext() | get bean context
+BeanContextServices getSourceAsBeanContextServices() | get source as bean context services
+BeanDescriptor getBeanDescriptor() | get bean descriptor
+boolean delGlobalOutArtefactBean(String pArtName, String pType, long pIdSuperAct) | del global out artefact bean
+boolean implementsIHostServiceForBean() | implements i host service for bean
+Class getBeanType(String bean) | get bean type
+Element writeBeanConnection(QElement;QObject;QString;) | write bean connection
+Element writeBeanInstance(QElement;QObject;QString;) | write bean instance
+Element writeBeanLoader(QElement;QObject;QString;) | write bean loader
+Element writeBeanSaver(QElement;QObject;QString;) | write bean saver
+Element writeBeanVisual(QElement;QObject;QString;) | write bean visual
+Element writeMetaBean(QElement;QObject;QString;) | write meta bean
+JPanel instantiateToolBarBean(ZQString;QString;) | instantiate tool bar bean
+JPanel instantiateToolBarMetaBean(QMetaBean;) | instantiate tool bar meta bean
+JPanel makeHolderPanelForToolBarBean(QString;QObject;ZQString;Z) | make holder panel for tool bar bean
+JRDataSource createBeanCollectionDatasource() | create bean collection datasource
+ModelAndView update(HttpServletRequest request, HttpServletResponse response, CommandBean bean) | update
+Object getBean() | get bean
+Object getBean(String name) | get bean
+Object readBeanConnection(QElement;) | read bean connection
+Object readBeanInstance(QElement;) | read bean instance
+Object readBeanVisual(QElement;) | read bean visual
+Object readMetaBean(QElement;) | read meta bean
+PersistentObject newEmbeddedPersistentObject(PersistentObject master, String beanProperty) | new embedded persistent object
+ResultTransformer aliasToBean(QClass;) | alias to bean
+String getModelMBeanClassName() | get model m bean class name
+TweekBean getBean(String name) | get bean
+Vector getBeanConnectionRelation(QMetaBean;) | get bean connection relation
+Vector getBeanInfoInputs() | get bean info inputs
+Vector getBeanInfoOutputs() | get bean info outputs
+Vector getBeanInfos(QVector;I) | get bean infos
+Vector getBeanInfoSubFlow() | get bean info sub flow
+Vector getBeanInstances() | get bean instances
+Vector getBeanInstancesForIDs(QVector;) | get bean instances for ids
+Vector getBeansInInputs() | get beans in inputs
+Vector getBeansInOutputs() | get beans in outputs
+Vector getBeansInSubFlow() | get beans in sub flow
+Vector getBeans(QVector;I) | get beans
+Vector getIDsForBeanInstances(QVector;) | get ids for bean instances
+void addAllBeansToContainer(QJComponent;) | add all beans to container
+void addBeanConnectionRelation(QMetaBean;QString;) | add bean connection relation
+void addBeanInstances(QVector;) | add bean instances
+void addBean(QJComponent;) | add bean
+void addBeans(Object beans) | add beans
+void exploreBean(QDefaultMutableTreeNode;QString;QString;) | explore bean
+void initStandardBean() | init standard bean
+void inject(BeanContext beanContext, Object instance) | inject
+void installWindowListenerForSavingUserBeans() | install window listener for saving user beans
+void rebuildBeanConnections(QVector;QObject;) | rebuild bean connections
+void removeAllBeansFromContainer(QJComponent;) | remove all beans from container
+void removeBeanContextMembershipListener(BeanContextMembershipListener bcml) | remove bean context membership listener
+void removeBean(QJComponent;) | remove bean
+void removeUserToolBarBeans(QVector;) | remove user tool bar beans
+void restoreBeans() | restore beans
+void setBean(Class c) | set bean
+void setBeanConnection(QBeanConnection;QVector;) | set bean connection
+void setBeanContext(QBeanContext;) | set bean context
+void setBeanHome(BeanHome _home) | set bean home
+void setBeanInstances(QVector;QJComponent;) | set bean instances
+void setMBeanServer(MBeanServer server) | set m bean server
+void shiftBeans(QBeanInstance;Z) | shift beans
+void updateBeanFieldsOnly(Persistable beanToUpdate) | update bean fields only

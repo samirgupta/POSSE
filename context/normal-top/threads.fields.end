@@ -1,0 +1,12 @@
+boolean DEBUG_THREADS | debug threads
+boolean invert_threads | invert threads
+edu.rice.cs.drjava.model.debug.jpda.JPDADebugger.RandomAccessStack _suspendedThreads | suspended threads
+int active_threads | active threads
+int max_threads | max threads
+int NUM_THREADS | num threads
+java.util.LinkedList daemon_threads | daemon threads
+java.util.LinkedList<java.lang.Thread> _runningThreads | running threads
+java.util.List initThreads | init threads
+java.util.List stoppable_threads | stoppable threads
+javax.swing.JList jListThreads | j list threads
+javax.swing.JPopupMenu jPopupMenuThreads | j popup menu threads

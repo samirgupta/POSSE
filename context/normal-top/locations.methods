@@ -1,0 +1,13 @@
+int[] getNamedParameterLocations(QString;) | get named parameter locations
+int[] getNamedParameterSourceLocations(QString;) | get named parameter source locations
+int[] getNamedParameterSqlLocations(QString;) | get named parameter sql locations
+int[] getSourceLocations() | get source locations
+int[] getSqlLocations() | get sql locations
+int locations() | locations
+List<QWorkLocation;> getWorkLocations() | get work locations
+ParamLocationRecognizer parseLocations(QString;) | parse locations
+String printLocations() | print locations
+void addLocations() | add locations
+void doSetLocationsExposure(QEntity;QIHex;ZI) | do set locations exposure
+void refreshLocations() | refresh locations
+void updateLocations(QNodeItem;DD) | update locations

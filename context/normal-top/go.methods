@@ -1,0 +1,241 @@
+AIGoods buyGoodsInEurope(QConnection;QGoodsType;IQLocation;) | buy goods in europe
+ArrayList<QGoods;> getGoodsForSaleInIndianSettlement(QUnit;QSettlement;) | get goods for sale in indian settlement
+boolean canCaptureGoods() | can capture goods
+boolean canCarryGoods() | can carry goods
+boolean canGoDown() | can go down
+boolean canGoDown(IQCoords;) | can go down
+boolean canGoHullDown() | can go hull down
+boolean canGoToCompleteDir(QDownloadManager;) | can go to complete dir
+boolean canGoUp(IQCoords;) | can go up
+boolean getGoOn() | get go on
+boolean goDown(QString;) | go down
+boolean good() | good
+boolean goToChild(QString;) | go to child
+boolean goTo(QString;) | go to
+boolean hasNextGoingToUnit() | has next going to unit
+boolean hasSubGoals() | has sub goals
+boolean isMilitaryGoods() | is military goods
+boolean isNewWorldGoodsType() | is new world goods type
+boolean isTradeGoods() | is trade goods
+boolean _shouldGoIntoHistory(II) | should go into history
+boolean shouldGoToStop(QStop;) | should go to stop
+BoycottAction showBoycottedGoodsDialog(QGoods;QEurope;) | show boycott ed goods dialog
+Element buyGoods(QConnection;QElement;) | buy goods
+Element goodsForSaleRequest(QConnection;QElement;) | goods for sale request
+Element removeGoods(QElement;) | remove goods
+Element sellGoods(QConnection;QElement;) | sell goods
+Element setGoodsLevels(QConnection;QElement;) | set goods levels
+Goal getGoalByContent(String goalDoc) | get goal by content
+GoodsContainer getGoodsContainer() | get goods container
+Goods getGoods() | get goods
+Goods getGoods(QGoodsType;) | get goods
+Goods getMostValuableGoods() | get most valuable goods
+Goods removeGoods(QAbstractGoods;) | remove goods
+Goods removeGoods(QGoodsType;) | remove goods
+Goods removeGoods(QGoodsType;I) | remove goods
+Goods selectGoods(QColony;) | select goods
+GoodsType getBestGoodsToProduce(QTile;) | get best goods to produce
+GoodsType getBestGoodsType() | get best goods type
+GoodsType getConsumedGoodsType() | get consumed goods type
+GoodsType getDeliverGoodsType() | get deliver goods type
+GoodsType getGoodsInputType() | get goods input type
+GoodsType getGoodsOutputType() | get goods output type
+GoodsType getGoodsType() | get goods type
+GoodsType getGoodsType(QString;) | get goods type
+GoodsType getProducedGoodsType() | get produced goods type
+GoodsType getSecondaryGoods() | get secondary goods
+GoodsType[] getWantedGoods() | get wanted goods
+GoodsType primaryGoods() | primary goods
+GoodsType secondaryGoods() | secondary goods
+GotoLinkNodeAction getGotoLinkNodeAction(QMindMapNode;) | get goto link node action
+IMAchieveGoal getAchieveGoals() | get achieve goals
+Image getGoodsImage(QGoodsType;) | get goods image
+ImageIcon getGoodsIcon() | get goods icon
+ImageIcon getGoodsImageIcon(QGoodsType;) | get goods image icon
+ImageIcon getScaledGoodsImageIcon(QGoodsType;F) | get scaled goods image icon
+int branchInstanceGoesDown(QInstance;) | branch instance goes down
+int calculateGoodsInput(II) | calculate goods input
+int getAvailableGoods(QGoodsType;) | get available goods
+int getGoalPlayers() | get goal players
+int getGold() | get gold
+int getGoodCriticals(III) | get good criticals
+int getGoodCriticals(QCriticalSlot;I) | get good criticals
+int getGoodSavesCount() | get good saves count
+int getGoodsCount() | get goods count
+int getGoodsCount(QGoodsType;) | get goods count
+int getGoodsInput() | get goods input
+int getGoodsInputAuto(I) | get goods input auto
+int getGoodsInputNextTurn() | get goods input next turn
+int getMaxGoodsIcons() | get max goods icons
+int getMaximumGoodsInput() | get maximum goods input
+int getNrOfGoodOperations() | get nr of good operations
+int getOldGoodsCount(QGoodsType;) | get old goods count
+int getVisibleGoodsCount() | get visible goods count
+int _gotoLine() | goto line
+int gotoLine(I) | goto line
+int numberOfFarmedGoodsTypes() | number of far med goods types
+int numberOfGoodsTypes() | number of goods types
+int numberOfStoredGoodsTypes() | number of stored goods types
+Iterator<QAIGoods;> getAIGoodsIterator() | get ai goods iterator
+Iterator<QGoods;> getGoodsIterator() | get goods iterator
+JButton getGoodsButton(QGoodsType;) | get goods button
+JButton getGoodsButton(QGoodsType;I) | get goods button
+JButton getGoodsButton(QGoodsType;QString;) | get goods button
+JPopupMenu getGoodsMenu(QGoodsLabel;) | get goods menu
+List<QAbstractGoods;> getGoodsToLoad() | get goods to load
+List<QAbstractGoods;> getGoodsToUnload() | get goods to unload
+List<QGoods;> getCompactGoods() | get compact goods
+List<QGoods;> getFullGoods() | get full goods
+List<QGoods;> getGoods() | get goods
+List<QGoods;> getGoodsGivenBy(QPlayer;) | get goods given by
+List<QGoods;> getGoodsList() | get goods list
+List<QGoods;> getSellGoods() | get sell goods
+List<QGoodsType;> getFarmedGoodsTypeList() | get far med goods type list
+List<QGoodsType;> getGoodsFood() | get goods food
+List<QGoodsType;> getGoodsTypeList() | get goods type list
+List<QGoodsType;> getNewWorldGoodsTypeList() | get new world goods type list
+ModelMessage checkForGovMgtChangeMessage() | check for gov mgt change message
+Node goToNodeElement(QString;QNode;) | go to node element
+Operation[] getGoodOperations(QBayesNet;QInstances;I) | get good operations
+OrchestrationAchieveGoal createOrchestrationAchieveGoal(IRI perform, Goal goal) | create orchestration achieve goal
+PathNode getGoal() | get goal
+PathNode getGotoPath() | get goto path
+Result getHighestMeshIndexWithGoodPing() | get highest mesh index with good ping
+String getGoodsRequiredAsString() | get goods required as string
+String nrOfGoodOperationsTipText() | nr of good operations tip text
+TileBlock[] splitOneGo() | split one go
+ToGo getToGo() | get to go
+ToGoThread getToGoThread() | get to go thread
+Unit getNextGoingToUnit() | get next going to unit
+void addBackwardGoto(II) | add backward goto
+void addCarriedGoods(QUnit;) | add carried goods
+void addGoldTradeItem(QPlayer;I) | add gold trade item
+void addGoods(QAbstractGoods;) | add goods
+void addGoods(QGoodsType;I) | add goods
+void addGoods(QGoods;ZZ) | add goods
+void addGoodsTradeItem(QPlayer;QGoods;) | add goods trade item
+void addGoodsWish(QGoodsWish;) | add goods wish
+void addGotoOp(I) | add goto op
+void addGoto(QNode;I) | add goto
+void addProducedGoods(QTile;) | add produced goods
+void buildGoodsDetail(QGoodsType;) | build goods detail
+void buildGoodsItem(QGoodsType;QDefaultMutableTreeNode;) | build goods item
+void buildGoodsSubtree(QDefaultMutableTreeNode;) | build goods subtree
+void buyGoods(QGoodsType;I) | buy goods
+void buyGoods(QGoodsType;IQUnit;) | buy goods
+void buyTradeGoodsFromEurope(QUnit;) | buy trade goods from europe
+void captureGoods(QUnit;) | capture goods
+void clearGotoOrders(QUnit;) | clear goto orders
+void consumeGoods(QGoodsType;I) | consume goods
+void createAIGoods() | create ai goods
+void createAIGoodsInColonies() | create ai goods in colon ies
+void createExportAIGoodsList() | create export ai goods list
+void createGoodsContainer() | create goods container
+void displayGotoPath(QGraphics2D;QPathNode;) | display goto path
+void disposeAllToolsGoodsWishes() | dispose all tools goods wishes
+void executeGotoOrders() | execute goto orders
+void exportGoods() | export goods
+void fixLabelGotos() | fix label gotos
+void go() | go
+void goBackToPreviousStep() | go back to previous step
+void goDownAllPaths(QPredictionNode;QInstances;) | go down all paths
+void goDownAllPathsSingle(QPredictionNode;QInstances;QInstances;) | go down all paths single
+void goDownHeaviestPathSingle(QPredictionNode;QInstances;QInstances;) | go down heaviest path single
+void goDownRandomPathSingle(QPredictionNode;QInstances;QInstances;) | go down random path single
+void goDownZpurePathSingle(QPredictionNode;QInstances;QInstances;) | go down zp ure path single
+void GOEPanel() | goe panel
+void GOETreeNode() | goe tree node
+void GOETreeNode(QObject;) | goe tree node
+void GOETreeNode(QObject;Z) | goe tree node
+void go(II) | go
+void goIncremental() | go incremental
+void GoldTradeItemPanel(QNegotiationDialog;QPlayer;I) | gold trade item panel
+void goNextMonth() | go next month
+void GoodsItem(QGoods;) | goods item
+void GoodsPanel() | goods panel
+void GoodsTradeItemPanel(QNegotiationDialog;QPlayer;QList<QGoods;>;) | goods trade item panel
+void goPrevMonth() | go prev month
+void gotAlive(QString;QURL;) | got alive
+void goToChild(I) | go to child
+void GoToFileListEntry(QOpenDefinitionsDocument;QString;) | go to file list entry
+void gotoFileMatchingMask(QString;) | goto file matching mask
+void _gotoFileUnderCursor() | goto file under cursor
+void gotoFrame(I) | goto frame
+void gotoFrame(QString;) | goto frame
+void gotoFrame(Z) | goto frame
+void goTo(I) | go to
+void gotoLine(I) | goto line
+void gotoMarker(IMarker marker) | goto marker
+void goToNextStep() | go to next step
+void gotoNodesAndClose(I[I) | goto nodes and close
+void _goToPage(I) | go to page
+void goToParent() | go to parent
+void goToRegion() | go to region
+void goToRegionAndHighlight(QIDocumentRegion;) | go to region and highlight
+void goToRoot() | go to root
+void gotoTab(I) | goto tab
+void gotoTab(QString;) | goto tab
+void gotPopularity(J) | got popularity
+void gotRoot(QNetworkInterface;QInetAddress;QString;QURL;) | got root
+void gotSecret([B) | got secret
+void gotVuzeNewsEntries([QVuzeActivitiesEntry;J) | got vu ze news entries
+void hookTuxGoodies(QControl;) | hook tux goodies
+void initGotoFileDialog() | init goto file dialog
+void loadedGoods(QGoods;) | loaded goods
+void loadTradeGoodsFromColony(QUnit;) | load trade goods from colony
+void lookAheadInGoodDirectionsSearch(QBayesNet;QInstances;II) | look ahead in good directions search
+void modifyGold(I) | modify gold
+void onOffgoingUser(QJOscarLib.Integration.Event.OffgoingUserEvent;) | on off going user
+void priceGoods() | price goods
+void priceGoods(QGoodsType;Z) | price goods
+void priceGoods(Z) | price goods
+void produceGoods() | produce goods
+void produceGoodsCenterTile() | produce goods center tile
+void receiveGoto(QGotoTocResponse;) | receive goto
+void registerSellGoods(QGoods;) | register sell goods
+void removeAIGoods(QAIGoods;) | remove ai goods
+void removeGoods(QAbstractGoods;) | remove goods
+void removeGoods(QGoodsType;) | remove goods
+void removeGoods(QGoodsType;I) | remove goods
+void resetGotoFileDialogPosition() | reset goto file dialog position
+void resolveForwardGoto(I) | resolve forward goto
+void resolveGoto(II) | resolve goto
+void sellGoods(QGoods;) | sell goods
+void sellTradeGoodsInEurope(QUnit;) | sell trade goods in europe
+void setAvailableGold(I) | set available gold
+void setGoalPlayers(I) | set goal players
+void setGold(I) | set gold
+void setGoodSavesCount(I) | set good saves count
+void setGoodsIcon(QImageIcon;) | set goods icon
+void setGoodsLevels(QColony;QGoodsType;) | set goods levels
+void setGoods(QGoods;) | set goods
+void setGoodsToLoad(QList<QAbstractGoods;>;) | set goods to load
+void setGoodsToUnload(QList<QAbstractGoods;>;) | set goods to unload
+void setGoodsType(QGoodsType;) | set goods type
+void setGoOn(Z) | set go on
+void setGotoPath(QPathNode;) | set goto path
+void setMaxGoodsIcons(I) | set max goods icons
+void setMilitaryGoods(Z) | set military goods
+void setNrOfGoodOperations(I) | set nr of good operations
+void setTradeGoods(Z) | set trade goods
+void setWantedGoods(IQGoodsType;) | set wanted goods
+void setWantedGoods([QGoodsType;) | set wanted goods
+void startGoto() | start goto
+void stopGoto() | stop goto
+void testGotoFileUnderCursor() | test goto file under cursor
+void testGotoFileUnderCursorAppendJava() | test goto file under cursor append java
+void testGotoFileUnderCursorShowDialog() | test goto file under cursor show dialog
+void textGotoLine1() | text goto line 1
+void textGotoLine2() | text goto line 2
+void textGotoLine3() | text goto line 3
+void textGotoLine4() | text goto line 4
+void textGotoLine5() | text goto line 5
+void textGotoLine6() | text goto line 6
+void textGotoLine7() | text goto line 7
+void unloadTradeGoodsToColony(QUnit;) | unload trade goods to colony
+void updateGoldLabel() | update gold label
+void updateGoodsBox(QList<QGoods;>;) | update goods box
+void updateGotoPathForActiveUnit() | update goto path for active unit
+void updateWantedGoods() | update wanted goods
+void visitGOTO(QNode.Jump;IQNode;) | visit goto
+void WarehouseGoodsPanel(QColony;QGoodsType;) | warehouse goods panel

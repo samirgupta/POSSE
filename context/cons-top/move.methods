@@ -1,0 +1,20 @@
+CONS FileMovedException(QFile;QString;) | file moved exception
+CONS HMVMovementType(QString;I) | hmv movement type
+CONS Move() | move
+CONS MoveableNodeView(QMindMapNode;QMapView;) | moveable node view
+CONS MoveAction(QDrawingEditor;II) | move action
+CONS MoveFileAction(QJabRefFrame;QEntryEditor;QFileListEditor;Z) | move file action
+CONS MoveHandle(QFigure;QLocator;) | move handle
+CONS MovementDisplay(QClientGUI;) | movement display
+CONS MoveNodeAction(QControllerAdapter;) | move node action
+CONS MoveOption(QIGame;QCEntity;) | move option
+CONS MoveOption(QMoveOption;) | move option
+CONS MovePath(QIGame;QEntity;) | move path
+CONS MoveStep(QMovePath;I) | move step
+CONS MoveStep(QMovePath;II) | move step
+CONS MoveStep(QMovePath;IQTargetable;) | move step
+CONS MoveToBackAction(QDrawingEditor;) | move to back action
+CONS MoveToFrontAction(QDrawingEditor;) | move to front action
+CONS UndoableMoveGroup(QGroupSelector;QGroupTreeNode;QGroupTreeNode;QGroupTreeNode;I) | undoable move group
+CONS UnitMoveAnimation(QCanvas;QUnit;QDirection;) | unit move animation
+CONS UnitMoveAnimation(QCanvas;QUnit;QTile;) | unit move animation

@@ -1,0 +1,21 @@
+boolean http_test | http test
+byte[] HTTP_RESPONSE_END_GZIP | http response end gzip
+byte[] HTTP_RESPONSE_END_NOGZIP | http response end no gzip
+byte[] HTTP_RESPONSE_START | http response start
+byte[] HTTP_RESPONSE_XML_START | http response xml start
+com.aelitis.azureus.core.networkmanager.impl.http.HTTPNetworkConnection http_connection | http connection
+com.aelitis.azureus.core.networkmanager.impl.http.HTTPNetworkConnection.httpRequest http_request | http request
+com.aelitis.azureus.core.networkmanager.impl.tcp.IncomingSocketChannelManager http_incoming_manager | http incoming manager
+com.aelitis.azureus.plugins.extseed.util.ExternalSeedHTTPDownloader[] http_downloaders | http downloaders
+int http_calls_ok | http calls ok
+int HTTP_SERVER_PORT | http server port
+java.lang.String http_host | http host
+java.lang.String http_port | http port
+java.lang.String HTTP_SERVER_ADDRESS_V4 | http server address v 4
+java.lang.String HTTP_SERVER_ADDRESS_V6 | http server address v 6
+java.lang.String HTTP_VERSION | http version
+java.text.SimpleDateFormat http_date_format | http date format
+java.util.List http_peers | http peers
+java.util.List http_requests | http requests
+java.util.Map http_connection_map | http connection map
+short http_port | http port

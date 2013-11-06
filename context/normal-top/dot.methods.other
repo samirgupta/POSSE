@@ -1,0 +1,13 @@
+AST generateSyntheticDotNodeForNonQualifiedPropertyRef(QAST;QFromElement;) | generate synthetic dot node for non qualified property ref
+boolean isDotNode(QAST;) | is dot node
+boolean isDotQuadIP(QString;) | is dot quad ip
+NativeWith enterDotQuery(QScriptable;) | enter dot query
+Node createDotQuery(QNode;QNode;I) | create dot query
+Object updateDotQuery(Z) | update dot query
+Object updateDotQuery(ZQScriptable;) | update dot query
+Scriptable enterDotQuery(QObject;QScriptable;) | enter dot query
+Scriptable leaveDotQuery(QScriptable;) | leave dot query
+void handleDotIdent() | handle dot ident
+void handleDotStructure(QAST;) | handle dot structure
+void testDotPaths() | test dot paths
+void visitDotQuery(QNode;QNode;) | visit dot query

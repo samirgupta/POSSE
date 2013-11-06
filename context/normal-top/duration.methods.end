@@ -1,0 +1,19 @@
+boolean getTaskDuration() | get task duration
+float getInitialDuration() | get initial duration
+GP4Duration getDuration() | get duration
+int getChangeDuration() | get change duration
+int getDuration() | get duration
+int getFadingDuration() | get fading duration
+long getDuration() | get duration
+TaskLength getDuration() | get duration
+TaskLength translateDuration(QTaskLength;) | translate duration
+TaskMutator createMutatorFixingDuration() | create mutator fixing duration
+void setChangeDuration(I) | set change duration
+void setDuration(I) | set duration
+void setDuration(J) | set duration
+void setDuration(QGP4Duration;) | set duration
+void setDuration(QTaskLength;) | set duration
+void setFadingDuration(I) | set fading duration
+void setMinDuration(QGP4Duration;) | set min duration
+void setMinDuration(QGP4Duration;I) | set min duration
+void testHasNotDuration() | test has not duration

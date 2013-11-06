@@ -1,0 +1,122 @@
+boolean containsInGameComponents() | contains in game components
+boolean isInEndGameMode() | is in end game mode
+boolean isInGame() | is in game
+boolean isOutOfGame(I) | is out of game
+boolean isOutOfGame(QEntity;) | is out of game
+boolean keepGameLog() | keep game log
+boolean loadGame(QFile;) | load game
+boolean receiveGameOptions(QPacket;I) | receive game options
+boolean showGameOptionsDialog(Z) | show game options dialog
+Element startGame(QElement;) | start game
+Element updateGameOptions(QConnection;QElement;) | update game options
+Element updateGameOptions(QElement;) | update game options
+Entity getOutOfGameEntity(I) | get out of game entity
+Enumeration getSelectedOutOfGameEntities(QEntitySelector;) | get selected out of game entities
+FileFilter getGameOptionsFileFilter() | get game options file filter
+FreeColGameObject getFreeColGameObject(QString;) | get free col game object
+FreeColGameObject getFreeColGameObjectSafely(QString;) | get free col game object safely
+FreeColGameObjectListener getFreeColGameObjectListener() | get free col game object listener
+FreeColGameObject removeFreeColGameObject(QString;) | remove free col game object
+FreeColGameObjectType getFreeColGameObjectType() | get free col game object type
+Game getGame() | get game
+Game loadSaveGame(QFile;) | load save game
+GameOptionsDialog getGameOptionsDialog() | get game options dialog
+GameOptions getGameOptions() | get game options
+GameOver addGame(GameInfo gameInfo, boolean eloRatings) | add game
+GameState getGameState() | get game state
+HashMap<QString;QLong;> getGameStatistics() | get game statistics
+IGame createGame() | create game
+IGame getGame() | get game
+InGameController getInGameController() | get in game controller
+InGameInputHandler getInGameInputHandler() | get in game input handler
+int findPieceInEndGameMode(QPEPeerTransport;I) | find piece in end game mode
+int getGameState() | get game state
+int getSelectedOutOfGameEntityCount(QEntitySelector;) | get selected out of game entity count
+Iterator<QFreeColGameObject;> getFreeColGameObjectIterator() | get free col game object iterator
+JPanel createGameStatePanel() | create game state panel
+Packet createEndOfGamePacket() | create end of game packet
+Packet createGameSettingsPacket() | create game settings packet
+PreGameController getPreGameController() | get pre game controller
+PreGameInputHandler getPreGameInputHandler() | get pre game input handler
+StartGamePanel getStartGamePanel() | get start game panel
+String getGame() | get game
+String getGameFilename() | get game filename
+String getGameLogFilename() | get game log filename
+String loadGame(QFile;) | load game
+String toSaveGameString() | to save game string
+T getFreeColGameObject(QXMLStreamReader;QString;QClass<QT;>;) | get free col game object
+T getFreeColGameObject(QXMLStreamReader;QString;QClass<QT;>;QT;) | get free col game object
+T updateFreeColGameObject(QXMLStreamReader;QClass<QT;>;) | update free col game object
+Vector getOutOfGameEntitiesVector() | get out of game entities vector
+void abandonEndGameMode() | abandon end game mode
+void addEndGameChunks(QPEPiece;) | add end game chunks
+void addGameListener(QGameListener;) | add game listener
+void buildGameMenu() | build game menu
+void checkEndGameMode() | check end game mode
+void clearEndGameChunks() | clear end game chunks
+void computeEndGameModeChunks() | compute end game mode chunks
+void gameBoardNew(QGameBoardNewEvent;) | game board new
+void gameEnd(QGameEndEvent;) | game end
+void gameEntityChange(QGameEntityChangeEvent;) | game entity change
+void gameEntityNewOffboard(QGameEntityNewOffboardEvent;) | game entity new offboard
+void gameEntityNew(QGameEntityNewEvent;) | game entity new
+void gameEntityRemove(QGameEntityRemoveEvent;) | game entity remove
+void gameMapQuery(QGameMapQueryEvent;) | game map query
+void gameNewAction(QGameNewActionEvent;) | game new action
+void GameOptionsInfo() | game options info
+void gamePhaseChange(QGamePhaseChangeEvent;) | game phase change
+void gamePhaseChange(QGameTurnChangeEvent;) | game phase change
+void gamePlayerChange(QGamePlayerChangeEvent;) | game player change
+void gamePlayerChat(QGamePlayerChatEvent;) | game player chat
+void gameReport(QGameReportEvent;) | game report
+void gameSettingsChange(QGameSettingsChangeEvent;) | game settings change
+void gameTurnChange(QGameTurnChangeEvent;) | game turn change
+void incrementAndSendGameRound() | increment and send game round
+void initGameLog() | init game log
+void joinMultiplayerGame(QString;QString;I) | join multiplayer game
+void leaveEndGameMode() | leave end game mode
+void loadGame() | load game
+void loadGame(QFile;) | load game
+void newGame() | new game
+void processGameEvent(QGameEvent;) | process game event
+void quitGame(Z) | quit game
+void quitGame(ZZ) | quit game
+void receiveGameOptionsAux(QPacket;I) | receive game options aux
+void refreshGameSettings() | refresh game settings
+void removeFreeColGameObject(QString;) | remove free col game object
+void removeFromEndGameModeChunks(II) | remove from end game mode chunks
+void removeGameListener(QGameListener;) | remove game listener
+void removeInGameComponents() | remove in game components
+void resetGame() | reset game
+void resign(Game game) | resign
+void saveGame() | save game
+void saveGame(QFile;) | save game
+void saveGame(QFile;QString;) | save game
+void saveGame(QString;) | save game
+void saveGame(QString;Z) | save game
+void sendGameOptions() | send game options
+void sendGameOptions(QString;QVector;) | send game options
+void sendSaveGame(IQString;) | send save game
+void sendUpdatedGame() | send updated game
+void setFreeColGameObjectListener(QFreeColGameObjectListener;) | set free col game object listener
+void setFreeColGameObject(QString;QFreeColGameObject;) | set free col game object
+void setGameLogFilename(QString;) | set game log filename
+void setGame(QGame;) | set game
+void setGame(QIGame;) | set game
+void setGameState(QGameState;) | set game state
+void setInGame(Z) | set in game
+void setJoinGameOptions(Z) | set join game options
+void setKeepGameLog(Z) | set keep game log
+void setOutOfGameEntitiesVector(QVector;) | set out of game entities vector
+void setupPlugin(GameExtractor gameExt) | setup plugin
+void showGameOptions() | show game options
+void showOpenGamePanel() | show open game panel
+void showStartGamePanel(QGame;QPlayer;ZIIZ) | show start game panel
+void startGame() | start game
+void startMultiplayerGame(ZQString;III) | start multiplayer game
+void startSingleplayerGame(QString;IZI) | start single player game
+void updateGame(long currentTime) | update game
+void updateGameObjects(QNodeList;) | update game objects
+void updateGameOptions() | update game options
+void updateGame(QConnection;QXMLStreamReader;QXMLStreamWriter;) | update game
+void writeFreeColGameObject(QFreeColGameObject;QXMLStreamWriter;QPlayer;ZZ) | write free col game object

@@ -1,0 +1,21 @@
+AuctionEntry addAuction(QString;) | add auction
+AuctionInfo addAuction(QString;) | add auction
+AuctionInfo addAuction(QURL;QString;) | add auction
+AuctionInfo loadAuction(QURL;QString;QAuctionEntry;) | load auction
+AuctionInfo reloadAuction(QAuctionEntry;) | reload auction
+Auctions matchAuction(QAuctionEntry;) | match auction
+Auctions refilterAuction(QAuctionEntry;Z) | refilter auction
+Auctions whereIsAuction(QAuctionEntry;) | where is auction
+Auctions whereIsAuction(QString;) | where is auction
+boolean parseAuction(QAuctionEntry;) | parse auction
+boolean preParseAuction() | pre parse auction
+Object figureAuction(QJTable;I) | figure auction
+SpecificAuction getNewSpecificAuction() | get new specific auction
+StringBuffer getAuction(QURL;) | get auction
+void addAuction(QAuctionEntry;) | add auction
+void addAuction(QString;) | add auction
+void cmdAddAuction(QString;) | cmd add auction
+void deleteAuction(QAuctionEntry;) | delete auction
+void registerAuction(QAuctionEntry;) | register auction
+void setWonAuction(QAuctionEntry;) | set won auction
+void unregisterAuction(QAuctionEntry;) | unregister auction

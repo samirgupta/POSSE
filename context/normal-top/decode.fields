@@ -1,0 +1,26 @@
+boolean DECODE | decode
+com.aelitis.azureus.core.networkmanager.impl.http.HTTPMessageDecoder decoder | decoder
+com.aelitis.azureus.core.networkmanager.impl.ProtocolDecoderPHE phe_decoder | phe decoder
+com.aelitis.azureus.core.peermanager.messaging.azureus.AZMessageDecoder decoder | decoder
+com.aelitis.azureus.core.peermanager.messaging.MessageStreamDecoder stream_decoder | stream decoder
+int DECODE | decode
+int decode_read | decode read
+int Id_decodeURI | id decode uri
+int Id_decodeURIComponent | id decode uri component
+int RT_DECODE_FAILS | rt decode fails
+int TT_DECODE | tt decode
+java.lang.Object decodedParams | decoded params
+java.lang.String decoded_url | decoded url
+java.nio.ByteBuffer[] decode_array | decode array
+java.nio.ByteBuffer decode_buffer | decode buffer
+java.nio.charset.CharsetDecoder decoder | decoder
+java.util.List decoders | decoders
+java.util.Map decodedMap | decoded map
+java.util.Map packet_decoders | packet decoders
+org.gudy.azureus2.core3.internat.LocaleUtilDecoder[] all_decoders | all decoders
+org.gudy.azureus2.core3.internat.LocaleUtilDecoder decoder | decoder
+org.gudy.azureus2.core3.internat.LocaleUtilDecoder fallback_decoder | fallback decoder
+org.gudy.azureus2.core3.internat.LocaleUtilDecoder[] general_decoders | general decoders
+org.gudy.azureus2.core3.internat.LocaleUtilDecoder rememberedDecoder | remembered decoder
+org.gudy.azureus2.core3.internat.LocaleUtilDecoder system_decoder | system decoder
+org.gudy.azureus2.plugins.messaging.MessageStreamDecoder plug_decoder | plug decoder

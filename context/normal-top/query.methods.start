@@ -1,0 +1,25 @@
+boolean queryHasAliases() | query has aliases
+boolean queryHasParameter(QString;QString;Z) | query has parameter
+Info queryPath(QString;I) | query path
+int queryRowCount(QString;) | query row count
+List queryForList(String sql, Map paramMap, Class elementType) | query for list
+long queryForLong(String sql, Object args, int argTypes) | query for long
+long queryFSInformation(I) | query fs information
+Object queryForClass(QClass;) | query for class
+Object queryForClass(QClass;[QObject;) | query for class
+Object queryForClass([QObject;QClass;) | query for class
+Set<ObjectName> queryNames(ObjectName name, QueryExp query) | query names
+Set queryObjectNames(QueryExp exp) | query object names
+String queryAuxConfiguration(QString;QString;) | query aux configuration
+String queryConfiguration(QString;) | query configuration
+String queryConfiguration(QString;QString;) | query configuration
+String queryDisplayProperty(QString;) | query display property
+String queryDisplayProperty(QString;QString;) | query display property
+String queryLookup(QString;QString;) | query lookup
+String queryTipText() | query tip text
+void queryCacheHit(QString;QString;) | query cache hit
+void queryCacheMiss(QString;QString;) | query cache miss
+void queryCachePut(QString;QString;) | query cache put
+void queryLoop() | query loop
+void QueryThread(QSem;QString;IQString;QInetAddress;) | query thread
+XDispatch queryDispatch(URL aURL, String sTarget, int nSearchFlags) | query dispatch

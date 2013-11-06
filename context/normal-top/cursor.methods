@@ -1,0 +1,64 @@
+boolean displayTileCursor(QTile;II) | display tile cursor
+boolean displayUnitCursor(QUnit;II) | display unit cursor
+boolean _isCursorAfterPrompt() | is cursor after prompt
+boolean isCursorScrollable() | is cursor scrollable
+boolean isCursorScrollSensitive() | is cursor scroll sensitive
+boolean isRefCursorCall(PreparedStatement statement) | is ref cursor call
+boolean supportsOpenCursorsAcrossCommit() | supports open cursors across commit
+boolean supportsOpenCursorsAcrossRollback() | supports open cursors across rollback
+boolean supportsResultSetPositionQueryMethodsOnForwardOnlyCursor() | supports result set position query methods on forward only cursor
+boolean updateCursor(D) | update cursor
+Color getTextColor(Component c, TableModel model, int row, int col, Object value, boolean enabled, boolean focus, boolean selected, boolean cursor) | get text color
+Coords getLastCursor() | get last cursor
+Cursor createCustomCursor(QString;QString;QString;) | create custom cursor
+Cursor getCursor() | get cursor
+Cursor getCursorByAction(I) | get cursor by action
+Cursor getCursor(QPoint2D.Double;) | get cursor
+int braceCursorOffset() | brace cursor offset
+int commentCursorOffset() | comment cursor offset
+int getCursorID() | get cursor id
+int getCursorPosition() | get cursor position
+int getMaxCursorNameLength() | get max cursor name length
+int getSupportedCursorScrollType() | get supported cursor scroll type
+Listener getHandCursorListener(QDisplay;) | get hand cursor listener
+String getCursorName() | get cursor name
+TableCellCore getTableCellWithCursor() | get table cell with cursor
+TableRowCore getTableRowWithCursor() | get table row with cursor
+TerrainCursor getCursor() | get cursor
+TokenList.Iterator makeCopyCursor() | make copy cursor
+void _completeWordUnderCursor() | complete word under cursor
+void cursorDown() | cursor down
+void cursor(II) | cursor
+void cursorLeft() | cursor left
+void cursor(QCoords;) | cursor
+void cursorRight() | cursor right
+void CursorSprite(QColor;) | cursor sprite
+void cursorUp() | cursor up
+void drawCursor(QGraphics2D;II) | draw cursor
+void _gotoFileUnderCursor() | goto file under cursor
+void hexCursor(QBoardViewEvent;) | hex cursor
+void makeVisibleOnCursor(QRectangle;) | make visible on cursor
+void moveCursor(QCursorSprite;QCoords;) | move cursor
+void moveCursor(QKeyEvent;) | move cursor
+void moveTileCursor(QDirection;) | move tile cursor
+void _openJavadocUnderCursor() | open javadoc under cursor
+void resetWalkerLocationToCursor() | reset walker location to cursor
+void setCursor(Cursor cursor) | set cursor
+void setCursorFoward() | set cursor foward
+void setCursor(I) | set cursor
+void setCursorID(I) | set cursor id
+void setCursorName(QString;) | set cursor name
+void setCursorPosition(I) | set cursor position
+void setCursorPosition(int c, int l) | set cursor position
+void setCursor(QCursor;) | set cursor
+void setCursor(QCursorType;) | set cursor
+void setDefaultCursor() | set default cursor
+void setLastCursor(QCoords;) | set last cursor
+void setMoveCursor(Z) | set move cursor
+void setWaitingCursor(Z) | set waiting cursor
+void startCursorBlinking() | start cursor blinking
+void testGotoFileUnderCursor() | test goto file under cursor
+void testGotoFileUnderCursorAppendJava() | test goto file under cursor append java
+void testGotoFileUnderCursorShowDialog() | test goto file under cursor show dialog
+void updateCursor(QDrawingView;QPoint;) | update cursor
+void waitCursorBegin() | wait cursor begin

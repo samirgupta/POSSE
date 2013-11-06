@@ -1,0 +1,13 @@
+DHTRouter getRouter() | get router
+int addRouter(QRouterInfo;) | add router
+int addRouter(QString;QString;QString;Z) | add router
+int deleteRouter(QRouterInfo;) | delete router
+int removeRouter(QString;) | remove router
+int updateRouter(QRouterInfo;) | update router
+int updateRouter(QString;QString;QString;Z) | update router
+RouterInfo findSelectedRouter() | find selected router
+void addRouter() | add router
+void createRouter(QDHTTransportContact;) | create router
+void editRouter() | edit router
+void nodeAddedToRouter(QDHTRouterContact;) | node added to router
+void removeRouter() | remove router

@@ -1,0 +1,37 @@
+CONS FastGradientPaintContext(QColorModel;QRectangle;IIZ) | fast gradient paint context
+CONS FastGradientPaint(QColor;QColor;Z) | fast gradient paint
+CONS GradientIcon(QMultipleGradientPaint;) | gradient icon
+CONS GradientIcon(QMultipleGradientPaint;II) | gradient icon
+CONS GradientIcon(QMultipleGradientPaint;IIII) | gradient icon
+CONS GradientJButton(QIIconFactory;QString;) | gradient j button
+CONS GradientJButton(QIIconFactory;QString;QMultipleGradientPaint;) | gradient j button
+CONS GradientJButton(QMultipleGradientPaint;) | gradient j button
+CONS GradientJButton(QMultipleGradientPaint;IIII) | gradient j button
+CONS GradientJRadioButtonMenuItem(QIIconFactory;QString;) | gradient j radio button menu item
+CONS GradientJRadioButtonMenuItem(QIIconFactory;QString;QMultipleGradientPaint;) | gradient j radio button menu item
+CONS GradientJRadioButtonMenuItem(QMultipleGradientPaint;) | gradient j radio button menu item
+CONS GradientJRadioButtonMenuItem(QMultipleGradientPaint;IIII) | gradient j radio button menu item
+CONS GradientJRadioButton(QIIconFactory;QString;) | gradient j radio button
+CONS GradientJRadioButton(QIIconFactory;QString;QMultipleGradientPaint;) | gradient j radio button
+CONS GradientJRadioButton(QMultipleGradientPaint;) | gradient j radio button
+CONS GradientJRadioButton(QMultipleGradientPaint;IIII) | gradient j radio button
+CONS JGradientChooser(QString;) | j gradient chooser
+CONS LinearGradient() | linear gradient
+CONS LinearGradientPaintContext(QColorModel;QRectangle;QRectangle2D;QAffineTransform;QRenderingHints;QPoint2D;QPoint2D;[F[QColor;QMultipleGradientPaint.CycleMethodEnum;QMultipleGradientPaint.ColorSpaceEnum;) | linear gradient paint context
+CONS LinearGradientPaint(FFFF[F[QColor;) | linear gradient paint
+CONS LinearGradientPaint(FFFF[F[QColor;QCycleMethodEnum;) | linear gradient paint
+CONS LinearGradientPaint(QPoint2D;QPoint2D;[F[QColor;) | linear gradient paint
+CONS LinearGradientPaint(QPoint2D;QPoint2D;[F[QColor;QCycleMethodEnum;QColorSpaceEnum;) | linear gradient paint
+CONS LinearGradientPaint(QPoint2D;QPoint2D;[F[QColor;QCycleMethodEnum;QColorSpaceEnum;QAffineTransform;) | linear gradient paint
+CONS MultipleGradientPaintContext(QColorModel;QRectangle;QRectangle2D;QAffineTransform;QRenderingHints;[F[QColor;QMultipleGradientPaint.CycleMethodEnum;QMultipleGradientPaint.ColorSpaceEnum;) | multiple gradient paint context
+CONS MultipleGradientPaint([F[QColor;QCycleMethodEnum;QColorSpaceEnum;QAffineTransform;) | multiple gradient paint
+CONS RadialGradient() | radial gradient
+CONS RadialGradientPaintContext(QColorModel;QRectangle;QRectangle2D;QAffineTransform;QRenderingHints;FFFFF[F[QColor;QMultipleGradientPaint.CycleMethodEnum;QMultipleGradientPaint.ColorSpaceEnum;) | radial gradient paint context
+CONS RadialGradientPaint(FFFFF[F[QColor;) | radial gradient paint
+CONS RadialGradientPaint(FFF[F[QColor;) | radial gradient paint
+CONS RadialGradientPaint(QPoint2D;F[F[QColor;) | radial gradient paint
+CONS RadialGradientPaint(QPoint2D;FQPoint2D;[F[QColor;) | radial gradient paint
+CONS RadialGradientPaint(QPoint2D;FQPoint2D;[F[QColor;QCycleMethodEnum;QColorSpaceEnum;) | radial gradient paint
+CONS RadialGradientPaint(QPoint2D;FQPoint2D;[F[QColor;QCycleMethodEnum;QColorSpaceEnum;QAffineTransform;) | radial gradient paint
+CONS RadialGradientPaint(QRectangle2D;[F[QColor;) | radial gradient paint
+CONS SetDrawing2GradientAction(QDrawingPanel;IQMainWindow;IZ) | set drawing 2 gradient action

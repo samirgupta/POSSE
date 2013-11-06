@@ -1,0 +1,25 @@
+boolean experimentIndexExists() | experiment index exists
+boolean setExperiment(QExperiment;) | set experiment
+Collection<ExperimentRef> getExperimentRefs() | get experiment refs
+Experiment createExperiment(int columns, int rows) | create experiment
+Experiment findFirstExperiment(String key1, Object value1, String key2, Object value2) | find first experiment
+Experiment getBaseExperiment() | get base experiment
+Experiment getExperiment() | get experiment
+String createExperimentIndexEntry(QResultProducer;) | create experiment index entry
+String getExperimentType() | get experiment type
+String postExperimentInfo() | post experiment info
+void abortExperiment() | abort experiment
+void addRemoteExperimentListener(QRemoteExperimentListener;) | add remote experiment listener
+void clearExperimentCache() | clear experiment cache
+void createExperimentIndex() | create experiment index
+void ExperimentRunner(QExperiment;) | experiment runner
+void openExperiment() | open experiment
+void remoteExperimentStatus(QRemoteExperimentEvent;) | remote experiment status
+void runExperiment() | run experiment
+void saveExperiment() | save experiment
+void setBaseExperiment(QExperiment;) | set base experiment
+void setExperiment(QExperiment;) | set experiment
+void setExperiment(QRemoteExperiment;) | set experiment
+void trackExperimentsByHash(DsIntern ds) | track experiments by hash
+void updateExperiment() | update experiment
+void waitingExperiment(I) | waiting experiment

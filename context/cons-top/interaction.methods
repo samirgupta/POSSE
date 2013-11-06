@@ -1,0 +1,25 @@
+CONS DefaultInteractionsModel(QDefaultGlobalModel;QMainJVM;QConsoleDocumentInterface;QFile;) | default interactions model
+CONS DependencyInteractionRenderer() | dependency interaction renderer
+CONS DependencyInteractionRenderer(IIII) | dependency interaction renderer
+CONS InteractionsController(QInteractionsModel;QInteractionsDJDocument;QInteractionsPane;QRunnable;) | interactions controller
+CONS InteractionsController(QInteractionsModel;QInteractionsDJDocument;QRunnable;) | interactions controller
+CONS InteractionsDJDocument() | interactions dj document
+CONS InteractionsDocument(QConsoleDocumentInterface;) | interactions document
+CONS InteractionsDocument(QConsoleDocumentInterface;I) | interactions document
+CONS InteractionsDocument(QConsoleDocumentInterface;QHistory;) | interactions document
+CONS InteractionsEditorKit() | interactions editor kit
+CONS InteractionsException(QString;) | interactions exception
+CONS InteractionsModel(QConsoleDocumentInterface;QFile;II) | interactions model
+CONS InteractionsModelTest(QString;) | interactions model test
+CONS InteractionsPane(QInteractionsDJDocument;) | interactions pane
+CONS InteractionsPane(QString;QInteractionsDJDocument;) | interactions pane
+CONS InteractionsScriptController(QInteractionsScriptModel;QAction;QInteractionsPane;) | interactions script controller
+CONS InteractionsScriptModel(QInteractionsModel;QList<QString;>;) | interactions script model
+CONS InteractionsScriptPane(II) | interactions script pane
+CONS RMIInteractionsModel(QMainJVM;QConsoleDocumentInterface;QFile;II) | rmi interactions model
+CONS SimpleInteractionsModel() | simple interactions model
+CONS SimpleInteractionsModel(QInteractionsDJDocument;) | simple interactions model
+CONS SimpleInteractionsWindow() | simple interactions window
+CONS SimpleInteractionsWindow(QString;) | simple interactions window
+CONS TaskInteractionHintRenderer() | task interaction hint renderer
+CONS TaskInteractionHintRenderer(QString;II) | task interaction hint renderer

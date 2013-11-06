@@ -1,0 +1,6 @@
+DialogView createPageSetupView(QUserPreferences;QPageSetupController;) | create page setup view
+int readSetupWireFormat([BII) | read setup wire format
+int writeSetupWireFormat([BI) | write setup wire format
+JobSetupFactory getJobSetupFactory() | get job setup factory
+void recoverAfterListenerSetupFailure() | recover after listener setup failure
+void testPageSetupAndPrintPreview() | test page setup and print preview

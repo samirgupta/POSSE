@@ -1,0 +1,24 @@
+AmmoType createCLHeavyMGAmmoHalf() | create cl heavy mg ammo half
+AmmoType createCLLightMGAmmoHalf() | create cl light mg ammo half
+AmmoType createCLMGAmmoHalf() | create cl mg ammo half
+AmmoType createISMGAmmoHalf() | create is mg ammo half
+AmmoType getAmmoType(JQHMVTechType;) | get ammo type
+boolean isAmmoUsable() | is ammo usable
+double getAmmoAdjDamage(QIGame;QWeaponAttackAction;) | get ammo adj damage
+int getAmmoId() | get ammo id
+int getAmmoType() | get ammo type
+int getTotalAmmoOfType(QEquipmentType;) | get total ammo of type
+String getAmmoName(JQHMVTechType;) | get ammo name
+String getAmmoName(QLong;QHMVTechType;) | get ammo name
+Vector explodeAmmoFromHeat(QEntity;) | explode ammo from heat
+Vector explodeInfernoAmmoFromHeat(QEntity;) | explode inferno ammo from heat
+void AddSetAmmoTo(QString;) | add set ammo to
+void changeAmmoType(QAmmoType;) | change ammo type
+void receiveEntityAmmoChange(QPacket;I) | receive entity ammo change
+void resolveAmmoDumps() | resolve ammo dumps
+void sendAmmoChange(III) | send ammo change
+void setAmmoId(I) | set ammo id
+void SetAmmoPlan(QEntity;) | set ammo plan
+void SetAmmoTo(III) | set ammo to
+void setAmmoType(I) | set ammo type
+WeaponResult addHeatUseAmmoFor(QWeaponAttackAction;QWeaponResult;) | add heat use ammo for

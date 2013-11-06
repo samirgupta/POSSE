@@ -1,0 +1,336 @@
+../3-Phrases/Base_Verb:void changeToMapOfMode(Mode mode) | change to map of mode
+../3-Phrases/Base_Verb:static IdmapElt parse(XMLInputStream xis, XmlOptions options) | id map elt parse
+../3-Phrases/Base_Verb:void setMapResetCount(int unknown1) | set map reset count
+../3-Phrases/Base_Verb:int getBlockMapDices(boolean isTeamHome) | get block map dices
+../3-Phrases/DrawSWF:void TileMapLRUMember(QTileMap;QPoint;QRaster;) | tile map lru member
+../3-Phrases/drjava2:CONS OptionMapLoader(QInputStream;) | option map loader
+../3-Phrases/drjava2:CONS OptionMapLoader(QProperties;) | option map loader
+../3-Phrases/drjava2:CONS OptionMapLoaderTest(QString;) | option map loader test
+../3-Phrases/freecol2:void setMapEditor(Z) | set map editor
+../3-Phrases/freecol2:boolean isMapEditor() | is map editor
+../3-Phrases/freecol2:MapEditorController getMapEditorController() | get map editor controller
+../3-Phrases/freecol2:void startMapEditor() | start map editor
+../3-Phrases/freecol2:void setMapTransform(QMapTransform;) | set map transform
+../3-Phrases/freecol2:MapTransform getMapTransform() | get map transform
+../3-Phrases/freecol2:void setMapGeneratorOptions(QMapGeneratorOptions;) | set map generator options
+../3-Phrases/freecol2:MapGeneratorOptions getMapGeneratorOptions() | get map generator options
+../3-Phrases/freecol2:void sendMapGeneratorOptions() | send map generator options
+../3-Phrases/freecol2:Element updateMapGeneratorOptions(QElement;) | update map generator options
+../3-Phrases/freecol2:boolean isMapboardActionsEnabled() | is map board actions enabled
+../3-Phrases/freecol2:boolean showMapGeneratorOptionsDialog(Z) | show map generator options dialog
+../3-Phrases/freecol2:boolean showMapGeneratorOptionsDialog(ZQMapGeneratorOptions;) | show map generator options dialog
+../3-Phrases/freecol2:MapControls getMapControls() | get map controls
+../3-Phrases/freecol2:void updateMapDisplayVariables() | update map display variables
+../3-Phrases/freecol2:Map.Position convertToMapCoordinates(II) | convert to map coordinates
+../3-Phrases/freecol2:boolean isMapNearTop(I) | is map near top
+../3-Phrases/freecol2:boolean isMapNearBottom(I) | is map near bottom
+../3-Phrases/freecol2:boolean isMapNearLeft(II) | is map near left
+../3-Phrases/freecol2:boolean isMapNearRight(II) | is map near right
+../3-Phrases/freecol2:CONS CanvasMapEditorMouseMotionListener(QCanvas;QGUI;) | canvas map editor mouse motion listener
+../3-Phrases/freecol2:CONS CanvasMapEditorMouseListener(QCanvas;QGUI;) | canvas map editor mouse listener
+../3-Phrases/freecol2:CONS MiniMapChangeBackgroundAction(QFreeColClient;) | mini map change background action
+../3-Phrases/freecol2:CONS ScaleMapAction(QFreeColClient;) | scale map action
+../3-Phrases/freecol2:MapSize showMapSizeDialog() | show map size dialog
+../3-Phrases/freecol2:void scaleMapTo(II) | scale map to
+../3-Phrases/freecol2:CONS NewEmptyMapAction(QFreeColClient;) | new empty map action
+../3-Phrases/freecol2:MapSize showMapSizeDialog() | show map size dialog
+../3-Phrases/freecol2:CONS MiniMapZoomInAction(QFreeColClient;) | mini map zoom in action
+../3-Phrases/freecol2:MapControls getMapControls() | get map controls
+../3-Phrases/freecol2:void showMapControls(Z) | show map controls
+../3-Phrases/freecol2:CONS MiniMapZoomOutAction(QFreeColClient;) | mini map zoom out action
+../3-Phrases/freecol2:CONS OptionMapUI(QOptionMap;) | option map ui
+../3-Phrases/freecol2:CONS OptionMapUI(QOptionMap;Z) | option map ui
+../3-Phrases/freecol2:void updateMapGeneratorOptions() | update map generator options
+../3-Phrases/freecol2:boolean isAdjacentToMapEdge(QTile;) | is adjacent to map edge
+../3-Phrases/freecol2:WholeMapIterator getWholeMapIterator() | get whole map iterator
+../3-Phrases/freecol2:void WholeMapIterator() | whole map iterator
+../3-Phrases/freecol2:IMapGenerator getMapGenerator() | get map generator
+../3-Phrases/freecol2:void setMapGenerator(QIMapGenerator;) | set map generator
+../3-Phrases/freecol2:void revealMapForAllPlayers() | reveal map for all players
+../3-Phrases/freecol2:Element updateMapGeneratorOptions(QConnection;QElement;) | update map generator options
+../3-Phrases/freecol2:MapGeneratorOptions getMapGeneratorOptions() | get map generator options
+../3-Phrases/freecol2:MapGeneratorOptions getMapGeneratorOptions() | get map generator options
+../3-Phrases/freecol2:MapGeneratorOptions getMapGeneratorOptions() | get map generator options
+../3-Phrases/freemind:void startupMapHook() | startup map hook
+../3-Phrases/freemind:void startupMapHook() | startup map hook
+../3-Phrases/freemind:void shutdownMapHook() | shutdown map hook
+../3-Phrases/freemind:void startupMapHook() | startup map hook
+../3-Phrases/freemind:void startupMapHook() | startup map hook
+../3-Phrases/freemind:void shutdownMapHook() | shutdown map hook
+../3-Phrases/freemind:void shutdownMapHook() | shutdown map hook
+../3-Phrases/freemind:void shutdownMapHook() | shutdown map hook
+../3-Phrases/freemind:void startupMapHook() | startup map hook
+../3-Phrases/freemind:void shutdownMapHook() | shutdown map hook
+../3-Phrases/freemind:void shutdownMapHook() | shutdown map hook
+../3-Phrases/freemind:CONS MindMapNodesSelection(QString;QString;QString;QString;QString;QList;) | mind map nodes selection
+../3-Phrases/freemind:MapModuleManager getMapModuleManager() | get map module manager
+../3-Phrases/freemind:MapModule getMapModule() | get map module
+../3-Phrases/freemind:MapMouseMotionListener getMapMouseMotionListener() | get map mouse motion listener
+../3-Phrases/freemind:MapMouseWheelListener getMapMouseWheelListener() | get map mouse wheel listener
+../3-Phrases/freemind:void HistoryPreviousMapAction(QController;) | history previous map action
+../3-Phrases/freemind:void HistoryNextMapAction(QController;) | history next map action
+../3-Phrases/freemind:void NavigationPreviousMapAction(QController;) | navigation previous map action
+../3-Phrases/freemind:void NavigationNextMapAction(QController;) | navigation next map action
+../3-Phrases/freemind:Map getMapModules() | get map modules
+../3-Phrases/freemind:MapModule getMapModule() | get map module
+../3-Phrases/freemind:void newMapModule(QMindMap;) | new map module
+../3-Phrases/freemind:void updateMapModuleName() | update map module name
+../3-Phrases/freemind:void nextMapModule() | next map module
+../3-Phrases/freemind:void previousMapModule() | previous map module
+../3-Phrases/freemind:boolean tryToChangeToMapModule(QString;) | try to change to map module
+../3-Phrases/freemind:void changeToMapModule(QString;) | change to map module
+../3-Phrases/freemind:void changeToMapOfMode(QMode;) | change to map of mode
+../3-Phrases/freemind:void setMapModule(QMapModule;) | set map module
+../3-Phrases/freemind:void addToMapModules(QString;QMapModule;) | add to map modules
+../3-Phrases/freemind:void shutdownMapHook() | shutdown map hook
+../3-Phrases/freemind:void startupMapHook() | startup map hook
+../3-Phrases/freemind:void shutdownMapHook() | shutdown map hook
+../3-Phrases/freemind:void startupMapHook() | startup map hook
+../3-Phrases/freemind:void shutdownMapHook() | shutdown map hook
+../3-Phrases/freemind:MapModule getMapModule() | get map module
+../3-Phrases/freemind:void updateMapModuleName() | update map module name
+../3-Phrases/freemind:NodeAdapter getMapChild() | get map child
+../3-Phrases/freemind:void nodeChangedMapInternal(QTreeNode;) | node changed map internal
+../3-Phrases/freemind:CONS NewMapAction(QControllerAdapter;QControllerAdapter;) | new map action
+../3-Phrases/freemind:CONS BrowseMapModel(QFreeMindMain;) | browse map model
+../3-Phrases/freemind:CONS BrowseMapModel(QBrowseNodeModel;QFreeMindMain;) | browse map model
+../3-Phrases/freemind:CONS FileMapModel(QFreeMindMain;) | file map model
+../3-Phrases/freemind:CONS FileMapModel(QFile;QFreeMindMain;) | file map model
+../3-Phrases/freemind:CONS MindMapArrowLinkModel(QMindMapNode;QMindMapNode;QFreeMindMain;) | mind map arrow link model
+../3-Phrases/freemind:CONS MindMapXMLElement(QFreeMindMain;) | mind map xml element
+../3-Phrases/freemind:CONS MindMapXMLElement(QFreeMindMain;QVector;QHashMap;) | mind map xml element
+../3-Phrases/freemind:CONS MindMapEdgeModel(QMindMapNode;QFreeMindMain;) | mind map edge model
+../3-Phrases/freemind:CONS MindMapToolBar(QMindMapController;) | mind map tool bar
+../3-Phrases/freemind:CONS MindMapController(QMode;) | mind map controller
+../3-Phrases/freemind:MindMapMapModel getMindMapMapModel() | get mind map map model
+../3-Phrases/freemind:CONS EncryptedMindMapNode(QObject;QFreeMindMain;) | encrypted mind map node
+../3-Phrases/freemind:CONS MindMapMapModel(QFreeMindMain;) | mind map map model
+../3-Phrases/freemind:CONS MindMapMapModel(QMindMapNodeModel;QFreeMindMain;) | mind map map model
+../3-Phrases/freemind:CONS MindMapPopupMenu(QMindMapController;) | mind map popup menu
+../3-Phrases/freemind:CONS MindMapNodeModel(QFreeMindMain;) | mind map node model
+../3-Phrases/freemind:CONS MindMapNodeModel(QObject;QFreeMindMain;) | mind map node model
+../3-Phrases/freemind:CONS MindMapMode() | mind map mode
+../3-Phrases/freemind:MindMapController getMindMapController() | get mind map controller
+../3-Phrases/freemind:CONS MindMapCloudModel(QMindMapNode;QFreeMindMain;) | mind map cloud model
+../3-Phrases/freemind:CONS SchemeMapModel(QFreeMindMain;) | scheme map model
+../3-Phrases/freemind:MindMapLayout getMindMapLayout() | get mind map layout
+../3-Phrases/freemind:CONS MindMapLayout(QMapView;) | mind map layout
+../3-Phrases/freemind:MapView getMapView() | get map view
+../3-Phrases/freemind:void startupMapHook() | startup map hook
+../3-Phrases/freemind:void sendMapSharingRequest(QString;QString;) | send map sharing request
+../3-Phrases/freemind:void sendMapSharingStopRequest() | send map sharing stop request
+../3-Phrases/freemind:void sendMapSharingInvitationResponse(QString;QString;Z) | send map sharing invitation response
+../3-Phrases/freemind:void isMapShared(Z) | is map shared
+../3-Phrases/freemind:void setShareMapUser(QString;) | set share map user
+../3-Phrases/freemind:void setMapShareRequestAccepted(QString;Z) | set map share request accepted
+../3-Phrases/freemind:void setMapSharingRequested(QString;QString;QString;) | set map sharing requested
+../3-Phrases/freemind:void showMapSharingDialogue() | show map sharing dialogue
+../3-Phrases/freemind:void buildShareMapSelectionGui() | build share map selection gui
+../3-Phrases/freemind:void buildMapShareAcceptDeclineGui(QString;) | build map share accept decline gui
+../3-Phrases/freemind:void showMapSharingSelectionDialog() | show map sharing selection dialog
+../3-Phrases/freemind:void showAwaitMapSharingMessage() | show await map sharing message
+../3-Phrases/freemind:void showMapShareAcceptDeclineMessage(QString;) | show map share accept decline message
+../3-Phrases/freemind:boolean isShareMapSelected() | is share map selected
+../3-Phrases/freemind:boolean isWaitForMapSharingSelected() | is wait for map sharing selected
+../3-Phrases/freemind:String getMapShareUserName() | get map share user name
+../3-Phrases/freemind:void startupMapHook() | startup map hook
+../3-Phrases/freemind:void startupMapHook() | startup map hook
+../3-Phrases/freemind:void startupMapHook() | startup map hook
+../3-Phrases/freemind:void startupMapHook() | startup map hook
+../3-Phrases/freemind:void startupMapHook() | startup map hook
+../3-Phrases/freemind:MindMapNode getMindMapNode(I) | get mind map node
+../3-Phrases/freemind:void shutdownMapHook() | shutdown map hook
+../3-Phrases/hibernate-3.3.1.GA:void bindMapRepresentation(QElement;QPersistentClass;QMappings;Qjava.util.Map;) | bind map representation
+../3-Phrases/hibernate-3.3.1.GA:void bindMapSecondPass(QElement;QMap;Qjava.util.Map;QMappings;Qjava.util.Map;) | bind map second pass
+../3-Phrases/hibernate-3.3.1.GA:CONS PersistentMapElementHolder(QSessionImplementor;QElement;) | persistent map element holder
+../3-Phrases/hibernate-3.3.1.GA:CONS PersistentMapElementHolder(QSessionImplementor;QCollectionPersister;QSerializable;) | persistent map element holder
+../3-Phrases/hibernate-3.3.1.GA:Map getPropertyResultsMapByAlias(QString;) | get property results map by alias
+../3-Phrases/hibernate-3.3.1.GA:Map getPropertyResultsMapByAlias(QString;) | get property results map by alias
+../3-Phrases/hibernate-3.3.1.GA:PropertyAccessor getDynamicMapPropertyAccessor() | get dynamic map property accessor
+../3-Phrases/hibernate-3.3.1.GA:CONS AliasToEntityMapResultTransformer() | alias to entity map result transformer
+../3-Phrases/hibernate-3.3.1.GA:CONS DynamicMapInstantiator() | dynamic map instantiator
+../3-Phrases/hibernate-3.3.1.GA:CONS DynamicMapInstantiator(QPersistentClass;) | dynamic map instantiator
+../3-Phrases/hibernate-3.3.1.GA:CONS DynamicMapComponentTuplizer(QComponent;) | dynamic map component tuplizer
+../3-Phrases/hibernate-3.3.1.GA:CONS DynamicMapEntityTuplizer(QEntityMetamodel;QPersistentClass;) | dynamic map entity tuplizer
+../3-Phrases/hibernate-3.3.1.GA:CONS OrderedMapType(QString;QString;Z) | ordered map type
+../3-Phrases/hibernate-3.3.1.GA:CONS SortedMapType(QString;QString;QComparator;Z) | sorted map type
+../3-Phrases/hibernate-3.3.1.GA:String getMapResources() | get map resources
+../3-Phrases/hibernate-3.3.1.GA:void setMapResources(QString;) | set map resources
+../3-Phrases/hibernate-3.3.1.GA:void addMapResource(QString;) | add map resource
+../3-Phrases/hibernate-3.3.1.GA:void IdentityMapEntry(QObject;QObject;) | identity map entry
+../3-Phrases/hsqldb:String getCstMapClsName() | get cst map cls name
+../3-Phrases/hsqldb:String getStdMapClsName() | get std map cls name
+../3-Phrases/hsqldb:Boolean isStdMapClsSupported() | is std map cls supported
+../3-Phrases/iReport:java.lang.String getParametersMapExpression() | get parameters map expression
+../3-Phrases/iReport:void setParametersMapExpression(Qjava.lang.String;) | set parameters map expression
+../3-Phrases/iReport:String getParametersMapExpression() | get parameters map expression
+../3-Phrases/iReport:void setParametersMapExpression(QString;) | set parameters map expression
+../3-Phrases/iReport:void jRTextExpressionAreaMapExpressionTextChanged() | j r text expression area map expression text changed
+../3-Phrases/iReport:void jRTextExpressionAreaSubreportMapExpressionTextChanged() | j r text expression area subreport map expression text changed
+../3-Phrases/iReport:int getStringMapKey(QString;) | get string map key
+../3-Phrases/iReport:int getSegmentMapKey(QSegment;II) | get segment map key
+../3-Phrases/MegaMek-0.32.0:MapSettings getMapSettings() | get map settings
+../3-Phrases/MegaMek-0.32.0:void sendMapSettings(QMapSettings;) | send map settings
+../3-Phrases/MegaMek-0.32.0:void sendMapQuery(QMapSettings;) | send map query
+../3-Phrases/MegaMek-0.32.0:void gameMapQuery(QGameMapQueryEvent;) | game map query
+../3-Phrases/MegaMek-0.32.0:void gameMapQuery(QGameMapQueryEvent;) | game map query
+../3-Phrases/MegaMek-0.32.0:void updateMapSettings(QMapSettings;) | update map settings
+../3-Phrases/MegaMek-0.32.0:CONS RandomMapDialog(QFrame;QIMapSettingsObserver;QMapSettings;) | random map dialog
+../3-Phrases/MegaMek-0.32.0:void setMapSettings(QMapSettings;) | set map settings
+../3-Phrases/MegaMek-0.32.0:Color getMapTextColor() | get map text color
+../3-Phrases/MegaMek-0.32.0:int getMapZoomIndex() | get map zoom index
+../3-Phrases/MegaMek-0.32.0:boolean getNagForMapEdReadme() | get nag for map ed readme
+../3-Phrases/MegaMek-0.32.0:boolean getShowMapHexPopup() | get show map hex popup
+../3-Phrases/MegaMek-0.32.0:void setMapZoomIndex(I) | set map zoom index
+../3-Phrases/MegaMek-0.32.0:void setNagForMapEdReadme(Z) | set nag for map ed readme
+../3-Phrases/MegaMek-0.32.0:void setShowMapHexPopup(Z) | set show map hex popup
+../3-Phrases/MegaMek-0.32.0:void setMapVisible(Z) | set map visible
+../3-Phrases/MegaMek-0.32.0:void gameMapQuery(QGameMapQueryEvent;) | game map query
+../3-Phrases/MegaMek-0.32.0:void updateMapSettings(QMapSettings;) | update map settings
+../3-Phrases/MegaMek-0.32.0:void setMapVisible(Z) | set map visible
+../3-Phrases/MegaMek-0.32.0:void setupMapSize() | setup map size
+../3-Phrases/MegaMek-0.32.0:void refreshMapSize() | refresh map size
+../3-Phrases/MegaMek-0.32.0:void refreshMapButtons() | refresh map buttons
+../3-Phrases/MegaMek-0.32.0:void updateMapSettings(QMapSettings;) | update map settings
+../3-Phrases/MegaMek-0.32.0:void gameMapQuery(QGameMapQueryEvent;) | game map query
+../3-Phrases/MegaMek-0.32.0:CONS BattleArmorMapSet(QComponent;) | battle armor map set
+../3-Phrases/MegaMek-0.32.0:CONS TankMapSet(QComponent;) | tank map set
+../3-Phrases/MegaMek-0.32.0:CONS VTOLMapSet(QComponent;) | vtol map set
+../3-Phrases/MegaMek-0.32.0:CONS GeneralInfoMapSet(QComponent;) | general info map set
+../3-Phrases/MegaMek-0.32.0:CONS QuadMapSet(QComponent;) | quad map set
+../3-Phrases/MegaMek-0.32.0:CONS MechMapSet(QComponent;) | mech map set
+../3-Phrases/MegaMek-0.32.0:CONS InfantryMapSet(QComponent;) | infantry map set
+../3-Phrases/MegaMek-0.32.0:CONS ProtomechMapSet(QComponent;) | protomech map set
+../3-Phrases/MegaMek-0.32.0:CONS GunEmplacementMapSet(QComponent;) | gun emplacement map set
+../3-Phrases/MegaMek-0.32.0:CONS ArmlessMechMapSet(QComponent;) | armless mech map set
+../3-Phrases/MegaMek-0.32.0:void setupMapSize() | setup map size
+../3-Phrases/MegaMek-0.32.0:void refreshMapSize() | refresh map size
+../3-Phrases/MegaMek-0.32.0:void refreshMapButtons() | refresh map buttons
+../3-Phrases/MegaMek-0.32.0:void updateMapSettings(QMapSettings;) | update map settings
+../3-Phrases/MegaMek-0.32.0:void updateMapSettings(QMapSettings;) | update map settings
+../3-Phrases/MegaMek-0.32.0:void gameMapQuery(QGameMapQueryEvent;) | game map query
+../3-Phrases/MegaMek-0.32.0:void updateMapSettings(QMapSettings;) | update map settings
+../3-Phrases/MegaMek-0.32.0:void setMapVisible(Z) | set map visible
+../3-Phrases/MegaMek-0.32.0:CONS RandomMapDialog(QJFrame;QIMapSettingsObserver;QMapSettings;) | random map dialog
+../3-Phrases/MegaMek-0.32.0:void setMapSettings(QMapSettings;) | set map settings
+../3-Phrases/MegaMek-0.32.0:void setMapVisible(Z) | set map visible
+../3-Phrases/MegaMek-0.32.0:void gameMapQuery(QGameMapQueryEvent;) | game map query
+../3-Phrases/MegaMek-0.32.0:Color getMapTextColor() | get map text color
+../3-Phrases/MegaMek-0.32.0:int getMapZoomIndex() | get map zoom index
+../3-Phrases/MegaMek-0.32.0:boolean getNagForMapEdReadme() | get nag for map ed readme
+../3-Phrases/MegaMek-0.32.0:boolean getShowMapHexPopup() | get show map hex popup
+../3-Phrases/MegaMek-0.32.0:void setMapZoomIndex(I) | set map zoom index
+../3-Phrases/MegaMek-0.32.0:void setNagForMapEdReadme(Z) | set nag for map ed readme
+../3-Phrases/MegaMek-0.32.0:void setShowMapHexPopup(Z) | set show map hex popup
+../3-Phrases/MegaMek-0.32.0:CONS VTOLMapSet(QJComponent;) | vtol map set
+../3-Phrases/MegaMek-0.32.0:CONS ProtomechMapSet(QJComponent;) | protomech map set
+../3-Phrases/MegaMek-0.32.0:CONS GunEmplacementMapSet(QJComponent;) | gun emplacement map set
+../3-Phrases/MegaMek-0.32.0:CONS GeneralInfoMapSet(QJComponent;) | general info map set
+../3-Phrases/MegaMek-0.32.0:CONS BattleArmorMapSet(QJComponent;) | battle armor map set
+../3-Phrases/MegaMek-0.32.0:CONS ArmlessMechMapSet(QJComponent;) | armless mech map set
+../3-Phrases/MegaMek-0.32.0:CONS TankMapSet(QJComponent;) | tank map set
+../3-Phrases/MegaMek-0.32.0:CONS QuadMapSet(QJComponent;) | quad map set
+../3-Phrases/MegaMek-0.32.0:CONS MechMapSet(QJComponent;) | mech map set
+../3-Phrases/MegaMek-0.32.0:CONS InfantryMapSet(QJComponent;) | infantry map set
+../3-Phrases/MegaMek-0.32.0:int getMapWidth() | get map width
+../3-Phrases/MegaMek-0.32.0:int getMapHeight() | get map height
+../3-Phrases/MegaMek-0.32.0:void setMapSize(II) | set map size
+../3-Phrases/MegaMek-0.32.0:void validateMapGenParameters() | validate map gen parameters
+../3-Phrases/MegaMek-0.32.0:boolean equalMapGenParameters(QMapSettings;) | equal map gen parameters
+../3-Phrases/MegaMek-0.32.0:CONS GameMapQueryEvent(QObject;QMapSettings;) | game map query event
+../3-Phrases/MegaMek-0.32.0:void gameMapQuery(QGameMapQueryEvent;) | game map query
+../3-Phrases/MegaMek-0.32.0:void gameMapQuery(QGameMapQueryEvent;) | game map query
+../3-Phrases/MegaMek-0.32.0:String getMapTileset() | get map tileset
+../3-Phrases/MegaMek-0.32.0:void setMapTileset(QString;) | set map tileset
+../3-Phrases/MegaMek-0.32.0:String getMapTileset() | get map tileset
+../3-Phrases/MegaMek-0.32.0:void setMapTileset(QString;) | set map tileset
+../3-Phrases/MegaMek-0.32.0:Packet createMapSettingsPacket() | create map settings packet
+../3-Phrases/MegaMek-0.32.0:Packet createMapQueryPacket(QMapSettings;) | create map query packet
+../3-Phrases/np:void newMapModule(MindMap map, ModeController modeController) | new map module
+../3-Phrases/np:TopicMapProvider newTopicMapProvider(Properties props) | new topic map provider
+../3-Phrases/prefuse:CONS SquarifiedTreeMapLayout(QString;) | squarified tree map layout
+../3-Phrases/prefuse:CONS SquarifiedTreeMapLayout(QString;D) | squarified tree map layout
+../3-Phrases/prefuse:void LoadMapEntry(IQImage;) | load map entry
+../3-Phrases/prefuse:CONS DoubleIntTreeMapTest() | double int tree map test
+../3-Phrases/prefuse:CONS ObjectIntTreeMapTest() | object int tree map test
+../3-Phrases/prefuse:CONS FloatIntTreeMapTest() | float int tree map test
+../3-Phrases/prefuse:CONS IntIntTreeMapTest() | int int tree map test
+../3-Phrases/prefuse:CONS LongIntTreeMapTest() | long int tree map test
+../3-Phrases/vuze:void setMapAttribute(QTorrentAttribute;QMap;) | set map attribute
+../3-Phrases/vuze:Map getMapAttribute(QTorrentAttribute;) | get map attribute
+../3-Phrases/vuze:void setMapAttribute(QString;QMap;) | set map attribute
+../3-Phrases/vuze:Map getMapAttribute(QString;) | get map attribute
+../3-Phrases/vuze:void setAdditionalMapProperty(QString;QMap;) | set additional map property
+../3-Phrases/vuze:Map getAdditionalMapProperty(QString;) | get additional map property
+../3-Phrases/vuze:Map getBEncodedMapFromRequest(QURL;) | get b encoded map from request
+../3-Phrases/vuze:CONS AZGenericMapPayload(QString;QMap;B) | az generic map payload
+../3-Phrases/vuze:Map getMapPayload() | get map payload
+../3-Phrases/vuze:void registerGenericMapPayloadMessageType(QString;) | register generic map payload message type
+../3-Phrases/vuze:boolean addToPingMapData(IQTransferMode;) | add to ping map data
+../3-Phrases/vuze:void logPingMapData() | log ping map data
+../3-Phrases/vuze:void addToPingMapData(I) | add to ping map data
+../3-Phrases/vuze:String getContentMapString(QTOTorrent;QString;) | get content map string
+../3-Phrases/vuze:void setContentMapString(QTOTorrent;QString;QString;) | set content map string
+../3-Phrases/vuze:long getContentMapLong(QTOTorrent;QString;J) | get content map long
+../3-Phrases/vuze:void setContentMapLong(QTOTorrent;QString;J) | set content map long
+../3-Phrases/vuze:Map readMapFromFile(QString;) | read map from file
+../3-Phrases/vuze:void writeMapToFile(QMap;QString;) | write map to file
+../3-Phrases/vuze:void updateMapTrackUsage(QString;) | update map track usage
+../3-Phrases/vuze:int getMapInt(QMap;QString;I) | get map int
+../3-Phrases/vuze:long getMapLong(QMap;QString;J) | get map long
+../3-Phrases/vuze:String getMapString(QMap;QString;QString;) | get map string
+../3-Phrases/vuze:byte[] getMapByteArray(QMap;QString;[B) | get map byte array
+../3-Phrases/vuze:Object getMapObject(QMap;QString;QObject;QClass;) | get map object
+../3-Phrases/vuze:boolean getMapBoolean(QMap;QString;Z) | get map boolean
+../3-Phrases/vuze:List getMapList(QMap;QString;QList;) | get map list
+../3-Phrases/vuze:Map getMapParameter(QString;QMap;) | get map parameter
+../3-Phrases/vuze:Map getMapParameter(QString;QMap;) | get map parameter
+../3-Phrases/vuze:CONS PieceMapEntryImpl(QDiskManagerFileInfoImpl;JI) | piece map entry impl
+../3-Phrases/vuze:CONS DMPieceMapSimple(QTOTorrent;QDiskManagerFileInfoImpl;) | dm piece map simple
+../3-Phrases/vuze:CONS DMPieceMapImpl([QDMPieceList;) | dm piece map impl
+../3-Phrases/vuze:void setMapAttribute(QString;QMap;) | set map attribute
+../3-Phrases/vuze:Map getMapAttribute(QString;) | get map attribute
+../3-Phrases/vuze:Map getMapAttribute(QString;) | get map attribute
+../3-Phrases/vuze:void setMapAttribute(QString;QMap;) | set map attribute
+../3-Phrases/vuze:void setMapAttribute(QString;QMap;Z) | set map attribute
+../3-Phrases/vuze:void setMapAttribute(QString;QMap;) | set map attribute
+../3-Phrases/vuze:Map getMapAttribute(QString;) | get map attribute
+../3-Phrases/vuze:void setAdditionalMapProperty(QString;QMap;) | set additional map property
+../3-Phrases/vuze:Map getAdditionalMapProperty(QString;) | get additional map property
+../3-Phrases/vuze:void setAdditionalMapProperty(QString;QMap;) | set additional map property
+../3-Phrases/vuze:Map getAdditionalMapProperty(QString;) | get additional map property
+../3-Phrases/vuze:mapEntry readGenericMapEntry(QSimpleXMLParserDocumentNode;) | read generic map entry
+../3-Phrases/vuze:void setAdditionalMapProperty(QString;QMap;) | set additional map property
+../3-Phrases/vuze:Map getAdditionalMapProperty(QString;) | get additional map property
+../3-Phrases/vuze:void setAdditionalMapProperty(QString;QMap;) | set additional map property
+../3-Phrases/vuze:Map getAdditionalMapProperty(QString;) | get additional map property
+../3-Phrases/vuze:void setPluginMapProperty(QTOTorrent;QString;QMap;) | set plugin map property
+../3-Phrases/vuze:Map getPluginMapProperty(QTOTorrent;QString;) | get plugin map property
+../3-Phrases/vuze:void registerMapFluff([QString;) | register map fluff
+../3-Phrases/vuze:void setAdditionalMapProperty(QString;QMap;) | set additional map property
+../3-Phrases/vuze:Map getAdditionalMapProperty(QString;) | get additional map property
+../3-Phrases/vuze:void writeGenericMapEntry(QString;QObject;) | write generic map entry
+../3-Phrases/vuze:Map getPluginMapParameter(QString;QMap;) | get plugin map parameter
+../3-Phrases/vuze:void setPluginMapParameter(QString;QMap;) | set plugin map parameter
+../3-Phrases/vuze:void setMapAttribute(QTorrentAttribute;QMap;) | set map attribute
+../3-Phrases/vuze:Map getMapAttribute(QTorrentAttribute;) | get map attribute
+../3-Phrases/vuze:void setMapProperty(QString;QMap;) | set map property
+../3-Phrases/vuze:Map getMapProperty(QString;) | get map property
+../3-Phrases/vuze:Map getPluginMapParameter(QString;QMap;) | get plugin map parameter
+../3-Phrases/vuze:void setPluginMapParameter(QString;QMap;) | set plugin map parameter
+../3-Phrases/vuze:void setMapAttribute(QTorrentAttribute;QMap;) | set map attribute
+../3-Phrases/vuze:Map getMapAttribute(QTorrentAttribute;) | get map attribute
+../3-Phrases/vuze:CopyOnWriteMap getAttributeMapForType(I) | get attribute map for type
+../3-Phrases/vuze:void setMapProperty(QString;QMap;) | set map property
+../3-Phrases/vuze:Map getMapProperty(QString;) | get map property
+../3-Phrases/vuze:Map getPluginMapParameter(QString;QMap;) | get plugin map parameter
+../3-Phrases/vuze:void setPluginMapParameter(QString;QMap;) | set plugin map parameter
+../3-Phrases/vuze:void setMapAttribute(QTorrentAttribute;QMap;) | set map attribute
+../3-Phrases/vuze:Map getMapAttribute(QTorrentAttribute;) | get map attribute
+../3-Phrases/vuze:void setMapProperty(QString;QMap;) | set map property
+../3-Phrases/vuze:Map getMapProperty(QString;) | get map property
+../3-Phrases/weka:void emitCharMapInitFunction() | emit char map init function
+../3-Phrases/weka:void emitCharMapArrayUnPacked() | emit char map array un packed
+../3-Phrases/weka:void emitCharMapArray() | emit char map array
+../3-Phrases/weka:void emitRowMapArray() | emit row map array
+../3-Phrases/weka:void emitGetRowMapNext() | emit get row map next

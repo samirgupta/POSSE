@@ -1,0 +1,14 @@
+int getTrigger() | get trigger
+void addTrigger(QTriggerDef;) | add trigger
+void cellMouseTrigger(QTableCellMouseEvent;) | cell mouse trigger
+void createTrigger(QStatement;QString;I) | create trigger
+void dropTrigger(QSession;QString;QString;) | drop trigger
+void dropTrigger(QString;) | drop trigger
+void dropTrigger(String name, Session session) | drop trigger
+void handlePopupTrigger(QMouseEvent;) | handle popup trigger
+void processCreateTrigger() | process create trigger
+void processDropTrigger() | process drop trigger
+void processPopupTrigger(QMouseEvent;) | process popup trigger
+void processPopupTrigger(QMouseEvent;I) | process popup trigger
+void rowMouseTrigger(QTableRowMouseEvent;) | row mouse trigger
+void rowMouseTrigger(QTableRowMouseEvent;QTableCell;) | row mouse trigger

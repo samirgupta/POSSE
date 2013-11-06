@@ -1,0 +1,11 @@
+int getNetworkReplyId() | get network reply id
+int getNextNetworkReplyId() | get next network reply id
+void DHTTransportFindValueReplyImpl([B[B) | dht transport find value reply impl
+void DHTTransportFindValueReplyImpl(B[QDHTTransportValue;) | dht transport find value reply impl
+void DHTTransportFindValueReplyImpl([QDHTTransportContact;) | dht transport find value reply impl
+void DHTTransportStoreReplyImpl([B) | dht transport store reply impl
+void DHTTransportStoreReplyImpl([B[B) | dht transport store reply impl
+void disableReplyCaching() | disable reply caching
+void requestReceiveReplyProcessor(QDHTTransportUDPContactImpl;QDHTUDPPacketReply;) | request receive reply processor
+void requestSendReplyProcessor(QDHTTransportUDPContactImpl;QDHTTransportReplyHandler;QDHTUDPPacketReply;J) | request send reply processor
+void setReplyStatus(I) | set reply status

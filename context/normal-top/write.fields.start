@@ -1,0 +1,36 @@
+com.aelitis.azureus.core.diskmanager.access.impl.DiskAccessControllerInstance write_dispatcher | write dispatcher
+com.aelitis.azureus.core.networkmanager.EventWaiter write_waiter | write waiter
+com.aelitis.azureus.core.networkmanager.impl.TransportCipher write_cipher | write cipher
+com.aelitis.azureus.core.networkmanager.impl.TransportHelper.selectListener write_listener | write listener
+com.aelitis.azureus.core.networkmanager.impl.WriteController write_controller | write controller
+com.aelitis.azureus.core.networkmanager.VirtualChannelSelector write_selector | write selector
+com.aelitis.azureus.core.util.CopyOnWriteMap write_attribute_listeners_map_cow | write attribute listeners map cow
+int _writeDelay | write delay
+int writeDelay | write delay
+int WRITE_DELAY | write delay
+int write_position | write position
+int write_rem | write rem
+int WRITE_RETRY_DELAY | write retry delay
+int WRITE_RETRY_LIMIT | write retry limit
+int WRITE_SELECT_LOOP_TIME | write select loop time
+int WRITE_SELECT_MIN_LOOP_TIME | write select min loop time
+int WRITE_SELECTOR_DEBUG_CHECK_PERIOD | write selector debug check period
+int WRITE_SELECTOR_DEBUG_MAX_TIME | write selector debug max time
+java.lang.Object write_attachment | write attachment
+java.lang.String WRITE_ACCESS_MODE | write access mode
+java.lang.String writeHomeURL | write home url
+java.lang.String WRITE_HOME_URL_PARAMETER | write home url parameter
+java.lang.Throwable write_select_failure | write select failure
+java.nio.ByteBuffer write_buffer | write buffer
+java.nio.ByteBuffer write_buffer_pending_byte | write buffer pending byte
+java.util.HashMap write_attribute_listeners | write attribute listeners
+java.util.HashMap write_select_regs | write select regs
+java.util.List write_contacts | write contacts
+java.util.Map write_transfers | write transfers
+java.util.Set write_requests | write requests
+java.util.TreeMap write_sizes | write sizes
+long WRITE_REPLY_TIMEOUT | write reply timeout
+long write_select_count | write select count
+long WRITE_XFER_RESEND_DELAY | write xfer resend delay
+org.gudy.azureus2.core3.util.AESemaphore write_block | write block
+org.gudy.azureus2.core3.util.DirectByteBuffer write_buffer_pending_db | write buffer pending db

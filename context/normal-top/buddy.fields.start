@@ -1,0 +1,22 @@
+boolean buddy_seeding_only | buddy seeding only
+com.aelitis.azureus.core.util.CopyOnWriteSet buddy_peers | buddy peers
+com.aelitis.azureus.plugins.net.buddy.BuddyPluginBuddyMessageListener buddy_message_handler_listener | buddy message handler listener
+com.aelitis.azureus.plugins.net.buddy.BuddyPlugin buddyPlugin | buddy plugin
+com.aelitis.azureus.plugins.net.buddy.BuddyPluginBuddyRequestListener buddyPluginBuddyRequestListener | buddy plugin buddy request listener
+com.aelitis.azureus.plugins.net.buddy.BuddyPluginListener buddyPluginListener | buddy plugin listener
+com.aelitis.azureus.plugins.net.buddy.tracker.BuddyPluginTracker buddy_tracker | buddy tracker
+com.aelitis.azureus.ui.swt.browser.listener.AbstractBuddyPageListener buddyPageListener | buddy page listener
+com.aelitis.azureus.ui.swt.views.skin.widgets.FriendsList buddyList | buddy list
+int BUDDY_MAYBE | buddy maybe
+int BUDDY_NETWORK_IDLE | buddy network idle
+int BUDDY_NETWORK_INBOUND | buddy network inbound
+int BUDDY_NETWORK_OUTBOUND | buddy network outbound
+int BUDDY_NO | buddy no
+int BUDDY_STATUS_CHECK_PERIOD_INC | buddy status check period inc
+int BUDDY_STATUS_CHECK_PERIOD_MIN | buddy status check period min
+int BUDDY_YES | buddy yes
+java.lang.String buddyID | buddy id
+java.util.List buddyList | buddy list
+long buddySyncOnShareMinTime | buddy sync on share min time
+org.gudy.azureus2.core3.util.AEMonitor buddy_mon | buddy mon
+org.gudy.azureus2.core3.util.TimerEventPeriodic buddy_stats_timer | buddy stats timer

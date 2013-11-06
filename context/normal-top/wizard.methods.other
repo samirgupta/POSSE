@@ -1,0 +1,10 @@
+AbstractWizardSequence createWizardSequence(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) | create wizard sequence
+DialogView createWizardView(QUserPreferences;QWizardController;) | create wizard view
+ImportedFurnitureWizardStepsView createImportedFurnitureWizardStepsView(QCatalogPieceOfFurniture;QString;ZQUserPreferences;QImportedFurnitureWizardController;) | create imported furniture wizard steps view
+MenuItem addConfigWizardMenuItem(QMenu;) | add config wizard menu item
+Shell getWizardWindow() | get wizard window
+String getNewProjectWizardWindowTitle() | get new project wizard window title
+View createBackgroundImageWizardStepsView(QBackgroundImage;QUserPreferences;QBackgroundImageWizardController;) | create background image wizard steps view
+View createImportedTextureWizardStepsView(QCatalogTexture;QString;QUserPreferences;QImportedTextureWizardController;) | create imported texture wizard steps view
+void addWizardButtons(QJPanel;Z) | add wizard buttons
+void testWizardController() | test wizard controller

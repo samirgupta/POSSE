@@ -1,0 +1,16 @@
+Element writeCostMatrixOld(QElement;QObject;QString;) | write cost matrix old
+Element writeMatrixOld(QElement;QObject;QString;) | write matrix old
+File getKernelMatrixFile() | get kernel matrix file
+Object readCostMatrixOld(QElement;) | read cost matrix old
+Object readMatrixOld(QElement;) | read matrix old
+SelectedTag getCostMatrixSource() | get cost matrix source
+String costMatrixSourceTipText() | cost matrix source tip text
+String costMatrixTipText() | cost matrix tip text
+String kernelMatrixFileTipText() | kernel matrix file tip text
+String toMatrixString() | to matrix string
+String toMatrixString([[I[IQInstances;) | to matrix string
+String toMatrixString(QString;) | to matrix string
+void checkMatrixDimensions(QMatrix;) | check matrix dimensions
+void setCostMatrixSource(QSelectedTag;) | set cost matrix source
+void setKernelMatrixFile(QFile;) | set kernel matrix file
+void testMatrixLenght() | test matrix lenght

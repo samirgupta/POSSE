@@ -1,0 +1,31 @@
+CONS ArffSortedTableModel(QInstances;) | arff sorted table model
+CONS ArffSortedTableModel(QString;) | arff sorted table model
+CONS ArffSortedTableModel(QTableModel;) | arff sorted table model
+CONS EntrySorter(QMap<QString;QBibtexEntry;>;QComparator<QBibtexEntry;>;) | entry sorter
+CONS GlazedEntrySorter(QMap<QString;QBibtexEntry;>;) | glazed entry sorter
+CONS JTreeSortNavigator(QString;) | j tree sort navigator
+CONS JTreeSortNavigator(QString;QDisplayManager<-QItemT;>;) | j tree sort navigator
+CONS PersistentSortedMap() | persistent sorted map
+CONS PersistentSortedMap(QSessionImplementor;) | persistent sorted map
+CONS PersistentSortedMap(QSessionImplementor;QSortedMap;) | persistent sorted map
+CONS PersistentSortedSet() | persistent sorted set
+CONS PersistentSortedSet(QSessionImplementor;) | persistent sorted set
+CONS PersistentSortedSet(QSessionImplementor;QSortedSet;) | persistent sorted set
+CONS Sort() | sort
+CONS SortedMapType(QString;QString;QComparator;Z) | sorted map type
+CONS SortedSetType(QString;QString;QComparator;Z) | sorted set type
+CONS SortedTableModel() | sorted table model
+CONS SortedTableModel(QTableModel;) | sorted table model
+CONS SortedTupleIterator(QIterator;IQComparator;) | sorted tuple iterator
+CONS SortedTupleIterator(QIterator;QComparator;) | sorted tuple iterator
+CONS Sort([QString;) | sort
+CONS Sort([QString;[Z) | sort
+CONS SortTabsAction(QJabRefFrame;) | sort tabs action
+CONS SortTransformation(QBaseTransformation;) | sort transformation
+CONS TableSorter() | table sorter
+CONS TableSorter(QString;QString;QBaseTransformation;) | table sorter
+CONS TableSorter(QTableModel;) | table sorter
+CONS TableSorter(QTableModel;QJTableHeader;) | table sorter
+CONS TiVoFileSorters() | ti vo file sorters
+CONS TreeDepthItemSorter() | tree depth item sorter
+CONS TreeDepthItemSorter(Z) | tree depth item sorter

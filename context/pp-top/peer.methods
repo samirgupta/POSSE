@@ -1,0 +1,31 @@
+boolean isGeneralPeerReconnectEnabled() | is general peer reconnect enabled
+boolean isPeerExchangeEnabled() | is peer exchange enabled
+boolean isPeerSourceEnabled(QString;) | is peer source enabled
+boolean isPeerSourcePermitted(QString;) | is peer source permitted
+boolean isUDPPeerReconnectEnabled() | is udp peer reconnect enabled
+boolean pluginPeerSourceEnabled() | plugin peer source enabled
+int getNbPeersSnubbed() | get nb peers snubbed
+void badPeerDetected(QString;Z) | bad peer detected
+void decNbPeersSnubbed() | dec nb peers snubbed
+void incNbPeersSnubbed() | inc nb peers snubbed
+void peerAdded(QPeerManager;QPeer;) | peer added
+void peerAdded(QPEPeer;) | peer added
+void peerAdded(QPEPeerManager;QPEPeer;) | peer added
+void peerConnectionClosed(QPEPeerTransport;ZZ) | peer connection closed
+void peerManagerAdded(QDownload;QPeerManager;) | peer manager added
+void peerManagerAdded(QPEPeerManager;) | peer manager added
+void peerManagerRemoved(QDownload;QPeerManager;) | peer manager removed
+void peerManagerRemoved(QPEPeerManager;) | peer manager removed
+void peerManagerWillBeAdded(QPEPeerManager;) | peer manager will be added
+void peerQueued(QString;IIIBBJZ) | peer queued
+void peerRemoved(QDownload;QPeer;) | peer removed
+void peerRemoved(QPeerManager;QPeer;) | peer removed
+void peerRemoved(QPEPeer;) | peer removed
+void peerRemoved(QPEPeerManager;QPEPeer;) | peer removed
+void setLastRequestedPeerSpeed(I) | set last requested peer speed
+void setNbPeersSnubbed(I) | set nb peers snubbed
+void setPeerSourceEnabled(QString;Z) | set peer source enabled
+void setPeerSourcePermitted(QString;Z) | set peer source permitted
+void setPeerSpeed(QPEPeer;IJ) | set peer speed
+void setSelectedPeersDownSpeed(IQTableView;) | set selected peers down speed
+void setSelectedPeersUpSpeed(IQTableView;) | set selected peers up speed

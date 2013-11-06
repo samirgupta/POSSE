@@ -1,0 +1,39 @@
+CONS ColumnMetadata(QResultSet;) | column metadata
+CONS ColumnMetadata(QTable;QString;) | column metadata
+CONS ColumnMetadata(QTable;QString;QComparator;Z) | column metadata
+CONS ComponentMetamodel(QComponent;) | component metamodel
+CONS DatabaseMetadata(QConnection;QDialect;) | database metadata
+CONS DatabaseMetadata(QConnection;QDialect;Z) | database metadata
+CONS DerivedFieldMetaInfo(QElement;QArrayList<QAttribute;>;QTransformationDictionary;) | derived field meta info
+CONS EntityMetamodel(QPersistentClass;QSessionFactoryImplementor;) | entity metamodel
+CONS FieldMetaInfo(QElement;) | field meta info
+CONS ForeignKeyMetadata(QResultSet;) | foreign key metadata
+CONS GanttMetalTheme(QUIConfiguration;) | gantt metal theme
+CONS IndexMetadata(QResultSet;) | index metadata
+CONS jdbcDatabaseMetaData(QjdbcConnection;) | jdbc database meta data
+CONS jdbcParameterMetaData(QResult;) | jdbc parameter meta data
+CONS jdbcResultSetMetaData(QjdbcResultSet;QHsqlProperties;) | jdbc result set meta data
+CONS jdbcResultSetMetaData(QResult;QHsqlProperties;) | jdbc result set meta data
+CONS MetaAttribute(QString;) | meta attribute
+CONS MetaBean() | meta bean
+CONS MetaData() | meta data
+CONS MetaDataChange(QMetaData;QMetaData;) | meta data change
+CONS MetaData(QHashMap<QString;QString;>;QBibtexDatabase;) | meta data
+CONS MetaItem(QString;QString;IIIZQString;I) | meta item
+CONS MetaSearchException(QString;) | meta search exception
+CONS MetaSearchException(QString;QThrowable;) | meta search exception
+CONS MetaSearchImpl() | meta search impl
+CONS MetaSearchImpl(QMetaSearchManagerImpl;) | meta search impl
+CONS MetaSearchListener(QOpenCloseSearchDetailsListener;) | meta search listener
+CONS MetaSearchManagerImpl() | meta search manager impl
+CONS MetaServer(I) | meta server
+CONS MetaType(QMap;QType;) | meta type
+CONS MiningFieldMetaInfo(QElement;) | mining field meta info
+CONS ParameterMetadata([QOrdinalParameterDescriptor;QMap;) | parameter metadata
+CONS PropertyMetaInformation(QString;ZZZZZQClass;QFormat;QObject;) | property meta information
+CONS QueryMetadata(QString;QParameterMetadata;[QString;[QType;QSet;) | query metadata
+CONS ResourceDownloaderMetaRefreshImpl(QResourceDownloaderBaseImpl;QResourceDownloader;) | resource downloader meta refresh impl
+CONS ReturnMetadata([QString;[QType;) | return metadata
+CONS TableMetadata(QResultSet;QDatabaseMetaData;Z) | table metadata
+CONS TargetMetaInfo(QElement;) | target meta info
+CONS TestDatabaseMetaData(QString;) | test database meta data

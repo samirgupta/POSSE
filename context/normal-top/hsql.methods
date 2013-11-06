@@ -1,0 +1,18 @@
+HsqlName getDefaultSchemaHsqlName() | get default schema hsql name
+HsqlName getSchemaHsqlNameForWrite(QString;) | get schema hsql name for write
+HsqlName getSchemaHsqlName(QString;) | get schema hsql name
+HsqlName getTableHsqlName() | get table hsql name
+HsqlName newHsqlName(QString;) | new hsql name
+HsqlName newHsqlName(QString;QString;Z) | new hsql name
+HsqlName newHsqlName(QString;Z) | new hsql name
+HsqlName newHsqlSystemObjectName(QString;) | new hsql system object name
+HsqlName newIndexHsqlName(QString;Z) | new index hsql name
+HsqlName toSchemaHsqlName(QString;) | to schema hsql name
+HsqlSocketRequestHandler createHsqlServer(QString;ZZ) | create hsql server
+String getHsqlType() | get hsql type
+void checkExceptionTableExistsHsql(QSQLException;) | check exception table exists hsql
+void HsqlName(QHsqlNameManager;) | hsql name
+void HsqlName(QHsqlNameManager;QString;) | hsql name
+void HsqlName(QHsqlNameManager;QString;QString;Z) | hsql name
+void HsqlName(QHsqlNameManager;QString;Z) | hsql name
+void hsqlServlet() | hsql servlet

@@ -1,0 +1,40 @@
+Class getRootElement(String namespaceUri, String localName) | get root element
+Element addNamespace(QString;QString;) | add namespace
+InputStream resolveInHibernateNamespace(QString;) | resolve in hibernate namespace
+InputStream resolveInLocalNamespace(QString;) | resolve in local namespace
+java.lang.String ____jaxb_ri____getNamespaceURI() |    jaxb ri    get namespace uri
+List additionalNamespaces() | additional namespaces
+List declaredNamespaces() | declared namespaces
+List getNamespacesForURI(QString;) | get namespaces for uri
+NamespaceContext2 getNamespaceContext() | get namespace context
+NamespaceContextImpl getNamespaceContext() | get namespace context
+Namespace getCurrentNamespace() | get current namespace
+Namespace getNamespace() | get namespace
+Namespace getNamespaceForPrefix(QString;) | get namespace for prefix
+Namespace getNamespaceForURI(QString;) | get namespace for uri
+Node createDefaultNamespace(QNode;I) | create default namespace
+NodeList getElementsByTagNameNS(String namespaceURI, String localName) | get elements by tag name ns
+Object searchDefaultNamespace(QContext;) | search default namespace
+Object setDefaultNamespace(QObject;QContext;) | set default namespace
+Object toDefaultXmlNamespace(QContext;QObject;) | to default xml namespace
+Properties getAttributesInNamespace(QString;) | get attributes in namespace
+String declareNamespace(QString;QString;Z) | declare namespace
+String getAttributeNamespace(QString;) | get attribute namespace
+String getNameInNamespace() | get name in namespace
+String getNamespace() | get namespace
+String getNamespacePrefix() | get namespace prefix
+String getNamespaceURI() | get namespace uri
+String getNamespaceURI(QString;) | get namespace uri
+String getNamespaceURI(String prefix) | get namespace uri
+String ____jaxb_ri____getNamespaceURI() |    jaxb ri    get namespace uri
+String resolveNamespacePrefix(QString;) | resolve namespace prefix
+void addNamespace(String NamespaceURI) | add namespace
+void endNamespaceDecls() | end namespace decls
+void processElement(String namespaceUri, String localName, String qualifiedName, Attributes attributes, boolean isStart) | process element
+void removeNamespace(String prefix, String elementName) | remove namespace
+void setNamespace(UUID namespaceUUID) | set namespace
+void setName(String fullName, String namespace) | set name
+void testGetNamespacePrefix2() | test get namespace prefix 2
+void testRDFDefaultNamespace() | test rdf default namespace
+void testXMLNSNamespace() | test xmlns namespace
+void writeNamespace(String prefix, String namespaceURI) | write namespace

@@ -1,0 +1,10 @@
+int getAndResetNumLinesChangedAfter() | get and reset num lines changed after
+List<QDimensionLine;> getDimensionLinesAlongWall(QHomePieceOfFurniture;QWall;) | get dimension lines along wall
+List<QDimensionLine;> getDimensionLinesSubList(QList<+QSelectable;>;) | get dimension lines sub list
+void addDimensionLinesListener(QCollectionListener<QDimensionLine;>;) | add dimension lines listener
+void removeDimensionLinesListener(QCollectionListener<QDimensionLine;>;) | remove dimension lines listener
+void setDimensionLinesFeedback(QList<QDimensionLine;>;) | set dimension lines feedback
+void testLeavesOtherLinesAlone() | test leaves other lines alone
+void testMultipleBlankLinesBack() | test multiple blank lines back
+void testMultipleCommentLinesBack() | test multiple comment lines back
+void testPrevStmtSeveralLinesBeforeCurrLocation() | test prev stmt several lines before curr location

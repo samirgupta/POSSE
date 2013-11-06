@@ -1,0 +1,483 @@
+AbstractFileSaver getSaver() | get saver
+AbstractFileSaver getSaverForExtension(QString;) | get saver for extension
+AbstractFileSaver getSaverForFile(QFile;) | get saver for file
+AbstractFileSaver getSaverForFile(QString;) | get saver for file
+boolean autoSave(QBasePanel;) | auto save
+boolean confirmSaveAfter3DError() | confirm save after 3 d error
+boolean confirmSaveNewerHome(QString;) | confirm save newer home
+boolean deleteAutoSaveFile(QBasePanel;) | delete auto save file
+boolean _fileSaveHelper(QOpenDefinitionsDocument;I) | file save helper
+boolean getSaveInstanceData() | get save instance data
+boolean getSaveInstances() | get save instances
+boolean invokeSaveLifecycle(QObject;QEntityPersister;QEventSource;) | invoke save lifecycle
+boolean isCoreFileSaver(QString;) | is core file saver
+boolean isInDefaultSaveDir() | is in default save dir
+boolean isInDefaultSaveDir(QDownload;) | is in default save dir
+boolean isModifiedSinceSave() | is modified since save
+boolean isSavePassword() | is save password
+boolean needSwapSaves(QString;) | need swap saves
+boolean newerAutoSaveExists(QFile;) | newer auto save exists
+boolean onSave(QObject;QSerializable;[QObject;[QString;[QType;) | on save
+boolean onSave(QSession;) | on save
+boolean _save() | save
+boolean save() | save
+boolean _saveAs() | save as
+boolean saveAs() | save as
+boolean saveAsProject() | save as project
+boolean saveAsURLProject() | save as url project
+boolean saveAuctions() | save auctions
+boolean saveChanges() | save changes
+boolean saveChanges(Z) | save changes
+boolean saveDatabase(QFile;ZQString;) | save database
+boolean saveEnabledHuh() | save enabled huh
+boolean saveFileAs(QFileSaveSelector;) | save file as
+boolean saveFileList(QVector;QString;) | save file list
+boolean saveFile(QFileSaveSelector;) | save file
+boolean saveFile(QLinkedList;QFile;QDrawingPanel;) | save file
+boolean saveHTML(QMindMapNodeModel;QFile;) | save html
+boolean saveImage(QOutputStream;QString;D) | save image
+boolean saveInternal(QFile;Z) | save internal
+boolean saveiReportConfiguration() | savei report configuration
+boolean saveiReportConfiguration(QString;) | savei report configuration
+boolean saveMessage(Qorg.planetamessenger.plugin.JPlugin;Qjava.lang.String;IQjava.lang.String;) | save message
+boolean saveNewRow() | save new row
+boolean saveOverwriteAppend(QStringBuffer;QFile;Z) | save overwrite append
+boolean savePassword() | save password
+boolean _saveProjectAs() | save project as
+boolean save(QFile;) | save
+boolean save(QStringBuffer;) | save
+boolean saveRTF(QList;QBufferedWriter;) | save rtf
+boolean saveSearches() | save searches
+boolean _saveSettings() | save settings
+boolean saveSettings() | save settings
+boolean saveToFile(QString;QObject;) | save to file
+boolean saveTXT(QMindMapNodeModel;QFile;) | save txt
+boolean showLoadingSavegameDialog(ZZ) | show loading savegame dialog
+boolean supportsSavepoints() | supports savepoints
+boolean visitCollectionsBeforeSave(QObject;QSerializable;[QObject;[QType;QEventSource;) | visit collections before save
+DefaultSaveLocationManager getDefaultSaveLocationManager() | get default save location manager
+Document saveFile() | save file
+Element saveAsXML() | save as xml
+Element writeBeanSaver(QElement;QObject;QString;) | write bean saver
+Element writeSaver(QElement;QObject;QString;) | write saver
+File copyTorrentFileToSaveDir(QFile;Z) | copy torrent file to save dir
+File getAbsoluteSaveLocation() | get absolute save location
+File getAutoSaveFile(QFile;) | get auto save file
+File getSaveDirectory() | get save directory
+File getSaveFile(QJFileChooser;) | get save file
+File getSaveLocation() | get save location
+File showSaveDialog(QFile;QString;) | show save dialog
+File showSaveDialog(QFile;QString;[QFileFilter;QString;) | show save dialog
+FreeColDialog createSaveDialog(QFile;QString;[QFileFilter;QString;) | create save dialog
+Game loadSaveGame(QFile;) | load save game
+GPAction getSaveProjectAction() | get save project action
+GPAction getSaveProjectAsAction() | get save project as action
+GPAction getSaveURLAction() | get save url action
+GPSaver newSaver() | new saver
+InputStream getSavegameInputStream() | get savegame input stream
+int getBadSavesCount() | get bad saves count
+int getGoodSavesCount() | get good saves count
+int getNumberOfChangesSinceLastSave() | get number of changes since last save
+int getSavepointId() | get savepoint id
+int getSavesCount() | get saves count
+int saveHTML(QWriter;QString;IZZI) | save html
+int showSaveDialog(QComponent;) | show save dialog
+javax.swing.JButton getJButtonSave() | get j button save
+JFileChooser createSaveChooser() | create save chooser
+JFileChooser getSaveChooser() | get save chooser
+LoadingSavegameDialog getLoadingSavegameDialog() | get loading savegame dialog
+long getSavedModDate() | get saved mod date
+Map saveDefaultResponseToAzpdFile(QPlatformMessage;) | save default response to az pd file
+Map saveLimit(QlimitEstimate;) | save limit
+Map saveResponseToAzpdFile(QMap;QPlatformMessage;) | save response to az pd file
+MergeEventListener[] getSaveOrUpdateCopyEventListeners() | get save or update copy event listeners
+ModelAndView processSave(Tab currentTab, HttpServletRequest req, HttpServletResponse res, Object comm, BindException errors) | process save
+Object fireSaveOrUpdateCopy(QMergeEvent;) | fire save or update copy
+Object readSaver(QElement;) | read saver
+Object saveOrUpdateCopy(QObject;) | save or update copy
+Object saveOrUpdateCopy(QObject;QSerializable;) | save or update copy
+Object saveOrUpdateCopy(QString;QObject;) | save or update copy
+Object saveOrUpdateCopy(QString;QObject;QSerializable;) | save or update copy
+Result newReleaseSavepointRequest(QString;) | new release savepoint request
+Result newRollbackToSavepointRequest(QString;) | new rollback to savepoint request
+Result newSetSavepointRequest(QString;) | new set savepoint request
+SaveAnswer confirmSave(QString;) | confirm save
+SaveLocationManager getSaveLocationManager() | get save location manager
+SaveOrUpdateEventListener[] getSaveEventListeners() | get save event listeners
+SaveOrUpdateEventListener[] getSaveOrUpdateEventListeners() | get save or update event listeners
+SavePoint savePoint() | save point
+Savepoint setSavepoint() | set savepoint
+Savepoint setSavepoint(QString;) | set savepoint
+Savepoint setSavepoint(String arg0) | set savepoint
+SaveSession getSaveSession(QString;QFile;) | get save session
+SaveSession saveDatabase(QBibtexDatabase;QMetaData;QFile;QJabRefPreferences;ZZQString;Z) | save database
+SaveSession savePartOfDatabase(QBibtexDatabase;QMetaData;QFile;QJabRefPreferences;[QBibtexEntry;QString;) | save part of database
+Serializable fireSave(QSaveOrUpdateEvent;) | fire save
+Serializable performSaveOrReplicate(QObject;QEntityKey;QEntityPersister;ZQObject;QEventSource;Z) | perform save or replicate
+Serializable performSaveOrUpdate(QSaveOrUpdateEvent;) | perform save or update
+Serializable performSave(QObject;QSerializable;QEntityPersister;ZQObject;QEventSource;Z) | perform save
+Serializable save(QObject;) | save
+Serializable save(QString;QObject;) | save
+Serializable saveWithGeneratedId(QObject;QString;QObject;QEventSource;Z) | save with generated id
+Serializable saveWithGeneratedOrRequestedId(QSaveOrUpdateEvent;) | save with generated or requested id
+Serializable saveWithRequestedId(QObject;QSerializable;QString;QObject;QEventSource;) | save with requested id
+String askForSaveDirectory(QDiskManagerFileInfo;) | ask for save directory
+StringBuffer buildSaveBuffer(QXMLElement;QXMLElement;) | build save buffer
+String convertFile(String loadName, String saveName, int imageDataStart) | convert file
+String getDefaultSaveDir() | get default save dir
+String getDefaultSaveDirectory() | get default save directory
+String getRelativeSavePath() | get relative save path
+String getSaveDialogTitle() | get save dialog title
+String getSaveInt() | get save int
+String getSavePath() | get save path
+String getSavepointName() | get savepoint name
+String getSaveSilentlyDir() | get save silently dir
+String makeSaveDirectory(QString;) | make save directory
+String save() | save
+String saveHTML_escapeUnicodeAndSpecialCharacters(QString;) | save html escape unicode and special characters
+String saveHTML_escapeUnicode(QString;) | save html escape unicode
+String saveInstanceDataTipText() | save instance data tip text
+String saveInstancesTipText() | save instances tip text
+String savePbArchs() | save pb archs
+String saveRFT_escapeUnicodeAndSpecialCharacters(QString;) | save rft escape unicode and special characters
+String showSaveDialog(QString;) | show save dialog
+String showSaveDialog(QView;QString;QContentType;QString;) | show save dialog
+String toSaveGameString() | to save game string
+Variant Save() | save
+Vector<QExtensionFileFilter;> filterNonCoreSaverFileFilters(QVector<QExtensionFileFilter;>;) | filter non core saver file filters
+Vector<QExtensionFileFilter;> filterSaverFileFilters(QVector<QExtensionFileFilter;>;) | filter saver file filters
+Vector<QString;> getFileSavers() | get file save rs
+void aboutToSaveFromSaveAll(QOpenDefinitionsDocument;) | about to save from save all
+void ActionSave() | action save
+void ActionSaveAs() | action save as
+void ActionSave(QString;QString;QString;QString;) | action save
+void addSaveAction(QString;QString;QString;IQKeyStroke;) | add save action
+void addSaveSWFAction(QString;QString;QString;IQKeyStroke;) | add save swf action
+void afterSaveProject(QIGanttProject;) | after save project
+void assertSaveBeforeCompileCount(I) | assert save before compile count
+void assertSaveBeforeJavadocCount(I) | assert save before javadoc count
+void assertSaveCount(I) | assert save count
+void _attemptSaveAllDocuments() | attempt save all documents
+void autoSave() | auto save
+void beginToSave(QOutputStreamWriter;) | begin to save
+void boardSave() | board save
+void boardSaveAs() | board save as
+void boardSaveAsImage() | board save as image
+void boardSaveImage() | board save image
+void cancelTimedSaveEvent() | cancel timed save event
+void cascadeAfterSave(QEventSource;QEntityPersister;QObject;QObject;) | cascade after save
+void cascadeBeforeSave(QEventSource;QEntityPersister;QObject;QObject;) | cascade before save
+void clearAutoSaves() | clear auto saves
+void computeSaveEnable() | compute save enable
+void configSectionSave() | config section save
+void DefaultFileSaver(QFile;) | default file saver
+void determineSaveResumeDataInterval() | determine save resume data interval
+void disableSaveAllSpecific() | disable save all specific
+void disableSaveSpecific() | disable save specific
+void doAutomaticSave(QMindMapMapModel;IZQFile;) | do automatic save
+void doSave() | do save
+void DoSave(QComponent;) | do save
+void doSave(QOutputStream;) | do save
+void enableSaveAllSpecific() | enable save all specific
+void enableSaveSpecific() | enable save specific
+void exitConfirmedSave() | exit confirmed save
+void fileSavedAndReviewNext(QProject;QFile;QObject;) | file saved and review next
+void finalizeSaveSession(QSaveSession;) | finalize save session
+void fireSaveOrUpdateCopy(QMap;QMergeEvent;) | fire save or update copy
+void fireSaveOrUpdate(QSaveOrUpdateEvent;) | fire save or update
+void forceSaveLocation() | force save location
+void handleSave(Z) | handle save
+void initSaveButton() | init save button
+void onSave() | on save
+void onSaveOrUpdate(QSaveOrUpdateEvent;) | on save or update
+void postSaveAction(Vector resCommands) | post save action
+void preConfigSave() | pre config save
+void processReleaseSavepoint() | process release savepoint
+void processSavepoint() | process savepoint
+void releaseSavepoint(QSavepoint;) | release savepoint
+void releaseSavepoint(QString;) | release savepoint
+void rollbackSavepoint(QSession;QString;) | rollback savepoint
+void rollbackToSavepoint(QString;) | rollback to savepoint
+void runFileSaver(QAbstractFileSaver;[QString;) | run file saver
+void safeSaveHistory(QFileSelector;) | safe save history
+void _save() | save
+void save() | save
+void save2(QOutputStream;) | save 2
+void SaveAction(QControllerAdapter;) | save action
+void saveAliases() | save aliases
+void _saveAll() | save all
+void saveAll() | save all
+void _saveAllBeforeProceeding(QString;QBooleanOption;QString;) | save all before proceeding
+void saveAllFilesHelper(QFileSaveSelector;) | save all files helper
+void saveAllFiles(QFileSaveSelector;) | save all files
+void saveAllFiles(QGlobalModel;QFileSaveSelector;) | save all files
+void _saveAllOld() | save all old
+void saveAndApply() | save and apply
+void saveAndCompress() | save and compress
+void saveAnimation() | save animation
+void saveAnimation(QFile;) | save animation
+void saveArbitrary(QString;QProperties;) | save arbitrary
+void saveAs() | save as
+void SaveAsAction(QControllerAdapter;) | save as action
+void saveAsCsv(QString;) | save as csv
+void saveAsGIF(QString;) | save as gif
+void saveAsGIF(QString;II) | save as gif
+void saveAsJPEG(QString;F) | save as jpeg
+void saveAsJPEG(QString;IIF) | save as jpeg
+void saveAsPNG(QString;) | save as png
+void saveAsPNG(QString;II) | save as png
+void saveAsPreviousState() | save as previous state
+void saveAs(QHomeRecorder.Type;QRunnable;) | save as
+void saveAs(QJReportFrame;) | save as
+void saveAssignments(QTransformerHandler;) | save assignments
+void saveAttachment(XWikiAttachment attachment, boolean parentUpdate, XWikiContext context, boolean bTransaction) | save attachment
+void saveAuthCache() | save auth cache
+void saveBackup(QString;) | save backup
+void saveBannedIPs() | save banned ips
+void saveBatch() | save batch
+void SaveBatchThread(QDataSink;) | save batch thread
+void saveBeforeCompile() | save before compile
+void saveBeforeJavadoc() | save before javadoc
+void saveBinary(QFile;QObject;QInstances;) | save binary
+void saveBuffer() | save buffer
+void saveBuffer(QString;) | save buffer
+void saveCache() | save cache
+void saveCalendar(QTransformerHandler;) | save calendar
+void saveCategories() | save categories
+void saveChanges() | save changes
+void saveChangesAndReviewNext() | save changes and review next
+void saveChanges(QProject;) | save changes
+void saveClassifier(QString;QClassifier;QInstances;) | save classifier
+void saveClientOptions() | save client options
+void saveClientOptions(QFile;) | save client options
+void saveClockSkew() | save clock skew
+void saveCloseables() | save close ables
+void saveClusterer(QString;QClusterer;QInstances;) | save clusterer
+void saveClusterer(QString;QClusterer;QInstances;[I) | save clusterer
+void _saveCommand() | save command
+void saveComponent() | save component
+void _saveConfig() | save config
+void saveConfig() | save config
+void saveConfiguration() | save configuration
+void saveConfiguration(QOutputStream;QString;) | save configuration
+void saveConfiguration(QString;) | save configuration
+void saveConfig(Z) | save config
+void saveCustomColumnDefinitions(QIGanttProject;QTransformerHandler;) | save custom column definitions
+void saveCustomEntryTypes(QJabRefPreferences;) | save custom entry types
+void saveCustomProperties(QIGanttProject;QHumanResource;QTransformerHandler;) | save custom properties
+void SaveDatabaseAction() | save database action
+void saveDayProgram(boolean update) | save day program
+void saveDisplayConfig(QJFrame;QProperties;) | save display config
+void saveDocInfo(QDefinitionsDocument;) | save doc info
+void saveDownload() | save download
+void saveDownloads(Z) | save downloads
+void saveEntityStatus(QString;) | save entity status
+void saveEvents() | save events
+void saveEventsNow() | save events now
+void saveExperiment() | save experiment
+void saveFile() | save file
+void saveFileAs() | save file as
+void saveFileAs(QOpenDefinitionsDocument;QFileSaveSelector;) | save file as
+void saveFile(QFileSaver;) | save file
+void saveFile(QOpenDefinitionsDocument;QFileSaveSelector;) | save file
+void saveFile(QString;) | save file
+void saveGame() | save game
+void saveGame(QFile;) | save game
+void saveGame(QFile;QString;) | save game
+void saveGame(QString;) | save game
+void saveGame(QString;Z) | save game
+void saveGanttChartView(QTransformerHandler;) | save gantt chart view
+void saveGlobalLimits() | save global limits
+void saveGlobalStateCache() | save global state cache
+void saveHardware() | save hardware
+void saveHashState() | save hash state
+void saveHighScores() | save high scores
+void saveHistory() | save history
+void saveHistory(QFileSaveSelector;) | save history
+void saveHistory(QFileSaveSelector;QString;) | save history
+void saveHistory(QTransformerHandler;) | save history
+void saveHostToFile() | save host to file
+void saveIconPositions(QTransformerHandler;) | save icon positions
+void saveImage(QString;) | save image
+void saveImpression(QString;JQString;QString;QString;QString;J) | save impression
+void saveInstance(IQInstance;) | save instance
+void saveInstancesToFile(QAbstractFileSaver;QInstances;) | save instances to file
+void saveInterpretersInfoModulesManager() | save interpreters info modules manager
+void save(JasperPrint jasperPrint, File file) | save
+void saveKOML(QFile;QObject;QInstances;) | save koml
+void saveLayout() | save layout
+void saveLayout(QOutputStream;) | save layout
+void saveLibrary(QFile;QEnsembleLibrary;QJComponent;) | save library
+void saveLimits() | save limits
+void saveLimits(QMap;QString;QList;) | save limits
+void saveList() | save list
+void saveListFile(QVector;) | save list file
+void saveList(QFile;) | save list
+void saveMatrix() | save matrix
+void saveMetrics() | save metrics
+void saveModel() | save model
+void saveModel(QString;QEnsembleSelectionLibraryModel;) | save model
+void saveModel(QString;QInstances;QObject;) | save model
+void saveMyEntity1(MyEntity1 myEntity1) | save my entity 1
+void saveMyEntityForSrvDMPckEnNoConfMyEntityForSrvDMPckEnNoConf(MyEntityForSrvDMPckEnNoConf myEntityForSrvDMPckEnNoConf) | save my entity for srv dm pck en no conf my entity for srv dm pck en no conf
+void saveNameValuePairs(QHashMap;QXMLElement;) | save name value pairs
+void saveObject(QObject;) | save object
+void saveOptions(QVector;) | save options
+void saveOrUpdateCopy(QString;QObject;QMap;) | save or update copy
+void saveOrUpdate(QObject;) | save or update
+void saveOrUpdate(QString;QObject;) | save or update
+void saveParameter(QWriter;QString;QObject;) | save parameter
+void savePhoto() | save photo
+void savepoint(QString;) | savepoint
+void savePosition() | save position
+void savePreferences() | save preferences
+void SavePrefs(QString;) | save prefs
+void savePrefs(QString;QDataAccessPoint;QDataAccessPoint;QTraceable;QVector;) | save prefs
+void _saveProject() | save project
+void saveProject() | save project
+void saveProjectAs(QIGanttProject;) | save project as
+void _saveProjectHelper(QFile;) | save project helper
+void saveProject(QDocument;) | save project
+void saveProject(QFile;QHashMap<QOpenDefinitionsDocument;QDocumentInfoGetter;>;) | save project
+void saveProject(QIGanttProject;) | save project
+void saveProjectRemotely(QIGanttProject;) | save project remotely
+void saveProperties() | save properties
+void saveProperties(QProperties;QString;QOutputStream;) | save properties
+void save(QArrayList;) | save
+void save(QFile;) | save
+void save(QGanttTreeTable;QTransformerHandler;) | save
+void save(QHomeRecorder.Type;QRunnable;) | save
+void save(QIGanttProject;QTransformerHandler;) | save
+void save(QIGanttProject;QTransformerHandler;QColor;QCustomColumnsStorage;) | save
+void save(Qjava.awt.event.ActionEvent;) | save
+void save(Qjava.io.PrintWriter;) | save
+void save(QJReportFrame;) | save
+void save(QList;QTransformerHandler;) | save
+void save(QMap;) | save
+void save(QObject;QSerializable;) | save
+void save(QOutputStream;) | save
+void save(QPluginManager;) | save
+void save(QPluginManager;QFile;) | save
+void save(QString;) | save
+void save(QString;QHomeRecorder.Type;QRunnable;) | save
+void save(QString;QMap;) | save
+void save(QString;QObject;QSerializable;) | save
+void saveQuestionType(QuestionType questionType) | save question type
+void save(QUIFacade;QTransformerHandler;) | save
+void save(QWriter;) | save
+void save(QXMLElement;) | save
+void saveRecentFiles() | save recent files
+void saveResources(QTransformerHandler;) | save resources
+void saveResults(QSubscriptionImpl;[QSubscriptionResultImpl;) | save results
+void saveResumeData() | save resume data
+void saveResumeData(QDownloadManagerState;QMap;) | save resume data
+void saveResumeData(QMap;) | save resume data
+void saveResumeData(Z) | save resume data
+void saveRoleSets(QTransformerHandler;) | save role sets
+void saveRoles(QRoleSet;QTransformerHandler;) | save roles
+void saveRoles(QTransformerHandler;) | save roles
+void saveRow(QCachedObject;) | save row
+void saveRows(I) | save rows
+void saveRows([QCachedObject;II) | save rows
+void saveRTF(QWriter;IQHashMap;) | save rtf
+void saveSearchDisplay() | save search display
+void saveSelectionToClipboard(Z) | save selection to clipboard
+void SaveSessionAction() | save session action
+void saveSessionTotals() | save session totals
+void saveSettings() | save settings
+void saveSettings(QMap;) | save settings
+void saveSize() | save size
+void saveState() | save state
+void saveState(Z) | save state
+void saveStore(QWriter;QString;QPreferenceStore;) | save store
+void saveSymbol(IQSymbol;) | save symbol
+void saveSyncErrorInfo(EntitySyncContext esc) | save sync error info
+void saveTable() | save table
+void saveTableColumns(QClass;QString;) | save table columns
+void saveTasks(QTransformerHandler;) | save tasks
+void saveTempAzpdFile(QFile;) | save temp az pd file
+void saveThumbnail(QByteBuffer;) | save thumbnail
+void saveToCOConfiguration() | save to co configuration
+void saveToFileAndReviewNext(QFile;) | save to file and review next
+void saveToFile(IQFile;) | save to file
+void saveToFile(QFile;) | save to file
+void saveToFile(QProject;QFile;) | save to file
+void save(Token token) | save
+void saveTo(QFile;QVector;) | save to
+void saveTo(QOutputStream;) | save to
+void saveToRemoteHost(QString;) | save to remote host
+void saveToXML(Element parent) | save to xml
+void saveTransformedData(QInstances;) | save transformed data
+void saveTXT(QWriter;I) | save txt
+void saveUnsentImpressions() | save unsent impressions
+void saveUserManagerConfig(QPrintStream;) | save user manager config
+void saveVacations(QTransformerHandler;) | save va ca ti ons
+void saveViews(QTransformerHandler;) | save views
+void saveVisibleInstances() | save visible instances
+void saveVuzeBuddies() | save vu ze buddies
+void saveWarehouseState() | save warehouse state
+void SaveWithLinkedFiles(QBasePanel;) | save with linked files
+void saveWorkingInstancesToFileQ() | save working instances to file q
+void save(Writer w) | save
+void saveXMLFile() | save xml file
+void saveXMLFile(QString;) | save xml file
+void save(XMLTranslator traductor) | save
+void saveXStream(QFile;QObject;QInstances;) | save x stream
+void save(Z) | save
+void sendSaveGame(IQString;) | send save game
+void setAskForSave(Z) | set ask for save
+void setBadSavesCount(I) | set bad saves count
+void setDefaultSaveDirectory(QString;) | set default save directory
+void setDefaultSaveDir(QString;) | set default save dir
+void setGoodSavesCount(I) | set good saves count
+void setJButtonSave(Qjavax.swing.JButton;) | set j button save
+void _setModifiedSinceSave() | set modified since save
+void setRelativeSavePath(QString;) | set relative save path
+void setSaveDialogTitle(QString;) | set save dialog title
+void setSaveDirectory(QFile;) | set save directory
+void setsaveDir(String dir) | set save dir
+void setSavedModDate(J) | set saved mod date
+void setSaveEventListeners([QSaveOrUpdateEventListener;) | set save event listeners
+void setSavegame(QString;) | set savegame
+void setSaveInstanceData(Z) | set save instance data
+void setSaveInstances(Z) | set save instances
+void setSaveLocationManager(QSaveLocationManager;) | set save location manager
+void setSavelog(boolean savelog) | set save log
+void setSaveOrUpdateCopyEventListeners([QMergeEventListener;) | set save or update copy event listeners
+void setSaveOrUpdateEventListeners([QSaveOrUpdateEventListener;) | set save or update event listeners
+void setSavePassword(Z) | set save password
+void setSavePath(QString;) | set save path
+void setSaver(Qweka.core.converters.Saver;) | set saver
+void setSavesCount(I) | set saves count
+void setTorrentSaveDir(QString;) | set torrent save dir
+void setTorrentSaveDir(QString;QString;) | set torrent save dir
+void showSaveSheet(QJFileChooser;QComponent;QSheetListener;) | show save sheet
+void startAutoSaveManager(QJabRefFrame;) | start auto save manager
+void startAutoSaveTimer() | start auto save timer
+void stopAutoSaveManager() | stop auto save manager
+void stopAutoSaveTimer() | stop auto save timer
+void suppressStateSave(Z) | suppress state save
+void supressStateSave(Z) | supress state save
+void testCancelFirstSave() | test cancel first save
+void testFileMovedWhenTriedToSave() | test file moved when tried to save
+void testJDBCSavepoints() | test jdbc savepoints
+void testLoadSave() | test load save
+void testRealSaveFirstSave() | test real save first save
+void testSave() | test save
+void testSaveAllSaveCorrectFiles() | test save all save correct files
+void testSaveAndLoadConstructors() | test save and load constructors
+void testSaveAsExistsAndOpen() | test save as exists and open
+void testSaveAsExistsForOverwrite() | test save as exists for overwrite
+void testSaveClearAndLoadHistory() | test save clear and load history
+void testSaveDelegate() | test save delegate
+void testSaveFile() | test save file
+void testSaveFirst() | test save first
+void testSaveNullClassPropertyFilterHandler() | test save null class property filter handler
+void testSaveProject() | test save project
+void toSavedXML(QXMLStreamWriter;) | to saved xml
+void updateModifiedSinceSave() | update modified since save
+void updateSavedHome(QString;QRunnable;) | update saved home
+void virtualSave(Record rec) | virtual save
+weka.core.converters.Saver getSaver() | get saver
+XMLElement save() | save
+XMLElement save(QWriter;QMindMapLinkRegistry;) | save

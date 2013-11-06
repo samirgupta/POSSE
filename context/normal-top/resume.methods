@@ -1,0 +1,45 @@
+boolean canResumeDownloads() | can resume downloads
+boolean isResumeDataComplete() | is resume data complete
+boolean isTorrentResumeDataComplete(QDownloadManagerState;) | is torrent resume data complete
+boolean isTorrentResumeDataComplete(QDownloadManagerState;QMap;) | is torrent resume data complete
+Coords resumeAfterObstacle(QCoords;I) | resume after obstacle
+int clearResumeDataSupport(QDownloadManager;QDiskManagerFileInfo;ZZ) | clear resume data support
+int getResumePriority() | get resume priority
+Map getResumeData() | get resume data
+Map getResumeData(QDownloadManager;) | get resume data
+Map getResumeData(QDownloadManagerState;) | get resume data
+MenuItem addResumeMenuItem(QMenu;) | add resume menu item
+void assertCurrThreadResumedCount(I) | assert curr thread resumed count
+void _asyncResume() | async resume
+void asyncResume() | async resume
+void clearResumeData() | clear resume data
+void clearResumeData(QDownloadManager;QDiskManagerFileInfo;) | clear resume data
+void debuggerResume() | debugger resume
+void determineSaveResumeDataInterval() | determine save resume data interval
+void pauseResume() | pause resume
+void resume() | resume
+void resumeCon() | resume con
+void resumeDecoding() | resume decoding
+void resumeDownload(QDownloadManager;) | resume download
+void resumeDownloads() | resume downloads
+void resumeEncoding() | resume encoding
+void _resumeFromStep() | resume from step
+void _resumeHelper(Z) | resume helper
+void resume(QDebugThreadData;) | resume
+void resume(QTransaction;) | resume
+void resumeQueueProcessing() | resume queue processing
+void resumeReadSelects() | resume read selects
+void resumeSaving() | resume saving
+void resumeSelects(QAbstractSelectableChannel;) | resume selects
+void _resumeThread(QThreadReference;Z) | resume thread
+void resumeTorrents([QObject;) | resume torrents
+void resumeWriteSelects() | resume write selects
+void saveResumeData() | save resume data
+void saveResumeData(QDownloadManagerState;QMap;) | save resume data
+void saveResumeData(QMap;) | save resume data
+void saveResumeData(Z) | save resume data
+void setResumeDataCompletelyValid(QDownloadManagerState;) | set resume data completely valid
+void setResumeData(QMap;) | set resume data
+void setResumePriority(I) | set resume priority
+void setTorrentResumeDataComplete(QDownloadManagerState;) | set torrent resume data complete
+void setTorrentResumeDataNearlyComplete(QDownloadManagerState;) | set torrent resume data nearly complete

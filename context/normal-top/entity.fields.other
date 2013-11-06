@@ -1,0 +1,26 @@
+int COMMAND_ENTITY_ADD | command entity add
+int COMMAND_ENTITY_AMMOCHANGE | command entity ammo change
+int COMMAND_ENTITY_ATTACK | command entity attack
+int COMMAND_ENTITY_DEPLOY | command entity deploy
+int COMMAND_ENTITY_MODECHANGE | command entity mode change
+int COMMAND_ENTITY_MOVE | command entity move
+int COMMAND_ENTITY_REMOVE | command entity remove
+int COMMAND_ENTITY_SYSTEMMODECHANGE | command entity system mode change
+int COMMAND_ENTITY_UPDATE | command entity update
+int COMMAND_ENTITY_VISIBILITY_INDICATOR | command entity visibility indicator
+int GAME_ENTITY_CHANGE | game entity change
+int GAME_ENTITY_NEW | game entity new
+int GAME_ENTITY_NEW_OFFBOARD | game entity new offboard
+int GAME_ENTITY_REMOVE | game entity remove
+int lastEntityId | last entity id
+int selectedEntityNum | selected entity num
+java.lang.String ST_NET_READ_CONTROL_ENTITY_COUNT | st net read control entity count
+java.lang.String ST_NET_WRITE_CONTROL_ENTITY_COUNT | st net write control entity count
+java.util.ArrayList<megamek.client.ui.swing.BoardView1.Sprite> ghostEntitySprites | ghost entity sprites
+java.util.ArrayList<megamek.client.ui.swing.BoardView1.Sprite> movingEntitySprites | moving entity sprites
+java.util.HashMap<java.lang.Integer,megamek.client.ui.swing.BoardView1.Sprite> movingEntitySpriteIds | moving entity sprite ids
+java.util.Hashtable movingEntitySpriteIds | moving entity sprite ids
+java.util.Vector ghostEntitySprites | ghost entity sprites
+java.util.Vector movingEntitySprites | moving entity sprites
+long last_entity_check_count | last entity check count
+net.n3.nanoxml.IXMLEntityResolver parameterEntityResolver | parameter entity resolver

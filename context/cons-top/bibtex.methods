@@ -1,0 +1,12 @@
+CONS BibtexCaseChanger(QString;CQWarn;) | bibtex case changer
+CONS BibtexEntry() | bibtex entry
+CONS BibtexEntry(QString;) | bibtex entry
+CONS BibtexEntry(QString;QBibtexEntryType;) | bibtex entry
+CONS BibtexFields() | bibtex fields
+CONS BibtexParser(QReader;) | bibtex parser
+CONS BibtexStringComparator(Z) | bibtex string comparator
+CONS BibtexString(QString;QString;QString;) | bibtex string
+CONS SPIRESBibtexFilterReader(QReader;) | spi res bibtex filter reader
+CONS TransferableBibtexEntry([QBibtexEntry;) | transferable bibtex entry
+CONS XMPSchemaBibtex(QElement;QString;) | xmp schema bibtex
+CONS XMPSchemaBibtex(QXMPMetadata;) | xmp schema bibtex

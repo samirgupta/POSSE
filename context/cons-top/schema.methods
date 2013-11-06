@@ -1,0 +1,20 @@
+CONS MiningSchema(QElement;QInstances;QTransformationDictionary;) | mining schema
+CONS Schema() | schema
+CONS SchemaExport(QConfiguration;) | schema export
+CONS SchemaExport(QConfiguration;QConnection;) | schema export
+CONS SchemaExport(QConfiguration;QProperties;) | schema export
+CONS SchemaExport(QConfiguration;QSettings;) | schema export
+CONS Schema(I) | schema
+CONS SchemaManager(QDatabase;) | schema manager
+CONS Schema([QString;[QClass;) | schema
+CONS Schema([QString;[QClass;[QObject;) | schema
+CONS SchemaUpdate(QConfiguration;) | schema update
+CONS SchemaUpdate(QConfiguration;QProperties;) | schema update
+CONS SchemaUpdate(QConfiguration;QSettings;) | schema update
+CONS SchemaValidator(QConfiguration;) | schema validator
+CONS SchemaValidator(QConfiguration;QProperties;) | schema validator
+CONS SchemaValidator(QConfiguration;QSettings;) | schema validator
+CONS TestSchemaParse() | test schema parse
+CONS TestSchemaParse(QString;) | test schema parse
+CONS XMPSchemaBibtex(QElement;QString;) | xmp schema bibtex
+CONS XMPSchemaBibtex(QXMPMetadata;) | xmp schema bibtex

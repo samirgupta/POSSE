@@ -1,0 +1,11 @@
+LifeCycleState transitionMakeTransient(StateManager sm, boolean useFetchPlan, boolean detachAllOnCommit) | transition make transient
+Node detach() | detach
+Transport detachTransport() | detach transport
+void addInitializedDetachedCollection(QCollectionPersister;QPersistentCollection;) | add initialized detached collection
+void addUninitializedDetachedCollection(QCollectionPersister;QPersistentCollection;) | add uninitialized detached collection
+void detach() | detach
+void detachFromLayout(QVector;) | detach from layout
+void detachJoinedWall(QWall;) | detach joined wall
+void detachUI(QUIInstanceFactory;) | detach ui
+void performDetachedEntityDeletionCheck(QDeleteEvent;) | perform detached entity deletion check
+void removePageDetachListener(PageDetachListener listener) | remove page detach listener

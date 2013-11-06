@@ -1,0 +1,12 @@
+CONS DiskManagerChannelImpl(QDownloadImpl;Qorg.gudy.azureus2.pluginsimpl.local.disk.DiskManagerFileInfoImpl;) | disk manager channel impl
+CONS GP4MIDIChannel() | gp 4 midi channel
+CONS IncomingSocketChannelManager(QString;QString;) | incoming socket channel manager
+CONS LoggerChannelImpl(QLogger;QString;ZZ) | logger channel impl
+CONS RSSChannelImpl(QSimpleXMLParserDocumentNode;Z) | rss channel impl
+CONS RssChannel(QString;QString;QString;) | rss channel
+CONS SongChannelMessage(I) | song channel message
+CONS VirtualBlockingServerChannelSelector(QInetSocketAddress;IQSelectListener;) | virtual blocking server channel selector
+CONS VirtualChannelSelectorImpl(QVirtualChannelSelector;IZ) | virtual channel selector impl
+CONS VirtualChannelSelector(QString;IZ) | virtual channel selector
+CONS VirtualNonBlockingServerChannelSelector(QInetAddress;IIIQVirtualBlockingServerChannelSelector.SelectListener;) | virtual non blocking server channel selector
+CONS VirtualNonBlockingServerChannelSelector(QInetSocketAddress;IQVirtualBlockingServerChannelSelector.SelectListener;) | virtual non blocking server channel selector

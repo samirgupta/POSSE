@@ -1,0 +1,64 @@
+boolean hasDatabaseSnapshot() | has database snapshot
+boolean isDatabaseGeneratedTimestamp(QType;) | is database generated timestamp
+boolean isFileBasedDatabaseType(QString;) | is file based database type
+boolean isInProcessDatabaseType(QString;) | is in process database type
+boolean isReadOnlyDatabaseFiles(QConnection;) | is read only database files
+Collection<AdminDatabaseUser> selectAllDatabaseUsers(String strLastName, String strFirstName, String strEmail, AdminAuthentication authenticationService) | select all database users
+DatabaseDataSource getDatabaseConnection(QConnection;) | get database connection
+DatabaseDataSource getDatabaseConnection(QConnection;QSQLDataHandler;) | get database connection
+DatabaseDataSource getDatabaseConnection(QString;QString;QString;QString;) | get database connection
+DatabaseDataSource getDatabaseConnection(QString;QString;QString;QString;QSQLDataHandler;) | get database connection
+Database getDatabaseObject(QString;QString;QHsqlProperties;) | get database object
+DatabaseInformation newDatabaseInformation(QDatabase;) | new database information
+DatabaseInfos getDatabaseInfos(int database, Connection con) | get database infos
+Database lookupDatabaseObject(QString;QString;) | lookup database object
+DatabaseMap getDatabaseMap() | get database map
+DatabaseStructure buildDatabaseStructure(QProperties;QDialect;ZQString;II) | build database structure
+DatabaseStructure getDatabaseStructure() | get database structure
+File getDatabaseOutput() | get database output
+int getDatabaseMajorVersion() | get database major version
+int getDatabaseMajorVersion(QDatabaseMetaData;) | get database major version
+int getDatabaseMinorVersion() | get database minor version
+int getDatabaseSize() | get database size
+int getDatabaseType() | get database type
+int getFirstEmptyDatabaseIndex() | get first empty database index
+java.lang.String getDatabaseName() | get database name
+Object[] getCachedDatabaseSnapshot(QEntityKey;) | get cached database snapshot
+Object[] getDatabaseSnapshot() | get database snapshot
+Object[] getDatabaseSnapshot(QSerializable;QEntityPersister;) | get database snapshot
+Object[] getDatabaseSnapshot(QSerializable;QSessionImplementor;) | get database snapshot
+Object[] getDatabaseSnapshot(QSessionImplementor;QEntityPersister;QSerializable;) | get database snapshot
+Object[] importDatabase_worker(QDBTYPE;QSet<QString;>;QConnection;) | import database worker
+String getDatabase_distanceType() | get database distance type
+String getDatabaseFullProductVersion() | get database full product version
+String getDatabaseName(IZ) | get database name
+String getDatabasePath(IZ) | get database path
+String getDatabaseProductName() | get database product name
+String getDatabaseProductVersion() | get database product version
+String getDatabase_Type() | get database type
+String getDatabaseType(I) | get database type
+String getDatabaseURL() | get database url
+String setDatabaseProperty(QString;QString;) | set database property
+Vector getDatabaseURIs() | get database ur is
+void addAuxiliaryDatabaseObject(QAuxiliaryDatabaseObject;) | add auxiliary database object
+void addDatabaseChangeListener(QDatabaseChangeListener;) | add database change listener
+void addDatabaseObject(QString;QString;QDatabase;) | add database object
+void bindAuxiliaryDatabaseObject(QElement;QMappings;) | bind auxiliary database object
+void CloseDatabaseAction() | close database action
+void exportDatabase_worker(QDBTYPE;QBibtexDatabase;QMetaData;QSet<QString;>;QObject;) | export database worker
+void initTextDatabaseRowOutput(QString;QString;QString;ZQString;) | init text database row output
+void NewDatabaseAction() | new database action
+void NewSubDatabaseAction() | new sub database action
+void removeDatabaseChangeListener(QDatabaseChangeListener;) | remove database change listener
+void SaveDatabaseAction() | save database action
+void setDatabase_distanceType(QString;) | set database distance type
+void setDatabaseID(String ak) | set database id
+void setDatabaseName(IQString;) | set database name
+void setDatabaseOutput(QFile;) | set database output
+void setDatabasePath(IQString;) | set database path
+void setDatabaseSnapshot([QObject;) | set database snapshot
+void setDatabase_Type(QString;) | set database type
+void setDatabaseURL(QString;) | set database url
+void setDatabaseVariables() | set database variables
+void setInstancesFromDatabaseTable(QString;) | set instances from database table
+void translateDefaultDatabaseProperty(QHsqlProperties;) | translate default database property

@@ -1,0 +1,28 @@
+CONS BasicAction(QString;) | basic action
+CONS BasicAction(QString;QKeyStroke;) | basic action
+CONS BasicAction(QString;QString;QURL;) | basic action
+CONS BasicAction(QString;QString;QURL;QKeyStroke;) | basic action
+CONS BasicClassFilter() | basic class filter
+CONS BasicClassFilter([QString;[QString;) | basic class filter
+CONS BasicCollectionJoinWalker(QQueryableCollection;IQString;QSessionFactoryImplementor;QMap;) | basic collection join walker
+CONS BasicCollectionLoader(QQueryableCollection;IQSessionFactoryImplementor;QMap;) | basic collection loader
+CONS BasicCollectionLoader(QQueryableCollection;IQString;QSessionFactoryImplementor;QMap;) | basic collection loader
+CONS BasicCollectionLoader(QQueryableCollection;QSessionFactoryImplementor;QMap;) | basic collection loader
+CONS BasicCollectionPersister(QCollection;QCollectionRegionAccessStrategy;QConfiguration;QSessionFactoryImplementor;) | basic collection persister
+CONS BasicConstraints(I) | basic constraints
+CONS BasicConstraints(QASN1Sequence;) | basic constraints
+CONS BasicConstraints(Z) | basic constraints
+CONS BasicConstraints(ZI) | basic constraints
+CONS BasicEntityPropertyMapping(QAbstractEntityPersister;) | basic entity property mapping
+CONS BasicExecutor(QHqlSqlWalker;QQueryable;) | basic executor
+CONS BasicLazyInitializer(QString;QClass;QSerializable;QMethod;QMethod;QAbstractComponentType;QSessionImplementor;) | basic lazy initializer
+CONS BasicLoader(QSessionFactoryImplementor;) | basic loader
+CONS BasicPluginConfigImpl(QBasicPluginConfigModel;) | basic plugin config impl
+CONS BasicPluginConfigModelImpl(QUIManagerImpl;QString;QString;) | basic plugin config model impl
+CONS BasicPluginViewImpl(QBasicPluginViewModel;) | basic plugin view impl
+CONS BasicPluginViewModelImpl(QUIManagerImpl;QString;) | basic plugin view model impl
+CONS BasicSearch(ZZ) | basic search
+CONS JajukBasicComboPopup(QJComboBox;) | jajuk basic combo popup
+CONS SWTSkinObjectBasic(QSWTSkin;QSWTSkinProperties;QControl;QString;QString;QString;QSWTSkinObject;) | swt skin object basic
+CONS SWTSkinObjectBasic(QSWTSkin;QSWTSkinProperties;QString;QString;QString;QSWTSkinObject;) | swt skin object basic
+CONS XMLBasicSerialization() | xml basic serialization

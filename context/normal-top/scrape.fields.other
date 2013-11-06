@@ -1,0 +1,18 @@
+boolean full_scrape_enable | full scrape enable
+boolean lastScrapeResultOk | last scrape result ok
+byte autoUDPscrapeEvery | auto udp scrape every
+int DEFAULT_SCRAPE_CACHE_PERIOD | default scrape cache period
+int DEFAULT_SCRAPE_RETRY_PERCENTAGE | default scrape retry percentage
+int FAULTY_SCRAPE_RETRY_INTERVAL | faulty scrape retry interval
+int lastModifiedScrapeResultPeers | last modified scrape result peers
+int lastModifiedScrapeResultSeeds | last modified scrape result seeds
+int LDT_TL_SCRAPERESULT | ldt tl scrape result
+int MIN_FIRST_SCRAPE_WAIT | min first scrape wait
+java.lang.String ST_TRACKER_SCRAPE_COUNT | st tracker scrape count
+java.lang.String ST_TRACKER_SCRAPE_TIME | st tracker scrape time
+long average_scrape_count | average scrape count
+long current_scrape_retry_interval | current scrape retry interval
+long last_scrape_calc_time | last scrape calc time
+long nextScrapeCheckOn | next scrape check on
+long nextScrapeStartTime | next scrape start time
+org.gudy.azureus2.pluginsimpl.local.download.DownloadScrapeResultImpl last_scrape_result | last scrape result

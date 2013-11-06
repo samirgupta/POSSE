@@ -1,0 +1,63 @@
+boolean isResizeWithShell() | is resize with shell
+boolean resizeImage(QString;QString;IIII) | resize image
+BufferedImage createResizedCopy(QImage;IIZ) | create resized copy
+Component.BaselineResizeBehavior getBaselineResizeBehavior(QJComponent;) | get baseline resize behavior
+ControllerState getDimensionLineResizeState() | get dimension line resize state
+ControllerState getPieceOfFurnitureResizeState() | get piece of furniture resize state
+ControllerState getRoomResizeState() | get room resize state
+ControllerState getWallResizeState() | get wall resize state
+DimensionLine getResizedDimensionLineEndAt(FF) | get resized dimension line end at
+DimensionLine getResizedDimensionLineStartAt(FF) | get resized dimension line start at
+double[] resize([DI) | resize
+float[] resize([FI) | resize
+HomePieceOfFurniture getHeightResizedPieceOfFurnitureAt(FF) | get height resized piece of furniture at
+HomePieceOfFurniture getWidthAndDepthResizedPieceOfFurnitureAt(FF) | get width and depth resized piece of furniture at
+ImageData internalResize(QImage;II) | internal resize
+ImageIcon getResizedImage(QImageIcon;II) | get resized image
+Image resize(QImage;) | resize
+int[] resizedInts(I) | resized ints
+int[] resize([II) | resize
+Object resizeArrayIfDifferent(QObject;I) | resize array if different
+Object resizeArray(QObject;I) | resize array
+Object[] resize([QObject;I) | resize
+ResizedImageInfo loadAndResizeImage(QFile;IIF) | load and resize image
+Room getResizedRoomAt(FF) | get resized room at
+void appletResize(int x, int y) | applet resize
+void handleResize() | handle resize
+void handleResize(Z) | handle resize
+void handleShowResize(QEvent;) | handle show resize
+void onResize() | on resize
+void paintDimensionLineResizeIndicator(QGraphics2D;QDimensionLine;QPaint;F) | paint dimension line resize indicator
+void paintRoomResizeIndicators(QGraphics2D;QRoom;QPaint;F) | paint room resize indicators
+void paintWallResizeIndicator(QGraphics2D;QWall;QPaint;F) | paint wall resize indicator
+void postDimensionLineResize(QDimensionLine;FFZ) | post dimension line resize
+void postPieceOfFurnitureHeightResize(QHomePieceOfFurniture;F) | post piece of furniture height resize
+void postPieceOfFurnitureWidthAndDepthResize(QHomePieceOfFurniture;FFFFZ) | post piece of furniture width and depth resize
+void postRoomResize(QRoom;FFI) | post room resize
+void postWallResize(QWall;FFZ) | post wall resize
+void resize() | resize
+void resizeArchive(QString;QString;IIZ) | resize archive
+void resizeArchive(QString;QString;QString;II) | resize archive
+void resizeBand(QBand;IZ) | resize band
+void resizeContent() | resize content
+void resizeDesktop() | resize desktop
+void resizeDetailSection() | resize detail section
+void ResizedImageInfo(QURL;II[B) | resized image info
+void resizeElementArrays(II) | resize element arrays
+void resizeGap() | resize gap
+void ResizeHandle(QFigure;QLocator;) | resize handle
+void resize(I) | resize
+void resizeLogos() | resize logos
+void resizeMainBrowser() | resize main browser
+void resizeMap(II) | resize map
+void resizeSecondaryBrowser() | resize secondary browser
+void resizeTable() | resize table
+void resizeTables(I) | resize tables
+void setPictureResize(String value) | set picture resize
+void setResizeIndicatorVisible(Z) | set resize indicator visible
+void setResizeWeight(QJSplitPane;D) | set resize weight
+void setResizeWithShell(Z) | set resize with shell
+void ShellMetricsResizeListener(QShell;QString;) | shell metrics resize listener
+void testPutGetAndResize() | test put get and resize
+Wall getResizedWallEndAt(FF) | get resized wall end at
+Wall getResizedWallStartAt(FF) | get resized wall start at

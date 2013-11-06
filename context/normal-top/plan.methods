@@ -1,0 +1,59 @@
+Action createLockUnlockBasePlanAction(QHome;Z) | create lock unlock base plan action
+boolean isFocalPlaneResolutionUnitAvailable() | is focal plane resolution unit available
+boolean isItemPartOfBasePlan(QSelectable;) | is item part of base plan
+boolean isLabelPartOfBasePlan(QLabel;) | is label part of base plan
+boolean isPieceOfFurniturePartOfBasePlan(QHomePieceOfFurniture;) | is piece of furniture part of base plan
+boolean removeTileImprovementPlan(QTileImprovementPlan;) | remove tile improvement plan
+FilterQueryPlan getFilterQueryPlan(QObject;QString;QQueryParameters;Z) | get filter query plan
+FilterQueryPlan getFilterQueryPlan(QString;QString;ZQMap;) | get filter query plan
+Float getPlanScale() | get plan scale
+HQLQueryPlan getHQLQueryPlan(QString;Z) | get hql query plan
+HQLQueryPlan getHQLQueryPlan(QString;ZQMap;) | get hql query plan
+int getPlanetaMessengerStatus() | get planeta messenger status
+Iterator<QTileImprovementPlan;> getTileImprovementPlanIterator() | get tile improvement plan iterator
+JComponent buildPlanePage([QGPOptionGroup;) | build plane page
+JComponent createLockUnlockBasePlanButton(QHome;) | create lock unlock base plan button
+JComponent createPlanView3DPane(QHome;QUserPreferences;QHomeController;) | create plan view 3 d pane
+JMenuItem createLockUnlockBasePlanMenuItem(QHome;Z) | create lock unlock base plan menu item
+List<QHomePieceOfFurniture;> getFurnitureNotPartOfBasePlan(QList<QHomePieceOfFurniture;>;) | get furniture not part of base plan
+List<QSelectable;> getItemsNotPartOfBasePlan(QList<+QSelectable;>;) | get items not part of base plan
+List<QWorkLocationPlan;> getSortedWorkLocationPlans() | get sorted work location plans
+List<QWorkLocationPlan;> getWorkLocationPlans() | get work location plans
+NativeSQLQueryPlan getNativeSQLQueryPlan(QNativeSQLQuerySpecification;) | get native sql query plan
+Object getBitsetProperty(BitSet bs, int tok, Point3f ptRef, Point4f planeRef, Object tokenValue, Object opValue, boolean useAtomMap) | get bitset property
+PlanController getPlanController() | get plan controller
+PlanView createPlanView(QHome;QUserPreferences;QPlanController;) | create plan view
+QueryPlanCache getQueryPlanCache() | get query plan cache
+Rectangle2D getPlanBounds() | get plan bounds
+RelOptCost computeSelfCost(RelOptPlanner planner) | compute self cost
+Result processExplainPlan() | process explain plan
+String getPlannedFileName(QString;) | get planned file name
+String getSelectedPlanName() | get selected plan name
+TileImprovementPlan createTileImprovementPlan() | create tile improvement plan
+TileImprovementPlan updateTileImprovementPlan(QTileImprovementPlan;) | update tile improvement plan
+void addPlanControllerListener() | add plan controller listener
+void addPlanControllerListener(QPlanController;) | add plan controller listener
+void constrainCenter(AtomProxy atom, HalfPlaneProxy plane) | constrain center
+void createPlanetNameNode(Planet planet) | create planet name node
+void createTileImprovementPlans() | create tile improvement plans
+void CritHitPlan(QEntity;) | crit hit plan
+void DamagePlan(QEntity;) | damage plan
+void DamagePlan(QEntity;I) | damage plan
+void FilterQueryPlanKey(QString;QString;ZQMap;) | filter query plan key
+void HQLQueryPlanKey(QString;ZQMap;) | hql query plan key
+void invalidatePlanBoundsAndRevalidate() | invalidate plan bounds and revalidate
+void lockBasePlan() | lock base plan
+void PlanRulerComponent(I) | plan ruler component
+void PlanTestFrame() | plan test frame
+void removeTileImprovementPlan(QTileImprovementPlan;) | remove tile improvement plan
+void runPlanContollerTest() | run plan contoller test
+void SetAmmoPlan(QEntity;) | set ammo plan
+void setPlaneSelect(boolean value) | set plane select
+void setPlanRulersVisible(QJScrollPane;QHomeController;Z) | set plan rulers visible
+void setTileImprovementPlan(QTileImprovementPlan;) | set tile improvement plan
+void testPlanComponentWithFurniture() | test plan component with furniture
+void testPlanComponentWithKeyboard() | test plan component with keyboard
+void testPlanComponentWithMouse() | test plan component with mouse
+void testPlanContoller() | test plan contoller
+void unlockBasePlan() | unlock base plan
+void updateTileImprovementPlan() | update tile improvement plan

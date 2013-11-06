@@ -1,0 +1,58 @@
+boolean clearingMinefield | clearing minefield
+boolean layingMines | laying mines
+int COMMAND_DEPLOY_MINEFIELDS | command deploy minefields
+int COMMAND_REMOVE_MINEFIELD | command remove minefield
+int COMMAND_REVEAL_MINEFIELD | command reveal minefield
+int COMMAND_SENDING_MINEFIELDS | command sending minefields
+int MANIPULATOR_BASIC_MINE_CLEARANCE | manipulator basic mine clearance
+int MINE_CONVENTIONAL | mine conventional
+int mineId | mine id
+int MINE_NONE | mine none
+int mineToLay | mine to lay
+int mineType | mine type
+int MINE_VIBRABOMB | mine vibrabomb
+int PHASE_DEPLOY_MINEFIELDS | phase deploy minefields
+int S_MINESWEEPER | s minesweeper
+int STEP_CLEAR_MINEFIELD | step clear minefield
+int STEP_LAY_MINE | step lay mine
+int T_MINE | t mine
+int TYPE_MINEFIELD_CLEAR | type minefield clear
+int TYPE_MINEFIELD_DELIVER | type minefield deliver
+java.awt.Button butLayMine | but lay mine
+java.awt.Button butMinefield | but minefield
+java.awt.Choice chMines | ch mines
+java.awt.Font font_minefield | font minefield
+java.awt.Image minefieldSign | minefield sign
+java.awt.Label labMinefield | lab minefield
+java.awt.List lisMinefield | lis minefield
+java.awt.MenuItem deployMinesCommand | deploy mines command
+java.awt.MenuItem deployMinesConventional | deploy mines conventional
+java.awt.MenuItem deployMinesVibrabomb | deploy mines vibrabomb
+java.awt.MenuItem moveLayMine | move lay mine
+java.awt.Panel panMinefield | pan minefield
+java.awt.Panel panMines | pan mines
+java.lang.String DEPLOY_MINE_COM | deploy mine com
+java.lang.String DEPLOY_MINE_CONV | deploy mine conv
+java.lang.String DEPLOY_MINE_VIBRA | deploy mine vibra
+java.lang.String MINE_LAUNCHER | mine launcher
+java.lang.String MOVE_LAY_MINE | move lay mine
+java.util.ArrayList<megamek.common.Mounted> vMines | v mines
+java.util.ArrayList m_vMines | m v mines
+java.util.Hashtable minefields | minefields
+java.util.Vector deployedMinefields | deployed minefields
+java.util.Vector m_vMines | m v mines
+java.util.Vector pendingLayMinefieldActions | pending lay minefield actions
+java.util.Vector visibleMinefields | visible minefields
+java.util.Vector vMines | v mines
+javax.swing.JButton butLayMine | but lay mine
+javax.swing.JButton butMinefield | but minefield
+javax.swing.JComboBox chMines | ch mines
+javax.swing.JLabel labMinefield | lab minefield
+javax.swing.JList lisMinefield | lis minefield
+javax.swing.JMenuItem deployMinesCommand | deploy mines command
+javax.swing.JMenuItem deployMinesConventional | deploy mines conventional
+javax.swing.JMenuItem deployMinesVibrabomb | deploy mines vibrabomb
+javax.swing.JMenuItem moveLayMine | move lay mine
+javax.swing.JPanel panMinefield | pan minefield
+javax.swing.JPanel panMines | pan mines
+long F_MINE | f mine

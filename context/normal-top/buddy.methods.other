@@ -1,0 +1,33 @@
+AvatarWidget createBuddyControls(QComposite;QVuzeBuddySWT;) | create buddy controls
+boolean isAddBuddyMode() | is add buddy mode
+boolean onBuddyRequestAuthorization(Qjava.lang.String;Qjava.lang.String;) | on buddy request authorization
+buddyData getBuddyData(QBuddyPluginBuddy;) | get buddy data
+BuddyPluginBuddy getBuddyFromPublicKey(QString;) | get buddy from public key
+BuddyPluginBuddy getBuddyPluginBuddyForVuze(QString;) | get buddy plugin buddy for vu ze
+BuddyPlugin getBuddyPlugin() | get buddy plugin
+File getBuddyConfigDir() | get buddy config dir
+JBuddyDetails getBuddyDetails(J) | get buddy details
+long getBuddyPosition(QVuzeBuddy;) | get buddy position
+long getBuddySyncOnShareMinTimeSecs() | get buddy sync on share min time secs
+String generateBuddyAHREF(QString;QString;QString;) | generate buddy ahref
+void doAddBuddyToShare() | do add buddy to share
+void fireOnBuddyDetails(Qjava.lang.String;) | fire on buddy details
+void fireOnBuddyRequestAuthorization(Qjava.lang.String;Qjava.lang.String;) | fire on buddy request authorization
+void handleBuddyInvites() | handle buddy invites
+void markBuddyPeer(QDownload;QPeer;) | mark buddy peer
+void onBuddyDetails(Qjava.lang.String;) | on buddy details
+void onBuddyRequestAuthorization(JQjava.lang.String;) | on buddy request authorization
+void receiveBuddyUpdate(QBuddyUpdateTocResponse;) | receive buddy update
+void resetBuddyViewer() | reset buddy viewer
+void sendBuddyMessage(QString;QMap;) | send buddy message
+void setAddBuddyMode(Z) | set add buddy mode
+void setBuddyID(QString;) | set buddy id
+void setBuddySyncOnShareMinTimeSecs(J) | set buddy sync on share min time secs
+void setBuddyUnchokes(IQArrayList;) | set buddy unchokes
+void setupBuddyPlugin() | setup buddy plugin
+void tellBuddyToSyncUp() | tell buddy to sync up
+void unmarkBuddyPeer(QPeer;) | unmark buddy peer
+void updateBuddyStatus(QBuddyPluginBuddy;) | update buddy status
+VuzeBuddy createNewBuddyNoAdd(QMap;) | create new buddy no add
+VuzeBuddy getBuddyByLoginID(QString;) | get buddy by login id
+VuzeBuddy getBuddyByPK(QString;) | get buddy by pk

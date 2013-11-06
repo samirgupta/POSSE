@@ -1,0 +1,23 @@
+CONS AbstractGoods() | abstract goods
+CONS AbstractGoods(QGoodsType;I) | abstract goods
+CONS AIGoods(QAIMain;QElement;) | ai goods
+CONS AIGoods(QAIMain;QLocation;QGoodsType;IQLocation;) | ai goods
+CONS AIGoods(QAIMain;QString;) | ai goods
+CONS AIGoods(QAIMain;QXMLStreamReader;) | ai goods
+CONS CaptureGoodsDialog(QCanvas;) | capture goods dialog
+CONS ColopediaGoodsAction(QFreeColClient;) | colo pe dia goods action
+CONS GoodsContainer(QGame;QLocation;) | goods container
+CONS GoodsContainer(QGame;QLocation;QElement;) | goods container
+CONS GoodsContainer(QGame;QLocation;QXMLStreamReader;) | goods container
+CONS GoodsLabel(QGoods;QCanvas;) | goods label
+CONS GoodsLabel(QGoods;QCanvas;Z) | goods label
+CONS Goods(QGame;QElement;) | goods
+CONS Goods(QGame;QLocation;QGoodsType;I) | goods
+CONS Goods(QGame;QXMLStreamReader;) | goods
+CONS GoodsTradeItem(QGame;QPlayer;QPlayer;QGoods;QSettlement;) | goods trade item
+CONS GoodsTradeItem(QGame;QXMLStreamReader;) | goods trade item
+CONS GoodsType(I) | goods type
+CONS GoodsWish(QAIMain;QElement;) | goods wish
+CONS GoodsWish(QAIMain;QLocation;IQGoodsType;) | goods wish
+CONS GoodsWish(QAIMain;QString;) | goods wish
+CONS GoodsWish(QAIMain;QXMLStreamReader;) | goods wish

@@ -1,0 +1,35 @@
+boolean EstablishHTTPSProxy(QProperties;) | establish https proxy
+boolean isWebPasswordHTTPSOnly() | is web password https only
+HttpClient getHTTPClient(II) | get http client
+HttpClient getHTTPClient(QString;QString;II) | get http client
+httpRequest getHTTPRequest() | get http request
+HttpServletRequest getHttpServletRequest() | get http servlet request
+InetAddress getExternalIpAddressHTTP(Z) | get external ip address http
+int getHttpApiPort() | get http api port
+int getHTTPListeningPortNumber() | get http listening port number
+int getHTTPPort() | get http port
+int getHTTPProxyPort() | get http proxy port
+JPanel buildHTTPSProxyPanel() | build https proxy panel
+Map executeHTTP(QMap;Z) | execute http
+NetworkAdminHTTPProxy getHTTPProxy() | get http proxy
+String announceHTTP([QURL;QURL;QByteArrayOutputStream;) | announce http
+String[] filterHTTP([QString;) | filter http
+String generateHTTPString() | generate http string
+String getHTTPDate(J) | get http date
+String getHTTPGetString(QMap;ZZ) | get http get string
+String getHTTPGetString(ZZ) | get http get string
+String getHTTPHost() | get http host
+String getHTTPPort() | get http port
+String getHTTPProxyHost() | get http proxy host
+String getHTTPSHost() | get https host
+String getHTTPSPort() | get https port
+String getResponseHttpStatus() | get response http status
+URL scrapeHTTP(QURL;QByteArrayOutputStream;) | scrape http
+void clearHttpProxy() | clear http proxy
+void doHTTPProperties(QProperties;) | do http properties
+void generateHTTPProperties(QProperties;) | generate http properties
+void httpFilter(QSocket;) | http filter
+void httpRequest([J[JZZ) | http request
+void setAllHTTPSStatus(Z) | set all https status
+void setAllHTTPSText() | set all https text
+void setHttpProxy(QString;I) | set http proxy

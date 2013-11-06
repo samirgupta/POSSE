@@ -1,0 +1,68 @@
+BezierFigure createFigure() | create figure
+BezierFigure getBezierFigure() | get bezier figure
+boolean figureContains(QPoint2D.Double;) | figure contains
+boolean isRelativeToFigureBounds() | is relative to figure bounds
+Collection<QFigure;> findFigures(QRectangle;) | find figures
+Collection<QFigure;> findFiguresWithin(QRectangle;) | find figures within
+Collection<QFigure;> getSelectedFigures() | get selected figures
+Collection<QFigure;> ungroupFigures(QDrawingView;QCompositeFigure;) | ungroup figures
+ConnectionFigure createFigure() | create figure
+Date figureDate(QString;QString;Z) | figure date
+Date figureDate(QString;QString;ZZ) | figure date
+Figure createFigure() | create figure
+Figure findConnectableFigure(QPoint2D.Double;QDrawing;) | find connectable figure
+Figure findFigureExcept(QPoint2D.Double;QCollection;) | find figure except
+Figure findFigureExcept(QPoint2D.Double;QCollection<QFigure;>;) | find figure except
+Figure findFigureExcept(QPoint2D.Double;QFigure;) | find figure except
+Figure findFigureInside(QPoint2D.Double;) | find figure inside
+Figure findFigure(QPoint;) | find figure
+Figure findFigure(QPoint2D.Double;) | find figure
+Figure getAddedFigure() | get added figure
+Figure getCreatedFigure() | get created figure
+Figure getEndFigure() | get end figure
+Figure getFigure() | get figure
+Figure getPresentationFigure() | get presentation figure
+Figure getStartFigure() | get start figure
+Figure getTargetFigure() | get target figure
+Image getLabelIconHelper(IFigure figure) | get label icon helper
+int getFigureCount() | get figure count
+java.util.List<QFigure;> findFigures(QRectangle2D.Double;) | find figures
+java.util.List<QFigure;> findFiguresWithin(QRectangle2D.Double;) | find figures within
+java.util.List<QFigure;> getFigures() | get figures
+java.util.List<QFigure;> getFiguresFrontToBack() | get figures front to back
+java.util.List<QFigure;> getFigures(QRectangle2D.Double;) | get figures
+java.util.List<QFigure;> readFigures(QTransferable;) | read figures
+LinkedList<QFigure;> readFigures(QInputStream;) | read figures
+LinkedList<QFigure;> readFigures(QTransferable;) | read figures
+List<QFigure;> findFigures(QRectangle2D.Double;) | find figures
+List<QFigure;> findFiguresWithin(QRectangle2D.Double;) | find figures within
+List<QFigure;> getFigures() | get figures
+List<QFigure;> getFiguresFrontToBack() | get figures front to back
+List<QFigure;> readFigures(QTransferable;) | read figures
+Object figureAuction(QJTable;I) | figure auction
+Rectangle2D.Double getFigureDrawBounds() | get figure draw bounds
+Rectangle2D.Double getFigureDrawingArea() | get figure drawing area
+Rectangle2D getDecoratedBounds(Diagram diagram, Figure figure, Rectangle2D rcBounds) | get decorated bounds
+TextFigure getDurationFigure() | get duration figure
+TextFigure getNameFigure() | get name figure
+TextFigure getStartTimeFigure() | get start time figure
+void addFigureListener(QFigureListener;) | add figure listener
+void addFigureSelectionListener(QFigureSelectionListener;) | add figure selection listener
+void addPointToFigure(QPoint2D.Double;) | add point to figure
+void alignFigures(QCollection;QRectangle2D.Double;) | align figures
+void basicSetPresentationFigureBounds(QPoint2D.Double;QPoint2D.Double;) | basic set presentation figure bounds
+void drawFigure(QGraphics2D;) | draw figure
+void drawPresentationFigure(QGraphics2D;) | draw presentation figure
+void figureRequestRemove(QFigureEvent;) | figure request remove
+void fireFigureRequestRemove() | fire figure request remove
+void groupFigures(QDrawingView;QCompositeFigure;QCollection<QFigure;>;) | group figures
+void makeRelativeToFigureBounds(QFigure;) | make relative to figure bounds
+void PresentationFigureHandler(QGraphicalCompositeFigure;) | presentation figure handler
+void removeFigureListener(QFigureListener;) | remove figure listener
+void removeFigureSelectionListener(QFigureSelectionListener;) | remove figure selection listener
+void setCreatedFigure(QFigure;) | set created figure
+void setFigureActions(QCollection<QAction;>;) | set figure actions
+void setFigureBCNameFigure(Label fig) | set figure bc name figure
+void setPresentationFigure(QFigure;) | set presentation figure
+void setRelativeToFigureBounds(Z) | set relative to figure bounds
+void setTargetFigure(QFigure;) | set target figure

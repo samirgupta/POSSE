@@ -1,0 +1,27 @@
+boolean notifyParameterListenersIfChanged(QString;[B[B) | notify parameter listeners if changed
+boolean notifyParameterListenersIfChanged(QString;QLong;QLong;) | notify parameter listeners if changed
+void notifyAdded(QDHTRouterContact;) | notify added
+void notifyAdded(QPeerItem;) | notify added
+void notifyDataSetLoaded(QDataSetEvent;) | notify data set loaded
+void notifyDebuggerStarted() | notify debugger started
+void notifyDropped(QPeerItem;) | notify dropped
+void notifyFileRemoved() | notify file removed
+void notifyInstanceLoaded(QInstanceEvent;) | notify instance loaded
+void notifyInstanceProduced(QInstanceEvent;) | notify instance produced
+void _notifyInteractionEnded() | notify interaction ended
+void _notifyInteractionStarted() | notify interaction started
+void _notifyInterpreterChanged(Z) | notify interpreter changed
+void _notifyInterpreterExited(I) | notify interpreter exited
+void _notifyInterpreterResetFailed(QThrowable;) | notify interpreter reset failed
+void _notifyJUnitEnded() | notify j unit ended
+void _notifyJUnitStarted() | notify j unit started
+void notifyLocationChanged(QDHTRouterContact;) | notify location changed
+void notifyReceived(Qymsg.network.event.SessionNotifyEvent;) | notify received
+void _notifyRegionRemoved(QR;) | notify region removed
+void notifyRemoved(QDHTRouterContact;) | notify removed
+void notifyStepRequested() | notify step requested
+void notifyStopped() | notify stopped
+void _notifySyntaxErrorOccurred(II) | notify syntax error occurred
+void notifyTestSetProduced(QTestSetEvent;) | notify test set produced
+void notifyTrainingSetProduced(QTrainingSetEvent;) | notify training set produced
+void _notifyUndoHappened() | notify undo happened

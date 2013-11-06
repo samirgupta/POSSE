@@ -1,0 +1,42 @@
+CONS AbstractRed() | abstract red
+CONS AbstractRed(QCachableRed;QMap;) | abstract red
+CONS AbstractRed(QCachableRed;QRectangle;QColorModel;QSampleModel;IIQMap;) | abstract red
+CONS AbstractRed(QCachableRed;QRectangle;QColorModel;QSampleModel;QMap;) | abstract red
+CONS AbstractRed(QCachableRed;QRectangle;QMap;) | abstract red
+CONS AbstractRed(QList;QRectangle;QColorModel;QSampleModel;IIQMap;) | abstract red
+CONS AbstractRed(QList;QRectangle;QColorModel;QSampleModel;QMap;) | abstract red
+CONS AbstractRed(QList;QRectangle;QMap;) | abstract red
+CONS AbstractRed(QRectangle;QMap;) | abstract red
+CONS AbstractTiledRed() | abstract tiled red
+CONS AbstractTiledRed(QCachableRed;QMap;) | abstract tiled red
+CONS AbstractTiledRed(QCachableRed;QRectangle;QColorModel;QSampleModel;IIQMap;) | abstract tiled red
+CONS AbstractTiledRed(QCachableRed;QRectangle;QColorModel;QSampleModel;QMap;) | abstract tiled red
+CONS AbstractTiledRed(QCachableRed;QRectangle;QMap;) | abstract tiled red
+CONS AbstractTiledRed(QList;QRectangle;QColorModel;QSampleModel;IIQMap;) | abstract tiled red
+CONS AbstractTiledRed(QList;QRectangle;QColorModel;QSampleModel;QMap;) | abstract tiled red
+CONS AbstractTiledRed(QList;QRectangle;QMap;) | abstract tiled red
+CONS AbstractTiledRed(QRectangle;QMap;) | abstract tiled red
+CONS AffineRed(QCachableRed;QAffineTransform;QRenderingHints;) | affine red
+CONS Any2LsRGBRed(QCachableRed;) | any 2 ls rgb red
+CONS Any2sRGBRed(QCachableRed;) | any 2 s rgb red
+CONS BufferedImageCachableRed(QBufferedImage;) | buffered image cachable red
+CONS BufferedImageCachableRed(QBufferedImage;II) | buffered image cachable red
+CONS FormatRed(QCachableRed;QColorModel;) | format red
+CONS FormatRed(QCachableRed;QSampleModel;) | format red
+CONS MultiplyAlphaRed(QCachableRed;QCachableRed;) | multiply alpha red
+CONS PadRed(QCachableRed;QRectangle;QPadMode;QRenderingHints;) | pad red
+CONS RenderedImageCachableRed(QRenderedImage;) | rendered image cachable red
+CONS TranslateRed(QCachableRed;II) | translate red
+double getMultRed() | get mult red
+int getAddRed() | get add red
+int getDefaultRed() | get default red
+int getRed() | get red
+int red(I) | red
+ReducedModelControl getReduced() | get reduced
+void fireUndoOrRedoHappened() | fire undo or redo happened
+void jMenuItemRedoActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item redo action performed
+void setAddRed(I) | set add red
+void setMultRed(D) | set mult red
+void setRed(I) | set red
+void setRedoEnebled(Z) | set redo enebled
+void undoOrRedoHappened() | undo or redo happened

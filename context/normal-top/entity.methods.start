@@ -1,0 +1,18 @@
+boolean entityIsQuad() | entity is quad
+int entityValue(QString;) | entity value
+Serializable entityIsPersistent(QSaveOrUpdateEvent;) | entity is persistent
+Serializable entityIsTransient(QSaveOrUpdateEvent;) | entity is transient
+String entityName(I) | entity name
+void entityAllUpdate() | entity all update
+void EntityClassTurn(II) | entity class turn
+void EntityImage(QImage;IQImage;QComponent;) | entity image
+void EntityImage(QImage;IQImage;QJComponent;) | entity image
+void EntityImage(QImage;QImage;IQImage;QComponent;) | entity image
+void EntityImage(QImage;QImage;IQImage;QJComponent;) | entity image
+void entityIsPersistent(QMergeEvent;QMap;) | entity is persistent
+void entityIsPersistent(QPersistEvent;QMap;) | entity is persistent
+void entityIsTransient(QMergeEvent;QMap;) | entity is transient
+void entityIsTransient(QPersistEvent;QMap;) | entity is transient
+void EntitySprite(QEntity;) | entity sprite
+void entityUpdate(I) | entity update
+void entityUpdate(IQVector;) | entity update

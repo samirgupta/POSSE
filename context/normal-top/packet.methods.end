@@ -1,0 +1,50 @@
+ADPCMPacket readPacket(I) | read packet
+INetworkPacket readNetworkPacket() | read network packet
+Packet createAddEntityPacket(I) | create add entity packet
+Packet createAllReportsPacket(QPlayer;) | create all reports packet
+Packet createArtilleryPacket(QPlayer;) | create artillery packet
+Packet createAttackPacket(QEntityAction;I) | create attack packet
+Packet createAttackPacket(QVector;I) | create attack packet
+Packet createBoardPacket() | create board packet
+Packet createCollapseBuildingPacket(QBuilding;) | create collapse building packet
+Packet createCollapseBuildingPacket(QVector;) | create collapse building packet
+Packet createEndOfGamePacket() | create end of game packet
+Packet createEntitiesPacket() | create entities packet
+Packet createEntityPacket(I) | create entity packet
+Packet createEntityPacket(IQVector;) | create entity packet
+Packet createFilteredEntitiesPacket(QPlayer;) | create filtered entities packet
+Packet createFilteredFullEntitiesPacket(QPlayer;) | create filtered full entities packet
+Packet createFlarePacket() | create flare packet
+Packet createFullEntitiesPacket() | create full entities packet
+Packet createGameSettingsPacket() | create game settings packet
+Packet createHexChangePacket(QCoords;QIHex;) | create hex change packet
+Packet createMapQueryPacket(QMapSettings;) | create map query packet
+Packet createMapSettingsPacket() | create map settings packet
+Packet createPlayerConnectPacket(I) | create player connect packet
+Packet createPlayerDonePacket(I) | create player done packet
+Packet createPlayerUpdatePacket(I) | create player update packet
+Packet createRemoveEntityPacket(I) | create remove entity packet
+Packet createRemoveEntityPacket(II) | create remove entity packet
+Packet createReportPacket(QPlayer;) | create report packet
+Packet createSpecialReportPacket() | create special report packet
+Packet createTacticalGeniusReportPacket() | create tactical genius report packet
+Packet createTurnIndexPacket() | create turn index packet
+Packet createTurnVectorPacket() | create turn vector packet
+Packet createUpdateBuildingCFPacket(QVector;) | create update building cf packet
+Packet getPacket() | get packet
+PRUDPPacket getPreviousPacket() | get previous packet
+SendPacket getPacket() | get packet
+String bibtexXPacket(QString;) | bibtex x packet
+UDPPacket getRetransmitPacket() | get retransmit packet
+void addPacket(QSendPacket;) | add packet
+void handlePacket(QPacket;) | handle packet
+void NetworkPacket(ZI[B) | network packet
+void processPacket(QINetworkPacket;) | process packet
+void processPacket(QSendPacket;) | process packet
+void receivePacket(QNetworkInterface;QInetAddress;QDatagramPacket;) | receive packet
+void sendNetworkPacket([BZ) | send network packet
+void sendPacket(PeeringPacket packet) | send packet
+void SendPacket(QPacket;) | send packet
+void sendPacket(QTCM;) | send packet
+void setPreviousPacket(QPRUDPPacket;) | set previous packet
+void writePacket(QADPCMPacket;QOutStream;Z) | write packet

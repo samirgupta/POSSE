@@ -1,0 +1,18 @@
+ASN1Set getBagAttributes() | get bag attributes
+DEREncodable getBagAttribute(QDERObjectIdentifier;) | get bag attribute
+DERObject getBagValue() | get bag value
+DERObjectIdentifier getBagId() | get bag id
+double measureOutOfBagError() | measure out of bag error
+double minBagDistance(QInstance;QInstance;) | min bag distance
+Enumeration getBagAttributeKeys() | get bag attribute keys
+int getBagSizePercent() | get bag size percent
+List<QString;> getBagList(QString;) | get bag list
+String calcOutOfBagTipText() | calc out of bag tip text
+void addBagValue(QString;QString;) | add bag value
+void countBagCiters(QInstance;) | count bag cite rs
+void countBagReferences(QInstance;) | count bag references
+void outABagCollectionTypeIdentifierCs(ABagCollectionTypeIdentifierCs node) | out a bag collection type identifier cs
+void removeBagValue(QString;QString;) | remove bag value
+void setBagAttribute(QDERObjectIdentifier;QDEREncodable;) | set bag attribute
+void setBagSizePercent(I) | set bag size percent
+void testSetGetBagListString() | test set get bag list string

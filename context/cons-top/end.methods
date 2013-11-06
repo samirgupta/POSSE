@@ -1,0 +1,16 @@
+CONS ChangeArrowLinkEndPoints(QModeController;) | change arrow link end points
+CONS ChangeConnectionEndHandle(QFigure;) | change connection end handle
+CONS ConnectionEndpoint(QInetSocketAddress;) | connection endpoint
+CONS END() | end
+CONS EndGameModeChunk(QPEPiece;I) | end game mode chunk
+CONS EndTurnAction(QFreeColClient;) | end turn action
+CONS ExpandEndnoteFilters(QJabRefFrame;) | expand endnote filters
+CONS GameEndEvent(QObject;) | game end event
+CONS GenericMessageEndpointImpl(QConnectionEndpoint;) | generic message endpoint impl
+CONS GenericMessageEndpointImpl(QInetSocketAddress;) | generic message endpoint impl
+CONS ProtocolEndpointTCP(QConnectionEndpoint;QInetSocketAddress;) | protocol endpoint tcp
+CONS ProtocolEndpointTCP(QInetSocketAddress;) | protocol endpoint tcp
+CONS ProtocolEndpointUDP(QConnectionEndpoint;QInetSocketAddress;) | protocol endpoint udp
+CONS ProtocolEndpointUDP(QInetSocketAddress;) | protocol endpoint udp
+CONS TransportEndpointTCP(QProtocolEndpoint;QSocketChannel;) | transport endpoint tcp
+CONS TransportEndpointUDP(QProtocolEndpoint;) | transport endpoint udp

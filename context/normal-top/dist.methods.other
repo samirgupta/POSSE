@@ -1,0 +1,20 @@
+double defaultDistMult() | default dist mult
+double getDistMult() | get dist mult
+double getDistUtility() | get dist utility
+int getDistLandHighSea() | get dist land high sea
+int getDistToEnclosingBraceStart() | get dist to enclosing brace start
+int getDistToEnclosingBraceStart(I) | get dist to enclosing brace start
+int getDistToIdentNewline() | get dist to ident newline
+int getDistToNextNewline() | get dist to next newline
+int getDistToStart() | get dist to start
+int getDistToStart(I) | get dist to start
+int _getDistToStart(QTokenList.Iterator;) | get dist to start
+int getMaxDistToEdge() | get max dist to edge
+int getPrefDistToEdge() | get pref dist to edge
+void createPieceDistPanel() | create piece dist panel
+void setDistMult(D) | set dist mult
+void setDistToEnclosingBrace(I) | set dist to enclosing brace
+void setDistToEnclosingBraceStart(I) | set dist to enclosing brace start
+void setDistToLineEnclosingBrace(I) | set dist to line enclosing brace
+void setDistToLineEnclosingBraceStart(I) | set dist to line enclosing brace start
+void setDistToStart(I) | set dist to start

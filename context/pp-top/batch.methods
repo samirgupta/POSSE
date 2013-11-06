@@ -1,0 +1,8 @@
+boolean batchFinished() | batch finished
+boolean canBeBatched() | can be batched
+String getBatchVersionedDataEnabled() | get batch versioned data enabled
+void batchFinished() | batch finished
+void checkBatched(II) | check batched
+void checkNonBatched(I) | check non batched
+void scheduleBatchLoadIfNeeded(QSerializable;QSessionImplementor;) | schedule batch load if needed
+void setBatchVersionedDataEnabled(QString;) | set batch versioned data enabled

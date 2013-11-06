@@ -1,0 +1,133 @@
+BattleArmor getEntity() | get entity
+boolean affectedEntity(QSet;[QSerializable;) | affected entity
+boolean canExtractIdOutOfEntity() | can extract id out of entity
+boolean checkEntity(QEntity;QString;Z) | check entity
+boolean checkEntity(QEntity;QString;ZZ) | check entity
+boolean containsEntity(QEntityKey;) | contains entity
+boolean correctEntity(QStringBuffer;) | correct entity
+boolean correctEntity(QStringBuffer;Z) | correct entity
+boolean hasEntity(I) | has entity
+boolean isEntity() | is entity
+boolean isExternalEntity(QString;) | is external entity
+boolean isReturnableEntity() | is returnable entity
+boolean isReturnableEntity(QSelectExpression;) | is returnable entity
+boolean isUnparsedEntity(QString;) | is unparsed entity
+boolean isValidEntity(QEntity;QIGame;) | is valid entity
+boolean readEntity() | read entity
+boolean showOverweightedEntity() | show over weighted entity
+boolean showUnderweightedEntity() | show underweighted entity
+CEntity getCEntity() | get c entity
+Element addEntity(QString;QString;) | add entity
+EntityEntry addEntity(QObject;QStatus;[QObject;QEntityKey;QObject;QLockMode;ZQEntityPersister;ZZ) | add entity
+Entity getCurrentEntity() | get current entity
+Entity getEntity() | get entity
+Entity getEntity(I) | get entity
+Entity getEntity(QIGame;) | get entity
+Entity getFirstEnemyEntity(QCoords;QEntity;) | get first enemy entity
+Entity getFirstEntity() | get first entity
+Entity getFirstEntity(QCoords;) | get first entity
+Entity getFirstEntity(QGameTurn;) | get first entity
+Entity getNextEntity(I) | get next entity
+Entity getNextEntity(Z) | get next entity
+Entity getOutOfGameEntity(I) | get out of game entity
+Entity loadEntity(QFile;QString;) | load entity
+Entity readEntity() | read entity
+InputSource resolveEntity(QString;QString;) | resolve entity
+InputStream resolveDTDEntity(QString;QString;QString;) | resolve dtd entity
+InputStream resolveExternalEntity(QString;QString;QString;) | resolve external entity
+List loadEntity(QSessionImplementor;QObject;QObject;QType;QType;QEntityPersister;) | load entity
+List loadEntity(QSessionImplementor;QObject;QType;QObject;QString;QSerializable;QEntityPersister;) | load entity
+Object getEntity() | get entity
+Object getEntity(QEntityKey;) | get entity
+Object getEntity(QEntityUniqueKey;) | get entity
+Object getEntity(QString;QSerializable;) | get entity
+Object processEntity(QObject;QEntityType;) | process entity
+Object removeEntity(QEntityKey;) | remove entity
+org.xml.sax.InputSource resolveEntity(QString;QString;) | resolve entity
+PostLoadEvent setEntity(QObject;) | set entity
+PreLoadEvent setEntity(QObject;) | set entity
+Query setEntity(IQObject;) | set entity
+Query setEntity(QString;QObject;) | set entity
+RateControlledEntity getNextReadyHighPriorityEntity() | get next ready high priority entity
+RateControlledEntity getNextReadyNormalPriorityEntity() | get next ready normal priority entity
+Reader getEntity(QIXMLReader;QString;) | get entity
+Reader openExternalEntity(QIXMLReader;QString;QString;) | open external entity
+SQLQuery addEntity(QClass;) | add entity
+SQLQuery addEntity(QString;) | add entity
+SQLQuery addEntity(QString;QClass;) | add entity
+SQLQuery addEntity(QString;QClass;QLockMode;) | add entity
+SQLQuery addEntity(QString;QString;) | add entity
+SQLQuery addEntity(QString;QString;QLockMode;) | add entity
+StringBuffer printEntity() | print entity
+Vector abandonEntity(QEntity;) | abandon entity
+Vector criticalEntity(QEntity;I) | critical entity
+Vector criticalEntity(QEntity;II) | critical entity
+Vector criticalEntity(QEntity;IIZ) | critical entity
+Vector damageEntity(QEntity;QHitData;I) | damage entity
+Vector damageEntity(QEntity;QHitData;IZ) | damage entity
+Vector damageEntity(QEntity;QHitData;IZI) | damage entity
+Vector damageEntity(QEntity;QHitData;IZIZ) | damage entity
+Vector damageEntity(QEntity;QHitData;IZIZZ) | damage entity
+Vector damageEntity(QEntity;QHitData;IZIZZZ) | damage entity
+Vector destroyEntity(QEntity;QString;) | destroy entity
+Vector destroyEntity(QEntity;QString;Z) | destroy entity
+Vector destroyEntity(QEntity;QString;ZZ) | destroy entity
+Vector ejectEntity(QEntity;Z) | eject entity
+Vector oneCriticalEntity(QEntity;I) | one critical entity
+void addEntity(IQEntity;) | add entity
+void addEntity(QEntityKey;QObject;) | add entity
+void addEntity(QEntityUniqueKey;QObject;) | add entity
+void addEntity(QString;I) | add entity
+void addExternalEntity(QString;QString;QString;) | add external entity
+void addInternalEntity(QString;QString;) | add internal entity
+void addReadEntity(QRateControlledEntity;) | add read entity
+void addUninitializedCachedEntity(QEntityKey;QObject;QEntityPersister;QLockMode;ZQObject;QSessionImplementor;) | add uninitialized cached entity
+void addUninitializedEntity(QEntityKey;QObject;QEntityPersister;QLockMode;ZQSessionImplementor;) | add uninitialized entity
+void addWriteEntity(QRateControlledEntity;) | add write entity
+void boardChangedEntity(QBoardViewEvent;) | board changed entity
+void CheckBoxEntity(QXMLElement;) | check box entity
+void ChoiceEntity(QXMLElement;) | choice entity
+void createForeignKeyOfEntity(QString;) | create foreign key of entity
+void deleteEntity(QEventSource;QObject;QEntityEntry;ZQEntityPersister;QSet;) | delete entity
+void deleteEntity(QString;) | delete entity
+void deleteTransientEntity(QEventSource;QObject;ZQEntityPersister;QSet;) | delete transient entity
+void dereferenceEntity(QEntityType;ZQString;ZQAST;) | dereference entity
+void dereferenceEntity(QString;QEntityType;QQueryTranslatorImpl;) | dereference entity
+void displayEntity(QEntity;) | display entity
+void errorInvalidEntity(QString;IQString;) | error invalid entity
+void errorUnexpectedEntity(QString;IQString;) | error unexpected entity
+void evictEntity(QString;) | evict entity
+void evictEntity(QString;QSerializable;) | evict entity
+void fetchEntity(QString;) | fetch entity
+void FormularEntity(QString;QString;QString;QString;) | formular entity
+void FormularEntity(QXMLElement;) | formular entity
+void handleEntity(QString;QString;QMappings;) | handle entity
+void initializeEntity(QFromClause;QString;QEntityPersister;QEntityType;QString;QString;) | initialize entity
+void initializeEntity(QObject;ZQSessionImplementor;QPreLoadEvent;QPostLoadEvent;) | initialize entity
+void insertEntity(QString;) | insert entity
+void loadEntity(QString;) | load entity
+void moveEntity(IQMovePath;) | move entity
+void onFlushEntity(QFlushEntityEvent;) | on flush entity
+void processEntity(QIXMLReader;QIXMLEntityResolver;) | process entity
+void processEntity(QString;QIXMLReader;QIXMLEntityResolver;) | process entity
+void redrawEntity(QEntity;) | redraw entity
+void redrawMovingEntity(QEntity;QCoords;I) | redraw moving entity
+void removeEntity(II) | remove entity
+void removeReadEntity(QRateControlledEntity;) | remove read entity
+void removeWriteEntity(QRateControlledEntity;) | remove write entity
+void resolveEntity(QStringBuffer;) | resolve entity
+void selectEntity(I) | select entity
+void sendAddEntity(QEntity;) | send add entity
+void sendDeleteEntity(I) | send delete entity
+void sendUpdateEntity(QEntity;) | send update entity
+void setEntity(Entity e) | set entity
+void setEntity(IQEntity;) | set entity
+void setEntity(IQEntity;QVector;) | set entity
+void setEntity(QEntity;) | set entity
+void setEntity(QObject;) | set entity
+void setFromEntity(QEntity;QIGame;) | set from entity
+void setParentEntity(DbEntity parentEntity) | set parent entity
+void skippedEntity(QString;) | skipped entity
+void StringEntity(QXMLElement;) | string entity
+void updateEntity(QString;) | update entity
+XMLParseException unknownEntity(QString;) | unknown entity

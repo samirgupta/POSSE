@@ -1,0 +1,42 @@
+CONS BoolAtom(Z) | bool atom
+CONS BooleanAssign(Z) | boolean assign
+CONS BooleanBitMatrix(II) | boolean bit matrix
+CONS BooleanBitMatrix(QBooleanBitMatrix;) | boolean bit matrix
+CONS BooleanColumn() | boolean column
+CONS BooleanColumn(I) | boolean column
+CONS BooleanColumn(IIZ) | boolean column
+CONS BooleanFunction(I) | boolean function
+CONS BooleanIntBitSetMap() | boolean int bit set map
+CONS BooleanLiteral(Z) | boolean literal
+CONS BooleanOption() | boolean option
+CONS BooleanOptionAction(QBooleanOption;) | boolean option action
+CONS BooleanOptionComponent(QBooleanOption;QString;QSwingFrame;) | boolean option component
+CONS BooleanOptionComponent(QBooleanOption;QString;QSwingFrame;QString;) | boolean option component
+CONS BooleanOptionComponent(QBooleanOption;QString;QSwingFrame;QString;Z) | boolean option component
+CONS BooleanOptionComponent(QBooleanOption;QString;QSwingFrame;Z) | boolean option component
+CONS BooleanOptionComponentTest(QString;) | boolean option component test
+CONS BooleanOption(QBooleanOption;) | boolean option
+CONS BooleanOption(QString;QBoolean;) | boolean option
+CONS BooleanOption(QXMLStreamReader;) | boolean option
+CONS BooleanOptionTest(QString;) | boolean option test
+CONS BooleanOptionUI(QBooleanOption;Z) | boolean option ui
+CONS BooleanOption(Z) | boolean option
+CONS BooleanOption(ZC) | boolean option
+CONS BooleanOption(ZQString;) | boolean option
+CONS BooleanOption(ZQString;C) | boolean option
+CONS BooleanParameterImpl(QPluginConfigImpl;QString;QString;Z) | boolean parameter impl
+CONS BooleanParameter(QComposite;QString;) | boolean parameter
+CONS BooleanParameter(QComposite;QString;QString;) | boolean parameter
+CONS BooleanParameter(QComposite;QString;Z) | boolean parameter
+CONS BooleanParameter(QComposite;QString;ZQString;) | boolean parameter
+CONS BooleanParameter(QComposite;QString;ZQString;QIAdditionalActionPerformer;) | boolean parameter
+CONS DefaultBooleanOption(QString;) | default boolean option
+CONS DERBoolean([B) | der boolean
+CONS DERBoolean(Z) | der boolean
+CONS GenericBooleanParameter(QGenericParameterAdapter;QComposite;QString;) | generic boolean parameter
+CONS GenericBooleanParameter(QGenericParameterAdapter;QComposite;QString;QString;) | generic boolean parameter
+CONS GenericBooleanParameter(QGenericParameterAdapter;QComposite;QString;Z) | generic boolean parameter
+CONS GenericBooleanParameter(QGenericParameterAdapter;QComposite;QString;ZQString;) | generic boolean parameter
+CONS GenericBooleanParameter(QGenericParameterAdapter;QComposite;QString;ZQString;QIAdditionalActionPerformer;) | generic boolean parameter
+CONS NativeBoolean(Z) | native boolean
+CONS PluginBooleanParameter(QComposite;QBooleanParameterImpl;) | plugin boolean parameter

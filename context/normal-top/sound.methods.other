@@ -1,0 +1,20 @@
+boolean getSoundMute() | get sound mute
+byte[] getSoundData() | get sound data
+Sound getSoundDefinition() | get sound definition
+Sound getSoundDefinition(QInputStream;) | get sound definition
+Sound getSoundDefinition(QInputStream;I) | get sound definition
+SoundStreamHead getSoundHeader() | get sound header
+String getSoundBingFilename() | get sound bing filename
+void loadSoundClip() | load sound clip
+void parseSoundStreamBlock(QInStream;) | parse sound stream block
+void parseSoundStreamHead(ZQInStream;) | parse sound stream head
+void printSoundStreamHead(QString;IZZIIZZI) | print sound stream head
+void setSoundBingFilename(QString;) | set sound bing filename
+void setSoundData([B) | set sound data
+void setSoundHeader(QSoundStreamHead;) | set sound header
+void setSoundMute(Z) | set sound mute
+void setSoundPlayer(QSoundPlayer;) | set sound player
+void tagSoundStreamBlock([B) | tag sound stream block
+void tagSoundStreamHead2(IZZIIZZI) | tag sound stream head 2
+void tagSoundStreamHead(IZZIIZZI) | tag sound stream head
+void writeSoundStreamHead(IIZZIIZZI) | write sound stream head

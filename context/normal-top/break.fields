@@ -1,0 +1,32 @@
+boolean[] breakableLines | breakable lines
+boolean breakFlag | break flag
+boolean breakLines | break lines
+boolean breakNextLine | break next line
+boolean breakOnEnter | break on enter
+boolean breakOnExceptions | break on exceptions
+boolean breakOnReturn | break on return
+boolean[] breakpoints | breakpoints
+edu.rice.cs.drjava.config.BooleanOption WARN_BREAKPOINT_OUT_OF_SYNC | warn breakpoint out of sync
+edu.rice.cs.drjava.config.ColorOption DEBUG_BREAKPOINT_COLOR | debug breakpoint color
+edu.rice.cs.drjava.config.ColorOption DEBUG_BREAKPOINT_DISABLED_COLOR | debug breakpoint disabled color
+edu.rice.cs.drjava.config.KeyStrokeOption KEY_DEBUG_BREAKPOINT_PANEL | key debug breakpoint panel
+edu.rice.cs.drjava.config.KeyStrokeOption KEY_DEBUG_BREAKPOINT_TOGGLE | key debug breakpoint toggle
+edu.rice.cs.drjava.config.KeyStrokeOption KEY_DEBUG_CLEAR_ALL_BREAKPOINTS | key debug clear all breakpoints
+edu.rice.cs.drjava.model.ConcreteRegionManager<edu.rice.cs.drjava.model.debug.Breakpoint> _breakpointManager | breakpoint manager
+edu.rice.cs.drjava.project.ProjectFileParser.BreakpointListVisitor breakpointListVisitor | breakpoint list visitor
+edu.rice.cs.drjava.ui.BreakpointsPanel _breakpointsPanel | breakpoints panel
+edu.rice.cs.drjava.ui.ReverseHighlighter.DrJavaHighlightPainter BREAKPOINT_PAINTER | breakpoint painter
+edu.rice.cs.drjava.ui.ReverseHighlighter.DrJavaHighlightPainter DISABLED_BREAKPOINT_PAINTER | disabled breakpoint painter
+int BREAK | break
+int BREAKPOINT | breakpoint
+int breakpointReachedCount | breakpoint reached count
+int BREAK_SYNTAX | break syntax
+int CHANGINGCOUNT_BREAKER | changing count breaker
+int DONT_BREAK_LINES | dont break lines
+java.awt.event.ActionListener INSERT_BREAK | insert break
+java.util.List<edu.rice.cs.drjava.model.debug.DebugBreakpointData> _breakpoints | breakpoints
+javax.swing.JCheckBoxMenuItem breakOnEnter | break on enter
+javax.swing.JCheckBoxMenuItem breakOnExceptions | break on exceptions
+javax.swing.JCheckBoxMenuItem breakOnReturn | break on return
+long BREAKOFF_ADDROWSTOSWT | break off addrows to swt
+long BREAKOFF_ADDTOMAP | break off add tomap

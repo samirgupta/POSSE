@@ -1,0 +1,47 @@
+boolean isClassOrSuperclassJoin(QJoin;) | is class or superclass join
+boolean isCollectionJoin() | is collection join
+boolean isJoin(QString;) | is join
+boolean setForJoin(QTableFilter;Z) | set for join
+FromElement createCollectionElementsJoin(QQueryableCollection;QString;) | create collection elements join
+FromElement createCollectionJoin(QJoinSequence;QString;) | create collection join
+FromElement createElementJoin(QQueryableCollection;) | create element join
+FromElement createEntityJoin(QString;QString;QJoinSequence;ZZQEntityType;) | create entity join
+FromElement createJoin(QString;QString;QJoinSequence;QEntityType;Z) | create join
+FromElement findCollectionJoin(QString;) | find collection join
+FromElement getImpliedJoin() | get implied join
+FromElement initializeJoin(QString;QFromElement;QJoinSequence;[QString;QFromElement;Z) | initialize join
+JoinFragment createJoin([IQString;) | create join
+JoinFragment createJoin(QString;ZZ) | create join
+JoinSequence addJoin(QAssociationType;QString;I[QString;) | add join
+JoinSequence getPathJoin(QString;) | get path join
+JoinSequence getWhereJoin() | get where join
+NativeSQLQueryJoinReturn bindReturnJoin(QElement;QMappings;) | bind return join
+OuterJoin sOuterJoin() | s outer join
+SQLQuery addJoin(QString;QString;) | add join
+SQLQuery addJoin(QString;QString;QLockMode;) | add join
+String js_join(QContext;QScriptable;[QObject;) | js join
+void addCrossJoin(QString;QString;) | add cross join
+void addJoin(QJoin;) | add join
+void addJoin(QJoinSequence;QQueryTranslatorImpl;) | add join
+void addJoin(QString;QAssociationType;) | add join
+void addJoin(QString;QAssociationType;[QString;) | add join
+void addJoin(QString;QJoinSequence;) | add join
+void addJoin(QString;QString;[QString;[QString;I) | add join
+void addJoin(QString;QString;[QString;[QString;IQString;) | add join
+void addJoin(QString;QString;QString;[QString;[QString;IQString;) | add join
+void addManyToManyJoin(QJoinFragment;QQueryableCollection;) | add many to many join
+void addPathAliasAndJoin(QString;QString;QJoinSequence;) | add path alias and join
+void addSubclassJoin(QJoin;) | add subclass join
+void addToCurrentJoin(QPathExpressionParser.CollectionElement;) | add to current join
+void addToCurrentJoin(QString;) | add to current join
+void bindJoin(QElement;QJoin;QMappings;Qjava.util.Map;) | bind join
+void dereferenceEntityJoin(QString;QEntityType;ZQAST;) | dereference entity join
+void ignoreInitialJoin() | ignore initial join
+void promoteJoin(QFromElement;) | promote join
+void setCollectionJoin(Z) | set collection join
+void setImpliedJoin(QFromElement;) | set implied join
+void setUseThetaStyleJoin(Z) | set use theta style join
+void testJoin() | test join
+void testSameTableWithJoin() | test same table with join
+void testSimpleJoin() | test simple join
+void validateJoin(QString;) | validate join

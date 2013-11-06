@@ -1,0 +1,22 @@
+ByteBuffer getBufferInternal() | get buffer internal
+DirectByteBuffer getBufferHelper(BI) | get buffer helper
+DirectByteBuffer getBufferSupport(BI) | get buffer support
+int getBufferLength() | get buffer length
+int getBufferPosition() | get buffer position
+int getBufferSize() | get buffer size
+int getInitialBufferBytes(J) | get initial buffer bytes
+int getMaxMatchBufferSize() | get max match buffer size
+int getMaxMinMatchBufferSize() | get max min match buffer size
+int newNIOBufferSize(I) | new nio buffer size
+long getBufferFromQueue() | get buffer from queue
+long getInitialBufferBytes(JZ) | get initial buffer bytes
+long getViewerBufferSeconds() | get viewer buffer seconds
+URLType bytebufferToJava([B) | byte buffer to java
+void clearBufferPools() | clear buffer pools
+void paintBufferToScreen(QGraphics;) | paint buffer to screen
+void ReferenceCountedDirectByteBufferDuplicate(QByteBuffer;) | reference counted direct byte buffer duplicate
+void resetBufferPosition() | reset buffer position
+void returnBufferSupport(QDirectByteBuffer;) | return buffer support
+void setBufferMillis(J) | set buffer millis
+void setBufferPosition(I) | set buffer position
+void setMinimumBufferBytes(I) | set minimum buffer bytes

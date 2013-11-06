@@ -1,0 +1,4 @@
+void visitLocalVariableTableAttrInfo(ClassFile classFile, MethodInfo methodInfo, CodeAttrInfo codeAttrInfo, LocalVariableTableAttrInfo localVariableTableAttrInfo) | visit local variable table attr info
+void visitLocalVariableTypeInfo(Clazz clazz, Method method, CodeAttribute codeAttribute, LocalVariableTypeInfo localVariableTypeInfo) | visit local variable type info
+void visitLookUpSwitchInstruction(ClassFile classFile, MethodInfo methodInfo, CodeAttrInfo codeAttrInfo, int offset, LookUpSwitchInstruction lookUpSwitchInstruction) | visit look up switch instruction
+void visitStackObjectType(Clazz clazz, Method method, CodeAttribute codeAttribute, int offset, int index, ObjectType objectType) | visit stack object type

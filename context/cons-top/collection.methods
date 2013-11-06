@@ -1,0 +1,71 @@
+CONS AbstractCollectionEvent(QCollectionPersister;QPersistentCollection;QEventSource;QObject;QSerializable;) | abstract collection event
+CONS AbstractCollectionPersister(QCollection;QCollectionRegionAccessStrategy;QConfiguration;QSessionFactoryImplementor;) | abstract collection persister
+CONS AbstractPersistentCollection() | abstract persistent collection
+CONS AbstractPersistentCollection(QSessionImplementor;) | abstract persistent collection
+CONS AlgorithmCollection(QFindPossibleDependeesAlgorithm;QRecalculateTaskScheduleAlgorithm;QAdjustTaskBoundsAlgorithm;QRecalculateTaskCompletionPercentageAlgorithm;QProjectBoundsAlgorithm;) | algorithm collection
+CONS BasicCollectionJoinWalker(QQueryableCollection;IQString;QSessionFactoryImplementor;QMap;) | basic collection join walker
+CONS BasicCollectionLoader(QQueryableCollection;IQSessionFactoryImplementor;QMap;) | basic collection loader
+CONS BasicCollectionLoader(QQueryableCollection;IQString;QSessionFactoryImplementor;QMap;) | basic collection loader
+CONS BasicCollectionLoader(QQueryableCollection;QSessionFactoryImplementor;QMap;) | basic collection loader
+CONS BasicCollectionPersister(QCollection;QCollectionRegionAccessStrategy;QConfiguration;QSessionFactoryImplementor;) | basic collection persister
+CONS BatchingCollectionInitializer(QCollectionPersister;[I[QLoader;) | batching collection initializer
+CONS CertStoreCollectionSpi(QCertStoreParameters;) | cert store collection spi
+CONS Collection() | collection
+CONS CollectionAccessStrategyAdapter(QCollectionRegion;QCacheConcurrencyStrategy;QSettings;) | collection access strategy adapter
+CONS CollectionAction(QCollectionPersister;QPersistentCollection;QSerializable;QSessionImplementor;) | collection action
+CONS CollectionCacheEntry(QPersistentCollection;QCollectionPersister;) | collection cache entry
+CONS CollectionCacheEntry(QSerializable;) | collection cache entry
+CONS CollectionChangeSupport(QObject;) | collection change support
+CONS CollectionElementLoader(QQueryableCollection;QSessionFactoryImplementor;QMap;) | collection element loader
+CONS CollectionEntry(QCollectionPersister;QPersistentCollection;) | collection entry
+CONS CollectionEntry(QCollectionPersister;QSerializable;) | collection entry
+CONS CollectionEntry(QPersistentCollection;QCollectionPersister;QSerializable;Z) | collection entry
+CONS CollectionEntry(QPersistentCollection;QSessionFactoryImplementor;) | collection entry
+CONS CollectionEntry(QString;QSerializable;QSerializable;QSessionFactoryImplementor;) | collection entry
+CONS CollectionEvent(QObject;QT;IQType;) | collection event
+CONS CollectionEvent(QObject;QT;QType;) | collection event
+CONS CollectionFetchReturn(QString;QNonScalarReturn;QString;QCollectionAliases;QEntityAliases;QLockMode;) | collection fetch return
+CONS CollectionFilterImpl(QString;QObject;QSessionImplementor;QParameterMetadata;) | collection filter impl
+CONS CollectionFilterKeyParameterSpecification(QString;QType;I) | collection filter key parameter specification
+CONS CollectionHelper() | collection helper
+CONS CollectionJoinWalker(QSessionFactoryImplementor;QMap;) | collection join walker
+CONS CollectionKey(QCollectionPersister;QSerializable;QEntityMode;) | collection key
+CONS CollectionKey(QString;QSerializable;QType;QEntityMode;QSessionFactoryImplementor;) | collection key
+CONS CollectionLoadContext(QLoadContexts;QResultSet;) | collection load context
+CONS CollectionLoader(QQueryableCollection;QSessionFactoryImplementor;QMap;) | collection loader
+CONS CollectionProperties() | collection properties
+CONS CollectionPropertyMapping(QQueryableCollection;) | collection property mapping
+CONS Collection(QPersistentClass;) | collection
+CONS CollectionRecreateAction(QPersistentCollection;QCollectionPersister;QSerializable;QSessionImplementor;) | collection recreate action
+CONS CollectionRegionAdapter(QCache;QSettings;QCacheDataDescription;) | collection region adapter
+CONS CollectionRemoveAction(QObject;QCollectionPersister;QSerializable;ZQSessionImplementor;) | collection remove action
+CONS CollectionRemoveAction(QPersistentCollection;QCollectionPersister;QSerializable;ZQSessionImplementor;) | collection remove action
+CONS CollectionReturn(QString;QString;QString;QCollectionAliases;QEntityAliases;QLockMode;) | collection return
+CONS Collections() | collections
+CONS CollectionSecondPass(QMappings;QCollection;) | collection second pass
+CONS CollectionSecondPass(QMappings;QCollection;Qjava.util.Map;) | collection second pass
+CONS CollectionStatistics(QString;) | collection statistics
+CONS CollectionSubqueryFactory() | collection subquery factory
+CONS CollectionType(QString;QString;Z) | collection type
+CONS CollectionUpdateAction(QPersistentCollection;QCollectionPersister;QSerializable;ZQSessionImplementor;) | collection update action
+CONS ColumnCollectionAliases(QMap;QSQLLoadableCollection;) | column collection aliases
+CONS CustomCollectionType(QClass;QString;QString;Z) | custom collection type
+CONS DirtyCollectionSearchVisitor(QEventSource;[Z) | dirty collection search visitor
+CONS GeneratedCollectionAliases(QCollectionPersister;QString;) | generated collection aliases
+CONS GeneratedCollectionAliases(QMap;QCollectionPersister;QString;) | generated collection aliases
+CONS IdentifierCollection(QPersistentClass;) | identifier collection
+CONS IndexedCollection(QPersistentClass;) | indexed collection
+CONS InitializeCollectionEvent(QPersistentCollection;QEventSource;) | initialize collection event
+CONS LoadingCollectionEntry(QResultSet;QCollectionPersister;QSerializable;QPersistentCollection;) | loading collection entry
+CONS NamedQueryCollectionInitializer(QString;QCollectionPersister;) | named query collection initializer
+CONS NativeSQLQueryCollectionReturn(QString;QString;QString;QMap;QLockMode;) | native sql query collection return
+CONS PostCollectionRecreateEvent(QCollectionPersister;QPersistentCollection;QEventSource;) | post collection recreate event
+CONS PostCollectionRemoveEvent(QCollectionPersister;QPersistentCollection;QEventSource;QObject;) | post collection remove event
+CONS PostCollectionUpdateEvent(QCollectionPersister;QPersistentCollection;QEventSource;) | post collection update event
+CONS PreCollectionRecreateEvent(QCollectionPersister;QPersistentCollection;QEventSource;) | pre collection recreate event
+CONS PreCollectionRemoveEvent(QCollectionPersister;QPersistentCollection;QEventSource;QObject;) | pre collection remove event
+CONS PreCollectionUpdateEvent(QCollectionPersister;QPersistentCollection;QEventSource;) | pre collection update event
+CONS ResourceAssignmentCollectionImpl(QResourceAssignmentCollectionImpl;) | resource assignment collection impl
+CONS ResourceAssignmentCollectionImpl(QTaskImpl;QResourceManager;) | resource assignment collection impl
+CONS SubselectCollectionLoader(QQueryableCollection;QString;QCollection;QQueryParameters;QMap;QSessionFactoryImplementor;QMap;) | subselect collection loader
+CONS TaskDependencyCollectionImpl(QTaskContainmentHierarchyFacade.Factory;QEventDispatcher;) | task dependency collection impl

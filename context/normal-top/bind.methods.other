@@ -1,0 +1,17 @@
+boolean isEffectiveBindAddress(QInetAddress;) | is effective bind address
+boolean supportsBindAsCallableArgument() | supports bind as callable argument
+EList getParticipantBindDetails() | get participant bind details
+InetAddress[] calcBindAddresses(QString;Z) | calc bind addresses
+InetAddress[] getAllBindAddresses() | get all bind addresses
+InetAddress[] getEffectiveBindAddresses() | get effective bind addresses
+InetAddress getMultiHomedOutgoingRoundRobinBindAddress(QInetAddress;) | get multi homed outgoing round robin bind address
+InetAddress[] getMultiHomedServiceBindAddresses(Z) | get multi homed service bind addresses
+InetAddress getSingleHomedServiceBindAddress() | get single homed service bind address
+InetAddress getSingleHomedServiceBindAddress(I) | get single homed service bind address
+InetAddress guessRoutableBindAddress() | guess routable bind address
+InetAddress mapAddressToBindIP(QInetAddress;) | map address to bind ip
+Map getNamedParameterBindPoints() | get named parameter bind points
+void checkDefaultBindAddress(Z) | check default bind address
+void clearExplicitBindAddress() | clear explicit bind address
+void setDefaultBindAddress(QInetAddress;) | set default bind address
+void setExplicitBindAddress(QInetAddress;) | set explicit bind address

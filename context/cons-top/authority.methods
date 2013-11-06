@@ -1,0 +1,8 @@
+CONS AuthorityInformationAccess(QASN1Sequence;) | authority information access
+CONS AuthorityInformationAccess(QDERObjectIdentifier;QGeneralName;) | authority information access
+CONS AuthorityKeyIdentifier([B) | authority key identifier
+CONS AuthorityKeyIdentifier([BQGeneralNames;QBigInteger;) | authority key identifier
+CONS AuthorityKeyIdentifier(QASN1Sequence;) | authority key identifier
+CONS AuthorityKeyIdentifier(QGeneralNames;QBigInteger;) | authority key identifier
+CONS AuthorityKeyIdentifier(QSubjectPublicKeyInfo;) | authority key identifier
+CONS AuthorityKeyIdentifier(QSubjectPublicKeyInfo;QGeneralNames;QBigInteger;) | authority key identifier

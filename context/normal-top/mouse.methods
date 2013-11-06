@@ -1,0 +1,134 @@
+boolean getIsMouseOverCell(QString;QTableCell;) | get is mouse over cell
+boolean getMouseMoveAdjusts() | get mouse move adjusts
+boolean getMouseWheelZoom() | get mouse wheel zoom
+boolean handleMouseClick(QPoint2D.Double;QMouseEvent;QDrawingView;) | handle mouse click
+boolean handleMouseWheelEvent(QMouseWheelEvent;) | handle mouse wheel event
+boolean hasCellMouseMoveListener() | has cell mouse move listener
+boolean isMouseOver() | is mouse over
+boolean isMouseOver(QPoint;QDimension;) | is mouse over
+boolean mouseDown(QEvent;II) | mouse down
+boolean mouseDrag(QEvent;II) | mouse drag
+boolean mouseExit(QEvent;II) | mouse exit
+boolean mouseInBounds(QMouseEvent;) | mouse in bounds
+boolean mouseMove(QEvent;II) | mouse move
+boolean setIsMouseOverCell(QString;QTableCell;Z) | set is mouse over cell
+boolean wasDuplicationActivatedLastMousePress() | was duplication activated last mouse press
+boolean wasShiftDownLastMousePress() | was shift down last mouse press
+ChartItem getChartItemUnderMousePoint(II) | get chart item under mouse point
+float getXLastMouseMove() | get x last mouse move
+float getXLastMousePress() | get x last mouse press
+float getYLastMouseMove() | get y last mouse move
+float getYLastMousePress() | get y last mouse press
+Icon getIconOnMouseOver() | get icon on mouse over
+int[] getMouseOffset() | get mouse offset
+int getValueFromMousePos(I) | get value from mouse pos
+MapMouseMotionListener getMapMouseMotionListener() | get map mouse motion listener
+MapMouseWheelListener getMapMouseWheelListener() | get map mouse wheel listener
+MouseEvent getLastMouseClick() | get last mouse click
+MouseListener createListMouseListener() | create list mouse listener
+MouseListener getMouseListener() | get mouse listener
+MouseListener getStopEditingMouseListener() | get stop editing mouse listener
+MouseMotionListener getMouseMotionListener() | get mouse motion listener
+NodeMouseMotionListener getNodeMouseMotionListener() | get node mouse motion listener
+Point getMouseRelative() | get mouse relative
+Point getTableCellMouseOffset(QTableCellSWT;) | get table cell mouse offset
+TableCellMouseEvent buildMouseEvent(QMouseEvent;I) | build mouse event
+TableCellMouseEvent createMouseEvent(QTableCellSWT;QEvent;I) | create mouse event
+TableCellMouseEvent createMouseEvent(QTableCellSWT;QMouseEvent;I) | create mouse event
+TableColumnCore getColumnHeaderMouseIn(II) | get column header mouse in
+Task findTaskUnderMousePointer(II) | find task under mouse pointer
+void actionPerformedMouseMove() | action performed mouse move
+void addAcceptButtonMouseListener(QMouseListener;) | add accept button mouse listener
+void addBackButtonMouseListener(QMouseListener;) | add back button mouse listener
+void addCellMouseListener(QTableCellMouseListener;) | add cell mouse listener
+void addCellMouseMoveListener(QTableCellMouseMoveListener;) | add cell mouse move listener
+void addCloseButtonMouseListener(QMouseListener;) | add close button mouse listener
+void addDeclineButtonMouseListener(QMouseListener;) | add decline button mouse listener
+void addMouseImageChangeListeners(QControl;) | add mouse image change listeners
+void addMouseListener(QBackgroundImageWizardController;) | add mouse listener
+void addMouseListener(QFurnitureCatalogController;) | add mouse listener
+void addMouseListener(QFurnitureController;) | add mouse listener
+void addMouseListener(QMouseListener;) | add mouse listener
+void addMouseListener(QSWTSkinObject;QControl;) | add mouse listener
+void addMouseListener(QTableCellMouseListener;) | add mouse listener
+void addMouseListener(QTableRowMouseListener;) | add mouse listener
+void addMouseListeners() | add mouse listeners
+void addMouseListeners(QBackgroundImageWizardController;) | add mouse listeners
+void addMouseListeners(QCanvas3D;) | add mouse listeners
+void addMouseListeners(QHomeController3D;QComponent;) | add mouse listeners
+void addMouseListeners(QPlanController;) | add mouse listeners
+void addMouseListenerToAllContainer([QComponent;) | add mouse listener to all container
+void addMouseListenerToHeaderInTable(JTable table) | add mouse listener to header in table
+void addMouseListenerToHeaderInTable(QJTable;) | add mouse listener to header in table
+void addMouseListenerToHeader(QJTable;) | add mouse listener to header
+void addMouseMotionListener(QMouseMotionListener;) | add mouse motion listener
+void addMouseMoveListener(QTableCellMouseMoveListener;) | add mouse move listener
+void addMouseTrackListener(QComposite;QMouseTrackListener;) | add mouse track listener
+void addNextButtonMouseListener(QMouseListener;) | add next button mouse listener
+void addScrollPaneMouseListener(QMouseListener;) | add scroll pane mouse listener
+void addTrainingInstanceFromMouseLocation(IIID) | add training instance from mouse location
+void cellMouseTriggerForRate(QTableCellMouseEvent;) | cell mouse trigger for rate
+void cellMouseTrigger(QTableCellMouseEvent;) | cell mouse trigger
+void DebugTableMouseAdapter(QJTable;) | debug table mouse adapter
+void deRegisterMouseWheelEventHandler(QMouseWheelEventHandler;) | de register mouse wheel event handler
+void doMouseEnter() | do mouse enter
+void HeaderMouseListener() | header mouse listener
+void invokeCellMouseListeners(QTableCellMouseEvent;) | invoke cell mouse listeners
+void invokeMouseListeners(QTableCellMouseEvent;) | invoke mouse listeners
+void invokeMouseListeners(QTableRowMouseEvent;) | invoke mouse listeners
+void mouseAction(IIII) | mouse action
+void mouseAction(QCoords;II) | mouse action
+void mouseDoubleClick(QMouseEvent;) | mouse double click
+void mouseDown(QMouseEvent;) | mouse down
+void MouseEnterExitListener(QWidget;) | mouse enter exit listener
+void mouseEnter(QMouseEvent;) | mouse enter
+void mouseEnter(QTableRowCore;) | mouse enter
+void mouseExit(QMouseEvent;) | mouse exit
+void mouseExit(QTableRowCore;) | mouse exit
+void mouseHover(QMouseEvent;) | mouse hover
+void MouseInteractionBase(QMouseEvent;) | mouse interaction base
+void MouseListenerSelectProxy(QMouseListener;) | mouse listener select proxy
+void mouseMove(QMouseEvent;) | mouse move
+void mouseUp(QMouseEvent;) | mouse up
+void moveMouse(FF) | move mouse
+void onMouseClick(QMouseEvent;) | on mouse click
+void onMouseDown(QMouseEvent;) | on mouse down
+void onMouseExit(QMouseEvent;) | on mouse exit
+void onMouseOverHook() | on mouse over hook
+void onMouseOver(QMouseEvent;) | on mouse over
+void onMouseUp(QMouseEvent;) | on mouse up
+void pressMouse(FFIZZ) | press mouse
+void PrintMouseListener(QPrintableComponent;) | print mouse listener
+void processMouseClick(IIQMouseEvent;) | process mouse click
+void processMouseEvent(Qjava.awt.event.MouseEvent;) | process mouse event
+void processMouseEvent(QMouseEvent;) | process mouse event
+void processMouseEvent(QMouseEvent;[QMenuElement;QMenuSelectionManager;) | process mouse event
+void processMouseMotionEvent(QMouseEvent;) | process mouse motion event
+void registerMouseWheelEventHandler(QMouseWheelEventHandler;) | register mouse wheel event handler
+void releaseMouse(FF) | release mouse
+void removeCellMouseListener(QTableCellMouseListener;) | remove cell mouse listener
+void removeCellMouseMoveListener(QTableCellMouseMoveListener;) | remove cell mouse move listener
+void removeMouseListener(QMouseListener;) | remove mouse listener
+void removeMouseListener(QTableCellMouseListener;) | remove mouse listener
+void removeMouseListener(QTableRowMouseListener;) | remove mouse listener
+void removeMouseMotionListener(QMouseMotionListener;) | remove mouse motion listener
+void removeMouseMoveListener(QTableCellMouseMoveListener;) | remove mouse move listener
+void removeMouseTrackListener(QComposite;QMouseTrackListener;) | remove mouse track listener
+void removeTrainingInstanceFromMouseLocation(II) | remove training instance from mouse location
+void rowMouseTrigger(QTableRowMouseEvent;) | row mouse trigger
+void rowMouseTrigger(QTableRowMouseEvent;QTableCell;) | row mouse trigger
+void setAutoRepeatMousePressedEvent(I) | set auto repeat mouse pressed event
+void setContainsMouse(QTableCell;Z) | set contains mouse
+void setFixPositionOnMouseOver(Z) | set fix position on mouse over
+void setMaintainMouseOver(boolean maintain) | set maintain mouse over
+void setMouseClickIsDefaultSelection(Z) | set mouse click is default selection
+void setMouseMoveAdjusts(Z) | set mouse move adjusts
+void setMouseWheelZoom(Z) | set mouse wheel zoom
+void setOnMouseUp(String script) | set on mouse up
+void SimpleMouseWheelListener() | simple mouse wheel listener
+void SortMouseAdapter(QJTable;QTableSorter;) | sort mouse adapter
+void StackMouseAdapter() | stack mouse adapter
+void testPlanComponentWithMouse() | test plan component with mouse
+void ThreadMouseAdapter() | thread mouse adapter
+void triggerMouseEnterExitRow(QTableRowCore;Z) | trigger mouse enter exit row
+void URLMouseListener(QString;) | url mouse listener

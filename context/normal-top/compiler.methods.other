@@ -1,0 +1,12 @@
+CompilerEnvirons getCompilerEnv() | get compiler env
+CompilerErrorModel getCompilerErrorModel() | get compiler error model
+CompilerModel getCompilerModel() | get compiler model
+LinkedList<QDJError;> _parseExceptions2CompilerErrors(QLinkedList<QJExprParseException;>;) | parse exceptions 2 compiler errors
+LinkedList<QDJError;> _visitorErrors2CompilerErrors(QLinkedList<QPair<QString;QJExpressionIF;>;>;) | visitor errors 2 compiler errors
+Object getCompilerData() | get compiler data
+Object getCompilerLock() | get compiler lock
+String getCompilerErrorString() | get compiler error string
+void assertActiveCompilerChangedCount(I) | assert active compiler changed count
+void resetCompilerErrors() | reset compiler errors
+void setCompilerData(QObject;) | set compiler data
+void _setupCompilerPanel(QConfigPanel;) | setup compiler panel

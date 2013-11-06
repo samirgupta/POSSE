@@ -1,0 +1,5 @@
+ResultSet getColumnPrivileges(QString;QString;QString;QString;) | get column privileges
+ResultSet getTablePrivileges(QString;QString;QString;) | get table privileges
+String[] listGrantedTablePrivileges(QHsqlName;) | list granted table privileges
+Table SYSTEM_USAGE_PRIVILEGES() | system usage privileges
+void clearPrivileges() | clear privileges

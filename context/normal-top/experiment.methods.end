@@ -1,0 +1,14 @@
+boolean setExperiment(QExperiment;) | set experiment
+Experiment createExperiment(int columns, int rows) | create experiment
+Experiment findFirstExperiment(String key1, Object value1, String key2, Object value2) | find first experiment
+Experiment getBaseExperiment() | get base experiment
+Experiment getExperiment() | get experiment
+void abortExperiment() | abort experiment
+void openExperiment() | open experiment
+void runExperiment() | run experiment
+void saveExperiment() | save experiment
+void setBaseExperiment(QExperiment;) | set base experiment
+void setExperiment(QExperiment;) | set experiment
+void setExperiment(QRemoteExperiment;) | set experiment
+void updateExperiment() | update experiment
+void waitingExperiment(I) | waiting experiment

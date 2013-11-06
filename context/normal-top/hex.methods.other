@@ -1,0 +1,28 @@
+boolean getShowMapHexPopup() | get show map hex popup
+boolean isHexBuildable(QIHex;) | is hex buildable
+char digit_to_hex_letter(I) | digit to hex letter
+char toHexChar(I) | to hex char
+IHex getHexInDir(III) | get hex in dir
+IHex getHexInDir(QCoords;I) | get hex in dir
+int toASCIIHexDigit(I) | to ascii hex digit
+MiscType createSingleHexECM() | create single hex ecm
+Packet createHexChangePacket(QCoords;QIHex;) | create hex change packet
+Point getCentreHexLocation(II) | get centre hex location
+Point getCentreHexLocation(QCoords;) | get centre hex location
+Point getHexLocation(II) | get hex location
+Point getHexLocation(QCoords;) | get hex location
+String getHexValue() | get hex value
+String toColorHexString(QColor;) | to color hex string
+String toHexString([BII) | to hex string
+String toHexString(II) | to hex string
+String toHexString(JI) | to hex string
+String toStringHexDump(QString;) | to string hex dump
+String unicodeToHexString(QString;) | unicode to hex string
+void loadHexImage(QIHex;) | load hex image
+void loadHexImage(QIHex;QComponent;QMediaTracker;) | load hex image
+void loadHexImage(QIHex;QJComponent;QMediaTracker;) | load hex image
+void setHexLocation(QCoords;) | set hex location
+void setShowMapHexPopup(Z) | set show map hex popup
+void toHexChars(I[CII) | to hex chars
+void toHexChars(J[CII) | to hex chars
+void trackHexImages(QIHex;QMediaTracker;) | track hex images

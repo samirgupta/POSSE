@@ -1,0 +1,34 @@
+CONS BackgroundPainter(QImage;ZZ) | background painter
+CONS BackgroundPainter(QString;ZZ) | background painter
+CONS ColoringGlyphPainter(QRunnable;) | coloring glyph painter
+CONS FastGradientPaintContext(QColorModel;QRectangle;IIZ) | fast gradient paint context
+CONS FastGradientPaint(QColor;QColor;Z) | fast gradient paint
+CONS JPaintCombo([QPaint;) | j paint combo
+CONS JPaintList([QPaint;) | j paint list
+CONS LinearGradientPaintContext(QColorModel;QRectangle;QRectangle2D;QAffineTransform;QRenderingHints;QPoint2D;QPoint2D;[F[QColor;QMultipleGradientPaint.CycleMethodEnum;QMultipleGradientPaint.ColorSpaceEnum;) | linear gradient paint context
+CONS LinearGradientPaint(FFFF[F[QColor;) | linear gradient paint
+CONS LinearGradientPaint(FFFF[F[QColor;QCycleMethodEnum;) | linear gradient paint
+CONS LinearGradientPaint(QPoint2D;QPoint2D;[F[QColor;) | linear gradient paint
+CONS LinearGradientPaint(QPoint2D;QPoint2D;[F[QColor;QCycleMethodEnum;QColorSpaceEnum;) | linear gradient paint
+CONS LinearGradientPaint(QPoint2D;QPoint2D;[F[QColor;QCycleMethodEnum;QColorSpaceEnum;QAffineTransform;) | linear gradient paint
+CONS MultipleGradientPaintContext(QColorModel;QRectangle;QRectangle2D;QAffineTransform;QRenderingHints;[F[QColor;QMultipleGradientPaint.CycleMethodEnum;QMultipleGradientPaint.ColorSpaceEnum;) | multiple gradient paint context
+CONS MultipleGradientPaint([F[QColor;QCycleMethodEnum;QColorSpaceEnum;QAffineTransform;) | multiple gradient paint
+CONS PaintCellRenderer() | paint cell renderer
+CONS RadialGradientPaintContext(QColorModel;QRectangle;QRectangle2D;QAffineTransform;QRenderingHints;FFFFF[F[QColor;QMultipleGradientPaint.CycleMethodEnum;QMultipleGradientPaint.ColorSpaceEnum;) | radial gradient paint context
+CONS RadialGradientPaint(FFFFF[F[QColor;) | radial gradient paint
+CONS RadialGradientPaint(FFF[F[QColor;) | radial gradient paint
+CONS RadialGradientPaint(QPoint2D;F[F[QColor;) | radial gradient paint
+CONS RadialGradientPaint(QPoint2D;FQPoint2D;[F[QColor;) | radial gradient paint
+CONS RadialGradientPaint(QPoint2D;FQPoint2D;[F[QColor;QCycleMethodEnum;QColorSpaceEnum;) | radial gradient paint
+CONS RadialGradientPaint(QPoint2D;FQPoint2D;[F[QColor;QCycleMethodEnum;QColorSpaceEnum;QAffineTransform;) | radial gradient paint
+CONS RadialGradientPaint(QRectangle2D;[F[QColor;) | radial gradient paint
+CONS ShapePaint(II[I) | shape paint
+CONS ShapePaint(II[IQColor;QColor;) | shape paint
+CONS ShapePaint(QShapePaint;) | shape paint
+CONS ShapePaint(QShapePaint;QColor;QColor;) | shape paint
+CONS StyledPainterImpl(QChartUIConfiguration;) | styled painter impl
+CONS SWTBGImagePainter(QControl;I) | swt bg image painter
+CONS SWTBGImagePainter(QControl;QImage;I) | swt bg image painter
+CONS SWTBGImagePainter(QControl;QImage;QImage;QImage;I) | swt bg image painter
+CONS SWTTextPaintListener(QSWTSkin;QControl;QString;) | swt text paint listener
+CONS TextAreaPainter(QJEditTextArea;QTextAreaDefaults;) | text area painter

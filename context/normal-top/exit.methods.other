@@ -1,0 +1,18 @@
+boolean getExitConfirmation() | get exit confirmation
+boolean getExitConfirmation(Z) | get exit confirmation
+boolean getExitIfNoWindowsOpen() | get exit if no windows open
+boolean getExitOnClose() | get exit on close
+GPAction getExitAction() | get exit action
+int getExitValue() | get exit value
+int getLastExitStatus() | get last exit status
+JMenuItem getExitMenuItem() | get exit menu item
+MenuItem addExitMenuItem(QMenu;) | add exit menu item
+String getExitString() | get exit string
+void addExitTransaction(CodeBuilder b, String opType, LocalVariable txnVar) | add exit transaction
+void MouseEnterExitListener(QWidget;) | mouse enter exit listener
+void setExitAction(QRunnable;) | set exit action
+void setExitIfNoWindowsOpen(Z) | set exit if no windows open
+void setExitOnClose(Z) | set exit on close
+void testExitInteractions() | test exit interactions
+void translateDefaultNoSystemExitProperty(QHsqlProperties;) | translate default no system exit property
+void triggerMouseEnterExitRow(QTableRowCore;Z) | trigger mouse enter exit row

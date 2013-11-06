@@ -1,0 +1,16 @@
+CONS EntryAddChange(QBibtexEntry;) | entry add change
+CONS EntryChange(QBibtexEntry;QBibtexEntry;QBibtexEntry;) | entry change
+CONS EntryComparator(ZZQString;) | entry comparator
+CONS EntryComparator(ZZQString;QComparator<QBibtexEntry;>;) | entry comparator
+CONS EntryCustomizationDialog2(QJabRefFrame;) | entry customization dialog 2
+CONS EntryCustomizationDialog(QJabRefFrame;) | entry customization dialog
+CONS EntryCustomizationDialog(QJabRefFrame;QBibtexEntryType;) | entry customization dialog
+CONS EntryDeleteChange(QBibtexEntry;QBibtexEntry;) | entry delete change
+CONS EntryEditorPrefsTab(QJabRefFrame;QJabRefPreferences;) | entry editor prefs tab
+CONS EntryEditor(QJabRefFrame;QBasePanel;QBibtexEntry;) | entry editor
+CONS EntryEditorTabList() | entry editor tab list
+CONS EntryEditorTab(QJabRefFrame;QBasePanel;QList<QString;>;QEntryEditor;ZQString;) | entry editor tab
+CONS EntrySorter(QMap<QString;QBibtexEntry;>;QComparator<QBibtexEntry;>;) | entry sorter
+CONS EntryTableTransferHandler(QMainTable;QJabRefFrame;QBasePanel;) | entry table transfer handler
+CONS EntryTypeDialog(QJabRefFrame;) | entry type dialog
+CONS EntryTypeList(QList<QString;>;) | entry type list

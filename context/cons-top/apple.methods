@@ -1,0 +1,8 @@
+CONS AppletApplication(QJApplet;) | applet application
+CONS AppletContentManager(QHomeRecorder;QUserPreferences;) | applet content manager
+CONS AppletUserPreferences([QURL;[QURL;) | applet user preferences
+CONS DefaultAppletApplication(QJApplet;) | default applet application
+CONS FreeMindApplet() | free mind applet
+CONS HomeAppletController(QHome;QHomeApplication;QViewFactory;QContentManager;QPluginManager;ZZZZ) | home applet controller
+CONS HomeAppletRecorder(QString;QString;QString;) | home applet recorder
+CONS JFtpApplet() | j ftp applet

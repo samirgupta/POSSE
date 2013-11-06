@@ -1,0 +1,126 @@
+boolean experimentIndexExists() | experiment index exists
+boolean isIndexFK(QIndex;) | is index fk
+Boolean isIndexNonUnique(I) | is index non unique
+boolean isIndexUnique(QIndex;) | is index unique
+boolean isSequentialAttIndexValid() | is sequential att index valid
+boolean isSequentialInstanceIndexValid() | is sequential instance index valid
+boolean qualifyIndexName() | qualify index name
+Boolean readIndexExistence(QObject;) | read index existence
+boolean supportsCatalogsInIndexDefinitions() | supports catalogs in index definitions
+boolean supportsSchemasInIndexDefinitions() | supports schemas in index definitions
+ColumnNameCache retreiveColumnNameToIndexCache(QResultSet;) | retreive column name to index cache
+HsqlName newIndexHsqlName(QString;Z) | new index hsql name
+I_IndexManager getIndexManager() | get index manager
+Index createIndexStructure([IQHsqlName;ZZZ) | create index structure
+Index getIndexForColumn(QSession;I) | get index for column
+Index getIndexForColumns([IZ) | get index for columns
+Index getIndexForColumns([Z) | get index for columns
+Index getUniqueConstraintIndexForColumns([I) | get unique constraint index for columns
+IndexMetadata getIndexMetadata(QString;) | get index metadata
+IndexReader getIndexReader() | get index reader
+int chooseRandomIndexBasedOnProportions([DQRandom;) | choose random index based on proportions
+int convertMeshIndex2bitsPerSec(I) | convert mesh index 2 bits per sec
+int convertRowIndexToModel(I) | convert row index to model
+int convertRowIndexToView(I) | convert row index to view
+int createIndexStructureGetNo([IQHsqlName;ZZZ) | create index structure get no
+Integer getIndexCardinality(I) | get index cardinality
+Integer getIndexRowCardinality(I) | get index row cardinality
+Integer getIndexType(I) | get index type
+Integer getPropertyIndexOrNull(QString;) | get property index or null
+int findIndexPeak(I) | find index peak
+int firstIndexOfChar(QString;QString;I) | first index of char
+int getIfIndexByIfDescr(QString;) | get if index by if descr
+int[] getIndexColumns(I) | get index columns
+int getIndexCount() | get index count
+int getIndexForColumnName(QString;QResultSetWrapper;) | get index for column name
+int _getIndexForError(QDJError;) | get index for error
+int getIndexFor(QJCheckBox;) | get index for
+int getIndexofBiggest(QList<QInteger;>;) | get index of biggest
+int getIndexOfChild(QObject;QObject;) | get index of child
+int getIndexOfFirstMatchingProperty(QList;QString;) | get index of first matching property
+int getIndexOfIntermediateResult() | get index of intermediate result
+int getIndexOf(QDownloadManager;) | get index of
+int getIndexOrderValue() | get index order value
+int[] getIndexRootsArray() | get index roots array
+int getIndexType() | get index type
+int getIndexVisibleColumns(I) | get index visible columns
+int getMaxIndexLength() | get max index length
+int getPointIndexAt(FFF) | get point index at
+int js_indexOf(QString;[QObject;) | js index of
+int js_lastIndexOf(QString;[QObject;) | js last index of
+int lastIndexOf(int fromIndex, int toIndex, int e, boolean ignoreCase) | last index of
+int lastIndexOfLetter(QString;) | last index of letter
+int lastIndexOf(QObject;) | last index of
+int lastIndexOf(QObject;I) | last index of
+int lastIndexOf(QObject;[QObject;I) | last index of
+int lastIndexOf(String str) | last index of
+int lastIndexResult(QContext;) | last index result
+int selectIndexProbabilistically([D) | select index probabilistically
+int writeIndexToWhere(QPreparedStatement;QObject;IQSessionImplementor;) | write index to where
+Iterator getIndexIterator() | get index iterator
+Node getIndexRoot(QHsqlName;Z) | get index root
+Object decrementIndexByBase(QObject;) | decrement index by base
+Object getIndexInOwner(QString;QString;QObject;QMap;) | get index in owner
+Object getIndexInParent(QString;QObject;QEntityPersister;QCollectionPersister;QObject;) | get index in parent
+Object getIndexObject(D) | get index object
+Object getIndexObject(QString;) | get index object
+Object incrementIndexByBase(QObject;) | increment index by base
+Packet createTurnIndexPacket() | create turn index packet
+Result getHighestMeshIndexWithAnyPing() | get highest mesh index with any ping
+Result getHighestMeshIndexWithGoodPing() | get highest mesh index with good ping
+ResultSet getIndexInfo(QString;QString;QString;ZZ) | get index info
+Searcher getIndexSearcher() | get index searcher
+String attributeIndexTipText() | attribute index tip text
+String attrIndexRangeTipText() | attr index range tip text
+String buildSqlCreateIndexString(QDialect;QString;QTable;QIterator;ZQString;QString;) | build sql create index string
+String buildSqlDropIndexString(QDialect;QTable;QString;QString;QString;) | build sql drop index string
+String classIndexTipText() | class index tip text
+String createExperimentIndexEntry(QResultProducer;) | create experiment index entry
+String defaultAttrIndexRange() | default attr index range
+String firstValueIndexTipText() | first value index tip text
+String generateDetectRowByIndexString() | generate detect row by index string
+String generateSelectRowByIndexString() | generate select row by index string
+String getAttrIndexRange() | get attr index range
+String getIndexAttributeName(QCollectionPersister;) | get index attribute name
+String getIndexColDirection(II) | get index col direction
+String[] getIndexColumnAliases(QString;) | get index column aliases
+String[] getIndexColumnNames() | get index column names
+String[] getIndexColumnNames(QString;) | get index column names
+String[] getIndexFormulas() | get index formulas
+String getIndexName(I) | get index name
+String getIndexNodeName() | get index node name
+String getIndexPage() | get index page
+String getIndexRoots() | get index roots
+String getIndexRootsDDL(QTable;) | get index roots ddl
+String[] getSuffixedIndexAliases() | get suffixed index aliases
+String IDIndexTipText() | id index tip text
+String initFileClassIndexTipText() | init file class index tip text
+String secondValueIndexTipText() | second value index tip text
+String targetIndexTipText() | target index tip text
+SubGoalId getIndexBack() | get index back
+Table SYSTEM_INDEXINFO() | system index info
+Type getIndexType() | get index type
+URL getHelpIndexPageURL() | get help index page url
+void addIndexOp(II) | add index op
+void addIndexPrefix(I) | add index prefix
+void appendIndexColumns(QSelectFragment;QString;) | append index columns
+void checkIndexExists(QString;QString;Z) | check index exists
+void clearIndexRoots() | clear index roots
+void clearIndexRootsKeep() | clear index roots keep
+void dropIndexFromRows(QSession;I) | drop index from rows
+void insertClassIndexAtNode(I) | insert class index at node
+void processAlterIndexRename() | process alter index rename
+void putIndexData(UCharacterProperty friend) | put index data
+void registerIndexName(QString;QHsqlName;) | register index name
+void removeIndexName(QString;QHsqlName;) | remove index name
+void removeIndexNames(QHsqlName;) | remove index names
+void resetAttIndexTo(QIndexes;) | reset att index to
+void setAttrIndexRange(QString;) | set attr index range
+void setIndexNodeName(QString;) | set index node name
+void setIndexRoot(QHsqlName;ZQNode;) | set index root
+void setIndexRoots([I) | set index roots
+void setIndexRoots(QString;) | set index roots
+void setLastCollectionElementIndexValue(QString;) | set last collection element index value
+void storeIndexResult(QContext;I) | store index result
+void updateIndexSetFor(ID) | update index set for
+void updateTableIndexRoots() | update table index roots

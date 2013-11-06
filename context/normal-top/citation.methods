@@ -1,0 +1,9 @@
+BibtexEntry getSingleCitation(QString;) | get single citation
+boolean activateCitationFetcher() | activate citation fetcher
+List<QString;> getCitations(QString;) | get citations
+Map<QString;QBoolean;> generateCitationList(QMap<QString;QBoolean;>;QBibtexDatabase;) | generate citation list
+String constructUrlFromSlaccitation(QString;) | construct url from slac citation
+String getCitationsFromUrl(QString;QList<QString;>;) | get citations from url
+String getCitations(QString;QString;) | get citations
+void deactivateCitationFetcher() | deactivate citation fetcher
+void setSortingByCitationCount() | set sorting by citation count

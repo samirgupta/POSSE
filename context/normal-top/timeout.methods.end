@@ -1,0 +1,30 @@
+boolean checkTimeout(J) | check timeout
+boolean SEL_TIMEOUT(long senderHandle, int selector, long ptr) | sel timeout
+Criteria setTimeout(I) | set timeout
+Criteria setTimeout(int timeout) | set timeout
+Integer getTimeout() | get timeout
+int getConnectTimeout() | get connect timeout
+int getLoginTimeout() | get login timeout
+int getQueryTimeout() | get query timeout
+int getReadTimeout() | get read timeout
+int getShowTimeout() | get show timeout
+int getSocketTimeout() | get socket timeout
+int getTimeout() | get timeout
+long getTimeout() | get timeout
+Query setTimeout(I) | set timeout
+void connectWithTimeout(QURLConnection;J) | connect with timeout
+void dispatchWithTimeout(QList;QListenerManagerDispatcher;J) | dispatch with timeout
+void setConnectTimeout(QURLConnection;I) | set connect timeout
+void setLoginTimeout(I) | set login timeout
+void setQueryTimeout(I) | set query timeout
+void setReadTimeout(QURLConnection;I) | set read timeout
+void setShowTimeout(I) | set show timeout
+void setSocketReadTimeout(int socketReadTimeout) | set socket read timeout
+void setSoTimeout(int timeout) | set so timeout
+void setTimeout(I) | set timeout
+void setTimeout(JJ) | set timeout
+void setTimeout(QInteger;) | set timeout
+void setTimeout(QPreparedStatement;) | set timeout
+void setTimeout(String timeout) | set timeout
+void setTransactionTimeout(I) | set transaction timeout
+void unsetTransactionTimeout() | unset transaction timeout

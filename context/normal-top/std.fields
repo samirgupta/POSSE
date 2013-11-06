@@ -1,0 +1,21 @@
+boolean bLogToStdOut | b log to std out
+boolean DIAG_TO_STDOUT | diag to stdout
+boolean processStdin | process stdin
+boolean sealedStdLib | sealed std lib
+edu.rice.cs.util.StreamRedirectThread _stdErrRedirector | std err redirector
+edu.rice.cs.util.StreamRedirectThread _stdOutRedirector | std out redirector
+int STDDEV_POP | stddev pop
+int STDDEV_SAMP | stddev samp
+java.io.PipedOutputStream _combinedStdErrStream | combined std err stream
+java.io.PipedOutputStream _combinedStdOutStream | combined std out stream
+java.io.PrintStream psStd | ps std
+java.lang.String DOWNLOAD_STD_DEV | download std dev
+java.lang.String STD_DEV | std dev
+java.lang.String stdout | stdout
+java.lang.String T_STDDEV_POP | t stddev pop
+java.lang.String T_STDDEV_SAMP | t stddev samp
+java.lang.String UPLOAD_STD_DEV | upload std dev
+java.util.regex.Pattern[] rejectStdoutPatterns | reject stdout patterns
+java.util.regex.Pattern[] requireStdoutPatterns | require stdout patterns
+org.gudy.azureus2.core3.logging.LogIDs STDERR | stderr
+org.gudy.azureus2.core3.logging.LogIDs STDOUT | stdout

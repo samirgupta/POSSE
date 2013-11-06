@@ -1,0 +1,10 @@
+CONS BuddyPluginViewChat(QBuddyPlugin;QDisplay;QBuddyPluginAZ2.chatInstance;) | buddy plugin view chat
+CONS Chat() | chat
+CONS ChatAction(QFreeColClient;) | chat action
+CONS ChatDiscussion(QVuzeBuddy;Z) | chat discussion
+CONS ChatLounge(QClientGUI;) | chat lounge
+CONS ChatMessage(QString;JJQString;QString;) | chat message
+CONS ChatPanel(QCanvas;QFreeColClient;) | chat panel
+CONS ChatterBox(QClientGUI;) | chatter box
+CONS ChatWindow(QAvatarWidget;QChat;QChatDiscussion;) | chat window
+CONS GamePlayerChatEvent(QObject;QPlayer;QString;) | game player chat event

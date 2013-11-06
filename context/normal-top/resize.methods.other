@@ -1,0 +1,14 @@
+boolean isResizeWithShell() | is resize with shell
+Component.BaselineResizeBehavior getBaselineResizeBehavior(QJComponent;) | get baseline resize behavior
+ControllerState getDimensionLineResizeState() | get dimension line resize state
+ControllerState getPieceOfFurnitureResizeState() | get piece of furniture resize state
+ControllerState getRoomResizeState() | get room resize state
+ControllerState getWallResizeState() | get wall resize state
+ResizedImageInfo loadAndResizeImage(QFile;IIF) | load and resize image
+void paintDimensionLineResizeIndicator(QGraphics2D;QDimensionLine;QPaint;F) | paint dimension line resize indicator
+void paintRoomResizeIndicators(QGraphics2D;QRoom;QPaint;F) | paint room resize indicators
+void paintWallResizeIndicator(QGraphics2D;QWall;QPaint;F) | paint wall resize indicator
+void setResizeIndicatorVisible(Z) | set resize indicator visible
+void setResizeWeight(QJSplitPane;D) | set resize weight
+void setResizeWithShell(Z) | set resize with shell
+void ShellMetricsResizeListener(QShell;QString;) | shell metrics resize listener

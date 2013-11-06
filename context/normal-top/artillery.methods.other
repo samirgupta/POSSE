@@ -1,0 +1,18 @@
+Enumeration getArtilleryAttacks() | get artillery attacks
+Image getArtilleryTarget(I) | get artillery target
+int getArtillerySize() | get artillery size
+Mounted getSelectedArtilleryWeapon() | get selected artillery weapon
+Packet createArtilleryPacket(QPlayer;) | create artillery packet
+Vector getArtilleryAttacksAtLocation(QCoords;) | get artillery attacks at location
+Vector getArtilleryVector() | get artillery vector
+void addArtilleryAttack(QArtilleryAttackAction;) | add artillery attack
+void clearArtillerySpotters(II) | clear artillery spotters
+void deliverArtilleryFlare(QCoords;I) | deliver artillery flare
+void deliverArtilleryInferno(QCoords;I) | deliver artillery inferno
+void deliverArtillerySmoke(QCoords;) | deliver artillery smoke
+void drawArtilleryHexes() | draw artillery hexes
+void enqueueIndirectArtilleryAttacks() | enqueue indirect artillery attacks
+void removeArtilleryAttack(QArtilleryAttackAction;) | remove artillery attack
+void resetArtilleryAttacks() | reset artillery attacks
+void resolveIndirectArtilleryAttacks() | resolve indirect artillery attacks
+void setArtilleryVector(QVector;) | set artillery vector

@@ -1,0 +1,94 @@
+Action getIndentAction() | get indent action
+boolean indentLine(QAbstractDJDocument;IQIndenter.IndentReason;) | indent line
+boolean indentLine(QAbstractDJDocument;QIndenter.IndentReason;) | indent line
+boolean _indentLine(QIndenter.IndentReason;) | indent line
+boolean indent(QAbstractDJDocument;QIndenter.IndentReason;) | indent
+boolean shouldIndent(II) | should indent
+boolean testIndentLine(QAbstractDJDocument;IQIndenter.IndentReason;) | test indent line
+boolean testIndentLine(QAbstractDJDocument;QIndenter.IndentReason;) | test indent line
+double getIndentation() | get indentation
+Indenter getIndenter() | get indenter
+Indenter.IndentReason getIndentReason() | get indent reason
+Indenter makeNewIndenter(I) | make new indenter
+int getIndent() | get indent
+int getIndentionLength(QString;) | get indention length
+int getIndentLevel() | get indent level
+int _getIndentOfCurrStmt(I) | get indent of curr stmt
+int _getIndentOfCurrStmt(I[C) | get indent of curr stmt
+int _getIndentOfCurrStmt(I[C[C) | get indent of curr stmt
+int getIndentStep() | get indent step
+int getIndentTabSize() | get indent tab size
+int traitLastLineEndIndent() | trait last line end indent
+String getIndent(ASTNode insertAfter) | get indent
+String getIndentionString(QString;) | get indention string
+String getLogIndent() | get log indent
+String indent(QString;IQString;) | indent
+void _addToIndentTrace(QString;QString;Z) | add to indent trace
+void emitObjectInput(String indent, String fname, TypeInterface ftype, CompoundType ctype) | emit object input
+void handleIndentation(QStringBuffer;) | handle indentation
+void indent() | indent
+void indentAll(QVector;I) | indent all
+void indentateFunction(LispFunctionElement function, int offset, IndentationBuffer buffer) | indentate function
+void _indentBlock(IIQIndenter.IndentReason;QProgressMonitor;) | indent block
+void indentCurrentNodes() | indent current nodes
+void indentFiles(QVector<QString;>;IZ) | indent files
+void indent(I) | indent
+void IndentInformation(I) | indent information
+void IndentKeyAction(QString;QAction;) | indent key action
+void IndentKeyAction(QString;QAction;Z) | indent key action
+void indentLines(II) | indent lines
+void indentLines(IIQIndenter.IndentReason;QProgressMonitor;) | indent lines
+void IndentOfCurrStmt(I[C[C) | indent of curr stmt
+void indent(QIndenter.IndentReason;) | indent
+void indent(QMenuItem;) | indent
+void _initNewIndenter() | init new indenter
+void logFiniteDistribution(int indent, FiniteDistribution leaf) | log finite distribution
+void printLastIndentTrace(QPrintStream;) | print last indent trace
+void printResponse(epp_ContactDeleteRsp response, String indent) | print response
+void _removeIndenter() | remove indenter
+void resetIndent() | reset indent
+void safeIndentLine(QIndenter.IndentReason;) | safe indent line
+void safeIndentLines(II) | safe indent lines
+void setDefinitionsIndent(I) | set definitions indent
+void setIndentation(D) | set indentation
+void setIndent(I) | set indent
+void setIndentStep(I) | set indent step
+void setIndentTabSize(I) | set indent tab size
+void testBlockIndent() | test block indent
+void testBlockIndent2() | test block indent 2
+void testBothIndentedAddSpaces() | test both indented add spaces
+void testBothIndentedAddStuff() | test both indented add stuff
+void testGetIndentOfCurrStmtDelimiters() | test get indent of curr stmt delimiters
+void testGetIndentOfCurrStmtDelimiterSameLine() | test get indent of curr stmt delimiter same line
+void testGetIndentOfCurrStmtEndOfDoc() | test get indent of curr stmt end of doc
+void testGetIndentOfCurrStmtIgnoreDelimsInParenPhrase() | test get indent of curr stmt ignore delims in paren phrase
+void testGetIndentOfCurrStmtMultipleLines() | test get indent of curr stmt multiple lines
+void testIndentArray() | test indent array
+void testIndentBraces() | test indent braces
+void testIndentComments() | test indent comments
+void testIndentCommonCases() | test indent common cases
+void testIndentDoesNothing() | test indent does nothing
+void testIndentedSingleLineContract() | test indented single line contract
+void testIndentGrowTabAtEnd() | test indent grow tab at end
+void testIndentGrowTabAtMiddle() | test indent grow tab at middle
+void testIndentGrowTabAtStart() | test indent grow tab at start
+void testIndentInfoBracket() | test indent info bracket
+void testIndentInfoCurly() | test indent info curly
+void testIndentInfoParen() | test indent info paren
+void testIndentInfoPrevNewline() | test indent info prev newline
+void testIndentingCorrectLine() | test indenting correct line
+void testIndentInsideCommentBlock() | test indent inside comment block
+void testIndentInsideParenAtEnd() | test indent inside paren at end
+void testIndentInsideParenAtStart() | test indent inside paren at start
+void testIndentParenPhrases() | test indent paren phrases
+void testIndentSameAsLineAboveAtEnd() | test indent same as line above at end
+void testIndentSameAsLineAboveAtStart() | test indent same as line above at start
+void testIndentShrinkTabAtEnd() | test indent shrink tab at end
+void testIndentShrinkTabAtMiddle() | test indent shrink tab at middle
+void testIndentShrinkTabAtStart() | test indent shrink tab at start
+void testIndentSwitch() | test indent switch
+void testIndentTernary() | test indent ternary
+void testLiveUpdateOfIndentLevel() | test live update of indent level
+void testMultilineIndentAfterScroll() | test multiline indent after scroll
+void testStartSpaceIndent() | test start space indent
+void textUndoAndRedoAfterMultipleLineIndent() | text undo and redo after multiple line indent

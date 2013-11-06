@@ -1,0 +1,10 @@
+BezierPath fitBezierCurve(QBezierPath;D) | fit bezier curve
+DiscreteFunction fitForSingleCluster(QDoubleVector;I) | fit for single cluster
+GeneralPath fitCurve([QPoint2D.Double;D) | fit curve
+GeneralPath fitCurve(QPolygon;D) | fit curve
+void fitCubic([QPoint2D.Double;IIQPoint2D.Double;QPoint2D.Double;DQBezierPath;) | fit cubic
+void fitCubic([QPoint2D.Double;IIQPoint2D.Double;QPoint2D.Double;DQGeneralPath;) | fit cubic
+void fitLogistic(QInstances;IIIQRandom;) | fit logistic
+void fitToScreen() | fit to screen
+void fitViewToBounds(QDisplay;QRectangle2D;J) | fit view to bounds
+void fitViewToBounds(QDisplay;QRectangle2D;QPoint2D;J) | fit view to bounds

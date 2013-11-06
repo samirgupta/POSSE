@@ -1,0 +1,87 @@
+CONS FileAction(QString;QString;QDrawingPanel;ZZ) | file action
+CONS FileAction(QString;QString;QString;QDrawingPanel;ZIQKeyStroke;Z) | file action
+CONS FileChooseListener() | file choose listener
+CONS FileChooseListener(IQJTextField;QComponent;QFile;) | file choose listener
+CONS FileChooserPageBase() | file chooser page base
+CONS FileChooserPage(QState;) | file chooser page
+CONS FileChooserPage(QState;QIGanttProject;) | file chooser page
+CONS FileChooser(QFile;) | file chooser
+CONS FileConfiguration(QFile;) | file configuration
+CONS FileContentManager(QUserPreferences;) | file content manager
+CONS FileController(QMode;) | file controller
+CONS FileDetails(Qjava.awt.Frame;Z) | file details
+CONS FileDisplay(QFileDisplayManager;) | file display
+CONS FileDisplay(QFile;QFileDisplayManager;) | file display
+CONS FileDisplay(QFile;QString;QFileDisplayManager;) | file display
+CONS FileDocument(QFile;) | file document
+CONS FileDownloadWindow(QAzureusCore;QShell;QString;QString;QMap;) | file download window
+CONS FileDownloadWindow(QAzureusCore;QShell;QString;QString;QMap;QTorrentDownloaderCallBackInterface;) | file download window
+CONS FileEdgeModel(QMindMapNode;QFreeMindMain;) | file edge model
+CONS FileEntry() | file entry
+CONS FileExtensionItem() | file extension item
+CONS FileFinder() | file finder
+CONS FileFormatException() | file format exception
+CONS FileFormatException(QString;) | file format exception
+CONS FileFormatException(QString;QThrowable;) | file format exception
+CONS FileFormatException(QThrowable;) | file format exception
+CONS FileHeader(QFileWindow;) | file header
+CONS FileHistory(QJabRefPreferences;QJabRefFrame;) | file history
+CONS FileInfoView() | file info view
+CONS FileIsADirectoryException(QString;) | file is a directory exception
+CONS FileListEditor(QJabRefFrame;QMetaData;QString;QString;QEntryEditor;) | file list editor
+CONS FileListEntryEditor(QJabRefFrame;QFileListEntry;ZZQMetaData;) | file list entry editor
+CONS FileListEntry(QString;QString;QExternalFileType;) | file list entry
+CONS FileListProperty(QString;QString;QString;QString;) | file list property
+CONS FileList(QFile;) | file list
+CONS FileList(QFile;QFileFilter;) | file list
+CONS FileListTableModel() | file list table model
+CONS FileLoader(QFile;) | file loader
+CONS FileLoader(QString;) | file loader
+CONS FileLocator() | file locator
+CONS FileManager() | file manager
+CONS FileMapModel(QFile;QFreeMindMain;) | file map model
+CONS FileMapModel(QFreeMindMain;) | file map model
+CONS FileMode() | file mode
+CONS FileMovedException(QFile;QString;) | file moved exception
+CONS FileNodeModel(QFile;QFreeMindMain;) | file node model
+CONS FileNode(QFile;) | file node
+CONS FileOptionComponent(QFileOption;QString;QSwingFrame;QJFileChooser;) | file option component
+CONS FileOptionComponent(QFileOption;QString;QSwingFrame;QString;QJFileChooser;) | file option component
+CONS FileOptionComponentTest(QString;) | file option component test
+CONS FileOption(QString;QFile;) | file option
+CONS FileOption(QXMLStreamReader;) | file option
+CONS FileOptionsTable(ZQOptionsPanel;QArrayList;) | file options table
+CONS FileOptionUI(QFileOption;Z) | file option ui
+CONS FilePanel(QConfigureWizard;QIWizardPanel;) | file panel
+CONS FileParameter(QComposite;QString;QString;[QString;) | file parameter
+CONS FileParameter(QPluginConfigImpl;QString;QString;QString;) | file parameter
+CONS FileParameter(QPluginConfigImpl;QString;QString;QString;[QString;) | file parameter
+CONS FilePluginInstallerImpl(QPluginInstallerImpl;QFile;) | file plugin installer impl
+CONS FilePopupMenu(QFileController;) | file popup menu
+CONS FilePopupMenu(QFileTextArea;) | file popup menu
+CONS FilePreviewer(QJFileChooser;) | file previewer
+CONS FileProperty(QString;QThunk<QFile;>;QString;) | file property
+CONS File(QString;QString;QDirectory;QTrack;JJ) | file
+CONS FilesDoneItem(QString;) | files done item
+CONS FileSelectionEvent(QObject;[QFile;[ZQFile;QFile;) | file selection event
+CONS FileSelectionEvent(QObject;QFile;ZQFile;QFile;) | file selection event
+CONS FileSelectorComponent(QSwingFrame;QJFileChooser;) | file selector component
+CONS FileSelectorComponent(QSwingFrame;QJFileChooser;IF) | file selector component
+CONS FileSelectorComponent(QSwingFrame;QJFileChooser;IFZ) | file selector component
+CONS FileSelectorStringComponent(QComponent;QFileChooser;) | file selector string component
+CONS FileSelectorStringComponent(QComponent;QFileChooser;IF) | file selector string component
+CONS FilesTableModel() | files table model
+CONS FilesView() | files view
+CONS FilesystemConnection() | filesystem connection
+CONS FilesystemConnection(QString;QConnectionListener;) | filesystem connection
+CONS FileSystemContainer(QString;QString;) | file system container
+CONS FileTab(QJabRefFrame;QJabRefPreferences;) | file tab
+CONS FileTextArea(QFileWindow;) | file text area
+CONS FileToolBar(QFileController;) | file tool bar
+CONS FileUpdateMonitor() | file update monitor
+CONS FileUpdatePanel(QJabRefFrame;QBasePanel;QSidePaneManager;QFile;QChangeScanner;) | file update panel
+CONS FileUserPreferences() | file user preferences
+CONS FileUtil() | file util
+CONS FileWalker(QFileHandler;) | file walker
+CONS FileWalker(QFileHandler;C) | file walker
+CONS FileWindow(QSwingGui;QDim.SourceInfo;) | file window

@@ -1,0 +1,261 @@
+BackgroundImage getBackgroundImage() | get background image
+boolean dispatchImage(int x, int y, int width, int height, String map, byte pixels) | dispatch image
+boolean drawImage(QGC;QImage;QPoint;QRectangle;QRectangle;IIZ) | draw image
+boolean drawImage(QGC;QImage;QRectangle;QRectangle;II) | draw image
+boolean drawImage(QGC;QImage;QRectangle;QRectangle;IIZ) | draw image
+boolean drawImage(QImage;IIIIIIIIQColor;QImageObserver;) | draw image
+boolean drawImage(QImage;IIIIIIIIQImageObserver;) | draw image
+boolean drawImage(QImage;IIIIQColor;QImageObserver;) | draw image
+boolean drawImage(QImage;IIIIQImageObserver;) | draw image
+boolean drawImage(QImage;IIQColor;QImageObserver;) | draw image
+boolean drawImage(QImage;IIQImageObserver;) | draw image
+boolean drawImage(QImage;QAffineTransform;QImageObserver;) | draw image
+boolean exportToImage(QBufferedImage;QString;QString;) | export to image
+boolean isPointInImage(II) | is point in image
+boolean isRealImage(QImage;) | is real image
+boolean loadImage() | load image
+boolean resizeImage(QString;QString;IIII) | resize image
+boolean saveImage(QOutputStream;QString;D) | save image
+boolean setImage(QImage;) | set image
+boolean setImage(QImage;QComponent;) | set image
+boolean setImage(QImage;QJComponent;) | set image
+BufferedImage createBufferedImage() | create buffered image
+BufferedImage createBufferedImage(QImage;) | create buffered image
+BufferedImage createColonyNameImage(QGraphics;QColony;II) | create colony name image
+BufferedImage createImage() | create image
+BufferedImage createImage(III) | create image
+BufferedImage createImage(QJComponent;QRectangle;) | create image
+BufferedImage createStringImage(QGraphics2D;QString;QColor;II) | create string image
+BufferedImage createStringImage(QJComponent;QGraphics;QString;QColor;II) | create string image
+BufferedImage createStringImage(QJComponent;QString;QColor;II) | create string image
+BufferedImage getBarcodeImage(IQObject;ZZ) | get barcode image
+BufferedImage getBufferedImage() | get buffered image
+BufferedImage getBufferedImage(II) | get buffered image
+BufferedImage getBufferedImage(III) | get buffered image
+BufferedImage getChannelImage(QTiVoImageDocumentRequest;QBufferedImage;) | get channel image
+BufferedImage getClipboardImage() | get clipboard image
+BufferedImage getDefaultImage() | get default image
+BufferedImage getDefaultImage(II) | get default image
+BufferedImage getErrorImage() | get error image
+BufferedImage getIconImage() | get icon image
+BufferedImage getImage() | get image
+BufferedImage getImage(QString;) | get image
+BufferedImage getImage(QTiVoImageDocumentRequest;) | get image
+BufferedImage getImage(QTiVoImageDocumentRequest;QBufferedImage;) | get image
+BufferedImage getOffScreenImage(II) | get off screen image
+BufferedImage getOffScreenImage(QView;II) | get off screen image
+BufferedImage getPatternImage(QTextureImage;QColor;QColor;) | get pattern image
+BufferedImage getWholeImage() | get whole image
+BufferedImage makeLinearBufferedImage(IIZ) | make linear buffered image
+BufferedImage readImage(QContent;QUserPreferences;) | read image
+BufferedImage readImage(QUserPreferences;QContent;) | read image
+BufferedImage toImage(Qjava.util.List<QFigure;>;D) | to image
+Content getImage() | get image
+Figure createImage(DDDD[BQBufferedImage;QMap<QAttributeKey;QObject;>;) | create image
+Image addImage(QString;QImage;) | add image
+Image blitImage(QDevice;QImage;QRectangle;QImage;QPoint;) | blit image
+Image computeResultImage() | compute result image
+Image createAlphaImage(QDevice;II) | create alpha image
+Image createAlphaImage(QDevice;IIB) | create alpha image
+Image createImage(byte imageData, int imageOffset, int imageLength) | create image
+Image createImage(QList;) | create image
+Image createOverlayImage(BIBI) | create overlay image
+Image generateObfusticatedImage() | generate obfusticated image
+Image getActiveImage() | get active image
+Image getAvatarImage() | get avatar image
+Image getBackgroundImage() | get background image
+Image getBonusImage(QResourceType;) | get bonus image
+Image getBonusImage(QTile;) | get bonus image
+Image getBorderImage(QTileType;QDirection;II) | get border image
+Image getCoastImage(QTileType;QDirection;II) | get coast image
+Image getCoatOfArmsImage(QNation;) | get coat of arms image
+Image getColumnImage(Object element, int columnIndex) | get column image
+Image getDefault_prompt_image() | get default prompt image
+Image getEntireBoardImage() | get entire board image
+Image getFolderImage() | get folder image
+Image getForestImage(QTileType;) | get forest image
+Image getFoundingFatherImage(QFoundingFather;) | get founding father image
+Image getGoodsImage(QGoodsType;) | get goods image
+Image getGrayscaleImage(D) | get grayscale image
+Image getGrayscaleImage(QDimension;) | get grayscale image
+Image getGrayscaleImage(QString;D) | get grayscale image
+Image getGrayscaleImage(QString;QDimension;) | get grayscale image
+Image getIdleImage() | get idle image
+Image getImage() | get image
+Image getImage(D) | get image
+Image getImage(I) | get image
+Image getImage(QComponent;) | get image
+Image getImage(QComponent;QString;) | get image
+Image getImage(QDimension;) | get image
+Image getImage(QInputStream;) | get image
+Image getImage(QJComponent;) | get image
+Image getImage(QString;) | get image
+Image getImage(QString;D) | get image
+Image getImage(QString;QDimension;) | get image
+Image getImage(QString;QString;) | get image
+Image getImage(QString;Z) | get image
+Image getImage(QVisualItem;) | get image
+Image getMiscImage(QString;) | get misc image
+Image getMonarchImage(QNation;) | get monarch image
+Image getNoImage() | get no image
+Image getOccupationIndicatorImage(QUnit;) | get occupation indicator image
+Image getOverlayImage(QTileType;II) | get overlay image
+Image getPathImage(QUnit;) | get path image
+Image getPathNextTurnImage(QUnit;) | get path next turn image
+Image getRandomImage() | get random image
+Image getResourceAsImage(QClass;QString;) | get resource as image
+Image getRiverImage(I) | get river image
+Image getScaledImage() | get scaled image
+Image getScaledImage(QImage;) | get scaled image
+Image getScaledTerrainImage(QTileType;F) | get scaled terrain image
+Image getSettlementImage(QSettlement;) | get settlement image
+Image getSettlementImage(QSettlementType;) | get settlement image
+Image getTerrainImage(QTileType;II) | get terrain image
+Image getTitleImage(QFrame;) | get title image
+Image getTitleImage(QJFrame;) | get title image
+Image getUnbufferedImage() | get unbuffered image
+ImageIcon findImage(QString;QClass<QFreeCol;>;Z) | find image
+ImageIcon getImage() | get image
+ImageIcon getImage(QString;) | get image
+ImageIcon getRecordImage() | get record image
+ImageIcon getRemoveImage() | get remove image
+ImageIcon getResizedImage(QImageIcon;II) | get resized image
+ImageIcon getScaledImage(QImageIcon;I) | get scaled image
+Image loadImage(QClassLoader;QDisplay;QString;QString;I) | load image
+Image loadImage(QDisplay;QString;) | load image
+Image loadImage(QDisplay;QString;QString;) | load image
+Image loadImage(QDisplay;QString;QString;I) | load image
+Image loadImage(QPluginInterface;QString;) | load image
+Image loadImage(QString;) | load image
+Image loadImage(String name) | load image
+Image loadPreviewImage() | load preview image
+Image.Lossless createLosslessImage(Qjava.awt.Image;IZ) | create lossless image
+Image obfusticatedImage(QImage;QPoint;) | obfusticated image
+ImagePlus openImage(String path) | open image
+Image rotateImage(Image image, int rightAngles) | rotate image
+Image scaleImage(QImage;F) | scale image
+Image setLabelImage(QString;) | set label image
+Image setLabelImage(QString;QString;) | set label image
+IXMLElement createImage(QIXMLElement;DDDD[BQMap<QAttributeKey;QObject;>;) | create image
+java.awt.Image getChartImage() | get chart image
+java.awt.Image getIconImage() | get icon image
+java.awt.Image getImage() | get image
+java.lang.String getScaleImage() | get scale image
+javax.swing.ImageIcon getImage(I) | get image
+MagickImage unsharpMaskImage(double raduis, double sigma, double amount, double threshold) | unsharp mask image
+Object getLeftImage() | get left image
+PlanarImage readImage(QString;) | read image
+RenderedImage getPdfTitleImage(File comicFile) | get pdf title image
+RenderedImage getRenderedImage(QGanttExportSettings;) | get rendered image
+ResizedImageInfo loadAndResizeImage(QFile;IIF) | load and resize image
+Shape shapeForImage(QImage;DD) | shape for image
+Shape shapeForImage(QInputStream;[I) | shape for image
+SideBarVitalityImage addVitalityImage(QString;) | add vitality image
+SideBarVitalityImage getVitalityImage(II) | get vitality image
+String GetImage() | get image
+String getKeyWordsForImage(DiskObject f) | get key words for image
+String getPathImage() | get path image
+String getPathTypeImage() | get path type image
+Symbol getImage() | get image
+void addBackgroundImage() | add background image
+void addImage(QImageIcon;) | add image
+void boardSaveAsImage() | board save as image
+void boardSaveImage() | board save image
+void buildImage() | build image
+void clearImage() | clear image
+void clearRowImage(QCachedObject;) | clear row image
+void deleteBackgroundImage() | delete background image
+void disposeImage() | dispose image
+void disposeOldAvatarImage() | dispose old avatar image
+void disposeOldImage(QTableCell;) | dispose old image
+void downloadImage(QString;) | download image
+void drawArmorImage(QImage;I) | draw armor image
+void drawBGImage() | draw bg image
+void drawCurrentImage() | draw current image
+void drawIdleImage(I) | draw idle image
+void drawImage(QBufferedImage;QBufferedImageOp;II) | draw image
+void drawImage(QGraphics2D;) | draw image
+void drawImage(QGraphics2D;QCachableRed;) | draw image
+void drawImage(QGraphics2D;QRenderableImage;) | draw image
+void drawImage(QGraphics2D;QRenderableImage;QRenderContext;) | draw image
+void drawImage(QGraphics2D;QRenderedImage;) | draw image
+void drawImage(QTableCell;QGC;) | draw image
+void drawRenderableImage(QRenderableImage;QAffineTransform;) | draw renderable image
+void drawRenderedImage(QRenderedImage;QAffineTransform;) | draw rendered image
+void dumpImage(QString;QStringBuffer;[[B) | dump image
+void EntityImage(QImage;IQImage;QComponent;) | entity image
+void EntityImage(QImage;IQImage;QJComponent;) | entity image
+void EntityImage(QImage;QImage;IQImage;QComponent;) | entity image
+void EntityImage(QImage;QImage;IQImage;QJComponent;) | entity image
+void hideBackgroundImage() | hide background image
+void importBackgroundImage() | import background image
+void loadHexImage(QIHex;) | load hex image
+void loadHexImage(QIHex;QComponent;QMediaTracker;) | load hex image
+void loadHexImage(QIHex;QJComponent;QMediaTracker;) | load hex image
+void loadImage(QComponent;) | load image
+void loadImage(QEntity;) | load image
+void loadImage(QFile;) | load image
+void loadImage(QInputStream;) | load image
+void loadImage(QJComponent;) | load image
+void loadImage(QString;QImageDownloaderListener;) | load image
+void loadPreviewImage(QBufferedPanel;QEntity;) | load preview image
+void loadPreviewImage(QBufferedPanel;QEntity;QPlayer;) | load preview image
+void loadPreviewImage(QEntity;QImage;IQBufferedPanel;) | load preview image
+void loadPreviewImage(QEntity;QImage;IQJLabel;) | load preview image
+void loadPreviewImage(QJLabel;QEntity;) | load preview image
+void loadPreviewImage(QJLabel;QEntity;QPlayer;) | load preview image
+void modifyBackgroundImage() | modify background image
+void moveBoardImage() | move board image
+void paintBackgroundImage(QGraphics2D;) | paint background image
+void paintImage(QGraphics;QAlphaComposite;) | paint image
+void paintImage(QPoint;) | paint image
+void processPreviousImage() | process previous image
+void refreshCurrentImage(I) | refresh current image
+void releaseBufferedImage(QBufferedImage;) | release buffered image
+void renderImage(IIQGraphics2D;Z) | render image
+void renderImage(QGraphics2D;II) | render image
+void renderNextImage() | render next image
+void saveImage(QString;) | save image
+void setActiveImage(QImage;) | set active image
+void setAvatarImage(QImage;) | set avatar image
+void setBackgroundImage(QBackgroundImage;) | set background image
+void setBackgroundImage(QFile;) | set background image
+void setBackgroundImage(QImage;) | set background image
+void setBackgroundImage(QImage;ZZ) | set background image
+void setBackgroundImage(QString;ZZ) | set background image
+void setBufferedImage(QBufferedImage;) | set buffered image
+void setChartImage(Qjava.awt.Image;) | set chart image
+void setDefault_prompt_image(QImage;) | set default prompt image
+void setIconImage(Image icon) | set icon image
+void setIdleImage(QImage;) | set idle image
+void setImage([BQBufferedImage;) | set image
+void setImage(I) | set image
+void setImage(IQImage;) | set image
+void setImage(QBufferedImage;) | set image
+void setImage(QContent;) | set image
+void setImage(QImage;) | set image
+void setImage(QImage;QImage;QImage;) | set image
+void setImage(QString;) | set image
+void setImage(QSymbol;) | set image
+void setImage(String image) | set image
+void setLabelImage(QString;QAECallback;) | set label image
+void setLabelImage(QString;QString;QAECallback;) | set label image
+void setLeftImage(I) | set left image
+void setLeftImage(QImage;) | set left image
+void setMenuItemImage(QMenuItem;QImage;) | set menu item image
+void setMenuItemImage(QMenuItem;QString;) | set menu item image
+void setOpenImage(String openImage) | set open image
+void setPathImage(QString;) | set path image
+void setProgressImage() | set progress image
+void setScaleImage(Qjava.lang.String;) | set scale image
+void setSpinnerImage(QSideBarVitalityImage;) | set spinner image
+void showBackgroundImage() | show background image
+void unloadImage(QString;) | unload image
+void updateAttributesPreviewImage() | update attributes preview image
+void updateBoardImage() | update board image
+void updateChartImage() | update chart image
+void updateImage([B) | update image
+void updatePreviewComponentsImage(QBufferedImage;) | update preview components image
+void updateSourceImage(QImage;) | update source image
+void waitForImage(QImage;) | wait for image
+void writeImage(QOutputStream;II) | write image

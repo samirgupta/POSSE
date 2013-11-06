@@ -1,0 +1,45 @@
+boolean isNativeSheet() | is native sheet
+boolean isOnSameSheet(QCoords;) | is on same sheet
+boolean isSheet(int i) | is sheet
+boolean isShowAsSheet() | is show as sheet
+CategorySheetPanel getCategorySheetPanel() | get category sheet panel
+CategorySheetPanel getSheetPanel() | get sheet panel
+JSheet createSheet(QJOptionPane;QComponent;I) | create sheet
+Object getSheetProperty(QString;) | get sheet property
+Vector getSheetProperties() | get sheet properties
+void addChartSheetProperties(QChartDefinition;) | add chart sheet properties
+void addSheetListener(QSheetListener;) | add sheet listener
+void addSheetProperty(QSheetProperty;) | add sheet property
+void addSheetProperty(QString;QSheetProperty;) | add sheet property
+void addSheetPropertyValueChangedListener(Qit.businesslogic.ireport.gui.event.SheetPropertyValueChangedListener;) | add sheet property value changed listener
+void initSheetProperties() | init sheet properties
+void installSheet() | install sheet
+void parseStyleSheet(String uri) | parse style sheet
+void recreateSheet() | recreate sheet
+void removeSheetListener(QSheetListener;) | remove sheet listener
+void removeSheetPropertyValueChangedListener(Qit.businesslogic.ireport.gui.event.SheetPropertyValueChangedListener;) | remove sheet property value changed listener
+void setCategorySheetPanel(QCategorySheetPanel;) | set category sheet panel
+void setPlotSheetProperties(QPlot;) | set plot sheet properties
+void setSheetPanel(QCategorySheetPanel;) | set sheet panel
+void setSheetProperties(QVector;) | set sheet properties
+void setStyleSheet(QStyleSheet styleSheet) | set style sheet
+void showConfirmSheet(QComponent;QObject;IIQIcon;QSheetListener;) | show confirm sheet
+void showConfirmSheet(QComponent;QObject;IIQSheetListener;) | show confirm sheet
+void showConfirmSheet(QComponent;QObject;IQSheetListener;) | show confirm sheet
+void showConfirmSheet(QComponent;QObject;QSheetListener;) | show confirm sheet
+void showInputSheet(QComponent;QObject;IQIcon;[QObject;QObject;QSheetListener;) | show input sheet
+void showInputSheet(QComponent;QObject;IQSheetListener;) | show input sheet
+void showInputSheet(QComponent;QObject;QObject;QSheetListener;) | show input sheet
+void showInputSheet(QComponent;QObject;QSheetListener;) | show input sheet
+void showMessageSheet(QComponent;QObject;) | show message sheet
+void showMessageSheet(QComponent;QObject;I) | show message sheet
+void showMessageSheet(QComponent;QObject;IQIcon;QSheetListener;) | show message sheet
+void showMessageSheet(QComponent;QObject;IQSheetListener;) | show message sheet
+void showMessageSheet(QComponent;QObject;QSheetListener;) | show message sheet
+void showOpenSheet(QJFileChooser;QComponent;QSheetListener;) | show open sheet
+void showOptionSheet(QComponent;QObject;IIQIcon;[QObject;QObject;QSheetListener;) | show option sheet
+void showSaveSheet(QJFileChooser;QComponent;QSheetListener;) | show save sheet
+void showSheet(QJFileChooser;QComponent;QString;QSheetListener;) | show sheet
+void showSheet(QJOptionPane;QComponent;QSheetListener;) | show sheet
+void uninstallSheet() | uninstall sheet
+void updateChildPropertySheet() | update child property sheet

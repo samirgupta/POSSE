@@ -1,0 +1,35 @@
+CONS DigestInfo(QAlgorithmIdentifier;[B) | digest info
+CONS DigestInfo(QASN1Sequence;) | digest info
+CONS GeneralDigest() | general digest
+CONS GeneralDigest(QGeneralDigest;) | general digest
+CONS JDKDigestSignature(QString;QDERObjectIdentifier;QDigest;QAsymmetricBlockCipher;) | jdk digest signature
+CONS JDKMessageDigest(QDigest;) | jdk message digest
+CONS LongDigest() | long digest
+CONS LongDigest(QLongDigest;) | long digest
+CONS MD2Digest() | md 2 digest
+CONS MD2Digest(QMD2Digest;) | md 2 digest
+CONS MD4Digest() | md 4 digest
+CONS MD4Digest(QMD4Digest;) | md 4 digest
+CONS MD5Digest() | md 5 digest
+CONS MD5Digest(QMD5Digest;) | md 5 digest
+CONS ObjectDigestInfo(IQString;QAlgorithmIdentifier;[B) | object digest info
+CONS ObjectDigestInfo(QASN1Sequence;) | object digest info
+CONS RIPEMD128Digest() | ripemd 128 digest
+CONS RIPEMD128Digest(QRIPEMD128Digest;) | ripemd 128 digest
+CONS RIPEMD160Digest() | ripemd 160 digest
+CONS RIPEMD160Digest(QRIPEMD160Digest;) | ripemd 160 digest
+CONS RIPEMD256Digest() | ripemd 256 digest
+CONS RIPEMD256Digest(QRIPEMD256Digest;) | ripemd 256 digest
+CONS RIPEMD320Digest() | ripemd 320 digest
+CONS RIPEMD320Digest(QRIPEMD320Digest;) | ripemd 320 digest
+CONS SHA1Digest() | sha 1 digest
+CONS SHA1Digest(QSHA1Digest;) | sha 1 digest
+CONS SHA256Digest() | sha 256 digest
+CONS SHA256Digest(QSHA256Digest;) | sha 256 digest
+CONS SHA384Digest() | sha 384 digest
+CONS SHA384Digest(QSHA384Digest;) | sha 384 digest
+CONS SHA512Digest() | sha 512 digest
+CONS SHA512Digest(QSHA512Digest;) | sha 512 digest
+CONS SigningDigest(QSmbTransport;QNtlmPasswordAuthentication;) | signing digest
+CONS TigerDigest() | tiger digest
+CONS TigerDigest(QTigerDigest;) | tiger digest

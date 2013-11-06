@@ -1,0 +1,73 @@
+CONS GanttCalendar() | gantt calendar
+CONS GanttCalendarDays() | gantt calendar days
+CONS GanttCalendarDays(QArrayList;) | gantt calendar days
+CONS GanttCalendar(III) | gantt calendar
+CONS GanttCalendar(QDate;) | gantt calendar
+CONS GanttCalendar(QGanttCalendar;) | gantt calendar
+CONS GanttCellListRenderer() | gantt cell list renderer
+CONS GanttChartTabContentPanel(QIGanttProject;QUIFacade;QTaskTreeUIFacade;QComponent;) | gantt chart tab content panel
+CONS GanttCompareToPreviousStateBean(QGanttProject;) | gantt compare to previous state bean
+CONS GanttCSVExport(QIGanttProject;QCSVOptions;) | gantt csv export
+CONS GanttDaysOff(QDate;QDate;) | gantt days off
+CONS GanttDaysOff(QGanttCalendar;QGanttCalendar;) | gantt days off
+CONS GanttDialogCalendar(QJFrame;) | gantt dialog calendar
+CONS GanttDialogCompareToPreviousState(QGanttProject;) | gantt dialog compare to previous state
+CONS GanttDialogCustomColumn(QUIFacade;QCustomColumn;) | gantt dialog custom column
+CONS GanttDialogDate(QJDialog;QGanttCalendar;) | gantt dialog date
+CONS GanttDialogDate(QJDialog;QGanttCalendar;Z) | gantt dialog date
+CONS GanttDialogInfo(QFrame;IIQString;QString;) | gantt dialog info
+CONS GanttDialogPerson(QUIFacade;QGanttLanguage;QHumanResource;) | gantt dialog person
+CONS GanttDialogProperties([QGanttTask;) | gantt dialog properties
+CONS GanttDialogPublicHoliday(QIGanttProject;QUIFacade;) | gantt dialog public holiday
+CONS GanttDialogSaveAsPreviousState(QGanttProject;) | gantt dialog save as previous state
+CONS GanttExportSettings() | gantt export settings
+CONS GanttExportSettings(ZZZZ) | gantt export settings
+CONS GanttGraphicArea(QGanttProject;QGanttTree2;QTaskManager;QZoomManager;QGPUndoManager;) | gantt graphic area
+CONS GanttImagePanel(QString;II) | gantt image panel
+CONS GanttLanguage() | gantt language
+CONS GanttLookAndFeelInfo(QLookAndFeelInfo;) | gantt look and feel info
+CONS GanttLookAndFeelInfo(QString;QString;) | gantt look and feel info
+CONS GanttLookAndFeels() | gantt look and feels
+CONS GanttMetalTheme(QUIConfiguration;) | gantt metal theme
+CONS GanttMSProjectLFileFilter() | gantt ms project l file filter
+CONS GanttOptions(QRoleManager;QDocumentManager;Z) | gantt options
+CONS GanttPanelDate(QGanttCalendar;) | gantt panel date
+CONS GanttPreviousState(QString;) | gantt previous state
+CONS GanttPreviousState(QString;QGanttProject;) | gantt previous state
+CONS GanttPreviousStateTask(IQGanttCalendar;IZZ) | gantt previous state task
+CONS GanttPrintable(QBufferedImage;D) | gantt printable
+CONS GanttProjectBase() | gantt project base
+CONS GanttProject(Z) | gantt project
+CONS GanttProject(ZZ) | gantt project
+CONS GanttResourcePanel(QGanttProject;QGanttTree2;QUIFacade;) | gantt resource panel
+CONS GanttSaveAsPreviousStateBean(QGanttProject;) | gantt save as previous state bean
+CONS GanttSplash() | gantt splash
+CONS GanttStatusBar(QJFrame;) | gantt status bar
+CONS GanttTabbedPane() | gantt tabbed pane
+CONS GanttTabbedPane(I) | gantt tabbed pane
+CONS GanttTabbedPane(II) | gantt tabbed pane
+CONS GanttTaskPropertiesBean([QGanttTask;QTaskManager;QHumanResourceManager;QRoleManager;) | gantt task properties bean
+CONS GanttTask(QGanttTask;) | gantt task
+CONS GanttTask(QString;QGanttCalendar;JQTaskManager;I) | gantt task
+CONS GanttTaskRelationship() | gantt task relationship
+CONS GanttTaskRelationship(IIIIQTaskManager;) | gantt task relationship
+CONS GanttTaskRelationship(QTaskManager;) | gantt task relationship
+CONS GanttTree2(QGanttProject;QTaskManager;QUIFacade;) | gantt tree 2
+CONS GanttTreeTableModel(QTreeNode;) | gantt tree table model
+CONS GanttTreeTable(QGanttTreeTableModel;) | gantt tree table
+CONS GanttTXTOpen(QGanttTree2;QGanttProject;QGanttGraphicArea;QTaskManager;) | gantt txt open
+CONS GanttTXTOpen(QTaskManager;) | gantt txt open
+CONS GanttURLChooser(QFrame;ZQString;QString;QString;) | gantt url chooser
+CONS GanttXFIGSaver(QIGanttProject;) | gantt xf ig saver
+CONS GanttXMLFileFilter() | gantt xml file filter
+CONS GanttXMLOpen(QPrjInfos;QGanttGraphicArea;QTaskManager;QUIFacade;) | gantt xml open
+CONS GanttXMLOpen(QTaskManager;) | gantt xml open
+CONS GanttXMLSaver(QIGanttProject;QGanttTree2;QGanttResourcePanel;QGanttGraphicArea;QUIFacade;) | gantt xml saver
+CONS RenderedGanttChartImage(QChartModelBase;QChartImplementation;QList;QBufferedImage;II) | rendered gantt chart image
+CONS ScrollGanttChartLeftAction(QScrollingManager;QString;) | scroll gantt chart left action
+CONS ScrollGanttChartRightAction(QScrollingManager;QString;) | scroll gantt chart right action
+CONS TestGanttRolloverButton() | test gantt rollover button
+CONS TestGanttRolloverButton(QAction;) | test gantt rollover button
+CONS TestGanttRolloverButton(QIcon;) | test gantt rollover button
+CONS TestGanttRolloverButton(QIcon;QIcon;) | test gantt rollover button
+CONS TestGanttRolloverButton(QIcon;QString;) | test gantt rollover button

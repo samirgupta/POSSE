@@ -1,0 +1,12 @@
+boolean hasSuspendedThreads() | has suspended threads
+int getMaxThreads() | get max threads
+int getNThreads() | get n threads
+List getThreads() | get threads
+String getSql_GET_THREADS() | get sql get threads
+void dumpThreads() | dump threads
+void dumpThreads(QString;) | dump threads
+void dumpThreads(QThreadGroup;QString;) | dump threads
+void initThreads() | init threads
+void killAWTThreads() | kill awt threads
+void killAWTThreads(QThreadGroup;) | kill awt threads
+void stopThreads() | stop threads

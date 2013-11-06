@@ -1,0 +1,7 @@
+boolean isClientTrusted() | is client trusted
+boolean isClientTypeAllowed(QString;) | is client type allowed
+void checkClientTrusted([Qjava.security.cert.X509Certificate;QString;) | check client trusted
+void checkClientTrusted([QX509Certificate;QString;) | check client trusted
+void clientClosed() | client closed
+void clientCreated(QTRTrackerAnnouncer;) | client created
+void clientDestroyed(QTRTrackerAnnouncer;) | client destroyed

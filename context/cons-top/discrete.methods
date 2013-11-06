@@ -1,0 +1,14 @@
+CONS CumulativeDiscreteDistribution([D) | cumulative discrete distribution
+CONS CumulativeDiscreteDistribution(QDiscreteDistribution;) | cumulative discrete distribution
+CONS CumulativeDiscreteDistribution(QDiscreteEstimator;) | cumulative discrete distribution
+CONS DiscreteDistribution([D) | discrete distribution
+CONS DiscreteDistribution(QCumulativeDiscreteDistribution;) | discrete distribution
+CONS DiscreteDistribution(QDiscreteEstimator;) | discrete distribution
+CONS DiscreteEstimatorBayes(ID) | discrete estimator bayes
+CONS DiscreteEstimatorFullBayes(IDDQDiscreteEstimatorBayes;QDiscreteEstimatorBayes;D) | discrete estimator full bayes
+CONS DiscreteEstimator(ID) | discrete estimator
+CONS DiscreteEstimator(IZ) | discrete estimator
+CONS DiscreteFunction() | discrete function
+CONS DiscreteFunction(QDoubleVector;) | discrete function
+CONS DiscreteFunction(QDoubleVector;QDoubleVector;) | discrete function
+CONS NormDiscrete(QElement;QFieldMetaInfo.Optype;QArrayList<QAttribute;>;) | norm discrete

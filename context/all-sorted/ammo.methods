@@ -1,0 +1,292 @@
+../3-Phrases/MegaMek-0.32.0:void sendAmmoChange(III) | send ammo change
+../3-Phrases/MegaMek-0.32.0:String getAmmo() | get ammo
+../3-Phrases/MegaMek-0.32.0:String formatAmmo(QMounted;) | format ammo
+../3-Phrases/MegaMek-0.32.0:void updateRangeDisplayForAmmo(QMounted;) | update range display for ammo
+../3-Phrases/MegaMek-0.32.0:String getAmmo() | get ammo
+../3-Phrases/MegaMek-0.32.0:String formatAmmo(QMounted;) | format ammo
+../3-Phrases/MegaMek-0.32.0:void updateRangeDisplayForAmmo(QMounted;) | update range display for ammo
+../3-Phrases/MegaMek-0.32.0:double getAmmoAdjDamage(QIGame;QWeaponAttackAction;) | get ammo adj damage
+../3-Phrases/MegaMek-0.32.0:void setAmmoType(I) | set ammo type
+../3-Phrases/MegaMek-0.32.0:int getAmmoType() | get ammo type
+../3-Phrases/MegaMek-0.32.0:boolean loadWeaponWithSameAmmo(QMounted;QMounted;) | load weapon with same ammo
+../3-Phrases/MegaMek-0.32.0:CONS AmmoType() | ammo type
+../3-Phrases/MegaMek-0.32.0:int getAmmoType() | get ammo type
+../3-Phrases/MegaMek-0.32.0:AmmoType getOneshotAmmo(QMounted;) | get oneshot ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISAC2Ammo() | create isac 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISAC5Ammo() | create isac 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISAC10Ammo() | create isac 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISAC20Ammo() | create isac 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISVehicleFlamerAmmo() | create is vehicle flamer ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISMGAmmo() | create is mg ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISMGAmmoHalf() | create is mg ammo half
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLRM5Ammo() | create islrm 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLRM10Ammo() | create islrm 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLRM15Ammo() | create islrm 15 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLRM20Ammo() | create islrm 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISSRM2Ammo() | create issrm 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISSRM4Ammo() | create issrm 4 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISSRM6Ammo() | create issrm 6 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLRT5Ammo() | create islrt 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLRT10Ammo() | create islrt 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLRT15Ammo() | create islrt 15 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLRT20Ammo() | create islrt 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISSRT2Ammo() | create issrt 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISSRT4Ammo() | create issrt 4 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISSRT6Ammo() | create issrt 6 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLongTomAmmo() | create is long tom ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISSniperAmmo() | create is sniper ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISThumperAmmo() | create is thumper ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLB2XAmmo() | create is lb 2 x ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLB5XAmmo() | create is lb 5 x ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLB10XAmmo() | create is lb 10 x ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLB20XAmmo() | create is lb 20 x ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLB2XClusterAmmo() | create is lb 2 x cluster ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLB5XClusterAmmo() | create is lb 5 x cluster ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLB10XClusterAmmo() | create is lb 10 x cluster ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLB20XClusterAmmo() | create is lb 20 x cluster ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISTHBLB2XAmmo() | create isthblb 2 x ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISTHBLB5XAmmo() | create isthblb 5 x ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISTHBLB20XAmmo() | create isthblb 20 x ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISTHBLB2XClusterAmmo() | create isthblb 2 x cluster ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISTHBLB5XClusterAmmo() | create isthblb 5 x cluster ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISTHBLB20XClusterAmmo() | create isthblb 20 x cluster ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISUltra2Ammo() | create is ultra 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISUltra5Ammo() | create is ultra 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISUltra10Ammo() | create is ultra 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISUltra20Ammo() | create is ultra 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISTHBUltra2Ammo() | create isthb ultra 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISTHBUltra10Ammo() | create isthb ultra 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISTHBUltra20Ammo() | create isthb ultra 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISRotary2Ammo() | create is rotary 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISRotary5Ammo() | create is rotary 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISRotary10Ammo() | create is rotary 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISRotary20Ammo() | create is rotary 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISGaussAmmo() | create is gauss ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLTGaussAmmo() | create is lt gauss ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISHVGaussAmmo() | create is hv gauss ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISStreakSRM2Ammo() | create is streak srm 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISStreakSRM4Ammo() | create is streak srm 4 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISStreakSRM6Ammo() | create is streak srm 6 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISMRM10Ammo() | create ismrm 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISMRM20Ammo() | create ismrm 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISMRM30Ammo() | create ismrm 30 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISMRM40Ammo() | create ismrm 40 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISRL10Ammo() | create is rl 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISRL15Ammo() | create is rl 15 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISRL20Ammo() | create is rl 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISAMSAmmo() | create is ams ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISNarcAmmo() | create is narc ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISNarcExplosiveAmmo() | create is narc explosive ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISiNarcAmmo() | create isi narc ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISiNarcExplosiveAmmo() | create isi narc explosive ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISiNarcECMAmmo() | create isi narc ecm ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISiNarcHaywireAmmo() | create isi narc haywire ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISiNarcNemesisAmmo() | create isi narc nemesis ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLGaussAmmo() | create cl gauss ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLB2XAmmo() | create cllb 2 x ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLB5XAmmo() | create cllb 5 x ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLB10XAmmo() | create cllb 10 x ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLB20XAmmo() | create cllb 20 x ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLB2XClusterAmmo() | create cllb 2 x cluster ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLB5XClusterAmmo() | create cllb 5 x cluster ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLB10XClusterAmmo() | create cllb 10 x cluster ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLB20XClusterAmmo() | create cllb 20 x cluster ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLVehicleFlamerAmmo() | create cl vehicle flamer ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLHeavyMGAmmo() | create cl heavy mg ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLHeavyMGAmmoHalf() | create cl heavy mg ammo half
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLMGAmmo() | create cl mg ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLMGAmmoHalf() | create cl mg ammo half
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLightMGAmmo() | create cl light mg ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLightMGAmmoHalf() | create cl light mg ammo half
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLUltra2Ammo() | create cl ultra 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLUltra5Ammo() | create cl ultra 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLUltra10Ammo() | create cl ultra 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLUltra20Ammo() | create cl ultra 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLRotary2Ammo() | create cl rotary 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLRotary5Ammo() | create cl rotary 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLRotary10Ammo() | create cl rotary 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLRotary20Ammo() | create cl rotary 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT1Ammo() | create cllrt 1 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT2Ammo() | create cllrt 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT3Ammo() | create cllrt 3 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT4Ammo() | create cllrt 4 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT5Ammo() | create cllrt 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT6Ammo() | create cllrt 6 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT7Ammo() | create cllrt 7 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT8Ammo() | create cllrt 8 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT9Ammo() | create cllrt 9 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT10Ammo() | create cllrt 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT11Ammo() | create cllrt 11 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT12Ammo() | create cllrt 12 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT13Ammo() | create cllrt 13 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT14Ammo() | create cllrt 14 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT15Ammo() | create cllrt 15 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT16Ammo() | create cllrt 16 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT17Ammo() | create cllrt 17 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT18Ammo() | create cllrt 18 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT19Ammo() | create cllrt 19 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRT20Ammo() | create cllrt 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLSRM1Ammo() | create clsrm 1 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLSRM2Ammo() | create clsrm 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLSRM3Ammo() | create clsrm 3 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLSRM4Ammo() | create clsrm 4 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLSRM5Ammo() | create clsrm 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLSRM6Ammo() | create clsrm 6 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM1Ammo() | create cllrm 1 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM2Ammo() | create cllrm 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM3Ammo() | create cllrm 3 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM4Ammo() | create cllrm 4 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM5Ammo() | create cllrm 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM6Ammo() | create cllrm 6 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM7Ammo() | create cllrm 7 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM8Ammo() | create cllrm 8 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM9Ammo() | create cllrm 9 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM10Ammo() | create cllrm 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM11Ammo() | create cllrm 11 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM12Ammo() | create cllrm 12 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM13Ammo() | create cllrm 13 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM14Ammo() | create cllrm 14 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM15Ammo() | create cllrm 15 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM16Ammo() | create cllrm 16 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM17Ammo() | create cllrm 17 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM18Ammo() | create cllrm 18 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM19Ammo() | create cllrm 19 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLRM20Ammo() | create cllrm 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLSRT1Ammo() | create cls rt 1 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLSRT2Ammo() | create cls rt 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLSRT3Ammo() | create cls rt 3 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLSRT4Ammo() | create cls rt 4 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLSRT5Ammo() | create cls rt 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLSRT6Ammo() | create cls rt 6 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLStreakSRM1Ammo() | create cl streak srm 1 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLStreakSRM2Ammo() | create cl streak srm 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLStreakSRM3Ammo() | create cl streak srm 3 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLStreakSRM4Ammo() | create cl streak srm 4 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLStreakSRM5Ammo() | create cl streak srm 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLStreakSRM6Ammo() | create cl streak srm 6 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLAMSAmmo() | create cl ams ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLNarcAmmo() | create cl narc ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLNarcExplosiveAmmo() | create cl narc explosive ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLATM3Ammo() | create clatm 3 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLATM3ERAmmo() | create clatm 3 er ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLATM3HEAmmo() | create clatm 3 he ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLATM6Ammo() | create clatm 6 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLATM6ERAmmo() | create clatm 6 er ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLATM6HEAmmo() | create clatm 6 he ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLATM9Ammo() | create clatm 9 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLATM9ERAmmo() | create clatm 9 er ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLATM9HEAmmo() | create clatm 9 he ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLATM12Ammo() | create clatm 12 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLATM12ERAmmo() | create clatm 12 er ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLATM12HEAmmo() | create clatm 12 he ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLStreakLRM5Ammo() | create cl streak lrm 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLStreakLRM10Ammo() | create cl streak lrm 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLStreakLRM15Ammo() | create cl streak lrm 15 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLStreakLRM20Ammo() | create cl streak lrm 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBASRM2Ammo() | create basrm 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBASRM2OSAmmo() | create basrm 2 os ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBAInfernoSRMAmmo() | create ba inferno srm ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBAMicroBombAmmo() | create ba micro bomb ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLTorpedoLRM5Ammo() | create cl torpedo lrm 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createFenrirSRM4Ammo() | create fe nr ir srm 4 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createPhalanxSRM4Ammo() | create phalanx srm 4 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createGrenadierSRM4Ammo() | create grenadier srm 4 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBACompactNarcAmmo() | create ba compact narc ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBAMineLauncherAmmo() | create ba mine launcher ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBALRM5Ammo() | create ba lrm 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLPROHeavyMGAmmo() | create cl pro heavy mg ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLPROMGAmmo() | create clp ro mg ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLPROLightMGAmmo() | create cl pro light mg ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISArrowIVAmmo() | create is arrow iv ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLArrowIVAmmo() | create cl arrow iv ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLLongTomAmmo() | create cl long tom ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLSniperAmmo() | create cl sniper ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLThumperAmmo() | create cl thumper ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBAISLRM1Ammo() | create baislrm 1 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBAISLRM2Ammo() | create baislrm 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBAISLRM3Ammo() | create baislrm 3 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBAISLRM4Ammo() | create baislrm 4 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBAISLRM5Ammo() | create baislrm 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBACLLRM1Ammo() | create bacllrm 1 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBACLLRM2Ammo() | create bacllrm 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBACLLRM3Ammo() | create bacllrm 3 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBACLLRM4Ammo() | create bacllrm 4 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBACLLRM5Ammo() | create bacllrm 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBASRM6Ammo() | create basrm 6 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBASRM5Ammo() | create basrm 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBASRM4Ammo() | create basrm 4 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBASRM3Ammo() | create basrm 3 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createBASRM1Ammo() | create basrm 1 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISMRM1Ammo() | create ismrm 1 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISMRM2Ammo() | create ismrm 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISMRM3Ammo() | create ismrm 3 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISMRM4Ammo() | create ismrm 4 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISMRM5Ammo() | create ismrm 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLAWLauncherAmmo() | create is law launcher ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLAW2LauncherAmmo() | create is law 2 launcher ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLAW3LauncherAmmo() | create is law 3 launcher ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLAW4LauncherAmmo() | create is law 4 launcher ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLAW5LauncherAmmo() | create is law 5 launcher ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createAdvancedSRM1Ammo() | create advanced srm 1 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createAdvancedSRM5Ammo() | create advanced srm 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createAdvancedSRM3Ammo() | create advanced srm 3 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createAdvancedSRM2Ammo() | create advanced srm 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createAdvancedSRM4Ammo() | create advanced srm 4 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createAdvancedSRM6Ammo() | create advanced srm 6 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLAC2Ammo() | create islac 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLAC5Ammo() | create islac 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLAC10Ammo() | create islac 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISLAC20Ammo() | create islac 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISHeavyFlamerAmmo() | create is heavy flamer ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISExtendedLRM5Ammo() | create is extended lrm 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISExtendedLRM10Ammo() | create is extended lrm 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISExtendedLRM15Ammo() | create is extended lrm 15 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISExtendedLRM20Ammo() | create is extended lrm 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISThunderbolt5Ammo() | create is thunderbolt 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISThunderbolt10Ammo() | create is thunderbolt 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISThunderbolt15Ammo() | create is thunderbolt 15 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISThunderbolt20Ammo() | create is thunderbolt 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISRailGunAmmo() | create is rail gun ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISMagshotGRAmmo() | create is magshot gr ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLMagshotGRAmmo() | create cl magshot gr ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISPXLRM5Ammo() | create ispxlrm 5 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISPXLRM10Ammo() | create ispxlrm 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISPXLRM15Ammo() | create ispxlrm 15 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISPXLRM20Ammo() | create ispxlrm 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISHawkSRM2Ammo() | create is hawk srm 2 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISHawkSRM4Ammo() | create is hawk srm 4 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISHawkSRM6Ammo() | create is hawk srm 6 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISStreakMRM10Ammo() | create is streak mrm 10 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISStreakMRM20Ammo() | create is streak mrm 20 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISStreakMRM30Ammo() | create is streak mrm 30 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISStreakMRM40Ammo() | create is streak mrm 40 ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createISMPodAmmo() | create ism pod ammo
+../3-Phrases/MegaMek-0.32.0:AmmoType createCLMPodAmmo() | create clm pod ammo
+../3-Phrases/MegaMek-0.32.0:boolean loadWeaponWithSameAmmo(QMounted;QMounted;) | load weapon with same ammo
+../3-Phrases/MegaMek-0.32.0:void changeAmmoType(QAmmoType;) | change ammo type
+../3-Phrases/MegaMek-0.32.0:boolean isAmmoUsable() | is ammo usable
+../3-Phrases/MegaMek-0.32.0:int getTotalAmmoOfType(QEquipmentType;) | get total ammo of type
+../3-Phrases/MegaMek-0.32.0:void loadWeaponWithSameAmmo(QMounted;) | load weapon with same ammo
+../3-Phrases/MegaMek-0.32.0:boolean loadWeaponWithSameAmmo(QMounted;QMounted;) | load weapon with same ammo
+../3-Phrases/MegaMek-0.32.0:ArrayList<QMounted;> getAmmo() | get ammo
+../3-Phrases/MegaMek-0.32.0:boolean hasInfernoAmmo() | has inferno ammo
+../3-Phrases/MegaMek-0.32.0:int getAmmoId() | get ammo id
+../3-Phrases/MegaMek-0.32.0:void setAmmoId(I) | set ammo id
+../3-Phrases/MegaMek-0.32.0:String mutateLBXAmmo(QString;) | mutate lbx ammo
+../3-Phrases/MegaMek-0.32.0:String mutateATMAmmo(QString;) | mutate atm ammo
+../3-Phrases/MegaMek-0.32.0:String getAmmoName(JQHMVTechType;) | get ammo name
+../3-Phrases/MegaMek-0.32.0:String getAmmoName(QLong;QHMVTechType;) | get ammo name
+../3-Phrases/MegaMek-0.32.0:AmmoType getAmmoType(JQHMVTechType;) | get ammo type
+../3-Phrases/MegaMek-0.32.0:float getWeightAmmo() | get weight ammo
+../3-Phrases/MegaMek-0.32.0:StringBuffer printAmmo() | print ammo
+../3-Phrases/MegaMek-0.32.0:StringBuffer printAmmo(QStringBuffer;) | print ammo
+../3-Phrases/MegaMek-0.32.0:StringBuffer printAmmo(QStringBuffer;II) | print ammo
+../3-Phrases/MegaMek-0.32.0:String formatAmmo(QEntity;) | format ammo
+../3-Phrases/MegaMek-0.32.0:void SetAmmoTo(III) | set ammo to
+../3-Phrases/MegaMek-0.32.0:void SetAmmoPlan(QEntity;) | set ammo plan
+../3-Phrases/MegaMek-0.32.0:void AddSetAmmoTo(QString;) | add set ammo to
+../3-Phrases/MegaMek-0.32.0:WeaponResult addHeatUseAmmoFor(QWeaponAttackAction;QWeaponResult;) | add heat use ammo for
+../3-Phrases/MegaMek-0.32.0:Vector explodeAmmoFromHeat(QEntity;) | explode ammo from heat
+../3-Phrases/MegaMek-0.32.0:void resolveAmmoDumps() | resolve ammo dumps
+../3-Phrases/MegaMek-0.32.0:void receiveEntityAmmoChange(QPacket;I) | receive entity ammo change
+../3-Phrases/MegaMek-0.32.0:Vector explodeInfernoAmmoFromHeat(QEntity;) | explode inferno ammo from heat

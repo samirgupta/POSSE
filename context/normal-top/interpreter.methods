@@ -1,0 +1,52 @@
+boolean addInterpreter(QString;) | add interpreter
+boolean removeInterpreter(QString;) | remove interpreter
+InterpreterJVMRemoteI interpreter(Z) | interpreter
+int getInterpreterReadyCount() | get interpreter ready count
+int getMaximumInterpreterStackDepth() | get maximum interpreter stack depth
+Object constructWithInterfaceBody(Class type, Object args, BSHBlock body, CallStack callstack, Interpreter interpreter) | construct with interface body
+Object eval(CallStack callstack, Interpreter interpreter) | eval
+Object getInterpreter() | get interpreter
+Object newInterpreter() | new interpreter
+Object recursiveInterpreter(QInterpreter;QString;QVector;) | recursive interpreter
+Object recursiveInterpreter(QInterpreter;QString;QVector;I) | recursive interpreter
+Option<QPair<QBoolean;QBoolean;>;> setActiveInterpreter(QString;) | set active interpreter
+Option<QPair<QBoolean;QBoolean;>;> setToDefaultInterpreter() | set to default interpreter
+Pair<QBoolean;QBoolean;> setActiveInterpreter(QString;) | set active interpreter
+Pair<QBoolean;QBoolean;> setToDefaultInterpreter() | set to default interpreter
+void addInterpreter(QString;) | add interpreter
+void addInterpreter(QString;QObject;QClass<*>;[QObject;[QString;[QClass<*>;) | add interpreter
+void assertInterpreterChangedCount(I) | assert interpreter changed count
+void assertInterpreterExitedCount(I) | assert interpreter exited count
+void assertInterpreterReadyCount(I) | assert interpreter ready count
+void assertInterpreterResetFailedCount(I) | assert interpreter reset failed count
+void assertInterpreterResettingCount(I) | assert interpreter resetting count
+void captureInterpreterStackInfo(QRhinoException;) | capture interpreter stack info
+void _copyVariablesFromInterpreter() | copy variables from interpreter
+void _dumpVariablesIntoInterpreterAndSwitch() | dump variables into interpreter and switch
+void interpreterReady(QFile;) | interpreter ready
+void interpreterResetting() | interpreter resetting
+void _interpreterWontStart(QException;) | interpreter wont start
+void interpreterWontStart(QException;) | interpreter wont start
+void notifyDebugInterpreterAssignment(QString;) | notify debug interpreter assignment
+void _notifyInterpreterReady(QFile;) | notify interpreter ready
+void _notifyInterpreterResetting() | notify interpreter resetting
+void _removeAllDebugInterpreters() | remove all debug interpreters
+void _removeCurrentDebugInterpreter(Z) | remove current debug interpreter
+void removeInterpreter() | remove interpreter
+void removeInterpreter(QString;) | remove interpreter
+void _resetInterpreter(QFile;Z) | reset interpreter
+void resetInterpreter(QFile;Z) | reset interpreter
+void restartInterpreterJVM(Z) | restart interpreter jvm
+void saveInterpretersInfoModulesManager() | save interpreters info modules manager
+void setActiveInterpreter(QString;QString;) | set active interpreter
+void setInterpreterPrivateAccessible(boolean accessible) | set interpreter private accessible
+void setInterpreterPrivateAccessible(Z) | set interpreter private accessible
+void setMaximumInterpreterStackDepth(I) | set maximum interpreter stack depth
+void setToDefaultInterpreter() | set to default interpreter
+void setWaitingForFirstInterpreter(Z) | set waiting for first interpreter
+void startInterpreterJVM() | start interpreter jvm
+void stopInterpreterJVM() | stop interpreter jvm
+void _switchToInterpreterForThreadReference(QThreadReference;) | switch to interpreter for thread reference
+void testSwitchActiveInterpreter() | test switch active interpreter
+void testSwitchInterpreters() | test switch interpreters
+void testSwitchToNonExistantInterpreter() | test switch to non existant interpreter

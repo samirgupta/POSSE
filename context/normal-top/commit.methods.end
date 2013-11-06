@@ -1,0 +1,13 @@
+boolean dataDefinitionCausesTransactionCommit() | data definition causes transaction commit
+boolean getAutoCommit() | get auto commit
+boolean getAutoCommit(QConnection;) | get auto commit
+boolean isAutoCommit() | is auto commit
+boolean isDataDefinitionImplicitCommit() | is data definition implicit commit
+boolean supportsOpenCursorsAcrossCommit() | supports open cursors across commit
+boolean supportsOpenStatementsAcrossCommit() | supports open statements across commit
+void prepareCommit() | prepare commit
+void processCommit() | process commit
+void rollbackAndResetAutoCommit() | rollback and reset auto commit
+void setAutoCommit(Z) | set auto commit
+void setDataDefinitionImplicitCommit(Z) | set data definition implicit commit
+void toggleAutoCommit() | toggle auto commit

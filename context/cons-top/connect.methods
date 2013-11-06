@@ -1,0 +1,163 @@
+CONS AbstractChangeConnectionHandle(QFigure;) | abstract change connection handle
+CONS AbstractConnector() | abstract connector
+CONS AbstractConnector(QFigure;) | abstract connector
+CONS ActiveConnectionDialog(Qjava.awt.Frame;Z) | active connection dialog
+CONS AEProxyConnectionImpl(QAEProxyImpl;QSocketChannel;QAEProxyHandler;) | ae proxy connection impl
+CONS AESocksProxyConnectionImpl(QAESocksProxyImpl;QAESocksProxyPlugableConnectionFactory;QAEProxyConnection;) | ae socks proxy connection impl
+CONS AESocksProxyPlugableConnectionDefault(QAESocksProxyConnection;) | ae socks proxy plugable connection default
+CONS AZPluginConnection(QURL;) | az plugin connection
+CONS BeanConnection(QBeanInstance;QBeanInstance;QEventSetDescriptor;) | bean connection
+CONS BidirectionalConnectionTool(QConnectionFigure;) | bidirectional connection tool
+CONS BidirectionalConnectionTool(QConnectionFigure;QMap<QAttributeKey;QObject;>;) | bidirectional connection tool
+CONS BorrowedConnectionProxy(QConnectionManager;) | borrowed connection proxy
+CONS ChangeConnectionEndHandle(QFigure;) | change connection end handle
+CONS ChangeConnectionStartHandle(QFigure;) | change connection start handle
+CONS ChopBezierConnector() | chop bezier connector
+CONS ChopBezierConnector(QBezierFigure;) | chop bezier connector
+CONS ChopDiamondConnector() | chop diamond connector
+CONS ChopDiamondConnector(QFigure;) | chop diamond connector
+CONS ChopEllipseConnector() | chop ellipse connector
+CONS ChopEllipseConnector(QFigure;) | chop ellipse connector
+CONS ChopRectangleConnector() | chop rectangle connector
+CONS ChopRectangleConnector(QFigure;) | chop rectangle connector
+CONS ChopRoundRectangleConnector() | chop round rectangle connector
+CONS ChopRoundRectangleConnector(QFigure;) | chop round rectangle connector
+CONS ChopTriangleConnector() | chop triangle connector
+CONS ChopTriangleConnector(QTriangleFigure;) | chop triangle connector
+CONS ClientConnection(QSocketChannel;) | client connection
+CONS ClientConnection(QTCPTransportImpl;) | client connection
+CONS ConnectController(QFreeColClient;) | connect controller
+CONS ConnectDialog(QFrame;) | connect dialog
+CONS ConnectDialog(QJFrame;) | connect dialog
+CONS ConnectedEvent(QObject;) | connected event
+CONS ConnectedTimeItem(QString;) | connected time item
+CONS Connection() | connection
+CONS ConnectionDialog(QFrame;QString;) | connection dialog
+CONS ConnectionDialog(Qjava.awt.Frame;Z) | connection dialog
+CONS ConnectionDialogSwing(QJFrame;QString;) | connection dialog swing
+CONS ConnectionEndpoint(QInetSocketAddress;) | connection endpoint
+CONS ConnectionEvent(QObject;I) | connection event
+CONS ConnectionEvent(QObject;IQDbUtils;) | connection event
+CONS ConnectionEvent(QObject;IQDbUtils;QException;) | connection event
+CONS ConnectionFactory() | connection factory
+CONS ConnectionHandle(QFigure;QLocator;QConnectionFigure;) | connection handle
+CONS ConnectionHandler(QSocket;QConnectionThread;) | connection handler
+CONS ConnectionImpl(Qcom.aelitis.azureus.core.networkmanager.NetworkConnection;Z) | connection impl
+CONS ConnectionManagerImpl(QAzureusCore;) | connection manager impl
+CONS ConnectionManager(QSessionFactoryImplementor;QCallback;QConnectionReleaseMode;QConnection;QInterceptor;) | connection manager
+CONS ConnectionManager(QSessionFactoryImplementor;QCallback;QConnectionReleaseMode;QInterceptor;ZZ) | connection manager
+CONS ConnectionPanel(QGanttProject;) | connection panel
+CONS ConnectionPanel(QJFrame;) | connection panel
+CONS ConnectionProviderFactory() | connection provider factory
+CONS Connection(QSocket;I) | connection
+CONS Connection(QSocket;QMessageHandler;QString;) | connection
+CONS Connection(QString;II) | connection
+CONS Connection(QString;IQMessageHandler;QString;) | connection
+CONS ConnectionReleaseMode(QString;) | connection release mode
+CONS ConnectionsDialog(Qjava.awt.Frame;Z) | connections dialog
+CONS ConnectionSetting() | connection setting
+CONS ConnectionSetting(QString;QString;QString;QString;QString;) | connection setting
+CONS ConnectionThread(QServer;) | connection thread
+CONS ConnectionTool(QConnectionFigure;) | connection tool
+CONS ConnectionTool(QConnectionFigure;QMap;) | connection tool
+CONS ConnectionTool(QString;) | connection tool
+CONS ConnectionTool(QString;QMap<QAttributeKey;QObject;>;) | connection tool
+CONS ConnectionTypesSample() | connection types sample
+CONS DatabaseConnection() | database connection
+CONS DatabaseConnectionDialog(QFrame;) | database connection dialog
+CONS DatabaseConnectionDialog(QFrame;QString;QString;) | database connection dialog
+CONS DatabaseConnectionDialog(QFrame;QString;QString;Z) | database connection dialog
+CONS DataConnection(QFtpConnection;IQString;QString;QString;) | data connection
+CONS DataConnection(QFtpConnection;IQString;QString;QString;Z) | data connection
+CONS DataConnection(QFtpConnection;IQString;QString;QString;ZI) | data connection
+CONS DataConnection(QFtpConnection;IQString;QString;QString;ZIQInputStream;) | data connection
+CONS DataConnection(QFtpConnection;IQString;QString;QString;ZQString;) | data connection
+CONS DataConnection(QFtpConnection;IQString;QString;QString;ZZ) | data connection
+CONS DataStreamConnection(QSocket;I) | data stream connection
+CONS DataStreamConnection(QString;II) | data stream connection
+CONS DbConnectAction(QBasePanel;) | db connect action
+CONS DBConnectDialog(QJFrame;QDBStrings;) | db connect dialog
+CONS DummyConnection(QString;QMessageHandler;) | dummy connection
+CONS FilesystemConnection() | filesystem connection
+CONS FilesystemConnection(QString;QConnectionListener;) | filesystem connection
+CONS FtpConnection(QString;) | ftp connection
+CONS FtpConnection(QString;IQString;) | ftp connection
+CONS FtpURLConnection(QURL;) | ftp url connection
+CONS GamePlayerConnectedEvent(QObject;QPlayer;) | game player connected event
+CONS GenericMessageConnectionDirect(QString;QString;QGenericMessageEndpointImpl;I[[B) | generic message connection direct
+CONS GenericMessageConnectionImpl(QMessageManagerImpl;QGenericMessageConnectionAdapter;) | generic message connection impl
+CONS GenericMessageConnectionImpl(QMessageManagerImpl;QString;QString;QGenericMessageEndpointImpl;I[[B) | generic message connection impl
+CONS GenericMessageConnectionIndirect(QMessageManagerImpl;QString;QString;QGenericMessageEndpoint;J) | generic message connection indirect
+CONS GenericMessageConnectionIndirect(QMessageManagerImpl;QString;QString;QGenericMessageEndpoint;QInetSocketAddress;QInetSocketAddress;) | generic message connection indirect
+CONS HSQLClientConnection(QString;IQString;QString;ZQString;QString;) | hsql client connection
+CONS HTTPClientConnection(QString;IQString;QString;ZQString;QString;) | http client connection
+CONS HTTPNetworkConnectionFile(QHTTPNetworkManager;QNetworkConnection;QPEPeerTransport;) | http network connection file
+CONS HTTPNetworkConnection(QHTTPNetworkManager;QNetworkConnection;QPEPeerTransport;) | http network connection
+CONS HTTPNetworkConnectionWebSeed(QHTTPNetworkManager;QNetworkConnection;QPEPeerTransport;) | http network connection web seed
+CONS IncomingConnectionManager() | incoming connection manager
+CONS JavaBeanDataSourceConnection() | java bean data source connection
+CONS JConnection(QString;I) | j connection
+CONS JConnection(QString;II) | j connection
+CONS JDBCConnection() | jdbc connection
+CONS JDBCConnectionException(QString;QSQLException;) | jdbc connection exception
+CONS JDBCConnectionException(QString;QSQLException;QString;) | jdbc connection exception
+CONS jdbcConnection(QHsqlProperties;) | jdbc connection
+CONS jdbcConnection(QSession;) | jdbc connection
+CONS JRawConnection(QString;I) | j raw connection
+CONS JRawConnection(QString;IZ) | j raw connection
+CONS JRCSVDataSourceConnection() | jr csv data source connection
+CONS JRCustomDataSourceConnection() | jr custom data source connection
+CONS JRDataSourceProviderConnection() | jr data source provider connection
+CONS JRXMLDataSourceConnection() | jrxml data source connection
+CONS LabeledLineConnectionFigure() | labeled line connection figure
+CONS LabeledLineConnectionFigureSample() | labeled line connection figure sample
+CONS LastConnections(QJFtp;) | last connections
+CONS LineConnectionFigure() | line connection figure
+CONS LocatorConnector() | locator connector
+CONS LocatorConnector(QFigure;QLocator;) | locator connector
+CONS MagnetConnection(QURL;) | magnet connection
+CONS ManagedProviderConnectionHelper(QProperties;) | managed provider connection helper
+CONS NetworkConnectionImpl(QConnectionEndpoint;QMessageStreamEncoder;QMessageStreamDecoder;ZZ[[B) | network connection impl
+CONS NetworkConnectionImpl(QTransport;QMessageStreamEncoder;QMessageStreamDecoder;) | network connection impl
+CONS NeuralConnection(QString;) | neural connection
+CONS NfsConnection(QString;) | nfs connection
+CONS NtlmHttpURLConnection(QHttpURLConnection;) | ntlm http url connection
+CONS ObjectStreamConnection(QSocket;I) | object stream connection
+CONS ObjectStreamConnection(QString;II) | object stream connection
+CONS PeerForeignNetworkConnection(QPeer;) | peer foreign network connection
+CONS PRUDPPacketReplyConnect(IJ) | prudp packet reply connect
+CONS PRUDPPacketReplyConnect(QDataInputStream;I) | prudp packet reply connect
+CONS PRUDPPacketRequestConnect() | prudp packet request connect
+CONS PRUDPPacketRequestConnect(QDataInputStream;JI) | prudp packet request connect
+CONS RawConnection() | raw connection
+CONS RawConnection(QString;I) | raw connection
+CONS ServerConnection(QSocket;QServer;) | server connection
+CONS SESTSConnectionImpl(QAzureusCore;QGenericMessageConnectionImpl;QSEPublicKey;QSEPublicKeyLocator;QString;I) | se sts connection impl
+CONS SftpConnection(QSshConnectionProperties;) | sftp connection
+CONS SftpConnection(QString;) | sftp connection
+CONS SftpConnection(QString;I) | sftp connection
+CONS SmbComTreeConnectAndX(QSmbSession;QString;QString;QServerMessageBlock;) | smb com tree connect and x
+CONS SmbComTreeConnectAndXResponse(QServerMessageBlock;) | smb com tree connect and x response
+CONS SmbConnection() | smb connection
+CONS SmbConnection(QString;QString;QString;QString;QConnectionListener;) | smb connection
+CONS Socks5URLConnection(QURL;) | socks 5 url connection
+CONS StickyRectangleConnector() | sticky rectangle connector
+CONS StickyRectangleConnector(QFigure;QPoint2D.Double;) | sticky rectangle connector
+CONS SuppliedConnectionHelper(QConnection;) | supplied connection helper
+CONS SuppliedConnectionProviderConnectionHelper(QConnectionProvider;) | supplied connection provider connection helper
+CONS TCPConnectionManager() | tcp connection manager
+CONS TestMultipleConnections() | test multiple connections
+CONS TiVoConnect(QServer;) | ti vo connect
+CONS ToolbarConnectionPanel(QMainFrame;) | toolbar connection panel
+CONS UDPConnectionManager() | udp connection manager
+CONS UDPConnection(QUDPConnectionSet;I) | udp connection
+CONS UDPConnection(QUDPConnectionSet;IQUDPTransportHelper;) | udp connection
+CONS UDPConnectionSet(QUDPConnectionManager;QString;QUDPSelector;IQInetSocketAddress;) | udp connection set
+CONS UDPURLConnection(QURL;) | udp url connection
+CONS UPnPSSWANConnectionImpl(QUPnPServiceImpl;) | upn psswan connection impl
+CONS UPnPSSWANIPConnectionImpl(QUPnPServiceImpl;) | upn ps swan ip connection impl
+CONS UPnPSSWANPPPConnectionImpl(QUPnPServiceImpl;) | upn pss wan ppp connection impl
+CONS UserConnectionHandler(QFreeColServer;) | user connection handler
+CONS WebdavConnection(QString;QString;QString;QConnectionListener;) | webdav connection
+CONS WebServerConnection(QSocket;QWebServer;) | web server connection
+CONS ZaurusConnectionDialog(QFrame;QString;) | zaurus connection dialog

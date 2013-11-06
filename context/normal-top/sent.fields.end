@@ -1,0 +1,26 @@
+boolean bitfield_sent | bitfield sent
+boolean creationEventWasSent | creation event was sent
+boolean handshake_sent | handshake sent
+boolean result_sent | result sent
+int DATA_BYTES_SENT | data bytes sent
+int invitationsSent | invitations sent
+int MESSAGE_SENT | message sent
+int PROTOCOL_BYTES_SENT | protocol bytes sent
+int STAT_SENT | stat sent
+int stats_packets_unique_sent | stats packets unique sent
+int total_data_sent | total data sent
+int total_packets_sent | total packets sent
+int total_packets_unique_sent | total packets unique sent
+int total_protocol_sent | total protocol sent
+java.util.LinkedList prev_sent | prev sent
+java.util.Set downloads_sent | downloads sent
+long bytes_sent | bytes sent
+long bytesSent | bytes sent
+long last_message_sent | last message sent
+long packets_sent | packets sent
+long publish_sent | publish sent
+long total_bytes_sent | total bytes sent
+long total_data_bytes_sent | total data bytes sent
+long total_packets_sent | total packets sent
+long total_protocol_bytes_sent | total protocol bytes sent
+megamek.common.util.CircularIntegerBuffer debugLastFewCommandsSent | debug last few commands sent

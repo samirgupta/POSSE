@@ -1,0 +1,27 @@
+ArrayList<QHighlightStatus;> getHighlightStatus(II) | get highlight status
+boolean isHighlightWithInvisibleEdge() | is highlight with invisible edge
+Color getBracketHighlightColor() | get bracket highlight color
+Color getLineHighlightColor() | get line highlight color
+HighlightManager getHighlightManager() | get highlight manager
+int getHighlightState() | get highlight state
+Object getHighlightTag() | get highlight tag
+void _checkHighlightStatusConsistent(QList<QHighlightStatus;>;II) | check highlight status consistent
+void DefaultFrameHighlightPainter(QColor;I) | default frame highlight painter
+void DefaultUnderlineHighlightPainter(QColor;I) | default underline highlight painter
+void DrJavaHighlightPainter(QColor;) | dr java highlight painter
+void refreshBookmarkHighlightPainter() | refresh bookmark highlight painter
+void refreshBreakpointHighlightPainter() | refresh breakpoint highlight painter
+void refreshFindResultsHighlightPainter(QFindResultsPanel;QLayeredHighlighter.LayerPainter;) | refresh find results highlight painter
+void setBracketHighlightColor(QColor;) | set bracket highlight color
+void setHighlight1Cell(QObject;) | set highlight 1 cell
+void setHighlight2Cells([QObject;) | set highlight 2 cells
+void setHighlight3Cells([QObject;) | set highlight 3 cells
+void setHighlightBorderCell(QGroupTreeNode;) | set highlight border cell
+void setHighlightBorderCell(QObject;) | set highlight border cell
+void setHighlightHops(int h) | set highlight hops
+void setHighlightTag(QObject;) | set highlight tag
+void setHighlightWithInvisibleEdge(Z) | set highlight with invisible edge
+void setLineHighlightColor(QColor;) | set line highlight color
+void testHighlightInfoEquals() | test highlight info equals
+void textHighlightKeywords1() | text highlight keywords 1
+void textHighlightKeywords2() | text highlight keywords 2

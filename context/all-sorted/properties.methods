@@ -1,0 +1,423 @@
+../3-Phrases/Base_Verb:static ResourcePropertiesDocument parse(File file, XmlOptions options) | resource properties document parse
+../3-Phrases/Base_Verb:static StyleParagraphPropertiesElements parse(Node node) | style paragraph properties elements parse
+../3-Phrases/Base_Verb:void initialize(Properties properties, int id) | initialize
+../3-Phrases/Base_Verb:ClientPortPropertiesArray getClientPortPropertiesArrayVal() | get client port properties array val
+../3-Phrases/Base_Verb:HashMap getXslProperties() | get xsl properties
+../3-Phrases/Base_Verb:BashFormatter addObjectProperties(Object o, String properties) | add object properties
+../3-Phrases/Base_Verb:void processProperties(Properties p, Object obj, boolean removeFoundKeys, String prefix) | process properties
+../3-Phrases/Base_Verb:void setPropertiesValues(Properties prop) | set properties values
+../3-Phrases/Base_Verb:void loadProperties(ClassLoader al, URL url) | load properties
+../3-Phrases/Base_Verb:JPanel getPropertiesPanel() | get properties panel
+../3-Phrases/Base_Verb:Collection getJndiProperties() | get jndi properties
+../3-Phrases/Base_Verb:Map getJoinedProperties() | get joined properties
+../3-Phrases/Base_Verb:boolean adjustProperties() | adjust properties
+../3-Phrases/Base_Verb:void getProperties() | get properties
+../3-Phrases/Base_Verb:JPanel getPropertiesUI() | get properties ui
+../3-Phrases/Base_Verb:void testUrlPropertiesLoader() | test url properties loader
+../3-Phrases/Base_Verb:Map getProperties(Integer entityId, String entityType, String mergeSeparator) | get properties
+../3-Phrases/Base_Verb:static Properties loadProperties(String name) | properties load properties
+../3-Phrases/Base_Verb:static Map<String,String> buildProperties(Properties propertiesXml) | map<string,string> build properties
+../3-Phrases/Base_Verb:void loadProperties(Thinlet thinlet, Object table) | load properties
+../3-Phrases/Base_Verb:static int searchCount(long companyId, String name, String properties) | int search count
+../3-Phrases/Base_Verb:void pushNewVariablePropertiesTuple(VariablePropertiesTuple variablePropertiesTuple) | push new variable properties tuple
+../3-Phrases/Base_Verb:static void importProperties(Properties props, Element propertiesElement) | void import properties
+../3-Phrases/Base_Verb:ZWidgetProperties getWidgetProperties() | get widget properties
+../3-Phrases/DrawSWF:CONS PropertiesDialog(QObject;) | properties dialog
+../3-Phrases/DrawSWF:void applyProperties() | apply properties
+../3-Phrases/DrawSWF:Enumeration getProperties() | get properties
+../3-Phrases/DrawSWF:void setProperties(ZZZZZZZZ) | set properties
+../3-Phrases/drjava2:File getPropertiesFile() | get properties file
+../3-Phrases/drjava2:void setPropertiesFile(QString;) | set properties file
+../3-Phrases/drjava2:void testFakeConfigProperties() | test fake config properties
+../3-Phrases/drjava2:Map<QString;QDrJavaProperty;> getProperties(QString;) | get properties
+../3-Phrases/drjava2:void setUpDrJavaProperties() | set up dr java properties
+../3-Phrases/drjava2:CONS ProjectPropertiesFrame(QMainFrame;) | project properties frame
+../3-Phrases/freecol2:void configurePropertiesFromAction(QAction;) | configure properties from action
+../3-Phrases/freecol2:void setProperties(QGraphics;QJComponent;) | set properties
+../3-Phrases/freemind:void writeProperties(QProperties;) | write properties
+../3-Phrases/freemind:Properties getProperties() | get properties
+../3-Phrases/freemind:Properties getProperties() | get properties
+../3-Phrases/freemind:void setProperties(QProperties;) | set properties
+../3-Phrases/freemind:void setProperties(QProperties;) | set properties
+../3-Phrases/freemind:Properties getProperties() | get properties
+../3-Phrases/freemind:void saveProperties() | save properties
+../3-Phrases/freemind:Properties getProperties() | get properties
+../3-Phrases/freemind:void saveProperties() | save properties
+../3-Phrases/freemind:Properties getProperties() | get properties
+../3-Phrases/freemind:void saveProperties() | save properties
+../3-Phrases/freemind:void writeProperties(QProperties;) | write properties
+../3-Phrases/freemind:Properties getProperties() | get properties
+../3-Phrases/freemind:void setProperties(QProperties;) | set properties
+../3-Phrases/freemind:Properties getOptionProperties() | get option properties
+../3-Phrases/gantt:void taskPropertiesChanged(QTaskPropertyEvent;) | task properties changed
+../3-Phrases/gantt:void setTaskPropertiesAction(QAction;) | set task properties action
+../3-Phrases/gantt:Action getTaskPropertiesAction() | get task properties action
+../3-Phrases/gantt:Action getResourcePropertiesAction() | get resource properties action
+../3-Phrases/gantt:void setTaskPropertiesAction(QAction;) | set task properties action
+../3-Phrases/gantt:Action getTaskPropertiesAction() | get task properties action
+../3-Phrases/gantt:void propertiesTask() | properties task
+../3-Phrases/gantt:List getCustomProperties() | get custom properties
+../3-Phrases/gantt:CONS ResourcePropertiesAction(QIGanttProject;QUIFacade;) | resource properties action
+../3-Phrases/gantt:CONS TaskPropertiesAction(QIGanttProject;QTaskSelectionManager;QUIFacade;) | task properties action
+../3-Phrases/gantt:void taskPropertiesChanged(QTaskPropertyEvent;) | task properties changed
+../3-Phrases/gantt:CONS GanttDialogProperties([QGanttTask;) | gantt dialog properties
+../3-Phrases/gantt:CONS GanttTaskPropertiesBean([QGanttTask;QTaskManager;QHumanResourceManager;QRoleManager;) | gantt task properties bean
+../3-Phrases/gantt:void saveCustomProperties(QIGanttProject;QHumanResource;QTransformerHandler;) | save custom properties
+../3-Phrases/gantt:void writeTaskProperties(QTransformerHandler;QCustomColumnsStorage;) | write task properties
+../3-Phrases/gantt:CONS CustomPropertiesTagHandler(QParsingContext;QTaskManager;) | custom properties tag handler
+../3-Phrases/gantt:void CustomPropertiesStructure() | custom properties structure
+../3-Phrases/gantt:CONS TaskPropertiesTagHandler(QGanttTreeTable;) | task properties tag handler
+../3-Phrases/gantt:void initCustomProperties() | init custom properties
+../3-Phrases/gantt:List getCustomProperties() | get custom properties
+../3-Phrases/gantt:void fireTaskPropertiesChanged(QTask;) | fire task properties changed
+../3-Phrases/gantt:void taskPropertiesChanged(QTaskPropertyEvent;) | task properties changed
+../3-Phrases/gantt:void taskPropertiesChanged(QTaskPropertyEvent;) | task properties changed
+../3-Phrases/hibernate-3.3.1.GA:Query setProperties(QObject;) | set properties
+../3-Phrases/hibernate-3.3.1.GA:Query setProperties(QMap;) | set properties
+../3-Phrases/hibernate-3.3.1.GA:boolean areLazyPropertiesUnfetched() | are lazy properties unfetched
+../3-Phrases/hibernate-3.3.1.GA:Properties getProperties() | get properties
+../3-Phrases/hibernate-3.3.1.GA:Configuration setProperties(QProperties;) | set properties
+../3-Phrases/hibernate-3.3.1.GA:Configuration addProperties(QProperties;) | add properties
+../3-Phrases/hibernate-3.3.1.GA:Configuration mergeProperties(QProperties;) | merge properties
+../3-Phrases/hibernate-3.3.1.GA:void addProperties(QElement;) | add properties
+../3-Phrases/hibernate-3.3.1.GA:void createClassProperties(QElement;QPersistentClass;QMappings;Qjava.util.Map;) | create class properties
+../3-Phrases/hibernate-3.3.1.GA:void createClassProperties(QElement;QPersistentClass;QMappings;Qjava.util.Map;QUniqueKey;ZZZ) | create class properties
+../3-Phrases/hibernate-3.3.1.GA:void verifyProperties(QProperties;) | verify properties
+../3-Phrases/hibernate-3.3.1.GA:Properties getProperties() | get properties
+../3-Phrases/hibernate-3.3.1.GA:Properties getConnectionProperties(QProperties;) | get connection properties
+../3-Phrases/hibernate-3.3.1.GA:void registerDefaultProperties() | register default properties
+../3-Phrases/hibernate-3.3.1.GA:Properties getDefaultProperties() | get default properties
+../3-Phrases/hibernate-3.3.1.GA:void clearNullProperties() | clear null properties
+../3-Phrases/hibernate-3.3.1.GA:boolean isLoadedWithLazyPropertiesUnfetched() | is loaded with lazy properties unfetched
+../3-Phrases/hibernate-3.3.1.GA:int[] getDirtyProperties() | get dirty properties
+../3-Phrases/hibernate-3.3.1.GA:void setDirtyProperties([I) | set dirty properties
+../3-Phrases/hibernate-3.3.1.GA:CONS CollectionProperties() | collection properties
+../3-Phrases/hibernate-3.3.1.GA:void renderNonScalarProperties(QASTAppender;QFromElement;II) | render non scalar properties
+../3-Phrases/hibernate-3.3.1.GA:void renderPropertiesSelect(QQuerySelect;) | render properties select
+../3-Phrases/hibernate-3.3.1.GA:Query setProperties(QMap;) | set properties
+../3-Phrases/hibernate-3.3.1.GA:Query setProperties(QObject;) | set properties
+../3-Phrases/hibernate-3.3.1.GA:String resolveCollectionProperties(QString;QString;) | resolve collection properties
+../3-Phrases/hibernate-3.3.1.GA:String resolveProperties(QString;QString;) | resolve properties
+../3-Phrases/hibernate-3.3.1.GA:boolean isLazyPropertiesCacheable() | is lazy properties cacheable
+../3-Phrases/hibernate-3.3.1.GA:Properties getIdentifierGeneratorProperties() | get identifier generator properties
+../3-Phrases/hibernate-3.3.1.GA:void setIdentifierGeneratorProperties(QProperties;) | set identifier generator properties
+../3-Phrases/hibernate-3.3.1.GA:boolean isLazyPropertiesCacheable() | is lazy properties cacheable
+../3-Phrases/hibernate-3.3.1.GA:boolean isLazyPropertiesCacheable() | is lazy properties cacheable
+../3-Phrases/hibernate-3.3.1.GA:void setLazyPropertiesCacheable(Z) | set lazy properties cacheable
+../3-Phrases/hibernate-3.3.1.GA:int[] getNaturalIdentifierProperties() | get natural identifier properties
+../3-Phrases/hibernate-3.3.1.GA:int countSubclassProperties() | count subclass properties
+../3-Phrases/hibernate-3.3.1.GA:Object initializeLazyPropertiesFromDatastore(QString;QObject;QSessionImplementor;QSerializable;QEntityEntry;) | initialize lazy properties from datastore
+../3-Phrases/hibernate-3.3.1.GA:Object initializeLazyPropertiesFromCache(QString;QObject;QSessionImplementor;QEntityEntry;QCacheEntry;) | initialize lazy properties from cache
+../3-Phrases/hibernate-3.3.1.GA:Set getLazyProperties() | get lazy properties
+../3-Phrases/hibernate-3.3.1.GA:boolean isLazyPropertiesCacheable() | is lazy properties cacheable
+../3-Phrases/hibernate-3.3.1.GA:boolean hasFormulaProperties() | has formula properties
+../3-Phrases/hibernate-3.3.1.GA:int countSubclassProperties() | count subclass properties
+../3-Phrases/hibernate-3.3.1.GA:boolean[] getPropertiesToUpdate([IZ) | get properties to update
+../3-Phrases/hibernate-3.3.1.GA:boolean[] getPropertiesToInsert([QObject;) | get properties to insert
+../3-Phrases/hibernate-3.3.1.GA:void logDirtyProperties([I) | log dirty properties
+../3-Phrases/hibernate-3.3.1.GA:boolean hasLazyProperties() | has lazy properties
+../3-Phrases/hibernate-3.3.1.GA:boolean hasMutableProperties() | has mutable properties
+../3-Phrases/hibernate-3.3.1.GA:boolean hasInsertGeneratedProperties() | has insert generated properties
+../3-Phrases/hibernate-3.3.1.GA:boolean hasUpdateGeneratedProperties() | has update generated properties
+../3-Phrases/hibernate-3.3.1.GA:boolean hasUninitializedLazyProperties(QObject;QEntityMode;) | has uninitialized lazy properties
+../3-Phrases/hibernate-3.3.1.GA:void processInsertGeneratedProperties(QSerializable;QObject;[QObject;QSessionImplementor;) | process insert generated properties
+../3-Phrases/hibernate-3.3.1.GA:void processUpdateGeneratedProperties(QSerializable;QObject;[QObject;QSessionImplementor;) | process update generated properties
+../3-Phrases/hibernate-3.3.1.GA:void processGeneratedProperties(QSerializable;QObject;[QObject;QSessionImplementor;QString;[QValueInclusion;) | process generated properties
+../3-Phrases/hibernate-3.3.1.GA:int[] getNaturalIdentifierProperties() | get natural identifier properties
+../3-Phrases/hibernate-3.3.1.GA:boolean hasMutableProperties() | has mutable properties
+../3-Phrases/hibernate-3.3.1.GA:int[] getNaturalIdentifierProperties() | get natural identifier properties
+../3-Phrases/hibernate-3.3.1.GA:boolean hasLazyProperties() | has lazy properties
+../3-Phrases/hibernate-3.3.1.GA:boolean isLazyPropertiesCacheable() | is lazy properties cacheable
+../3-Phrases/hibernate-3.3.1.GA:boolean hasInsertGeneratedProperties() | has insert generated properties
+../3-Phrases/hibernate-3.3.1.GA:boolean hasUpdateGeneratedProperties() | has update generated properties
+../3-Phrases/hibernate-3.3.1.GA:void processInsertGeneratedProperties(QSerializable;QObject;[QObject;QSessionImplementor;) | process insert generated properties
+../3-Phrases/hibernate-3.3.1.GA:void processUpdateGeneratedProperties(QSerializable;QObject;[QObject;QSessionImplementor;) | process update generated properties
+../3-Phrases/hibernate-3.3.1.GA:boolean hasUninitializedLazyProperties(QObject;QEntityMode;) | has uninitialized lazy properties
+../3-Phrases/hibernate-3.3.1.GA:void setProperties(QFile;) | set properties
+../3-Phrases/hibernate-3.3.1.GA:void setProperties(QFile;) | set properties
+../3-Phrases/hibernate-3.3.1.GA:void setProperties(QFile;) | set properties
+../3-Phrases/hibernate-3.3.1.GA:StandardProperty[] getProperties() | get properties
+../3-Phrases/hibernate-3.3.1.GA:boolean hasUninitializedLazyProperties(QObject;) | has uninitialized lazy properties
+../3-Phrases/hibernate-3.3.1.GA:boolean hasUninitializedLazyProperties(QObject;) | has uninitialized lazy properties
+../3-Phrases/hibernate-3.3.1.GA:int[] getNaturalIdentifierProperties() | get natural identifier properties
+../3-Phrases/hibernate-3.3.1.GA:StandardProperty[] getProperties() | get properties
+../3-Phrases/hibernate-3.3.1.GA:boolean hasMutableProperties() | has mutable properties
+../3-Phrases/hibernate-3.3.1.GA:boolean hasLazyProperties() | has lazy properties
+../3-Phrases/hibernate-3.3.1.GA:boolean shouldGetAllProperties(QObject;) | should get all properties
+../3-Phrases/hibernate-3.3.1.GA:boolean hasUninitializedLazyProperties(QObject;) | has uninitialized lazy properties
+../3-Phrases/hibernate-3.3.1.GA:Properties buildProperties() | build properties
+../3-Phrases/hibernate-3.3.1.GA:Map getExtraProperties() | get extra properties
+../3-Phrases/hibernate-3.3.1.GA:Properties getJndiProperties(QProperties;) | get jndi properties
+../3-Phrases/hibernate-3.3.1.GA:CONS PropertiesHelper() | properties helper
+../3-Phrases/hibernate-3.3.1.GA:Properties getConfigProperties(QString;) | get config properties
+../3-Phrases/hsqldb:HsqlProperties getPropertiesFromFile(QString;) | get properties from file
+../3-Phrases/hsqldb:HsqlProperties newDefaultProperties(I) | new default properties
+../3-Phrases/hsqldb:HsqlDatabaseProperties getProperties() | get properties
+../3-Phrases/hsqldb:HsqlProperties getURLProperties() | get url properties
+../3-Phrases/hsqldb:Table SYSTEM_PROPERTIES() | system properties
+../3-Phrases/hsqldb:boolean putPropertiesFromFile(QString;) | put properties from file
+../3-Phrases/hsqldb:void putPropertiesFromString(QString;) | put properties from string
+../3-Phrases/hsqldb:void setProperties(QHsqlProperties;) | set properties
+../3-Phrases/hsqldb:void printProperties() | print properties
+../3-Phrases/hsqldb:void saveProperties(QProperties;QString;QOutputStream;) | save properties
+../3-Phrases/hsqldb:CONS HsqlProperties() | hsql properties
+../3-Phrases/hsqldb:CONS HsqlProperties(QString;) | hsql properties
+../3-Phrases/hsqldb:CONS HsqlProperties(QString;QFileAccess;Z) | hsql properties
+../3-Phrases/hsqldb:CONS HsqlProperties(QProperties;) | hsql properties
+../3-Phrases/hsqldb:Properties getProperties() | get properties
+../3-Phrases/hsqldb:void addProperties(QProperties;) | add properties
+../3-Phrases/hsqldb:void addProperties(QHsqlProperties;) | add properties
+../3-Phrases/hsqldb:CONS HsqlDatabaseProperties(QDatabase;) | hsql database properties
+../3-Phrases/hsqldb:void filterLoadedProperties() | filter loaded properties
+../3-Phrases/hsqldb:void setURLProperties(QHsqlProperties;) | set url properties
+../3-Phrases/iReport:HashMap getProperties() | get properties
+../3-Phrases/iReport:void setProperties(QHashMap;) | set properties
+../3-Phrases/iReport:java.util.HashMap getProperties() | get properties
+../3-Phrases/iReport:void loadProperties(Qjava.util.HashMap;) | load properties
+../3-Phrases/iReport:void copyElementPropertiesTo(QReportElement;) | copy element properties to
+../3-Phrases/iReport:void parseProperties(QVector;) | parse properties
+../3-Phrases/iReport:java.util.Vector getJRproperties() | get jr properties
+../3-Phrases/iReport:void setJRproperties(Qjava.util.Vector;) | set jr properties
+../3-Phrases/iReport:Vector getSheetProperties() | get sheet properties
+../3-Phrases/iReport:void setSheetProperties(QVector;) | set sheet properties
+../3-Phrases/iReport:void addChartSheetProperties(QChartDefinition;) | add chart sheet properties
+../3-Phrases/iReport:void setChartProperties(Qjava.util.Properties;QJFreeChart;) | set chart properties
+../3-Phrases/iReport:java.util.Properties parseProperties([QString;) | parse properties
+../3-Phrases/iReport:CONS ChartPropertiesDialog(Qjava.awt.Dialog;Z) | chart properties dialog
+../3-Phrases/iReport:CONS ChartPropertiesDialog(Qjava.awt.Frame;Z) | chart properties dialog
+../3-Phrases/iReport:void addCommonChartProperties() | add common chart properties
+../3-Phrases/iReport:void setPlotSheetProperties(QPlot;) | set plot sheet properties
+../3-Phrases/iReport:void setProperties(Qjava.util.Properties;) | set properties
+../3-Phrases/iReport:java.util.Properties getProperties() | get properties
+../3-Phrases/iReport:java.util.HashMap getProperties() | get properties
+../3-Phrases/iReport:void loadProperties(Qjava.util.HashMap;) | load properties
+../3-Phrases/iReport:java.util.HashMap getProperties() | get properties
+../3-Phrases/iReport:void loadProperties(Qjava.util.HashMap;) | load properties
+../3-Phrases/iReport:java.util.HashMap getProperties() | get properties
+../3-Phrases/iReport:void loadProperties(Qjava.util.HashMap;) | load properties
+../3-Phrases/iReport:java.util.HashMap getProperties() | get properties
+../3-Phrases/iReport:void loadProperties(Qjava.util.HashMap;) | load properties
+../3-Phrases/iReport:java.util.HashMap getProperties() | get properties
+../3-Phrases/iReport:void loadProperties(Qjava.util.HashMap;) | load properties
+../3-Phrases/iReport:java.util.HashMap getProperties() | get properties
+../3-Phrases/iReport:void loadProperties(Qjava.util.HashMap;) | load properties
+../3-Phrases/iReport:CONS ReportPropertiesFrame(Qjava.awt.Frame;Z) | report properties frame
+../3-Phrases/iReport:void revertDefaultFontProperties() | revert default font properties
+../3-Phrases/iReport:void jMenuItemPropertiesActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item properties action performed
+../3-Phrases/iReport:void jMenuItemReportPropertiesActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item report properties action performed
+../3-Phrases/iReport:void jMenuItemElementPropertiesActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item element properties action performed
+../3-Phrases/iReport:ElementPropertiesDialog getElementPropertiesDialog() | get element properties dialog
+../3-Phrases/iReport:void setElementPropertiesDialog(QElementPropertiesDialog;) | set element properties dialog
+../3-Phrases/iReport:Properties getProperties() | get properties
+../3-Phrases/iReport:void setProperties(QProperties;) | set properties
+../3-Phrases/iReport:void jMenuItemElementChartPropertiesActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item element chart properties action performed
+../3-Phrases/iReport:void jMenuItemBandPropertiesActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item band properties action performed
+../3-Phrases/iReport:void jMenuItemElementPropertiesActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item element properties action performed
+../3-Phrases/iReport:void jMenuItemElementPropertiesMouseClicked(Qjava.awt.event.MouseEvent;) | j menu item element properties mouse clicked
+../3-Phrases/iReport:void openElementPropertiesDialog() | open element properties dialog
+../3-Phrases/iReport:CONS PropertiesDialog(Qjava.awt.Frame;Z) | properties dialog
+../3-Phrases/iReport:void jTablePropertiesListSelectionValueChanged(Qjavax.swing.event.ListSelectionEvent;) | j table properties list selection value changed
+../3-Phrases/iReport:void jTablePropertiesMouseClicked(Qjava.awt.event.MouseEvent;) | j table properties mouse clicked
+../3-Phrases/iReport:void updateProperties() | update properties
+../3-Phrases/iReport:CONS ElementPropertiesDialog(Qjava.awt.Frame;Z) | element properties dialog
+../3-Phrases/iReport:void jMenuItemDSB_propertiesActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item dsb properties action performed
+../3-Phrases/iReport:void jMenuItemDS_chartPropertiesActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item ds chart properties action performed
+../3-Phrases/iReport:void jMenuItemDS_propertiesActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item ds properties action performed
+../3-Phrases/iReport:void initSheetProperties() | init sheet properties
+../3-Phrases/iReport:java.util.Properties getPropertiesValues() | get properties values
+../3-Phrases/iReport:void setPropertiesValues(Qjava.util.Properties;) | set properties values
+../3-Phrases/iReport:void removeAllProperties() | remove all properties
+../3-Phrases/iReport:java.util.Vector getProperties() | get properties
+../3-Phrases/iReport:void setProperties(Qjava.util.Vector;) | set properties
+../3-Phrases/iReport:java.util.Properties getPropertiesValues() | get properties values
+../3-Phrases/iReport:void setPropertiesValues(Qjava.util.Properties;) | set properties values
+../3-Phrases/iReport:void removeAllProperties() | remove all properties
+../3-Phrases/iReport:Vector getSortedProperties(QVector;) | get sorted properties
+../3-Phrases/iReport:java.util.Vector getProperties() | get properties
+../3-Phrases/iReport:void setProperties(Qjava.util.Vector;) | set properties
+../3-Phrases/Jabref:void DatabasePropertiesAction() | database properties action
+../3-Phrases/Jabref:CONS DatabasePropertiesDialog(QJFrame;) | database properties dialog
+../3-Phrases/Jabref:Map<QString;QString;> getAllProperties(QXMPSchema;QString;) | get all properties
+../3-Phrases/Jabref:void testGetAllProperties() | test get all properties
+../3-Phrases/jajuk:Collection<QPropertyMetaInformation;> getProperties() | get properties
+../3-Phrases/jajuk:Collection<QPropertyMetaInformation;> getCustomProperties() | get custom properties
+../3-Phrases/jajuk:Collection getVisibleProperties() | get visible properties
+../3-Phrases/jajuk:void populateProperties(QAttributes;) | populate properties
+../3-Phrases/jajuk:LinkedHashMap getProperties() | get properties
+../3-Phrases/jajuk:String getPropertiesXml() | get properties xml
+../3-Phrases/jajuk:void populateProperties(QAttributes;) | populate properties
+../3-Phrases/jajuk:void setProperties(QLinkedHashMap;) | set properties
+../3-Phrases/jajuk:void displayProperties() | display properties
+../3-Phrases/jajuk:void cloneProperties(QIPropertyable;) | clone properties
+../3-Phrases/jajuk:LinkedHashMap getProperties() | get properties
+../3-Phrases/jajuk:void setProperties(QLinkedHashMap;) | set properties
+../3-Phrases/jajuk:void displayProperties() | display properties
+../3-Phrases/jajuk:Properties getProperties() | get properties
+../3-Phrases/jajuk:Properties getPropertiesEn() | get properties en
+../3-Phrases/jajuk:void populateProperties() | populate properties
+../3-Phrases/jajuk:CONS PropertiesWizard(QArrayList<QIPropertyable;>;) | properties wizard
+../3-Phrases/jajuk:CONS PropertiesWizard(QArrayList<QIPropertyable;>;QArrayList<QIPropertyable;>;) | properties wizard
+../3-Phrases/jajuk:void PropertiesPanel(QArrayList<QIPropertyable;>;QString;Z) | properties panel
+../3-Phrases/jajuk:void configurePropertiesFromAction(QAction;) | configure properties from action
+../3-Phrases/jajuk:void setDefaultProperties() | set default properties
+../3-Phrases/jajuk:Properties getProperties() | get properties
+../3-Phrases/jajuk:Properties getAnonymizedSystemProperties() | get anonymized system properties
+../3-Phrases/jajuk:Properties getAnonymizedJajukProperties() | get anonymized jajuk properties
+../3-Phrases/javaHMO:void printSystemProperties() | print system properties
+../3-Phrases/javaHMO:void printSystemProperties() | print system properties
+../3-Phrases/javaHMO:void printServerProperties() | print server properties
+../3-Phrases/jbidwatcher:void getColumnWidthsToProperties(QProperties;QString;) | get column widths to properties
+../3-Phrases/jbidwatcher:void getColumnWidthsToProperties(QProperties;) | get column widths to properties
+../3-Phrases/jbidwatcher:Properties getSortProperties(QString;QProperties;) | get sort properties
+../3-Phrases/jbidwatcher:Properties extractProperties(QProperties;) | extract properties
+../3-Phrases/jbidwatcher:CONS JTabProperties(QString;) | j tab properties
+../3-Phrases/jbidwatcher:Properties getColumnProperties() | get column properties
+../3-Phrases/Jftp:void setProperties(QProperties;) | set properties
+../3-Phrases/Jftp:Map getRequestProperties() | get request properties
+../3-Phrases/Jftp:CONS Properties(QString;QString;) | properties
+../3-Phrases/Jftp:void setSshProperties(Qcom.sshtools.j2ssh.configuration.SshConnectionProperties;) | set ssh properties
+../3-Phrases/MegaMek-0.32.0:String[] getAdvancedProperties() | get advanced properties
+../3-Phrases/MegaMek-0.32.0:String[] getAdvancedProperties() | get advanced properties
+../3-Phrases/MegaMek-0.32.0:String[] getAdvancedProperties() | get advanced properties
+../3-Phrases/MegaMek-0.32.0:String[] getAdvancedProperties() | get advanced properties
+../3-Phrases/MegaMek-0.32.0:String[] getAdvancedProperties() | get advanced properties
+../3-Phrases/MegaMek-0.32.0:Properties loadProperties() | load properties
+../3-Phrases/np:Iterator properties() | properties
+../3-Phrases/PlanetaMessenger:void setMainWindowProperties(Qjava.awt.Point;Qjava.awt.Dimension;Z) | set main window properties
+../3-Phrases/PlanetaMessenger:void setProfileWindowProperties(Qjava.awt.Point;Qjava.awt.Dimension;) | set profile window properties
+../3-Phrases/PlanetaMessenger:void setProtocolWindowProperties(Qjava.awt.Point;Qjava.awt.Dimension;) | set protocol window properties
+../3-Phrases/PlanetaMessenger:void setWindowProperties(Qjava.awt.Point;Qjava.awt.Dimension;ZI) | set window properties
+../3-Phrases/PlanetaMessenger:JPluginProperties getPluginProperties(QString;) | get plugin properties
+../3-Phrases/PlanetaMessenger:JPluginProperties getPluginPropertiesByClassName(QString;) | get plugin properties by class name
+../3-Phrases/PlanetaMessenger:CONS JMOSPluginPropertiesDlg(Qjava.awt.Frame;IZ) | jmos plugin properties dlg
+../3-Phrases/PlanetaMessenger:CONS JPluginProperties() | j plugin properties
+../3-Phrases/PlanetaMessenger:void onPluginPropertiesUpdated() | on plugin properties updated
+../3-Phrases/PlanetaMessenger:void fireOnPluginPropertiesUpdated() | fire on plugin properties updated
+../3-Phrases/PlanetaMessenger:void onPluginPropertiesUpdated() | on plugin properties updated
+../3-Phrases/PlanetaMessenger:void onPluginPropertiesUpdated() | on plugin properties updated
+../3-Phrases/PlanetaMessenger:void onPluginPropertiesUpdated() | on plugin properties updated
+../3-Phrases/PlanetaMessenger:void onPluginPropertiesUpdated() | on plugin properties updated
+../3-Phrases/PlanetaMessenger:void onPluginPropertiesUpdated() | on plugin properties updated
+../3-Phrases/PlanetaMessenger:void onPluginPropertiesUpdated() | on plugin properties updated
+../3-Phrases/prefuse:void setRangeProperties(IIIIZ) | set range properties
+../3-Phrases/rhino:void defineFunctionProperties([QString;QClass;I) | define function properties
+../3-Phrases/rhino:void fillConstructorProperties(QIdFunctionObject;) | fill constructor properties
+../3-Phrases/rhino-fieldSample:void defineFunctionProperties([QString;QClass;I) | define function properties
+../3-Phrases/SweetHome3D:void initSystemProperties() | init system properties
+../3-Phrases/SweetHome3D:void initSystemProperties() | init system properties
+../3-Phrases/SweetHome3D:List<QHomePieceOfFurniture.SortableProperty;> getFurnitureVisibleProperties() | get furniture visible properties
+../3-Phrases/SweetHome3D:void setFurnitureVisibleProperties(QList<QHomePieceOfFurniture.SortableProperty;>;) | set furniture visible properties
+../3-Phrases/SweetHome3D:void readActionProperties(QUserPreferences;QClass<*>;QString;) | read action properties
+../3-Phrases/SweetHome3D:void setToolTipEditedProperties([QPlanController.EditableProperty;[QObject;FF) | set tool tip edited properties
+../3-Phrases/SweetHome3D:void stopToolTipPropertiesEdition() | stop tool tip properties edition
+../3-Phrases/SweetHome3D:void updateProperties() | update properties
+../3-Phrases/SweetHome3D:void updateProperties() | update properties
+../3-Phrases/SweetHome3D:void updateProperties() | update properties
+../3-Phrases/SweetHome3D:void UserPreferencesPropertiesChangeListener(QHomeController;) | user preferences properties change listener
+../3-Phrases/SweetHome3D:void updateProperties() | update properties
+../3-Phrases/SweetHome3D:void setToolTipEditedProperties([QPlanController.EditableProperty;[QObject;FF) | set tool tip edited properties
+../3-Phrases/SweetHome3D:void setFurnitureVisibleProperties(QList<QHomePieceOfFurniture.SortableProperty;>;) | set furniture visible properties
+../3-Phrases/SweetHome3D:void updateProperties() | update properties
+../3-Phrases/SweetHome3D:void updateProperties() | update properties
+../3-Phrases/SweetHome3D:void updateProperties() | update properties
+../3-Phrases/SweetHome3D:void testFurnitureVisibleProperties() | test furniture visible properties
+../3-Phrases/vuze:void removeAdditionalProperties() | remove additional properties
+../3-Phrases/vuze:void generateHTTPProperties(QProperties;) | generate http properties
+../3-Phrases/vuze:void doHTTPProperties(QProperties;) | do http properties
+../3-Phrases/vuze:Map getProperties() | get properties
+../3-Phrases/vuze:String getPropertiesPrefix() | get properties prefix
+../3-Phrases/vuze:Map getRequestProperties() | get request properties
+../3-Phrases/vuze:void setRequestProperties(QMap;) | set request properties
+../3-Phrases/vuze:void setAdditionalProperties(QMap;) | set additional properties
+../3-Phrases/vuze:Map getAdditionalProperties() | get additional properties
+../3-Phrases/vuze:CONS SkinPropertiesImpl() | skin properties impl
+../3-Phrases/vuze:CONS SkinPropertiesImpl(QClassLoader;QString;QString;) | skin properties impl
+../3-Phrases/vuze:SWTSkinProperties getSkinProperties() | get skin properties
+../3-Phrases/vuze:SWTSkinProperties getProperties() | get properties
+../3-Phrases/vuze:void setProperties(QSWTSkinProperties;) | set properties
+../3-Phrases/vuze:CONS SWTSkinPropertiesImpl(QClassLoader;QString;QString;) | swt skin properties impl
+../3-Phrases/vuze:CONS SWTSkinPropertiesImpl() | swt skin properties impl
+../3-Phrases/vuze:CONS SWTSkinPropertiesParamImpl(QSWTSkinProperties;[QString;) | swt skin properties param impl
+../3-Phrases/vuze:void setProperties(QSWTSkinProperties;) | set properties
+../3-Phrases/vuze:SWTSkinProperties getProperties() | get properties
+../3-Phrases/vuze:CONS SWTSkinPropertiesClone(QSWTSkinProperties;QString;[QString;) | swt skin properties clone
+../3-Phrases/vuze:SWTSkinProperties getOriginalProperties() | get original properties
+../3-Phrases/vuze:void showProperties(QSubscription;) | show properties
+../3-Phrases/vuze:SWTSkinProperties getSkinProperties() | get skin properties
+../3-Phrases/vuze:String getPropertiesPrefix() | get properties prefix
+../3-Phrases/vuze:long[] getCommonLinkProperties() | get common link properties
+../3-Phrases/vuze:long[] getCommonLinkProperties() | get common link properties
+../3-Phrases/vuze:void setSystemProperties() | set system properties
+../3-Phrases/vuze:void loadProperties(QString;) | load properties
+../3-Phrases/vuze:void removeAdditionalProperties() | remove additional properties
+../3-Phrases/vuze:void removeAdditionalProperties() | remove additional properties
+../3-Phrases/vuze:Map getAdditionalProperties() | get additional properties
+../3-Phrases/vuze:void removeAdditionalProperties() | remove additional properties
+../3-Phrases/vuze:Map getAdditionalInfoProperties() | get additional info properties
+../3-Phrases/vuze:Map getAdditionalProperties() | get additional properties
+../3-Phrases/vuze:void removeAdditionalProperties() | remove additional properties
+../3-Phrases/vuze:void dumpSystemProperties() | dump system properties
+../3-Phrases/vuze:Map getAzureusProperties(QTOTorrent;) | get azureus properties
+../3-Phrases/vuze:Map getAzureusPrivateProperties(QTOTorrent;) | get azureus private properties
+../3-Phrases/vuze:void removeAdditionalProperties() | remove additional properties
+../3-Phrases/vuze:Properties getPluginProperties() | get plugin properties
+../3-Phrases/vuze:void generateHTTPProperties(QProperties;) | generate http properties
+../3-Phrases/vuze:Map getProperties() | get properties
+../3-Phrases/vuze:Torrent removeAdditionalProperties() | remove additional properties
+../3-Phrases/vuze:Properties getPluginProperties() | get plugin properties
+../3-Phrases/vuze:void generateHTTPProperties(QProperties;) | generate http properties
+../3-Phrases/vuze:Map getProperties() | get properties
+../3-Phrases/vuze:CONS TorrentAttributeSharePropertiesImpl() | torrent attribute share properties impl
+../3-Phrases/vuze:Torrent removeAdditionalProperties() | remove additional properties
+../3-Phrases/vuze:Map getLCKeyProperties() | get lc key properties
+../3-Phrases/vuze:void setPropertiesSet() | set properties set
+../3-Phrases/vuze:void setProperties(QResourceDownloaderBaseImpl;) | set properties
+../3-Phrases/vuze:void setRequestProperties(QHttpURLConnection;Z) | set request properties
+../3-Phrases/vuze:void getRequestProperties(QHttpURLConnection;) | get request properties
+../3-Phrases/vuze:void setRequestProperties(QHttpURLConnection;Z) | set request properties
+../3-Phrases/vuze:void getRequestProperties(QHttpURLConnection;) | get request properties
+../3-Phrases/vuze:Map getProperties() | get properties
+../3-Phrases/vuze:Properties getPluginProperties() | get plugin properties
+../3-Phrases/vuze:Torrent removeAdditionalProperties() | remove additional properties
+../3-Phrases/vuze:CONS PropertiesWindow(QString;[QString;[QString;) | properties window
+../3-Phrases/vuze:String getPropertiesPrefix() | get properties prefix
+../3-Phrases/vuze:void writePluginProperties(QFile;[QString;) | write plugin properties
+../3-Phrases/vuze:Properties asProperties(QString;) | as properties
+../3-Phrases/vuze:Properties toProperties(QString;QProperties;) | to properties
+../3-Phrases/weka:Properties readProperties(QString;) | read properties
+../3-Phrases/weka:CONS ProtectedProperties(QProperties;) | protected properties
+../3-Phrases/weka:void readProperties() | read properties
+../3-Phrases/weka:void setIgnoredProperties(QString;) | set ignored properties
+../3-Phrases/weka:String getIgnoredProperties() | get ignored properties
+../3-Phrases/weka:CONS GenericPropertiesCreator() | generic properties creator
+../3-Phrases/weka:CONS GenericPropertiesCreator(QString;) | generic properties creator
+../3-Phrases/weka:Properties getInputProperties() | get input properties
+../3-Phrases/weka:Properties getOutputProperties() | get output properties
+../3-Phrases/weka:void loadInputProperties() | load input properties
+../3-Phrases/weka:void generateOutputProperties() | generate output properties
+../3-Phrases/weka:void storeOutputProperties() | store output properties
+../3-Phrases/weka:Hashtable getClassesFromProperties() | get classes from properties
+../3-Phrases/weka:int editableProperties() | editable properties
+../3-Phrases/weka:void showProperties() | show properties
+../3-Phrases/weka:void loadProperties() | load properties
+../3-Phrases/weka:void setProperties() | set properties
+../3-Phrases/weka:void readProperties() | read properties
+../3-Phrases/weka:Properties getProperties() | get properties
+../3-Phrases/weka:Properties getProperties() | get properties
+../3-Phrases/weka:void setProperties() | set properties
+../3-Phrases/weka:void setProperties() | set properties
+../3-Phrases/weka:void setProperties(QString;) | set properties
+../3-Phrases/weka:Properties readProperties(QString;) | read properties
+../3-Phrases/weka:CONS ProtectedProperties(QProperties;) | protected properties
+../3-Phrases/weka:void readProperties() | read properties
+../3-Phrases/weka:void setIgnoredProperties(QString;) | set ignored properties
+../3-Phrases/weka:String getIgnoredProperties() | get ignored properties
+../3-Phrases/weka:Hashtable getClassesFromProperties() | get classes from properties
+../3-Phrases/weka:int editableProperties() | editable properties
+../3-Phrases/weka:CONS GenericPropertiesCreator() | generic properties creator
+../3-Phrases/weka:CONS GenericPropertiesCreator(QString;) | generic properties creator
+../3-Phrases/weka:Properties getInputProperties() | get input properties
+../3-Phrases/weka:Properties getOutputProperties() | get output properties
+../3-Phrases/weka:void loadInputProperties() | load input properties
+../3-Phrases/weka:void generateOutputProperties() | generate output properties
+../3-Phrases/weka:void storeOutputProperties() | store output properties

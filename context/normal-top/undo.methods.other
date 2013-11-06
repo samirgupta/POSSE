@@ -1,0 +1,34 @@
+AbstractUndoableEdit getUndoForAddPreviousEntries() | get undo for add previous entries
+Action getUndoAction() | get undo action
+boolean hasUndoInformation() | has undo information
+boolean isUndoAction() | is undo action
+CompoundUndoManager getUndoManager() | get undo manager
+freemind.controller.actions.generated.instance.UndoXmlAction createUndoXmlAction() | create undo xml action
+freemind.controller.actions.generated.instance.UndoXmlActionType createUndoXmlActionType() | create undo xml action type
+GPUndoManager getUndoManager() | get undo manager
+int getUndoNumber() | get undo number
+String getUndoMsg() | get undo msg
+String getUndoPresentationName() | get undo presentation name
+UndoAction getUndoAction() | get undo action
+UndoOperation getUndoOperation() | get undo operation
+void addUndoAction(QString;QString;QString;IQKeyStroke;) | add undo action
+void addUndoAction(QUndoAction;) | add undo action
+void addUndoOperation(QUndoOperation;) | add undo operation
+void addUndoPoint() | add undo point
+void addUndoRedo(QAbstractDocument.DefaultDocumentEvent;QRunnable;QRunnable;) | add undo redo
+void addUndoSupportListener() | add undo support listener
+void clearUndoStack() | clear undo stack
+void informUndoPartner(QActionPair;) | inform undo partner
+void registerUndoManager(QGPUndoManager;) | register undo manager
+void resetUndoManager() | reset undo manager
+void setUndoNumber(I) | set undo number
+void setUndoPosition(II) | set undo position
+void setUndoRedoName(QString;QString;) | set undo redo name
+void testUndoEventsOccur() | test undo events occur
+void textCompoundUndoManager() | text compound undo manager
+void textUndoAndRedoAfterMultipleLineCommentAndUncomment() | text undo and redo after multiple line comment and uncomment
+void textUndoAndRedoAfterMultipleLineIndent() | text undo and redo after multiple line indent
+void textUndoOrRedoSetsUnmodifiedState() | text undo or redo sets unmodified state
+void updateUndoMenu(QJReportFrame;) | update undo menu
+void updateUndoState() | update undo state
+XmlAction getUndoAction() | get undo action

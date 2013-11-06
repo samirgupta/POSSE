@@ -1,0 +1,35 @@
+ASN1Set getAuthenticatedAttributes() | get authenticated attributes
+boolean authenticate(QString;) | authenticate
+boolean authenticate(QURL;QString;QString;) | authenticate
+byte[] authenticate(QURL;QString;) | authenticate
+Collection<AdminDatabaseUser> selectAllDatabaseUsers(String strLastName, String strFirstName, String strEmail, AdminAuthentication authenticationService) | select all database users
+Map getAuthenticationMethods() | get authentication methods
+NtlmPasswordAuthentication authenticate(QHttpServletRequest;QHttpServletResponse;[B) | authenticate
+NtlmPasswordAuthentication doAuthentication(QHttpServletRequest;QHttpServletResponse;[B) | do authentication
+NtlmPasswordAuthentication getNtlmPasswordAuthentication() | get ntlm password authentication
+NtlmPasswordAuthentication requestNtlmPasswordAuthentication(QString;QSmbAuthException;) | request ntlm password authentication
+OptionsAuthenticationPanel getOptionsAuthenticationPanel() | get options authentication panel
+PasswordAuthentication getAuthentication(QString;QString;QString;I) | get authentication
+PasswordAuthentication getAuthentication(QString;QURL;) | get authentication
+PasswordAuthentication getPasswordAuthentication() | get password authentication
+PasswordAuthentication getPasswordAuthentication(QString;QURL;) | get password authentication
+String doAuthentication(QString;QString;QOutputStream;Z) | do authentication
+String[] getAuthenticationDialog(QString;QString;) | get authentication dialog
+String getAuthenticationType() | get authentication type
+UserProfile authenticate(QString;QString;) | authenticate
+void addAuthenticationListener(QTrackerAuthenticationListener;) | add authentication listener
+void addAuthenticationListener(QTRHostAuthenticationListener;) | add authentication listener
+void addAuthenticationListener(QTRTrackerServerAuthenticationListener;) | add authentication listener
+void initLastAuthenticationEngineConfig() | init last authentication engine config
+void installAuthenticator() | install authenticator
+void printBodyWithoutAuthenticationCheck() | print body without authentication check
+void removeAuthenticationListener(QTrackerAuthenticationListener;) | remove authentication listener
+void removeAuthenticationListener(QTRHostAuthenticationListener;) | remove authentication listener
+void removeAuthenticationListener(QTRTrackerServerAuthenticationListener;) | remove authentication listener
+void runWithAuthenticator(QAuthenticator;QRunnable;) | run with authenticator
+void setAuthenticationMethod(String method) | set authentication method
+void setAuthenticationOutcome(QString;QString;QString;IZ) | set authentication outcome
+void setAuthenticationOutcome(QString;QURL;Z) | set authentication outcome
+void setAuthentication(QString;QString;) | set authentication
+void setPasswordAuthenticationOutcome(QString;QURL;Z) | set password authentication outcome
+void testAuthenticate() | test authenticate

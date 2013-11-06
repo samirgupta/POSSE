@@ -1,0 +1,42 @@
+boolean addCondition(QString;) | add condition
+boolean addCondition(QStringBuffer;QString;) | add condition
+boolean hasFilterCondition() | has filter condition
+boolean preCondition() | pre condition
+Boolean testAnyAllCondition(QSession;QObject;) | test any all condition
+boolean testCondition(QSession;) | test condition
+Boolean testExistsCondition(QSession;) | test exists condition
+Boolean testInCondition(QSession;QObject;) | test in condition
+ConditionFragment setCondition([QString;[QString;) | set condition
+ConditionFragment setCondition([QString;QString;) | set condition
+DisjunctionFragment addCondition(QConditionFragment;) | add condition
+DocumentEditCondition getEditCondition() | get edit condition
+Expression addCondition(QExpression;QExpression;) | add condition
+Expression addJoinCondition(QExpression;QExpression;QTableFilter;Z) | add join condition
+Expression readCondition() | read condition
+int cardinalityCondition() | cardinality condition
+int getRemovalCondition() | get removal condition
+JoinSequence addCondition(QString;) | add condition
+JoinSequence addCondition(QString;[QString;QString;) | add condition
+SimpleSelect addCondition([QString;QString;) | add condition
+SimpleSelect addCondition(QString;QString;) | add condition
+SimpleSelect addCondition([QString;QString;[QString;) | add condition
+SimpleSelect addCondition(QString;QString;QString;) | add condition
+StringBuffer appendCondition(QSession;QStringBuffer;) | append condition
+String getDefaultFilterCondition() | get default filter condition
+String getOnCondition(QString;QSessionFactoryImplementor;QMap;) | get on condition
+String getWhereCondition() | get where condition
+void addAndCondition(QExpression;) | add and condition
+void addCondition(QString;[QString;[QString;) | add condition
+void addCondition(QString;[QString;QString;) | add condition
+void addLeftOuterJoinCondition(QString;) | add left outer join condition
+void appendComponentCondition(QString;QObject;QAbstractComponentType;QCriteria;QCriteriaQuery;QStringBuffer;) | append component condition
+void appendPropertyCondition(QString;QObject;QCriteria;QCriteriaQuery;QStringBuffer;) | append property condition
+void checkForUnpinningCondition() | check for unpinning condition
+void LoggedCondition(QString;) | logged condition
+void processCreateCheckConstraintCondition(QConstraint;) | process create check constraint condition
+void setCondition(QSession;QExpression;) | set condition
+void setEditCondition(QDocumentEditCondition;) | set edit condition
+void setHasFilterCondition(Z) | set has filter condition
+void setRemovalCondition(I) | set removal condition
+void swapCondition() | swap condition
+void testEditCondition() | test edit condition

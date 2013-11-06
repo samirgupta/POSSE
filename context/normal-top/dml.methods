@@ -1,0 +1,18 @@
+int dmlPopTab_EG(QGroupTreeNode;QObject;) | dml pop tab eg
+int dmlPopTab_EG_worker(QGroupTreeNode;IIQObject;) | dml pop tab eg worker
+int dmlPopTab_GP(QGroupTreeNode;QObject;) | dml pop tab gp
+int dmlPopTab_GP_worker(QGroupTreeNode;IIQObject;) | dml pop tab gp worker
+Object processDMLWithResults(QObject;QString;) | process dml with results
+Statement execDMLWithResults(QConnection;QString;) | exec dml with results
+String processDMLWithSingleResult(QConnection;QString;) | process dml with single result
+void dmlCreateTables(QDBTYPE;QObject;) | dml create tables
+void dmlPopTab_ET(QObject;) | dml pop tab et
+void dmlPopTab_FD(QList<QBibtexEntry;>;QObject;) | dml pop tab fd
+void dmlPopTab_GT(QObject;) | dml pop tab gt
+void dmlPopTab_ST(QBibtexDatabase;QObject;) | dml pop tab st
+void dmlTable_derby(QString;QString;QObject;) | dml table derby
+void dmlTable_mysql(QString;QString;QObject;) | dml table mysql
+void errorIfDML() | error if dml
+void execDML(QConnection;QString;) | exec dml
+void postProcessDML(QRestrictableStatement;) | post process dml
+void processDML(QObject;QString;) | process dml

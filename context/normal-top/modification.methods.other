@@ -1,0 +1,8 @@
+boolean isModificationState() | is modification state
+int getModificationCount() | get modification count
+void FurnitureModificationUndoableEdit(QHome;QUserPreferences;QList<QSelectable;>;[QModifiedPieceOfFurniture;QString;QBoolean;QFloat;QFloat;QFloat;QFloat;QFloat;QFloat;QFloat;QInteger;QBoolean;QBoolean;) | furniture modification undoable edit
+void Home3DAttributesModificationUndoableEdit(QHome;QUserPreferences;FFIQHomeTexture;IQHomeTexture;IFFFIQHomeTexture;IQHomeTexture;IF) | home 3 d attributes modification undoable edit
+void HomePrintModificationUndoableEdit(QHome;QUserPreferences;QHomePrint;QHomePrint;) | home print modification undoable edit
+void LabelModificationUndoableEdit(QHome;QUserPreferences;QList<QSelectable;>;[QModifiedLabel;QString;) | label modification undoable edit
+void RoomsModificationUndoableEdit(QHome;QUserPreferences;QList<QSelectable;>;[QModifiedRoom;QString;QBoolean;QInteger;QHomeTexture;QBoolean;QInteger;QHomeTexture;QBoolean;) | rooms modification undoable edit
+void WallsModificationUndoableEdit(QHome;QUserPreferences;QList<QSelectable;>;[QModifiedWall;QFloat;QFloat;QFloat;QFloat;QInteger;QHomeTexture;QInteger;QHomeTexture;QFloat;QFloat;QFloat;) | walls modification undoable edit

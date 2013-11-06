@@ -1,0 +1,9 @@
+CONS EventCollector() | event collector
+CONS EventHandlerThread(QJPDADebugger;QVirtualMachine;) | event handler thread
+CONS EventLogger(QString;QString;) | event logger
+CONS EventPanel(QCanvas;QFreeColClient;) | event panel
+CONS EventProcessor(QVector;) | event processor
+CONS Event(QString;) | event
+CONS Event(QString;QProperties;) | event
+CONS EventsForm() | events form
+CONS EventWaiter() | event waiter

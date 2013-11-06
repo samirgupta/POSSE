@@ -1,0 +1,738 @@
+ArrayList getColumns() | get columns
+ArrayList getColumnsConf() | get columns conf
+ArrayList getResultColumns(QElement;) | get result columns
+BigDecimal getBigDecimal(int columnIndex) | get big decimal
+boolean allColumnsAreDefinedIn(QExpression;QHashSet;) | all columns are defined in
+boolean allowView(Column column, String view) | allow view
+boolean checkColumnModel() | check column model
+boolean collectColumnName(QHashSet;) | collect column name
+boolean containsColumn(QColumn;) | contains column
+boolean existsColumnName(String columnName) | exists column name
+boolean forUpdateOfColumns() | for update of columns
+boolean getBoolean(int columnIndex) | get boolean
+boolean[] getColumnInsertability() | get column insertability
+boolean[] getColumnUpdateability() | get column updateability
+boolean getEntireColumn() | get entire column
+boolean[] getNewColumnCheckList() | get new column check list
+boolean[] getNumericColumns() | get numeric columns
+boolean getPredTargetColumn() | get pred target column
+boolean getRemoveClassColumn() | get remove class column
+boolean getShowColumn(int index) | get show column
+boolean getSkipFirstColumn() | get skip first column
+boolean[] getSubclassColumnLazyiness() | get subclass column lazyiness
+boolean getSyncColumnSizes() | get sync column sizes
+boolean[] getTableHasColumns() | get table has columns
+boolean hasColumn(I) | has column
+boolean hasColumn(QString;) | has column
+boolean hasColumn(QTable;QString;) | has column
+boolean hasDataTypeInIdentityColumn() | has data type in identity column
+boolean hasPhysicalDiscriminatorColumn(QQueryable;) | has physical discriminator column
+boolean isCaseSensitive(int column) | is case sensitive
+boolean isCellEditable(int row, int columnNo) | is cell editable
+boolean isColumn() | is column
+boolean isColumnShown(QTableColumn;) | is column shown
+boolean isColumnVisible(Qorg.gudy.azureus2.plugins.ui.tables.TableColumn;) | is column visible
+boolean isColumnVisible(QTableColumn;) | is column visible
+boolean isFloatColumnFooter() | is float column footer
+boolean isIconColumn(I) | is icon column
+boolean isIdentityColumn(QDialect;) | is identity column
+boolean isIsStartNewColumn() | is is start new column
+boolean isLegalPosition(int row, int column) | is legal position
+boolean isReadOnly(int columnIndex) | is read only
+boolean isSetDontBalanceTextColumns() | is set dont balance text columns
+boolean isStartNewColumn() | is start new column
+boolean isTableColumn(I) | is table column
+boolean loadTableColumnSettings(QClass;QString;) | load table column settings
+BooleanOptionComponent setEntireColumn(Z) | set entire column
+boolean supportsAlterColumnType() | supports alter column type
+boolean supportsAlterTableWithAddColumn() | supports alter table with add column
+boolean supportsAlterTableWithDropColumn() | supports alter table with drop column
+boolean supportsColumnAliasing() | supports column aliasing
+boolean supportsColumnCheck() | supports column check
+boolean supportsIdentityColumns() | supports identity columns
+boolean supportsNonNullableColumns() | supports non nullable columns
+boolean[] toColumnNullness(QObject;QMapping;) | to column nullness
+boolean useEntireColumn() | use entire column
+byte getByte(int columnIndex) | get byte
+byte getBytes(int columnIndex) | get bytes
+CaseFragment addWhenColumnNotNull(QString;QString;QString;) | add when column not null
+CaseFragment setReturnColumnName(QString;) | set return column name
+CaseFragment setReturnColumnName(QString;QString;) | set return column name
+Class getColumnClass() | get column class
+Class[] getColumnClasses() | get column classes
+Class<*> getColumnClass(I) | get column class
+Class getColumnClass(I) | get column class
+Class getColumnClass(int c) | get column class
+Class getColumnClass(int columnIndex) | get column class
+Class getColumnClass(int index) | get column class
+Class getColumnType() | get column type
+Class getColumnType(I) | get column type
+Class getColumnType(QString;) | get column type
+Class getSortByColumnClass(I) | get sort by column class
+Class<QString;> getColumnClass(I) | get column class
+Collection getColumnNames() | get column names
+ColumnDef getColumnDef(QString;I) | get column def
+Column getColumn(I) | get column
+Column getColumn(QClass;) | get column
+Column getColumn(QClass;I) | get column
+Column getColumn(QClass;IIQObject;) | get column
+Column getColumn(QClass;IQObject;) | get column
+Column getColumn(QColumn;) | get column
+Column getColumn(QString;) | get column
+Column getColumn(QTable;QExpression;) | get column
+Column getConstantColumn(QClass;QObject;) | get constant column
+ColumnMetadata getColumnMetadata(QString;) | get column metadata
+ColumnMetadata[] getColumns() | get columns
+ColumnNameCache retreiveColumnNameToIndexCache(QResultSet;) | retreive column name to index cache
+Column processCreateColumn() | process create column
+Column processCreateColumn(QHsqlName;) | process create column
+ColumnProjection getColumnProjection() | get column projection
+Column removeColumn(I) | remove column
+Column removeColumn(QString;) | remove column
+Comparator<*> getColumnComparator(I) | get column comparator
+Comparator getTableColumnOrderComparator() | get table column order comparator
+Comparator<QBibtexEntry;> getComparatorForColumn(I) | get comparator for column
+Component getTableCellEditorComponent(JTable table, Object value, boolean isSelected, int row, int column) | get table cell editor component
+Constraint getConstraintForColumns(QTable;[I[I) | get constraint for columns
+Constraint getUniqueConstraintForColumns([I) | get unique constraint for columns
+CustomColumn getCustomColumnByID(QString;) | get custom column by id
+CustomColumn getCustomColumn(QString;) | get custom column
+CustomColumnsManager getCustomColumnsManager() | get custom columns manager
+CustomColumnsStorage getCustomColumnsStorage() | get custom columns storage
+Delete setPrimaryKeyColumnNames([QString;) | set primary key column names
+Delete setVersionColumnName(QString;) | set version column name
+DisplayedColumnsList getDisplayColumns() | get display columns
+double columnResponseExplanation(QPaceMatrix;QIntVector;II) | column response explanation
+double entropyConditionedOnColumns([[D) | entropy conditioned on columns
+double entropyOverColumns([[D) | entropy over columns
+double[] getColumn(I) | get column
+double[] getColumnPackedCopy() | get column packed copy
+DoubleVector getColumn(I) | get column
+DoubleVector getColumn(III) | get column
+DynamicQuery getColumnDynamicQuery(Column c) | get column dynamic query
+Enumeration<QPointDouble;> column(I) | column
+Experiment createExperiment(int columns, int rows) | create experiment
+Expression readColumnExpression() | read column expression
+Expression resolveOrderByColumnIndex(QExpression;QHsqlArrayList;I) | resolve order by column index
+float getFloat(String columnName) | get float
+float getSampleNormalizedSum(KMCluster cluster, int column, float mean) | get sample normalized sum
+freemind.controller.actions.generated.instance.TimeWindowColumnSetting createTimeWindowColumnSetting() | create time window column setting
+freemind.controller.actions.generated.instance.TimeWindowColumnSettingType createTimeWindowColumnSettingType() | create time window column setting type
+HashMap getColumnAliases() | get column aliases
+HashMappedList parseColumnList() | parse column list
+HashMappedList processColumnList(QTokenizer;Z) | process column list
+HsqlArrayList getColumnNames(QDatabase;QTable;QTokenizer;Z) | get column names
+HtmlPanelGrid createTable(int columns, String cellpadding, String cellspacing) | create table
+Image getColumnImage(Object element, int columnIndex) | get column image
+Index getIndexForColumn(QSession;I) | get index for column
+Index getIndexForColumns([IZ) | get index for columns
+Index getIndexForColumns([Z) | get index for columns
+Index getUniqueConstraintIndexForColumns([I) | get unique constraint index for columns
+InFragment setColumn(QString;) | set column
+InFragment setColumn(QString;QString;) | set column
+InputStream getBinaryStream(String columnName) | get binary stream
+Insert addColumn(QString;) | add column
+Insert addColumn(QString;QObject;QLiteralType;) | add column
+Insert addColumn(QString;QString;) | add column
+Insert addColumns([QString;) | add columns
+Insert addColumns([QString;[Z) | add columns
+Insert addIdentityColumn(QString;) | add identity column
+InsertSelect addColumn(QString;) | add column
+InsertSelect addColumns([QString;) | add columns
+Instances removeMissingColumns(QInstances;) | remove missing columns
+int addFilterColumns(QTableFilter;QHsqlArrayList;I) | add filter columns
+int calcColumnWidth(I) | calc column width
+int calcColumnWidth(QJTable;I) | calc column width
+int columnCount(I) | column count
+int columnNumber() | column number
+int columns() | columns
+int convertColumnAlignmentToSWT(I) | convert column alignment to swt
+int convertSWTAlignmentToColumn(I) | convert swt alignment to column
+int determineSegmentColumnSize(QProperties;) | determine segment column size
+int encodeTableColumnAttrs(I) | encode table column attrs
+int executeUpdate(String sql, int columnIndexes) | execute update
+int findColumn(QString;) | find column
+int find_max_different_column(III) | find max different column
+int getAttributeColumn(QString;) | get attribute column
+int getBeginColumn() | get begin column
+int getColumn() | get column
+int getColumnCount() | get column count
+int getColumnCountTotal() | get column count total
+int getColumnDimension() | get column dimension
+int getColumnDisplaySize(I) | get column display size
+int getColumnDisplaySize(int column) | get column display size
+int getColumnIndex() | get column index
+int getColumnIndex(QString;) | get column index
+int[] getColumnMap() | get column map
+int getColumnNo(I) | get column no
+int getColumnNr() | get column nr
+int getColumnNr(QString;) | get column nr
+int getColumnNumber() | get column number
+int getColumnNumber(QColumn;) | get column number
+int getColumnNumber(QString;) | get column number
+int getColumnRow(II) | get column row
+int getColumns() | get columns
+int[] getColumns() | get columns
+int getColumnScale() | get column scale
+int getColumnSize() | get column size
+int getColumnSorting() | get column sorting
+int getColumnSpacing() | get column spacing
+int getColumnSpan() | get column span
+int getColumnSpan(QMapping;) | get column span
+int getColumnSpan(QType;) | get column span
+int getColumnsSpacing() | get columns spacing
+int getColumnsWidth() | get columns width
+int getColumnType(I) | get column type
+int[] getColumnTypes() | get column types
+int getColumnWidth() | get column width
+int getCustomColumnCount() | get custom column count
+int getEndColumn() | get end column
+int getFoldColumn() | get fold column
+int getIdentifierColumnSpan() | get identifier column span
+int getIdentityColumn() | get identity column
+int[] getIndexColumns(I) | get index columns
+int getIndexForColumnName(QString;QResultSetWrapper;) | get index for column name
+int getIndexVisibleColumns(I) | get index visible columns
+int getInternalColumnCount() | get internal column count
+int getInt(String columnName) | get int
+int getLeftColumns() | get left columns
+int getLeftColumns(I) | get left columns
+int getLocalColumnCount() | get local column count
+int[] getMainColumns() | get main columns
+int getMaxColumnNameLength() | get max column name length
+int getMaxColumnsInGroupBy() | get max columns in group by
+int getMaxColumnsInIndex() | get max columns in index
+int getMaxColumnsInOrderBy() | get max columns in order by
+int getMaxColumnsInSelect() | get max columns in select
+int getMaxColumnsInTable() | get max columns in table
+int[] getNewColumnMap() | get new column map
+int getNumberColumns() | get number columns
+int getPropertyColumnSpan(I) | get property column span
+int[] getRefColumns() | get ref columns
+int getRightColumns() | get right columns
+int getRightColumns(I) | get right columns
+int getRunColumn() | get run column
+int getSortColumn() | get sort column
+int getSortingColumn(I) | get sorting column
+int getSourceColumn() | get source column
+int getSpecialColumnsCount() | get special columns count
+int getStartColumn() | get start column
+int[] getSubclassColumnTableNumberClosure() | get subclass column table number closure
+int getTableColumnCount(QString;) | get table column count
+int getTextColumns() | get text columns
+int getTotalColumnLeftIndex(String columnTotalGroup) | get total column left index
+int getVisibleColumns() | get visible columns
+IntIterator columnRows(I) | column rows
+IntIterator columnRows(IZ) | column rows
+IntIterator columnRows(QIntIterator;I) | column rows
+IntIterator getColumnIterator(QTable;QString;Z) | get column iterator
+int leastExplainingColumn(QPaceMatrix;QIntVector;II) | least explaining column
+int mostExplainingColumn(QPaceMatrix;QIntVector;I) | most explaining column
+int numColumns() | num columns
+int[] processColumnList(QTable;Z) | process column list
+int resolveColumnPosition(QString;) | resolve column position
+int startColumn() | start column
+int[] toAdjustedColumnArray([III) | to adjusted column array
+int translateDBColumnType(QString;) | translate db column type
+Iterator columnIterator() | column iterator
+Iterator getColumnIterator() | get column iterator
+Iterator getColumnNames() | get column names
+Iterator getColumns() | get columns
+Iterator getDiscriminatorColumnIterator() | get discriminator column iterator
+java.lang.Class getColumnClass(I) | get column class
+java.util.List getConstraintColumns() | get constraint columns
+java.util.List getTimeWindowColumnSetting() | get time window column setting
+JPanel buildColumnPanel() | build column panel
+List getColumns() | get columns
+List getColumns(QString;) | get columns
+List getConstraintColumns() | get constraint columns
+List getCustomColumnsNames() | get custom columns names
+List getReferencedColumns() | get referenced columns
+Map getAllTableColumnCore(QClass;QString;) | get all table column core
+Map getTableColumnsAsMap(QClass;QString;) | get table columns as map
+Matrix columnAsVector(QMatrix;I) | column as vector
+Object convertColumnValue(QObject;II) | convert column value
+Object getColumnInType(II) | get column in type
+Object getColumnValue(QBibtexEntry;I) | get column value
+Object getColumnValue(QNameAndVersion;I) | get column value
+Object getColumnValue([QString;I) | get column value
+Object getDummyValueAtColumn(I) | get dummy value at column
+Object getObject(String column, Class classToConvertTo) | get object
+Object getResultColumnOrRow([QObject;QResultTransformer;QResultSet;QSessionImplementor;) | get result column or row
+Object getValueAt(int rowIndex, int columnIndex) | get value at
+Object getValueAt(int row, int column) | get value at
+Object throwInvalidColumnTypeException(IQType;QType;) | throw invalid column type exception
+OptionComponent<QT;> setEntireColumn(Z) | set entire column
+org.gudy.azureus2.plugins.ui.tables.TableColumn getTableColumn(QString;) | get table column
+OutputColumnset getOutputColumnset() | get output columnset
+PersistenceTableColumnListener getTableColumnListener() | get table column listener
+Properties getColumnProperties() | get column properties
+Range getDatasetKeyColumns() | get dataset key columns
+Range getResultsetKeyColumns() | get resultset key columns
+Report createColumnarReport(QString;) | create columnar report
+ResourceColumn deleteCustomColumn(QString;) | delete custom column
+ResourceColumn getColumn() | get column
+ResourceColumn getColumn(I) | get column
+ResourceColumn newResourceColumn() | new resource column
+Result newSingleColumnResult(QString;I) | new single column result
+ResultSet getColumnPrivileges(QString;QString;QString;QString;) | get column privileges
+ResultSet getColumns(QString;QString;QString;QString;) | get columns
+ResultSet getProcedureColumns(QString;QString;QString;QString;) | get procedure columns
+ResultSet getVersionColumns(QString;QString;QString;) | get version columns
+SelectFragment addColumn(QString;) | add column
+SelectFragment addColumn(QString;QString;) | add column
+SelectFragment addColumn(QString;QString;QString;) | add column
+SelectFragment addColumns([QString;) | add columns
+SelectFragment addColumns(QString;[QString;) | add columns
+SelectFragment addColumns(QString;[QString;[QString;) | add columns
+Set getColumnSet() | get column set
+Set getReferencedColumns(QExpression;) | get referenced columns
+SimpleSelect addColumn(QString;) | add column
+SimpleSelect addColumn(QString;QString;) | add column
+SimpleSelect addColumns([QString;) | add columns
+SimpleSelect addColumns([QString;[QString;) | add columns
+SimpleSelect addColumns([QString;[QString;[Z) | add columns
+StringBuffer appendColumns(QStringBuffer;) | append columns
+String classColumnTipText() | class column tip text
+String columnName(QString;) | column name
+String columns(QValue;) | columns
+String[] currentColumns() | current columns
+String[] determineColumnConstraints(QResultProducer;) | determine column constraints
+String determineSegmentColumnName(QProperties;) | determine segment column name
+String determineValueColumnName(QProperties;) | determine value column name
+String fixupColumnDefRead(QString;QResultSetMetaData;QString;QResultSet;I) | fixup column def read
+String fixupColumnDefRead(QTransferTable;QResultSetMetaData;QString;QResultSet;I) | fixup column def read
+String fixupColumnDefWrite(QString;QResultSetMetaData;QString;QResultSet;I) | fixup column def write
+String fixupColumnDefWrite(QTransferTable;QResultSetMetaData;QString;QResultSet;I) | fixup column def write
+String foreignKeyColumnName(QString;QString;QString;QString;) | foreign key column name
+String[][] generateColumnNames([QType;) | generate column names
+String[][] generateColumnNames([QType;QSessionFactoryImplementor;) | generate column names
+String getAddColumnString() | get add column string
+String[] getAliasedLHSColumnNames(QAssociationType;QString;IIQOuterJoinLoadable;QMapping;) | get aliased lhs column names
+String[] getAliasedLHSColumnNames(QAssociationType;QString;IQOuterJoinLoadable;QMapping;) | get aliased lhs column names
+String getBaseColumnName() | get base column name
+String getClassColumn() | get class column
+String[] getCollectionElementColumns(QString;QString;) | get collection element columns
+String[] getCollectionPropertyColumnAliases(QString;QString;) | get collection property column aliases
+String getColumn() | get column
+String getColumnAlias() | get column alias
+String[] getColumnAliases(I) | get column aliases
+String[] getColumnAliases(QString;I) | get column aliases
+String getColumnClassName(I) | get column class name
+String getColumnComment(QString;) | get column comment
+String getColumnDDL() | get column ddl
+String getColumnLabel(I) | get column label
+String getColumnName() | get column name
+String getColumnName(I) | get column name
+String getColumnName(int _column) | get column name
+String getColumnName(int column) | get column name
+String getColumnName(int i) | get column name
+String getColumnNameList() | get column name list
+String getColumnName(QHomePieceOfFurniture.SortableProperty;QUserPreferences;) | get column name
+String getColumnNameRaw() | get column name raw
+String getColumnNames() | get column names
+String[] getColumnNames() | get column names
+String[][] getColumnNames() | get column names
+String[] getColumnNames(QString;) | get column names
+String getColumn(QCriteria;QString;) | get column
+String[] getColumns() | get columns
+String getColumnsConf(QArrayList;) | get columns conf
+String getColumnSpec() | get column spec
+String[] getColumns(QString;QCriteria;) | get columns
+String[] getColumnsUsingProjection(QCriteria;QString;) | get columns using projection
+String getColumnText(Object obj, int index) | get column text
+String getColumnTypeName(I) | get column type name
+String[][] getContraintOrderedTableKeyColumnClosure() | get contraint ordered table key column closure
+String getDefaultSortColumnName(QString;) | get default sort column name
+String getDiscriminatorColumnName() | get discriminator column name
+String[] getElementColumnAliases(QString;) | get element column aliases
+String[] getElementColumnNames() | get element column names
+String[] getElementColumnNames(QString;) | get element column names
+String[] getIconTypeForColumn(I) | get icon type for column
+String getIdentifierColumnAlias(QString;) | get identifier column alias
+String getIdentifierColumnName() | get identifier column name
+String[] getIdentifierColumnNames() | get identifier column names
+String[] getIdentifierColumns(QCriteria;) | get identifier columns
+String getIdentityColumn() | get identity column
+String getIdentityColumnString() | get identity column string
+String getIdentityColumnString(I) | get identity column string
+String[] getIndexColumnAliases(QString;) | get index column aliases
+String[] getIndexColumnNames() | get index column names
+String[] getIndexColumnNames(QString;) | get index column names
+String[] getKeyColumnAliases(QString;) | get key column aliases
+String[] getKeyColumnNames() | get key column names
+String[] getKeyColumns(I) | get key columns
+String[] getLHSColumnNames(QAssociationType;IIQOuterJoinLoadable;QMapping;) | get lhs column names
+String[] getLHSColumnNames(QAssociationType;IQOuterJoinLoadable;QMapping;) | get lhs column names
+String[] getLHSColumns() | get lhs columns
+String getLogicalColumnName(QString;QTable;) | get logical column name
+String getNameColumn() | get name column
+String getNextColumn() | get next column
+String getNoColumnsInsertString() | get no columns insert string
+String getNullColumnString() | get null column string
+String getPhysicalColumnName(QString;QTable;) | get physical column name
+String getPlainColumnName(I) | get plain column name
+String[] getProjectedColumnAliases() | get projected column aliases
+String[] getPropertyColumnNames(I) | get property column names
+String[] getPropertyColumnNames(QString;) | get property column names
+String[] getRHSColumnNames(QAssociationType;QSessionFactoryImplementor;) | get rhs column names
+String[] getRootTableIdentifierColumnNames() | get root table identifier column names
+String[] getRootTableKeyColumnNames() | get root table key column names
+String getSegmentColumnName() | get segment column name
+String getSortColumn(int sortNo) | get sort column
+String getSortColumnName() | get sort column name
+String[] getSubclassColumnAliasClosure() | get subclass column alias closure
+String[] getSubclassColumnClosure() | get subclass column closure
+String[] getSubclassPropertyColumnAliases(QString;QString;) | get subclass property column aliases
+String[][] getSubclassPropertyColumnNameClosure() | get subclass property column name closure
+String[] getSubclassPropertyColumnNames(I) | get subclass property column names
+String[] getSubclassPropertyColumnNames(QString;) | get subclass property column names
+String[] getSubclassTableKeyColumns(I) | get subclass table key columns
+String getValueColumnName() | get value column name
+String getVersionColumnName() | get version column name
+String getWhereColumn() | get where column
+String[] getWhereColumns() | get where columns
+String joinKeyColumnName(QString;QString;) | join key column name
+String logicalCollectionColumnName(QString;QString;QString;) | logical collection column name
+String logicalColumnName(QString;QString;) | logical column name
+String propertyToColumnName(QString;) | property to column name
+String removeClassColumnTipText() | remove class column tip text
+String[] toColumns(QString;) | to columns
+String[] toColumns(QString;I) | to columns
+String[] toColumns(QString;QString;) | to columns
+String[] toColumns(QString;QString;Z) | to columns
+String[] toColumns(QString;QString;ZZ) | to columns
+String uniqueColumnString(QIterator;) | unique column string
+String uniqueColumnString(QIterator;QString;) | unique column string
+TableCellCore[] getColumnCells(QString;) | get column cells
+TableCellRenderer getColumnRenderer(QHomePieceOfFurniture.SortableProperty;QUserPreferences;) | get column renderer
+TableColumnCore createTableColumnCore(QString;QString;) | create table column core
+TableColumnCore[] getAllColumns() | get all columns
+TableColumnCore[] getAllTableColumnCoreAsArray(QClass;QString;) | get all table column core as array
+TableColumnCore[] getBasicColumnItems(QString;) | get basic column items
+TableColumnCore getColumnHeaderMouseIn(II) | get column header mouse in
+TableColumnCore[] getColumns() | get columns
+TableColumnCore[] getCompleteColumns() | get complete columns
+TableColumnCore[] getIncompleteColumns() | get incomplete columns
+TableColumnCore getSortColumn() | get sort column
+TableColumnCore getTableColumnByOffset(I) | get table column by offset
+TableColumnCore getTableColumnCore(QString;QString;) | get table column core
+TableColumnCore[] getVisibleColumns() | get visible columns
+TableColumn createColumn(QString;QString;) | create column
+TableColumnExt getColumn() | get column
+TableColumnExt newTableColumnExt(I) | new table column ext
+TableColumn getDraggedColumn() | get dragged column
+TableColumn getTableColumn() | get table column
+TableColumn getTableColumn(QString;) | get table column
+TableColumnMetrics getColumnMetrics(QTableColumn;) | get column metrics
+Table SYSTEM_CHECK_COLUMN_USAGE() | system check column usage
+Table SYSTEM_COLUMNPRIVILEGES() | system columnprivileges
+Table SYSTEM_COLUMNS() | system columns
+Table SYSTEM_TRIGGERCOLUMNS() | system trigger columns
+Table SYSTEM_VERSIONCOLUMNS() | system version columns
+Table SYSTEM_VIEW_COLUMN_USAGE() | system view column usage
+Timestamp getTimestamp(String columnName) | get timestamp
+Type getWhereColumnType() | get where column type
+Update addColumn(QString;) | add column
+Update addColumn(QString;QObject;QLiteralType;) | add column
+Update addColumn(QString;QString;) | add column
+Update addColumns([QString;) | add columns
+Update addColumns([QString;QString;) | add columns
+Update addColumns([QString;[Z) | add columns
+Update addWhereColumn(QString;) | add where column
+Update addWhereColumn(QString;QString;) | add where column
+Update addWhereColumns([QString;) | add where columns
+Update addWhereColumns([QString;QString;) | add where columns
+Update setPrimaryKeyColumnNames([QString;) | set primary key column names
+Update setVersionColumnName(QString;) | set version column name
+URL getURL(int columnIndex) | get url
+Vector columnObjects() | column objects
+Vector determineColumnNames(QString;QString;QInstances;) | determine column names
+void addColumnBinding(QString;QColumn;QTable;) | add column binding
+void _addColumnCell(QTableColumn;QTableCell;) | add column cell
+void addColumnIntoConf(QString;) | add column into conf
+void addColumnListener(QColumnListener;) | add column listener
+void addColumn(QColumn;) | add column
+void addColumn(QColumn;I) | add column
+void addColumn(QColumnMetadata;) | add column
+void addColumn(QResultSet;) | add column
+void addColumn(QString;QClass;) | add column
+void addColumn(QString;QClass;QObject;) | add column
+void addColumn(QString;QColumn;) | add column
+void addColumn(QString;QExpression;) | add column
+void addColumn(QString;QString;) | add column
+void addColumn(QTableColumn;) | add column
+void addColumn(QTable;QString;I) | add column
+void addColumn(QTable;QString;IIZ) | add column
+void addColumn(QTable;QString;IZ) | add column
+void addColumns(QIterator;) | add columns
+void addColumns(QResult.ResultMetaData;I) | add columns
+void addColumns(QSchema;) | add columns
+void addColumns(QSelect;) | add columns
+void addColumns([QTableColumnCore;) | add columns
+void addColumnsToList([QTableColumnCore;QArrayList;) | add columns to list
+void addColumn(String column) | add column
+void addColumn(String name, Class type, Object defaultValue) | add column
+void addConstantColumn(QString;QClass;QObject;) | add constant column
+void addCustomColumn(QCustomColumn;) | add custom column
+void addCustomColumn(QResourceColumn;) | add custom column
+void addCustomColumn(QString;) | add custom column
+void addCustomColumn(QString;QResourceColumn;) | add custom column
+void addCustomColumnsListener(QCustomColumsListener;) | add custom columns listener
+void addInterpolatedColumn(QString;QClass;) | add interpolated column
+void addInterpolatedColumn(QString;QClass;QObject;) | add interpolated column
+void addKey(String key, String filename, int line, int column) | add key
+void addMandatoryColumn(QResourceColumn;) | add mandatory column
+void addNewCustomColumn(QCustomColumn;) | add new custom column
+void addReferencedColumn(QColumn;) | add referenced column
+void addReferencedColumns(QIterator;) | add referenced columns
+void addSelectColumn(QString;QString;) | add select column
+void addTableColumnModelListener(QFurnitureController;) | add table column model listener
+void addThisColumnSubMenu(I) | add this column sub menu
+void addThisColumnSubMenu(QString;QMenu;) | add this column sub menu
+void adjustBeginLineColumn(II) | adjust begin line column
+void afterColumnInit() | after column init
+void alignColumns() | align columns
+void alignColumns(QTable;) | align columns
+void appendColumns(QStringBuffer;QIterator;) | append columns
+void appendElementColumns(QSelectFragment;QString;) | append element columns
+void appendIdentifierColumns(QSelectFragment;QString;) | append identifier columns
+void appendIndexColumns(QSelectFragment;QString;) | append index columns
+void autoSizeTableColumns(QJTable;) | auto size table columns
+void beforeColumnInit() | before column init
+void bindColumn(QElement;QColumn;Z) | bind column
+void bindColumnsOrFormula(QElement;QSimpleValue;QString;ZQMappings;) | bind columns or formula
+void bindColumns(QElement;QSimpleValue;ZZQString;QMappings;) | bind columns
+void changeColumnIndicator() | change column indicator
+void changeCustomColumnDefaultValue(QString;QObject;) | change custom column default value
+void changeCustomColumnName(QString;QString;) | change custom column name
+void checkAddColumn(QTable;QColumn;) | check add column
+void checkAggregateOrGroupByColumns(II) | check aggregate or group by columns
+void checkAggregateOrGroupByOrderColumns(II) | check aggregate or group by order columns
+void checkColumnDuplication() | check column duplication
+void checkColumnDuplication(Qjava.util.Set;QIterator;) | check column duplication
+void checkColumnDuplication(QSet;QIterator;) | check column duplication
+void checkColumn(I) | check column
+void checkColumnInCheckConstraint(QString;) | check column in check constraint
+void checkColumnInFKConstraint(I) | check column in fk constraint
+void checkColumnInFKConstraint(II) | check column in fk constraint
+void checkColumnIsInView(QTable;QString;) | check column is in view
+void checkColumnLists() | check column lists
+void checkColumnsMatch([IQTable;[I) | check columns match
+void checkFKColumnDefaults(QTable;QConstraint;) | check fk column defaults
+void checkPropertyColumnDuplication(QSet;QIterator;) | check property column duplication
+void collectAllColumnNames(QHashSet;) | collect all column names
+void columnChange() | column change
+void ColumnCollector(Z) | column collector
+void ColumnData(QString;II) | column data
+void ColumnDef() | column def
+void ColumnEntry(IQColumn;QColumnMetadata;) | column entry
+void ColumnHandler(QResourceColumn;) | column handler
+void columnInvalidate(QString;) | column invalidate
+void columnInvalidate(QTableColumnCore;) | column invalidate
+void columnInvalidate(QTableColumnCore;Z) | column invalidate
+void ColumnKeeper(QTableColumn;) | column keeper
+void ColumnListener(QJTable;) | column listener
+void ColumnNames() | column names
+void ColumnProps() | column props
+void ColumnProps(QString;II) | column props
+void columnRefresh(QTableColumnCore;) | column refresh
+void ColumnRowIterator(QIntIterator;I) | column row iterator
+void constructCustomColumnPanel() | construct custom column panel
+void copyColumnValues([I[I[I) | copy column values
+void copyColumnValues([QObject;[I[QObject;) | copy column values
+void createAvailableColumns(QHome;QUserPreferences;) | create available columns
+void createColumnsConf() | create columns conf
+void createSubsColumns(QTableManager;) | create subs columns
+void CustomColumnTableModel(QCustomColumnsStorage;) | custom column table model
+void decodeTableColumnAttrs(II) | decode table column attrs
+void deleteCustomColumn(QString;) | delete custom column
+void displayAllColumns() | display all columns
+void displayColumn(QString;) | display column
+void DisplayedColumn(QString;) | displayed column
+void DisplayedColumnsList() | displayed columns list
+void dropColumn(I) | drop column
+void emitIRI(int line, int column, String iriStr) | emit iri
+void ensureTableColumns(QString;[QString;) | ensure table columns
+void _expandNameColumn() | expand name column
+void expandNameColumn() | expand name column
+void fetchColumns() | fetch columns
+void filterColumns() | filter columns
+void fireColumnEvent(ID) | fire column event
+void fireColumnEvent(IF) | fire column event
+void fireColumnEvent(II) | fire column event
+void fireColumnEvent(III) | fire column event
+void fireColumnEvent(IJ) | fire column event
+void fireColumnEvent(IQObject;) | fire column event
+void fireColumnEvent(IZ) | fire column event
+void fireCustomColumnsChange(QCustomColumEvent;) | fire custom columns change
+void FurnitureTableColumnModel(QHome;QUserPreferences;) | furniture table column model
+void generateScalarColumns(QHqlSqlWalkerNode;[QString;I) | generate scalar columns
+void generateSingleScalarColumn(QHqlSqlWalkerNode;I) | generate single scalar column
+void getColumnList(QTable;[IIQStringBuffer;) | get column list
+void getColumnWidthsToProperties(QProperties;) | get column widths to properties
+void getColumnWidthsToProperties(QProperties;QString;) | get column widths to properties
+void getEquiJoinColumns(QTableFilter;[Z[QExpression;) | get equi join columns
+void getInsertColumnValueExpressions(QTable;[QExpression;I) | get insert column value expressions
+void getValue(String columnName) | get value
+void hideAllColumns() | hide all columns
+void hideColumn(QResourceColumn;) | hide column
+void hideColumn(QString;) | hide column
+void initColumnNumber(I) | init column number
+void initColumnNumber(int columnNumber) | init column number
+void initColumnsAlignements() | init columns alignements
+void initColumns(QDatabaseMetaData;) | init columns
+void initCoreColumns() | init core columns
+void initializeColumnDefs() | initialize column defs
+void initializeColumnNames() | initialize column names
+void initializeColumns() | initialize columns
+void initializeColumns(QBaseTransformation;) | initialize columns
+void initializeTableColumns(QTable;) | initialize table columns
+void logCOLUMNSIZE(QString;) | log column size
+void NonScalarResultColumnProcessor(I) | non scalar result column processor
+void outFolderColumn(StringBuffer sb, AlbumFolderBean afb, FolderExplorerClientBean fecb, HttpServletRequest request) | out folder column
+void paintCell(Graphics g, Rectangle cellRect, int row, int column) | paint cell
+void prepareColumns() | prepare columns
+void prepareSelectColumns([QString;) | prepare select columns
+void prepColumnWidths(IQTableColumnModel;[I) | prep column widths
+void prependIdColumnSpec() | prepend id column spec
+void prependVersionColumnSpec() | prepend version column spec
+void processAlterColumn(QTable;) | process alter column
+void processAlterColumnRename(QTable;QColumn;) | process alter column rename
+void processAlterColumnType(QTable;QColumn;) | process alter column type
+void processAlterTableAddColumn(QTable;) | process alter table add column
+void processAlterTableDropColumn(QTable;) | process alter table drop column
+void readTableColumnAttrs(QRowInputBinary;I) | read table column attrs
+void recalcColumnWidth() | recalc column width
+void reduceColumns() | reduce columns
+void refreshColumns() | refresh columns
+void refreshColumns(QJTable;Z) | refresh columns
+void registerColumn(QClass;QString;QTableColumnCreationListener;) | register column
+void registerColumnType(IIQString;) | register column type
+void registerColumnType(IQString;) | register column type
+void registerCustomColumnsManager(QCustomColumnsManager;) | register custom columns manager
+void registerCustomColumnsStorage(QCustomColumnsStorage;) | register custom columns storage
+void reloadColumns() | reload columns
+void removeColumnFromConf(QString;) | remove column from conf
+void removeColumnListener(QColumnListener;) | remove column listener
+void removeColumn(QColumn;) | remove column
+void removeColumn(QString;QJTable;) | remove column
+void removeColumn(String columnName) | remove column
+void removeCustomColumn(QString;) | remove custom column
+void removeCustomColumnToAllNestedTask(QTaskContainmentHierarchyFacade;QTask;QString;) | remove custom column to all nested task
+void renameColumnInCheckConstraints(QString;QString;Z) | rename column in check constraints
+void renameColumn(QColumn;QString;Z) | rename column
+void renameCustomColumnForAllNestedTask(QTaskContainmentHierarchyFacade;QTask;QString;QString;) | rename custom column for all nested task
+void renameCustomcolumn(QString;QString;) | rename custom column
+void renameCustomColumn(QString;QString;) | rename custom column
+void renderColumns([QString;) | render columns
+void renumberColumns() | renumber columns
+void resolveUnionColumnTypes() | resolve union column types
+void retypeColumn(QColumn;I) | retype column
+void reTypeColumn(QColumn;QColumn;) | re type column
+void saveCustomColumnDefinitions(QIGanttProject;QTransformerHandler;) | save custom column definitions
+void saveTableColumns(QClass;QString;) | save table columns
+void ScalarResultColumnProcessor(I) | scalar result column processor
+void ScalarResultColumnProcessor(QString;QType;) | scalar result column processor
+void setByteArray(int row, int column, byte value) | set byte array
+void setClassColumn(QString;) | set class column
+void setColumnChecks(QString;) | set column checks
+void setColumnComparator(QClass;QComparator;) | set column comparator
+void setColumnCount(I) | set column count
+void setColumnCount(IZ) | set column count
+void setColumnDimension(I) | set column dimension
+void setColumnErrorFromWork(QString;) | set column error from work
+void setColumn(I[D) | set column
+void setColumnIndex(short column) | set column index
+void setColumnList([QTableColumnCore;QString;ZZ) | set column list
+void setColumnMinWidthToHeaders() | set column min width to headers
+void setColumnName(QString;Z) | set column name
+void setColumnProjection(QColumnProjection;) | set column projection
+void setColumnsError(QString;) | set columns error
+void setColumnsFromWorker(QList;) | set columns from worker
+void setColumns(I) | set columns
+void setColumnSorting(I) | set column sorting
+void setColumnSpacing(I) | set column spacing
+void setColumns(QList;) | set columns
+void setColumns([QString;) | set columns
+void setColumnsSpacing(I) | set columns spacing
+void setColumnStatus(QString;Z) | set column status
+void setColumnsWidth(I) | set columns width
+void setColumnTransform(QList;) | set column transform
+void setColumnTypeVars(I) | set column type vars
+void setColumnWidth(I) | set column width
+void setCustomColumnValueToAllNestedTask(QTaskContainmentHierarchyFacade;QTask;QString;QObject;) | set custom column value to all nested task
+void setDatasetKeyColumns(QRange;) | set dataset key columns
+void setDefaultSortColumnName(QString;QString;) | set default sort column name
+void setDisplayedColumns(QDisplayedColumnsList;) | set displayed columns
+void setDraggedColumn(QTableColumn;) | set dragged column
+void setFloatColumnFooter(Z) | set float column footer
+void setFoldColumn(I) | set fold column
+void setIdentityColumn(QSession;[QObject;) | set identity column
+void setIgnoreColumns() | set ignore columns
+void setIsStartNewColumn(Z) | set is start new column
+void setKeyColumns(int keys) | set key columns
+void setNextColumn() | set next column
+void setOptimalColumnWidth() | set optimal column width
+void setOptimalColumnWidth(I) | set optimal column width
+void setOptimalColumnWidth(QJTable;) | set optimal column width
+void setOptimalColumnWidth(QJTable;I) | set optimal column width
+void setOrientationViaColumn() | set orientation via column
+void setPredTargetColumn(Z) | set pred target column
+void setPressedColumn(I) | set pressed column
+void setRemoveClassColumn(Z) | set remove class column
+void setResultsetKeyColumns(QRange;) | set resultset key columns
+void setRunColumn(I) | set run column
+void setScalarColumnText(I) | set scalar column text
+void setSelectedColumn(I) | set selected column
+void setSelection(TableItem row, int column) | set selection
+void setSortColumn(I) | set sort column
+void setSortColumn(QTableColumnCore;) | set sort column
+void setSortingStatus(int column, int status) | set sorting status
+void setStartNewColumn(Z) | set start new column
+void setSyncColumnSizes(Z) | set sync column sizes
+void setTableColumnAttributes(QExpression;) | set table column attributes
+void setTableColumnAttributes(QTable;I) | set table column attributes
+void setUpColumnSelection(QInstances;) | set up column selection
+void setUpCoordinatorBooleanColumn(QJTable;) | set up coordinator boolean column
+void setUpHardnessColumnEditor(QTableColumn;) | set up hardness column editor
+void setUpPredecessorComboColumn(QTableColumn;QJTable;) | set up predecessor combo column
+void setUpResourcesComboColumn(QJTable;) | set up resources combo column
+void setUpRolesComboColumn(QJTable;) | set up roles combo column
+void setUpTypeComboColumn(QTableColumn;) | set up type combo column
+void showColumnEditor() | show column editor
+void showColumn(QResourceColumn;) | show column
+void showColumns(QArrayList<QString;>;) | show columns
+void sortByColumn(int column, boolean ascending) | sort by column
+void sortColumnReverse(QTableColumnCore;) | sort column reverse
+void sortColumn(Z) | sort column
+void _sortColumn(ZZZ) | sort column
+void sort(int column) | sort
+void testAddColumn() | test add column
+void testDerivedColumn() | test derived column
+void testGetColumn() | test get column
+void testGetColumnClassInt() | test get column class int
+void testGetColumnClassString() | test get column class string
+void testGetColumnCount() | test get column count
+void testGetColumnIndex() | test get column index
+void testGetColumnName() | test get column name
+void testNotInSameTableAndColumn() | test not in same table and column
+void testRemoveColumnString() | test remove column string
+void testUnionColumnTypes() | test union column types
+void textGetColumn1() | text get column 1
+void textGetColumn2() | text get column 2
+void triggerColumnSizeChange() | trigger column size change
+void updateAsciiStream(String columnName, InputStream x, int length) | update ascii stream
+void updateBinaryStream(String columnName, InputStream x, int length) | update binary stream
+void updateColumnPrefs() | update column prefs
+void updateColumnVisibilities() | update column visibilities
+void updateDisplayedColumnsOrder() | update displayed columns order
+void UpdateLineColumn(C) | update line column
+void updateModelColumns(QList<QHomePieceOfFurniture.SortableProperty;>;) | update model columns
+void updateObject(int columnIndex, Object x) | update object
+void updateTableColumnsWidth() | update table columns width
+void updateTimestamp(String columnName, Timestamp x) | update timestamp
+void validateColumns(QDialect;QMapping;QTableMetadata;) | validate columns
+void writeSingleColumnResult(QResult;) | write single column result
+void writeTableColumnAttrs(QRowOutputBinary;I) | write table column attrs
+XMLElement getColumnsToXML() | get columns to xml

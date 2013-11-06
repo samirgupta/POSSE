@@ -1,0 +1,40 @@
+AbstractButton createZoomButton(QDrawingEditor;) | create zoom button
+AbstractButton createZoomButton(QDrawingView;) | create zoom button
+AbstractButton createZoomButton(QDrawingView;[D) | create zoom button
+boolean canZoomIn() | can zoom in
+boolean canZoomOut() | can zoom out
+boolean isZoomOverItem() | is zoom over item
+double getCurrentZoomFactor() | get current zoom factor
+double getZoomFactor() | get zoom factor
+int getMapZoomIndex() | get map zoom index
+int getZoomIndex() | get zoom index
+MenuItem addZoomWindowMenuItem(QMenu;) | add zoom window menu item
+void ActionZoomIn() | action zoom in
+void ActionZoomOut() | action zoom out
+void addZoomButtonsTo(QJToolBar;QDrawingEditor;) | add zoom buttons to
+void addZoomListener(QZoomListener;) | add zoom listener
+void animatePanAndZoomToAbs(QPoint2D;DJ) | animate pan and zoom to abs
+void animatePanAndZoomTo(QPoint2D;DJ) | animate pan and zoom to
+void animateZoomAbs(QPoint2D;DJ) | animate zoom abs
+void applyComboBoxZoomFactor() | apply combo box zoom factor
+void checkZoomIndex() | check zoom index
+void enableZoomActions() | enable zoom actions
+void fireZoomIn() | fire zoom in
+void fireZoomOut() | fire zoom out
+void removeZoomListener(QZoomListener;) | remove zoom listener
+void setComboBoxZoomFactor(D) | set combo box zoom factor
+void setCurrentZoomFactor(D) | set current zoom factor
+void setMapZoomIndex(I) | set map zoom index
+void setZoomByItem(QObject;) | set zoom by item
+void setZoomComboBox(F) | set zoom combo box
+void setZoomFactor(D) | set zoom factor
+void setZoomIndex(I) | set zoom index
+void setZoomOverItem(Z) | set zoom over item
+void setZoomState(QString;) | set zoom state
+void testZoomAndAligment() | test zoom and aligment
+void updateZoomInButton() | update zoom in button
+ZoomListener getZoomListener() | get zoom listener
+ZoomManager getZoomManager() | get zoom manager
+ZoomManager.ZoomState getCurrentZoomState() | get current zoom state
+ZoomState getNewZoomState() | get new zoom state
+ZoomState getZoomState() | get zoom state

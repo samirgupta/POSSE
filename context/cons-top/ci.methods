@@ -1,0 +1,32 @@
+CONS AsymmetricCipherKeyPair(QCipherParameters;QCipherParameters;) | asymmetric cipher key pair
+CONS BufferedAsymmetricBlockCipher(QAsymmetricBlockCipher;) | buffered asymmetric block cipher
+CONS BufferedBlockCipher() | buffered block cipher
+CONS BufferedBlockCipher(QBlockCipher;) | buffered block cipher
+CONS CBCBlockCipher(QBlockCipher;) | cbc block cipher
+CONS CFBBlockCipher(QBlockCipher;I) | cfb block cipher
+CONS CircleLayout(QString;) | circle layout
+CONS CircleLayout(QString;D) | circle layout
+CONS CircularIntegerBuffer(I) | circular integer buffer
+CONS CircularWallForce(FFF) | circular wall force
+CONS CircularWallForce(FFFF) | circular wall force
+CONS CiteSeerCitationHandler(QMap<QString;QBoolean;>;) | cite seer citation handler
+CONS CiteSeerEntryFetcherHandler(QBibtexEntry;) | cite seer entry fetcher handler
+CONS CiteSeerFetcher(QSidePaneManager;) | cite seer fetcher
+CONS CiteSeerUndoHandler(QNamedCompound;QBibtexEntry;QBasePanel;QBooleanAssign;) | cite seer undo handler
+CONS CiteSeerUndoHandler(QNamedCompound;QBibtexEntry;QBasePanel;QBooleanAssign;QBooleanAssign;QBooleanAssign;) | cite seer undo handler
+CONS CityBuilder(QMapSettings;QIBoard;) | city builder
+CONS CTSBlockCipher(QBlockCipher;) | cts block cipher
+CONS IESWithCipherParameters([B[BII) | ies with cipher parameters
+CONS InvalidCipherTextException() | invalid cipher text exception
+CONS InvalidCipherTextException(QString;) | invalid cipher text exception
+CONS JCEIESCipher(QIESEngine;) | jceies cipher
+CONS OFBBlockCipher(QBlockCipher;I) | ofb block cipher
+CONS OpenPGPCFBBlockCipher(QBlockCipher;) | open pgpcfb block cipher
+CONS PaddedBlockCipher(QBlockCipher;) | padded block cipher
+CONS PGPCFBBlockCipher(QBlockCipher;Z) | pgpcfb block cipher
+CONS SICBlockCipher(QBlockCipher;) | sic block cipher
+CONS StreamBlockCipher(QBlockCipher;) | stream block cipher
+CONS TransportCipherImpl(Qcom.aelitis.azureus.core.networkmanager.impl.TransportCipher;) | transport cipher impl
+CONS TransportCipher(QString;IQSecretKeySpec;) | transport cipher
+CONS TransportCipher(QString;IQSecretKeySpec;QAlgorithmParameterSpec;) | transport cipher
+CONS TransportHelperFilterStreamCipher(QTransportHelper;QTransportCipher;QTransportCipher;) | transport helper filter stream cipher

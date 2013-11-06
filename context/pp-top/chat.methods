@@ -1,0 +1,9 @@
+void chatConnectionClosed(Qymsg.network.event.SessionEvent;) | chat connection closed
+void chatCreated(QBuddyPluginAZ2.chatInstance;) | chat created
+void chatDestroyed(QBuddyPluginAZ2.chatInstance;) | chat destroyed
+void chatLogoffReceived(Qymsg.network.event.SessionChatEvent;) | chat logoff received
+void chatLogonReceived(Qymsg.network.event.SessionChatEvent;) | chat logon received
+void chatMessageReceived(Qymsg.network.event.SessionChatEvent;) | chat message received
+void chatUserUpdateReceived(Qymsg.network.event.SessionChatEvent;) | chat user update received
+void doChatClicked() | do chat clicked
+void doChatClicked(Z) | do chat clicked

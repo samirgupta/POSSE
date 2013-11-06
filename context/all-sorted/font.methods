@@ -1,0 +1,417 @@
+../3-Phrases/Base_Verb:static FontFamilyComplexAttribute parse(InputStream is, XmlOptions options) | font family complex attribute parse
+../3-Phrases/Base_Verb:static Font decode(String fontspec) | font decode
+../3-Phrases/Base_Verb:void setItemLabelFont(Font font) | set item label font
+../3-Phrases/Base_Verb:int getMainFontSize() | get main font size
+../3-Phrases/Base_Verb:FontMetrics getFontMetrics() | get font metrics
+../3-Phrases/Base_Verb:int getStyle(Font font) | get style
+../3-Phrases/Base_Verb:JMenu createFontSizeMenu() | create font size menu
+../3-Phrases/Base_Verb:int extractBaseline(AbsoluteAxis writingMode, Baseline baselineType, int fontSize) | extract baseline
+../3-Phrases/Base_Verb:Font getFont() | get font
+../3-Phrases/Base_Verb:static void setFontSize(String inFontSize) | void set font size
+../3-Phrases/Base_Verb:void gtkWidgetModifyFont(String name, int style, int size) | gtk widget modify font
+../3-Phrases/Base_Verb:String getFont() | get font
+../3-Phrases/Base_Verb:SWFVectors tagDefineFont(int id, int numGlyphs) | tag define font
+../3-Phrases/Base_Verb:int getFontSize(int fontNr) | get font size
+../3-Phrases/Base_Verb:String getFont() | get font
+../3-Phrases/Base_Verb:Font getFont() | get font
+../3-Phrases/Base_Verb:Font getFont() | get font
+../3-Phrases/Base_Verb:int read_font_info(int u, int nom, int aire, int s) | read font info
+../3-Phrases/Dguitar:void setFont(Qjava.awt.Font;) | set font
+../3-Phrases/Dguitar:void setRepeatFont(QFont;) | set repeat font
+../3-Phrases/Dguitar:void setNotesFont(QFont;) | set notes font
+../3-Phrases/Dguitar:void setTimeSignatureFont(QFont;) | set time signature font
+../3-Phrases/Dguitar:void setMeasureNumberFont(QFont;) | set measure number font
+../3-Phrases/Dguitar:void setGraceNoteFont(QFont;) | set grace note font
+../3-Phrases/DrawSWF:void DrawSWFFontDelegate(QJButton;) | draw swf font delegate
+../3-Phrases/DrawSWF:CONS FontDialog(QJFrame;) | font dialog
+../3-Phrases/DrawSWF:JPanel createFontEffects() | create font effects
+../3-Phrases/DrawSWF:JPanel createFontSelection() | create font selection
+../3-Phrases/DrawSWF:void setDrawSWFFont(QDrawSWFFont;) | set draw swf font
+../3-Phrases/DrawSWF:DrawSWFFont getDrawSWFFont() | get draw swf font
+../3-Phrases/DrawSWF:CONS DrawSWFFont(QFont;IQString;QColor;) | draw swf font
+../3-Phrases/DrawSWF:Font getAWTFont() | get awt font
+../3-Phrases/DrawSWF:void showFontDialog() | show font dialog
+../3-Phrases/DrawSWF:void setPropertyFont(QDrawSWFFont;) | set property font
+../3-Phrases/DrawSWF:DrawSWFFont getPropertyFont() | get property font
+../3-Phrases/DrawSWF:CONS FontLoader() | font loader
+../3-Phrases/DrawSWF:void loadAdditionalFonts(QString;) | load additional fonts
+../3-Phrases/DrawSWF:void loadStandardFonts() | load standard fonts
+../3-Phrases/DrawSWF:String[] getFontNames() | get font names
+../3-Phrases/DrawSWF:Font getFont(QString;II) | get font
+../3-Phrases/DrawSWF:void font(II) | font
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont(II) | tag define font
+../3-Phrases/DrawSWF:void tagDefineFontInfo(IQString;I[I) | tag define font info
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont2(IIQString;IIII[I[I[QRect;[I[I[I) | tag define font 2
+../3-Phrases/DrawSWF:void tagGeneratorFont([B) | tag generator font
+../3-Phrases/DrawSWF:CONS FontLoader() | font loader
+../3-Phrases/DrawSWF:FontDefinition loadFont(QString;) | load font
+../3-Phrases/DrawSWF:FontDefinition loadFont(QInputStream;) | load font
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont2(IIQString;IIII[I[I[QRect;[I[I[I) | tag define font 2
+../3-Phrases/DrawSWF:boolean usesSystemFont() | uses system font
+../3-Phrases/DrawSWF:Font getFont() | get font
+../3-Phrases/DrawSWF:double getFontSize() | get font size
+../3-Phrases/DrawSWF:void setFont(QFont;) | set font
+../3-Phrases/DrawSWF:void setFontSize(D) | set font size
+../3-Phrases/DrawSWF:Font getFont() | get font
+../3-Phrases/DrawSWF:CONS Font(QFontDefinition;) | font
+../3-Phrases/DrawSWF:int defineFont1(QMovie;QSWFTagTypes;) | define font 1
+../3-Phrases/DrawSWF:int defineFont2(QMovie;QSWFTagTypes;) | define font 2
+../3-Phrases/DrawSWF:CONS SystemFontDefinition(Qjava.awt.Font;) | system font definition
+../3-Phrases/DrawSWF:void setFontFlags(ZZZZZZ) | set font flags
+../3-Phrases/DrawSWF:CONS FontDefinition() | font definition
+../3-Phrases/DrawSWF:CONS FontDefinition(QString;DDDZZZZZZ) | font definition
+../3-Phrases/DrawSWF:void parseDefineFont2(QInStream;) | parse define font 2
+../3-Phrases/DrawSWF:void parseFontInfo(QInStream;I) | parse font info
+../3-Phrases/DrawSWF:void parseDefineFont(QInStream;) | parse define font
+../3-Phrases/DrawSWF:void tagGeneratorFont([B) | tag generator font
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont(II) | tag define font
+../3-Phrases/DrawSWF:void tagDefineFontInfo(IQString;I[I) | tag define font info
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont2(IIQString;IIII[I[I[QRect;[I[I[I) | tag define font 2
+../3-Phrases/DrawSWF:void font(II) | font
+../3-Phrases/DrawSWF:void tagGeneratorFont([B) | tag generator font
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont(II) | tag define font
+../3-Phrases/DrawSWF:void tagDefineFontInfo(IQString;I[I) | tag define font info
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont2(IIQString;IIII[I[I[QRect;[I[I[I) | tag define font 2
+../3-Phrases/DrawSWF:void tagGeneratorFont([B) | tag generator font
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont(II) | tag define font
+../3-Phrases/DrawSWF:void tagDefineFontInfo(IQString;I[I) | tag define font info
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont2(IIQString;IIII[I[I[QRect;[I[I[I) | tag define font 2
+../3-Phrases/DrawSWF:void font(II) | font
+../3-Phrases/DrawSWF:void finishFont() | finish font
+../3-Phrases/DrawSWF:void Font2ShapeImpl(QTagWriter;IIIII[I[I[QRect;[I[I[I) | font 2 shape impl
+../3-Phrases/DrawSWF:void finishFont() | finish font
+../3-Phrases/DrawSWF:void tagGeneratorFont([B) | tag generator font
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont(II) | tag define font
+../3-Phrases/DrawSWF:void tagDefineFontInfo(IQString;I[I) | tag define font info
+../3-Phrases/DrawSWF:SWFVectors tagDefineFont2(IIQString;IIII[I[I[QRect;[I[I[I) | tag define font 2
+../3-Phrases/DrawSWF:void font(II) | font
+../3-Phrases/DrawSWF:FontUIResource getControlTextFont() | get control text font
+../3-Phrases/DrawSWF:FontUIResource getMenuTextFont() | get menu text font
+../3-Phrases/DrawSWF:FontUIResource getSystemTextFont() | get system text font
+../3-Phrases/DrawSWF:FontUIResource getUserTextFont() | get user text font
+../3-Phrases/DrawSWF:FontUIResource getWindowTitleFont() | get window title font
+../3-Phrases/DrawSWF:FontUIResource getControlTextFont() | get control text font
+../3-Phrases/DrawSWF:FontUIResource getMenuTextFont() | get menu text font
+../3-Phrases/DrawSWF:FontUIResource getSystemTextFont() | get system text font
+../3-Phrases/DrawSWF:FontUIResource getUserTextFont() | get user text font
+../3-Phrases/DrawSWF:FontUIResource getWindowTitleFont() | get window title font
+../3-Phrases/DrawSWF:FontUIResource getControlTextFont() | get control text font
+../3-Phrases/DrawSWF:FontUIResource getMenuTextFont() | get menu text font
+../3-Phrases/DrawSWF:FontUIResource getSystemTextFont() | get system text font
+../3-Phrases/DrawSWF:FontUIResource getUserTextFont() | get user text font
+../3-Phrases/DrawSWF:FontUIResource getWindowTitleFont() | get window title font
+../3-Phrases/drjava2:CONS FontOption(QString;QFont;) | font option
+../3-Phrases/drjava2:Font getDefaultMainFont() | get default main font
+../3-Phrases/drjava2:Font getDefaultLineNumberFont() | get default line number font
+../3-Phrases/drjava2:Font getDefaultDocListFont() | get default doc list font
+../3-Phrases/drjava2:Font getFont(QAttributeSet;) | get font
+../3-Phrases/drjava2:Font getFont(QAttributeSet;) | get font
+../3-Phrases/drjava2:void setBoldFonts(IQGraphics;) | set bold fonts
+../3-Phrases/drjava2:void setListFont(QFont;) | set list font
+../3-Phrases/drjava2:void setFieldFont(QFont;) | set field font
+../3-Phrases/drjava2:void setStatusMessageFont(QFont;) | set status message font
+../3-Phrases/drjava2:void _setMainFont() | set main font
+../3-Phrases/drjava2:void setDefaultFont(QFont;) | set default font
+../3-Phrases/drjava2:void setDefaultFont(QColor;) | set default font
+../3-Phrases/drjava2:void setDefaultFont(QFont;QColor;) | set default font
+../3-Phrases/drjava2:void updateFontColor() | update font color
+../3-Phrases/drjava2:void updateFont() | update font
+../3-Phrases/drjava2:Font _getLineNumFont() | get line num font
+../3-Phrases/drjava2:void _setThreadCellFont(I) | set thread cell font
+../3-Phrases/drjava2:void _setWatchCellFont(I) | set watch cell font
+../3-Phrases/drjava2:CONS FontOptionComponent(QFontOption;QString;QSwingFrame;) | font option component
+../3-Phrases/drjava2:CONS FontOptionComponent(QFontOption;QString;QSwingFrame;QString;) | font option component
+../3-Phrases/drjava2:void chooseFont() | choose font
+../3-Phrases/drjava2:void _setupFontPanel(QConfigPanel;) | setup font panel
+../3-Phrases/drjava2:CONS FontChooser(QFrame;QFont;) | font chooser
+../3-Phrases/drjava2:Font getFont() | get font
+../3-Phrases/drjava2:void setTextFont(QFont;) | set text font
+../3-Phrases/freemind:Font getFontThroughMap(QFont;) | get font through map
+../3-Phrases/freemind:Font getDefaultFont() | get default font
+../3-Phrases/freemind:String getDefaultFontFamilyName() | get default font family name
+../3-Phrases/freemind:int getDefaultFontStyle() | get default font style
+../3-Phrases/freemind:int getDefaultFontSize() | get default font size
+../3-Phrases/freemind:java.lang.String getFont() | get font
+../3-Phrases/freemind:void setFont(Qjava.lang.String;) | set font
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.FontNodeAction createFontNodeAction() | create font node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.FontSizeNodeAction createFontSizeNodeAction() | create font size node action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.FontSizeNodeActionType createFontSizeNodeActionType() | create font size node action type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.FontNodeActionType createFontNodeActionType() | create font node action type
+../3-Phrases/freemind:java.lang.String getFont() | get font
+../3-Phrases/freemind:void setFont(Qjava.lang.String;) | set font
+../3-Phrases/freemind:Set getAvailableFontFamilyNames() | get available font family names
+../3-Phrases/freemind:Vector getAvailableFontFamilyNamesAsVector() | get available font family names as vector
+../3-Phrases/freemind:boolean isAvailableFontFamily(QString;) | is available font family
+../3-Phrases/freemind:void setFontSize(QMindMapNode;QString;) | set font size
+../3-Phrases/freemind:void increaseFontSize(QMindMapNode;I) | increase font size
+../3-Phrases/freemind:void setFontFamily(QMindMapNode;QString;) | set font family
+../3-Phrases/freemind:Font getFont() | get font
+../3-Phrases/freemind:String getFontSize() | get font size
+../3-Phrases/freemind:String getFontFamilyName() | get font family name
+../3-Phrases/freemind:void setFont(QFont;) | set font
+../3-Phrases/freemind:void setFontSize(I) | set font size
+../3-Phrases/freemind:boolean getAppliesToNodeFont() | get applies to node font
+../3-Phrases/freemind:String getNodeFontFamily() | get node font family
+../3-Phrases/freemind:void setNodeFontFamily(QString;) | set node font family
+../3-Phrases/freemind:Integer getNodeFontSize() | get node font size
+../3-Phrases/freemind:void setNodeFontSize(QInteger;) | set node font size
+../3-Phrases/freemind:Boolean getNodeFontBold() | get node font bold
+../3-Phrases/freemind:void setNodeFontBold(QBoolean;) | set node font bold
+../3-Phrases/freemind:Boolean getNodeFontItalic() | get node font italic
+../3-Phrases/freemind:void setNodeFontItalic(QBoolean;) | set node font italic
+../3-Phrases/freemind:void estabilishOwnFont() | estabilish own font
+../3-Phrases/freemind:void setFont(QFont;) | set font
+../3-Phrases/freemind:void setFontSize(I) | set font size
+../3-Phrases/freemind:Font getFont() | get font
+../3-Phrases/freemind:String getFontSize() | get font size
+../3-Phrases/freemind:String getFontFamilyName() | get font family name
+../3-Phrases/freemind:CONS FontSizeAction(QControllerAdapter;) | font size action
+../3-Phrases/freemind:void setFontSize(QMindMapNode;QString;) | set font size
+../3-Phrases/freemind:FontSizeNodeAction createFontSizeNodeAction(QMindMapNode;QString;) | create font size node action
+../3-Phrases/freemind:CONS FontFamilyAction(QControllerAdapter;) | font family action
+../3-Phrases/freemind:void setFontFamily(QMindMapNode;QString;) | set font family
+../3-Phrases/freemind:FontNodeAction createFontNodeAction(QMindMapNode;QString;) | create font node action
+../3-Phrases/freemind:void setFontFamily(QMindMapNode;QString;) | set font family
+../3-Phrases/freemind:void setFontSize(QMindMapNode;QString;) | set font size
+../3-Phrases/freemind:void increaseFontSize(QMindMapNode;I) | increase font size
+../3-Phrases/freemind:void selectFontSize(QString;) | select font size
+../3-Phrases/freemind:void selectFontName(QString;) | select font name
+../3-Phrases/gantt:String getFontSpec(QFont;) | get font spec
+../3-Phrases/gantt:String getFontStyle(QFont;) | get font style
+../3-Phrases/gantt:Font getMenuFont() | get menu font
+../3-Phrases/gantt:Font getChartMainFont() | get chart main font
+../3-Phrases/gantt:Font getSpanningHeaderFont() | get spanning header font
+../3-Phrases/gantt:Font getBottomUnitFont() | get bottom unit font
+../3-Phrases/gantt:Font getChartFont() | get chart font
+../3-Phrases/gantt:void setFont(QFont;) | set font
+../3-Phrases/gantt:Font getFont() | get font
+../3-Phrases/gantt:Font getMenuFont() | get menu font
+../3-Phrases/gantt:Font getChartMainFont() | get chart main font
+../3-Phrases/gantt:FontUIResource getControlTextFont() | get control text font
+../3-Phrases/gantt:FontUIResource getMenuTextFont() | get menu text font
+../3-Phrases/gantt:FontUIResource getSystemTextFont() | get system text font
+../3-Phrases/gantt:FontUIResource getUserTextFont() | get user text font
+../3-Phrases/gantt:FontUIResource getWindowTitleFont() | get window title font
+../3-Phrases/hsqldb:void creatFontDialog(QDatabaseManagerSwing;) | creat font dialog
+../3-Phrases/hsqldb:void setFont() | set font
+../3-Phrases/hsqldb:void setFontSize(QString;) | set font size
+../3-Phrases/iReport:CONS IRFont() | ir font
+../3-Phrases/iReport:CONS IRFont(Qjava.awt.Font;Qjava.io.File;) | ir font
+../3-Phrases/iReport:java.awt.Font getFont() | get font
+../3-Phrases/iReport:void setFont(Qjava.awt.Font;) | set font
+../3-Phrases/iReport:CONS FontListLoader() | font list loader
+../3-Phrases/iReport:java.awt.Font loadFont(QString;) | load font
+../3-Phrases/iReport:Vector loadTTFFonts() | load ttf fonts
+../3-Phrases/iReport:void setIReportFont(QIReportFont;) | set i report font
+../3-Phrases/iReport:IReportFont getIReportFont() | get i report font
+../3-Phrases/iReport:java.awt.Font getFont() | get font
+../3-Phrases/iReport:void setFont(Qjava.awt.Font;) | set font
+../3-Phrases/iReport:java.lang.String getFontName() | get font name
+../3-Phrases/iReport:void setFontName(Qjava.lang.String;) | set font name
+../3-Phrases/iReport:int getFontSize() | get font size
+../3-Phrases/iReport:void setFontSize(I) | set font size
+../3-Phrases/iReport:void modifyFontSize(I) | modify font size
+../3-Phrases/iReport:java.lang.String getPDFFontName() | get pdf font name
+../3-Phrases/iReport:void setPDFFontName(Qjava.lang.String;) | set pdf font name
+../3-Phrases/iReport:java.lang.String getReportFont() | get report font
+../3-Phrases/iReport:void setReportFont(Qjava.lang.String;) | set report font
+../3-Phrases/iReport:java.lang.String getTTFFont() | get ttf font
+../3-Phrases/iReport:void setTTFFont(Qjava.lang.String;) | set ttf font
+../3-Phrases/iReport:CONS IReportFont() | i report font
+../3-Phrases/iReport:java.lang.String getFontName() | get font name
+../3-Phrases/iReport:void setFontName(Qjava.lang.String;) | set font name
+../3-Phrases/iReport:int getFontSize() | get font size
+../3-Phrases/iReport:void setFontSize(I) | set font size
+../3-Phrases/iReport:java.lang.String getPDFFontName() | get pdf font name
+../3-Phrases/iReport:void setPDFFontName(Qjava.lang.String;) | set pdf font name
+../3-Phrases/iReport:java.lang.String getReportFont() | get report font
+../3-Phrases/iReport:void setReportFont(Qjava.lang.String;) | set report font
+../3-Phrases/iReport:java.lang.String getTTFFont() | get ttf font
+../3-Phrases/iReport:void setTTFFont(Qjava.lang.String;) | set ttf font
+../3-Phrases/iReport:boolean isDefaultFont() | is default font
+../3-Phrases/iReport:void setDefaultFont(Z) | set default font
+../3-Phrases/iReport:java.awt.Font getJavaAWTFont() | get java awt font
+../3-Phrases/iReport:void setJavaAWTFont(Qjava.awt.Font;) | set java awt font
+../3-Phrases/iReport:boolean isTTFFont(QString;) | is ttf font
+../3-Phrases/iReport:IReportFont readFontElement(QNode;) | read font element
+../3-Phrases/iReport:java.util.Vector getFonts() | get fonts
+../3-Phrases/iReport:void setFonts(Qjava.util.Vector;) | set fonts
+../3-Phrases/iReport:void writeFontElement(QIReportFont;QPrintWriter;) | write font element
+../3-Phrases/iReport:IReportFont getDefaultFont() | get default font
+../3-Phrases/iReport:IReportFont getReportFontByName(QString;) | get report font by name
+../3-Phrases/iReport:IReportFont getFont() | get font
+../3-Phrases/iReport:void setFont(QIReportFont;) | set font
+../3-Phrases/iReport:CONS JRFontDialog(Qjava.awt.Frame;Z) | jr font dialog
+../3-Phrases/iReport:void jComboBoxReportFontsActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box report fonts action performed
+../3-Phrases/iReport:void jComboBoxPDFFontNameActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box pdf font name action performed
+../3-Phrases/iReport:it.businesslogic.ireport.IReportFont getIReportFont() | get i report font
+../3-Phrases/iReport:void setIReportFont(Qit.businesslogic.ireport.IReportFont;) | set i report font
+../3-Phrases/iReport:void setIReportFont(Qit.businesslogic.ireport.IReportFont;Z) | set i report font
+../3-Phrases/iReport:void updateFonts(QVector;) | update fonts
+../3-Phrases/iReport:boolean setFontComboBox(ZQString;Qjavax.swing.JComboBox;) | set font combo box
+../3-Phrases/iReport:boolean isReportFontMode() | is report font mode
+../3-Phrases/iReport:void setReportFontMode(Z) | set report font mode
+../3-Phrases/iReport:void setReportFontMode(I) | set report font mode
+../3-Phrases/iReport:CONS FontsDialog(Qjava.awt.Frame;Z) | fonts dialog
+../3-Phrases/iReport:void revertDefaultFontProperties() | revert default font properties
+../3-Phrases/iReport:void updateReportFonts() | update report fonts
+../3-Phrases/iReport:void jComboBoxFontItemStateChanged(Qjava.awt.event.ItemEvent;) | j combo box font item state changed
+../3-Phrases/iReport:void jMenuItemFontsActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item fonts action performed
+../3-Phrases/iReport:java.util.Vector getTtfFonts() | get ttf fonts
+../3-Phrases/iReport:void setTtfFonts(Qjava.util.Vector;) | set ttf fonts
+../3-Phrases/iReport:void jComboBoxReportFontActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box report font action performed
+../3-Phrases/iReport:void jComboBoxTTFFontActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box ttf font action performed
+../3-Phrases/iReport:void jComboBoxFontNameActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box font name action performed
+../3-Phrases/iReport:void jComboBoxPDFFontNameActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box pdf font name action performed
+../3-Phrases/iReport:void updateReportFonts() | update report fonts
+../3-Phrases/iReport:void updateFonts(QVector;) | update fonts
+../3-Phrases/iReport:boolean setFontComboBox(ZQString;Qjavax.swing.JComboBox;) | set font combo box
+../3-Phrases/iReport:CONS FontSheetPropertyComponent() | font sheet property component
+../3-Phrases/iReport:void fontChanged() | font changed
+../3-Phrases/iReport:IReportFont getIreportFont() | get ireport font
+../3-Phrases/iReport:void setIreportFont(QIReportFont;) | set ireport font
+../3-Phrases/iReport:int getFontMode() | get font mode
+../3-Phrases/iReport:void setFontMode(I) | set font mode
+../3-Phrases/iReport:CONS FontSheetProperty(QString;QString;) | font sheet property
+../3-Phrases/iReport:void setFontMode(I) | set font mode
+../3-Phrases/iReport:IReportFont getIreportFont() | get ireport font
+../3-Phrases/iReport:void setIreportFont(QIReportFont;) | set ireport font
+../3-Phrases/iReport:FontMetrics getFontMetrics() | get font metrics
+../3-Phrases/iReport:void setFont(QFont;) | set font
+../3-Phrases/iReport:Font getStyledFont(QFont;) | get styled font
+../3-Phrases/iReport:FontMetrics getFontMetrics(QFont;) | get font metrics
+../3-Phrases/Jabref:CONS FontSelector() | font selector
+../3-Phrases/Jabref:CONS FontSelector(QFont;) | font selector
+../3-Phrases/Jabref:void setFont(QFont;) | set font
+../3-Phrases/Jabref:CONS FontSelectorDialog(QComponent;QFont;) | font selector dialog
+../3-Phrases/Jabref:Font getSelectedFont() | get selected font
+../3-Phrases/Jabref:String[] getFontList() | get font list
+../3-Phrases/Jabref:void updateFont() | update font
+../3-Phrases/Jabref:void IncreaseTableFontSizeAction() | increase table font size action
+../3-Phrases/Jabref:void DecreaseTableFontSizeAction() | decrease table font size action
+../3-Phrases/Jabref:void updateTableFont() | update table font
+../3-Phrases/Jabref:void updateFont() | update font
+../3-Phrases/Jabref:void updateFont() | update font
+../3-Phrases/Jabref:void setGroupFontAndIcon(QJMenuItem;QAbstractGroup;) | set group font and icon
+../3-Phrases/Jabref:Font loadFont(QString;) | load font
+../3-Phrases/Jabref:Font getFont() | get font
+../3-Phrases/Jabref:void setFont(QFont;) | set font
+../3-Phrases/Jabref:void setNameFontItalic(Z) | set name font italic
+../3-Phrases/Jabref:void updateFont() | update font
+../3-Phrases/Jabref:void updateFont() | update font
+../3-Phrases/jajuk:Font getFont() | get font
+../3-Phrases/javaHMO:void preLoadFonts() | pre load fonts
+../3-Phrases/jbidwatcher:Font chooseFont(QFont;QAuctionEntry;I) | choose font
+../3-Phrases/JHotDraw-7.0.8:FontRenderContext getFontRenderContext() | get font render context
+../3-Phrases/JHotDraw-7.0.8:void setFontRenderContext(QFontRenderContext;) | set font render context
+../3-Phrases/JHotDraw-7.0.8:Font getFont() | get font
+../3-Phrases/JHotDraw-7.0.8:void setFontSize(F) | set font size
+../3-Phrases/JHotDraw-7.0.8:float getFontSize() | get font size
+../3-Phrases/JHotDraw-7.0.8:Font getFont() | get font
+../3-Phrases/JHotDraw-7.0.8:void setFontSize(F) | set font size
+../3-Phrases/JHotDraw-7.0.8:float getFontSize() | get font size
+../3-Phrases/JHotDraw-7.0.8:Font getFont() | get font
+../3-Phrases/JHotDraw-7.0.8:void setFontSize(F) | set font size
+../3-Phrases/JHotDraw-7.0.8:float getFontSize() | get font size
+../3-Phrases/JHotDraw-7.0.8:FontRenderContext getFontRenderContext() | get font render context
+../3-Phrases/JHotDraw-7.0.8:CONS FontSizeLocator() | font size locator
+../3-Phrases/JHotDraw-7.0.8:CONS FontSizeHandle(QTextHolderFigure;) | font size handle
+../3-Phrases/JHotDraw-7.0.8:CONS FontSizeHandle(QTextHolderFigure;QLocator;) | font size handle
+../3-Phrases/JHotDraw-7.0.8:Font getFont(QFigure;) | get font
+../3-Phrases/JHotDraw-7.0.8:int getFontStyle(QFigure;) | get font style
+../3-Phrases/JHotDraw-7.0.8:FontRenderContext getFontRenderContext() | get font render context
+../3-Phrases/JHotDraw-7.0.8:void setFontRenderContext(QFontRenderContext;) | set font render context
+../3-Phrases/JHotDraw-7.0.8:void setItemFont(QFont;) | set item font
+../3-Phrases/JHotDraw-7.0.8:void updateFont(QMenuElement;) | update font
+../3-Phrases/JHotDraw-7.0.8:void addFontButtonsTo(QJToolBar;QDrawingEditor;) | add font buttons to
+../3-Phrases/JHotDraw-7.0.8:Font getFont() | get font
+../3-Phrases/JHotDraw-7.0.8:void setFontSize(F) | set font size
+../3-Phrases/JHotDraw-7.0.8:float getFontSize() | get font size
+../3-Phrases/JHotDraw-7.0.8:Font getFont() | get font
+../3-Phrases/JHotDraw-7.0.8:void setFontSize(F) | set font size
+../3-Phrases/JHotDraw-7.0.8:float getFontSize() | get font size
+../3-Phrases/JHotDraw-7.0.8:double readInheritFontSizeAttribute(QIXMLElement;QString;QString;) | read inherit font size attribute
+../3-Phrases/JHotDraw-7.0.8:void readFontAttributes(QIXMLElement;QMap<QAttributeKey;QObject;>;) | read font attributes
+../3-Phrases/JHotDraw-7.0.8:void writeFontAttributes(QIXMLElement;QMap<QAttributeKey;QObject;>;) | write font attributes
+../3-Phrases/JRobin:void setTitleFontColor(QColor;) | set title font color
+../3-Phrases/JRobin:void setDefaultFontColor(QColor;) | set default font color
+../3-Phrases/JRobin:void setTitleFont(QFont;) | set title font
+../3-Phrases/JRobin:void setDefaultFont(QFont;) | set default font
+../3-Phrases/JRobin:Color getTitleFontColor() | get title font color
+../3-Phrases/JRobin:Color getDefaultFontColor() | get default font color
+../3-Phrases/JRobin:Font getTitleFont() | get title font
+../3-Phrases/JRobin:Font getDefaultFont() | get default font
+../3-Phrases/JRobin:Font resolveFont(QNode;) | resolve font
+../3-Phrases/MegaMek-0.32.0:void updateFontSizes() | update font sizes
+../3-Phrases/MegaMek-0.32.0:void updateFontSizes() | update font sizes
+../3-Phrases/np:boolean fontSubscript() | font subscript
+../3-Phrases/np:static boolean fontSupportsDefaultEncoding(Font font) | boolean font supports default encoding
+../3-Phrases/prefuse:void setFont(QFont;) | set font
+../3-Phrases/prefuse:CONS FontAnimator() | font animator
+../3-Phrases/prefuse:CONS FontAnimator(QString;) | font animator
+../3-Phrases/prefuse:CONS FontAction() | font action
+../3-Phrases/prefuse:CONS FontAction(QString;) | font action
+../3-Phrases/prefuse:CONS FontAction(QString;QFont;) | font action
+../3-Phrases/prefuse:void setDefaultFont(QFont;) | set default font
+../3-Phrases/prefuse:Font getDefaultFont() | get default font
+../3-Phrases/prefuse:Font getFont(QVisualItem;) | get font
+../3-Phrases/prefuse:Font getFont(QString;D) | get font
+../3-Phrases/prefuse:Font getFont(QString;ID) | get font
+../3-Phrases/prefuse:Font getFont(QString;II) | get font
+../3-Phrases/prefuse:Font getIntermediateFont(QFont;QFont;D) | get intermediate font
+../3-Phrases/prefuse:void setFont(QFont;) | set font
+../3-Phrases/prefuse:void setFont(QFont;) | set font
+../3-Phrases/prefuse:void setFont(QComponent;QFont;) | set font
+../3-Phrases/prefuse:void setFont(QFont;) | set font
+../3-Phrases/prefuse:void setFont(QFont;) | set font
+../3-Phrases/prefuse:Font getFont(I) | get font
+../3-Phrases/prefuse:void setFont(IQFont;) | set font
+../3-Phrases/prefuse:Font getStartFont(I) | get start font
+../3-Phrases/prefuse:void setStartFont(IQFont;) | set start font
+../3-Phrases/prefuse:Font getEndFont(I) | get end font
+../3-Phrases/prefuse:void setEndFont(IQFont;) | set end font
+../3-Phrases/prefuse:Font getFont() | get font
+../3-Phrases/prefuse:void setFont(QFont;) | set font
+../3-Phrases/prefuse:Font getStartFont() | get start font
+../3-Phrases/prefuse:void setStartFont(QFont;) | set start font
+../3-Phrases/prefuse:Font getEndFont() | get end font
+../3-Phrases/prefuse:void setEndFont(QFont;) | set end font
+../3-Phrases/prefuse:Font getFont() | get font
+../3-Phrases/prefuse:void setFont(QFont;) | set font
+../3-Phrases/prefuse:Font getStartFont() | get start font
+../3-Phrases/prefuse:void setStartFont(QFont;) | set start font
+../3-Phrases/prefuse:Font getEndFont() | get end font
+../3-Phrases/prefuse:void setEndFont(QFont;) | set end font
+../3-Phrases/SweetHome3D:float getFontSize() | get font size
+../3-Phrases/SweetHome3D:Font getFont(QFont;QTextStyle;) | get font
+../3-Phrases/SweetHome3D:FontMetrics getFontMetrics(QFont;QTextStyle;) | get font metrics
+../3-Phrases/vuze:void updateFont(QString;) | update font
+../3-Phrases/vuze:void createFonts() | create fonts
+../3-Phrases/vuze:int getFontStyle() | get font style
+../3-Phrases/vuze:boolean setFontStyle(I) | set font style
+../3-Phrases/vuze:int getFontHeightFromPX(QFont;QGC;I) | get font height from px
+../3-Phrases/vuze:int getFontHeightFromPX(QDevice;[QFontData;QGC;I) | get font height from px
+../3-Phrases/vuze:Font getFontWithHeight(QFont;QGC;I) | get font with height
+../3-Phrases/vuze:void setFontHeight(QControl;II) | set font height
+../3-Phrases/vuze:Font getFont() | get font
+../3-Phrases/vuze:void setFont(QFont;) | set font
+../3-Phrases/vuze:Font createBoldFont(QFont;) | create bold font
+../3-Phrases/vuze:int getFontStyle() | get font style
+../3-Phrases/vuze:boolean setFontStyle(I) | set font style
+../3-Phrases/vuze:boolean setFontStyle(I) | set font style
+../3-Phrases/vuze:int getFontStyle() | get font style
+../3-Phrases/weka:Element writeFont(QElement;QObject;QString;) | write font
+../3-Phrases/weka:Object readFont(QElement;) | read font
+../3-Phrases/weka:Element writeFontUIResource(QElement;QObject;QString;) | write font ui resource
+../3-Phrases/weka:Object readFontUIResource(QElement;) | read font ui resource
+../3-Phrases/weka:void changeFontSize(I) | change font size
+../3-Phrases/weka:Font getFont() | get font
+../3-Phrases/weka:void setFont(QFont;) | set font
+../3-Phrases/weka:void addPSFontReplacement(QString;QString;) | add ps font replacement
+../3-Phrases/weka:Font getFont() | get font
+../3-Phrases/weka:FontMetrics getFontMetrics(QFont;) | get font metrics
+../3-Phrases/weka:String replacePSFont(QString;) | replace ps font
+../3-Phrases/weka:void setFont(QFont;) | set font
+../3-Phrases/weka:FontRenderContext getFontRenderContext() | get font render context
+../3-Phrases/weka:void setFonts(QGraphics;) | set fonts
+../3-Phrases/weka:void setFonts(QGraphics;) | set fonts

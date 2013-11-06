@@ -1,0 +1,7 @@
+CONS EndTurnAction(QFreeColClient;) | end turn action
+CONS GameTurnChangeEvent(QObject;QPlayer;) | game turn change event
+CONS GameTurn(I) | game turn
+CONS ReportTurnAction(QFreeColClient;) | report turn action
+CONS ReportTurnPanel(QCanvas;[QModelMessage;) | report turn panel
+CONS Turn(I) | turn
+CONS TurnVectors(III) | turn vectors

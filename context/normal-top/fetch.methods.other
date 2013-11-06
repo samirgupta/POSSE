@@ -1,0 +1,43 @@
+BatchFetchQueue getBatchFetchQueue() | get batch fetch queue
+boolean isDefaultFetchMode(QFetchMode;) | is default fetch mode
+boolean isJoinedFetchEnabledInMapping(QFetchMode;QAssociationType;) | is joined fetch enabled in mapping
+Criteria setFetchMode(QString;QFetchMode;) | set fetch mode
+Criteria setFetchSize(I) | set fetch size
+DetachedCriteria setFetchMode(QString;QFetchMode;) | set fetch mode
+FetchMode getFetchMode() | get fetch mode
+FetchMode getFetchMode(I) | get fetch mode
+FetchMode getFetchMode(QString;) | get fetch mode
+FetchRequest createFetchRequest(QString;JJ) | create fetch request
+FetchRequest createFetchRequest(QString;JJJ) | create fetch request
+FetchSourceList getFetchSources() | get fetch sources
+Integer getFetchSize() | get fetch size
+Integer getJdbcFetchSize() | get jdbc fetch size
+Integer getMaximumFetchDepth() | get maximum fetch depth
+int getDefaultBatchFetchSize() | get default batch fetch size
+int getFetchDirection() | get fetch direction
+int getFetchSize() | get fetch size
+long getCollectionFetchCount() | get collection fetch count
+long getEntityFetchCount() | get entity fetch count
+long getFetchCount() | get fetch count
+long getFetchEnd() | get fetch end
+long getFetchStart() | get fetch start
+long[] getFetchStep(JJJ) | get fetch step
+Query setFetchSize(I) | set fetch size
+ShowEmptyFetchSetDialog getEmptyFetchSetDialog() | get empty fetch set dialog
+String getFetchProfile() | get fetch profile
+String getJdbcFetchSize() | get jdbc fetch size
+String getMaximumFetchDepth() | get maximum fetch depth
+void initOuterJoinFetchSetting(QElement;QFetchable;) | init outer join fetch setting
+void setDefaultBatchFetchSize(I) | set default batch fetch size
+void setFetchDirection(I) | set fetch direction
+void setFetchDirection(int direction) | set fetch direction
+void setFetchMode(QFetchMode;) | set fetch mode
+void setFetchProfile(QString;) | set fetch profile
+void setFetchSize(I) | set fetch size
+void setFetchSize(QInteger;) | set fetch size
+void setJdbcFetchSize(QInteger;) | set jdbc fetch size
+void setJdbcFetchSize(QString;) | set jdbc fetch size
+void setMaximumFetchDepth(QInteger;) | set maximum fetch depth
+void setMaximumFetchDepth(QString;) | set maximum fetch depth
+void setStatementFetchSize(QPreparedStatement;) | set statement fetch size
+void testSetFetchDirectiion() | test set fetch direct ii on

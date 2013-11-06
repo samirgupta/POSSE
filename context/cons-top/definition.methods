@@ -1,0 +1,21 @@
+CONS ChartDefinition() | chart definition
+CONS ClusterDefinition() | cluster definition
+CONS ClusterDefinition(QClusterGenerator;) | cluster definition
+CONS DefinitionsDocument(QGlobalEventNotifier;) | definitions document
+CONS DefinitionsDocument(QGlobalEventNotifier;QCompoundUndoManager;) | definitions document
+CONS DefinitionsDocument(QIndenter;QGlobalEventNotifier;) | definitions document
+CONS DefinitionsDocumentTest(QString;) | definitions document test
+CONS DefinitionsEditorKit(QGlobalEventNotifier;) | definitions editor kit
+CONS DefinitionsPane(QMainFrame;QOpenDefinitionsDocument;) | definitions pane
+CONS FilterDefinition(QString;QString;QMap;) | filter definition
+CONS FontDefinition() | font definition
+CONS FontDefinition(QString;DDDZZZZZZ) | font definition
+CONS NamedQueryDefinition(QString;ZQString;QInteger;QInteger;QFlushMode;QCacheMode;ZQString;QMap;) | named query definition
+CONS NamedQueryDefinition(QString;ZQString;QInteger;QInteger;QFlushMode;QMap;) | named query definition
+CONS NamedSQLQueryDefinition(QString;[QNativeSQLQueryReturn;QList;ZQString;QInteger;QInteger;QFlushMode;QCacheMode;ZQString;QMap;Z) | named sql query definition
+CONS NamedSQLQueryDefinition(QString;QString;QList;ZQString;QInteger;QInteger;QFlushMode;QCacheMode;ZQString;QMap;Z) | named sql query definition
+CONS NamedSQLQueryDefinition(QString;QString;QList;ZQString;QInteger;QInteger;QFlushMode;QMap;Z) | named sql query definition
+CONS ResultSetMappingDefinition(QString;) | result set mapping definition
+CONS SubspaceClusterDefinition() | subspace cluster definition
+CONS SubspaceClusterDefinition(QClusterGenerator;) | subspace cluster definition
+CONS SystemFontDefinition(Qjava.awt.Font;) | system font definition

@@ -1,0 +1,35 @@
+boolean getTaskDuration() | get task duration
+DurationField getRangeDurationField() | get range duration field
+float getInitialDuration() | get initial duration
+float translateDurationValue(QTaskLength;) | translate duration value
+GP4Duration getDuration() | get duration
+GP4Duration minDurationOfBeats() | min duration of beats
+GP4Duration minDurationOfMeasure(I) | min duration of measure
+int getChangeDuration() | get change duration
+int getDuration() | get duration
+int getFadingDuration() | get fading duration
+long getDuration() | get duration
+String getDurationKey(QString;) | get duration key
+TaskLength getDuration() | get duration
+TaskLength translateDuration(QTaskLength;) | translate duration
+TaskMutator createMutatorFixingDuration() | create mutator fixing duration
+TextFigure getDurationFigure() | get duration figure
+void DurationAdapter(QTaskFigure;) | duration adapter
+void durationColorsSetListener(QActionListener;) | duration colors set listener
+void durationColorsUpdate() | duration colors update
+void durationDefaultOrSelectedColors() | duration default or selected colors
+void durationMultipleValuesSet(Z) | duration multiple values set
+void setChangeDuration(I) | set change duration
+void setDuration(I) | set duration
+void setDuration(J) | set duration
+void setDuration(QGP4Duration;) | set duration
+void setDuration(QTaskLength;) | set duration
+void setFadingDuration(I) | set fading duration
+void setMinDuration(QGP4Duration;) | set min duration
+void setMinDuration(QGP4Duration;I) | set min duration
+void testHasNotDuration() | test has not duration
+void testRecalculateOnChangingDurationByMutator() | test recalculate on changing duration by mutator
+void testRecalculateOnChangingStartByFixingDurationMutator() | test recalculate on changing start by fixing duration mutator
+void testSupertaskDurationShrinksWhenNestedTasksShrink() | test super task duration shrinks when nested tasks shrink
+void testSupetaskDurationGrowsWhenNestedTasksGrow() | test supe task duration grows when nested tasks grow
+void testTaskScheduleEventIsSendOnTaskDurationChange() | test task schedule event is send on task duration change

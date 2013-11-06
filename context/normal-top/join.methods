@@ -1,0 +1,153 @@
+AssociationType getJoinableType() | get joinable type
+boolean basicJoinSegments(QPoint2D.Double;) | basic join segments
+boolean hasThetaJoins() | has theta joins
+boolean isClassOrSuperclassJoin(QJoin;) | is class or superclass join
+boolean isCollectionJoin() | is collection join
+boolean isFromOrJoinFragment() | is from or join fragment
+boolean isJoinable(IQSet;QString;[QString;QAssociationType;I) | is joinable
+boolean isJoinedAtEndOfWallAtEnd() | is joined at end of wall at end
+boolean isJoinedAtEndOfWallAtStart() | is joined at end of wall at start
+boolean isJoinedAtStartOfWallAtEnd() | is joined at start of wall at end
+boolean isJoinedAtStartOfWallAtStart() | is joined at start of wall at start
+boolean isJoinedFetchEnabledInMapping(QFetchMode;QAssociationType;) | is joined fetch enabled in mapping
+boolean isJoinedSubclass() | is joined subclass
+boolean isJoin(QString;) | is join
+boolean setForJoin(QTableFilter;Z) | set for join
+boolean supportsFullOuterJoins() | supports full outer joins
+boolean supportsLimitedOuterJoins() | supports limited outer joins
+boolean supportsOuterJoinForUpdate() | supports outer join for update
+boolean supportsOuterJoins() | supports outer joins
+double[] logJointDensitiesForInstance(QInstance;) | log joint densities for instance
+Expression addJoinCondition(QExpression;QExpression;QTableFilter;Z) | add join condition
+FromClause locateChildFromClauseWithJoinByPath(QString;) | locate child from clause with join by path
+FromElement createCollectionElementsJoin(QQueryableCollection;QString;) | create collection elements join
+FromElement createCollectionJoin(QJoinSequence;QString;) | create collection join
+FromElement createElementJoin(QQueryableCollection;) | create element join
+FromElement createEntityJoin(QString;QString;QJoinSequence;ZZQEntityType;) | create entity join
+FromElement createJoin(QString;QString;QJoinSequence;QEntityType;Z) | create join
+FromElement findCollectionJoin(QString;) | find collection join
+FromElement findJoinByPathLocal(QString;) | find join by path local
+FromElement findJoinByPath(QString;) | find join by path
+FromElement getImpliedJoin() | get implied join
+FromElement initializeJoin(QString;QFromElement;QJoinSequence;[QString;QFromElement;Z) | initialize join
+FuzzyLattice join(QFuzzyLattice;) | join
+int basicJoinSegments(QPoint2D.Double;F) | basic join segments
+int getImpliedJoinType() | get implied join type
+int getJoinClosureSpan() | get join closure span
+int getJoinCount() | get join count
+int getJoinNumber(QProperty;) | get join number
+int getJoinType() | get join type
+int getJoinType(QAssociationType;QFetchMode;QString;QSet;QString;[QString;ZI) | get join type
+int getJoinType(QAssociationType;QFetchMode;QString;QString;[QString;ZIQCascadeStyle;) | get join type
+int getJoinType(QString;) | get join type
+int getJoinType(ZI) | get join type
+int[] join([I[I) | join
+int joinSegments(QPoint2D.Double;F) | join segments
+int toHibernateJoinType(I) | to hibernate join type
+Iterator getJoinClosureIterator() | get join closure iterator
+Iterator getJoinIterator() | get join iterator
+Iterator getSubclassJoinClosureIterator() | get subclass join closure iterator
+Joinable getAssociatedJoinable(QSessionFactoryImplementor;) | get associated joinable
+Joinable getJoinable() | get joinable
+JoinedWall[] getJoinedWalls(QList<QWall;>;) | get joined walls
+JoinFragment createJoin([IQString;) | create join
+JoinFragment createJoin(QString;ZZ) | create join
+JoinFragment createOuterJoinFragment() | create outer join fragment
+JoinFragment getJoinFragment() | get join fragment
+JoinFragment mergeOuterJoins(QList;) | merge outer joins
+JoinFragment toJoinFragment() | to join fragment
+JoinFragment toJoinFragment(QMap;Z) | to join fragment
+JoinFragment toJoinFragment(QMap;ZQString;QString;) | to join fragment
+JoinSequence addJoin(QAssociationType;QString;I[QString;) | add join
+JoinSequence createCollectionJoinSequence(QQueryableCollection;QString;) | create collection join sequence
+JoinSequence createJoinSequence() | create join sequence
+JoinSequence createJoinSequence(QString;I) | create join sequence
+JoinSequence createJoinSequence(ZQAssociationType;QString;I[QString;) | create join sequence
+JoinSequence getJoinSequence() | get join sequence
+JoinSequence getPathJoin(QString;) | get path join
+JoinSequence getWhereJoin() | get where join
+Map getJoinedProperties() | get joined properties
+NativeSQLQueryJoinReturn bindReturnJoin(QElement;QMappings;) | bind return join
+OuterJoinLoadable getOuterJoinLoadable(QString;) | get outer join loadable
+OuterJoin sOuterJoin() | s outer join
+RdfBindingSet join(RdfBindingSet set1, RdfBindingSet set2, Collection filters) | join
+Select setOuterJoins(QString;QString;) | set outer joins
+SQLQuery addJoin(QString;QString;) | add join
+SQLQuery addJoin(QString;QString;QLockMode;) | add join
+String fromJoinFragment(QString;ZZ) | from join fragment
+String getJoinAlias() | get join alias
+String getWithClauseJoinAlias() | get with clause join alias
+String joinKeyColumnName(QString;QString;) | join key column name
+String joinOptions([QString;) | join options
+String join(QIterator;QStringTransformer;QStringJoinTemplate;) | join
+String join([QObject;QString;) | join
+String join([QString;) | join
+String join(QString;QIterator;) | join
+String join(QString;QList<QString;>;) | join
+String join(QString;[QString;) | join
+String join(QString;QString;) | join
+String[] join([QString;[QString;) | join
+String join([QString;QString;II) | join
+String[] join([QString;[QString;[Z) | join
+String js_join(QContext;QScriptable;[QObject;) | js join
+String whereJoinFragment(QString;ZZ) | where join fragment
+Subset joinSubsets(QSubset;QSubset;) | join subsets
+void addAssociationToJoinTreeIfNecessary(QAssociationType;[QString;QString;QString;II) | add association to join tree if necessary
+void addAssociationToJoinTree(QAssociationType;[QString;QString;QString;II) | add association to join tree
+void addCollectionJoinFromElementByPath(QString;QFromElement;) | add collection join from element by path
+void addCrossJoin(QString;QString;) | add cross join
+void addExtraJoins(QJoinFragment;QString;QJoinable;Z) | add extra joins
+void addFromJoinOnly(QString;QJoinSequence;) | add from join only
+void addJoinByPathMap(QString;QFromElement;) | add join by path map
+void addJoinNodes(QQueryNode;QJoinSequence;QFromElement;Z) | add join nodes
+void addJoin(QJoin;) | add join
+void addJoin(QJoinSequence;QQueryTranslatorImpl;) | add join
+void addJoin(QString;QAssociationType;) | add join
+void addJoin(QString;QAssociationType;[QString;) | add join
+void addJoin(QString;QJoinSequence;) | add join
+void addJoin(QString;QString;[QString;[QString;I) | add join
+void addJoin(QString;QString;[QString;[QString;IQString;) | add join
+void addJoin(QString;QString;QString;[QString;[QString;IQString;) | add join
+void addJoins(QJoinFragment;) | add joins
+void addJoins(QString;QString;) | add joins
+void addLeftOuterJoinCondition(QString;) | add left outer join condition
+void addManyToManyJoin(QJoinFragment;QQueryableCollection;) | add many to many join
+void addPathAliasAndJoin(QString;QString;QJoinSequence;) | add path alias and join
+void addStrokeJoinButtonTo(QJToolBar;QDrawingEditor;) | add stroke join button to
+void addSubclassJoin(QJoin;) | add subclass join
+void addToCurrentJoin(QPathExpressionParser.CollectionElement;) | add to current join
+void addToCurrentJoin(QString;) | add to current join
+void bindJoinedSubclass(QElement;QJoinedSubclass;QMappings;Qjava.util.Map;) | bind joined subclass
+void bindJoin(QElement;QJoin;QMappings;Qjava.util.Map;) | bind join
+void createFromJoinElement(QAST;QAST;IQAST;QAST;QAST;) | create from join element
+void dereferenceEntityJoin(QString;QEntityType;ZQAST;) | dereference entity join
+void detachJoinedWall(QWall;) | detach joined wall
+void getEquiJoinColumns(QTableFilter;[Z[QExpression;) | get equi join columns
+void handleJoinedSubclass(QPersistentClass;QMappings;QElement;Qjava.util.Map;) | handle joined subclass
+void ignoreInitialJoin() | ignore initial join
+void initOuterJoinFetchSetting(QElement;QFetchable;) | init outer join fetch setting
+void join() | join
+void JoinedWall(QWall;) | joined wall
+void joinMultiplayerGame(QString;QString;I) | join multiplayer game
+void joinNewWallEndToWall(QWall;QWall;QWall;) | join new wall end to wall
+void joinNodes(QMindMapNode;QList;) | join nodes
+void Join(QAssociationType;QString;I[QString;) | join
+void join(QThread;) | join
+void mergeJoins(QJoinFragment;) | merge joins
+void prepareAnyImplicitJoins(QDotNode;) | prepare any implicit joins
+void processJoinReturn(QNativeSQLQueryJoinReturn;) | process join return
+void processJoins(QQueryNode;Z) | process joins
+void promoteJoin(QFromElement;) | promote join
+void setCollectionJoin(Z) | set collection join
+void setHasThetaJoins(Z) | set has theta joins
+void setImpliedJoin(QFromElement;) | set implied join
+void setImpliedJoinType(I) | set implied join type
+void setJoinFragment(QJoinFragment;) | set join fragment
+void setJoinGameOptions(Z) | set join game options
+void setJoinSequence(QJoinSequence;) | set join sequence
+void setJoinType(I) | set join type
+void setUseThetaStyleJoin(Z) | set use theta style join
+void testJoin() | test join
+void testSameTableWithJoin() | test same table with join
+void testSimpleJoin() | test simple join
+void validateJoin(QString;) | validate join

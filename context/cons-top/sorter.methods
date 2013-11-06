@@ -1,0 +1,9 @@
+CONS EntrySorter(QMap<QString;QBibtexEntry;>;QComparator<QBibtexEntry;>;) | entry sorter
+CONS GlazedEntrySorter(QMap<QString;QBibtexEntry;>;) | glazed entry sorter
+CONS TableSorter() | table sorter
+CONS TableSorter(QString;QString;QBaseTransformation;) | table sorter
+CONS TableSorter(QTableModel;) | table sorter
+CONS TableSorter(QTableModel;QJTableHeader;) | table sorter
+CONS TiVoFileSorters() | ti vo file sorters
+CONS TreeDepthItemSorter() | tree depth item sorter
+CONS TreeDepthItemSorter(Z) | tree depth item sorter

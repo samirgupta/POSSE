@@ -1,0 +1,14 @@
+action_part strip_trailing_action([Qproduction_part;I) | strip trailing action
+byte[] stripHKEY(QString;) | strip hkey
+String stripBrackets(QString;) | strip brackets
+String stripComments(QString;CC) | strip comments
+String stripHigh(QString;) | strip high
+String stripHigh(QString;QString;) | strip high
+String stripId(QString;) | strip id
+String stripInternalSpaces(QString;) | strip internal spaces
+String stripNonValidXMLCharacters(QString;) | strip non valid xml characters
+String stripOutHyperlinks(QString;) | strip out hyperlinks
+String stripPrefix(String name, int offset) | strip prefix
+String stripSpecialChars(String s) | strip special chars
+String stripWhitespace(QString;) | strip whitespace
+void stripTrailingZeroes(QStringBuffer;) | strip trailing zeroes

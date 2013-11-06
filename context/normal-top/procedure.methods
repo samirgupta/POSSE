@@ -1,0 +1,13 @@
+boolean allProceduresAreCallable() | all procedures are callable
+boolean supportsCatalogsInProcedureCalls() | supports catalogs in procedure calls
+boolean supportsSchemasInProcedureCalls() | supports schemas in procedure calls
+boolean supportsStoredProcedures() | supports stored procedures
+int getMaxProcedureNameLength() | get max procedure name length
+ResultSet getProcedureColumns(QString;QString;QString;QString;) | get procedure columns
+ResultSet getProcedures(QString;QString;QString;) | get procedures
+String getProcedureTerm() | get procedure term
+Table SYSTEM_PROCEDURECOLUMNS() | system procedurecolumns
+Table SYSTEM_PROCEDURES() | system procedures
+void addSystemStoredProcedures() | add system stored procedures
+void processStartProcedure() | process start procedure
+void testCreateProcedure() | test create procedure

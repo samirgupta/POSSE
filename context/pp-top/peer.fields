@@ -1,0 +1,15 @@
+boolean peer_added | peer added
+boolean peer_exchange_supported | peer exchange supported
+boolean peer_list_compaction_suspended | peer list compaction suspended
+com.aelitis.azureus.core.peermanager.peerdb.PeerItem[] peers_added | peers added
+com.aelitis.azureus.core.peermanager.peerdb.PeerItem[] peers_dropped | peers dropped
+int ET_PEER_ADDED | et peer added
+int ET_PEER_CHANGED | et peer changed
+int ET_PEER_REMOVED | et peer removed
+int LDT_PE_PEER_ADDED | ldt pe peer added
+int LDT_PE_PEER_REMOVED | ldt pe peer removed
+int nbPeersSnubbed | nb peers snubbed
+int STALLED_PEER_SPEED | stalled peer speed
+java.lang.String AT_PEER_SOURCES_DENIED | at peer sources denied
+java.lang.String PARAM_MAX_PEERS_WHEN_SEEDING_ENABLED | param max peers when seeding enabled
+java.lang.String PeerManager_status_finished | peer manager status finished

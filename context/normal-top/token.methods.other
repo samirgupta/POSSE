@@ -1,0 +1,25 @@
+boolean agentTokenHasBeenSet() | agent token has been set
+boolean validTokenCode(I) | valid token code
+byte findTokenCode(QString;) | find token code
+htmlToken getTokenAt(I) | get token at
+int getTokenCount() | get token count
+int getTokenEnd(ITokenComparator tc, int start, int count) | get token end
+int getTokenType() | get token type
+int getWhereClauseParentTokenType() | get where clause parent token type
+int peekTokenOrEOL() | peek token or eol
+long[] mk_tokenSet_0() | mk token set  0
+long[] mk_tokenSet_1() | mk token set  1
+long[] mk_tokenSet_2() | mk token set  2
+Map getTokenReplacements() | get token replacements
+SpeedTokenDispenser getSpeedTokenDispenser() | get speed token dispenser
+String getTokenName(I) | get token name
+String[] getTokenNames() | get token names
+String getTokenTypeName(I) | get token type name
+String getTokenTypeName(QField;IZ) | get token type name
+String getTokenValue() | get token value
+TokenMarker getTokenMarker() | get token marker
+void buildTokenTypeASTClassMap() | build token type ast class map
+void MapTokenPair(QMap;QString;QVector;) | map token pair
+void setTokenMarker(QTokenMarker;) | set token marker
+void setTokenObjectClass(QString;) | set token object class
+void setTokenValue(QString;) | set token value

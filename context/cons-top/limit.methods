@@ -1,0 +1,16 @@
+CONS DownSpeedLimitItem(QString;) | down speed limit item
+CONS ExceededDRMDeliveryLimitException(QString;) | exceeded drm delivery limit exception
+CONS FMFileLimited(QFMFileLimited;) | fm file limited
+CONS FMFileLimited(QFMFileOwner;QFMFileManagerImpl;QFile;I) | fm file limited
+CONS FrequencyLimitedDispatcher(QAERunnable;I) | frequency limited dispatcher
+CONS LimitControlSetting(F) | limit control setting
+CONS LimitedInputStream(QInputStream;) | limited input stream
+CONS PeerMessageLimiter() | peer message limiter
+CONS SoftLimitMRUCache() | soft limit mru cache
+CONS SoftLimitMRUCache(I) | soft limit mru cache
+CONS SpeedLimitConfidence(QString;IF) | speed limit confidence
+CONS SpeedLimitListener(QSpeedLimitMonitor;) | speed limit listener
+CONS SpeedLimitMonitor(QSpeedManager;) | speed limit monitor
+CONS SpeedTestSetLimitPanel(QWizard;QIWizardPanel;IJIJ) | speed test set limit panel
+CONS TimeLimitedTask(QString;IIQtask;) | time limited task
+CONS UpSpeedLimitItem(QString;) | up speed limit item

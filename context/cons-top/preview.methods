@@ -1,0 +1,13 @@
+CONS FilePreviewer(QJFileChooser;) | file previewer
+CONS MapPreview(QDialog;QIBoard;) | map preview
+CONS PreviewConsoleFrame(QSingleDisplayModel;QMainFrame;Z) | preview console frame
+CONS PreviewDefDocFrame(QSingleDisplayModel;QMainFrame;) | preview def doc frame
+CONS PreviewFrame(QSingleDisplayModel;QMainFrame;Z) | preview frame
+CONS PreviewPanel() | preview panel
+CONS PreviewPanel(QAlphaColorJButton;QAlphaColorJButton;QJComboBox;QJComboBox;) | preview panel
+CONS PreviewPanel(QBasePanel;QMetaData;QString;) | preview panel
+CONS PreviewPanel(QBibtexDatabase;QBibtexEntry;QBasePanel;QMetaData;QString;) | preview panel
+CONS PreviewPrefsTab(QJabRefPreferences;) | preview prefs tab
+CONS PrintPreviewController(QHome;QUserPreferences;QHomeController;QViewFactory;) | print preview controller
+CONS PrintPreviewPanel(QHome;QUserPreferences;QHomeController;QPrintPreviewController;) | print preview panel
+CONS PrintPreview(QFrame;QChart;QString;QDate;QDate;) | print preview

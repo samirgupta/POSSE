@@ -1,0 +1,18 @@
+boolean isRelativeToFigureBounds() | is relative to figure bounds
+Figure findFigureExcept(QPoint2D.Double;QCollection;) | find figure except
+Figure findFigureExcept(QPoint2D.Double;QCollection<QFigure;>;) | find figure except
+Figure findFigureExcept(QPoint2D.Double;QFigure;) | find figure except
+Figure findFigureInside(QPoint2D.Double;) | find figure inside
+int getFigureCount() | get figure count
+Rectangle2D.Double getFigureDrawBounds() | get figure draw bounds
+Rectangle2D.Double getFigureDrawingArea() | get figure drawing area
+void addFigureListener(QFigureListener;) | add figure listener
+void addFigureSelectionListener(QFigureSelectionListener;) | add figure selection listener
+void basicSetPresentationFigureBounds(QPoint2D.Double;QPoint2D.Double;) | basic set presentation figure bounds
+void fireFigureRequestRemove() | fire figure request remove
+void makeRelativeToFigureBounds(QFigure;) | make relative to figure bounds
+void PresentationFigureHandler(QGraphicalCompositeFigure;) | presentation figure handler
+void removeFigureListener(QFigureListener;) | remove figure listener
+void removeFigureSelectionListener(QFigureSelectionListener;) | remove figure selection listener
+void setFigureActions(QCollection<QAction;>;) | set figure actions
+void setRelativeToFigureBounds(Z) | set relative to figure bounds

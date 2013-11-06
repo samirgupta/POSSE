@@ -1,0 +1,28 @@
+boolean isUploadMaxPinned | is upload max pinned
+boolean max_uploads_when_seeding_enabled | max uploads when seeding enabled
+boolean seeding_upload_enabled | seeding upload enabled
+byte RELATIVE_SEEDING_UPLOAD_ONLY_INDICATED | relative seeding upload only indicated
+byte RELATIVE_SEEDING_UPLOAD_ONLY_SEED | relative seeding upload only seed
+int CONFIG_DEFAULT_MIN_MAX_UPLOAD_SPEED | config default min max upload speed
+int IDLE_UPLOAD_SPEED | idle upload speed
+int upload_speed | upload speed
+java.lang.String PARAM_MAX_UPLOADS_WHEN_SEEDING_ENABLED | param max uploads when seeding enabled
+java.util.List historyUploadSpeed | history upload speed
+long accumulatedUploadSpeed | accumulated upload speed
+long average_uploaded | average uploaded
+long biased_uploaded | biased uploaded
+long lastDataUploaded | last data uploaded
+long lastProtocolUploaded | last protocol uploaded
+long last_uploaded | last uploaded
+long lastUploaded | last uploaded
+long saved_data_bytes_uploaded | saved data bytes uploaded
+long saved_protocol_bytes_uploaded | saved protocol bytes uploaded
+long sos_uploaded | sos uploaded
+long totalDataUploaded | total data uploaded
+long totalProtocolUploaded | total protocol uploaded
+long total_uploaded | total uploaded
+long totalUploaded | total uploaded
+long uploaded | uploaded
+org.gudy.azureus2.core3.util.Average average_uploaded | average uploaded
+org.gudy.azureus2.core3.util.Average estimated_upload_speed | estimated upload speed
+org.gudy.azureus2.ui.swt.components.BufferedLabel uploadSpeed | upload speed

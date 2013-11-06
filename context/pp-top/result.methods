@@ -1,0 +1,12 @@
+boolean isResultRequired(QResultProducer;[QObject;) | is result required
+boolean isScrollableResultSetsEnabled() | is scrollable result sets enabled
+boolean isWrapResultSetsEnabled() | is wrap result sets enabled
+ResultSet wrapResultSetIfEnabled(QResultSet;QSessionImplementor;) | wrap result set if enabled
+String getJdbcScrollableResultSetEnabled() | get jdbc scrollable result set enabled
+void resultChanged(QResultChangedEvent;) | result changed
+void resultReceived(QSearchInstance;QSearchResult;) | result received
+void resultsReceived(QEngine;[QResult;) | results received
+void scanResultsResolved(Z) | scan results resolved
+void setJdbcScrollableResultSetEnabled(QString;) | set jdbc scrollable result set enabled
+void setScrollableResultSetsEnabled(Z) | set scrollable result sets enabled
+void setWrapResultSetsEnabled(Z) | set wrap result sets enabled

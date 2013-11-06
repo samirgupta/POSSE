@@ -1,0 +1,82 @@
+BasicPluginConfigModel createBasicPluginConfigModel(QString;) | create basic plugin config model
+BasicPluginConfigModel createBasicPluginConfigModel(QString;QString;) | create basic plugin config model
+BasicPluginConfigModel getConfigModel() | get config model
+boolean isConfigValid() | is config valid
+boolean resilientConfigFileExists(QString;) | resilient config file exists
+boolean showConfigSection(QString;) | show config section
+boolean writeConfigFile(QFile;QMap;) | write config file
+Composite createConfigSection(QString;) | create config section
+Composite createConfigSection(QString;I) | create config section
+Composite createConfigSection(QTreeItem;QString;IZ) | create config section
+ConfigSection[] getConfigSections() | get config sections
+File getBuddyConfigDir() | get buddy config dir
+File getConfigFile() | get config file
+InputStream getConfigStream(QString;) | get config stream
+Integer getConfigResponseId() | get config response id
+JFrame createConfigFrame() | create config frame
+JPanel getConfigPanel2() | get config panel 2
+KeyStroke getConfigKeyStroke() | get config key stroke
+Map getTableConfigMap(QString;) | get table config map
+Map readConfigFile(QFile;) | read config file
+Map readResilientConfigFile(QString;) | read resilient config file
+Map readResilientConfigFile(QString;Z) | read resilient config file
+MenuItem addConfigWizardMenuItem(QMenu;) | add config wizard menu item
+PluginConfigModel[] getPluginConfigModels() | get plugin config models
+PluginConfigSource enableExternalConfigSource() | enable external config source
+PluginConfigSource getPluginConfigSource() | get plugin config source
+PluginConfigUIFactory getPluginConfigUIFactory() | get plugin config ui factory
+Properties getConfigProperties(QString;) | get config properties
+Reader getConfigStreamReader(QString;) | get config stream reader
+SMConfigurationAdapter getConfigManager() | get config manager
+String getConfigID() | get config id
+String getConfigSectionID() | get config section id
+String getConfigValue(QJToggleButton;QString;QString;) | get config value
+String getPluginConfigKey() | get plugin config key
+String getPluginConfigKeyPrefix() | get plugin config key prefix
+UPnPMapping addConfigPort(QString;ZZQString;) | add config port
+void addConfigListener(QString;QParameterListener;) | add config listener
+void addConfigParameterListener(QConfigParameterListener;) | add config parameter listener
+void addConfigPort(QString;ZQString;QString;) | add config port
+void addConfigPortX(QString;ZQString;QString;) | add config port x
+void addConfigSection(QConfigSection;) | add config section
+void addConfigUIParameters([QParameter;QString;) | add config ui parameters
+void buildNewConfigList(QJComboBox;QJTextField;) | build new config list
+void deleteResilientConfigFile(QString;) | delete resilient config file
+void handleConfigLoading() | handle config loading
+void isConfigValid(Z) | is config valid
+void JConfigEbayTab() | j config ebay tab
+void JConfigMacBrowserTab() | j config mac browser tab
+void postConfigLoad() | post config load
+void preConfigSave() | pre config save
+void processConfigFile(String base, Element element, Object component, ConfigureCommand command) | process config file
+void readAZConfigSupport() | read az config support
+void readConfigSettings() | read config settings
+void readConfigValues() | read config values
+void reloadConfigParams() | reload config params
+void reloadConfigParams(QPluginConfig;) | reload config params
+void removeConfigParameterListener(QConfigParameterListener;) | remove config parameter listener
+void removeConfigSection(QConfigSection;) | remove config section
+void setConfigDirty() | set config dirty
+void setConfigFilename(QString;) | set config filename
+void setConfigFrame(QJConfigFrame;) | set config frame
+void setConfigSectionID(QString;) | set config section id
+void setConfigSetting(QOption<QT;>;QT;) | set config setting
+void setEnablePluginCoreConfigChange(Z) | set enable plugin core config change
+void setPluginConfigKeyPrefix(QString;) | set plugin config key prefix
+void setPluginConfigSource(QPluginConfigSource;) | set plugin config source
+void setTransormationConfigFileRef(String fileRef) | set tr ans or mat ion config file ref
+void setupConfigModel(QBasicPluginConfigModel;) | setup config model
+void _showConfigException() | show config exception
+void SMConfigLimitEstimate(IQSpeedLimitConfidence;) | sm config limit estimate
+void testCustomConfigFile() | test custom config file
+void testEmptyConfigSet() | test empty config set
+void testFakeConfigProperties() | test fake config properties
+void testProperConfigSet() | test proper config set
+void testXMLConfigException() | test xml config exception
+void updateFromCOConfigManager() | update from co config manager
+void updateSettingsFromCOConfigManager() | update settings from co config manager
+void writeResilientConfigFile(QString;QMap;) | write resilient config file
+void XMLConfigException() | xml config exception
+void XMLConfigException(QString;) | xml config exception
+void XMLConfigException(QString;QThrowable;) | xml config exception
+void XMLConfigException(QThrowable;) | xml config exception

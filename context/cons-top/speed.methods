@@ -1,0 +1,32 @@
+CONS DHTSpeedTesterImpl(QDHT;) | dht speed tester impl
+CONS DownSpeedItem(QString;) | down speed item
+CONS DownSpeedLimitItem(QString;) | down speed limit item
+CONS NetworkAdminSpeedTesterBTImpl(QPluginInterface;) | network admin speed tester bt impl
+CONS NetworkAdminSpeedTestScheduledTestImpl(QPluginInterface;QNetworkAdminSpeedTesterImpl;) | network admin speed test scheduled test impl
+CONS NetworkAdminSpeedTestSchedulerImpl() | network admin speed test scheduler impl
+CONS SpeedGraphic(QScale;QValueFormater;) | speed graphic
+CONS SpeedItem() | speed item
+CONS SpeedLimitConfidence(QString;IF) | speed limit confidence
+CONS SpeedLimitListener(QSpeedLimitMonitor;) | speed limit listener
+CONS SpeedLimitMonitor(QSpeedManager;) | speed limit monitor
+CONS SpeedManagerAlgorithmProviderDHTPing(QSpeedManagerAlgorithmProviderAdapter;) | speed manager algorithm provider dht ping
+CONS SpeedManagerAlgorithmProviderPingMap(QSpeedManagerAlgorithmProviderAdapter;) | speed manager algorithm provider ping map
+CONS SpeedManagerAlgorithmProviderV1(QSpeedManagerAlgorithmProviderAdapter;) | speed manager algorithm provider v 1
+CONS SpeedManagerAlgorithmProviderV2(QSpeedManagerAlgorithmProviderAdapter;) | speed manager algorithm provider v 2
+CONS SpeedManagerImpl(QAzureusCore;QSpeedManagerAdapter;) | speed manager impl
+CONS SpeedManagerPingMapperImpl(QSpeedManagerImpl;QString;IZZ) | speed manager ping mapper impl
+CONS SpeedScaleShell() | speed scale shell
+CONS SpeedTestData() | speed test data
+CONS SpeedTestFinishPanel(QWizard;QIWizardPanel;) | speed test finish panel
+CONS SpeedTestPanel(QSpeedTestWizard;QIWizardPanel;) | speed test panel
+CONS SpeedTestSetLimitPanel(QWizard;QIWizardPanel;IJIJ) | speed test set limit panel
+CONS SpeedTestWizard(QAzureusCore;QDisplay;) | speed test wizard
+CONS SwarmAverageSpeed(QString;) | swarm average speed
+CONS TestLibSpeed() | test lib speed
+CONS TotalDownSpeedItem(QString;) | total down speed item
+CONS TotalSpeedItem(QString;) | total speed item
+CONS TransferSpeedValidator(QString;QNumber;) | transfer speed validator
+CONS UpSpeedItem(QString;) | up speed item
+CONS UpSpeedLimitItem(QString;) | up speed limit item
+CONS ViewDownSpeedGraph() | view down speed graph
+CONS ViewUpSpeedGraph() | view up speed graph

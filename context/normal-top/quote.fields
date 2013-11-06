@@ -1,0 +1,29 @@
+boolean lastTokenQuotedID | last token quoted id
+char DOUBLE_QUOTE_CHAR | double quote char
+edu.rice.cs.drjava.config.ColorOption DEFINITIONS_DOUBLE_QUOTED_COLOR | definitions double quoted color
+edu.rice.cs.drjava.config.ColorOption DEFINITIONS_SINGLE_QUOTED_COLOR | definitions single quoted color
+edu.rice.cs.drjava.model.definitions.reducedmodel.InsideDoubleQuote INSIDE_DOUBLE_QUOTE | inside double quote
+edu.rice.cs.drjava.model.definitions.reducedmodel.InsideSingleQuote INSIDE_SINGLE_QUOTE | inside single quote
+int DOUBLE_QUOTE_STATE | double quote state
+int DOUBLE_QUOTE_TYPE | double quote type
+int ESCAPED_DOUBLE_QUOTE_TYPE | escaped double quote type
+int ESCAPED_SINGLE_QUOTE_TYPE | escaped single quote type
+int FOUND_QUOTE | found quote
+int Id_BACK_QUOTE | id back quote
+int Id_QUOTE | id quote
+int NEED_END_QUOTE | need end quote
+int NONQUOTEDESCAPE | non quoted escape
+int QUOTE | quote
+int QUOTED_IDENTIFIER | quoted identifier
+int QuotedTextDatabaseRowInput_getField | quoted text database row input get field
+int QuotedTextDatabaseRowInput_getField2 | quoted text database row input get field 2
+int SINGLE_QUOTE_STATE | single quote state
+int SINGLE_QUOTE_TYPE | single quote type
+java.awt.Color DOUBLE_QUOTED_COLOR | double quoted color
+java.awt.Color SINGLE_QUOTED_COLOR | single quoted color
+java.lang.String NOQUOTES | no quotes
+java.lang.String quote | quote
+java.lang.String QUOTES | quotes
+java.util.HashMap<java.lang.String,java.lang.String> quotePairs | quote pairs
+java.util.TreeSet<java.lang.String> quoteEnds | quote ends
+java.util.TreeSet<java.lang.String> quotes | quotes

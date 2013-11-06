@@ -1,0 +1,699 @@
+../3-Phrases/Base_Verb:void reportCallsOnTerminal(String terminal, boolean flag) | report calls on terminal
+../3-Phrases/Base_Verb:void ClearReport() | clear report
+../3-Phrases/Base_Verb:void addNodeReports(TreeNodeCheckedImage node, Set reports) | add node reports
+../3-Phrases/Base_Verb:int reportHam(String filename) | report ham
+../3-Phrases/Base_Verb:void removeReport(Session ses, String reportName) | remove report
+../3-Phrases/Base_Verb:FSTranslateReporter getReporter() | get reporter
+../3-Phrases/Base_Verb:Vector DBReadAreaData(String areaID, boolean reportStatus) | db read area data
+../3-Phrases/Base_Verb:Object fillReport(Class klass, String name, Map parameters) | fill report
+../3-Phrases/Base_Verb:void addReport(JPanel panel, String title, int width, int height) | add report
+../3-Phrases/Base_Verb:void setReportValues(String id, String name, String description, String periodicityTypeID, String forwardingTypeID, Date date) | set report values
+../3-Phrases/Base_Verb:void reportValue(String varName, Object value) | report value
+../3-Phrases/freecol2:Element getForeignAffairsReport() | get foreign affairs report
+../3-Phrases/freecol2:void showReportPanel(QString;) | show report panel
+../3-Phrases/freecol2:void buildReportMenu() | build report menu
+../3-Phrases/freecol2:JMenuItem getReportsTradeMenuItem() | get reports trade menu item
+../3-Phrases/freecol2:CONS ReportRequirementsAction(QFreeColClient;) | report requirements action
+../3-Phrases/freecol2:CONS ReportContinentalCongressAction(QFreeColClient;) | report continental congress action
+../3-Phrases/freecol2:CONS ReportLabourAction(QFreeColClient;) | report labour action
+../3-Phrases/freecol2:CONS ReportColonyAction(QFreeColClient;) | report colony action
+../3-Phrases/freecol2:CONS ReportIndianAction(QFreeColClient;) | report indian action
+../3-Phrases/freecol2:CONS ReportMilitaryAction(QFreeColClient;) | report military action
+../3-Phrases/freecol2:CONS ReportReligionAction(QFreeColClient;) | report religion action
+../3-Phrases/freecol2:CONS ReportHistoryAction(QFreeColClient;) | report history action
+../3-Phrases/freecol2:CONS ReportHighScoresAction(QFreeColClient;) | report high scores action
+../3-Phrases/freecol2:CONS ReportExplorationAction(QFreeColClient;) | report exploration action
+../3-Phrases/freecol2:CONS ReportCargoAction(QFreeColClient;) | report cargo action
+../3-Phrases/freecol2:CONS ReportTurnAction(QFreeColClient;) | report turn action
+../3-Phrases/freecol2:CONS ReportNavalAction(QFreeColClient;) | report naval action
+../3-Phrases/freecol2:CONS ReportTradeAction(QFreeColClient;) | report trade action
+../3-Phrases/freecol2:CONS ReportForeignAction(QFreeColClient;) | report foreign action
+../3-Phrases/freecol2:CONS ReportRequirementsPanel(QCanvas;) | report requirements panel
+../3-Phrases/freecol2:CONS ReportLabourPanel(QCanvas;) | report labour panel
+../3-Phrases/freecol2:CONS ReportLabourPanel(QCanvas;QLabourData.UnitData;) | report labour panel
+../3-Phrases/freecol2:CONS ReportIndianPanel(QCanvas;) | report indian panel
+../3-Phrases/freecol2:CONS ReportReligiousPanel(QCanvas;) | report religious panel
+../3-Phrases/freecol2:CONS ReportNavalPanel(QCanvas;) | report naval panel
+../3-Phrases/freecol2:CONS ReportHistoryPanel(QCanvas;) | report history panel
+../3-Phrases/freecol2:CONS ReportUnitPanel(QReportType;ZQCanvas;QReportPanel;) | report unit panel
+../3-Phrases/freecol2:CONS ReportProductionPanel(QGoodsType;QCanvas;QReportPanel;) | report production panel
+../3-Phrases/freecol2:CONS ReportMilitaryPanel(QCanvas;) | report military panel
+../3-Phrases/freecol2:CONS ReportTradePanel(QCanvas;) | report trade panel
+../3-Phrases/freecol2:CONS ReportColonyPanel(QCanvas;) | report colony panel
+../3-Phrases/freecol2:CONS ReportPanel(QCanvas;QString;) | report panel
+../3-Phrases/freecol2:CONS ReportHighScoresPanel(QCanvas;) | report high scores panel
+../3-Phrases/freecol2:CONS ReportForeignAffairPanel(QCanvas;) | report foreign af fair panel
+../3-Phrases/freecol2:CONS ReportExplorationPanel(QCanvas;) | report exploration panel
+../3-Phrases/freecol2:CONS ReportCargoPanel(QCanvas;) | report cargo panel
+../3-Phrases/freecol2:CONS ReportContinentalCongressPanel(QCanvas;) | report continental congress panel
+../3-Phrases/freecol2:CONS ReportTurnPanel(QCanvas;[QModelMessage;) | report turn panel
+../3-Phrases/freecol2:void cleanAndReport() | clean and report
+../3-Phrases/freemind:void reportError(QString;Z) | report error
+../3-Phrases/freemind:void reportError(QString;QException;Z) | report error
+../3-Phrases/freemind:void reportEvent(QValidatableObject;QString;) | report event
+../3-Phrases/freemind:void reportEvent(QValidatableObject;QException;) | report event
+../3-Phrases/freemind:void reportEvent(QValidatableObject;QValidationEvent;) | report event
+../3-Phrases/freemind:void reportError(QValidationEvent;) | report error
+../3-Phrases/freemind:void reportMissingObjectError() | report missing object error
+../3-Phrases/freemind:void reportError(QValidationEvent;) | report error
+../3-Phrases/freemind:void reportError(QValidationEvent;) | report error
+../3-Phrases/gantt:String getExceptionReport(QThrowable;) | get exception report
+../3-Phrases/gantt:void testBugReport1362749() | test bug report 1362749
+../3-Phrases/hibernate-3.3.1.GA:void reportError(QRecognitionException;) | report error
+../3-Phrases/hibernate-3.3.1.GA:void reportError(QString;) | report error
+../3-Phrases/hibernate-3.3.1.GA:void reportWarning(QString;) | report warning
+../3-Phrases/hibernate-3.3.1.GA:void reportError(QRecognitionException;) | report error
+../3-Phrases/hibernate-3.3.1.GA:void reportError(QString;) | report error
+../3-Phrases/hibernate-3.3.1.GA:void reportWarning(QString;) | report warning
+../3-Phrases/hibernate-3.3.1.GA:void reportError(QRecognitionException;) | report error
+../3-Phrases/hibernate-3.3.1.GA:void reportError(QString;) | report error
+../3-Phrases/hibernate-3.3.1.GA:void reportWarning(QString;) | report warning
+../3-Phrases/hibernate-3.3.1.GA:void reportError(QRecognitionException;) | report error
+../3-Phrases/hibernate-3.3.1.GA:void reportError(QString;) | report error
+../3-Phrases/hibernate-3.3.1.GA:void reportWarning(QString;) | report warning
+../3-Phrases/hibernate-3.3.1.GA:void reportError(QRecognitionException;) | report error
+../3-Phrases/hibernate-3.3.1.GA:void reportError(QString;) | report error
+../3-Phrases/hibernate-3.3.1.GA:void reportWarning(QString;) | report warning
+../3-Phrases/hibernate-3.3.1.GA:CONS JDBCExceptionReporter() | jdbc exception reporter
+../3-Phrases/hsqldb:boolean isReportCatalogs() | is report catalogs
+../3-Phrases/hsqldb:void reportDone() | report done
+../3-Phrases/hsqldb:void genRejectReportRecord(QPrintWriter;IIQString;QString;QThrowable;) | gen reject report record
+../3-Phrases/hsqldb:void report() | report
+../3-Phrases/iReport:void beforeReportInit() | before report init
+../3-Phrases/iReport:void afterReportInit() | after report init
+../3-Phrases/iReport:CONS ReportElementFactory() | report element factory
+../3-Phrases/iReport:CONS IReportCompiler() | i report compiler
+../3-Phrases/iReport:it.businesslogic.ireport.IReportConnection getIReportConnection() | get i report connection
+../3-Phrases/iReport:void setIReportConnection(Qit.businesslogic.ireport.IReportConnection;) | set i report connection
+../3-Phrases/iReport:CONS IReportTemplate() | i report template
+../3-Phrases/iReport:CONS LineReportElement(IIII) | line report element
+../3-Phrases/iReport:CONS LineReportElement(IIIIQString;) | line report element
+../3-Phrases/iReport:void copyBaseReportElement(QReportElement;QReportElement;) | copy base report element
+../3-Phrases/iReport:CONS FrameReportElement(IIII) | frame report element
+../3-Phrases/iReport:void copyBaseReportElement(QReportElement;QReportElement;) | copy base report element
+../3-Phrases/iReport:CONS RoundRectangleReportElement(IIII) | round rectangle report element
+../3-Phrases/iReport:CONS RoundRectangleReportElement(IIIII) | round rectangle report element
+../3-Phrases/iReport:CONS ImageReportElement(IIII) | image report element
+../3-Phrases/iReport:void copyBaseReportElement(QReportElement;QReportElement;) | copy base report element
+../3-Phrases/iReport:File getReportDirectory() | get report directory
+../3-Phrases/iReport:void setReportDirectory(QFile;) | set report directory
+../3-Phrases/iReport:CONS RectangleReportElement(IIII) | rectangle report element
+../3-Phrases/iReport:CONS RectangleReportElement(IIIII) | rectangle report element
+../3-Phrases/iReport:void copyBaseReportElement(QReportElement;QReportElement;) | copy base report element
+../3-Phrases/iReport:CONS GraphicReportElement(IIII) | graphic report element
+../3-Phrases/iReport:void copyBaseReportElement(QReportElement;QReportElement;) | copy base report element
+../3-Phrases/iReport:CONS BarcodeReportElement(IIII) | barcode report element
+../3-Phrases/iReport:CONS ReportClassLoader() | report class loader
+../3-Phrases/iReport:CONS TextFieldReportElement(IIII) | text field report element
+../3-Phrases/iReport:void copyBaseReportElement(QReportElement;QReportElement;) | copy base report element
+../3-Phrases/iReport:CONS EllipseReportElement(IIII) | ellipse report element
+../3-Phrases/iReport:CONS ReportElement(IIII) | report element
+../3-Phrases/iReport:void copyBaseReportElement(QReportElement;QReportElement;) | copy base report element
+../3-Phrases/iReport:CONS TextReportElement(IIII) | text report element
+../3-Phrases/iReport:void setIReportFont(QIReportFont;) | set i report font
+../3-Phrases/iReport:IReportFont getIReportFont() | get i report font
+../3-Phrases/iReport:java.lang.String getReportFont() | get report font
+../3-Phrases/iReport:void setReportFont(Qjava.lang.String;) | set report font
+../3-Phrases/iReport:void copyBaseReportElement(QReportElement;QReportElement;) | copy base report element
+../3-Phrases/iReport:void TextReportElementLayout(QTextLayout;FF) | text report element layout
+../3-Phrases/iReport:CONS IReportFont() | i report font
+../3-Phrases/iReport:java.lang.String getReportFont() | get report font
+../3-Phrases/iReport:void setReportFont(Qjava.lang.String;) | set report font
+../3-Phrases/iReport:void beforeReportInit() | before report init
+../3-Phrases/iReport:void afterReportInit() | after report init
+../3-Phrases/iReport:CONS ChartReportElement(IIII) | chart report element
+../3-Phrases/iReport:CONS SubReportElement(IIII) | sub report element
+../3-Phrases/iReport:void copyBaseReportElement(QReportElement;QReportElement;) | copy base report element
+../3-Phrases/iReport:CONS StaticTextReportElement(IIII) | static text report element
+../3-Phrases/iReport:CONS ChartReportElement2(IIII) | chart report element 2
+../3-Phrases/iReport:void copyBaseReportElement(QReportElement;QReportElement;) | copy base report element
+../3-Phrases/iReport:CONS Report() | report
+../3-Phrases/iReport:CONS Report(QString;) | report
+../3-Phrases/iReport:void readXMLReportElement(QNode;QReportElement;) | read xml report element
+../3-Phrases/iReport:it.businesslogic.ireport.gui.JReportFrame getReportFrame() | get report frame
+../3-Phrases/iReport:void setReportFrame(Qit.businesslogic.ireport.gui.JReportFrame;) | set report frame
+../3-Phrases/iReport:java.lang.String getReportFormat() | get report format
+../3-Phrases/iReport:void setReportFormat(Qjava.lang.String;) | set report format
+../3-Phrases/iReport:void writeXMLReportElement(QReportElement;QPrintWriter;) | write xml report element
+../3-Phrases/iReport:void writeXMLReportElementElement(QReportElement;QPrintWriter;) | write xml report element element
+../3-Phrases/iReport:IReportFont getReportFontByName(QString;) | get report font by name
+../3-Phrases/iReport:void addReportSubDatasetChangedListener(Qit.businesslogic.ireport.gui.event.ReportSubDatasetChangedListener;) | add report sub dataset changed listener
+../3-Phrases/iReport:void removeReportSubDatasetChangedListener(Qit.businesslogic.ireport.gui.event.ReportSubDatasetChangedListener;) | remove report sub dataset changed listener
+../3-Phrases/iReport:void fireReportSubDatasetChangedListenerReportSubDatasetChanged(Qit.businesslogic.ireport.gui.event.ReportSubDatasetChangedEvent;) | fire report sub dataset changed listener report sub dataset changed
+../3-Phrases/iReport:CONS ReportSeriesDialog(Qjava.awt.Dialog;Z) | report series dialog
+../3-Phrases/iReport:CONS ReportSeriesDialog(Qjava.awt.Frame;Z) | report series dialog
+../3-Phrases/iReport:JReportFrame getJReportFrame() | get j report frame
+../3-Phrases/iReport:void setJReportFrame(QJReportFrame;) | set j report frame
+../3-Phrases/iReport:JReportFrame getJReportFrame() | get j report frame
+../3-Phrases/iReport:void setJReportFrame(QJReportFrame;) | set j report frame
+../3-Phrases/iReport:CONS IReportChartDialog(Qjava.awt.Dialog;Z) | i report chart dialog
+../3-Phrases/iReport:CONS IReportChartDialog(Qjava.awt.Frame;Z) | i report chart dialog
+../3-Phrases/iReport:JReportFrame getJReportFrame() | get j report frame
+../3-Phrases/iReport:void setJReportFrame(QJReportFrame;) | set j report frame
+../3-Phrases/iReport:void exportReport() | export report
+../3-Phrases/iReport:void exportReportToWriter() | export report to writer
+../3-Phrases/iReport:CONS JReportPanel() | j report panel
+../3-Phrases/iReport:CONS ReportPropertiesFrame(Qjava.awt.Frame;Z) | report properties frame
+../3-Phrases/iReport:int getReportHeight() | get report height
+../3-Phrases/iReport:void setReportHeight(I) | set report height
+../3-Phrases/iReport:int getReportWidth() | get report width
+../3-Phrases/iReport:void setReportWidth(I) | set report width
+../3-Phrases/iReport:java.lang.String getReportName() | get report name
+../3-Phrases/iReport:void setReportName(Qjava.lang.String;) | set report name
+../3-Phrases/iReport:java.lang.String getReportFormat() | get report format
+../3-Phrases/iReport:void setReportFormat(Qjava.lang.String;) | set report format
+../3-Phrases/iReport:it.businesslogic.ireport.gui.JReportFrame getJReportFrame() | get j report frame
+../3-Phrases/iReport:void setJReportFrame(Qit.businesslogic.ireport.gui.JReportFrame;) | set j report frame
+../3-Phrases/iReport:void jComboBoxReportFontsActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box report fonts action performed
+../3-Phrases/iReport:it.businesslogic.ireport.IReportFont getIReportFont() | get i report font
+../3-Phrases/iReport:void setIReportFont(Qit.businesslogic.ireport.IReportFont;) | set i report font
+../3-Phrases/iReport:void setIReportFont(Qit.businesslogic.ireport.IReportFont;Z) | set i report font
+../3-Phrases/iReport:boolean isReportFontMode() | is report font mode
+../3-Phrases/iReport:void setReportFontMode(Z) | set report font mode
+../3-Phrases/iReport:void setReportFontMode(I) | set report font mode
+../3-Phrases/iReport:it.businesslogic.ireport.gui.JReportFrame getJReportFrame() | get j report frame
+../3-Phrases/iReport:void setJReportFrame(Qit.businesslogic.ireport.gui.JReportFrame;) | set j report frame
+../3-Phrases/iReport:it.businesslogic.ireport.gui.JReportFrame getJReportFrame() | get j report frame
+../3-Phrases/iReport:void setJReportFrame(Qit.businesslogic.ireport.gui.JReportFrame;) | set j report frame
+../3-Phrases/iReport:void updateReportFonts() | update report fonts
+../3-Phrases/iReport:it.businesslogic.ireport.gui.JReportFrame getJReportFrame() | get j report frame
+../3-Phrases/iReport:void setJReportFrame(Qit.businesslogic.ireport.gui.JReportFrame;) | set j report frame
+../3-Phrases/iReport:void setiReportPaths(QString;QString;QString;) | seti report paths
+../3-Phrases/iReport:void setActiveReportForm(QJReportFrame;) | set active report form
+../3-Phrases/iReport:boolean isUseReportVirtualizer() | is use report virtualizer
+../3-Phrases/iReport:void jCheckBoxMenuItemReportVirtualizerActionPerformed(Qjava.awt.event.ActionEvent;) | j check box menu item report virtualizer action performed
+../3-Phrases/iReport:void jMenuItemReportLocaleActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item report locale action performed
+../3-Phrases/iReport:void updateJMenuItemReportLocaleText() | update j menu item report locale text
+../3-Phrases/iReport:void updateJMenuItemReportMaxRecords() | update j menu item report max records
+../3-Phrases/iReport:void jMenuItemReportImportsActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item report imports action performed
+../3-Phrases/iReport:void jMenuItemReportSeriesActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item report series action performed
+../3-Phrases/iReport:JReportFrame findReportFrameByFile(QFile;) | find report frame by file
+../3-Phrases/iReport:JReportFrame findReportFrameByFilename(QString;) | find report frame by filename
+../3-Phrases/iReport:void jMenuItemReportPropertiesActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item report properties action performed
+../3-Phrases/iReport:void jMenuItemReportQueryActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item report query action performed
+../3-Phrases/iReport:void jMenuItemReportQuery2ActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item report query 2 action performed
+../3-Phrases/iReport:JReportFrame openNewReportWindow(QReport;) | open new report window
+../3-Phrases/iReport:it.businesslogic.ireport.gui.ReportQueryDialog getReportQueryDialog() | get report query dialog
+../3-Phrases/iReport:void setReportQueryDialog(Qit.businesslogic.ireport.gui.ReportQueryDialog;) | set report query dialog
+../3-Phrases/iReport:void loadiReportConfiguration() | loa di report configuration
+../3-Phrases/iReport:void loadiReportConfiguration(QString;) | loa di report configuration
+../3-Phrases/iReport:boolean saveiReportConfiguration() | savei report configuration
+../3-Phrases/iReport:boolean saveiReportConfiguration(QString;) | savei report configuration
+../3-Phrases/iReport:void reportBandChanged(QReportBandChangedEvent;) | report band changed
+../3-Phrases/iReport:void reportElementsChanged(QReportElementChangedEvent;) | report elements changed
+../3-Phrases/iReport:void reportElementsSelectionChanged(QReportElementsSelectionEvent;) | report elements selection changed
+../3-Phrases/iReport:void setReportViewer(I) | set report viewer
+../3-Phrases/iReport:int getReportViewer() | get report viewer
+../3-Phrases/iReport:JReportFrame getActiveReportFrame() | get active report frame
+../3-Phrases/iReport:it.businesslogic.ireport.ReportClassLoader getReportClassLoader() | get report class loader
+../3-Phrases/iReport:void setReportClassLoader(Qit.businesslogic.ireport.ReportClassLoader;) | set report class loader
+../3-Phrases/iReport:void addReportListener(Qit.businesslogic.ireport.gui.event.ReportListener;) | add report listener
+../3-Phrases/iReport:void removeReportListener(Qit.businesslogic.ireport.gui.event.ReportListener;) | remove report listener
+../3-Phrases/iReport:void fireReportListenerReportElementsSelectionChanged(Qit.businesslogic.ireport.gui.event.ReportElementsSelectionEvent;) | fire report listener report elements selection changed
+../3-Phrases/iReport:void fireReportListenerReportElementsChanged(Qit.businesslogic.ireport.gui.event.ReportElementChangedEvent;) | fire report listener report elements changed
+../3-Phrases/iReport:void fireReportListenerReportBandChanged(Qit.businesslogic.ireport.gui.event.ReportBandChangedEvent;) | fire report listener report band changed
+../3-Phrases/iReport:boolean isSynchronizeReportName() | is synchronize report name
+../3-Phrases/iReport:CONS JReportFrame(QReport;) | j report frame
+../3-Phrases/iReport:void jPanelReportKeyPressed(Qjava.awt.event.KeyEvent;) | j panel report key pressed
+../3-Phrases/iReport:void jPanelReportMouseReleased(Qjava.awt.event.MouseEvent;) | j panel report mouse released
+../3-Phrases/iReport:void jPanelReportMousePressed(Qjava.awt.event.MouseEvent;) | j panel report mouse pressed
+../3-Phrases/iReport:void jPanelReportComponentResized(Qjava.awt.event.ComponentEvent;) | j panel report component resized
+../3-Phrases/iReport:void jPanelReportMouseDragged(Qjava.awt.event.MouseEvent;) | j panel report mouse dragged
+../3-Phrases/iReport:void jPanelReportMouseMoved(Qjava.awt.event.MouseEvent;) | j panel report mouse moved
+../3-Phrases/iReport:void jPanelReportAncestorAdded(Qjavax.swing.event.AncestorEvent;) | j panel report ancestor added
+../3-Phrases/iReport:it.businesslogic.ireport.Report getReport() | get report
+../3-Phrases/iReport:JReportPanel getReportPanel() | get report panel
+../3-Phrases/iReport:void paintReportPanel(QGraphics;) | paint report panel
+../3-Phrases/iReport:it.businesslogic.ireport.gui.JReportPanel getJPanelReport() | get j panel report
+../3-Phrases/iReport:void setJPanelReport(Qit.businesslogic.ireport.gui.JReportPanel;) | set j panel report
+../3-Phrases/iReport:void addReportListener(Qit.businesslogic.ireport.gui.event.ReportListener;) | add report listener
+../3-Phrases/iReport:void removeReportListener(Qit.businesslogic.ireport.gui.event.ReportListener;) | remove report listener
+../3-Phrases/iReport:void fireReportListenerReportElementsSelectionChanged(Qit.businesslogic.ireport.gui.event.ReportElementsSelectionEvent;) | fire report listener report elements selection changed
+../3-Phrases/iReport:void fireReportListenerReportElementsChanged(Qit.businesslogic.ireport.gui.event.ReportElementChangedEvent;) | fire report listener report elements changed
+../3-Phrases/iReport:void fireReportListenerReportBandChanged(Qit.businesslogic.ireport.gui.event.ReportBandChangedEvent;) | fire report listener report band changed
+../3-Phrases/iReport:Report createTabularReport(QString;) | create tabular report
+../3-Phrases/iReport:Report createColumnarReport(QString;) | create columnar report
+../3-Phrases/iReport:it.businesslogic.ireport.Report getReport() | get report
+../3-Phrases/iReport:void setReport(Qit.businesslogic.ireport.Report;) | set report
+../3-Phrases/iReport:CONS ReportQueryDialog(Qjava.awt.Frame;Z) | report query dialog
+../3-Phrases/iReport:CONS ReportPanelToolTip(QJReportFrame;) | report panel tool tip
+../3-Phrases/iReport:JReportFrame getReportFrame() | get report frame
+../3-Phrases/iReport:void setReportFrame(QJReportFrame;) | set report frame
+../3-Phrases/iReport:ReportElement getReportElement() | get report element
+../3-Phrases/iReport:void setReportElement(QReportElement;) | set report element
+../3-Phrases/iReport:void setJReportFrame(Qit.businesslogic.ireport.gui.JReportFrame;) | set j report frame
+../3-Phrases/iReport:it.businesslogic.ireport.IReportConnection getIReportConnection() | get i report connection
+../3-Phrases/iReport:void setIReportConnection(Qit.businesslogic.ireport.IReportConnection;) | set i report connection
+../3-Phrases/iReport:CONS ReportImportsDialog(Qjava.awt.Dialog;Z) | report imports dialog
+../3-Phrases/iReport:CONS ReportImportsDialog(Qjava.awt.Frame;Z) | report imports dialog
+../3-Phrases/iReport:JReportFrame getJReportFrame() | get j report frame
+../3-Phrases/iReport:void setJReportFrame(QJReportFrame;) | set j report frame
+../3-Phrases/iReport:it.businesslogic.ireport.gui.JReportFrame getJReportFrame() | get j report frame
+../3-Phrases/iReport:void setJReportFrame(Qit.businesslogic.ireport.gui.JReportFrame;) | set j report frame
+../3-Phrases/iReport:CONS IReportAbout(Qjava.awt.Frame;Z) | i report about
+../3-Phrases/iReport:void jComboBoxReportFontActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box report font action performed
+../3-Phrases/iReport:void setJReportFrame(QJReportFrame;) | set j report frame
+../3-Phrases/iReport:void updateReportFonts() | update report fonts
+../3-Phrases/iReport:IReportConnection getIReportConnection() | get i report connection
+../3-Phrases/iReport:void setIReportConnection(QIReportConnection;) | set i report connection
+../3-Phrases/iReport:void reportBandChanged(QReportBandChangedEvent;) | report band changed
+../3-Phrases/iReport:void reportElementsChanged(QReportElementChangedEvent;) | report elements changed
+../3-Phrases/iReport:void reportElementsSelectionChanged(QReportElementsSelectionEvent;) | report elements selection changed
+../3-Phrases/iReport:void reportElementsSelectionChanged(QReportElementsSelectionEvent;) | report elements selection changed
+../3-Phrases/iReport:void reportElementsChanged(QReportElementChangedEvent;) | report elements changed
+../3-Phrases/iReport:void reportBandChanged(QReportBandChangedEvent;) | report band changed
+../3-Phrases/iReport:CONS ReportBandChangedEvent(QJReportFrame;QBand;I) | report band changed event
+../3-Phrases/iReport:it.businesslogic.ireport.gui.JReportFrame getJReportFrame() | get j report frame
+../3-Phrases/iReport:void setJReportFrame(Qit.businesslogic.ireport.gui.JReportFrame;) | set j report frame
+../3-Phrases/iReport:void reportSubDatasetChanged(QReportSubDatasetChangedEvent;) | report sub dataset changed
+../3-Phrases/iReport:CONS ReportElementsSelectionEvent(QJReportFrame;Qjava.util.Vector;) | report elements selection event
+../3-Phrases/iReport:CONS ReportElementChangedEvent(QJReportFrame;QReportElement;I) | report element changed event
+../3-Phrases/iReport:CONS ReportElementChangedEvent(QJReportFrame;QVector;I) | report element changed event
+../3-Phrases/iReport:it.businesslogic.ireport.gui.JReportFrame getJReportFrame() | get j report frame
+../3-Phrases/iReport:void setJReportFrame(Qit.businesslogic.ireport.gui.JReportFrame;) | set j report frame
+../3-Phrases/iReport:CONS ReportSubDatasetChangedEvent(QSubDataset;QObject;II) | report sub dataset changed event
+../3-Phrases/iReport:CONS ReportSubDatasetChangedEvent(QJReportFrame;QVector;I) | report sub dataset changed event
+../3-Phrases/iReport:void setJReportFrame(QJReportFrame;) | set j report frame
+../3-Phrases/iReport:void updateReportObjects() | update report objects
+../3-Phrases/iReport:void reportSubDatasetChanged(Qit.businesslogic.ireport.gui.event.ReportSubDatasetChangedEvent;) | report sub dataset changed
+../3-Phrases/iReport:JReportFrame getReportFrame() | get report frame
+../3-Phrases/iReport:Report getReport() | get report
+../3-Phrases/iReport:JReportFrame getJReportFrame() | get j report frame
+../3-Phrases/iReport:void setJReportFrame(QJReportFrame;) | set j report frame
+../3-Phrases/iReport:CONS ReportElementSheetPanel() | report element sheet panel
+../3-Phrases/iReport:void reportElementsSelectionChanged(QReportElementsSelectionEvent;) | report elements selection changed
+../3-Phrases/iReport:void reportElementsChanged(QReportElementChangedEvent;) | report elements changed
+../3-Phrases/iReport:void reportBandChanged(QReportBandChangedEvent;) | report band changed
+../3-Phrases/iReport:it.businesslogic.ireport.gui.MainFrame getIReportMainFrame() | get i report main frame
+../3-Phrases/iReport:void setIReportMainFrame(Qit.businesslogic.ireport.gui.MainFrame;) | set i report main frame
+../3-Phrases/iReport:CONS IReportKeywordLookup() | i report keyword lookup
+../3-Phrases/Jabref:void reportError(QString;) | report error
+../3-Phrases/Jabref:void reportError(QString;QException;) | report error
+../3-Phrases/Jabref:void reportError(QString;) | report error
+../3-Phrases/Jabref:void reportError(QString;QException;) | report error
+../3-Phrases/Jabref:void reportError(QString;) | report error
+../3-Phrases/Jabref:void reportError(QString;QException;) | report error
+../3-Phrases/JRobin:void reportUsage(QRrdEntry;) | report usage
+../3-Phrases/JRobin:void reportRelease(QRrdEntry;) | report release
+../3-Phrases/JRobin:int reportUsage() | report usage
+../3-Phrases/JRobin:int reportRelease() | report release
+../3-Phrases/MegaMek-0.32.0:String receiveReport(QVector;) | receive report
+../3-Phrases/MegaMek-0.32.0:void gameReport(QGameReportEvent;) | game report
+../3-Phrases/MegaMek-0.32.0:void gameReport(QGameReportEvent;) | game report
+../3-Phrases/MegaMek-0.32.0:void gameReport(QGameReportEvent;) | game report
+../3-Phrases/MegaMek-0.32.0:int getMiniReportPosX() | get mini report pos x
+../3-Phrases/MegaMek-0.32.0:int getMiniReportPosY() | get mini report pos y
+../3-Phrases/MegaMek-0.32.0:int getMiniReportSizeHeight() | get mini report size height
+../3-Phrases/MegaMek-0.32.0:int getMiniReportSizeWidth() | get mini report size width
+../3-Phrases/MegaMek-0.32.0:void setMiniReportPosX(I) | set mini report pos x
+../3-Phrases/MegaMek-0.32.0:void setMiniReportPosY(I) | set mini report pos y
+../3-Phrases/MegaMek-0.32.0:void setMiniReportSizeHeight(I) | set mini report size height
+../3-Phrases/MegaMek-0.32.0:void setMiniReportSizeWidth(I) | set mini report size width
+../3-Phrases/MegaMek-0.32.0:CONS ReportDisplay(QClient;) | report display
+../3-Phrases/MegaMek-0.32.0:void setReportTab(IQString;QString;) | set report tab
+../3-Phrases/MegaMek-0.32.0:void appendReportTab(QString;) | append report tab
+../3-Phrases/MegaMek-0.32.0:void showRoundReport() | show round report
+../3-Phrases/MegaMek-0.32.0:void gameReport(QGameReportEvent;) | game report
+../3-Phrases/MegaMek-0.32.0:void gameReport(QGameReportEvent;) | game report
+../3-Phrases/MegaMek-0.32.0:CONS MiniReportDisplay(QFrame;QString;) | mini report display
+../3-Phrases/MegaMek-0.32.0:CONS ReportDisplay(QClient;) | report display
+../3-Phrases/MegaMek-0.32.0:void setReportTab(IQString;QString;) | set report tab
+../3-Phrases/MegaMek-0.32.0:void appendReportTab(QString;) | append report tab
+../3-Phrases/MegaMek-0.32.0:CONS MiniReportDisplay(QJFrame;QString;) | mini report display
+../3-Phrases/MegaMek-0.32.0:void gameReport(QGameReportEvent;) | game report
+../3-Phrases/MegaMek-0.32.0:void showRoundReport() | show round report
+../3-Phrases/MegaMek-0.32.0:void gameReport(QGameReportEvent;) | game report
+../3-Phrases/MegaMek-0.32.0:int getMiniReportPosX() | get mini report pos x
+../3-Phrases/MegaMek-0.32.0:int getMiniReportPosY() | get mini report pos y
+../3-Phrases/MegaMek-0.32.0:int getMiniReportSizeHeight() | get mini report size height
+../3-Phrases/MegaMek-0.32.0:int getMiniReportSizeWidth() | get mini report size width
+../3-Phrases/MegaMek-0.32.0:void setMiniReportPosX(I) | set mini report pos x
+../3-Phrases/MegaMek-0.32.0:void setMiniReportPosY(I) | set mini report pos y
+../3-Phrases/MegaMek-0.32.0:void setMiniReportSizeHeight(I) | set mini report size height
+../3-Phrases/MegaMek-0.32.0:void setMiniReportSizeWidth(I) | set mini report size width
+../3-Phrases/MegaMek-0.32.0:String getReport() | get report
+../3-Phrases/MegaMek-0.32.0:void addReports(QVector;) | add reports
+../3-Phrases/MegaMek-0.32.0:Vector getReports(I) | get reports
+../3-Phrases/MegaMek-0.32.0:Vector getAllReports() | get all reports
+../3-Phrases/MegaMek-0.32.0:void setAllReports(QVector;) | set all reports
+../3-Phrases/MegaMek-0.32.0:void clearAllReports() | clear all reports
+../3-Phrases/MegaMek-0.32.0:Vector getTurnReport() | get turn report
+../3-Phrases/MegaMek-0.32.0:CONS GameReports() | game reports
+../3-Phrases/MegaMek-0.32.0:Vector victoryReport() | victory report
+../3-Phrases/MegaMek-0.32.0:String getReport() | get report
+../3-Phrases/MegaMek-0.32.0:Vector victoryReport() | victory report
+../3-Phrases/MegaMek-0.32.0:Vector victoryReport() | victory report
+../3-Phrases/MegaMek-0.32.0:Vector victoryReport() | victory report
+../3-Phrases/MegaMek-0.32.0:Vector victoryReport() | victory report
+../3-Phrases/MegaMek-0.32.0:CONS ReportMessages() | report messages
+../3-Phrases/MegaMek-0.32.0:Vector victoryReport() | victory report
+../3-Phrases/MegaMek-0.32.0:String getReport() | get report
+../3-Phrases/MegaMek-0.32.0:void addReports(QVector;) | add reports
+../3-Phrases/MegaMek-0.32.0:Vector getReports(I) | get reports
+../3-Phrases/MegaMek-0.32.0:Vector getAllReports() | get all reports
+../3-Phrases/MegaMek-0.32.0:void setAllReports(QVector;) | set all reports
+../3-Phrases/MegaMek-0.32.0:void clearAllReports() | clear all reports
+../3-Phrases/MegaMek-0.32.0:CONS Report() | report
+../3-Phrases/MegaMek-0.32.0:CONS Report(I) | report
+../3-Phrases/MegaMek-0.32.0:CONS Report(II) | report
+../3-Phrases/MegaMek-0.32.0:CONS Report(QReport;) | report
+../3-Phrases/MegaMek-0.32.0:CONS GameReportEvent(QObject;QString;) | game report event
+../3-Phrases/MegaMek-0.32.0:String getReport() | get report
+../3-Phrases/MegaMek-0.32.0:void gameReport(QGameReportEvent;) | game report
+../3-Phrases/MegaMek-0.32.0:void gameReport(QGameReportEvent;) | game report
+../3-Phrases/MegaMek-0.32.0:void reportSendException(QException;QSendPacket;) | report send exception
+../3-Phrases/MegaMek-0.32.0:void reportReceiveException(QException;) | report receive exception
+../3-Phrases/MegaMek-0.32.0:void reportReceiveException(QException;QStringBuffer;) | report receive exception
+../3-Phrases/MegaMek-0.32.0:void reportLastCommands() | report last commands
+../3-Phrases/MegaMek-0.32.0:void reportLastCommands(Z) | report last commands
+../3-Phrases/MegaMek-0.32.0:void reportContents() | report contents
+../3-Phrases/MegaMek-0.32.0:void driftSmokeReport(QCoords;IZ) | drift smoke report
+../3-Phrases/MegaMek-0.32.0:void prepareVictoryReport() | prepare victory report
+../3-Phrases/MegaMek-0.32.0:String getDetailedVictoryReport() | get detailed victory report
+../3-Phrases/MegaMek-0.32.0:void writeInitiativeReport(Z) | write initiative report
+../3-Phrases/MegaMek-0.32.0:Vector filterReportVector(QVector;QPlayer;) | filter report vector
+../3-Phrases/MegaMek-0.32.0:Report filterReport(QReport;QPlayer;Z) | filter report
+../3-Phrases/MegaMek-0.32.0:Vector filterPastReports(QVector;QPlayer;) | filter past reports
+../3-Phrases/MegaMek-0.32.0:Packet createReportPacket(QPlayer;) | create report packet
+../3-Phrases/MegaMek-0.32.0:Packet createSpecialReportPacket() | create special report packet
+../3-Phrases/MegaMek-0.32.0:Packet createTacticalGeniusReportPacket() | create tactical genius report packet
+../3-Phrases/MegaMek-0.32.0:Packet createAllReportsPacket(QPlayer;) | create all reports packet
+../3-Phrases/MegaMek-0.32.0:void sendReport() | send report
+../3-Phrases/MegaMek-0.32.0:void sendReport(Z) | send report
+../3-Phrases/MegaMek-0.32.0:void addReport(QVector;) | add report
+../3-Phrases/MegaMek-0.32.0:void addReport(QReport;) | add report
+../3-Phrases/MegaMek-0.32.0:void clearReports() | clear reports
+../3-Phrases/prefuse:void damageReport(QRectangle2D;) | damage report
+../3-Phrases/prefuse:void damageReport() | damage report
+../3-Phrases/prefuse:void damageReport(QVisualItem;QRectangle2D;) | damage report
+../3-Phrases/rhino:boolean hasReportedError() | has reported error
+../3-Phrases/rhino:boolean isReportingWarnings() | is reporting warnings
+../3-Phrases/rhino:CONS DefaultErrorReporter() | default error reporter
+../3-Phrases/rhino:CONS ToolErrorReporter(Z) | tool error reporter
+../3-Phrases/rhino:CONS ToolErrorReporter(ZQPrintStream;) | tool error reporter
+../3-Phrases/rhino:ErrorReporter getErrorReporter() | get error reporter
+../3-Phrases/rhino:ErrorReporter setErrorReporter(QErrorReporter;) | set error reporter
+../3-Phrases/rhino:EvaluatorException reportRuntimeError0(QString;) | report runtime error 0
+../3-Phrases/rhino:EvaluatorException reportRuntimeError1(QString;QObject;) | report runtime error 1
+../3-Phrases/rhino:EvaluatorException reportRuntimeError2(QString;QObject;QObject;) | report runtime error 2
+../3-Phrases/rhino:EvaluatorException reportRuntimeError3(QString;QObject;QObject;QObject;) | report runtime error 3
+../3-Phrases/rhino:EvaluatorException reportRuntimeError4(QString;QObject;QObject;QObject;QObject;) | report runtime error 4
+../3-Phrases/rhino:EvaluatorException reportRuntimeError(QString;) | report runtime error
+../3-Phrases/rhino:EvaluatorException reportRuntimeError(QString;QString;IQString;I) | report runtime error
+../3-Phrases/rhino:RuntimeException reportError(QString;) | report error
+../3-Phrases/rhino:RuntimeException reportMemberNotFound(QString;) | report member not found
+../3-Phrases/rhino:RuntimeException reportRuntimeError(QString;) | report runtime error
+../3-Phrases/rhino:RuntimeException reportRuntimeError(QString;QString;) | report runtime error
+../3-Phrases/rhino:ToolErrorReporter getReporter() | get reporter
+../3-Phrases/rhino:void reportConversionError(QObject;QClass;) | report conversion error
+../3-Phrases/rhino:void reportErrorMessage(QString;QString;IQString;IZ) | report error message
+../3-Phrases/rhino:void reportError(QString;) | report error
+../3-Phrases/rhino:void reportError(QString;QString;) | report error
+../3-Phrases/rhino:void reportError(QString;QString;IQString;I) | report error
+../3-Phrases/rhino:void reportException(QErrorReporter;QRhinoException;) | report exception
+../3-Phrases/rhino:void reportException(QRhinoException;) | report exception
+../3-Phrases/rhino:void reportWarning(QString;) | report warning
+../3-Phrases/rhino:void reportWarning(QString;QString;IQString;I) | report warning
+../3-Phrases/rhino:void setErrorReporter(QErrorReporter;) | set error reporter
+../3-Phrases/rhino:void setIsReportingWarnings(Z) | set is reporting warnings
+../3-Phrases/rhino:void setReporter(QToolErrorReporter;) | set reporter
+../3-Phrases/rhino-fieldSample:void reportErrorMessage(QString;QString;IQString;IZ) | report error message
+../3-Phrases/rhino-fieldSample:ErrorReporter getErrorReporter() | get error reporter
+../3-Phrases/rhino-fieldSample:void setErrorReporter(QErrorReporter;) | set error reporter
+../3-Phrases/rhino-fieldSample:ErrorReporter getErrorReporter() | get error reporter
+../3-Phrases/rhino-fieldSample:ErrorReporter setErrorReporter(QErrorReporter;) | set error reporter
+../3-Phrases/rhino-fieldSample:CONS DefaultErrorReporter() | default error reporter
+../3-Phrases/rhino-fieldSample:CONS ToolErrorReporter(Z) | tool error reporter
+../3-Phrases/rhino-fieldSample:CONS ToolErrorReporter(ZQPrintStream;) | tool error reporter
+../3-Phrases/rhino-fieldSample:void setErrorReporter(QErrorReporter;) | set error reporter
+../3-Phrases/rhino-fieldSample:RuntimeException reportMemberNotFound(QString;) | report member not found
+../3-Phrases/rhino-sample100:EvaluatorException reportRuntimeError3(QString;QObject;QObject;QObject;) | report runtime error 3
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportPercent(I) | report percent
+../3-Phrases/vuze:void reportCurrentTask(QAzureusCoreOperation;QString;) | report current task
+../3-Phrases/vuze:void reportPercent(QAzureusCoreOperation;I) | report percent
+../3-Phrases/vuze:void reportComplete() | report complete
+../3-Phrases/vuze:void reportFailed(QThrowable;) | report failed
+../3-Phrases/vuze:void reportSizes(QString;) | report sizes
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportPercent(I) | report percent
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportPercent(I) | report percent
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportPercent(I) | report percent
+../3-Phrases/vuze:void reportCurrentTask(QAzureusCoreOperation;QString;) | report current task
+../3-Phrases/vuze:void reportPercent(QAzureusCoreOperation;I) | report percent
+../3-Phrases/vuze:void reportProgress(QString;) | report progress
+../3-Phrases/vuze:void reportStage(QString;) | report stage
+../3-Phrases/vuze:void reportComplete() | report complete
+../3-Phrases/vuze:boolean reportNode(IQInetAddress;I) | report node
+../3-Phrases/vuze:boolean reportNode(IQInetAddress;I) | report node
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportContributor(QInetSocketAddress;) | report contributor
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportBytesRead(I) | report bytes read
+../3-Phrases/vuze:void reportBytesRead(I) | report bytes read
+../3-Phrases/vuze:void reportBytesRead(I) | report bytes read
+../3-Phrases/vuze:void reportBytesRead(I) | report bytes read
+../3-Phrases/vuze:void reportBytesRead(I) | report bytes read
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportContributor(QInetSocketAddress;) | report contributor
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportContributor(QInetSocketAddress;) | report contributor
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportComplete(QMap;) | report complete
+../3-Phrases/vuze:void reportFailed(QThrowable;) | report failed
+../3-Phrases/vuze:void reportFailed(QBuddyPluginBuddyMessage;QThrowable;Z) | report failed
+../3-Phrases/vuze:void reportFailedSupport(QBuddyPluginBuddyMessage;QBuddyPluginException;) | report failed support
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportProgress(QString;) | report progress
+../3-Phrases/vuze:void reportProgress(QString;) | report progress
+../3-Phrases/vuze:void reportProgress(I) | report progress
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:int getReportedPeerCount() | get reported peer count
+../3-Phrases/vuze:int getReportedPeerCount() | get reported peer count
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportPercent(I) | report percent
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportPercent(I) | report percent
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportProgress(I) | report progress
+../3-Phrases/vuze:void reportCurrentTask(QAzureusCoreOperation;QString;) | report current task
+../3-Phrases/vuze:void reportPercent(QAzureusCoreOperation;I) | report percent
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportCurrentTaskByKey(QString;) | report current task by key
+../3-Phrases/vuze:void reportPercent(I) | report percent
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportPercentageDone(I) | report percentage done
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportProgress(I) | report progress
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportActivity(QResourceDownloader;QString;) | report activity
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportPercent(I) | report percent
+../3-Phrases/vuze:void reportProgress(QExternalIPCheckerService;QString;) | report progress
+../3-Phrases/vuze:void reportProgress(QString;) | report progress
+../3-Phrases/vuze:void reportProgress(QString;QString;) | report progress
+../3-Phrases/vuze:void reportPercentComplete(QResourceDownloader;I) | report percent complete
+../3-Phrases/vuze:void badPieceReported(QPEPeerTransport;I) | bad piece reported
+../3-Phrases/vuze:void badPieceReported(QPEPeerTransport;I) | bad piece reported
+../3-Phrases/vuze:void reportProgress(I) | report progress
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void report(QString;) | report
+../3-Phrases/vuze:void report(QString;J) | report
+../3-Phrases/vuze:void report(QString;QString;) | report
+../3-Phrases/vuze:void reportProgress(I) | report progress
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:boolean reportNode(IQInetAddress;I) | report node
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:int getReportedPeerCount() | get reported peer count
+../3-Phrases/vuze:void reportProgress(I) | report progress
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportPercentageDone(I) | report percentage done
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportProgress(QString;) | report progress
+../3-Phrases/vuze:void reportProgress(QString;) | report progress
+../3-Phrases/vuze:void reportPercentComplete(QResourceDownloader;I) | report percent complete
+../3-Phrases/vuze:void reportAmountComplete(QResourceDownloader;J) | report amount complete
+../3-Phrases/vuze:void reportActivity(QResourceDownloader;QString;) | report activity
+../3-Phrases/vuze:void reportPercentComplete(QResourceDownloader;I) | report percent complete
+../3-Phrases/vuze:void reportAmountComplete(QResourceDownloader;J) | report amount complete
+../3-Phrases/vuze:void reportActivity(QResourceDownloader;QString;) | report activity
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportSize(J) | report size
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportCompleteness(I) | report completeness
+../3-Phrases/vuze:void reportCreated(QDiskManagerChannel;) | report created
+../3-Phrases/vuze:int getReportedPeerCount() | get reported peer count
+../3-Phrases/vuze:void reportConnected() | report connected
+../3-Phrases/vuze:void reportFailed(QThrowable;) | report failed
+../3-Phrases/vuze:void reportProgress(I) | report progress
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportError(QThrowable;) | report error
+../3-Phrases/vuze:void reportProgress(I) | report progress
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportActivity(QResourceDownloader;QString;) | report activity
+../3-Phrases/vuze:void reportProgress(I) | report progress
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportProgress(I) | report progress
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportProgress(QString;) | report progress
+../3-Phrases/vuze:void reportProgress(QExternalIPCheckerService;QString;) | report progress
+../3-Phrases/vuze:void reportPercentComplete(QResourceDownloader;I) | report percent complete
+../3-Phrases/vuze:void addReportListener(QResourceDownloader;) | add report listener
+../3-Phrases/vuze:void reportActivity(QResourceDownloader;QString;) | report activity
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportActivity(QResourceDownloader;QString;) | report activity
+../3-Phrases/vuze:void reportPercentComplete(QResourceDownloader;I) | report percent complete
+../3-Phrases/vuze:void reportAmountComplete(QResourceDownloader;J) | report amount complete
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportPercentComplete(QResourceDownloader;I) | report percent complete
+../3-Phrases/vuze:void reportAmountComplete(QResourceDownloader;J) | report amount complete
+../3-Phrases/vuze:void reportActivity(QResourceDownloader;QString;) | report activity
+../3-Phrases/vuze:void reportPercentComplete(QResourceDownloader;I) | report percent complete
+../3-Phrases/vuze:void reportAmountComplete(QResourceDownloader;J) | report amount complete
+../3-Phrases/vuze:void reportActivity(QResourceDownloader;QString;) | report activity
+../3-Phrases/vuze:void reportActivity(QString;) | report activity
+../3-Phrases/vuze:void reportConnected() | report connected
+../3-Phrases/vuze:void reportFailed(QThrowable;) | report failed
+../3-Phrases/vuze:int getReportedPeerCount() | get reported peer count
+../3-Phrases/vuze:void reportPercentComplete(QResourceDownloader;I) | report percent complete
+../3-Phrases/vuze:void reportAmountComplete(QResourceDownloader;J) | report amount complete
+../3-Phrases/vuze:void reportActivity(QResourceDownloader;QString;) | report activity
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportProgress(I) | report progress
+../3-Phrases/vuze:int report(QIProgressReport;) | report
+../3-Phrases/vuze:void reportError(QThrowable;) | report error
+../3-Phrases/vuze:void reportPercent(I) | report percent
+../3-Phrases/vuze:void reportPercent(I) | report percent
+../3-Phrases/vuze:void reportProgress(QExternalIPCheckerService;QString;) | report progress
+../3-Phrases/vuze:void reportCurrentTask(QAzureusCoreOperation;QString;) | report current task
+../3-Phrases/vuze:void reportPercent(QAzureusCoreOperation;I) | report percent
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportPercent(I) | report percent
+../3-Phrases/vuze:void reportCurrentTaskByKey(QString;) | report current task by key
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportPercent(I) | report percent
+../3-Phrases/vuze:int reporting(IQIProgressReporter;) | reporting
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportProgress(I) | report progress
+../3-Phrases/vuze:CONS ProgressReporterPanel(QComposite;QIProgressReporter;I) | progress reporter panel
+../3-Phrases/vuze:int report(QIProgressReport;) | report
+../3-Phrases/vuze:IProgressReporter getProgressReporter() | get progress reporter
+../3-Phrases/vuze:int report(QIProgressReport;) | report
+../3-Phrases/vuze:CONS ProgressReporterWindow(QIProgressReporter;I) | progress reporter window
+../3-Phrases/vuze:CONS ProgressReporterWindow([QIProgressReporter;I) | progress reporter window
+../3-Phrases/vuze:void removeReporter(QIProgressReporter;) | remove reporter
+../3-Phrases/vuze:int report(QIProgressReport;) | report
+../3-Phrases/vuze:CONS ProgressReporter(QProgressReportingManager;) | progress reporter
+../3-Phrases/vuze:CONS ProgressReporter(QProgressReportingManager;QString;) | progress reporter
+../3-Phrases/vuze:void setReporterType(QString;) | set reporter type
+../3-Phrases/vuze:IProgressReport getProgressReport() | get progress report
+../3-Phrases/vuze:void ProgressReport() | progress report
+../3-Phrases/vuze:String getReporterType() | get reporter type
+../3-Phrases/vuze:int getReporterID() | get reporter id
+../3-Phrases/vuze:int getReportType() | get report type
+../3-Phrases/vuze:String getReporterType() | get reporter type
+../3-Phrases/vuze:int getReporterID() | get reporter id
+../3-Phrases/vuze:int getReportType() | get report type
+../3-Phrases/vuze:CONS ProgressReportingManager() | progress reporting manager
+../3-Phrases/vuze:IProgressReporter addReporter() | add reporter
+../3-Phrases/vuze:IProgressReporter addReporter(QString;) | add reporter
+../3-Phrases/vuze:int getReporterCount(I) | get reporter count
+../3-Phrases/vuze:IProgressReporter getNextActiveReporter() | get next active reporter
+../3-Phrases/vuze:IProgressReporter getCurrentReporter() | get current reporter
+../3-Phrases/vuze:List getReporters(Z) | get reporters
+../3-Phrases/vuze:IProgressReporter[] getReportersArray(Z) | get reporters array
+../3-Phrases/vuze:CONS ProgressReportMessage(QString;I) | progress report message
+../3-Phrases/vuze:void setReporterType(QString;) | set reporter type
+../3-Phrases/vuze:IProgressReport getProgressReport() | get progress report
+../3-Phrases/vuze:List getReporters(Z) | get reporters
+../3-Phrases/vuze:IProgressReporter getNextActiveReporter() | get next active reporter
+../3-Phrases/vuze:int reporting(IQIProgressReporter;) | reporting
+../3-Phrases/vuze:void reportPercent(I) | report percent
+../3-Phrases/vuze:void reportProgress(I) | report progress
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportPercent(I) | report percent
+../3-Phrases/vuze:void reportComplete(QNetworkAdminSpeedTesterResult;) | report complete
+../3-Phrases/vuze:void reportStage(QString;) | report stage
+../3-Phrases/vuze:void reportPercentComplete(QResourceDownloader;I) | report percent complete
+../3-Phrases/vuze:void reportAmountComplete(QResourceDownloader;J) | report amount complete
+../3-Phrases/vuze:void reportActivity(QResourceDownloader;QString;) | report activity
+../3-Phrases/vuze:void reportProgress(QString;) | report progress
+../3-Phrases/vuze:void reportActivity(QResourceDownloader;QString;) | report activity
+../3-Phrases/vuze:void reportAmountComplete(QResourceDownloader;J) | report amount complete
+../3-Phrases/vuze:void reportPercentComplete(QResourceDownloader;I) | report percent complete
+../3-Phrases/vuze:int report(QIProgressReport;) | report
+../3-Phrases/vuze:void reportProgress(QString;) | report progress
+../3-Phrases/vuze:void reportProgress(I) | report progress
+../3-Phrases/vuze:void reportCurrentTask(QString;) | report current task
+../3-Phrases/vuze:void reportActivity(QResourceDownloader;QString;) | report activity
+../3-Phrases/weka:String reportFrequencyTipText() | report frequency tip text
+../3-Phrases/weka:void setReportFrequency(I) | set report frequency
+../3-Phrases/weka:int getReportFrequency() | get report frequency
+../3-Phrases/weka:String populationReport(I) | population report
+../3-Phrases/weka:void EM_Report(QInstances;) | em report
+../3-Phrases/weka:void requestBugReport(QError;) | request bug report
+../3-Phrases/weka:void report_error(QString;QObject;) | report error
+../3-Phrases/weka:void report_fatal_error(QString;QObject;) | report fatal error
+../3-Phrases/weka:void report_fatal_error(QString;QObject;) | report fatal error
+../3-Phrases/weka:void report_error(QString;QObject;) | report error
+../3-Phrases/weka:void report_conflicts(Qterminal_set;) | report conflicts
+../3-Phrases/weka:void report_reduce_reduce(Qlalr_item;Qlalr_item;) | report reduce reduce
+../3-Phrases/weka:void report_shift_reduce(Qlalr_item;I) | report shift reduce
+../3-Phrases/weka:void report_fatal_error(QString;QObject;) | report fatal error
+../3-Phrases/weka:void report_error(QString;QObject;) | report error
+../3-Phrases/weka:String reportFrequencyTipText() | report frequency tip text
+../3-Phrases/weka:void setReportFrequency(I) | set report frequency
+../3-Phrases/weka:int getReportFrequency() | get report frequency
+../3-Phrases/weka:String populationReport(I) | population report
+../3-Phrases/weka:void EM_Report(QInstances;) | em report

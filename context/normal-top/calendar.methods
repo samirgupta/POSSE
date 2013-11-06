@@ -1,0 +1,20 @@
+Calendar getCalendar(I) | get calendar
+Calendar getCalendar(QString;) | get calendar
+Date getCalendarDate() | get calendar date
+GPCalendar getActiveCalendar() | get active calendar
+GPCalendar getCalendar() | get calendar
+GregorianCalendar getGregorianCalendar(J) | get gregorian calendar
+GregorianCalendar getGregorianCalendar(QDate;) | get gregorian calendar
+GregorianCalendar getGregorianCalendar(QString;) | get gregorian calendar
+Query setCalendarDate(IQCalendar;) | set calendar date
+Query setCalendarDate(QString;QCalendar;) | set calendar date
+Query setCalendar(IQCalendar;) | set calendar
+Query setCalendar(QString;QCalendar;) | set calendar
+URL[] getCalendarResources() | get calendar resources
+URL getProjectCalendar() | get project calendar
+void loadCalendar(QAttributes;) | load calendar
+void saveCalendar(QTransformerHandler;) | save calendar
+void setCalendarName(String calendarName) | set calendar name
+void setCalendars() | set calendars
+void setCalendarSpread(CalendarSpread value) | set calendar spread
+void setDynamicParam(int parameterIndex, Object obj, Calendar calendar) | set dynamic param

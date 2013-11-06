@@ -1,0 +1,66 @@
+Batcher createBatcher(QConnectionManager;QInterceptor;) | create batcher
+BatcherFactory createBatcherFactory(QProperties;I) | create batcher factory
+BatcherFactory getBatcherFactory() | get batcher factory
+Batcher getBatcher() | get batcher
+BatchFetchQueue getBatchFetchQueue() | get batch fetch queue
+boolean hasIncomingBatchInstances() | has incoming batch instances
+boolean isBatchable() | is batchable
+boolean isBatchLoadable() | is batch loadable
+boolean isFirstBatchDone() | is first batch done
+boolean isJdbcBatchVersionedData() | is jdbc batch versioned data
+boolean isNewBatch() | is new batch
+boolean supportsBatchUpdates() | supports batch updates
+CallableStatement prepareBatchCallableStatement(QString;) | prepare batch callable statement
+CollectionInitializer createBatchingCollectionInitializer(QQueryableCollection;IQSessionFactoryImplementor;QMap;) | create batching collection initializer
+CollectionInitializer createBatchingOneToManyInitializer(QQueryableCollection;IQSessionFactoryImplementor;QMap;) | create batching one to many initializer
+CoverTreeNode batch_insert(QInteger;IIQStack<QDistanceNode;>;QStack<QDistanceNode;>;) | batch insert
+Integer findBatchNumber(QEntityInsertAction;QString;) | find batch number
+int executeBatch() | execute batch
+int[] executeBatch() | execute batch
+int getBatchLimit(B) | get batch limit
+int getBatchPosition() | get batch position
+int getBatchSize() | get batch size
+int[] getBatchSizes(I) | get batch sizes
+int getDefaultBatchFetchSize() | get default batch fetch size
+int getJdbcBatchSize() | get jdbc batch size
+int getNextBatchSize(I) | get next batch size
+List loadEntityBatch(QSessionImplementor;[QSerializable;QType;QObject;QString;QSerializable;QEntityPersister;) | load entity batch
+PreparedStatement prepareBatchStatement(QString;) | prepare batch statement
+Result sqlExecuteBatchDirect(QResult;) | sql execute batch direct
+Result sqlExecuteBatch(QResult;) | sql execute batch
+Serializable[] getCollectionBatch(QCollectionPersister;QSerializable;IQEntityMode;) | get collection batch
+Serializable[] getEntityBatch(QEntityPersister;QSerializable;IQEntityMode;) | get entity batch
+String getJdbcBatchSize() | get jdbc batch size
+UniqueEntityLoader createBatchingEntityLoader(QOuterJoinLoadable;IQLockMode;QSessionFactoryImplementor;QMap;) | create batching entity loader
+void abortBatch(QSQLException;) | abort batch
+void acceptAddOrdersToBatchOrder(Object p0_HttpServletRequest, Object p1_BatchOrder) | accept add orders to batch order
+void addBatch() | add batch
+void addBatchClassifierListener(QBatchClassifierListener;) | add batch classifier listener
+void addBatchClustererListener(QBatchClustererListener;) | add batch clusterer listener
+void addBatchLoadableEntityKey(QEntityKey;) | add batch loadable entity key
+void addBatch(QString;) | add batch
+void addToBatch(QExpectation;) | add to batch
+void addToBatch(QInteger;QEntityInsertAction;) | add to batch
+void batchFilterFile(QFilter;[QString;) | batch filter file
+void batch_nearest_neighbor(IQCoverTreeNode;QCoverTreeNode;QStack<QNeighborList;>;) | batch nearest neighbor
+void clearBatch() | clear batch
+void doExecuteBatch(QPreparedStatement;) | do execute batch
+void executeBatch() | execute batch
+void initBatchBuffer() | init batch buffer
+void internal_batch_nearest_neighbor(IQCoverTreeNode;QStack<QStack<Qd_node;>;>;QStack<Qd_node;>;IIQMyHeap;QStack<QNeighborList;>;) | internal batch nearest neighbor
+void loadCollectionBatch(QSessionImplementor;[QSerializable;QType;) | load collection batch
+void notifyBatchClassifierListeners(QBatchClassifierEvent;) | notify batch classifier listeners
+void notifyBatchClustererListeners(QBatchClustererEvent;) | notify batch clusterer listeners
+void removeBatchClassifierListener(QBatchClassifierListener;) | remove batch classifier listener
+void removeBatchClustererListener(QBatchClustererListener;) | remove batch clusterer listener
+void removeBatchLoadableEntityKey(QEntityKey;) | remove batch loadable entity key
+void saveBatch() | save batch
+void SaveBatchThread(QDataSink;) | save batch thread
+void setBatcherFactory(QBatcherFactory;) | set batcher factory
+void setBatchSize(I) | set batch size
+void setDefaultBatchFetchSize(I) | set default batch fetch size
+void setJdbcBatchSize(I) | set jdbc batch size
+void setJdbcBatchSize(QString;) | set jdbc batch size
+void setJdbcBatchVersionedData(Z) | set jdbc batch versioned data
+void testBatchStatementsOrder() | test batch statements order
+void writeBatch() | write batch

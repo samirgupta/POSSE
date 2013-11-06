@@ -1,0 +1,6 @@
+CONS WeatherContainer() | weather container
+CONS WeatherData() | weather data
+CONS WeatherForecastData() | weather forecast data
+CONS WeatherForecastData(QDate;QString;QString;QString;QString;) | weather forecast data
+CONS WeatherItem(QWeatherContainer;QString;QString;I) | weather item
+CONS WeatherOptionsPanel(QWeatherContainer;) | weather options panel

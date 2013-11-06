@@ -1,0 +1,7 @@
+boolean requiresLogin() | requires login
+void doSocks4Login([QByteBuffer;) | do socks 4 login
+void doSocks5Login() | do socks 5 login
+void engineRequiresLogin(QEngine;QThrowable;) | engine requires login
+void fireOnLogin(Qjava.lang.String;Qjava.lang.String;Qjava.lang.String;I) | fire on login
+void onLogin(Qjava.lang.String;I) | on login
+void waitForLogin(QloginWaitListener;) | wait for login

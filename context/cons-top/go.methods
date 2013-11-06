@@ -1,0 +1,34 @@
+CONS AbstractGoods() | abstract goods
+CONS AbstractGoods(QGoodsType;I) | abstract goods
+CONS AIGoods(QAIMain;QElement;) | ai goods
+CONS AIGoods(QAIMain;QLocation;QGoodsType;IQLocation;) | ai goods
+CONS AIGoods(QAIMain;QString;) | ai goods
+CONS AIGoods(QAIMain;QXMLStreamReader;) | ai goods
+CONS CaptureGoodsDialog(QCanvas;) | capture goods dialog
+CONS CheckGOE() | check goe
+CONS ColopediaGoodsAction(QFreeColClient;) | colo pe dia goods action
+CONS ExecuteGotoOrdersAction(QFreeColClient;) | execute goto orders action
+CONS GoldTradeItem(QGame;QPlayer;QPlayer;I) | gold trade item
+CONS GoldTradeItem(QGame;QXMLStreamReader;) | gold trade item
+CONS GoodsContainer(QGame;QLocation;) | goods container
+CONS GoodsContainer(QGame;QLocation;QElement;) | goods container
+CONS GoodsContainer(QGame;QLocation;QXMLStreamReader;) | goods container
+CONS GoodsLabel(QGoods;QCanvas;) | goods label
+CONS GoodsLabel(QGoods;QCanvas;Z) | goods label
+CONS Goods(QGame;QElement;) | goods
+CONS Goods(QGame;QLocation;QGoodsType;I) | goods
+CONS Goods(QGame;QXMLStreamReader;) | goods
+CONS GoodsTradeItem(QGame;QPlayer;QPlayer;QGoods;QSettlement;) | goods trade item
+CONS GoodsTradeItem(QGame;QXMLStreamReader;) | goods trade item
+CONS GoodsType(I) | goods type
+CONS GoodsWish(QAIMain;QElement;) | goods wish
+CONS GoodsWish(QAIMain;QLocation;IQGoodsType;) | goods wish
+CONS GoodsWish(QAIMain;QString;) | goods wish
+CONS GoodsWish(QAIMain;QXMLStreamReader;) | goods wish
+CONS GotoAction(QFreeColClient;) | goto action
+CONS GotoLinkNodeAction(QModeController;QMindMapNode;) | goto link node action
+CONS GotoTileAction(QFreeColClient;) | goto tile action
+CONS ToGoDialog(QJFrame;QServerConfiguration;) | to go dialog
+CONS ToGoList() | to go list
+CONS ToGo(QServerConfiguration;) | to go
+CONS ToGoThread(QServer;) | to go thread

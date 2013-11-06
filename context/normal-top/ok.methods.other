@@ -1,0 +1,11 @@
+Action createOkAction(QAction;QJDialog;QCommiter;) | create ok action
+Builder<QT;> addOkButton() | add ok button
+JButton getOKButton() | get ok button
+void addOkListener(QActionListener;) | add ok listener
+void doClickOnOkInDialog(QJDialog;QJComponentTester;) | do click on ok in dialog
+void ProxyOkAction(QAction;QJDialog;QCommiter;) | proxy ok action
+void removeOkListener(QActionListener;) | remove ok listener
+void setOkButtonText(QString;) | set ok button text
+void setOKVisible(boolean value) | set ok visible
+void testCompileClassPathOKDefaultPackage() | test compile class path ok default package
+void testCompileClassPathOKDifferentPackages() | test compile class path ok different packages

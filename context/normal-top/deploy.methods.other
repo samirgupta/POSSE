@@ -1,0 +1,10 @@
+boolean shouldDeployForRound(I) | should deploy for round
+boolean shouldDeployThisRound() | should deploy this round
+float getDeployDamage(QIGame;QWeaponAttackAction;) | get deploy damage
+int getDeployRound() | get deploy round
+Vector getEntitiesToDeployForRound(I) | get entities to deploy for round
+void processDeployMinefields(QVector;) | process deploy minefields
+void receiveDeployMinefields(QPacket;) | receive deploy minefields
+void receiveDeployMinefields(QPacket;I) | receive deploy minefields
+void sendDeployMinefields(QVector;) | send deploy minefields
+void setDeployRound(I) | set deploy round

@@ -1,0 +1,184 @@
+boolean active_subs_download_is_auto | active subs download is auto
+boolean ADJUST_DOWNLOAD_ENABLE | adjust download enable
+boolean bActivelyDownloading | b actively downloading
+boolean bDownload | b download
+boolean cancel_download | cancel download
+boolean cripple_downloads_config | cripple downloads config
+boolean downloadHitLimit | download hit limit
+boolean downloadingIndicator | downloading indicator
+boolean downloadTestRan | download test ran
+boolean hasNewDownloadLimit | has new download limit
+byte FLAG_DOWNLOADING | flag downloading
+byte PIECE_STATUS_MASK_DOWNLOADABLE | piece status mask downloadable
+com.aelitis.azureus.core.lws.LWSDownload pseudo_download | pseudo download
+com.aelitis.azureus.core.networkmanager.impl.MultiPeerDownloader2 global_downloader | global downloader
+com.aelitis.azureus.core.networkmanager.impl.TransferProcessor download_processor | download processor
+com.aelitis.azureus.core.networkmanager.impl.TransferProcessor lan_download_processor | lan download processor
+com.aelitis.azureus.core.networkmanager.LimitedRateGroup download_limited_rate_group | download limited rate group
+com.aelitis.azureus.core.networkmanager.LimitedRateGroup download_limiter | download limiter
+com.aelitis.azureus.core.networkmanager.LimitedRateGroup[] download_limiters | download limiters
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSpaceMapper pingMapOfDownloadMode | ping map of download mode
+com.aelitis.azureus.core.speedmanager.impl.v2.SaturatedMode downloadBandwidthStatus | download bandwidth status
+com.aelitis.azureus.core.speedmanager.impl.v2.SaturatedMode downloadLimitSettingStatus | download limit setting status
+com.aelitis.azureus.core.speedmanager.impl.v2.SpeedLimitConfidence downloadLimitConf | download limit conf
+com.aelitis.azureus.core.speedmanager.impl.v2.TransferMode.State DOWNLOADING | downloading
+com.aelitis.azureus.core.speedmanager.impl.v2.TransferMode.State DOWNLOAD_LIMIT_SEARCH | download limit search
+com.aelitis.azureus.core.util.average.Average capped_download_rate_average | capped download rate average
+com.aelitis.azureus.core.util.average.Average download_speed_average | download speed average
+com.aelitis.azureus.plugins.extseed.util.ExternalSeedHTTPDownloader[] http_downloaders | http downloaders
+com.aelitis.azureus.ui.selectedcontent.DownloadUrlInfo downloadInfo | download info
+float ADJUST_DOWNLOAD_RATIO | adjust download ratio
+float percentUploadCapacityDownloadMode | percent upload capacity download mode
+float usedUpMaxDownloadMode | used up max download mode
+int BLOCKCOLOR_DOWNLOADING | block color downloading
+int DONOTDOWNLOAD | don ot download
+int DOWNLOAD | download
+int downloadBound | download bound
+int downloadCompletedLive | download completed live
+int downloading | downloading
+int download_limit | download limit
+int downloadLimitMax | download limit max
+int downloadLimitMin | download limit min
+int download_set_id | download set id
+int DOWNLOAD_SPEED_ADJUST_MIN_KB_SEC | download speed adjust min kb sec
+int downloads_sent_id | downloads sent id
+int downloadTest | download test
+int DOWNLOAD_TIMEOUT | download timeout
+int external_max_download_rate_bps | external max download rate bps
+int FIELD_DOWNLOADBTNLINK | field download btn link
+int globalDownloadLimit | global download limit
+int highestDownloadIndex | highest download index
+int highestDownloadOnlyResult | highest download only result
+int highestDownloadRate | highest download rate
+int lastDownloadBitsPerSec | last download bits per sec
+int last_processed_download_set_id | last processed download set id
+int LDT_DOWNLOADCOMPLETE | ldt download complete
+int MAX_DOWNLOAD_BYTES_PER_SEC | max download bytes per sec
+int maxDownloadKbs | max download kbs
+int max_download_rate_bps | max download rate bps
+int maxDownloads | max downloads
+int max_lan_download_rate_bps | max lan download rate bps
+int measuredDownloadKbps | measured download kbps
+int MIN_DOWNLOAD_BYTES_PER_SEC | min download bytes per sec
+int minDownloads | min downloads
+int newDownloadLimit | new download limit
+int numDownloading | num downloading
+int PR_DOWNLOAD_BUTTON_LINK | pr download button link
+int PR_DOWNLOAD_LINK | pr download link
+int PR_DOWNLOAD_LINK_LOCATOR | pr download link locator
+int preTestDownloadCapacity | pre test download capacity
+int preTestDownloadLimit | pre test download limit
+int RESULT_DOWNLOAD_INDEX | result download index
+int saved_SecondsSinceDownload | saved seconds since download
+int START_DOWNLOAD_RATE_MAX | start download rate max
+int STATE_DOWNLOADING | state downloading
+int ST_DOWNLOADING | st downloading
+int TEST_TYPE_DOWNLOAD_ONLY | test type download only
+int TS_DOWNLOADING | ts downloading
+int TYPE_DOWNLOAD | type download
+int VIEW_DOWNLOADING | view downloading
+int ZERO_DOWNLOAD_SETTING | zero download setting
+java.io.File download_dir | download dir
+java.io.File download_location | download location
+java.lang.Object DOWNLOAD_KEY | download key
+java.lang.String AT_TIME_SINCE_DOWNLOAD | at time since download
+java.lang.String CORE_PARAM_INT_MAX_DOWNLOADS | core param int max downloads
+java.lang.String CORE_PARAM_INT_MAX_DOWNLOAD_SPEED_KBYTES_PER_SEC | core param int max download speed kbytes per sec
+java.lang.String cvs_download_url | cvs download url
+java.lang.String DOWNLOAD | download
+java.lang.String DOWNLOAD_AVE | download ave
+java.lang.String downloadButtonLink | download button link
+java.lang.String DOWNLOAD_CONFIGKEY | download config key
+java.lang.String DOWNLOAD_CONF_LIMIT_SETTING | download conf limit setting
+java.lang.String downloaddir | download dir
+java.lang.String downloadHash | download hash
+java.lang.String downloadLinkCSS | download link css
+java.lang.String download_name | download name
+java.lang.String DOWNLOAD_STD_DEV | download std dev
+java.lang.String download_url | download url
+java.lang.String ManagerItem_downloading | manager item downloading
+java.lang.String MAX_DOWNLOAD | max download
+java.lang.String MENU_DOWNLOAD_BAR | menu download bar
+java.lang.String MENU_DOWNLOAD_CONTEXT | menu download context
+java.lang.String OP_DOWNLOAD_SUBSCRIPTION | op download subscription
+java.lang.String PARAM_DOWNLOAD_ADDED_TIME | param download added time
+java.lang.String PARAM_DOWNLOAD_COMPLETED_TIME | param download completed time
+java.lang.String SETTING_DOWNLOAD_LIMIT_ESTIMATE_TYPE_FROM_UI | setting download limit estimate type from ui
+java.lang.String SETTING_DOWNLOAD_MAX_LIMIT | setting download max limit
+java.lang.String ST_XFER_DOWNLOADED_DATA_BYTES | st xfer downloaded data bytes
+java.lang.String ST_XFER_DOWNLOADED_PROTOCOL_BYTES | st xfer downloaded protocol bytes
+java.lang.String TORRENT_DOWNLOAD_LIMIT | torrent download limit
+java.lang.String URL_DOWNLOAD | url download
+java.lang.String USED_UPLOAD_CAPACITY_DOWNLOAD_MODE | used upload capacity download mode
+java.util.ArrayList downloaders | downloaders
+java.util.HashMap downloadViews | download views
+java.util.Iterator iterDownloaders | iter downloaders
+java.util.List downloaders | downloaders
+java.util.List downloads | downloads
+java.util.List external_downloads | external downloads
+java.util.List monitored_downloads | monitored downloads
+java.util.Map active_subscription_downloaders | active subscription downloaders
+java.util.Map downloadDataMap | download data map
+java.util.Map downloadersToData | downloaders to data
+java.util.Map download_map | download map
+java.util.Map downloads | downloads
+java.util.Map downloads_in_common | downloads in common
+java.util.Map interesting_downloads | interesting downloads
+java.util.Map registered_downloads | registered downloads
+java.util.Map running_downloads | running downloads
+java.util.Map saved_download_manager_state | saved download manager state
+java.util.Set active_result_downloaders | active result downloaders
+java.util.Set downloads_sent | downloads sent
+java.util.Set last_processed_download_set | last processed download set
+java.util.Set tracked_downloads | tracked downloads
+javax.swing.Action _downloadAction | download action
+javax.swing.JButton _downloadButton | download button
+long actual_bytes_to_download | actual bytes to download
+long downloadAtLimitStartTime | download at limit start time
+long download_average | download average
+long[] downloader_lengths | downloader lengths
+long[] downloader_offsets | downloader offsets
+long maxDownloadTest | max download test
+long saved_SecondsDownloading | saved seconds downloading
+long time_last_download | time last download
+long totalDownloadSize | total download size
+long weighted_bytes_to_download | weighted bytes to download
+org.gudy.azureus2.core3.download.DownloadManager download | download
+org.gudy.azureus2.core3.download.DownloadManager download_manager | download manager
+org.gudy.azureus2.core3.download.DownloadManagerState download_manager_state | download manager state
+org.gudy.azureus2.core3.download.DownloadManagerState download_state | download state
+org.gudy.azureus2.core3.download.impl.DownloadManagerImpl download_manager | download manager
+org.gudy.azureus2.core3.peer.impl.PEPeerControl download | download
+org.gudy.azureus2.core3.torrentdownloader.TorrentDownloader downloader | downloader
+org.gudy.azureus2.core3.util.AEMonitor downloadData_this_mon | download data this mon
+org.gudy.azureus2.core3.util.AEMonitor downloadViews_mon | download views mon
+org.gudy.azureus2.core3.util.AsyncDispatcher result_downloader | result downloader
+org.gudy.azureus2.plugins.download.DownloadActivationListener download_activation_listener | download activation listener
+org.gudy.azureus2.plugins.download.Download download | download
+org.gudy.azureus2.plugins.download.DownloadListener download_listener | download listener
+org.gudy.azureus2.plugins.download.DownloadManager download_manager | download manager
+org.gudy.azureus2.plugins.download.DownloadManagerListener download_manager_listener | download manager listener
+org.gudy.azureus2.plugins.download.Download testDownload | test download
+org.gudy.azureus2.plugins.download.DownloadTrackerListener download_tracker_listener | download tracker listener
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl.DownloadActivationNotifier download_activation_notifier | download activation notifier
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl.DownloadCompletionNotifier download_completion_notifier | download completion notifier
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl.DownloadNotifier download_notifier | download notifier
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl.DownloadPeerNotifier download_peer_notifier | download peer notifier
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl.DownloadPropertyNotifier download_property_notifier | download property notifier
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl.DownloadTrackerNotifier download_tracker_notifier | download tracker notifier
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl.DownloadTrackerNotifier download_tracker_notifier_instant | download tracker notifier instant
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl.DownloadWillBeRemovedNotifier download_will_be_removed_notifier | download will be removed notifier
+org.gudy.azureus2.pluginsimpl.local.download.DownloadImpl download | download
+org.gudy.azureus2.pluginsimpl.local.download.DownloadStatsImpl download_stats | download stats
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderBaseImpl current_downloader | current downloader
+org.gudy.azureus2.plugins.torrent.TorrentAttribute ta_subs_download | ta subs download
+org.gudy.azureus2.plugins.torrent.TorrentAttribute ta_subs_download_rd | ta subs download rd
+org.gudy.azureus2.plugins.utils.Monitor download_mon | download mon
+org.gudy.azureus2.plugins.utils.Monitor downloads_mon | downloads mon
+org.gudy.azureus2.plugins.utils.resourcedownloader.ResourceDownloader current_downloader | current downloader
+org.gudy.azureus2.plugins.utils.resourcedownloader.ResourceDownloader downloader | downloader
+org.gudy.azureus2.plugins.utils.resourcedownloader.ResourceDownloader[] downloaders | downloaders
+org.gudy.azureus2.ui.swt.components.BufferedLabel download | download
+org.gudy.azureus2.ui.swt.config.IntListParameter downloadModeUsedCap | download mode used cap
+org.gudy.azureus2.ui.swt.config.StringListParameter confDownload | conf download
+org.gudy.azureus2.ui.swt.TrayWindow downloadBasket | download basket

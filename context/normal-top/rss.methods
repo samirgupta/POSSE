@@ -1,0 +1,12 @@
+ArrayList getRssFeeds() | get rss feeds
+boolean getEnableRSS() | get enable rss
+Composite createCreateRSSComposite(QComposite;) | create create rss composite
+Date parseRSSDate(QString;) | parse rss date
+Engine createRSSEngine(QString;QURL;) | create rss engine
+Subscription createRSS(QString;QURL;IQMap;) | create rss
+Subscription createSingletonRSS(QString;QURL;I) | create singleton rss
+Subscription createSingletonRSSSupport(QString;QURL;ZIIZ) | create singleton rss support
+SubscriptionImpl lookupSingletonRSS(QString;QURL;ZI) | lookup singleton rss
+void DoRSS() | do rss
+void setRssFeeds(QArrayList;) | set rss feeds
+void testRSS() | test rss

@@ -1,0 +1,10 @@
+AlgorithmIdentifier getSignatureAlgorithm() | get signature algorithm
+DERBitString getSignatureValue() | get signature value
+int getTimeSignatureDenominator() | get time signature denominator
+int getTimeSignatureNumerator() | get time signature numerator
+Iterator getSignatureReferences() | get signature references
+MiscType createNullSignatureSystem() | create null signature system
+Signature getSignatureInstance(QString;) | get signature instance
+Signature getSignatureInstance(QString;QString;) | get signature instance
+void setSignatureAlgorithm(QString;) | set signature algorithm
+void setTimeSignatureFont(QFont;) | set time signature font

@@ -1,0 +1,41 @@
+AuctionEntry addAuction(QString;) | add auction
+AuctionEntry newAuctionEntry(QString;) | new auction entry
+AuctionInfo addAuction(QString;) | add auction
+AuctionInfo addAuction(QURL;QString;) | add auction
+AuctionInfo loadAuction(QURL;QString;QAuctionEntry;) | load auction
+AuctionInfo reloadAuction(QAuctionEntry;) | reload auction
+AuctionServer getAuctionServer() | get auction server
+Auctions matchAuction(QAuctionEntry;) | match auction
+Auctions refilterAuction(QAuctionEntry;Z) | refilter auction
+Auctions whereIsAuction(QAuctionEntry;) | where is auction
+Auctions whereIsAuction(QString;) | where is auction
+boolean checkAuctions() | check auctions
+boolean parseAuction(QAuctionEntry;) | parse auction
+boolean preParseAuction() | pre parse auction
+boolean saveAuctions() | save auctions
+int getAuctionCount() | get auction count
+Iterator getAuctionIterator() | get auction iterator
+Object figureAuction(QJTable;I) | figure auction
+SpecificAuction getNewSpecificAuction() | get new specific auction
+String addAuctionLink() | add auction link
+String auctionName(QString;QString;QAuctionEntry;) | auction name
+StringBuffer getAuction(QURL;) | get auction
+StringBuffer getAuctionViaAffiliate(QCookieJar;QString;) | get auction via affiliate
+void addAuction(QAuctionEntry;) | add auction
+void addAuction(QString;) | add auction
+void addAuctionServerMenus() | add auction server menus
+void AuctionListHolder(QString;) | auction list holder
+void AuctionListHolder(QString;QColor;) | auction list holder
+void AuctionListHolder(QString;ZZ) | auction list holder
+void AuctionServerListEntry(QString;QAuctionServer;) | auction server list entry
+void AuctionStats() | auction stats
+void cmdAddAuction(QString;) | cmd add auction
+void deleteAuction(QAuctionEntry;) | delete auction
+void doLoadAuctions() | do load auctions
+void establishAuctionMenu(QJMenu;) | establish auction menu
+void loadAuctions(QJSplashScreen;) | load auctions
+void prepareAuctionEntry(QString;) | prepare auction entry
+void registerAuction(QAuctionEntry;) | register auction
+void setAuctionInfo(QAuctionInfo;) | set auction info
+void setWonAuction(QAuctionEntry;) | set won auction
+void unregisterAuction(QAuctionEntry;) | unregister auction

@@ -1,0 +1,32 @@
+boolean dropAsSibling(D) | drop as sibling
+boolean dropConstraints() | drop constraints
+boolean dropPosition(D) | drop position
+boolean dropTemporaryTableAfterUse() | drop temporary table after use
+TextFieldReportElement dropNewTextField(QPoint;QString;QString;) | drop new text field
+TextFieldReportElement dropNewTextField(QPoint;QString;QString;QString;) | drop new text field
+void dropAccept(QDropTargetEvent;) | drop accept
+void dropAllTables() | drop all tables
+void dropColumn(I) | drop column
+void dropConnectedPeer(QPeerItem;) | drop connected peer
+void dropConstraint(QString;) | drop constraint
+void dropFiles(QList<QString;>;) | drop files
+void dropFiles(QList<QString;>;FF) | drop files
+void dropFKConstraint(QConstraint;) | drop fk constraint
+void dropIndexFromRows(QSession;I) | drop index from rows
+void dropIndex(QHsqlName;Z) | drop index
+void dropIndex(QSession;QString;) | drop index
+void dropIndex(QSession;QString;QString;Z) | drop index
+void dropIndex(QString;) | drop index
+void dropRole(QString;) | drop role
+void dropSchema(QString;Z) | drop schema
+void dropSequence(QNumberSequence;) | drop sequence
+void dropSequence(QString;) | drop sequence
+void dropTable(QSession;QString;QString;ZZZ) | drop table
+void dropTable(QTable;Z) | drop table
+void dropTemporaryTableIfNecessary(QQueryable;QSessionImplementor;) | drop temporary table if necessary
+void dropTestTable(QString;) | drop test table
+void dropTrigger(QSession;QString;QString;) | drop trigger
+void dropTrigger(QString;) | drop trigger
+void dropTriggers() | drop triggers
+void dropTrigger(String name, Session session) | drop trigger
+void dropUser(QString;) | drop user

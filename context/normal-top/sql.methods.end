@@ -1,0 +1,37 @@
+boolean isFormatSql() | is format sql
+boolean supportsANSI92EntryLevelSQL() | supports ansi 92 entry level sql
+boolean supportsANSI92FullSQL() | supports ansi 92 full sql
+boolean supportsANSI92IntermediateSQL() | supports ansi 92 intermediate sql
+CompiledStatement compileSql(QSession;QString;QString;) | compile sql
+JLabel getJLabelStatusSQL() | get j label status sql
+JResultSet execSQL(Qjava.lang.String;) | exec sql
+String applyLocksToSql(QString;QMap;QMap;) | apply locks to sql
+String createInsertSQL(ZZ) | create insert sql
+String getExceptionMessage_MySQL(QException;) | get exception message my sql
+String getFilteredSQL() | get filtered sql
+String getSelectSQL() | get select sql
+String getSql() | get sql
+String getSQL() | get sql
+String getSQL(QString;) | get sql
+String nativeSQL(QString;) | native sql
+String nativeSQL(String sql) | native sql
+String preprocessSQL(QString;QQueryParameters;QDialect;) | preprocess sql
+void createDocIndexedSQL(String sectionName, String doc, int sort_type) | create doc indexed sql
+void execSQL(QString;I) | exec sql
+void execSQL(QString;QString;I) | exec sql
+void execSQL(QString;Z) | exec sql
+void executeCurrentSQL() | execute current sql
+void executeSQL() | execute sql
+void handleCustomSQL(QElement;QCollection;) | handle custom sql
+void handleCustomSQL(QElement;QJoin;) | handle custom sql
+void handleCustomSQL(QElement;QPersistentClass;) | handle custom sql
+void logStaticSQL() | log static sql
+void processSQL() | process sql
+void renderSQL() | render sql
+void setFormatSql(Z) | set format sql
+void setSkipSql(boolean pSkipSql) | set skip sql
+void setSql(QString;) | set sql
+void setSql(String sql) | set sql
+void setSQL(String string) | set sql
+void testFindByIdUsingDynamicSQL() | test find by id using dynamic sql
+void testSQL() | test sql

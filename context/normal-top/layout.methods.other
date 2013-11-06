@@ -1,0 +1,38 @@
+boolean isLayoutComplete() | is layout complete
+Dimension maximumLayoutSize(QContainer;) | maximum layout size
+Dimension minimumLayoutSize(QContainer;) | minimum layout size
+Dimension preferredLayoutSize(QContainer;) | preferred layout size
+float getLayoutAlignmentX(QContainer;) | get layout alignment x
+float getLayoutAlignmentY(QContainer;) | get layout alignment y
+LayoutFormatter getLayoutFormatterByClassName(QString;QString;) | get layout formatter by class name
+LayoutFormatter getLayoutFormatterFromPlugins(QString;) | get layout formatter from plugins
+Layout getLayoutFromText(QString;) | get layout from text
+LayoutSet getLayoutSet(long groupId, boolean privateLayout) | get layout set
+List<QLayoutFormatterExtension;> getLayoutFormatterExtensions() | get layout formatter extensions
+net.sf.jabref.export.layout.LayoutFormatter getLayoutFormatter() | get layout formatter
+NodeItem getLayoutRoot() | get layout root
+Point2D getLayoutAnchor() | get layout anchor
+Rectangle2D getLayoutBounds() | get layout bounds
+String getLayoutFilename() | get layout filename
+void addLayoutCompleteEventListener(QLayoutCompleteEventListener;) | add layout complete event listener
+void addLayoutComponent(QComponent;QObject;) | add layout component
+void addLayoutComponent(QString;QComponent;) | add layout component
+void addLayoutComponent(String name, Component comp) | add layout component
+void addLayoutComponent(String name, Component component) | add layout component
+void fireLayoutCompleteEvent(QLayoutCompleteEvent;) | fire layout complete event
+void paintTextLayoutTest(Graphics g) | paint text layout test
+void priorityLayout1() | priority layout 1
+void priorityLayout2([I[I[I[I) | priority layout 2
+void removeLayoutCompleteEventListener(QLayoutCompleteEventListener;) | remove layout complete event listener
+void removeLayoutComponent(QComponent;) | remove layout component
+void setLayoutAnchor(QPoint2D;) | set layout anchor
+void setLayoutBounds(QRectangle2D;) | set layout bounds
+void setLayoutData(QFormData;) | set layout data
+void _setLayoutData(QGridData;) | set layout data
+void setLayoutData(QGridData;) | set layout data
+void setLayoutData(QObject;) | set layout data
+void setLayoutForSelectedGroup() | set layout for selected group
+void setLayoutOrientation(I) | set layout orientation
+void setLayoutPanelLogo(PanelLayout pl) | set layout panel logo
+void setLayoutRoot(QNodeItem;) | set layout root
+void testLayoutBibtextype() | test layout bibtex type

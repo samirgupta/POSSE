@@ -1,0 +1,15 @@
+AbstractFileSaver getSaver() | get saver
+AbstractFileSaver getSaverForExtension(QString;) | get saver for extension
+AbstractFileSaver getSaverForFile(QFile;) | get saver for file
+AbstractFileSaver getSaverForFile(QString;) | get saver for file
+boolean isCoreFileSaver(QString;) | is core file saver
+Element writeBeanSaver(QElement;QObject;QString;) | write bean saver
+Element writeSaver(QElement;QObject;QString;) | write saver
+GPSaver newSaver() | new saver
+Object readSaver(QElement;) | read saver
+Vector<QExtensionFileFilter;> filterNonCoreSaverFileFilters(QVector<QExtensionFileFilter;>;) | filter non core saver file filters
+Vector<QExtensionFileFilter;> filterSaverFileFilters(QVector<QExtensionFileFilter;>;) | filter saver file filters
+void DefaultFileSaver(QFile;) | default file saver
+void runFileSaver(QAbstractFileSaver;[QString;) | run file saver
+void setSaver(Qweka.core.converters.Saver;) | set saver
+weka.core.converters.Saver getSaver() | get saver

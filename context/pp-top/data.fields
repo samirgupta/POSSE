@@ -1,0 +1,14 @@
+boolean data_already_allocated | data already allocated
+boolean _dataPathChanged | data path changed
+boolean hasDataChanged | has data changed
+int TYPE_DATASOURCE_CHANGED | type datasource changed
+java.util.List listenersDataSourceChanged | listeners data source changed
+long lastDataDownloaded | last data downloaded
+long lastDataUploaded | last data uploaded
+long saved_data_bytes_downloaded | saved data bytes downloaded
+long saved_data_bytes_uploaded | saved data bytes uploaded
+long total_data_bytes_received | total data bytes received
+long totalDataDownloaded | total data downloaded
+long totalDataUploaded | total data uploaded
+org.gudy.azureus2.core3.util.Average data_receive_speed | data receive speed
+org.gudy.azureus2.core3.util.Average data_send_speed | data send speed

@@ -1,0 +1,33 @@
+CONS BlindIcon(I) | blind icon
+CONS CenteredIcon(QIcon;II) | centered icon
+CONS ColorAttributeIcon(QDrawingEditor;QAttributeKey<QColor;>;QImage;) | color attribute icon
+CONS ColorAttributeIcon(QDrawingEditor;QAttributeKey<QColor;>;QURL;) | color attribute icon
+CONS ColorIcon(QColor;) | color icon
+CONS CommentIconItem(QString;) | comment icon item
+CONS GradientIcon(QMultipleGradientPaint;) | gradient icon
+CONS GradientIcon(QMultipleGradientPaint;II) | gradient icon
+CONS GradientIcon(QMultipleGradientPaint;IIII) | gradient icon
+CONS HierarchicalIcons() | hierarchical icons
+CONS IconAction(QModeController;QMindIcon;QRemoveLastIconAction;) | icon action
+CONS IconBar(QComposite;) | icon bar
+CONS IconComparator([QString;) | icon comparator
+CONS IconedString(QString;QString;) | icon ed string
+CONS IconedStringTreeCellRenderer() | icon ed string tree cell renderer
+CONS IconLabel(QImageIcon;QString;) | icon label
+CONS IconLabel(QImageIcon;QString;QColor;QColor;QFont;QString;) | icon label
+CONS IconManager() | icon manager
+CONS IconPositionTagHandler() | icon position tag handler
+CONS IconProvider() | icon provider
+CONS IconSelectionPlugin() | icon selection plugin
+CONS IconSelectionPopupDialog(QJFrame;QVector;QVector;QFreeMindMain;) | icon selection popup dialog
+CONS IconSelection(QJDialog;QString;) | icon selection
+CONS IconStringRenderer(QString;) | icon string renderer
+CONS LayeredIcon([QIcon;[I[I) | layered icon
+CONS LineDecorationIcon(QLineDecoration;Z) | line decoration icon
+CONS MindIcon(QString;) | mind icon
+CONS RemoveAllIconsAction(QModeController;QIconAction;) | remove all icons action
+CONS RemoveLastIconAction(QModeController;) | remove last icon action
+CONS SolidColoredIcon(QColor;) | solid colored icon
+CONS SolidColoredIcon(QColor;II) | solid colored icon
+CONS SolidColoredIcon(QColor;IIII) | solid colored icon
+CONS StrokeIcon(QStroke;) | stroke icon

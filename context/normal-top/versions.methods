@@ -1,0 +1,9 @@
+boolean deleteOlderVersions(QFile;) | delete older versions
+byte[] getMessageVersions() | get message versions
+File[] getHighestJarVersions([QFile;[QString;[QString;Z) | get highest jar versions
+int comparePluginVersions(QString;QString;) | compare plugin versions
+int compareVersions(QString;QString;) | compare versions
+int getNextValueVersions(I) | get next value versions
+Map<QVersionNumber;QFile;> getInstalledVersions(QString;) | get installed versions
+String supportedVersions() | supported versions
+void setMajorMinorVersions() | set major minor versions

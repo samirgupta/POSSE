@@ -1,0 +1,47 @@
+Action getIndentAction() | get indent action
+boolean testIndentLine(QAbstractDJDocument;IQIndenter.IndentReason;) | test indent line
+boolean testIndentLine(QAbstractDJDocument;QIndenter.IndentReason;) | test indent line
+Indenter.IndentReason getIndentReason() | get indent reason
+int getIndentLevel() | get indent level
+int _getIndentOfCurrStmt(I) | get indent of curr stmt
+int _getIndentOfCurrStmt(I[C) | get indent of curr stmt
+int _getIndentOfCurrStmt(I[C[C) | get indent of curr stmt
+int getIndentStep() | get indent step
+int getIndentTabSize() | get indent tab size
+void _addToIndentTrace(QString;QString;Z) | add to indent trace
+void printLastIndentTrace(QPrintStream;) | print last indent trace
+void safeIndentLine(QIndenter.IndentReason;) | safe indent line
+void safeIndentLines(II) | safe indent lines
+void setIndentStep(I) | set indent step
+void setIndentTabSize(I) | set indent tab size
+void testBlockIndent2() | test block indent 2
+void testGetIndentOfCurrStmtDelimiters() | test get indent of curr stmt delimiters
+void testGetIndentOfCurrStmtDelimiterSameLine() | test get indent of curr stmt delimiter same line
+void testGetIndentOfCurrStmtEndOfDoc() | test get indent of curr stmt end of doc
+void testGetIndentOfCurrStmtIgnoreDelimsInParenPhrase() | test get indent of curr stmt ignore delims in paren phrase
+void testGetIndentOfCurrStmtMultipleLines() | test get indent of curr stmt multiple lines
+void testIndentArray() | test indent array
+void testIndentBraces() | test indent braces
+void testIndentComments() | test indent comments
+void testIndentCommonCases() | test indent common cases
+void testIndentDoesNothing() | test indent does nothing
+void testIndentGrowTabAtEnd() | test indent grow tab at end
+void testIndentGrowTabAtMiddle() | test indent grow tab at middle
+void testIndentGrowTabAtStart() | test indent grow tab at start
+void testIndentInfoBracket() | test indent info bracket
+void testIndentInfoCurly() | test indent info curly
+void testIndentInfoParen() | test indent info paren
+void testIndentInfoPrevNewline() | test indent info prev newline
+void testIndentInsideCommentBlock() | test indent inside comment block
+void testIndentInsideParenAtEnd() | test indent inside paren at end
+void testIndentInsideParenAtStart() | test indent inside paren at start
+void testIndentParenPhrases() | test indent paren phrases
+void testIndentSameAsLineAboveAtEnd() | test indent same as line above at end
+void testIndentSameAsLineAboveAtStart() | test indent same as line above at start
+void testIndentShrinkTabAtEnd() | test indent shrink tab at end
+void testIndentShrinkTabAtMiddle() | test indent shrink tab at middle
+void testIndentShrinkTabAtStart() | test indent shrink tab at start
+void testIndentSwitch() | test indent switch
+void testIndentTernary() | test indent ternary
+void testLiveUpdateOfIndentLevel() | test live update of indent level
+void testMultilineIndentAfterScroll() | test multiline indent after scroll

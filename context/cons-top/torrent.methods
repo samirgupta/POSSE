@@ -1,0 +1,101 @@
+CONS BaseTorrentAttributeImpl() | base torrent attribute impl
+CONS DDBaseTTTorrent(QAzureusCore;QDDBaseImpl;) | dd base tt torrent
+CONS ExportTorrentWizardFinishPanel(QExportTorrentWizard;QIWizardPanel;) | export torrent wizard finish panel
+CONS ExportTorrentWizardInputPanel(QWizard;QIWizardPanel;) | export torrent wizard input panel
+CONS ExportTorrentWizardOutputPanel(QWizard;QIWizardPanel;) | export torrent wizard output panel
+CONS ExportTorrentWizard(QAzureusCore;QDisplay;) | export torrent wizard
+CONS ExportTorrentWizard(QAzureusCore;QDisplay;QDownloadManager;) | export torrent wizard
+CONS ImportTorrentWizardFinishPanel(QWizard;QIWizardPanel;) | import torrent wizard finish panel
+CONS ImportTorrentWizardInputPanel(QWizard;QIWizardPanel;) | import torrent wizard input panel
+CONS ImportTorrentWizardOutputPanel(QWizard;QIWizardPanel;) | import torrent wizard output panel
+CONS ImportTorrentWizard(QAzureusCore;QDisplay;) | import torrent wizard
+CONS LWSTorrent(QLightWeightSeed;) | lws torrent
+CONS MakeTorrent(QString;QURL;QMap;) | make torrent
+CONS MyTorrentsSuperView() | my torrents super view
+CONS MyTorrentsSuperView(QAzureusCore;) | my torrents super view
+CONS MyTorrentsView() | my torrents view
+CONS MyTorrentsView_Big(QAzureusCore;I[QTableColumnCore;) | my torrents view big
+CONS MyTorrentsView(QAzureusCore;QString;Z[QTableColumnCore;) | my torrents view
+CONS NewTorrentWizard(QAzureusCore;QDisplay;) | new torrent wizard
+CONS OpenTorrentWindow(QShell;QGlobalManager;Z) | open torrent window
+CONS ResourceDownloaderTorrentImpl(QResourceDownloaderBaseImpl;QResourceDownloader;ZQFile;) | resource downloader torrent impl
+CONS RPTorrentDownloader(QTorrentDownloader;) | rp torrent downloader
+CONS RPTorrentManager(QTorrentManager;) | rp torrent manager
+CONS RPTorrent(QTorrent;) | rp torrent
+CONS RPTrackerTorrent(QTrackerTorrent;) | rp tracker torrent
+CONS TorrentAnnounceURLListImpl(QTorrentImpl;) | torrent announce url list impl
+CONS TorrentAnnounceURLListSetImpl(QTorrentAnnounceURLListImpl;QTOTorrentAnnounceURLSet;) | torrent announce url list set impl
+CONS TorrentAttributeCategoryImpl() | torrent attribute category impl
+CONS TorrentAttributeDisplayNameImpl() | torrent attribute display name impl
+CONS TorrentAttributeNetworksImpl() | torrent attribute networks impl
+CONS TorrentAttributePeerSourcesImpl() | torrent attribute peer sources impl
+CONS TorrentAttributePluginImpl(QString;) | torrent attribute plugin impl
+CONS TorrentAttributeRelativeSavePathImpl() | torrent attribute relative save path impl
+CONS TorrentAttributeSharePropertiesImpl() | torrent attribute share properties impl
+CONS TorrentAttributeTrackerClientExtImpl() | torrent attribute tracker client ext impl
+CONS TorrentAttributeUserCommentImpl() | torrent attribute user comment impl
+CONS TorrentCheck() | torrent check
+CONS TorrentCommand(QString;QString;QString;) | torrent command
+CONS TorrentDownloaderException(QString;) | torrent downloader exception
+CONS TorrentDownloaderImpl() | torrent downloader impl
+CONS TorrentDownloaderImpl(QTorrentManagerImpl;QURL;) | torrent downloader impl
+CONS TorrentDownloaderImpl(QTorrentManagerImpl;QURL;QString;QString;) | torrent downloader impl
+CONS TorrentDownloaderManager() | torrent downloader manager
+CONS TorrentEncodingException([QString;[QString;) | torrent encoding exception
+CONS TorrentEncodingException(QString;QThrowable;) | torrent encoding exception
+CONS TorrentException() | torrent exception
+CONS TorrentException(QString;) | torrent exception
+CONS TorrentException(QString;QThrowable;) | torrent exception
+CONS TorrentException(QThrowable;) | torrent exception
+CONS TorrentFileImpl(QString;J) | torrent file impl
+CONS TorrentFilter() | torrent filter
+CONS TorrentFolderWatcher(QGlobalManager;) | torrent folder watcher
+CONS TorrentForceStart() | torrent force start
+CONS TorrentHost() | torrent host
+CONS TorrentImpl(QPluginInterface;QTOTorrent;) | torrent impl
+CONS TorrentImpl(QTOTorrent;) | torrent impl
+CONS TorrentInfoView() | torrent info view
+CONS TorrentListener() | torrent listener
+CONS TorrentListener(QAzureusCore;) | torrent listener
+CONS TorrentListener(QString;QAzureusCore;) | torrent listener
+CONS TorrentListView(QSkinView;QString;IZQString;Z) | torrent list view
+CONS TorrentListView(QSkinView;QString;IZZ) | torrent list view
+CONS TorrentLog() | torrent log
+CONS TorrentManagerImpl(QPluginInterface;) | torrent manager impl
+CONS TorrentOptionsView() | torrent options view
+CONS TorrentOptionsView([QDownloadManager;) | torrent options view
+CONS TorrentPathItem(QString;) | torrent path item
+CONS TorrentPublish() | torrent publish
+CONS TorrentQueue() | torrent queue
+CONS TorrentRemove() | torrent remove
+CONS TorrentStart() | torrent start
+CONS TorrentStop() | torrent stop
+CONS TorrentSubCommand(QString;QString;) | torrent sub command
+CONS TOTorrentAnnounceURLGroupImpl(QTOTorrentImpl;) | to torrent announce url group impl
+CONS TOTorrentAnnounceURLSetImpl(QTOTorrentImpl;[QURL;) | to torrent announce url set impl
+CONS TOTorrentCreateImpl(QFile;QURL;ZJ) | to torrent create impl
+CONS TOTorrentCreateImpl(QFile;QURL;ZJJJJ) | to torrent create impl
+CONS TOTorrentCreatorImpl(QTOTorrentCreateImpl;) | to torrent creator impl
+CONS TOTorrentDeserialiseImpl([B) | to torrent deserialise impl
+CONS TOTorrentDeserialiseImpl(QFile;) | to torrent deserialise impl
+CONS TOTorrentDeserialiseImpl(QInputStream;) | to torrent deserialise impl
+CONS TOTorrentDeserialiseImpl(QMap;) | to torrent deserialise impl
+CONS TOTorrentException(QString;I) | to torrent exception
+CONS TOTorrentException(QString;IQThrowable;) | to torrent exception
+CONS TOTorrentFileHasher(ZZIQTOTorrentFileHasherListener;) | to torrent file hasher
+CONS TOTorrentFileImpl(QTOTorrent;JJ[[B) | to torrent file impl
+CONS TOTorrentFileImpl(QTOTorrent;JJQString;) | to torrent file impl
+CONS TOTorrentImpl() | to torrent impl
+CONS TOTorrentImpl(QString;QURL;Z) | to torrent impl
+CONS TOTorrentXMLDeserialiser() | to torrent xml deserialiser
+CONS TOTorrentXMLSerialiser(QTOTorrentImpl;) | to torrent xml serialiser
+CONS TrackerTorrentImpl(QTRHostTorrent;) | tracker torrent impl
+CONS TrackerTorrentRemovalVetoException(QString;) | tracker torrent removal veto exception
+CONS TrackerTorrentRequestImpl(QTRHostTorrentRequest;) | tracker torrent request impl
+CONS TRHostExternalTorrent([BQURL;) | tr host external torrent
+CONS TRHostTorrentHostImpl(QTRHostImpl;QTRTrackerServer;QTOTorrent;IJ) | tr host torrent host impl
+CONS TRHostTorrentPublishImpl(QTRHostImpl;QTOTorrent;J) | tr host torrent publish impl
+CONS TRHostTorrentRemovalVetoException(QString;) | tr host torrent removal veto exception
+CONS TRHostTorrentRequestImpl(QTRHostTorrent;QTRHostPeer;QTRTrackerServerRequest;) | tr host torrent request impl
+CONS TRTrackerServerTorrentImpl(QTRTrackerServerImpl;QHashWrapper;Z) | tr tracker server torrent impl
+CONS TRTrackerServerTorrentStatsImpl(QTRTrackerServerTorrentImpl;) | tr tracker server torrent stats impl

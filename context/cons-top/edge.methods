@@ -1,0 +1,22 @@
+CONS BezierEdgeView(QNodeView;QNodeView;) | bezier edge view
+CONS BrowseEdgeModel(QMindMapNode;QFreeMindMain;) | browse edge model
+CONS EdgeAdapter(QMindMapNode;QFreeMindMain;) | edge adapter
+CONS EdgeAdapter(QMindMapNode;QFreeMindMain;QString;QString;) | edge adapter
+CONS EdgeColorAction(QModeController;) | edge color action
+CONS Edge(QString;QString;QString;) | edge
+CONS EdgeRenderer() | edge renderer
+CONS EdgeRenderer(I) | edge renderer
+CONS EdgeRenderer(II) | edge renderer
+CONS EdgeStyleAction(QModeController;QString;) | edge style action
+CONS EdgeView(QNodeView;QNodeView;) | edge view
+CONS EdgeWidthAction(QModeController;I) | edge width action
+CONS FileEdgeModel(QMindMapNode;QFreeMindMain;) | file edge model
+CONS GraphEdge(III) | graph edge
+CONS GraphEdge(IIIQString;QString;) | graph edge
+CONS IsEdgeFunction() | is edge function
+CONS LinearEdgeView(QNodeView;QNodeView;) | linear edge view
+CONS MindMapEdgeModel(QMindMapNode;QFreeMindMain;) | mind map edge model
+CONS SchemeEdgeModel(QMindMapNode;QFreeMindMain;) | scheme edge model
+CONS SharpBezierEdgeView(QNodeView;QNodeView;) | sharp bezier edge view
+CONS SharpLinearEdgeView(QNodeView;QNodeView;) | sharp linear edge view
+CONS ValidEdgePredicate(QGraph;) | valid edge predicate

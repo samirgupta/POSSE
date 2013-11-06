@@ -1,0 +1,57 @@
+ArrayList getFilesFromFile(Qorg.jajuk.base.File;) | get files from file
+ArrayList getFilesRecursively() | get files recursively
+ArrayList<QFile;> getFilesInDir(QFile;ZQFileFilter;) | get files in dir
+ArrayList<Qorg.jajuk.base.File;> getfilesFromSelection(QIPropertyable;) | get files from selection
+ArrayList<Qorg.jajuk.base.File;> getFilesRecursively() | get files recursively
+boolean addExternalFilesClassPath(QFile;) | add external files class path
+boolean addProjectFilesClassPath(QFile;) | add project files class path
+boolean allFilesExist() | all files exist
+boolean allFilesMoving() | all files moving
+boolean closeAllFilesOnQuit() | close all files on quit
+boolean isFilesInJar() | is files in jar
+boolean isFilesReadOnly() | is files read only
+boolean isUsingCurrentFilesDirectoryForCompiles() | is using current files directory for compiles
+boolean moveDataFiles0(QSaveLocationChange;Z) | move data files 0
+boolean someFilesNotFound() | some files not found
+Component _excludedFilesComponent() | excluded files component
+File[] getFilesInFolder(QFile;Z) | get files in folder
+File[] getNewFilesInProject() | get new files in project
+Iterable<QFile;> getExternalFilesCP() | get external files cp
+Iterable<QFile;> getProjectFilesCP() | get project files cp
+java.util.Vector getFavoriteFilesList() | get favorite files list
+java.util.Vector getRecentFilesList() | get recent files list
+JReportFrame getSelectedJRFFromFilesTree() | get selected jrf from files tree
+List<QFile;> getFilesFromDraggedFilesString(QString;) | get files from dragged files string
+LocaleResourceFilesDialog getLocaleFilesDialog() | get locale files dialog
+Map getFilesSortedToProject(List filesToCheck) | get files sorted to project
+Map<QBibtexEntry;Qjava.util.List<QFile;>;> findFilesForSet(QCollection<QBibtexEntry;>;QCollection<QString;>;QList<QFile;>;QString;) | find files for set
+OpenDefinitionsDocument[] openFilesHelper(QFileOpenSelector;) | open files helper
+String[] getFilesToOpen() | get files to open
+String getProgramFilesDir() | get program files dir
+void addExternalFilesClassPath(QFile;) | add external files class path
+void addExternalFilesCP(QFile;) | add external files cp
+void addFilesToZip(QZipOutputStream;[QFile;) | add files to zip
+void addProjectFilesClassPath(QFile;) | add project files class path
+void addProjectFilesCP(QFile;) | add project files cp
+void filterFilesByRate(QArrayList<QFile;>;) | filter files by rate
+void getClassFilesHelper(QFile;QLinkedList<QFile;>;) | get class files helper
+void getFilesInDir(QFile;QList<QFile;>;ZQFileFilter;) | get files in dir
+void getFilesRecursively(QFile;QVector;) | get files recursively
+void moveDataFilesSupport0(QFile;QString;) | move data files support 0
+void moveDataFilesSupport(QFile;QString;) | move data files support
+void openNewFilesInProject() | open new files in project
+void saveAllFilesHelper(QFileSaveSelector;) | save all files helper
+void setFavoriteFilesList(Qjava.util.Vector;) | set favorite files list
+void setFilesReadOnly() | set files read only
+void setInboundFilesLink(String defaultInboundFilesLink) | set inbound files link
+void setLocaleFilesDialog(QLocaleResourceFilesDialog;) | set locale files dialog
+void setRecentFilesList(Qjava.util.Vector;) | set recent files list
+void setUsingCurrentFilesDirectoryForCompiles(Z) | set using current files directory for compiles
+void testCopySchemaFilesToFolder1() | test copy schema files to folder 1
+void testCorrectFilesAfterIncorrectChanges() | test correct files after incorrect changes
+void testFilesMultiplePackages() | test files multiple packages
+void testFilesOnePackage() | test files one package
+void testFindReplaceInAllOpenFilesWholeWord() | test find replace in all open files whole word
+void testMultipleFilesArray() | test multiple files array
+void testOpenMultipleFilesError() | test open multiple files error
+void updateFilesReferences(QTrack;QTrack;QHashSet;) | update files references

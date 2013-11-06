@@ -1,0 +1,68 @@
+boolean receiveGameOptions(QPacket;I) | receive game options
+boolean receiveIncomplete() | receive incomplete
+ByteBuffer receiveData(QURLConnection;) | receive data
+byte[] receiveRequest(QDHTTransportUDPContact;[B) | receive request
+int receiveFromTransport(I) | receive from transport
+Map receiveMessage() | receive message
+Map receiveMessage(IQMap;) | receive message
+Map receiveRequest(QDHTTransportUDPContact;QMap;) | receive request
+Map receiveRequest(QInetSocketAddress;QMap;) | receive request
+StringBuffer receivePage_old(QURLConnection;) | receive page old
+StringBuffer receivePage(QURLConnection;) | receive page
+String receiveReport(QVector;) | receive report
+void receiveAckCommand(QByteBuffer;) | receive ack command
+void receiveArtyAutoHitHexes(QPacket;I) | receive arty auto hit hexes
+void receiveAttack(QPacket;) | receive attack
+void receiveAttack(QPacket;I) | receive attack
+void receiveBind(QDHTTransportUDPContact;QMap;QMap;) | receive bind
+void receiveBoard(QPacket;) | receive board
+void receiveBuddyUpdate(QBuddyUpdateTocResponse;) | receive buddy update
+void receiveBuildingCollapse(QPacket;) | receive building collapse
+void receiveBuildingUpdateCF(QPacket;) | receive building update cf
+void receiveCloseCommand(QByteBuffer;) | receive close command
+void receiveClose(QDHTTransportUDPContact;QMap;QMap;) | receive close
+void receiveConfig() | receive config
+void receiveConnect(QDHTTransportContact;QMap;QMap;) | receive connect
+void receiveContent(QPooledByteBuffer;) | receive content
+void receiveCrypto(QByteBuffer;) | receive crypto
+void receiveDataCommand(IQByteBuffer;I) | receive data command
+void receiveDeployment(QPacket;I) | receive deployment
+void receiveDeployMinefields(QPacket;) | receive deploy minefields
+void receiveDeployMinefields(QPacket;I) | receive deploy minefields
+void receiveDropString(QStringBuffer;) | receive drop string
+void receiveEntities(QPacket;) | receive entities
+void receiveEntityAdd(QPacket;) | receive entity add
+void receiveEntityAdd(QPacket;I) | receive entity add
+void receiveEntityAmmoChange(QPacket;I) | receive entity ammo change
+void receiveEntityDelete(QPacket;I) | receive entity delete
+void receiveEntityModeChange(QPacket;I) | receive entity mode change
+void receiveEntityRemove(QPacket;) | receive entity remove
+void receiveEntitySystemModeChange(QPacket;I) | receive entity system mode change
+void receiveEntityUpdate(QPacket;) | receive entity update
+void receiveEntityUpdate(QPacket;I) | receive entity update
+void receiveEntityVisibilityIndicator(QPacket;) | receive entity visibility indicator
+void receiveError(QErrorTocResponse;) | receive error
+void receiveEvent(Qcom.wilko.jaim.JaimEvent;) | receive event
+void receiveEvil(QEvilTocResponse;) | receive evil
+void receiveGameOptionsAux(QPacket;I) | receive game options aux
+void receiveGoto(QGotoTocResponse;) | receive goto
+void receiveIM(QIMTocResponse;) | receive im
+void receiveInitiativeRerollRequest(QPacket;I) | receive initiative reroll request
+void receiveLoop(QAESemaphore;) | receive loop
+void receiveMovement(QPacket;I) | receive movement
+void receivePacket(QNetworkInterface;QInetAddress;QDatagramPacket;) | receive packet
+void receivePlayerDone(QPacket;I) | receive player done
+void receivePlayerInfo(QPacket;) | receive player info
+void receivePlayerInfo(QPacket;I) | receive player info
+void receivePlayerName(QPacket;I) | receive player name
+void receivePunch(QDHTTransportUDPContact;QMap;QMap;) | receive punch
+void receiveQuery(QDHTTransportUDPContact;QMap;QMap;) | receive query
+void receiveRemoveMinefield(QPacket;) | receive remove minefield
+void receiveRevealMinefield(QPacket;) | receive reveal minefield
+void receiveSendingMinefields(QPacket;) | receive sending minefields
+void receiveStatsReply(QByteBuffer;) | receive stats reply
+void receiveStatsRequest(QByteBuffer;) | receive stats request
+void receiveTimerBase(I) | receive timer base
+void receiveTunnelInbound(QDHTTransportUDPContact;QMap;) | receive tunnel inbound
+void receiveTunnelOutbound(QDHTTransportContact;QMap;) | receive tunnel outbound
+void receiveTurns(QPacket;) | receive turns

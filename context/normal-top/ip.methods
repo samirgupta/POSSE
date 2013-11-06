@@ -1,0 +1,100 @@
+BadIp[] getBadIps() | get bad ips
+BadIps getBadIps() | get bad ips
+BannedIp[] getBannedIps() | get banned ips
+BlockedIp[] getBlockedIps() | get blocked ips
+boolean addBlockedIP(QBlockedIp;[BZ) | add blocked ip
+boolean containsIPAddress(QPeerIdentityDataID;QString;) | contains ip address
+boolean hasIPV4Potential() | has ipv 4 potential
+boolean hasIPV6Potential() | has ipv 6 potential
+boolean hasIPV6Potential(Z) | has ipv 6 potential
+boolean isAzureusIP(QString;) | is azureus ip
+boolean isDotQuadIP(QString;) | is dot quad ip
+boolean isIPOverride() | is ip override
+boolean isIPv4() | is ipv 4
+boolean isValidIPv4(QString;) | is valid ipv 4
+boolean isValidIPv6(QString;) | is valid ipv 6
+boolean matchIP(QString;) | match ip
+boolean matchIP(QString;QInetSocketAddress;) | match ip
+boolean testIfAzureusIP(QString;) | test if azureus ip
+byte[] getIPAddressBytes() | get ip address bytes
+byte[] getIPAsRead() | get ip as read
+InetAddress getAdjustedIP() | get adjusted ip
+InetAddress getExternalIpAddressHTTP(Z) | get external ip address http
+InetAddress getExternalIpAddressTCP(QInetAddress;IZ) | get external ip address tcp
+InetAddress getExternalIpAddressUDP(QInetAddress;IZ) | get external ip address udp
+InetAddress getIP() | get ip
+InetAddress mapAddressToBindIP(QInetAddress;) | map address to bind ip
+int addWarningForIp(QString;) | add warning for ip
+int compareEndIpTo(QIpRange;) | compare end ip to
+int compareStartIpTo(QIpRange;) | compare start ip to
+int getIP() | get ip
+int getIPAddress() | get ip address
+int getNbBadIps() | get nb bad ips
+int getNbBannedIps() | get nb banned ips
+int getNbIpsBlockedAndLoggable() | get nb ips blocked and loggable
+int getNbWarningForIp(QString;) | get nb warning for ip
+int getNumberOfBannedIPs() | get number of banned ips
+int getNumberOfBlockedIPs() | get number of blocked ips
+IPBanned[] getBannedIPs() | get banned ips
+IPBlocked[] getBlockedIPs() | get blocked ips
+IPCInterface getIPC() | get ipc
+IpFilter getIPFilter() | get ip filter
+IPFilter getIPFilter() | get ip filter
+IpFilterManager getIpFilterManager() | get ip filter manager
+java.lang.String formatIPListString(QJUserDetails;QJSystemDetails;Qjava.util.Hashtable;) | format ip list string
+java.lang.String getIPAddress() | get ip address
+List getAdjustedIPs() | get adjusted ips
+List getIpRanges() | get ip ranges
+long getEndIpLong() | get end ip long
+long getStartIpLong() | get start ip long
+MenuItem addBlockedIPsMenuItem(QMenu;) | add blocked ips menu item
+String convertIPV6Host(QString;) | convert ipv 6 host
+String DNSToIPAddress(QString;) | dns to ip address
+String expandIPV6Host(QString;) | expand ipv 6 host
+String extractIPAddress(QString;) | extract ip address
+String getBannedIP() | get banned ip
+String getBannedIps() | get banned ips
+String getBlockedIp() | get blocked ip
+String getBlockedIP() | get blocked ip
+String getClientIP() | get client ip
+String getEndIp() | get end ip
+String getEndIP() | get end ip
+String getExternalIPAddress() | get external ip address
+String[] getExternalIPAddresses() | get external ip addresses
+String getExternalIpAddress(ZZ) | get external ip address
+String getIp() | get ip
+String getIP() | get ip
+String getIPAddress() | get ip address
+String getIPHostName() | get ip host name
+String getIPOverride() | get ip override
+String getIPRaw() | get ip raw
+String getLocalIpAddress() | get local ip address
+String getPublicIPOverride() | get public ip override
+String getStartIp() | get start ip
+String getStartIP() | get start ip
+String getTrackerIP() | get tracker ip
+void clearBadIps() | clear bad ips
+void clearBannedIps() | clear banned ips
+void clearBlockedIPs() | clear blocked ips
+void clearIPOverride() | clear ip override
+void IPResolutionComplete(QString;Z) | ip resolution complete
+void loadBannedIPs() | load banned ips
+void proxyStateV5RequestIP() | proxy state v 5 request ip
+void rebuildIPBloomFilter(Z) | rebuild ip bloom filter
+void saveBannedIPs() | save banned ips
+void setAzureusIP(QString;) | set azureus ip
+void setClientIP(QString;) | set client ip
+void setEndIp(QString;) | set end ip
+void setEndIP(QString;) | set end ip
+void setIPAddress(Qjava.lang.String;) | set ip address
+void setIPAddress(QString;) | set ip address
+void setIpaddress(String ipaddress) | set ipaddress
+void setIpAddr(String ipAddr) | set ip addr
+void setIPOverride(QString;) | set ip override
+void setIP(QInetAddress;) | set ip
+void setIp(QString;) | set ip
+void setIpSetterCallBack(QIpSetterCallBack;) | set ip setter call back
+void setStartIp(QString;) | set start ip
+void setStartIP(QString;) | set start ip
+void showBlockedIps(QAzureusCore;QShell;) | show blocked ips
+void updateIP() | update ip

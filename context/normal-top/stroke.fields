@@ -1,0 +1,32 @@
+float BORDER_STROKE_WIDTH | border stroke width
+float WALL_STROKE_WIDTH | wall stroke width
+java.awt.BasicStroke outlineStroke | outline stroke
+java.awt.Stroke BOLD_STROKE | bold stroke
+java.awt.Stroke DEF_STROKE | def stroke
+java.awt.Stroke INDICATOR_STROKE | indicator stroke
+java.awt.Stroke POINT_STROKE | point stroke
+java.awt.Stroke selectionStroke | selection stroke
+java.awt.Stroke stroke | stroke
+java.lang.String _KeyStroke | key stroke
+java.util.HashMap<java.lang.Integer,java.lang.String> strokeLinecapMap | stroke line cap map
+java.util.HashMap<java.lang.Integer,java.lang.String> strokeLinejoinMap | stroke linejoin map
+java.util.HashMap<java.lang.String,java.lang.Integer> strokeLinecapMap | stroke line cap map
+java.util.HashMap<java.lang.String,java.lang.Integer> strokeLinejoinMap | stroke linejoin map
+java.util.List<javax.swing.KeyStroke> strokeList | stroke list
+javax.swing.JCheckBox jCheckBoxStrokeTrough | j check box stroke trough
+javax.swing.KeyStroke _currentKeyStroke | current key stroke
+org.jhotdraw.draw.AttributeKey<double[]> STROKE_DASHES | stroke dashes
+org.jhotdraw.draw.AttributeKey<java.awt.Color> STROKE_COLOR | stroke color
+org.jhotdraw.draw.AttributeKey<java.lang.Boolean> IS_STROKE_DASH_FACTOR | is stroke dash factor
+org.jhotdraw.draw.AttributeKey<java.lang.Boolean> IS_STROKE_MITER_LIMIT_FACTOR | is stroke miter limit factor
+org.jhotdraw.draw.AttributeKey<java.lang.Double> STROKE_DASH_PHASE | stroke dash phase
+org.jhotdraw.draw.AttributeKey<java.lang.Double> STROKE_INNER_WIDTH_FACTOR | stroke inner width factor
+org.jhotdraw.draw.AttributeKey<java.lang.Double> STROKE_MITER_LIMIT | stroke miter limit
+org.jhotdraw.draw.AttributeKey<java.lang.Double> STROKE_OPACITY | stroke opacity
+org.jhotdraw.draw.AttributeKey<java.lang.Double> STROKE_WIDTH | stroke width
+org.jhotdraw.draw.AttributeKey<java.lang.Integer> STROKE_CAP | stroke cap
+org.jhotdraw.draw.AttributeKey<java.lang.Integer> STROKE_JOIN | stroke join
+org.jhotdraw.draw.AttributeKey<org.jhotdraw.draw.AttributeKeys.StrokePlacement> STROKE_PLACEMENT | stroke placement
+org.jhotdraw.draw.AttributeKey<org.jhotdraw.draw.AttributeKeys.StrokeType> STROKE_TYPE | stroke type
+org.jhotdraw.draw.AttributeKey<org.jhotdraw.draw.AttributeKeys.Underfill> FILL_UNDER_STROKE | fill under stroke
+org.jhotdraw.draw.AttributeKey<org.jhotdraw.samples.svg.Gradient> STROKE_GRADIENT | stroke gradient

@@ -1,0 +1,12 @@
+CONS AuctionBid(QAuctionEntry;QCurrency;I) | auction bid
+CONS AuctionBid(QString;QCurrency;I) | auction bid
+CONS BidirectionalConnectionTool(QConnectionFigure;) | bidirectional connection tool
+CONS BidirectionalConnectionTool(QConnectionFigure;QMap<QAttributeKey;QObject;>;) | bidirectional connection tool
+CONS JBidContext() | j bid context
+CONS JBidContext(QJPopupMenu;) | j bid context
+CONS JBidFrameMouse() | j bid frame mouse
+CONS JBidMenuBar(QActionListener;) | j bid menu bar
+CONS JBidMouse() | j bid mouse
+CONS JBidMouse(QJPopupMenu;) | j bid mouse
+CONS JBidProxy(QSocket;) | j bid proxy
+CONS JBidWatch(QJSplashScreen;) | j bid watch

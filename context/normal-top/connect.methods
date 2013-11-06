@@ -1,0 +1,401 @@
+AEProxyConnection getConnection() | get connection
+AESocksProxyPlugableConnection getDefaultPlugableConnection(QAESocksProxyConnection;) | get default plugable connection
+AttachingConnector _getAttachingConnector() | get attaching connector
+BeanConnection createBeanConnection(IIQString;Z) | create bean connection
+boolean allowConnection(QSocket;) | allow connection
+boolean canAcceptConnection(QClass;) | can accept connection
+boolean canConnect() | can connect
+boolean canConnect(QFigure;) | can connect
+boolean canConnect(QFigure;QFigure;) | can connect
+boolean canConnectWithBind(QInetAddress;I) | can connect with bind
+boolean checkConnection() | check connection
+boolean checkConnectionId(QString;J) | check connection id
+boolean checkConnections(QList;) | check connections
+boolean connect() | connect
+boolean connectInput(QNeuralConnection;I) | connect input
+boolean connect(IUnknown pSinkIntf, String riid, long provConnID) | connect
+boolean connectOutput(QNeuralConnection;I) | connect output
+boolean connect(QNeuralConnection;QNeuralConnection;) | connect
+boolean connect(QSocketChannel;) | connect
+boolean connectsSame(QConnectionFigure;) | connects same
+boolean connectSupport(QSocketChannel;) | connect support
+boolean getConnectToDB() | get connect to db
+boolean hasBorrowedConnection() | has borrowed connection
+boolean hasPotentialConnections() | has potential connections
+boolean isConnectedToPeer(QPeerItem;) | is connected to peer
+boolean isConnectedToSession() | is connected to session
+boolean isConnectorsVisible() | is connectors visible
+boolean isConnectToDecorator() | is connect to decorator
+boolean isJDBCConnection() | is jdbc connection
+boolean isReadOnlyConnection(QConnection;) | is read only connection
+boolean isSuppliedConnection() | is supplied connection
+boolean isUseConnection() | is use connection
+boolean removePeerConnection(QNetworkConnectionBase;) | remove peer connection
+boolean tooManyUnauthConnections(QString;) | too many unauth connections
+com.aelitis.azureus.core.networkmanager.NetworkConnection getCoreConnection() | get core connection
+ConnectController getConnectController() | get connect controller
+ConnectionAttempt connectOutbound(ZZ[[BQByteBuffer;IQConnectListener;) | connect outbound
+Connection borrowConnection() | borrow connection
+Connection connection() | connection
+Connection connect(QString;QProperties;) | connect
+Connection connect(QString;QString;QString;) | connect
+Connection connectToDB(QDBStrings;) | connect to db
+ConnectionContext getConnectionContext() | get connection context
+Connection createClientConnection(QString;II) | create client connection
+Connection createConnection(QFrame;QString;) | create connection
+Connection createConnection(QFrame;QString;QInsets;) | create connection
+Connection createConnection(QInetSocketAddress;QMessageStreamEncoder;QMessageStreamDecoder;) | create connection
+Connection createConnection(QJFrame;QString;) | create connection
+Connection createConnection(QString;QString;QString;QString;) | create connection
+Connection createServerConnection(QSocket;I) | create server connection
+ConnectionEndpoint getConnectionEndpoint() | get connection endpoint
+ConnectionFigure createConnection() | create connection
+ConnectionFigure findConnection(QPoint2D.Double;QDrawing;) | find connection
+ConnectionFigure getConnection() | get connection
+ConnectionFigure getCourtingConnection() | get court ing connection
+Connection getConnection() | get connection
+Connection getConnection(I) | get connection
+Connection getConnection(QSocket;) | get connection
+Connection getConnection(QString;QProperties;) | get connection
+Connection getConnection(QString;QString;) | get connection
+Connection getConnection(QString;QString;QString;) | get connection
+Connection getJDBCConnection() | get jdbc connection
+Connection getPendingConnection(I) | get pending connection
+Connection getPluginConnection() | get plugin connection
+Connection getWrappedConnection() | get wrapped connection
+Connection getWrappedConnection(QConnection;) | get wrapped connection
+ConnectionHandler getConnectionHandler() | get connection handler
+ConnectionManager getConnectionManager() | get connection manager
+Connection newConnection() | new connection
+Connection newConnection(String dURL, String dClassName, String dbName, String dbUser, String dbPassword) | new connection
+Connection openConnection() | open connection
+ConnectionProvider createConnectionProvider(QProperties;) | create connection provider
+ConnectionProvider getConnectionProvider() | get connection provider
+ConnectionProvider newConnectionProvider() | new connection provider
+ConnectionProvider newConnectionProvider(QProperties;) | new connection provider
+ConnectionProvider newConnectionProvider(QProperties;QMap;) | new connection provider
+ConnectionReleaseMode getConnectionReleaseMode() | get connection release mode
+ConnectionThread getConnectionThread() | get connection thread
+Connector findCompatibleConnector(QConnector;Z) | find compatible connector
+Connector findConnectionTarget(QPoint2D.Double;QDrawing;) | find connection target
+Connector findConnector(QPoint2D.Double;QConnectionFigure;) | find connector
+Connector findConnector(QPoint2D.Double;QFigure;QConnectionFigure;) | find connector
+Connector getEndConnector() | get end connector
+Connector getStartConnector() | get start connector
+Connector getTargetConnector() | get target connector
+DatabaseDataSource getDatabaseConnection(QConnection;) | get database connection
+DatabaseDataSource getDatabaseConnection(QConnection;QSQLDataHandler;) | get database connection
+DatabaseDataSource getDatabaseConnection(QString;QString;QString;QString;) | get database connection
+DatabaseDataSource getDatabaseConnection(QString;QString;QString;QString;QSQLDataHandler;) | get database connection
+DatabaseDataSource getMySQLConnection(QString;QString;QString;QString;) | get my sql connection
+DatabaseDataSource getMySQLConnection(QString;QString;QString;QString;QSQLDataHandler;) | get my sql connection
+DataConnection getDataConnection() | get data connection
+DepositOp get_connection_deposit() | get connection deposit
+DummyConnection getOtherConnection() | get other connection
+Element writeBeanConnection(QElement;QObject;QString;) | write bean connection
+Enumeration getConnections() | get connections
+Figure findConnectableFigure(QPoint2D.Double;QDrawing;) | find connectable figure
+Figure findConnectionStart(QPoint2D.Double;QDrawing;) | find connection start
+Figure getConnectorTarget(QFigure;) | get connector target
+FtpConnection getFtpConnection() | get ftp connection
+GenericMessageConnection createConnection(QGenericMessageEndpoint;) | create connection
+GenericMessageConnection getSTSConnection(QGenericMessageConnection;QSEPublicKey;QSEPublicKeyLocator;QString;I) | get sts connection
+GenericMessageConnection outgoingConnection() | outgoing connection
+Hashtable getConnections() | get connections
+Hashtable loadRecentConnectionSettings() | load recent connection settings
+Instances getConnectedFormat() | get connected format
+int allocationConnectionID() | allocation connection id
+int getConnectedLeechers() | get connected leechers
+int getConnectedSeeds() | get connected seeds
+int getConnectionAttrType() | get connection attr type
+int getConnectionCount() | get connection count
+int getConnectionSize() | get connection size
+int getConnectionState() | get connection state
+int getConnectMethodCount() | get connect method count
+int getConnectTimeout() | get connect timeout
+int getExpansionConnectorType() | get expansion connector type
+int getFreeConnectionId() | get free connection id
+int getInboundConnects() | get inbound connects
+int getLastConnectPort() | get last connect port
+int getMaxConnections() | get max connections
+int getMaxConnectionsWhenSeeding() | get max connections when seeding
+int getMaxSeedConnections() | get max seed connections
+int getNbRemoteConnectionsExcludingUDP() | get nb remote connections excluding udp
+int getOutboundConnects() | get outbound connects
+int getReadyConnectionCount(QEventWaiter;) | get ready connection count
+int lConnectivity(II) | l connectivity
+int uConnectivity(II) | u connectivity
+int xxfi_connect(int index, String hostname) | xxfi connect
+IReportConnection getIReportConnection() | get i report connection
+it.businesslogic.ireport.IReportConnection getIReportConnection() | get i report connection
+Iterator<QConnection;> getConnectionIterator() | get connection iterator
+java.lang.String getConnection() | get connection
+java.lang.String getConnectionExpression() | get connection expression
+java.sql.Connection getConnection() | get connection
+java.util.Vector getConnections() | get connections
+jdbcConnection getInternalConnection() | get internal connection
+List getConnections() | get connections
+long allocateConnectionId(QString;) | allocate connection id
+long getConnectCount() | get connect count
+long getConnectionId() | get connection id
+long getConnectionID() | get connection id
+long getConnectTime() | get connect time
+long getLastIncomingNonLocalConnectionTime() | get last incoming non local connection time
+long getLastNonLocalConnectionTime() | get last non local connection time
+long getLastRemoteConnectionTime() | get last remote connection time
+Map sendConnect(QDHTTransportContact;QDHTTransportContact;QMap;) | send connect
+NetworkConnection createConnection(QConnectionEndpoint;QMessageStreamEncoder;QMessageStreamDecoder;ZZ[[B) | create connection
+NetworkConnection getConnection() | get connection
+Object readBeanConnection(QElement;) | read bean connection
+Packet createPlayerConnectPacket(I) | create player connect packet
+PeerExchangerItem createPeerExchangeConnection(QPEPeerTransport;) | create peer exchange connection
+PeerExchangerItem registerPeerConnection(QPeerItem;QPeerExchangerItem.Helper;) | register peer connection
+PeerItem[] getConnectedPeers() | get connected peers
+PeerItem[] getNewlyAddedPeerConnections() | get newly added peer connections
+PeerItem[] getNewlyDroppedPeerConnections() | get newly dropped peer connections
+PeerItem getNextOptimisticConnectPeer() | get next optimistic connect peer
+PeerItem getNextOptimisticConnectPeer(I) | get next optimistic connect peer
+Point getClosestConnectorPoint(QPoint;) | get closest connector point
+Point getConnectorPoint(I) | get connector point
+Properties getConnectionProperties(QProperties;) | get connection properties
+PRUDPPacket handleConnect(QString;QPRUDPPacketRequest;) | handle connect
+Query newConnectedForwardPageQuery(String sql, long pageSize) | new connected forward page query
+Session connect(QString;QString;) | connect
+SftpConnection getSftpConnection() | get sftp connection
+short getAutoConnect() | get auto connect
+SmbConnection getSmbConnection() | get smb connection
+Socket connectToHost(I) | connect to host
+Socket connectToHost(QJComVcContactItem;) | connect to host
+SQLException connectionClosedException() | connection closed exception
+String connectStringArray([QString;) | connect string array
+String getConnectionExpression() | get connection expression
+String getConnectionsString() | get connections string
+String getConnectionStatus(QMap;) | get connection status
+String getConnectionThreadName() | get connection thread name
+String getConnectionTypeAbbrevation() | get connection type abbrevation
+String getConnectorAddress(int index) | get connector address
+String getConnectStatement() | get connect statement
+String getExpansionConnectorText() | get expansion connector text
+String getInternalConnectionURL() | get internal connection url
+String getLastConnectAddr() | get last connect addr
+String getLocalConnectionStatus() | get local connection status
+String getRemoteConnectionStatus() | get remote connection status
+String getTivoConnect() | get tivo connect
+String liveConnectSignature([QClass;) | live connect signature
+String makeNewOutgoingConnection(QString;QString;IIZZBQMap;) | make new outgoing connection
+TCPConnectionManager getConnectDisconnectManager() | get connect disconnect manager
+TiVoConnect getTiVoConnect() | get ti vo connect
+Transport connectLightWeight(QSocketChannel;) | connect light weight
+Transport connectOutbound(ZZ[[BQByteBuffer;IQConnectListener;) | connect outbound
+UDPConnection getConnection() | get connection
+UDPConnectionManager getConnectionManager() | get connection manager
+URLConnection getURLConnection() | get url connection
+URLConnection openConnectionForceNoProxy(QURL;) | open connection force no proxy
+URLConnection openConnection(QURL;) | open connection
+URL getConnector() | get connector
+UserConnectionHandler getUserConnectionHandler() | get user connection handler
+Vector associatedConnections(QVector;) | associated connections
+Vector getAssociatedConnections() | get associated connections
+Vector getBeanConnectionRelation(QMetaBean;) | get bean connection relation
+Vector getClosestConnections(QPoint;I) | get closest connections
+Vector getConnections() | get connections
+Vector loadRecentConnectionSettings() | load recent connection settings
+void addBeanConnectionRelation(QMetaBean;QString;) | add bean connection relation
+void addClientConnection(QClientConnection;) | add client connection
+void addConnectedPeer(QPeerItem;) | add connected peer
+void addConnection(IQTransportHelperFilter;QTransport;) | add connection
+void addConnectionListener(QConnectionListener;) | add connection listener
+void addConnection(QConnection;) | add connection
+void addConnection(QGenericMessageConnection;) | add connection
+void addConnection(QString;QBasicConnection;) | add connection
+void addConnection(QString;QTransfer;) | add connection
+void addDummyConnection(QConnection;) | add dummy connection
+void addLocalConnection(QString;QBasicConnection;) | add local connection
+void addPeerConnection(QNetworkConnectionBase;) | add peer connection
+void addToRecentConnectionSettings(QHashtable;QConnectionSetting;) | add to recent connection settings
+void basicSetEndConnector(QConnector;) | basic set end connector
+void basicSetStartConnector(QConnector;) | basic set start connector
+void buddyConnection(QGenericMessageConnection;Z) | buddy connection
+void buildConnectToServerGui() | build connect to server gui
+void cancelConnectSelect(QSocketChannel;) | cancel connect select
+void cancelIncomingConnectionRouting(QByteMatcher;) | cancel incoming connection routing
+void cancelPeerConnection(QNetworkConnectionBase;) | cancel peer connection
+void changeConnectionStatus(QJPlugin;I) | change connection status
+void changeConnectionStatus(Qorg.planetamessenger.plugin.JPlugin;I) | change connection status
+void checkConnectionToFreeMindMain() | check connection to free mind main
+void checkForBannedConnections() | check for banned connections
+void checkSourceConnection() | check source connection
+void closeConnection() | close connection
+void closeConnection(Connection conn) | close connection
+void closeConnectionInternally(QString;) | close connection internally
+void closeConnectionInternally(QString;ZZ) | close connection internally
+void closeConnection(QConnection;) | close connection
+void closeConnection(QSocketChannel;) | close connection
+void closeConnection(QSocketChannel;I) | close connection
+void closeConnection(QString;) | close connection
+void ConfigureWebConnection() | configure web connection
+void connect() | connect
+void connect0() | connect 0
+void connectBot() | connect bot
+void connectClose(QConnection;) | connect close
+void connectComponents(QEventSetDescriptor;QBeanInstance;II) | connect components
+void connectedInbound() | connected inbound
+void connectedOutbound() | connected outbound
+void connectedOutbound(QByteBuffer;QConnectListener;) | connected outbound
+void connectFailure(QThrowable;) | connect failure
+void connectHexes(QCoords;QCoords;I) | connect hexes
+void connectIndication(IrLAPContext context, ConnectionInformation connectionInfo) | connect indication
+void connect(InetAddress address, int port) | connect
+void connect(int port) | connect
+void connectionChange(QConnectionEvent;) | connection change
+void connectionCleanedUp() | connection cleaned up
+void connectionData(QString;) | connection data
+void connectionEntry(QNetworkConnectionBase;) | connection entry
+void connectionError(QClientConnection;QThrowable;) | connection error
+void ConnectionHandler(QLineConnectionFigure;) | connection handler
+void connectionNotification(QString;QObject;) | connection notification
+void connectionOK() | connection ok
+void ConnectionRequest(JQInetSocketAddress;QConnectListener;JI) | connection request
+void ConnectionWatchdog(QServer;I) | connection watchdog
+void connect(IQConnectionListener;) | connect
+void connect(J) | connect
+void connectOutbound(QByteBuffer;QConnectListener;I) | connect outbound
+void connectOutbound(QUDPTransport;QInetSocketAddress;[[BQByteBuffer;QConnectListener;) | connect outbound
+void connectProcess(QProcess;) | connect process
+void connect(QAESocksProxyAddress;) | connect
+void connect(QByteBuffer;) | connect
+void connect(QByteBuffer;IQConnectionListener;) | connect
+void connect(QByteBuffer;QConnectionListener;) | connect
+void connect(QByteBuffer;QGenericMessageConnectionAdapter.ConnectionListener;) | connect
+void connect(QConnection;) | connect
+void connect(QConnectionListener;) | connect
+void connect(QConnector;) | connect
+void connect(QNetworkConnection;) | connect
+void connect(QSession;) | connect
+void connect(QSession;Z) | connect
+void connect(String driver, String url, String username, String password) | connect
+void connectSuccess() | connect success
+void connectSuccess(QByteBuffer;) | connect success
+void connectSuccess(QSocketChannel;) | connect success
+void connectSuccess(QTransport;QByteBuffer;) | connect success
+void connectTCP(QByteBuffer;QInetSocketAddress;) | connect tcp
+void connectToDatabase() | connect to database
+void connectToDelegate() | connect to delegate
+void connectTunnel(QByteBuffer;QGenericMessageEndpoint;QInetSocketAddress;QInetSocketAddress;) | connect tunnel
+void connectUDP(QByteBuffer;QInetSocketAddress;Z) | connect udp
+void connectWithTimeout(QURLConnection;J) | connect with timeout
+void connectWithTimeouts(QURLConnection;JJ) | connect with timeouts
+void copyFromConnections(Node n) | copy from connections
+void createConnectors() | create connectors
+void DbConnectionDialog(QString;QString;) | db connection dialog
+void DbConnectionDialog(QString;QString;Z) | db connection dialog
+void deleteConnectionPopup(QVector;II) | delete connection popup
+void deleteRecentConnectionSettings() | delete recent connection settings
+void deregisterPeerConnection(QNetworkConnectionBase;) | deregister peer connection
+void deregisterPeerConnection(QPeerItem;) | deregister peer connection
+void doConnect() | do connect
+void doConnectionChecks() | do connection checks
+void doConnectionTimeoutChecks() | do connection timeout checks
+void doMetaConnection(QBeanInstance;QBeanInstance;QEventSetDescriptor;QJComponent;) | do meta connection
+void doUDPConnectionChecks(I) | do udp connection checks
+void downgradePeerConnection(QNetworkConnectionBase;) | downgrade peer connection
+void drawConnectors(QGraphics2D;) | draw connectors
+void dropConnectedPeer(QPeerItem;) | drop connected peer
+void finishConnect(QConnectionRequest;) | finish connect
+void handleConnection(QSocket;) | handle connection
+void handleConnect(QFigure;QFigure;) | handle connect
+void incomingConnection(QGenericMessageConnection;) | incoming connection
+void IncomingConnection(QTransportHelperFilter;I) | incoming connection
+void initConnection(QString;IZ) | init connection
+void initConnections() | init connections
+void initializeConnection() | initialize connection
+void initPostConnection(QMessage;) | init post connection
+void logConnectUser(QSession;) | log connect user
+void NatPMPUPnPWANConnection() | nat pmpu pn pw an connection
+void newConnection() | new connection
+void notifyConnectionListeners(I) | notify connection listeners
+void notifyConnectionListeners(IQException;) | notify connection listeners
+void onConnectError(QSession;) | on connect error
+void openConnection() | open connection
+void openConnectionOnly() | open connection only
+void openConnection(QString;IZ) | open connection
+void paintConnections(QGraphics;) | paint connections
+void pollForConnections(QAzureusCore;) | poll for connections
+void pollForConnectionsSupport(QAzureusCore;) | poll for connections support
+void processConnect() | process connect
+void processConnectionEvent(QConnectionEvent;) | process connection event
+void proxyStateRelayConnect(QInetSocketAddress;) | proxy state relay connect
+void rebuildBeanConnections(QVector;QObject;) | rebuild bean connections
+void receiveConnect(QDHTTransportContact;QMap;QMap;) | receive connect
+void registerPeerConnection(QNetworkConnectionBase;) | register peer connection
+void registerPeerConnection(QNetworkConnectionBase;Z) | register peer connection
+void releaseBorrowedConnection() | release borrowed connection
+void releaseConnection() | release connection
+void releaseConnectionIDLock() | release connection id lock
+void removeAndCloseConnection(QTRNonBlockingServerProcessor;) | remove and close connection
+void removeClientConnection(QClientConnection;) | remove client connection
+void removeConnectionListener(QConnectionListener;) | remove connection listener
+void removeConnection(QbuddyConnection;) | remove connection
+void removeConnection(QConnection;) | remove connection
+void removeConnection(QIncomingConnection;Z) | remove connection
+void removeConnection(QString;) | remove connection
+void removeConnections(QBeanInstance;) | remove connections
+void requestConnectSelect(QAEProxyConnectionImpl;QSocketChannel;) | request connect select
+void requestConnectSelect(QSocketChannel;) | request connect select
+void requestIncomingConnectionRouting(QByteMatcher;QRoutingListener;QMessageStreamFactory;) | request incoming connection routing
+void requestNewConnection(QInetSocketAddress;QConnectListener;I) | request new connection
+void requestNewConnection(QInetSocketAddress;QConnectListener;JI) | request new connection
+void reverseConnection() | reverse connection
+void service(HttpConnection connection, ServerConfiguration config, ZoneConfiguration zone) | service
+void setAllowExternalConnections(Z) | set allow external connections
+void setAssociatedConnections(QVector;) | set associated connections
+void setBeanConnection(QBeanConnection;QVector;) | set bean connection
+void setConnectionAttrType(I) | set connection attr type
+void setConnectionEndpoint(QConnectionEndpoint;) | set connection endpoint
+void setConnectionExpression(Qjava.lang.String;) | set connection expression
+void setConnectionExpression(QString;) | set connection expression
+void setConnectionHandler(QConnectionHandler;) | set connection handler
+void setConnectionListeners(QVector;) | set connection listeners
+void setConnectionProvider(QConnectionProvider;) | set connection provider
+void setConnectionProxyInfo(QURLConnection;) | set connection proxy info
+void setConnection(QConnection;) | set connection
+void setConnection(QConnectionFigure;) | set connection
+void setConnection(QHTTPNetworkConnection;) | set connection
+void setConnection(Qjava.lang.String;) | set connection
+void setConnectionReleaseMode(QConnectionReleaseMode;) | set connection release mode
+void setConnectionSetting(QConnectionSetting;) | set connection setting
+void setConnections(Qjava.util.Vector;) | set connections
+void setConnections(QVector;) | set connections
+void setConnectorsVisible(ZQConnectionFigure;) | set connectors visible
+void setConnectPoints(QFastVector;) | set connect points
+void setConnectPoints([Z) | set connect points
+void setConnectState(QAEProxyState;) | set connect state
+void setConnectTimeout(QURLConnection;I) | set connect timeout
+void setConnectToDB(Z) | set connect to db
+void setConnectToDecorator(Z) | set connect to decorator
+void setDebuggingConnection(QConnection;) | set debugging connection
+void setDebugUnreturnedConnectionStackTraces(boolean debugUnreturnedConnectionStackTraces) | set debug unreturned connection stack traces
+void setDisplayConnectors(Z) | set display connectors
+void setDisplayConnectors(ZQColor;) | set display connectors
+void setEndConnector(QConnector;) | set end connector
+void setIReportConnection(QIReportConnection;) | set i report connection
+void setIReportConnection(Qit.businesslogic.ireport.IReportConnection;) | set i report connection
+void setLastConnectAddr(QString;) | set last connect addr
+void setLastConnectPort(I) | set last connect port
+void setMessageHandlerToAllConnections(QMessageHandler;) | set message handler to all connections
+void setOutboundConnectionsComplete() | set outbound connections complete
+void setStartConnector(QConnector;) | set start connector
+void setTargetConnector(QConnector;) | set target connector
+void setUseConnection(Z) | set use connection
+void showConnectToServerDialog() | show connect to server dialog
+void ShowNoConnectionDialog(QString;) | show no connection dialog
+void signalCloseAllServerConnections() | signal close all server connections
+void storeRecentConnectionSettings(QHashtable;) | store recent connection settings
+void testCreateSmtpConnector() | test create smtp connector
+void trackConnectors(QMouseEvent;) | track connectors
+void transmitAllPlayerConnects(I) | transmit all player connects
+void treeConnect(QServerMessageBlock;QServerMessageBlock;) | tree connect
+void updateConnection() | update connection
+void updateConnections() | update connections
+void upgradePeerConnection(QNetworkConnectionBase;) | upgrade peer connection
+void upgradePeerConnection(QNetworkConnectionBase;QRateHandler;) | upgrade peer connection

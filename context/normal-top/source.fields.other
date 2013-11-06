@@ -1,0 +1,54 @@
+byte PEER_SOURCE_DHT | peer source dht
+byte PEER_SOURCE_INCOMING | peer source incoming
+byte PEER_SOURCE_PEER_EXCHANGE | peer source peer exchange
+byte PEER_SOURCE_PLUGIN | peer source plugin
+byte PEER_SOURCE_TRACKER | peer source tracker
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSourceManager pingSourceManager | ping source manager
+edu.rice.cs.drjava.config.BooleanOption SHOW_SOURCE_WHEN_SWITCHING | show source when switching
+edu.rice.cs.drjava.config.OptionListener<java.lang.Boolean> _showSourceListener | show source listener
+int encodedSourceEnd | encoded source end
+int encodedSourceStart | encoded source start
+int ENGINE_SOURCE_LOCAL | engine source local
+int ENGINE_SOURCE_RSS | engine source rss
+int ENGINE_SOURCE_UNKNOWN | engine source unknown
+int ENGINE_SOURCE_VUZE | engine source vu ze
+int pcSourceLineStart | pc source line start
+int SELECT_SOURCE_CATALOG | select source catalog
+int SELECT_SOURCE_SCHEMA | select source schema
+int SELECT_SOURCE_TABLES | select source tables
+int TEXT_SOURCE_EXISTS | text source exists
+int TEXT_TABLE_SOURCE_FILENAME | text table source filename
+int TEXT_TABLE_SOURCE_SEPARATOR | text table source separator
+int TEXT_TABLE_SOURCE_VALUE_MISSING | text table source value missing
+int TO_SOURCE_FLAG | to source flag
+int UPDATE_SOURCE_TEXT | update source text
+java.awt.TextField tSourceSelect | t source select
+java.awt.TextField tSourceTable | t source table
+java.io.File m_sSourceFile | m s source file
+java.lang.Class dataSourceType | data source type
+java.lang.Class forDataSourceType | for data source type
+java.lang.Class[] forDataSourceTypes | for data source types
+java.lang.String dataSourceExpression | data source expression
+java.lang.String[] ENGINE_SOURCE_STRS | engine source strs
+java.lang.String itsSourceFile | its source file
+java.lang.String LIGHT_SOURCE_COLOR | light source color
+java.lang.String LIGHT_SOURCE_X | light source x
+java.lang.String LIGHT_SOURCE_Y | light source y
+java.lang.String LIGHT_SOURCE_Z | light source z
+java.lang.String SETTING_DATA_SOURCE_INPUT | setting data source input
+java.lang.String sSourceCatalog | s source catalog
+java.lang.String[] sSourceSchemas | s source schemas
+java.lang.String sSourceSelect | s source select
+java.lang.String sSourceTable | s source table
+java.util.Hashtable urlToSourceInfo | url to source info
+java.util.Map mapDataSourceToRow | map data source to row
+java.util.Map mapDataSourceTypeToColumnIDs | map data source type to column ids
+javax.swing.JPanel jPanelCustomDataSourceFactory | j panel custom data source factory
+javax.swing.JTextField jTextFieldJRCustomDataSourceFactoryClass | j text field jr custom data source factory class
+javax.swing.JTextField jTextFieldJRCustomDataSourceMethod | j text field jr custom data source method
+javax.swing.JTextField jTextFieldJRDataSourceProvider | j text field jr data source provider
+long FLAG_ALLOW_PERMITTED_PEER_SOURCE_CHANGES | flag allow permitted peer source changes
+org.gudy.azureus2.core3.util.AEMonitor dataSourceToRow_mon | data source to row mon
+org.gudy.azureus2.ui.swt.Utils.addDataSourceCallback processDataSourceQueueCallback | process data source queue callback
+short itsSourceFileAttributeIndex | its source file attribute index
+short itsSourceFileNameIndex | its source file name index

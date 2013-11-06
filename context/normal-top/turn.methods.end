@@ -1,0 +1,49 @@
+boolean isLoadableThisTurn() | is loadable this turn
+boolean isMyTurn() | is my turn
+boolean isNewTurn() | is new turn
+boolean isNextPlayerInNewTurn() | is next player in new turn
+boolean isSelectableThisTurn() | is selectable this turn
+boolean isUnloadedThisTurn() | is unloaded this turn
+boolean oppositeTurn(QMoveStep;) | opposite turn
+boolean shouldCallNewTurn(QFreeColGameObject;) | should call new turn
+Element endTurn(QConnection;QElement;) | end turn
+Element newTurn(QElement;) | new turn
+GameTurn changeToNextTurn() | change to next turn
+GameTurn getTurn() | get turn
+int getAdditionalProductionNextTurn(QUnit;) | get additional production next turn
+int getBellsProductionNextTurn() | get bells production next turn
+int getGoodsInputNextTurn() | get goods input next turn
+int getIndependenceTurn() | get independence turn
+int getProductionNextTurn() | get production next turn
+int getProductionNextTurn(QGoodsType;) | get production next turn
+int getTurn() | get turn
+int lateralShiftForTurn(II) | lateral shift for turn
+MovePath calculateMoveTurn() | calculate move turn
+PhysicalOption calculatePhysicalTurn() | calculate physical turn
+PhysicalOption calculatePhysicalTurn(QTestBot;) | calculate physical turn
+Turn getFirstTurn() | get first turn
+Turn getLastTurn() | get last turn
+Turn getTurn() | get turn
+void beginMyTurn() | begin my turn
+void calculateFiringTurn() | calculate firing turn
+void calculateMyTurn() | calculate my turn
+void changeToNextTurn() | change to next turn
+void CounterGrappleTurn(II) | counter grapple turn
+void endCurrentTurn(QEntity;) | end current turn
+void endMyTurn() | end my turn
+void endTurn() | end turn
+void endTurn(QServerPlayer;) | end turn
+void EntityClassTurn(II) | entity class turn
+void insertNextTurn(QGameTurn;) | insert next turn
+void newTurn() | new turn
+void setFirstTurn(QTurn;) | set first turn
+void setIndependenceTurn(I) | set independence turn
+void setLastTurn(QTurn;) | set last turn
+void setTurn(I) | set turn
+void setTurn(QTurn;) | set turn
+void skipCurrentTurn() | skip current turn
+void SpecificEntityTurn(II) | specific entity turn
+void TriggerAPPodTurn(II) | trigger ap pod turn
+void UnitNumberTurn(IC) | unit number turn
+void UnloadStrandedTurn([I) | unload stranded turn
+void UnloadStrandedTurn(QEnumeration;) | unload stranded turn

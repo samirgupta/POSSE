@@ -1,0 +1,37 @@
+AmmoType createCLLB10XClusterAmmo() | create cllb 10 x cluster ammo
+AmmoType createCLLB20XClusterAmmo() | create cllb 20 x cluster ammo
+AmmoType createCLLB2XClusterAmmo() | create cllb 2 x cluster ammo
+AmmoType createCLLB5XClusterAmmo() | create cllb 5 x cluster ammo
+AmmoType createISLB10XClusterAmmo() | create is lb 10 x cluster ammo
+AmmoType createISLB20XClusterAmmo() | create is lb 20 x cluster ammo
+AmmoType createISLB2XClusterAmmo() | create is lb 2 x cluster ammo
+AmmoType createISLB5XClusterAmmo() | create is lb 5 x cluster ammo
+AmmoType createISTHBLB20XClusterAmmo() | create isthblb 20 x cluster ammo
+AmmoType createISTHBLB2XClusterAmmo() | create isthblb 2 x cluster ammo
+AmmoType createISTHBLB5XClusterAmmo() | create isthblb 5 x cluster ammo
+ClusterDefinition[] getClusterDefinitions() | get cluster definitions
+double[] getClusterAssignments() | get cluster assignments
+double[][][] getClusterModelsNumericAtts() | get cluster models numeric atts
+double[] getClusterPriors() | get cluster priors
+double[] logDensityPerClusterForInstance(QInstance;) | log density per cluster for instance
+Instances getClusterCentroids() | get cluster centroids
+Instances getClusterStandardDevs() | get cluster standard devs
+Instances makeClusterDataSetClass(QInstances;Qweka.clusterers.Clusterer;QString;) | make cluster data set class
+Instances makeClusterDataSetProbabilities(QInstances;Qweka.clusterers.Clusterer;QString;) | make cluster data set probabilities
+int getClusterLabel() | get cluster label
+int[][][] getClusterNominalCounts() | get cluster nominal counts
+int[] getClusterSizes() | get cluster sizes
+int run_ModelCluster_number_of_nodes_set_(int _value_) | run model cluster number of nodes set
+SelectedTag defaultClusterSubType() | default cluster sub type
+SelectedTag defaultClusterType() | default cluster type
+SelectedTag getClusterSubType() | get cluster sub type
+SelectedTag getClusterType() | get cluster type
+String printClusterStats(QClusterer;QString;) | print cluster stats
+void assignClusterNums([I) | assign cluster nums
+void expandClusterOrder(QDataObject;QUpdateQueue;) | expand cluster order
+void setClusterDefinitions([QClusterDefinition;) | set cluster definitions
+void setClusterLabel(I) | set cluster label
+void setClusterName(String clusterName) | set cluster name
+void setClusterSubType(QSelectedTag;) | set cluster sub type
+void setClusterType(QSelectedTag;) | set cluster type
+void visualizeClusterAssignments(QVisualizePanel;) | visualize cluster assignments

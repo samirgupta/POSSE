@@ -1,0 +1,24 @@
+com.eteks.sweethome3d.model.CollectionChangeSupport<com.eteks.sweethome3d.model.Room> roomsChangeSupport | rooms change support
+com.eteks.sweethome3d.model.CollectionListener<com.eteks.sweethome3d.model.Room> roomListener | room listener
+com.eteks.sweethome3d.model.CollectionListener<com.eteks.sweethome3d.model.Room> roomsListener | rooms listener
+com.eteks.sweethome3d.model.Room newRoom | new room
+com.eteks.sweethome3d.model.Room room | room
+com.eteks.sweethome3d.model.Room selectedRoom | selected room
+com.eteks.sweethome3d.model.TextStyle DEFAULT_ROOM_TEXT_STYLE | default room text style
+com.eteks.sweethome3d.viewcontroller.DialogView roomView | room view
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState roomAreaOffsetState | room area offset state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState roomCreationState | room creation state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState roomDrawingState | room drawing state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState roomNameOffsetState | room name offset state
+com.eteks.sweethome3d.viewcontroller.PlanController.ControllerState roomResizeState | room resize state
+com.eteks.sweethome3d.viewcontroller.RoomController.ModifiedRoom[] modifiedRooms | modified rooms
+int roomPointIndex | room point index
+java.beans.PropertyChangeListener roomChangeListener | room change listener
+java.lang.String roomSideAngleToolTipFeedback | room side angle tool tip feedback
+java.lang.String roomSideLengthToolTipFeedback | room side length tool tip feedback
+java.util.Collection<com.eteks.sweethome3d.model.Room> rooms | rooms
+java.util.List<com.eteks.sweethome3d.model.Room> rooms | rooms
+java.util.List<com.eteks.sweethome3d.model.Room> sortedHomeRooms | sorted home rooms
+java.util.List<java.awt.geom.GeneralPath> roomPathsCache | room paths cache
+javax.swing.JLabel roomRenderingLabel | room rendering label
+javax.swing.JToggleButton.ToggleButtonModel createRoomsToggleModel | create rooms toggle model

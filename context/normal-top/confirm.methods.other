@@ -1,0 +1,20 @@
+boolean getConfirmExit() | get confirm exit
+boolean showConfirmDialog([QModelMessage;QString;QString;) | show confirm dialog
+boolean showConfirmDialog(QString;QString;QString;[QString;) | show confirm dialog
+FreeColDialog createConfirmDialog([QString;[QImageIcon;QString;QString;) | create confirm dialog
+FreeColDialog createConfirmDialog(QString;QString;QString;) | create confirm dialog
+int showConfirmDialog(QComponent;QString;) | show confirm dialog
+int showConfirmDialog(QComponent;QString;QString;I) | show confirm dialog
+int showConfirmDialog(QComponent;QString;QString;II) | show confirm dialog
+int showConfirmDialog(QComponent;QString;QString;IIQIcon;) | show confirm dialog
+int showConfirmDialog(QJComponent;QJComponent;QString;QJComponent;) | show confirm dialog
+int showInternalConfirmDialog(QComponent;QString;) | show internal confirm dialog
+int showInternalConfirmDialog(QComponent;QString;QString;I) | show internal confirm dialog
+int showInternalConfirmDialog(QComponent;QString;QString;II) | show internal confirm dialog
+int showInternalConfirmDialog(QComponent;QString;QString;IIQIcon;) | show internal confirm dialog
+void setConfirmExit(Z) | set confirm exit
+void ShowConfirmDialogSwingTask(QString;QString;QString;[QString;) | show confirm dialog swing task
+void showConfirmSheet(QComponent;QObject;IIQIcon;QSheetListener;) | show confirm sheet
+void showConfirmSheet(QComponent;QObject;IIQSheetListener;) | show confirm sheet
+void showConfirmSheet(QComponent;QObject;IQSheetListener;) | show confirm sheet
+void showConfirmSheet(QComponent;QObject;QSheetListener;) | show confirm sheet

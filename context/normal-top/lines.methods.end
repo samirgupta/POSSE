@@ -1,0 +1,61 @@
+boolean isShowLines() | is show lines
+boolean loadLines() | load lines
+Collection<QDimensionLine;> getDimensionLines() | get dimension lines
+int commentLines(II) | comment lines
+int getMaxLines() | get max lines
+int getNumberOfLines() | get number of lines
+int getVisibleLines() | get visible lines
+int uncommentLines(II) | uncomment lines
+LineHeader calculateLines(QLineHeader;) | calculate lines
+LinkedList getLines() | get lines
+RetCode cdlSeperatingLines(int startIdx, int endIdx, float inOpen, float inHigh, float inLow, float inClose, MInteger outBegIdx, MInteger outNBElement, int outInteger) | cdl seperating lines
+SourceLineAnnotation getSourceLines() | get source lines
+String convertNewLines(QString;) | convert new lines
+String getLines(I) | get lines
+String readMultipleLines() | read multiple lines
+String revertNewLines(QString;) | revert new lines
+Vector getFieldLines(QString;I) | get field lines
+Vector getFileLines(QFile;) | get file lines
+Vector<QString;> readLines(QString;) | read lines
+Vector<QString;> readLines(QString;Z) | read lines
+void addDimensionLines(QList<QDimensionLine;>;) | add dimension lines
+void addNewLines() | add new lines
+void changeLines() | change lines
+void _commentLines() | comment lines
+void commentLines() | comment lines
+void createDependencyLines() | create dependency lines
+void deleteLines(II) | delete lines
+void doAddDimensionLines([QDimensionLine;Z) | do add dimension lines
+void doDeleteDimensionLines([QDimensionLine;Z) | do delete dimension lines
+void drawInputLines(QGraphics;II) | draw input lines
+void drawOutputLines(QGraphics;II) | draw output lines
+void findSalesSettleLines(HttpServletRequest request, HttpServletResponse response) | find sales settle lines
+void indentLines(II) | indent lines
+void indentLines(IIQIndenter.IndentReason;QProgressMonitor;) | indent lines
+void insertLines(II) | insert lines
+void invalidateSelectedLines() | invalidate selected lines
+void paintDimensionLines(QGraphics2D;QCollection<QDimensionLine;>;QList<QSelectable;>;QPaint;QStroke;QPaint;QStroke;FQColor;QColor;QPaintMode;Z) | paint dimension lines
+void paintGridLines(QGraphics2D;FFFFFFF) | paint grid lines
+void paintLines() | paint lines
+void paintLines(QGraphics2D;) | paint lines
+void postCreateDimensionLines(QList<QDimensionLine;>;QList<QSelectable;>;Z) | post create dimension lines
+void processTextLines(QInputStream;QLineProcessor;) | process text lines
+void processTextLines(QReader;QLineProcessor;) | process text lines
+void processTextLines(QString;QLineProcessor;) | process text lines
+void recalculateVisibleLines() | recalculate visible lines
+void safeIndentLines(II) | safe indent lines
+void setLines(I) | set lines
+void setLines(IQString;) | set lines
+void setShowLines(Z) | set show lines
+void testCommentOutMultipleLines() | test comment out multiple lines
+void testCompositeTagCorrectionWithSplitLines() | test composite tag correction with split lines
+void testGetIndentOfCurrStmtMultipleLines() | test get indent of curr stmt multiple lines
+void testUncommentIgnoreMultipleLines() | test uncomment ignore multiple lines
+void testUncommentMultipleLines() | test uncomment multiple lines
+void testWriteAndReadLines() | test write and read lines
+void tokenizeLines() | tokenize lines
+void tokenizeLines(II) | tokenize lines
+void _uncommentLines() | uncomment lines
+void uncommentLines() | uncomment lines
+void updateLines(QR;QR;) | update lines
+void writeFileLines(QVector;QFile;) | write file lines

@@ -1,0 +1,5 @@
+CONS AsyncDispatcher() | async dispatcher
+CONS AsyncDispatcher(I) | async dispatcher
+CONS FrequencyLimitedDispatcher(QAERunnable;I) | frequency limited dispatcher
+CONS MessageDispatcherSWT(QClientMessageContext;) | message dispatcher swt
+CONS TableStructureEventDispatcher() | table structure event dispatcher

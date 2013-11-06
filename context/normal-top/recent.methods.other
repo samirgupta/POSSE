@@ -1,0 +1,29 @@
+boolean isRecentAddress(QString;) | is recent address
+Hashtable loadRecentConnectionSettings() | load recent connection settings
+java.util.Vector getRecentFilesList() | get recent files list
+java.util.Vector getRecentProjectsList() | get recent projects list
+List<QString;> getRecentHomes() | get recent homes
+Map getMostRecentVersionCheckData() | get most recent version check data
+String getMostRecentAddress() | get most recent address
+Vector loadRecentConnectionSettings() | load recent connection settings
+void addRecentFile(QFile;) | add recent file
+void addToRecentConnectionSettings(QHashtable;QConnectionSetting;) | add to recent connection settings
+void addToRecentDocuments(QDocument;) | add to recent documents
+void clearRecentFiles() | clear recent files
+void deleteRecentConnectionSettings() | delete recent connection settings
+void deleteRecentHomes() | delete recent homes
+void hideRecentDocFrame() | hide recent doc frame
+void nextRecentDoc() | next recent doc
+void prevRecentDoc() | prev recent doc
+void readRecentAddresses() | read recent addresses
+void saveRecentFiles() | save recent files
+void setRecentFilesList(Qjava.util.Vector;) | set recent files list
+void setRecentHomes(QList<QString;>;) | set recent homes
+void setRecentProjectsList(Qjava.util.Vector;) | set recent projects list
+void storeRecentConnectionSettings(QHashtable;) | store recent connection settings
+void updateOpenRecentHomeMenu(QJMenu;QHomeController;) | update open recent home menu
+void updateOpenRecentMenu(QJMenu;) | update open recent menu
+void updateRecentFileMenu(QJMenu;QVector;) | update recent file menu
+void updateRecentProjectMenu(QJMenu;QVector;) | update recent project menu
+void updateUserPreferencesRecentHomes(QList<QString;>;) | update user preferences recent homes
+void writeRecentAddresses() | write recent addresses

@@ -1,0 +1,47 @@
+BallTreeConstructor getBallTreeConstructor() | get ball tree constructor
+boolean isConstructor() | is constructor
+boolean isContinuationConstructor(QIdFunctionObject;) | is continuation constructor
+boolean isVarArgsConstructor() | is var args constructor
+boolean supportsRowValueConstructorSyntax() | supports row value constructor syntax
+boolean supportsRowValueConstructorSyntaxInInList() | supports row value constructor syntax in in list
+Constructor createNewConstructor(jq_Initializer f) | create new constructor
+Constructor findConstructors(Class p_class) | find constructors
+Constructor getConstructor() | get constructor
+Constructor getConstructor(QClass;[QType;) | get constructor
+Constructor getConstructor(QPersistentClass;) | get constructor
+Constructor getDefaultConstructor(QClass;) | get default constructor
+Constructor resolveConstructor(QString;) | resolve constructor
+FunctionN constructor(Class p_class, Class p_types) | constructor
+IdFunctionObject createPrecachedConstructor() | create precached constructor
+IXOLElement newInvokeConstructor() | new invoke constructor
+List getConstructorArgumentTypeList() | get constructor argument type list
+Member getMethodOrConstructor() | get method or constructor
+Object jsConstructor(Context cx, boolean inNewExpr, Object args) | js constructor
+Object jsConstructor(QContext;QScriptable;[QObject;) | js constructor
+Object jsConstructor([QObject;) | js constructor
+String ballTreeConstructorTipText() | ball tree constructor tip text
+Type[] resolveConstructorArgumentTypes() | resolve constructor argument types
+Value _invokeConstructor(QThreadReference;QClassType;QString;[QValue;) | invoke constructor
+void addAsConstructor(QScriptable;QScriptable;) | add as constructor
+void addDefaultConstructor(QClassFile;) | add default constructor
+void buildAttributeConstructor(QInstances;) | build attribute constructor
+void commonConstructor() | common constructor
+void commonConstructor(QString;) | common constructor
+void emitConstructorDecl() | emit constructor decl
+void emitDirectConstructor(QClassFileWriter;QOptFunctionNode;) | emit direct constructor
+void fillConstructorProperties(QIdFunctionObject;) | fill constructor properties
+void generateFunctionConstructor(QClassFileWriter;) | generate function constructor
+void initPrototypeConstructor(QIdFunctionObject;) | init prototype constructor
+void markAsConstructor(QScriptable;) | mark as constructor
+void mutateRowValueConstructorSyntaxesIfNecessary(QType;QType;) | mutate row value constructor syntaxes if necessary
+void mutateRowValueConstructorSyntax(I) | mutate row value constructor syntax
+void processConstructor(QAST;) | process constructor
+void setBallTreeConstructor(QBallTreeConstructor;) | set ball tree constructor
+void testConstructor() | test constructor
+void testConstructorWithFileName() | test constructor with file name
+void testCopyConstructor() | test copy constructor
+void testDateConstructor1() | test date constructor 1
+void testNullParamsinConstructor() | test null param sin constructor
+void testSanityCheckConstructor() | test sanity check constructor
+void testSaveAndLoadConstructors() | test save and load constructors
+void testUrlConstructor() | test url constructor

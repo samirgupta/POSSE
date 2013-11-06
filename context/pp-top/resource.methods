@@ -1,0 +1,16 @@
+void canResourceBeDeleted(QShareResource;) | can resource be deleted
+void fireResourceAdded(QProjectResource;) | fire resource added
+void fireResourceChanged() | fire resource changed
+void fireResourceChanged(QProjectResource;) | fire resource changed
+void fireResourcesRemoved([QProjectResource;) | fire resources removed
+void resourceAdded(QResourceEvent;) | resource added
+void resourceAdded(QShareResource;) | resource added
+void resourceAssignmentsChanged([QProjectResource;) | resource assignments changed
+void resourceAssignmentsChanged(QResourceEvent;) | resource assignments changed
+void resourceChanged(QProjectResource;) | resource changed
+void resourceChanged(QResourceEvent;) | resource changed
+void resourceDeleted(QShareResource;) | resource deleted
+void resourceModified(QShareResource;) | resource modified
+void resourcesRemoved(QResourceEvent;) | resources removed
+void resourceWillBeDeleted(QShareResource;) | resource will be deleted
+void shareResourceChanged(QShareResource;QShareResourceEvent;) | share resource changed

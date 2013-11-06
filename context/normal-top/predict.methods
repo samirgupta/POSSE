@@ -1,0 +1,59 @@
+boolean[] canPredict(ZZZZZZ) | can predict
+boolean[] canPredict(ZZZZZZI) | can predict
+boolean getAppendPredictedProbabilities() | get append predicted probabilities
+boolean getClassifierOutputPredictions() | get classifier output predictions
+boolean getClassifierStorePredictionsForVis() | get classifier store predictions for vis
+boolean getLocallyPredictive() | get locally predictive
+boolean getPerformPrediction() | get perform prediction
+double calcPredictionValue(QInstances;QInstances;) | calc prediction value
+double[] calcPredictionValues(QInstances;) | calc prediction values
+double[][] computePredictions(IZ) | compute predictions
+double evaluateModelOnceAndRecordPrediction([DQInstance;) | evaluate model once and record prediction
+double evaluateModelOnceAndRecordPrediction(QClassifier;QInstance;) | evaluate model once and record prediction
+double evaluatePredictions(QInstances;[[DI) | evaluate predictions
+double[] getAveragePrediction(QInstance;) | get average prediction
+double[] getFoldPrediction(QInstance;I) | get fold prediction
+double[][][] getHillclimbPredictions() | get hill climb predictions
+double getPredictedClass() | get predicted class
+double[][] getValidationPredictions() | get validation predictions
+double[] individualPredictions(QInstance;) | individual predictions
+double makePrediction(QInstance;) | make prediction
+double measureNumPredictionLeaves() | measure num prediction leaves
+double[][] predictInterval(QInstance;D) | predict interval
+double predictionValueForInstance(QInstance;QPredictionNode;D) | prediction value for instance
+double[] predictionValuesForInstance(QInstance;QPredictionNode;[D) | prediction values for instance
+double regressionPrediction(QInstance;[D) | regression prediction
+double regressionPrediction(QInstance;[Z[D) | regression prediction
+FastVector getCVPredictions(QClassifier;QInstances;I) | get cv predictions
+FastVector getPredictions(QInstances;II) | get predictions
+FastVector getTestPredictions(QClassifier;QInstances;) | get test predictions
+FastVector getTrainTestPredictions(QClassifier;QInstances;QInstances;) | get train test predictions
+FastVector predictions() | predictions
+int makePrediction(IQInstance;) | make prediction
+int numOfPredictionLeafNodes(QPredictionNode;) | num of prediction leaf nodes
+int numOfPredictionNodes(QPredictionNode;) | num of prediction nodes
+int predictiveError(QInstances;) | predictive error
+Prediction getPrediction(QClassifier;QInstance;) | get prediction
+String appendPredictedProbabilitiesTipText() | append predicted probabilities tip text
+String locallyPredictiveTipText() | locally predictive tip text
+String performPredictionTipText() | perform prediction tip text
+String predictionText(QClassifier;QInstance;I) | prediction text
+String predictionText(QClassifier;QInstance;IQRange;Z) | prediction text
+void addLocallyPredictive(QBitSet;) | add locally predictive
+void addPrediction(QNominalPrediction;) | add prediction
+void addPredictions(QFastVector;) | add predictions
+void cachePredictions(QInstances;) | cache predictions
+void CategoricalPredictor(QElement;QInstances;) | categorical predictor
+void NumericPredictor(QElement;QInstances;) | numeric predictor
+void predict([D[D) | predict
+void PredictionNode([D) | prediction node
+void Predictor(QElement;QInstances;) | predictor
+void PredictorTerm(QElement;QInstances;) | predictor term
+void printPredictionsHeader(QStringBuffer;QInstances;QString;) | print predictions header
+void processClassifierPrediction(QInstance;QClassifier;QEvaluation;QInstances;QFastVector;QFastVector;) | process classifier prediction
+void setAppendPredictedProbabilities(Z) | set append predicted probabilities
+void setLocallyPredictive(Z) | set locally predictive
+void setPerformPrediction(Z) | set perform prediction
+void setPredictedClass(D) | set predicted class
+void setValidationPredictions([[D) | set validation predictions
+void updateStatsForPredictor(DQInstance;) | update stats for predictor

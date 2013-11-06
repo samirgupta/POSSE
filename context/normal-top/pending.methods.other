@@ -1,0 +1,19 @@
+boolean isPendingDump() | is pending dump
+boolean isStalledPendingLoad() | is stalled pending load
+Connection getPendingConnection(I) | get pending connection
+int getNbPeersStalledPendingLoad() | get nb peers stalled pending load
+int numPendingOutput() | num pending output
+PeerDescriptor[] getPendingPeers(QString;) | get pending peers
+PendingRequestManager getPendingRequestManager() | get pending request manager
+void addPendingRequest(QDocumentDebugAction<*>;) | add pending request
+void checkPendingException() | check pending exception
+void checkPendingSuccess() | check pending success
+void getNumPendingInvites() | get num pending invites
+void hasPendingRelayMessage(I) | has pending relay message
+void removePendingRequest(QDocumentDebugAction<*>;) | remove pending request
+void resendPendingRequests(Peer dest) | resend pending requests
+void sendPendingHaves() | send pending haves
+void setPendingDump(Z) | set pending dump
+void setPendingException(QCacheFileManagerException;) | set pending exception
+void _setPendingNotifies(I) | set pending notifies
+void writePendingText() | write pending text

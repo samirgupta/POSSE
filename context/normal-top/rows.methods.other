@@ -1,0 +1,8 @@
+int getSelectedRowsSize() | get selected rows size
+List getSelectedRowsList() | get selected rows list
+Object loadSequentialRowsForward(QResultSet;QSessionImplementor;QQueryParameters;Z) | load sequential rows forward
+Object loadSequentialRowsReverse(QResultSet;QSessionImplementor;QQueryParameters;ZZ) | load sequential rows reverse
+TableRowSWT[] getSelectedRowsSWT() | get selected rows swt
+void ensureAllRowsHaveIndex() | ensure all rows have index
+void makeRowsVisible(II) | make rows visible
+void moveRowsTo([QTableRowCore;I) | move rows to

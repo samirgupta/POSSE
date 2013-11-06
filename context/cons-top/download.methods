@@ -1,0 +1,77 @@
+CONS DownloadAnnounceResultImpl(QDownload;QTRTrackerAnnouncerResponse;) | download announce result impl
+CONS DownloadBar(QDownloadManager;QShell;) | download bar
+CONS DownloadedItem() | downloaded item
+CONS DownloadedPanel() | downloaded panel
+CONS DownloadEventNotifierImpl(QDownloadManager;) | download event notifier impl
+CONS DownloadException(QString;) | download exception
+CONS DownloadException(QString;QThrowable;) | download exception
+CONS DownloadExternalFile(QJabRefFrame;QMetaData;QString;) | download external file
+CONS DownloadImpl(QDownloadManager;) | download impl
+CONS DownloadingRanker() | downloading ranker
+CONS DownloadingUnchoker() | downloading unchoker
+CONS DownloadList() | download list
+CONS DownloadManagerController(QDownloadManagerImpl;) | download manager controller
+CONS DownloadManagerEnhancer(QAzureusCore;) | download manager enhancer
+CONS DownloadManagerException(QString;) | download manager exception
+CONS DownloadManagerException(QString;QThrowable;) | download manager exception
+CONS DownloadManagerImpl(QAzureusCore;) | download manager impl
+CONS DownloadManagerImpl(QGlobalManager;[BQString;QString;QString;IZZZZQList;QDownloadManagerInitialisationAdapter;) | download manager impl
+CONS DownloadManagerStateImpl(QDownloadManagerImpl;QTorrentUtils.ExtendedTorrent;) | download manager state impl
+CONS DownloadManagerStatsImpl(QDownloadManagerImpl;) | download manager stats impl
+CONS DownloadManagerStatsImpl(QGlobalManager;) | download manager stats impl
+CONS DownloadNameItem(QString;) | download name item
+CONS DownloadQueue() | download queue
+CONS DownloadRemovalVetoException(QString;) | download removal veto exception
+CONS DownloadRemovalVetoException(QString;Z) | download removal veto exception
+CONS DownloadScrapeResultImpl(QDownloadImpl;QTRTrackerScraperResponse;) | download scrape result impl
+CONS DownloadStatsImpl(QDownloadManager;) | download stats impl
+CONS DownloadThread(QServer;) | download thread
+CONS DownloadUrlInfo(QString;) | download url info
+CONS DownloadUrlInfoSWT(QClientMessageContext;QString;QString;) | download url info swt
+CONS EnhancedDownloadManagerFile(QDiskManagerFileInfo;JQMap;) | enhanced download manager file
+CONS EnhancedDownloadManager(QDownloadManagerEnhancer;QDownloadManager;) | enhanced download manager
+CONS ExternalSeedHTTPDownloader(QURL;QString;) | external seed http downloader
+CONS FileDownloadWindow(QAzureusCore;QShell;QString;QString;QMap;) | file download window
+CONS FileDownloadWindow(QAzureusCore;QShell;QString;QString;QMap;QTorrentDownloaderCallBackInterface;) | file download window
+CONS GlobalManagerDownloadRemovalVetoException(QString;) | global manager download removal veto exception
+CONS GlobalManagerDownloadRemovalVetoException(QString;Z) | global manager download removal veto exception
+CONS HttpDownloader() | http downloader
+CONS LWSDownload(QLightWeightSeed;QTRTrackerAnnouncer;) | lws download
+CONS MultiPeerDownloader2(QRateHandler;) | multi peer downloader 2
+CONS MultiPeerDownloader(QRateHandler;) | multi peer downloader
+CONS ResourceDownloaderAlternateImpl(QResourceDownloaderBaseImpl;[QResourceDownloader;IZ) | resource downloader alternate impl
+CONS ResourceDownloaderBaseImpl(QResourceDownloaderBaseImpl;) | resource downloader base impl
+CONS ResourceDownloaderCancelledException() | resource downloader cancelled exception
+CONS ResourceDownloaderDelayedImpl(QResourceDownloaderBaseImpl;QResourceDownloaderDelayedFactory;) | resource downloader delayed impl
+CONS ResourceDownloaderErrorImpl(QResourceDownloaderBaseImpl;QResourceDownloaderException;) | resource downloader error impl
+CONS ResourceDownloaderException(QString;) | resource downloader exception
+CONS ResourceDownloaderException(QString;QThrowable;) | resource downloader exception
+CONS ResourceDownloaderFileImpl(QResourceDownloaderBaseImpl;QFile;) | resource downloader file impl
+CONS ResourceDownloaderMetaRefreshImpl(QResourceDownloaderBaseImpl;QResourceDownloader;) | resource downloader meta refresh impl
+CONS ResourceDownloaderRetryImpl(QResourceDownloaderBaseImpl;QResourceDownloader;I) | resource downloader retry impl
+CONS ResourceDownloaderTimeoutImpl(QResourceDownloaderBaseImpl;QResourceDownloader;I) | resource downloader timeout impl
+CONS ResourceDownloaderTorrentImpl(QResourceDownloaderBaseImpl;QResourceDownloader;ZQFile;) | resource downloader torrent impl
+CONS ResourceDownloaderURLImpl(QResourceDownloaderBaseImpl;QURL;) | resource downloader url impl
+CONS ResourceDownloaderURLImpl(QResourceDownloaderBaseImpl;QURL;QString;QString;) | resource downloader url impl
+CONS ResourceDownloaderURLImpl(QResourceDownloaderBaseImpl;QURL;QString;ZQString;QString;) | resource downloader url impl
+CONS ResourceDownloaderURLImpl(QResourceDownloaderBaseImpl;QURL;ZQString;QString;) | resource downloader url impl
+CONS RPDownloadAnnounceResult(QDownloadAnnounceResult;) | rp download announce result
+CONS RPDownloadManager(QDownloadManager;) | rp download manager
+CONS RPDownload(QDownload;) | rp download
+CONS RPDownloadScrapeResult(QDownloadScrapeResult;) | rp download scrape result
+CONS RPDownloadStats(QDownloadStats;) | rp download stats
+CONS RPTorrentDownloader(QTorrentDownloader;) | rp torrent downloader
+CONS ScienceDirectPdfDownload() | science direct pdf download
+CONS SecondsDownloadingItem(QString;) | seconds downloading item
+CONS SinglePeerDownloader(QNetworkConnectionBase;QRateHandler;) | single peer downloader
+CONS SpringerLinkPdfDownload() | springer link pdf download
+CONS SubscriptionDownloader(QSubscriptionManagerImpl;QSubscriptionImpl;) | subscription downloader
+CONS TimeSinceDownloadItem(QString;) | time since download item
+CONS TorrentDownloaderException(QString;) | torrent downloader exception
+CONS TorrentDownloaderImpl() | torrent downloader impl
+CONS TorrentDownloaderImpl(QTorrentManagerImpl;QURL;) | torrent downloader impl
+CONS TorrentDownloaderImpl(QTorrentManagerImpl;QURL;QString;QString;) | torrent downloader impl
+CONS TorrentDownloaderManager() | torrent downloader manager
+CONS UpdateAutoDownloader([QUpdate;QcbCompletion;) | update auto downloader
+CONS URLDownload(QComponent;QURL;QFile;) | url download
+CONS URLDownload(QURL;) | url download

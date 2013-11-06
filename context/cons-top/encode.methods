@@ -1,0 +1,18 @@
+CONS ADPCMEncodeStream(QInputStream;ZZ) | adpcm encode stream
+CONS AZMessageEncoder(Z) | az message encoder
+CONS BEncoder(Z) | b encoder
+CONS BTMessageEncoder() | bt message encoder
+CONS BufferedEncoder(QTranslator;I) | buffered encoder
+CONS EncoderAction() | encoder action
+CONS EncoderAction(QString;) | encoder action
+CONS EncoderAction(QString;QPredicate;) | encoder action
+CONS EncoderAction(QVisualization;) | encoder action
+CONS EncoderAction(QVisualization;QString;) | encoder action
+CONS EncoderAction(QVisualization;QString;QPredicate;) | encoder action
+CONS GifEncoder() | gif encoder
+CONS GifEncoder([QColor;) | gif encoder
+CONS GifEncoder([QColor;II[B) | gif encoder
+CONS GifEncoder(QImage;) | gif encoder
+CONS GifPixelsEncoder(II[BZI) | gif pixels encoder
+CONS LTMessageEncoder(QObject;) | lt message encoder
+CONS MessageStreamEncoderAdapter(QMessageStreamEncoder;) | message stream encoder adapter

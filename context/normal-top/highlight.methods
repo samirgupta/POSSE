@@ -1,0 +1,73 @@
+ArrayList<QHighlightStatus;> getHighlightStatus(II) | get highlight status
+boolean getDrawsLayeredHighlights() | get draws layered highlights
+boolean isHighlightWithInvisibleEdge() | is highlight with invisible edge
+boolean shouldShowHighlightsInSource() | should show highlights in source
+Color getBracketHighlightColor() | get bracket highlight color
+Color getHighlightedColor() | get highlighted color
+Color getLineHighlightColor() | get line highlight color
+Highlighter.Highlight[] getHighlights() | get highlights
+HighlightInfo addHighlight(IIQHighlighter.HighlightPainter;) | add highlight
+HighlightManager getHighlightManager() | get highlight manager
+int getHighlightState() | get highlight state
+int _highlightKeywords(QArrayList<QHighlightStatus;>;I) | highlight keywords
+Object addHighlight(IIQHighlighter.HighlightPainter;) | add highlight
+Object getHighlightTag() | get highlight tag
+void addBreakpointHighlight(QBreakpoint;) | add breakpoint highlight
+void addCustomHighlight(QHighlight;) | add custom highlight
+void addErrorHighlight(II) | add error highlight
+void _addHighlight(II) | add highlight
+void changeHighlight(QObject;II) | change highlight
+void _checkHighlightStatusConsistent(QList<QHighlightStatus;>;II) | check highlight status consistent
+void clearHighlightedAtoms() | clear highlighted atoms
+void DefaultFrameHighlightPainter(QColor;I) | default frame highlight painter
+void DefaultUnderlineHighlightPainter(QColor;I) | default underline highlight painter
+void drawHighlight(QGraphics;II) | draw highlight
+void DrJavaHighlightPainter(QColor;) | dr java highlight painter
+void goToRegionAndHighlight(QIDocumentRegion;) | go to region and highlight
+void highlight(BeanLink bl, Color c, Graphics2D g) | highlight
+void highlightCompletedText(I) | highlight completed text
+void highlightEntry(QBibtexEntry;) | highlight entry
+void highlightError(II) | highlight error
+void _highlightErrorInSource(QPosition;) | highlight error in source
+void highlight(float value) | highlight
+void highlight(II) | highlight
+void HighlightInfo(IIQHighlighter.HighlightPainter;) | highlight info
+void highlight(QCoords;) | highlight
+void highlight(QPosition;) | highlight
+void paintBracketHighlight(QGraphics;II) | paint bracket highlight
+void paintHighlight(QGraphics;II) | paint highlight
+void paintLayeredHighlights(QGraphics;IIQShape;QJTextComponent;QView;) | paint layered highlights
+void paintLineHighlight(QGraphics;II) | paint line highlight
+void refreshBookmarkHighlightPainter() | refresh bookmark highlight painter
+void refreshBreakpointHighlightPainter() | refresh breakpoint highlight painter
+void refreshFindResultsHighlightPainter(QFindResultsPanel;QLayeredHighlighter.LayerPainter;) | refresh find results highlight painter
+void removeAllHighlights() | remove all highlights
+void removeBreakpointHighlight(QBreakpoint;) | remove breakpoint highlight
+void removeCurrentLocationHighlight() | remove current location highlight
+void removeErrorHighlight() | remove error highlight
+void removeHighlight() | remove highlight
+void removeHighlight(IIQHighlighter.HighlightPainter;) | remove highlight
+void removeHighlight(QHighlightInfo;) | remove highlight
+void removeHighlight(QObject;) | remove highlight
+void _removeListHighlight() | remove list highlight
+void _removePreviousHighlight() | remove previous highlight
+void setBracketHighlightColor(QColor;) | set bracket highlight color
+void setDrawsLayeredHighlights(Z) | set draws layered highlights
+void setHighlight1Cell(QObject;) | set highlight 1 cell
+void setHighlight2Cells([QObject;) | set highlight 2 cells
+void setHighlight3Cells([QObject;) | set highlight 3 cells
+void setHighlightBorderCell(QGroupTreeNode;) | set highlight border cell
+void setHighlightBorderCell(QObject;) | set highlight border cell
+void setHighlightedColor(QColor;) | set highlighted color
+void setHighlightHops(int h) | set highlight hops
+void setHighlight(QString;) | set highlight
+void setHighlightTag(QObject;) | set highlight tag
+void setHighlightWithInvisibleEdge(Z) | set highlight with invisible edge
+void setLineHighlightColor(QColor;) | set line highlight color
+void setNeighborHighlight(QNodeItem;Z) | set neighbor highlight
+void testHighlightInfoEquals() | test highlight info equals
+void testLaTeXHighlighting() | test la te x highlighting
+void textHighlightKeywords1() | text highlight keywords 1
+void textHighlightKeywords2() | text highlight keywords 2
+void updateBracketHighlight(I) | update bracket highlight
+void updateHighlight(I) | update highlight

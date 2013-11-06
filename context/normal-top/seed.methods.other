@@ -1,0 +1,21 @@
+boolean canToggleSuperSeedMode() | can toggle super seed mode
+boolean isSuperSeedMode() | is super seed mode
+byte[] createWebSeedPeerID() | create web seed peer id
+ExternalSeedPlugin getExternalSeedPlugin() | get external seed plugin
+ExternalSeedReader[] getSeedReaders(QExternalSeedPlugin;QDownload;) | get seed readers
+ExternalSeedReader[] getSeedReaders(QExternalSeedPlugin;QDownload;QMap;) | get seed readers
+InetAddress getSeedAddress() | get seed address
+int getMaxSeedConnections() | get max seed connections
+int getMaxSeedRetention() | get max seed retention
+int getNonSeedCount() | get non seed count
+int getSeedCount() | get seed count
+int getSeedCountForScrape(Z) | get seed count for scrape
+int getSeedLimit() | get seed limit
+long getSeedAnnounceIntervalMultiplier() | get seed announce interval multiplier
+String clusteringSeedTipText() | clustering seed tip text
+String randomSeedTipText() | random seed tip text
+void initialiseSuperSeedMode() | initialise super seed mode
+void setSuperSeedMode(Z) | set super seed mode
+void updatePeersInSuperSeedMode() | update peers in super seed mode
+void updateSeedSettings(F) | update seed settings
+void updateSuperSeedPiece(QPEPeer;I) | update super seed piece

@@ -1,0 +1,62 @@
+boolean other_peer_interested_in_me | other peer interested in me
+boolean send_peer_ids | send peer ids
+byte[] data_peer_id | data peer id
+byte[] duplicate_peer_checker | duplicate peer checker
+byte duplicate_peer_checker_index | duplicate peer checker index
+byte[] ID_AZ_PEER_EXCHANGE_BYTES | id az peer exchange bytes
+byte[] _myPeerId | my peer id
+byte other_peer_az_bad_piece_version | other peer az bad piece version
+byte other_peer_az_have_version | other peer az have version
+byte other_peer_az_request_hint_version | other peer az request hint version
+byte other_peer_bitfield_version | other peer bitfield version
+byte other_peer_bt_have_version | other peer bt have version
+byte other_peer_bt_lt_ext_version | other peer bt lt ext version
+byte other_peer_cancel_version | other peer cancel version
+byte other_peer_choke_version | other peer choke version
+byte other_peer_handshake_version | other peer handshake version
+byte other_peer_interested_version | other peer interested version
+byte other_peer_keep_alive_version | other peer keep alive version
+byte other_peer_pex_version | other peer pex version
+byte other_peer_piece_version | other peer piece version
+byte other_peer_request_version | other peer request version
+byte other_peer_unchoke_version | other peer unchoke version
+byte other_peer_uninterested_version | other peer uninterested version
+byte[] tracker_peer_id | tracker peer id
+com.aelitis.azureus.core.peermanager.peerdb.PeerItem[] cached_peer_popularities | cached peer popularities
+float ban_peer_discard_ratio | ban peer discard ratio
+int ban_peer_discard_min_kb | ban peer discard min kb
+int current_peer_state | current peer state
+int DEFAULT_ANNOUNCE_CACHE_PEER_THRESHOLD | default announce cache peer threshold
+int DIRECT_INJECT_PEER_MAX | direct inject peer max
+int IDLE_PEER_DISCONNECT_PERIOD | idle peer disconnect period
+int MAX_SEED_TO_PEER_RATIO | max seed to peer ratio
+int RANK_PEERCOUNT | rank peer count
+int SUBID_AZ_PEER_EXCHANGE | subid az peer exchange
+int TRAVERSE_REASON_PEER_DATA | traverse reason peer data
+int VER_INCOMING_PEER_SOURCE | ver incoming peer source
+java.lang.String AT_PEER_SOURCES | at peer sources
+java.lang.String client_peer_id | client peer id
+java.lang.String ID_AZ_PEER_EXCHANGE | id az peer exchange
+java.lang.String PEPEER_DATA_KEY | pe peer data key
+java.lang.String PID_TRACKER_PEER_AUTH | pid tracker peer auth
+java.lang.String ST_PEER_CONTROL_LOOP_COUNT | st peer control loop count
+java.lang.String ST_PEER_CONTROL_SCHEDULE_COUNT | st peer control schedule count
+java.lang.String ST_PEER_CONTROL_WAIT_COUNT | st peer control wait count
+java.lang.String ST_PEER_CONTROL_WAIT_TIME | st peer control wait time
+java.lang.String ST_PEER_CONTROL_YIELD_COUNT | st peer control yield count
+java.lang.String ST_PEER_MANAGER_COUNT | st peer manager count
+java.lang.String ST_PEER_MANAGER_PEER_COUNT | st peer manager peer count
+java.lang.String ST_PEER_MANAGER_PEER_SNUBBED_COUNT | st peer manager peer snubbed count
+java.lang.String ST_PEER_MANAGER_PEER_STALLED_DISK_COUNT | st peer manager peer stalled disk count
+java.lang.String TA_PEER_SOURCES | ta peer sources
+java.lang.String tracker_peer_id_str | tracker peer id str
+java.util.Map tracker_peer_cache | tracker peer cache
+java.util.Set ignore_peer_ports | ignore peer ports
+long FLAG_ALLOW_PERMITTED_PEER_SOURCE_CHANGES | flag allow permitted peer source changes
+long FT_DISABLE_PEER_GENERAL_RECONNECT | ft disable peer general reconnect
+long FT_DISABLE_PEER_UDP_RECONNECT | ft disable peer udp reconnect
+long last_peer_inject | last peer inject
+long pending_check_peer_count | pending check peer count
+org.gudy.azureus2.core3.util.AEMonitor tracker_peer_cache_mon | tracker peer cache mon
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl.DownloadPeerNotifier download_peer_notifier | download peer notifier
+org.gudy.azureus2.plugins.torrent.TorrentAttribute ta_peer_sources | ta peer sources

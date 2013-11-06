@@ -1,0 +1,41 @@
+boolean isLocationBad(I) | is location bad
+boolean isLocationBurning(I) | is location burning
+DefaultSaveLocationManager getDefaultSaveLocationManager() | get default save location manager
+double getLocationParam(String paramName, String tagString, double defaultValue) | get location param
+int addLocationData(QLabourData.LocationData;QColony;I) | add location data
+int getLocationFromAbbr(QString;) | get location from abbr
+int getLOCATION_RESOURCEReps() | get location resource reps
+int getLocationStatus(I) | get location status
+List getOrdinalParameterLocationList() | get ordinal parameter location list
+List<QWorkLocationPlan;> getSortedWorkLocationPlans() | get sorted work location plans
+List<QWorkLocationPlan;> getWorkLocationPlans() | get work location plans
+LocationData getLocationData(QColony;) | get location data
+LocationData getLocationData(QUnitData;) | get location data
+PluginLocation getLocationInsideJar(QString;QString;) | get location inside jar
+Point2D.Double getLocationOnDrawing() | get location on drawing
+SaveLocationManager getSaveLocationManager() | get save location manager
+String getLocationAbbr(I) | get location abbr
+String getLocationAbbr(QHitData;) | get location abbr
+String[] getLocationAbbrs() | get location abbrs
+String getLocationName() | get location name
+String getLocationName(I) | get location name
+String getLocationName(QHitData;) | get location name
+String[] getLocationNames() | get location names
+void addLocationAlias(LocationAlias aLocationAlias) | add location alias
+void addLocationSummary(QLabourData.LocationData;I) | add location summary
+void assertCoordinatesAndAnglesEqualCameraLocationAndAngles(FFFFFQCamera;) | assert coordinates and angles equal camera location and angles
+void assertLocationAndOrientationEqualPiece(FFFQHomePieceOfFurniture;) | assert location and orientation equal piece
+void assertThreadLocationUpdatedCount(I) | assert thread location updated count
+void paintTextLocationIndicator(QGraphics2D;FFQPaint;F) | paint text location indicator
+void removeCurrentLocationHighlight() | remove current location highlight
+void resetWalkerLocationToCursor() | reset walker location to cursor
+void setLocationACF(String location) | set location acf
+void setLocationAndSize(II) | set location and size
+void setLocationAndSize(QDimension;) | set location and size
+void setLocationNoUpdate(QLocation;) | set location no update
+void setLocationProbs(I[D) | set location probs
+void setLocationStatus(II) | set location status
+void setSaveLocationManager(QSaveLocationManager;) | set save location manager
+void testDocLocationAfterSwitch() | test doc location after switch
+void updateQueueLocationCombo() | update queue location combo
+WorkLocation getVacantWorkLocationFor(QUnit;) | get vacant work location for

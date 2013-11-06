@@ -1,0 +1,7 @@
+CONS AuthenticatedSafe(QASN1Sequence;) | authenticated safe
+CONS AuthenticatedSafe([QContentInfo;) | authenticated safe
+CONS AuthenticatorWindow() | authenticator window
+CONS NtlmPasswordAuthentication(QString;) | ntlm password authentication
+CONS NtlmPasswordAuthentication(QString;QString;[B[B[B) | ntlm password authentication
+CONS NtlmPasswordAuthentication(QString;QString;QString;) | ntlm password authentication
+CONS PasswordAuthenticator(QString;QString;) | password authenticator

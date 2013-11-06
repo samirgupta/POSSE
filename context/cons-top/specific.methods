@@ -1,0 +1,14 @@
+CONS AbstractExplicitParameterSpecification(II) | abstract explicit parameter specification
+CONS AssignmentSpecification(QAST;QQueryable;) | assignment specification
+CONS CollectionFilterKeyParameterSpecification(QString;QType;I) | collection filter key parameter specification
+CONS DERApplicationSpecific(I[B) | der application specific
+CONS DERApplicationSpecific(IQDEREncodable;) | der application specific
+CONS DERApplicationSpecific(ZIQDEREncodable;) | der application specific
+CONS DynamicFilterParameterSpecification(QString;QString;QType;I) | dynamic filter parameter specification
+CONS KeySpecificInfo(QASN1Sequence;) | key specific info
+CONS KeySpecificInfo(QDERObjectIdentifier;QASN1OctetString;) | key specific info
+CONS NamedParameterSpecification(IIQString;) | named parameter specification
+CONS NativeSQLQuerySpecification(QString;[QNativeSQLQueryReturn;QCollection;) | native sql query specification
+CONS PositionalParameterSpecification(III) | positional parameter specification
+CONS Specification(QInputStream;) | specification
+CONS VersionTypeSeedParameterSpecification(QVersionType;) | version type seed parameter specification

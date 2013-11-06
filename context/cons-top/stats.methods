@@ -1,0 +1,42 @@
+CONS CacheFileManagerStatsImpl(QCacheFileManagerImpl;) | cache file manager stats impl
+CONS DHTControlStatsImpl(QDHTControlImpl;) | dht control stats impl
+CONS DHTRouterStatsImpl(QDHTRouterImpl;) | dht router stats impl
+CONS DHTTransportLoopbackStatsImpl(B) | dht transport loopback stats impl
+CONS DHTTransportStatsImpl(B) | dht transport stats impl
+CONS DHTTransportUDPStatsImpl(QDHTTransportUDPImpl;BQDHTUDPPacketHandlerStats;) | dht transport udp stats impl
+CONS DHTUDPPacketHandlerStats(QDHTUDPPacketHandlerStats;QPRUDPPacketHandlerStats;) | dhtudp packet handler stats
+CONS DHTUDPPacketHandlerStats(QPRUDPPacketHandler;) | dhtudp packet handler stats
+CONS DHTUDPPacketReplyStats(QDHTTransportUDPImpl;IJQDHTTransportContact;QDHTTransportContact;) | dhtudp packet reply stats
+CONS DHTUDPPacketReplyStats(QDHTUDPPacketNetworkHandler;QInetSocketAddress;QDataInputStream;I) | dhtudp packet reply stats
+CONS DHTUDPPacketRequestStats(QDHTTransportUDPImpl;JQDHTTransportUDPContactImpl;QDHTTransportUDPContactImpl;) | dhtudp packet request stats
+CONS DHTUDPPacketRequestStats(QDHTUDPPacketNetworkHandler;QDataInputStream;JI) | dhtudp packet request stats
+CONS DownloadManagerStatsImpl(QDownloadManagerImpl;) | download manager stats impl
+CONS DownloadManagerStatsImpl(QGlobalManager;) | download manager stats impl
+CONS DownloadStatsImpl(QDownloadManager;) | download stats impl
+CONS GlobalManagerStatsImpl(QGlobalManagerImpl;) | global manager stats impl
+CONS GlobalManagerStatsWriter(QAzureusCore;) | global manager stats writer
+CONS GPStats() | gp stats
+CONS OverallStatsImpl(QAzureusCore;) | overall stats impl
+CONS PairedStatsCorrected(DD) | paired stats corrected
+CONS PairedStats(D) | paired stats
+CONS PeerManagerStatsImpl(QPEPeerManager;) | peer manager stats impl
+CONS PeerStatsImpl(QPeerManagerImpl;QPeer;QPEPeerStats;) | peer stats impl
+CONS PEPeerManagerStatsImpl(QPEPeerControlImpl;) | pe peer manager stats impl
+CONS PEPeerStatsImpl(QPEPeer;) | pe peer stats impl
+CONS PerformanceStats() | performance stats
+CONS PingSourceStats(QSpeedManagerPingSource;) | ping source stats
+CONS PRUDPPacketHandlerStatsImpl(QPRUDPPacketHandlerImpl;) | prudp packet handler stats impl
+CONS RPDownloadStats(QDownloadStats;) | rp download stats
+CONS RuleStats() | rule stats
+CONS RuleStats(QInstances;QFastVector;) | rule stats
+CONS StatsView() | stats view
+CONS StatsView(QGlobalManager;QAzureusCore;) | stats view
+CONS StatsWriterImpl(QAzureusCore;) | stats writer impl
+CONS StatsWriterPeriodicImpl(QAzureusCore;) | stats writer periodic impl
+CONS StatsWriterStreamerImpl(QAzureusCore;) | stats writer streamer impl
+CONS TransferStatsView(QGlobalManager;QAzureusCore;) | transfer stats view
+CONS TransportStats() | transport stats
+CONS TreePerformanceStats() | tree performance stats
+CONS TRTrackerServerStatsImpl(QTRTrackerServerImpl;) | tr tracker server stats impl
+CONS TRTrackerServerTorrentStatsImpl(QTRTrackerServerTorrentImpl;) | tr tracker server torrent stats impl
+CONS TwoClassStats(DDDD) | two class stats

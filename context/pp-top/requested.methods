@@ -1,0 +1,20 @@
+boolean activationRequested(QDownloadActivationEvent;) | activation requested
+boolean cancelRequested() | cancel requested
+boolean hasBeenRequested(QDiskManagerReadRequest;) | has been requested
+Boolean isCryptoRequested() | is crypto requested
+boolean isDecentralisedBackupRequested() | is decentralised backup requested
+boolean isDHTBackupRequested(QTOTorrent;) | is dht backup requested
+boolean isNextLineRequested() | is next line requested
+boolean isRequested() | is requested
+boolean isRequested(I) | is requested
+boolean restartRequested(QAzureusCore;) | restart requested
+boolean setRequested(QPEPeer;I) | set requested
+boolean stopRequested(QAzureusCore;) | stop requested
+void clearRequested(I) | clear requested
+void notifyStepRequested() | notify step requested
+void setDecentralisedBackupRequested(Z) | set decentralised backup requested
+void setDHTBackupRequested(QTOTorrent;Z) | set dht backup requested
+void setLastRequestedPeerSpeed(I) | set last requested peer speed
+void setMapSharingRequested(QString;QString;QString;) | set map sharing requested
+void setRequested() | set requested
+void stepRequested() | step requested

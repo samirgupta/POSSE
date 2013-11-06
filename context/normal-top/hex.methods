@@ -1,0 +1,98 @@
+boolean getShowMapHexPopup() | get show map hex popup
+boolean hexCouldBeCliff(QIBoard;QCoords;) | hex could be cliff
+boolean hexNeedsBridge(QIHex;) | hex needs bridge
+boolean isHexBuildable(QIHex;) | is hex buildable
+boolean isThroughFrontHex(QIGame;IQEntity;) | is through front hex
+boolean tryIgniteHex(QCoords;IZI) | try ignite hex
+boolean tryIgniteHex(QCoords;IZIZ) | try ignite hex
+byte[] hexToByteArray(QString;) | hex to byte array
+byte[] hexToByte(QString;) | hex to byte
+char digit_to_hex_letter(I) | digit to hex letter
+char toHexChar(I) | to hex char
+Coords nextHex(QCoords;QCoords;) | next hex
+Coords nextHex(QCoords;QIdealHex;QIdealHex;[I) | next hex
+Date hexDate(QString;) | hex date
+Enumeration getHexesAtDistance(QCoords;I) | get hexes at distance
+Hex getOtherHex(Hex loc) | get other hex
+IHex getHex() | get hex
+IHex getHex(II) | get hex
+IHex getHexInDir(III) | get hex in dir
+IHex getHexInDir(QCoords;I) | get hex in dir
+IHex getHex(QCoords;) | get hex
+int hex(QString;) | hex
+int hexval(C) | hexval
+int toASCIIHexDigit(I) | to ascii hex digit
+int unHex(C) | un hex
+int unHex(CC) | un hex
+MiscType createSingleHexECM() | create single hex ecm
+Packet createHexChangePacket(QCoords;QIHex;) | create hex change packet
+Point getCentreHexLocation(II) | get centre hex location
+Point getCentreHexLocation(QCoords;) | get centre hex location
+Point getHexLocation(II) | get hex location
+Point getHexLocation(QCoords;) | get hex location
+PyString __hex__() |  hex
+Shape hexagon(FFF) | hexagon
+String byteArrayToHex([BI) | byte array to hex
+String byteToHex([B) | byte to hex
+String byteToHex(B) | byte to hex
+String dateToHex(QDate;) | date to hex
+String getHexaColor(QColor;) | get hexa color
+String getHexValue() | get hex value
+String hexToDate(QString;) | hex to date
+String hexToRaw(QString;) | hex to raw
+String rawToHex(QString;) | raw to hex
+String toColorHexString(QColor;) | to color hex string
+String toHex([B) | to hex
+String toHex(I) | to hex
+String toHexString([BII) | to hex string
+String toHexString(II) | to hex string
+String toHexString(JI) | to hex string
+String toStringHexDump(QString;) | to string hex dump
+String unicodeToHexString(QString;) | unicode to hex string
+Vector calculateArtyAutoHitHexes() | calculate arty auto hit hexes
+Vector getArtyAutoHitHexes() | get arty auto hit hexes
+void addArtyAutoHitHex(QCoords;) | add arty auto hit hex
+void addToHex(QCoords;) | add to hex
+void artilleryDamageHex(QCoords;QCoords;IQAmmoType;IQEntity;QEntity;ZI) | artillery damage hex
+void boardChangedHex(QBoardEvent;) | board changed hex
+void centerOnHex(QCoords;) | center on hex
+void clearHex(QIHex;) | clear hex
+void connectHexes(QCoords;QCoords;I) | connect hexes
+void drawArtilleryHexes() | draw artillery hexes
+void drawHexes(QRectangle;) | draw hexes
+void drawHex(QCoords;) | draw hex
+void firstLOSHex(QBoardViewEvent;) | first los hex
+void firstLOSHex(QCoords;) | first los hex
+void HexCanvas() | hex canvas
+void hexCursor(QBoardViewEvent;) | hex cursor
+void hexdump(QPrintStream;[BII) | hexdump
+void HexEntry(QIHex;QString;) | hex entry
+void initializeHex(II) | initialize hex
+void loadAllHexes() | load all hexes
+void loadHexImage(QIHex;) | load hex image
+void loadHexImage(QIHex;QComponent;QMediaTracker;) | load hex image
+void loadHexImage(QIHex;QJComponent;QMediaTracker;) | load hex image
+void markDeploymentHexesFor(QPlayer;) | mark deployment hexes for
+void paintHex(QCoords;) | paint hex
+void printHex(int x) | print hex
+void receiveArtyAutoHitHexes(QPacket;I) | receive arty auto hit hexes
+void removeArtyAutoHitHexes() | remove arty auto hit hexes
+void repaintWorkingHex() | repaint working hex
+void resurfaceHex(QCoords;) | res ur face hex
+void secondLOSHex(QBoardViewEvent;QCoords;) | second los hex
+void secondLOSHex(QCoords;QCoords;) | second los hex
+void sendArtyAutoHitHexes(QVector;) | send arty auto hit hexes
+void sendChangedHex(QCoords;) | send changed hex
+void setArtyAutoHitHexes(QVector;) | set arty auto hit hexes
+void setCurrentHex(QIHex;) | set current hex
+void setHex(IIQIHex;) | set hex
+void setHexLocation(QCoords;) | set hex location
+void setHex(QCoords;QIHex;) | set hex
+void setShowMapHexPopup(Z) | set show map hex popup
+void toHexChars(I[CII) | to hex chars
+void toHexChars(J[CII) | to hex chars
+void trackHexImages(QIHex;QMediaTracker;) | track hex images
+void tryClearHex(QCoords;II) | try clear hex
+void twoHex(QStringBuffer;I) | two hex
+void waitForHex(QIHex;) | wait for hex
+void writeHex([BI[B) | write hex

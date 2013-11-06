@@ -1,0 +1,17 @@
+ArrayList calculateWeaponAttacks(QEntity;QMounted;Z) | calculate weapon attacks
+ArrayList<QMounted;> getWeaponList() | get weapon list
+boolean isWeaponBlockedAt(IZ) | is weapon blocked at
+boolean loadWeaponWithSameAmmo(QMounted;QMounted;) | load weapon with same ammo
+boolean resolveWeaponAttack(QWeaponResult;IZ) | resolve weapon attack
+boolean resolveWeaponAttack(QWeaponResult;IZI) | resolve weapon attack
+int getSelectedWeaponNum() | get selected weapon num
+int getWeaponArc(I) | get weapon arc
+int getWeaponId() | get weapon id
+ToHitData getDamageWeaponMods(QEntity;QMounted;) | get damage weapon mods
+Vector getWeaponModifiers(QMounted;) | get weapon modifiers
+void loadWeaponWithSameAmmo(QMounted;) | load weapon with same ammo
+void resolveAllButWeaponAttacks() | resolve all but weapon attacks
+void resolveOnlyWeaponAttacks() | resolve only weapon attacks
+void resolveWeaponAttack(QWeaponResult;I) | resolve weapon attack
+void setWeaponId(I) | set weapon id
+WeaponResult preTreatWeaponAttack(QWeaponAttackAction;) | pre treat weapon attack

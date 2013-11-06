@@ -1,0 +1,25 @@
+CONS AutoRemover(QString;QString;) | auto remover
+CONS BloomFilterAddRemove4Bit(I) | bloom filter add remove 4 bit
+CONS BloomFilterAddRemove8Bit(I) | bloom filter add remove 8 bit
+CONS CollectionRemoveAction(QObject;QCollectionPersister;QSerializable;ZQSessionImplementor;) | collection remove action
+CONS CollectionRemoveAction(QPersistentCollection;QCollectionPersister;QSerializable;ZQSessionImplementor;) | collection remove action
+CONS GameEntityRemoveEvent(QObject;QEntity;) | game entity remove event
+CONS PostCollectionRemoveEvent(QCollectionPersister;QPersistentCollection;QEventSource;QObject;) | post collection remove event
+CONS PreCollectionRemoveEvent(QCollectionPersister;QPersistentCollection;QEventSource;QObject;) | pre collection remove event
+CONS Remove() | remove
+CONS RemoveAllIconsAction(QModeController;QIconAction;) | remove all icons action
+CONS RemoveArrowLinkAction(QModeController;QMindMapArrowLinkModel;) | remove arrow link action
+CONS RemoveFromGroupAction() | remove from group action
+CONS RemoveFromGroupAction(QGroupTreeNode;QBasePanel;) | remove from group action
+CONS RemoveLastIconAction(QModeController;) | remove last icon action
+CONS RemoveMarginsOperation(QJReportFrame;IIII) | remove margins operation
+CONS RemovePropertyWizard() | remove property wizard
+CONS RemoveReminderHook() | remove reminder hook
+CONS Remover(QString;QString;) | remover
+CONS RemoverQuery(QString;QString;) | remover query
+CONS RemoveWithValues() | remove with values
+CONS StringRemoveChange(QBibtexString;QBibtexString;QBibtexString;) | string remove change
+CONS TorrentRemove() | torrent remove
+CONS UndoableAddOrRemoveGroup(QGroupSelector;QGroupTreeNode;QGroupTreeNode;I) | undoable add or remove group
+CONS UndoableRemoveEntry(QBibtexDatabase;QBibtexEntry;QBasePanel;) | undoable remove entry
+CONS UndoableRemoveString(QBasePanel;QBibtexDatabase;QBibtexString;) | undoable remove string

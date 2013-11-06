@@ -1,0 +1,18 @@
+boolean hasAutoDiscoverScalarTypes() | has auto discover scalar types
+boolean isDiscoverable() | is discoverable
+int getDiscoveredPeerCount() | get discovered peer count
+List discoverDim(String cat, String cube) | discover dim
+PeerItem[] getDiscoveredPeers() | get discovered peers
+Player getDiscoveredBy() | get discovered by
+Region getDiscoverableRegion() | get discoverable region
+RuntimeDiscoverer getRuntimeDiscoverer() | get runtime discoverer
+Turn getDiscoveredIn() | get discovered in
+void addDiscoveredPeer(QPeerItem;) | add discovered peer
+void autoDiscoverTypes(QResultSet;) | auto discover types
+void discover(QPlayer;QTurn;QString;) | discover
+void performDiscovery(QMetadata;QList;QList;) | perform discovery
+void prepareForAutoDiscovery(QMetadata;) | prepare for auto discovery
+void setAutoDiscoverScalarTypes(Z) | set auto discover scalar types
+void setDiscoverable(Z) | set discoverable
+void setDiscoveredBy(QPlayer;) | set discovered by
+void setDiscoveredIn(QTurn;) | set discovered in

@@ -1,0 +1,44 @@
+boolean isColonyCenterTile() | is colony center tile
+boolean isSingleTile(II) | is single tile
+boolean knownEnemyOnLastTile(QPathNode;) | known enemy on last tile
+ColonyTile getColonyTile() | get colony tile
+ColonyTile getColonyTile(II) | get colony tile
+ColonyTile getColonyTile(QTile;) | get colony tile
+ColonyTile getWorkTile() | get work tile
+int getXTile(I) | get x tile
+int getYTile(I) | get y tile
+PlayerExploredTile getPlayerExploredTile(QPlayer;) | get player explored tile
+Point getUnitImagePositionInTile(IIII) | get unit image position in tile
+Point getUnitImagePositionInTile(QImage;II) | get unit image position in tile
+Point getUnitLabelPositionInTile(QJLabel;QPoint;) | get unit label position in tile
+Point getUnitLabelPositionInTile(QJLabel;QTile;) | get unit label position in tile
+Position getSelectedTile() | get selected tile
+Raster genTile(II) | gen tile
+Raster getTile(II) | get tile
+Tile createTile(QGame;II[[ZI) | create tile
+Tile getClosestTile(QMap;QPosition;QList<QTile;>;) | get closest tile
+Tile getTile() | get tile
+Tile getTile(II) | get tile
+Tile getTile(QPosition;) | get tile
+Tile getWorkTile() | get work tile
+void addTile(QTile;) | add tile
+void createPlayerExploredTile(QPlayer;) | create player explored tile
+void displayBaseTile(QGraphics2D;QMap;QTile;IIZ) | display base tile
+void displayColonyTile(QGraphics2D;QMap;QTile;IIQColony;) | display colony tile
+void displayTile(QGraphics2D;QMap;QTile;II) | display tile
+void displayTile(QGraphics2D;QMap;QTile;IIZ) | display tile
+void initializeAsCenterTile(QImageLibrary;) | initialize as center tile
+void moveToTile(QTile;) | move to tile
+void PlayerExploredTile(QPlayer;QTileItemContainer;) | player explored tile
+void PlayerExploredTile(QXMLStreamReader;) | player explored tile
+void produceGoodsCenterTile() | produce goods center tile
+void refreshTile(II) | refresh tile
+void refreshTile(QPosition;) | refresh tile
+void refreshTile(QTile;) | refresh tile
+void setSelectedTile(QPosition;) | set selected tile
+void setSelectedTile(QPosition;Z) | set selected tile
+void setTile(IIQRaster;) | set tile
+void setTile(QTile;) | set tile
+void setTile(QTile;II) | set tile
+void updatePlayerExploredTile(QPlayer;) | update player explored tile
+WritableRaster makeTile(II) | make tile

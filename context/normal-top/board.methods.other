@@ -1,0 +1,30 @@
+BoardSelectionDialog getBoardSelectionDialog() | get board selection dialog
+ForumStats getBoardStatus() | get board status
+IBoardView getBoardView() | get board view
+Image getEntireBoardImage() | get entire board image
+int getBoardHeight() | get board height
+int getBoardWidth() | get board width
+int getOffBoardDirection() | get off board direction
+int getOffBoardDistance() | get off board distance
+Packet createBoardPacket() | create board packet
+String getBoardNum() | get board num
+Vector getBoardBuildings() | get board buildings
+void addBoardListener(QBoardListener;) | add board listener
+void addBoardViewListener(QBoardViewListener;) | add board view listener
+void applyBoardSettings() | apply board settings
+void copyBoardInto([QIHex;IIIQIBoard;) | copy board into
+void gameBoardNew(QGameBoardNewEvent;) | game board new
+void moveBoardImage() | move board image
+void processBoardEvent(QBoardEvent;) | process board event
+void processBoardViewEvent(QBoardViewEvent;) | process board view event
+void refreshBoardSettings() | refresh board settings
+void removeBoardListener(QBoardListener;) | remove board listener
+void removeBoardViewListener(QBoardViewListener;) | remove board view listener
+void replaceBoardWithRandom(QString;) | replace board with random
+void setBoardBuildings(QVector;) | set board buildings
+void setBoardSize(II) | set board size
+void setClipBoardContent(QVector;) | set clip board content
+void setupBoardSettings() | setup board settings
+void showBoardPopup(QPoint;) | show board popup
+void updateBoardImage() | update board image
+void updateBoardSize() | update board size

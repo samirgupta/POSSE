@@ -1,0 +1,49 @@
+boolean delegate_is_https | delegate is https
+boolean http_test | http test
+boolean USE_HTTP_POST | use http post
+boolean web_password_https_only | web password https only
+byte[] HTTP_RESPONSE_END_GZIP | http response end gzip
+byte[] HTTP_RESPONSE_END_NOGZIP | http response end no gzip
+byte[] HTTP_RESPONSE_START | http response start
+byte[] HTTP_RESPONSE_XML_START | http response xml start
+com.aelitis.azureus.core.networkmanager.impl.http.HTTPNetworkConnection http_connection | http connection
+com.aelitis.azureus.core.networkmanager.impl.http.HTTPNetworkConnection.httpRequest http_request | http request
+com.aelitis.azureus.core.networkmanager.impl.tcp.IncomingSocketChannelManager http_incoming_manager | http incoming manager
+com.aelitis.azureus.plugins.extseed.util.ExternalSeedHTTPDownloader[] http_downloaders | http downloaders
+int http_calls_ok | http calls ok
+int HTTP_SERVER_PORT | http server port
+int INT_HTTP | int http
+int PR_HTTP | pr http
+int PR_HTTPS | pr https
+int PT_HTTP | pt http
+int SC_DEFAULT_HTTP_SERVER_PORT | sc default http server port
+int SC_DEFAULT_HTTPS_SERVER_PORT | sc default https server port
+int SC_PROTOCOL_HTTP | sc protocol http
+int URLSTYLE_HTTP | urls ty le http
+java.lang.String holdHTTPSProxyHost | hold https proxy host
+java.lang.String holdHTTPSProxyPort | hold https proxy port
+java.lang.String http_host | http host
+java.lang.String http_port | http port
+java.lang.String HTTP_SERVER_ADDRESS_V4 | http server address v 4
+java.lang.String HTTP_SERVER_ADDRESS_V6 | http server address v 6
+java.lang.String https_host | https host
+java.lang.String https_port | https port
+java.lang.String HTTP_VERSION | http version
+java.lang.String NAT_TEST_SERVER_HTTP | nat test server http
+java.lang.String S_HTTP | s http
+java.lang.String S_HTTPS | s https
+java.lang.String ST_NET_HTTP_IN_REQUEST_COUNT | st net http in request count
+java.lang.String ST_NET_HTTP_IN_REQUEST_GETRIGHT_COUNT | st net http in request get right count
+java.lang.String ST_NET_HTTP_IN_REQUEST_INVALID_COUNT | st net http in request invalid count
+java.lang.String ST_NET_HTTP_IN_REQUEST_OK_COUNT | st net http in request ok count
+java.lang.String ST_NET_HTTP_IN_REQUEST_WEBSEED_COUNT | st net http in request web seed count
+java.lang.String URLSTYLE_HTTP_STR | urls ty le http str
+java.text.SimpleDateFormat http_date_format | http date format
+java.util.List http_peers | http peers
+java.util.List http_requests | http requests
+java.util.Map http_connection_map | http connection map
+javax.swing.JCheckBox proxyHttps | proxy https
+javax.swing.JTextField httpsProxyHost | https proxy host
+javax.swing.JTextField httpsProxyPort | https proxy port
+long last_http_activity_time | last http activity time
+short http_port | http port

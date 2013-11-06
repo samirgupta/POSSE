@@ -1,0 +1,6 @@
+CONS ExecuteExternalDialog(QMainFrame;) | execute external dialog
+CONS ExecuteExternalDialog(QMainFrame;ZIQCompletionMonitor;) | execute external dialog
+CONS ExecuteGotoOrdersAction(QFreeColClient;) | execute goto orders action
+CONS ExecuteUpdateResultCheckStyle(QString;) | execute update result check style
+CONS QueryExecuteEvent(QObject;QDbUtils;QString;IQResultSet;QException;) | query execute event
+CONS SearchExecuter(QMap;QResultListener;) | search executer

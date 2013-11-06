@@ -1,0 +1,2405 @@
+../3-Phrases/3PS:boolean containsOption() | contains option
+../3-Phrases/3PS:boolean isOptionExist(CliOption option) | is option exist
+../3-Phrases/Base_Verb:void setOnOption(String option, String aliases, Object target, String memberName, double defaultValue) | set on option
+../3-Phrases/Base_Verb:void setOptionsToDefaults() | set options to defaults
+../3-Phrases/Base_Verb:static BackgroundDocument parse(String xmlAsString, XmlOptions options) | background document parse
+../3-Phrases/Base_Verb:static BrClearType parse(Node node, XmlOptions options) | br clear type parse
+../3-Phrases/Base_Verb:static BrElt parse(File file, XmlOptions options) | br elt parse
+../3-Phrases/Base_Verb:static CountType parse(InputStream is, XmlOptions options) | count type parse
+../3-Phrases/Base_Verb:static DeriverPropsDocument parse(File f, XmlOptions options) | deriver props document parse
+../3-Phrases/Base_Verb:static EndIntensityAttribute parse(XMLStreamReader sr, XmlOptions options) | end intensity attribute parse
+../3-Phrases/Base_Verb:static FontFamilyComplexAttribute parse(InputStream is, XmlOptions options) | font family complex attribute parse
+../3-Phrases/Base_Verb:static IdmapElt parse(XMLInputStream xis, XmlOptions options) | id map elt parse
+../3-Phrases/Base_Verb:static ImageElt parse(InputStream is, XmlOptions options) | image elt parse
+../3-Phrases/Base_Verb:static InlineStringDocument parse(String xmlAsString, XmlOptions options) | inline string document parse
+../3-Phrases/Base_Verb:static ListLevelStyleBulletDocument parse(URL u, XmlOptions options) | list level style bullet document parse
+../3-Phrases/Base_Verb:static ListboxDocument parse(InputStream is, XmlOptions options) | listbox document parse
+../3-Phrases/Base_Verb:static MarkerEndAttribute parse(String xmlAsString, XmlOptions options) | marker end attribute parse
+../3-Phrases/Base_Verb:static NOTATIONDocument parse(Node node, XmlOptions options) | notationdocument parse
+../3-Phrases/Base_Verb:static PlacingAttribute parse(String xmlAsString, XmlOptions options) | placing attribute parse
+../3-Phrases/Base_Verb:static ResourcePropertiesDocument parse(File file, XmlOptions options) | resource properties document parse
+../3-Phrases/Base_Verb:static RubyAlignAttribute parse(XMLStreamReader sr, XmlOptions options) | ruby align attribute parse
+../3-Phrases/Base_Verb:static ShapesDocument parse(Reader r, XmlOptions options) | shapes document parse
+../3-Phrases/Base_Verb:static SmartTagTypeDocument parse(Reader r, XmlOptions options) | smart tag type document parse
+../3-Phrases/Base_Verb:static TabIndexAttribute parse(File file, XmlOptions options) | tab index attribute parse
+../3-Phrases/Base_Verb:static TitleDocument parse(XMLInputStream xis, XmlOptions options) | title document parse
+../3-Phrases/Base_Verb:static ValueDocument parse(Reader r, XmlOptions options) | value document parse
+../3-Phrases/Base_Verb:static VisibilityAttribute parse(XMLStreamReader sr, XmlOptions options) | visibility attribute parse
+../3-Phrases/Base_Verb:static WidowsAttribute parse(XMLStreamReader sr, XmlOptions options) | widows attribute parse
+../3-Phrases/Base_Verb:static WrapAnchorxElt parse(String xmlAsString, XmlOptions options) | wrap anchorx elt parse
+../3-Phrases/Base_Verb:static XorType parse(String xmlAsString, XmlOptions options) | xor type parse
+../3-Phrases/Base_Verb:boolean match(LoginOptions options) | match
+../3-Phrases/Base_Verb:void setOptions(int options) | set options
+../3-Phrases/Base_Verb:StringBuilder generateUsage(StringBuilder buffer, List options) | generate usage
+../3-Phrases/Base_Verb:void writeJarOptions(String inputEntryOptionName, String outputEntryOptionName, ClassPath classPath) | write jar options
+../3-Phrases/Base_Verb:OptionsAuthenticationPanel getOptionsAuthenticationPanel() | get options authentication panel
+../3-Phrases/Base_Verb:String getNonOptionArgsUsage() | get non option args usage
+../3-Phrases/Base_Verb:static String createOptionList(Collection allValues, Set selectedValues, ToStringPairTransformer objectToStringPairTransformer) | string create option list
+../3-Phrases/Base_Verb:void appendSingleWordOption(List list, String name, boolean on) | append single word option
+../3-Phrases/Base_Verb:Vector listOptionAll() | list option all
+../3-Phrases/Base_Verb:JOptionPane getOptionPane() | get option pane
+../3-Phrases/Base_Verb:Element processObjectReference(Element parentElement, String propertyName, Object value, Element referenceSourceElement, SerializeOption option) | process object reference
+../3-Phrases/Base_Verb:Vector getInvalidOptions() | get invalid options
+../3-Phrases/Base_Verb:void setOptionalUiChildren(OptionalUiChildrenInterface child) | set optional ui children
+../3-Phrases/Base_Verb:void setOption(String key, String value) | set option
+../3-Phrases/Base_Verb:void writeOptionFile(String filename) | write option file
+../3-Phrases/Base_Verb:Event getUserEvent(String name, String optionString) | get user event
+../3-Phrases/Base_Verb:option choosed(int option)
+../3-Phrases/Dguitar:void menuOptionsEvaluateActionPerformed(Qjava.awt.event.ActionEvent;) | menu options evaluate action performed
+../3-Phrases/Dguitar:void menuOptionsConfirmLoadActionPerformed(Qjava.awt.event.ActionEvent;) | menu options confirm load action performed
+../3-Phrases/Dguitar:void menuOptionsFileLocationActionPerformed(Qjava.awt.event.ActionEvent;) | menu options file location action performed
+../3-Phrases/Dguitar:CONS DisplayOptions() | display options
+../3-Phrases/DrawSWF:CONS OpenOptionsDialogAction(QString;QString;QDrawingPanel;) | open options dialog action
+../3-Phrases/DrawSWF:CONS OpenOptionsDialogAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | open options dialog action
+../3-Phrases/DrawSWF:CONS OptionsDialog() | options dialog
+../3-Phrases/DrawSWF:int getOption() | get option
+../3-Phrases/drjava2:CONS StringOptionTest(QString;) | string option test
+../3-Phrases/drjava2:CONS NonNegativeIntegerOptionTest(QString;) | non negative integer option test
+../3-Phrases/drjava2:CONS IntegerOptionTest(QString;) | integer option test
+../3-Phrases/drjava2:CONS ColorOptionTest(QString;) | color option test
+../3-Phrases/drjava2:CONS IntegerOption(QString;QInteger;) | integer option
+../3-Phrases/drjava2:CONS BooleanOptionTest(QString;) | boolean option test
+../3-Phrases/drjava2:CONS OptionMapLoader(QInputStream;) | option map loader
+../3-Phrases/drjava2:CONS OptionMapLoader(QProperties;) | option map loader
+../3-Phrases/drjava2:T getOption(QOptionParser<QT;>;) | get option
+../3-Phrases/drjava2:T setOption(QOption<QT;>;QT;) | set option
+../3-Phrases/drjava2:T removeOption(QOptionParser<QT;>;) | remove option
+../3-Phrases/drjava2:CONS ForcedChoiceOption(QString;QString;QCollection<QString;>;) | forced choice option
+../3-Phrases/drjava2:CONS FileOption(QString;QFile;) | file option
+../3-Phrases/drjava2:CONS ColorOption(QString;QColor;) | color option
+../3-Phrases/drjava2:CONS FontOption(QString;QFont;) | font option
+../3-Phrases/drjava2:CONS OptionMapLoaderTest(QString;) | option map loader test
+../3-Phrases/drjava2:CONS KeyStrokeOption(QString;QKeyStroke;) | key stroke option
+../3-Phrases/drjava2:CONS VectorOption(QString;QParseStrategy<QT;>;QFormatStrategy<QT;>;QString;CQString;QVector<QT;>;) | vector option
+../3-Phrases/drjava2:CONS VectorOption(QString;QOption<QT;>;QString;CQString;QVector<QT;>;) | vector option
+../3-Phrases/drjava2:CONS VectorOption(QString;QOption<QT;>;QVector<QT;>;) | vector option
+../3-Phrases/drjava2:CONS OptionParser(QString;QT;) | option parser
+../3-Phrases/drjava2:T getOption(QDefaultOptionMap;) | get option
+../3-Phrases/drjava2:T setOption(QDefaultOptionMap;QT;) | set option
+../3-Phrases/drjava2:CONS ForcedChoiceOptionTest(QString;) | forced choice option test
+../3-Phrases/drjava2:CONS KeyStrokeOptionTest(QString;) | key stroke option test
+../3-Phrases/drjava2:CONS NonNegativeIntegerOption(QString;QInteger;) | non negative integer option
+../3-Phrases/drjava2:CONS StringOption(QString;QString;) | string option
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QString;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QString;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QString;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QString;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QString;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QString;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QString;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QString;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QString;>;) | option changed
+../3-Phrases/drjava2:CONS BooleanOption(QString;QBoolean;) | boolean option
+../3-Phrases/drjava2:CONS LongOptionTest(QString;) | long option test
+../3-Phrases/drjava2:CONS OptionEvent(QOption<QT;>;QT;) | option event
+../3-Phrases/drjava2:void addOptionListener(QOption<QT;>;QOptionListener<QT;>;) | add option listener
+../3-Phrases/drjava2:void removeOptionListener(QOption<QT;>;QOptionListener<QT;>;) | remove option listener
+../3-Phrases/drjava2:OptionMap getOptionMap() | get option map
+../3-Phrases/drjava2:CONS OptionParseException(QString;QString;QString;) | option parse exception
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QT;>;) | option changed
+../3-Phrases/drjava2:CONS Option(QString;QT;) | option
+../3-Phrases/drjava2:T getOption(QOptionParser<QT;>;) | get option
+../3-Phrases/drjava2:T setOption(QOption<QT;>;QT;) | set option
+../3-Phrases/drjava2:void setOption(QOptionParser<QT;>;) | set option
+../3-Phrases/drjava2:T removeOption(QOptionParser<QT;>;) | remove option
+../3-Phrases/drjava2:CONS LongOption(QString;QLong;) | long option
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QInteger;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QInteger;>;) | option changed
+../3-Phrases/drjava2:void _registerOptionListeners() | register option listeners
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QInteger;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QBoolean;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QBoolean;>;) | option changed
+../3-Phrases/drjava2:HashMap<QString;QString;> getOptions(Z) | get options
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QFont;>;) | option changed
+../3-Phrases/drjava2:void attachOptionListeners(QAbstractDJDocument;) | attach option listeners
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QFont;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QInteger;>;) | option changed
+../3-Phrases/drjava2:OptionListener<QInteger;> getHistoryOptionListener() | get history option listener
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QBoolean;>;) | option changed
+../3-Phrases/drjava2:void testOptionListenerToString() | test option listener to string
+../3-Phrases/drjava2:OptionListener<QInteger;> getHistoryOptionListener() | get history option listener
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QKeyStroke;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QKeyStroke;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QBoolean;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QBoolean;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QKeyStroke;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QKeyStroke;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QKeyStroke;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:CONS JarOptionsDialog(QMainFrame;) | jar options dialog
+../3-Phrases/drjava2:void _toggleClassOptions() | toggle class options
+../3-Phrases/drjava2:void initJarOptionsDialog() | init jar options dialog
+../3-Phrases/drjava2:void resetJarOptionsDialogPosition() | reset jar options dialog position
+../3-Phrases/drjava2:JComponent[] makeOptions() | make options
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QBoolean;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QBoolean;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QString;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QString;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QString;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QString;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QString;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QString;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QVector<QString;>;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QInteger;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QFont;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QFont;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QFont;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QFont;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QBoolean;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QBoolean;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QBoolean;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QInteger;>;) | option changed
+../3-Phrases/drjava2:JComponent[] makeOptions() | make options
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QKeyStroke;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QKeyStroke;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QKeyStroke;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QKeyStroke;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QKeyStroke;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QKeyStroke;>;) | option changed
+../3-Phrases/drjava2:void FindResultsColorOptionListener(I) | find results color option listener
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void KeyStrokeOptionListener(QJMenuItem;QAction;QKeyStroke;) | key stroke option listener
+../3-Phrases/drjava2:void KeyStrokeOptionListener(QAction;QKeyStroke;) | key stroke option listener
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QKeyStroke;>;) | option changed
+../3-Phrases/drjava2:Option<QKeyStroke;> getOption() | get option
+../3-Phrases/drjava2:void setOption(QOption<QKeyStroke;>;) | set option
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void FindResultsColorOptionListener(I) | find results color option listener
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QBoolean;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QFont;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QBoolean;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QBoolean;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QT;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:CONS FontOptionComponent(QFontOption;QString;QSwingFrame;) | font option component
+../3-Phrases/drjava2:CONS FontOptionComponent(QFontOption;QString;QSwingFrame;QString;) | font option component
+../3-Phrases/drjava2:CONS OptionComponent(QOption<QT;>;QString;QSwingFrame;) | option component
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QT;>;) | option changed
+../3-Phrases/drjava2:CONS OptionComponent(QString;QSwingFrame;) | option component
+../3-Phrases/drjava2:Option<QT;> getOption() | get option
+../3-Phrases/drjava2:CONS VectorFileOptionComponent(QVectorOption<QFile;>;QString;QSwingFrame;) | vector file option component
+../3-Phrases/drjava2:CONS VectorFileOptionComponent(QVectorOption<QFile;>;QString;QSwingFrame;QString;) | vector file option component
+../3-Phrases/drjava2:CONS VectorFileOptionComponent(QVectorOption<QFile;>;QString;QSwingFrame;Z) | vector file option component
+../3-Phrases/drjava2:CONS VectorFileOptionComponent(QVectorOption<QFile;>;QString;QSwingFrame;QString;Z) | vector file option component
+../3-Phrases/drjava2:CONS VectorOptionComponent(QVectorOption<QT;>;QString;QSwingFrame;) | vector option component
+../3-Phrases/drjava2:CONS VectorOptionComponent(QVectorOption<QT;>;QString;QSwingFrame;QString;) | vector option component
+../3-Phrases/drjava2:CONS BooleanOptionComponentTest(QString;) | boolean option component test
+../3-Phrases/drjava2:CONS ToolbarOptionComponent(QString;QSwingFrame;) | toolbar option component
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QBoolean;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QBoolean;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QBoolean;>;) | option changed
+../3-Phrases/drjava2:CONS ToolbarOptionComponent(QString;QSwingFrame;QString;) | toolbar option component
+../3-Phrases/drjava2:CONS DirectoryOptionComponent(QFileOption;QString;QSwingFrame;QDirectoryChooser;) | directory option component
+../3-Phrases/drjava2:CONS DirectoryOptionComponent(QFileOption;QString;QSwingFrame;QString;QDirectoryChooser;) | directory option component
+../3-Phrases/drjava2:CONS FileOptionComponentTest(QString;) | file option component test
+../3-Phrases/drjava2:CONS StringOptionComponent(QStringOption;QString;QSwingFrame;) | string option component
+../3-Phrases/drjava2:CONS StringOptionComponent(QStringOption;QString;QSwingFrame;QString;) | string option component
+../3-Phrases/drjava2:void addOptionComponent(QConfigPanel;QOptionComponent<QX;>;) | add option component
+../3-Phrases/drjava2:CONS ColorOptionComponent(QColorOption;QString;QSwingFrame;) | color option component
+../3-Phrases/drjava2:CONS ColorOptionComponent(QColorOption;QString;QSwingFrame;Z) | color option component
+../3-Phrases/drjava2:CONS ColorOptionComponent(QColorOption;QString;QSwingFrame;ZZ) | color option component
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:void optionChanged(QOptionEvent<QColor;>;) | option changed
+../3-Phrases/drjava2:CONS ColorOptionComponent(QColorOption;QString;QSwingFrame;QString;) | color option component
+../3-Phrases/drjava2:CONS ColorOptionComponent(QColorOption;QString;QSwingFrame;QString;Z) | color option component
+../3-Phrases/drjava2:CONS ColorOptionComponent(QColorOption;QString;QSwingFrame;QString;ZZ) | color option component
+../3-Phrases/drjava2:CONS IntegerOptionComponent(QIntegerOption;QString;QSwingFrame;) | integer option component
+../3-Phrases/drjava2:CONS IntegerOptionComponent(QIntegerOption;QString;QSwingFrame;QString;) | integer option component
+../3-Phrases/drjava2:CONS KeyStrokeOptionComponent(QKeyStrokeOption;QString;QSwingFrame;) | key stroke option component
+../3-Phrases/drjava2:CONS KeyStrokeOptionComponent(QKeyStrokeOption;QString;QSwingFrame;QString;) | key stroke option component
+../3-Phrases/drjava2:CONS ColorOptionComponentTest(QString;) | color option component test
+../3-Phrases/drjava2:CONS ForcedChoiceOptionComponent(QForcedChoiceOption;QString;QSwingFrame;) | forced choice option component
+../3-Phrases/drjava2:CONS ForcedChoiceOptionComponent(QForcedChoiceOption;QString;QSwingFrame;QString;) | forced choice option component
+../3-Phrases/drjava2:CONS VectorClassnameOptionComponent(QVectorOption<QString;>;QString;QSwingFrame;) | vector classname option component
+../3-Phrases/drjava2:CONS VectorClassnameOptionComponent(QVectorOption<QString;>;QString;QSwingFrame;QString;) | vector classname option component
+../3-Phrases/drjava2:CONS VectorStringOptionComponent(QVectorOption<QString;>;QString;QSwingFrame;) | vector string option component
+../3-Phrases/drjava2:CONS VectorStringOptionComponent(QVectorOption<QString;>;QString;QSwingFrame;QString;) | vector string option component
+../3-Phrases/drjava2:CONS VectorStringOptionComponent(QVectorOption<QString;>;QString;QSwingFrame;Z) | vector string option component
+../3-Phrases/drjava2:CONS VectorStringOptionComponent(QVectorOption<QString;>;QString;QSwingFrame;QString;Z) | vector string option component
+../3-Phrases/drjava2:CONS FileOptionComponent(QFileOption;QString;QSwingFrame;QJFileChooser;) | file option component
+../3-Phrases/drjava2:CONS FileOptionComponent(QFileOption;QString;QSwingFrame;QString;QJFileChooser;) | file option component
+../3-Phrases/drjava2:CONS BooleanOptionComponent(QBooleanOption;QString;QSwingFrame;Z) | boolean option component
+../3-Phrases/drjava2:CONS BooleanOptionComponent(QBooleanOption;QString;QSwingFrame;QString;Z) | boolean option component
+../3-Phrases/drjava2:CONS BooleanOptionComponent(QBooleanOption;QString;QSwingFrame;) | boolean option component
+../3-Phrases/drjava2:CONS BooleanOptionComponent(QBooleanOption;QString;QSwingFrame;QString;) | boolean option component
+../3-Phrases/drjava2:JComponent[] makeOptions() | make options
+../3-Phrases/drjava2:void _setupOptionsPanel([QJComponent;) | setup options panel
+../3-Phrases/freecol2:File getClientOptionsFile() | get client options file
+../3-Phrases/freecol2:CONS ClientOptions() | client options
+../3-Phrases/freecol2:CONS ClientOptions(QElement;) | client options
+../3-Phrases/freecol2:void addDefaultOptions() | add default options
+../3-Phrases/freecol2:BooleanOption getBooleanOption(QModelMessage;) | get boolean option
+../3-Phrases/freecol2:void saveClientOptions() | save client options
+../3-Phrases/freecol2:void saveClientOptions(QFile;) | save client options
+../3-Phrases/freecol2:void loadClientOptions() | load client options
+../3-Phrases/freecol2:void loadClientOptions(QFile;) | load client options
+../3-Phrases/freecol2:ClientOptions getClientOptions() | get client options
+../3-Phrases/freecol2:void setMapGeneratorOptions(QMapGeneratorOptions;) | set map generator options
+../3-Phrases/freecol2:MapGeneratorOptions getMapGeneratorOptions() | get map generator options
+../3-Phrases/freecol2:void sendGameOptions() | send game options
+../3-Phrases/freecol2:void sendMapGeneratorOptions() | send map generator options
+../3-Phrases/freecol2:Element updateGameOptions(QElement;) | update game options
+../3-Phrases/freecol2:Element updateMapGeneratorOptions(QElement;) | update map generator options
+../3-Phrases/freecol2:ClientOptionsDialog getClientOptionsDialog() | get client options dialog
+../3-Phrases/freecol2:boolean isClientOptionsDialogShowing() | is client options dialog showing
+../3-Phrases/freecol2:boolean showGameOptionsDialog(Z) | show game options dialog
+../3-Phrases/freecol2:boolean showClientOptionsDialog() | show client options dialog
+../3-Phrases/freecol2:boolean showMapGeneratorOptionsDialog(Z) | show map generator options dialog
+../3-Phrases/freecol2:boolean showMapGeneratorOptionsDialog(ZQMapGeneratorOptions;) | show map generator options dialog
+../3-Phrases/freecol2:void displayOptionalValues(QGraphics2D;QMap;QTile;II) | display optional values
+../3-Phrases/freecol2:CONS PercentageOptionUI(QPercentageOption;Z) | percentage option ui
+../3-Phrases/freecol2:void updateOption() | update option
+../3-Phrases/freecol2:void updateOption() | update option
+../3-Phrases/freecol2:CONS LanguageOptionUI(QLanguageOption;Z) | language option ui
+../3-Phrases/freecol2:void updateOption() | update option
+../3-Phrases/freecol2:CONS FileOptionUI(QFileOption;Z) | file option ui
+../3-Phrases/freecol2:void updateOption() | update option
+../3-Phrases/freecol2:CONS RangeOptionUI(QRangeOption;Z) | range option ui
+../3-Phrases/freecol2:void updateOption() | update option
+../3-Phrases/freecol2:CONS SelectOptionUI(QSelectOption;Z) | select option ui
+../3-Phrases/freecol2:void updateOption() | update option
+../3-Phrases/freecol2:CONS BooleanOptionUI(QBooleanOption;Z) | boolean option ui
+../3-Phrases/freecol2:void updateOption() | update option
+../3-Phrases/freecol2:CONS OptionMapUI(QOptionMap;) | option map ui
+../3-Phrases/freecol2:CONS OptionMapUI(QOptionMap;Z) | option map ui
+../3-Phrases/freecol2:void updateOption() | update option
+../3-Phrases/freecol2:JComponent getOptionUI(QString;) | get option ui
+../3-Phrases/freecol2:CONS OptionGroupUI(QOptionGroup;ZIQHashMap<QString;QJComponent;>;) | option group ui
+../3-Phrases/freecol2:void updateOption() | update option
+../3-Phrases/freecol2:void OptionGroupButton(QString;QOptionGroupUI;) | option group button
+../3-Phrases/freecol2:void updateOption() | update option
+../3-Phrases/freecol2:void OptionGroupPanel() | option group panel
+../3-Phrases/freecol2:CONS IntegerOptionUI(QIntegerOption;Z) | integer option ui
+../3-Phrases/freecol2:void updateOption() | update option
+../3-Phrases/freecol2:void updateOption() | update option
+../3-Phrases/freecol2:CONS AudioMixerOptionUI(QAudioMixerOption;Z) | audio mixer option ui
+../3-Phrases/freecol2:void updateOption() | update option
+../3-Phrases/freecol2:FileFilter getGameOptionsFileFilter() | get game options file filter
+../3-Phrases/freecol2:void updateMapGeneratorOptions() | update map generator options
+../3-Phrases/freecol2:void updateGameOptions() | update game options
+../3-Phrases/freecol2:CONS ClientOptionsDialog(QCanvas;QFreeColClient;) | client options dialog
+../3-Phrases/freecol2:CONS GameOptionsDialog(QCanvas;QFreeColClient;) | game options dialog
+../3-Phrases/freecol2:void setSinglePlayerOptions(Z) | set single player options
+../3-Phrases/freecol2:void setJoinGameOptions(Z) | set join game options
+../3-Phrases/freecol2:void setServerOptions(Z) | set server options
+../3-Phrases/freecol2:CONS MapGeneratorOptionsDialog(QCanvas;QFreeColClient;) | map generator options dialog
+../3-Phrases/freecol2:boolean hasOption(QString;) | has option
+../3-Phrases/freecol2:AbstractOption getOption(QString;) | get option
+../3-Phrases/freecol2:OptionGroup getOptionGroup(QString;) | get option group
+../3-Phrases/freecol2:void addOptionGroup(QOptionGroup;) | add option group
+../3-Phrases/freecol2:void addAbstractOption(QAbstractOption;) | add abstract option
+../3-Phrases/freecol2:IntegerOption getIntegerOption(QString;) | get integer option
+../3-Phrases/freecol2:RangeOption getRangeOption(QString;) | get range option
+../3-Phrases/freecol2:BooleanOption getBooleanOption(QString;) | get boolean option
+../3-Phrases/freecol2:StringOption getStringOption(QString;) | get string option
+../3-Phrases/freecol2:GameOptions getGameOptions() | get game options
+../3-Phrases/freecol2:CONS GameOptions() | game options
+../3-Phrases/freecol2:CONS GameOptions(QXMLStreamReader;) | game options
+../3-Phrases/freecol2:CONS GameOptions(QElement;) | game options
+../3-Phrases/freecol2:void addDefaultOptions() | add default options
+../3-Phrases/freecol2:GameOptions getGameOptions() | get game options
+../3-Phrases/freecol2:AbstractOption getOption(QString;) | get option
+../3-Phrases/freecol2:Map<QString;QAbstractOption;> getOptions() | get options
+../3-Phrases/freecol2:CONS FileOption(QXMLStreamReader;) | file option
+../3-Phrases/freecol2:CONS SelectOption(QXMLStreamReader;) | select option
+../3-Phrases/freecol2:CONS AbstractOption(QString;) | abstract option
+../3-Phrases/freecol2:CONS AbstractOption(QString;QOptionGroup;) | abstract option
+../3-Phrases/freecol2:CONS PercentageOption(QXMLStreamReader;) | percentage option
+../3-Phrases/freecol2:CONS PercentageOption(QString;QOptionGroup;I) | percentage option
+../3-Phrases/freecol2:CONS LanguageOption(QXMLStreamReader;) | language option
+../3-Phrases/freecol2:CONS LanguageOption(QString;) | language option
+../3-Phrases/freecol2:CONS LanguageOption(QString;QOptionGroup;) | language option
+../3-Phrases/freecol2:Language[] getOptions() | get options
+../3-Phrases/freecol2:CONS StringOption(QXMLStreamReader;) | string option
+../3-Phrases/freecol2:CONS OptionMap(QString;) | option map
+../3-Phrases/freecol2:CONS OptionMap(QXMLStreamReader;QString;) | option map
+../3-Phrases/freecol2:CONS OptionMap(QElement;QString;) | option map
+../3-Phrases/freecol2:void addDefaultOptions() | add default options
+../3-Phrases/freecol2:void putOption(QOption;) | put option
+../3-Phrases/freecol2:CONS IntegerOption(QString;QOptionGroup;III) | integer option
+../3-Phrases/freecol2:CONS IntegerOption(QXMLStreamReader;) | integer option
+../3-Phrases/freecol2:CONS RangeOption(QXMLStreamReader;) | range option
+../3-Phrases/freecol2:CONS BooleanOption(QXMLStreamReader;) | boolean option
+../3-Phrases/freecol2:CONS OptionGroup() | option group
+../3-Phrases/freecol2:CONS OptionGroup(QString;) | option group
+../3-Phrases/freecol2:CONS OptionGroup(QXMLStreamReader;) | option group
+../3-Phrases/freecol2:CONS AudioMixerOption(QString;) | audio mixer option
+../3-Phrases/freecol2:CONS AudioMixerOption(QString;QOptionGroup;) | audio mixer option
+../3-Phrases/freecol2:MixerWrapper[] getOptions() | get options
+../3-Phrases/freecol2:Element updateGameOptions(QConnection;QElement;) | update game options
+../3-Phrases/freecol2:Element updateMapGeneratorOptions(QConnection;QElement;) | update map generator options
+../3-Phrases/freecol2:MapGeneratorOptions getMapGeneratorOptions() | get map generator options
+../3-Phrases/freecol2:MapGeneratorOptions getMapGeneratorOptions() | get map generator options
+../3-Phrases/freecol2:MapGeneratorOptions getMapGeneratorOptions() | get map generator options
+../3-Phrases/freecol2:CONS MapGeneratorOptions() | map generator options
+../3-Phrases/freecol2:CONS MapGeneratorOptions(QElement;) | map generator options
+../3-Phrases/freecol2:CONS MapGeneratorOptions(QXMLStreamReader;) | map generator options
+../3-Phrases/freecol2:void addDefaultOptions() | add default options
+../3-Phrases/freemind:void addOptionSet(QAction;[QString;QJMenu;QString;) | add option set
+../3-Phrases/freemind:void OptionAntialiasAction(QController;) | option antialias action
+../3-Phrases/freemind:void OptionHTMLExportFoldingAction(QController;) | option html export folding action
+../3-Phrases/freemind:void OptionSelectionMechanismAction(QController;) | option selection mechanism action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.OptionPanelWindowConfigurationStorage createOptionPanelWindowConfigurationStorage() | create option panel window configuration storage
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.OptionPanelWindowConfigurationStorageType createOptionPanelWindowConfigurationStorageType() | create option panel window configuration storage type
+../3-Phrases/freemind:boolean binOptionIsTrue(QString;) | bin option is true
+../3-Phrases/freemind:CONS OptionPanel(QFreeMindMain;QJDialog;QOptionPanelFeedback;) | option panel
+../3-Phrases/freemind:Properties getOptionProperties() | get option properties
+../3-Phrases/freemind:boolean binOptionIsTrue(QString;) | bin option is true
+../3-Phrases/gantt:void optionsChanged() | options changed
+../3-Phrases/gantt:void ChartOptionsPreviewPanel() | chart options preview panel
+../3-Phrases/gantt:CONS GanttOptions(QRoleManager;QDocumentManager;Z) | gantt options
+../3-Phrases/gantt:CSVOptions getCSVOptions() | get csv options
+../3-Phrases/gantt:void addOptionGroups([QGPOptionGroup;) | add option groups
+../3-Phrases/gantt:void addOptions(QGPOptionGroup;) | add options
+../3-Phrases/gantt:void initOptions() | init options
+../3-Phrases/gantt:GanttOptions getOptions() | get options
+../3-Phrases/gantt:void restoreOptions() | restore options
+../3-Phrases/gantt:void applyButtonOptions() | apply button options
+../3-Phrases/gantt:void launchOptionsDialog() | launch options dialog
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups() | get option groups
+../3-Phrases/gantt:Action getOptionsDialogAction() | get options dialog action
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups() | get option groups
+../3-Phrases/gantt:void optionsChanged() | options changed
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups() | get option groups
+../3-Phrases/gantt:void ResourceLoadOption(QString;QString;QString;) | resource load option
+../3-Phrases/gantt:GPOptionGroup[] getChartOptionGroups() | get chart option groups
+../3-Phrases/gantt:void TuningOptions(ZZ) | tuning options
+../3-Phrases/gantt:void NewTaskColorOption() | new task color option
+../3-Phrases/gantt:void setTuningOptions(QTuningOptions;) | set tuning options
+../3-Phrases/gantt:GPOptionGroup[] getChartOptionGroups() | get chart option groups
+../3-Phrases/gantt:CONS LabelPositionOptionImpl(QString;) | label position option impl
+../3-Phrases/gantt:CONS OptionsDialogAction([QGPOptionGroup;QUIFacade;) | options dialog action
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups() | get option groups
+../3-Phrases/gantt:GPOptionGroup getOptions() | get options
+../3-Phrases/gantt:boolean isProjectBoundariesOptionOn() | is project boundaries option on
+../3-Phrases/gantt:void addOption(QString;) | add option
+../3-Phrases/gantt:void removeOption(QString;) | remove option
+../3-Phrases/gantt:void updateOptions() | update options
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups() | get option groups
+../3-Phrases/gantt:GPOptionGroup[] getChartOptionGroups() | get chart option groups
+../3-Phrases/gantt:void addOptionChangeListener(QGPOptionChangeListener;) | add option change listener
+../3-Phrases/gantt:void fireOptionsChanged() | fire options changed
+../3-Phrases/gantt:OptionEventDispatcher getOptionEventDispatcher() | get option event dispatcher
+../3-Phrases/gantt:void optionsChanged() | options changed
+../3-Phrases/gantt:CONS ChartOptionGroup(QString;[QGPOption;QChartModelImpl.OptionEventDispatcher;) | chart option group
+../3-Phrases/gantt:GPOptionGroup getOptionGroup() | get option group
+../3-Phrases/gantt:GPOptionGroup[] getNetworkOptionGroups() | get network option groups
+../3-Phrases/gantt:void StringOptionImpl(QString;QString;QString;) | string option impl
+../3-Phrases/gantt:GPOptionGroup getOptionGroup() | get option group
+../3-Phrases/gantt:GPOptionGroup[] getNetworkOptionGroups() | get network option groups
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups(QIGanttProject;QUIFacade;) | get option groups
+../3-Phrases/gantt:String getOptionGroupLabel(QGPOptionGroup;) | get option group label
+../3-Phrases/gantt:String getOptionLabel(QGPOption;) | get option label
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups() | get option groups
+../3-Phrases/gantt:GPOptionGroup getOptions() | get options
+../3-Phrases/gantt:GPOptionGroup[] getSecondaryOptions() | get secondary options
+../3-Phrases/gantt:BooleanOption getPublishInWebOption() | get publish in web option
+../3-Phrases/gantt:void setOptions(QGanttOptions;) | set options
+../3-Phrases/gantt:void FileTypeOption() | file type option
+../3-Phrases/gantt:GPOptionGroup getOptions() | get options
+../3-Phrases/gantt:GPOptionGroup[] getSecondaryOptions() | get secondary options
+../3-Phrases/gantt:GPOptionGroup getOptions() | get options
+../3-Phrases/gantt:GPOptionGroup[] getSecondaryOptions() | get secondary options
+../3-Phrases/gantt:void setOptions(QGanttOptions;) | set options
+../3-Phrases/gantt:GPOptionGroup getOptionGroup() | get option group
+../3-Phrases/gantt:void AlphaRenderingOption(QUIConfiguration;) | alpha rendering option
+../3-Phrases/gantt:AlphaRenderingOption getWeekendAlphaRenderingOption() | get weekend alpha rendering option
+../3-Phrases/gantt:void RedlineOption() | redline option
+../3-Phrases/gantt:BooleanOption getRedlineOption() | get redline option
+../3-Phrases/gantt:BooleanOption getProjectBoundariesOption() | get project boundaries option
+../3-Phrases/gantt:GPOptionGroup getOptionGroup() | get option group
+../3-Phrases/gantt:void setOptionsEnabled(Z) | set options enabled
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups() | get option groups
+../3-Phrases/gantt:String getOptionLabel(QGPOption;) | get option label
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups(QIGanttProject;QUIFacade;) | get option groups
+../3-Phrases/gantt:CONS OptionPageProviderPanel(QOptionPageProvider;QIGanttProject;QUIFacade;) | option page provider panel
+../3-Phrases/gantt:CONS EnumerationOptionComboBoxModel(QEnumerationOption;) | enumeration option combo box model
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups(QIGanttProject;QUIFacade;) | get option groups
+../3-Phrases/gantt:CONS BooleanOptionAction(QBooleanOption;) | boolean option action
+../3-Phrases/gantt:CONS OptionsPageBuilder() | options page builder
+../3-Phrases/gantt:CONS OptionsPageBuilder(QComponent;) | options page builder
+../3-Phrases/gantt:void setOptionKeyPrefix(QString;) | set option key prefix
+../3-Phrases/gantt:Component createStandaloneOptionPanel(QGPOption;) | create standalone option panel
+../3-Phrases/gantt:Component createOptionLabel(QGPOption;) | create option label
+../3-Phrases/gantt:Component createOptionComponent(QGPOption;) | create option component
+../3-Phrases/gantt:String getOptionGroupLabel(QGPOptionGroup;) | get option group label
+../3-Phrases/gantt:String getOptionLabel(QGPOption;) | get option label
+../3-Phrases/gantt:CONS GeneralOptionPanel(QString;QString;) | general option panel
+../3-Phrases/gantt:CONS GeneralOptionPanel(QString;QString;QFrame;) | general option panel
+../3-Phrases/gantt:CONS GPAbstractOption(QString;) | gp abstract option
+../3-Phrases/gantt:void optionsChanged() | options changed
+../3-Phrases/gantt:CONS DefaultStringOption(QString;) | default string option
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups(QIGanttProject;QUIFacade;) | get option groups
+../3-Phrases/gantt:CONS GPOptionGroup(QString;[QGPOption;) | gp option group
+../3-Phrases/gantt:GPOption[] getOptions() | get options
+../3-Phrases/gantt:GPOption getOption(QString;) | get option
+../3-Phrases/gantt:CONS DefaultBooleanOption(QString;) | default boolean option
+../3-Phrases/gantt:CONS DefaultDateOption(QString;) | default date option
+../3-Phrases/gantt:CONS DefaultEnumerationOption(QString;[QString;) | default enumeration option
+../3-Phrases/gantt:CONS DefaultEnumerationOption(QString;QList;) | default enumeration option
+../3-Phrases/gantt:CONS DefaultColorOption(QString;) | default color option
+../3-Phrases/gantt:GPOptionGroup[] getSecondaryOptions() | get secondary options
+../3-Phrases/gantt:GPOptionGroup[] getOptionGroups() | get option groups
+../3-Phrases/gantt:GPOptionGroup[] getSecondaryOptions() | get secondary options
+../3-Phrases/hibernate-3.3.1.GA:String getOptionalEntityName() | get optional entity name
+../3-Phrases/hibernate-3.3.1.GA:void setOptionalEntityName(QString;) | set optional entity name
+../3-Phrases/hibernate-3.3.1.GA:Serializable getOptionalId() | get optional id
+../3-Phrases/hibernate-3.3.1.GA:void setOptionalId(QSerializable;) | set optional id
+../3-Phrases/hibernate-3.3.1.GA:Object getOptionalObject() | get optional object
+../3-Phrases/hibernate-3.3.1.GA:void setOptionalObject(QObject;) | set optional object
+../3-Phrases/hibernate-3.3.1.GA:void optionalSpace() | optional space
+../3-Phrases/hibernate-3.3.1.GA:void setOptionalEntityName(QString;) | set optional entity name
+../3-Phrases/hibernate-3.3.1.GA:void setOptionalId(QSerializable;) | set optional id
+../3-Phrases/hibernate-3.3.1.GA:void setOptionalObject(QObject;) | set optional object
+../3-Phrases/hibernate-3.3.1.GA:EntityKey getOptionalObjectKey(QQueryParameters;QSessionImplementor;) | get optional object key
+../3-Phrases/hibernate-3.3.1.GA:boolean isOptional() | is optional
+../3-Phrases/hibernate-3.3.1.GA:void setOptional(Z) | set optional
+../3-Phrases/hibernate-3.3.1.GA:boolean isOptional() | is optional
+../3-Phrases/hibernate-3.3.1.GA:void setOptional(Z) | set optional
+../3-Phrases/hsqldb:boolean doOptionalLockActions() | do optional lock actions
+../3-Phrases/hsqldb:boolean doOptionalReleaseActions() | do optional release actions
+../3-Phrases/hsqldb:boolean doOptionalLockActions() | do optional lock actions
+../3-Phrases/hsqldb:boolean doOptionalReleaseActions() | do optional release actions
+../3-Phrases/iReport:void jMenuItemExportOptionsActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item export options action performed
+../3-Phrases/iReport:void jMenuItemOptionsActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item options action performed
+../3-Phrases/iReport:boolean isShowOptionDialogSynchronize(QString;QString;) | is show option dialog synchronize
+../3-Phrases/iReport:CONS OptionsDialog(Qjava.awt.Frame;Z) | options dialog
+../3-Phrases/iReport:CONS OracleOptions(Qjava.awt.Frame;Z) | oracle options
+../3-Phrases/iReport:CONS OracleOptionsPlugin() | oracle options plugin
+../3-Phrases/iReport:CONS I18nOptionPane() | i 18 n option pane
+../3-Phrases/iReport:int showInternalOptionDialog(QComponent;QString;QString;IIQIcon;[QString;QString;) | show internal option dialog
+../3-Phrases/iReport:int showOptionDialog(QComponent;QString;QString;IIQIcon;[QString;QString;) | show option dialog
+../3-Phrases/iReport:int showOptionDialog(QComponent;QString;QString;IIQIcon;[QString;QString;QString;) | show option dialog
+../3-Phrases/Jabref:CONS OptionModule() | option module
+../3-Phrases/Jabref:CONS OptionModule(QString;) | option module
+../3-Phrases/Jabref:boolean optionExists(QOption;) | option exists
+../3-Phrases/Jabref:boolean optionExists(C) | option exists
+../3-Phrases/Jabref:boolean optionExists(QString;) | option exists
+../3-Phrases/Jabref:Iterator<QOption;> getOptionIterator() | get option iterator
+../3-Phrases/Jabref:Option getOption(C) | get option
+../3-Phrases/Jabref:Option getOption(QString;) | get option
+../3-Phrases/Jabref:CONS DoubleOption() | double option
+../3-Phrases/Jabref:CONS DoubleOption(QDoubleOption;) | double option
+../3-Phrases/Jabref:CONS DoubleOption(D) | double option
+../3-Phrases/Jabref:CONS DoubleOption(DQString;) | double option
+../3-Phrases/Jabref:CONS DoubleOption(DC) | double option
+../3-Phrases/Jabref:CONS DoubleOption(DQString;C) | double option
+../3-Phrases/Jabref:CONS OptionEvent() | option event
+../3-Phrases/Jabref:CONS OptionEvent(QString;) | option event
+../3-Phrases/Jabref:CONS OptionEvent(QString;QString;) | option event
+../3-Phrases/Jabref:CONS OptionEvent(QOption;) | option event
+../3-Phrases/Jabref:CONS OptionEvent(QString;QString;QOption;) | option event
+../3-Phrases/Jabref:void addOptionListener(QOptionListener;) | add option listener
+../3-Phrases/Jabref:void removeOptionListener(QOptionListener;) | remove option listener
+../3-Phrases/Jabref:void setOptionCommand(QString;) | set option command
+../3-Phrases/Jabref:CONS NotifyOption() | notify option
+../3-Phrases/Jabref:CONS NotifyOption(QOptionListener;) | notify option
+../3-Phrases/Jabref:CONS NotifyOption(QOptionListener;QString;) | notify option
+../3-Phrases/Jabref:CONS NotifyOption(QOptionListener;QString;QString;) | notify option
+../3-Phrases/Jabref:CONS NotifyOption(QNotifyOption;) | notify option
+../3-Phrases/Jabref:CONS NotifyOption(QString;) | notify option
+../3-Phrases/Jabref:CONS NotifyOption(QString;QString;) | notify option
+../3-Phrases/Jabref:CONS NotifyOption(QString;C) | notify option
+../3-Phrases/Jabref:CONS NotifyOption(QString;QString;C) | notify option
+../3-Phrases/Jabref:void addOptionListener(QOptionListener;) | add option listener
+../3-Phrases/Jabref:void removeOptionListener(QOptionListener;) | remove option listener
+../3-Phrases/Jabref:void setOptionCommand(QString;) | set option command
+../3-Phrases/Jabref:CONS StringOption() | string option
+../3-Phrases/Jabref:CONS StringOption(QStringOption;) | string option
+../3-Phrases/Jabref:CONS StringOption(QString;) | string option
+../3-Phrases/Jabref:CONS StringOption(QString;QString;) | string option
+../3-Phrases/Jabref:CONS StringOption(QString;C) | string option
+../3-Phrases/Jabref:CONS StringOption(QString;QString;C) | string option
+../3-Phrases/Jabref:CONS FloatOption() | float option
+../3-Phrases/Jabref:CONS FloatOption(QFloatOption;) | float option
+../3-Phrases/Jabref:CONS FloatOption(F) | float option
+../3-Phrases/Jabref:CONS FloatOption(FQString;) | float option
+../3-Phrases/Jabref:CONS FloatOption(FC) | float option
+../3-Phrases/Jabref:CONS FloatOption(FQString;C) | float option
+../3-Phrases/Jabref:CONS OptionModificationException(QString;) | option modification exception
+../3-Phrases/Jabref:void optionInvoked(QOptionEvent;) | option invoked
+../3-Phrases/Jabref:CONS OptionException(QString;) | option exception
+../3-Phrases/Jabref:CONS OptionProcessingException(QString;) | option processing exception
+../3-Phrases/Jabref:CONS Options() | options
+../3-Phrases/Jabref:CONS Options(QString;) | options
+../3-Phrases/Jabref:String getDefaultOptionFilename() | get default option filename
+../3-Phrases/Jabref:void setDefaultOptionFilename(QString;) | set default option filename
+../3-Phrases/Jabref:void optionInvoked(QOptionEvent;) | option invoked
+../3-Phrases/Jabref:void writeOptionFile(QString;) | write option file
+../3-Phrases/Jabref:void loadOptionFile(QString;) | load option file
+../3-Phrases/Jabref:String[] processOptions([QString;) | process options
+../3-Phrases/Jabref:CONS ArrayOption() | array option
+../3-Phrases/Jabref:CONS Option() | option
+../3-Phrases/Jabref:CONS Option(QOption;) | option
+../3-Phrases/Jabref:CONS Option(QString;) | option
+../3-Phrases/Jabref:CONS Option(C) | option
+../3-Phrases/Jabref:CONS Option(QString;C) | option
+../3-Phrases/Jabref:void setShortOption(C) | set short option
+../3-Phrases/Jabref:void setLongOption(QString;) | set long option
+../3-Phrases/Jabref:void setHelpOptionSpecificationSize(I) | set help option specification size
+../3-Phrases/Jabref:void setMenuOptionSpecificationSize(I) | set menu option specification size
+../3-Phrases/Jabref:void setFileCompleteOptionSize(I) | set file complete option size
+../3-Phrases/Jabref:char getShortOption() | get short option
+../3-Phrases/Jabref:String getLongOption() | get long option
+../3-Phrases/Jabref:String getHelpOptionSpecification() | get help option specification
+../3-Phrases/Jabref:String getOptionFileLine() | get option file line
+../3-Phrases/Jabref:int getHelpOptionSpecificationSize() | get help option specification size
+../3-Phrases/Jabref:int getMenuOptionSpecificationSize() | get menu option specification size
+../3-Phrases/Jabref:int getFileCompleteOptionSize() | get file complete option size
+../3-Phrases/Jabref:CONS IntOption() | int option
+../3-Phrases/Jabref:CONS IntOption(QIntOption;) | int option
+../3-Phrases/Jabref:CONS IntOption(I) | int option
+../3-Phrases/Jabref:CONS IntOption(IQString;) | int option
+../3-Phrases/Jabref:CONS IntOption(IC) | int option
+../3-Phrases/Jabref:CONS IntOption(IQString;C) | int option
+../3-Phrases/Jabref:CONS LongOption() | long option
+../3-Phrases/Jabref:CONS LongOption(QLongOption;) | long option
+../3-Phrases/Jabref:CONS LongOption(J) | long option
+../3-Phrases/Jabref:CONS LongOption(JQString;) | long option
+../3-Phrases/Jabref:CONS LongOption(JC) | long option
+../3-Phrases/Jabref:CONS LongOption(JQString;C) | long option
+../3-Phrases/Jabref:CONS OptionRegistrationException(QString;) | option registration exception
+../3-Phrases/Jabref:CONS OptionRegistrationException(QString;QOption;) | option registration exception
+../3-Phrases/Jabref:CONS ShortOption() | short option
+../3-Phrases/Jabref:CONS ShortOption(QShortOption;) | short option
+../3-Phrases/Jabref:CONS ShortOption(S) | short option
+../3-Phrases/Jabref:CONS ShortOption(SQString;) | short option
+../3-Phrases/Jabref:CONS ShortOption(SC) | short option
+../3-Phrases/Jabref:CONS ShortOption(SQString;C) | short option
+../3-Phrases/Jabref:CONS ByteOption() | byte option
+../3-Phrases/Jabref:CONS ByteOption(QByteOption;) | byte option
+../3-Phrases/Jabref:CONS ByteOption(B) | byte option
+../3-Phrases/Jabref:CONS ByteOption(BQString;) | byte option
+../3-Phrases/Jabref:CONS ByteOption(BC) | byte option
+../3-Phrases/Jabref:CONS ByteOption(BQString;C) | byte option
+../3-Phrases/Jabref:CONS CharOption() | char option
+../3-Phrases/Jabref:CONS CharOption(QCharOption;) | char option
+../3-Phrases/Jabref:CONS CharOption(C) | char option
+../3-Phrases/Jabref:CONS CharOption(CQString;) | char option
+../3-Phrases/Jabref:CONS CharOption(CC) | char option
+../3-Phrases/Jabref:CONS CharOption(CQString;C) | char option
+../3-Phrases/Jabref:CONS BooleanOption() | boolean option
+../3-Phrases/Jabref:CONS BooleanOption(QBooleanOption;) | boolean option
+../3-Phrases/Jabref:CONS BooleanOption(Z) | boolean option
+../3-Phrases/Jabref:CONS BooleanOption(ZQString;) | boolean option
+../3-Phrases/Jabref:CONS BooleanOption(ZC) | boolean option
+../3-Phrases/Jabref:CONS BooleanOption(ZQString;C) | boolean option
+../3-Phrases/Jabref:CONS OptionMenu(QOptions;) | option menu
+../3-Phrases/Jabref:void optionInvoked(QOptionEvent;) | option invoked
+../3-Phrases/Jabref:void setupOptions() | setup options
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String describeOptionalFields() | describe optional fields
+../3-Phrases/Jabref:void JOptionChoice(QString;I) | j option choice
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String describeOptionalFields() | describe optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:String[] getOptionalFields() | get optional fields
+../3-Phrases/Jabref:boolean isOptional(QString;) | is optional
+../3-Phrases/Jabref:String getBracketedOptionField(I) | get bracketed option field
+../3-Phrases/Jabref:LayoutFormatter[] getOptionalLayout(QString;QString;) | get optional layout
+../3-Phrases/Jabref:void OptionsDialog(QJFrame;QString;) | options dialog
+../3-Phrases/Jabref:void OptionsDialog(QJFrame;QMetaData;QString;) | options dialog
+../3-Phrases/Jabref:void OptionsDialog(QJFrame;) | options dialog
+../3-Phrases/Jabref:JPanel getOptionsPanel() | get options panel
+../3-Phrases/Jabref:JPanel getOptionsPanel() | get options panel
+../3-Phrases/Jabref:JPanel getOptionsPanel() | get options panel
+../3-Phrases/Jabref:JPanel getOptionsPanel() | get options panel
+../3-Phrases/Jabref:JPanel getOptionsPanel() | get options panel
+../3-Phrases/Jabref:JPanel getOptionsPanel() | get options panel
+../3-Phrases/Jabref:JPanel getOptionsPanel() | get options panel
+../3-Phrases/Jabref:JPanel getOptionsPanel() | get options panel
+../3-Phrases/Jabref:JPanel getOptionsPanel() | get options panel
+../3-Phrases/Jabref:JPanel getOptionsPanel() | get options panel
+../3-Phrases/Jabref:void initOptionsPanel(QJabRefFrame;) | init options panel
+../3-Phrases/jajuk:JOptionPane getNarrowOptionPane(I) | get narrow option pane
+../3-Phrases/jajuk:void NarrowOptionPane(I) | narrow option pane
+../3-Phrases/jajuk:JOptionPane getOptionPane() | get option pane
+../3-Phrases/jajuk:ArrayList applyPlayOption(QArrayList;) | apply play option
+../3-Phrases/javaHMO:CONS OptionsTableModel(QArrayList;QArrayList;) | options table model
+../3-Phrases/javaHMO:CONS FileOptionsTable(ZQOptionsPanel;QArrayList;) | file options table
+../3-Phrases/javaHMO:CONS OptionsPanelManager(QMainFrame;) | options panel manager
+../3-Phrases/javaHMO:void EmptyOptionsPanel(QPlugin;) | empty options panel
+../3-Phrases/javaHMO:void setSelectedOptionsPanel(QPluginNode;) | set selected options panel
+../3-Phrases/javaHMO:CONS OptionsTable(QOptionsPanel;QArrayList;QArrayList;QArrayList;) | options table
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:CONS OptionsPanel(QPlugin;) | options panel
+../3-Phrases/javaHMO:CONS DesktopOptionsPanel(QDesktopContainer;) | desktop options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:CONS EmailOptionsPanel(QEmailContainer;) | email options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:CONS GamesOptionsPanel(QGamesContainer;) | games options panel
+../3-Phrases/javaHMO:CONS iTunesOptionsPanel(QiTunesContainer;) | i tunes options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:CONS ImageOrganizerOptionsPanel(QOrganizerContainer;) | image organizer options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:CONS ImagesOptionsPanel(QImagesContainer;) | images options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:CONS InternetOptionsPanel(QInternetContainer;) | internet options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:CONS JukeboxOptionsPanel(QJukeboxContainer;) | jukebox options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:CONS MovieOptionsPanel(QMovieContainer;) | movie options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:CONS MusicOptionsPanel(QMusicContainer;) | music options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:CONS NntpOptionsPanel(QNntpContainer;) | nntp options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:CONS OrganizerOptionsPanel(QOrganizerContainer;) | organizer options panel
+../3-Phrases/javaHMO:CONS PlaylistsOptionsPanel(QPlaylistsContainer;) | playlists options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:CONS RssOptionsPanel(QRssContainer;) | rss options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:CONS ShoutcastOptionsPanel(QShoutcastContainer;) | shoutcast options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:CONS StocksOptionsPanel(QStocksContainer;) | stocks options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:CONS WeatherOptionsPanel(QWeatherContainer;) | weather options panel
+../3-Phrases/javaHMO:OptionsPanel getOptionsPanel() | get options panel
+../3-Phrases/javaHMO:CONS WebOptionsPanel(QWebContainer;) | web options panel
+../3-Phrases/jbidwatcher:boolean getInsuranceOptional() | get insurance optional
+../3-Phrases/jbidwatcher:void loadOptionalInformation(QJHTML;) | load optional information
+../3-Phrases/jbidwatcher:boolean getInsuranceOptional() | get insurance optional
+../3-Phrases/Jftp:void setSocksProxyOptions(QString;QString;) | set socks proxy options
+../3-Phrases/Jftp:CONS AdvancedOptions() | advanced options
+../3-Phrases/JHotDraw-7.0.8:void optionSelected(QSheetEvent;) | option selected
+../3-Phrases/JHotDraw-7.0.8:void optionSelected(QSheetEvent;) | option selected
+../3-Phrases/JHotDraw-7.0.8:void optionSelected(QSheetEvent;) | option selected
+../3-Phrases/JHotDraw-7.0.8:void optionSelected(QSheetEvent;) | option selected
+../3-Phrases/JHotDraw-7.0.8:void optionSelected(QSheetEvent;) | option selected
+../3-Phrases/JHotDraw-7.0.8:void optionSelected(QSheetEvent;) | option selected
+../3-Phrases/JHotDraw-7.0.8:void optionSelected(QSheetEvent;) | option selected
+../3-Phrases/JHotDraw-7.0.8:void optionSelected(QSheetEvent;) | option selected
+../3-Phrases/JHotDraw-7.0.8:void optionSelected(QSheetEvent;) | option selected
+../3-Phrases/JHotDraw-7.0.8:void optionSelected(QSheetEvent;) | option selected
+../3-Phrases/JHotDraw-7.0.8:void optionSelected(QSheetEvent;) | option selected
+../3-Phrases/JHotDraw-7.0.8:void optionSelected(QSheetEvent;) | option selected
+../3-Phrases/JHotDraw-7.0.8:CONS Options() | options
+../3-Phrases/JHotDraw-7.0.8:void fireOptionSelected(QJOptionPane;) | fire option selected
+../3-Phrases/JHotDraw-7.0.8:void fireOptionSelected(QJOptionPane;IQObject;QObject;) | fire option selected
+../3-Phrases/JHotDraw-7.0.8:void fireOptionSelected(QJFileChooser;I) | fire option selected
+../3-Phrases/JHotDraw-7.0.8:void showOptionSheet(QComponent;QObject;IIQIcon;[QObject;QObject;QSheetListener;) | show option sheet
+../3-Phrases/JHotDraw-7.0.8:JOptionPane getOptionPane() | get option pane
+../3-Phrases/JHotDraw-7.0.8:int getOption() | get option
+../3-Phrases/JHotDraw-7.0.8:void optionSelected(QSheetEvent;) | option selected
+../3-Phrases/JRobin:void resolveOptions(QNode;) | resolve options
+../3-Phrases/JRobin:void resolveOptions(QNode;) | resolve options
+../3-Phrases/MegaMek-0.32.0:void sendGameOptions(QString;QVector;) | send game options
+../3-Phrases/MegaMek-0.32.0:MoveOption.Table calculateMoveOptions(QMoveOption;) | calculate move options
+../3-Phrases/MegaMek-0.32.0:CONS PhysicalOption(QEntity;) | physical option
+../3-Phrases/MegaMek-0.32.0:CONS PhysicalOption(QEntity;QTargetable;DIQMounted;) | physical option
+../3-Phrases/MegaMek-0.32.0:CONS MoveOption(QIGame;QCEntity;) | move option
+../3-Phrases/MegaMek-0.32.0:CONS MoveOption(QMoveOption;) | move option
+../3-Phrases/MegaMek-0.32.0:CONS AttackOption(QCEntity;QMounted;DQToHitData;I) | attack option
+../3-Phrases/MegaMek-0.32.0:void setupOptions() | setup options
+../3-Phrases/MegaMek-0.32.0:void addOption(QLabel;QChoice;QSimpleLine;) | add option
+../3-Phrases/MegaMek-0.32.0:CONS DialogOptionComponent(QDialogOptionListener;QIOption;) | dialog option component
+../3-Phrases/MegaMek-0.32.0:CONS DialogOptionComponent(QDialogOptionListener;QIOption;Z) | dialog option component
+../3-Phrases/MegaMek-0.32.0:IOption getOption() | get option
+../3-Phrases/MegaMek-0.32.0:IBasicOption changedOption() | changed option
+../3-Phrases/MegaMek-0.32.0:void BasicOption(QString;QObject;) | basic option
+../3-Phrases/MegaMek-0.32.0:void showGameOptions() | show game options
+../3-Phrases/MegaMek-0.32.0:CONS GameOptionsDialog(QClientGUI;) | game options dialog
+../3-Phrases/MegaMek-0.32.0:CONS GameOptionsDialog(QFrame;QGameOptions;) | game options dialog
+../3-Phrases/MegaMek-0.32.0:Vector<QIBasicOption;> getOptions() | get options
+../3-Phrases/MegaMek-0.32.0:void refreshOptions() | refresh options
+../3-Phrases/MegaMek-0.32.0:void addOption(QIOption;QGridBagLayout;QGridBagConstraints;) | add option
+../3-Phrases/MegaMek-0.32.0:void optionClicked(QDialogOptionComponent;QIOption;Z) | option clicked
+../3-Phrases/MegaMek-0.32.0:void showOptions() | show options
+../3-Phrases/MegaMek-0.32.0:GameOptionsDialog getGameOptionsDialog() | get game options dialog
+../3-Phrases/MegaMek-0.32.0:void optionClicked(QDialogOptionComponent;QIOption;Z) | option clicked
+../3-Phrases/MegaMek-0.32.0:void setOptions() | set options
+../3-Phrases/MegaMek-0.32.0:void resetOptions() | reset options
+../3-Phrases/MegaMek-0.32.0:void refreshOptions() | refresh options
+../3-Phrases/MegaMek-0.32.0:void addOption(QIOption;QGridBagLayout;QGridBagConstraints;Z) | add option
+../3-Phrases/MegaMek-0.32.0:void optionClicked(QDialogOptionComponent;QIOption;Z) | option clicked
+../3-Phrases/MegaMek-0.32.0:void showGameOptions() | show game options
+../3-Phrases/MegaMek-0.32.0:CONS DialogOptionComponent(QDialogOptionListener;QIOption;) | dialog option component
+../3-Phrases/MegaMek-0.32.0:CONS DialogOptionComponent(QDialogOptionListener;QIOption;Z) | dialog option component
+../3-Phrases/MegaMek-0.32.0:IOption getOption() | get option
+../3-Phrases/MegaMek-0.32.0:IBasicOption changedOption() | changed option
+../3-Phrases/MegaMek-0.32.0:void BasicOption(QString;QObject;) | basic option
+../3-Phrases/MegaMek-0.32.0:void setupOptions() | setup options
+../3-Phrases/MegaMek-0.32.0:void addOption(QJLabel;QJComboBox;QSimpleLine;) | add option
+../3-Phrases/MegaMek-0.32.0:void setOptions() | set options
+../3-Phrases/MegaMek-0.32.0:void refreshOptions() | refresh options
+../3-Phrases/MegaMek-0.32.0:void addOption(QIOption;QGridBagLayout;QGridBagConstraints;Z) | add option
+../3-Phrases/MegaMek-0.32.0:void optionClicked(QDialogOptionComponent;QIOption;Z) | option clicked
+../3-Phrases/MegaMek-0.32.0:void showOptions() | show options
+../3-Phrases/MegaMek-0.32.0:GameOptionsDialog getGameOptionsDialog() | get game options dialog
+../3-Phrases/MegaMek-0.32.0:CONS GameOptionsDialog(QClientGUI;) | game options dialog
+../3-Phrases/MegaMek-0.32.0:CONS GameOptionsDialog(QJFrame;QGameOptions;) | game options dialog
+../3-Phrases/MegaMek-0.32.0:Vector<QIBasicOption;> getOptions() | get options
+../3-Phrases/MegaMek-0.32.0:void refreshOptions() | refresh options
+../3-Phrases/MegaMek-0.32.0:void addOption(QIOption;QGridBagLayout;QGridBagConstraints;) | add option
+../3-Phrases/MegaMek-0.32.0:void optionClicked(QDialogOptionComponent;QIOption;Z) | option clicked
+../3-Phrases/MegaMek-0.32.0:void optionClicked(QDialogOptionComponent;QIOption;Z) | option clicked
+../3-Phrases/MegaMek-0.32.0:GameOptions getOptions() | get options
+../3-Phrases/MegaMek-0.32.0:void setOptions(QGameOptions;) | set options
+../3-Phrases/MegaMek-0.32.0:void setOptions(QPilotOptions;) | set options
+../3-Phrases/MegaMek-0.32.0:PilotOptions getOptions() | get options
+../3-Phrases/MegaMek-0.32.0:GameOptions getOptions() | get options
+../3-Phrases/MegaMek-0.32.0:void setOptions(QGameOptions;) | set options
+../3-Phrases/MegaMek-0.32.0:IOptionInfo getOptionInfo(QString;) | get option info
+../3-Phrases/MegaMek-0.32.0:CONS PilotOptions() | pilot options
+../3-Phrases/MegaMek-0.32.0:AbstractOptionsInfo getOptionsInfoImp() | get options info imp
+../3-Phrases/MegaMek-0.32.0:void PilotOptionsInfo() | pilot options info
+../3-Phrases/MegaMek-0.32.0:CONS OptionGroup(QString;QString;) | option group
+../3-Phrases/MegaMek-0.32.0:CONS OptionGroup(QString;) | option group
+../3-Phrases/MegaMek-0.32.0:Enumeration getOptionNames() | get option names
+../3-Phrases/MegaMek-0.32.0:void addOptionName(QString;) | add option name
+../3-Phrases/MegaMek-0.32.0:Enumeration getOptions() | get options
+../3-Phrases/MegaMek-0.32.0:IOption getOption(QString;) | get option
+../3-Phrases/MegaMek-0.32.0:IOptionInfo getOptionInfo(QString;) | get option info
+../3-Phrases/MegaMek-0.32.0:boolean booleanOption(QString;) | boolean option
+../3-Phrases/MegaMek-0.32.0:int intOption(QString;) | int option
+../3-Phrases/MegaMek-0.32.0:float floatOption(QString;) | float option
+../3-Phrases/MegaMek-0.32.0:String stringOption(QString;) | string option
+../3-Phrases/MegaMek-0.32.0:Enumeration getOptions() | get options
+../3-Phrases/MegaMek-0.32.0:Enumeration getOptionNames() | get option names
+../3-Phrases/MegaMek-0.32.0:CONS Option(QIOptions;QString;QString;) | option
+../3-Phrases/MegaMek-0.32.0:CONS Option(QIOptions;QString;Z) | option
+../3-Phrases/MegaMek-0.32.0:CONS Option(QIOptions;QString;I) | option
+../3-Phrases/MegaMek-0.32.0:CONS Option(QIOptions;QString;F) | option
+../3-Phrases/MegaMek-0.32.0:CONS Option(QIOptions;QString;QVector;) | option
+../3-Phrases/MegaMek-0.32.0:CONS Option(QIOptions;QString;IQObject;) | option
+../3-Phrases/MegaMek-0.32.0:CONS GameOptions() | game options
+../3-Phrases/MegaMek-0.32.0:Vector loadOptions() | load options
+../3-Phrases/MegaMek-0.32.0:Vector loadOptions(QFile;) | load options
+../3-Phrases/MegaMek-0.32.0:IOption parseOptionNode(QParsedXML;) | parse option node
+../3-Phrases/MegaMek-0.32.0:void saveOptions(QVector;) | save options
+../3-Phrases/MegaMek-0.32.0:AbstractOptionsInfo getOptionsInfoImp() | get options info imp
+../3-Phrases/MegaMek-0.32.0:void GameOptionsInfo() | game options info
+../3-Phrases/MegaMek-0.32.0:CONS AbstractOptions() | abstract options
+../3-Phrases/MegaMek-0.32.0:Enumeration getOptions() | get options
+../3-Phrases/MegaMek-0.32.0:IOptionInfo getOptionInfo(QString;) | get option info
+../3-Phrases/MegaMek-0.32.0:IOption getOption(QString;) | get option
+../3-Phrases/MegaMek-0.32.0:boolean booleanOption(QString;) | boolean option
+../3-Phrases/MegaMek-0.32.0:int intOption(QString;) | int option
+../3-Phrases/MegaMek-0.32.0:float floatOption(QString;) | float option
+../3-Phrases/MegaMek-0.32.0:String stringOption(QString;) | string option
+../3-Phrases/MegaMek-0.32.0:IOptionsInfo getOptionsInfo() | get options info
+../3-Phrases/MegaMek-0.32.0:AbstractOptionsInfo getOptionsInfoImp() | get options info imp
+../3-Phrases/MegaMek-0.32.0:void addOption(QOptionGroup;QString;QString;) | add option
+../3-Phrases/MegaMek-0.32.0:void addOption(QOptionGroup;QString;Z) | add option
+../3-Phrases/MegaMek-0.32.0:void addOption(QOptionGroup;QString;I) | add option
+../3-Phrases/MegaMek-0.32.0:void addOption(QOptionGroup;QString;F) | add option
+../3-Phrases/MegaMek-0.32.0:void addOption(QOptionGroup;QString;QVector;) | add option
+../3-Phrases/MegaMek-0.32.0:void addOption(QOptionGroup;QString;IQObject;) | add option
+../3-Phrases/MegaMek-0.32.0:Enumeration getOptionNames() | get option names
+../3-Phrases/MegaMek-0.32.0:Enumeration getOptions() | get options
+../3-Phrases/MegaMek-0.32.0:void OptionsEnumeration() | options enumeration
+../3-Phrases/MegaMek-0.32.0:CONS AbstractOptionsInfo(QString;) | abstract options info
+../3-Phrases/MegaMek-0.32.0:IOptionInfo getOptionInfo(QString;) | get option info
+../3-Phrases/MegaMek-0.32.0:void addOptionInfo(QOptionGroup;QString;) | add option info
+../3-Phrases/MegaMek-0.32.0:void setOptionInfo(QString;QOptionInfo;) | set option info
+../3-Phrases/MegaMek-0.32.0:String getOptionDisplayableName(QString;) | get option displayable name
+../3-Phrases/MegaMek-0.32.0:String getOptionDescription(QString;) | get option description
+../3-Phrases/MegaMek-0.32.0:void OptionInfo(QString;) | option info
+../3-Phrases/MegaMek-0.32.0:CONS TestXMLOption() | test xml option
+../3-Phrases/MegaMek-0.32.0:void readXMLOptions(QParsedXML;) | read xml options
+../3-Phrases/MegaMek-0.32.0:String printOptions() | print options
+../3-Phrases/MegaMek-0.32.0:void readOptions(QParsedXML;) | read options
+../3-Phrases/MegaMek-0.32.0:boolean receiveGameOptions(QPacket;I) | receive game options
+../3-Phrases/MegaMek-0.32.0:void receiveGameOptionsAux(QPacket;I) | receive game options aux
+../3-Phrases/np:static DisplayAttribute newInstance(XmlOptions options) | display attribute new instance
+../3-Phrases/np:static DateTime newInstance(XmlOptions options) | date time new instance
+../3-Phrases/np:InvalidOptionValueException invalidOption(String msg) | invalid option
+../3-Phrases/np:static XMLInputStream newValidatingXMLInputStream(XMLInputStream xis, XmlOptions options) | xml input stream new validating xml input stream
+../3-Phrases/rhino:int process_options([QString;) | process options
+../3-Phrases/rhino:String[] processOptions([QString;) | process options
+../3-Phrases/rhino:void addOptionalExcludedName(QString;) | add optional excluded name
+../3-Phrases/rhino:void option_error(QString;) | option error
+../3-Phrases/SweetHome3D:String getOptionalString(QResourceBundle;QString;QString;) | get optional string
+../3-Phrases/SweetHome3D:float getOptionalFloat(QResourceBundle;QString;F) | get optional float
+../3-Phrases/SweetHome3D:String getOptionalString(QResourceBundle;QString;) | get optional string
+../3-Phrases/SweetHome3D:void createOptionButtons(QUserPreferences;QWizardController;) | create option buttons
+../3-Phrases/SweetHome3D:void updateNextFinishOptionButton(QWizardController;) | update next finish option button
+../3-Phrases/SweetHome3D:String getOptionalString(QUserPreferences;QClass<*>;QString;) | get optional string
+../3-Phrases/vuze:void addOption(QButton;I) | add option
+../3-Phrases/vuze:void createOptionalMessage() | create optional message
+../3-Phrases/vuze:String getOptionalMessage() | get optional message
+../3-Phrases/vuze:String getOptionalField(QSimpleXMLParserDocumentNode;QString;) | get optional field
+../3-Phrases/vuze:Options getOptions() | get options
+../3-Phrases/vuze:void displayOptions(QPrintStream;QStringPattern;Z) | display options
+../3-Phrases/vuze:CONS OptionsConsoleCommand(QString;) | options console command
+../3-Phrases/vuze:CONS OptionsConsoleCommand(QString;QString;) | options console command
+../3-Phrases/vuze:Options getOptions() | get options
+../3-Phrases/vuze:void addOption(QString;) | add option
+../3-Phrases/vuze:void showMultiOptionsView([QDownloadManager;) | show multi options view
+../3-Phrases/vuze:void showMultiOptionsView([QDownloadManager;) | show multi options view
+../3-Phrases/vuze:MenuItem addOptionsMenuItem(QMenu;) | add options menu item
+../3-Phrases/vuze:void addOption(QString;I) | add option
+../3-Phrases/vuze:CONS TorrentOptionsView() | torrent options view
+../3-Phrases/vuze:CONS TorrentOptionsView([QDownloadManager;) | torrent options view
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:boolean[] canTakeOptions() | can take options
+../3-Phrases/weka:String makeOptionString(QAssociator;) | make option string
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:String makeOptionString(QASEvaluation;QASSearch;) | make option string
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:boolean[] canTakeOptions() | can take options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:String jythonOptionsTipText() | jython options tip text
+../3-Phrases/weka:void setJythonOptions(QString;) | set jython options
+../3-Phrases/weka:String getJythonOptions() | get jython options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:CostMatrix handleCostOption(QString;I) | handle cost option
+../3-Phrases/weka:String makeOptionString(QClassifier;Z) | make option string
+../3-Phrases/weka:void testOptions() | test options
+../3-Phrases/weka:void setOptionsWereValid(Z) | set options were valid
+../3-Phrases/weka:boolean getOptionsWereValid() | get options were valid
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:boolean[] canTakeOptions() | can take options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] partitionOptions([QString;) | partition options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:java.util.Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void printOptions(QOptionHandler;) | print options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setUserOptions([QString;) | set user options
+../3-Phrases/weka:String[] getUserOptions() | get user options
+../3-Phrases/weka:String makeOptionString(QKernel;) | make option string
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:boolean[] canTakeOptions() | can take options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions(III) | set options
+../3-Phrases/weka:void setOptions(III) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String metaOption() | meta option
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:void processMetaOptions([QString;) | process meta options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:String[] createOptions() | create options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:String[] getBestClassifierOptions() | get best classifier options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] updateOption([QString;QString;QString;) | update option
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:String metaOption() | meta option
+../3-Phrases/weka:void processMetaOptions([QString;) | process meta options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:String numAttemptsOfGeneOptionTipText() | num attempts of gene option tip text
+../3-Phrases/weka:int getNumAttemptsOfGeneOption() | get num attempts of gene option
+../3-Phrases/weka:void setNumAttemptsOfGeneOption(I) | set num attempts of gene option
+../3-Phrases/weka:String numFoldersMIOptionTipText() | num folders mi option tip text
+../3-Phrases/weka:int getNumFoldersMIOption() | get num folders mi option
+../3-Phrases/weka:void setNumFoldersMIOption(I) | set num folders mi option
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:String makeOptionString(QClusterer;Z) | make option string
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:boolean[] canTakeOptions() | can take options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void checkForRemainingOptions([QString;) | check for remaining options
+../3-Phrases/weka:String getOption(C[QString;) | get option
+../3-Phrases/weka:String getOption(QString;[QString;) | get option
+../3-Phrases/weka:int getOptionPos(C[QString;) | get option pos
+../3-Phrases/weka:int getOptionPos(QString;[QString;) | get option pos
+../3-Phrases/weka:String[] partitionOptions([QString;) | partition options
+../3-Phrases/weka:String[] splitOptions(QString;) | split options
+../3-Phrases/weka:String joinOptions([QString;) | join options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:CONS OptionHandlerJavadoc() | option handler javadoc
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptionHandler(QOptionHandler;) | set option handler
+../3-Phrases/weka:OptionHandler getOptionHandler() | get option handler
+../3-Phrases/weka:void setUserOptions([QString;) | set user options
+../3-Phrases/weka:String[] getUserOptions() | get user options
+../3-Phrases/weka:String printOptions([QString;) | print options
+../3-Phrases/weka:void compareOptions([QString;[QString;) | compare options
+../3-Phrases/weka:String[] getDefaultOptions() | get default options
+../3-Phrases/weka:boolean checkListOptions() | check list options
+../3-Phrases/weka:boolean checkSetOptions() | check set options
+../3-Phrases/weka:boolean checkDefaultOptions() | check default options
+../3-Phrases/weka:boolean checkRemainingOptions() | check remaining options
+../3-Phrases/weka:boolean checkCanonicalUserOptions() | check canonical user options
+../3-Phrases/weka:boolean checkResettingOptions() | check resetting options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:CONS Option(QString;QString;IQString;) | option
+../3-Phrases/weka:String toOptionList([QTag;) | to option list
+../3-Phrases/weka:String toOptionSynopsis([QTag;) | to option synopsis
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:String makeOptionStr(QAbstractFileLoader;) | make option str
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:String makeOptionStr(QAbstractFileSaver;) | make option str
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:java.util.Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:java.util.Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Vector parseOptions([QString;) | parse options
+../3-Phrases/weka:String makeOptionsString(QStemmer;) | make options string
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:CONS XMLOptions() | xml options
+../3-Phrases/weka:CONS XMLOptions(QString;) | xml options
+../3-Phrases/weka:CONS XMLOptions(QFile;) | xml options
+../3-Phrases/weka:CONS XMLOptions(QInputStream;) | xml options
+../3-Phrases/weka:CONS XMLOptions(QReader;) | xml options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:String makeOptionString(QDataGenerator;) | make option string
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setGeneratorOptions(QBayesNetGenerator;QVector;) | set generator options
+../3-Phrases/weka:void setGeneratorOptions(QVector;) | set generator options
+../3-Phrases/weka:void setGeneratorOption(QBayesNetGenerator;QString;QString;) | set generator option
+../3-Phrases/weka:void setGeneratorOption(QString;QString;) | set generator option
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:boolean[] canTakeOptions() | can take options
+../3-Phrases/weka:void setGeneralOptions(QBuilder;QEstimator;[QString;) | set general options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void updateOptions() | update options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void updateOptions() | update options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void updateOptions() | update options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:Enumeration<QOption;> listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:boolean[] canTakeOptions() | can take options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:String makeOptionString(QAssociator;) | make option string
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:boolean[] canTakeOptions() | can take options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:String makeOptionString(QASEvaluation;QASSearch;) | make option string
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:boolean[] canTakeOptions() | can take options
+../3-Phrases/weka:void testOptions() | test options
+../3-Phrases/weka:void setOptionsWereValid(Z) | set options were valid
+../3-Phrases/weka:boolean getOptionsWereValid() | get options were valid
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:String jythonOptionsTipText() | jython options tip text
+../3-Phrases/weka:void setJythonOptions(QString;) | set jython options
+../3-Phrases/weka:String getJythonOptions() | get jython options
+../3-Phrases/weka:CostMatrix handleCostOption(QString;I) | handle cost option
+../3-Phrases/weka:String makeOptionString(QClassifier;Z) | make option string
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:String makeOptionString(QClusterer;Z) | make option string
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void resetOptions() | reset options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:boolean[] canTakeOptions() | can take options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:String toOptionList([QTag;) | to option list
+../3-Phrases/weka:String toOptionSynopsis([QTag;) | to option synopsis
+../3-Phrases/weka:CONS OptionHandlerJavadoc() | option handler javadoc
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptionHandler(QOptionHandler;) | set option handler
+../3-Phrases/weka:OptionHandler getOptionHandler() | get option handler
+../3-Phrases/weka:void setUserOptions([QString;) | set user options
+../3-Phrases/weka:String[] getUserOptions() | get user options
+../3-Phrases/weka:String printOptions([QString;) | print options
+../3-Phrases/weka:void compareOptions([QString;[QString;) | compare options
+../3-Phrases/weka:String[] getDefaultOptions() | get default options
+../3-Phrases/weka:boolean checkListOptions() | check list options
+../3-Phrases/weka:boolean checkSetOptions() | check set options
+../3-Phrases/weka:boolean checkDefaultOptions() | check default options
+../3-Phrases/weka:boolean checkRemainingOptions() | check remaining options
+../3-Phrases/weka:boolean checkCanonicalUserOptions() | check canonical user options
+../3-Phrases/weka:boolean checkResettingOptions() | check resetting options
+../3-Phrases/weka:void checkForRemainingOptions([QString;) | check for remaining options
+../3-Phrases/weka:String getOption(C[QString;) | get option
+../3-Phrases/weka:String getOption(QString;[QString;) | get option
+../3-Phrases/weka:int getOptionPos(C[QString;) | get option pos
+../3-Phrases/weka:int getOptionPos(QString;[QString;) | get option pos
+../3-Phrases/weka:String[] partitionOptions([QString;) | partition options
+../3-Phrases/weka:String[] splitOptions(QString;) | split options
+../3-Phrases/weka:String joinOptions([QString;) | join options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:CONS Option(QString;QString;IQString;) | option
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:String makeOptionString(QDataGenerator;) | make option string
+../3-Phrases/weka:void setGeneralOptions(QBuilder;QEstimator;[QString;) | set general options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:boolean[] canTakeOptions() | can take options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void updateOptions() | update options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void updateOptions() | update options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void updateOptions() | update options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:void setOptions([QString;) | set options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:Enumeration listOptions() | list options
+../3-Phrases/weka:String[] getOptions() | get options
+../3-Phrases/weka:void setOptions([QString;) | set options

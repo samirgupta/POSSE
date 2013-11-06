@@ -1,0 +1,43 @@
+ArrayList getAttack() | get attack
+boolean hasDisplacementAttack() | has displacement attack
+boolean isMutualAttack() | is mutual attack
+boolean isTargetOfDisplacementAttack() | is target of displacement attack
+boolean resolveWeaponAttack(QWeaponResult;IZ) | resolve weapon attack
+boolean resolveWeaponAttack(QWeaponResult;IZI) | resolve weapon attack
+DisplacementAttackAction getDisplacementAttack() | get displacement attack
+double getMiddleAttack() | get middle attack
+Element opponentAttack(QElement;) | opponent attack
+GAAttack bestAttack(QMoveOption;) | best attack
+GAAttack bestAttack(QMoveOption;QCEntity;I) | best attack
+int getAttack() | get attack
+PhysicalOption getBestPhysicalAttack(QEntity;QEntity;QIGame;) | get best physical attack
+PhysicalResult preTreatPhysicalAttack(QAbstractAttackAction;) | pre treat physical attack
+void addArtilleryAttack(QArtilleryAttackAction;) | add artillery attack
+void addAttack(QAttackAction;) | add attack
+void boardNewAttack(QBoardViewEvent;) | board new attack
+void moveButDontAttack(QConnection;QDirection;) | move but dont attack
+void paintAttack(QGraphics;QAttackAction;) | paint attack
+void processAttack(QEntity;QVector;) | process attack
+void reallyAttack(QUnit;QDirection;) | really attack
+void receiveAttack(QPacket;) | receive attack
+void receiveAttack(QPacket;I) | receive attack
+void removeArtilleryAttack(QArtilleryAttackAction;) | remove artillery attack
+void resolveBreakGrappleAttack(QPhysicalResult;I) | resolve break grapple attack
+void resolveBrushOffAttack(QPhysicalResult;I) | resolve brush off attack
+void resolveChargeAttack(QPhysicalResult;I) | resolve charge attack
+void resolveClubAttack(QPhysicalResult;I) | resolve club attack
+void resolveDfaAttack(QPhysicalResult;I) | resolve dfa attack
+void resolveGrappleAttack(QPhysicalResult;I) | resolve grapple attack
+void resolveJumpJetAttack(QPhysicalResult;I) | resolve jump jet attack
+void resolveKickAttack(QPhysicalResult;I) | resolve kick attack
+void resolveLayExplosivesAttack(QPhysicalResult;I) | resolve lay explosives attack
+void resolvePhysicalAttack(QPhysicalResult;I) | resolve physical attack
+void resolveProtoAttack(QPhysicalResult;I) | resolve proto attack
+void resolvePunchAttack(QPhysicalResult;I) | resolve punch attack
+void resolvePushAttack(QPhysicalResult;I) | resolve push attack
+void resolveThrashAttack(QPhysicalResult;I) | resolve thrash attack
+void resolveTripAttack(QPhysicalResult;I) | resolve trip attack
+void resolveWeaponAttack(QWeaponResult;I) | resolve weapon attack
+void setDisplacementAttack(QDisplacementAttackAction;) | set displacement attack
+WeaponResult preTreatWeaponAttack(QWeaponAttackAction;) | pre treat weapon attack
+WeaponType createLegAttack() | create leg attack

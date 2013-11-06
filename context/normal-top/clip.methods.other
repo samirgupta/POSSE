@@ -1,0 +1,16 @@
+Actions[] getClipActions() | get clip actions
+int getClipDepth() | get clip depth
+it.businesslogic.ireport.chart.Dataset getChartDatasetClipBoard() | get chart dataset clip board
+Rectangle getClipBounds() | get clip bounds
+Rectangle getClipBounds(QRectangle;) | get clip bounds
+Rectangle getClipRect() | get clip rect
+Vector getChartSeriesClipBoard() | get chart series clip board
+Vector getClipBoard() | get clip board
+void addCopyToClipMenu(QControl;QcopyToClipProvider;) | add copy to clip menu
+void copyToClipBoard(QString;) | copy to clip board
+void setChartDatasetClipBoard(Qit.businesslogic.ireport.chart.Dataset;) | set chart dataset clip board
+void setChartSeriesClipBoard(QVector;) | set chart series clip board
+void setClipActions([QActions;) | set clip actions
+void setClipAll(boolean clipAll) | set clip all
+void setClipBoardContent(QVector;) | set clip board content
+void setClipInternal(int x, int y, int width, int height) | set clip internal

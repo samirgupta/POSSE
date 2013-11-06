@@ -1,0 +1,864 @@
+../3-Phrases/3PS:boolean isPlasticWindowsAvailable() | is plastic windows available
+../3-Phrases/3PS:boolean isWindowCentered() | is window centered
+../3-Phrases/Base_Verb:static void centerWindowOnScreen(Window window) | void center window on screen
+../3-Phrases/Base_Verb:int getMonitorAtWindow(Window win) | get monitor at window
+../3-Phrases/Base_Verb:void setAdjustForWindow(boolean TF) | set adjust for window
+../3-Phrases/Base_Verb:void init(IWorkbenchWindow window) | init
+../3-Phrases/Base_Verb:add(root window control site site, root window root window, view view, float split, direction direction, style style)
+../3-Phrases/Base_Verb:void setOpenWindow(boolean _open) | set open window
+../3-Phrases/Base_Verb:void setWindowHeight(int height) | set window height
+../3-Phrases/Base_Verb:boolean getAutomaticMultiWindowSupport() | get automatic multi window support
+../3-Phrases/Base_Verb:void disposeWindow() | dispose window
+../3-Phrases/Base_Verb:void setMessageWindowHeight(int height) | set message window height
+../3-Phrases/Base_Verb:void makeActions(IWorkbenchWindow window) | make actions
+../3-Phrases/Base_Verb:static int SetWindowModality(int inWindow, int inModalKind, int inUnavailableWindow) | int set window modality
+../3-Phrases/Base_Verb:static void saveWindows() | void save windows
+../3-Phrases/Base_Verb:static Settings openWindow(IPropsReceiver sr, Display d, Properties props, String reqProps, boolean isBoolean, String title) | settings open window
+../3-Phrases/Base_Verb:static ToolWindowManager getInstance() | tool window manager get instance
+../3-Phrases/Base_Verb:String getWindowType() | get window type
+../3-Phrases/Dguitar:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/Dguitar:void formWindowClosing(Qjava.awt.event.WindowEvent;) | form window closing
+../3-Phrases/Dguitar:void setOptSizeChildWindow(QJInternalFrame;) | set opt size child window
+../3-Phrases/Dguitar:void locateChildWindow(QJInternalFrame;) | locate child window
+../3-Phrases/Dguitar:void addChildWindow(QJInternalFrame;) | add child window
+../3-Phrases/Dguitar:void removeChildWindow(QJInternalFrame;) | remove child window
+../3-Phrases/Dguitar:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/Dguitar:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/Dguitar:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/Dguitar:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/Dguitar:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/Dguitar:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/Dguitar:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/DrawSWF:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/DrawSWF:MainWindow getMainWindow() | get main window
+../3-Phrases/DrawSWF:CONS MainWindow() | main window
+../3-Phrases/DrawSWF:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/DrawSWF:CONS AboutWindow() | about window
+../3-Phrases/DrawSWF:FontUIResource getWindowTitleFont() | get window title font
+../3-Phrases/DrawSWF:FontUIResource getWindowTitleFont() | get window title font
+../3-Phrases/DrawSWF:FontUIResource getWindowTitleFont() | get window title font
+../3-Phrases/drjava2:void installModalWindowAdapter(QWindow;QRunnable1<-QWindowEvent;>;QRunnable1<-QWindowEvent;>;) | install modal window adapter
+../3-Phrases/drjava2:void removeModalWindowAdapter(QWindow;) | remove modal window adapter
+../3-Phrases/drjava2:boolean isWindowsPlatform() | is windows platform
+../3-Phrases/drjava2:boolean isWindowsPlatform() | is windows platform
+../3-Phrases/drjava2:boolean requestFocusInWindow() | request focus in window
+../3-Phrases/drjava2:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/drjava2:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/drjava2:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/drjava2:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/drjava2:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/drjava2:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/drjava2:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/drjava2:boolean requestFocusInWindow() | request focus in window
+../3-Phrases/drjava2:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/drjava2:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/drjava2:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/drjava2:void installModalWindowAdapter(QWindow;QRunnable1<-QWindowEvent;>;QRunnable1<-QWindowEvent;>;) | install modal window adapter
+../3-Phrases/drjava2:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/drjava2:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/drjava2:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/drjava2:void windowLostFocus(QWindowEvent;) | window lost focus
+../3-Phrases/drjava2:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/drjava2:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/drjava2:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/drjava2:void windowLostFocus(QWindowEvent;) | window lost focus
+../3-Phrases/drjava2:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/drjava2:void removeModalWindowAdapter(QWindow;) | remove modal window adapter
+../3-Phrases/drjava2:CONS DrJavaErrorWindow() | dr java error window
+../3-Phrases/drjava2:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/drjava2:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/drjava2:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/drjava2:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/drjava2:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/drjava2:CONS SimpleInteractionsWindow() | simple interactions window
+../3-Phrases/drjava2:CONS SimpleInteractionsWindow(QString;) | simple interactions window
+../3-Phrases/drjava2:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/drjava2:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/drjava2:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/drjava2:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/drjava2:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/drjava2:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/drjava2:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/drjava2:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/drjava2:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/drjava2:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/drjava2:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/drjava2:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/drjava2:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/drjava2:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/drjava2:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/drjava2:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/drjava2:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/drjava2:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/drjava2:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/drjava2:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/drjava2:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/drjava2:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/drjava2:boolean requestFocusInWindow() | request focus in window
+../3-Phrases/drjava2:boolean requestFocusInWindow() | request focus in window
+../3-Phrases/drjava2:boolean _requestFocusInWindow() | request focus in window
+../3-Phrases/drjava2:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/drjava2:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/freecol2:void changeWindowedMode(Z) | change windowed mode
+../3-Phrases/freecol2:boolean isWindowed() | is windowed
+../3-Phrases/freecol2:CONS WindowedFrameListener(QCanvas;) | windowed frame listener
+../3-Phrases/freecol2:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/freecol2:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/freecol2:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/freecol2:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/freecol2:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/freecol2:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/freecol2:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/freecol2:CONS WindowedFrame() | windowed frame
+../3-Phrases/freecol2:CONS ChangeWindowedModeAction(QFreeColClient;) | change windowed mode action
+../3-Phrases/freemind:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/freemind:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/freemind:CONS WindowClosingAdapter(Z) | window closing adapter
+../3-Phrases/freemind:CONS WindowClosingAdapter() | window closing adapter
+../3-Phrases/freemind:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/freemind:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/freemind:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/freemind:java.util.List getTimeWindowColumnSetting() | get time window column setting
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.TimeWindowConfigurationStorage createTimeWindowConfigurationStorage() | create time window configuration storage
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.WindowConfigurationStorage createWindowConfigurationStorage() | create window configuration storage
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.OptionPanelWindowConfigurationStorage createOptionPanelWindowConfigurationStorage() | create option panel window configuration storage
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.TimeWindowColumnSetting createTimeWindowColumnSetting() | create time window column setting
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.OptionPanelWindowConfigurationStorageType createOptionPanelWindowConfigurationStorageType() | create option panel window configuration storage type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.NormalWindowConfigurationStorage createNormalWindowConfigurationStorage() | create normal window configuration storage
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.TimeWindowColumnSettingType createTimeWindowColumnSettingType() | create time window column setting type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.NormalWindowConfigurationStorageType createNormalWindowConfigurationStorageType() | create normal window configuration storage type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.TimeWindowConfigurationStorageType createTimeWindowConfigurationStorageType() | create time window configuration storage type
+../3-Phrases/freemind:java.util.List getTimeWindowColumnSetting() | get time window column setting
+../3-Phrases/freemind:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/freemind:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/freemind:void closeWindow() | close window
+../3-Phrases/freemind:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/gantt:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/gantt:void setWindowPosition(II) | set window position
+../3-Phrases/gantt:void setWindowSize(II) | set window size
+../3-Phrases/gantt:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/gantt:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/gantt:void setWindowListener(QWindowListener;) | set window listener
+../3-Phrases/gantt:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/gantt:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/gantt:FontUIResource getWindowTitleFont() | get window title font
+../3-Phrases/gantt:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/gantt:CONS NewProjectWizardWindow(QUIFacade;QI18N;) | new project wizard window
+../3-Phrases/gantt:String getNewProjectWizardWindowTitle() | get new project wizard window title
+../3-Phrases/hsqldb:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/hsqldb:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/hsqldb:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/hsqldb:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/hsqldb:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/hsqldb:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/hsqldb:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/hsqldb:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/hsqldb:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/hsqldb:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/hsqldb:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/hsqldb:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/hsqldb:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/hsqldb:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/hsqldb:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/hsqldb:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/hsqldb:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/hsqldb:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/hsqldb:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/hsqldb:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/hsqldb:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/hsqldb:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/hsqldb:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/hsqldb:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/hsqldb:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/hsqldb:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/hsqldb:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/hsqldb:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/hsqldb:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosed(Qjava.awt.event.WindowEvent;) | window closed
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void formWindowClosed(Qjava.awt.event.WindowEvent;) | form window closed
+../3-Phrases/iReport:void formWindowClosing(Qjava.awt.event.WindowEvent;) | form window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowOpened(Qjava.awt.event.WindowEvent;) | window opened
+../3-Phrases/iReport:void formWindowOpened(Qjava.awt.event.WindowEvent;) | form window opened
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosed(Qjava.awt.event.WindowEvent;) | window closed
+../3-Phrases/iReport:void formWindowClosed(Qjava.awt.event.WindowEvent;) | form window closed
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void updateMenuWindowList() | update menu window list
+../3-Phrases/iReport:void jMenuWindowListActionPerformed(Qjava.awt.event.ActionEvent;) | j menu window list action performed
+../3-Phrases/iReport:void windowActivated(Qjava.awt.event.WindowEvent;) | window activated
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowOpened(Qjava.awt.event.WindowEvent;) | window opened
+../3-Phrases/iReport:void formWindowActivated(Qjava.awt.event.WindowEvent;) | form window activated
+../3-Phrases/iReport:JReportFrame openNewReportWindow(QReport;) | open new report window
+../3-Phrases/iReport:void formWindowOpened(Qjava.awt.event.WindowEvent;) | form window opened
+../3-Phrases/iReport:int getWindowID() | get window id
+../3-Phrases/iReport:void setWindowID(I) | set window id
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowOpened(Qjava.awt.event.WindowEvent;) | window opened
+../3-Phrases/iReport:void formWindowOpened(Qjava.awt.event.WindowEvent;) | form window opened
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowOpened(Qjava.awt.event.WindowEvent;) | window opened
+../3-Phrases/iReport:void formWindowOpened(Qjava.awt.event.WindowEvent;) | form window opened
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/iReport:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/Jabref:void openWindow(QVector<QParserResult;>;) | open window
+../3-Phrases/Jabref:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/Jabref:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/Jabref:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/Jabref:void openFileOnWindows(QString;Z) | open file on windows
+../3-Phrases/Jabref:void openFileWithApplicationOnWindows(QString;QString;) | open file with application on windows
+../3-Phrases/Jabref:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/Jabref:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/Jabref:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/Jabref:void processWindowEvent(QWindowEvent;) | process window event
+../3-Phrases/Jabref:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/Jabref:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/Jabref:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/Jabref:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/Jabref:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/Jabref:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/jajuk:JajukWindow getWindow() | get window
+../3-Phrases/jajuk:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/jajuk:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/jajuk:CONS JajukWindow() | jajuk window
+../3-Phrases/jajuk:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/jajuk:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/jajuk:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/jajuk:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/jajuk:void setRootWindow(QViewMap;QDockingWindow;) | set root window
+../3-Phrases/jajuk:boolean isUnderWindows() | is under windows
+../3-Phrases/jajuk:void updateWindowUI(QWindow;) | update window ui
+../3-Phrases/javaHMO:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/javaHMO:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/javaHMO:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/javaHMO:void SplashWindow() | splash window
+../3-Phrases/jbidwatcher:int WindowsRegCloseKey(I) | windows reg close key
+../3-Phrases/jbidwatcher:byte[] windowsAbsolutePath([B) | windows absolute path
+../3-Phrases/jbidwatcher:byte[] toWindowsName(QString;) | to windows name
+../3-Phrases/jbidwatcher:void IconifyingWindowAdapter(QJFrame;) | iconifying window adapter
+../3-Phrases/jbidwatcher:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/jbidwatcher:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/jbidwatcher:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/jbidwatcher:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/jbidwatcher:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/jbidwatcher:boolean isWindows() | is windows
+../3-Phrases/jbidwatcher:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/jbidwatcher:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/jbidwatcher:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/jbidwatcher:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/jbidwatcher:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/jbidwatcher:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/jbidwatcher:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/jbidwatcher:void addWindowListener(QWindowListener;) | add window listener
+../3-Phrases/jbidwatcher:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/jbidwatcher:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/Jftp:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/Jftp:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/Jftp:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/Jftp:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/Jftp:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/Jftp:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/Jftp:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/Jftp:java.awt.Dimension getWindowSize() | get window size
+../3-Phrases/Jftp:java.awt.Point getWindowLocation() | get window location
+../3-Phrases/Jftp:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/Jftp:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/Jftp:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/Jftp:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/Jftp:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/Jftp:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/Jftp:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/Jftp:void showContentWindow(QString;QDirEntry;) | show content window
+../3-Phrases/Jftp:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/Jftp:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/Jftp:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/Jftp:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/Jftp:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/Jftp:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/Jftp:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/Jftp:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/Jftp:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/Jftp:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/Jftp:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/Jftp:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/Jftp:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/Jftp:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/Jftp:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/Jftp:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/Jftp:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/Jftp:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/Jftp:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/Jftp:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/Jftp:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/Jftp:void showContentWindow(QString;QDirEntry;) | show content window
+../3-Phrases/Jftp:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/Jftp:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/Jftp:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/Jftp:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/Jftp:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/Jftp:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/Jftp:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/Jftp:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/Jftp:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/Jftp:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/Jftp:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/Jftp:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/Jftp:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/Jftp:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/Jftp:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/Jftp:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/Jftp:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/Jftp:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/Jftp:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/Jftp:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/Jftp:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/Jftp:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/JHotDraw-7.0.8:void windowGainedFocus(QWindowEvent;) | window gained focus
+../3-Phrases/JHotDraw-7.0.8:void windowLostFocus(QWindowEvent;) | window lost focus
+../3-Phrases/JHotDraw-7.0.8:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/JHotDraw-7.0.8:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/JHotDraw-7.0.8:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/JHotDraw-7.0.8:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/JHotDraw-7.0.8:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/JHotDraw-7.0.8:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/JHotDraw-7.0.8:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/JHotDraw-7.0.8:void windowGainedFocus(QWindowEvent;) | window gained focus
+../3-Phrases/JHotDraw-7.0.8:Window getWindowForComponent(QComponent;) | get window for component
+../3-Phrases/JHotDraw-7.0.8:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/JRobin:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/JRobin:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/JRobin:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/JRobin:CONS SplashWindow() | splash window
+../3-Phrases/JRobin:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowActivated(Qjava.awt.event.WindowEvent;) | window activated
+../3-Phrases/MegaMek-0.32.0:void windowClosed(Qjava.awt.event.WindowEvent;) | window closed
+../3-Phrases/MegaMek-0.32.0:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowDeactivated(Qjava.awt.event.WindowEvent;) | window deactivated
+../3-Phrases/MegaMek-0.32.0:void windowDeiconified(Qjava.awt.event.WindowEvent;) | window deiconified
+../3-Phrases/MegaMek-0.32.0:void windowIconified(Qjava.awt.event.WindowEvent;) | window iconified
+../3-Phrases/MegaMek-0.32.0:void windowOpened(Qjava.awt.event.WindowEvent;) | window opened
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/MegaMek-0.32.0:void processWindowEvent(QWindowEvent;) | process window event
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:int getWindowPosX() | get window pos x
+../3-Phrases/MegaMek-0.32.0:int getWindowPosY() | get window pos y
+../3-Phrases/MegaMek-0.32.0:int getWindowSizeHeight() | get window size height
+../3-Phrases/MegaMek-0.32.0:int getWindowSizeWidth() | get window size width
+../3-Phrases/MegaMek-0.32.0:void setWindowPosX(I) | set window pos x
+../3-Phrases/MegaMek-0.32.0:void setWindowPosY(I) | set window pos y
+../3-Phrases/MegaMek-0.32.0:void setWindowSizeHeight(I) | set window size height
+../3-Phrases/MegaMek-0.32.0:void setWindowSizeWidth(I) | set window size width
+../3-Phrases/MegaMek-0.32.0:void windowActivated(Qjava.awt.event.WindowEvent;) | window activated
+../3-Phrases/MegaMek-0.32.0:void windowClosed(Qjava.awt.event.WindowEvent;) | window closed
+../3-Phrases/MegaMek-0.32.0:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowDeactivated(Qjava.awt.event.WindowEvent;) | window deactivated
+../3-Phrases/MegaMek-0.32.0:void windowDeiconified(Qjava.awt.event.WindowEvent;) | window deiconified
+../3-Phrases/MegaMek-0.32.0:void windowIconified(Qjava.awt.event.WindowEvent;) | window iconified
+../3-Phrases/MegaMek-0.32.0:void windowOpened(Qjava.awt.event.WindowEvent;) | window opened
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowActivated(Qjava.awt.event.WindowEvent;) | window activated
+../3-Phrases/MegaMek-0.32.0:void windowClosed(Qjava.awt.event.WindowEvent;) | window closed
+../3-Phrases/MegaMek-0.32.0:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowDeactivated(Qjava.awt.event.WindowEvent;) | window deactivated
+../3-Phrases/MegaMek-0.32.0:void windowDeiconified(Qjava.awt.event.WindowEvent;) | window deiconified
+../3-Phrases/MegaMek-0.32.0:void windowIconified(Qjava.awt.event.WindowEvent;) | window iconified
+../3-Phrases/MegaMek-0.32.0:void windowOpened(Qjava.awt.event.WindowEvent;) | window opened
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:Window getParentWindow(QComponent;) | get parent window
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void processWindowEvent(QWindowEvent;) | process window event
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/MegaMek-0.32.0:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/MegaMek-0.32.0:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/MegaMek-0.32.0:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/MegaMek-0.32.0:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/MegaMek-0.32.0:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/MegaMek-0.32.0:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/MegaMek-0.32.0:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/MegaMek-0.32.0:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/MegaMek-0.32.0:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/MegaMek-0.32.0:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/MegaMek-0.32.0:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/MegaMek-0.32.0:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/MegaMek-0.32.0:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:int getWindowPosX() | get window pos x
+../3-Phrases/MegaMek-0.32.0:int getWindowPosY() | get window pos y
+../3-Phrases/MegaMek-0.32.0:int getWindowSizeHeight() | get window size height
+../3-Phrases/MegaMek-0.32.0:int getWindowSizeWidth() | get window size width
+../3-Phrases/MegaMek-0.32.0:void setWindowPosX(I) | set window pos x
+../3-Phrases/MegaMek-0.32.0:void setWindowPosY(I) | set window pos y
+../3-Phrases/MegaMek-0.32.0:void setWindowSizeHeight(I) | set window size height
+../3-Phrases/MegaMek-0.32.0:void setWindowSizeWidth(I) | set window size width
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/MegaMek-0.32.0:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/np:static void Window_refresh__SWIG_0(long jarg1, Window jarg1_, boolean jarg2, long jarg3, Rect jarg3_) | void window refresh  swig  0
+../3-Phrases/np:JMenu windowMenu() | window menu
+../3-Phrases/np:static Window windowForComponent(Component comp) | window window for component
+../3-Phrases/PlanetaMessenger:JMOSWindow getMainWindow() | get main window
+../3-Phrases/PlanetaMessenger:JConsoleWindow getConsoleWindow() | get console window
+../3-Phrases/PlanetaMessenger:java.awt.Point getMainWindowLocation() | get main window location
+../3-Phrases/PlanetaMessenger:java.awt.Dimension getMainWindowSize() | get main window size
+../3-Phrases/PlanetaMessenger:boolean getMainWindowStatus() | get main window status
+../3-Phrases/PlanetaMessenger:void setMainWindowProperties(Qjava.awt.Point;Qjava.awt.Dimension;Z) | set main window properties
+../3-Phrases/PlanetaMessenger:java.awt.Point getProfileWindowLocation() | get profile window location
+../3-Phrases/PlanetaMessenger:java.awt.Dimension getProfileWindowSize() | get profile window size
+../3-Phrases/PlanetaMessenger:void setProfileWindowProperties(Qjava.awt.Point;Qjava.awt.Dimension;) | set profile window properties
+../3-Phrases/PlanetaMessenger:java.awt.Point getProtocolWindowLocation() | get protocol window location
+../3-Phrases/PlanetaMessenger:java.awt.Dimension getProtocolWindowSize() | get protocol window size
+../3-Phrases/PlanetaMessenger:void setProtocolWindowProperties(Qjava.awt.Point;Qjava.awt.Dimension;) | set protocol window properties
+../3-Phrases/PlanetaMessenger:void setWindowProperties(Qjava.awt.Point;Qjava.awt.Dimension;ZI) | set window properties
+../3-Phrases/PlanetaMessenger:JMOSSendMessageDlg getMessageWindow(I) | get message window
+../3-Phrases/PlanetaMessenger:Object[] getAllMessageWindows() | get all message windows
+../3-Phrases/PlanetaMessenger:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/PlanetaMessenger:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/PlanetaMessenger:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/PlanetaMessenger:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/PlanetaMessenger:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/PlanetaMessenger:CONS JMOSWindow() | jmos window
+../3-Phrases/PlanetaMessenger:void windowRefresh(I) | window refresh
+../3-Phrases/PlanetaMessenger:void initSplashWindow() | init splash window
+../3-Phrases/PlanetaMessenger:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/PlanetaMessenger:CONS JMOSPopupWindow(QString;QString;) | jmos popup window
+../3-Phrases/PlanetaMessenger:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/PlanetaMessenger:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/PlanetaMessenger:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/PlanetaMessenger:CONS JPopupWindow() | j popup window
+../3-Phrases/PlanetaMessenger:void addPopupWindowEventListener(QJPopupWindowEventListener;) | add popup window event listener
+../3-Phrases/PlanetaMessenger:void removePopupWindowEventListener(QJPopupWindowEventListener;) | remove popup window event listener
+../3-Phrases/PlanetaMessenger:CONS JConsoleWindow() | j console window
+../3-Phrases/PlanetaMessenger:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/prefuse:JFrame showTableWindow(QTable;) | show table window
+../3-Phrases/prefuse:JFrame showTreeWindow(QTree;QString;) | show tree window
+../3-Phrases/prefuse:boolean isWindowsPlatform() | is windows platform
+../3-Phrases/prefuse:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/prefuse:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/rhino:CONS ContextWindow(QSwingGui;) | context window
+../3-Phrases/rhino:CONS EvalWindow(QString;QSwingGui;) | eval window
+../3-Phrases/rhino:CONS FileWindow(QSwingGui;QDim.SourceInfo;) | file window
+../3-Phrases/rhino:CONS MoreWindows(QJFrame;QHashtable;QString;QString;) | more windows
+../3-Phrases/rhino:FileWindow getFileWindow(QString;) | get file window
+../3-Phrases/rhino:JMenu getWindowMenu() | get window menu
+../3-Phrases/rhino:void createFileWindow(QDim.SourceInfo;I) | create file window
+../3-Phrases/rhino:void removeWindow(QFileWindow;) | remove window
+../3-Phrases/rhino:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/rhino-fieldSample:CONS EvalWindow(QString;QSwingGui;) | eval window
+../3-Phrases/rhino-fieldSample:FileWindow getFileWindow(QString;) | get file window
+../3-Phrases/rhino-fieldSample:void createFileWindow(QDim.SourceInfo;I) | create file window
+../3-Phrases/rhino-fieldSample:CONS FileWindow(QSwingGui;QDim.SourceInfo;) | file window
+../3-Phrases/rhino-fieldSample:JMenu getWindowMenu() | get window menu
+../3-Phrases/SweetHome3D:void windowStateChanged(QWindowEvent;) | window state changed
+../3-Phrases/SweetHome3D:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/SweetHome3D:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/SweetHome3D:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/SweetHome3D:void addWindowMenuToFrame(QJFrame;QSweetHome3D;Z) | add window menu to frame
+../3-Phrases/SweetHome3D:Sash[] getDoorOrWindowSashes(QResourceBundle;IFF) | get door or window sashes
+../3-Phrases/SweetHome3D:void updateShapeNamesAndWindowPanesTransparency(QScene;) | update shape names and window panes transparency
+../3-Phrases/SweetHome3D:boolean isDoorOrWindow() | is door or window
+../3-Phrases/SweetHome3D:CONS CatalogDoorOrWindow(QString;QString;QString;QContent;QContent;FFFFZFF[QSash;[[FQString;ZQBigDecimal;QBigDecimal;) | catalog door or window
+../3-Phrases/SweetHome3D:CONS CatalogDoorOrWindow(QString;QContent;QContent;FFFFZFF[QSash;QInteger;[[FZFZ) | catalog door or window
+../3-Phrases/SweetHome3D:boolean isDoorOrWindow() | is door or window
+../3-Phrases/SweetHome3D:CONS HomeDoorOrWindow(QDoorOrWindow;) | home door or window
+../3-Phrases/SweetHome3D:boolean isDoorOrWindow() | is door or window
+../3-Phrases/SweetHome3D:boolean isDoorOrWindow() | is door or window
+../3-Phrases/SweetHome3D:boolean isDoorOrWindow() | is door or window
+../3-Phrases/SweetHome3D:void showSplashScreenWindow(QURL;) | show splash screen window
+../3-Phrases/SweetHome3D:Shape getDoorOrWindowShapeAtWallIntersection(QHomeDoorOrWindow;) | get door or window shape at wall intersection
+../3-Phrases/SweetHome3D:void paintDoorOrWindowSashes(QGraphics2D;QHomeDoorOrWindow;FQColor;) | paint door or window sashes
+../3-Phrases/SweetHome3D:GeneralPath getDoorOrWindowSashShape(QHomeDoorOrWindow;QSash;) | get door or window sash shape
+../3-Phrases/SweetHome3D:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/SweetHome3D:boolean isWindows() | is windows
+../3-Phrases/SweetHome3D:boolean isDoorOrWindow() | is door or window
+../3-Phrases/SweetHome3D:void setDoorOrWindow(Z) | set door or window
+../3-Phrases/SweetHome3D:void ModifiedDoorOrWindow(QHomeDoorOrWindow;) | modified door or window
+../3-Phrases/vuze:CONS ExternalLoginWindow(QExternalLoginListener;QString;QString;ZQString;Z) | external login window
+../3-Phrases/vuze:void openDebugWindow(QDefaultRankCalculator;) | open debug window
+../3-Phrases/vuze:IMainWindow getMainWindow() | get main window
+../3-Phrases/vuze:String getWindowState() | get window state
+../3-Phrases/vuze:String getWindowState() | get window state
+../3-Phrases/vuze:CONS ChatWindow(QAvatarWidget;QChat;QChatDiscussion;) | chat window
+../3-Phrases/vuze:CONS MessageNotificationWindow(QAvatarWidget;QChatMessage;) | message notification window
+../3-Phrases/vuze:CONS StyledMessageWindow(QShell;I) | styled message window
+../3-Phrases/vuze:CONS StyledMessageWindow(QShell;IZ) | styled message window
+../3-Phrases/vuze:CONS LightBoxBrowserWindow(QString;QString;II) | light box browser window
+../3-Phrases/vuze:CONS LightBoxBrowserWindow(QString;II) | light box browser window
+../3-Phrases/vuze:CONS LightBoxBrowserWindow(QString;) | light box browser window
+../3-Phrases/vuze:CONS BrowserWindow(QShell;QString;DDZZ) | browser window
+../3-Phrases/vuze:CONS BrowserWindow(QShell;QString;IIZZ) | browser window
+../3-Phrases/vuze:CONS MessageWindow(QShell;I) | message window
+../3-Phrases/vuze:String getWindowTitle() | get window title
+../3-Phrases/vuze:String getWindowTitle() | get window title
+../3-Phrases/vuze:void oldMainWindowInitialized(QMainWindow;) | old main window initialized
+../3-Phrases/vuze:IMainWindow getMainWindow() | get main window
+../3-Phrases/vuze:CONS MainWindow(QAzureusCore;QDisplay;QIUIIntializer;) | main window
+../3-Phrases/vuze:void createWindow(QIUIIntializer;) | create window
+../3-Phrases/vuze:void showMainWindow() | show main window
+../3-Phrases/vuze:org.gudy.azureus2.ui.swt.mainwindow.MainWindow createOldMainWindow() | create old main window
+../3-Phrases/vuze:org.gudy.azureus2.ui.swt.mainwindow.MainWindow getOldMainWindow(Z) | get old main window
+../3-Phrases/vuze:void addWindowMenu() | add window menu
+../3-Phrases/vuze:CONS UISwitcherWindow() | ui switcher window
+../3-Phrases/vuze:CONS UISwitcherWindow(QShell;Z) | ui switcher window
+../3-Phrases/vuze:CONS SubscriptionListWindow(QDownloadManager;Z) | subscription list window
+../3-Phrases/vuze:LightBoxBrowserWindow openLoginWindow() | open login window
+../3-Phrases/vuze:LightBoxBrowserWindow openLoginWindow(QString;) | open login window
+../3-Phrases/vuze:boolean isChatWindowVisible() | is chat window visible
+../3-Phrases/vuze:org.gudy.azureus2.ui.swt.mainwindow.MainWindow createOldMainWindow() | create old main window
+../3-Phrases/vuze:MainWindow getOldMainWindow() | get old main window
+../3-Phrases/vuze:long windowsMessage(IIJ) | windows message
+../3-Phrases/vuze:long windowsMessage(IIJ) | windows message
+../3-Phrases/vuze:long windowsMessage(IIJ) | windows message
+../3-Phrases/vuze:boolean isWindows() | is windows
+../3-Phrases/vuze:boolean isWindows() | is windows
+../3-Phrases/vuze:void showChoosableEncodingWindow(QShell;[QLocaleUtilDecoderCandidate;[QLocaleUtilDecoderCandidate;) | show choosable encoding window
+../3-Phrases/vuze:CONS PropertiesWindow(QString;[QString;[QString;) | properties window
+../3-Phrases/vuze:CONS TrayWindow(QMainWindow;) | tray window
+../3-Phrases/vuze:CONS OpenTorrentWindow(QShell;QGlobalManager;Z) | open torrent window
+../3-Phrases/vuze:void openWindow(QShell;) | open window
+../3-Phrases/vuze:CONS FileDownloadWindow(QAzureusCore;QShell;QString;QString;QMap;) | file download window
+../3-Phrases/vuze:CONS FileDownloadWindow(QAzureusCore;QShell;QString;QString;QMap;QTorrentDownloaderCallBackInterface;) | file download window
+../3-Phrases/vuze:CONS TrackerChangerWindow(QDisplay;QTRTrackerAnnouncer;) | tracker changer window
+../3-Phrases/vuze:void centreWindow(QShell;) | centre window
+../3-Phrases/vuze:void centerWindowRelativeTo(QShell;QControl;) | center window relative to
+../3-Phrases/vuze:CONS CategoryAdderWindow(QDisplay;) | category adder window
+../3-Phrases/vuze:String openSwitcherWindow(Z) | open switcher window
+../3-Phrases/vuze:String _openSwitcherWindow(Z) | open switcher window
+../3-Phrases/vuze:CONS BlockedIpsWindow() | blocked ips window
+../3-Phrases/vuze:CONS TextViewerWindow(QString;QString;QString;) | text viewer window
+../3-Phrases/vuze:boolean showPasswordWindow(QDisplay;) | show password window
+../3-Phrases/vuze:CONS PasswordWindow(QDisplay;) | password window
+../3-Phrases/vuze:CONS SimpleTextEntryWindow(QDisplay;) | simple text entry window
+../3-Phrases/vuze:CONS MessageBoxWindow(QString;IZZQDisplay;QString;QString;QString;) | message box window
+../3-Phrases/vuze:CONS OpenUrlWindow(QAzureusCore;QShell;QString;QString;) | open url window
+../3-Phrases/vuze:CONS OpenUrlWindow(QAzureusCore;QShell;QString;QString;QTorrentDownloaderCallBackInterface;) | open url window
+../3-Phrases/vuze:void loadImagesForSplashWindow(QDisplay;) | load images for splash window
+../3-Phrases/vuze:void showMainWindow() | show main window
+../3-Phrases/vuze:CONS TestWindow(QDisplay;) | test window
+../3-Phrases/vuze:CONS CertificateTrustWindow() | certificate trust window
+../3-Phrases/vuze:CONS CryptoWindow() | crypto window
+../3-Phrases/vuze:CONS AuthenticatorWindow() | authenticator window
+../3-Phrases/vuze:CONS CertificateCreatorWindow() | certificate creator window
+../3-Phrases/vuze:void addWindow(QShell;) | add window
+../3-Phrases/vuze:void removeWindow(QShell;) | remove window
+../3-Phrases/vuze:Iterator getWindows() | get windows
+../3-Phrases/vuze:void addWindowAddedListener(QListener;) | add window added listener
+../3-Phrases/vuze:void removeWindowAddedListener(QListener;) | remove window added listener
+../3-Phrases/vuze:void addWindowRemovedListener(QListener;) | add window removed listener
+../3-Phrases/vuze:void removeWindowRemovedListener(QListener;) | remove window removed listener
+../3-Phrases/vuze:void setMainWindow(QMainWindow;) | set main window
+../3-Phrases/vuze:void addWindowMenu(QShell;) | add window menu
+../3-Phrases/vuze:IMainWindow getMainWindow() | get main window
+../3-Phrases/vuze:CONS SplashWindow(QDisplay;) | splash window
+../3-Phrases/vuze:CONS SplashWindow(QDisplay;QIUIIntializer;) | splash window
+../3-Phrases/vuze:CONS MainWindow(QAzureusCore;QInitializer;QArrayList;) | main window
+../3-Phrases/vuze:CONS MainWindow(QAzureusCore;QInitializer;QShell;QComposite;QUISWTInstanceImpl;) | main window
+../3-Phrases/vuze:CONS MainWindow() | main window
+../3-Phrases/vuze:void setShowMainWindow(Z) | set show main window
+../3-Phrases/vuze:void showMainWindow() | show main window
+../3-Phrases/vuze:MainWindow getWindow() | get window
+../3-Phrases/vuze:void closeViewOrWindow() | close view or window
+../3-Phrases/vuze:void checkForWhatsNewWindow() | check for whats new window
+../3-Phrases/vuze:Point getStoredWindowSize() | get stored window size
+../3-Phrases/vuze:void openTorrentWindow() | open torrent window
+../3-Phrases/vuze:void openTorrentWindow(QString;[QString;Z) | open torrent window
+../3-Phrases/vuze:void _openTorrentWindow(QString;[QString;Z) | open torrent window
+../3-Phrases/vuze:MenuItem createWindowMenuItem(QMenu;) | create window menu item
+../3-Phrases/vuze:MenuItem addCloseWindowMenuItem(QMenu;) | add close window menu item
+../3-Phrases/vuze:MenuItem addMinimizeWindowMenuItem(QMenu;) | add minimize window menu item
+../3-Phrases/vuze:void appendWindowMenuItems(QMenu;) | append window menu items
+../3-Phrases/vuze:MenuItem addZoomWindowMenuItem(QMenu;) | add zoom window menu item
+../3-Phrases/vuze:void createWindow() | create window
+../3-Phrases/vuze:void createWindow() | create window
+../3-Phrases/vuze:CONS NatTestWindow() | nat test window
+../3-Phrases/vuze:CONS ProgressReporterWindow(QIProgressReporter;I) | progress reporter window
+../3-Phrases/vuze:CONS ProgressReporterWindow([QIProgressReporter;I) | progress reporter window
+../3-Phrases/vuze:void openWindow() | open window
+../3-Phrases/vuze:CONS ProgressWindow(QAzureusCoreOperation;) | progress window
+../3-Phrases/vuze:CONS ProgressWindow(QShell;QString;II) | progress window
+../3-Phrases/vuze:CONS ProgressWindow() | progress window
+../3-Phrases/vuze:String getWindowTitle() | get window title
+../3-Phrases/vuze:String getWindowTitle() | get window title
+../3-Phrases/vuze:CONS SimpleBrowserWindow(QShell;QString;DDZZ) | simple browser window
+../3-Phrases/vuze:CONS SimpleBrowserWindow(QShell;QString;IIZZ) | simple browser window
+../3-Phrases/vuze:CONS UpdateWindow(QUpdateMonitor;QAzureusCore;QUpdateCheckInstance;) | update window
+../3-Phrases/vuze:void buildWindow() | build window
+../3-Phrases/vuze:CONS TableColumnEditorWindow(QShell;QString;[QTableColumnCore;QObject;QClass;QTableStructureModificationListener;) | table column editor window
+../3-Phrases/vuze:CONS WelcomeWindow(QShell;) | welcome window
+../3-Phrases/vuze:Shell getWizardWindow() | get wizard window
+../3-Phrases/vuze:void showMainWindow() | show main window
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:String windowSizeTipText() | window size tip text
+../3-Phrases/weka:int getWindowSize() | get window size
+../3-Phrases/weka:void setWindowSize(I) | set window size
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void LogWindowPrintStream(QLogWindow;QPrintStream;QString;) | log window print stream
+../3-Phrases/weka:CONS LogWindow() | log window
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:boolean showWindow(QContainer;) | show window
+../3-Phrases/weka:boolean showWindow(QClass;) | show window
+../3-Phrases/weka:Iterator getWindowList() | get window list
+../3-Phrases/weka:Container getWindow(QClass;) | get window
+../3-Phrases/weka:Container getWindow(QString;) | get window
+../3-Phrases/weka:boolean containsWindow(QClass;) | contains window
+../3-Phrases/weka:boolean containsWindow(QString;) | contains window
+../3-Phrases/weka:void minimizeWindows() | minimize windows
+../3-Phrases/weka:void restoreWindows() | restore windows
+../3-Phrases/weka:void windowListChanged() | window list changed
+../3-Phrases/weka:void createWindowMenu() | create window menu
+../3-Phrases/weka:CONS SplashWindow(QFrame;QImage;) | splash window
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/weka:void windowClosed(QWindowEvent;) | window closed
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowDeactivated(QWindowEvent;) | window deactivated
+../3-Phrases/weka:void windowDeiconified(QWindowEvent;) | window deiconified
+../3-Phrases/weka:void windowIconified(QWindowEvent;) | window iconified
+../3-Phrases/weka:void windowOpened(QWindowEvent;) | window opened
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void installWindowListenerForSavingUserBeans() | install window listener for saving user beans
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void setExitIfNoWindowsOpen(Z) | set exit if no windows open
+../3-Phrases/weka:boolean getExitIfNoWindowsOpen() | get exit if no windows open
+../3-Phrases/weka:void createNewVisualizerWindow(QClassifier;QInstances;) | create new visualizer window
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:boolean showWindow(QContainer;) | show window
+../3-Phrases/weka:boolean showWindow(QClass;) | show window
+../3-Phrases/weka:Iterator getWindowList() | get window list
+../3-Phrases/weka:Container getWindow(QClass;) | get window
+../3-Phrases/weka:Container getWindow(QString;) | get window
+../3-Phrases/weka:boolean containsWindow(QClass;) | contains window
+../3-Phrases/weka:boolean containsWindow(QString;) | contains window
+../3-Phrases/weka:void minimizeWindows() | minimize windows
+../3-Phrases/weka:void restoreWindows() | restore windows
+../3-Phrases/weka:void windowListChanged() | window list changed
+../3-Phrases/weka:void createWindowMenu() | create window menu
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void LogWindowPrintStream(QLogWindow;QPrintStream;QString;) | log window print stream
+../3-Phrases/weka:CONS LogWindow() | log window
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowActivated(QWindowEvent;) | window activated
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(Qjava.awt.event.WindowEvent;) | window closing
+../3-Phrases/weka:CONS SplashWindow(QFrame;QImage;) | splash window
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing
+../3-Phrases/weka:void windowClosing(QWindowEvent;) | window closing

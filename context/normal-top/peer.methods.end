@@ -1,0 +1,54 @@
+boolean isConnectedToPeer(QPeerItem;) | is connected to peer
+CachePeer categorisePeer([BQInetAddress;I) | categorise peer
+long getEstimatedDownloadRateOfPeer() | get estimated download rate of peer
+long getEstimatedUploadRateOfPeer() | get estimated upload rate of peer
+long getTotalAveragePerPeer() | get total average per peer
+long getTotalBytesDownloadedByPeer() | get total bytes downloaded by peer
+MouseListener getPeer() | get peer
+PeerForeignDelegate lookupForeignPeer(QPeer;) | lookup foreign peer
+PeerImpl getPeerForPEPeer(QPEPeer;) | get peer for pe peer
+PeerItem getBasePeer() | get base peer
+PeerItem getNextOptimisticConnectPeer() | get next optimistic connect peer
+PeerItem getNextOptimisticConnectPeer(I) | get next optimistic connect peer
+PeerItem getSelfPeer() | get self peer
+PEPeer getPeer() | get peer
+PEPeer getPEPeer() | get pe peer
+PEPeer mapForeignPeer(QPeer;) | map foreign peer
+PEPeerTransport getNextOptimisticPeer(QArrayList;) | get next optimistic peer
+PEPeerTransport getNextOptimisticPeer(QArrayList;ZZ) | get next optimistic peer
+PEPeerTransport getPeer() | get peer
+TrackerPeer getPeer() | get peer
+TRHostPeer getPeer() | get peer
+TRTrackerServerPeer getPeer() | get peer
+TRTrackerServerPeerImpl importPeer(QMap;) | import peer
+void addConnectedPeer(QPeerItem;) | add connected peer
+void addDiscoveredPeer(QPeerItem;) | add discovered peer
+void addExplicitBiasedPeer(QString;I) | add explicit biased peer
+void addPeer() | add peer
+void addPeer(QPeer;) | add peer
+void addPeer(QPEPeer;) | add peer
+void addPeer(QString;I) | add peer
+void addPeer(QString;IIZ) | add peer
+void addPeer(QString;IIZQMap;) | add peer
+void addPeer(QString;IZ) | add peer
+void closeAndRemovePeer(QPEPeerTransport;QString;Z) | close and remove peer
+void dropConnectedPeer(QPeerItem;) | drop connected peer
+void exportPeer(QLinkedList;QTRTrackerServerPeerImpl;ZBBQDHTNetworkPosition;) | export peer
+void lightweightPeer(QString;IQHashWrapper;) | lightweight peer
+void markBuddyPeer(QDownload;QPeer;) | mark buddy peer
+void pieceRevealedToPeer() | piece revealed to peer
+void QueuedPeer(QString;IIIBBIZZ) | queued peer
+void recordPeer(QString;[BQString;IZ) | record peer
+void removePeer() | remove peer
+void removePeer(QExternalSeedPeer;) | remove peer
+void removePeer(QPeer;) | remove peer
+void removePeer(QPeer;QString;) | remove peer
+void removePeer(QPEPeer;) | remove peer
+void removePeer(QPEPeer;QString;) | remove peer
+void removePeer(QTRTrackerServerPeerImpl;IIQString;) | remove peer
+void removePeer(QTRTrackerServerPeerImpl;IQString;) | remove peer
+void setPeer() | set peer
+void setPeer(QPEPeer;) | set peer
+void setSelfPeer(QPeerItem;) | set self peer
+void trackPeer(QDownload;QPeer;) | track peer
+void unmarkBuddyPeer(QPeer;) | unmark buddy peer

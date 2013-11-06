@@ -1,0 +1,45 @@
+Action createLockUnlockBasePlanAction(QHome;Z) | create lock unlock base plan action
+boolean createLockFile() | create lock file
+boolean deleteLockFile() | delete lock file
+boolean deleteLockFile(QFile;) | delete lock file
+boolean doOptionalLockActions() | do optional lock actions
+boolean hasLockFile(QFile;) | has lock file
+Criteria setLockMode(QLockMode;) | set lock mode
+Criteria setLockMode(QString;QLockMode;) | set lock mode
+DetachedCriteria setLockMode(QLockMode;) | set lock mode
+DetachedCriteria setLockMode(QString;QLockMode;) | set lock mode
+int getLockDAVMinutes() | get lock dav minutes
+int getLockMode() | get lock mode
+int getOptimisticLockMode() | get optimistic lock mode
+int getOptimisticLockMode(QAttribute;) | get optimistic lock mode
+int nextLockId() | next lock id
+int optimisticLockMode() | optimistic lock mode
+JComponent createLockUnlockBasePlanButton(QHome;) | create lock unlock base plan button
+JMenuItem createLockUnlockBasePlanMenuItem(QHome;Z) | create lock unlock base plan menu item
+LockEventListener[] getLockEventListeners() | get lock event listeners
+LockFile getLockFile() | get lock file
+LockFile newLockFile(QString;) | new lock file
+LockFile newNIOLockFile() | new nio lock file
+LockMode getCurrentLockMode(QObject;) | get current lock mode
+LockMode getLockMode() | get lock mode
+LockMode[] getLockModeArray() | get lock mode array
+LockMode getLockMode(QString;) | get lock mode
+LockMode[] getLockModes(QMap;) | get lock modes
+long getLockFileTimeStamp(QFile;) | get lock file time stamp
+Map getLockModes() | get lock modes
+Query setLockMode(QString;QLockMode;) | set lock mode
+Select setLockMode(QLockMode;) | set lock mode
+SimpleSelect setLockMode(QLockMode;) | set lock mode
+String appendLockHint(QLockMode;QString;) | append lock hint
+String generateLockString() | generate lock string
+String getPk_lock_garage() | get pk lock garage
+void AcquireLockState(QParsingState;QOpenCopyConfirmationState;) | acquire lock state
+void deleteLockUse(int index) | delete lock use
+void handleLockExpiry(QObject;) | handle lock expiry
+void setLockDAVMinutes(I) | set lock dav minutes
+void setLockEventListeners([QLockEventListener;) | set lock event listeners
+void setLockModeArray([QLockMode;) | set lock mode array
+void setLockMode(I) | set lock mode
+void setLockMode(QLockMode;) | set lock mode
+void setLockModes(QMap;) | set lock modes
+void setOptimisticLockMode(I) | set optimistic lock mode

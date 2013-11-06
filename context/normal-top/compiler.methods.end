@@ -1,0 +1,6 @@
+boolean _isGenericCompiler() | is generic compiler
+CompilerInterface getActiveCompiler() | get active compiler
+Interpreter createCompiler() | create compiler
+String adapterForCompiler(QJavaVersion;) | adapter for compiler
+void addCompiler(QCompilerInterface;) | add compiler
+void setActiveCompiler(QCompilerInterface;) | set active compiler

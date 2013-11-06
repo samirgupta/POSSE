@@ -1,0 +1,47 @@
+CONS Free() | free
+CONS FreeCol() | free col
+CONS FreeColAction(QFreeColClient;QString;QString;) | free col action
+CONS FreeColAction(QFreeColClient;QString;QString;I) | free col action
+CONS FreeColAction(QFreeColClient;QString;QString;IQKeyStroke;) | free col action
+CONS FreeColAction(QFreeColClient;QString;QString;IQKeyStroke;Z) | free col action
+CONS FreeColAction(QFreeColClient;QString;QString;QKeyStroke;) | free col action
+CONS FreeColActionUI(QFreeColAction;QOptionGroupUI;) | free col action ui
+CONS FreeColClient(ZQDimension;QImageLibrary;QMusicLibrary;QSfxLibrary;) | free col client
+CONS FreeColDataFile(QFile;) | free col data file
+CONS FreeColDialog() | free col dialog
+CONS FreeColDialog(QCanvas;) | free col dialog
+CONS FreeColException(QString;) | free col exception
+CONS FreeColGameObject() | free col game object
+CONS FreeColGameObject(QGame;) | free col game object
+CONS FreeColGameObject(QGame;QElement;) | free col game object
+CONS FreeColGameObject(QGame;QString;) | free col game object
+CONS FreeColGameObject(QGame;QXMLStreamReader;) | free col game object
+CONS FreeColImageBorder(QImage;QImage;QImage;QImage;QImage;QImage;QImage;QImage;) | free col image border
+CONS FreeColLookAndFeel(QDimension;) | free col look and feel
+CONS FreeColLookAndFeel(QString;QDimension;) | free col look and feel
+CONS FreeColMenuBar(QFreeColClient;) | free col menu bar
+CONS FreeColPanel() | free col panel
+CONS FreeColPanel(QCanvas;) | free col panel
+CONS FreeColPanel(QCanvas;QLayoutManager;) | free col panel
+CONS FreeColPanel(QLayoutManager;) | free col panel
+CONS FreeColPanelUI() | free col panel ui
+CONS FreeColProgressBar(QCanvas;QGoodsType;) | free col progress bar
+CONS FreeColProgressBar(QCanvas;QGoodsType;II) | free col progress bar
+CONS FreeColProgressBar(QCanvas;QGoodsType;IIII) | free col progress bar
+CONS FreeColSavegameFile(QFile;) | free col savegame file
+CONS FreeColServerHolder(QFreeColServer;) | free col server holder
+CONS FreeColServer(QFile;ZZIQString;) | free col server
+CONS FreeColServer(ZZIQString;) | free col server
+CONS FreeColServer(ZZIQString;IIZ) | free col server
+CONS FreeColTcFile(QFile;) | free col tc file
+CONS FreeColTextAreaUI(QJComponent;) | free col text area ui
+CONS FreeColTextFieldUI(QJComponent;) | free col text field ui
+CONS FreeMind() | free mind
+CONS FreemindAction(QString;QIcon;QModeController;) | freemind action
+CONS FreemindAction(QString;QString;QModeController;) | freemind action
+CONS FreeMindApplet() | free mind applet
+CONS FreeMindSplash(QFreeMindMain;) | free mind splash
+CONS FreeMindToolBar() | free mind tool bar
+CONS FreeMindToolBar(I) | free mind tool bar
+CONS FreeMindToolBar(QString;) | free mind tool bar
+CONS FreeMindToolBar(QString;I) | free mind tool bar

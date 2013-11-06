@@ -1,0 +1,21 @@
+Auctions matchAuction(QAuctionEntry;) | match auction
+boolean matchChar(I) | match char
+boolean matchIgnoreCase(QString;QString;) | match ignore case
+boolean matchIP(QString;) | match ip
+boolean matchIP(QString;QInetSocketAddress;) | match ip
+boolean matchRegExp(QREGlobalData;QRECompiled;[CIIZ) | match reg exp
+boolean matchReverse(QString;QStringExaminer;) | match reverse
+boolean matchToken(I) | match token
+FileFilter matchFileFilter(QString;) | match file filter
+int matchPlainHeader(QByteBuffer;) | match plain header
+int matchThisSizeOrBigger() | match this size or bigger
+List matchRange(QList;QString;) | match range
+List matchWildcard(QList;QString;) | match wildcard
+Node matchJumpLabelName() | match jump label name
+Object matchOrReplace(QContext;QScriptable;QScriptable;[QObject;QRegExpImpl;QGlobData;Z) | match or replace
+String matchMissingValuesTipText() | match missing values tip text
+String _matchText(I) | match text
+void matchFound(QEngine;[QString;) | match found
+void match_glob(QGlobData;QContext;QScriptable;IQRegExpImpl;) | match glob
+void matchThis(QString;) | match this
+void matchUpdate(I) | match update

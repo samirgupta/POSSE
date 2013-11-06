@@ -1,0 +1,85 @@
+boolean _combineCurrentAndNextIfEscape(QTokenList.Iterator;) | combine current and next if escape
+boolean isDoubleEscape() | is double escape
+boolean isDoubleEscapeSequence() | is double escape sequence
+boolean isEscapedDoubleQuote() | is escaped double quote
+boolean isEscapedSingleQuote() | is escaped single quote
+boolean supportsLikeEscapeClause() | supports like escape clause
+CharacterEscapeHandler createEscapeHandler(QString;) | create escape handler
+Example setEscapeCharacter(QCharacter;) | set escape character
+int onStartEscapeSequence(QString;QStringBuffer;I) | on start escape sequence
+Object js_escape([QObject;) | js escape
+String add_escapes(QString;) | add escapes
+String addEscapes(QString;) | add escapes
+String add_escapes(String str) | add escapes
+String convertEscapes(QString;) | convert escapes
+String convertEscapes(QString;QString;QString;) | convert escapes
+String convertNumericEscape(QString;I) | convert numeric escape
+String convertNumericEscapes(QString;) | convert numeric escapes
+String escapeAccelerators(QString;) | escape accelerators
+String escapeAttributeValue(QObject;) | escape attribute value
+String escapeAttributeValue(QObject;QContext;) | escape attribute value
+String escapeFileName(QString;) | escape file name
+String escapeHTML(Object in) | escape html
+String escapeMultibyteChars(QString;) | escape multibyte chars
+String escape(QString;) | escape
+String _escapeQuotesAndBackslashes(QString;) | escape quotes and backslashes
+String escapeString(QString;) | escape string
+String escapeString(QString;C) | escape string
+String escapeTextValue(QObject;) | escape text value
+String escapeTextValue(QObject;QContext;) | escape text value
+String escapeXMLChars(QString;) | escape xml chars
+String escapeXML(QString;) | escape xml
+String getSearchStringEscape() | get search string escape
+String HTMLEscape(String htmlString) | html escape
+String makeEscape(QString;) | make escape
+String saveHTML_escapeUnicodeAndSpecialCharacters(QString;) | save html escape unicode and special characters
+String saveHTML_escapeUnicode(QString;) | save html escape unicode
+String saveRFT_escapeUnicodeAndSpecialCharacters(QString;) | save rft escape unicode and special characters
+String toXMLEscapedText(QString;) | to xml escaped text
+String toXMLEscapedTextWithNBSPizedSpaces(QString;) | to xml escaped text with nbsp ized spaces
+String unEscapeXMLChars(QString;) | un escape xml chars
+String xmlEscape(QString;) | xml escape
+void appendEscapedMultibyteChars(QString;QStringBuffer;) | append escaped multibyte chars
+void escape() | escape
+void escapeString(QString;) | escape string
+void ParserStateInEscapedCharacter(QParserState;) | parser state in escaped character
+void setEscape(boolean flag) | set escape
+void setEscapeProcessing(Z) | set escape processing
+void testBackSlashBeforeDoubleEscape() | test back slash before double escape
+void testDollarEscapedQuoted2() | test dollar escaped quoted 2
+void testEscapeAtFrontBeforeKeyword() | test escape at front before keyword
+void testEscapeAtFrontBeforeNormal() | test escape at front before normal
+void testEscapeAtFrontBeforeQuote() | test escape at front before quote
+void testEscapeAtFrontBeforeWS() | test escape at front before ws
+void testEscapeDollarNestedQuotedKeywords() | test escape dollar nested quoted keywords
+void testEscapeDollarNestedQuotedKeywordsWithEscapeWSSignificant() | test escape dollar nested quoted keywords with escape ws significant
+void testEscapeDollarNestedQuotedKeywordsWithEscapeWSSignificant2() | test escape dollar nested quoted keywords with escape ws significant 2
+void testEscapeDollarNestedQuotedKeywordsWSSignificant() | test escape dollar nested quoted keywords ws significant
+void testEscapeNestedQuotedNW() | test escape nested quoted nw
+void testEscapePipeDollarNestedQuotedKeywords() | test escape pipe dollar nested quoted keywords
+void testEscapePipeDollarNestedQuotedKeywordsWithEscape2WSSignificant() | test escape pipe dollar nested quoted keywords with escape 2 ws significant
+void testEscapePipeDollarNestedQuotedKeywordsWithEscape2WSSignificant2() | test escape pipe dollar nested quoted keywords with escape 2 ws significant 2
+void testEscapePipeDollarNestedQuotedKeywordsWithEscapeWSSignificant() | test escape pipe dollar nested quoted keywords with escape ws significant
+void testEscapePipeDollarNestedQuotedKeywordsWithEscapeWSSignificant2() | test escape pipe dollar nested quoted keywords with escape ws significant 2
+void testEscapePipeDollarNestedQuotedKeywordsWSSignificant() | test escape pipe dollar nested quoted keywords ws significant
+void testEscapePipeNestedQuotedNW() | test escape pipe nested quoted nw
+void testEscapePipeQuotedNW() | test escape pipe quoted nw
+void testEscapePipeSimple() | test escape pipe simple
+void testEscapePipeSimple2() | test escape pipe simple 2
+void testEscapePipeSimple3() | test escape pipe simple 3
+void testEscapePipeSimple4() | test escape pipe simple 4
+void testEscapeQuotedNW() | test escape quoted nw
+void testEscapeSimple() | test escape simple
+void testEscapeSimple2() | test escape simple 2
+void testEscapeSimple3() | test escape simple 3
+void testEscapeSimple4() | test escape simple 4
+void testEscapeUnEscapeFileName() | test escape un escape file name
+void testEscapeWhitespace() | test escape whitespace
+void testEscapeWhitespaceRange() | test escape whitespace range
+void testInsertBetweenDoubleEscape() | test insert between double escape
+void testInterpretJavaEscapedArgs() | test interpret java escaped args
+void testInterpretJavaQuotedEscapedArgs() | test interpret java quoted escaped args
+void testLinebreakEscape() | test linebreak escape
+void testTokenizeEscapedArgs() | test tokenize escaped args
+void testTokenizeQuotedEscapedArgs() | test tokenize quoted escaped args
+void testXMLEscape() | test xml escape

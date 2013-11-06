@@ -1,0 +1,18 @@
+Highlighter.HighlightPainter getPainter() | get painter
+LayeredHighlighter.LayerPainter getSelectedPainter() | get selected painter
+PainterTag addPainter(QHighlighter.HighlightPainter;) | add painter
+TextAreaPainter getPainter() | get painter
+void clearPainters() | clear painters
+void ColouredRectanglePainter(QColor;) | coloured rectangle painter
+void DefaultFrameHighlightPainter(QColor;I) | default frame highlight painter
+void DefaultUnderlineHighlightPainter(QColor;I) | default underline highlight painter
+void drawPainters(Graphics g, Vector v) | draw painters
+void DrJavaHighlightPainter(QColor;) | dr java highlight painter
+void movePainterToFront(QPainterTag;) | move painter to front
+void painter(QGraphics;) | painter
+void PainterTag(QHighlighter.HighlightPainter;QObject;) | painter tag
+void refreshBookmarkHighlightPainter() | refresh bookmark highlight painter
+void refreshBreakpointHighlightPainter() | refresh breakpoint highlight painter
+void refreshFindResultsHighlightPainter(QFindResultsPanel;QLayeredHighlighter.LayerPainter;) | refresh find results highlight painter
+void removePainter(QPainterTag;) | remove painter
+void setBackgroundPainter(QBackgroundPainter;) | set background painter

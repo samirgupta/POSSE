@@ -1,0 +1,43 @@
+boolean compileOSAScript([QCharSequence;QFile;) | compile osa script
+boolean compileOSAScript(QCharSequence;QFile;) | compile osa script
+boolean isGeneratedScript() | is generated script
+boolean isGeneratedScript(QString;) | is generated script
+boolean isProcessingScript() | is processing script
+boolean parseRrdtoolScript() | parse rrdtool script
+InteractionsScriptModel loadHistoryAsScript(FileOpenSelector selector) | load history as script
+InteractionsScriptModel loadHistoryAsScript(QFileOpenSelector;) | load history as script
+InterpretedFunction createScript(QInterpreterData;QObject;) | create script
+NSAppleEventDescriptor executeScript(QString;[QObject;) | execute script
+Object evaluateScript(QScript;QContext;QScriptable;) | evaluate script
+Result getScript(QDatabase;Z) | get script
+Result processScript() | process script
+Scriptable runScript(QScript;) | run script
+Script loadCompiledScript(QContext;QString;QObject;) | load compiled script
+ScriptOrFnNode createScript() | create script
+String decompileScript(QScript;I) | decompile script
+String[] generateDropSchemaScript(QDialect;) | generate drop schema script
+String[] generateSchemaCreationScript(QDialect;) | generate schema creation script
+String[] generateSchemaUpdateScript(QDialect;QDatabaseMetadata;) | generate schema update script
+String getPostConfigurationScript() | get post configuration script
+String getScript() | get script
+String makeUrlForGeneratedScript(ZQString;I) | make url for generated script
+String performOSAScript([QCharSequence;) | perform osa script
+String performOSAScript(QCharSequence;) | perform osa script
+String performOSAScript(QFile;) | perform osa script
+void checkStartupScript() | check startup script
+void _closeInteractionsScript() | close interactions script
+void compileScript(QString;QString;) | compile script
+void deleteNewScript() | delete new script
+void evalScript(QString;QString;) | eval script
+void importScript(QReader;QStatement;) | import script
+void initScript(QNativeFunction;QScriptable;QContext;QScriptable;Z) | init script
+void initScript(QScriptOrFnNode;QNode;) | init script
+void insertFromScript([QObject;) | insert from script
+void processScript() | process script
+void registerTopScript(QDebuggableScript;QString;) | register top script
+void renameNewScript() | rename new script
+void runScript(QDatabase;QString;I) | run script
+void setLoadCompleteScript(String loadCompleteScript) | set load complete script
+void testMainScript(QConnection;Z) | test main script
+void testScript(QConnection;QString;) | test script
+void writeScript(Z) | write script

@@ -1,0 +1,53 @@
+boolean basicJoinSegments(QPoint2D.Double;) | basic join segments
+boolean isFromOrJoinFragment() | is from or join fragment
+boolean supportsOuterJoinForUpdate() | supports outer join for update
+Expression addJoinCondition(QExpression;QExpression;QTableFilter;Z) | add join condition
+FromClause locateChildFromClauseWithJoinByPath(QString;) | locate child from clause with join by path
+FromElement findJoinByPathLocal(QString;) | find join by path local
+FromElement findJoinByPath(QString;) | find join by path
+int basicJoinSegments(QPoint2D.Double;F) | basic join segments
+int getImpliedJoinType() | get implied join type
+int getJoinClosureSpan() | get join closure span
+int getJoinCount() | get join count
+int getJoinNumber(QProperty;) | get join number
+int getJoinType() | get join type
+int getJoinType(QAssociationType;QFetchMode;QString;QSet;QString;[QString;ZI) | get join type
+int getJoinType(QAssociationType;QFetchMode;QString;QString;[QString;ZIQCascadeStyle;) | get join type
+int getJoinType(QString;) | get join type
+int getJoinType(ZI) | get join type
+int toHibernateJoinType(I) | to hibernate join type
+Iterator getJoinClosureIterator() | get join closure iterator
+Iterator getJoinIterator() | get join iterator
+Iterator getSubclassJoinClosureIterator() | get subclass join closure iterator
+JoinFragment createOuterJoinFragment() | create outer join fragment
+JoinFragment getJoinFragment() | get join fragment
+JoinFragment toJoinFragment() | to join fragment
+JoinFragment toJoinFragment(QMap;Z) | to join fragment
+JoinFragment toJoinFragment(QMap;ZQString;QString;) | to join fragment
+JoinSequence createCollectionJoinSequence(QQueryableCollection;QString;) | create collection join sequence
+JoinSequence createJoinSequence() | create join sequence
+JoinSequence createJoinSequence(QString;I) | create join sequence
+JoinSequence createJoinSequence(ZQAssociationType;QString;I[QString;) | create join sequence
+JoinSequence getJoinSequence() | get join sequence
+OuterJoinLoadable getOuterJoinLoadable(QString;) | get outer join loadable
+String fromJoinFragment(QString;ZZ) | from join fragment
+String getJoinAlias() | get join alias
+String getWithClauseJoinAlias() | get with clause join alias
+String whereJoinFragment(QString;ZZ) | where join fragment
+void addAssociationToJoinTreeIfNecessary(QAssociationType;[QString;QString;QString;II) | add association to join tree if necessary
+void addAssociationToJoinTree(QAssociationType;[QString;QString;QString;II) | add association to join tree
+void addCollectionJoinFromElementByPath(QString;QFromElement;) | add collection join from element by path
+void addFromJoinOnly(QString;QJoinSequence;) | add from join only
+void addJoinByPathMap(QString;QFromElement;) | add join by path map
+void addJoinNodes(QQueryNode;QJoinSequence;QFromElement;Z) | add join nodes
+void addLeftOuterJoinCondition(QString;) | add left outer join condition
+void addStrokeJoinButtonTo(QJToolBar;QDrawingEditor;) | add stroke join button to
+void createFromJoinElement(QAST;QAST;IQAST;QAST;QAST;) | create from join element
+void getEquiJoinColumns(QTableFilter;[Z[QExpression;) | get equi join columns
+void initOuterJoinFetchSetting(QElement;QFetchable;) | init outer join fetch setting
+void processJoinReturn(QNativeSQLQueryJoinReturn;) | process join return
+void setImpliedJoinType(I) | set implied join type
+void setJoinFragment(QJoinFragment;) | set join fragment
+void setJoinGameOptions(Z) | set join game options
+void setJoinSequence(QJoinSequence;) | set join sequence
+void setJoinType(I) | set join type

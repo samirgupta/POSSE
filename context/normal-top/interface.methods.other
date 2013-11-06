@@ -1,0 +1,25 @@
+boolean isClassOrInterfaceWord(IZ) | is class or interface word
+Class getPrimaryInterfaceClass() | get primary interface class
+java.lang.Class PRIMARY_INTERFACE_CLASS() | primary interface class
+Object constructWithInterfaceBody(Class type, Object args, BSHBlock body, CallStack callstack, Interpreter interpreter) | construct with interface body
+Object getInterfaceAdapter(QClass;) | get interface adapter
+Object getInterfaceProxyHelper(QContextFactory;[QClass;) | get interface proxy helper
+Object newInterfaceProxy(QObject;QContextFactory;QInterfaceAdapter;QObject;QScriptable;) | new interface proxy
+PluginInterface getDefaultInterfaceSupport() | get default interface support
+PluginInterface getPluginInterfaceByClass(QClass;) | get plugin interface by class
+PluginInterface getPluginInterfaceByClass(QClass;Z) | get plugin interface by class
+PluginInterface getPluginInterfaceByClass(QString;) | get plugin interface by class
+PluginInterface getPluginInterfaceByClass(QString;Z) | get plugin interface by class
+PluginInterface getPluginInterfaceByID(QString;) | get plugin interface by id
+PluginInterface getPluginInterfaceByID(QString;Z) | get plugin interface by id
+short addInterfaceMethodRef(QString;QString;QString;) | add interface method ref
+String getClassOrInterfaceName() | get class or interface name
+String getProxyInterfaceName() | get proxy interface name
+void cacheInterfaceAdapter(QClass;QObject;) | cache interface adapter
+void setProxyInterfaceName(QString;) | set proxy interface name
+void testStringInterfaceRecognition() | test string interface recognition
+void testStringInterfaceRejection() | test string interface rejection
+void textTopLevelInterfaceName() | text top level interface name
+void textTopLevelInterfaceNameBeforeClassName() | text top level interface name before class name
+void textTopLevelInterfaceNameMisleading() | text top level interface name misleading
+void textTopLevelInterfaceNameMisleading2() | text top level interface name misleading 2

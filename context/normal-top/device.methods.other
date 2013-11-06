@@ -1,0 +1,22 @@
+boolean checkDeviceStats(QString;QURL;) | check device stats
+boolean checkDeviceStats(QUPnPRootDevice;) | check device stats
+boolean isAnyDeviceRefreshing() | is any device refreshing
+ChartPanel createDeviceRepartition() | create device repartition
+DeviceList getDeviceList() | get device list
+DeviceNode getDeviceNode(QDevice;) | get device node
+GraphicsConfiguration getDeviceConfiguration() | get device configuration
+int getCurrentDeviceIndex() | get current device index
+int getDeviceTypesNumber() | get device types number
+Iterator getDeviceTypes() | get device types
+long getDeviceStats(QString;QString;) | get device stats
+long getDeviceType() | get device type
+long incrementDeviceStats(QString;QString;) | increment device stats
+String checkDeviceAvailablity(QString;IQString;QString;Z) | check device availablity
+String getDeviceType() | get device type
+String getDeviceType(J) | get device type
+String getDeviceTypeS() | get device type s
+void addRootDeviceListener(QUPnPListener;) | add root device listener
+void registerDeviceType(QString;) | register device type
+void removeRootDeviceListener(QUPnPListener;) | remove root device listener
+void rootDeviceFound(QUPnPRootDevice;) | root device found
+void setDeviceStats(QString;QString;J) | set device stats

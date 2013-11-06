@@ -1,0 +1,32 @@
+int getExceptionHandler(QCallFrame;Z) | get exception handler
+SQLExceptionConverter buildMinimalSQLExceptionConverter() | build minimal sql exception converter
+SQLExceptionConverter buildSQLExceptionConverter() | build sql exception converter
+SQLExceptionConverter buildSQLExceptionConverter(QDialect;QProperties;) | build sql exception converter
+SQLExceptionConverter getSQLExceptionConverter() | get sql exception converter
+String getExceptionMessage_MySQL(QException;) | get exception message my sql
+String getExceptionMessage(QException;QDBTYPE;) | get exception message
+String getExceptionMessage(QRhinoException;) | get exception message
+String getExceptionMessage(QThrowable;) | get exception message
+String getExceptionReport(QThrowable;) | get exception report
+String getNestedExceptionMessageAndStack(QThrowable;) | get nested exception message and stack
+String getNestedExceptionMessage(QThrowable;) | get nested exception message
+String getParseExceptionInfo(QSAXParseException;) | get parse exception info
+void addExceptionHandler(IIIQString;) | add exception handler
+void addExceptionHandler(IIIZII) | add exception handler
+void appendExceptionResult(QString;QString;) | append exception result
+void beginExceptionSpec(Token label) | begin exception spec
+void checkExceptionTableExistsHsql(QSQLException;) | check exception table exists hsql
+void checkExceptionTableExistsOracle(QSQLException;) | check exception table exists oracle
+void handleExceptionThrown(QContext;QThrowable;QStackFrame;) | handle exception thrown
+void inputExceptionThrown(Qymsg.network.event.SessionExceptionEvent;) | input exception thrown
+void namingExceptionThrown(QNamingExceptionEvent;) | naming exception thrown
+void onExceptionThrown(QContext;QThrowable;) | on exception thrown
+void refExceptionHandler(Token exTypeAndName, Token action) | ref exception handler
+void setSQLExceptionConverter(QSQLExceptionConverter;) | set sql exception converter
+void showExceptionMessage(QException;) | show exception message
+void testExceptionPrinting() | test exception printing
+void testNonWsISchemaImportExceptionMessage() | test non ws i schema import exception message
+void testProperExceptionThrowing() | test proper exception throwing
+void testSimpleExceptionMappingWithHandlerClassSpecifiedButWrongHandler() | test simple exception mapping with handler class specified but wrong handler
+void UnexpectedExceptionResult(QThrowable;) | unexpected exception result
+void visitExceptionThrower(Quad obj) | visit exception thrower

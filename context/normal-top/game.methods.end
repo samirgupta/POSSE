@@ -1,0 +1,34 @@
+boolean isInGame() | is in game
+boolean isOutOfGame(I) | is out of game
+boolean isOutOfGame(QEntity;) | is out of game
+boolean loadGame(QFile;) | load game
+Element startGame(QElement;) | start game
+Game getGame() | get game
+Game loadSaveGame(QFile;) | load save game
+GameOver addGame(GameInfo gameInfo, boolean eloRatings) | add game
+IGame createGame() | create game
+IGame getGame() | get game
+String getGame() | get game
+String loadGame(QFile;) | load game
+void joinMultiplayerGame(QString;QString;I) | join multiplayer game
+void loadGame() | load game
+void loadGame(QFile;) | load game
+void newGame() | new game
+void quitGame(Z) | quit game
+void quitGame(ZZ) | quit game
+void resetGame() | reset game
+void saveGame() | save game
+void saveGame(QFile;) | save game
+void saveGame(QFile;QString;) | save game
+void saveGame(QString;) | save game
+void saveGame(QString;Z) | save game
+void sendSaveGame(IQString;) | send save game
+void sendUpdatedGame() | send updated game
+void setGame(QGame;) | set game
+void setGame(QIGame;) | set game
+void setInGame(Z) | set in game
+void startGame() | start game
+void startMultiplayerGame(ZQString;III) | start multiplayer game
+void startSingleplayerGame(QString;IZI) | start single player game
+void updateGame(long currentTime) | update game
+void updateGame(QConnection;QXMLStreamReader;QXMLStreamWriter;) | update game

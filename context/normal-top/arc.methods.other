@@ -1,0 +1,28 @@
+ArcDef createArcDef() | create arc def
+ArcDef getArcDef() | get arc def
+ArcDef[] getArcDefs() | get arc defs
+ArcState getArcState(I) | get arc state
+boolean addArcMakesSense(QBayesNet;QInstances;II) | add arc makes sense
+boolean getUseArcReversal() | get use arc reversal
+boolean isSecondaryArcWeapon(I) | is secondary arc weapon
+boolean reverseArcMakesSense(QBayesNet;QInstances;II) | reverse arc makes sense
+double getArcHeight() | get arc height
+double getArcWidth() | get arc width
+int getArcCount() | get arc count
+int getArcIndex() | get arc index
+int getArcIndex(QString;I) | get arc index
+long getArcStep() | get arc step
+Operation findBestArcToAdd(QBayesNet;QInstances;QOperation;) | find best arc to add
+Operation findBestArcToDelete(QBayesNet;QInstances;QOperation;) | find best arc to delete
+Operation findBestArcToReverse(QBayesNet;QInstances;QOperation;) | find best arc to reverse
+String useArcReversalTipText() | use arc reversal tip text
+void AddArcAction(II) | add arc action
+void AddArcAction(IQFastVector;) | add arc action
+void addArcInto(I) | add arc into
+void applyArcAddition(QBayesNet;IIQInstances;) | apply arc addition
+void applyArcDeletion(QBayesNet;IIQInstances;) | apply arc deletion
+void calcArcDirections([[Z[[Z) | calc arc directions
+void DeleteArcAction(II) | delete arc action
+void setArcChangeInProcess(boolean flag) | set arc change in process
+void setArcXff(QString;QString;ID) | set arc xff
+void setUseArcReversal(Z) | set use arc reversal

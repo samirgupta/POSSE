@@ -1,0 +1,10 @@
+CONS LockAcquisitionException(QString;QSQLException;) | lock acquisition exception
+CONS LockAcquisitionException(QString;QSQLException;QString;) | lock acquisition exception
+CONS LockEvent(QObject;QLockMode;QEventSource;) | lock event
+CONS LockEvent(QString;QObject;QLockMode;QEventSource;) | lock event
+CONS LockFile() | lock file
+CONS LockMode(IQString;) | lock mode
+CONS OnLockVisitor(QEventSource;QSerializable;QObject;) | on lock visitor
+CONS ReaderWriterLock() | reader writer lock
+CONS SelectLockingStrategy(QLockable;QLockMode;) | select locking strategy
+CONS UpdateLockingStrategy(QLockable;QLockMode;) | update locking strategy

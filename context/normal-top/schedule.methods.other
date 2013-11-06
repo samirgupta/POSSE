@@ -1,0 +1,13 @@
+int getSchedulePriority() | get schedule priority
+long getScheduleOffset() | get schedule offset
+Map getScheduleConfig() | get schedule config
+RecalculateTaskScheduleAlgorithm getRecalculateTaskScheduleAlgorithm() | get recalculate task schedule algorithm
+ScheduleValue getScheduleValue() | get schedule value
+void _alwaysScheduleAfter(QActivity;QActivity;) | always schedule after
+void alwaysScheduleAfter(QActivity;QActivity;) | always schedule after
+void recalculateSupertaskScheduleBottomUp(QSet;QTaskContainmentHierarchyFacade;) | recalculate super task schedule bottom up
+void setScheduleOffset(J) | set schedule offset
+void testTaskScheduleEventIsSendOnTaskDurationChange() | test task schedule event is send on task duration change
+void testTaskScheduleEventIsSendOnTaskEndChange() | test task schedule event is send on task end change
+void testTaskScheduleEventIsSendOnTaskStartChange() | test task schedule event is send on task start change
+void updateScheduleOrdering() | update schedule ordering

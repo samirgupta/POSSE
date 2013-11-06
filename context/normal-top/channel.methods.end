@@ -1,0 +1,18 @@
+DiskManagerChannel createChannel() | create channel
+FileChannel getChannel() | get channel
+GP4MIDIChannel readMIDIChannel() | read midi channel
+int getChannel() | get channel
+LoggerChannel getChannel(QString;) | get channel
+LoggerChannel getNullChannel(QString;) | get null channel
+LoggerChannel getRPLoggerChannel() | get rp logger channel
+LoggerChannel getTimeStampedChannel(QString;) | get time stamped channel
+SocketChannel getSocketChannel() | get socket channel
+SocketChannel getSourceChannel() | get source channel
+String getChannel() | get channel
+void attachLoggerChannel(QLoggerChannel;) | attach logger channel
+void fillMidiChannel() | fill midi channel
+void setChannel(I) | set channel
+void setChannel(QString;) | set channel
+void setChannel(SocketChannel channel) | set channel
+void setRPLoggerChannel(QLoggerChannel;) | set rp logger channel
+void writeChannel(SongChannel channel) | write channel

@@ -1,0 +1,18 @@
+JabRefPreferences prefs() | prefs
+UserPreferenceCatalog retrievePreferences(String uuid, UserPreferenceCatalog prefs) | retrieve preferences
+Vector loadPrefs(QString;QDataAccessPoint;QDataAccessPoint;QTraceable;) | load prefs
+void DBMPrefs(Z) | dbm prefs
+void handlePrefs() | handle prefs
+void installFramePrefsHandler(QPreferences;QString;QWindow;) | install frame prefs handler
+void installInternalFramePrefsHandler(QPreferences;QString;QJInternalFrame;QJDesktopPane;) | install internal frame prefs handler
+void installPalettePrefsHandler(QPreferences;QString;QWindow;) | install palette prefs handler
+void installPalettePrefsHandler(QPreferences;QString;QWindow;I) | install palette prefs handler
+void installToolBarPrefsHandler(QPreferences;QString;QJToolBar;) | install tool bar prefs handler
+void LoadPrefs(QString;) | load prefs
+void readPrefs() | read prefs
+void SavePrefs(QString;) | save prefs
+void savePrefs(QString;QDataAccessPoint;QDataAccessPoint;QTraceable;QVector;) | save prefs
+void setNumericFieldsFromPrefs() | set numeric fields from prefs
+void ShowPrefsAction() | show prefs action
+void updateColumnPrefs() | update column prefs
+void updatePrefs() | update prefs

@@ -1,0 +1,32 @@
+boolean isCaretVisible() | is caret visible
+boolean scrollToCaret() | scroll to caret
+Color getCaretColor() | get caret color
+ErrorCaretListener getErrorCaretListener() | get error caret listener
+int getCaretLine() | get caret line
+int getCaretPosition() | get caret position
+int getMagicCaretPosition() | get magic caret position
+void addCaretListener(QCaretListener;) | add caret listener
+void addErrorCaretListener(QErrorCaretListener;) | add error caret listener
+void blinkCaret() | blink caret
+void CaretUndo(II) | caret undo
+void caretUpdate(QCaretEvent;) | caret update
+void fireCaretEvent() | fire caret event
+void MutableCaretEvent() | mutable caret event
+void paintCaret(QGraphics;II) | paint caret
+void removeCaretListener(CaretListener listener) | remove caret listener
+void removeCaretListener(QCaretListener;) | remove caret listener
+void scrollToCaret() | scroll to caret
+void setCaretColor(Color caretColor) | set caret color
+void setCaretColor(QColor;) | set caret color
+void setCaretPos(I) | set caret pos
+void setCaretPositionCenter(int offset) | set caret position center
+void setCaretPosition(I) | set caret position
+void setCaretVisible(Z) | set caret visible
+void setMagicCaretPosition(I) | set magic caret position
+void testCaretMovementCyclesWhenAtEnd() | test caret movement cycles when at end
+void testCaretMovementCyclesWhenAtPrompt() | test caret movement cycles when at prompt
+void testCaretMovesUpToPromptAfterInsert() | test caret moves up to prompt after insert
+void testCaretStaysAtEndDuringInteraction() | test caret stays at end during interaction
+void testCaretUpdatedOnInsert() | test caret updated on insert
+void testFindMatchWithCaretInMiddle() | test find match with caret in middle
+void testFindMatchWithCaretInMiddleBackwards() | test find match with caret in middle backwards

@@ -1,0 +1,14 @@
+boolean _inParenPhrase() | in paren phrase
+boolean _inParenPhrase(I) | in paren phrase
+int getPhraseCount() | get phrase count
+PhraseType getTalkingAboutPhrase() | get talking about phrase
+RepeatedSongPhrase makeRepeatedSongPhrase(QListIterator;QListIterator;QList;QList;) | make repeated song phrase
+SearchEngineMultiPhraseQueryBuilder multiPhrase(String resourcePropertyName) | multi phrase
+SongPhrase getPhrase() | get phrase
+SongPhrase getPhrase(I) | get phrase
+SongPhrase phraseFactory(QListIterator;QListIterator;QList;QList;) | phrase factory
+void addPhrase(QSongPhrase;) | add phrase
+void PosInParenPhrase(I) | pos in paren phrase
+void testGetIndentOfCurrStmtIgnoreDelimsInParenPhrase() | test get indent of curr stmt ignore delims in paren phrase
+void testIndentParenPhrases() | test indent paren phrases
+void testPosInParenPhrase() | test pos in paren phrase

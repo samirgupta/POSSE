@@ -1,0 +1,122 @@
+boolean supportsAdd() | supports add
+boolean supportsAggressiveRelease() | supports aggressive release
+boolean supportsAlterColumnType() | supports alter column type
+boolean supportsAlterTableWithAddColumn() | supports alter table with add column
+boolean supportsAlterTableWithDropColumn() | supports alter table with drop column
+boolean supportsANSI92EntryLevelSQL() | supports ansi 92 entry level sql
+boolean supportsANSI92FullSQL() | supports ansi 92 full sql
+boolean supportsANSI92IntermediateSQL() | supports ansi 92 intermediate sql
+boolean supportsBatchUpdates() | supports batch updates
+boolean supportsBindAsCallableArgument() | supports bind as callable argument
+boolean supportsCascadeDelete() | supports cascade delete
+boolean supportsCatalogsInDataManipulation() | supports catalogs in data manipulation
+boolean supportsCatalogsInIndexDefinitions() | supports catalogs in index definitions
+boolean supportsCatalogsInPrivilegeDefinitions() | supports catalogs in privilege definitions
+boolean supportsCatalogsInProcedureCalls() | supports catalogs in procedure calls
+boolean supportsCatalogsInTableDefinitions() | supports catalogs in table definitions
+boolean supportsCheck() | supports check
+boolean supportsCircularCascadeDeleteConstraints() | supports circular cascade delete constraints
+boolean supportsColumnAliasing() | supports column aliasing
+boolean supportsColumnCheck() | supports column check
+boolean supportsCommentOn() | supports comment on
+boolean supportsContext(QString;) | supports context
+boolean supportsConvert() | supports convert
+boolean supportsConvert(II) | supports convert
+boolean supportsCoreSQLGrammar() | supports core sql grammar
+boolean supportsCorrelatedSubqueries() | supports correlated subqueries
+boolean supportsCurrentTimestampSelection() | supports current timestamp selection
+boolean supportsCustomEditor() | supports custom editor
+boolean supportsDataDefinitionAndDataManipulationTransactions() | supports data definition and data manipulation transactions
+boolean supportsDataManipulationTransactionsOnly() | supports data manipulation transactions only
+boolean supportsDifferentTableCorrelationNames() | supports different table correlation names
+boolean supportsEmptyInList() | supports empty in list
+boolean supportsExistsInSelect() | supports exists in select
+boolean supportsExpectedLobUsagePattern() | supports expected lob usage pattern
+boolean supportsExpressionsInOrderBy() | supports expressions in order by
+boolean supportsExtendedSQLGrammar() | supports extended sql grammar
+boolean supportsExtensions() | supports extensions
+boolean supportsField(I) | supports field
+boolean supportsForUpdate() | supports for update
+boolean supportsForUpdateNowait() | supports for update nowait
+boolean supportsForUpdateOf() | supports for update of
+boolean supportsFullOuterJoins() | supports full outer joins
+boolean supportsGetGeneratedKeys() | supports get generated keys
+boolean supportsGroupBy() | supports group by
+boolean supportsGroupByBeyondSelect() | supports group by beyond select
+boolean supportsIdentityColumns() | supports identity columns
+boolean supportsIdGenWithBulkInsertion(QIdentifierGenerator;) | supports id gen with bulk insertion
+boolean supportsIfExistsAfterTableName() | supports if exists after table name
+boolean supportsIfExistsBeforeTableName() | supports if exists before table name
+boolean supportsInsertSelectIdentity() | supports insert select identity
+boolean supportsIntegrityEnhancementFacility() | supports integrity enhancement facility
+boolean supportsJavaMethod(QString;) | supports java method
+boolean supportsLikeEscapeClause() | supports like escape clause
+boolean supportsLimit() | supports limit
+boolean supportsLimitedOuterJoins() | supports limited outer joins
+boolean supportsLimitOffset() | supports limit offset
+boolean supportsLobValueChangePropogation() | supports lob value change propogation
+boolean supportsMaybe(QCapabilities;) | supports maybe
+boolean supportsMessaging() | supports messaging
+boolean supportsMinimumSQLGrammar() | supports minimum sql grammar
+boolean supportsMixedCaseIdentifiers() | supports mixed case identifiers
+boolean supportsMixedCaseQuotedIdentifiers() | supports mixed case quoted identifiers
+boolean supportsMultilineTokens() | supports multiline tokens
+boolean supportsMultipleOpenResults() | supports multiple open results
+boolean supportsMultipleResultSets() | supports multiple result sets
+boolean supportsMultipleTransactions() | supports multiple transactions
+boolean supportsNamedParameters() | supports named parameters
+boolean supportsNonNullableColumns() | supports non nullable columns
+boolean supportsNotNullUnique() | supports not null unique
+boolean supportsNullsInCandidateKeys() | supports nulls in candidate keys
+boolean supportsOpenCursorsAcrossCommit() | supports open cursors across commit
+boolean supportsOpenCursorsAcrossRollback() | supports open cursors across rollback
+boolean supportsOpenStatementsAcrossCommit() | supports open statements across commit
+boolean supportsOpenStatementsAcrossRollback() | supports open statements across rollback
+boolean supportsOrdinalParameterMetadata() | supports ordinal parameter metadata
+boolean supportsOuterJoinForUpdate() | supports outer join for update
+boolean supportsOuterJoins() | supports outer joins
+boolean supportsParametersInInsertSelect() | supports parameters in insert select
+boolean supportsParent() | supports parent
+boolean supportsPooledSequences() | supports pooled sequences
+boolean supportsPositionedDelete() | supports positioned delete
+boolean supportsPositionedUpdate() | supports positioned update
+boolean supportsProgressiveMode() | supports progressive mode
+boolean supportsRemove() | supports remove
+boolean supportsResultSetConcurrency(II) | supports result set concurrency
+boolean supportsResultSetHoldability(I) | supports result set holdability
+boolean supportsResultSetPositionQueryMethodsOnForwardOnlyCursor() | supports result set position query methods on forward only cursor
+boolean supportsResultSetType(I) | supports result set type
+boolean supportsRowValueConstructorSyntax() | supports row value constructor syntax
+boolean supportsRowValueConstructorSyntaxInInList() | supports row value constructor syntax in in list
+boolean supportsSavepoints() | supports savepoints
+boolean supportsSchemasInDataManipulation() | supports schemas in data manipulation
+boolean supportsSchemasInIndexDefinitions() | supports schemas in index definitions
+boolean supportsSchemasInPrivilegeDefinitions() | supports schemas in privilege definitions
+boolean supportsSchemasInProcedureCalls() | supports schemas in procedure calls
+boolean supportsSchemasInTableDefinitions() | supports schemas in table definitions
+boolean supportsSelectForUpdate() | supports select for update
+boolean supportsSequences() | supports sequences
+boolean supportsService(String serviceName) | supports service
+boolean supportsSite(QURL;) | supports site
+boolean supportsStatementPooling() | supports statement pooling
+boolean supportsStorage() | supports storage
+boolean supportsStoredProcedures() | supports stored procedures
+boolean supportsSubqueriesInComparisons() | supports subqueries in comparisons
+boolean supportsSubqueriesInExists() | supports subqueries in exists
+boolean supportsSubqueriesInIns() | supports subqueries in ins
+boolean supportsSubqueriesInQuantifieds() | supports subqueries in quantifieds
+boolean supportsSubqueryOnMutatingTable() | supports subquery on mutating table
+boolean supportsSubselectAsInPredicateLHS() | supports subselect as in predicate lhs
+boolean supportsTableCheck() | supports table check
+boolean supportsTableCorrelationNames() | supports table correlation names
+boolean supportsTemporaryTables() | supports temporary tables
+boolean supportsTransactionIsolationLevel(I) | supports transaction isolation level
+boolean supportsTransactions() | supports transactions
+boolean supportsUnboundedLobLocatorMaterialization() | supports unbounded lob locator materialization
+boolean supportsUnion() | supports union
+boolean supportsUnionAll() | supports union all
+boolean supportsUnique() | supports unique
+boolean supportsUniqueConstraintInCreateAlterTable() | supports unique constraint in create alter table
+boolean supportsUTPEX() | supports utp ex
+boolean supportsVariableLimit() | supports variable limit
+int supportsCapability(byte capabilityName) | supports capability

@@ -1,0 +1,9 @@
+CONS AERunnableWithCallback(QAECallback;) | ae runnable with callback
+CONS CallbackException(QException;) | callback exception
+CONS CallbackException(QString;) | callback exception
+CONS CallbackException(QString;QException;) | callback exception
+CONS jdbcCallableStatement(QjdbcConnection;QString;I) | jdbc callable statement
+CONS NativeCall() | native call
+CONS NativeCall(QNativeFunction;QScriptable;[QObject;) | native call
+CONS TransCallNamedPipe(QString;[BII) | trans call named pipe
+CONS TransCallNamedPipeResponse(QSmbNamedPipe;) | trans call named pipe response

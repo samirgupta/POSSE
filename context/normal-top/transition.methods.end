@@ -1,0 +1,15 @@
+boolean addTransition(Object nodeKey, Object targetNodeKey, Object transitionData) | add transition
+GP4GraceNoteTransition getTransition() | get transition
+int getDefaultTransition(I) | get default transition
+Transition addArrivingTransition(Transition t) | add arriving transition
+Transition getTransition(QAmbience;) | get transition
+void addEpsilonTransition(II) | add epsilon transition
+void addTransition(ICI) | add transition
+void addTransition(III) | add transition
+void addTransition(int start, int input, int dest) | add transition
+void add_transition(Qsymbol;Qlalr_state;) | add transition
+void addTransition(QTransition;I) | add transition
+void deleteTransition(I) | delete transition
+void emitDefaultTransition(II) | emit default transition
+void emitTransition(II) | emit transition
+void setTransition(QGP4GraceNoteTransition;) | set transition

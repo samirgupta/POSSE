@@ -1,0 +1,11 @@
+boolean isScheduled() | is scheduled
+Date getLastScheduled(QObject;) | get last scheduled
+Date getNextScheduled(QObject;) | get next scheduled
+long getLastScheduled() | get last scheduled
+long getNextScheduled() | get next scheduled
+void activityScheduled(QActivity;) | activity scheduled
+void fireActivityScheduled() | fire activity scheduled
+void fireTaskScheduleChanged(QTask;QGanttCalendar;QGanttCalendar;) | fire task schedule changed
+void scheduleBatchLoadIfNeeded(QSerializable;QSessionImplementor;) | schedule batch load if needed
+void setScheduled(Z) | set scheduled
+void taskScheduleChanged(QTaskScheduleEvent;) | task schedule changed

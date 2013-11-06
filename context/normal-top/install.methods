@@ -1,0 +1,77 @@
+boolean checkPluginInstall(I) | check plugin install
+boolean checkPluginInstall(IJ) | check plugin install
+boolean installRequest(QString;QInstallablePlugin;) | install request
+boolean isNewInstall() | is new install
+EventList<QNameAndVersion;> findInstalledPlugins() | find installed plugins
+FilePluginInstaller installFromFile(QFile;) | install from file
+GanttLookAndFeelInfo[] getInstalledLookAndFeels() | get installed look and feels
+int checkInstalledVersion(QFile;) | check installed version
+int getInstallationId() | get installation id
+Map<QVersionNumber;QFile;> getInstalledVersions(QString;) | get installed versions
+MenuItem addPluginInstallMenuItem(QMenu;) | add plugin install menu item
+MenuItem addPluginUnInstallMenuItem(QMenu;) | add plugin un install menu item
+PluginInstaller getInstaller() | get installer
+PluginInstaller getPluginInstaller() | get plugin installer
+PluginInterface getAlreadyInstalledPlugin() | get already installed plugin
+PluginInterface getAlreadyInstalledPlugin(QString;) | get already installed plugin
+SSLSocketFactory installServerCertificate(QURL;) | install server certificate
+SSLSocketFactory installServerCertificates(QString;QString;I) | install server certificates
+SSLSocketFactory installServerCertificates(QURL;) | install server certificates
+String getApplicationInstallDir(QString;) | get application install dir
+String getInstallDir() | get install dir
+String[] getInstalledLookAndFeels() | get installed look and feels
+UpdateInstaller createInstaller() | create installer
+UpdateInstaller[] getInstallers() | get installers
+void addFileInstallOperation(QFilePluginInstaller;) | add file install operation
+void addInstallationActions(QUpdateInstaller;QFile;QFile;) | add installation actions
+void checkForFailedInstalls(QUpdateManager;) | check for failed installs
+void createShortcuts(File installDir, String runnable, String folder, String name) | create shortcuts
+void installAction(QJajukAction;QActionBase;Z) | install action
+void installActiveDocument() | install active document
+void installApplicationListeners(QApplication;) | install application listeners
+void installAuthenticator() | install authenticator
+void installDefaultKeyboardActions() | install default keyboard actions
+void installDefaults() | install defaults
+void installDefaults(JSeparator s) | install defaults
+void installDefaults(QAbstractButton;) | install defaults
+void installEditActions(MultiProperties mp) | install edit actions
+void installEditionKeyboardActions() | install edition keyboard actions
+void installFramePrefsHandler(QPreferences;QString;QWindow;) | install frame prefs handler
+void installFromFile(QFile;) | install from file
+void installFromURL(QURL;) | install from url
+void installInternalFramePrefsHandler(QPreferences;QString;QJInternalFrame;QJDesktopPane;) | install internal frame prefs handler
+void installKeyboardActions() | install keyboard actions
+void installKeyboardActions(JComponent c) | install keyboard actions
+void installKeystrokes(QJComponent;[QAction;) | install keystrokes
+void installLinearModels() | install linear models
+void installListeners() | install listeners
+void installModalWindowAdapter(QWindow;QRunnable1<-QWindowEvent;>;QRunnable1<-QWindowEvent;>;) | install modal window adapter
+void _installNewDocumentListener(QOpenDefinitionsDocument;) | install new document listener
+void installPalettePrefsHandler(QPreferences;QString;QWindow;) | install palette prefs handler
+void installPalettePrefsHandler(QPreferences;QString;QWindow;I) | install palette prefs handler
+void installPlugin() | install plugin
+void installPlugin(QJabRefFrame;QFile;QString;) | install plugin
+void installProjectListeners(QProject;) | install project listeners
+void install([QInstallablePlugin;Z) | install
+void install(QInstallablePlugin;Z) | install
+void install([QInstallablePlugin;ZZQinstallListener;) | install
+void install(QJTextComponent;) | install
+void installRecommendedPlugin(QPluginInstaller;QStandardPlugin;) | install recommended plugin
+void installSecurityManager() | install security manager
+void installSheet() | install sheet
+void installSmoothedModels() | install smoothed models
+void installSubscribers() | install subscribers
+void installTimer(QString;) | install timer
+void installToolBarPrefsHandler(QPreferences;QString;QJToolBar;) | install tool bar prefs handler
+void installUI(JComponent c) | install ui
+void installUI(QJComponent;) | install ui
+void installUpdate(QUpdateChecker;QUpdate;QPluginInterface;ZZQString;QInputStream;Z) | install update
+void installUpdate(QUpdateChecker;QUpdate;QResourceDownloader;QInputStream;) | install update
+void installUpdate(QUpdateChecker;QUpdate;QResourceDownloader;QString;QInputStream;) | install update
+void installWindowListenerForSavingUserBeans() | install window listener for saving user beans
+void install(Z) | install
+void install(ZZZ) | install
+void performInstall() | perform install
+void performUnInstall() | perform un install
+void requestInstall(QString;QInstallablePlugin;) | request install
+void setTextAreaLOMInstall(TextArea ta) | set text area lom install

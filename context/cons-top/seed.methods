@@ -1,0 +1,30 @@
+CONS ColumnIsSeeding(QString;) | column is seeding
+CONS ExternalSeedException(QString;) | external seed exception
+CONS ExternalSeedException(QString;QThrowable;) | external seed exception
+CONS ExternalSeedHTTPDownloader(QURL;QString;) | external seed http downloader
+CONS ExternalSeedManualPeer(QExternalSeedPeer;) | external seed manual peer
+CONS ExternalSeedPeer(QExternalSeedPlugin;QDownload;QExternalSeedReader;) | external seed peer
+CONS ExternalSeedReaderFactoryGetRight() | external seed reader factory get right
+CONS ExternalSeedReaderFactoryWebSeed() | external seed reader factory web seed
+CONS ExternalSeedReaderGetRight(QExternalSeedPlugin;QTorrent;QURL;QMap;) | external seed reader get right
+CONS ExternalSeedReaderImpl(QExternalSeedPlugin;QTorrent;QMap;) | external seed reader impl
+CONS ExternalSeedReaderRequest(QExternalSeedReaderImpl;QList;) | external seed reader request
+CONS ExternalSeedReaderWebSeed(QExternalSeedPlugin;QTorrent;QURL;QMap;) | external seed reader web seed
+CONS HTTPNetworkConnectionWebSeed(QHTTPNetworkManager;QNetworkConnection;QPEPeerTransport;) | http network connection web seed
+CONS LightWeightSeedManager() | light weight seed manager
+CONS LightWeightSeed(QLightWeightSeedManager;QString;QHashWrapper;QURL;QFile;QLightWeightSeedAdapter;) | light weight seed
+CONS SecondsSeedingItem(QString;) | seconds seeding item
+CONS SeedCountItem() | seed count item
+CONS SeedingListener() | seeding listener
+CONS SeedingListener(QString;) | seeding listener
+CONS SeedingRankColumnListener(QMap;QPluginConfig;) | seeding rank column listener
+CONS SeedingRanker() | seeding ranker
+CONS SeedingUnchoker() | seeding unchoker
+CONS SeedsItem(QString;) | seeds item
+CONS SeedToPeerRatioItem(QString;) | seed to peer ratio item
+CONS SuperSeedPeer(QPEPeer;) | super seed peer
+CONS SuperSeedPiece(QPEPeerControl;I) | super seed piece
+CONS VersionTypeSeedParameterSpecification(QVersionType;) | version type seed parameter specification
+CONS WebSeedPanel(QNewTorrentWizard;QAbstractWizardPanel;) | web seed panel
+CONS WebSeedsEditor(QString;QMap;QWebSeedsEditorListener;) | web seeds editor
+CONS WebSeedsEditor(QString;QMap;QWebSeedsEditorListener;Z) | web seeds editor

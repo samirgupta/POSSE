@@ -1,0 +1,23 @@
+boolean isRowDeleteEnabled() | is row delete enabled
+boolean isRowDisposed() | is row disposed
+boolean isRowInsertEnabled() | is row insert enabled
+boolean rowDeleted() | row deleted
+boolean rowInserted() | row inserted
+boolean rowIsSelected(QListRow;) | row is selected
+boolean rowUpdated() | row updated
+CONS RowInputTextQuoted(QString;QString;QString;Z) | row input text quoted
+CONS RowOutputTextQuoted(QString;QString;QString;ZQString;) | row output text quoted
+ListRow getRowFocused() | get row focused
+ListRow[] getRowsUnsorted() | get rows unsorted
+void rowAdded(QTableRowCore;) | row added
+void rowChanged(IZ) | row changed
+void rowHeightChanged(QListRow;II) | row height changed
+void rowRemoved(QTableRowCore;) | row removed
+void rowSelected() | row selected
+void rowSetFocused(QListRow;) | row set focused
+void rowSetSelected(QListRow;Z) | row set selected
+void triggerListenerRowAdded(QListRow;) | trigger listener row added
+void triggerListenerRowAdded(QTableRowCore;) | trigger listener row added
+void triggerListenerRowRemoved(QListRow;) | trigger listener row removed
+void triggerListenerRowRemoved(QTableRowCore;) | trigger listener row removed
+void visibleRowsChanged() | visible rows changed

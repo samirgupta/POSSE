@@ -1,0 +1,11 @@
+DurationField getRangeDurationField() | get range duration field
+float translateDurationValue(QTaskLength;) | translate duration value
+GP4Duration minDurationOfBeats() | min duration of beats
+GP4Duration minDurationOfMeasure(I) | min duration of measure
+String getDurationKey(QString;) | get duration key
+TextFigure getDurationFigure() | get duration figure
+void testRecalculateOnChangingDurationByMutator() | test recalculate on changing duration by mutator
+void testRecalculateOnChangingStartByFixingDurationMutator() | test recalculate on changing start by fixing duration mutator
+void testSupertaskDurationShrinksWhenNestedTasksShrink() | test super task duration shrinks when nested tasks shrink
+void testSupetaskDurationGrowsWhenNestedTasksGrow() | test supe task duration grows when nested tasks grow
+void testTaskScheduleEventIsSendOnTaskDurationChange() | test task schedule event is send on task duration change

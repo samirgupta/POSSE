@@ -1,0 +1,24 @@
+boolean isAffectedByEnabledFilters(QSessionImplementor;) | is affected by enabled filters
+Collection getExtraFilters() | get extra filters
+FileFilter getChoosableFileFilters() | get choosable file filters
+Filter[] getFilters() | get filters
+Map getEnabledFilters() | get enabled filters
+RdfBindingSet join(RdfBindingSet set1, RdfBindingSet set2, Collection filters) | join
+String filtersTipText() | filters tip text
+Vector<QExtensionFileFilter;> filterNonCoreLoaderFileFilters(QVector<QExtensionFileFilter;>;) | filter non core loader file filters
+Vector<QExtensionFileFilter;> filterNonCoreSaverFileFilters(QVector<QExtensionFileFilter;>;) | filter non core saver file filters
+Vector<QExtensionFileFilter;> filterSaverFileFilters(QVector<QExtensionFileFilter;>;) | filter saver file filters
+void applyFileSizeFilters() | apply file size filters
+void applyFilters([QPattern;) | apply filters
+void applyTestTimeFilters() | apply test time filters
+void applyTrainTimeFilters() | apply train time filters
+void clearChoosableFileFilters() | clear choosable file filters
+void downloadFiltersAsync(QURL;) | download filters async
+void initFilters(ZQVector<QString;>;) | init filters
+void loadDATFilters(QInputStream;) | load dat filters
+void loadFilters() | load filters
+void loadFilters(ZZ) | load filters
+void loadOtherFilters(ZZ) | load other filters
+void processFilters(QString;QSessionImplementor;) | process filters
+void setFilters([QFilter;) | set filters
+void testCascadedTableRangeFilters() | test cascaded table range filters

@@ -1,0 +1,19 @@
+boolean requiresNoCascadeChecking() | requires no cascade checking
+boolean supportsCascadeDelete() | supports cascade delete
+boolean supportsCircularCascadeDeleteConstraints() | supports circular cascade delete constraints
+CascadeStyle getCascadeStyle() | get cascade style
+CascadeStyle getCascadeStyle(I) | get cascade style
+CascadeStyle getCascadeStyle(QString;) | get cascade style
+CascadeStyle[] getCascadeStyles() | get cascade styles
+CascadeStyle[] getPropertyCascadeStyles() | get property cascade styles
+CascadingAction getCascadeAction() | get cascade action
+int decrementCascadeLevel() | decrement cascade level
+int getCascadeLevel() | get cascade level
+int incrementCascadeLevel() | increment cascade level
+String getCascadeConstraintsString() | get cascade constraints string
+void checkCascadeDelete(QSession;QTable;QHashMappedList;QRow;ZQHashSet;) | check cascade delete
+void checkCascadeDropViews(QNumberSequence;Z) | check cascade drop views
+void checkCascadeDropViews(QTable;Z) | check cascade drop views
+void checkCascadeDropViews(QView;Z) | check cascade drop views
+void checkCascadeUpdate(QSession;QTable;QHashMappedList;QRow;[QObject;[IQTable;QHashSet;) | check cascade update
+void MultipleCascadeStyle([QCascadeStyle;) | multiple cascade style

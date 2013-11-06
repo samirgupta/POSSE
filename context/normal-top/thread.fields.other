@@ -1,0 +1,17 @@
+boolean debug_thread_pool | debug thread pool
+boolean debug_thread_pool_log_on | debug thread pool log on
+boolean eventThreadFlag | event thread flag
+boolean rendezvous_thread_running | rendezvous thread running
+edu.rice.cs.drjava.config.ColorOption DEBUG_THREAD_COLOR | debug thread color
+int currThreadDiedCount | curr thread died count
+int currThreadResumedCount | curr thread resumed count
+int currThreadSetCount | curr thread set count
+int currThreadSuspendedCount | curr thread suspended count
+int nonCurrThreadDiedCount | non curr thread died count
+java.lang.Object eventThreadMonitor | event thread monitor
+java.lang.String _pollMasterThreadName | poll master thread name
+java.lang.String _quitSlaveThreadName | quit slave thread name
+java.lang.ThreadGroup serverConnectionThreadGroup | server connection thread group
+java.lang.ThreadGroup _updaterThreadGroup | updater thread group
+java.util.WeakHashMap our_thread_map | our thread map
+long _currentThreadID | current thread id

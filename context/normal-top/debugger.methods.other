@@ -1,0 +1,8 @@
+boolean isDebuggerReady() | is debugger ready
+Object getDebuggerContextData() | get debugger context data
+void assertDebuggerShutdownCount(I) | assert debugger shutdown count
+void assertDebuggerStartedCount(I) | assert debugger started count
+void _hideDebuggerPanel() | hide debugger panel
+void notifyDebugger_r(QContext;QDebuggableScript;QString;) | notify debugger r
+void notifyDebuggerShutdown() | notify debugger shutdown
+void _showDebuggerPanel() | show debugger panel

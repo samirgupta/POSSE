@@ -1,0 +1,17 @@
+edu.rice.cs.drjava.config.ColorOption COMPILER_ERROR_COLOR | compiler error color
+edu.rice.cs.drjava.config.VectorOption<java.lang.String> EXTRA_COMPILERS | extra compilers
+edu.rice.cs.drjava.model.compiler.CompilerErrorModel _compilerErrorModel | compiler error model
+edu.rice.cs.drjava.model.compiler.CompilerInterface _compiler | compiler
+edu.rice.cs.drjava.model.compiler.CompilerModel _compilerModel | compiler model
+edu.rice.cs.drjava.ui.CompilerErrorPanel _compilerErrorPanel | compiler error panel
+int activeCompilerChangedCount | active compiler changed count
+int _numCompilerErrors | num compiler errors
+it.businesslogic.ireport.plugin.massivecompiler.MassiveCompilerFrame massiveCompilerFrame | massive compiler frame
+java.lang.Object compilerData | compiler data
+java.lang.Object _compilerLock | compiler lock
+java.lang.String COMPILER | compiler
+java.util.List<edu.rice.cs.drjava.model.compiler.CompilerInterface> _compilers | compilers
+javax.swing.JButton jButtonCompiler | j button compiler
+javax.swing.JComboBox _compilerChoiceBox | compiler choice box
+org.mozilla.javascript.CompilerEnvirons compilerEnv | compiler env
+org.mozilla.javascript.optimizer.ClassCompiler compiler | compiler

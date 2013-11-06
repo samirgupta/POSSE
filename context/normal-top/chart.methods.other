@@ -1,0 +1,53 @@
+boolean initChartPanel(WizardController controller) | init chart panel
+ChartGridImpl getChartGrid() | get chart grid
+ChartHeader getChartHeader() | get chart header
+ChartImplementation getChartImplementation() | get chart implementation
+ChartItem getChartItemUnderMousePoint(II) | get chart item under mouse point
+ChartItem getChartItemWithCoordinates(II) | get chart item with coordinates
+ChartModelBase getChartModel() | get chart model
+ChartModelImpl getMyChartModel() | get my chart model
+ChartPanel getChartPanel() | get chart panel
+ChartUIConfiguration getChartUIConfiguration() | get chart ui configuration
+Font getChartFont() | get chart font
+Font getChartMainFont() | get chart main font
+GPOptionGroup[] getChartOptionGroups() | get chart option groups
+int getChartLeftPadding() | get chart left padding
+it.businesslogic.ireport.chart.Dataset getChartDatasetClipBoard() | get chart dataset clip board
+java.awt.Image getChartImage() | get chart image
+javax.swing.ImageIcon getChartIcon(QString;) | get chart icon
+String getChartKeyName() | get chart key name
+String getChartName() | get chart name
+String getChartTitles() | get chart titles
+String writeChartExpression(QChartReportElement;) | write chart expression
+SVGDocument exportChartToSVG(JFreeChart chart, Integer width, Integer height) | export chart to svg
+Vector getChartSeriesClipBoard() | get chart series clip board
+void AbstractChartImplementation() | abstract chart implementation
+void AbstractChartImplementation(QChartModelBase;) | abstract chart implementation
+void addChartListener(QChartListener;) | add chart listener
+void addChartModelListener(ChartModelListener listener) | add chart model listener
+void addChartSheetProperties(QChartDefinition;) | add chart sheet properties
+void addCommonChartProperties() | add common chart properties
+void notifyChartListeners(QChartEvent;) | notify chart listeners
+void plotChartGrid(QChartGraphics;) | plot chart grid
+void readChartElement(QNode;QChartReportElement2;) | read chart element
+void readChartSubTitleElement(QNode;QChartReportElement2;) | read chart sub title element
+void readChartTitleElement(Node xmlElement, ChartReportElement2 re) | read chart title element
+void readChartTitleElement(QNode;QChartReportElement2;) | read chart title element
+void removeChartListener(QChartListener;) | remove chart listener
+void saveGanttChartView(QTransformerHandler;) | save gantt chart view
+void ScrollGanttChartCenterAction(QScrollingManager;QTaskSelectionManager;QString;) | scroll gantt chart center action
+void setChartDataAtSession(FacesContext facesContext) | set chart data at session
+void setChartDatasetClipBoard(Qit.businesslogic.ireport.chart.Dataset;) | set chart dataset clip board
+void setChartElement(QChartReportElement2;) | set chart element
+void setChartImage(Qjava.awt.Image;) | set chart image
+void setChartKeyName(QString;) | set chart key name
+void setChartLeftPadding(I) | set chart left padding
+void setChartName(QString;) | set chart name
+void setChartProperties(Qjava.util.Properties;QJFreeChart;) | set chart properties
+void setChartRenderer(Map renderer) | set chart renderer
+void setChartSeriesClipBoard(QVector;) | set chart series clip board
+void updateChartImage() | update chart image
+void writeChartElement(QChartReportElement2;QPrintWriter;) | write chart element
+void writeChartNode(QChartReportElement2;QPrintWriter;) | write chart node
+void writeChartSubTitleNode(QChartReportElement2;QPrintWriter;) | write chart sub title node
+void writeChartTitleNode(QChartReportElement2;QPrintWriter;) | write chart title node

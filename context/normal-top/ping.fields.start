@@ -1,0 +1,21 @@
+boolean ping_mode | ping mode
+boolean ping_outstanding | ping outstanding
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerPingMapperImpl ping_mapper | ping mapper
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerPingMapperImpl[] ping_mappers | ping mappers
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSourceManager pingSourceManager | ping source manager
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSpaceMapper pingMap | ping map
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSpaceMapper pingMapOfDownloadMode | ping map of download mode
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSpaceMapper pingMapOfSeedingMode | ping map of seeding mode
+com.aelitis.azureus.core.util.average.Average ping_average_history | ping average history
+int PING_AVERAGE_HISTORY_COUNT | ping average history count
+int PING_CHOKE_TIME | ping choke time
+int ping_count | ping count
+int pingCount | ping count
+int ping_time | ping time
+java.util.List pingTimeList | ping time list
+java.util.Map pingAverages | ping averages
+java.util.Map ping_sources | ping sources
+long PING_TIMEOUT | ping timeout
+org.gudy.azureus2.platform.PlatformManagerCapabilities PingAvailability | ping availability
+org.gudy.azureus2.plugins.ui.config.StringParameter ping_target | ping target
+org.gudy.azureus2.ui.swt.components.graphics.PingGraphic pingGraph | ping graph

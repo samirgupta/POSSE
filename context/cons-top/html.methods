@@ -1,0 +1,16 @@
+CONS HTMLChunkImpl() | html chunk impl
+CONS HTMLChunkImpl(QString;) | html chunk impl
+CONS HTMLConverter() | html converter
+CONS HTMLException(QString;QThrowable;) | html exception
+CONS HTMLFrame(QString;QURL;QURL;QString;) | html frame
+CONS HTMLFrame(QString;QURL;QURL;QString;QFile;) | html frame
+CONS HTMLPageImpl(QInputStream;QString;Z) | html page impl
+CONS HTMLTableCellImpl(QString;) | html table cell impl
+CONS HTMLTableImpl(QString;) | html table impl
+CONS HTMLTableRowImpl(QString;) | html table row impl
+CONS HTMLTokenMarker() | html token marker
+CONS HTMLTokenMarker(Z) | html token marker
+CONS htmlToken(QString;I) | html token
+CONS ResultMatrixHTML() | result matrix html
+CONS ResultMatrixHTML(II) | result matrix html
+CONS ResultMatrixHTML(QResultMatrix;) | result matrix html

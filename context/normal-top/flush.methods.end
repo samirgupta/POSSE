@@ -1,0 +1,19 @@
+boolean getFlush() | get flush
+void cascadeOnFlush(QEventSource;QEntityPersister;QObject;QObject;) | cascade on flush
+void firePersistOnFlush(QMap;QPersistEvent;) | fire persist on flush
+void firePersistOnFlush(QPersistEvent;) | fire persist on flush
+void forceFlush(QEntityEntry;) | force flush
+void managedFlush() | managed flush
+void multiBlockFlush(QList;JJZ) | multi block flush
+void onAutoFlush(QAutoFlushEvent;) | on auto flush
+void onFlush(QFlushEvent;) | on flush
+void persistOnFlush(QObject;) | persist on flush
+void persistOnFlush(QString;QObject;) | persist on flush
+void persistOnFlush(QString;QObject;QMap;) | persist on flush
+void postFlush(QIterator;) | post flush
+void postFlush(QPersistentCollection;) | post flush
+void postFlush(QSessionImplementor;) | post flush
+void preFlush(QIterator;) | pre flush
+void preFlush(QPersistentCollection;) | pre flush
+void setFlush(Z) | set flush
+void setPoolAttributeAndFlush(String attName, Object attValue) | set pool attribute and flush

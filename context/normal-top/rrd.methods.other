@@ -1,0 +1,25 @@
+RrdAllocator getRrdAllocator() | get rrd allocator
+RrdBackendFactory getRrdBackendFactory() | get rrd backend factory
+RrdBackend getRrdBackend() | get rrd backend
+RrdDb getRrdDb() | get rrd db
+RrdDb openRrdFileFor(QRawSample;) | open rrd file for
+RrdDb requestRrdDb(QRrdDef;) | request rrd db
+RrdDb requestRrdDb(QString;) | request rrd db
+RrdDb requestRrdDb(QString;QString;) | request rrd db
+RrdDef getRrdDef() | get rrd def
+RrdExportDef getRrdExportDef() | get rrd export def
+RrdGraphDef getRrdGraphDef() | get rrd graph def
+RrdGraph getRrdGraph(JJ) | get rrd graph
+RrdNode getSelectedRrdNode() | get selected rrd node
+RrdOpener getRrdOpener() | get rrd opener
+RrdWriter getRrdWriter() | get rrd writer
+String getRrdDir() | get rrd dir
+String getRrdFile() | get rrd file
+String getRrdFilenameFor(QRawSample;) | get rrd filename for
+String getRrdFilename(QString;QString;) | get rrd filename
+String getRrdTemplateFile() | get rrd template file
+String getRrdToolCommand() | get rrd tool command
+void addRrdEntry(QString;QRrdDb;) | add rrd entry
+void closeRrdDb() | close rrd db
+void removeRrdEntry(QRrdEntry;) | remove rrd entry
+void setRrdOpener(QRrdOpener;) | set rrd opener

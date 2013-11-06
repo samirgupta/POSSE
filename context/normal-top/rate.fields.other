@@ -1,0 +1,20 @@
+boolean SHOW_DISCARD_RATE_STATS | show discard rate stats
+boolean use_units_rate_bits | use units rate bits
+com.aelitis.azureus.core.networkmanager.LimitedRateGroup download_limited_rate_group | download limited rate group
+com.aelitis.azureus.core.networkmanager.LimitedRateGroup upload_limited_rate_group | upload limited rate group
+com.aelitis.azureus.core.util.average.Average capped_download_rate_average | capped download rate average
+com.aelitis.azureus.core.util.average.Average discard_rate_average | discard rate average
+int external_max_download_rate_bps | external max download rate bps
+int INC_RATE_TIME | inc rate time
+int max_download_rate_bps | max download rate bps
+int max_lan_download_rate_bps | max lan download rate bps
+int max_lan_upload_rate_bps | max lan upload rate bps
+int max_upload_rate_bps | max upload rate bps
+int max_upload_rate_bps_normal | max upload rate bps normal
+int max_upload_rate_bps_seeding_only | max upload rate bps seeding only
+int START_DOWNLOAD_RATE_MAX | start download rate max
+int START_UPLOAD_RATE_MAX | start upload rate max
+java.util.List external_rate_limiters_cow | external rate limiters cow
+long data_send_rate_at_close | data send rate at close
+org.gudy.azureus2.ui.swt.pluginsimpl.UISWTGraphicImpl graphicRateDown | graphic rate down
+org.gudy.azureus2.ui.swt.pluginsimpl.UISWTGraphicImpl graphicRateUp | graphic rate up

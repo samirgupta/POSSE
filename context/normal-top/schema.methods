@@ -1,0 +1,105 @@
+boolean isAutoCreateSchema() | is auto create schema
+boolean isAutoDropSchema() | is auto drop schema
+boolean isAutoUpdateSchema() | is auto update schema
+boolean isAutoValidateSchema() | is auto validate schema
+boolean isSchemaDefintion() | is schema defintion
+boolean isSystemSchema(QHsqlName;) | is system schema
+boolean schemaExists(QString;) | schema exists
+boolean SchemaToSelect() | schema to select
+boolean supportsSchemasInDataManipulation() | supports schemas in data manipulation
+boolean supportsSchemasInIndexDefinitions() | supports schemas in index definitions
+boolean supportsSchemasInPrivilegeDefinitions() | supports schemas in privilege definitions
+boolean supportsSchemasInProcedureCalls() | supports schemas in procedure calls
+boolean supportsSchemasInTableDefinitions() | supports schemas in table definitions
+double[] instanceToSchema(QInstance;QMiningSchema;) | instance to schema
+HsqlName getDefaultSchemaHsqlName() | get default schema hsql name
+HsqlName getInitialSchema() | get initial schema
+HsqlName getSchemaHsqlNameForWrite(QString;) | get schema hsql name for write
+HsqlName getSchemaHsqlName(QString;) | get schema hsql name
+HsqlName[] getSchemas() | get schemas
+HsqlName toSchemaHsqlName(QString;) | to schema hsql name
+Instances getMiningSchemaAsInstances() | get mining schema as instances
+Instances getMiningSchemaAsInstances(QElement;QInstances;) | get mining schema as instances
+int getMaxSchemaNameLength() | get max schema name length
+int[] schemataRace(QInstances;QRandom;) | schemata race
+Iterator fullSchemaNamesIterator() | full schema names iterator
+Iterator userSchemaNameIterator() | user schema name iterator
+List listTablesInSchema(String schemaName) | list tables in schema
+List<SchemaNode> schemaList() | schema list
+MiningSchema getMiningSchema() | get mining schema
+ResultSet getSchemas() | get schemas
+SchemaExport getSchemaExport(QConfiguration;) | get schema export
+Schema getAxisLabelSchema() | get axis label schema
+Schema getDataSchema() | get data schema
+Schema getLabelSchema() | get label schema
+Schema getMinimalVisualSchema() | get minimal visual schema
+Schema getSchema() | get schema
+Schema getSchema(QResultSetMetaData;QSQLDataHandler;) | get schema
+Schema getVisualItemSchema() | get visual item schema
+Schema lockSchema() | lock schema
+SchemaUpdate getSchemaUpdate(QConfiguration;) | get schema update
+SchemaValidator getSchemaValidator(QConfiguration;) | get schema validator
+String[] generateDropSchemaScript(QDialect;) | generate drop schema script
+String[] generateSchemaCreationScript(QDialect;) | generate schema creation script
+String[] generateSchemaUpdateScript(QDialect;QDatabaseMetadata;) | generate schema update script
+String getCurrentSchema() | get current schema
+String getDefaultSchema() | get default schema
+String getDefaultSchemaName() | get default schema name
+String getQuotedSchema() | get quoted schema
+String getQuotedSchema(QDialect;) | get quoted schema
+String getSchema() | get schema
+String getSchemaCreateDDL(QDatabase;QHsqlName;) | get schema create ddl
+String getSchemaName() | get schema name
+String getSchemaNameForWrite(QString;) | get schema name for write
+String getSchemaName(I) | get schema name
+String getSchemaName(QObject;) | get schema name
+String getSchemaName(QString;) | get schema name
+String getSchemaTerm() | get schema term
+String getTableSchemaName() | get table schema name
+String injectCatalogAndSchema(QString;QString;QString;) | inject catalog and schema
+String translateSchema(QString;) | translate schema
+Table SYSTEM_SCHEMAS() | system schemas
+Table SYSTEM_SCHEMATA() | system schemata
+Vector getSchemas() | get schemas
+void addImportedSchema(String targetNamespace) | add imported schema
+void addSchemaRef(SimpleLink schemaRef) | add schema ref
+void addSchemaStatements(QDatabase;QResult;Z) | add schema statements
+void addToSchema() | add to schema
+void checkGraphMLSchema(QSchema;) | check graph ml schema
+void checkTreeMLSchema(QSchema;) | check tree ml schema
+void createSchema(QString;Z) | create schema
+void dropSchema(QString;Z) | drop schema
+void endSchemaDefinition() | end schema definition
+void initSchema(QTupleSet;) | init schema
+void invalidateSchema() | invalidate schema
+void mapToMiningSchema(QInstances;) | map to mining schema
+void printSchema(QXMLWriter;QString;QSchema;[QString;) | print schema
+void processAlterSchema() | process alter schema
+void processAlterSchemaRename() | process alter schema rename
+void processCreateSchema() | process create schema
+void processDropSchema() | process drop schema
+void processDropSchema(QString;Z) | process drop schema
+void removeSchemaReference(QSchema;) | remove schema reference
+void renameSchema(QString;QString;Z) | rename schema
+void resetSchema() | reset schema
+void schemaCheck() | schema check
+void Schema(QString;Z) | schema
+void setAutoCreateSchema(Z) | set auto create schema
+void setAutoDropSchema(Z) | set auto drop schema
+void setAutoUpdateSchema(Z) | set auto update schema
+void setAutoValidateSchema(Z) | set auto validate schema
+void setDefaultSchemaName(QString;) | set default schema name
+void setDefaultSchema(QString;) | set default schema
+void setInitialSchema(QHsqlName;) | set initial schema
+void setMiningSchemaInstances(QInstances;) | set mining schema instances
+void setSchemaName(QString;) | set schema name
+void setSchema(QString;) | set schema
+void startSchemaDefinition(QString;) | start schema definition
+void testCopySchemaFilesToFolder1() | test copy schema files to folder 1
+void testNonWsISchemaImportExceptionMessage() | test non ws i schema import exception message
+void testXMPSchemaBibtexElement() | test xmp schema bibtex element
+void testXMPSchemaBibtexXMPMetadata() | test xmp schema bibtex xmp metadata
+void updateSchemaList() | update schema list
+void validateSchema(QDialect;QDatabaseMetadata;) | validate schema
+void writeSchemaStatement(QHsqlName;) | write schema statement
+void writeToDCSchema(QXMPSchemaDublinCore;QBibtexEntry;QBibtexDatabase;) | write to dc schema

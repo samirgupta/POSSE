@@ -1,0 +1,14 @@
+boolean isEmptyBeat() | is empty beat
+boolean isNoteBeat() | is note beat
+boolean isRestBeat() | is rest beat
+GP4Beat nextBeat(Qjava.util.List;II) | next beat
+GP4Beat readBeat() | read beat
+GP4EffectsOnBeat readEffectsOnBeat() | read effects on beat
+GP4EffectsOnBeat readEffectsOnBeat(QGP3EffectsOnBeat;) | read effects on beat
+int calculateWidthOfBeat(QGP4Beat;) | calculate width of beat
+int getBeat() | get beat
+void GP3EffectsOnBeat() | gp 3 effects on beat
+void paintBeat(QGraphics;IQGP4Beat;QGP4Beat;QGP4Beat;QPaintedBeatInfo;) | paint beat
+void setBeat(I) | set beat
+void setEmptyBeat(Z) | set empty beat
+void setRestBeat(Z) | set rest beat

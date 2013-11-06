@@ -1,0 +1,16 @@
+boolean isBoundToWall() | is bound to wall
+boolean passBuildingWall(QEntity;QBuilding;QCoords;QCoords;IQString;) | pass building wall
+List<QDimensionLine;> getDimensionLinesAlongWall(QHomePieceOfFurniture;QWall;) | get dimension lines along wall
+void addWall(QWall;) | add wall
+void createNextWall() | create next wall
+void deleteWall(QWall;) | delete wall
+void detachJoinedWall(QWall;) | detach joined wall
+void JoinedWall(QWall;) | joined wall
+void joinNewWallEndToWall(QWall;QWall;QWall;) | join new wall end to wall
+void ModifiedWall(QWall;) | modified wall
+void postSplitSelectedWall(QJoinedWall;QJoinedWall;QJoinedWall;QList<QSelectable;>;Z) | post split selected wall
+void setBoundToWall(Z) | set bound to wall
+void splitSelectedWall() | split selected wall
+void updateWall(QWall;) | update wall
+Wall createWall(FFFFQWall;QWall;) | create wall
+Wall getWall() | get wall

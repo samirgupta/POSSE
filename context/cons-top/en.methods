@@ -1,0 +1,274 @@
+CONS AbstractEntityAction(I) | abstract entity action
+CONS AbstractEntityJoinWalker(QOuterJoinLoadable;QSessionFactoryImplementor;QMap;) | abstract entity join walker
+CONS AbstractEntityJoinWalker(QOuterJoinLoadable;QSessionFactoryImplementor;QMap;QString;) | abstract entity join walker
+CONS AbstractEntityLoader(QOuterJoinLoadable;QType;QSessionFactoryImplementor;QMap;) | abstract entity loader
+CONS AbstractEntityPersister(QPersistentClass;QEntityRegionAccessStrategy;QSessionFactoryImplementor;) | abstract entity persister
+CONS AbstractEntityTuplizer(QEntityMetamodel;QPersistentClass;) | abstract entity tuplizer
+CONS ADPCMEncodeStream(QInputStream;ZZ) | adpcm encode stream
+CONS AliasToEntityMapResultTransformer() | alias to entity map result transformer
+CONS AllEntriesGroup() | all entries group
+CONS ASN1EncodableVector() | asn 1 encodable vector
+CONS AuctionEntry() | auction entry
+CONS AuctionEntry(QString;) | auction entry
+CONS AutoSetExternalFileForEntries(QBasePanel;QString;) | auto set external file for entries
+CONS AZMessageEncoder(Z) | az message encoder
+CONS BasicEntityPropertyMapping(QAbstractEntityPersister;) | basic entity property mapping
+CONS BatchingEntityLoader(QEntityPersister;[I[QLoader;) | batching entity loader
+CONS BEncoder(Z) | b encoder
+CONS BEncodingException() | b encoding exception
+CONS BEncodingException(QString;) | b encoding exception
+CONS BibtexEntry() | bibtex entry
+CONS BibtexEntry(QString;) | bibtex entry
+CONS BibtexEntry(QString;QBibtexEntryType;) | bibtex entry
+CONS BTMessageEncoder() | bt message encoder
+CONS BufferedEncoder(QTranslator;I) | buffered encoder
+CONS CacheEntry(IQCacheFileWithCache;QDirectByteBuffer;JI) | cache entry
+CONS CacheEntry(J) | cache entry
+CONS CacheEntry([QObject;QEntityPersister;ZQObject;QSessionImplementor;QObject;) | cache entry
+CONS CacheEntry([QSerializable;QString;ZQObject;) | cache entry
+CONS CarbonUIEnhancer() | carbon ui enhancer
+CONS CascadeEntityJoinWalker(QOuterJoinLoadable;QCascadingAction;QSessionFactoryImplementor;) | cascade entity join walker
+CONS CascadeEntityLoader(QOuterJoinLoadable;QCascadingAction;QSessionFactoryImplementor;) | cascade entity loader
+CONS CEntity(QEntity;QTestBot;) | c entity
+CONS ChangeArrowLinkEndPoints(QModeController;) | change arrow link end points
+CONS ChangeConnectionEndHandle(QFigure;) | change connection end handle
+CONS CharSetEnumerator(QCharSet;) | char set enumerator
+CONS CiteSeerEntryFetcherHandler(QBibtexEntry;) | cite seer entry fetcher handler
+CONS CollectionCacheEntry(QPersistentCollection;QCollectionPersister;) | collection cache entry
+CONS CollectionCacheEntry(QSerializable;) | collection cache entry
+CONS CollectionEntry(QCollectionPersister;QPersistentCollection;) | collection entry
+CONS CollectionEntry(QCollectionPersister;QSerializable;) | collection entry
+CONS CollectionEntry(QPersistentCollection;QCollectionPersister;QSerializable;Z) | collection entry
+CONS CollectionEntry(QPersistentCollection;QSessionFactoryImplementor;) | collection entry
+CONS CollectionEntry(QString;QSerializable;QSerializable;QSessionFactoryImplementor;) | collection entry
+CONS ColumnEntityAliases(QMap;QLoadable;QString;) | column entity aliases
+CONS CompilerEnvirons() | compiler environs
+CONS ComponentEntityModeToTuplizerMapping(QComponent;) | component entity mode to tuplizer mapping
+CONS ConnectionEndpoint(QInetSocketAddress;) | connection endpoint
+CONS CryptoSTSEngineImpl(QPublicKey;QPrivateKey;) | crypto sts engine impl
+CONS CustomEntryType(QString;[QString;[QString;) | custom entry type
+CONS CustomEntryType(QString;QString;QString;) | custom entry type
+CONS DefaultEntityAliases(QLoadable;QString;) | default entity aliases
+CONS DefaultEntityAliases(QMap;QLoadable;QString;) | default entity aliases
+CONS DefaultEnumerationOption(QString;QList;) | default enumeration option
+CONS DefaultEnumerationOption(QString;[QString;) | default enumeration option
+CONS DEREncodableVector() | der encodable vector
+CONS DEREnumerated([B) | der enumerated
+CONS DEREnumerated(I) | der enumerated
+CONS DEREnumerated(QBigInteger;) | der enumerated
+CONS DirEntry(QString;QActionListener;) | dir entry
+CONS DistinctRootEntityResultTransformer() | distinct root entity result transformer
+CONS DocumentTreeEntry(QJReportFrame;QString;) | document tree entry
+CONS Dom4jEntityTuplizer(QEntityMetamodel;QPersistentClass;) | dom 4 j entity tuplizer
+CONS DownloadManagerEnhancer(QAzureusCore;) | download manager enhancer
+CONS DynamicMapEntityTuplizer(QEntityMetamodel;QPersistentClass;) | dynamic map entity tuplizer
+CONS EncoderAction() | encoder action
+CONS EncoderAction(QString;) | encoder action
+CONS EncoderAction(QString;QPredicate;) | encoder action
+CONS EncoderAction(QVisualization;) | encoder action
+CONS EncoderAction(QVisualization;QString;) | encoder action
+CONS EncoderAction(QVisualization;QString;QPredicate;) | encoder action
+CONS EncryptedData(QASN1Sequence;) | encrypted data
+CONS EncryptedData(QDERObjectIdentifier;QAlgorithmIdentifier;QDEREncodable;) | encrypted data
+CONS EncryptedMindMapNode(QObject;QFreeMindMain;) | encrypted mind map node
+CONS EncryptedPrivateKeyInfo(QAlgorithmIdentifier;[B) | encrypted private key info
+CONS EncryptedPrivateKeyInfo(QASN1Sequence;) | encrypted private key info
+CONS EncryptionItem(QString;) | encryption item
+CONS EncryptionNotSupportedException(QString;) | encryption not supported exception
+CONS EncryptionScheme(QASN1Sequence;) | encryption scheme
+CONS EncryptNode() | encrypt node
+CONS END() | end
+CONS EndGameModeChunk(QPEPiece;I) | end game mode chunk
+CONS EndTurnAction(QFreeColClient;) | end turn action
+CONS Engine(III) | engine
+CONS EngineImpl(QMetaSearchImpl;IJJQString;) | engine impl
+CONS EngineImpl(QMetaSearchImpl;IJJQString;QJSONObject;) | engine impl
+CONS EngineImpl(QMetaSearchImpl;QMap;) | engine impl
+CONS EngineType(QString;I) | engine type
+CONS EnhancedDownloadManagerFile(QDiskManagerFileInfo;JQMap;) | enhanced download manager file
+CONS EnhancedDownloadManager(QDownloadManagerEnhancer;QDownloadManager;) | enhanced download manager
+CONS EnsembleLibrary() | ensemble library
+CONS EnsembleLibraryEditor() | ensemble library editor
+CONS EnsembleLibraryModel() | ensemble library model
+CONS EnsembleLibraryModel(QClassifier;) | ensemble library model
+CONS EnsembleModelMismatchException(QString;) | ensemble model mismatch exception
+CONS EnsembleSelectionLibrary() | ensemble selection library
+CONS EnsembleSelectionLibraryEditor() | ensemble selection library editor
+CONS EnsembleSelectionLibraryModel() | ensemble selection library model
+CONS EnsembleSelectionLibraryModel(QClassifier;) | ensemble selection library model
+CONS EnsembleSelectionLibraryModel(QClassifier;IQString;DI) | ensemble selection library model
+CONS EnsembleSelectionLibrary(QInputStream;) | ensemble selection library
+CONS EnsembleSelectionLibrary(QString;) | ensemble selection library
+CONS EnsembleSelectionLibrary(QString;IID) | ensemble selection library
+CONS EnterPasswordDialog() | enter password dialog
+CONS EnterPasswordDialog(QJFrame;QModeController;Z) | enter password dialog
+CONS EntireFieldAutoCompleter(QString;) | entire field auto completer
+CONS Entity() | entity
+CONS EntityAccessStrategyAdapter(QEntityRegion;QCacheConcurrencyStrategy;QSettings;) | entity access strategy adapter
+CONS EntityAction(QSessionImplementor;QSerializable;QObject;QEntityPersister;) | entity action
+CONS EntityDeleteAction(QSerializable;[QObject;QObject;QObject;QEntityPersister;ZQSessionImplementor;) | entity delete action
+CONS EntityEntityModeToTuplizerMapping(QPersistentClass;QEntityMetamodel;) | entity entity mode to tuplizer mapping
+CONS EntityEntry(QSessionFactoryImplementor;QString;QSerializable;QEntityMode;QStatus;[QObject;[QObject;QObject;QLockMode;ZZZ) | entity entry
+CONS EntityEntry(QStatus;[QObject;QObject;QSerializable;QObject;QLockMode;ZQEntityPersister;QEntityMode;ZZ) | entity entry
+CONS EntityFetchReturn(QString;QEntityAliases;QNonScalarReturn;QString;QLockMode;) | entity fetch return
+CONS EntityHandler(IQRateHandler;) | entity handler
+CONS EntityIdentityInsertAction([QObject;QObject;QEntityPersister;QSessionImplementor;Z) | entity identity insert action
+CONS EntityInsertAction(QSerializable;[QObject;QObject;QObject;QEntityPersister;QSessionImplementor;) | entity insert action
+CONS EntityJoinWalker(QOuterJoinLoadable;[QString;IQLockMode;QSessionFactoryImplementor;QMap;) | entity join walker
+CONS EntityKey(QSerializable;QEntityPersister;QEntityMode;) | entity key
+CONS EntityKey(QSerializable;QString;QString;QType;ZQSessionFactoryImplementor;QEntityMode;) | entity key
+CONS EntityLoadContext(QLoadContexts;QResultSet;) | entity load context
+CONS EntityLoader(QOuterJoinLoadable;IQLockMode;QSessionFactoryImplementor;QMap;) | entity loader
+CONS EntityLoader(QOuterJoinLoadable;QLockMode;QSessionFactoryImplementor;QMap;) | entity loader
+CONS EntityLoader(QOuterJoinLoadable;[QString;QType;IQLockMode;QSessionFactoryImplementor;QMap;) | entity loader
+CONS EntityLoadingException() | entity loading exception
+CONS EntityLoadingException(QString;) | entity loading exception
+CONS EntityMetamodel(QPersistentClass;QSessionFactoryImplementor;) | entity metamodel
+CONS EntityMode(QString;) | entity mode
+CONS EntityModeToTuplizerMapping() | entity mode to tuplizer mapping
+CONS EntityModeToTuplizerMapping(QMap;) | entity mode to tuplizer mapping
+CONS EntityRegionAdapter(QCache;QSettings;QCacheDataDescription;) | entity region adapter
+CONS EntityStatistics(QString;) | entity statistics
+CONS EntityType(QString;QString;ZZZ) | entity type
+CONS EntityUniqueKey(QString;QString;QObject;QType;QEntityMode;QSessionFactoryImplementor;) | entity unique key
+CONS EntityUpdateAction(QSerializable;[QObject;[IZ[QObject;QObject;QObject;QObject;QObject;QEntityPersister;QSessionImplementor;) | entity update action
+CONS EntityVerifier(QFile;) | entity verifier
+CONS EntryAddChange(QBibtexEntry;) | entry add change
+CONS EntryChange(QBibtexEntry;QBibtexEntry;QBibtexEntry;) | entry change
+CONS EntryComparator(ZZQString;) | entry comparator
+CONS EntryComparator(ZZQString;QComparator<QBibtexEntry;>;) | entry comparator
+CONS EntryCustomizationDialog2(QJabRefFrame;) | entry customization dialog 2
+CONS EntryCustomizationDialog(QJabRefFrame;) | entry customization dialog
+CONS EntryCustomizationDialog(QJabRefFrame;QBibtexEntryType;) | entry customization dialog
+CONS EntryDeleteChange(QBibtexEntry;QBibtexEntry;) | entry delete change
+CONS EntryEditorPrefsTab(QJabRefFrame;QJabRefPreferences;) | entry editor prefs tab
+CONS EntryEditor(QJabRefFrame;QBasePanel;QBibtexEntry;) | entry editor
+CONS EntryEditorTabList() | entry editor tab list
+CONS EntryEditorTab(QJabRefFrame;QBasePanel;QList<QString;>;QEntryEditor;ZQString;) | entry editor tab
+CONS EntrySorter(QMap<QString;QBibtexEntry;>;QComparator<QBibtexEntry;>;) | entry sorter
+CONS EntryTableTransferHandler(QMainTable;QJabRefFrame;QBasePanel;) | entry table transfer handler
+CONS EntryTypeDialog(QJabRefFrame;) | entry type dialog
+CONS EntryTypeList(QList<QString;>;) | entry type list
+CONS EnumerationIterator(QEnumeration;) | enumeration iterator
+CONS EnumerationOptionComboBoxModel(QEnumerationOption;) | enumeration option combo box model
+CONS Environment() | environment
+CONS Environment(QScriptableObject;) | environment
+CONS ExceptionTableEntry(IIIS) | exception table entry
+CONS ExpandEndnoteFilters(QJabRefFrame;) | expand endnote filters
+CONS ExtendsQueueEntry(QString;QString;QDocument;) | extends queue entry
+CONS ExternalFileTypeEntryEditor(QJDialog;QExternalFileType;) | external file type entry editor
+CONS ExternalFileTypeEntryEditor(QJFrame;QExternalFileType;) | external file type entry editor
+CONS FileEntry() | file entry
+CONS FileListEntryEditor(QJabRefFrame;QFileListEntry;ZZQMetaData;) | file list entry editor
+CONS FileListEntry(QString;QString;QExternalFileType;) | file list entry
+CONS FlushEntityEvent(QEventSource;QObject;QEntityEntry;) | flush entity event
+CONS GameEndEvent(QObject;) | game end event
+CONS GameEntityChangeEvent(QObject;QEntity;) | game entity change event
+CONS GameEntityChangeEvent(QObject;QEntity;QVector;) | game entity change event
+CONS GameEntityEvent(QObject;QEntity;I) | game entity event
+CONS GameEntityNewEvent(QObject;QEntity;) | game entity new event
+CONS GameEntityNewEvent(QObject;QVector;) | game entity new event
+CONS GameEntityNewOffboardEvent(QObject;) | game entity new offboard event
+CONS GameEntityRemoveEvent(QObject;QEntity;) | game entity remove event
+CONS GenericMessageEndpointImpl(QConnectionEndpoint;) | generic message endpoint impl
+CONS GenericMessageEndpointImpl(QInetSocketAddress;) | generic message endpoint impl
+CONS GifEncoder() | gif encoder
+CONS GifEncoder([QColor;) | gif encoder
+CONS GifEncoder([QColor;II[B) | gif encoder
+CONS GifEncoder(QImage;) | gif encoder
+CONS GifPixelsEncoder(II[BZI) | gif pixels encoder
+CONS GlazedEntrySorter(QMap<QString;QBibtexEntry;>;) | glazed entry sorter
+CONS HierarchicalBCEngine() | hierarchical bc engine
+CONS HierarchicalBCEngine(QFastVector;QFastVector;II) | hierarchical bc engine
+CONS HierarchicalBCEngine(QFastVector;QFastVector;IIZ) | hierarchical bc engine
+CONS HMVEngineType(QString;I) | hmv engine type
+CONS HomeEnvironment() | home environment
+CONS HomeEnvironment(IQHomeTexture;IIF) | home environment
+CONS IESEngine(QBasicAgreement;QDerivationFunction;QMac;) | ies engine
+CONS IESEngine(QBasicAgreement;QDerivationFunction;QMac;QBufferedBlockCipher;) | ies engine
+CONS ISO9796d1Encoding(QAsymmetricBlockCipher;) | iso 9796 d 1 encoding
+CONS JClientEngine() | j client engine
+CONS JoinedSubclassEntityPersister(QPersistentClass;QEntityRegionAccessStrategy;QSessionFactoryImplementor;QMapping;) | joined subclass entity persister
+CONS JPluginEngine() | j plugin engine
+CONS JSONEngine(QMetaSearchImpl;JJQString;QJSONObject;) | json engine
+CONS JSONEngine(QMetaSearchImpl;JJQString;QString;QString;ZQString;QString;[QFieldMapping;ZQString;QString;[QString;) | json engine
+CONS JSONEngine(QMetaSearchImpl;QMap;) | json engine
+CONS LayoutEntry(QStringInt;QString;) | layout entry
+CONS LayoutEntry(QVector<QStringInt;>;QString;I) | layout entry
+CONS LineEnumRule(QDefinitionsPane;) | line enum rule
+CONS LoadingCollectionEntry(QResultSet;QCollectionPersister;QSerializable;QPersistentCollection;) | loading collection entry
+CONS LocaleUtilEncodingException([QString;[QString;) | locale util encoding exception
+CONS LocaleUtilEncodingException(QThrowable;) | locale util encoding exception
+CONS LocaleUtilEncodingException(Z) | locale util encoding exception
+CONS LTMessageEncoder(QObject;) | lt message encoder
+CONS MessageStreamEncoderAdapter(QMessageStreamEncoder;) | message stream encoder adapter
+CONS MODSEntry() | mods entry
+CONS MODSEntry(QBibtexEntry;) | mods entry
+CONS MSBibEntry() | ms bib entry
+CONS MSBibEntry(QBibtexEntry;) | ms bib entry
+CONS MSBibEntry(QElement;QString;) | ms bib entry
+CONS NetServerEnum2(QString;I) | net server enum 2
+CONS NetServerEnum2Response() | net server enum 2 response
+CONS NetShareEnum() | net share enum
+CONS NetShareEnumResponse() | net share enum response
+CONS NoCachingEnabledException() | no caching enabled exception
+CONS NumberEntry(QString;D) | number entry
+CONS OAEPEncoding(QAsymmetricBlockCipher;) | oaep encoding
+CONS OAEPEncoding(QAsymmetricBlockCipher;QDigest;) | oaep encoding
+CONS OAEPEncoding(QAsymmetricBlockCipher;QDigest;[B) | oaep encoding
+CONS PdfEncoding(QString;QString;) | pdf encoding
+CONS PieceMapEntryImpl(QDiskManagerFileInfoImpl;JI) | piece map entry impl
+CONS PKCS1Encoding(QAsymmetricBlockCipher;) | pkcs 1 encoding
+CONS PluginEngine(QMetaSearchImpl;JQSearchProvider;) | plugin engine
+CONS PluginEngine(QMetaSearchImpl;QMap;) | plugin engine
+CONS PluginEntry() | plugin entry
+CONS PojoEntityTuplizer(QEntityMetamodel;QPersistentClass;) | pojo entity tuplizer
+CONS ProtocolEndpointTCP(QConnectionEndpoint;QInetSocketAddress;) | protocol endpoint tcp
+CONS ProtocolEndpointTCP(QInetSocketAddress;) | protocol endpoint tcp
+CONS ProtocolEndpointUDP(QConnectionEndpoint;QInetSocketAddress;) | protocol endpoint udp
+CONS ProtocolEndpointUDP(QInetSocketAddress;) | protocol endpoint udp
+CONS QuestionCurrLineEmptyOrEnterPress(QIndentRule;QIndentRule;) | question curr line empty or enter press
+CONS RegexEngine(QMetaSearchImpl;JJQString;QJSONObject;) | regex engine
+CONS RegexEngine(QMetaSearchImpl;JJQString;QString;QString;QString;ZQString;[QFieldMapping;ZQString;QString;[QString;) | regex engine
+CONS RegexEngine(QMetaSearchImpl;QMap;) | regex engine
+CONS RemoteEngine(QString;) | remote engine
+CONS RootEntityResultTransformer() | root entity result transformer
+CONS RSSEngine(QMetaSearchImpl;JJQString;QJSONObject;) | rss engine
+CONS RSSEngine(QMetaSearchImpl;JJQString;QString;ZQString;QString;[QString;) | rss engine
+CONS RSSEngine(QMetaSearchImpl;QMap;) | rss engine
+CONS SideBarEntrySWT(QSideBar;QString;) | side bar entry swt
+CONS SimpleTextEntryWindow(QDisplay;) | simple text entry window
+CONS SingleTableEntityPersister(QPersistentClass;QEntityRegionAccessStrategy;QSessionFactoryImplementor;QMapping;) | single table entity persister
+CONS StateSetEnumerator() | state set enumerator
+CONS StateSetEnumerator(QStateSet;) | state set enumerator
+CONS StringEncrypter(QString;) | string encrypter
+CONS StringEncrypter(QString;QString;) | string encrypter
+CONS StructuredCacheEntry(QEntityPersister;) | structured cache entry
+CONS TestEntity(QTestEntityOption;QEngine;QArmor;QStructure;) | test entity
+CONS ToolBarEnablerSelectedContent(QIconBarEnabler;) | tool bar enabler selected content
+CONS TorrentEncodingException([QString;[QString;) | torrent encoding exception
+CONS TorrentEncodingException(QString;QThrowable;) | torrent encoding exception
+CONS TransferableBibtexEntry([QBibtexEntry;) | transferable bibtex entry
+CONS TransferableEntrySelection([QBibtexEntry;) | transferable entry selection
+CONS TransportEndpointTCP(QProtocolEndpoint;QSocketChannel;) | transport endpoint tcp
+CONS TransportEndpointUDP(QProtocolEndpoint;) | transport endpoint udp
+CONS UndoableInsertEntry(QBibtexDatabase;QBibtexEntry;QBasePanel;) | undoable insert entry
+CONS UndoableRemoveEntry(QBibtexDatabase;QBibtexEntry;QBasePanel;) | undoable remove entry
+CONS UnionSubclassEntityPersister(QPersistentClass;QEntityRegionAccessStrategy;QSessionFactoryImplementor;QMapping;) | union subclass entity persister
+CONS UnknownEntryType(QString;) | unknown entry type
+CONS UpdaterEntry() | updater entry
+CONS UpdaterEntry(QString;QString;) | updater entry
+CONS VuzeActivitiesEntry() | vu ze activities entry
+CONS VuzeActivitiesEntryBuddyLinkup() | vu ze activities entry buddy link up
+CONS VuzeActivitiesEntryBuddyLinkup(QVuzeBuddy;) | vu ze activities entry buddy link up
+CONS VuzeActivitiesEntryBuddyRequest() | vu ze activities entry buddy request
+CONS VuzeActivitiesEntryContentShare() | vu ze activities entry content share
+CONS VuzeActivitiesEntryContentShare(QSelectedContentV3;QString;) | vu ze activities entry content share
+CONS VuzeActivitiesEntry(JQString;QString;) | vu ze activities entry
+CONS VuzeActivitiesEntry(JQString;QString;QString;QString;QString;) | vu ze activities entry
+CONS WebEngine(QMetaSearchImpl;IJJQString;QJSONObject;) | web engine
+CONS WebEngine(QMetaSearchImpl;IJJQString;QString;QString;ZQString;[QFieldMapping;ZQString;QString;[QString;) | web engine
+CONS WebEngine(QMetaSearchImpl;QMap;) | web engine
+CONS WriteXMPEntryEditorAction(QBasePanel;QEntryEditor;) | write xmp entry editor action
+CONS X509CRLEntryObject(QTBSCertList.CRLEntry;) | x 509 crl entry object
+CONS XMLEntityResolver() | xml entity resolver

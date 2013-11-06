@@ -1,0 +1,145 @@
+ArrayList globalGetAllDownloadPeers() | global get all download peers
+boolean getAdjustsDownloadLimits() | get adjusts download limits
+boolean hasDownloadChange() | has download change
+boolean isDifferentDownloadLocation(QFile;) | is different download location
+boolean isDownloadComplete(Z) | is download complete
+boolean isDownloadConfidenceAbsolute() | is download confidence absolute
+boolean isDownloadConfidenceLow() | is download confidence low
+boolean isDownloadMode() | is download mode
+boolean isDownloadPossible() | is download possible
+boolean isDownloadUnlimitedMode() | is download unlimited mode
+boolean isInDefaultDownloadDir(QDownloadManager;) | is in default download dir
+boolean isOurDownloadManager(QDownloadManager;) | is our download manager
+byte[] getDownloadPeerId() | get download peer id
+DownloadEventNotifier getGlobalDownloadEventNotifier() | get global download event notifier
+Download getDownloadObject() | get download object
+Download getDownloadStatic(QDiskManager;) | get download static
+Download getDownloadStatic(QTOTorrent;) | get download static
+DownloadImpl getDownloadStatic(QDownloadManager;) | get download static
+DownloadImpl[] getDownloadStatic([QDownloadManager;) | get download static
+DownloadManager addDownloadManager(QDownloadManager;ZZ) | add download manager
+DownloadManager addDownloadManager(QString;[BQString;IZ) | add download manager
+DownloadManager addDownloadManager(QString;[BQString;IZZQDownloadManagerInitialisationAdapter;) | add download manager
+DownloadManager addDownloadManager(QString;[BQString;QString;IZZQDownloadManagerInitialisationAdapter;) | add download manager
+DownloadManager addDownloadManager(QString;QString;) | add download manager
+DownloadManager findDownloadManager(QString;) | find download manager
+DownloadManager getDownloadManager() | get download manager
+DownloadManager getDownloadManager(QHashWrapper;) | get download manager
+DownloadManager getDownloadManager(QTOTorrent;) | get download manager
+DownloadManager getDownloadManger() | get download manger
+DownloadManagerState getDownloadState() | get download state
+DownloadManagerState getDownloadState(QDownloadManager;) | get download state
+DownloadManagerState getDownloadState(QDownloadManagerImpl;QString;[BZ) | get download state
+DownloadManagerState getDownloadState(QDownloadManagerImpl;QTOTorrent;QTorrentUtils.ExtendedTorrent;) | get download state
+DownloadManagerState getDownloadState(QTOTorrent;) | get download state
+DownloadStats getDownloadStats([B) | get download stats
+DownloadThread getDownloadThread() | get download thread
+DownloadUrlInfo getDownloadInfo() | get download info
+DownloadUrlInfo getDownloadInfo(QObject;) | get download info
+File getAdMediaFromContentDownloadManager(QDownloadManager;) | get ad media from content download manager
+File normaliseDownloadLocation(QFile;) | normalise download location
+File normaliseDownloadLocation(QFile;QString;) | normalise download location
+InputStream getDownloadInputStream(QString;) | get download input stream
+int checkForMinDownloadValue(I) | check for min download value
+int getCurrentDownloadLimit() | get current download limit
+int getDownloadAverage() | get download average
+int getDownloadDetails(QDownload;QString;) | get download details
+int getDownloadEndBytesPerSec() | get download end bytes per sec
+int getDownloadIndex() | get download index
+int getDownloadLimit() | get download limit
+int getDownloadMaxLimit() | get download max limit
+int getDownloadMinLimit() | get download min limit
+int getDownloadRateLimitBytesPerSecond() | get download rate limit bytes per second
+int getDownloadStartBytesPerSec() | get download start bytes per sec
+int getDownloadState() | get download state
+int getGlobalDownloadRateBytesPerSec() | get global download rate bytes per sec
+int getGlobalDownloadRateLimitBytesPerSecond() | get global download rate limit bytes per second
+int getHightestDownloadResult() | get high test download result
+int getMaxDownloadRateBPS() | get max download rate bps
+int getMaximumDownloadKBPerSecond() | get maximum download kb per second
+int getSubscriptionDownloadCount() | get subscription download count
+int guessDownloadLimit() | guess download limit
+LimitedRateGroup getDownloadLimitedRateGroup() | get download limited rate group
+LinkedList pickBestDownloadSessions(I) | pick best download sessions
+List getDownloadManagers() | get download managers
+List getDownloadManagers(QList;) | get download managers
+List initDownloadManagerLists([QDownloadManager;) | init download manager lists
+long getDownloadAverage() | get download average
+long getDownloadBytesPerSecond() | get download bytes per second
+long getEstimatedDownloadRateOfPeer() | get estimated download rate of peer
+long getLastDownloadTime(J) | get last download time
+MenuItem addCloseDownloadBarsToMenu(QMenu;) | add close download bars to menu
+NetworkAdminSpeedTesterResult calculateDownloadRate() | calculate download rate
+SaturatedMode getDownloadBandwidthMode() | get download bandwidth mode
+SaturatedMode getDownloadLimitSettingMode() | get download limit setting mode
+SaveLocationChange calculateDefaultDownloadLocation() | calculate default download location
+SMUpdate checkActiveProgressiveDownloadLimit(QSMUpdate;) | check active progressive download limit
+SpeedManagerLimitEstimate[] getBadDownloadHistory() | get bad download history
+SpeedManagerLimitEstimate getDownloadEstCapacity() | get download est capacity
+SpeedManagerLimitEstimate getDownloadLimit() | get download limit
+SpeedManagerLimitEstimate getEstimatedDownloadCapacityBytesPerSec() | get estimated download capacity bytes per sec
+SpeedManagerLimitEstimate getEstimatedDownloadLimit(Z) | get estimated download limit
+SpeedManagerLimitEstimate getLastBadDownloadLimit() | get last bad download limit
+String formatDownloadStatusDefaultLocale(QDownloadManager;) | format download status default locale
+String formatDownloadStatus(QDownloadManager;) | format download status
+String getCVSDownloadURL() | get cvs download url
+String getDownloadButtonLink() | get download button link
+String getDownloadConfidence() | get download confidence
+String getDownloadDirectory() | get download directory
+String getDownloadHash() | get download hash
+String getDownloadLink() | get download link
+String getDownloadLinkCSS() | get download link css
+String getDownloadParameter() | get download parameter
+String getDownloadURL() | get download url
+String getSFDownloadURL() | get sf download url
+SubscriptionDownloadDetails[] getAllCachedDownloadDetails() | get all cached download details
+void addDownloadListener(QTiVoItemEventListener;) | add download listener
+void addDownloadManagerInitialisationAdapter(QDownloadManagerInitialisationAdapter;) | add download manager initialisation adapter
+void addDownloadManager(QDownloadManager;) | add download manager
+void addDownloadWillBeAddedListener(QDownloadWillBeAddedListener;) | add download will be added listener
+void addDownloadWillBeRemovedListener(QDownloadWillBeRemovedListener;) | add download will be removed listener
+void addDownloadWillBeRemovedListener(QGlobalManagerDownloadWillBeRemovedListener;) | add download will be removed listener
+void addParmasToDownloadManager(QDownloadManager;QMap;) | add parm as to download manager
+void BaseDownloadListener() | base download listener
+void buddyDownloadData(QDownload;) | buddy download data
+void checkDownloadForRegistration(QDownload;Z) | check download for registration
+void closeDownloadBars() | close download bars
+void createDownloadLimitMenu(QMenu;) | create download limit menu
+void drawDownloadIndicator(QGC;IIZ) | draw download indicator
+void fixUpDownloadManagerPositions() | fix up download manager positions
+void notifyDownloadListeners(QTiVoItemEvent;) | notify download listeners
+void _openFileDownloadPage(QString;) | open file download page
+void reDownloadBlock(I) | re download block
+void reDownloadBlocks(QString;) | re download blocks
+void refreshDownloadView([QDownloadManager;) | refresh download view
+void removeDownloadManagerInitialisationAdapter(QDownloadManagerInitialisationAdapter;) | remove download manager initialisation adapter
+void removeDownloadManager(QDownloadManager;) | remove download manager
+void removeDownloadManager(QDownloadManager;ZZ) | remove download manager
+void removeDownloadWillBeAddedListener(QDownloadWillBeAddedListener;) | remove download will be added listener
+void removeDownloadWillBeRemovedListener(QDownloadWillBeRemovedListener;) | remove download will be removed listener
+void removeDownloadWillBeRemovedListener(QGlobalManagerDownloadWillBeRemovedListener;) | remove download will be removed listener
+void setCurrentDownloadLimit(I) | set current download limit
+void setDownloadBandwidthMode(II) | set download bandwidth mode
+void setDownloadButtonLink(QString;) | set download button link
+void setDownloadDetails(QDownload;II) | set download details
+void setDownloadHash(QString;) | set download hash
+void setDownloadInfo(QDownloadUrlInfo;) | set download info
+void setDownloadLimit(I) | set download limit
+void setDownloadLimit(QSpeedManagerLimitEstimate;) | set download limit
+void setDownloadLimitSettingMode(I) | set download limit setting mode
+void setDownloadList(QDownloadList;) | set download list
+void setDownloadManager(QDownloadManager;) | set download manager
+void setDownloadManager(QDownloadManagerImpl;) | set download manager
+void setDownloadPath(QString;QString;) | set download path
+void setDownloadRateLimitBytesPerSecond(I) | set download rate limit bytes per second
+void setDownloadState(I) | set download state
+void setDownloadUnlimitedMode(Z) | set download unlimited mode
+void setDownloadURL(QString;) | set download url
+void setDownloadUrl(URL downloadUrl) | set download url
+void setEstimatedDownloadCapacityBytesPerSec(IF) | set estimated download capacity bytes per sec
+void setGlobalDownloadRateLimitBytesPerSecond(I) | set global download rate limit bytes per second
+void setHighestDownloadResult(I) | set highest download result
+void setMaximumDownloadKBPerSecond(I) | set maximum download kb per second
+void showDownloadBar(QDownload;Z) | show download bar
+void SpeedTestDownloadState() | speed test download state
+void SubscriptionDownloadDetails(QDownloadManager;[QSubscription;) | subscription download details

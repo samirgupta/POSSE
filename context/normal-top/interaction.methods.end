@@ -1,0 +1,31 @@
+boolean getAllowUserInteraction() | get allow user interaction
+boolean hasNextInteraction() | has next interaction
+boolean hasPrevInteraction() | has prev interaction
+MouseInteraction finishInteraction() | finish interaction
+MouseInteraction getActiveInteraction() | get active interaction
+String getCurrentInteraction() | get current interaction
+void beginChangeTaskEndInteraction(QMouseEvent;QTaskBoundaryChartItem;) | begin change task end interaction
+void beginChangeTaskProgressInteraction(QMouseEvent;QTaskProgressChartItem;) | begin change task progress interaction
+void beginChangeTaskStartInteraction(QMouseEvent;QTaskBoundaryChartItem;) | begin change task start interaction
+void beginDrawDependencyInteraction(QMouseEvent;QTaskRegularAreaChartItem;QGanttGraphicArea.MouseSupport;) | begin draw dependency interaction
+void beginMoveTaskInteraction(QMouseEvent;QTask;) | begin move task interaction
+void beginScrollViewInteraction(QMouseEvent;) | begin scroll view interaction
+void ChangeTaskBoundaryInteraction(QMouseEvent;QTaskBoundaryChartItem;) | change task boundary interaction
+void ChangeTaskEndInteraction(QMouseEvent;QTaskBoundaryChartItem;) | change task end interaction
+void ChangeTaskProgressInteraction(QMouseEvent;QTaskProgressChartItem;) | change task progress interaction
+void ChangeTaskStartInteraction(QMouseEvent;QTaskBoundaryChartItem;) | change task start interaction
+void clearCurrentInteraction() | clear current interaction
+void DrawDependencyInteraction(QMouseEvent;QTaskRegularAreaChartItem;QMouseSupport;) | draw dependency interaction
+void executeInteraction() | execute interaction
+void interpretCurrentInteraction() | interpret current interaction
+void MoveTaskInteraction(QMouseEvent;QTask;) | move task interaction
+void nextInteraction() | next interaction
+void prevInteraction() | prev interaction
+void ScrollViewInteraction(QMouseEvent;) | scroll view interaction
+void setActiveInteraction(QMouseInteraction;) | set active interaction
+void setAllowUserInteraction(Z) | set allow user interaction
+void _showCurrentInteraction() | show current interaction
+void _shutdownWithoutSuspendedInteraction() | shutdown without suspended interaction
+void testCaretStaysAtEndDuringInteraction() | test caret stays at end during interaction
+void testClearCurrentInteraction() | test clear current interaction
+void testInterpretCurrentInteraction() | test interpret current interaction

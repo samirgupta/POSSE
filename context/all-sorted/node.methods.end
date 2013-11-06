@@ -1,0 +1,452 @@
+../3-Phrases/3PS:boolean isPointLightNode() | is point light node
+../3-Phrases/3PS:boolean isTextureNode() | is texture node
+../3-Phrases/Base_Verb:String closeNode(String nodeVar) | close node
+../3-Phrases/Base_Verb:void processNode(Node node) | process node
+../3-Phrases/Base_Verb:Field visitMultiNode(Node node, Object obj) | visit multi node
+../3-Phrases/Base_Verb:void setSelectedNode(Node n) | set selected node
+../3-Phrases/Base_Verb:Attr removeAttributeNode(Attr oldAttr) | remove attribute node
+../3-Phrases/Base_Verb:Instruction visitColon2Node(Colon2Node iVisited) | visit colon 2 node
+../3-Phrases/Base_Verb:Instruction visitTrueNode(TrueNode iVisited) | visit true node
+../3-Phrases/Base_Verb:void visitFeatureNode(FeatureNode node) | visit feature node
+../3-Phrases/Base_Verb:Object arriveParenNode(ParenNode node, Object msg) | arrive paren node
+../3-Phrases/Base_Verb:Node getNode() | get node
+../3-Phrases/Base_Verb:CachedUrlSetNode getNextNode() | get next node
+../3-Phrases/Base_Verb:void setCurrentUNode(Unmarshallable currentUNode) | set current u node
+../3-Phrases/Base_Verb:void setCurrentNode(ConstNode node) | set current node
+../3-Phrases/Base_Verb:SimpleNode getSimpleNode() | get simple node
+../3-Phrases/Base_Verb:TreeNodeImpl findPluginNode(String id) | find plugin node
+../3-Phrases/Base_Verb:Instruction visitDSymbolNode(DSymbolNode iVisited) | visit d symbol node
+../3-Phrases/Base_Verb:Object arriveEqualNode(EqualNode node, Object msg) | arrive equal node
+../3-Phrases/Base_Verb:Object visitUnaryNode(UnaryNode node, Object results) | visit unary node
+../3-Phrases/Base_Verb:Object arriveLikeNode(LikeNode node, Object msg) | arrive like node
+../3-Phrases/Base_Verb:OverlayNode getFirstSelectedNode() | get first selected node
+../3-Phrases/Base_Verb:void createPlanetNameNode(Planet planet) | create planet name node
+../3-Phrases/Base_Verb:void writeNode(double x, double y, double z, String label) | write node
+../3-Phrases/Base_Verb:void insertNode(BrowserTreeNode nodeToInsert, SortingParentNode parentNode) | insert node
+../3-Phrases/Base_Verb:TextNode createVRML97TextNode(Text3D j3dNode) | create vrml 97 text node
+../3-Phrases/Base_Verb:void parseNode(Node node) | parse node
+../3-Phrases/Base_Verb:Node findExistingNode(Element original, Element update) | find existing node
+../3-Phrases/drjava2:String parseStringNode(QSExp;) | parse string node
+../3-Phrases/drjava2:DefaultMutableTreeNode getNode(QOpenDefinitionsDocument;) | get node
+../3-Phrases/drjava2:DefaultMutableTreeNode getNode(QR;) | get node
+../3-Phrases/drjava2:void insertNewRegionNode(QR;QDefaultMutableTreeNode;I) | insert new region node
+../3-Phrases/drjava2:void PanelTreeNode(QString;) | panel tree node
+../3-Phrases/drjava2:void PanelTreeNode(QConfigPanel;) | panel tree node
+../3-Phrases/drjava2:void testSetFromNode() | test set from node
+../3-Phrases/drjava2:Node createNode(QString;) | create node
+../3-Phrases/drjava2:Node createNode(QString;QNode;) | create node
+../3-Phrases/drjava2:Node createNode(QString;QNode;Z) | create node
+../3-Phrases/drjava2:ItemT removeNode(QLeafNode<QItemT;>;) | remove node
+../3-Phrases/drjava2:void cleanFolderNode(QDefaultMutableTreeNode;) | clean folder node
+../3-Phrases/drjava2:CONS StringNode(QString;) | string node
+../3-Phrases/drjava2:CONS RootNode(QFile;) | root node
+../3-Phrases/drjava2:CONS RootNode(QString;) | root node
+../3-Phrases/drjava2:CONS InnerNode(QT;) | inner node
+../3-Phrases/drjava2:CONS LeafNode(QItemT;) | leaf node
+../3-Phrases/drjava2:CONS FileNode(QFile;) | file node
+../3-Phrases/drjava2:CONS GroupNode(QString;QINavigatorItemFilter<-QItemT;>;) | group node
+../3-Phrases/freecol2:CONS PathNode(QTile;IIQDirection;II) | path node
+../3-Phrases/freecol2:PathNode getTransportDropNode() | get transport drop node
+../3-Phrases/freecol2:PathNode getLastNode() | get last node
+../3-Phrases/freemind:CONS EncryptNode() | encrypt node
+../3-Phrases/freemind:MindMapNode createNode(QObject;) | create node
+../3-Phrases/freemind:void doPasswordCheckAndDecryptNode(QEncryptedMindMapNode;) | do password check and decrypt node
+../3-Phrases/freemind:CONS NewParentNode() | new parent node
+../3-Phrases/freemind:java.lang.String getNode() | get node
+../3-Phrases/freemind:void setNode(Qjava.lang.String;) | set node
+../3-Phrases/freemind:java.lang.String getNode() | get node
+../3-Phrases/freemind:void setNode(Qjava.lang.String;) | set node
+../3-Phrases/freemind:java.lang.String getNode() | get node
+../3-Phrases/freemind:void setNode(Qjava.lang.String;) | set node
+../3-Phrases/freemind:java.lang.String getNode() | get node
+../3-Phrases/freemind:void setNode(Qjava.lang.String;) | set node
+../3-Phrases/freemind:PermanentNodeHook getHookInNode(QMindMapNode;QString;) | get hook in node
+../3-Phrases/freemind:MindMapNode getCenterNode(QModeController;QMindMapNode;QList;) | get center node
+../3-Phrases/freemind:MindMapNode getCenterNode(QModeController;QMindMapNode;QList;) | get center node
+../3-Phrases/freemind:MindMapNode getCenterNode(QModeController;QMindMapNode;QList;) | get center node
+../3-Phrases/freemind:MindMapNode getCenterNode(QModeController;QMindMapNode;QList;) | get center node
+../3-Phrases/freemind:MindMapNode getCenterNode(QModeController;QMindMapNode;QList;) | get center node
+../3-Phrases/freemind:void setNode(QMindMapNode;) | set node
+../3-Phrases/freemind:MindMapNode getNode() | get node
+../3-Phrases/freemind:void setNode(QMindMapNode;) | set node
+../3-Phrases/freemind:MindMapNode newNode(QObject;) | new node
+../3-Phrases/freemind:MindMapNode newNode() | new node
+../3-Phrases/freemind:MindMapNode addNewNode(QMindMapNode;IQfreemind.main.Tools.BooleanHolder;) | add new node
+../3-Phrases/freemind:void deleteNode(QMindMapNode;) | delete node
+../3-Phrases/freemind:void displayNode(QMindMapNode;) | display node
+../3-Phrases/freemind:void centerNode(QMindMapNode;) | center node
+../3-Phrases/freemind:MindMapNode getRootNode() | get root node
+../3-Phrases/freemind:void splitNode(QMindMapNode;IQString;) | split node
+../3-Phrases/freemind:void cutNode(QMindMapNode;) | cut node
+../3-Phrases/freemind:Vector getCuttedNode(QString;) | get cutted node
+../3-Phrases/freemind:MindMapNode getParentNode() | get parent node
+../3-Phrases/freemind:void cutNode(QMindMapNode;) | cut node
+../3-Phrases/freemind:Vector getCuttedNode(QString;) | get cutted node
+../3-Phrases/freemind:boolean getAppliesToNode() | get applies to node
+../3-Phrases/freemind:MindMapNode newNode(QObject;) | new node
+../3-Phrases/freemind:MindMapNode getParentNode() | get parent node
+../3-Phrases/freemind:MindMapNode addNode(QMindMapNode;QString;) | add node
+../3-Phrases/freemind:MindMapNode addNewNode(QMindMapNode;IQfreemind.main.Tools.BooleanHolder;) | add new node
+../3-Phrases/freemind:void deleteNode(QMindMapNode;) | delete node
+../3-Phrases/freemind:MoveNodeXmlAction moveNode(QMindMapNode;III) | move node
+../3-Phrases/freemind:void displayNode(QMindMapNode;QArrayList;) | display node
+../3-Phrases/freemind:void centerNode(QMindMapNode;) | center node
+../3-Phrases/freemind:MindMapNode addNode(QMindMapNode;QString;QString;) | add node
+../3-Phrases/freemind:MindMapNode getNode() | get node
+../3-Phrases/freemind:MindMapNode addNewNode(QMindMapNode;IQfreemind.main.Tools.BooleanHolder;) | add new node
+../3-Phrases/freemind:void deleteNode(QMindMapNode;) | delete node
+../3-Phrases/freemind:void displayNode(QMindMapNode;) | display node
+../3-Phrases/freemind:void centerNode(QMindMapNode;) | center node
+../3-Phrases/freemind:void splitNode(QMindMapNode;IQString;) | split node
+../3-Phrases/freemind:MindMapNode getRootNode() | get root node
+../3-Phrases/freemind:MindMapNode newNode(QObject;) | new node
+../3-Phrases/freemind:MindMapNode newNode(QObject;) | new node
+../3-Phrases/freemind:void changeNode(QMindMapNode;QString;) | change node
+../3-Phrases/freemind:MindMapNode createNode(QObject;) | create node
+../3-Phrases/freemind:MindMapNode createNode(QObject;) | create node
+../3-Phrases/freemind:MindMapNode newNode(QObject;) | new node
+../3-Phrases/freemind:CONS EncryptedMindMapNode(QObject;QFreeMindMain;) | encrypted mind map node
+../3-Phrases/freemind:MindMapNode newNode(QObject;) | new node
+../3-Phrases/freemind:void centerNode(QNodeView;) | center node
+../3-Phrases/freemind:void placeNode(QNodeView;II) | place node
+../3-Phrases/freemind:NodeView getNode() | get node
+../3-Phrases/freemind:MindMapNode getMindMapNode(I) | get mind map node
+../3-Phrases/gantt:void initRootNode() | init root node
+../3-Phrases/gantt:DefaultMutableTreeNode getSelectedNode() | get selected node
+../3-Phrases/gantt:DefaultMutableTreeNode getSelectedTaskNode() | get selected task node
+../3-Phrases/gantt:DefaultMutableTreeNode getNode(I) | get node
+../3-Phrases/gantt:DefaultMutableTreeNode getLastNode() | get last node
+../3-Phrases/gantt:void removeCurrentNode(QDefaultMutableTreeNode;) | remove current node
+../3-Phrases/gantt:DefaultMutableTreeNode getFatherNode(QTask;) | get father node
+../3-Phrases/gantt:DefaultMutableTreeNode getFatherNode(QDefaultMutableTreeNode;) | get father node
+../3-Phrases/gantt:DefaultMutableTreeNode getNode() | get node
+../3-Phrases/gantt:void cutSelectedNode() | cut selected node
+../3-Phrases/gantt:void copySelectedNode() | copy selected node
+../3-Phrases/gantt:void pasteNode() | paste node
+../3-Phrases/gantt:TaskNode insertClonedNode(QDefaultMutableTreeNode;QDefaultMutableTreeNode;IZ) | insert cloned node
+../3-Phrases/gantt:CONS AssignmentNode(QResourceAssignment;) | assignment node
+../3-Phrases/gantt:CONS ResourceNode(QProjectResource;) | resource node
+../3-Phrases/gantt:CONS BlankLineNode() | blank line node
+../3-Phrases/gantt:CONS TaskNode(QTask;) | task node
+../3-Phrases/hibernate-3.3.1.GA:AST negateNode(QAST;) | negate node
+../3-Phrases/hibernate-3.3.1.GA:void initializeSqlNode(QAST;) | initialize sql node
+../3-Phrases/hibernate-3.3.1.GA:AST generateVersionPropertyNode(QQueryable;) | generate version property node
+../3-Phrases/hibernate-3.3.1.GA:SelectExpression getFirstThenNode() | get first then node
+../3-Phrases/hibernate-3.3.1.GA:boolean isDotNode(QAST;) | is dot node
+../3-Phrases/hibernate-3.3.1.GA:CONS AggregateNode() | aggregate node
+../3-Phrases/hibernate-3.3.1.GA:void initializeMethodNode(QAST;Z) | initialize method node
+../3-Phrases/hibernate-3.3.1.GA:SelectExpression getFirstThenNode() | get first then node
+../3-Phrases/hibernate-3.3.1.GA:AST nextNode() | next node
+../3-Phrases/hibernate-3.3.1.GA:AST nextNode() | next node
+../3-Phrases/hibernate-3.3.1.GA:void showNode(QPrintWriter;QAST;) | show node
+../3-Phrases/hibernate-3.3.1.GA:Node selectSingleNode(QString;) | select single node
+../3-Phrases/hibernate-3.3.1.GA:Node selectSingleNode(QString;) | select single node
+../3-Phrases/hibernate-3.3.1.GA:String getNode() | get node
+../3-Phrases/hibernate-3.3.1.GA:void replaceNode(QNode;QElement;) | replace node
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hsqldb:Node newNode(QRow;IQTable;) | new node
+../3-Phrases/hsqldb:Node newNode(QRow;QRowInputInterface;IQTable;) | new node
+../3-Phrases/hsqldb:Node getUpdatedNode() | get updated node
+../3-Phrases/hsqldb:void setPrimaryNode(QNode;) | set primary node
+../3-Phrases/hsqldb:CONS MemoryNode(QRow;) | memory node
+../3-Phrases/hsqldb:Node getNode(I) | get node
+../3-Phrases/hsqldb:Node getNextNode(QNode;) | get next node
+../3-Phrases/hsqldb:CONS DiskNode(QCachedRow;QRowInputInterface;I) | disk node
+../3-Phrases/hsqldb:CONS DiskNode(QCachedRow;I) | disk node
+../3-Phrases/hsqldb:Node findNode(I) | find node
+../3-Phrases/hsqldb:Node getUpdatedNode() | get updated node
+../3-Phrases/hsqldb:CONS PointerNode(QCachedRow;I) | pointer node
+../3-Phrases/hsqldb:int linkNode(II) | link node
+../3-Phrases/hsqldb:void unlinkNode(III) | unlink node
+../3-Phrases/hsqldb:boolean removeEmptyNode(I) | remove empty node
+../3-Phrases/hsqldb:DefaultMutableTreeNode makeNode(QObject;QMutableTreeNode;) | make node
+../3-Phrases/iReport:Node findNextNode(QNode;) | find next node
+../3-Phrases/iReport:void writeChartNode(QChartReportElement2;QPrintWriter;) | write chart node
+../3-Phrases/iReport:void writeChartTitleNode(QChartReportElement2;QPrintWriter;) | write chart title node
+../3-Phrases/iReport:void writeChartSubTitleNode(QChartReportElement2;QPrintWriter;) | write chart sub title node
+../3-Phrases/iReport:it.businesslogic.ireport.util.TreeNode findElementInTreeNode(Qit.businesslogic.ireport.util.TreeNode;QReportElement;) | find element in tree node
+../3-Phrases/iReport:CONS FieldNode(QString;) | field node
+../3-Phrases/iReport:FieldNode createNode(QNode;QFieldNode;) | create node
+../3-Phrases/iReport:DocumentStructureTreeNode findElementTreeNode(QReportElement;Z) | find element tree node
+../3-Phrases/iReport:DocumentStructureTreeNode findElementInTreeNode(QDocumentStructureTreeNode;QReportElement;) | find element in tree node
+../3-Phrases/iReport:CONS DocumentStructureTreeNode() | document structure tree node
+../3-Phrases/iReport:CONS DocumentStructureTreeNode(QObject;) | document structure tree node
+../3-Phrases/iReport:CONS DocumentStructureTreeNode(QObject;Z) | document structure tree node
+../3-Phrases/iReport:void updateSubDatasetNode(QSubDataset;) | update sub dataset node
+../3-Phrases/iReport:void updateSubDatasetNode(QDefaultMutableTreeNode;) | update sub dataset node
+../3-Phrases/iReport:CONS TreeNode(QObject;) | tree node
+../3-Phrases/Jabref:GroupTreeNode getSelectedNode() | get selected node
+../3-Phrases/Jabref:void setEditedNode(QGroupTreeNode;) | set edited node
+../3-Phrases/Jabref:void setNode(QGroupTreeNode;) | set node
+../3-Phrases/Jabref:CONS GroupTreeNode(QAbstractGroup;) | group tree node
+../3-Phrases/Jabref:GroupTreeNode getNode([I) | get node
+../3-Phrases/Jabref:GroupTreeNode getNode() | get node
+../3-Phrases/Jabref:void setNode(QGroupTreeNode;) | set node
+../3-Phrases/Jabref:void setNode(QGroupTreeNode;) | set node
+../3-Phrases/Jabref:String describeNode(QAST;ZZZZ) | describe node
+../3-Phrases/Jabref:CONS RegExNode(IQString;ZZ) | reg ex node
+../3-Phrases/jajuk:CONS TransferableTreeNode(QObject;) | transferable tree node
+../3-Phrases/jajuk:CONS StyleNode(QStyle;) | style node
+../3-Phrases/jajuk:CONS AuthorNode(QAuthor;) | author node
+../3-Phrases/jajuk:CONS AlbumNode(QAlbum;) | album node
+../3-Phrases/jajuk:CONS TrackNode(QTrack;) | track node
+../3-Phrases/jajuk:CONS FileNode(QFile;) | file node
+../3-Phrases/jajuk:CONS DeviceNode(QDevice;) | device node
+../3-Phrases/jajuk:DeviceNode getDeviceNode(QDevice;) | get device node
+../3-Phrases/jajuk:CONS DirectoryNode(QDirectory;) | directory node
+../3-Phrases/jajuk:DirectoryNode getDirectoryNode(QDirectory;) | get directory node
+../3-Phrases/jajuk:CONS PlaylistFileNode(QPlaylistFile;) | playlist file node
+../3-Phrases/javaHMO:PluginNode getPluginNode(QPlugin;) | get plugin node
+../3-Phrases/javaHMO:CONS PluginNode(QPluginDescriptor;QPlugin;QIcon;) | plugin node
+../3-Phrases/JHotDraw-7.0.8:void addNode(QBezierPath.Node;) | add node
+../3-Phrases/JHotDraw-7.0.8:void addNode(IQBezierPath.Node;) | add node
+../3-Phrases/JHotDraw-7.0.8:void basicAddNode(QBezierPath.Node;) | basic add node
+../3-Phrases/JHotDraw-7.0.8:void basicAddNode(IQBezierPath.Node;) | basic add node
+../3-Phrases/JHotDraw-7.0.8:void setNode(IQBezierPath.Node;) | set node
+../3-Phrases/JHotDraw-7.0.8:void basicSetNode(IQBezierPath.Node;) | basic set node
+../3-Phrases/JHotDraw-7.0.8:BezierPath.Node getNode(I) | get node
+../3-Phrases/JHotDraw-7.0.8:int findNode(QPoint2D.Double;) | find node
+../3-Phrases/JHotDraw-7.0.8:void removeNode(I) | remove node
+../3-Phrases/JHotDraw-7.0.8:void basicRemoveNode(I) | basic remove node
+../3-Phrases/JHotDraw-7.0.8:BezierPath.Node getBezierNode() | get bezier node
+../3-Phrases/JHotDraw-7.0.8:BezierPath.Node getBezierNode() | get bezier node
+../3-Phrases/JHotDraw-7.0.8:void basicSetNode(IQBezierPath.Node;) | basic set node
+../3-Phrases/JHotDraw-7.0.8:void QuadNode(QRectangle2D.Double;) | quad node
+../3-Phrases/JHotDraw-7.0.8:int indexOfOutermostNode() | index of outermost node
+../3-Phrases/JRobin:Node getFirstChildNode(QNode;QString;) | get first child node
+../3-Phrases/JRobin:boolean hasChildNode(QNode;QString;) | has child node
+../3-Phrases/JRobin:Node getFirstChildNode(QNode;QString;) | get first child node
+../3-Phrases/JRobin:boolean hasChildNode(QNode;QString;) | has child node
+../3-Phrases/JRobin:boolean isEmptyNode(QNode;) | is empty node
+../3-Phrases/JRobin:CONS RrdNode(QRrdDb;) | rrd node
+../3-Phrases/JRobin:CONS RrdNode(QRrdDb;I) | rrd node
+../3-Phrases/JRobin:CONS RrdNode(QRrdDb;II) | rrd node
+../3-Phrases/JRobin:RrdNode getSelectedRrdNode() | get selected rrd node
+../3-Phrases/MegaMek-0.32.0:void parseEnvironmentNode(QParsedXML;) | parse environment node
+../3-Phrases/MegaMek-0.32.0:void parseNode(QParsedXML;) | parse node
+../3-Phrases/MegaMek-0.32.0:void parseCreatorNode(QParsedXML;) | parse creator node
+../3-Phrases/MegaMek-0.32.0:void parseBasicsNode(QParsedXML;) | parse basics node
+../3-Phrases/MegaMek-0.32.0:void parseMountedNode(QParsedXML;) | parse mounted node
+../3-Phrases/MegaMek-0.32.0:void parseCritNode(QParsedXML;) | parse crit node
+../3-Phrases/MegaMek-0.32.0:IOption parseOptionNode(QParsedXML;) | parse option node
+../3-Phrases/PlanetaMessenger:CONS JProfileMutableTreeNode(Qjava.lang.Object;) | j profile mutable tree node
+../3-Phrases/PlanetaMessenger:void addNode(QJProtocolTreeItem;) | add node
+../3-Phrases/PlanetaMessenger:void addNode(Qorg.planetamessenger.plugin.JPlugin;I) | add node
+../3-Phrases/prefuse:Node addNode() | add node
+../3-Phrases/prefuse:boolean removeNode(I) | remove node
+../3-Phrases/prefuse:boolean removeNode(QNode;) | remove node
+../3-Phrases/prefuse:Node getNode(I) | get node
+../3-Phrases/prefuse:int getSourceNode(I) | get source node
+../3-Phrases/prefuse:Node getSourceNode(QEdge;) | get source node
+../3-Phrases/prefuse:int getTargetNode(I) | get target node
+../3-Phrases/prefuse:Node getTargetNode(QEdge;) | get target node
+../3-Phrases/prefuse:int getAdjacentNode(II) | get adjacent node
+../3-Phrases/prefuse:Node getAdjacentNode(QEdge;QNode;) | get adjacent node
+../3-Phrases/prefuse:Node getSourceNode() | get source node
+../3-Phrases/prefuse:Node getTargetNode() | get target node
+../3-Phrases/prefuse:Node getAdjacentNode(QNode;) | get adjacent node
+../3-Phrases/prefuse:Node addNode() | add node
+../3-Phrases/prefuse:boolean removeNode(I) | remove node
+../3-Phrases/prefuse:boolean removeNode(QNode;) | remove node
+../3-Phrases/prefuse:Node nextNode(QNode;QXMLWriter;) | next node
+../3-Phrases/prefuse:Node getSourceNode() | get source node
+../3-Phrases/prefuse:Node getTargetNode() | get target node
+../3-Phrases/prefuse:Node getAdjacentNode(QNode;) | get adjacent node
+../3-Phrases/prefuse:void QuadTreeNode() | quad tree node
+../3-Phrases/prefuse:QuadTreeNode getQuadTreeNode() | get quad tree node
+../3-Phrases/prefuse:Node getSourceNode() | get source node
+../3-Phrases/prefuse:Node getTargetNode() | get target node
+../3-Phrases/prefuse:Node getAdjacentNode(QNode;) | get adjacent node
+../3-Phrases/prefuse:void testRemoveNode() | test remove node
+../3-Phrases/rhino:boolean isArithmeticNode(QNode;) | is arithmetic node
+../3-Phrases/rhino:CONS FunctionNode(QString;) | function node
+../3-Phrases/rhino:CONS OptFunctionNode(QFunctionNode;) | opt function node
+../3-Phrases/rhino:CONS RENode(B) | re node
+../3-Phrases/rhino:CONS ScriptOrFnNode(I) | script or fn node
+../3-Phrases/rhino:FunctionNode getFunctionNode(I) | get function node
+../3-Phrases/rhino:Node createLoopNode(QNode;I) | create loop node
+../3-Phrases/rhino:void NumberNode(D) | number node
+../3-Phrases/rhino:void StringNode(IQString;) | string node
+../3-Phrases/rhino:void VariableNode(QObject;QObject;) | variable node
+../3-Phrases/rhino-fieldSample:CONS ScriptOrFnNode(I) | script or fn node
+../3-Phrases/SweetHome3D:void writeNode(QNode;) | write node
+../3-Phrases/SweetHome3D:void writeNode(QNode;QString;) | write node
+../3-Phrases/SweetHome3D:void writeNode(QNode;QNode;QString;) | write node
+../3-Phrases/SweetHome3D:void exportNode(QNode;ZZ) | export node
+../3-Phrases/SweetHome3D:void exportNode(QNode;QNode;ZZ) | export node
+../3-Phrases/SweetHome3D:void createPieceOfFurnitureNode(QHomePieceOfFurniture;ZZ) | create piece of furniture node
+../3-Phrases/SweetHome3D:Node getFilledModelNode() | get filled model node
+../3-Phrases/SweetHome3D:Node getOutlineModelNode() | get outline model node
+../3-Phrases/SweetHome3D:void updatePieceOfFurnitureModelNode(QNode;Z) | update piece of furniture model node
+../3-Phrases/SweetHome3D:Node createOutlineModelNode(QNode;) | create outline model node
+../3-Phrases/SweetHome3D:Node getBackgroundNode() | get background node
+../3-Phrases/SweetHome3D:Node createBackgroundNode(Z) | create background node
+../3-Phrases/SweetHome3D:Node createGroundNode(FFFFZZ) | create ground node
+../3-Phrases/vuze:void sendFindNode(QDHTTransportReplyHandler;[B) | send find node
+../3-Phrases/vuze:DHTRouterNodeImpl findNode([B) | find node
+../3-Phrases/vuze:void refreshNode(QList;QDHTRouterNodeImpl;[B) | refresh node
+../3-Phrases/vuze:void addNode(QDHTRouterContactImpl;) | add node
+../3-Phrases/vuze:DHTRouterContactImpl updateExistingNode([BQDHTRouterContactAttachment;Z) | update existing node
+../3-Phrases/vuze:void sendFindNode(QDHTTransportReplyHandler;[B) | send find node
+../3-Phrases/vuze:void sendFindNode(QDHTTransportContact;QDHTTransportReplyHandler;[B) | send find node
+../3-Phrases/vuze:void sendFindNode(QDHTTransportReplyHandler;[B) | send find node
+../3-Phrases/vuze:void sendFindNode(QDHTTransportUDPContactImpl;QDHTTransportReplyHandler;[B) | send find node
+../3-Phrases/vuze:CONS DHTUDPPacketRequestFindNode(QDHTTransportUDPImpl;JQDHTTransportUDPContactImpl;QDHTTransportUDPContactImpl;) | dhtudp packet request find node
+../3-Phrases/vuze:CONS DHTUDPPacketRequestFindNode(QDHTUDPPacketNetworkHandler;QDataInputStream;JI) | dhtudp packet request find node
+../3-Phrases/vuze:CONS DHTUDPPacketReplyFindNode(QDHTTransportUDPImpl;IJQDHTTransportContact;QDHTTransportContact;) | dhtudp packet reply find node
+../3-Phrases/vuze:CONS DHTUDPPacketReplyFindNode(QDHTUDPPacketNetworkHandler;QInetSocketAddress;QDataInputStream;I) | dhtudp packet reply find node
+../3-Phrases/vuze:void sendFindNode(QDHTTransportReplyHandler;[B) | send find node
+../3-Phrases/vuze:boolean foundNode(QNetworkAdminNode;II) | found node
+../3-Phrases/vuze:boolean foundNode(QNetworkAdminNetworkInterfaceAddress;[QNetworkAdminNode;II) | found node
+../3-Phrases/vuze:boolean foundNode(QNetworkAdminNode;II) | found node
+../3-Phrases/vuze:boolean reportNode(IQInetAddress;I) | report node
+../3-Phrases/vuze:boolean reportNode(IQInetAddress;I) | report node
+../3-Phrases/vuze:boolean foundNode(QNetworkAdminNode;II) | found node
+../3-Phrases/vuze:boolean foundNode(QNetworkAdminNode;II) | found node
+../3-Phrases/vuze:boolean foundNode(QNetworkAdminNetworkInterfaceAddress;[QNetworkAdminNode;II) | found node
+../3-Phrases/vuze:void networkNode(QInetAddress;II) | network node
+../3-Phrases/vuze:boolean foundNode(QNetworkAdminNetworkInterfaceAddress;[QNetworkAdminNode;II) | found node
+../3-Phrases/vuze:boolean foundNode(QNetworkAdminNetworkInterfaceAddress;[QNetworkAdminNode;II) | found node
+../3-Phrases/vuze:CONS PKIXPolicyNode(QList;IQSet;QPolicyNode;QSet;QString;Z) | pkix policy node
+../3-Phrases/vuze:boolean reportNode(IQInetAddress;I) | report node
+../3-Phrases/vuze:SimpleXMLParserDocumentNode getNode() | get node
+../3-Phrases/vuze:SimpleXMLParserDocumentNode getNode() | get node
+../3-Phrases/vuze:void shareNode(QShareResourceDirContents;QFile;QList;) | share node
+../3-Phrases/vuze:SimpleXMLParserDocumentNode getNode() | get node
+../3-Phrases/vuze:SimpleXMLParserDocumentNode getNode() | get node
+../3-Phrases/vuze:Node getNode() | get node
+../3-Phrases/vuze:SimpleXMLParserDocumentNodeImpl[] parseNode(QNode;Z) | parse node
+../3-Phrases/weka:void HotNode(QInstances;D[D[B) | hot node
+../3-Phrases/weka:void ActionAddNode() | action add node
+../3-Phrases/weka:void addNode(II) | add node
+../3-Phrases/weka:void addNode() | add node
+../3-Phrases/weka:void ActionDeleteNode() | action delete node
+../3-Phrases/weka:void ActionCopyNode() | action copy node
+../3-Phrases/weka:void ActionCopyNode(QString;QString;QString;QString;) | action copy node
+../3-Phrases/weka:void ActionCutNode() | action cut node
+../3-Phrases/weka:void ActionPasteNode() | action paste node
+../3-Phrases/weka:void drawNode(QGraphics;II) | draw node
+../3-Phrases/weka:int getGraphNode(QMouseEvent;) | get graph node
+../3-Phrases/weka:void renameNode(I) | rename node
+../3-Phrases/weka:void deleteNode(I) | delete node
+../3-Phrases/weka:CONS ADNode() | ad node
+../3-Phrases/weka:VaryNode makeVaryNode(IQFastVector;QInstances;) | make vary node
+../3-Phrases/weka:int getNode(QString;) | get node
+../3-Phrases/weka:int getNode(QString;) | get node
+../3-Phrases/weka:void JunctionTreeNode(QSet;QBayesNet;[Z) | junction tree node
+../3-Phrases/weka:void moralizeNode(QParentSet;I[[Z) | moralize node
+../3-Phrases/weka:CONS VaryNode(I) | vary node
+../3-Phrases/weka:int getNode(QString;) | get node
+../3-Phrases/weka:void addNode(QString;I) | add node
+../3-Phrases/weka:void addNode(QString;III) | add node
+../3-Phrases/weka:void deleteNode(QString;) | delete node
+../3-Phrases/weka:void deleteNode(I) | delete node
+../3-Phrases/weka:void drawNode(QGraphics;II) | draw node
+../3-Phrases/weka:void addNode(QNeuralConnection;) | add node
+../3-Phrases/weka:boolean removeNode(QNeuralConnection;) | remove node
+../3-Phrases/weka:void drawNode(QGraphics;II) | draw node
+../3-Phrases/weka:CONS NeuralNode(QString;QRandom;QNeuralMethod;) | neural node
+../3-Phrases/weka:void generateClassifierForNode(QInstances;QRange;QRandom;QClassifier;QHashtable;) | generate classifier for node
+../3-Phrases/weka:void generateClassifierForNode(QInstances;QRange;QRandom;QClassifier;QHashtable;[D) | generate classifier for node
+../3-Phrases/weka:NDTree locateNode(I[I) | locate node
+../3-Phrases/weka:void insertClassIndexAtNode(I) | insert class index at node
+../3-Phrases/weka:void buildClassifierForNode(QNDTree;QInstances;) | build classifier for node
+../3-Phrases/weka:void NeighborNode(DQInstance;IQNeighborNode;) | neighbor node
+../3-Phrases/weka:void NeighborNode(DQInstance;I) | neighbor node
+../3-Phrases/weka:TreeClass getNode(QString;) | get node
+../3-Phrases/weka:void PredictionNode([D) | prediction node
+../3-Phrases/weka:CONS PredictionNode(D) | prediction node
+../3-Phrases/weka:TreeClass getNode(QString;) | get node
+../3-Phrases/weka:void PredictionNode([D) | prediction node
+../3-Phrases/weka:CONS FTNode(ZIIDZ) | ft node
+../3-Phrases/weka:CONS FTInnerNode(ZIIDZ) | ft inner node
+../3-Phrases/weka:CONS FTLeavesNode(ZIIDZ) | ft leaves node
+../3-Phrases/weka:CONS LMTNode(QModelSelection;IZZIDZ) | lmt node
+../3-Phrases/weka:CONS RuleNode(DDQRuleNode;) | rule node
+../3-Phrases/weka:RuleNode parentNode() | parent node
+../3-Phrases/weka:RuleNode leftNode() | left node
+../3-Phrases/weka:RuleNode rightNode() | right node
+../3-Phrases/weka:RuleNode getM5RootNode() | get m 5 root node
+../3-Phrases/weka:RuleNode getM5RootNode() | get m 5 root node
+../3-Phrases/weka:void CNode(I) | c node
+../3-Phrases/weka:void CNode(IQInstance;) | c node
+../3-Phrases/weka:void addChildNode(QCNode;) | add child node
+../3-Phrases/weka:void TrieNode(C) | trie node
+../3-Phrases/weka:void TrieNode(QCharacter;) | trie node
+../3-Phrases/weka:void QueueNode(QObject;) | queue node
+../3-Phrases/weka:void CoverTreeNode() | cover tree node
+../3-Phrases/weka:void CoverTreeNode(QInteger;DDQStack<QCoverTreeNode;>;II) | cover tree node
+../3-Phrases/weka:CoverTreeNode new_node(QInteger;) | new node
+../3-Phrases/weka:void d_node(DQCoverTreeNode;) | d node
+../3-Phrases/weka:void NeighborNode(DQInstance;QNeighborNode;) | neighbor node
+../3-Phrases/weka:void NeighborNode(DQInstance;) | neighbor node
+../3-Phrases/weka:void ListNode(ID) | list node
+../3-Phrases/weka:void splitNode(QBallNode;I) | split node
+../3-Phrases/weka:void splitNode(QBallNode;I) | split node
+../3-Phrases/weka:CONS BallNode(I) | ball node
+../3-Phrases/weka:CONS BallNode(III) | ball node
+../3-Phrases/weka:CONS BallNode(IIIQInstance;D) | ball node
+../3-Phrases/weka:void splitNode(QBallNode;I) | split node
+../3-Phrases/weka:void splitNode(QBallNode;I) | split node
+../3-Phrases/weka:void splitNode(QKDTreeNode;I[[D[[D) | split node
+../3-Phrases/weka:void splitNode(QKDTreeNode;I[[D[[D) | split node
+../3-Phrases/weka:void splitNode(QKDTreeNode;I[[D[[D) | split node
+../3-Phrases/weka:void splitNode(QKDTreeNode;I[[D[[D) | split node
+../3-Phrases/weka:CONS KDTreeNode() | kd tree node
+../3-Phrases/weka:CONS KDTreeNode(III[[D) | kd tree node
+../3-Phrases/weka:CONS KDTreeNode(III[[D[[D) | kd tree node
+../3-Phrases/weka:void splitNode(QKDTreeNode;I[[D[[D) | split node
+../3-Phrases/weka:void setRootNode(QString;) | set root node
+../3-Phrases/weka:String getRootNode() | get root node
+../3-Phrases/weka:Node getNode(QString;) | get node
+../3-Phrases/weka:CONS PropertyNode(QObject;) | property node
+../3-Phrases/weka:CONS PropertyNode(QObject;QPropertyDescriptor;QClass;) | property node
+../3-Phrases/weka:Element writePropertyNode(QElement;QObject;QString;) | write property node
+../3-Phrases/weka:Object readPropertyNode(QElement;) | read property node
+../3-Phrases/weka:void GOETreeNode() | goe tree node
+../3-Phrases/weka:void GOETreeNode(QObject;) | goe tree node
+../3-Phrases/weka:void GOETreeNode(QObject;Z) | goe tree node
+../3-Phrases/weka:String showNode(QTreeNode;[Z) | show node
+../3-Phrases/weka:CONS GenericObjectNode(QAddModelsPanel;QObject;QGenericObjectEditor;QString;) | generic object node
+../3-Phrases/weka:CONS DefaultNode(QString;QString;QObject;QPropertyEditor;) | default node
+../3-Phrases/weka:CONS PropertyNode(QJTree;QAddModelsPanel;QString;QString;QObject;QPropertyEditor;) | property node
+../3-Phrases/weka:CONS CheckBoxNode(QString;ZQString;) | check box node
+../3-Phrases/weka:CONS NumberNode(QString;QNumber;IZQString;) | number node
+../3-Phrases/weka:CONS GraphNode(QString;QString;) | graph node
+../3-Phrases/weka:CONS GraphNode(QString;QString;I) | graph node
+../3-Phrases/weka:void MyListNode(I) | my list node
+../3-Phrases/weka:void drawNode(IQGraphics;) | draw node
+../3-Phrases/weka:void HotNode(QInstances;D[D[B) | hot node
+../3-Phrases/weka:void CNode(I) | c node
+../3-Phrases/weka:void CNode(IQInstance;) | c node
+../3-Phrases/weka:void addChildNode(QCNode;) | add child node
+../3-Phrases/weka:void TrieNode(C) | trie node
+../3-Phrases/weka:void TrieNode(QCharacter;) | trie node
+../3-Phrases/weka:void QueueNode(QObject;) | queue node
+../3-Phrases/weka:CONS PropertyNode(QObject;) | property node
+../3-Phrases/weka:CONS PropertyNode(QObject;QPropertyDescriptor;QClass;) | property node
+../3-Phrases/weka:void GOETreeNode() | goe tree node
+../3-Phrases/weka:void GOETreeNode(QObject;) | goe tree node
+../3-Phrases/weka:void GOETreeNode(QObject;Z) | goe tree node
+../3-Phrases/weka:String showNode(QTreeNode;[Z) | show node

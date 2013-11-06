@@ -1,0 +1,28 @@
+boolean hasAlterTable() | has alter table
+boolean supportsAlterColumnType() | supports alter column type
+boolean supportsAlterTableWithAddColumn() | supports alter table with add column
+boolean supportsAlterTableWithDropColumn() | supports alter table with drop column
+boolean supportsUniqueConstraintInCreateAlterTable() | supports unique constraint in create alter table
+IScriptAlterTableAddPrimaryKey newScriptAlterTableAddPrimaryKey() | new script alter table add primary key
+Iterator sqlAlterStrings(QDialect;QMapping;QTableMetadata;QString;QString;) | sql alter strings
+String formatAlterTable(QString;) | format alter table
+String getAlterUserDDL() | get alter user ddl
+void processAlterColumn(QTable;) | process alter column
+void processAlterColumnRename(QTable;QColumn;) | process alter column rename
+void processAlterColumnType(QTable;QColumn;) | process alter column type
+void processAlterIndex() | process alter index
+void processAlterIndexRename() | process alter index rename
+void processAlterSchema() | process alter schema
+void processAlterSchemaRename() | process alter schema rename
+void processAlterSequence() | process alter sequence
+void processAlterTable() | process alter table
+void processAlterTableAddCheckConstraint(QTable;QHsqlName;) | process alter table add check constraint
+void processAlterTableAddColumn(QTable;) | process alter table add column
+void processAlterTableAddForeignKeyConstraint(QTable;QHsqlName;) | process alter table add foreign key constraint
+void processAlterTableAddPrimaryKey(QTable;QHsqlName;) | process alter table add primary key
+void processAlterTableAddUniqueConstraint(QTable;QHsqlName;) | process alter table add unique constraint
+void processAlterTableDropColumn(QTable;) | process alter table drop column
+void processAlterTableDropConstraint(QTable;) | process alter table drop constraint
+void processAlterTableDropConstraint(QTable;QString;) | process alter table drop constraint
+void processAlterTableRename(QTable;) | process alter table rename
+void processAlterUser() | process alter user

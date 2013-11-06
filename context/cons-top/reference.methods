@@ -1,0 +1,8 @@
+CONS NoticeReference(IQString;QASN1Sequence;) | notice reference
+CONS NoticeReference(QASN1Sequence;) | notice reference
+CONS NoticeReference(QString;QASN1Sequence;) | notice reference
+CONS NoticeReference(QString;QVector;) | notice reference
+CONS ReferenceCountedDirectByteBuffer(QByteBuffer;) | reference counted direct byte buffer
+CONS ReferenceCountedDirectByteBuffer(QDirectByteBuffer;) | reference counted direct byte buffer
+CONS ReferenceInstances(QInstances;I) | reference instances
+CONS ResultColumnReferenceStrategy(QString;) | result column reference strategy

@@ -1,0 +1,93 @@
+BatchFetchQueue getBatchFetchQueue() | get batch fetch queue
+boolean activateCitationFetcher() | activate citation fetcher
+boolean activateImportFetcher() | activate import fetcher
+boolean containsCollectionFetches() | contains collection fetches
+boolean[] getEntityEagerPropertyFetches() | get entity eager property fetches
+boolean isAllPropertyFetch() | is all property fetch
+boolean isAssociationFetch() | is association fetch
+boolean isDefaultFetchMode(QFetchMode;) | is default fetch mode
+boolean isFetch() | is fetch
+boolean isJoinedFetchEnabledInMapping(QFetchMode;QAssociationType;) | is joined fetch enabled in mapping
+boolean needsFetchingScroll() | needs fetching scroll
+Criteria setFetchMode(QString;QFetchMode;) | set fetch mode
+Criteria setFetchSize(I) | set fetch size
+DetachedCriteria setFetchMode(QString;QFetchMode;) | set fetch mode
+ExportData fetch() | fetch
+ExportData fetchExportData() | fetch export data
+ExportData fetchExportData(I) | fetch export data
+ExportData fetch(I) | fetch
+FetchData fetchData() | fetch data
+FetchData fetchData(QFetchRequest;) | fetch data
+FetchMode getFetchMode() | get fetch mode
+FetchMode getFetchMode(I) | get fetch mode
+FetchMode getFetchMode(QString;) | get fetch mode
+FetchPoint[] fetch() | fetch
+FetchPoint[] fetch(QFetchRequest;) | fetch
+FetchRequest createFetchRequest(QString;JJ) | create fetch request
+FetchRequest createFetchRequest(QString;JJJ) | create fetch request
+FetchSourceList getFetchSources() | get fetch sources
+Integer getFetchSize() | get fetch size
+Integer getJdbcFetchSize() | get jdbc fetch size
+Integer getMaximumFetchDepth() | get maximum fetch depth
+int getDefaultBatchFetchSize() | get default batch fetch size
+int getFetchDirection() | get fetch direction
+int getFetchSize() | get fetch size
+List getCollectionFetches() | get collection fetches
+List<QBibtexEntry;> fetchMedline(QString;) | fetch medline
+List<QEntryFetcherExtension;> getEntryFetcherExtensions() | get entry fetcher extensions
+long getCollectionFetchCount() | get collection fetch count
+long getEntityFetchCount() | get entity fetch count
+long getFetchCount() | get fetch count
+long getFetchEnd() | get fetch end
+long getFetchStart() | get fetch start
+long[] getFetchStep(JJJ) | get fetch step
+net.sf.jabref.imports.EntryFetcher getEntryFetcher() | get entry fetcher
+Pair fetchCanonicalIntersect(Filter other) | fetch canonical intersect
+ParserResult fetch(QString;) | fetch
+Query setFetchSize(I) | set fetch size
+ShowEmptyFetchSetDialog getEmptyFetchSetDialog() | get empty fetch set dialog
+String getFetchProfile() | get fetch profile
+String getJdbcFetchSize() | get jdbc fetch size
+String getMaximumFetchDepth() | get maximum fetch depth
+TModelInfo fetchTModelInfo(String tModelKey) | fetch t model info
+ValueExtractor fetch(JJJI) | fetch
+void addEntityToFetch(QString;) | add entity to fetch
+void addEntityToFetch(QString;QString;QAssociationType;) | add entity to fetch
+void afterFetch() | after fetch
+void beforeFetch() | before fetch
+void deactivateCitationFetcher() | deactivate citation fetcher
+void deactivateImportFetcher() | deactivate import fetcher
+void EntryFetcherExtension(QPlugin;QExtension;) | entry fetcher extension
+void FetchCiteSeerAction() | fetch cite seer action
+void fetchCollection(QString;) | fetch collection
+void fetchColumns() | fetch columns
+void fetchEntity(QString;) | fetch entity
+void FetcherAction() | fetcher action
+void fetchImagesFromPage(QJHTML;) | fetch images from page
+void fetchImportedKeys() | fetch imported keys
+void fetch(J) | fetch
+void fetchPrimaryKeys() | fetch primary keys
+void fetch(QQueryTranslatorImpl;QString;) | fetch
+void fetchResult(QString;) | fetch result
+void fetchResults(Keywords keywords) | fetch results
+void ImageFetcher(QJHTML;) | image fetcher
+void initOuterJoinFetchSetting(QElement;QFetchable;) | init outer join fetch setting
+void setAllPropertyFetch(Z) | set all property fetch
+void setCollectionToFetch(QString;QString;QString;QString;) | set collection to fetch
+void setDefaultBatchFetchSize(I) | set default batch fetch size
+void setFetchDirection(I) | set fetch direction
+void setFetchDirection(int direction) | set fetch direction
+void setFetchedStep(J) | set fetched step
+void setFetchMode(QFetchMode;) | set fetch mode
+void setFetchProfile(QString;) | set fetch profile
+void setFetchSize(I) | set fetch size
+void setFetchSize(QInteger;) | set fetch size
+void setFetch(Z) | set fetch
+void setJdbcFetchSize(QInteger;) | set jdbc fetch size
+void setJdbcFetchSize(QString;) | set jdbc fetch size
+void setMaximumFetchDepth(QInteger;) | set maximum fetch depth
+void setMaximumFetchDepth(QString;) | set maximum fetch depth
+void setStatementFetchSize(QPreparedStatement;) | set statement fetch size
+void signalStopFetching() | signal stop fetching
+void stopFetching() | stop fetching
+void testSetFetchDirectiion() | test set fetch direct ii on

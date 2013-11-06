@@ -1,0 +1,9 @@
+Button createAlertButton(QComposite;QString;) | create alert button
+void addAlertListener(QLogAlertListener;) | add alert listener
+void addAlertListener(QLoggerAlertListener;) | add alert listener
+void doAlertDialog(QString;QString;) | do alert dialog
+void logAlertRepeatable(IQString;) | log alert repeatable
+void logAlertRepeatable(QString;QThrowable;) | log alert repeatable
+void registerAlertHandler() | register alert handler
+void removeAlertListener(QLogAlertListener;) | remove alert listener
+void removeAlertListener(QLoggerAlertListener;) | remove alert listener

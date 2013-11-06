@@ -1,0 +1,51 @@
+boolean checkScrapeResult(QTRTrackerScraperResponse;) | check scrape result
+boolean getSupportsMultipeHashScrapes() | get supports multipe hash scrapes
+boolean isTrackerScrapeUrlValid() | is tracker scrape url valid
+boolean scrapeResultOk(QDownload;) | scrape result ok
+boolean scrapeUDP(QURL;QByteArrayOutputStream;QList;Z) | scrape udp
+DownloadScrapeResult getLastScrapeResult() | get last scrape result
+DownloadScrapeResult scrape([B) | scrape
+int calcScrapeIntervalSecs(II) | calc scrape interval secs
+int getNumActiveScrapes() | get num active scrapes
+int getScrapeCachePeriod() | get scrape cache period
+int getScrapeCompleteCount() | get scrape complete count
+int getScrapeIncompleteCount() | get scrape incomplete count
+int getSeedCountForScrape(Z) | get seed count for scrape
+long getAverageScrapeCount() | get average scrape count
+long getMinScrapeRetryInterval() | get min scrape retry interval
+long getNextScrapeCheckOn() | get next scrape check on
+long getNextScrapeStartTime() | get next scrape start time
+long getScrapeCount() | get scrape count
+long getScrapeRetryInterval(QTRTrackerServerTorrentImpl;) | get scrape retry interval
+long getScrapeStartTime() | get scrape start time
+long getScrapeTime() | get scrape time
+Map exportScrapeToMap(QString;QString;Z) | export scrape to map
+Object[] getActiveScrapeResponse() | get active scrape response
+Object[] handleAnnounceAndScrape(QString;QPRUDPPacketRequest;I) | handle announce and scrape
+TRTrackerBTScraperResponseImpl checkForNextScrape() | check for next scrape
+TRTrackerScraper getTrackerScraper() | get tracker scraper
+TRTrackerScraperImpl getScraper() | get scraper
+TRTrackerScraperResponse getTrackerScrapeResponse() | get tracker scrape response
+TRTrackerScraperResponse scrape(QTOTorrent;) | scrape
+TRTrackerScraperResponse scrape(QTOTorrent;QURL;) | scrape
+TRTrackerScraperResponse scrape(QTOTorrent;QURL;Z) | scrape
+TRTrackerScraperResponse scrape(QTOTorrent;Z) | scrape
+TRTrackerScraperResponse scrape(QTRTrackerAnnouncer;) | scrape
+URL scrapeHTTP(QURL;QByteArrayOutputStream;) | scrape http
+void addScrape() | add scrape
+void addScrapeInterval(JQMap;) | add scrape interval
+void addScrapeInterval(QTRTrackerServerTorrentImpl;QMap;) | add scrape interval
+void handleAnnounceScrapeStatus(QDownload;QString;) | handle announce scrape status
+void handleScrape(QDownload;QDownloadScrapeResult;) | handle scrape
+void requestTrackerScrape(Z) | request tracker scrape
+void runScrapes() | run scrapes
+void runScrapes(QArrayList;ZZ) | run scrapes
+void runScrapesSupport(QArrayList;Z) | run scrapes support
+void scrapeResult(QDownloadScrapeResult;) | scrape result
+void scrapeResult(QTRTrackerScraperResponse;) | scrape result
+void setNextScrapeStartTime(J) | set next scrape start time
+void setScrape(QTOTorrent;QURL;QDownloadScrapeResult;) | set scrape
+void setScrapeResult(II) | set scrape result
+void setScrapeResult(QDownloadScrapeResult;) | set scrape result
+void setScrapeStartTime(J) | set scrape start time
+void setTrackerScrapeResponse(QTRTrackerScraperResponse;) | set tracker scrape response

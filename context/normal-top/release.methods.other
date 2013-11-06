@@ -1,0 +1,11 @@
+boolean doOptionalReleaseActions() | do optional release actions
+boolean isAggressiveReleaseNoTransactionCheck() | is aggressive release no transaction check
+boolean isAutoReleaseAndAllowManual() | is auto release and allow manual
+ConnectionReleaseMode getConnectionReleaseMode() | get connection release mode
+ConnectionReleaseMode getDefaultReleaseMode() | get default release mode
+MenuItem addReleaseNotesMenuItem(QMenu;) | add release notes menu item
+Result newReleaseSavepointRequest(QString;) | new release savepoint request
+String getReleaseDate() | get release date
+void processReleaseSavepoint() | process release savepoint
+void setConnectionReleaseMode(QConnectionReleaseMode;) | set connection release mode
+void setReleaseDate(QString;) | set release date

@@ -1,0 +1,58 @@
+boolean acceptDropAction(II) | accept drop action
+boolean handleDropTransfer(QString;I) | handle drop transfer
+boolean handleDropTransfer(QURL;I) | handle drop transfer
+boolean isAssaultDropInProgress() | is assault drop in progress
+boolean isAutoDropSchema() | is auto drop schema
+boolean isDropAcceptable(QDropTargetDropEvent;) | is drop acceptable
+boolean supportsAlterTableWithDropColumn() | supports alter table with drop column
+ControllerState getDragAndDropState() | get drag and drop state
+DragDropTree getDropTree() | get drop tree
+DropTarget createDropTarget(I) | create drop target
+DropTargetListener getNodeDropListener() | get node drop listener
+int getTransportDropTurns() | get transport drop turns
+NodeDropListener getNodeDropListener() | get node drop listener
+PathNode getTransportDropNode() | get transport drop node
+Point2D getDropModelLocation(QJComponent;) | get drop model location
+Point getDropLocation() | get drop location
+String buildSqlDropIndexString(QDialect;QTable;QString;QString;QString;) | build sql drop index string
+String[] generateDropSchemaScript(QDialect;) | generate drop schema script
+String getDropForeignKeyString() | get drop foreign key string
+String getDropSequenceString(QString;) | get drop sequence string
+String[] getDropSequenceStrings(QString;) | get drop sequence strings
+String getDropTableStatement(DatastoreContainerObject table) | get drop table statement
+String sqlDropString(QDialect;QString;QString;) | sql drop string
+String[] sqlDropStrings(QDialect;) | sql drop strings
+String testDropTarget(TreePath destination, TreePath dropper) | test drop target
+void addDropElements(QCombo;[QString;) | add drop elements
+void addDropListener(QDropTargetListener;) | add drop listener
+void addOrDropPrimaryKey([IZ) | add or drop primary key
+void checkCascadeDropViews(QNumberSequence;Z) | check cascade drop views
+void checkCascadeDropViews(QTable;Z) | check cascade drop views
+void checkCascadeDropViews(QView;Z) | check cascade drop views
+void checkDropIndex(QString;QHashSet;Z) | check drop index
+void closeDropDownList() | close drop down list
+void createDropTarget(Control dropZone) | create drop target
+void createDropTarget(QComposite;ZQText;) | create drop target
+void createDropTarget(QComposite;ZQText;QDropTargetListener;) | create drop target
+void createDropTarget(QControl;) | create drop target
+void createTorrentDropTarget(QComposite;Z) | create torrent drop target
+void createURLDropTarget(QComposite;QText;) | create url drop target
+void dragDropEnd(QDragSourceDropEvent;) | drag drop end
+void fillDropDownMenu(QMenu;[QTreeItem;I) | fill drop down menu
+void GanttTreeDropListener() | gantt tree drop listener
+void processAlterTableDropColumn(QTable;) | process alter table drop column
+void processAlterTableDropConstraint(QTable;) | process alter table drop constraint
+void processAlterTableDropConstraint(QTable;QString;) | process alter table drop constraint
+void processDropIndex() | process drop index
+void processDropSchema() | process drop schema
+void processDropSchema(QString;Z) | process drop schema
+void processDropSequence() | process drop sequence
+void processDropTable(Z) | process drop table
+void processDropTrigger() | process drop trigger
+void processDropUser() | process drop user
+void receiveDropString(QStringBuffer;) | receive drop string
+void removeDropTargetListener() | remove drop target listener
+void setAssaultDropInProgress(Z) | set assault drop in progress
+void setAutoDropSchema(Z) | set auto drop schema
+void setDropAction(QString;) | set drop action
+void URLDropTarget(QText;Z) | url drop target

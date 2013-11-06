@@ -1,0 +1,12 @@
+SyncMode getSlaveSyncModes() | get slave sync modes
+void askToIncreaseSlaveMaxHeap() | ask to increase slave max heap
+void CounterSlave() | counter slave
+void handleSlaveQuit(I) | handle slave quit
+void handleSlaveWontStart(QException;) | handle slave wont start
+void invokeSlave(QJVMBuilder;) | invoke slave
+void quitSlave() | quit slave
+void sanitizeSlaveJVMArgs(QJFrame;QString;QOptionListener<QString;>;) | sanitize slave jvm args
+void sanitizeSlaveJVMXMX(QJFrame;QString;) | sanitize slave jvm xmx
+void SlaveFactory(QString;) | slave factory
+void SlaveJVMArgsListener(QJFrame;) | slave jvm args listener
+void SlaveJVMXMXListener(QJFrame;) | slave jvm xmx listener

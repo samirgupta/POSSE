@@ -1,0 +1,493 @@
+CONS AbbreviateAction(QBasePanel;Z) | abbreviate action
+CONS AboutAction(QApplication;) | about action
+CONS AboutAction(QFreeColClient;) | about action
+CONS AboutAction(QString;QString;QDrawingPanel;) | about action
+CONS AboutAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | about action
+CONS AbstractApplicationAction(QApplication;) | abstract application action
+CONS AbstractAttackAction(II) | abstract attack action
+CONS AbstractAttackAction(III) | abstract attack action
+CONS AbstractDrawAction(QDrawingPanel;) | abstract draw action
+CONS AbstractDrawAction(QString;QString;QDrawingPanel;) | abstract draw action
+CONS AbstractDrawAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | abstract draw action
+CONS AbstractEditorAction(QDrawingEditor;) | abstract editor action
+CONS AbstractEntityAction(I) | abstract entity action
+CONS AbstractProjectAction(QApplication;) | abstract project action
+CONS AbstractSaveBeforeAction(QApplication;) | abstract save before action
+CONS AbstractSelectedAction(QDrawingEditor;) | abstract selected action
+CONS AbstractViewAction(QDrawingEditor;) | abstract view action
+CONS AbstractViewAction(QDrawingView;) | abstract view action
+CONS AbstractXmlAction(QString;QIcon;QModeController;) | abstract xml action
+CONS AddArrowLinkAction(QModeController;) | add arrow link action
+CONS AddBlankLineAction(QGanttTree2;) | add blank line action
+CONS AddLocalLinkAction(QModeController;) | add local link action
+CONS AddToGroupAction(QGroupTreeNode;ZQBasePanel;) | add to group action
+CONS AddToGroupAction(Z) | add to group action
+CONS AlignAction(QDrawingEditor;) | align action
+CONS AppendDatabaseAction(QJabRefFrame;QBasePanel;) | append database action
+CONS ApplyAttributesAction(QDrawingEditor;) | apply attributes action
+CONS ApplyPatternAction(QModeController;QStylePattern;) | apply pattern action
+CONS ArrangeAction(QArrangeable;QArrangeable.Arrangement;) | arrange action
+CONS ArtilleryAttackAction() | artillery attack action
+CONS ArtilleryAttackAction(QWeaponResult;QIGame;IQVector;QCoords;) | artillery attack action
+CONS AssignTradeRouteAction(QFreeColClient;) | assign trade route action
+CONS AttributeAction(QDrawingEditor;QAttributeKey;QObject;) | attribute action
+CONS AttributeAction(QDrawingEditor;QAttributeKey;QObject;QIcon;) | attribute action
+CONS AttributeAction(QDrawingEditor;QAttributeKey;QObject;QString;) | attribute action
+CONS AttributeAction(QDrawingEditor;QAttributeKey;QObject;QString;QIcon;) | attribute action
+CONS AttributeAction(QDrawingEditor;QAttributeKey;QObject;QString;QIcon;QAction;) | attribute action
+CONS AttributeAction(QDrawingEditor;QMap<QAttributeKey;QObject;>;QString;QIcon;) | attribute action
+CONS BasicAction(QString;) | basic action
+CONS BasicAction(QString;QKeyStroke;) | basic action
+CONS BasicAction(QString;QString;QURL;) | basic action
+CONS BasicAction(QString;QString;QURL;QKeyStroke;) | basic action
+CONS BestOfAction() | best of action
+CONS BoldAction(QControllerAdapter;) | bold action
+CONS BooleanOptionAction(QBooleanOption;) | boolean option action
+CONS BreakGrappleAttackAction(II) | break grapple attack action
+CONS BreakGrappleAttackAction(III) | break grapple attack action
+CONS BrowseAction(QJFrame;QJTextField;Z) | browse action
+CONS BrushOffAttackAction(IIII) | brush off attack action
+CONS BuildColonyAction(QFreeColClient;) | build colony action
+CONS BulkOperationCleanupAction(QSessionImplementor;[QQueryable;) | bulk operation cleanup action
+CONS BulkOperationCleanupAction(QSessionImplementor;QSet;) | bulk operation cleanup action
+CONS CalculateCriticalPathAction(QTaskManager;QGanttTree2;QGanttOptions;QUIConfiguration;QGanttProject;) | calculate critical path action
+CONS CancelAction() | cancel action
+CONS CascadingAction() | cascading action
+CONS ChangeAction(QFreeColClient;) | change action
+CONS ChangeArrowsInArrowLinkAction(QModeController;QString;QString;QMindMapArrowLinkModel;ZZ) | change arrows in arrow link action
+CONS ChangeWindowedModeAction(QFreeColClient;) | change windowed mode action
+CONS ChargeAttackAction(IIIQCoords;) | charge attack action
+CONS ChargeAttackAction(QEntity;QTargetable;) | charge attack action
+CONS ChatAction(QFreeColClient;) | chat action
+CONS ClearAction(QApplication;) | clear action
+CONS ClearAction(QString;QString;QDrawingPanel;) | clear action
+CONS ClearAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | clear action
+CONS ClearMinefieldAction(I) | clear minefield action
+CONS ClearOrdersAction(QFreeColClient;) | clear orders action
+CONS ClearRecentFilesAction(QApplication;) | clear recent files action
+CONS CloseAction(QApplication;) | close action
+CONS CloudAction(QModeController;) | cloud action
+CONS CloudColorAction(QModeController;) | cloud color action
+CONS ClubAttackAction(IIIQMounted;) | club attack action
+CONS ClubAttackAction(IIQMounted;) | club attack action
+CONS CollectionAction(QCollectionPersister;QPersistentCollection;QSerializable;QSessionImplementor;) | collection action
+CONS CollectionRecreateAction(QPersistentCollection;QCollectionPersister;QSerializable;QSessionImplementor;) | collection recreate action
+CONS CollectionRemoveAction(QObject;QCollectionPersister;QSerializable;ZQSessionImplementor;) | collection remove action
+CONS CollectionRemoveAction(QPersistentCollection;QCollectionPersister;QSerializable;ZQSessionImplementor;) | collection remove action
+CONS CollectionUpdateAction(QPersistentCollection;QCollectionPersister;QSerializable;ZQSessionImplementor;) | collection update action
+CONS ColopediaBuildingAction(QFreeColClient;) | colo pe dia building action
+CONS ColopediaFatherAction(QFreeColClient;) | colo pe dia father action
+CONS ColopediaGoodsAction(QFreeColClient;) | colo pe dia goods action
+CONS ColopediaNationAction(QFreeColClient;) | colo pe dia nation action
+CONS ColopediaNationTypeAction(QFreeColClient;) | colo pe dia nation type action
+CONS ColopediaResourceAction(QFreeColClient;) | colo pe dia resource action
+CONS ColopediaSkillAction(QFreeColClient;) | colo pe dia skill action
+CONS ColopediaTerrainAction(QFreeColClient;) | colo pe dia terrain action
+CONS ColopediaUnitAction(QFreeColClient;) | colo pe dia unit action
+CONS ColorAction(QString;QPredicate;QString;) | color action
+CONS ColorAction(QString;QPredicate;QString;I) | color action
+CONS ColorAction(QString;QString;) | color action
+CONS ColorAction(QString;QString;I) | color action
+CONS ColorArrowLinkAction(QModeController;QMindMapArrowLinkModel;) | color arrow link action
+CONS ColorChooserAction(QDrawingEditor;QAttributeKey;) | color chooser action
+CONS ColorChooserAction(QDrawingEditor;QAttributeKey;QIcon;) | color chooser action
+CONS ColorChooserAction(QDrawingEditor;QAttributeKey;QString;) | color chooser action
+CONS ColorChooserAction(QDrawingEditor;QAttributeKey;QString;QIcon;) | color chooser action
+CONS CombineAction(QDrawingEditor;) | combine action
+CONS CompositeAction() | composite action
+CONS CompositeAction(J) | composite action
+CONS CompositeAction(JJ) | composite action
+CONS CompositeAction(QVisualization;) | composite action
+CONS CompositeAction(QVisualization;J) | composite action
+CONS ContinueModeAction() | continue mode action
+CONS ControllerAction(QUserPreferences;QClass<*>;QString;QObject;QString;[QObject;) | controller action
+CONS CopyAction() | copy action
+CONS CopyAction(QControllerAdapter;) | copy action
+CONS CopySingleAction(QControllerAdapter;) | copy single action
+CONS CutAction() | cut action
+CONS CutAction(QControllerAdapter;) | cut action
+CONS DataColorAction(QString;QString;IQString;) | data color action
+CONS DataColorAction(QString;QString;IQString;[I) | data color action
+CONS DataShapeAction(QString;QString;) | data shape action
+CONS DataShapeAction(QString;QString;[I) | data shape action
+CONS DataSizeAction(QString;QString;) | data size action
+CONS DataSizeAction(QString;QString;I) | data size action
+CONS DataSizeAction(QString;QString;II) | data size action
+CONS DbConnectAction(QBasePanel;) | db connect action
+CONS DbImportAction(QJabRefFrame;) | db import action
+CONS DebugAction(QJPDADebugger;) | debug action
+CONS DebugCrossBugAction(QFreeColClient;) | debug cross bug action
+CONS DebugShowCoordinatesAction(QFreeColClient;) | debug show coordinates action
+CONS DeclareIndependenceAction(QFreeColClient;) | declare independence action
+CONS DecreaseVolumeAction() | decrease volume action
+CONS DefaultAttributeAction(QDrawingEditor;[QAttributeKey;) | default attribute action
+CONS DefaultAttributeAction(QDrawingEditor;QAttributeKey;) | default attribute action
+CONS DefaultAttributeAction(QDrawingEditor;QAttributeKey;QIcon;) | default attribute action
+CONS DefaultAttributeAction(QDrawingEditor;QAttributeKey;QString;) | default attribute action
+CONS DefaultAttributeAction(QDrawingEditor;[QAttributeKey;QString;QIcon;) | default attribute action
+CONS DefaultAttributeAction(QDrawingEditor;QAttributeKey;QString;QIcon;) | default attribute action
+CONS DeleteAction() | delete action
+CONS DeleteAssignmentAction(QResourceManager;QAssignmentContext;QGanttProject;) | delete assignment action
+CONS DeleteChildAction(QControllerAdapter;) | delete child action
+CONS DeleteHumanAction(QResourceManager;QResourceContext;QGanttProject;QUIFacade;) | delete human action
+CONS DetermineHighSeasAction(QFreeColClient;) | determine high seas action
+CONS DfaAttackAction(IIIQCoords;) | dfa attack action
+CONS DfaAttackAction(IIQCoords;) | dfa attack action
+CONS DisbandUnitAction(QFreeColClient;) | disband unit action
+CONS DisplacementAttackAction(IIIQCoords;) | displacement attack action
+CONS DisplacementAttackAction(IIQCoords;) | displacement attack action
+CONS DisplayGridAction(QFreeColClient;) | display grid action
+CONS DisplayTileEmptyAction(QFreeColClient;) | display tile empty action
+CONS DisplayTileNamesAction(QFreeColClient;) | display tile names action
+CONS DisplayTileOwnersAction(QFreeColClient;) | display tile owners action
+CONS DisplayTileRegionsAction(QFreeColClient;) | display tile regions action
+CONS DJAction() | dj action
+CONS DocumentDebugAction(QJPDADebugger;QOpenDefinitionsDocument;I) | document debug action
+CONS DodgeAction(I) | dodge action
+CONS DuplicateAction() | duplicate action
+CONS EdgeColorAction(QModeController;) | edge color action
+CONS EdgeStyleAction(QModeController;QString;) | edge style action
+CONS EdgeWidthAction(QModeController;I) | edge width action
+CONS EditAction(QControllerAdapter;) | edit action
+CONS EncoderAction() | encoder action
+CONS EncoderAction(QString;) | encoder action
+CONS EncoderAction(QString;QPredicate;) | encoder action
+CONS EncoderAction(QVisualization;) | encoder action
+CONS EncoderAction(QVisualization;QString;) | encoder action
+CONS EncoderAction(QVisualization;QString;QPredicate;) | encoder action
+CONS EndTurnAction(QFreeColClient;) | end turn action
+CONS EntityAction(QSessionImplementor;QSerializable;QObject;QEntityPersister;) | entity action
+CONS EntityDeleteAction(QSerializable;[QObject;QObject;QObject;QEntityPersister;ZQSessionImplementor;) | entity delete action
+CONS EntityIdentityInsertAction([QObject;QObject;QEntityPersister;QSessionImplementor;Z) | entity identity insert action
+CONS EntityInsertAction(QSerializable;[QObject;QObject;QObject;QEntityPersister;QSessionImplementor;) | entity insert action
+CONS EntityUpdateAction(QSerializable;[QObject;[IZ[QObject;QObject;QObject;QObject;QObject;QEntityPersister;QSessionImplementor;) | entity update action
+CONS EuropeAction(QFreeColClient;) | europe action
+CONS ExecuteGotoOrdersAction(QFreeColClient;) | execute goto orders action
+CONS ExitAction() | exit action
+CONS ExitAction(QApplication;) | exit action
+CONS ExitAction(QGanttProject;) | exit action
+CONS ExitAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | exit action
+CONS ExportAction(QApplication;) | export action
+CONS ExportDisplayAction(QDisplay;) | export display action
+CONS ExportFileAction(QUIFacade;QIGanttProject;QGanttOptions;) | export file action
+CONS ExportToClipboardAction(QJabRefFrame;QBibtexDatabase;) | export to clipboard action
+CONS FastForwardTrackAction() | fast forward track action
+CONS FileAction(QString;QString;QDrawingPanel;ZZ) | file action
+CONS FileAction(QString;QString;QString;QDrawingPanel;ZIQKeyStroke;Z) | file action
+CONS FindAction(QModeController;) | find action
+CONS FindClubAction(I) | find club action
+CONS FindColonyAction(QFreeColClient;) | find colony action
+CONS FindFullTextAction(QBasePanel;) | find full text action
+CONS FinishAlbumAction() | finish album action
+CONS FiringModeChangeAction(II) | firing mode change action
+CONS FlipArmsAction(IZ) | flip arms action
+CONS FocusAction(QProject;) | focus action
+CONS FontAction() | font action
+CONS FontAction(QString;) | font action
+CONS FontAction(QString;QFont;) | font action
+CONS FontFamilyAction(QControllerAdapter;) | font family action
+CONS FontSizeAction(QControllerAdapter;) | font size action
+CONS ForceConfigAction(QJFrame;QForceSimulator;) | force config action
+CONS FortifyAction(QFreeColClient;) | fortify action
+CONS FreeColAction(QFreeColClient;QString;QString;) | free col action
+CONS FreeColAction(QFreeColClient;QString;QString;I) | free col action
+CONS FreeColAction(QFreeColClient;QString;QString;IQKeyStroke;) | free col action
+CONS FreeColAction(QFreeColClient;QString;QString;IQKeyStroke;Z) | free col action
+CONS FreeColAction(QFreeColClient;QString;QString;QKeyStroke;) | free col action
+CONS FreemindAction(QString;QIcon;QModeController;) | freemind action
+CONS FreemindAction(QString;QString;QModeController;) | freemind action
+CONS GlobalRandomAction() | global random action
+CONS GotoAction(QFreeColClient;) | goto action
+CONS GotoLinkNodeAction(QModeController;QMindMapNode;) | goto link node action
+CONS GotoTileAction(QFreeColClient;) | goto tile action
+CONS GPAction() | gp action
+CONS GPAction(QString;) | gp action
+CONS GPAction(QString;QString;) | gp action
+CONS GraphicTemplateAction(QString;QString;QDrawingPanel;) | graphic template action
+CONS GraphicTemplateAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | graphic template action
+CONS GrappleAttackAction(II) | grapple attack action
+CONS GrappleAttackAction(III) | grapple attack action
+CONS GroupAction() | group action
+CONS GroupAction(QDrawingEditor;) | group action
+CONS GroupAction(QDrawingEditor;QCompositeFigure;) | group action
+CONS GroupAction(QString;) | group action
+CONS GroupAction(QString;J) | group action
+CONS GroupAction(QString;JJ) | group action
+CONS GroupAction(QVisualization;) | group action
+CONS GroupAction(QVisualization;J) | group action
+CONS GroupAction(QVisualization;JJ) | group action
+CONS GroupAction(QVisualization;QString;) | group action
+CONS GroupAction(QVisualization;QString;J) | group action
+CONS GroupAction(QVisualization;QString;JJ) | group action
+CONS HelpAction(QHelpDialog;QString;) | help action
+CONS HelpAction(QHelpDialog;QString;QString;) | help action
+CONS HelpAction(QHelpDialog;QString;QString;QURL;) | help action
+CONS HelpAction(QString;QHelpDialog;QString;QString;) | help action
+CONS HelpAction(QString;QHelpDialog;QString;QString;QKeyStroke;) | help action
+CONS HelpAction(QString;QHelpDialog;QString;QString;QURL;) | help action
+CONS HelpRequiredAction() | help required action
+CONS IconAction(QModeController;QMindIcon;QRemoveLastIconAction;) | icon action
+CONS ImportExplorerFavoritesAction(QModeController;) | import explorer favorites action
+CONS ImportFileAction(QUIFacade;QGanttProject;) | import file action
+CONS ImportFolderStructureAction(QModeController;) | import folder structure action
+CONS ImprovementAction(QFreeColClient;QImprovementActionType;) | improvement action
+CONS IncreaseVolumeAction() | increase volume action
+CONS IntroModeAction() | intro mode action
+CONS ItalicAction(QControllerAdapter;) | italic action
+CONS ItemAction() | item action
+CONS ItemAction(QString;) | item action
+CONS ItemAction(QString;QPredicate;) | item action
+CONS ItemAction(QVisualization;) | item action
+CONS ItemAction(QVisualization;QString;) | item action
+CONS ItemAction(QVisualization;QString;QPredicate;) | item action
+CONS JoinNodesAction(QModeController;) | join nodes action
+CONS JumpJetAttackAction(III) | jump jet attack action
+CONS JumpJetAttackAction(IIII) | jump jet attack action
+CONS KickAttackAction(III) | kick attack action
+CONS KickAttackAction(IIII) | kick attack action
+CONS LayExplosivesAttackAction(II) | lay explosives attack action
+CONS LayExplosivesAttackAction(III) | lay explosives attack action
+CONS LayMinefieldAction(II) | lay minefield action
+CONS LinkTasksAction(QTaskManager;QTaskSelectionManager;QUIFacade;) | link tasks action
+CONS LoadAction(QApplication;) | load action
+CONS LoadAction(QFreeColClient;) | load action
+CONS LoadRecentAction(QApplication;QFile;) | load recent action
+CONS ManageJournalsAction(QJabRefFrame;) | manage journals action
+CONS MapboardAction(QFreeColClient;QString;QString;) | map board action
+CONS MapboardAction(QFreeColClient;QString;QString;I) | map board action
+CONS MapboardAction(QFreeColClient;QString;QString;IQKeyStroke;) | map board action
+CONS MapboardAction(QFreeColClient;QString;QString;QKeyStroke;) | map board action
+CONS MapControlsAction(QFreeColClient;) | map controls action
+CONS MassSetFieldAction(QJabRefFrame;) | mass set field action
+CONS MaximizeAction(QApplication;) | maximize action
+CONS MiniMapChangeBackgroundAction(QFreeColClient;) | mini map change background action
+CONS MiniMapZoomInAction(QFreeColClient;) | mini map zoom in action
+CONS MiniMapZoomOutAction(QFreeColClient;) | mini map zoom out action
+CONS MinimizeAction(QApplication;) | minimize action
+CONS MnemonicAwareAction() | mnemonic aware action
+CONS MnemonicAwareAction(QImageIcon;) | mnemonic aware action
+CONS MoveAction(QDrawingEditor;II) | move action
+CONS MoveFileAction(QJabRefFrame;QEntryEditor;QFileListEditor;Z) | move file action
+CONS MoveNodeAction(QControllerAdapter;) | move node action
+CONS MoveToBackAction(QDrawingEditor;) | move to back action
+CONS MoveToFrontAction(QDrawingEditor;) | move to front action
+CONS MuteAction() | mute action
+CONS NewAction(QApplication;) | new action
+CONS NewAction(QFreeColClient;) | new action
+CONS NewArtefactAction(QActiveActionProvider;QString;) | new artefact action
+CONS NewChildAction(QControllerAdapter;) | new child action
+CONS NewEmptyMapAction(QFreeColClient;) | new empty map action
+CONS NewFileAction(QString;QString;QDrawingPanel;) | new file action
+CONS NewFileAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | new file action
+CONS NewHumanAction(QResourceManager;QRoleManager;QJFrame;QGanttProject;) | new human action
+CONS NewMapAction(QControllerAdapter;QControllerAdapter;) | new map action
+CONS NewPreviousSiblingAction(QControllerAdapter;) | new previous sibling action
+CONS NewProjectAction(QGanttProject;) | new project action
+CONS NewSiblingAction(QControllerAdapter;) | new sibling action
+CONS NewTaskAction(QIGanttProject;) | new task action
+CONS NextAlbumAction() | next album action
+CONS NextTrackAction() | next track action
+CONS NodeBackgroundColorAction(QModeController;) | node background color action
+CONS NodeColorAction(QModeController;) | node color action
+CONS NodeColorBlendAction(QControllerAdapter;) | node color blend action
+CONS NodeDownAction(QControllerAdapter;) | node down action
+CONS NodeGeneralAction(QModeController;QString;QString;) | node general action
+CONS NodeGeneralAction(QModeController;QString;QString;Qfreemind.controller.actions.NodeActorXml;) | node general action
+CONS NodeGeneralAction(QModeController;QString;QString;QSingleNodeOperation;) | node general action
+CONS NodeHookAction(QString;QModeController;) | node hook action
+CONS NodeStyleAction(QModeController;QString;) | node style action
+CONS NodeUpAction(QControllerAdapter;) | node up action
+CONS nonassoc_action() | nonassoc action
+CONS NoveltiesAction() | novelties action
+CONS NukeAttackAction(QCoords;II) | nuke attack action
+CONS NukeAttackAction(QCoords;IIIII) | nuke attack action
+CONS ObjectListAction(QString;QString;QString;QDrawingPanel;IQDrawObjectList;) | object list action
+CONS OkAction() | ok action
+CONS OpenAction(QApplication;) | open action
+CONS OpenAction(QFreeColClient;) | open action
+CONS OpenDatabaseAction(QJabRefFrame;Z) | open database action
+CONS OpenDocumentAction(IQDocument;QActionListener;) | open document action
+CONS OpenOptionsDialogAction(QString;QString;QDrawingPanel;) | open options dialog action
+CONS OpenOptionsDialogAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | open options dialog action
+CONS OpenProjectAction(QGanttProject;) | open project action
+CONS OpenRecentAction(QApplication;QFile;) | open recent action
+CONS OpenURLAction(QGanttProject;) | open url action
+CONS OptionsDialogAction([QGPOptionGroup;QUIFacade;) | options dialog action
+CONS OSXDropOnDockAction(QApplication;) | osx drop on dock action
+CONS OSXTogglePaletteAction(QDefaultOSXApplication;QWindow;QString;) | osx toggle palette action
+CONS parse_action() | parse action
+CONS PasteAction() | paste action
+CONS PasteAction(QControllerAdapter;) | paste action
+CONS PhysicalAttackAction(II) | physical attack action
+CONS PhysicalAttackAction(III) | physical attack action
+CONS PickAttributesAction(QDrawingEditor;) | pick attributes action
+CONS PlayAction(QString;QString;QDrawingPanel;Z) | play action
+CONS PlayAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;Z) | play action
+CONS PlayPauseAction() | play pause action
+CONS PluginAction() | plugin action
+CONS PluginAction(QString;QString;QClassLoader;) | plugin action
+CONS PluginAction(QString;QString;QClassLoader;Z) | plugin action
+CONS PluginInstallerAction(QJabRefFrame;) | plugin installer action
+CONS PreferencesAction(QFreeColClient;) | preferences action
+CONS PreviousAlbumAction() | previous album action
+CONS PreviousTrackAction() | previous track action
+CONS PrintAction(QApplication;) | print action
+CONS PrintAction(QGanttProject;) | print action
+CONS ProjectPropertyAction(QApplication;QString;QClass;QObject;) | project property action
+CONS ProjectPropertyAction(QApplication;QString;QObject;) | project property action
+CONS ProtomechPhysicalAttackAction(II) | protomech physical attack action
+CONS ProtomechPhysicalAttackAction(III) | protomech physical attack action
+CONS PublicHolidayDialogAction(QIGanttProject;QUIFacade;) | public holiday dialog action
+CONS PunchAttackAction(III) | punch attack action
+CONS PunchAttackAction(IIII) | punch attack action
+CONS PushAttackAction(IIIQCoords;) | push attack action
+CONS PushAttackAction(IIQCoords;) | push attack action
+CONS PushToApplicationAction(QJabRefFrame;QPushToApplication;) | push to application action
+CONS QualityAction() | quality action
+CONS QuitAction(QFreeColClient;) | quit action
+CONS ReconnectAction(QFreeColClient;) | reconnect action
+CONS RedoAction(QApplication;) | redo action
+CONS RedoAction(QControllerAdapter;) | redo action
+CONS RedoAction(QGPUndoManager;QString;QGanttProject;) | redo action
+CONS RedoAction(QString;QString;QDrawingPanel;) | redo action
+CONS RedoAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | redo action
+CONS reduce_action(Qproduction;) | reduce action
+CONS RefactorAction(QArrayList<QFile;>;) | refactor action
+CONS RefreshViewAction(QUIFacade;QGanttOptions;) | refresh view action
+CONS RemoteSaveAction(QString;QString;QDrawingPanel;) | remote save action
+CONS RemoteSaveAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | remote save action
+CONS RemoveAllIconsAction(QModeController;QIconAction;) | remove all icons action
+CONS RemoveArrowLinkAction(QModeController;QMindMapArrowLinkModel;) | remove arrow link action
+CONS RemoveFromGroupAction() | remove from group action
+CONS RemoveFromGroupAction(QGroupTreeNode;QBasePanel;) | remove from group action
+CONS RemoveLastIconAction(QModeController;) | remove last icon action
+CONS RenameAction(QFreeColClient;) | rename action
+CONS RepaintAction() | repaint action
+CONS RepaintAction(QVisualization;) | repaint action
+CONS RepeatModeAction() | repeat mode action
+CONS ReportCargoAction(QFreeColClient;) | report cargo action
+CONS ReportColonyAction(QFreeColClient;) | report colony action
+CONS ReportContinentalCongressAction(QFreeColClient;) | report continental congress action
+CONS ReportExplorationAction(QFreeColClient;) | report exploration action
+CONS ReportForeignAction(QFreeColClient;) | report foreign action
+CONS ReportHighScoresAction(QFreeColClient;) | report high scores action
+CONS ReportHistoryAction(QFreeColClient;) | report history action
+CONS ReportIndianAction(QFreeColClient;) | report indian action
+CONS ReportLabourAction(QFreeColClient;) | report labour action
+CONS ReportMilitaryAction(QFreeColClient;) | report military action
+CONS ReportNavalAction(QFreeColClient;) | report naval action
+CONS ReportReligionAction(QFreeColClient;) | report religion action
+CONS ReportRequirementsAction(QFreeColClient;) | report requirements action
+CONS ReportTradeAction(QFreeColClient;) | report trade action
+CONS ReportTurnAction(QFreeColClient;) | report turn action
+CONS ResourceAction(QResourceManager;) | resource action
+CONS ResourceAction(QUserPreferences;QClass<*>;QString;) | resource action
+CONS ResourceAction(QUserPreferences;QClass<*>;QString;Z) | resource action
+CONS ResourcePropertiesAction(QIGanttProject;QUIFacade;) | resource properties action
+CONS RetireAction(QFreeColClient;) | retire action
+CONS RevertAction(QModeController;) | revert action
+CONS RewindTrackAction() | rewind track action
+CONS SaveAction(QApplication;) | save action
+CONS SaveAction(QApplication;Z) | save action
+CONS SaveAction(QFreeColClient;) | save action
+CONS SaveAction(QString;QString;QDrawingPanel;) | save action
+CONS SaveAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | save action
+CONS SaveAllAction(QJabRefFrame;) | save all action
+CONS SaveAsAction(QApplication;) | save as action
+CONS SaveDatabaseAction(QBasePanel;) | save database action
+CONS SaveProjectAction(QGanttProject;) | save project action
+CONS SaveProjectAsAction(QGanttProject;) | save project as action
+CONS SaveSWFAction(QString;QString;QDrawingPanel;) | save swf action
+CONS SaveSWFAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | save swf action
+CONS SaveURLAction(QGanttProject;) | save url action
+CONS ScaleMapAction(QFreeColClient;) | scale map action
+CONS ScrollGanttChartLeftAction(QScrollingManager;QString;) | scroll gantt chart left action
+CONS ScrollGanttChartRightAction(QScrollingManager;QString;) | scroll gantt chart right action
+CONS SearchlightAttackAction(II) | searchlight attack action
+CONS SearchlightAttackAction(III) | searchlight attack action
+CONS SelectableAction(QFreeColClient;QString;QString;) | selectable action
+CONS SelectableAction(QFreeColClient;QString;QString;I) | selectable action
+CONS SelectableAction(QFreeColClient;QString;QString;IQKeyStroke;) | selectable action
+CONS SelectableAction(QFreeColClient;QString;QString;QKeyStroke;) | selectable action
+CONS SelectAllAction() | select all action
+CONS SelectAllAction(QModeController;) | select all action
+CONS SelectBranchAction(QModeController;) | select branch action
+CONS SelectSameAction(QDrawingEditor;) | select same action
+CONS SentryAction(QFreeColClient;) | sentry action
+CONS SetCanvasSizeAction(QString;QString;QDrawingPanel;QJFrame;) | set canvas size action
+CONS SetCanvasSizeAction(QString;QString;QString;QDrawingPanel;QJFrame;IQKeyStroke;) | set canvas size action
+CONS SetColorAction(QDrawingPanel;ZQAbstractButton;) | set color action
+CONS SetDrawing2GradientAction(QDrawingPanel;IQMainWindow;IZ) | set drawing 2 gradient action
+CONS SetDrawingModeAction(QString;QDrawingPanel;IQMainWindow;I) | set drawing mode action
+CONS SetDrawingModeAction(QString;QString;QDrawingPanel;IIQKeyStroke;QMainWindow;I) | set drawing mode action
+CONS SetLineWidthAction(QString;QString;QDrawingPanel;) | set line width action
+CONS SetLineWidthAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | set line width action
+CONS SetLinkByTextFieldAction(QModeController;) | set link by text field action
+CONS ShapeAction() | shape action
+CONS ShapeAction(QString;) | shape action
+CONS ShapeAction(QString;I) | shape action
+CONS shift_action(Qlalr_state;) | shift action
+CONS ShowAboutAction() | show about action
+CONS ShowMainAction(QFreeColClient;) | show main action
+CONS ShuffleModeAction() | shuffle mode action
+CONS SizeAction() | size action
+CONS SizeAction(QString;) | size action
+CONS SizeAction(QString;D) | size action
+CONS SkipUnitAction(QFreeColClient;) | skip unit action
+CONS SortTabsAction(QJabRefFrame;) | sort tabs action
+CONS SplitAction(QDrawingEditor;) | split action
+CONS SpotAction(I) | spot action
+CONS StopTrackAction() | stop track action
+CONS StrokeAction() | stroke action
+CONS StrokeAction(QString;) | stroke action
+CONS StrokeAction(QString;QBasicStroke;) | stroke action
+CONS SwitchViewAction(QGanttProject;) | switch view action
+CONS TaskPropertiesAction(QIGanttProject;QTaskSelectionManager;QUIFacade;) | task properties action
+CONS ThrashAttackAction(II) | thrash attack action
+CONS ThrashAttackAction(III) | thrash attack action
+CONS ThrashAttackAction(IQTargetable;) | thrash attack action
+CONS TipOfTheDayAction() | tip of the day action
+CONS ToggleChartAction(QChart;QGPViewManager;) | toggle chart action
+CONS ToggleChildrenFoldedAction(QControllerAdapter;) | toggle children folded action
+CONS ToggleFoldedAction(QControllerAdapter;) | toggle folded action
+CONS ToggleGridAction(QDrawingEditor;) | toggle grid action
+CONS ToggleGridAction(QDrawingEditor;QConstrainer;QConstrainer;) | toggle grid action
+CONS ToggleGridAction(QDrawingView;QConstrainer;QConstrainer;) | toggle grid action
+CONS ToggleProjectPropertyAction(QApplication;QString;) | toggle project property action
+CONS ToggleProjectPropertyAction(QApplication;QString;QClass;QObject;QObject;) | toggle project property action
+CONS ToggleToolBarAction(QJToolBar;QString;) | toggle tool bar action
+CONS ToggleViewModeAction(QFreeColClient;) | toggle view mode action
+CONS ToggleVisibleAction(QComponent;QString;) | toggle visible action
+CONS TorsoTwistAction(II) | torso twist action
+CONS TradeRouteAction(QFreeColClient;) | trade route action
+CONS TriggerAPPodAction(II) | trigger ap pod action
+CONS TripAttackAction(II) | trip attack action
+CONS TripAttackAction(III) | trip attack action
+CONS UnabbreviateAction(QBasePanel;) | unabbreviate action
+CONS UnderlinedAction(QControllerAdapter;) | underlined action
+CONS UndoAction(QApplication;) | undo action
+CONS UndoAction(QControllerAdapter;) | undo action
+CONS UndoAction(QControllerAdapter;QString;QIcon;QModeController;) | undo action
+CONS UndoAction(QGPUndoManager;QString;QGanttProject;) | undo action
+CONS UndoAction(QString;QString;QDrawingPanel;) | undo action
+CONS UndoAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | undo action
+CONS UngroupAction(QDrawingEditor;) | ungroup action
+CONS UngroupAction(QDrawingEditor;QCompositeFigure;) | ungroup action
+CONS UnjamAction(I) | unjam action
+CONS UnlinkTasksAction(QTaskManager;QTaskSelectionManager;QUIFacade;) | unlink tasks action
+CONS UnloadAction(QFreeColClient;) | unload action
+CONS UnloadStrandedAction(II) | unload stranded action
+CONS WaitAction(QFreeColClient;) | wait action
+CONS WeaponAttackAction(III) | weapon attack action
+CONS WeaponAttackAction(IIII) | weapon attack action
+CONS WizardAction() | wizard action
+CONS WriteXMPAction(QBasePanel;) | write xmp action
+CONS WriteXMPEntryEditorAction(QBasePanel;QEntryEditor;) | write xmp entry editor action
+CONS ZoomAction(QDrawingEditor;DQAbstractButton;) | zoom action
+CONS ZoomAction(QDrawingView;DQAbstractButton;) | zoom action
+CONS ZoomEditorAction(QDrawingEditor;DQAbstractButton;) | zoom editor action
+CONS ZoomEditorAction(QDrawingEditor;DQAbstractButton;Z) | zoom editor action
+CONS ZoomInAction(QFreeColClient;) | zoom in action
+CONS ZoomInAction(QZoomManager;QString;) | zoom in action
+CONS ZoomOutAction(QFreeColClient;) | zoom out action
+CONS ZoomOutAction(QZoomManager;QString;) | zoom out action

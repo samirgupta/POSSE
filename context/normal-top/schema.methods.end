@@ -1,0 +1,49 @@
+boolean isAutoCreateSchema() | is auto create schema
+boolean isAutoDropSchema() | is auto drop schema
+boolean isAutoUpdateSchema() | is auto update schema
+boolean isAutoValidateSchema() | is auto validate schema
+boolean isSystemSchema(QHsqlName;) | is system schema
+double[] instanceToSchema(QInstance;QMiningSchema;) | instance to schema
+HsqlName getInitialSchema() | get initial schema
+List listTablesInSchema(String schemaName) | list tables in schema
+MiningSchema getMiningSchema() | get mining schema
+Schema getAxisLabelSchema() | get axis label schema
+Schema getDataSchema() | get data schema
+Schema getLabelSchema() | get label schema
+Schema getMinimalVisualSchema() | get minimal visual schema
+Schema getSchema() | get schema
+Schema getSchema(QResultSetMetaData;QSQLDataHandler;) | get schema
+Schema getVisualItemSchema() | get visual item schema
+Schema lockSchema() | lock schema
+String getCurrentSchema() | get current schema
+String getDefaultSchema() | get default schema
+String getQuotedSchema() | get quoted schema
+String getQuotedSchema(QDialect;) | get quoted schema
+String getSchema() | get schema
+String injectCatalogAndSchema(QString;QString;QString;) | inject catalog and schema
+String translateSchema(QString;) | translate schema
+void addImportedSchema(String targetNamespace) | add imported schema
+void addToSchema() | add to schema
+void checkGraphMLSchema(QSchema;) | check graph ml schema
+void checkTreeMLSchema(QSchema;) | check tree ml schema
+void createSchema(QString;Z) | create schema
+void dropSchema(QString;Z) | drop schema
+void initSchema(QTupleSet;) | init schema
+void invalidateSchema() | invalidate schema
+void mapToMiningSchema(QInstances;) | map to mining schema
+void printSchema(QXMLWriter;QString;QSchema;[QString;) | print schema
+void processAlterSchema() | process alter schema
+void processCreateSchema() | process create schema
+void processDropSchema() | process drop schema
+void processDropSchema(QString;Z) | process drop schema
+void renameSchema(QString;QString;Z) | rename schema
+void resetSchema() | reset schema
+void setAutoCreateSchema(Z) | set auto create schema
+void setAutoDropSchema(Z) | set auto drop schema
+void setAutoUpdateSchema(Z) | set auto update schema
+void setAutoValidateSchema(Z) | set auto validate schema
+void setDefaultSchema(QString;) | set default schema
+void setInitialSchema(QHsqlName;) | set initial schema
+void setSchema(QString;) | set schema
+void validateSchema(QDialect;QDatabaseMetadata;) | validate schema
+void writeToDCSchema(QXMPSchemaDublinCore;QBibtexEntry;QBibtexDatabase;) | write to dc schema

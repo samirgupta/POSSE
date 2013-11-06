@@ -1,0 +1,31 @@
+CONS CiteSeerUndoHandler(QNamedCompound;QBibtexEntry;QBasePanel;QBooleanAssign;) | cite seer undo handler
+CONS CiteSeerUndoHandler(QNamedCompound;QBibtexEntry;QBasePanel;QBooleanAssign;QBooleanAssign;QBooleanAssign;) | cite seer undo handler
+CONS CompoundUndoManager(QGlobalEventNotifier;) | compound undo manager
+CONS CountingUndoManager(QBasePanel;) | counting undo manager
+CONS NonUndoableEdit() | non undoable edit
+CONS UndoableAddOrRemoveGroup(QGroupSelector;QGroupTreeNode;QGroupTreeNode;I) | undoable add or remove group
+CONS UndoableChangeAssignment(QSet<QBibtexEntry;>;QSet<QBibtexEntry;>;) | undoable change assignment
+CONS UndoableChangeAssignment(QSet<QBibtexEntry;>;QSet<QBibtexEntry;>;QGroupTreeNode;) | undoable change assignment
+CONS UndoableChangeType(QBibtexEntry;QBibtexEntryType;QBibtexEntryType;) | undoable change type
+CONS UndoableEditImpl(QString;QRunnable;QUndoManagerImpl;) | undoable edit impl
+CONS UndoableFieldChange(QBibtexEntry;QString;QString;QString;) | undoable field change
+CONS UndoableInsertEntry(QBibtexDatabase;QBibtexEntry;QBasePanel;) | undoable insert entry
+CONS UndoableInsertString(QBasePanel;QBibtexDatabase;QBibtexString;) | undoable insert string
+CONS UndoableKeyChange(QBibtexDatabase;QString;QString;QString;) | undoable key change
+CONS UndoableModifyGroup(QGroupSelector;QGroupTreeNode;QGroupTreeNode;QAbstractGroup;) | undoable modify group
+CONS UndoableModifySubtree(QGroupSelector;QGroupTreeNode;QString;) | undoable modify subtree
+CONS UndoableMoveGroup(QGroupSelector;QGroupTreeNode;QGroupTreeNode;QGroupTreeNode;I) | undoable move group
+CONS UndoablePreambleChange(QBibtexDatabase;QBasePanel;QString;QString;) | undoable preamble change
+CONS UndoableRemoveEntry(QBibtexDatabase;QBibtexEntry;QBasePanel;) | undoable remove entry
+CONS UndoableRemoveString(QBasePanel;QBibtexDatabase;QBibtexString;) | undoable remove string
+CONS UndoableResetGroups(QGroupSelector;QGroupTreeNode;) | undoable reset groups
+CONS UndoableStringChange(QBasePanel;QBibtexString;ZQString;QString;) | undoable string change
+CONS UndoActionHandler(QModeController;QUndoAction;QRedoAction;) | undo action handler
+CONS UndoAction(QApplication;) | undo action
+CONS UndoAction(QControllerAdapter;) | undo action
+CONS UndoAction(QControllerAdapter;QString;QIcon;QModeController;) | undo action
+CONS UndoAction(QGPUndoManager;QString;QGanttProject;) | undo action
+CONS UndoAction(QString;QString;QDrawingPanel;) | undo action
+CONS UndoAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | undo action
+CONS UndoManagerImpl(QIGanttProject;QParserFactory;QDocumentManager;) | undo manager impl
+CONS UndoRedoManager() | undo redo manager

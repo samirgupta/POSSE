@@ -1,0 +1,38 @@
+boolean causesReversedPreferenceMax(QInstance;) | causes reversed preference max
+boolean causesReversedPreference(QInstance;) | causes reversed preference
+boolean reversedPreference(QInstance;QInstance;) | reversed preference
+DialogView createUserPreferencesView(QUserPreferences;QUserPreferencesController;) | create user preferences view
+IClientPreferences getClientPreferences() | get client preferences
+int[] nrOfReversedPreferences(QInstances;) | nr of reversed preferences
+int[] nrStochasticReversedPreference(QInstances;) | nr stochastic reversed preference
+int[] reversedPreferencesMax(QInstance;) | reversed preferences max
+int[] reversedPreferences(QInstance;) | reversed preferences
+IPreferenceStore getPreferenceStore(QString;) | get preference store
+JPanel buildOverridePreference() | build override preference
+Preferences getPreferences() | get preferences
+String getPluginPreference(String key) | get plugin preference
+UserPreferenceCatalog retrievePreferences(String uuid, UserPreferenceCatalog prefs) | retrieve preferences
+UserPreferences getUserPreferences() | get user preferences
+void addPreferenceChangeListener(QIPreferenceChangeListener;) | add preference change listener
+void addUserPreferencesListener(QUserPreferences;) | add user preferences listener
+void applyPreferences() | apply preferences
+void assertPreferencesEqual(QLengthUnit;ZZZZZFFQUserPreferences;) | assert preferences equal
+void editPreferences() | edit preferences
+void exportPreferences(QString;) | export preferences
+void handlePreferences(QApplicationEvent;) | handle preferences
+void importPreferences(QString;) | import preferences
+void modifyUserPreferences() | modify user preferences
+void preferenceChange(QPreferenceChangeEvent;) | preference change
+void preferences() | preferences
+void removePreferenceChangeListener(QIPreferenceChangeListener;) | remove preference change listener
+void removePreference(Object userID, Object itemID) | remove preference
+void savePreferences() | save preferences
+void setPreferenceStorageClass(String preferenceStorageClass) | set preference storage class
+void setPreference(String name, String value) | set preference
+void setUserPreferences(QUserPreferences;) | set user preferences
+void testUserPreferencesPanel() | test user preferences panel
+void updateUserPreferencesRecentHomes(QList<QString;>;) | update user preferences recent homes
+void UserPreferencesChangeListener(QFurnitureTable;) | user preferences change listener
+void UserPreferencesChangeListener(QPlanComponent;) | user preferences change listener
+void UserPreferencesPropertiesChangeListener(QHomeController;) | user preferences properties change listener
+void writePreferences(QHomeController;) | write preferences

@@ -1,0 +1,72 @@
+boolean activationRequested(QDownloadActivationEvent;) | activation requested
+boolean autoFlushIfRequired(QSet;) | auto flush if required
+boolean cancelRequested() | cancel requested
+boolean getCryptoRequired(I) | get crypto required
+boolean hasBeenRequested(QDiskManagerReadRequest;) | has been requested
+boolean isAttributeRequired(String elementName, String attrName) | is attribute required
+boolean isCacheInvalidationRequired() | is cache invalidation required
+Boolean isCryptoRequested() | is crypto requested
+boolean isDecentralisedBackupRequested() | is decentralised backup requested
+boolean isDHTBackupRequested(QTOTorrent;) | is dht backup requested
+boolean isFlushRequired() | is flush required
+boolean isFrameEnterExitRequired(QCallFrame;) | is frame enter exit required
+boolean isImportRequired(TypeSummary parentSummary) | is import required
+boolean isNextLineRequested() | is next line requested
+boolean isRequested() | is requested
+boolean isRequested(I) | is requested
+boolean isRequestLimitingEnabled() | is request limiting enabled
+boolean isRequired() | is required
+boolean isRequired(QString;) | is required
+boolean isResultRequired(QResultProducer;[QObject;) | is result required
+boolean isSaveAllRequired() | is save all required
+boolean isSelectBeforeUpdateRequired() | is select before update required
+boolean isSignatureSetupRequired(QNtlmPasswordAuthentication;) | is signature setup required
+boolean isSubstitutionRequired() | is substitution required
+boolean isTransactionManagerRequired() | is transaction manager required
+boolean isVersionIncrementRequired([IZ[Z) | is version increment required
+boolean isVersionIncrementRequired(QFlushEntityEvent;QEntityEntry;QEntityPersister;[I) | is version increment required
+boolean proxyCaptureModeRequired() | proxy capture mode required
+boolean restartRequested(QAzureusCore;) | restart requested
+boolean setRequested(QPEPeer;I) | set requested
+boolean stopRequested(QAzureusCore;) | stop requested
+boolean syncInvokeRequired() | sync invoke required
+int getCrossesRequired() | get crosses required
+int getHammersRequired(QBuildableType;) | get hammers required
+int getPopulationRequired() | get population required
+int getRestartRequired() | get restart required
+int getToolsRequired(QBuildableType;) | get tools required
+List<QAbstractGoods;> getGoodsRequired() | get goods required
+Map<QString;QBoolean;> getAbilitiesRequired() | get abilities required
+Map<QString;QBoolean;> getLocationAbilitiesRequired() | get location abilities required
+Map<QString;QBoolean;> getUnitAbilitiesRequired() | get unit abilities required
+Map requestReceived(QAZInstance;QMap;) | request received
+Map requestReceived(QBuddyPluginBuddy;IQMap;) | request received
+void clearRequested(I) | clear requested
+void closeIfRequired() | close if required
+void contactRequestReceived(Qymsg.network.event.SessionEvent;) | contact request received
+void diskRequestCompleted(J) | disk request completed
+void incomingRequestReceived(QDHTUDPPacketRequest;Z) | incoming request received
+void notifyStepRequested() | notify step requested
+void registerOperationTxnRequired(QString;) | register operation txn required
+void requestCanceled(QDiskManagerReadRequest;) | request canceled
+void requestCancelled(QDiskAccessRequest;) | request cancelled
+void requestCancelled(QPeerReadRequest;) | request cancelled
+void requestCancelled(QPeerReadRequest;QPeer;) | request cancelled
+void requestExecuted(J) | request executed
+void requestFailed(QDiskAccessRequest;QThrowable;) | request failed
+void requestFailed(QPeerReadRequest;) | request failed
+void requestQueued() | request queued
+void saveRequired() | save required
+void setCrossesRequired(I) | set crosses required
+void setDecentralisedBackupRequested(Z) | set decentralised backup requested
+void setDHTBackupRequested(QTOTorrent;Z) | set dht backup requested
+void setFlushRequired(Z) | set flush required
+void setGoodsRequired(QList<QAbstractGoods;>;) | set goods required
+void setLastRequestedPeerSpeed(I) | set last requested peer speed
+void setMapShareRequestAccepted(QString;Z) | set map share request accepted
+void setMapSharingRequested(QString;QString;QString;) | set map sharing requested
+void setPopulationRequired(I) | set population required
+void setRequested() | set requested
+void setRestartRequired(I) | set restart required
+void stepRequested() | step requested
+void updateCrossesRequired() | update crosses required

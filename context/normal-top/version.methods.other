@@ -1,0 +1,50 @@
+AST generateVersionPropertyNode(QQueryable;) | generate version property node
+boolean[] declaresSerialVersionUID() | declares serial version uid
+boolean[] getPropertyVersionability() | get property version ability
+boolean isApplicationVersionSuperiorTo(QString;) | is application version superior to
+boolean isExplicitVersionInsertion() | is explicit version insertion
+boolean isJavaVersionSuperiorTo(QString;) | is java version superior to
+boolean isValidVersionFormat(QString;) | is valid version format
+boolean isVersionCheckDataValid(I) | is version check data valid
+boolean isVersionECMA1() | is version ecma 1
+boolean isVersionPropertyInsertable() | is version property insertable
+Comparator getVersionComparator() | get version comparator
+Delete setVersionColumnName(QString;) | set version column name
+DERInteger getVersionNumber() | get version number
+EReference getCodingSchemeVersion_Relations() | get coding scheme version relations
+int getVersionProperty() | get version property
+int getVersionPropertyIndex() | get version property index
+long getSerialVersionUID() | get serial version uid
+Map constructVersionCheckMessage(QString;) | construct version check message
+Map getMostRecentVersionCheckData() | get most recent version check data
+Map getVersionCheckInfo(QString;) | get version check info
+Map getVersionCheckInfo(QString;I) | get version check info
+Map getVersionCheckInfoSupport(QString;ZZZ) | get version check info support
+Map performVersionCheck(QMap;ZZZ) | perform version check
+Object forceVersionIncrement(QSerializable;QObject;QSessionImplementor;) | force version increment
+ResultSet getVersionColumns(QString;QString;QString;) | get version columns
+String decodeAzStyleVersionNumber(QString;QString;) | decode az style version number
+String decodeCustomVersionNumber(QString;QString;) | decode custom version number
+String extractReadableVersionSubstringFromPeerID(QString;) | extract readable version substring from peer id
+String generateSelectVersionString() | generate select version string
+String generateVersionIncrementUpdateString() | generate version increment update string
+String getMainlineStyleVersionNumber(QString;) | get mainline style version number
+String getShadowStyleVersionNumber(QString;) | get shadow style version number
+String[] getSuffixedVersionAliases() | get suffixed version aliases
+String getVersionColumnName() | get version column name
+String getVersionFromJAR(QFile;) | get version from jar
+String getVersionSelectString() | get version select string
+String getVersionString() | get version string
+String readJabRefVersionNumber() | read jab ref version number
+Table SYSTEM_VERSIONCOLUMNS() | system version columns
+Type locateVersionType() | locate version type
+Update setVersionColumnName(QString;) | set version column name
+VersionProperty buildVersionProperty(QProperty;Z) | build version property
+VersionProperty getVersionProperty() | get version property
+VersionType getVersionType() | get version type
+VersionValue getUnsavedVersionValue(QString;QGetter;QVersionType;QConstructor;) | get unsaved version value
+void addToVersionCheckMessage(QMap;) | add to version check message
+void prependVersionColumnSpec() | prepend version column spec
+void readBuildVersionData(QString;) | read build version data
+void readVersionData() | read version data
+void writeVersionData() | write version data

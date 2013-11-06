@@ -1,0 +1,125 @@
+boolean compileOSAScript([QCharSequence;QFile;) | compile osa script
+boolean compileOSAScript(QCharSequence;QFile;) | compile osa script
+boolean hasCompileFunctionsWithDynamicScope() | has compile functions with dynamic scope
+boolean isCompiledQueryEqual(ForwardQueryResult qc) | is compiled query equal
+boolean isCompileSelectedOnly() | is compile selected only
+boolean _isGenericCompiler() | is generic compiler
+boolean isUsingCurrentFilesDirectoryForCompiles() | is using current files directory for compiles
+boolean _prepareForCompile() | prepare for compile
+byte[] compileToClassFile(QCompilerEnvirons;QString;QScriptOrFnNode;QString;Z) | compile to class file
+CompiledStatement compileCallStatement() | compile call statement
+CompiledStatement compileDeleteStatement() | compile delete statement
+CompiledStatement compileInsertStatement() | compile insert statement
+CompiledStatement compile(QSession;QString;) | compile
+CompiledStatement compileSelectStatement(I) | compile select statement
+CompiledStatement compileSql(QSession;QString;QString;) | compile sql
+CompiledStatement compileUpdateStatement() | compile update statement
+CompiledStatement sqlCompileStatement(QString;) | sql compile statement
+CompilerEnvirons getCompilerEnv() | get compiler env
+CompilerErrorModel getCompilerErrorModel() | get compiler error model
+CompilerInterface compiler() | compiler
+CompilerInterface getActiveCompiler() | get active compiler
+CompilerModel getCompilerModel() | get compiler model
+Expression compileMethodInvocation(Type type, ExpressionFactory expr, String name, ArgumentTransformations implicit, Expression args, int flags, Scope scope, AST pos) | compile method invocation
+Function compileFunction(QScriptable;QString;QInterpreter;QErrorReporter;QString;IQObject;) | compile function
+Function compileFunction(QScriptable;QString;QString;IQObject;) | compile function
+Interpreter createCompiler() | create compiler
+Iterable<QCompilerInterface;> getAvailableCompilers() | get available compilers
+JButton getCompileAllButton() | get compile all button
+jq_CompiledCode compile() | compile
+LinkedList<QDJError;> _parseExceptions2CompilerErrors(QLinkedList<QJExprParseException;>;) | parse exceptions 2 compiler errors
+LinkedList<QDJError;> _visitorErrors2CompilerErrors(QLinkedList<QPair<QString;QJExpressionIF;>;>;) | visitor errors 2 compiler errors
+List<+QDJError;> compile(QList<+QFile;>;QList<+QFile;>;QList<+QFile;>;QFile;QList<+QFile;>;QString;Z) | compile
+List<QFile;> _compileLanguageLevelsFiles(QList<QFile;>;QList<QDJError;>;QIterable<QFile;>;QIterable<QFile;>;) | compile language levels files
+Object compileImpl(QScriptable;QReader;QString;QString;IQObject;ZQInterpreter;QErrorReporter;) | compile impl
+Object compile(QCompilerEnvirons;QScriptOrFnNode;QString;Z) | compile
+Object compileRegExp(QContext;QString;QString;) | compile reg exp
+Object compileRE(QString;QString;Z) | compile re
+Object[] compileToClassFiles(QString;QString;IQString;) | compile to class files
+Object getCompilerData() | get compiler data
+Object getCompilerLock() | get compiler lock
+OpenDefinitionsDocument doCompile(QString;QFile;) | do compile
+Result sqlExecuteCompiledNoPreChecks(QCompiledStatement;[QObject;) | sql execute compiled no pre checks
+Scriptable compile(QContext;QScriptable;[QObject;) | compile
+Script compile(QContext;QString;) | compile
+Script compileReader(QReader;QString;IQObject;) | compile reader
+Script compileReader(QScriptable;QReader;QString;IQObject;) | compile reader
+Script compileString(QString;QInterpreter;QErrorReporter;QString;IQObject;) | compile string
+Script compileString(QString;QString;IQObject;) | compile string
+Script loadCompiledScript(QContext;QString;QObject;) | load compiled script
+String adapterForCompiler(QJavaVersion;) | adapter for compiler
+String getCompiledRegexpName(QScriptOrFnNode;I) | get compiled regexp name
+String getCompilerErrorString() | get compiler error string
+String getTranslatedCompileDirectory() | get translated compile directory
+void aboutToCompile(SourceFile unit) | about to compile
+void addCompiler(QCompilerInterface;) | add compiler
+void assertActiveCompilerChangedCount(I) | assert active compiler changed count
+void assertCompileBeforeJUnitCount(I) | assert compile before j unit count
+void assertCompileEndCount(I) | assert compile end count
+void assertCompileErrorsPresent(QString;Z) | assert compile errors present
+void assertCompileErrorsPresent(Z) | assert compile errors present
+void assertCompileStartCount(I) | assert compile start count
+void assertSaveBeforeCompileCount(I) | assert save before compile count
+void _compile() | compile
+void compile() | compile
+void _compileAll() | compile all
+void compileAll() | compile all
+void compileBeforeJUnit(QCompilerListener;) | compile before j unit
+void compileFiles() | compile files
+void _compileFiles(QList<QFile;>;QFile;) | compile files
+void _compileFolder() | compile folder
+void compileIllegal(QIGame;QEntity;QMoveStep;) | compile illegal
+void compileMove(QIGame;QEntity;QMoveStep;) | compile move
+void compilePattern() | compile pattern
+void _compileProject() | compile project
+void compileProject() | compile project
+void compile(QIGame;QEntity;) | compile
+void compile(QIGame;QEntity;QMoveStep;) | compile
+void compile(QList<QOpenDefinitionsDocument;>;) | compile
+void compile(QMap;Z) | compile
+void compile(QOpenDefinitionsDocument;) | compile
+void compile(QQueryTranslatorImpl;) | compile
+void compile(QSession;) | compile
+void compile(QString;QMap;Z) | compile
+void compileScript(QString;QString;) | compile script
+void compileStyleBreakdown([I[I) | compile style breakdown
+void disableCompileDirectoryBrowse() | disable compile directory browse
+void _doCompile(QList<QOpenDefinitionsDocument;>;) | do compile
+void doCompile(QMap;ZQString;) | do compile
+void doCompile(QOpenDefinitionsDocument;QFile;) | do compile
+void enableCompileDirectoryBrowse() | enable compile directory browse
+void logCompileStart() | log compile start
+void multInt(SimpleNode lhsn, SimpleNode rhsn, NQPyBlockCompiler compiler) | mult int
+void _notifyCompileBeforeJUnit(QCompilerListener;) | notify compile before j unit
+void _notifyCompileDone() | notify compile done
+void resetCompileCounts() | reset compile counts
+void resetCompilerErrors() | reset compiler errors
+void saveBeforeCompile() | save before compile
+void secondPassCompile() | second pass compile
+void secondPassCompileForeignKeys(QTable;QSet;) | second pass compile foreign keys
+void setActiveCompiler(QCompilerInterface;) | set active compiler
+void setCompileFunctionsWithDynamicScope(Z) | set compile functions with dynamic scope
+void setCompilerData(QObject;) | set compiler data
+void setCompileSelectedOnly(Z) | set compile selected only
+void setResetAfterCompile(Z) | set reset after compile
+void _setupCompilerPanel(QConfigPanel;) | setup compiler panel
+void setUsingCurrentFilesDirectoryForCompiles(Z) | set using current files directory for compiles
+void startCompile() | start compile
+void testCompileAllDifferentSourceRoots() | test compile all different source roots
+void testCompileAllFailsDifferentSourceRoots() | test compile all fails different source roots
+void testCompileAllWithNoFiles() | test compile all with no files
+void testCompileClassPathOKDefaultPackage() | test compile class path ok default package
+void testCompileClassPathOKDifferentPackages() | test compile class path ok different packages
+void testCompileFailsCorrectLineNumbers() | test compile fails correct line numbers
+void testCompileMissingCloseCurly() | test compile missing close curly
+void testCompilePackageAsField() | test compile package as field
+void testCompilePackageAsField2() | test compile package as field 2
+void testCompileReferenceToNonPublicClass() | test compile reference to non public class
+void testCompileResetsInteractions() | test compile resets interactions
+void testCompileWithGenerics() | test compile with generics
+void testCompileWithJavaAssert() | test compile with java assert
+void testCompileWithPackageStatementInsideClass() | test compile with package statement inside class
+void testInteractionsCanSeeCompiledClasses() | test interactions can see compiled classes
+void testStartCompile(QOpenDefinitionsDocument;) | test start compile
+void testUnsavedAndUnCompiledChanges() | test unsaved and un compiled changes
+void waitCompileDone() | wait compile done

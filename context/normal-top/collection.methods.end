@@ -1,0 +1,81 @@
+AlgorithmCollection getAlgorithmCollection() | get algorithm collection
+boolean containsCollection(QPersistentCollection;) | contains collection
+boolean hasDirtyCollection() | has dirty collection
+boolean indicatesCollection(QType;) | indicates collection
+boolean isCollection() | is collection
+boolean isInitialzedCollection(Object entityInstance, String fieldName) | is initialzed collection
+boolean isInverseCollection() | is inverse collection
+CollectionEntry addInitializedCollection(QCollectionPersister;QPersistentCollection;QSerializable;) | add initialized collection
+Collection getCollection(QString;) | get collection
+Collection getEmployeeListCollection(int individualID) | get employee list collection
+CollectionType customCollection(QString;QProperties;QString;QString;Z) | custom collection
+CollectionType customCollection(QString;QString;QString;Z) | custom collection
+Element writeCollection(QElement;QObject;QString;) | write collection
+FromElement createCollection(QQueryableCollection;QString;IZZ) | create collection
+NativeSQLQueryCollectionReturn bindLoadCollection(QElement;QMappings;) | bind load collection
+Object getCollection(QSerializable;QSessionImplementor;QObject;) | get collection
+Object processArrayOrNewCollection(QObject;QCollectionType;) | process array or new collection
+Object processCollection(QObject;QCollectionType;) | process collection
+Object readCollection(QElement;) | read collection
+Object resolveCollection(Object o) | resolve collection
+PersistentCollection getCollection() | get collection
+PersistentCollection getCollection(QCollectionKey;) | get collection
+PersistentCollection getLoadingCollection(QCollectionPersister;QSerializable;) | get loading collection
+PersistentCollection locateLoadingCollection(QCollectionPersister;QSerializable;) | locate loading collection
+PersistentCollection useUnownedCollection(QCollectionKey;) | use unowned collection
+QueryableCollection getQueryableCollection() | get queryable collection
+QueryableCollection getQueryableCollection(QString;QString;QSessionFactoryImplementor;) | get queryable collection
+QueryableCollection requireQueryableCollection(QString;) | require queryable collection
+ResourceAssignmentCollection getAssignmentCollection() | get assignment collection
+String addFromCollection(QQueryTranslatorImpl;) | add from collection
+String createNameForCollection(QString;) | create name for collection
+TaskDependencyCollection getDependencyCollection() | get dependency collection
+void addCollection(QCollection;) | add collection
+void addCollection(QPersistentCollection;QCollectionEntry;QSerializable;) | add collection
+void addCollection(QPersistentCollection;QCollectionPersister;) | add collection
+void addCollection(QString;QString;) | add collection
+void addCollection(QString;QString;QMap;) | add collection
+void addFromCollection(QString;QString;QJoinSequence;) | add from collection
+void addInitializedDetachedCollection(QCollectionPersister;QPersistentCollection;) | add initialized detached collection
+void addNewCollection(QCollectionPersister;QPersistentCollection;) | add new collection
+void addNonLazyCollection(QPersistentCollection;) | add non lazy collection
+void addUninitializedCollection(QCollectionPersister;QPersistentCollection;QSerializable;) | add uninitialized collection
+void addUninitializedDetachedCollection(QCollectionPersister;QPersistentCollection;) | add uninitialized detached collection
+void addUniqueCollection(FT_FeatureCollection value) | add unique collection
+void addUnownedCollection(QCollectionKey;QPersistentCollection;) | add unowned collection
+void bindCollection(QElement;QCollection;QString;QString;QMappings;Qjava.util.Map;) | bind collection
+void cascadeCollection(QObject;QCascadeStyle;QObject;QCollectionType;) | cascade collection
+void checkLhsIsNotCollection() | check lhs is not collection
+void dereferenceCollection(QCollectionType;ZZQString;QAST;) | dereference collection
+void dereferenceCollection(QString;QString;QQueryTranslatorImpl;) | dereference collection
+void doGarbageCollection() | do garbage collection
+void endLoadingCollection(QLoadingCollectionEntry;QCollectionPersister;) | end loading collection
+void evictCollection(QObject;QCollectionType;) | evict collection
+void evictCollection(QPersistentCollection;) | evict collection
+void evictCollection(QString;) | evict collection
+void evictCollection(QString;QSerializable;) | evict collection
+void fetchCollection(QString;) | fetch collection
+void initializeCollection(QFromClause;QString;QString;) | initialize collection
+void initializeCollection(QPersistentCollection;Z) | initialize collection
+void loadCollection() | load collection
+void loadCollection(QSessionImplementor;QSerializable;QType;) | load collection
+void loadCollection(QString;) | load collection
+void onInitializeCollection(QInitializeCollectionEvent;) | on initialize collection
+void onPostRecreateCollection(QPostCollectionRecreateEvent;) | on post recreate collection
+void onPostRemoveCollection(QPostCollectionRemoveEvent;) | on post remove collection
+void onPostUpdateCollection(QPostCollectionUpdateEvent;) | on post update collection
+void onPreRecreateCollection(QPreCollectionRecreateEvent;) | on pre recreate collection
+void onPreRemoveCollection(QPreCollectionRemoveEvent;) | on pre remove collection
+void onPreUpdateCollection(QPreCollectionUpdateEvent;) | on pre update collection
+void processDereferencedCollection(QPersistentCollection;QSessionImplementor;) | process dereferenced collection
+void processNeverReferencedCollection(QPersistentCollection;QSessionImplementor;) | process never referenced collection
+void processReachableCollection(QPersistentCollection;QCollectionType;QObject;QSessionImplementor;) | process reachable collection
+void processUnreachableCollection(QPersistentCollection;QSessionImplementor;) | process unreachable collection
+void reattachCollection(QPersistentCollection;QCollectionType;) | reattach collection
+void recreateCollection(QString;) | recreate collection
+void removeCollection(QCollectionPersister;QSerializable;QEventSource;) | remove collection
+void removeCollection(QString;) | remove collection
+void runGarbageCollection() | run garbage collection
+void setHasDirtyCollection(Z) | set has dirty collection
+void setQueryableCollection(QQueryableCollection;) | set queryable collection
+void updateCollection(QString;) | update collection

@@ -1,0 +1,9 @@
+boolean canBuild() | can build
+boolean canBuild(QBuildableType;) | can build
+boolean getAutoBuild() | get auto build
+int getIncrementalBuild() | get incremental build
+int getIncrementalBuild(QString;) | get incremental build
+void groupBuild(QNode;) | group build
+void setAutoBuild(Z) | set auto build
+void testJsonHashShouldNotReturnBuildSinceForNonActiveBuild() | test json hash should not return build since for non active build
+void testShouldBeAbleToReturnLastSuccessfulBuild() | test should be able to return last successful build

@@ -1,0 +1,24 @@
+int getHelpDescriptionSize() | get help description size
+int getMenuDescriptionSize() | get menu description size
+JPanel getDescriptionPanel() | get description panel
+Map getNamedParameterDescriptionMap() | get named parameter description map
+Result newParameterDescriptionResult(I) | new parameter description result
+String getDescriptionForPort(ZI) | get description for port
+String getDescriptionForPreview() | get description for preview
+String getDescriptionForPreview(QString;QAST;ZZ) | get description for preview
+String getDescriptionForPreview(QString;QString;ZZ) | get description for preview
+String getDescriptionFromType(QString;) | get description from type
+String getDescriptionLabel() | get description label
+String getDescriptionText() | get description text
+String getOldDescriptionForPort(I) | get old description for port
+URL getDescriptionURL() | get description url
+void clearDescriptionCache() | clear description cache
+void setDescriptionLabel(QString;) | set description label
+void setDescriptionPanel(QJPanel;) | set description panel
+void setDescriptionText(QString;) | set description text
+void setDescriptionURL(QString;) | set description url
+void setHelpDescriptionSize(I) | set help description size
+void setMenuDescriptionSize(I) | set menu description size
+void updateDescriptionLabel() | update description label
+void updateDescriptionLabel(QUnitLabel;Z) | update description label
+void updateDescriptionText() | update description text

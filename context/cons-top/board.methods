@@ -1,0 +1,23 @@
+CONS Board() | board
+CONS BoardComponent(QBoardView1;) | board component
+CONS BoardEditor() | board editor
+CONS BoardEvent(QObject;QCoords;I) | board event
+CONS Board(II) | board
+CONS Board(II[QIHex;) | board
+CONS Board(II[QIHex;QVector;QHashtable;) | board
+CONS BoardNewDialog(QFrame;[QString;I) | board new dialog
+CONS BoardNewDialog(QJFrame;) | board new dialog
+CONS BoardSelectionDialog(QClientGUI;) | board selection dialog
+CONS BoardView1(QIGame;QFrame;) | board view 1
+CONS BoardView1(QIGame;QFrame;QClientGUI;) | board view 1
+CONS BoardView1(QIGame;QJFrame;) | board view 1
+CONS BoardView1(QIGame;QJFrame;QClientGUI;) | board view 1
+CONS BoardViewEvent(QObject;I) | board view event
+CONS BoardViewEvent(QObject;II) | board view event
+CONS BoardViewEvent(QObject;QCoords;QEntity;II) | board view event
+CONS GameBoardChangeEvent(QObject;) | game board change event
+CONS GameBoardNewEvent(QObject;QIBoard;QIBoard;) | game board new event
+CONS MapboardAction(QFreeColClient;QString;QString;) | map board action
+CONS MapboardAction(QFreeColClient;QString;QString;I) | map board action
+CONS MapboardAction(QFreeColClient;QString;QString;IQKeyStroke;) | map board action
+CONS MapboardAction(QFreeColClient;QString;QString;QKeyStroke;) | map board action

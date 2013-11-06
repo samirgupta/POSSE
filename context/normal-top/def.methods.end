@@ -1,0 +1,26 @@
+ArcDef createArcDef() | create arc def
+ArcDef getArcDef() | get arc def
+Attribute getFieldDef(QString;) | get field def
+Attribute getOutputDef() | get output def
+boolean hasKeydef(Keydef keydef) | has key def
+ColumnDef getColumnDef(QString;I) | get column def
+Def createReducedDef(QSource;) | create reduced def
+DsDef createDsDef() | create ds def
+DsDef getDsDef() | get ds def
+EventDefinition getInEventDef(int idx) | get in event def
+java.awt.Image getImgDef() | get img def
+RrdDef getRrdDef() | get rrd def
+RrdExportDef getExportDef() | get export def
+RrdExportDef getRrdExportDef() | get rrd export def
+RrdGraphDef getRrdGraphDef() | get rrd graph def
+TargetMetaDef getTargetMetaDef() | get target meta def
+TypeDef getTypeDef(QString;) | get type def
+void addTypeDef(QString;QString;QProperties;) | add type def
+void bindTypeDef(QElement;QMappings;) | bind type def
+void caseTLabeldef(TLabeldef node) | case t label def
+void ColumnDef() | column def
+void parseFilterDef(QElement;QMappings;) | parse filter def
+void parseStyleDef(String styleDef) | parse style def
+void setExportDef(QRrdExportDef;) | set export def
+void setGraphDef(QRrdGraphDef;) | set graph def
+void setImgDef(QImage;) | set img def

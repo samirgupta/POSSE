@@ -1,0 +1,102 @@
+boolean data_stats_only | data stats only
+boolean LOG_STATS | log stats
+boolean sendStats | send stats
+boolean separate_prot_data_stats | separate prot data stats
+boolean SHOW_CONNECT_STATS | show connect stats
+boolean SHOW_DISCARD_RATE_STATS | show discard rate stats
+boolean TRACE_TCP_TRANSPORT_STATS | trace tcp transport stats
+byte FLAG_STATS | flag stats
+byte[] new_stats | new stats
+byte PROTOCOL_VERSION_MORE_STATS | protocol version more stats
+com.aelitis.azureus.core.dht.control.impl.DHTControlStatsImpl stats | stats
+com.aelitis.azureus.core.dht.router.impl.DHTRouterStatsImpl stats | stats
+com.aelitis.azureus.core.dht.transport.DHTTransportFullStats original_stats | original stats
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTTransportUDPStatsImpl stats | stats
+com.aelitis.azureus.core.dht.transport.udp.impl.packethandler.DHTUDPPacketHandlerStats stats | stats
+com.aelitis.azureus.core.dht.transport.util.DHTTransportStatsImpl stats | stats
+com.aelitis.azureus.core.diskmanager.cache.CacheFileManagerStats cacheStats | cache stats
+com.aelitis.azureus.core.diskmanager.cache.CacheFileManagerStats stats | stats
+com.aelitis.azureus.core.diskmanager.cache.impl.CacheFileManagerStatsImpl stats | stats
+com.aelitis.azureus.core.download.EnhancedDownloadManager.progressiveStats progressive_stats | progressive stats
+com.aelitis.azureus.core.networkmanager.impl.TransportStats stats | stats
+com.aelitis.azureus.core.networkmanager.NetworkManagerStats stats | stats
+com.aelitis.azureus.core.util.CopyOnWriteList stats | stats
+com.aelitis.net.udp.uc.impl.PRUDPPacketHandlerStatsImpl stats | stats
+com.aelitis.net.udp.uc.PRUDPPacketHandlerStats stats | stats
+int ACT_REPLY_STATS | act reply stats
+int ACT_REQUEST_STATS | act request stats
+int AT_STATS | at stats
+int defaultStatsPeriod | default stats period
+int ET_KEY_STATS_READ | et key stats read
+int LOG_PROG_STATS_PERIOD | log prog stats period
+int LOG_PROG_STATS_TICKS | log prog stats ticks
+int read_ahead_stats_wait | read ahead stats wait
+int READ_AHEAD_STATS_WAIT_TICKS | read ahead stats wait ticks
+int STATS_DURATION_SECS | stats duration secs
+int stats_log_ticks | stats log ticks
+int STATS_LOG_TICKS | stats log ticks
+int STATS_LOG_TIMER | stats log timer
+int stats_packets_duplicates | stats packets duplicates
+int stats_packets_resent_via_timer | stats packets resent via timer
+int stats_packets_unique_sent | stats packets unique sent
+int STATS_PERIOD | stats period
+int statsPeriods | stats periods
+int STATS_PERIOD_SECS | stats period secs
+int STATS_RESET_TIMER | stats reset timer
+int STATS_TICK_COUNT | stats tick count
+int stats_ticks | stats ticks
+int STATS_TICKS | stats ticks
+int STATS_TIME | stats time
+int stats_type | stats type
+int STATS_TYPE_NP_VER2 | stats type np ver 2
+int STATS_TYPE_ORIGINAL | stats type original
+int STATS_UPDATE_FREQUENCY | stats update frequency
+int TICKS_PER_STATS_PERIOD | ticks per stats period
+int VIEW_STATS | view stats
+java.lang.Object PEER_STATS_KEY | peer stats key
+java.lang.String DEFAULT_STATS_FILE_NAME | default stats file name
+java.lang.String MENU_ID_STATS | menu id stats
+java.lang.String STATS_DISCOVER | stats discover
+java.lang.String STATS_FOUND | stats found
+java.lang.String[] STATS_KEYS | stats keys
+java.lang.String STATS_MAP_BAD | stats map bad
+java.lang.String STATS_MAP_OK | stats map ok
+java.lang.String STATS_READ_BAD | stats read bad
+java.lang.String STATS_READ_OK | stats read ok
+java.util.List saved_stats_to_delete | saved stats to delete
+java.util.List stats_names | stats names
+java.util.Map saved_stats | saved stats
+java.util.Map stats_types | stats types
+long last_swarm_stats | last swarm stats
+long last_swarm_stats_calc_time | last swarm stats calc time
+long lStatsRefreshCount | l stats refresh count
+long lStatsRefreshTotalTime | l stats refresh total time
+long lStatsRefreshZeroCount | l stats refresh zero count
+long[] stats | stats
+long STATS_INIT_PERIOD | stats init period
+long STATS_PERIOD | stats period
+long stats_reset_time | stats reset time
+long stats_start_time | stats start time
+org.gudy.azureus2.core3.download.DownloadManagerStats dm_stats | dm stats
+org.gudy.azureus2.core3.download.impl.DownloadManagerStatsImpl stats | stats
+org.gudy.azureus2.core3.global.GlobalManagerStats global_manager_stats | global manager stats
+org.gudy.azureus2.core3.global.GlobalManagerStats global_stats | global stats
+org.gudy.azureus2.core3.global.GlobalManagerStats stats | stats
+org.gudy.azureus2.core3.global.impl.GlobalManagerStatsImpl stats | stats
+org.gudy.azureus2.core3.global.impl.GlobalManagerStatsWriter stats_writer | stats writer
+org.gudy.azureus2.core3.peer.PEPeerManagerStats _stats | stats
+org.gudy.azureus2.core3.peer.PEPeerManagerStats stats | stats
+org.gudy.azureus2.core3.stats.StatsWriterPeriodic stats_writer | stats writer
+org.gudy.azureus2.core3.stats.transfer.OverallStats overall_stats | overall stats
+org.gudy.azureus2.core3.stats.transfer.OverallStats stats | stats
+org.gudy.azureus2.core3.stats.transfer.OverallStats totalStats | total stats
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerStatsImpl stats | stats
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerTorrentStatsImpl stats | stats
+org.gudy.azureus2.core3.util.TimerEventPeriodic buddy_stats_timer | buddy stats timer
+org.gudy.azureus2.plugins.ddb.DistributedDatabaseKeyStats key_stats | key stats
+org.gudy.azureus2.plugins.download.DownloadManagerStats dm_stats | dm stats
+org.gudy.azureus2.plugins.download.DownloadManagerStats stats | stats
+org.gudy.azureus2.pluginsimpl.local.download.DownloadStatsImpl download_stats | download stats
+org.gudy.azureus2.pluginsimpl.remote.download.RPDownloadStats stats | stats
+org.gudy.azureus2.plugins.peers.PeerStats stats | stats
+org.gudy.azureus2.ui.swt.views.stats.TransferStatsView viewStats | view stats

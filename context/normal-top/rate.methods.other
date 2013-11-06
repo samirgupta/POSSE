@@ -1,0 +1,46 @@
+int determineRateSettingEx(IZZ) | determine rate setting ex
+int getDataReceiveRateNoLAN() | get data receive rate no lan
+int getDataReceiveRateNoLAN(I) | get data receive rate no lan
+int getDataSendRateAtClose() | get data send rate at close
+int getDataSendRateNoLAN() | get data send rate no lan
+int getDataSendRateNoLAN(I) | get data send rate no lan
+int getDownloadRateLimitBytesPerSecond() | get download rate limit bytes per second
+int getEffectiveUploadRateLimitBytesPerSecond() | get effective upload rate limit bytes per second
+int getGlobalDownloadRateBytesPerSec() | get global download rate bytes per sec
+int getGlobalDownloadRateLimitBytesPerSecond() | get global download rate limit bytes per second
+int getGroupRateLimit(QLimitedRateGroup;) | get group rate limit
+int getMaxDownloadRateBPS() | get max download rate bps
+int getMaxUploadRateBPSNormal() | get max upload rate bps normal
+int getMaxUploadRateBPSSeedingOnly() | get max upload rate bps seeding only
+int getProtocolReceiveRateNoLAN() | get protocol receive rate no lan
+int getProtocolReceiveRateNoLAN(I) | get protocol receive rate no lan
+int getProtocolSendRateNoLAN() | get protocol send rate no lan
+int getProtocolSendRateNoLAN(I) | get protocol send rate no lan
+int getRateLimitBytesPerSecond() | get rate limit bytes per second
+int getUploadRateLimitBytesPerSecond() | get upload rate limit bytes per second
+LimitedRateGroup getDownloadLimitedRateGroup() | get download limited rate group
+LimitedRateGroup[] getRateLimiters(Z) | get rate limiters
+LimitedRateGroup getUploadLimitedRateGroup() | get upload limited rate group
+long getEstimatedDownloadRateOfPeer() | get estimated download rate of peer
+long getEstimatedUploadRateOfPeer() | get estimated upload rate of peer
+Point getRateIconPos(QRectangle;II) | get rate icon pos
+String checkErrorRateTipText() | check error rate tip text
+String getRateUnitBase10(I) | get rate unit base 10
+String getRateUnit(I) | get rate unit
+String learningRateTipText() | learning rate tip text
+String noiseRateTipText() | noise rate tip text
+String useErrorRateTipText() | use error rate tip text
+void addInboundRateLimiter(QRateLimiter;) | add inbound rate limiter
+void addOutboundRateLimiter(QRateLimiter;) | add outbound rate limiter
+void addRateLimiter(QLimitedRateGroup;Z) | add rate limiter
+void addRateLimiter(QNetworkConnectionBase;QLimitedRateGroup;) | add rate limiter
+void addRateLimiter(QNetworkConnectionBase;QLimitedRateGroup;Z) | add rate limiter
+void addRateLimiters(QGenericMessageConnection;) | add rate limiters
+void removeInboundRateLimiter(QRateLimiter;) | remove inbound rate limiter
+void removeOutboundRateLimiter(QRateLimiter;) | remove outbound rate limiter
+void removeRateLimiter(QLimitedRateGroup;Z) | remove rate limiter
+void removeRateLimiter(QNetworkConnectionBase;QLimitedRateGroup;) | remove rate limiter
+void removeRateLimiter(QNetworkConnectionBase;QLimitedRateGroup;Z) | remove rate limiter
+void setDownloadRateLimitBytesPerSecond(I) | set download rate limit bytes per second
+void setGlobalDownloadRateLimitBytesPerSecond(I) | set global download rate limit bytes per second
+void setUploadRateLimitBytesPerSecond(I) | set upload rate limit bytes per second

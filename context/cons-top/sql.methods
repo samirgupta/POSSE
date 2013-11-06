@@ -1,0 +1,70 @@
+CONS CacheSQLStateConverter(QViolatedConstraintNameExtracter;) | cache sql state converter
+CONS CompositeSQLDataHandler() | composite sql data handler
+CONS CompositeSQLDataHandler(QSQLDataHandler;) | composite sql data handler
+CONS DefaultSQLDataHandler() | default sql data handler
+CONS DefaultSQLDataHandler(Z) | default sql data handler
+CONS HqlSqlWalker(QQueryTranslatorImpl;QSessionFactoryImplementor;QHqlParser;QMap;QString;) | hql sql walker
+CONS JRSQLExpressionArea() | jr sql expression area
+CONS MimerSQLDialect() | mim er sql dialect
+CONS MySQLDialect() | my sql dialect
+CONS MySQLExport() | my sql export
+CONS NamedSQLQueryDefinition(QString;[QNativeSQLQueryReturn;QList;ZQString;QInteger;QInteger;QFlushMode;QCacheMode;ZQString;QMap;Z) | named sql query definition
+CONS NamedSQLQueryDefinition(QString;QString;QList;ZQString;QInteger;QInteger;QFlushMode;QCacheMode;ZQString;QMap;Z) | named sql query definition
+CONS NamedSQLQueryDefinition(QString;QString;QList;ZQString;QInteger;QInteger;QFlushMode;QMap;Z) | named sql query definition
+CONS NamedSQLQuerySecondPass(QElement;QString;QMappings;) | named sql query second pass
+CONS NativeSQLQueryCollectionReturn(QString;QString;QString;QMap;QLockMode;) | native sql query collection return
+CONS NativeSQLQueryJoinReturn(QString;QString;QString;QMap;QLockMode;) | native sql query join return
+CONS NativeSQLQueryNonScalarReturn(QString;QMap;QLockMode;) | native sql query non scalar return
+CONS NativeSQLQueryPlan(QNativeSQLQuerySpecification;QSessionFactoryImplementor;) | native sql query plan
+CONS NativeSQLQueryRootReturn(QString;QString;QLockMode;) | native sql query root return
+CONS NativeSQLQueryRootReturn(QString;QString;QMap;QLockMode;) | native sql query root return
+CONS NativeSQLQueryScalarReturn(QString;QType;) | native sql query scalar return
+CONS NativeSQLQuerySpecification(QString;[QNativeSQLQueryReturn;QCollection;) | native sql query specification
+CONS NoArgSQLFunction(QString;QType;) | no arg sql function
+CONS NoArgSQLFunction(QString;QType;Z) | no arg sql function
+CONS PostgreSQLDialect() | postgre sql dialect
+CONS SqlASTFactory(QHqlSqlWalker;) | sql ast factory
+CONS SQLCriterion(QString;[QObject;[QType;) | sql criterion
+CONS SQLCustomQuery(QString;[QNativeSQLQueryReturn;QCollection;QSessionFactoryImplementor;) | sql custom query
+CONS SQLExceptionConverterFactory() | sql exception converter factory
+CONS SqlFile(QFile;ZQMap;) | sql file
+CONS SqlFile(ZQMap;) | sql file
+CONS SQLFunctionRegistry(QDialect;QMap;) | sql function registry
+CONS SQLFunctionTemplate(QType;QString;) | sql function template
+CONS SQLFunctionTemplate(QType;QString;Z) | sql function template
+CONS SqlGenerator(QSessionFactoryImplementor;) | sql generator
+CONS SQLGrammarException(QString;QSQLException;) | sql grammar exception
+CONS SQLGrammarException(QString;QSQLException;QString;) | sql grammar exception
+CONS SQLProjection(QString;QString;[QString;[QType;) | sql projection
+CONS SQLProjection(QString;[QString;[QType;) | sql projection
+CONS SQLQueryImpl(QNamedSQLQueryDefinition;QSessionImplementor;QParameterMetadata;) | sql query impl
+CONS SQLQueryImpl(QString;QList;QCollection;QFlushMode;ZQSessionImplementor;QParameterMetadata;) | sql query impl
+CONS SQLQueryImpl(QString;QSessionImplementor;QParameterMetadata;) | sql query impl
+CONS SQLQueryImpl(QString;[QString;[QClass;[QLockMode;QSessionImplementor;QCollection;QFlushMode;QParameterMetadata;) | sql query impl
+CONS SQLQueryImpl(QString;[QString;[QClass;QSessionImplementor;QParameterMetadata;) | sql query impl
+CONS SQLQueryParser(QString;QParserContext;) | sql query parser
+CONS SQLQueryReturnProcessor([QNativeSQLQueryReturn;QSessionFactoryImplementor;) | sql query return processor
+CONS SQLServerDialect() | sql server dialect
+CONS SqlServerTransferHelper() | sql server transfer helper
+CONS SqlServerTransferHelper(QTransferDb;QTraceable;QString;) | sql server transfer helper
+CONS SQLStateConverter(QViolatedConstraintNameExtracter;) | sql state converter
+CONS SQLStatementLogger() | sql statement logger
+CONS SQLStatementLogger(ZZ) | sql statement logger
+CONS SQLTokenMarker(QKeywordMap;) | sql token marker
+CONS SQLTokenMarker(QKeywordMap;Z) | sql token marker
+CONS SqlToolError() | sql tool error
+CONS SqlToolError(QString;) | sql tool error
+CONS SqlToolError(QString;QThrowable;) | sql tool error
+CONS SqlToolError(QThrowable;) | sql tool error
+CONS SqlToolHarness() | sql tool harness
+CONS SqltoolRB() | sqltool rb
+CONS SqlViewerDialog(QJFrame;) | sql viewer dialog
+CONS SqlViewer(QJFrame;) | sql viewer
+CONS StandardSQLFunction(QString;) | standard sql function
+CONS StandardSQLFunction(QString;QType;) | standard sql function
+CONS TestSqlPersistent(QString;) | test sql persistent
+CONS TestSql(QString;) | test sql
+CONS TestSqlTool(QString;) | test sql tool
+CONS TransferSQLText(QString;QTraceable;) | transfer sql text
+CONS VarArgsSQLFunction(QString;QString;QString;) | var args sql function
+CONS VarArgsSQLFunction(QType;QString;QString;QString;) | var args sql function

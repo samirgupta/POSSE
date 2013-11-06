@@ -1,0 +1,42 @@
+boolean bindLimitParametersFirst() | bind limit parameters first
+boolean bindLimitParametersInReverseOrder() | bind limit parameters in reverse order
+boolean isStartLimitTestFlagSet() | is start limit test flag set
+boolean rateLimitIncoming(QInetSocketAddress;) | rate limit incoming
+boolean supportsLimitOffset() | supports limit offset
+double getStrokeMiterLimitFactor() | get stroke miter limit factor
+int bindLimitParameters(QPreparedStatement;IQRowSelection;) | bind limit parameters
+int getDownloadRateLimitBytesPerSecond() | get download rate limit bytes per second
+int getEffectiveUploadRateLimitBytesPerSecond() | get effective upload rate limit bytes per second
+int getGlobalDownloadRateLimitBytesPerSecond() | get global download rate limit bytes per second
+int getLimitCount(QSession;I) | get limit count
+int getLimitStart(QSession;) | get limit start
+int getRateLimitBytesPerSecond() | get rate limit bytes per second
+int getUploadRateLimitBytesPerSecond() | get upload rate limit bytes per second
+Listener getLimitMenuItemListener(ZQMenu;QGlobalManager;QString;) | get limit menu item listener
+SaturatedMode getDownloadLimitSettingMode() | get download limit setting mode
+SaturatedMode getUploadLimitSettingMode() | get upload limit setting mode
+SMUpdate endLimitTesting() | end limit testing
+SMUpdate endLimitTesting(II) | end limit testing
+SMUpdate startLimitTesting(II) | start limit testing
+String frequencyLimitTipText() | frequency limit tip text
+String getLimitString(QList;) | get limit string
+String getLimitString(QString;II) | get limit string
+String getLimitString(QString;Z) | get limit string
+String getLimitStr(QList;Z) | get limit str
+String getLimitText(QSpeedManagerLimitEstimate;) | get limit text
+void createDownloadLimitMenu(QMenu;) | create download limit menu
+void createUploadLimitMenu(QMenu;) | create upload limit menu
+void endLimitTesting() | end limit testing
+void FilteredLimitEstimate(IFFQString;) | filtered limit estimate
+void logLimitStatus() | log limit status
+void setDownloadLimitSettingMode(I) | set download limit setting mode
+void setDownloadRateLimitBytesPerSecond(I) | set download rate limit bytes per second
+void setGlobalDownloadRateLimitBytesPerSecond(I) | set global download rate limit bytes per second
+void setUploadLimitSettingMode(I) | set upload limit setting mode
+void setUploadRateLimitBytesPerSecond(I) | set upload rate limit bytes per second
+void SMConfigLimitEstimate(IQSpeedLimitConfidence;) | sm config limit estimate
+void triggerLimitTestingFlag() | trigger limit testing flag
+void updateLimitEstimates() | update limit estimates
+void updateLimitTestingData(II) | update limit testing data
+void updateLimitTestingPing(F) | update limit testing ping
+void updateLimitTestingPing(I) | update limit testing ping

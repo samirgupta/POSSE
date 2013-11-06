@@ -1,0 +1,26 @@
+boolean isDamageRedraw() | is damage redraw
+DamageInfo getDamageInfo(QCEntity;Z) | get damage info
+double[] getDamageUtilities() | get damage utilities
+double getDamageUtility(QCEntity;) | get damage utility
+int getAffaDamageFor(QEntity;) | get af fa damage for
+int getCurrentDamageCapacity(QEntity;I) | get current damage capacity
+int getDamageAbsorption(QEntity;I) | get damage absorption
+int getDamageFor(QEntity;) | get damage for
+int getDamageFor(QEntity;I) | get damage for
+int getDamageFor(QEntity;QMounted;) | get damage for
+int getDamagePerShot() | get damage per shot
+int getDamageTakenBy(QEntity;) | get damage taken by
+int getDamageTakenBy(QEntity;QBuilding;) | get damage taken by
+int getDamageTakenBy(QEntity;QEntity;) | get damage taken by
+int getDamageTakenBy(QEntity;QEntity;Z) | get damage taken by
+int getDamageTakenBy(QEntity;QEntity;ZI) | get damage taken by
+int getPilotDamageTaken(I) | get pilot damage taken
+ToHitData getDamageWeaponMods(QEntity;QMounted;) | get damage weapon mods
+void applyDamageSummary(GameElementDamageSummary geds) | apply damage summary
+void artilleryDamageArea(QCoords;QCoords;QAmmoType;IQEntity;IIZI) | artillery damage area
+void artilleryDamageArea(QCoords;QCoords;QAmmoType;IQEntity;ZI) | artillery damage area
+void artilleryDamageHex(QCoords;QCoords;IQAmmoType;IQEntity;QEntity;ZI) | artillery damage hex
+void safeDamageRange(II) | safe damage range
+void safeDamageRange(QPosition;QPosition;) | safe damage range
+void setDamageRedraw(Z) | set damage redraw
+void setPilotDamageTaken(II) | set pilot damage taken

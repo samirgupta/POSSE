@@ -1,0 +1,9 @@
+CONS CertStoreCollectionSpi(QCertStoreParameters;) | cert store collection spi
+CONS DHTUDPPacketReplyStore(QDHTTransportUDPImpl;IJQDHTTransportContact;QDHTTransportContact;) | dhtudp packet reply store
+CONS DHTUDPPacketReplyStore(QDHTUDPPacketNetworkHandler;QInetSocketAddress;QDataInputStream;I) | dhtudp packet reply store
+CONS DHTUDPPacketRequestStore(QDHTTransportUDPImpl;JQDHTTransportUDPContactImpl;QDHTTransportUDPContactImpl;) | dhtudp packet request store
+CONS DHTUDPPacketRequestStore(QDHTUDPPacketNetworkHandler;QDataInputStream;JI) | dhtudp packet request store
+CONS JDataStoreDialect() | j data store dialect
+CONS PreferenceStore() | preference store
+CONS TagToMarkedTextStore() | tag to marked text store
+CONS TestStoredProcedure(QString;) | test stored procedure

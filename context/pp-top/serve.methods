@@ -1,0 +1,8 @@
+boolean getServerPublished() | get server published
+void checkServerTrusted([Qjava.security.cert.X509Certificate;QString;) | check server trusted
+void checkServerTrusted([QX509Certificate;QString;) | check server trusted
+void serverCreated(QTRTrackerServer;) | server created
+void serverDestroyed(QTRTrackerServer;) | server destroyed
+void serverDisconnected() | server disconnected
+void serverFailed(QThrowable;) | server failed
+void setServerPublished() | set server published

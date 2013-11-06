@@ -1,0 +1,38 @@
+int active_write_queue_processor_count | active write queue processor count
+int CHECK_QUEUE_LIMIT | check queue limit
+int defaultQueueSize | default queue size
+int FT_QUEUE_FULL | ft queue full
+int iQueueLocation | i queue location
+int MAX_QUEUE_SIZE | max queue size
+int TRANSFER_QUEUE_MAX | transfer queue max
+java.lang.String FILE_DEFAULT_QUEUE_PLAYLIST | file default queue playlist
+java.lang.String ST_DISK_READ_QUEUE_BYTES | st disk read queue bytes
+java.lang.String ST_DISK_READ_QUEUE_LENGTH | st disk read queue length
+java.lang.String ST_DISK_WRITE_QUEUE_BYTES | st disk write queue bytes
+java.lang.String ST_DISK_WRITE_QUEUE_LENGTH | st disk write queue length
+java.lang.String ST_NET_TCP_OUT_CANCEL_QUEUE_LENGTH | st net tcp out cancel queue length
+java.lang.String ST_NET_TCP_OUT_CLOSE_QUEUE_LENGTH | st net tcp out close queue length
+java.lang.String ST_NET_TCP_OUT_CONNECT_QUEUE_LENGTH | st net tcp out connect queue length
+java.lang.String ST_NET_TCP_OUT_PENDING_QUEUE_LENGTH | st net tcp out pending queue length
+java.util.Map mapQueueNoAZID | map queue no az id
+long MAX_RECV_QUEUE_DATA_SIZE | max recv queue data size
+long MAX_SEND_QUEUE_DATA_SIZE | max send queue data size
+long MAX_TRANSFER_QUEUE_BYTES | max transfer queue bytes
+long recv_queue_data_size | recv queue data size
+long send_queue_data_size | send queue data size
+org.gudy.azureus2.core3.util.AEMonitor alert_queue_mon | alert queue mon
+org.gudy.azureus2.core3.util.AEMonitor check_queue_mon | check queue mon
+org.gudy.azureus2.core3.util.AEMonitor close_queue_mon | close queue mon
+org.gudy.azureus2.core3.util.AEMonitor recv_queue_mon | recv queue mon
+org.gudy.azureus2.core3.util.AEMonitor request_queue_mon | request queue mon
+org.gudy.azureus2.core3.util.AEMonitor send_queue_mon | send queue mon
+org.gudy.azureus2.core3.util.AESemaphore async_check_queue_sem | async check queue sem
+org.gudy.azureus2.core3.util.AESemaphore check_queue_sem | check queue sem
+org.gudy.azureus2.core3.util.AESemaphore close_queue_sem | close queue sem
+org.gudy.azureus2.core3.util.AESemaphore dispatch_queue_sem | dispatch queue sem
+org.gudy.azureus2.core3.util.AESemaphore msg_queue_sem | msg queue sem
+org.gudy.azureus2.core3.util.AESemaphore msg_queue_slot_sem | msg queue slot sem
+org.gudy.azureus2.core3.util.AESemaphore pd_queue_sem | pd queue sem
+org.gudy.azureus2.core3.util.AESemaphore recv_queue_sem | recv queue sem
+org.gudy.azureus2.core3.util.AESemaphore send_queue_sem | send queue sem
+org.gudy.azureus2.ui.swt.Utils.addDataSourceCallback processDataSourceQueueCallback | process data source queue callback

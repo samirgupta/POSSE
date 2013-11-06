@@ -1,0 +1,37 @@
+boolean cookiesContain([QString;QString;) | cookies contain
+boolean getUseCookies() | get use cookies
+boolean handleCookies(QString;Z) | handle cookies
+boolean hasSetCookieName(QString;) | has set cookie name
+Cookie getCookie(QString;) | get cookie
+Cookie getCookies() | get cookies
+CookieJar getNecessaryCookie(Z) | get necessary cookie
+CookieJar getSignInCookie(QCookieJar;) | get sign in cookie
+CookieJar getSignInCookie(QCookieJar;QString;QString;) | get sign in cookie
+Iterator getCookieSerializers() | get cookie serializers
+StringBuffer getAllCookiesAndPage(QString;) | get all cookies and page
+StringBuffer getAllCookiesAndPage(QString;QString;) | get all cookies and page
+StringBuffer getAllCookiesAndPage(QString;QString;Z) | get all cookies and page
+StringBuffer getAllCookiesAndPage(QString;QString;ZQList;) | get all cookies and page
+String cookiesToString() | cookies to string
+String getCookieKey(QString;) | get cookie key
+String getCookie(QString;QURLConnection;) | get cookie
+String getCookies() | get cookies
+String[] getCookiesNames(QString;) | get cookies names
+String[] getRequiredCookies() | get required cookies
+URLConnection getAllCookiesFromPage(QString;QString;Z) | get all cookies from page
+URLConnection getAllCookiesFromPage(QString;QString;ZQList;) | get all cookies from page
+void addSetCookieName(QString;QString;) | add set cookie name
+void catchCookiesInRedirects() | catch cookies in redirects
+void CookieException(QString;QThrowable;) | cookie exception
+void cookieFound(QHTTPAuthHelper;QString;QString;) | cookie found
+void cookiesFound(QExternalLoginWindow;QString;) | cookies found
+void cookiesFound(QString;) | cookies found
+void extractCookies(URLConnection urlConnection) | extract cookies
+void foundCookies(QString;Z) | found cookies
+void getCookies() | get cookies
+void ignoreCookiesInRedirects() | ignore cookies in redirects
+void setCookieHandler() | set cookie handler
+void setCookie(QString;) | set cookie
+void setCookies(QString;) | set cookies
+void setRequiredCookies([QString;) | set required cookies
+void testCookieStringNotEquals() | test cookie string not equals

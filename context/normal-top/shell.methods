@@ -1,0 +1,49 @@
+boolean anyShellHaveStyle(I) | any shell have style
+boolean getShell() | get shell
+boolean isMoveWithShell() | is move with shell
+boolean isResizeWithShell() | is resize with shell
+boolean linkShellMetricsToConfig(QShell;QString;) | link shell metrics to config
+boolean shell(DDD) | shell
+boolean verifyShellRect(QShell;Z) | verify shell rect
+Collection getManagedShellSet() | get managed shell set
+int getShellStyle(I) | get shell style
+int shellExecuteAndWait(QString;QString;) | shell execute and wait
+int shellExecute(QString;QString;QString;QString;I) | shell execute
+Shell createMainShell(I) | create main shell
+Shell createShell(I) | create shell
+Shell createShell(QDisplay;) | create shell
+Shell createShell(QDisplay;I) | create shell
+Shell createShell(QShell;) | create shell
+Shell createShell(QShell;I) | create shell
+Shell findAnyShell() | find any shell
+Shell getMainShell() | get main shell
+Shell getRegisteredShell(QShell;) | get registered shell
+Shell getShell() | get shell
+ShellManager getShellManager() | get shell manager
+StyledShell createPopUpShell(IZ) | create pop up shell
+StyledShell createPopUpShell(IZZ) | create pop up shell
+void AEShell(I) | ae shell
+void AEShell(QDisplay;) | ae shell
+void AEShell(QDisplay;I) | ae shell
+void AEShell(QShell;) | ae shell
+void AEShell(QShell;I) | ae shell
+void centersShell() | centers shell
+void createCustomShell() | create custom shell
+void createShell(QShell;) | create shell
+void createStandardShell() | create standard shell
+void disposeShell(QShell;) | dispose shell
+void hideShell() | hide shell
+void hideShell(Z) | hide shell
+void makeShellVisible() | make shell visible
+void openShell() | open shell
+void openShell(Z) | open shell
+void openShell(ZZ) | open shell
+void performForShells(QListener;) | perform for shells
+void runExternalCommandViaUnixShell(QPrintWriter;QString;) | run external command via unix shell
+void setMoveWithShell(Z) | set move with shell
+void setResizeWithShell(Z) | set resize with shell
+void setShellAtStep(I) | set shell at step
+void setShellIcon(QShell;) | set shell icon
+void setShell(QShell;) | set shell
+void setShell(Z) | set shell
+void ShellMetricsResizeListener(QShell;QString;) | shell metrics resize listener

@@ -1,0 +1,103 @@
+ArrayList<QEntity;> getExternalUnits() | get external units
+Artifact createArtifact(Object externalId) | create artifact
+boolean addExternalFilesClassPath(QFile;) | add external files class path
+boolean canPlayViaExternalEMP(QTOTorrent;) | can play via external emp
+boolean handleExternalRequest(QInetSocketAddress;QString;QString;QString;QInputStream;QOutputStream;QAsyncController;) | handle external request
+boolean handleExternalRequest(QInetSocketAddress;QString;QString;QURL;QString;QInputStream;QOutputStream;QAsyncController;) | handle external request
+boolean hasExternalAuthorisation() | has external authorisation
+boolean invalidExternalAddress(QInetAddress;) | invalid external address
+boolean isExternal() | is external
+boolean isExternalAddress(QInetAddress;) | is external address
+boolean isExternalEntity(QString;) | is external entity
+boolean isUpdatedExternally() | is updated externally
+boolean openExternalFileAnyFormat(QMetaData;QString;QExternalFileType;) | open external file any format
+boolean openExternalFileUnknown(QJabRefFrame;QBibtexEntry;QMetaData;QString;QUnknownExternalFileType;) | open external file unknown
+boolean performExternalAuthorisation(QURL;QString;QString;) | perform external authorisation
+byte[] performExternalAuthorisation(QURL;QString;) | perform external authorisation
+External createNewExternal() | create new external
+ExternalFileType getExternalFileTypeByExt(QString;) | get external file type by ext
+ExternalFileType getExternalFileTypeByMimeType(QString;) | get external file type by mime type
+ExternalFileType getExternalFileTypeByName(QString;) | get external file type by name
+ExternalFileType[] getExternalFileTypeSelection() | get external file type selection
+ExternalSeedPlugin getExternalSeedPlugin() | get external seed plugin
+InetAddress getExternalAddress() | get external address
+InetAddress getExternalIpAddressHTTP(Z) | get external ip address http
+InetAddress getExternalIpAddressTCP(QInetAddress;IZ) | get external ip address tcp
+InetAddress getExternalIpAddressUDP(QInetAddress;IZ) | get external ip address udp
+InetAddress readExternalAddress() | read external address
+InetSocketAddress askContactForExternalAddress(QDHTTransportUDPContactImpl;) | ask contact for external address
+InetSocketAddress getExternalAddress() | get external address
+InetSocketAddress getExternalAddress(QInetSocketAddress;I) | get external address
+InputStream resolveExternalEntity(QString;QString;QString;) | resolve external entity
+int getExternalId() | get external id
+int getExternalPort() | get external port
+int getOriginalRideExternalId() | get original ride external id
+int getPickedUpByExternalId() | get picked up by external id
+IpRange checkExternalHandlers([BQInetAddress;) | check external handlers
+IpRange checkExternalHandlers([BQString;) | check external handlers
+Iterable<QFile;> getExternalFilesCP() | get external files cp
+List<QEntity;> getExternalUnits() | get external units
+List<QExternalFileType;> getDefaultExternalFileTypes() | get default external file types
+List<QFileListEntry;> getExternalLinksForEntries(QList<QBibtexEntry;>;) | get external links for entries
+Object toExternalFormat([B) | to external format
+Object toExternalFormat([C) | to external format
+PluginConfigSource enableExternalConfigSource() | enable external config source
+Reader openExternalEntity(QIXMLReader;QString;QString;) | open external entity
+String externalise(QString;) | externalise
+String getExternalAddress() | get external address
+String getExternalBinTitle() | get external bin title
+String getExternalIPAddress() | get external ip address
+String[] getExternalIPAddresses() | get external ip addresses
+String getExternalIpAddress(ZZ) | get external ip address
+String readExternalIds(boolean inNotation) | read external ids
+URL externalise(QURL;) | externalise
+void activateExternalPage(Object parameters, IRequestCycle cycle) | activate external page
+void addExternalDownload(QDownload;) | add external download
+void addExternalEntity(QString;QString;QString;) | add external entity
+void addExternalFilesClassPath(QFile;) | add external files class path
+void addExternalFilesCP(QFile;) | add external files cp
+void addExternalHandler(QIpFilterExternalHandler;) | add external handler
+void addExternalTorrent([BIJ) | add external torrent
+void buildExternalsPanel() | build externals panel
+void copyExternalLinksToDirectory(QList<QFileListEntry;>;QFile;QMetaData;QJProgressBar;ZQActionListener;) | copy external links to directory
+void disposeExternalResources() | dispose external resources
+void EditExternalFileTypesAction(QJabRefFrame;) | edit external file types action
+void EditExternalFileTypesAction(QJDialog;) | edit external file types action
+void _executeExternalProcess() | execute external process
+void externalAddressChange(QDHTTransportUDPContactImpl;QInetSocketAddress;Z) | external address change
+void ExternalFileEntry() | external file entry
+void ExternalFileEntry(QString;) | external file entry
+void getExternalAddress(QString;QDHTLogger;) | get external address
+void initEditExternalProcessDialog() | init edit external process dialog
+void initExecuteExternalProcessDialog() | init execute external process dialog
+void loadFromExternalMap(QMap;) | load from external map
+void LockHeldExternallyException(QLockFile;QString;JJ) | lock held externally exception
+void notifyOfExternallyReceivedMessage(QMessage;) | notify of externally received message
+void notifyOfExternallySentMessage(QMessage;) | notify of externally sent message
+void notifyOfExternalReceive(QMessage;) | notify of external receive
+void notifyOfExternalSend(QMessage;) | notify of external send
+void openExternalLink(QString;QMouseEvent;) | open external link
+void openExternalViewer(QMetaData;QString;QString;) | open external viewer
+void openRemoteExternalFile(QMetaData;QString;QExternalFileType;) | open remote external file
+void progressiveStatsExternal(QDownloadManager;QEnhancedDownloadManagerFile;) | progressive stats external
+void readExternal(ObjectInput in) | read external
+void readExternal(ObjectInput objectinput) | read external
+void registerExternalDefaults(QMap;) | register external defaults
+void removeExternalDownload(QDownload;) | remove external download
+void removeExternalHandler(QIpFilterExternalHandler;) | remove external handler
+void resetEditExternalProcessPosition() | reset edit external process position
+void resetExecuteExternalProcessPosition() | reset execute external process position
+void runExternalCommandViaUnixShell(QPrintWriter;QString;) | run external command via unix shell
+void setAllowExternalConnections(Z) | set allow external connections
+void setExternalConfirm(QConfirmCloseFileListEntryEditor;) | set external confirm
+void setExternalFileTypes(QList<QExternalFileType;>;) | set external file types
+void setExternalId(I) | set external id
+void setOriginalRideExternalId(I) | set original ride external id
+void setPickedUpByExternalId(I) | set picked up by external id
+void setUpdatedExternally(Z) | set updated externally
+void setupExternals() | setup externals
+void shiftExternal(II) | shift external
+void testEntityUpdateExternal() | test entity update external
+void testExternalAddressChange() | test external address change
+void updateExternalFileTypes() | update external file types
+void writeExternal(ObjectOutput out) | write external

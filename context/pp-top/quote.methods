@@ -1,0 +1,26 @@
+boolean isAliasQuoted() | is alias quoted
+boolean isQuoted() | is quoted
+boolean isSchemaQuoted() | is schema quoted
+CONS RowInputTextQuoted(QString;QString;QString;Z) | row input text quoted
+CONS RowOutputTextQuoted(QString;QString;QString;ZQString;) | row output text quoted
+String Quoted() | quoted
+String quoteIfNeeded(QString;) | quote if needed
+void mQUOTED() | m quoted
+void setQuoted(Z) | set quoted
+void testDollarEscapedQuoted() | test dollar escaped quoted
+void testDollarEscapeQuoted() | test dollar escape quoted
+void testDollarNestedQuoted() | test dollar nested quoted
+void testDollarQuoted() | test dollar quoted
+void testEscapeDollarNestedQuoted() | test escape dollar nested quoted
+void testEscapeDollarQuoted() | test escape dollar quoted
+void testEscapedQuoted() | test escaped quoted
+void testEscapeNestedQuoted() | test escape nested quoted
+void testEscapePipeDollarNestedQuoted() | test escape pipe dollar nested quoted
+void testEscapePipeDollarQuoted() | test escape pipe dollar quoted
+void testEscapePipeNestedQuoted() | test escape pipe nested quoted
+void testEscapePipeQuoted() | test escape pipe quoted
+void testEscapeQuoted() | test escape quoted
+void testIsQuoted() | test is quoted
+void testNestedQuoted() | test nested quoted
+void testQuoted() | test quoted
+void testQuoteEscapeQuoted() | test quote escape quoted

@@ -1,0 +1,106 @@
+ArrayList getAllChildTask(QDefaultMutableTreeNode;) | get all child task
+ArrayList getAllChildTask(QTask;) | get all child task
+AzureusCoreOperationTask getTask() | get task
+boolean canBeProjectTask(QTask;QTaskContainmentHierarchyFacade;) | can be project task
+boolean isProjectTask() | is project task
+boolean isProjectTaskOrContainsProjectTask(QTask;) | is project task or contains project task
+boolean isStartTask() | is start task
+boolean isSupertask() | is super task
+DelayedTask createDelayedTask(QRunnable;) | create delayed task
+DelayedTaskImpl addDelayedTask(QString;QRunnable;) | add delayed task
+GanttTask createTask() | create task
+GanttTask createTask(I) | create task
+GanttTask getPredecessorTask() | get predecessor task
+GanttTask getSelectedTask() | get selected task
+GanttTask getTask(I) | get task
+int getLengthOfTask() | get length of task
+int printTask(QGraphics;QList;) | print task
+List getListForTask(QList;QTask;) | get list for task
+Object executeTask(Object proposal, Object proposal_info) | execute task
+Object executeTask(QTask;) | execute task
+String serializeTask(QTask;I) | serialize task
+Task addTask(JQRunnable;JZ) | add task
+Task[] getReturnTask() | get return task
+Task getRootTask() | get root task
+Task getSuccessorTask() | get successor task
+Task getSupertask() | get super task
+Task getTask() | get task
+Task getTask(I) | get task
+Task newTask() | new task
+Task nextTask() | next task
+TaskNode getTaskNodeForTask(QTask;) | get task node for task
+Task peekTask() | peek task
+Task removeTask() | remove task
+void addRealTimeTask() | add real time task
+void addTask(QTask;) | add task
+void addTask(String summary, Priority priority, int complete, long dateTime, long startDateTime, long completeDateTime, boolean select) | add task
+void beginTask(QString;I) | begin task
+void callJavaTask(String name, VerilogReg doneReg, VerilogObject argVars) | call java task
+void cancelTask() | cancel task
+void changeNameOfTask() | change name of task
+void createSyncTask(I) | create sync task
+void deleteTask(QTask;) | delete task
+void DhtTask(QThreadPool;) | dht task
+void DMTask([QDownloadManager;) | dm task
+void DMTask([QDownloadManager;Z) | dm task
+void DMTask([QDownloadManager;ZZ) | dm task
+void drawPreviousStateTask(QGanttPreviousStateTask;I) | draw previous state task
+void editNewTask(QTask;) | edit new task
+void executeAsyncTask(QAsyncTask<QP;QR;>;QP;ZZ) | execute async task
+void executeTask(QAsyncTask<QP;QR;>;QP;ZZ) | execute task
+void executeTask(QView;) | execute task
+void HiddenTask(QDefaultMutableTreeNode;QDefaultMutableTreeNode;I) | hidden task
+void interruptTask() | interrupt task
+void loadTask(QAttributes;) | load task
+void markTask(QTask;) | mark task
+void nextTask() | next task
+void processNewTask(QTask;) | process new task
+void processTask([QTask;QTask;QArrayList;) | process task
+void propertiesTask() | properties task
+void queueTask(QDelayedTaskImpl;) | queue task
+void RefreshCanvasSwingTask() | refresh canvas swing task
+void RefreshCanvasSwingTask(Z) | refresh canvas swing task
+void RefreshTilesSwingTask(QTile;QTile;) | refresh tiles swing task
+void registerTask(QTask;) | register task
+void removeCustomColumnToAllNestedTask(QTaskContainmentHierarchyFacade;QTask;QString;) | remove custom column to all nested task
+void removeRealTimeTask() | remove real time task
+void removeTask(QTask;) | remove task
+void renameCustomColumnForAllNestedTask(QTaskContainmentHierarchyFacade;QTask;QString;QString;) | rename custom column for all nested task
+void reportCurrentTask(QAzureusCoreOperation;QString;) | report current task
+void reportCurrentTask(QString;) | report current task
+void runAsTask(QAzureusCoreOperationTask;) | run as task
+void scheduleAutocloseTask() | schedule autoclose task
+void selectTask(QTask;Z) | select task
+void setCustomColumnValueToAllNestedTask(QTaskContainmentHierarchyFacade;QTask;QString;QObject;) | set custom column value to all nested task
+void setEditingTask(QTask;) | set editing task
+void setPredecessorTask(I) | set predecessor task
+void setPredecessorTask(QTask;) | set predecessor task
+void setProjectTask(Z) | set project task
+void setSelectedTask() | set selected task
+void setSuccessorTask(I) | set successor task
+void setSuccessorTask(QTask;) | set successor task
+void setTask(QRunnable;) | set task
+void setTask(QTask;) | set task
+void shiftTask(QTask;QTaskLength;) | shift task
+void ShowConfirmDialogSwingTask(QString;QString;QString;[QString;) | show confirm dialog swing task
+void ShowErrorMessageSwingTask(QString;QString;) | show error message swing task
+void ShowInformationMessageSwingTask(QString;[QString;) | show information message swing task
+void ShowModelMessageSwingTask(QModelMessage;) | show model message swing task
+void ShowMonarchPanelSwingTask(QMonarchAction;[QString;) | show monarch panel swing task
+void ShowNegotiationDialogSwingTask(QUnit;QSettlement;QDiplomaticTrade;) | show negotiation dialog swing task
+void showNewTask(QString;) | show new task
+void ShowSelectFoundingFatherSwingTask(QList<QFoundingFather;>;) | show select founding father swing task
+void startTask() | start task
+void subTask(QString;) | sub task
+void testDependencyTargetedToNestedTask() | test dependency targeted to nested task
+void testEventIsSentOnCreatingNewTask() | test event is sent on creating new task
+void testLoopingDependencyTargetedAtSupertask() | test looping dependency targeted at super task
+void TimerBlinkTask(Z) | timer blink task
+void TrainingTask(IIIIQInstances;) | training task
+void UnitMoveAnimationCanvasSwingTask(QUnit;QDirection;) | unit move animation canvas swing task
+void UnitMoveAnimationCanvasSwingTask(QUnit;QTile;) | unit move animation canvas swing task
+void UnitMoveAnimationCanvasSwingTask(QUnit;QTile;Z) | unit move animation canvas swing task
+void waitingTask(I) | waiting task
+void writePreviousTask(QAttributes;) | write previous task
+void writeTask(QTransformerHandler;QGanttTask;QCustomColumnsStorage;) | write task
+void writeTask(QWriter;QDefaultMutableTreeNode;) | write task

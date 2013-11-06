@@ -1,0 +1,7 @@
+CONS VirtualAcceptSelector() | virtual accept selector
+CONS VirtualBlockingServerChannelSelector(QInetSocketAddress;IQSelectListener;) | virtual blocking server channel selector
+CONS VirtualChannelSelectorImpl(QVirtualChannelSelector;IZ) | virtual channel selector impl
+CONS VirtualChannelSelector(QString;IZ) | virtual channel selector
+CONS VirtualNonBlockingServerChannelSelector(QInetAddress;IIIQVirtualBlockingServerChannelSelector.SelectListener;) | virtual non blocking server channel selector
+CONS VirtualNonBlockingServerChannelSelector(QInetSocketAddress;IQVirtualBlockingServerChannelSelector.SelectListener;) | virtual non blocking server channel selector
+CONS virtual_parse_stack(QStack;) | virtual parse stack

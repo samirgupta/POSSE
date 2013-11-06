@@ -1,0 +1,57 @@
+CONS AIInGameInputHandler(QFreeColServer;QServerPlayer;QAIMain;) | ai in game input handler
+CONS EndGameModeChunk(QPEPiece;I) | end game mode chunk
+CONS FreeColGameObject() | free col game object
+CONS FreeColGameObject(QGame;) | free col game object
+CONS FreeColGameObject(QGame;QElement;) | free col game object
+CONS FreeColGameObject(QGame;QString;) | free col game object
+CONS FreeColGameObject(QGame;QXMLStreamReader;) | free col game object
+CONS Game() | game
+CONS GameBoardChangeEvent(QObject;) | game board change event
+CONS GameBoardNewEvent(QObject;QIBoard;QIBoard;) | game board new event
+CONS GameEndEvent(QObject;) | game end event
+CONS GameEntityChangeEvent(QObject;QEntity;) | game entity change event
+CONS GameEntityChangeEvent(QObject;QEntity;QVector;) | game entity change event
+CONS GameEntityEvent(QObject;QEntity;I) | game entity event
+CONS GameEntityNewEvent(QObject;QEntity;) | game entity new event
+CONS GameEntityNewEvent(QObject;QVector;) | game entity new event
+CONS GameEntityNewOffboardEvent(QObject;) | game entity new offboard event
+CONS GameEntityRemoveEvent(QObject;QEntity;) | game entity remove event
+CONS GameEvent(QObject;I) | game event
+CONS GameLog(QString;) | game log
+CONS GameMapQueryEvent(QObject;QMapSettings;) | game map query event
+CONS GameNewActionEvent(QObject;QEntityAction;) | game new action event
+CONS GameOptions() | game options
+CONS GameOptionsDialog(QCanvas;QFreeColClient;) | game options dialog
+CONS GameOptionsDialog(QClientGUI;) | game options dialog
+CONS GameOptionsDialog(QFrame;QGameOptions;) | game options dialog
+CONS GameOptionsDialog(QJFrame;QGameOptions;) | game options dialog
+CONS GameOptions(QElement;) | game options
+CONS GameOptions(QXMLStreamReader;) | game options
+CONS GamePhaseChangeEvent(QObject;II) | game phase change event
+CONS GamePlayerChangeEvent(QObject;QPlayer;) | game player change event
+CONS GamePlayerChatEvent(QObject;QPlayer;QString;) | game player chat event
+CONS GamePlayerConnectedEvent(QObject;QPlayer;) | game player connected event
+CONS GamePlayerDisconnectedEvent(QObject;QPlayer;) | game player disconnected event
+CONS GamePlayerEvent(QObject;QPlayer;I) | game player event
+CONS Game(QFreeColGameObjectListener;QModelController;QXMLStreamReader;[QFreeColGameObject;) | game
+CONS Game(QModelController;) | game
+CONS Game(QModelController;QXMLStreamReader;QString;) | game
+CONS GameReportEvent(QObject;QString;) | game report event
+CONS GameReports() | game reports
+CONS GamesContainer() | games container
+CONS GameSettingsChangeEvent(QObject;) | game settings change event
+CONS GamesOptionsPanel(QGamesContainer;) | games options panel
+CONS GameTurnChangeEvent(QObject;QPlayer;) | game turn change event
+CONS GameTurn(I) | game turn
+CONS InGameController(QFreeColClient;) | in game controller
+CONS InGameController(QFreeColServer;) | in game controller
+CONS InGameInputHandler(QFreeColClient;) | in game input handler
+CONS InGameInputHandler(QFreeColServer;) | in game input handler
+CONS InGameMenuBar(QFreeColClient;) | in game menu bar
+CONS LocalSaveGameCommand(QServer;) | local save game command
+CONS PreGameController(QFreeColClient;) | pre game controller
+CONS PreGameController(QFreeColServer;) | pre game controller
+CONS PreGameInputHandler(QFreeColClient;) | pre game input handler
+CONS PreGameInputHandler(QFreeColServer;) | pre game input handler
+CONS SaveGameCommand(QServer;) | save game command
+CONS StartGamePanel(QCanvas;QFreeColClient;) | start game panel

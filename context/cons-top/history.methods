@@ -1,0 +1,19 @@
+CONS BrowserHistoryManager() | browser history manager
+CONS BrowserHistoryManager(I) | browser history manager
+CONS BrowserHistoryPanel(QMainFrame;) | browser history panel
+CONS ClipboardHistoryFrame(QMainFrame;QString;QClipboardHistoryModel;QCloseAction;QCloseAction;) | clipboard history frame
+CONS ClipboardHistoryModel(I) | clipboard history model
+CONS FileHistory(QJabRefPreferences;QJabRefFrame;) | file history
+CONS History() | history
+CONS HistoryChangedEvent(QObject;QString;QDefaultListModel;) | history changed event
+CONS HistoryEvent() | history event
+CONS HistoryEvent(IQType;[QString;) | history event
+CONS History(I) | history
+CONS HistoryInformation() | history information
+CONS HistoryInformation(QDate;QDate;) | history information
+CONS HistoryItem(QString;J) | history item
+CONS HistorySaveDialog(QJFrame;) | history save dialog
+CONS ReportHistoryAction(QFreeColClient;) | report history action
+CONS ReportHistoryPanel(QCanvas;) | report history panel
+CONS ResultHistoryPanel(QJTextComponent;) | result history panel
+CONS SubscriptionHistoryImpl(QSubscriptionManagerImpl;QSubscriptionImpl;) | subscription history impl

@@ -1,0 +1,34 @@
+boolean uploadHitLimit | upload hit limit
+boolean uploadOnly | upload only
+boolean uploadTestRan | upload test ran
+com.aelitis.azureus.core.networkmanager.impl.TransferProcessor upload_processor | upload processor
+com.aelitis.azureus.core.networkmanager.LimitedRateGroup upload_limited_rate_group | upload limited rate group
+com.aelitis.azureus.core.networkmanager.LimitedRateGroup upload_limiter | upload limiter
+com.aelitis.azureus.core.networkmanager.LimitedRateGroup[] upload_limiters | upload limiters
+com.aelitis.azureus.core.peermanager.uploadslots.UploadHelper upload_helper | upload helper
+com.aelitis.azureus.core.speedmanager.impl.v2.SaturatedMode uploadBandwidthStatus | upload bandwidth status
+com.aelitis.azureus.core.speedmanager.impl.v2.SaturatedMode uploadLimitSettingStatus | upload limit setting status
+com.aelitis.azureus.core.speedmanager.impl.v2.SpeedLimitConfidence uploadLimitConf | upload limit conf
+com.aelitis.azureus.core.speedmanager.impl.v2.TransferMode.State UPLOAD_LIMIT_SEARCH | upload limit search
+com.aelitis.azureus.core.util.average.Average upload_average | upload average
+com.aelitis.azureus.core.util.average.Average upload_short_average | upload short average
+com.aelitis.azureus.core.util.average.Average upload_short_prot_average | upload short prot average
+int uploadBound | upload bound
+int uploadChokePingCount | upload choke ping count
+int upload_limit | upload limit
+int uploadLimitMax | upload limit max
+int uploadLimitMin | upload limit min
+int uploadPinCounter | upload pin counter
+int UPLOAD_SPEED_ADJUST_MIN_KB_SEC | upload speed adjust min kb sec
+int uploadTest | upload test
+int upload_when_busy_min_secs | upload when busy min secs
+java.lang.String UPLOAD_AVE | upload ave
+java.lang.String UPLOAD_CHOKE_PING_COUNT | upload choke ping count
+java.lang.String UPLOAD_CONFIGKEY | upload config key
+java.lang.String UPLOAD_CONF_LIMIT_SETTING | upload conf limit setting
+java.lang.String UPLOAD_SEEDING_CONFIGKEY | upload seeding config key
+java.lang.String UPLOAD_SEEDING_ENABLED_CONFIGKEY | upload seeding enabled config key
+java.lang.String UPLOAD_STD_DEV | upload std dev
+long uploadAtLimitStartTime | upload at limit start time
+long upload_average | upload average
+org.gudy.azureus2.ui.swt.config.IntParameter uploadMaxLim | upload max lim

@@ -1,0 +1,43 @@
+AbstractAction getImportAction(QJabRefFrame;Z) | get import action
+Action createImportModifyBackgroundImageAction(QHome;Z) | create import modify background image action
+boolean activateImportFetcher() | activate import fetcher
+boolean canImportFlavor([QDataFlavor;) | can import flavor
+Button getImportASignedButton() | get import a signed button
+ImportFormat getImportFormat() | get import format
+JDialog showImportTextureWizard(QUserPreferences;QContainer;QJComponentTester;Z) | show import texture wizard
+JFileChooser createImportFileChooser(QString;) | create import file chooser
+JMenuItem createImportModifyBackgroundImageMenuItem(QHome;Z) | create import modify background image menu item
+List<QImportFormatExtension;> getImportFormatExtensions() | get import format extensions
+MenuItem addImportMenuItem(QMenu;) | add import menu item
+MyMenu buildImportMenu() | build import menu
+net.sf.jabref.imports.ImportFormat getImportFormat() | get import format
+Object js_importClass([QObject;) | js import class
+Object js_importPackage([QObject;) | js import package
+ParserResult mergeImportResults(QList<QPair<QString;QParserResult;>;>;) | merge import results
+SchemaExport setImportFile(QString;) | set import file
+SortedSet<QImportFormat;> getCustomImportFormats() | get custom import formats
+SortedSet<QImportFormat;> getImportFormats() | get import formats
+String getImportFile() | get import file
+String getImportFormatList() | get import format list
+String showImportFurnitureLibraryDialog() | show import furniture library dialog
+void beginImportCiteSeerProgress() | begin import cite seer progress
+void deactivateImportFetcher() | deactivate import fetcher
+void endImportCiteSeerProgress() | end import cite seer progress
+void _initAutoImportDialog() | init auto import dialog
+void loadOrImportFiles([QString;I) | load or import files
+void parseImportDeclarations(CompilationUnit compilationUnit, Scanner scanner) | parse import declarations
+void resetAutoImportDialogPosition() | reset auto import dialog position
+void resetImportFormats() | reset import formats
+void setImportFile(QString;) | set import file
+void setUpImportMenu(QJMenu;Z) | set up import menu
+void setUpImportMenus() | set up import menus
+void _showAutoImportDialog(QString;) | show auto import dialog
+void testDefaultImportExport() | test default import export
+void testImportEntries() | test import entries
+void testImportEntries2() | test import entries 2
+void testImportEntriesINSPEC() | test import entries in spec
+void testImportEntriesMedline() | test import entries medline
+void testImportEntriesWOS() | test import entries wos
+void testImportFurnitureWizard() | test import furniture wizard
+void testImportIEEEExport() | test import ieee export
+void testNonWsISchemaImportExceptionMessage() | test non ws i schema import exception message

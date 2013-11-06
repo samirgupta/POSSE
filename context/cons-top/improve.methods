@@ -1,0 +1,12 @@
+CONS ImprovedAveragingScaleFilter(IIII) | improved averaging scale filter
+CONS ImprovementAction(QFreeColClient;QImprovementActionType;) | improvement action
+CONS ImprovementActionType() | improvement action type
+CONS TileImprovementPlan(QAIMain;QElement;) | tile improvement plan
+CONS TileImprovementPlan(QAIMain;QString;) | tile improvement plan
+CONS TileImprovementPlan(QAIMain;QTile;QTileImprovementType;I) | tile improvement plan
+CONS TileImprovementPlan(QAIMain;QXMLStreamReader;) | tile improvement plan
+CONS TileImprovement(QGame;QElement;) | tile improvement
+CONS TileImprovement(QGame;QString;) | tile improvement
+CONS TileImprovement(QGame;QTile;QTileImprovementType;) | tile improvement
+CONS TileImprovement(QGame;QXMLStreamReader;) | tile improvement
+CONS TileImprovementType(I) | tile improvement type

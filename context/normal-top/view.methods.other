@@ -1,0 +1,103 @@
+AffineTransform getDrawingToViewTransform() | get drawing to view transform
+AttributeSet getViewAttributes(View v) | get view attributes
+BasicPluginViewModel createBasicPluginViewModel(QString;) | create basic plugin view model
+BasicPluginViewModel createLoggingViewModel(QLoggerChannel;Z) | create logging view model
+BasicPluginViewModel getBasicPluginViewModel(QString;) | get basic plugin view model
+BasicPluginViewModel getViewModel() | get view model
+boolean isViewScrollbars() | is view scrollbars
+boolean triggerIViewToolBar(QString;) | trigger i view tool bar
+ChartViewState getViewState() | get view state
+Class getIViewClass() | get i view class
+Class[] getIViewClassArgs() | get i view class args
+Composite createTableViewPanel(QComposite;) | create table view panel
+float get3DViewAspectRatio() | get 3 d view aspect ratio
+float getViewPitch() | get view pitch
+float getViewYaw() | get view yaw
+GPViewManager getViewManager() | get view manager
+int getObserverFieldOfViewInDegrees() | get observer field of view in degrees
+int getViewAs(int index) | get view as
+int getViewIndex() | get view index
+int getViewMode() | get view mode
+IView getIViewFromID(QString;) | get i view from id
+IView getViewByContainer(QContainer;) | get view by container
+JComponent createPlanView3DPane(QHome;QUserPreferences;QHomeController;) | create plan view 3 d pane
+JMenu createViewMenu() | create view menu
+List getViewBox() | get view box
+Map getViewListeners(QString;) | get view listeners
+MenuItem addLogsViewMenuItem(QMenu;) | add logs view menu item
+MenuItem addViewToolbarMenuItem(QMenu;) | add view toolbar menu item
+MenuItem createViewMenuItem(QMenu;) | create view menu item
+MenuItem createViewMenuItem(QSWTSkin;QMenu;QString;QString;QString;ZI) | create view menu item
+net.infonode.docking.View addViewAndPlaceIt(QIView;) | add view and place it
+Object[] getIViewClassVals() | get i view class vals
+Player getViewOwner() | get view owner
+Row[] getViewToModel() | get view to model
+String getCurrentySelectedViewID() | get currenty selected view id
+String getPluginViewName() | get plugin view name
+String getViewID() | get view id
+String getViewName() | get view name
+String getViewStatement(QString;) | get view statement
+SubQuery getViewSubquery(QView;) | get view subquery
+Table SYSTEM_VIEW_COLUMN_USAGE() | system view column usage
+Table SYSTEM_VIEW_ROUTINE_USAGE() | system view routine usage
+Table SYSTEM_VIEW_TABLE_USAGE() | system view table usage
+TreeItem createTreeItemFromIViewClass(QString;QString;QClass;) | create tree item from i view class
+TreeItem createTreeItemFromIViewClass(QString;QString;QString;QClass;[QClass;[QObject;QObject;QViewTitleInfo;Z) | create tree item from i view class
+View createView3D(QHome;QUserPreferences;QHomeController3D;) | create view 3 d
+ViewFactory getViewFactory() | get view factory
+ViewMode getViewMode() | get view mode
+void ActionViewStatusbar() | action view statusbar
+void ActionViewToolbar() | action view toolbar
+void addBoardViewListener(QBoardViewListener;) | add board view listener
+void addPluginAddedViewListener(QPluginAddedViewListener;) | add plugin added view listener
+void addSimpleViewMenu() | add simple view menu
+void addViewMenu() | add view menu
+void addViewMenuItems(QMenu;) | add view menu items
+void addViewMenu(QShell;) | add view menu
+void addViewToolBarsMenu(QMenu;) | add view tool bars menu
+void addViewToPerspective(QIView;) | add view to perspective
+void beginScrollViewInteraction(QMouseEvent;) | begin scroll view interaction
+void buildViewMenu() | build view menu
+void centerViewOnLine(I) | center view on line
+void centerViewOnOffset(I) | center view on offset
+void centerViewOnSelectedCell() | center view on selected cell
+void changeViewMode(I) | change view mode
+void checkUserViewNotExists(QSession;QString;QString;) | check user view not exists
+void checkViewTranslationAndContent(QString;[QString;QString;QString;QObject;) | check view translation and content
+void closeViewOrWindow() | close view or window
+void createIViewInfoMenuItem(QMenu;QIViewInfo;) | create i view info menu item
+void createIViewInfoMenuItems(QMenu;QMap;) | create i view info menu items
+void disabledViewModes() | disabled view modes
+void fitViewToBounds(QDisplay;QRectangle2D;J) | fit view to bounds
+void fitViewToBounds(QDisplay;QRectangle2D;QPoint2D;J) | fit view to bounds
+void FocusableViewListener(QHomeController;QJComponent;) | focusable view listener
+void GPViewImpl(QViewManagerImpl;QGanttTabbedPane;QContainer;QChart;QIcon;) | gp view impl
+void loadViewState(QAttributes;) | load view state
+void performViewEvent(QActionEvent;) | perform view event
+void PieceOfFurnitureTopViewIcon(QHomePieceOfFurniture;QComponent;) | piece of furniture top view icon
+void PluginViewWrapper(QPluginViewModel;) | plugin view wrapper
+void processBoardViewEvent(QBoardViewEvent;) | process board view event
+void removeBoardViewListener(QBoardViewListener;) | remove board view listener
+void removeViewChangeListener(ViewChangeListener vsl) | remove view change listener
+void ScrollViewInteraction(QMouseEvent;) | scroll view interaction
+void set3DViewAspectRatio(F) | set 3 d view aspect ratio
+void setIViewClassArgs([QClass;) | set i view class args
+void setIViewClass(QClass;) | set i view class
+void setIViewClassVals([QObject;) | set i view class vals
+void setObserverFieldOfViewInDegrees(I) | set observer field of view in degrees
+void setSkinObjectViewID(QSWTSkinObject;QString;) | set skin object view id
+void setupViewTitle() | setup view title
+void setViewID(QString;) | set view id
+void setViewIndex(I) | set view index
+void setViewMode(I) | set view mode
+void setViewMode(IZ) | set view mode
+void setViewPort() | set view port
+void setViewScrollbars(Z) | set view scrollbars
+void setViewYaw(F) | set view yaw
+void testInternalResourceViewResolverWithJstlAndContextParam() | test internal resource view resolver with jstl and context param
+void testViewAttachesTo() | test view attaches to
+void toggleViewMode() | toggle view mode
+void triggerPluginAddedViewListeners(QIViewInfo;) | trigger plugin added view listeners
+void updateViewPlatformTransform(QTransform3D;FFFFF) | update view platform transform
+void updateViewPlatformTransform(QTransformGroup;FF) | update view platform transform
+void updateViewPlatformTransform(QTransformGroup;QCamera;Z) | update view platform transform

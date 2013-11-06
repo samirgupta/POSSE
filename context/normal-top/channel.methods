@@ -1,0 +1,33 @@
+boolean getSensedActivity(int channel, byte state) | get sensed activity
+BufferedImage getChannelImage(QTiVoImageDocumentRequest;QBufferedImage;) | get channel image
+ChannelType getChannelTypes() | get channel types
+DiskManagerChannel createChannel() | create channel
+FileChannel getChannel() | get channel
+GP4MIDIChannel getChannels(I) | get channels
+GP4MIDIChannel readMIDIChannel() | read midi channel
+int channelWrite(QByteBuffer;) | channel write
+int getChannel() | get channel
+int getChannelEffects() | get channel effects
+LoggerChannel getChannel(QString;) | get channel
+LoggerChannel[] getChannels() | get channels
+LoggerChannel getNullChannel(QString;) | get null channel
+LoggerChannel getRPLoggerChannel() | get rp logger channel
+LoggerChannel getTimeStampedChannel(QString;) | get time stamped channel
+Map getChannelMap(QConsoleInput;) | get channel map
+RSSChannel[] getChannels() | get channels
+SocketChannel getSocketChannel() | get socket channel
+SocketChannel getSourceChannel() | get source channel
+String getChannel() | get channel
+void attachLoggerChannel(QLoggerChannel;) | attach logger channel
+void clearChannelList() | clear channel list
+void fillMidiChannel() | fill midi channel
+void listChannels() | list channels
+void putSample(int channelIndex, int entryIndex, int newValue) | put sample
+void setChannelAttributeWordDescription(String attributeName, String wordDescription) | set channel attribute word description
+void setChannelEffects(I) | set channel effects
+void setChannel(I) | set channel
+void setChannel(QString;) | set channel
+void setChannels(IQGP4MIDIChannel;) | set channels
+void setChannel(SocketChannel channel) | set channel
+void setRPLoggerChannel(QLoggerChannel;) | set rp logger channel
+void writeChannel(SongChannel channel) | write channel

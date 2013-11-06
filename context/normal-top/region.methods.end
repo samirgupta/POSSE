@@ -1,0 +1,55 @@
+boolean isInFollowLinkRegion(D) | is in follow link region
+boolean isInVerticalRegion(DD) | is in vertical region
+boolean matchesRegion(QHighlightInfo;) | matches region
+BrowserDocumentRegion getCurrentRegion() | get current region
+BrowserDocumentRegion nextCurrentRegion(QGlobalEventNotifier;) | next current region
+BrowserDocumentRegion prevCurrentRegion(QGlobalEventNotifier;) | prev current region
+CollectionRegion buildCollectionRegion(QString;QProperties;QCacheDataDescription;) | build collection region
+CollectionRegion getRegion() | get region
+Criteria setCacheRegion(QString;) | set cache region
+EntityRegion buildEntityRegion(QString;QProperties;QCacheDataDescription;) | build entity region
+EntityRegion getRegion() | get region
+int getNumSamplesPerRegion() | get num samples per region
+QueryResultsRegion buildQueryResultsRegion(QString;QProperties;) | build query results region
+QueryResultsRegion getRegion() | get region
+Query setCacheRegion(QString;) | set cache region
+Rectangle getControlRegion(QPoint2D;) | get control region
+Region getDiscoverableRegion() | get discoverable region
+Region getRegion() | get region
+Region getRegion(QString;) | get region
+Region getRoundedRegion(QRectangle;) | get rounded region
+Region getSecondLevelCacheRegion(QString;) | get second level cache region
+RegionListUserObj<QBrowserDocumentRegion;> getUserObjForRegion(QBrowserDocumentRegion;) | get user obj for region
+RegionListUserObj<QR;> getUserObjForRegion(QR;) | get user obj for region
+ServerRegion getRegion() | get region
+Shape getDependencyRegion(IQRectangle;) | get dependency region
+Shape getDependencyRegion(IQRectangle2D;) | get dependency region
+Shape getDirtyRegion(IQRectangle;) | get dirty region
+Shape getDirtyRegion(IQRectangle2D;) | get dirty region
+SoftLock lockRegion() | lock region
+String getCacheRegion() | get cache region
+String replaceLineRegion(QString;IIQString;B) | replace line region
+TimestampsRegion buildTimestampsRegion(QString;QProperties;) | build timestamps region
+TimestampsRegion getRegion() | get region
+T newDocumentRegion(QOpenDefinitionsDocument;II) | new document region
+void addBrowserRegion(QBrowserDocumentRegion;) | add browser region
+void addBrowserRegion(QBrowserDocumentRegion;QGlobalEventNotifier;) | add browser region
+void addRegion(QR;) | add region
+void addRegion(QR;I) | add region
+void backRegion() | back region
+void changeRegion(QBrowserDocumentRegion;QLambda<QBrowserDocumentRegion;QObject;>;) | change region
+void changeRegion(QR;QLambda<QR;QObject;>;) | change region
+void clearRegion(QGraphics2D;QRectangle2D;) | clear region
+void forwardRegion() | forward region
+void goToRegion() | go to region
+void removeBrowserRegion(QBrowserDocumentRegion;) | remove browser region
+void removeRegion(QR;) | remove region
+void setCacheRegion(QString;) | set cache region
+void setCurrentRegion(QBrowserDocumentRegion;) | set current region
+void setNumSamplesPerRegion(I) | set num samples per region
+void setRegion(QRegion;) | set region
+void setRegion(QServerRegion;) | set region
+void testBrowserDocumentRegion() | test browser document region
+void testDummyDocumentRegion() | test dummy document region
+void testSimpleDocumentRegion() | test simple document region
+void unlockRegion(QSoftLock;) | unlock region

@@ -1,0 +1,34 @@
+boolean sendBrowserMessage(QString;QString;) | send browser message
+boolean sendBrowserMessage(QString;QString;QCollection;) | send browser message
+boolean sendBrowserMessage(QString;QString;QMap;) | send browser message
+BrowserHistoryManager getBrowserHistoryManager() | get browser history manager
+int getInitialBrowserStyle(I) | get initial browser style
+JPanel buildLinuxBrowserLaunch() | build linux browser launch
+Map getBrowserHeaders(QString;) | get browser headers
+Object getBrowserData(QString;) | get browser data
+String getBrowserCommand() | get browser command
+String getBrowserHeadersToUse(QString;) | get browser headers to use
+String getFileBrowserName() | get file browser name
+SWTSkinObjectBrowser getBrowserSkinObject() | get browser skin object
+URL getBrowserPage() | get browser page
+void addBrowserRegion(QBrowserDocumentRegion;) | add browser region
+void addBrowserRegion(QBrowserDocumentRegion;QGlobalEventNotifier;) | add browser region
+void addToBrowserHistory() | add to browser history
+void clearBrowserRegions() | clear browser regions
+void displayBrowserMessage(QString;) | display browser message
+void JConfigMacBrowserTab() | j config mac browser tab
+void openBrowserURL() | open browser url
+void refreshBrowserPage(QString;) | refresh browser page
+void removeBrowserRegion(QBrowserDocumentRegion;) | remove browser region
+void resetBrowserPage(QString;) | reset browser page
+void sendBrowserMessage(QString;QString;) | send browser message
+void sendBrowserMessage(QString;QString;QMap;) | send browser message
+void setBrowserData(QString;QObject;) | set browser data
+void setBrowserFollowLinks(Z) | set browser follow links
+void setBrowserHeaders(QResourceDownloader;QString;) | set browser headers
+void setBrowserHeaders(QResourceDownloader;QString;QString;) | set browser headers
+void setBrowserHeaders(QResourceUploader;QString;QString;) | set browser headers
+void setBrowserHeaders(QURLConnection;QString;) | set browser headers
+void setBrowserHeaders(QURLConnection;QString;QString;) | set browser headers
+void setBrowserPage(QURL;) | set browser page
+void testBrowserDocumentRegion() | test browser document region

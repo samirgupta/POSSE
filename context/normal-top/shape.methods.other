@@ -1,0 +1,31 @@
+ArrayList getShapeElements() | get shape elements
+boolean containsShapeAtWithMargin(QShape;FFF) | contains shape at with margin
+int getPixelShapeHeight() | get pixel shape height
+int getPixelShapeWidth() | get pixel shape width
+Rectangle2D getShapeBounds2D(Shape shape) | get shape bounds 2 d
+Rectangle getShapePixelBounds(QShape;) | get shape pixel bounds
+Shape getDoorOrWindowShapeAtWallIntersection(QHomeDoorOrWindow;) | get door or window shape at wall intersection
+Shape getShape1() | get shape 1
+Shape getShape2() | get shape 2
+Shape getShapeOfOperation() | get shape of operation
+String getShapeState() | get shape state
+SWFShape tagDefineShape2(IQRect;) | tag define shape 2
+SWFShape tagDefineShape3(IQRect;) | tag define shape 3
+void Font2ShapeImpl(QTagWriter;IIIII[I[I[QRect;[I[I[I) | font 2 shape impl
+void MorphShapeBuilder(IQRect;QRect;) | morph shape builder
+void MorphShapeImpl(QTagWriter;) | morph shape impl
+void readShapeAttributes(QIXMLElement;QHashMap<QAttributeKey;QObject;>;) | read shape attributes
+void readUseShapeAttributes(QIXMLElement;QHashMap<QAttributeKey;QObject;>;) | read use shape attributes
+void setPixelShapeHeight(I) | set pixel shape height
+void setPixelShapeWidth(I) | set pixel shape width
+void setShape1(QShape;) | set shape 1
+void setShape2(QShape;) | set shape 2
+void setShapeSize([I) | set shape size
+void setShapeSize(QFastVector;) | set shape size
+void setShapeType([I) | set shape type
+void setShapeType(QFastVector;) | set shape type
+void SWFShapeImpl(QTagWriter;I) | swf shape impl
+void SWFShapeImpl(QTagWriter;ZZ) | swf shape impl
+void updateShapeNamesAndWindowPanesTransparency(QScene;) | update shape names and window panes transparency
+void updateWallShapeRadioButtons(QWallController;) | update wall shape radio buttons
+void writeShapeAttributes(QIXMLElement;QMap<QAttributeKey;QObject;>;) | write shape attributes

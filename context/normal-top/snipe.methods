@@ -1,0 +1,47 @@
+AmmoType createCLSniperAmmo() | create cl sniper ammo
+AmmoType createISSniperAmmo() | create is sniper ammo
+AuctionEntry getNextSnipe() | get next snipe
+boolean anySnipes() | any snipes
+boolean checkIfDangerousMultiSnipe(QComponent;[IQMultiSnipe;) | check if dangerous multi snipe
+boolean checkSnipe() | check snipe
+boolean dangerousSnipeWarning(QComponent;) | dangerous snipe warning
+boolean hasDefaultSnipeTime() | has default snipe time
+boolean isSafeMultiSnipe(QAuctionEntry;QAuctionEntry;) | is safe multi snipe
+boolean isSnipeValid() | is snipe valid
+Color snipeBidBackground(QAuctionEntry;) | snipe bid background
+Color snipeBidColor(QAuctionEntry;) | snipe bid color
+Currency getCancelledSnipe() | get cancelled snipe
+Currency getMaxOrSnipe(QAuctionEntry;) | get max or snipe
+Currency getSnipeBid() | get snipe bid
+Currency getSnipeValue(QAuctionEntry;) | get snipe value
+Date getSnipeDate() | get snipe date
+int do_snipe() | do snipe
+int getCancelledSnipeQuantity() | get cancelled snipe quantity
+int getSnipeQuantity() | get snipe quantity
+int getSnipes() | get snipes
+JPanel buildSnipeSettings() | build snipe settings
+long getDefaultSnipeTime() | get default snipe time
+long getGlobalSnipeTime() | get global snipe time
+long getSnipePadding() | get snipe padding
+long getSnipeTime() | get snipe time
+MultiSnipe getMultiSnipe() | get multi snipe
+StringBuffer cancelSnipe(QString;) | cancel snipe
+StringBuffer doSnipe(QString;) | do snipe
+StringBuffer setupSnipePage(QString;) | setup snipe page
+String formatSnipeAndBid(QAuctionEntry;) | format snipe and bid
+String formatSnipe(QAuctionEntry;QString;) | format snipe
+String formatTotalSnipe(QAuctionEntry;QString;) | format total snipe
+String genBidSnipeHTML(QAuctionEntry;QCurrency;) | gen bid snipe html
+String getSnipeResult(IQString;QAuctionEntry;) | get snipe result
+void CancelSnipe(QComponent;QAuctionEntry;) | cancel snipe
+void cancelSnipe(Z) | cancel snipe
+void checkConfigurationSnipeTime() | check configuration snipe time
+void DoMultiSnipe(QComponent;) | do multi snipe
+void DoSnipe(QComponent;QAuctionEntry;) | do snipe
+void prepareSnipe(QCurrency;) | prepare snipe
+void prepareSnipe(QCurrency;I) | prepare snipe
+void setDefaultSnipeTime(J) | set default snipe time
+void setMultiSnipe(QMultiSnipe;) | set multi snipe
+void setSnipeTime(J) | set snipe time
+WeaponType createCLSniper() | create cl sniper
+WeaponType createISSniper() | create is sniper

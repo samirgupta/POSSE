@@ -1,0 +1,16 @@
+boolean selectFirstAvailableMidiDevice() | select first available midi device
+boolean setCurrentDevice(I) | set current device
+Device getDevice() | get device
+Device registerDevice(QString;JQString;) | register device
+Device registerDevice(QString;QString;JQString;) | register device
+int processDevice(QUPnPDevice;) | process device
+MidiDevice getCurrentDevice() | get current device
+UPnPDevice getDevice() | get device
+UPnPRootDevice getRootDevice() | get root device
+void cleanDevice(QDevice;) | clean device
+void cleanDevice(QString;) | clean device
+void enableMidiInputDevice(int deviceId, boolean enable) | enable midi input device
+void ignoreDevice(QString;QURL;) | ignore device
+void removeDevice(QDevice;) | remove device
+void setCurrentMidiDevice(I) | set current midi device
+void setDevice(QDevice;) | set device

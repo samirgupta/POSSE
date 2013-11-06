@@ -1,0 +1,39 @@
+ArrayList getGlobalBestofPlaylist() | get global best of playlist
+ArrayList getGlobalNoveltiesPlaylist() | get global novelties playlist
+ArrayList getGlobalNoveltiesPlaylist(Z) | get global novelties playlist
+ArrayList getPlaylistFileItems() | get playlist file items
+ArrayList getPlaylists() | get playlists
+ArrayList getRepositoryCurrentPlaylistFileItem() | get repository current playlist file item
+ArrayList<QFile;> generatePlaylist() | generate playlist
+ArrayList<QFile;> getGlobalShufflePlaylist() | get global shuffle playlist
+ArrayList<QPlaylistFile;> getPlaylistFiles() | get playlist files
+boolean getPlaylists() | get playlists
+boolean isPlaylist(QString;) | is playlist
+boolean mapPlaylistFile(QString;) | map playlist file
+PlaylistFile changePlaylistFileName(QPlaylistFile;QString;) | change playlist file name
+PlaylistFile getPlayeablePlaylistFile() | get playeable playlist file
+PlaylistFile getPlaylistFile() | get playlist file
+PlaylistFileItem getCurrentPlaylistFileItem() | get current playlist file item
+PlaylistFile registerPlaylistFile(Qjava.io.File;QDirectory;) | register playlist file
+PlaylistFile registerPlaylistFile(QString;QString;QDirectory;) | register playlist file
+Playlist getPlaylist(QPlaylistFile;) | get playlist
+Playlist registerPlaylist(QPlaylistFile;) | register playlist
+Playlist registerPlaylist(QString;QPlaylistFile;) | register playlist
+Set<QPlaylistFile;> getPlaylistFiles() | get playlist files
+String getPlaylistPath() | get playlist path
+void addPlaylistFile(QPlaylistFile;) | add playlist file
+void addPlaylist(QNameValue;) | add playlist
+void changePlaylistFile(QPlaylistFile;QPlaylistFile;) | change playlist file
+void onPlaylist(QPlaylist;) | on playlist
+void PlaylistContainer(QPlaylistProxy;QString;QString;) | playlist container
+void PlaylistFilter() | playlist filter
+void populatePlaylists() | populate playlists
+void refreshPlaylist(QPlaylistFile;) | refresh playlist
+void removePlaylistFile(QPlaylistFile;) | remove playlist file
+void removePlaylist(QPlaylist;) | remove playlist
+void selectPlaylistFileItem(QPlaylistFileItem;) | select playlist file item
+void setCurrentPlaylistFileItem(QPlaylistFileItem;) | set current playlist file item
+void setPlaylistPath(QString;) | set playlist path
+void setPlaylistPath(String playlistPath) | set playlist path
+void setPlaylist(QPlaylistFile;) | set playlist
+void setPlaylists(QArrayList;) | set playlists

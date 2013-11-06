@@ -1,0 +1,15 @@
+Collection<AdminDatabaseUser> selectAllDatabaseUsers(String strLastName, String strFirstName, String strEmail, AdminAuthentication authenticationService) | select all database users
+Collection getUsers() | get users
+HashMappedList getUsers() | get users
+HsqlArrayList listVisibleUsers(QSession;Z) | list visible users
+LinkedList getUsers() | get users
+List getChampionsAsUsers() | get champions as users
+List getUsers() | get users
+StringBuffer getUsersPassword() | get users password
+TableModel getTblUsers() | get tbl users
+Table SYSTEM_USERS() | system users
+void ListUsersCommand() | list users command
+void removeRoleFromUsers(Role role) | remove role from users
+void setUsers(QLinkedList;) | set users
+void setUsers(QList;) | set users
+void setUsers(Set<PObject> users) | set users

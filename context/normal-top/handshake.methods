@@ -1,0 +1,17 @@
+byte[] getHandshakeReservedBytes() | get handshake reserved bytes
+byte getHandshakeType() | get handshake type
+int getHandshakeType() | get handshake type
+String getClientNameFromExtensionHandshake() | get client name from extension handshake
+void decodeAZHandshake(QAZHandshake;) | decode az handshake
+void decodeBTHandshake(QBTHandshake;) | decode bt handshake
+void decodeLTHandshake(QLTHandshake;) | decode lt handshake
+void doHandshake() | do handshake
+void doPostHandshakeProcessing() | do post handshake processing
+void handshake() | handshake
+void handshakeComplete() | handshake complete
+void handshakeFailure(QThrowable;) | handshake failure
+void handshakeSuccess(QProtocolDecoder;QByteBuffer;) | handshake success
+void sendAZHandshake() | send az handshake
+void sendBTHandshake() | send bt handshake
+void sendHandshake() | send handshake
+void sendLTHandshake() | send lt handshake

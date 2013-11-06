@@ -1,0 +1,765 @@
+../3-Phrases/3PS:boolean isPaused(DownloadManager manager) | is paused
+../3-Phrases/Base_Verb:PCStateMan getStateManagerById(Object oid) | get state manager by id
+../3-Phrases/Base_Verb:void saveInterpretersInfoModulesManager() | save interpreters info modules manager
+../3-Phrases/Base_Verb:PluginManagerDefaults getPluginManagerDefaults() | get plugin manager defaults
+../3-Phrases/Base_Verb:void setPersistenceManager(PersistenceManager persistenceManager) | set persistence manager
+../3-Phrases/Base_Verb:static ConnectionPoolManager getInstance(int iInitialCapacity, int iMaxCapacity, int iMinCapacity, int iCapacityIncrement, String sDriver, String sURL, String sUser, String sPassword) | connection pool manager get instance
+../3-Phrases/Base_Verb:DownloadManager getDownloadManager() | get download manager
+../3-Phrases/Base_Verb:TagPluginManager getTagPluginManager() | get tag plugin manager
+../3-Phrases/Base_Verb:void setSiteManager(SiteManager siteManager) | set site manager
+../3-Phrases/Base_Verb:I_IndexManager getIndexManager() | get index manager
+../3-Phrases/Base_Verb:void returnStorageManager(StorageManager sm) | return storage manager
+../3-Phrases/Base_Verb:static long ISceneManager_addDummyTransformationSceneNode__SWIG_2(long jarg1) | long iscene manager add dummy transformation scene node  swig  2
+../3-Phrases/Base_Verb:static LockManager getInstance() | lock manager get instance
+../3-Phrases/Base_Verb:static ArrayList getResourceManagerInfoArray(Hashtable t) | array list get resource manager info array
+../3-Phrases/Base_Verb:BaseServiceUnitManager createServiceUnitManager() | create service unit manager
+../3-Phrases/Base_Verb:Hashtable getNodeManagers(String className) | get node managers
+../3-Phrases/Base_Verb:LoggingManager getLoggingManager() | get logging manager
+../3-Phrases/Base_Verb:void setManager(String manager) | set manager
+../3-Phrases/Base_Verb:void testInitManagerNotManager() | test init manager not manager
+../3-Phrases/Base_Verb:static ToolWindowManager getInstance() | tool window manager get instance
+../3-Phrases/Base_Verb:static TranslateManager getInstance() | translate manager get instance
+../3-Phrases/Base_Verb:static String shutdownManager() | string shutdown manager
+../3-Phrases/Base_Verb:static DistributedVersionManager getLocalVersionManager() | distributed version manager get local version manager
+../3-Phrases/Base_Verb:XPluginManager getPluginManager() | get plugin manager
+../3-Phrases/drjava2:RegionManager<QBreakpoint;> getBreakpointManager() | get breakpoint manager
+../3-Phrases/drjava2:RegionManager<QMovingDocumentRegion;> getBookmarkManager() | get bookmark manager
+../3-Phrases/drjava2:List<QRegionManager<QMovingDocumentRegion;>;> getFindResultsManagers() | get find results managers
+../3-Phrases/drjava2:RegionManager<QMovingDocumentRegion;> createFindResultsManager() | create find results manager
+../3-Phrases/drjava2:void removeFindResultsManager(QRegionManager<QMovingDocumentRegion;>;) | remove find results manager
+../3-Phrases/drjava2:BrowserHistoryManager getBrowserHistoryManager() | get browser history manager
+../3-Phrases/drjava2:RegionManager<QBreakpoint;> getBreakpointManager() | get breakpoint manager
+../3-Phrases/drjava2:RegionManager<QMovingDocumentRegion;> getBookmarkManager() | get bookmark manager
+../3-Phrases/drjava2:boolean undoManagerCanUndo() | undo manager can undo
+../3-Phrases/drjava2:boolean undoManagerCanRedo() | undo manager can redo
+../3-Phrases/drjava2:CompoundUndoManager getUndoManager() | get undo manager
+../3-Phrases/drjava2:void resetUndoManager() | reset undo manager
+../3-Phrases/drjava2:CompoundUndoManager getUndoManager() | get undo manager
+../3-Phrases/drjava2:void resetUndoManager() | reset undo manager
+../3-Phrases/drjava2:boolean undoManagerCanUndo() | undo manager can undo
+../3-Phrases/drjava2:boolean undoManagerCanRedo() | undo manager can redo
+../3-Phrases/drjava2:RegionManager<QBreakpoint;> getBreakpointManager() | get breakpoint manager
+../3-Phrases/drjava2:RegionManager<QMovingDocumentRegion;> getBookmarkManager() | get bookmark manager
+../3-Phrases/drjava2:CONS BrowserHistoryManager(I) | browser history manager
+../3-Phrases/drjava2:CONS BrowserHistoryManager() | browser history manager
+../3-Phrases/drjava2:void shrinkManager() | shrink manager
+../3-Phrases/drjava2:RegionManager<QBreakpoint;> getBreakpointManager() | get breakpoint manager
+../3-Phrases/drjava2:RegionManager<QMovingDocumentRegion;> getBookmarkManager() | get bookmark manager
+../3-Phrases/drjava2:RegionManager<QMovingDocumentRegion;> createFindResultsManager() | create find results manager
+../3-Phrases/drjava2:void removeFindResultsManager(QRegionManager<QMovingDocumentRegion;>;) | remove find results manager
+../3-Phrases/drjava2:BrowserHistoryManager getBrowserHistoryManager() | get browser history manager
+../3-Phrases/drjava2:RegionManager<QBreakpoint;> getBreakpointManager() | get breakpoint manager
+../3-Phrases/drjava2:RegionManager<QMovingDocumentRegion;> getBookmarkManager() | get bookmark manager
+../3-Phrases/drjava2:CompoundUndoManager getUndoManager() | get undo manager
+../3-Phrases/drjava2:void resetUndoManager() | reset undo manager
+../3-Phrases/drjava2:boolean undoManagerCanUndo() | undo manager can undo
+../3-Phrases/drjava2:boolean undoManagerCanRedo() | undo manager can redo
+../3-Phrases/drjava2:void testRegionManager() | test region manager
+../3-Phrases/drjava2:RegionManager<QBreakpoint;> getBreakpointManager() | get breakpoint manager
+../3-Phrases/drjava2:RegionManager<QMovingDocumentRegion;> getBookmarkManager() | get bookmark manager
+../3-Phrases/drjava2:RegionManager<QMovingDocumentRegion;> createFindResultsManager() | create find results manager
+../3-Phrases/drjava2:void removeFindResultsManager(QRegionManager<QMovingDocumentRegion;>;) | remove find results manager
+../3-Phrases/drjava2:BrowserHistoryManager getBrowserHistoryManager() | get browser history manager
+../3-Phrases/drjava2:void DocManager(QDDReconstructor;Z) | doc manager
+../3-Phrases/drjava2:CONS PendingRequestManager(QJPDADebugger;) | pending request manager
+../3-Phrases/drjava2:EventRequestManager getEventRequestManager() | get event request manager
+../3-Phrases/drjava2:PendingRequestManager getPendingRequestManager() | get pending request manager
+../3-Phrases/drjava2:CONS CompoundUndoManager(QGlobalEventNotifier;) | compound undo manager
+../3-Phrases/drjava2:void textCompoundUndoManager() | text compound undo manager
+../3-Phrases/drjava2:CompoundUndoManager getUndoManager() | get undo manager
+../3-Phrases/drjava2:void resetUndoManager() | reset undo manager
+../3-Phrases/drjava2:CONS JUnitTestManager(QJUnitModelCallback;QLambda<QClassLoader;QClassLoader;>;) | j unit test manager
+../3-Phrases/drjava2:CONS ClassPathManager(QIterable<QFile;>;) | class path manager
+../3-Phrases/drjava2:void DJFileDisplayManager(QIcon;QIcon;QIcon;QIcon;QIcon;) | dj file display manager
+../3-Phrases/drjava2:void OddDisplayManager(QFileDisplayManager;QIcon;QIcon;QIcon;) | odd display manager
+../3-Phrases/drjava2:DJFileDisplayManager getFileDisplayManager20() | get file display manager 20
+../3-Phrases/drjava2:DJFileDisplayManager getFileDisplayManager30() | get file display manager 30
+../3-Phrases/drjava2:OddDisplayManager getOddDisplayManager20() | get odd display manager 20
+../3-Phrases/drjava2:OddDisplayManager getOddDisplayManager30() | get odd display manager 30
+../3-Phrases/drjava2:DisplayManager<QINavigatorItem;> getNavPaneDisplayManager() | get nav pane display manager
+../3-Phrases/drjava2:CONS KeyBindingManager() | key binding manager
+../3-Phrases/drjava2:HighlightManager getHighlightManager() | get highlight manager
+../3-Phrases/drjava2:CONS RecentFileManager(IQJMenu;QRecentFileAction;QVectorOption<QFile;>;) | recent file manager
+../3-Phrases/drjava2:void setDisplayManager(QDisplayManager<-QItemT;>;) | set display manager
+../3-Phrases/drjava2:CONS HighlightManager(QJTextComponent;) | highlight manager
+../3-Phrases/drjava2:CONS DefaultFileDisplayManager() | default file display manager
+../3-Phrases/freecol2:ActionManager getActionManager() | get action manager
+../3-Phrases/freecol2:CONS ActionManager(QFreeColClient;) | action manager
+../3-Phrases/freemind:CONS ImportMindmanagerFiles() | import mind manager files
+../3-Phrases/freemind:void importMindmanagerFile(QFile;) | import mind manager file
+../3-Phrases/freemind:MapModuleManager getMapModuleManager() | get map module manager
+../3-Phrases/freemind:void HistoryManager() | history manager
+../3-Phrases/freemind:CONS MapModuleManager(QController;QHistoryManager;QLastOpenedList;) | map module manager
+../3-Phrases/gantt:ResourceManager getHumanResourceManager() | get human resource manager
+../3-Phrases/gantt:RoleManager getRoleManager() | get role manager
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:DocumentManager getDocumentManager() | get document manager
+../3-Phrases/gantt:CustomPropertyManager getResourceCustomPropertyManager() | get resource custom property manager
+../3-Phrases/gantt:ScrollingManager getScrollingManager() | get scrolling manager
+../3-Phrases/gantt:ZoomManager getZoomManager() | get zoom manager
+../3-Phrases/gantt:GPUndoManager getUndoManager() | get undo manager
+../3-Phrases/gantt:GPUndoManager getUndoManager() | get undo manager
+../3-Phrases/gantt:void setTaskManager(QTaskManager;) | set task manager
+../3-Phrases/gantt:void registerCustomColumnsManager(QCustomColumnsManager;) | register custom columns manager
+../3-Phrases/gantt:void registerTaskSelectionManager(QTaskSelectionManager;) | register task selection manager
+../3-Phrases/gantt:void registerRoleManager(QRoleManager;) | register role manager
+../3-Phrases/gantt:void registerTaskManager(QTaskManager;) | register task manager
+../3-Phrases/gantt:void registerUndoManager(QGPUndoManager;) | register undo manager
+../3-Phrases/gantt:void registerDelayManager(QDelayManager;) | register delay manager
+../3-Phrases/gantt:CustomColumnsManager getCustomColumnsManager() | get custom columns manager
+../3-Phrases/gantt:TaskSelectionManager getTaskSelectionManager() | get task selection manager
+../3-Phrases/gantt:RoleManager getRoleManager() | get role manager
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:GPUndoManager getUndoManager() | get undo manager
+../3-Phrases/gantt:DelayManager getDelayManager() | get delay manager
+../3-Phrases/gantt:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:GPUndoManager getUndoManager() | get undo manager
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:RoleManager getRoleManager() | get role manager
+../3-Phrases/gantt:ResourceManager getResourceManager() | get resource manager
+../3-Phrases/gantt:ResourceManager getHumanResourceManager() | get human resource manager
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:RoleManager getRoleManager() | get role manager
+../3-Phrases/gantt:CustomPropertyManager getResourceCustomPropertyManager() | get resource custom property manager
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:void setTaskManager(QTaskManager;) | set task manager
+../3-Phrases/gantt:HumanResourceManager getHumanResourceManager() | get human resource manager
+../3-Phrases/gantt:void setTaskManager(QTaskManager;) | set task manager
+../3-Phrases/gantt:ScrollingManager getScrollingManager() | get scrolling manager
+../3-Phrases/gantt:ZoomManager getZoomManager() | get zoom manager
+../3-Phrases/gantt:GPUndoManager getUndoManager() | get undo manager
+../3-Phrases/gantt:GPViewManager getViewManager() | get view manager
+../3-Phrases/gantt:void ViewManagerImpl(QGanttTabbedPane;) | view manager impl
+../3-Phrases/gantt:ResourceManager getHumanResourceManager() | get human resource manager
+../3-Phrases/gantt:RoleManager getRoleManager() | get role manager
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:DocumentManager getDocumentManager() | get document manager
+../3-Phrases/gantt:RoleManager getRoleManager() | get role manager
+../3-Phrases/gantt:TaskManager getManager() | get manager
+../3-Phrases/gantt:ResourceManager getManager() | get manager
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:void setTaskManager(QTaskManager;) | set task manager
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:void setTaskManager(QTaskManager;) | set task manager
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:CONS DelayManager(QTaskManager;QGanttTree2;) | delay manager
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:RoleManager getRoleManager() | get role manager
+../3-Phrases/gantt:HumanResourceManager getHumanResourceManager() | get human resource manager
+../3-Phrases/gantt:ScrollingManager getScrollingManager() | get scrolling manager
+../3-Phrases/gantt:ZoomManager getZoomManager() | get zoom manager
+../3-Phrases/gantt:GPUndoManager getUndoManager() | get undo manager
+../3-Phrases/gantt:GPUndoManager getUndoManager() | get undo manager
+../3-Phrases/gantt:DocumentManager getDocumentManager() | get document manager
+../3-Phrases/gantt:RoleManager getRoleManager() | get role manager
+../3-Phrases/gantt:ScrollingManager getScrollingManager() | get scrolling manager
+../3-Phrases/gantt:ZoomManager getZoomManager() | get zoom manager
+../3-Phrases/gantt:GPUndoManager getUndoManager() | get undo manager
+../3-Phrases/gantt:CONS ScrollingManagerImpl() | scrolling manager impl
+../3-Phrases/gantt:CONS ZoomManager(QTimeUnitStack;) | zoom manager
+../3-Phrases/gantt:ResourceManager getResourceManager() | get resource manager
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:RoleManager getRoleManager() | get role manager
+../3-Phrases/gantt:TaskManager getManager() | get manager
+../3-Phrases/gantt:HumanResourceManager getResourceManager() | get resource manager
+../3-Phrases/gantt:CONS HumanResourceManager(QRole;) | human resource manager
+../3-Phrases/gantt:CustomPropertyManager getCustomPropertyManager() | get custom property manager
+../3-Phrases/gantt:CustomPropertyManager getCustomPropertyManager() | get custom property manager
+../3-Phrases/gantt:ResourceManager getManager() | get manager
+../3-Phrases/gantt:CONS RoleManagerImpl() | role manager impl
+../3-Phrases/gantt:CONS TaskSelectionManager() | task selection manager
+../3-Phrases/gantt:TaskManager getManager() | get manager
+../3-Phrases/gantt:CONS CustomColumnsManager(QGanttTreeTable;) | custom columns manager
+../3-Phrases/gantt:TaskManager getManager() | get manager
+../3-Phrases/gantt:CONS TaskManagerImpl(QTaskContainmentHierarchyFacade.Factory;QTaskManagerConfig;) | task manager impl
+../3-Phrases/gantt:TaskHierarchyManagerImpl getHierarchyManager() | get hierarchy manager
+../3-Phrases/gantt:ResourceManager getResourceManager() | get resource manager
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:ResourceManager getResourceManager() | get resource manager
+../3-Phrases/gantt:TaskManager newTaskManager() | new task manager
+../3-Phrases/gantt:TaskManager newTaskManager() | new task manager
+../3-Phrases/gantt:ResourceManager getResourceManager() | get resource manager
+../3-Phrases/gantt:TaskManager getTaskManager() | get task manager
+../3-Phrases/gantt:ResourceManager getResourceManager() | get resource manager
+../3-Phrases/gantt:CONS UndoManagerImpl(QIGanttProject;QParserFactory;QDocumentManager;) | undo manager impl
+../3-Phrases/gantt:DocumentManager getDocumentManager() | get document manager
+../3-Phrases/hibernate-3.3.1.GA:TransactionManagerLookup getTransactionManagerLookup() | get transaction manager lookup
+../3-Phrases/hibernate-3.3.1.GA:void setTransactionManagerLookup(QTransactionManagerLookup;) | set transaction manager lookup
+../3-Phrases/hibernate-3.3.1.GA:TransactionManagerLookup createTransactionManagerLookup(QProperties;) | create transaction manager lookup
+../3-Phrases/hibernate-3.3.1.GA:TransactionManager getTransactionManager() | get transaction manager
+../3-Phrases/hibernate-3.3.1.GA:TransactionManager getTransactionManager() | get transaction manager
+../3-Phrases/hibernate-3.3.1.GA:ConnectionManager getConnectionManager() | get connection manager
+../3-Phrases/hibernate-3.3.1.GA:CONS ConnectionManager(QSessionFactoryImplementor;QCallback;QConnectionReleaseMode;QConnection;QInterceptor;) | connection manager
+../3-Phrases/hibernate-3.3.1.GA:CONS ConnectionManager(QSessionFactoryImplementor;QCallback;QConnectionReleaseMode;QInterceptor;ZZ) | connection manager
+../3-Phrases/hibernate-3.3.1.GA:TransactionManager getTransactionManager(QProperties;) | get transaction manager
+../3-Phrases/hibernate-3.3.1.GA:void TransactionManagerAdapter(QProperties;) | transaction manager adapter
+../3-Phrases/hibernate-3.3.1.GA:TransactionManager getTransactionManager(QProperties;) | get transaction manager
+../3-Phrases/hibernate-3.3.1.GA:TransactionManager getTransactionManager(QProperties;) | get transaction manager
+../3-Phrases/hibernate-3.3.1.GA:boolean isTransactionManagerRequired() | is transaction manager required
+../3-Phrases/hibernate-3.3.1.GA:boolean isTransactionManagerRequired() | is transaction manager required
+../3-Phrases/hibernate-3.3.1.GA:TransactionManager getTransactionManager() | get transaction manager
+../3-Phrases/hibernate-3.3.1.GA:boolean isTransactionManagerRequired() | is transaction manager required
+../3-Phrases/hibernate-3.3.1.GA:TransactionManager getTransactionManager(QProperties;) | get transaction manager
+../3-Phrases/hibernate-3.3.1.GA:TransactionManager getTransactionManager(QProperties;) | get transaction manager
+../3-Phrases/hibernate-3.3.1.GA:CONS TransactionManagerLookupFactory() | transaction manager lookup factory
+../3-Phrases/hibernate-3.3.1.GA:TransactionManager getTransactionManager(QProperties;) | get transaction manager
+../3-Phrases/hibernate-3.3.1.GA:TransactionManagerLookup getTransactionManagerLookup(QProperties;) | get transaction manager lookup
+../3-Phrases/hibernate-3.3.1.GA:CONS WebSphereTransactionManagerLookup() | web sphere transaction manager lookup
+../3-Phrases/hibernate-3.3.1.GA:TransactionManager getTransactionManager(QProperties;) | get transaction manager
+../3-Phrases/hibernate-3.3.1.GA:TransactionManager getTransactionManager(QProperties;) | get transaction manager
+../3-Phrases/hibernate-3.3.1.GA:boolean isTransactionManagerRequired() | is transaction manager required
+../3-Phrases/hsqldb:CONS GranteeManager(QDatabase;) | grantee manager
+../3-Phrases/hsqldb:CONS UserManager(QDatabase;) | user manager
+../3-Phrases/hsqldb:SessionManager getSessionManager() | get session manager
+../3-Phrases/hsqldb:UserManager getUserManager() | get user manager
+../3-Phrases/hsqldb:GranteeManager getGranteeManager() | get grantee manager
+../3-Phrases/hsqldb:CONS SessionManager(QDatabase;) | session manager
+../3-Phrases/hsqldb:CONS SequenceManager() | sequence manager
+../3-Phrases/hsqldb:CONS SchemaManager(QDatabase;) | schema manager
+../3-Phrases/hsqldb:CONS TransactionManager(QDatabase;) | transaction manager
+../3-Phrases/hsqldb:CONS CompiledStatementManager(QDatabase;) | compiled statement manager
+../3-Phrases/hsqldb:CONS DataFileBlockManager(IIJ) | data file block manager
+../3-Phrases/hsqldb:CONS DatabaseManagerSwing() | database manager swing
+../3-Phrases/hsqldb:CONS DatabaseManagerSwing(QJFrame;) | database manager swing
+../3-Phrases/hsqldb:CONS DatabaseManagerCommon() | database manager common
+../3-Phrases/Jabref:CONS SearchManager2(QJabRefFrame;QSidePaneManager;) | search manager 2
+../3-Phrases/Jabref:SidePaneManager getSidePaneManager() | get side pane manager
+../3-Phrases/Jabref:CONS SidePaneManager(QJabRefFrame;) | side pane manager
+../3-Phrases/Jabref:void startAutoSaveManager(QJabRefFrame;) | start auto save manager
+../3-Phrases/Jabref:void stopAutoSaveManager() | stop auto save manager
+../3-Phrases/Jabref:CONS AutoSaveManager(QJabRefFrame;) | auto save manager
+../3-Phrases/Jabref:PluginManager getManager() | get manager
+../3-Phrases/Jabref:CONS CountingUndoManager(QBasePanel;) | counting undo manager
+../3-Phrases/jajuk:CONS ItemManager() | item manager
+../3-Phrases/jajuk:void registerItemManager(QClass;QItemManager;) | register item manager
+../3-Phrases/jajuk:ItemManager getItemManager(QString;) | get item manager
+../3-Phrases/jajuk:ItemManager getItemManager(QClass;) | get item manager
+../3-Phrases/jajuk:Iterator getItemManagers() | get item managers
+../3-Phrases/jajuk:CONS TypeManager() | type manager
+../3-Phrases/jajuk:CONS TrackManager() | track manager
+../3-Phrases/jajuk:CONS PlaylistManager() | playlist manager
+../3-Phrases/jajuk:CONS DeviceManager() | device manager
+../3-Phrases/jajuk:CONS PlaylistFileManager() | playlist file manager
+../3-Phrases/jajuk:CONS AlbumManager() | album manager
+../3-Phrases/jajuk:CONS StyleManager() | style manager
+../3-Phrases/jajuk:CONS FileManager() | file manager
+../3-Phrases/jajuk:CONS DirectoryManager() | directory manager
+../3-Phrases/jajuk:CONS AuthorManager() | author manager
+../3-Phrases/jajuk:CONS DigitalDJManager() | digital dj manager
+../3-Phrases/jajuk:CONS AmbienceManager() | ambience manager
+../3-Phrases/jajuk:ItemManager getItemManager() | get item manager
+../3-Phrases/jajuk:CONS ActionManager() | action manager
+../3-Phrases/jajuk:CONS ViewManager() | view manager
+../3-Phrases/jajuk:CONS ConfigurationManager() | configuration manager
+../3-Phrases/javaHMO:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/javaHMO:CONS OptionsPanelManager(QMainFrame;) | options panel manager
+../3-Phrases/javaHMO:CONS PluginManager() | plugin manager
+../3-Phrases/javaHMO:CONS PluginManager(Z) | plugin manager
+../3-Phrases/javaHMO:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/javaHMO:CONS TiVoX509TrustManager() | ti vo x 509 trust manager
+../3-Phrases/jbidwatcher:CONS DeletedManager() | deleted manager
+../3-Phrases/jbidwatcher:CONS JTabManager() | j tab manager
+../3-Phrases/jbidwatcher:JTabManager getTabManager() | get tab manager
+../3-Phrases/jbidwatcher:CONS UpdateManager() | update manager
+../3-Phrases/jbidwatcher:CONS AuctionsManager() | auctions manager
+../3-Phrases/jbidwatcher:void setEntryManager(QEntryManager;) | set entry manager
+../3-Phrases/jbidwatcher:CONS AuctionServerManager() | auction server manager
+../3-Phrases/jbidwatcher:CONS ThumbnailManager() | thumbnail manager
+../3-Phrases/jbidwatcher:void setEntryManager(QEntryManager;) | set entry manager
+../3-Phrases/jbidwatcher:CONS FilterManager() | filter manager
+../3-Phrases/jbidwatcher:CONS SearchManager() | search manager
+../3-Phrases/Jftp:CONS BookmarkManager() | bookmark manager
+../3-Phrases/JHotDraw-7.0.8:CONS MDIDesktopManager(QMDIDesktopPane;) | mdi desktop manager
+../3-Phrases/JHotDraw-7.0.8:CONS UndoRedoManager() | undo redo manager
+../3-Phrases/JHotDraw-7.0.8:CONS StyleManager() | style manager
+../3-Phrases/MegaMek-0.32.0:TilesetManager getTilesetManager() | get tileset manager
+../3-Phrases/MegaMek-0.32.0:CONS TilesetManager(QComponent;) | tileset manager
+../3-Phrases/MegaMek-0.32.0:TilesetManager getTilesetManager() | get tileset manager
+../3-Phrases/MegaMek-0.32.0:CONS TilesetManager(QJComponent;) | tileset manager
+../3-Phrases/MegaMek-0.32.0:CONS PreferenceManager() | preference manager
+../3-Phrases/np:menu about to show(imenu manager menu manager)
+../3-Phrases/np:menu about to show(imenu manager manager)
+../3-Phrases/np:menu about to show(imenu manager manager)
+../3-Phrases/PlanetaMessenger:CONS JContactListManager() | j contact list manager
+../3-Phrases/PlanetaMessenger:CONS JLanguageManager() | j language manager
+../3-Phrases/PlanetaMessenger:CONS JLookAndFeelManager() | j look and feel manager
+../3-Phrases/PlanetaMessenger:CONS JProfileManager() | j profile manager
+../3-Phrases/PlanetaMessenger:JContactListManager getContactListManager() | get contact list manager
+../3-Phrases/PlanetaMessenger:JProfileManager getProfileManager() | get profile manager
+../3-Phrases/PlanetaMessenger:JLookAndFeelManager getLookAndFeelManager() | get look and feel manager
+../3-Phrases/PlanetaMessenger:JLanguageManager getLanguageManager() | get language manager
+../3-Phrases/PlanetaMessenger:CONS JMOSProfileManagerDlg(Qjava.awt.Frame;Z) | jmos profile manager dlg
+../3-Phrases/prefuse:CONS ActivityManager() | activity manager
+../3-Phrases/prefuse:void setTupleManager(QTupleManager;) | set tuple manager
+../3-Phrases/prefuse:void setTupleManagers(QTupleManager;QTupleManager;) | set tuple managers
+../3-Phrases/prefuse:void setTupleManagers(QTupleManager;QTupleManager;) | set tuple managers
+../3-Phrases/prefuse:CONS ExpressionParserTokenManager(QJavaCharStream;) | expression parser token manager
+../3-Phrases/prefuse:CONS ExpressionParserTokenManager(QJavaCharStream;I) | expression parser token manager
+../3-Phrases/prefuse:CONS TupleManager(QTable;QGraph;QClass;) | tuple manager
+../3-Phrases/prefuse:void TupleManagerIterator(QTupleManager;QIntIterator;) | tuple manager iterator
+../3-Phrases/prefuse:CONS FilteredRowManager(QTable;) | filtered row manager
+../3-Phrases/prefuse:CONS CascadedRowManager(QTable;) | cascaded row manager
+../3-Phrases/prefuse:CONS RowManager(QTable;) | row manager
+../3-Phrases/SweetHome3D:CONS AppletContentManager(QHomeRecorder;QUserPreferences;) | applet content manager
+../3-Phrases/SweetHome3D:void StandaloneServiceManager(QAppletContext;QURL;) | standalone service manager
+../3-Phrases/SweetHome3D:CONS TextureManager() | texture manager
+../3-Phrases/SweetHome3D:CONS ModelManager() | model manager
+../3-Phrases/SweetHome3D:CONS Component3DManager() | component 3 d manager
+../3-Phrases/SweetHome3D:CONS PluginManager(QFile;) | plugin manager
+../3-Phrases/SweetHome3D:CONS PluginManager([QURL;) | plugin manager
+../3-Phrases/SweetHome3D:CONS IconManager() | icon manager
+../3-Phrases/SweetHome3D:CONS FileContentManager(QUserPreferences;) | file content manager
+../3-Phrases/SweetHome3D:ContentManager getContentManager() | get content manager
+../3-Phrases/SweetHome3D:ContentManager getContentManager() | get content manager
+../3-Phrases/SweetHome3D:ContentManager getContentManager() | get content manager
+../3-Phrases/SweetHome3D:ContentManager getContentManager() | get content manager
+../3-Phrases/SweetHome3D:ContentManager getContentManager() | get content manager
+../3-Phrases/SweetHome3D:void testIconManager() | test icon manager
+../3-Phrases/vuze:void setDownloadManager(QDownloadManager;) | set download manager
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:GlobalManager getGlobalManager() | get global manager
+../3-Phrases/vuze:PluginManagerDefaults getPluginManagerDefaults() | get plugin manager defaults
+../3-Phrases/vuze:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/vuze:IpFilterManager getIpFilterManager() | get ip filter manager
+../3-Phrases/vuze:AZInstanceManager getInstanceManager() | get instance manager
+../3-Phrases/vuze:SpeedManager getSpeedManager() | get speed manager
+../3-Phrases/vuze:CryptoManager getCryptoManager() | get crypto manager
+../3-Phrases/vuze:CONS VuzeCryptoManager() | vu ze crypto manager
+../3-Phrases/vuze:CONS CustomizationManagerImpl() | customization manager impl
+../3-Phrases/vuze:CONS CacheFileManagerException(QCacheFile;QString;) | cache file manager exception
+../3-Phrases/vuze:CONS CacheFileManagerException(QCacheFile;QString;QThrowable;) | cache file manager exception
+../3-Phrases/vuze:CONS CacheFileManagerException(QCacheFile;QString;QThrowable;I) | cache file manager exception
+../3-Phrases/vuze:CONS CacheFileManagerImpl() | cache file manager impl
+../3-Phrases/vuze:CONS CacheFileManagerStatsImpl(QCacheFileManagerImpl;) | cache file manager stats impl
+../3-Phrases/vuze:CONS FMFileManagerException(QString;) | fm file manager exception
+../3-Phrases/vuze:CONS FMFileManagerException(QString;QThrowable;) | fm file manager exception
+../3-Phrases/vuze:CONS FMFileManagerImpl() | fm file manager impl
+../3-Phrases/vuze:FMFileManagerImpl getManager() | get manager
+../3-Phrases/vuze:CONS EnhancedDownloadManagerFile(QDiskManagerFileInfo;JQMap;) | enhanced download manager file
+../3-Phrases/vuze:CONS DownloadManagerEnhancer(QAzureusCore;) | download manager enhancer
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:DownloadManager findDownloadManager(QString;) | find download manager
+../3-Phrases/vuze:CONS EnhancedDownloadManager(QDownloadManagerEnhancer;QDownloadManager;) | enhanced download manager
+../3-Phrases/vuze:void peerManagerWillBeAdded(QPEPeerManager;) | peer manager will be added
+../3-Phrases/vuze:void peerManagerAdded(QPEPeerManager;) | peer manager added
+../3-Phrases/vuze:void peerManagerRemoved(QPEPeerManager;) | peer manager removed
+../3-Phrases/vuze:DownloadManager getDownloadManager() | get download manager
+../3-Phrases/vuze:GlobalManager getGlobalManager() | get global manager
+../3-Phrases/vuze:PluginManagerDefaults getPluginManagerDefaults() | get plugin manager defaults
+../3-Phrases/vuze:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/vuze:IpFilterManager getIpFilterManager() | get ip filter manager
+../3-Phrases/vuze:AZInstanceManager getInstanceManager() | get instance manager
+../3-Phrases/vuze:SpeedManager getSpeedManager() | get speed manager
+../3-Phrases/vuze:CryptoManager getCryptoManager() | get crypto manager
+../3-Phrases/vuze:CONS AZInstanceManagerImpl(QAzureusCore;) | az instance manager impl
+../3-Phrases/vuze:org.gudy.azureus2.plugins.peers.PeerManager getPeerManager() | get peer manager
+../3-Phrases/vuze:org.gudy.azureus2.plugins.disk.DiskManager getDiskManager() | get disk manager
+../3-Phrases/vuze:DiskManagerFileInfo[] getDiskManagerFileInfo() | get disk manager file info
+../3-Phrases/vuze:CONS LWSDiskManagerState() | lws disk manager state
+../3-Phrases/vuze:DownloadManager getDownloadManager() | get download manager
+../3-Phrases/vuze:CONS LightWeightSeedManager() | light weight seed manager
+../3-Phrases/vuze:CONS LWSDiskManager(QLightWeightSeed;QFile;) | lws disk manager
+../3-Phrases/vuze:DiskManager getManager() | get manager
+../3-Phrases/vuze:CONS LWSPeerManagerAdapter(QLightWeightSeed;QPeerManagerRegistration;) | lws peer manager adapter
+../3-Phrases/vuze:PeerManagerRegistration getPeerManagerRegistration() | get peer manager registration
+../3-Phrases/vuze:BrowserTransactionManager getTransactionManager() | get transaction manager
+../3-Phrases/vuze:BrowserTransactionManager getTransactionManager() | get transaction manager
+../3-Phrases/vuze:CONS BrowserTransactionManager(QClientMessageContext;) | browser transaction manager
+../3-Phrases/vuze:CONS MetaSearchManagerImpl() | meta search manager impl
+../3-Phrases/vuze:CONS NetworkManager() | network manager
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:void peerManagerWillBeAdded(QPEPeerManager;) | peer manager will be added
+../3-Phrases/vuze:void peerManagerAdded(QPEPeerManager;) | peer manager added
+../3-Phrases/vuze:void peerManagerRemoved(QPEPeerManager;) | peer manager removed
+../3-Phrases/vuze:CONS IncomingConnectionManager() | incoming connection manager
+../3-Phrases/vuze:HTTPNetworkManager getManager() | get manager
+../3-Phrases/vuze:CONS HTTPNetworkManager() | http network manager
+../3-Phrases/vuze:CONS TCPNetworkManager() | tcp network manager
+../3-Phrases/vuze:TCPConnectionManager getConnectDisconnectManager() | get connect disconnect manager
+../3-Phrases/vuze:CONS IncomingSocketChannelManager(QString;QString;) | incoming socket channel manager
+../3-Phrases/vuze:CONS TCPConnectionManager() | tcp connection manager
+../3-Phrases/vuze:CONS UDPConnectionManager() | udp connection manager
+../3-Phrases/vuze:CONS UDPNetworkManager() | udp network manager
+../3-Phrases/vuze:UDPConnectionManager getConnectionManager() | get connection manager
+../3-Phrases/vuze:CONS PeerManager() | peer manager
+../3-Phrases/vuze:PeerManagerRegistration registerLegacyManager(QHashWrapper;QPeerManagerRegistrationAdapter;) | register legacy manager
+../3-Phrases/vuze:void PeerManagerRegistrationImpl(QHashWrapper;QPeerManagerRegistrationAdapter;) | peer manager registration impl
+../3-Phrases/vuze:CONS MessageManager() | message manager
+../3-Phrases/vuze:PEPeerManager getManager() | get manager
+../3-Phrases/vuze:CONS UploadSlotManager() | upload slot manager
+../3-Phrases/vuze:CONS CryptoManagerException(QString;) | crypto manager exception
+../3-Phrases/vuze:CONS CryptoManagerException(QString;QThrowable;) | crypto manager exception
+../3-Phrases/vuze:CONS CryptoManagerPasswordException(ZQString;) | crypto manager password exception
+../3-Phrases/vuze:CONS CryptoManagerPasswordException(ZQString;QThrowable;) | crypto manager password exception
+../3-Phrases/vuze:CONS CryptoManagerImpl() | crypto manager impl
+../3-Phrases/vuze:SpeedManager createSpeedManager(QAzureusCore;QSpeedManagerAdapter;) | create speed manager
+../3-Phrases/vuze:SpeedManager getSpeedManager() | get speed manager
+../3-Phrases/vuze:CONS SpeedManagerImpl(QAzureusCore;QSpeedManagerAdapter;) | speed manager impl
+../3-Phrases/vuze:SpeedManager getSpeedManager() | get speed manager
+../3-Phrases/vuze:CONS SpeedManagerPingMapperImpl(QSpeedManagerImpl;QString;IZZ) | speed manager ping mapper impl
+../3-Phrases/vuze:CONS SpeedManagerAlgorithmProviderV1(QSpeedManagerAlgorithmProviderAdapter;) | speed manager algorithm provider v 1
+../3-Phrases/vuze:CONS SpeedManagerAlgorithmProviderPingMap(QSpeedManagerAlgorithmProviderAdapter;) | speed manager algorithm provider ping map
+../3-Phrases/vuze:void updateSettingsFromCOConfigManager() | update settings from co config manager
+../3-Phrases/vuze:void updateFromCOConfigManager() | update from co config manager
+../3-Phrases/vuze:CONS SpeedManagerAlgorithmProviderV2(QSpeedManagerAlgorithmProviderAdapter;) | speed manager algorithm provider v 2
+../3-Phrases/vuze:CONS SpeedManagerAlgorithmProviderDHTPing(QSpeedManagerAlgorithmProviderAdapter;) | speed manager algorithm provider dht ping
+../3-Phrases/vuze:SMConfigurationAdapter getConfigManager() | get config manager
+../3-Phrases/vuze:SubscriptionManager getManager() | get manager
+../3-Phrases/vuze:SubscriptionManager getManager() | get manager
+../3-Phrases/vuze:CONS SubscriptionManagerImpl(Z) | subscription manager impl
+../3-Phrases/vuze:void peerManagerAdded(QDownload;QPeerManager;) | peer manager added
+../3-Phrases/vuze:void peerManagerRemoved(QDownload;QPeerManager;) | peer manager removed
+../3-Phrases/vuze:CONS DHTPluginStorageManager(IQDHTLogger;QFile;) | dht plugin storage manager
+../3-Phrases/vuze:void setManager(QPeerManager;) | set manager
+../3-Phrases/vuze:PeerManager getManager() | get manager
+../3-Phrases/vuze:void peerManagerAdded(QDownload;QPeerManager;) | peer manager added
+../3-Phrases/vuze:void peerManagerRemoved(QDownload;QPeerManager;) | peer manager removed
+../3-Phrases/vuze:SESecurityManager getSecurityManager() | get security manager
+../3-Phrases/vuze:void peerManagerAdded(QDownload;QPeerManager;) | peer manager added
+../3-Phrases/vuze:void peerManagerRemoved(QDownload;QPeerManager;) | peer manager removed
+../3-Phrases/vuze:void peerManagerAdded(QDownload;QPeerManager;) | peer manager added
+../3-Phrases/vuze:void peerManagerRemoved(QDownload;QPeerManager;) | peer manager removed
+../3-Phrases/vuze:CONS UPnPMappingManager(QUPnPPlugin;) | upn p mapping manager
+../3-Phrases/vuze:void removeManagerView(QDownloadManager;) | remove manager view
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:void removeManagerView(QDownloadManager;) | remove manager view
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:CONS SubscriptionManagerUI(QAzureusCore;) | subscription manager ui
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;Z) | download manager added
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:void dowloadManagerListener(QTorrentListView;) | dowload manager listener
+../3-Phrases/vuze:boolean isOurDownloadManager(QDownloadManager;) | is our download manager
+../3-Phrases/vuze:boolean isOurDownloadManager(QDownloadManager;) | is our download manager
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:CONS LoginInfoManager() | login info manager
+../3-Phrases/vuze:CONS DCAdManager() | dc ad manager
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:void downloadManagerAddedHook([QDownloadManager;) | download manager added hook
+../3-Phrases/vuze:void addParmasToDownloadManager(QDownloadManager;QMap;) | add parm as to download manager
+../3-Phrases/vuze:File getAdMediaFromContentDownloadManager(QDownloadManager;) | get ad media from content download manager
+../3-Phrases/vuze:List initDownloadManagerLists([QDownloadManager;) | init download manager lists
+../3-Phrases/vuze:void addCategoryManagerListener(QCategoryManagerListener;) | add category manager listener
+../3-Phrases/vuze:void removeCategoryManagerListener(QCategoryManagerListener;) | remove category manager listener
+../3-Phrases/vuze:void downloadManagerAdded(QCategory;QDownloadManager;) | download manager added
+../3-Phrases/vuze:void downloadManagerRemoved(QCategory;QDownloadManager;) | download manager removed
+../3-Phrases/vuze:List getDownloadManagers(QList;) | get download managers
+../3-Phrases/vuze:void addManager(QDownloadManagerState;) | add manager
+../3-Phrases/vuze:void removeManager(QDownloadManagerState;) | remove manager
+../3-Phrases/vuze:CONS CategoryManagerImpl() | category manager impl
+../3-Phrases/vuze:void addCategoryManagerListener(QCategoryManagerListener;) | add category manager listener
+../3-Phrases/vuze:void removeCategoryManagerListener(QCategoryManagerListener;) | remove category manager listener
+../3-Phrases/vuze:List getDownloadManagers(QList;) | get download managers
+../3-Phrases/vuze:void addManager(QDownloadManagerState;) | add manager
+../3-Phrases/vuze:void removeManager(QDownloadManagerState;) | remove manager
+../3-Phrases/vuze:CONS ConfigurationManager() | configuration manager
+../3-Phrases/vuze:CONS ConfigurationManager(QMap;) | configuration manager
+../3-Phrases/vuze:DiskManager getManager() | get manager
+../3-Phrases/vuze:DownloadManager getDownloadManager() | get download manager
+../3-Phrases/vuze:DiskManager getDiskManager() | get disk manager
+../3-Phrases/vuze:CONS DiskManagerException() | disk manager exception
+../3-Phrases/vuze:CONS DiskManagerException(QString;) | disk manager exception
+../3-Phrases/vuze:CONS DiskManagerException(QThrowable;) | disk manager exception
+../3-Phrases/vuze:CONS DiskManagerException(QString;QThrowable;) | disk manager exception
+../3-Phrases/vuze:CONS DiskManagerPieceImpl(QDiskManagerHelper;II) | disk manager piece impl
+../3-Phrases/vuze:DiskManager getManager() | get manager
+../3-Phrases/vuze:CONS DiskManagerRecheckInstance(QDiskManagerRecheckScheduler;JIZ) | disk manager recheck instance
+../3-Phrases/vuze:CONS DiskManagerFileInfoSetImpl([QDiskManagerFileInfoImpl;QDiskManagerHelper;) | disk manager file info set impl
+../3-Phrases/vuze:CONS DiskManagerImpl(QTOTorrent;QDownloadManager;) | disk manager impl
+../3-Phrases/vuze:DownloadManager getDownloadManager() | get download manager
+../3-Phrases/vuze:DiskManager getDiskManager() | get disk manager
+../3-Phrases/vuze:DownloadManager getDownloadManager() | get download manager
+../3-Phrases/vuze:CONS DiskManagerFileInfoImpl(QDiskManagerHelper;QFile;IQTOTorrentFile;Z) | disk manager file info impl
+../3-Phrases/vuze:DiskManager getDiskManager() | get disk manager
+../3-Phrases/vuze:DownloadManager getDownloadManager() | get download manager
+../3-Phrases/vuze:CONS DiskManagerReadRequestImpl(III) | disk manager read request impl
+../3-Phrases/vuze:CONS DiskManagerWriteRequestImpl(IIQDirectByteBuffer;QObject;) | disk manager write request impl
+../3-Phrases/vuze:CONS DiskManagerCheckRequestImpl(IQObject;) | disk manager check request impl
+../3-Phrases/vuze:DownloadManager getDownloadManager() | get download manager
+../3-Phrases/vuze:void diskManagerAdded(QDiskManager;) | disk manager added
+../3-Phrases/vuze:void diskManagerRemoved(QDiskManager;) | disk manager removed
+../3-Phrases/vuze:void peerManagerWillBeAdded(QPEPeerManager;) | peer manager will be added
+../3-Phrases/vuze:void peerManagerAdded(QPEPeerManager;) | peer manager added
+../3-Phrases/vuze:void peerManagerRemoved(QPEPeerManager;) | peer manager removed
+../3-Phrases/vuze:GlobalManager getGlobalManager() | get global manager
+../3-Phrases/vuze:DiskManager getDiskManager() | get disk manager
+../3-Phrases/vuze:DiskManagerFileInfo[] getDiskManagerFileInfo() | get disk manager file info
+../3-Phrases/vuze:DiskManagerFileInfoSet getDiskManagerFileInfoSet() | get disk manager file info set
+../3-Phrases/vuze:PEPeerManager getPeerManager() | get peer manager
+../3-Phrases/vuze:CONS DownloadManagerException(QString;) | download manager exception
+../3-Phrases/vuze:CONS DownloadManagerException(QString;QThrowable;) | download manager exception
+../3-Phrases/vuze:CONS DownloadManagerController(QDownloadManagerImpl;) | download manager controller
+../3-Phrases/vuze:void initializeDiskManager(Z) | initialize disk manager
+../3-Phrases/vuze:void initializeDiskManagerSupport(IQDiskManagerListener;) | initialize disk manager support
+../3-Phrases/vuze:PeerManagerRegistration getPeerManagerRegistration() | get peer manager registration
+../3-Phrases/vuze:DiskManagerFileInfoSet getDiskManagerFileInfoSet() | get disk manager file info set
+../3-Phrases/vuze:DiskManagerFileInfo[] getDiskManagerFileInfo() | get disk manager file info
+../3-Phrases/vuze:PEPeerManager getPeerManager() | get peer manager
+../3-Phrases/vuze:DiskManager getDiskManager() | get disk manager
+../3-Phrases/vuze:void setDiskManager(QDiskManager;QDiskManagerListener;) | set disk manager
+../3-Phrases/vuze:DiskManager getDiskManager() | get disk manager
+../3-Phrases/vuze:DownloadManager getDownloadManager() | get download manager
+../3-Phrases/vuze:void forceRecheckDiskManagerListener(ZIQForceRecheckListener;) | force recheck disk manager listener
+../3-Phrases/vuze:CONS DownloadManagerStateImpl(QDownloadManagerImpl;QTorrentUtils.ExtendedTorrent;) | download manager state impl
+../3-Phrases/vuze:DownloadManager getDownloadManager() | get download manager
+../3-Phrases/vuze:void setDownloadManager(QDownloadManagerImpl;) | set download manager
+../3-Phrases/vuze:DownloadManager getDownloadManager() | get download manager
+../3-Phrases/vuze:CONS DownloadManagerStatsImpl(QDownloadManagerImpl;) | download manager stats impl
+../3-Phrases/vuze:CONS DownloadManagerImpl(QGlobalManager;[BQString;QString;QString;IZZZZQList;QDownloadManagerInitialisationAdapter;) | download manager impl
+../3-Phrases/vuze:GlobalManager getGlobalManager() | get global manager
+../3-Phrases/vuze:DiskManager getDiskManager() | get disk manager
+../3-Phrases/vuze:DiskManagerFileInfoSet getDiskManagerFileInfoSet() | get disk manager file info set
+../3-Phrases/vuze:DiskManagerFileInfo[] getDiskManagerFileInfo() | get disk manager file info
+../3-Phrases/vuze:PEPeerManager getPeerManager() | get peer manager
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:DownloadManager addDownloadManager(QString;QString;) | add download manager
+../3-Phrases/vuze:DownloadManager addDownloadManager(QString;[BQString;IZ) | add download manager
+../3-Phrases/vuze:DownloadManager addDownloadManager(QString;[BQString;QString;IZZQDownloadManagerInitialisationAdapter;) | add download manager
+../3-Phrases/vuze:DownloadManager addDownloadManager(QString;[BQString;IZZQDownloadManagerInitialisationAdapter;) | add download manager
+../3-Phrases/vuze:void removeDownloadManager(QDownloadManager;) | remove download manager
+../3-Phrases/vuze:void canDownloadManagerBeRemoved(QDownloadManager;ZZ) | can download manager be removed
+../3-Phrases/vuze:List getDownloadManagers() | get download managers
+../3-Phrases/vuze:DownloadManager getDownloadManager(QTOTorrent;) | get download manager
+../3-Phrases/vuze:DownloadManager getDownloadManager(QHashWrapper;) | get download manager
+../3-Phrases/vuze:void stopGlobalManager() | stop global manager
+../3-Phrases/vuze:int downloadManagerCount(Z) | download manager count
+../3-Phrases/vuze:void fixUpDownloadManagerPositions() | fix up download manager positions
+../3-Phrases/vuze:void addDownloadManagerInitialisationAdapter(QDownloadManagerInitialisationAdapter;) | add download manager initialisation adapter
+../3-Phrases/vuze:void removeDownloadManagerInitialisationAdapter(QDownloadManagerInitialisationAdapter;) | remove download manager initialisation adapter
+../3-Phrases/vuze:void removeDownloadManager(QDownloadManager;ZZ) | remove download manager
+../3-Phrases/vuze:CONS GlobalManagerDownloadRemovalVetoException(QString;Z) | global manager download removal veto exception
+../3-Phrases/vuze:CONS GlobalManagerDownloadRemovalVetoException(QString;) | global manager download removal veto exception
+../3-Phrases/vuze:CONS GlobalManagerStatsImpl(QGlobalManagerImpl;) | global manager stats impl
+../3-Phrases/vuze:CONS GlobalManagerStatsWriter(QAzureusCore;) | global manager stats writer
+../3-Phrases/vuze:CONS GlobalManagerImpl(QAzureusCore;QGlobalMangerProgressListener;J) | global manager impl
+../3-Phrases/vuze:DownloadManager addDownloadManager(QString;QString;) | add download manager
+../3-Phrases/vuze:DownloadManager addDownloadManager(QString;[BQString;IZ) | add download manager
+../3-Phrases/vuze:DownloadManager addDownloadManager(QString;[BQString;IZZQDownloadManagerInitialisationAdapter;) | add download manager
+../3-Phrases/vuze:DownloadManager addDownloadManager(QString;[BQString;QString;IZZQDownloadManagerInitialisationAdapter;) | add download manager
+../3-Phrases/vuze:DownloadManager addDownloadManager(QDownloadManager;ZZ) | add download manager
+../3-Phrases/vuze:List getDownloadManagers() | get download managers
+../3-Phrases/vuze:DownloadManager getDownloadManager(QTOTorrent;) | get download manager
+../3-Phrases/vuze:DownloadManager getDownloadManager(QHashWrapper;) | get download manager
+../3-Phrases/vuze:void canDownloadManagerBeRemoved(QDownloadManager;ZZ) | can download manager be removed
+../3-Phrases/vuze:void removeDownloadManager(QDownloadManager;) | remove download manager
+../3-Phrases/vuze:void removeDownloadManager(QDownloadManager;ZZ) | remove download manager
+../3-Phrases/vuze:void stopGlobalManager() | stop global manager
+../3-Phrases/vuze:int downloadManagerCount(Z) | download manager count
+../3-Phrases/vuze:void fixUpDownloadManagerPositions() | fix up download manager positions
+../3-Phrases/vuze:void addDownloadManagerInitialisationAdapter(QDownloadManagerInitialisationAdapter;) | add download manager initialisation adapter
+../3-Phrases/vuze:void removeDownloadManagerInitialisationAdapter(QDownloadManagerInitialisationAdapter;) | remove download manager initialisation adapter
+../3-Phrases/vuze:CONS GlobalManagerHostSupport(QGlobalManager;) | global manager host support
+../3-Phrases/vuze:CONS IpFilterManagerImpl() | ip filter manager impl
+../3-Phrases/vuze:CONS IPAddressRangeManager() | ip address range manager
+../3-Phrases/vuze:PEPeerManager getManager() | get manager
+../3-Phrases/vuze:DiskManager getDiskManager() | get disk manager
+../3-Phrases/vuze:DiskManagerReadRequest createDiskManagerRequest(III) | create disk manager request
+../3-Phrases/vuze:PEPeerManager getManager() | get manager
+../3-Phrases/vuze:PeerManagerRegistration getPeerManagerRegistration() | get peer manager registration
+../3-Phrases/vuze:PEPeerManager getManager() | get manager
+../3-Phrases/vuze:CONS PEPeerManagerStatsImpl(QPEPeerControlImpl;) | pe peer manager stats impl
+../3-Phrases/vuze:DiskManager getDiskManager() | get disk manager
+../3-Phrases/vuze:DiskManagerReadRequest createDiskManagerRequest(III) | create disk manager request
+../3-Phrases/vuze:PEPeerManager getManager() | get manager
+../3-Phrases/vuze:void installSecurityManager() | install security manager
+../3-Phrases/vuze:void initManager(QGlobalManager;ZZQString;) | init manager
+../3-Phrases/vuze:CONS TorrentDownloaderManager() | torrent downloader manager
+../3-Phrases/vuze:ListenerManager createManager(QString;QListenerManagerDispatcher;) | create manager
+../3-Phrases/vuze:ListenerManager createAsyncManager(QString;QListenerManagerDispatcher;) | create async manager
+../3-Phrases/vuze:CONS ListenerManager(QString;QListenerManagerDispatcher;Z) | listener manager
+../3-Phrases/vuze:DownloadManager getDownloadManager(QHashWrapper;) | get download manager
+../3-Phrases/vuze:PlatformManager getPlatformManager() | get platform manager
+../3-Phrases/vuze:CONS PlatformManagerCapabilities(QString;) | platform manager capabilities
+../3-Phrases/vuze:CONS PlatformManagerImpl() | platform manager impl
+../3-Phrases/vuze:CONS PlatformManagerImpl() | platform manager impl
+../3-Phrases/vuze:CONS PlatformManagerImpl() | platform manager impl
+../3-Phrases/vuze:CONS PlatformManagerImpl() | platform manager impl
+../3-Phrases/vuze:DownloadManager getDownloadManager() | get download manager
+../3-Phrases/vuze:ShareManager getShareManager() | get share manager
+../3-Phrases/vuze:TorrentManager getTorrentManager() | get torrent manager
+../3-Phrases/vuze:UIManager getUIManager() | get ui manager
+../3-Phrases/vuze:UpdateManager getUpdateManager() | get update manager
+../3-Phrases/vuze:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/vuze:ClientIDManager getClientIDManager() | get client id manager
+../3-Phrases/vuze:ConnectionManager getConnectionManager() | get connection manager
+../3-Phrases/vuze:MessageManager getMessageManager() | get message manager
+../3-Phrases/vuze:PlatformManager getPlatformManager() | get platform manager
+../3-Phrases/vuze:MainlineDHTManager getMainlineDHTManager() | get mainline dht manager
+../3-Phrases/vuze:void peerManagerAdded(QDownload;QPeerManager;) | peer manager added
+../3-Phrases/vuze:void peerManagerRemoved(QDownload;QPeerManager;) | peer manager removed
+../3-Phrases/vuze:PeerManager getPeerManager() | get peer manager
+../3-Phrases/vuze:DiskManager getDiskManager() | get disk manager
+../3-Phrases/vuze:DiskManagerFileInfo[] getDiskManagerFileInfo() | get disk manager file info
+../3-Phrases/vuze:void setSaveLocationManager(QSaveLocationManager;) | set save location manager
+../3-Phrases/vuze:SaveLocationManager getSaveLocationManager() | get save location manager
+../3-Phrases/vuze:DefaultSaveLocationManager getDefaultSaveLocationManager() | get default save location manager
+../3-Phrases/vuze:DiskManager getDiskManager() | get disk manager
+../3-Phrases/vuze:PeerManager getManager() | get manager
+../3-Phrases/vuze:CONS PlatformManagerException(QString;) | platform manager exception
+../3-Phrases/vuze:CONS PlatformManagerException(QString;QThrowable;) | platform manager exception
+../3-Phrases/vuze:TableManager getTableManager() | get table manager
+../3-Phrases/vuze:SWTManager getSWTManager() | get swt manager
+../3-Phrases/vuze:MenuManager getMenuManager() | get menu manager
+../3-Phrases/vuze:UpdateManager getManager() | get manager
+../3-Phrases/vuze:SESecurityManager getSecurityManager() | get security manager
+../3-Phrases/vuze:UIManager getUIManager(J) | get ui manager
+../3-Phrases/vuze:CONS PluginManagerImpl(QPluginInitializer;) | plugin manager impl
+../3-Phrases/vuze:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/vuze:ShareManager getShareManager() | get share manager
+../3-Phrases/vuze:DownloadManager getDownloadManager() | get download manager
+../3-Phrases/vuze:MainlineDHTManager getMainlineDHTManager() | get mainline dht manager
+../3-Phrases/vuze:TorrentManager getTorrentManager() | get torrent manager
+../3-Phrases/vuze:UIManager getUIManager() | get ui manager
+../3-Phrases/vuze:UpdateManager getUpdateManager() | get update manager
+../3-Phrases/vuze:ClientIDManager getClientIDManager() | get client id manager
+../3-Phrases/vuze:ConnectionManager getConnectionManager() | get connection manager
+../3-Phrases/vuze:MessageManager getMessageManager() | get message manager
+../3-Phrases/vuze:PlatformManager getPlatformManager() | get platform manager
+../3-Phrases/vuze:GlobalManager getGlobalManager() | get global manager
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/vuze:CONS MainlineDHTManagerImpl(QAzureusCore;) | mainline dht manager impl
+../3-Phrases/vuze:CONS DiskManagerImpl(Qorg.gudy.azureus2.core3.disk.DiskManager;) | disk manager impl
+../3-Phrases/vuze:CONS DiskManagerChannelImpl(QDownloadImpl;Qorg.gudy.azureus2.pluginsimpl.local.disk.DiskManagerFileInfoImpl;) | disk manager channel impl
+../3-Phrases/vuze:void peerManagerWillBeAdded(QPEPeerManager;) | peer manager will be added
+../3-Phrases/vuze:void peerManagerAdded(QPEPeerManager;) | peer manager added
+../3-Phrases/vuze:void peerManagerRemoved(QPEPeerManager;) | peer manager removed
+../3-Phrases/vuze:CONS DiskManagerFileInfoImpl(QDownloadImpl;Qorg.gudy.azureus2.core3.disk.DiskManagerFileInfo;) | disk manager file info impl
+../3-Phrases/vuze:CONS DownloadManagerImpl(QAzureusCore;) | download manager impl
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:void addDownloadManager(QDownloadManager;) | add download manager
+../3-Phrases/vuze:void setSaveLocationManager(QSaveLocationManager;) | set save location manager
+../3-Phrases/vuze:SaveLocationManager getSaveLocationManager() | get save location manager
+../3-Phrases/vuze:DefaultSaveLocationManager getDefaultSaveLocationManager() | get default save location manager
+../3-Phrases/vuze:CONS DownloadManagerStatsImpl(QGlobalManager;) | download manager stats impl
+../3-Phrases/vuze:void peerManagerAdded(QPEPeerManager;) | peer manager added
+../3-Phrases/vuze:void peerManagerRemoved(QPEPeerManager;) | peer manager removed
+../3-Phrases/vuze:void peerManagerWillBeAdded(QPEPeerManager;) | peer manager will be added
+../3-Phrases/vuze:PeerManager getPeerManager() | get peer manager
+../3-Phrases/vuze:DiskManager getDiskManager() | get disk manager
+../3-Phrases/vuze:DiskManagerFileInfo[] getDiskManagerFileInfo() | get disk manager file info
+../3-Phrases/vuze:void peerManagerAdded(QDownload;QPeerManager;) | peer manager added
+../3-Phrases/vuze:void peerManagerRemoved(QDownload;QPeerManager;) | peer manager removed
+../3-Phrases/vuze:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/vuze:void peerManagerAdded(QDownload;QPeerManager;) | peer manager added
+../3-Phrases/vuze:void peerManagerRemoved(QDownload;QPeerManager;) | peer manager removed
+../3-Phrases/vuze:CONS MessageManagerImpl(QAzureusCore;) | message manager impl
+../3-Phrases/vuze:CONS ConnectionManagerImpl(QAzureusCore;) | connection manager impl
+../3-Phrases/vuze:CONS PeerManagerStatsImpl(QPEPeerManager;) | peer manager stats impl
+../3-Phrases/vuze:PeerManager getManager() | get manager
+../3-Phrases/vuze:PeerManagerImpl getPeerManager(QPEPeerManager;) | get peer manager
+../3-Phrases/vuze:CONS PeerManagerImpl(QPEPeerManager;) | peer manager impl
+../3-Phrases/vuze:DiskManager getDiskManager() | get disk manager
+../3-Phrases/vuze:PEPeerManager getManager() | get manager
+../3-Phrases/vuze:CONS ShareManagerImpl() | share manager impl
+../3-Phrases/vuze:void peerManagerAdded(QDownload;QPeerManager;) | peer manager added
+../3-Phrases/vuze:void peerManagerRemoved(QDownload;QPeerManager;) | peer manager removed
+../3-Phrases/vuze:CONS TorrentManagerImpl(QPluginInterface;) | torrent manager impl
+../3-Phrases/vuze:CONS UIManagerImpl(QPluginInterface;) | ui manager impl
+../3-Phrases/vuze:TableManager getTableManager() | get table manager
+../3-Phrases/vuze:MenuManager getMenuManager() | get menu manager
+../3-Phrases/vuze:SWTManager getSWTManager() | get swt manager
+../3-Phrases/vuze:CONS UIManagerEventAdapter(IQObject;) | ui manager event adapter
+../3-Phrases/vuze:CONS MenuManagerImpl(QUIManagerImpl;) | menu manager impl
+../3-Phrases/vuze:CONS TableManagerImpl(QUIManagerImpl;) | table manager impl
+../3-Phrases/vuze:UpdateManager getManager() | get manager
+../3-Phrases/vuze:CONS UpdateManagerImpl(QAzureusCore;) | update manager impl
+../3-Phrases/vuze:SESecurityManager getSecurityManager() | get security manager
+../3-Phrases/vuze:void addSearchManager(QsearchManager;) | add search manager
+../3-Phrases/vuze:CONS SESecurityManagerImpl(QAzureusCore;) | se security manager impl
+../3-Phrases/vuze:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/vuze:DownloadManager getDownloadManager() | get download manager
+../3-Phrases/vuze:ShareManager getShareManager() | get share manager
+../3-Phrases/vuze:UIManager getUIManager() | get ui manager
+../3-Phrases/vuze:TorrentManager getTorrentManager() | get torrent manager
+../3-Phrases/vuze:UpdateManager getUpdateManager() | get update manager
+../3-Phrases/vuze:ClientIDManager getClientIDManager() | get client id manager
+../3-Phrases/vuze:ConnectionManager getConnectionManager() | get connection manager
+../3-Phrases/vuze:MessageManager getMessageManager() | get message manager
+../3-Phrases/vuze:PlatformManager getPlatformManager() | get platform manager
+../3-Phrases/vuze:MainlineDHTManager getMainlineDHTManager() | get mainline dht manager
+../3-Phrases/vuze:CONS RPDiskManagerFileInfo(QDiskManagerFileInfo;) | rp disk manager file info
+../3-Phrases/vuze:PeerManager getPeerManager() | get peer manager
+../3-Phrases/vuze:DiskManager getDiskManager() | get disk manager
+../3-Phrases/vuze:DiskManagerFileInfo[] getDiskManagerFileInfo() | get disk manager file info
+../3-Phrases/vuze:CONS RPDownloadManager(QDownloadManager;) | rp download manager
+../3-Phrases/vuze:void setSaveLocationManager(QSaveLocationManager;) | set save location manager
+../3-Phrases/vuze:SaveLocationManager getSaveLocationManager() | get save location manager
+../3-Phrases/vuze:DefaultSaveLocationManager getDefaultSaveLocationManager() | get default save location manager
+../3-Phrases/vuze:CONS RPTorrentManager(QTorrentManager;) | rp torrent manager
+../3-Phrases/vuze:GlobalManager getGlobalManager() | get global manager
+../3-Phrases/vuze:void diskManagerAdded(QDiskManager;) | disk manager added
+../3-Phrases/vuze:void diskManagerRemoved(QDiskManager;) | disk manager removed
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:CONS MenuItemManager() | menu item manager
+../3-Phrases/vuze:GlobalManager getGlobalManager() | get global manager
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:void InMemoryUserManager(QString;) | in memory user manager
+../3-Phrases/vuze:CONS UserManager(QString;) | user manager
+../3-Phrases/vuze:UserManager getUserManager() | get user manager
+../3-Phrases/vuze:void saveUserManagerConfig(QPrintStream;) | save user manager config
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:ShellManager sharedManager() | shared manager
+../3-Phrases/vuze:void openManagerView(QDownloadManager;) | open manager view
+../3-Phrases/vuze:void removeManagerView(QDownloadManager;) | remove manager view
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:void openManagerView(QDownloadManager;) | open manager view
+../3-Phrases/vuze:void removeManagerView(QDownloadManager;) | remove manager view
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:GlobalManager getGlobalManager() | get global manager
+../3-Phrases/vuze:MiniBarManager getManager() | get manager
+../3-Phrases/vuze:CONS MiniBarManager(QString;) | mini bar manager
+../3-Phrases/vuze:CONS MiniBarManager() | mini bar manager
+../3-Phrases/vuze:ShellManager getShellManager() | get shell manager
+../3-Phrases/vuze:MiniBarManager getManager() | get manager
+../3-Phrases/vuze:MiniBarManager getManager() | get manager
+../3-Phrases/vuze:CONS ProgressReportingManager() | progress reporting manager
+../3-Phrases/vuze:void notifyManager(QIProgressReporter;) | notify manager
+../3-Phrases/vuze:boolean isOurDownloadManager(QDownloadManager;) | is our download manager
+../3-Phrases/vuze:void downloadManagerAdded(QCategory;QDownloadManager;) | download manager added
+../3-Phrases/vuze:void downloadManagerRemoved(QCategory;QDownloadManager;) | download manager removed
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:void peerManagerWillBeAdded(QPEPeerManager;) | peer manager will be added
+../3-Phrases/vuze:void peerManagerAdded(QPEPeerManager;) | peer manager added
+../3-Phrases/vuze:void peerManagerRemoved(QPEPeerManager;) | peer manager removed
+../3-Phrases/vuze:void peerManagerWillBeAdded(QPEPeerManager;) | peer manager will be added
+../3-Phrases/vuze:void peerManagerAdded(QPEPeerManager;) | peer manager added
+../3-Phrases/vuze:void peerManagerRemoved(QPEPeerManager;) | peer manager removed
+../3-Phrases/vuze:void registerGlobalManagerListener() | register global manager listener
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:void peerManagerAdded(QPEPeerManager;) | peer manager added
+../3-Phrases/vuze:void peerManagerRemoved(QPEPeerManager;) | peer manager removed
+../3-Phrases/vuze:void peerManagerWillBeAdded(QPEPeerManager;) | peer manager will be added
+../3-Phrases/vuze:void peerManagerWillBeAdded(QPEPeerManager;) | peer manager will be added
+../3-Phrases/vuze:void peerManagerAdded(QPEPeerManager;) | peer manager added
+../3-Phrases/vuze:void peerManagerRemoved(QPEPeerManager;) | peer manager removed
+../3-Phrases/vuze:DownloadManager getManager() | get manager
+../3-Phrases/vuze:CONS ManagerView() | manager view
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:CONS TableColumnManager() | table column manager
+../3-Phrases/vuze:CONS TableContextMenuManager() | table context menu manager
+../3-Phrases/vuze:void downloadManagerAdded(QDownloadManager;) | download manager added
+../3-Phrases/vuze:void downloadManagerRemoved(QDownloadManager;) | download manager removed
+../3-Phrases/vuze:UserManager initUserManager() | init user manager
+../3-Phrases/weka:ErrorManager getManager() | get manager
+../3-Phrases/weka:CONS ErrorManager() | error manager

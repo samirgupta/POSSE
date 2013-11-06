@@ -1,0 +1,54 @@
+boolean disable_reply_caching | disable reply caching
+boolean sent_first_reply | sent first reply
+byte COMMAND_STAT_REPLY | command stat reply
+byte PT_READ_REPLY | pt read reply
+byte PT_WRITE_REPLY | pt write reply
+byte[] reply_buffer | reply buffer
+com.aelitis.azureus.core.messenger.config.PlatformVuzeActivitiesMessenger.GetEntriesReplyListener replyListener | reply listener
+com.aelitis.azureus.plugins.net.buddy.BuddyPluginBuddy.fragmentHandler.fragmentAssembly current_reply_frag | current reply frag
+com.aelitis.net.udp.uc.PRUDPPacket reply | reply
+int ACT_NAT_REPLY | act nat reply
+int ACT_REPLY_ANNOUNCE | act reply announce
+int ACT_REPLY_CONNECT | act reply connect
+int ACT_REPLY_ERROR | act reply error
+int ACT_REPLY_FIND_NODE | act reply find node
+int ACT_REPLY_FIND_VALUE | act reply find value
+int ACT_REPLY_KEY_BLOCK | act reply key block
+int ACT_REPLY_PING | act reply ping
+int ACT_REPLY_SCRAPE | act reply scrape
+int ACT_REPLY_STATS | act reply stats
+int ACT_REPLY_STORE | act reply store
+int ACT_VERSION_REPLY | act version reply
+int MT_REPLY | mt reply
+int NATAddrReplyLen | nat addr reply len
+int NATPortMapReplyLen | nat port map reply len
+int reply_status | reply status
+int REPLY_TRACKER_ADD | reply tracker add
+int REPLY_TRACKER_CHANGE | reply tracker change
+int REPLY_TRACKER_STATUS | reply tracker status
+int REPLY_TRACKER_SUMMARY | reply tracker summary
+int RT_AZ2_REPLY_CHAT | rt az 2  reply chat
+int RT_AZ2_REPLY_MESSAGE | rt az 2  reply message
+int RT_AZ2_REPLY_SEND_TORRENT | rt az 2  reply send torrent
+int RT_AZ2_REPLY_TRACK | rt az 2  reply track
+int RT_BIND_REPLY | rt bind reply
+int RT_CLOSE_REPLY | rt close reply
+int RT_CONNECT_REPLY | rt connect reply
+int RT_INTERNAL_REPLY_CLOSE | rt internal reply close
+int RT_INTERNAL_REPLY_PING | rt internal reply ping
+int RT_PUNCH_REPLY | rt punch reply
+int RT_QUERY_REPLY | rt query reply
+int RT_REPLY_DATA | rt reply data
+int RT_REPLY_ERROR | rt reply error
+java.lang.reflect.Method sendNoReply | send no reply
+java.lang.String REPLY_ACTION | reply action
+java.lang.String REPLY_EXCEPTION | reply exception
+java.lang.String REPLY_RESULT | reply result
+java.nio.ByteBuffer reply | reply
+java.util.Map reply | reply
+java.util.Map reply_cache | reply cache
+java.util.Set reply_instances | reply instances
+long CHALLENGE_REPLY | challenge reply
+long reply_time | reply time
+long WRITE_REPLY_TIMEOUT | write reply timeout
+org.gudy.azureus2.pluginsimpl.remote.RPReply reply | reply

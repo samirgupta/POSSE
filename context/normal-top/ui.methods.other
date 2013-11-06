@@ -1,0 +1,44 @@
+boolean hasUIInstances() | has ui instances
+ChartUIConfiguration getChartUIConfiguration() | get chart ui configuration
+Color getTranslucentColorUIResource(QColor;I) | get translucent color ui resource
+Component getUIComponent() | get ui component
+Element writeColorUIResource(QElement;QObject;QString;) | write color ui resource
+Element writeFontUIResource(QElement;QObject;QString;) | write font ui resource
+int readUI16() | read ui 16
+int readUI8() | read ui 8
+long readUI32() | read ui 32
+Object readColorUIResource(QElement;) | read color ui resource
+Object readFontUIResource(QElement;) | read font ui resource
+org.gudy.azureus2.plugins.ui.config.UIParameter addUIParameter2(Qorg.gudy.azureus2.plugins.ui.config.UIParameterContext;QString;) | add ui parameter 2
+PluginConfigUIFactory getPluginConfigUIFactory() | get plugin config ui factory
+ProjectUIFacade getProjectUIFacade() | get project ui facade
+String getUIClassID() | get ui class id
+String getUpdateUIName() | get update ui name
+UIConfiguration getUIConfiguration() | get ui configuration
+UIFacade getUIFacade() | get ui facade
+UIFieldInfo getUiField(int fieldNumber) | get ui field
+UIFunctions getUIFunctions() | get ui functions
+UIFunctionsSWT getOldUIFunctions(Z) | get old ui functions
+UIFunctionsSWT getUIFunctions() | get ui functions
+UIFunctionsSWT getUIFunctionsSWT() | get ui functions swt
+UIFunctionsSWT getUIFunctionSWT() | get ui function swt
+UIInstance[] getUIInstances() | get ui instances
+UIManager getUIManager() | get ui manager
+UIManager getUIManager(J) | get ui manager
+UIParameter addUIParameter2(QUIParameterContext;QString;) | add ui parameter 2
+UIUpdater getUIUpdater() | get ui updater
+void addConfigUIParameters([QParameter;QString;) | add config ui parameters
+void addUIEventListener(QUIManagerEventListener;) | add ui event listener
+void addUIListener(QUIManagerListener;) | add ui listener
+void afterUISetup(QAction;QAction;QAction;) | after ui setup
+void beforeUISetup() | before ui setup
+void removeUIEventListener(QUIManagerEventListener;) | remove ui event listener
+void removeUIListener(QUIManagerListener;) | remove ui listener
+void renderContainerPaneUIData(Connection conn, Element parent, ContainerPaneUI ui) | render container pane ui data
+void setOptionalUiChildren(OptionalUiChildrenInterface child) | set optional ui children
+void setUIConfiguration(QUIConfiguration;) | set ui configuration
+void setUIFunctions(QUIFunctions;) | set ui functions
+void updateComponentTreeUI0(QComponent;) | update component tree ui 0
+void writeUI16(I) | write ui 16
+void writeUI32(J) | write ui 32
+void writeUI8(I) | write ui 8

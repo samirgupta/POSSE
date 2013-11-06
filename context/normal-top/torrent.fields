@@ -1,0 +1,122 @@
+boolean bSaveTorrentBackup | b save torrent backup
+boolean privateTorrent | private torrent
+boolean simple_torrent | simple torrent
+byte[] torrent_hash | torrent hash
+byte[] torrent_hash_override | torrent hash override
+byte[] torrent_name | torrent name
+byte[] torrent_name_utf8 | torrent name utf 8
+com.aelitis.azureus.core.helpers.TorrentFolderWatcher torrent_folder_watcher | torrent folder watcher
+com.aelitis.azureus.core.lws.LWSTorrent torrent_facade | torrent facade
+com.aelitis.azureus.core.messenger.ClientMessageContext.torrentURLHandler torrentURLHandler | torrent url handler
+com.aelitis.azureus.core.util.CopyOnWriteList torrent_attribute_listeners | torrent attribute listeners
+int activeTorrentCount | active torrent count
+int AELITIS_BIG_TORRENT_SEED_LIMIT | aelitis big torrent seed limit
+int AELITIS_SMALL_TORRENT_SEED_LIMIT | aelitis small torrent seed limit
+int CONFIG_DEFAULT_MAX_CONNECTIONS_PER_TORRENT | config default max connections per torrent
+int ET_OPEN_TORRENT_VIA_FILE | et open torrent via file
+int ET_OPEN_TORRENT_VIA_TORRENT | et open torrent via torrent
+int ET_OPEN_TORRENT_VIA_URL | et open torrent via url
+int FIELD_TORRENTLINK | field torrent link
+int maxActiveTorrents | max active torrents
+int MAX_CONNECTIONS_PER_TORRENT | max connections per torrent
+int maxTorrents | max torrents
+int nbUploadsPerTorrent | nb uploads per torrent
+int PT_TORRENT_ATTRIBUTE_WILL_BE_READ | pt torrent attribute will be read
+int PT_TORRENT_ATTRIBUTE_WRITTEN | pt torrent attribute written
+int RT_AZ2_REPLY_SEND_TORRENT | rt az 2  reply send torrent
+int RT_AZ2_REQUEST_SEND_TORRENT | rt az 2  request send torrent
+int ST_TORRENT | st torrent
+int torrentFilterMode | torrent filter mode
+int TORRENT_FLAG_LOW_NOISE | torrent flag low noise
+int TORRENTS_ALL | torrents all
+int TORRENTS_COMPLETE | torrents complete
+int TORRENTS_INCOMPLETE | torrents incomplete
+java.io.File torrent_base | torrent base
+java.io.File torrent_location | torrent location
+java.io.File torrent_save_location | torrent save location
+java.lang.Boolean simple_torrent | simple torrent
+java.lang.Object[] read_torrent_state | read torrent state
+java.lang.String AELITIS_TORRENTS | aelitis torrents
+java.lang.String CONFIG_MAX_CONN_PER_TORRENT | config max conn per torrent
+java.lang.String CORE_PARAM_INT_MAX_CONNECTIONS_PER_TORRENT | core param int max connections per torrent
+java.lang.String MEM_ONLY_TORRENT_PATH | mem only torrent path
+java.lang.String MENU_ID_MY_TORRENTS | menu id my torrents
+java.lang.String MENU_ID_OPEN_TORRENT | menu id open torrent
+java.lang.String MENU_ID_OPEN_TORRENT_FOR_TRACKING | menu id open torrent for tracking
+java.lang.String MENU_ID_TORRENT | menu id torrent
+java.lang.String MENU_TORRENT_MENU | menu torrent menu
+java.lang.String OP_HAS_LOAD_TORRENT | op has load torrent
+java.lang.String OP_LOAD_TORRENT | op load torrent
+java.lang.String OP_LOAD_TORRENT_OLD | op load torrent old
+java.lang.String OP_TORRENT_READY | op torrent ready
+java.lang.String TABLE_TORRENT_FILES | table torrent files
+java.lang.String TABLE_TORRENT_PEERS | table torrent peers
+java.lang.String TABLE_TORRENT_PIECES | table torrent pieces
+java.lang.String TORRENT_AZ_PROP_DHT_BACKUP_ENABLE | torrent az prop dht backup enable
+java.lang.String TORRENT_AZ_PROP_OBTAINED_FROM | torrent az prop obtained from
+java.lang.String TORRENT_AZ_PROP_PLUGINS | torrent az prop plugins
+java.lang.String TORRENT_AZ_PROP_TORRENT_FLAGS | torrent az prop torrent flags
+java.lang.String torrent_comment | torrent comment
+java.lang.String torrent_created_by | torrent created by
+java.lang.String TORRENT_DOWNLOAD_LIMIT | torrent download limit
+java.lang.String torrent_file | torrent file
+java.lang.String torrentFileName | torrent file name
+java.lang.String torrentFilter | torrent filter
+java.lang.String torrentLink | torrent link
+java.lang.String torrent_name | torrent name
+java.lang.String torrentname | torrent name
+java.lang.String torrentName | torrent name
+java.lang.String torrentPath | torrent path
+java.lang.String torrent_save_location | torrent save location
+java.lang.String TORRENT_STORE | torrent store
+java.lang.String TORRENT_SUBSTORE | torrent subs to re
+java.lang.String TORRENT_UPLOAD_LIMIT | torrent upload limit
+java.lang.String VIEW_TORRENT_FILES | view torrent files
+java.lang.String VIEW_TORRENT_PEERS | view torrent peers
+java.lang.String VIEW_TORRENT_PIECES | view torrent pieces
+java.util.ArrayList torrentList | torrent list
+java.util.HashSet torrentFluffKeyset | torrent fluff keyset
+java.util.List created_torrents | created torrents
+java.util.List host_torrents | host torrents
+java.util.List queued_torrents | queued torrents
+java.util.List torrents | torrents
+java.util.Map host_torrent_hash_map | host torrent hash map
+java.util.Map host_torrent_map | host torrent map
+java.util.Map mapCellTorrent | map cell torrent
+java.util.Map mapPlatformTrackerTorrents | map platform tracker torrents
+java.util.Map torrent_attributes | torrent attributes
+java.util.Map torrent_delegates | torrent delegates
+java.util.Map torrent_dispatcher_map | torrent dispatcher map
+java.util.Map torrentLimits | torrent limits
+java.util.Map torrent_map | torrent map
+java.util.Map torrent_to_cache_file_map | torrent to cache file map
+java.util.Set created_torrents_set | created torrents set
+long file_offset_in_torrent | file offset in torrent
+long SCRAPE_DELAY_ERROR_TORRENTS | scrape delay error torrents
+long SCRAPE_DELAY_STOPPED_TORRENTS | scrape delay stopped torrents
+long SCRAPE_INITDELAY_ERROR_TORRENTS | scrape init delay error torrents
+long SCRAPE_INITDELAY_STOPPED_TORRENTS | scrape init delay stopped torrents
+org.gudy.azureus2.core3.torrent.impl.TOTorrentCreateImpl torrent | torrent
+org.gudy.azureus2.core3.torrent.impl.TOTorrentImpl torrent | torrent
+org.gudy.azureus2.core3.torrent.TOTorrent actual_torrent | actual torrent
+org.gudy.azureus2.core3.torrent.TOTorrentFile torrent_file | torrent file
+org.gudy.azureus2.core3.torrent.TOTorrent test_torrent | test torrent
+org.gudy.azureus2.core3.torrent.TOTorrent torrent | torrent
+org.gudy.azureus2.core3.torrent.TOTorrent[] torrent_holder | torrent holder
+org.gudy.azureus2.core3.tracker.host.TRHostTorrent host_torrent | host torrent
+org.gudy.azureus2.core3.tracker.host.TRHostTorrent torrent | torrent
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerTorrentImpl torrent | torrent
+org.gudy.azureus2.core3.tracker.server.TRTrackerServerTorrent server_torrent | server torrent
+org.gudy.azureus2.core3.tracker.server.TRTrackerServerTorrent torrent | torrent
+org.gudy.azureus2.core3.util.DelayedEvent loadTorrentsDelay | load torrents delay
+org.gudy.azureus2.core3.util.HashWrapper torrent_hash | torrent hash
+org.gudy.azureus2.core3.util.HashWrapper torrent_hash_wrapper | torrent hash wrapper
+org.gudy.azureus2.core3.util.TorrentUtils.ExtendedTorrent torrent | torrent
+org.gudy.azureus2.pluginsimpl.local.ddb.DDBaseTTTorrent torrent_transfer | torrent transfer
+org.gudy.azureus2.pluginsimpl.local.torrent.TorrentImpl torrent | torrent
+org.gudy.azureus2.pluginsimpl.remote.torrent.RPTorrent torrent | torrent
+org.gudy.azureus2.plugins.torrent.Torrent torrent | torrent
+org.gudy.azureus2.plugins.ui.config.BooleanParameter remove_update_torrents | remove update torrents
+org.gudy.azureus2.ui.swt.components.BufferedLabel torrentStatus | torrent status
+org.gudy.azureus2.ui.swt.OpenTorrentWindow stOpenTorrentWindow | st open torrent window
+org.gudy.azureus2.ui.swt.views.MyTorrentsView torrentview | torrent view

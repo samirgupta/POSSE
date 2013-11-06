@@ -1,0 +1,31 @@
+boolean isCVSVersion() | is cvs version
+boolean isCVSVersion(QString;) | is cvs version
+boolean isSupportEmailAccount(int emailAccountID, CVDal cvdal) | is support email account
+double cumulativeCV(QBayesNet;) | cumulative cv
+double CVBasedHyperparameter() | cv based hyper parameter
+double evaluateFoldCV(QInstances;[I) | evaluate fold cv
+double kFoldCV(QBayesNet;I) | k fold cv
+double leaveOneOutCV(QBayesNet;) | leave one out cv
+FastVector getCVPredictions(QClassifier;QInstances;I) | get cv predictions
+Instances testCV(II) | test cv
+Instances trainCV(II) | train cv
+Instances trainCV(IIQRandom;) | train cv
+int getNumSubsetSizeCVFolds() | get num subset size cv folds
+Object[] getCVParameters() | get cv parameters
+SelectedTag getCVType() | get cv type
+String CVParametersTipText() | cv parameters tip text
+String CVResultsString() | cv results string
+String CVTypeTipText() | cv type tip text
+String getCVParameter(I) | get cv parameter
+String getCVSDownloadURL() | get cvs download url
+String getCVSVersion() | get cvs version
+String numSubsetSizeCVFoldsTipText() | num subset size cv folds tip text
+void addCVParameter(QString;) | add cv parameter
+void CVClusters() | cv clusters
+void CVParameter(QString;) | cv parameter
+void performBoostingCV() | perform boosting cv
+void selectAttributesCVSplit(QInstances;) | select attributes cv split
+void setCVParameters([QObject;) | set cv parameters
+void setCVType(QSelectedTag;) | set cv type
+void setNumSubsetSizeCVFolds(I) | set num subset size cv folds
+void testLocalWorkingCopyAndCvsrootModuleAreMutuallyExclusive() | test local working copy and cvsroot module are mutually exclusive

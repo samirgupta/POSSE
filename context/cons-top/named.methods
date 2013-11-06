@@ -1,0 +1,30 @@
+CONS ECNamedCurveParameterSpec(QString;QECCurve;QECPoint;QBigInteger;) | ec named curve parameter spec
+CONS ECNamedCurveParameterSpec(QString;QECCurve;QECPoint;QBigInteger;QBigInteger;) | ec named curve parameter spec
+CONS ECNamedCurveParameterSpec(QString;QECCurve;QECPoint;QBigInteger;QBigInteger;[B) | ec named curve parameter spec
+CONS NamedColor(QString;III) | named color
+CONS NamedColumnProjection([QString;Z) | named column projection
+CONS NamedColumnProjection(QString;Z) | named column projection
+CONS NamedCompound(QString;) | named compound
+CONS NamedParameterDescriptor(QString;QType;[IZ) | named parameter descriptor
+CONS NamedParameterSpecification(IIQString;) | named parameter specification
+CONS NamedQueryCollectionInitializer(QString;QCollectionPersister;) | named query collection initializer
+CONS NamedQueryDefinition(QString;ZQString;QInteger;QInteger;QFlushMode;QCacheMode;ZQString;QMap;) | named query definition
+CONS NamedQueryDefinition(QString;ZQString;QInteger;QInteger;QFlushMode;QMap;) | named query definition
+CONS NamedQueryLoader(QString;QEntityPersister;) | named query loader
+CONS NamedSQLQueryDefinition(QString;[QNativeSQLQueryReturn;QList;ZQString;QInteger;QInteger;QFlushMode;QCacheMode;ZQString;QMap;Z) | named sql query definition
+CONS NamedSQLQueryDefinition(QString;QString;QList;ZQString;QInteger;QInteger;QFlushMode;QCacheMode;ZQString;QMap;Z) | named sql query definition
+CONS NamedSQLQueryDefinition(QString;QString;QList;ZQString;QInteger;QInteger;QFlushMode;QMap;Z) | named sql query definition
+CONS NamedSQLQuerySecondPass(QElement;QString;QMappings;) | named sql query second pass
+CONS SmbNamedPipe(QString;I) | smb named pipe
+CONS SmbNamedPipe(QString;IQNtlmPasswordAuthentication;) | smb named pipe
+CONS SmbNamedPipe(QURL;IQNtlmPasswordAuthentication;) | smb named pipe
+CONS TransactNamedPipeInputStream(QSmbNamedPipe;) | transact named pipe input stream
+CONS TransactNamedPipeOutputStream(QSmbNamedPipe;) | transact named pipe output stream
+CONS TransCallNamedPipe(QString;[BII) | trans call named pipe
+CONS TransCallNamedPipeResponse(QSmbNamedPipe;) | trans call named pipe response
+CONS TransPeekNamedPipe(QString;I) | trans peek named pipe
+CONS TransPeekNamedPipeResponse(QSmbNamedPipe;) | trans peek named pipe response
+CONS TransTransactNamedPipe(I[BII) | trans transact named pipe
+CONS TransTransactNamedPipeResponse(QSmbNamedPipe;) | trans transact named pipe response
+CONS TransWaitNamedPipe(QString;) | trans wait named pipe
+CONS TransWaitNamedPipeResponse() | trans wait named pipe response

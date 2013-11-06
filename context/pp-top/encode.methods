@@ -1,0 +1,16 @@
+boolean encodeUnescaped(CZ) | encode unescaped
+boolean isAlreadyEncoded() | is already encoded
+byte[] getDEREncoded() | get der encoded
+byte[] getEncoded() | get encoded
+byte[] getEncoded(QDEREncodable;) | get encoded
+byte[] getEncoded(QString;) | get encoded
+DERObject convertHexEncoded(QString;I) | convert hex encoded
+String getEncoded() | get encoded
+void writeDEREncoded(I[B) | write der encoded
+void writeDEREncoded(QOutputStream;I[B) | write der encoded
+void writeDEREncoded(QOutputStream;IQInputStream;) | write der encoded
+void writeEncoded([B) | write encoded
+void writeEncoded(I[B) | write encoded
+void writeEncoded(QString;) | write encoded
+void writeEncoded(QWriter;QString;) | write encoded
+void writeHexEncoded([B) | write hex encoded

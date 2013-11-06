@@ -1,0 +1,15 @@
+boolean isFigureSelected(QFigure;) | is figure selected
+void figureAdded(QDrawingEvent;) | figure added
+void figureAdded(QFigureEvent;) | figure added
+void figureAreaInvalidated(QFigureEvent;) | figure area invalidated
+void figureAttributeChanged(QFigureEvent;) | figure attribute changed
+void figureChanged(QFigureEvent;) | figure changed
+void figureRemoved(QDrawingEvent;) | figure removed
+void figureRemoved(QFigureEvent;) | figure removed
+void fireFigureAdded() | fire figure added
+void fireFigureAdded(QFigure;) | fire figure added
+void fireFigureChanged() | fire figure changed
+void fireFigureChanged(QFigureEvent;) | fire figure changed
+void fireFigureChanged(QRectangle2D.Double;) | fire figure changed
+void fireFigureRemoved() | fire figure removed
+void fireFigureRemoved(QFigure;) | fire figure removed

@@ -1,0 +1,10 @@
+CONS DSAKeyGenerationParameters(QSecureRandom;QDSAParameters;) | dsa key generation parameters
+CONS DSAKeyParameters(ZQDSAParameters;) | dsa key parameters
+CONS DSAParameter(QASN1Sequence;) | dsa parameter
+CONS DSAParameter(QBigInteger;QBigInteger;QBigInteger;) | dsa parameter
+CONS DSAParameters(QBigInteger;QBigInteger;QBigInteger;) | dsa parameters
+CONS DSAParameters(QBigInteger;QBigInteger;QBigInteger;QDSAValidationParameters;) | dsa parameters
+CONS DSAPrivateKeyParameters(QBigInteger;QDSAParameters;) | dsa private key parameters
+CONS DSAPublicKeyParameters(QBigInteger;QDSAParameters;) | dsa public key parameters
+CONS DSAValidationParameters([BI) | dsa validation parameters
+CONS DsDef(QString;QString;JDD) | ds def

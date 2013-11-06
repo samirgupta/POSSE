@@ -1,0 +1,29 @@
+boolean getAppliesToEdge() | get applies to edge
+boolean isAdjacentToMapEdge(QTile;) | is adjacent to map edge
+boolean isEdge(Object edge) | is edge
+boolean isHighlightWithInvisibleEdge() | is highlight with invisible edge
+boolean removeChildEdge(I) | remove child edge
+boolean removeChildEdge(QEdge;) | remove child edge
+boolean removeEdge(I) | remove edge
+boolean removeEdge(QEdge;) | remove edge
+Edge addChildEdge(QNode;QNode;) | add child edge
+Edge addEdge(QNode;QNode;) | add edge
+Edge getEdge(I) | get edge
+Edge getEdge(QNode;QNode;) | get edge
+Edge getParentEdge() | get parent edge
+Edge getParentEdge(QNode;) | get parent edge
+EdgeView getEdge() | get edge
+int addChildEdge(II) | add child edge
+int addEdge(II) | add edge
+int getEdge(II) | get edge
+int getMaxDistToEdge() | get max dist to edge
+int getParentEdge(I) | get parent edge
+int getPrefDistToEdge() | get pref dist to edge
+MindMapEdge getEdge() | get edge
+Object getEdge(Object fromNode, Object toNode) | get edge
+StateSet DFAEdge(QStateSet;C) | dfa edge
+void decreaseEdge() | decrease edge
+void setEdge(QEdgeView;) | set edge
+void setEdge(QMindMapEdge;) | set edge
+void setHighlightWithInvisibleEdge(Z) | set highlight with invisible edge
+void visitEdge(GraphIterator graphIterator, Object node1, Object node2, Object object) | visit edge

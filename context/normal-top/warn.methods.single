@@ -1,0 +1,8 @@
+void warn(MetaEnvironmentSource context, String msg, Object helpContext) | warn
+void warn(Object source, String message) | warn
+void warn(QComponent;QString;) | warn
+void warn(QString;) | warn
+void warn(QString;QString;) | warn
+void warn(QString;QString;QThrowable;) | warn
+void warn(QString;QThrowable;) | warn
+void warn(String txt, Throwable e) | warn

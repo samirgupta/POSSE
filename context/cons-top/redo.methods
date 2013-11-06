@@ -1,0 +1,6 @@
+CONS RedoAction(QApplication;) | redo action
+CONS RedoAction(QControllerAdapter;) | redo action
+CONS RedoAction(QGPUndoManager;QString;QGanttProject;) | redo action
+CONS RedoAction(QString;QString;QDrawingPanel;) | redo action
+CONS RedoAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | redo action
+CONS UndoRedoManager() | undo redo manager

@@ -1,0 +1,510 @@
+AbstractWizardSequence createWizardSequence(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) | create wizard sequence
+ActionForward display(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) | display
+ActionForward edit(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) | edit
+ActionForward execute(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) | execute
+ActionForward perform(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) | perform
+ArrayList<QFormat;> getSupportedDateFormats() | get supported date formats
+ArrayList<QString;> getInvalidFormatters() | get invalid formatters
+ArrayList<QString;> getMissingFormatters() | get missing formatters
+ArrayList<QString;> getSupportedDateFormatsDesc() | get supported date formats desc
+boolean acquirePrinterJobAndPageFormat() | acquire printer job and page format
+boolean getDisplayModelInOldFormat() | get display model in old format
+boolean[] getSubclassFormulaLazyiness() | get subclass formula lazyiness
+boolean hasFormula() | has formula
+boolean hasFormulaProperties() | has formula properties
+boolean hasImmediateOutputFormat() | has immediate output format
+boolean inputFormat(QInstances;) | input format
+boolean isDiscriminatorFormula() | is discriminator formula
+boolean isFormatSql() | is format sql
+boolean isFormula() | is formula
+boolean isInvalidFormatter() | is invalid formatter
+boolean isJSFormatChar(I) | is js format char
+boolean isRecognizedFormat(QInputStream;) | is recognized format
+boolean isRecognizedFormat(QReader;) | is recognized format
+boolean isValidFormat() | is valid format
+boolean isValidVersionFormat(QString;) | is valid version format
+boolean needExponentialFormat(D) | need exponential format
+boolean openExternalFileAnyFormat(QMetaData;QString;QExternalFileType;) | open external file any format
+boolean setCommentAndFormatLinks(QControl;QString;) | set comment and format links
+boolean setInputFormat(QInstances;) | set input format
+byte[] textToNumericFormat(QString;) | text to numeric format
+byte[] toInternalFormat(QObject;) | to internal format
+char[] toInternalFormat(QObject;) | to internal format
+Composite createSashForm(QComposite;) | create sash form
+DateFormat getAdditionDateFormat() | get addition date format
+DateFormat getDateFormat() | get date format
+DecimalFormat[] format() | format
+DecimalFormat[] format(I) | format
+DecimalFormat[] format(IIIIIZ) | format
+DecimalFormat format(IIIIZ) | format
+DecimalFormat[] format(IZ) | format
+DecimalFormat getDecimalFormat(I) | get decimal format
+DecimalFormat getModifierFormat() | get modifier format
+DiscreteFunction formalize() | formalize
+double stirlingFormula(D) | stirling formula
+EdgeColorFormatAction createEdgeColorFormatAction(QMindMapNode;QColor;) | create edge color format action
+EdgeStyleFormatAction createNodeStyleFormatAction(MindMapNode selected, String style) | create node style format action
+EdgeStyleFormatAction createNodeStyleFormatAction(QMindMapNode;QString;) | create node style format action
+EdgeWidthFormatAction createEdgeWidthFormatAction(QMindMapNode;I) | create edge width format action
+ExportFormat createFormat([QString;) | create format
+Format getAreaFormatWithUnit() | get area format with unit
+Format getDateFormat(QString;) | get date format
+Format getFormat() | get format
+Format getFormatWithUnit() | get format with unit
+Formatter getFormatter() | get formatter
+Formatters getFormatters() | get formatters
+FormData getFilledFormData() | get filled form data
+freemind.controller.actions.generated.instance.EdgeColorFormatAction createEdgeColorFormatAction() | create edge color format action
+freemind.controller.actions.generated.instance.EdgeColorFormatActionType createEdgeColorFormatActionType() | create edge color format action type
+freemind.controller.actions.generated.instance.EdgeStyleFormatAction createEdgeStyleFormatAction() | create edge style format action
+freemind.controller.actions.generated.instance.EdgeStyleFormatActionType createEdgeStyleFormatActionType() | create edge style format action type
+freemind.controller.actions.generated.instance.EdgeWidthFormatAction createEdgeWidthFormatAction() | create edge width format action
+freemind.controller.actions.generated.instance.EdgeWidthFormatActionType createEdgeWidthFormatActionType() | create edge width format action type
+freemind.controller.actions.generated.instance.FormatNodeAction createFormatNodeAction() | create format node action
+freemind.controller.actions.generated.instance.NodeBackgroundColorFormatAction createNodeBackgroundColorFormatAction() | create node background color format action
+freemind.controller.actions.generated.instance.NodeBackgroundColorFormatActionType createNodeBackgroundColorFormatActionType() | create node background color format action type
+freemind.controller.actions.generated.instance.NodeColorFormatAction createNodeColorFormatAction() | create node color format action
+freemind.controller.actions.generated.instance.NodeColorFormatActionType createNodeColorFormatActionType() | create node color format action type
+freemind.controller.actions.generated.instance.NodeStyleFormatAction createNodeStyleFormatAction() | create node style format action
+freemind.controller.actions.generated.instance.NodeStyleFormatActionType createNodeStyleFormatActionType() | create node style format action type
+HashMap<QString;QString;> readFormatterFile(QString;) | read formatter file
+HTMLFormElement getForm() | get form
+IExportFormat getExportFormat() | get export format
+IExportFormat getExportFormat(QString;) | get export format
+ILogContextFormatter getFormatter() | get formatter
+ImportFormat getImportFormat() | get import format
+InFragment setFormula(QString;QString;) | set formula
+Instances defineDataFormat() | define data format
+Instances determineOutputFormat(QInstances;) | determine output format
+Instances getConnectedFormat() | get connected format
+Instances getDatasetFormat() | get dataset format
+Instances getInputFormat() | get input format
+Instances getOutputFormat() | get output format
+Instances getRelationalClassFormat() | get relational class format
+Instances getRelationalFormat(I) | get relational format
+Instances inputFormatPeek() | input format peek
+Instances metaFormat(QInstances;) | meta format
+Instances outputFormat() | output format
+Instances outputFormatPeek() | output format peek
+Instances setOutputFormat() | set output format
+Instances setOutputFormatOriginal() | set output format original
+int getFormat() | get format
+int getFormDimension() | get form dimension
+int getOutputFormat() | get output format
+int[] getSubclassFormulaTableNumberClosure() | get subclass formula table number closure
+int readAndXWireFormat([BI) | read and x wire format
+int readBodyWireFormat([BI) | read body wire format
+int readBytesWireFormat([BI) | read bytes wire format
+int readDataWireFormat([BII) | read data wire format
+int readFsFullSizeInformationWireFormat([BI) | read fs full size information wire format
+int readHeaderWireFormat([BI) | read header wire format
+int readHeaderWireFormat(QInputStream;[BI) | read header wire format
+int readParametersWireFormat([BII) | read parameters wire format
+int readParameterWordsWireFormat([BI) | read parameter words wire format
+int readQuestionSectionWireFormat([BI) | read question section wire format
+int readRDataWireFormat([BI) | read r data wire format
+int readResourceRecordWireFormat([BI) | read resource record wire format
+int readScopeWireFormat([BI) | read scope wire format
+int readSetupWireFormat([BII) | read setup wire format
+int readSmbInfoAllocationWireFormat([BI) | read smb info allocation wire format
+int readSmbQueryFileBasicInfoWireFormat([BI) | read smb query file basic info wire format
+int readSmbQueryFileStandardInfoWireFormat([BI) | read smb query file standard info wire format
+int readSmbQueryFSSizeInfoWireFormat([BI) | read smb query fs size info wire format
+int readTrailerWireFormat(QInputStream;[BI) | read trailer wire format
+int readWireFormat([BI) | read wire format
+int readWireFormat([BII) | read wire format
+int readWireFormat(QInputStream;[BI) | read wire format
+int writeAndXWireFormat([BI) | write and x wire format
+int writeBodyWireFormat([BI) | write body wire format
+int writeBytesWireFormat([BI) | write bytes wire format
+int writeDataWireFormat([BI) | write data wire format
+int writeHeaderWireFormat([BI) | write header wire format
+int writeParametersWireFormat([BI) | write parameters wire format
+int writeParameterWordsWireFormat([BI) | write parameter words wire format
+int writeQuestionSectionWireFormat([BI) | write question section wire format
+int writeRDataWireFormat([BI) | write r data wire format
+int writeResourceRecordWireFormat([BI) | write resource record wire format
+int writeScopeWireFormat([BI) | write scope wire format
+int writeSetupWireFormat([BI) | write setup wire format
+int writeTrailerWireFormat([BI) | write trailer wire format
+int writeWireFormat([BI) | write wire format
+it.businesslogic.ireport.gui.EventsForm getEventsForm() | get events form
+java.lang.String formatAckString(QJUserDetails;QJSystemDetails;) | format ack string
+java.lang.String formatAddUserString(QJUserDetails;QJSystemDetails;J) | format add user string
+java.lang.String formatAuthorizeUser(JQJUserDetails;QJSystemDetails;) | format authorize user
+java.lang.String formatChangePasswordString(QJUserDetails;Qjava.lang.String;) | format change password string
+java.lang.String formatInpOutString(ZQJUserDetails;QJSystemDetails;J) | format inp out string
+java.lang.String formatIPListString(QJUserDetails;QJSystemDetails;Qjava.util.Hashtable;) | format ip list string
+java.lang.String formatLoginString(QJUserDetails;QJSystemDetails;) | format login string
+java.lang.String formatMessageString(QJUserDetails;QJSystemDetails;JQjava.lang.String;Z) | format message string
+java.lang.String formatNewUserString(QJUserDetails;) | format new user string
+java.lang.String formatSearchUserString(J) | format search user string
+java.lang.String formatStatusString(QJUserDetails;QJSystemDetails;) | format status string
+java.lang.String formatSuccessString(Qjava.lang.String;) | format success string
+java.lang.String getReportFormat() | get report format
+java.util.List<QInputFormat;> getInputFormats() | get input formats
+java.util.List<QOutputFormat;> getOutputFormats() | get output formats
+JComponent getInputFormatAccessory() | get input format accessory
+JComponent getOutputFormatAccessory() | get output format accessory
+JFormattedTextField.AbstractFormatter getFormatter(QJFormattedTextField;) | get formatter
+JHTML.Form getBidForm(QCookieJar;QAuctionEntry;QCurrency;I) | get bid form
+JHTML.Form getFormWithInput(QString;) | get form with input
+JIFileSystem format(Device device, Object specificOptions) | format
+LayoutFormatter getLayoutFormatterByClassName(QString;QString;) | get layout formatter by class name
+LayoutFormatter getLayoutFormatterFromPlugins(QString;) | get layout formatter from plugins
+List getForms() | get forms
+List<QExportFormatExtension;> getExportFormatExtensions() | get export format extensions
+List<QExportFormatProviderExtension;> getExportFormatProviderExtensions() | get export format provider extensions
+List<QExportFormatTemplateExtension;> getExportFormatTemplateExtensions() | get export format template extensions
+List<QFormatEntry;> parseFormatString(QString;) | parse format string
+List<QIExportFormat;> getExportFormats() | get export formats
+List<QImportFormatExtension;> getImportFormatExtensions() | get import format extensions
+List<QInputFormat;> getInputFormats() | get input formats
+List<QLayoutFormatterExtension;> getLayoutFormatterExtensions() | get layout formatter extensions
+List<QOutputFormat;> getOutputFormats() | get output formats
+Map<QString;QIExportFormat;> getExportFormats() | get export formats
+Map<QString;QString;> getNameFormatters() | get name formatters
+MessageFormat getMessageFormat(QString;) | get message format
+net.sf.jabref.export.IExportFormat getExportFormat() | get export format
+net.sf.jabref.export.IExportFormatProvider getFormatProvider() | get format provider
+net.sf.jabref.export.layout.LayoutFormatter getLayoutFormatter() | get layout formatter
+net.sf.jabref.imports.ImportFormat getImportFormat() | get import format
+NodeBackgroundColorFormatAction createNodeBackgroundColorFormatAction(QMindMapNode;QColor;) | create node background color format action
+NodeColorFormatAction createNodeColorFormatAction(QMindMapNode;QColor;) | create node color format action
+NodeStyleFormatAction createNodeStyleFormatAction(QMindMapNode;QString;) | create node style format action
+NumberFormat getNumberFormat() | get number format
+Object formatName(QObject;) | format name
+Object toExternalFormat([B) | to external format
+Object toExternalFormat([C) | to external format
+PageFormat getPageFormat() | get page format
+PageFormat getPageFormat(I) | get page format
+PageFormat getPageFormat(QHomePrint;) | get page format
+PageFormat initPageFormat(Node node) | init page format
+Pair<QString;QParserResult;> importUnknownFormat(QString;) | import unknown format
+PluginBasedExportFormat getFormat(QExportFormatTemplateExtension;) | get format
+Point getFormatSize(QString;) | get format size
+SchemaExport setFormat(Z) | set format
+SelectFragment addFormula(QString;QString;QString;) | add formula
+SelectFragment addFormulas(QString;[QString;[QString;) | add formulas
+SimpleDateFormat createDateFormat(QString;) | create date format
+SimpleDateFormat getDateFormat() | get date format
+SimpleDateFormat getDateFormatter() | get date formatter
+SortedSet<QImportFormat;> getBuiltInInputFormats() | get built in input formats
+SortedSet<QImportFormat;> getCustomImportFormats() | get custom import formats
+SortedSet<QImportFormat;> getImportFormats() | get import formats
+StringBuffer format(double number, StringBuffer toAppendTo, FieldPosition pos) | format
+StringBuffer format(DQStringBuffer;QFieldPosition;) | format
+StringBuffer format(JQStringBuffer;QFieldPosition;) | format
+StringBuffer format(long number, StringBuffer toAppendTo, FieldPosition pos) | format
+StringBuffer format(QStringBuffer;) | format
+StringBuffer format(QStringBuffer;QString;) | format
+StringBuffer formatString(QString;) | format string
+StringBuilder formatClassicalMemory(ArrayList<VariableValue> memState) | format classical memory
+String convertToMsgFormat(QString;) | convert to msg format
+String date_format(DI) | date format
+String dateFormat(QSearcher;) | date format
+String dateFormatTipText() | date format tip text
+String deductPageFormat(II) | deduct page format
+String displayModelInOldFormatTipText() | display model in old format tip text
+String dotFormat() | dot format
+String easyDateFormat() | easy date format
+String easyDateFormat(QDate;) | easy date format
+String firstFormat(QString;) | first format
+String fixPathFormat(QString;) | fix path format
+String format100ths(J) | format 100 ths
+String formatAlterTable(QString;) | format alter table
+String formatAmmo(QEntity;) | format ammo
+String formatAmmo(QMounted;) | format ammo
+String formatArmorBattleArmor(QBattleArmor;) | format armor battle armor
+String formatArmorGunEmplacement(QGunEmplacement;) | format armor gun emplacement
+String formatArmor(I) | format armor
+String formatArmorInfantry(QInfantry;) | format armor infantry
+String formatArmorMech(QMech;) | format armor mech
+String formatArmorProtomech(QProtomech;) | format armor protomech
+String formatArmor(QEntity;) | format armor
+String formatArmorTank(QTank;) | format armor tank
+String formatAttributeValue(Object value) | format attribute value
+String formatBid(QAuctionEntry;QString;) | format bid
+String formatBitCountToKiBEtcLocalImpl(JZZIZ) | format bit count to ki b etc local impl
+String formatByteArray([BZ) | format byte array
+String formatByteCountToBase10KBEtc(J) | format byte count to base 10 kb etc
+String formatByteCountToBase10KBEtcPerSec(J) | format byte count to base 10 kb etc per sec
+String formatByteCountToBitsPerSec(J) | format byte count to bits per sec
+String formatByteCountToKiBEtc(I) | format byte count to ki b etc
+String formatByteCountToKiBEtc(J) | format byte count to ki b etc
+String formatByteCountToKiBEtc(JZ) | format byte count to ki b etc
+String formatByteCountToKiBEtc(JZZ) | format byte count to ki b etc
+String formatByteCountToKiBEtc(JZZI) | format byte count to ki b etc
+String formatByteCountToKiBEtcPerSec(J) | format byte count to ki b etc per sec
+String formatByteCountToKiBEtcPerSec(JZ) | format byte count to ki b etc per sec
+String formatBytes(J) | format bytes
+String formatColon(J) | format colon
+String formatCommentOn(QString;) | format comment on
+String formatCreateTable(QString;) | format create table
+String formatCrits(QEntity;) | format crits
+String formatCustomDateOnly(J) | format custom date only
+String formatCustomDateTime(J) | format custom date time
+String formatCustomTimeOnly(J) | format custom time only
+String formatCustomTimeOnly(JZ) | format custom time only
+String format_dataObject(QDataObject;) | format data object
+String formatDataProtByteCountToKiBEtc(JJ) | format data prot byte count to ki b etc
+String formatDataProtByteCountToKiBEtcPerSec(JJ) | format data prot byte count to ki b etc per sec
+String formatDate(D) | format date
+String format(Date date) | format
+String formatDate(J) | format date
+String formatDate(JQString;) | format date
+String formatDateNum(J) | format date num
+String formatDateOnly(J) | format date only
+String formatDate(QDate;) | format date
+String formatDate(QGanttCalendar;) | format date
+String formatDate(QString;) | format date
+String formatDateShort(J) | format date short
+String formatDecimal(DI) | format decimal
+String formatDecimal(DIZZ) | format decimal
+String formatDouble(D) | format double
+String formatDouble(DQString;) | format double
+String formatDouble(DQString;Z) | format double
+String formatDouble(DZ) | format double
+String formatDownloadStatusDefaultLocale(QDownloadManager;) | format download status default locale
+String formatDownloadStatus(QDownloadManager;) | format download status
+String formatEquipment(IQMounted;QEntity;) | format equipment
+String formatETAFromSeconds(J) | format eta from seconds
+String formatETA(J) | format eta
+String formatExpiry(J) | format expiry
+String format(F) | format
+String formatForDisplay(QString;) | format for display
+String formatHashFails(QDownloadManager;) | format hash fails
+String formatHeader(QEntity;) | format header
+String FormatHTMLHeader(String HeaderName, String HeaderBody) | format html header
+String format(I) | format
+String formatIdentifier(QString;) | format identifier
+String _format_i(int value) | format i
+String format(int intval) | format
+String formatIntToTwoDigits(I) | format int to two digits
+String format(J) | format
+String format(LogRecord record) | format
+String formatMech(QMechSummary;) | format mech
+String formatName(QAuthor;QString;QWarn;) | format name
+String formatName(QString;) | format name
+String formatName(QString;IQString;QWarn;) | format name
+String formatNanoAsMilli(J) | format nano as milli
+String formatNicely(QMap;Z) | format nicely
+String formatNumber(DI) | format number
+String formatPercentFromThousands(I) | format percent from thousands
+String formatPercentFromThousands(J) | format percent from thousands
+String formatPropertyDesc(QString;) | format property desc
+String format(QBigDecimal;) | format
+String format(QColor;) | format
+String format(QEntity;) | format
+String format(QFile;) | format
+String format(QFont;) | format
+String format(QKeyStroke;) | format
+String format(QLogRecord;) | format
+String format(QObject;) | format
+String format(QObject;QPropertyMetaInformation;) | format
+String format(QString;) | format
+String format(QString;QAuthorList;[QString;) | format
+String format(QString;QString;) | format
+String format(QString;QString;QBibtexEntry;) | format
+String format(QT;) | format
+String format(QUpdateChecker;QString;) | format
+String format(QUpdateCheckInstance;QString;) | format
+String format(QVector<QT;>;) | format
+String formatRegExException(QString;QException;) | format reg ex exception
+String formatRep(QFile;) | format rep
+String formatRoleForTooltip(QRole;) | format role for tooltip
+String format(S) | format
+String formatShortDate(QGanttCalendar;) | format short date
+String formatSlot(QCriticalSlot;QMounted;) | format slot
+String formatSlot(QString;QMounted;ZZ) | format slot
+String formatSnipeAndBid(QAuctionEntry;) | format snipe and bid
+String formatSnipe(QAuctionEntry;QString;) | format snipe
+String formatString() | format string
+String formatStyle(QString;) | format style
+String formatSuffix() | format suffix
+String formatTableName(QString;) | format table name
+String formatTag(QString;) | format tag
+String formatTimeBySec(JZ) | format time by sec
+String formatTimeFromSeconds(J) | format time from seconds
+String formatTime(J) | format time
+String formatTimeOnly(J) | format time only
+String formatTimeOnly(JZ) | format time only
+String formatTime(QGanttCalendar;) | format time
+String formatTimeStamp(J) | format time stamp
+String formatTipText() | format tip text
+String formatTotalSnipe(QAuctionEntry;QString;) | format total snipe
+String formatUnit(QEntity;Z) | format unit
+String formatUnknownAzStyleClient(QString;) | format unknown az style client
+String formatUnknownShadowStyleClient(QString;) | format unknown shadow style client
+String formatXML(QString;) | format xml
+String form(QString;QString;QString;QString;) | form
+String getDateFormat() | get date format
+String getDefaultSummaryFormat() | get default summary format
+String getDiscriminatorFormula() | get discriminator formula
+String getDiscriminatorFormulaTemplate() | get discriminator formula template
+String getFieldAndFormat(QString;QBibtexEntry;QBibtexDatabase;) | get field and format
+String getFooterFormat() | get footer format
+String getFormat() | get format
+String getFormatCode() | get format code
+String getFormatDesc(QFormat;) | get format desc
+String getFormatedValue(QString;) | get formated value
+String getFormatName() | get format name
+String getFormatPattern(String className, String pattern, Locale locale) | get format pattern
+String getFormattedInviteMessage() | get formatted invite message
+String getFormattedString(DQString;D) | get formatted string
+String getFormattedTickText(QNumberFormat;F) | get formatted tick text
+String getFormattedValue() | get formatted value
+String getFormattedWithTwoDecimals(float value) | get formatted with two decimals
+String getFormattingElementsParentXPath() | get formatting elements parent x path
+String getFormFieldValue() | get form field value
+String getFormula() | get formula
+String getHeaderFormat() | get header format
+String getImageFormat() | get image format
+String getImportFormatList() | get import format list
+String[] getIndexFormulas() | get index formulas
+String getNameFormat() | get name format
+String getNewUserFormId() | get new user form id
+String getOutputFormat() | get output format
+String getSlashedForm(QString;) | get slashed form
+String getSourceFormat() | get source format
+String getStampFormat() | get stamp format
+String[] getSubclassFormulaAliasClosure() | get subclass formula alias closure
+String[] getSubclassFormulaClosure() | get subclass formula closure
+String[] getSubclassFormulaTemplateClosure() | get subclass formula template closure
+String[][] getSubclassPropertyFormulaTemplateClosure() | get subclass property formula template closure
+String readForm(String fname, String server) | read form
+String restFormat(QString;) | rest format
+String toStringFormat() | to string format
+String transForm(QSource;QInputStream;) | trans form
+Tag getFileFormat() | get file format
+Tag validateFileFormat(QTag;) | validate file format
+TextFormatter getTextFormatter() | get text formatter
+TimeUnitText format(QDate;) | format
+TimeUnitText format(QTimeUnit;QDate;) | format
+TreeMap<QString;QExportFormat;> getCustomExportFormats() | get custom export formats
+URLConnection postFormPage(QString;QString;QString;QString;Z) | post form page
+void addDataFormatListener(QDataFormatListener;) | add data format listener
+void addFormatedError(QString;) | add formated error
+void addFormatItemsToMenu(Qjavax.swing.JComponent;) | add format items to menu
+void addFormat([QString;) | add format
+void addFormRow(Vector<Element> Cols, String txt, String name, String content, Element msg) | add form row
+void addFormula(QFormula;) | add formula
+void addOnFormKill(EventHandler value) | add on form kill
+void applyFormat() | apply format
+void assertNameFormatA(QString;QString;) | assert name format a
+void assertNameFormatB(QString;QString;) | assert name format b
+void assertNameFormatC(QString;QString;) | assert name format c
+void assertNameFormat(QString;QString;IQString;) | assert name format
+void bindColumnsOrFormula(QElement;QSimpleValue;QString;ZQMappings;) | bind columns or formula
+void copyFormat(QMindMapNode;) | copy format
+void defaultFormat() | default format
+void detectFormatChanges(QXmlAction;) | detect format changes
+void execute(SQLForm form, String command, String SQLString) | execute
+void exitForm() | exit form
+void exitForm(Qjava.awt.event.WindowEvent;) | exit form
+void ExportFormatExtension(QPlugin;QExtension;) | export format extension
+void ExportFormatProviderExtension(QPlugin;QExtension;) | export format provider extension
+void ExportFormatTemplateExtension(QPlugin;QExtension;) | export format template extension
+void format() | format
+void formatCallout(Emitter rtfEmitter, Callout callout) | format callout
+void FormatEntry(I) | format entry
+void FormatEntry(QString;) | format entry
+void formatLastPanel(QProgressReporterPanel;) | format last panel
+void FormatProcess(QString;) | format process
+void formatResultSet(QResultSet;) | format result set
+void formInternalFrameClosing(Qjavax.swing.event.InternalFrameEvent;) | form internal frame closing
+void formPropertyChange(Qjava.beans.PropertyChangeEvent;) | form property change
+void Form(QString;) | form
+void FormularEntity(QString;QString;QString;QString;) | formular entity
+void FormularEntity(QXMLElement;) | formular entity
+void formWindowClosing(Qjava.awt.event.WindowEvent;) | form window closing
+void glConvolutionFilter1D(int target, int internalformat, int width, int format, int type, ByteBuffer image) | gl convolution filter 1 d
+void ImportFormatExtension(QPlugin;QExtension;) | import format extension
+void importThesaurus(InputStream inputstream, int format, Vector metadata) | import thesaurus
+void initFormats() | init formats
+void initialiseForm(ToolParent theParent) | initialise form
+void initValueForm() | init value form
+void inputFormat(QInstances;) | input format
+void insertFormElement(Tag baseTag, String baseElement, Hashtable attribs, String fieldNames, String fieldTypes, boolean hasClosingTag) | insert form element
+void LayoutFormatterExtension(QPlugin;QExtension;) | layout formatter extension
+void loadTargetFormatDataTree(IXmlFormatModel m, Vector<Document> eDataList) | load target format data tree
+void MeterFamilyFormat(QString;F) | meter family format
+void newDataFormat(QDataSetEvent;) | new data format
+void newFormat(D) | new format
+void notifyDataFormatListeners() | notify data format listeners
+void parseButtonCXForm(QInStream;) | parse button cx form
+void pasteFormat(QMindMapNode;) | paste format
+void putFormat(QIExportFormat;) | put format
+void putSupplier(GenericDelegator delegator, Map formsData) | put supplier
+void readOldFormat(QReader;) | read old format
+void removeDataFormatListener(QDataFormatListener;) | remove data format listener
+void resetImportFormats() | reset import formats
+void resetTableForms() | reset table forms
+void setActiveReportForm(QJReportFrame;) | set active report form
+void setDatasetFormat(QInstances;) | set dataset format
+void setDateFormat(QSimpleDateFormat;) | set date format
+void setDateFormat(QString;) | set date format
+void setDateFormat(String javaDatePattern) | set date format
+void setDisplayformatlocalekey(String string) | set display format locale key
+void setDisplayModelInOldFormat(Z) | set display model in old format
+void setDomainTickFormat(NumberFormat domainTickFormat) | set domain tick format
+void setEventsForm(Qit.businesslogic.ireport.gui.EventsForm;) | set events form
+void setFileFormat(QTag;) | set file format
+void setFormat() | set format
+void setFormat(D) | set format
+void setFormat(DII) | set format
+void setFormat(Format value) | set format
+void setFormat(QFormat;) | set format
+void setFormat(QString;) | set format
+void setFormatSql(Z) | set format sql
+void setFormat(String format) | set format
+void setFormatString(String format) | set format string
+void setFormattingForState(QGraphics;I) | set formatting for state
+void setFormat(Z) | set format
+void setFormula(QString;) | set formula
+void setInputFormats(Qjava.util.List<QInputFormat;>;) | set input formats
+void setInputFormats(QList<QInputFormat;>;) | set input formats
+void setLongFormatter(LongFormatter formatter) | set long formatter
+void setNumberFormat(QNumberFormat;) | set number format
+void setOutputFormat() | set output format
+void setOutputFormatFromDialog() | set output format from dialog
+void setOutputFormat(I) | set output format
+void setOutputFormatNominal() | set output format nominal
+void setOutputFormatNumeric() | set output format numeric
+void setOutputFormat(QInstances;) | set output format
+void setOutputFormats(Qjava.util.List<QOutputFormat;>;) | set output formats
+void setOutputFormats(QList<QOutputFormat;>;) | set output formats
+void setPageFormat(QPageFormat;) | set page format
+void setPostFormatter(QLayoutFormatter;) | set post formatter
+void setRelationalClassFormat(QInstances;) | set relational class format
+void setRelationalFormat(IQInstances;) | set relational format
+void setReportFormat(Qjava.lang.String;) | set report format
+void setSourceFormat(QString;) | set source format
+void setStampFormat(QString;) | set stamp format
+void setTextFormatter(QTextFormatter;) | set text formatter
+void setUpFileFormatComboBox() | set up file format combo box
+void SquareMeterAreaFormatWithUnit(QString;) | square meter area format with unit
+void storeItemsMap(HttpServletRequest request, ActionForm form) | store items map
+void tagButtonCXForm(IQColorTransform;) | tag button cx form
+void testBasicFormat() | test basic format
+void TestDateFormat() | test date format
+void testEmbeddedBraceForms() | test embedded brace forms
+void testFieldAndFormat() | test field and format
+void testFormat() | test format
+void testFormatName() | test format name
+void testFormatString() | test format string
+void testFormatStringStringBibtexEntry() | test format string string bibtex entry
+void testGetPageFormat() | test get page format
+void testInputFormat(QInstances;) | test input format
+void testIsRecognizedFormat() | test is recognized format
+void testLocaleSpecificFormat() | test locale specific format
+void testNotWellFormed_IbmNotWfP56Ibm56n02xml() | test not well formed ibm not wf p 56 ibm 56 n 02 xml
+void testNotWellFormed_IbmNotWfP85Ibm85n184xml() | test not well formed ibm not wf p 85 ibm 85 n 184 xml
+void testNotWellFormed_IbmNotWfP85Ibm85n21xml() | test not well formed ibm not wf p 85 ibm 85 n 21 xml
+void testNotWellFormed_NotWfSa159() | test not well formed not wf sa 159
+void testProjectForm() | test project form
+void testUserFieldAndFormat() | test user field and format
+void transForm(QFile;QFile;QFile;) | trans form
+void transForm(QSource;QInputStream;QFile;QClickableImageCreator;) | trans form
+void updateTableFormat() | update table format
+void updateToolTipTextFieldFormatterFactory(QJFormattedTextField;QPlanController.EditableProperty;QUserPreferences;) | update tool tip text field formatter factory

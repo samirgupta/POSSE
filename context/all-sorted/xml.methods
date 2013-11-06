@@ -1,0 +1,796 @@
+../3-Phrases/Base_Verb:static void readActivityDescriptorsFromXML() | void read activity descriptors from xml
+../3-Phrases/Base_Verb:Element saveAsXML() | save as xml
+../3-Phrases/Base_Verb:void saveToXML(Element parent) | save to xml
+../3-Phrases/Base_Verb:static TagInfo getTagInfoFromXMLConfiguration(Element renderingInstructions) | tag info get tag info from xml configuration
+../3-Phrases/Base_Verb:static AppletDocument parse(String xmlAsString) | applet document parse
+../3-Phrases/Base_Verb:static BackgroundDocument parse(String xmlAsString, XmlOptions options) | background document parse
+../3-Phrases/Base_Verb:static ExtrusionSecondLightLevelAttribute parse(String xmlAsString) | extrusion second light level attribute parse
+../3-Phrases/Base_Verb:static InlineStringDocument parse(String xmlAsString, XmlOptions options) | inline string document parse
+../3-Phrases/Base_Verb:static MarkerEndAttribute parse(String xmlAsString, XmlOptions options) | marker end attribute parse
+../3-Phrases/Base_Verb:static PlacingAttribute parse(String xmlAsString, XmlOptions options) | placing attribute parse
+../3-Phrases/Base_Verb:static WrapAnchorxElt parse(String xmlAsString, XmlOptions options) | wrap anchorx elt parse
+../3-Phrases/Base_Verb:static XorType parse(String xmlAsString, XmlOptions options) | xor type parse
+../3-Phrases/Base_Verb:void add(String fileName, String xml) | add
+../3-Phrases/Base_Verb:void transform(Source xmlSource, Result outputTarget) | transform
+../3-Phrases/Base_Verb:static XMLTag parse(Reader in) | xmltag parse
+../3-Phrases/Base_Verb:void setXMLAccess(XMLAccess xmlAccess) | set xml access
+../3-Phrases/Base_Verb:void testReadActionXmlConfiguration() | test read action xml configuration
+../3-Phrases/Base_Verb:String getXMLName() | get xml name
+../3-Phrases/Base_Verb:String getXMLName() | get xml name
+../3-Phrases/Base_Verb:String insertRecordName(String xmlMessage, String recordName) | insert record name
+../3-Phrases/Base_Verb:static Document parseXml(URL url) | document parse xml
+../3-Phrases/Base_Verb:String getDetailsXml() | get details xml
+../3-Phrases/Base_Verb:void testNotWellFormed_IbmNotWfP56Ibm56n02xml() | test not well formed ibm not wf p 56 ibm 56 n 02 xml
+../3-Phrases/Base_Verb:void testNotWellFormed_IbmNotWfP85Ibm85n184xml() | test not well formed ibm not wf p 85 ibm 85 n 184 xml
+../3-Phrases/Base_Verb:void testNotWellFormed_IbmNotWfP85Ibm85n21xml() | test not well formed ibm not wf p 85 ibm 85 n 21 xml
+../3-Phrases/Base_Verb:XmlWriter createXmlWriter() | create xml writer
+../3-Phrases/Base_Verb:Element getRequestXML() | get request xml
+../3-Phrases/Base_Verb:static MetaData parseMap(Reader xmlStreamReader, Parser pzparser) | meta data parse map
+../3-Phrases/Base_Verb:void testXMLNSNamespace() | test xmlns namespace
+../3-Phrases/Base_Verb:PartTypeUseDocument getXml() | get xml
+../3-Phrases/Base_Verb:void readProcessData(XmlElement xmlElement, CreationContext creationContext) | read process data
+../3-Phrases/Base_Verb:String getXMLName() | get xml name
+../3-Phrases/Base_Verb:void readChartTitleElement(Node xmlElement, ChartReportElement2 re) | read chart title element
+../3-Phrases/Base_Verb:Section getXml() | get xml
+../3-Phrases/Base_Verb:void addXml(SimpleActions simpleActionsXml) | add xml
+../3-Phrases/Base_Verb:String getXMLName() | get xml name
+../3-Phrases/Base_Verb:String getXML() | get xml
+../3-Phrases/Base_Verb:XMLEventReader createXMLEventReader(String systemId, Reader reader) | create xml event reader
+../3-Phrases/Base_Verb:XMLStreamReader createXMLStreamReader(String systemId, Reader reader) | create xml stream reader
+../3-Phrases/Base_Verb:static XMLReader createXMLReader(String className) | xmlreader create xml reader
+../3-Phrases/Base_Verb:static XmlWriter createWriter(OutputStream stream) | xml writer create writer
+../3-Phrases/drjava2:void testXML() | test xml
+../3-Phrases/drjava2:void testXMLParse() | test xml parse
+../3-Phrases/drjava2:void testWriteFileXML() | test write file xml
+../3-Phrases/drjava2:CONS XMLProjectFileParser() | xml project file parser
+../3-Phrases/drjava2:String remove16XML(QString;) | remove 16 xml
+../3-Phrases/drjava2:void testXMLConfigException() | test xml config exception
+../3-Phrases/drjava2:CONS XMLConfig() | xml config
+../3-Phrases/drjava2:CONS XMLConfig(QInputStream;) | xml config
+../3-Phrases/drjava2:CONS XMLConfig(QReader;) | xml config
+../3-Phrases/drjava2:CONS XMLConfig(QXMLConfig;QNode;) | xml config
+../3-Phrases/drjava2:CONS XMLConfig(QFile;) | xml config
+../3-Phrases/drjava2:CONS XMLConfig(QString;) | xml config
+../3-Phrases/drjava2:void XMLConfigException() | xml config exception
+../3-Phrases/drjava2:void XMLConfigException(QString;) | xml config exception
+../3-Phrases/drjava2:void XMLConfigException(QString;QThrowable;) | xml config exception
+../3-Phrases/drjava2:void XMLConfigException(QThrowable;) | xml config exception
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;QSpecification;) | read from xml
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void toXML(QXMLStreamWriter;) | to xml
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;) | read from xml
+../3-Phrases/freecol2:Element toXMLElement(QDocument;) | to xml element
+../3-Phrases/freecol2:void readFromXMLElement(QElement;) | read from xml element
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:Element toXMLElement(QDocument;) | to xml element
+../3-Phrases/freecol2:void readFromXMLElement(QElement;) | read from xml element
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;QGame;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;QSpecification;) | read from xml
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:String getStopXMLElementTagName() | get stop xml element tag name
+../3-Phrases/freecol2:Element toXMLElement(QPlayer;QDocument;) | to xml element
+../3-Phrases/freecol2:Element toXMLElement(QPlayer;QDocument;ZZ) | to xml element
+../3-Phrases/freecol2:Element toXMLElement(QDocument;) | to xml element
+../3-Phrases/freecol2:void toXML(QXMLStreamWriter;QPlayer;ZZ) | to xml
+../3-Phrases/freecol2:void toXML(QXMLStreamWriter;QPlayer;) | to xml
+../3-Phrases/freecol2:void toXML(QXMLStreamWriter;) | to xml
+../3-Phrases/freecol2:void readFromXMLElement(QElement;) | read from xml element
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;) | read from xml
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toSavedXML(QXMLStreamWriter;) | to saved xml
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void toXML(QXMLStreamWriter;QPlayer;ZZ) | to xml
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;) | read from xml
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:String getRealXMLElementTagName() | get real xml element tag name
+../3-Phrases/freecol2:void unitsToXML(QXMLStreamWriter;QPlayer;ZZ) | units to xml
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXML(QXMLStreamWriter;QPlayer;ZZ) | to xml
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;) | read from xml
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;QGame;) | read from xml
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void unitsToXML(QXMLStreamWriter;QPlayer;ZZ) | units to xml
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;QSpecification;) | read from xml
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;QSpecification;) | read from xml
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void unitsToXML(QXMLStreamWriter;QPlayer;ZZ) | units to xml
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;QPlayer;ZZ) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:Element toXMLElement() | to xml element
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void readFromXML(QElement;) | read from xml
+../3-Phrases/freecol2:Element toXMLElement() | to xml element
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:Element toXMLElement() | to xml element
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:String getXMLItemElementTagName() | get xml item element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:XMLStreamReader createXMLStreamReader(QFile;) | create xml stream reader
+../3-Phrases/freecol2:void toXML(QXMLStreamWriter;) | to xml
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:void updateFromXML(QXMLStreamReader;) | update from xml
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:String getXMLItemElementTagName() | get xml item element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:Element toXMLElement(QDocument;) | to xml element
+../3-Phrases/freecol2:void readFromXMLElement(QElement;) | read from xml element
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;) | read from xml
+../3-Phrases/freecol2:void toXML(QXMLStreamWriter;) | to xml
+../3-Phrases/freecol2:CONS Xml() | xml
+../3-Phrases/freecol2:XMLStreamReader createXMLStreamReader(QFreeColSavegameFile;) | create xml stream reader
+../3-Phrases/freecol2:Element toXMLElement(QDocument;) | to xml element
+../3-Phrases/freecol2:void readFromXMLElement(QElement;) | read from xml element
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:Element toXMLElement(QDocument;) | to xml element
+../3-Phrases/freecol2:void readFromXMLElement(QElement;) | read from xml element
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void readFromXML(QXMLStreamReader;) | read from xml
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:void toXMLImpl(QXMLStreamWriter;) | to xml impl
+../3-Phrases/freecol2:void readFromXMLImpl(QXMLStreamReader;) | read from xml impl
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:String getXMLElementTagName() | get xml element tag name
+../3-Phrases/freecol2:String getServerAdditionXMLElementTagName() | get server addition xml element tag name
+../3-Phrases/freecol2:void convertToXML(QFile;QFile;) | convert to xml
+../3-Phrases/freecol2:void convertToXML(QInputStream;QOutputStream;) | convert to xml
+../3-Phrases/freemind:CONS XmlExporter() | xml exporter
+../3-Phrases/freemind:ObjectFactory getActionXmlFactory() | get action xml factory
+../3-Phrases/freemind:CONS AbstractXmlAction(QString;QIcon;QModeController;) | abstract xml action
+../3-Phrases/freemind:void xmlActionPerformed(QActionEvent;) | xml action performed
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.RevertXmlAction createRevertXmlAction() | create revert xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.ArrowLinkColorXmlActionType createArrowLinkColorXmlActionType() | create arrow link color xml action type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.ArrowLinkPointXmlActionType createArrowLinkPointXmlActionType() | create arrow link point xml action type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.RemoveArrowLinkXmlActionType createRemoveArrowLinkXmlActionType() | create remove arrow link xml action type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.ArrowLinkPointXmlAction createArrowLinkPointXmlAction() | create arrow link point xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.CloudColorXmlActionType createCloudColorXmlActionType() | create cloud color xml action type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.XmlAction createXmlAction() | create xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.RemoveAllIconsXmlActionType createRemoveAllIconsXmlActionType() | create remove all icons xml action type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.RemoveLastIconXmlActionType createRemoveLastIconXmlActionType() | create remove last icon xml action type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.RemoveAllIconsXmlAction createRemoveAllIconsXmlAction() | create remove all icons xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.RevertXmlActionType createRevertXmlActionType() | create revert xml action type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.AddCloudXmlAction createAddCloudXmlAction() | create add cloud xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.ArrowLinkArrowXmlActionType createArrowLinkArrowXmlActionType() | create arrow link arrow xml action type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.CloudColorXmlAction createCloudColorXmlAction() | create cloud color xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.ArrowLinkColorXmlAction createArrowLinkColorXmlAction() | create arrow link color xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.UndoXmlActionType createUndoXmlActionType() | create undo xml action type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.RemoveLastIconXmlAction createRemoveLastIconXmlAction() | create remove last icon xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.AddLinkXmlActionType createAddLinkXmlActionType() | create add link xml action type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.AddArrowLinkXmlAction createAddArrowLinkXmlAction() | create add arrow link xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.MoveNodeXmlActionType createMoveNodeXmlActionType() | create move node xml action type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.AddArrowLinkXmlActionType createAddArrowLinkXmlActionType() | create add arrow link xml action type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.ArrowLinkArrowXmlAction createArrowLinkArrowXmlAction() | create arrow link arrow xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.AddCloudXmlActionType createAddCloudXmlActionType() | create add cloud xml action type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.UndoXmlAction createUndoXmlAction() | create undo xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.AddLinkXmlAction createAddLinkXmlAction() | create add link xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.RemoveArrowLinkXmlAction createRemoveArrowLinkXmlAction() | create remove arrow link xml action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.MoveNodeXmlAction createMoveNodeXmlAction() | create move node xml action
+../3-Phrases/freemind:XMLSerializable toXMLSerializable(QObject;) | to xml serializable
+../3-Phrases/freemind:String colorToXml(QColor;) | color to xml
+../3-Phrases/freemind:Color xmlToColor(QString;) | xml to color
+../3-Phrases/freemind:String PointToXml(QPoint;) | point to xml
+../3-Phrases/freemind:Point xmlToPoint(QString;) | xml to point
+../3-Phrases/freemind:String BooleanToXml(Z) | boolean to xml
+../3-Phrases/freemind:boolean xmlToBoolean(QString;) | xml to boolean
+../3-Phrases/freemind:String toXMLEscapedText(QString;) | to xml escaped text
+../3-Phrases/freemind:String toXMLUnescapedText(QString;) | to xml unescaped text
+../3-Phrases/freemind:String toXMLEscapedTextWithNBSPizedSpaces(QString;) | to xml escaped text with nbsp ized spaces
+../3-Phrases/freemind:Date xmlToDate(QString;) | xml to date
+../3-Phrases/freemind:CONS XMLParseException(QString;QString;) | xml parse exception
+../3-Phrases/freemind:CONS XMLParseException(QString;IQString;) | xml parse exception
+../3-Phrases/freemind:CONS XMLElement() | xml element
+../3-Phrases/freemind:CONS XMLElement(QHashtable;) | xml element
+../3-Phrases/freemind:CONS XMLElement(Z) | xml element
+../3-Phrases/freemind:CONS XMLElement(QHashtable;Z) | xml element
+../3-Phrases/freemind:CONS XMLElement(QHashtable;ZZ) | xml element
+../3-Phrases/freemind:CONS XMLElement(QHashtable;ZZZ) | xml element
+../3-Phrases/freemind:ObjectFactory getActionXmlFactory() | get action xml factory
+../3-Phrases/freemind:CONS XMLElementAdapter(QFreeMindMain;) | xml element adapter
+../3-Phrases/freemind:CONS XMLElementAdapter(QFreeMindMain;QVector;QHashMap;) | xml element adapter
+../3-Phrases/freemind:ObjectFactory getActionXmlFactory() | get action xml factory
+../3-Phrases/freemind:void getXml(QWriter;) | get xml
+../3-Phrases/freemind:void xmlActionPerformed(QActionEvent;) | xml action performed
+../3-Phrases/freemind:RemoveLastIconXmlAction createRemoveLastIconXmlAction(QMindMapNode;) | create remove last icon xml action
+../3-Phrases/freemind:CloudColorXmlAction createCloudColorXmlAction(QMindMapNode;QColor;) | create cloud color xml action
+../3-Phrases/freemind:void xmlActionPerformed(QActionEvent;) | xml action performed
+../3-Phrases/freemind:ObjectFactory getActionXmlFactory() | get action xml factory
+../3-Phrases/freemind:AddArrowLinkXmlAction createAddArrowLinkXmlAction(QMindMapNode;QMindMapNode;QString;) | create add arrow link xml action
+../3-Phrases/freemind:void openXmlInsteadOfMap(QString;) | open xml instead of map
+../3-Phrases/freemind:RevertXmlAction createRevertXmlAction(QFile;) | create revert xml action
+../3-Phrases/freemind:RevertXmlAction createRevertXmlAction(QMindMap;QString;QString;) | create revert xml action
+../3-Phrases/freemind:RevertXmlAction createRevertXmlAction(QString;QString;QString;) | create revert xml action
+../3-Phrases/freemind:RemoveArrowLinkXmlAction createRemoveArrowLinkXmlAction(QString;) | create remove arrow link xml action
+../3-Phrases/freemind:AddArrowLinkXmlAction createAddArrowLinkXmlAction(QMindMapLink;) | create add arrow link xml action
+../3-Phrases/freemind:ArrowLinkPointXmlAction createArrowLinkPointXmlAction(QMindMapArrowLink;QPoint;QPoint;) | create arrow link point xml action
+../3-Phrases/freemind:ArrowLinkArrowXmlAction createArrowLinkArrowXmlAction(QMindMapArrowLinkModel;ZZ) | create arrow link arrow xml action
+../3-Phrases/freemind:ArrowLinkArrowXmlAction createArrowLinkArrowXmlAction(QMindMapArrowLinkModel;QString;QString;) | create arrow link arrow xml action
+../3-Phrases/freemind:ArrowLinkColorXmlAction createArrowLinkColorXmlAction(QMindMapLink;QColor;) | create arrow link color xml action
+../3-Phrases/freemind:AddCloudXmlAction createAddCloudXmlAction(QMindMapNode;ZQColor;) | create add cloud xml action
+../3-Phrases/freemind:RemoveAllIconsXmlAction createRemoveAllIconsXmlAction(QMindMapNode;) | create remove all icons xml action
+../3-Phrases/freemind:MindMapNodeModel pasteXMLWithoutRedisplay(QString;QMindMapNode;) | paste xml without redisplay
+../3-Phrases/freemind:MindMapNodeModel pasteXMLWithoutRedisplay(QString;QMindMapNode;Z) | paste xml without redisplay
+../3-Phrases/freemind:AddLinkXmlAction createAddLinkXmlAction(QMindMapNode;QString;) | create add link xml action
+../3-Phrases/freemind:void getXml(QWriter;) | get xml
+../3-Phrases/freemind:CONS BrowseXMLElement(QFreeMindMain;) | browse xml element
+../3-Phrases/freemind:CONS BrowseXMLElement(QFreeMindMain;QVector;QHashMap;) | browse xml element
+../3-Phrases/freemind:void getXml(QWriter;) | get xml
+../3-Phrases/freemind:CONS MindMapXMLElement(QFreeMindMain;) | mind map xml element
+../3-Phrases/freemind:CONS MindMapXMLElement(QFreeMindMain;QVector;QHashMap;) | mind map xml element
+../3-Phrases/freemind:MenuStructure updateMenusFromXml(QInputStream;) | update menus from xml
+../3-Phrases/freemind:String encryptXml(QStringBuffer;) | encrypt xml
+../3-Phrases/freemind:String decryptXml(QString;QStringBuffer;) | decrypt xml
+../3-Phrases/freemind:void getXml(QWriter;) | get xml
+../3-Phrases/freemind:void getXml(QWriter;) | get xml
+../3-Phrases/gantt:GanttCalendar parseXMLDate(QString;) | parse xml date
+../3-Phrases/gantt:String toXMLString() | to xml string
+../3-Phrases/gantt:CONS GanttXMLFileFilter() | gantt xml file filter
+../3-Phrases/gantt:CONS GanttXMLSaver(QIGanttProject;QGanttTree2;QGanttResourcePanel;QGanttGraphicArea;QUIFacade;) | gantt xml saver
+../3-Phrases/gantt:CONS GanttXMLOpen(QPrjInfos;QGanttGraphicArea;QTaskManager;QUIFacade;) | gantt xml open
+../3-Phrases/gantt:CONS GanttXMLOpen(QTaskManager;) | gantt xml open
+../3-Phrases/gantt:String getXml() | get xml
+../3-Phrases/hibernate-3.3.1.GA:Configuration addXML(QString;) | add xml
+../3-Phrases/hibernate-3.3.1.GA:String getTypeFromXML(QElement;) | get type from xml
+../3-Phrases/hibernate-3.3.1.GA:String asXML() | as xml
+../3-Phrases/hibernate-3.3.1.GA:String asXML() | as xml
+../3-Phrases/hibernate-3.3.1.GA:boolean isXMLElement() | is xml element
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:boolean isXMLElement() | is xml element
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:boolean isXMLElement() | is xml element
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:boolean isEmbeddedInXML() | is embedded in xml
+../3-Phrases/hibernate-3.3.1.GA:boolean isXMLElement() | is xml element
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:boolean isEmbeddedInXML() | is embedded in xml
+../3-Phrases/hibernate-3.3.1.GA:boolean isXMLElement() | is xml element
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:String toXMLString(QObject;QSessionFactoryImplementor;) | to xml string
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLString(QString;QMapping;) | from xml string
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:boolean isEmbeddedInXML() | is embedded in xml
+../3-Phrases/hibernate-3.3.1.GA:String toXMLString(QObject;QSessionFactoryImplementor;) | to xml string
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLString(QString;QMapping;) | from xml string
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:boolean isEmbeddedInXML() | is embedded in xml
+../3-Phrases/hibernate-3.3.1.GA:String toXMLString(QObject;QSessionFactoryImplementor;) | to xml string
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLString(QString;QMapping;) | from xml string
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLNode(QNode;QMapping;) | from xml node
+../3-Phrases/hibernate-3.3.1.GA:void setToXMLNode(QNode;QObject;QSessionFactoryImplementor;) | set to xml node
+../3-Phrases/hibernate-3.3.1.GA:String toXMLString(QObject;) | to xml string
+../3-Phrases/hibernate-3.3.1.GA:Object fromXMLString(QString;) | from xml string
+../3-Phrases/iReport:String getXmlFile() | get xml file
+../3-Phrases/iReport:void setXmlFile(QString;) | set xml file
+../3-Phrases/iReport:void readXMLReportElement(QNode;QReportElement;) | read xml report element
+../3-Phrases/iReport:void readXMLTextElement(QNode;QTextReportElement;) | read xml text element
+../3-Phrases/iReport:void saveXMLFile() | save xml file
+../3-Phrases/iReport:void saveXMLFile(QString;) | save xml file
+../3-Phrases/iReport:void writeXMLSection(QString;QPrintWriter;) | write xml section
+../3-Phrases/iReport:void writeXMLSubDatasets(QVector;QPrintWriter;QString;) | write xml sub datasets
+../3-Phrases/iReport:void writeXMLParameters(QVector;QPrintWriter;QString;) | write xml parameters
+../3-Phrases/iReport:void writeXMLFields(QVector;QPrintWriter;QString;) | write xml fields
+../3-Phrases/iReport:void writeXMLVariables(QVector;QPrintWriter;QString;) | write xml variables
+../3-Phrases/iReport:void writeXMLGroups(QVector;Qjava.io.PrintWriter;ZI) | write xml groups
+../3-Phrases/iReport:void writeXMLStyles(QVector;Qjava.io.PrintWriter;QString;) | write xml styles
+../3-Phrases/iReport:void writeXMLBand(QBand;QPrintWriter;) | write xml band
+../3-Phrases/iReport:void writeXMLReportElement(QReportElement;QPrintWriter;) | write xml report element
+../3-Phrases/iReport:void writeXMLReportElementElement(QReportElement;QPrintWriter;) | write xml report element element
+../3-Phrases/iReport:void writeXMLGraphicElement(QGraphicReportElement;QPrintWriter;) | write xml graphic element
+../3-Phrases/iReport:void writeXMLTextElementElement(QTextReportElement;QPrintWriter;) | write xml text element element
+../3-Phrases/iReport:void jComboBoxXMLEncodingActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box xml encoding action performed
+../3-Phrases/iReport:java.lang.String getXmlEncoding() | get xml encoding
+../3-Phrases/iReport:void setXmlEncoding(Qjava.lang.String;) | set xml encoding
+../3-Phrases/iReport:void jMenuItemXMLSourceActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item xml source action performed
+../3-Phrases/iReport:String xmlEscape(QString;) | xml escape
+../3-Phrases/iReport:CONS XMLTokenMarker() | xml token marker
+../3-Phrases/Jabref:void readXML(QString;) | read xml
+../3-Phrases/Jabref:void exportOpenDocumentSpreadsheetXML(QFile;QBibtexDatabase;QSet<QString;>;) | export open document spreadsheet xml
+../3-Phrases/Jabref:void exportOpenOfficeCalcXML(QFile;QBibtexDatabase;QSet<QString;>;) | export open office calc xml
+../3-Phrases/Jabref:CONS BibTeXMLHandler() | bib te xml handler
+../3-Phrases/Jabref:String stripNonValidXMLCharacters(QString;) | strip non valid xml characters
+../3-Phrases/Jabref:String getFromXml(QString;QElement;) | get from xml
+../3-Phrases/Jabref:void populateFromXml(QElement;QString;) | populate from xml
+../3-Phrases/Jabref:String stripNonValidXMLCharacters(QString;) | strip non valid xml characters
+../3-Phrases/Jabref:File unpackPluginXML(QFile;) | unpack plugin xml
+../3-Phrases/Jabref:void testOai22xml() | test oai 22 xml
+../3-Phrases/Jabref:void testOai23xml() | test oai 23 xml
+../3-Phrases/Jabref:void testXMLEscape() | test xml escape
+../3-Phrases/jajuk:String toXML() | to xml
+../3-Phrases/jajuk:String toXml() | to xml
+../3-Phrases/jajuk:String getPropertiesXml() | get properties xml
+../3-Phrases/jajuk:String toXML() | to xml
+../3-Phrases/jajuk:CONS XMLExporter() | xml exporter
+../3-Phrases/jajuk:String logicalStyleCollectionToXML() | logical style collection to xml
+../3-Phrases/jajuk:String logicalAuthorCollectionToXML() | logical author collection to xml
+../3-Phrases/jajuk:String logicalAlbumCollectionToXML() | logical album collection to xml
+../3-Phrases/jajuk:String collectionToXML() | collection to xml
+../3-Phrases/jajuk:String deviceToXML(QDevice;) | device to xml
+../3-Phrases/jajuk:String collectionToXMLHelper(QDevice;I) | collection to xml helper
+../3-Phrases/jajuk:String directoryToXML(QDirectory;) | directory to xml
+../3-Phrases/jajuk:String toXMLHelper(QDirectory;I) | to xml helper
+../3-Phrases/jajuk:String styleToXML(QStyle;) | style to xml
+../3-Phrases/jajuk:String authorToXML(QAuthor;) | author to xml
+../3-Phrases/jajuk:String albumToXML(QAlbum;) | album to xml
+../3-Phrases/jajuk:String toXML() | to xml
+../3-Phrases/jajuk:String toXML() | to xml
+../3-Phrases/jajuk:String toXMLGeneralParameters() | to xml general parameters
+../3-Phrases/jajuk:String toXML() | to xml
+../3-Phrases/jajuk:String toXML() | to xml
+../3-Phrases/jajuk:String toXML() | to xml
+../3-Phrases/jajuk:String formatXML(QString;) | format xml
+../3-Phrases/jajuk:boolean isXMLValid(QString;) | is xml valid
+../3-Phrases/javaHMO:void getXml(QTiVoRequest;ZQStringBuffer;) | get xml
+../3-Phrases/javaHMO:String renderXML(QTiVoRequest;QTiVoItem;ZQStringBuffer;) | render xml
+../3-Phrases/javaHMO:String makeXML(QTiVoRequest;QTiVoItem;ZQStringBuffer;) | make xml
+../3-Phrases/javaHMO:String renderDefaultXML(QTiVoRequest;QTiVoItem;QStringBuffer;) | render default xml
+../3-Phrases/javaHMO:void toXML(QStringBuffer;) | to xml
+../3-Phrases/javaHMO:org.apache.commons.betwixt.Descriptor createXMLDescriptor(Qorg.apache.commons.betwixt.BeanProperty;) | create xml descriptor
+../3-Phrases/javaHMO:String unEscapeXMLChars(QString;) | un escape xml chars
+../3-Phrases/javaHMO:String escapeXMLChars(QString;) | escape xml chars
+../3-Phrases/javaHMO:org.apache.commons.betwixt.Descriptor createXMLDescriptor(Qorg.apache.commons.betwixt.BeanProperty;) | create xml descriptor
+../3-Phrases/jbidwatcher:XMLElement toXML() | to xml
+../3-Phrases/jbidwatcher:CONS XMLParseException(QString;QString;) | xml parse exception
+../3-Phrases/jbidwatcher:CONS XMLParseException(QString;IQString;) | xml parse exception
+../3-Phrases/jbidwatcher:void fromXML(QXMLElement;) | from xml
+../3-Phrases/jbidwatcher:XMLElement toXML() | to xml
+../3-Phrases/jbidwatcher:CONS XMLElement() | xml element
+../3-Phrases/jbidwatcher:CONS XMLElement(QHashMap;) | xml element
+../3-Phrases/jbidwatcher:CONS XMLElement(Z) | xml element
+../3-Phrases/jbidwatcher:CONS XMLElement(QHashMap;Z) | xml element
+../3-Phrases/jbidwatcher:CONS XMLElement(QHashMap;ZZ) | xml element
+../3-Phrases/jbidwatcher:CONS XMLElement(QString;) | xml element
+../3-Phrases/jbidwatcher:XMLElement toXML() | to xml
+../3-Phrases/jbidwatcher:XMLElement toXML() | to xml
+../3-Phrases/jbidwatcher:void fromXML(QXMLElement;) | from xml
+../3-Phrases/jbidwatcher:void fromXML(QXMLElement;) | from xml
+../3-Phrases/jbidwatcher:XMLElement toXML() | to xml
+../3-Phrases/jbidwatcher:XMLElement toXML() | to xml
+../3-Phrases/jbidwatcher:void fromXML(QXMLElement;) | from xml
+../3-Phrases/jbidwatcher:XMLElement getColumnsToXML() | get columns to xml
+../3-Phrases/jbidwatcher:void loadXMLFromFile(QString;QXMLElement;) | load xml from file
+../3-Phrases/jbidwatcher:XMLElement toXML() | to xml
+../3-Phrases/jbidwatcher:void fromXML(QXMLElement;) | from xml
+../3-Phrases/jbidwatcher:XMLElement toXML() | to xml
+../3-Phrases/jbidwatcher:void fromXML(QXMLElement;) | from xml
+../3-Phrases/jbidwatcher:XMLElement toXML() | to xml
+../3-Phrases/jbidwatcher:void fromXML(QXMLElement;) | from xml
+../3-Phrases/jbidwatcher:XMLElement toXML() | to xml
+../3-Phrases/jbidwatcher:XMLElement toXML() | to xml
+../3-Phrases/jbidwatcher:XMLElement toXML() | to xml
+../3-Phrases/jbidwatcher:void fromXML(QXMLElement;) | from xml
+../3-Phrases/JHotDraw-7.0.8:CONS XMLEntityResolver() | xml entity resolver
+../3-Phrases/JHotDraw-7.0.8:CONS StdXMLReader(QString;QString;) | std xml reader
+../3-Phrases/JHotDraw-7.0.8:CONS StdXMLReader(QReader;) | std xml reader
+../3-Phrases/JHotDraw-7.0.8:CONS StdXMLReader(QInputStream;) | std xml reader
+../3-Phrases/JHotDraw-7.0.8:boolean equalsXMLElement(QIXMLElement;) | equals xml element
+../3-Phrases/JHotDraw-7.0.8:CONS XMLAttribute(QString;QString;QString;QString;QString;) | xml attribute
+../3-Phrases/JHotDraw-7.0.8:CONS XMLParseException(QString;) | xml parse exception
+../3-Phrases/JHotDraw-7.0.8:CONS XMLParseException(QString;IQString;) | xml parse exception
+../3-Phrases/JHotDraw-7.0.8:CONS XMLElement() | xml element
+../3-Phrases/JHotDraw-7.0.8:CONS XMLElement(QString;) | xml element
+../3-Phrases/JHotDraw-7.0.8:CONS XMLElement(QString;QString;I) | xml element
+../3-Phrases/JHotDraw-7.0.8:CONS XMLElement(QString;QString;) | xml element
+../3-Phrases/JHotDraw-7.0.8:CONS XMLElement(QString;QString;QString;I) | xml element
+../3-Phrases/JHotDraw-7.0.8:boolean equalsXMLElement(QIXMLElement;) | equals xml element
+../3-Phrases/JHotDraw-7.0.8:CONS StdXMLBuilder() | std xml builder
+../3-Phrases/JHotDraw-7.0.8:CONS StdXMLBuilder(QIXMLElement;) | std xml builder
+../3-Phrases/JHotDraw-7.0.8:CONS StdXMLParser() | std xml parser
+../3-Phrases/JHotDraw-7.0.8:CONS XMLException(QString;) | xml exception
+../3-Phrases/JHotDraw-7.0.8:CONS XMLException(QException;) | xml exception
+../3-Phrases/JHotDraw-7.0.8:CONS XMLException(QString;IQException;) | xml exception
+../3-Phrases/JHotDraw-7.0.8:CONS XMLException(QString;IQString;) | xml exception
+../3-Phrases/JHotDraw-7.0.8:CONS XMLException(QString;IQException;QString;Z) | xml exception
+../3-Phrases/JHotDraw-7.0.8:CONS XMLWriter(QWriter;) | xml writer
+../3-Phrases/JHotDraw-7.0.8:CONS XMLWriter(QOutputStream;) | xml writer
+../3-Phrases/JHotDraw-7.0.8:CONS XMLValidationException(IQString;IQString;QString;QString;QString;) | xml validation exception
+../3-Phrases/JHotDraw-7.0.8:IXMLParser createDefaultXMLParser() | create default xml parser
+../3-Phrases/JHotDraw-7.0.8:IXMLParser createDefaultXMLParser(QIXMLBuilder;) | create default xml parser
+../3-Phrases/JHotDraw-7.0.8:IXMLParser createXMLParser(QString;QIXMLBuilder;) | create xml parser
+../3-Phrases/JHotDraw-7.0.8:CONS XMLTransferable([BQString;QString;) | xml transferable
+../3-Phrases/JHotDraw-7.0.8:CONS NanoXMLDOMOutput(QDOMFactory;) | nano xmldom output
+../3-Phrases/JHotDraw-7.0.8:CONS NanoXMLDOMInput(QDOMFactory;QInputStream;) | nano xmldom input
+../3-Phrases/JHotDraw-7.0.8:CONS NanoXMLDOMInput(QDOMFactory;QReader;) | nano xmldom input
+../3-Phrases/JRobin:void xmlDump(QString;QString;) | xml dump
+../3-Phrases/JRobin:void exportXml(QOutputStream;) | export xml
+../3-Phrases/JRobin:void exportXml(QString;) | export xml
+../3-Phrases/JRobin:String exportXml() | export xml
+../3-Phrases/JRobin:void appendXml(QXmlWriter;) | append xml
+../3-Phrases/JRobin:void appendXml(QXmlWriter;) | append xml
+../3-Phrases/JRobin:void appendXml(QXmlWriter;) | append xml
+../3-Phrases/JRobin:CONS XmlReader(QString;) | xml reader
+../3-Phrases/JRobin:void exportXml(QOutputStream;) | export xml
+../3-Phrases/JRobin:void exportXml(QString;) | export xml
+../3-Phrases/JRobin:String exportXml() | export xml
+../3-Phrases/JRobin:void dumpXml(QOutputStream;) | dump xml
+../3-Phrases/JRobin:void exportXml(QOutputStream;) | export xml
+../3-Phrases/JRobin:String getXml() | get xml
+../3-Phrases/JRobin:String exportXml() | export xml
+../3-Phrases/JRobin:void dumpXml(QString;) | dump xml
+../3-Phrases/JRobin:void exportXml(QString;) | export xml
+../3-Phrases/JRobin:CONS XmlWriter(QOutputStream;) | xml writer
+../3-Phrases/JRobin:void appendXml(QXmlWriter;) | append xml
+../3-Phrases/JRobin:void exportXmlTemplate(QOutputStream;) | export xml template
+../3-Phrases/JRobin:String exportXmlTemplate() | export xml template
+../3-Phrases/JRobin:void exportXmlTemplate(QString;) | export xml template
+../3-Phrases/JRobin:CONS XmlTemplate(QInputSource;) | xml template
+../3-Phrases/JRobin:CONS XmlTemplate(QString;) | xml template
+../3-Phrases/JRobin:CONS XmlTemplate(QFile;) | xml template
+../3-Phrases/JRobin:void toXml(QPrintStream;) | to xml
+../3-Phrases/JRobin:void toXml(QPrintStream;) | to xml
+../3-Phrases/JRobin:void toXml(QPrintStream;) | to xml
+../3-Phrases/JRobin:void toXml(QPrintStream;) | to xml
+../3-Phrases/JRobin:void exportXmlTemplate(QXmlWriter;) | export xml template
+../3-Phrases/JRobin:void exportXml(QXmlWriter;) | export xml
+../3-Phrases/JRobin:void exportXmlTemplate(QXmlWriter;) | export xml template
+../3-Phrases/JRobin:void exportXmlTemplate(QOutputStream;) | export xml template
+../3-Phrases/JRobin:String getXmlTemplate() | get xml template
+../3-Phrases/JRobin:String exportXmlTemplate() | export xml template
+../3-Phrases/JRobin:void exportXmlTemplate(QString;) | export xml template
+../3-Phrases/JRobin:void exportXml(QXmlWriter;) | export xml
+../3-Phrases/JRobin:void exportXmlTemplate(QXmlWriter;QString;) | export xml template
+../3-Phrases/JRobin:void exportXml(QXmlWriter;) | export xml
+../3-Phrases/JRobin:void exportXmlTemplate(QXmlWriter;) | export xml template
+../3-Phrases/JRobin:void exportXmlTemplate(QXmlWriter;) | export xml template
+../3-Phrases/JRobin:void exportXmlTemplate(QXmlWriter;QString;) | export xml template
+../3-Phrases/JRobin:void exportXmlTemplate(QXmlWriter;) | export xml template
+../3-Phrases/JRobin:void exportXmlTemplate(QXmlWriter;) | export xml template
+../3-Phrases/JRobin:void exportXmlTemplate(QXmlWriter;) | export xml template
+../3-Phrases/JRobin:void exportXmlTemplate(QXmlWriter;) | export xml template
+../3-Phrases/JRobin:void exportXmlTemplate(QXmlWriter;QString;) | export xml template
+../3-Phrases/JRobin:void exportXmlTemplate(QOutputStream;) | export xml template
+../3-Phrases/JRobin:void importXml(QString;) | import xml
+../3-Phrases/JRobin:void importXml(QFile;) | import xml
+../3-Phrases/JRobin:void importXml(QFile;Z) | import xml
+../3-Phrases/JRobin:void importXml(QString;QString;) | import xml
+../3-Phrases/JRobin:void importXml(QFile;QString;) | import xml
+../3-Phrases/JRobin:void importXml(QString;Z) | import xml
+../3-Phrases/JRobin:void exportXml(QOutputStream;) | export xml
+../3-Phrases/JRobin:void exportXml(QString;) | export xml
+../3-Phrases/JRobin:String exportXml() | export xml
+../3-Phrases/JRobin:void importXml(QElement;ZQString;) | import xml
+../3-Phrases/JRobin:void exportXmlTemplate(QXmlWriter;QString;) | export xml template
+../3-Phrases/JRobin:void exportXmlTemplate(QXmlWriter;QString;) | export xml template
+../3-Phrases/JRobin:void exportXmlTemplate(QXmlWriter;QString;) | export xml template
+../3-Phrases/JRobin:void appendXml(QElement;) | append xml
+../3-Phrases/JRobin:void createXmlTemplateIfNecessary(QString;QString;) | create xml template if necessary
+../3-Phrases/JRobin:void appendXml(QElement;) | append xml
+../3-Phrases/MegaMek-0.32.0:CONS XMLStreamParser() | xml stream parser
+../3-Phrases/MegaMek-0.32.0:CONS XMLStreamParser(QInputStream;) | xml stream parser
+../3-Phrases/MegaMek-0.32.0:String quoteXMLChars(QString;) | quote xml chars
+../3-Phrases/MegaMek-0.32.0:CONS TestXMLOption() | test xml option
+../3-Phrases/MegaMek-0.32.0:void readXMLOptions(QParsedXML;) | read xml options
+../3-Phrases/MegaMek-0.32.0:CONS TinyXMLTest(QString;QString;) | tiny xml test
+../3-Phrases/np:static XMLInputStream newValidatingXMLInputStream(XMLInputStream xis) | xml input stream new validating xml input stream
+../3-Phrases/np:static XMLInputStream newValidatingXMLInputStream(XMLInputStream xis, XmlOptions options) | xml input stream new validating xml input stream
+../3-Phrases/prefuse:CONS XMLWriter(QPrintWriter;) | xml writer
+../3-Phrases/prefuse:CONS XMLWriter(QPrintWriter;I) | xml writer
+../3-Phrases/rhino:boolean isXMLAttribute() | is xml attribute
+../3-Phrases/rhino:boolean isXmlAvailable() | is xml available
+../3-Phrases/rhino:boolean isXMLName(QContext;QObject;) | is xml name
+../3-Phrases/rhino:boolean readXmlComment() | read xml comment
+../3-Phrases/rhino:CONS XMLObject() | xml object
+../3-Phrases/rhino:CONS XMLObject(QScriptable;QScriptable;) | xml object
+../3-Phrases/rhino:int getFirstXMLToken() | get first xml token
+../3-Phrases/rhino:int getNextXMLToken() | get next xml token
+../3-Phrases/rhino:Node xmlInitializer() | xml initializer
+../3-Phrases/rhino:Object toDefaultXmlNamespace(QContext;QObject;) | to default xml namespace
+../3-Phrases/rhino:RuntimeException notXmlError(QObject;) | not xml error
+../3-Phrases/rhino:void mustHaveXML() | must have xml
+../3-Phrases/rhino:void setXmlAvailable(Z) | set xml available
+../3-Phrases/rhino:XMLLib currentXMLLib(QContext;) | current xml lib
+../3-Phrases/rhino-fieldSample:boolean isXMLAttribute() | is xml attribute
+../3-Phrases/rhino-fieldSample:boolean isXmlAvailable() | is xml available
+../3-Phrases/rhino-fieldSample:void setXmlAvailable(Z) | set xml available
+../3-Phrases/vuze:void SimpleXMLParserDocumentException(QString;) | simple xml parser document exception
+../3-Phrases/vuze:void SimpleXMLParserDocumentException(QThrowable;) | simple xml parser document exception
+../3-Phrases/vuze:void serialiseToXMLFile(QFile;) | serialise to xml file
+../3-Phrases/vuze:SimpleXMLParserDocument parseXML(QString;) | parse xml
+../3-Phrases/vuze:SimpleXMLParserDocument parseXML(QString;) | parse xml
+../3-Phrases/vuze:SimpleXMLParserDocument parseXML(QInputStream;) | parse xml
+../3-Phrases/vuze:SimpleXMLParserDocument downloadXML(QUPnPRootDeviceImpl;QURL;) | download xml
+../3-Phrases/vuze:SimpleXMLParserDocument downloadXML(QUPnPDeviceImpl;QURL;) | download xml
+../3-Phrases/vuze:SimpleXMLParserDocument downloadXMLSupport(QString;QURL;) | download xml support
+../3-Phrases/vuze:void serialiseToXMLFile(QFile;) | serialise to xml file
+../3-Phrases/vuze:TOTorrent deserialiseFromXMLFile(QFile;) | deserialise from xml file
+../3-Phrases/vuze:void serialiseToXMLFile(QFile;) | serialise to xml file
+../3-Phrases/vuze:CONS TOTorrentXMLDeserialiser() | to torrent xml deserialiser
+../3-Phrases/vuze:CONS TOTorrentXMLSerialiser(QTOTorrentImpl;) | to torrent xml serialiser
+../3-Phrases/vuze:void serialiseToXMLFile(QFile;) | serialise to xml file
+../3-Phrases/vuze:void serialiseToXMLFile(QFile;) | serialise to xml file
+../3-Phrases/vuze:String escapeXML(QString;) | escape xml
+../3-Phrases/vuze:String unescapeXML(QString;) | unescape xml
+../3-Phrases/vuze:StringBuffer encodeToXML(QMap;Z) | encode to xml
+../3-Phrases/vuze:void XMLEncoder() | xml encoder
+../3-Phrases/vuze:void serialiseToXMLFile(QFile;) | serialise to xml file
+../3-Phrases/vuze:CONS XMLElement(QString;) | xml element
+../3-Phrases/vuze:CONS XMLElement(QString;Z) | xml element
+../3-Phrases/vuze:CONS XUXmlWriter() | xu xml writer
+../3-Phrases/vuze:CONS XUXmlWriter(QOutputStream;) | xu xml writer
+../3-Phrases/vuze:String escapeXML(QString;) | escape xml
+../3-Phrases/vuze:String unescapeXML(QString;) | unescape xml
+../3-Phrases/vuze:SimpleXMLParserDocumentFactory getSimpleXMLParserDocumentFactory() | get simple xml parser document factory
+../3-Phrases/vuze:SimpleXMLParserDocumentFactory getSimpleXMLParserDocumentFactory() | get simple xml parser document factory
+../3-Phrases/vuze:CONS SimpleXMLParserDocumentNodeImpl(QSimpleXMLParserDocumentImpl;QNode;) | simple xml parser document node impl
+../3-Phrases/vuze:CONS SimpleXMLParserDocumentImpl(QFile;) | simple xml parser document impl
+../3-Phrases/vuze:CONS SimpleXMLParserDocumentImpl(QString;) | simple xml parser document impl
+../3-Phrases/vuze:CONS SimpleXMLParserDocumentImpl(QInputStream;) | simple xml parser document impl
+../3-Phrases/vuze:CONS SimpleXMLParserDocumentAttributeImpl(QString;QString;) | simple xml parser document attribute impl
+../3-Phrases/vuze:CONS XML() | xml
+../3-Phrases/weka:String XMLNormalize(QString;) | xml normalize
+../3-Phrases/weka:CONS XMLClassifier() | xml classifier
+../3-Phrases/weka:CONS XMLSerializationMethodHandler(QObject;) | xml serialization method handler
+../3-Phrases/weka:CONS XMLOptions() | xml options
+../3-Phrases/weka:CONS XMLOptions(QString;) | xml options
+../3-Phrases/weka:CONS XMLOptions(QFile;) | xml options
+../3-Phrases/weka:CONS XMLOptions(QInputStream;) | xml options
+../3-Phrases/weka:CONS XMLOptions(QReader;) | xml options
+../3-Phrases/weka:XMLDocument getXMLDocument() | get xml document
+../3-Phrases/weka:CONS XMLBasicSerialization() | xml basic serialization
+../3-Phrases/weka:CONS XMLDocument() | xml document
+../3-Phrases/weka:CONS XMLDocument(QString;) | xml document
+../3-Phrases/weka:CONS XMLDocument(QFile;) | xml document
+../3-Phrases/weka:CONS XMLDocument(QInputStream;) | xml document
+../3-Phrases/weka:CONS XMLDocument(QReader;) | xml document
+../3-Phrases/weka:CONS XMLInstances() | xml instances
+../3-Phrases/weka:CONS XMLInstances(QInstances;) | xml instances
+../3-Phrases/weka:CONS XMLInstances(QReader;) | xml instances
+../3-Phrases/weka:void headerToXML() | header to xml
+../3-Phrases/weka:void dataToXML() | data to xml
+../3-Phrases/weka:Instances headerFromXML() | header from xml
+../3-Phrases/weka:Instances dataFromXML(QInstances;) | data from xml
+../3-Phrases/weka:void setXML(QReader;) | set xml
+../3-Phrases/weka:CONS XMLSerialization() | xml serialization
+../3-Phrases/weka:Element writeBooleanToXML(QElement;ZQString;) | write boolean to xml
+../3-Phrases/weka:Element writeByteToXML(QElement;BQString;) | write byte to xml
+../3-Phrases/weka:Element writeCharToXML(QElement;CQString;) | write char to xml
+../3-Phrases/weka:Element writeDoubleToXML(QElement;DQString;) | write double to xml
+../3-Phrases/weka:Element writeFloatToXML(QElement;FQString;) | write float to xml
+../3-Phrases/weka:Element writeIntToXML(QElement;IQString;) | write int to xml
+../3-Phrases/weka:Element writeLongToXML(QElement;JQString;) | write long to xml
+../3-Phrases/weka:Element writeShortToXML(QElement;SQString;) | write short to xml
+../3-Phrases/weka:Element writeToXML(QElement;QObject;QString;) | write to xml
+../3-Phrases/weka:Element invokeWriteToXML(QElement;QObject;QString;) | invoke write to xml
+../3-Phrases/weka:XMLDocument toXML(QObject;) | to xml
+../3-Phrases/weka:boolean readBooleanFromXML(QElement;) | read boolean from xml
+../3-Phrases/weka:byte readByteFromXML(QElement;) | read byte from xml
+../3-Phrases/weka:char readCharFromXML(QElement;) | read char from xml
+../3-Phrases/weka:double readDoubleFromXML(QElement;) | read double from xml
+../3-Phrases/weka:float readFloatFromXML(QElement;) | read float from xml
+../3-Phrases/weka:int readIntFromXML(QElement;) | read int from xml
+../3-Phrases/weka:long readLongFromXML(QElement;) | read long from xml
+../3-Phrases/weka:short readShortFromXML(QElement;) | read short from xml
+../3-Phrases/weka:Object readFromXML(QObject;QString;QElement;) | read from xml
+../3-Phrases/weka:Object readFromXML(QElement;) | read from xml
+../3-Phrases/weka:Object invokeReadFromXML(QElement;) | invoke read from xml
+../3-Phrases/weka:Object fromXML(QDocument;) | from xml
+../3-Phrases/weka:CONS XMLExperiment() | xml experiment
+../3-Phrases/weka:void loadXML(QString;) | load xml
+../3-Phrases/weka:CONS XMLBeans(QJComponent;QBeanContextSupport;) | xml beans
+../3-Phrases/weka:CONS XMLBeans(QJComponent;QBeanContextSupport;I) | xml beans
+../3-Phrases/weka:String XMLNormalize(QString;) | xml normalize

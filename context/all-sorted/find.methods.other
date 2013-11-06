@@ -1,0 +1,128 @@
+../3-Phrases/Base_Verb:static List<PrimaryKey> findEnabledByLogin(String login) | list<primary key> find enabled by login
+../3-Phrases/Base_Verb:static List<PrimaryKey> findEnabledByMainCountry(String country) | list<primary key> find enabled by main country
+../3-Phrases/Base_Verb:static List<PrimaryKey> findEnabledByLastName(String name) | list<primary key> find enabled by last name
+../3-Phrases/Base_Verb:static List<PrimaryKey> findEnabledBySocialSecurityNumber(String ssn) | list<primary key> find enabled by social security number
+../3-Phrases/Base_Verb:static List<PrimaryKey> findEnabledByAddress2(String address) | list<primary key> find enabled by address 2
+../3-Phrases/Base_Verb:static CyrusUser findByPrimaryKey(long userId) | cyrus user find by primary key
+../3-Phrases/Base_Verb:void testFindWithNamedParametersAndTypes() | test find with named parameters and types
+../3-Phrases/Base_Verb:static Object getObjectUsingfindByBoundCreatedDate(String className, Date createdDateFrom, Date createdDateTo) | object get object using find by bound created date
+../3-Phrases/Base_Verb:static OrgGroupRole findByRoleId_Last(long roleId, OrderByComparator obc) | org group role find by role id last
+../3-Phrases/Base_Verb:static PartyClassificationGroup findByPrimaryKeyGeneric(GenericDelegator delegator, String partyClassificationGroupId, boolean cache) | party classification group find by primary key generic
+../3-Phrases/Base_Verb:static ProcessExecutionTransition findByPrimaryKey(PrimaryKey processExecutionTransitionPk) | process execution transition find by primary key
+../3-Phrases/Base_Verb:static ProductFeatureCatGrpAppl findByPrimaryKey(GenericDelegator delegator, String productCategoryId, String productFeatureGroupId, Date fromDate) | product feature cat grp appl find by primary key
+../3-Phrases/Base_Verb:static Seasonality findByPrimaryKey(GenericDelegator delegator, String idName, boolean cache) | seasonality find by primary key
+../3-Phrases/Base_Verb:static List findByCategoryId(long categoryId) | list find by category id
+../3-Phrases/Base_Verb:void testFindByIdUsingDynamicSQL() | test find by id using dynamic sql
+../3-Phrases/Base_Verb:static TimeSheet findByPrimaryKeyGeneric(GenericDelegator delegator, String idNumber, boolean cache) | time sheet find by primary key generic
+../3-Phrases/Base_Verb:void testFindWhatever() | test find whatever
+../3-Phrases/Base_Verb:static List findAll(GenericDelegator delegator) | list find all
+../3-Phrases/Base_Verb:static List findAllCache(GenericDelegator delegator) | list find all cache
+../3-Phrases/Base_Verb:static List findAllCache(GenericDelegator delegator) | list find all cache
+../3-Phrases/Base_Verb:void testFindNextInternalNumberFirstCall() | test find next internal number first call
+../3-Phrases/Base_Verb:static int findLargestIndex(T inArray, Comparator<T> comparator) | int find largest index
+../3-Phrases/drjava2:List<QRegionManager<QMovingDocumentRegion;>;> getFindResultsManagers() | get find results managers
+../3-Phrases/drjava2:RegionManager<QMovingDocumentRegion;> createFindResultsManager() | create find results manager
+../3-Phrases/drjava2:void removeFindResultsManager(QRegionManager<QMovingDocumentRegion;>;) | remove find results manager
+../3-Phrases/drjava2:void setLastFindWord() | set last find word
+../3-Phrases/drjava2:void setFindAnyOccurrence() | set find any occurrence
+../3-Phrases/drjava2:String getFindWord() | get find word
+../3-Phrases/drjava2:void setFindWord(QString;) | set find word
+../3-Phrases/drjava2:RegionManager<QMovingDocumentRegion;> createFindResultsManager() | create find results manager
+../3-Phrases/drjava2:void removeFindResultsManager(QRegionManager<QMovingDocumentRegion;>;) | remove find results manager
+../3-Phrases/drjava2:void testFindNextUpdatesCurrent() | test find next updates current
+../3-Phrases/drjava2:void testFindNextAndFailIsOnMatch() | test find next and fail is on match
+../3-Phrases/drjava2:void testFindNextOnSuffix() | test find next on suffix
+../3-Phrases/drjava2:void testFindPrevOnPrefix() | test find prev on prefix
+../3-Phrases/drjava2:void testMultipleCallsToFindNext() | test multiple calls to find next
+../3-Phrases/drjava2:void testFindNoMatchCase() | test find no match case
+../3-Phrases/drjava2:void testFindMatchWithCaretInMiddle() | test find match with caret in middle
+../3-Phrases/drjava2:void testFindMatchWithCaretInMiddleBackwards() | test find match with caret in middle backwards
+../3-Phrases/drjava2:void testFindPartialSubstrings() | test find partial substrings
+../3-Phrases/drjava2:void testFindReplaceInAllOpenFiles() | test find replace in all open files
+../3-Phrases/drjava2:void testFindReplaceInAllOpenFilesWholeWord() | test find replace in all open files whole word
+../3-Phrases/drjava2:void testFindMultiLine() | test find multi line
+../3-Phrases/drjava2:void _testFindNextSucceeds(QFindReplaceMachine;IIQOpenDefinitionsDocument;) | test find next succeeds
+../3-Phrases/drjava2:void _testFindNextSucceeds(QFindReplaceMachine;II) | test find next succeeds
+../3-Phrases/drjava2:void _testFindNextFails(QFindReplaceMachine;II) | test find next fails
+../3-Phrases/drjava2:RegionManager<QMovingDocumentRegion;> createFindResultsManager() | create find results manager
+../3-Phrases/drjava2:void removeFindResultsManager(QRegionManager<QMovingDocumentRegion;>;) | remove find results manager
+../3-Phrases/drjava2:boolean recursiveFindLineNumber(IQReferenceType;) | recursive find line number
+../3-Phrases/drjava2:void testFindPrevDelimiter() | test find prev delimiter
+../3-Phrases/drjava2:JTextPane getFindField() | get find field
+../3-Phrases/drjava2:void _replaceFindNext() | replace find next
+../3-Phrases/drjava2:void _replaceFindPrevious() | replace find previous
+../3-Phrases/drjava2:JButton getFindNextButton() | get find next button
+../3-Phrases/drjava2:void _showFindReplaceTab(Z) | show find replace tab
+../3-Phrases/drjava2:FindResultsPanel createFindResultsPanel(QRegionManager<QMovingDocumentRegion;>;QString;QString;ZZZZZQWeakReference<QOpenDefinitionsDocument;>;QFindReplacePanel;) | create find results panel
+../3-Phrases/drjava2:void disableFindAgainOnClose(QList<QOpenDefinitionsDocument;>;) | disable find again on close
+../3-Phrases/drjava2:void showFindResultsPanel(QFindResultsPanel;) | show find results panel
+../3-Phrases/drjava2:void refreshFindResultsHighlightPainter(QFindResultsPanel;QLayeredHighlighter.LayerPainter;) | refresh find results highlight painter
+../3-Phrases/drjava2:FindReplacePanel getFindReplaceDialog() | get find replace dialog
+../3-Phrases/drjava2:void disableFindAgain() | disable find again
+../3-Phrases/drjava2:KeyEvent makeFindKeyEvent(QComponent;J) | make find key event
+../3-Phrases/drjava2:void testFindMatchKeywords() | test find match keywords
+../3-Phrases/freemind:String getFindWhat() | get find what
+../3-Phrases/freemind:String getFindFromText() | get find from text
+../3-Phrases/gantt:FindPossibleDependeesAlgorithm getFindPossibleDependeesAlgorithm() | get find possible dependees algorithm
+../3-Phrases/iReport:void jButtonFindImageActionPerformed(Qjava.awt.event.ActionEvent;) | j button find image action performed
+../3-Phrases/iReport:void jButtonCancelFindActionPerformed(Qjava.awt.event.ActionEvent;) | j button cancel find action performed
+../3-Phrases/iReport:void jButtonFindActionPerformed(Qjava.awt.event.ActionEvent;) | j button find action performed
+../3-Phrases/iReport:String getFindDirectory() | get find directory
+../3-Phrases/Jabref:void testFindFileRelative() | test find file relative
+../3-Phrases/Jabref:void testFindPdf() | test find pdf
+../3-Phrases/Jabref:void testFindAssociatedFiles() | test find associated files
+../3-Phrases/Jabref:void testFindPdfInMultiple() | test find pdf in multiple
+../3-Phrases/Jabref:void testFindFile() | test find file
+../3-Phrases/Jftp:void doFindFirstNext(QArrayList;ZQString;IQSmbFilenameFilter;QSmbFileFilter;) | do find first next
+../3-Phrases/Jftp:CONS Trans2FindFirst2(QString;QString;I) | trans 2 find first 2
+../3-Phrases/Jftp:CONS SmbComFindClose2(I) | smb com find close 2
+../3-Phrases/Jftp:CONS Trans2FindFirst2Response() | trans 2 find first 2 response
+../3-Phrases/Jftp:CONS Trans2FindNext2(IIQString;) | trans 2 find next 2
+../3-Phrases/MegaMek-0.32.0:void setFindClubEnabled(Z) | set find club enabled
+../3-Phrases/MegaMek-0.32.0:void setFireFindClubEnabled(Z) | set fire find club enabled
+../3-Phrases/MegaMek-0.32.0:void setFindClubEnabled(Z) | set find club enabled
+../3-Phrases/MegaMek-0.32.0:void setFireFindClubEnabled(Z) | set fire find club enabled
+../3-Phrases/MegaMek-0.32.0:boolean canMechFindClub(QIGame;I) | can mech find club
+../3-Phrases/MegaMek-0.32.0:void resolveFindClub(QEntity;) | resolve find club
+../3-Phrases/vuze:long getTotalFindNodesReceived() | get total find nodes received
+../3-Phrases/vuze:long getTotalFindValuesReceived() | get total find values received
+../3-Phrases/vuze:void DHTTransportFindValueReplyImpl(B[QDHTTransportValue;) | dht transport find value reply impl
+../3-Phrases/vuze:void DHTTransportFindValueReplyImpl([QDHTTransportContact;) | dht transport find value reply impl
+../3-Phrases/vuze:void DHTTransportFindValueReplyImpl([B[B) | dht transport find value reply impl
+../3-Phrases/vuze:void sendFindNode(QDHTTransportReplyHandler;[B) | send find node
+../3-Phrases/vuze:void sendFindValue(QDHTTransportReplyHandler;[BIB) | send find value
+../3-Phrases/vuze:void sendFindNode(QDHTTransportReplyHandler;[B) | send find node
+../3-Phrases/vuze:void sendFindValue(QDHTTransportReplyHandler;[BIB) | send find value
+../3-Phrases/vuze:long getTotalFindNodesReceived() | get total find nodes received
+../3-Phrases/vuze:long getTotalFindValuesReceived() | get total find values received
+../3-Phrases/vuze:long[] getFindNodes() | get find nodes
+../3-Phrases/vuze:long[] getFindValues() | get find values
+../3-Phrases/vuze:void sendFindNode(QDHTTransportContact;QDHTTransportReplyHandler;[B) | send find node
+../3-Phrases/vuze:void sendFindNodeSupport(QDHTTransportContact;QDHTTransportReplyHandler;[B) | send find node support
+../3-Phrases/vuze:void sendFindValue(QDHTTransportContact;QDHTTransportReplyHandler;[BIB) | send find value
+../3-Phrases/vuze:void sendFindValueSupport(QDHTTransportContact;QDHTTransportReplyHandler;[BIB) | send find value support
+../3-Phrases/vuze:void sendFindNode(QDHTTransportReplyHandler;[B) | send find node
+../3-Phrases/vuze:void sendFindValue(QDHTTransportReplyHandler;[BIB) | send find value
+../3-Phrases/vuze:void sendFindNode(QDHTTransportUDPContactImpl;QDHTTransportReplyHandler;[B) | send find node
+../3-Phrases/vuze:void sendFindValue(QDHTTransportUDPContactImpl;QDHTTransportReplyHandler;[BIB) | send find value
+../3-Phrases/vuze:CONS DHTUDPPacketReplyFindValue(QDHTTransportUDPImpl;IJQDHTTransportContact;QDHTTransportContact;) | dhtudp packet reply find value
+../3-Phrases/vuze:CONS DHTUDPPacketReplyFindValue(QDHTUDPPacketNetworkHandler;QInetSocketAddress;QDataInputStream;I) | dhtudp packet reply find value
+../3-Phrases/vuze:CONS DHTUDPPacketRequestFindNode(QDHTTransportUDPImpl;JQDHTTransportUDPContactImpl;QDHTTransportUDPContactImpl;) | dhtudp packet request find node
+../3-Phrases/vuze:CONS DHTUDPPacketRequestFindNode(QDHTUDPPacketNetworkHandler;QDataInputStream;JI) | dhtudp packet request find node
+../3-Phrases/vuze:CONS DHTUDPPacketRequestFindValue(QDHTTransportUDPImpl;JQDHTTransportUDPContactImpl;QDHTTransportUDPContactImpl;) | dhtudp packet request find value
+../3-Phrases/vuze:CONS DHTUDPPacketRequestFindValue(QDHTUDPPacketNetworkHandler;QDataInputStream;JI) | dhtudp packet request find value
+../3-Phrases/vuze:CONS DHTUDPPacketReplyFindNode(QDHTTransportUDPImpl;IJQDHTTransportContact;QDHTTransportContact;) | dhtudp packet reply find node
+../3-Phrases/vuze:CONS DHTUDPPacketReplyFindNode(QDHTUDPPacketNetworkHandler;QInetSocketAddress;QDataInputStream;I) | dhtudp packet reply find node
+../3-Phrases/vuze:void sendFindNode(QDHTTransportReplyHandler;[B) | send find node
+../3-Phrases/vuze:void sendFindValue(QDHTTransportReplyHandler;[BIB) | send find value
+../3-Phrases/vuze:long getTotalFindNodesReceived() | get total find nodes received
+../3-Phrases/vuze:long getTotalFindValuesReceived() | get total find values received
+../3-Phrases/vuze:long[] getFindNodes() | get find nodes
+../3-Phrases/vuze:long[] getFindValues() | get find values
+../3-Phrases/vuze:Class peerFindLoadedClass(QString;) | peer find loaded class
+../3-Phrases/vuze:int nonModifyingFindIndex(QObject;) | non modifying find index
+../3-Phrases/vuze:int nonModifyingFindIndex(QObject;) | non modifying find index
+../3-Phrases/weka:boolean getFindNumBins() | get find num bins
+../3-Phrases/weka:void setFindNumBins(Z) | set find num bins
+../3-Phrases/weka:boolean getFindNumBins() | get find num bins
+../3-Phrases/weka:void setFindNumBins(Z) | set find num bins

@@ -1,0 +1,472 @@
+../3-Phrases/3PS:boolean isExtendedAdvancedSearchMode() | is extended advanced search mode
+../3-Phrases/3PS:boolean isValidationMode(HttpServletRequest request) | is validation mode
+../3-Phrases/Base_Verb:int getDevicesInProgrammingMode() | get devices in programming mode
+../3-Phrases/Base_Verb:void changeToMapOfMode(Mode mode) | change to map of mode
+../3-Phrases/Base_Verb:void setHiddenMode(String hiddenMode) | set hidden mode
+../3-Phrases/Base_Verb:void setHiddenMode(String hiddenMode) | set hidden mode
+../3-Phrases/Base_Verb:void setDifferenceMode(boolean value) | set difference mode
+../3-Phrases/Base_Verb:void setDragMode(int mode) | set drag mode
+../3-Phrases/Base_Verb:byte getMode() | get mode
+../3-Phrases/Base_Verb:DisplayMode findDisplayMode(Dimension dim) | find display mode
+../3-Phrases/Base_Verb:int getMode() | get mode
+../3-Phrases/Base_Verb:int getExecutionMode() | get execution mode
+../3-Phrases/Base_Verb:boolean setBlockDataMode(boolean on) | set block data mode
+../3-Phrases/Base_Verb:List getPluginMode() | get plugin mode
+../3-Phrases/Base_Verb:int setSelectMode(int msMode) | set select mode
+../3-Phrases/Base_Verb:AccessMode getAccessMode() | get access mode
+../3-Phrases/Base_Verb:int coGetEditorMode() | co get editor mode
+../3-Phrases/DrawSWF:void setDrawingMode(I) | set drawing mode
+../3-Phrases/DrawSWF:int getMode() | get mode
+../3-Phrases/DrawSWF:CONS PadMode(I) | pad mode
+../3-Phrases/freecol2:boolean isInDebugMode() | is in debug mode
+../3-Phrases/freecol2:void setInDebugMode(Z) | set in debug mode
+../3-Phrases/freecol2:void changeWindowedMode(Z) | change windowed mode
+../3-Phrases/freecol2:void setInDebugMode(Z) | set in debug mode
+../3-Phrases/freecol2:ViewMode getViewMode() | get view mode
+../3-Phrases/freecol2:CONS ViewMode(QGUI;) | view mode
+../3-Phrases/freecol2:void toggleViewMode() | toggle view mode
+../3-Phrases/freecol2:void changeViewMode(I) | change view mode
+../3-Phrases/freecol2:void setRepeatMode(I) | set repeat mode
+../3-Phrases/freecol2:void setPickMode(I) | set pick mode
+../3-Phrases/freecol2:void enterRevengeMode(QString;) | enter revenge mode
+../3-Phrases/freemind:Mode getMode() | get mode
+../3-Phrases/freemind:boolean changeToMode(QString;) | change to mode
+../3-Phrases/freemind:void changeToMapOfMode(QMode;) | change to map of mode
+../3-Phrases/freemind:java.util.List getPluginMode() | get plugin mode
+../3-Phrases/freemind:java.util.List getPluginMode() | get plugin mode
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginMode createPluginMode() | create plugin mode
+../3-Phrases/freemind:java.util.List getPluginMode() | get plugin mode
+../3-Phrases/freemind:java.util.List getPluginMode() | get plugin mode
+../3-Phrases/freemind:Mode getMode() | get mode
+../3-Phrases/freemind:void setMode(QMode;) | set mode
+../3-Phrases/freemind:Mode getMode(QString;) | get mode
+../3-Phrases/freemind:CONS BrowseMode() | browse mode
+../3-Phrases/freemind:CONS FileMode() | file mode
+../3-Phrases/freemind:CONS MindMapMode() | mind map mode
+../3-Phrases/freemind:CONS SchemeMode() | scheme mode
+../3-Phrases/freemind:Mode getMode() | get mode
+../3-Phrases/gantt:void setFileSelectionMode(I) | set file selection mode
+../3-Phrases/hibernate-3.3.1.GA:CONS LockMode(IQString;) | lock mode
+../3-Phrases/hibernate-3.3.1.GA:CONS ConnectionReleaseMode(QString;) | connection release mode
+../3-Phrases/hibernate-3.3.1.GA:Query setLockMode(QString;QLockMode;) | set lock mode
+../3-Phrases/hibernate-3.3.1.GA:Query setFlushMode(QFlushMode;) | set flush mode
+../3-Phrases/hibernate-3.3.1.GA:Query setCacheMode(QCacheMode;) | set cache mode
+../3-Phrases/hibernate-3.3.1.GA:CONS EntityMode(QString;) | entity mode
+../3-Phrases/hibernate-3.3.1.GA:EntityMode getEntityMode() | get entity mode
+../3-Phrases/hibernate-3.3.1.GA:void setFlushMode(QFlushMode;) | set flush mode
+../3-Phrases/hibernate-3.3.1.GA:FlushMode getFlushMode() | get flush mode
+../3-Phrases/hibernate-3.3.1.GA:void setCacheMode(QCacheMode;) | set cache mode
+../3-Phrases/hibernate-3.3.1.GA:CacheMode getCacheMode() | get cache mode
+../3-Phrases/hibernate-3.3.1.GA:LockMode getCurrentLockMode(QObject;) | get current lock mode
+../3-Phrases/hibernate-3.3.1.GA:CONS FetchMode(QString;) | fetch mode
+../3-Phrases/hibernate-3.3.1.GA:CONS CacheMode(QString;ZZ) | cache mode
+../3-Phrases/hibernate-3.3.1.GA:CONS ScrollMode(IQString;) | scroll mode
+../3-Phrases/hibernate-3.3.1.GA:CONS FlushMode(IQString;) | flush mode
+../3-Phrases/hibernate-3.3.1.GA:boolean isManualFlushMode(QFlushMode;) | is manual flush mode
+../3-Phrases/hibernate-3.3.1.GA:Criteria setFetchMode(QString;QFetchMode;) | set fetch mode
+../3-Phrases/hibernate-3.3.1.GA:Criteria setLockMode(QLockMode;) | set lock mode
+../3-Phrases/hibernate-3.3.1.GA:Criteria setLockMode(QString;QLockMode;) | set lock mode
+../3-Phrases/hibernate-3.3.1.GA:Criteria setFlushMode(QFlushMode;) | set flush mode
+../3-Phrases/hibernate-3.3.1.GA:Criteria setCacheMode(QCacheMode;) | set cache mode
+../3-Phrases/hibernate-3.3.1.GA:CONS ReplicationMode(QString;) | replication mode
+../3-Phrases/hibernate-3.3.1.GA:ConnectionReleaseMode getConnectionReleaseMode() | get connection release mode
+../3-Phrases/hibernate-3.3.1.GA:EntityMode getDefaultEntityMode() | get default entity mode
+../3-Phrases/hibernate-3.3.1.GA:void setConnectionReleaseMode(QConnectionReleaseMode;) | set connection release mode
+../3-Phrases/hibernate-3.3.1.GA:void setDefaultEntityMode(QEntityMode;) | set default entity mode
+../3-Phrases/hibernate-3.3.1.GA:LockMode getLockMode(QString;) | get lock mode
+../3-Phrases/hibernate-3.3.1.GA:FlushMode getFlushMode(QString;) | get flush mode
+../3-Phrases/hibernate-3.3.1.GA:CacheMode getCacheMode(QString;) | get cache mode
+../3-Phrases/hibernate-3.3.1.GA:int getOptimisticLockMode(QAttribute;) | get optimistic lock mode
+../3-Phrases/hibernate-3.3.1.GA:ConnectionReleaseMode getConnectionReleaseMode() | get connection release mode
+../3-Phrases/hibernate-3.3.1.GA:ConnectionReleaseMode getConnectionReleaseMode() | get connection release mode
+../3-Phrases/hibernate-3.3.1.GA:DetachedCriteria setFetchMode(QString;QFetchMode;) | set fetch mode
+../3-Phrases/hibernate-3.3.1.GA:DetachedCriteria setLockMode(QLockMode;) | set lock mode
+../3-Phrases/hibernate-3.3.1.GA:DetachedCriteria setLockMode(QString;QLockMode;) | set lock mode
+../3-Phrases/hibernate-3.3.1.GA:EntityMode getEntityMode(QCriteria;QCriteriaQuery;) | get entity mode
+../3-Phrases/hibernate-3.3.1.GA:CONS MatchMode(QString;) | match mode
+../3-Phrases/hibernate-3.3.1.GA:LockMode getLockMode() | get lock mode
+../3-Phrases/hibernate-3.3.1.GA:LockMode getLockMode() | get lock mode
+../3-Phrases/hibernate-3.3.1.GA:ScrollMode getScrollMode() | get scroll mode
+../3-Phrases/hibernate-3.3.1.GA:void setScrollMode(QScrollMode;) | set scroll mode
+../3-Phrases/hibernate-3.3.1.GA:FlushMode getFlushMode() | get flush mode
+../3-Phrases/hibernate-3.3.1.GA:CacheMode getCacheMode() | get cache mode
+../3-Phrases/hibernate-3.3.1.GA:EntityMode getEntityMode() | get entity mode
+../3-Phrases/hibernate-3.3.1.GA:CacheMode getCacheMode() | get cache mode
+../3-Phrases/hibernate-3.3.1.GA:void setCacheMode(QCacheMode;) | set cache mode
+../3-Phrases/hibernate-3.3.1.GA:FlushMode getFlushMode() | get flush mode
+../3-Phrases/hibernate-3.3.1.GA:void setFlushMode(QFlushMode;) | set flush mode
+../3-Phrases/hibernate-3.3.1.GA:LockMode getLockMode() | get lock mode
+../3-Phrases/hibernate-3.3.1.GA:void setLockMode(QLockMode;) | set lock mode
+../3-Phrases/hibernate-3.3.1.GA:EntityMode getEntityMode() | get entity mode
+../3-Phrases/hibernate-3.3.1.GA:LockMode getLockMode() | get lock mode
+../3-Phrases/hibernate-3.3.1.GA:LockMode getLockMode() | get lock mode
+../3-Phrases/hibernate-3.3.1.GA:void setLockMode(QLockMode;) | set lock mode
+../3-Phrases/hibernate-3.3.1.GA:ReplicationMode getReplicationMode() | get replication mode
+../3-Phrases/hibernate-3.3.1.GA:void setReplicationMode(QReplicationMode;) | set replication mode
+../3-Phrases/hibernate-3.3.1.GA:LockMode getLockMode() | get lock mode
+../3-Phrases/hibernate-3.3.1.GA:void setLockMode(QLockMode;) | set lock mode
+../3-Phrases/hibernate-3.3.1.GA:LockMode getLockMode() | get lock mode
+../3-Phrases/hibernate-3.3.1.GA:FetchMode getFetchMode(QString;) | get fetch mode
+../3-Phrases/hibernate-3.3.1.GA:Criteria setFetchMode(QString;QFetchMode;) | set fetch mode
+../3-Phrases/hibernate-3.3.1.GA:Criteria setLockMode(QLockMode;) | set lock mode
+../3-Phrases/hibernate-3.3.1.GA:Criteria setLockMode(QString;QLockMode;) | set lock mode
+../3-Phrases/hibernate-3.3.1.GA:Criteria setFlushMode(QFlushMode;) | set flush mode
+../3-Phrases/hibernate-3.3.1.GA:Criteria setCacheMode(QCacheMode;) | set cache mode
+../3-Phrases/hibernate-3.3.1.GA:LockMode getLockMode() | get lock mode
+../3-Phrases/hibernate-3.3.1.GA:Criteria setLockMode(QLockMode;) | set lock mode
+../3-Phrases/hibernate-3.3.1.GA:Criteria setFetchMode(QString;QFetchMode;) | set fetch mode
+../3-Phrases/hibernate-3.3.1.GA:Criteria setFlushMode(QFlushMode;) | set flush mode
+../3-Phrases/hibernate-3.3.1.GA:Criteria setCacheMode(QCacheMode;) | set cache mode
+../3-Phrases/hibernate-3.3.1.GA:Criteria setLockMode(QString;QLockMode;) | set lock mode
+../3-Phrases/hibernate-3.3.1.GA:ConnectionReleaseMode getConnectionReleaseMode() | get connection release mode
+../3-Phrases/hibernate-3.3.1.GA:CacheMode getCacheMode() | get cache mode
+../3-Phrases/hibernate-3.3.1.GA:EntityMode getEntityMode() | get entity mode
+../3-Phrases/hibernate-3.3.1.GA:FlushMode getFlushMode() | get flush mode
+../3-Phrases/hibernate-3.3.1.GA:void setCacheMode(QCacheMode;) | set cache mode
+../3-Phrases/hibernate-3.3.1.GA:void setFlushMode(QFlushMode;) | set flush mode
+../3-Phrases/hibernate-3.3.1.GA:ConnectionReleaseMode getConnectionReleaseMode() | get connection release mode
+../3-Phrases/hibernate-3.3.1.GA:LockMode getCurrentLockMode(QObject;) | get current lock mode
+../3-Phrases/hibernate-3.3.1.GA:EntityMode getEntityMode() | get entity mode
+../3-Phrases/hibernate-3.3.1.GA:void setFlushMode(QFlushMode;) | set flush mode
+../3-Phrases/hibernate-3.3.1.GA:FlushMode getFlushMode() | get flush mode
+../3-Phrases/hibernate-3.3.1.GA:CacheMode getCacheMode() | get cache mode
+../3-Phrases/hibernate-3.3.1.GA:void setCacheMode(QCacheMode;) | set cache mode
+../3-Phrases/hibernate-3.3.1.GA:Query setLockMode(QString;QLockMode;) | set lock mode
+../3-Phrases/hibernate-3.3.1.GA:Query setFlushMode(QFlushMode;) | set flush mode
+../3-Phrases/hibernate-3.3.1.GA:Query setCacheMode(QCacheMode;) | set cache mode
+../3-Phrases/hibernate-3.3.1.GA:Query setLockMode(QString;QLockMode;) | set lock mode
+../3-Phrases/hibernate-3.3.1.GA:ConnectionReleaseMode getConnectionReleaseMode() | get connection release mode
+../3-Phrases/hibernate-3.3.1.GA:boolean isDefaultFetchMode(QFetchMode;) | is default fetch mode
+../3-Phrases/hibernate-3.3.1.GA:LockMode getLockMode() | get lock mode
+../3-Phrases/hibernate-3.3.1.GA:FetchMode getFetchMode() | get fetch mode
+../3-Phrases/hibernate-3.3.1.GA:int getOptimisticLockMode() | get optimistic lock mode
+../3-Phrases/hibernate-3.3.1.GA:FetchMode getFetchMode() | get fetch mode
+../3-Phrases/hibernate-3.3.1.GA:void setFetchMode(QFetchMode;) | set fetch mode
+../3-Phrases/hibernate-3.3.1.GA:FetchMode getFetchMode() | get fetch mode
+../3-Phrases/hibernate-3.3.1.GA:FetchMode getFetchMode() | get fetch mode
+../3-Phrases/hibernate-3.3.1.GA:void setFetchMode(QFetchMode;) | set fetch mode
+../3-Phrases/hibernate-3.3.1.GA:FetchMode getFetchMode() | get fetch mode
+../3-Phrases/hibernate-3.3.1.GA:void setFetchMode(QFetchMode;) | set fetch mode
+../3-Phrases/hibernate-3.3.1.GA:FetchMode getFetchMode() | get fetch mode
+../3-Phrases/hibernate-3.3.1.GA:int getOptimisticLockMode() | get optimistic lock mode
+../3-Phrases/hibernate-3.3.1.GA:void setOptimisticLockMode(I) | set optimistic lock mode
+../3-Phrases/hibernate-3.3.1.GA:int getOptimisticLockMode() | get optimistic lock mode
+../3-Phrases/hibernate-3.3.1.GA:FetchMode getFetchMode() | get fetch mode
+../3-Phrases/hibernate-3.3.1.GA:FetchMode getFetchMode() | get fetch mode
+../3-Phrases/hibernate-3.3.1.GA:FetchMode getFetchMode(I) | get fetch mode
+../3-Phrases/hibernate-3.3.1.GA:FetchMode getFetchMode(I) | get fetch mode
+../3-Phrases/hibernate-3.3.1.GA:int optimisticLockMode() | optimistic lock mode
+../3-Phrases/hibernate-3.3.1.GA:EntityMode guessEntityMode(QObject;) | guess entity mode
+../3-Phrases/hibernate-3.3.1.GA:EntityMode guessEntityMode(QObject;) | guess entity mode
+../3-Phrases/hibernate-3.3.1.GA:SimpleSelect setLockMode(QLockMode;) | set lock mode
+../3-Phrases/hibernate-3.3.1.GA:LockMode getLockMode() | get lock mode
+../3-Phrases/hibernate-3.3.1.GA:Select setLockMode(QLockMode;) | set lock mode
+../3-Phrases/hibernate-3.3.1.GA:ConnectionReleaseMode getDefaultReleaseMode() | get default release mode
+../3-Phrases/hibernate-3.3.1.GA:ConnectionReleaseMode getDefaultReleaseMode() | get default release mode
+../3-Phrases/hibernate-3.3.1.GA:ConnectionReleaseMode getDefaultReleaseMode() | get default release mode
+../3-Phrases/hibernate-3.3.1.GA:ConnectionReleaseMode getDefaultReleaseMode() | get default release mode
+../3-Phrases/hibernate-3.3.1.GA:EntityMode guessEntityMode(QObject;) | guess entity mode
+../3-Phrases/hibernate-3.3.1.GA:FetchMode getFetchMode() | get fetch mode
+../3-Phrases/hibernate-3.3.1.GA:EntityMode getEntityMode() | get entity mode
+../3-Phrases/hibernate-3.3.1.GA:EntityMode getEntityMode() | get entity mode
+../3-Phrases/hibernate-3.3.1.GA:EntityMode guessEntityMode(QObject;) | guess entity mode
+../3-Phrases/hibernate-3.3.1.GA:int getOptimisticLockMode() | get optimistic lock mode
+../3-Phrases/hibernate-3.3.1.GA:EntityMode getEntityMode() | get entity mode
+../3-Phrases/hibernate-3.3.1.GA:EntityMode getEntityMode() | get entity mode
+../3-Phrases/hibernate-3.3.1.GA:FetchMode getFetchMode(I) | get fetch mode
+../3-Phrases/hibernate-3.3.1.GA:FetchMode getFetchMode(I) | get fetch mode
+../3-Phrases/hibernate-3.3.1.GA:FetchMode getFetchMode(I) | get fetch mode
+../3-Phrases/hibernate-3.3.1.GA:FetchMode getFetchMode(I) | get fetch mode
+../3-Phrases/hsqldb:int getParameterMode(I) | get parameter mode
+../3-Phrases/hsqldb:void setMode(I) | set mode
+../3-Phrases/iReport:boolean isReportFontMode() | is report font mode
+../3-Phrases/iReport:void setReportFontMode(Z) | set report font mode
+../3-Phrases/iReport:void setReportFontMode(I) | set report font mode
+../3-Phrases/iReport:void updateAntialiasMode() | update antialias mode
+../3-Phrases/iReport:void updateAntialiasMode() | update antialias mode
+../3-Phrases/iReport:boolean isLensMode() | is lens mode
+../3-Phrases/iReport:void setLensMode(Z) | set lens mode
+../3-Phrases/iReport:int getFontMode() | get font mode
+../3-Phrases/iReport:void setFontMode(I) | set font mode
+../3-Phrases/iReport:void setFontMode(I) | set font mode
+../3-Phrases/iReport:int getViewMode() | get view mode
+../3-Phrases/iReport:void setViewMode(I) | set view mode
+../3-Phrases/iReport:boolean isInsertMode() | is insert mode
+../3-Phrases/iReport:void setInsertMode(Z) | set insert mode
+../3-Phrases/Jabref:int getMode() | get mode
+../3-Phrases/Jabref:void setMode(I) | set mode
+../3-Phrases/Jabref:void setListSelectionMode(I) | set list selection mode
+../3-Phrases/Jabref:void setPrintMode(I) | set print mode
+../3-Phrases/Jftp:boolean getFtpPasvMode() | get ftp pasv mode
+../3-Phrases/JRobin:int getSyncMode() | get sync mode
+../3-Phrases/JRobin:void setSyncMode(I) | set sync mode
+../3-Phrases/JRobin:int getLockMode() | get lock mode
+../3-Phrases/JRobin:void setLockMode(I) | set lock mode
+../3-Phrases/JRobin:void setDisposalMode(I) | set disposal mode
+../3-Phrases/MegaMek-0.32.0:void changeMode() | change mode
+../3-Phrases/MegaMek-0.32.0:void changeMode() | change mode
+../3-Phrases/MegaMek-0.32.0:int getAimingMode() | get aiming mode
+../3-Phrases/MegaMek-0.32.0:void setAimingMode() | set aiming mode
+../3-Phrases/MegaMek-0.32.0:boolean inAimingMode() | in aiming mode
+../3-Phrases/MegaMek-0.32.0:void changeMode() | change mode
+../3-Phrases/MegaMek-0.32.0:int getAimingMode() | get aiming mode
+../3-Phrases/MegaMek-0.32.0:void setAimingMode() | set aiming mode
+../3-Phrases/MegaMek-0.32.0:boolean inAimingMode() | in aiming mode
+../3-Phrases/MegaMek-0.32.0:void changeMode() | change mode
+../3-Phrases/MegaMek-0.32.0:boolean getFinalClimbMode() | get final climb mode
+../3-Phrases/MegaMek-0.32.0:EquipmentMode curMode() | cur mode
+../3-Phrases/MegaMek-0.32.0:EquipmentMode pendingMode() | pending mode
+../3-Phrases/MegaMek-0.32.0:int switchMode() | switch mode
+../3-Phrases/MegaMek-0.32.0:int setMode(QString;) | set mode
+../3-Phrases/MegaMek-0.32.0:void setMode(I) | set mode
+../3-Phrases/MegaMek-0.32.0:boolean climbMode() | climb mode
+../3-Phrases/MegaMek-0.32.0:void setClimbMode(Z) | set climb mode
+../3-Phrases/MegaMek-0.32.0:int getMovementMode() | get movement mode
+../3-Phrases/MegaMek-0.32.0:void setMovementMode(I) | set movement mode
+../3-Phrases/MegaMek-0.32.0:boolean climbMode() | climb mode
+../3-Phrases/MegaMek-0.32.0:void setClimbMode(Z) | set climb mode
+../3-Phrases/MegaMek-0.32.0:EquipmentMode getMode(I) | get mode
+../3-Phrases/MegaMek-0.32.0:CONS EquipmentMode(QString;) | equipment mode
+../3-Phrases/MegaMek-0.32.0:EquipmentMode getMode(QString;) | get mode
+../3-Phrases/MegaMek-0.32.0:int getAimingMode() | get aiming mode
+../3-Phrases/MegaMek-0.32.0:void setAimingMode(I) | set aiming mode
+../3-Phrases/np:void unsetApplyDesignMode() | unset apply design mode
+../3-Phrases/PlanetaMessenger:void setMode(I) | set mode
+../3-Phrases/PlanetaMessenger:void setOperatiohnMode(Z) | set operat io hn mode
+../3-Phrases/PlanetaMessenger:boolean getOperationMode() | get operation mode
+../3-Phrases/prefuse:boolean setReadMode(Z) | set read mode
+../3-Phrases/rhino:void setStrictMode(Z) | set strict mode
+../3-Phrases/rhino-fieldSample:void setStrictMode(Z) | set strict mode
+../3-Phrases/SweetHome3D:DrawingMode getDrawingMode() | get drawing mode
+../3-Phrases/SweetHome3D:void setDrawingMode(QDrawingMode;) | set drawing mode
+../3-Phrases/SweetHome3D:void setMode(QMode;) | set mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:void setMode(QMode;) | set mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:void setMode(QMode;) | set mode
+../3-Phrases/SweetHome3D:void setMode(QMode;) | set mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:void setMode(QMode;) | set mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:void setMode(QMode;) | set mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:void setMode(QMode;) | set mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/SweetHome3D:Mode getMode() | get mode
+../3-Phrases/vuze:int getAccessMode() | get access mode
+../3-Phrases/vuze:void setAccessMode(I) | set access mode
+../3-Phrases/vuze:void setAccessMode(I) | set access mode
+../3-Phrases/vuze:int getAccessMode() | get access mode
+../3-Phrases/vuze:int getCacheMode() | get cache mode
+../3-Phrases/vuze:int getCacheMode() | get cache mode
+../3-Phrases/vuze:int getCacheMode() | get cache mode
+../3-Phrases/vuze:int getCacheMode() | get cache mode
+../3-Phrases/vuze:void setAccessMode(I) | set access mode
+../3-Phrases/vuze:int getAccessMode() | get access mode
+../3-Phrases/vuze:void setAccessMode(I) | set access mode
+../3-Phrases/vuze:int getAccessMode() | get access mode
+../3-Phrases/vuze:void setAccessMode(I) | set access mode
+../3-Phrases/vuze:int getAccessMode() | get access mode
+../3-Phrases/vuze:void setAccessMode(I) | set access mode
+../3-Phrases/vuze:int getAccessMode() | get access mode
+../3-Phrases/vuze:void setAccessMode(I) | set access mode
+../3-Phrases/vuze:void setAccessMode(I) | set access mode
+../3-Phrases/vuze:int getAccessMode() | get access mode
+../3-Phrases/vuze:boolean supportsProgressiveMode() | supports progressive mode
+../3-Phrases/vuze:void setProgressiveMode(Z) | set progressive mode
+../3-Phrases/vuze:void setProgressiveMode(ZZ) | set progressive mode
+../3-Phrases/vuze:boolean getProgressiveMode() | get progressive mode
+../3-Phrases/vuze:int getCacheMode() | get cache mode
+../3-Phrases/vuze:boolean isAutoMode() | is auto mode
+../3-Phrases/vuze:boolean isAutoMode() | is auto mode
+../3-Phrases/vuze:void setAutoMode(Z) | set auto mode
+../3-Phrases/vuze:void initSafeMode() | init safe mode
+../3-Phrases/vuze:void enableSafeSelectionMode() | enable safe selection mode
+../3-Phrases/vuze:void setTransportMode(I) | set transport mode
+../3-Phrases/vuze:int getTransportMode() | get transport mode
+../3-Phrases/vuze:void setMode(I) | set mode
+../3-Phrases/vuze:int getMode() | get mode
+../3-Phrases/vuze:void setMode(I) | set mode
+../3-Phrases/vuze:int getMode() | get mode
+../3-Phrases/vuze:int setStartPieceBasedOnMode(II) | set start piece based on mode
+../3-Phrases/vuze:void setTransportMode(I) | set transport mode
+../3-Phrases/vuze:int getTransportMode() | get transport mode
+../3-Phrases/vuze:void setScatteringMode(J) | set scattering mode
+../3-Phrases/vuze:void setTransportMode(I) | set transport mode
+../3-Phrases/vuze:int getTransportMode() | get transport mode
+../3-Phrases/vuze:void setScatteringMode(J) | set scattering mode
+../3-Phrases/vuze:void setTransportMode(I) | set transport mode
+../3-Phrases/vuze:int getTransportMode() | get transport mode
+../3-Phrases/vuze:void setScatteringMode(J) | set scattering mode
+../3-Phrases/vuze:void setTransportMode(I) | set transport mode
+../3-Phrases/vuze:int getTransportMode() | get transport mode
+../3-Phrases/vuze:boolean isInEndGameMode() | is in end game mode
+../3-Phrases/vuze:void checkEndGameMode() | check end game mode
+../3-Phrases/vuze:boolean isInEndGameMode() | is in end game mode
+../3-Phrases/vuze:int findPieceInEndGameMode(QPEPeerTransport;I) | find piece in end game mode
+../3-Phrases/vuze:void leaveEndGameMode() | leave end game mode
+../3-Phrases/vuze:void abandonEndGameMode() | abandon end game mode
+../3-Phrases/vuze:int getMessagingMode() | get messaging mode
+../3-Phrases/vuze:CONS SaturatedMode(QString;F) | saturated mode
+../3-Phrases/vuze:SaturatedMode getSaturatedMode(II) | get saturated mode
+../3-Phrases/vuze:CONS TransferMode() | transfer mode
+../3-Phrases/vuze:State getMode() | get mode
+../3-Phrases/vuze:void setMode(QState;) | set mode
+../3-Phrases/vuze:boolean isDownloadMode() | is download mode
+../3-Phrases/vuze:void setDownloadUnlimitedMode(Z) | set download unlimited mode
+../3-Phrases/vuze:boolean isDownloadUnlimitedMode() | is download unlimited mode
+../3-Phrases/vuze:void setDownloadBandwidthMode(II) | set download bandwidth mode
+../3-Phrases/vuze:void setUploadBandwidthMode(II) | set upload bandwidth mode
+../3-Phrases/vuze:void setDownloadLimitSettingMode(I) | set download limit setting mode
+../3-Phrases/vuze:void setUploadLimitSettingMode(I) | set upload limit setting mode
+../3-Phrases/vuze:SaturatedMode getDownloadBandwidthMode() | get download bandwidth mode
+../3-Phrases/vuze:SaturatedMode getUploadBandwidthMode() | get upload bandwidth mode
+../3-Phrases/vuze:SaturatedMode getDownloadLimitSettingMode() | get download limit setting mode
+../3-Phrases/vuze:SaturatedMode getUploadLimitSettingMode() | get upload limit setting mode
+../3-Phrases/vuze:void updateTransferMode() | update transfer mode
+../3-Phrases/vuze:TransferMode getTransferMode() | get transfer mode
+../3-Phrases/vuze:void setDownloadUnlimitedMode(Z) | set download unlimited mode
+../3-Phrases/vuze:boolean isDownloadUnlimitedMode() | is download unlimited mode
+../3-Phrases/vuze:void setDownloadUnlimitedMode(Z) | set download unlimited mode
+../3-Phrases/vuze:boolean isDownloadUnlimitedMode() | is download unlimited mode
+../3-Phrases/vuze:void updateSeedingMode() | update seeding mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int getTileMode(QString;) | get tile mode
+../3-Phrases/vuze:void setDefaultAvailableMode() | set default available mode
+../3-Phrases/vuze:void setMode(I) | set mode
+../3-Phrases/vuze:void setTableMode(Z) | set table mode
+../3-Phrases/vuze:int getViewMode() | get view mode
+../3-Phrases/vuze:void setViewMode(IZ) | set view mode
+../3-Phrases/vuze:int getTableMode() | get table mode
+../3-Phrases/vuze:int getTableMode() | get table mode
+../3-Phrases/vuze:boolean isEditMode() | is edit mode
+../3-Phrases/vuze:void setEditMode(Z) | set edit mode
+../3-Phrases/vuze:boolean isShareMode() | is share mode
+../3-Phrases/vuze:void setShareMode(ZQSharePage;) | set share mode
+../3-Phrases/vuze:boolean isNonActiveMode() | is non active mode
+../3-Phrases/vuze:boolean isAddBuddyMode() | is add buddy mode
+../3-Phrases/vuze:void setAddBuddyMode(Z) | set add buddy mode
+../3-Phrases/vuze:void setMode(I) | set mode
+../3-Phrases/vuze:int getViewMode() | get view mode
+../3-Phrases/vuze:void setViewMode(IZ) | set view mode
+../3-Phrases/vuze:String getTableIdFromFilterMode(IZ) | get table id from filter mode
+../3-Phrases/vuze:void setShareMode() | set share mode
+../3-Phrases/vuze:void setAddFriendsMode() | set add friends mode
+../3-Phrases/vuze:void setEditMode() | set edit mode
+../3-Phrases/vuze:void engineSetMode(QString;) | engine set mode
+../3-Phrases/vuze:int getAccessMode() | get access mode
+../3-Phrases/vuze:int getCacheMode() | get cache mode
+../3-Phrases/vuze:int getCacheMode() | get cache mode
+../3-Phrases/vuze:int getCacheMode() | get cache mode
+../3-Phrases/vuze:int getAccessMode() | get access mode
+../3-Phrases/vuze:int getCacheMode() | get cache mode
+../3-Phrases/vuze:int getCacheMode() | get cache mode
+../3-Phrases/vuze:void setAccessMode(I) | set access mode
+../3-Phrases/vuze:int getAccessMode() | get access mode
+../3-Phrases/vuze:boolean requestAssumedCompleteMode() | request assumed complete mode
+../3-Phrases/vuze:int getAccessMode() | get access mode
+../3-Phrases/vuze:boolean requestAssumedCompleteMode() | request assumed complete mode
+../3-Phrases/vuze:boolean isSuperSeedMode() | is super seed mode
+../3-Phrases/vuze:boolean canToggleSuperSeedMode() | can toggle super seed mode
+../3-Phrases/vuze:void setSuperSeedMode(Z) | set super seed mode
+../3-Phrases/vuze:boolean isInEndGameMode() | is in end game mode
+../3-Phrases/vuze:int getMessagingMode() | get messaging mode
+../3-Phrases/vuze:boolean isInEndGameMode() | is in end game mode
+../3-Phrases/vuze:boolean isSuperSeedMode() | is super seed mode
+../3-Phrases/vuze:boolean canToggleSuperSeedMode() | can toggle super seed mode
+../3-Phrases/vuze:void setSuperSeedMode(Z) | set super seed mode
+../3-Phrases/vuze:void initialiseSuperSeedMode() | initialise super seed mode
+../3-Phrases/vuze:void updatePeersInSuperSeedMode() | update peers in super seed mode
+../3-Phrases/vuze:int getMessagingMode() | get messaging mode
+../3-Phrases/vuze:byte getCompactMode() | get compact mode
+../3-Phrases/vuze:void setRecoveryMode(Z) | set recovery mode
+../3-Phrases/vuze:int getAccessMode() | get access mode
+../3-Phrases/vuze:int getMinimumRequiredUserMode() | get minimum required user mode
+../3-Phrases/vuze:void setMinimumRequiredUserMode(I) | set minimum required user mode
+../3-Phrases/vuze:int getAccessMode() | get access mode
+../3-Phrases/vuze:int getMessagingMode() | get messaging mode
+../3-Phrases/vuze:int getMinimumRequiredUserMode() | get minimum required user mode
+../3-Phrases/vuze:void setMinimumRequiredUserMode(I) | set minimum required user mode
+../3-Phrases/vuze:int getAccessMode() | get access mode
+../3-Phrases/vuze:void setSelectedStartMode(I) | set selected start mode
+../3-Phrases/vuze:void checkSeedingMode() | check seeding mode
+../3-Phrases/vuze:int getDefaultStartMode() | get default start mode
+../3-Phrases/vuze:boolean isEnabledForCurrentMode(QWidget;) | is enabled for current mode
+../3-Phrases/vuze:void activateMode(Z) | activate mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/vuze:int maxUserMode() | max user mode
+../3-Phrases/weka:SelectedTag getMissingMode() | get missing mode
+../3-Phrases/weka:void setMissingMode(QSelectedTag;) | set missing mode
+../3-Phrases/weka:void setMissingMode(I) | set missing mode
+../3-Phrases/weka:void setEvaluationMode(QSelectedTag;) | set evaluation mode
+../3-Phrases/weka:SelectedTag getEvaluationMode() | get evaluation mode
+../3-Phrases/weka:double meanOrMode(QInstances;[II) | mean or mode
+../3-Phrases/weka:double meanOrMode(I) | mean or mode
+../3-Phrases/weka:double meanOrMode(QAttribute;) | mean or mode
+../3-Phrases/weka:int getWriteMode() | get write mode
+../3-Phrases/weka:void setWriteMode(I) | set write mode
+../3-Phrases/weka:int getWriteMode() | get write mode
+../3-Phrases/weka:void setGUIMode(QTextArea;) | set gui mode
+../3-Phrases/weka:void setGUIMode(QTextArea;) | set gui mode
+../3-Phrases/weka:int getClassifierTestMode() | get classifier test mode
+../3-Phrases/weka:int getClustererTestMode() | get clusterer test mode
+../3-Phrases/weka:int getASTestMode() | get as test mode
+../3-Phrases/weka:void setPaintMode() | set paint mode
+../3-Phrases/weka:void setXORMode(QColor;) | set xor mode
+../3-Phrases/weka:double meanOrMode(QInstances;[II) | mean or mode
+../3-Phrases/weka:double meanOrMode(I) | mean or mode
+../3-Phrases/weka:double meanOrMode(QAttribute;) | mean or mode

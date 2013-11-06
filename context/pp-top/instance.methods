@@ -1,0 +1,11 @@
+CumulativeDiscreteDistribution cumulativeDistributionForInstanceBalanced(QInstance;D) | cumulative distribution for instance balanced
+DiscreteDistribution distributionForInstanceBalanced(QInstance;D) | distribution for instance balanced
+Object instanceNotYetLoaded(QResultSet;IQLoadable;QString;QEntityKey;QLockMode;QEntityKey;QObject;QList;QSessionImplementor;) | instance not yet loaded
+void checkInstanceCreated(QUpdateCheckInstance;) | check instance created
+void instanceAlreadyLoaded(QResultSet;IQLoadable;QEntityKey;QObject;QLockMode;QSessionImplementor;) | instance already loaded
+void instanceChanged(QAZInstance;) | instance changed
+void instanceProduced(QInstanceEvent;) | instance produced
+void instanceTracked(QAZInstanceTracked;) | instance tracked
+void notifyInstanceLoaded(QInstanceEvent;) | notify instance loaded
+void notifyInstanceProduced(QInstanceEvent;) | notify instance produced
+void secondInstanceProduced(QInstanceEvent;) | second instance produced

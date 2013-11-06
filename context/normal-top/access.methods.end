@@ -1,0 +1,16 @@
+boolean canAccess(I) | can access
+boolean handleReadAccess(QString;QString;) | handle read access
+boolean handleWriteAccess(QString;QString;) | handle write access
+boolean isStoredFileAccess() | is stored file access
+boolean shouldTransformFieldAccess(QString;QString;QString;) | should transform field access
+Expression expandArrayAccess(Environment env, ArrayAccess expr) | expand array access
+FileAccess getFileAccess() | get file access
+Node attributeAccess(QNode;I) | attribute access
+String getDefaultAccess() | get default access
+void checkAccess(QString;QRPRequest;) | check access
+void checkTableWriteAccess(QSession;QTable;) | check table write access
+void checkTableWriteAccess(QTable;I) | check table write access
+void lookForVariableAccess(QOptFunctionNode;QNode;) | look for variable access
+void reserveAccess(QString;) | reserve access
+void setDefaultAccess(QString;) | set default access
+void setXMLAccess(XMLAccess xmlAccess) | set xml access

@@ -1,0 +1,694 @@
+../3-Phrases/Base_Verb:void copyFromConnections(Node n) | copy from connections
+../3-Phrases/Base_Verb:void service(HttpConnection connection, ServerConfiguration config, ZoneConfiguration zone) | service
+../3-Phrases/Base_Verb:ConnectionContext getConnectionContext() | get connection context
+../3-Phrases/Base_Verb:void setDebugUnreturnedConnectionStackTraces(boolean debugUnreturnedConnectionStackTraces) | set debug unreturned connection stack traces
+../3-Phrases/Base_Verb:void releaseConnection() | release connection
+../3-Phrases/Base_Verb:static ConnectionPoolManager getInstance(int iInitialCapacity, int iMaxCapacity, int iMinCapacity, int iCapacityIncrement, String sDriver, String sURL, String sUser, String sPassword) | connection pool manager get instance
+../3-Phrases/Base_Verb:DepositOp get_connection_deposit() | get connection deposit
+../3-Phrases/Base_Verb:void initConnections() | init connections
+../3-Phrases/Base_Verb:void closeConnection(Connection conn) | close connection
+../3-Phrases/Base_Verb:List getConnections() | get connections
+../3-Phrases/Base_Verb:void releaseConnectionIDLock() | release connection id lock
+../3-Phrases/Base_Verb:String getConnectionThreadName() | get connection thread name
+../3-Phrases/Base_Verb:void connectIndication(IrLAPContext context, ConnectionInformation connectionInfo) | connect indication
+../3-Phrases/freecol2:Connection getConnection() | get connection
+../3-Phrases/freecol2:CONS Connection() | connection
+../3-Phrases/freecol2:CONS Connection(QString;IQMessageHandler;QString;) | connection
+../3-Phrases/freecol2:CONS Connection(QSocket;QMessageHandler;QString;) | connection
+../3-Phrases/freecol2:Iterator<QConnection;> getConnectionIterator() | get connection iterator
+../3-Phrases/freecol2:Connection getConnection(QSocket;) | get connection
+../3-Phrases/freecol2:void removeConnection(QConnection;) | remove connection
+../3-Phrases/freecol2:UserConnectionHandler getUserConnectionHandler() | get user connection handler
+../3-Phrases/freecol2:Connection getConnection() | get connection
+../3-Phrases/freecol2:void setDebuggingConnection(QConnection;) | set debugging connection
+../3-Phrases/freecol2:Connection getConnection() | get connection
+../3-Phrases/freecol2:void setDebuggingConnection(QConnection;) | set debugging connection
+../3-Phrases/freecol2:CONS UserConnectionHandler(QFreeColServer;) | user connection handler
+../3-Phrases/freecol2:Connection getConnection() | get connection
+../3-Phrases/freecol2:void setConnection(QConnection;) | set connection
+../3-Phrases/freecol2:CONS DummyConnection(QString;QMessageHandler;) | dummy connection
+../3-Phrases/freecol2:DummyConnection getOtherConnection() | get other connection
+../3-Phrases/freecol2:void setMessageHandlerToAllConnections(QMessageHandler;) | set message handler to all connections
+../3-Phrases/freecol2:Iterator<QConnection;> getConnectionIterator() | get connection iterator
+../3-Phrases/freecol2:Connection getConnection(QSocket;) | get connection
+../3-Phrases/freecol2:void addDummyConnection(QConnection;) | add dummy connection
+../3-Phrases/freecol2:void addConnection(QConnection;) | add connection
+../3-Phrases/freecol2:void removeConnection(QConnection;) | remove connection
+../3-Phrases/freemind:void checkConnectionToFreeMindMain() | check connection to free mind main
+../3-Phrases/gantt:CONS ConnectionPanel(QGanttProject;) | connection panel
+../3-Phrases/hibernate-3.3.1.GA:CONS ConnectionReleaseMode(QString;) | connection release mode
+../3-Phrases/hibernate-3.3.1.GA:Connection connection() | connection
+../3-Phrases/hibernate-3.3.1.GA:Connection connection() | connection
+../3-Phrases/hibernate-3.3.1.GA:ConnectionProvider getConnectionProvider() | get connection provider
+../3-Phrases/hibernate-3.3.1.GA:ConnectionReleaseMode getConnectionReleaseMode() | get connection release mode
+../3-Phrases/hibernate-3.3.1.GA:void setConnectionProvider(QConnectionProvider;) | set connection provider
+../3-Phrases/hibernate-3.3.1.GA:void setConnectionReleaseMode(QConnectionReleaseMode;) | set connection release mode
+../3-Phrases/hibernate-3.3.1.GA:ConnectionProvider createConnectionProvider(QProperties;) | create connection provider
+../3-Phrases/hibernate-3.3.1.GA:Connection getConnection() | get connection
+../3-Phrases/hibernate-3.3.1.GA:void closeConnection(QConnection;) | close connection
+../3-Phrases/hibernate-3.3.1.GA:ConnectionProvider newConnectionProvider() | new connection provider
+../3-Phrases/hibernate-3.3.1.GA:ConnectionProvider newConnectionProvider(QProperties;) | new connection provider
+../3-Phrases/hibernate-3.3.1.GA:ConnectionProvider newConnectionProvider(QProperties;QMap;) | new connection provider
+../3-Phrases/hibernate-3.3.1.GA:CONS ConnectionProviderFactory() | connection provider factory
+../3-Phrases/hibernate-3.3.1.GA:Properties getConnectionProperties(QProperties;) | get connection properties
+../3-Phrases/hibernate-3.3.1.GA:Connection getConnection() | get connection
+../3-Phrases/hibernate-3.3.1.GA:void closeConnection(QConnection;) | close connection
+../3-Phrases/hibernate-3.3.1.GA:Connection getConnection() | get connection
+../3-Phrases/hibernate-3.3.1.GA:void closeConnection(QConnection;) | close connection
+../3-Phrases/hibernate-3.3.1.GA:Connection getConnection() | get connection
+../3-Phrases/hibernate-3.3.1.GA:void closeConnection(QConnection;) | close connection
+../3-Phrases/hibernate-3.3.1.GA:ConnectionReleaseMode getConnectionReleaseMode() | get connection release mode
+../3-Phrases/hibernate-3.3.1.GA:ConnectionReleaseMode getConnectionReleaseMode() | get connection release mode
+../3-Phrases/hibernate-3.3.1.GA:ConnectionProvider getConnectionProvider() | get connection provider
+../3-Phrases/hibernate-3.3.1.GA:Connection connection() | connection
+../3-Phrases/hibernate-3.3.1.GA:CONS JDBCConnectionException(QString;QSQLException;) | jdbc connection exception
+../3-Phrases/hibernate-3.3.1.GA:CONS JDBCConnectionException(QString;QSQLException;QString;) | jdbc connection exception
+../3-Phrases/hibernate-3.3.1.GA:ConnectionReleaseMode getConnectionReleaseMode() | get connection release mode
+../3-Phrases/hibernate-3.3.1.GA:Connection connection() | connection
+../3-Phrases/hibernate-3.3.1.GA:ConnectionReleaseMode getConnectionReleaseMode() | get connection release mode
+../3-Phrases/hibernate-3.3.1.GA:Connection connection() | connection
+../3-Phrases/hibernate-3.3.1.GA:ConnectionProvider getConnectionProvider() | get connection provider
+../3-Phrases/hibernate-3.3.1.GA:ConnectionReleaseMode getConnectionReleaseMode() | get connection release mode
+../3-Phrases/hibernate-3.3.1.GA:void connectionOpened() | connection opened
+../3-Phrases/hibernate-3.3.1.GA:void connectionCleanedUp() | connection cleaned up
+../3-Phrases/hibernate-3.3.1.GA:ConnectionManager getConnectionManager() | get connection manager
+../3-Phrases/hibernate-3.3.1.GA:Connection borrowConnection() | borrow connection
+../3-Phrases/hibernate-3.3.1.GA:Connection connection() | connection
+../3-Phrases/hibernate-3.3.1.GA:CONS BorrowedConnectionProxy(QConnectionManager;) | borrowed connection proxy
+../3-Phrases/hibernate-3.3.1.GA:Connection getWrappedConnection(QConnection;) | get wrapped connection
+../3-Phrases/hibernate-3.3.1.GA:void connectionOpened() | connection opened
+../3-Phrases/hibernate-3.3.1.GA:void connectionCleanedUp() | connection cleaned up
+../3-Phrases/hibernate-3.3.1.GA:CONS ConnectionManager(QSessionFactoryImplementor;QCallback;QConnectionReleaseMode;QConnection;QInterceptor;) | connection manager
+../3-Phrases/hibernate-3.3.1.GA:CONS ConnectionManager(QSessionFactoryImplementor;QCallback;QConnectionReleaseMode;QInterceptor;ZZ) | connection manager
+../3-Phrases/hibernate-3.3.1.GA:boolean isSuppliedConnection() | is supplied connection
+../3-Phrases/hibernate-3.3.1.GA:Connection getConnection() | get connection
+../3-Phrases/hibernate-3.3.1.GA:boolean hasBorrowedConnection() | has borrowed connection
+../3-Phrases/hibernate-3.3.1.GA:Connection borrowConnection() | borrow connection
+../3-Phrases/hibernate-3.3.1.GA:void releaseBorrowedConnection() | release borrowed connection
+../3-Phrases/hibernate-3.3.1.GA:void openConnection() | open connection
+../3-Phrases/hibernate-3.3.1.GA:void closeConnection() | close connection
+../3-Phrases/hibernate-3.3.1.GA:Connection getWrappedConnection() | get wrapped connection
+../3-Phrases/hibernate-3.3.1.GA:Connection openConnection() | open connection
+../3-Phrases/hibernate-3.3.1.GA:void closeConnection(QConnection;) | close connection
+../3-Phrases/hibernate-3.3.1.GA:Connection openConnection() | open connection
+../3-Phrases/hibernate-3.3.1.GA:void closeConnection(QConnection;) | close connection
+../3-Phrases/hibernate-3.3.1.GA:CONS SuppliedConnectionHelper(QConnection;) | supplied connection helper
+../3-Phrases/hibernate-3.3.1.GA:Connection getConnection() | get connection
+../3-Phrases/hibernate-3.3.1.GA:CONS ManagedProviderConnectionHelper(QProperties;) | managed provider connection helper
+../3-Phrases/hibernate-3.3.1.GA:Connection getConnection() | get connection
+../3-Phrases/hibernate-3.3.1.GA:CONS SuppliedConnectionProviderConnectionHelper(QConnectionProvider;) | supplied connection provider connection helper
+../3-Phrases/hibernate-3.3.1.GA:Connection getConnection() | get connection
+../3-Phrases/hibernate-3.3.1.GA:Connection getConnection() | get connection
+../3-Phrases/hsqldb:void handleConnection(QSocket;) | handle connection
+../3-Phrases/hsqldb:void signalCloseAllServerConnections() | signal close all server connections
+../3-Phrases/hsqldb:boolean isReadOnlyConnection(QConnection;) | is read only connection
+../3-Phrases/hsqldb:CONS WebServerConnection(QSocket;QWebServer;) | web server connection
+../3-Phrases/hsqldb:String getConnectionThreadName() | get connection thread name
+../3-Phrases/hsqldb:Connection getConnection(QString;QProperties;) | get connection
+../3-Phrases/hsqldb:int getConnectionAttrType() | get connection attr type
+../3-Phrases/hsqldb:void setConnectionAttrType(I) | set connection attr type
+../3-Phrases/hsqldb:void signalCloseAllServerConnections() | signal close all server connections
+../3-Phrases/hsqldb:void handleConnection(QSocket;) | handle connection
+../3-Phrases/hsqldb:boolean allowConnection(QSocket;) | allow connection
+../3-Phrases/hsqldb:CONS HSQLClientConnection(QString;IQString;QString;ZQString;QString;) | hsql client connection
+../3-Phrases/hsqldb:void initConnection(QString;IZ) | init connection
+../3-Phrases/hsqldb:void openConnection(QString;IZ) | open connection
+../3-Phrases/hsqldb:void closeConnection() | close connection
+../3-Phrases/hsqldb:CONS HTTPClientConnection(QString;IQString;QString;ZQString;QString;) | http client connection
+../3-Phrases/hsqldb:void initConnection(QString;IZ) | init connection
+../3-Phrases/hsqldb:CONS ServerConnection(QSocket;QServer;) | server connection
+../3-Phrases/hsqldb:String getConnectionThreadName() | get connection thread name
+../3-Phrases/hsqldb:jdbcConnection getInternalConnection() | get internal connection
+../3-Phrases/hsqldb:String getInternalConnectionURL() | get internal connection url
+../3-Phrases/hsqldb:Connection getConnection() | get connection
+../3-Phrases/hsqldb:Connection getConnection(QString;QString;) | get connection
+../3-Phrases/hsqldb:int getMaxConnections() | get max connections
+../3-Phrases/hsqldb:Connection getConnection() | get connection
+../3-Phrases/hsqldb:SQLException connectionClosedException() | connection closed exception
+../3-Phrases/hsqldb:CONS jdbcConnection(QHsqlProperties;) | jdbc connection
+../3-Phrases/hsqldb:CONS jdbcConnection(QSession;) | jdbc connection
+../3-Phrases/hsqldb:Connection getConnection() | get connection
+../3-Phrases/hsqldb:Connection getConnection() | get connection
+../3-Phrases/hsqldb:CONS ConnectionTypesSample() | connection types sample
+../3-Phrases/hsqldb:Connection getJDBCConnection() | get jdbc connection
+../3-Phrases/hsqldb:CONS TestMultipleConnections() | test multiple connections
+../3-Phrases/hsqldb:Connection newConnection() | new connection
+../3-Phrases/hsqldb:void checkSourceConnection() | check source connection
+../3-Phrases/hsqldb:Connection getJDBCConnection() | get jdbc connection
+../3-Phrases/hsqldb:Connection newConnection() | new connection
+../3-Phrases/hsqldb:Hashtable loadRecentConnectionSettings() | load recent connection settings
+../3-Phrases/hsqldb:void addToRecentConnectionSettings(QHashtable;QConnectionSetting;) | add to recent connection settings
+../3-Phrases/hsqldb:void storeRecentConnectionSettings(QHashtable;) | store recent connection settings
+../3-Phrases/hsqldb:void deleteRecentConnectionSettings() | delete recent connection settings
+../3-Phrases/hsqldb:Connection createConnection(QString;QString;QString;QString;) | create connection
+../3-Phrases/hsqldb:CONS ConnectionDialog(QFrame;QString;) | connection dialog
+../3-Phrases/hsqldb:Connection createConnection(QFrame;QString;) | create connection
+../3-Phrases/hsqldb:CONS ConnectionSetting() | connection setting
+../3-Phrases/hsqldb:CONS ConnectionSetting(QString;QString;QString;QString;QString;) | connection setting
+../3-Phrases/hsqldb:CONS ZaurusConnectionDialog(QFrame;QString;) | zaurus connection dialog
+../3-Phrases/hsqldb:Connection createConnection(QFrame;QString;QInsets;) | create connection
+../3-Phrases/hsqldb:Connection getConnection() | get connection
+../3-Phrases/hsqldb:Connection getConnection(QString;QString;QString;) | get connection
+../3-Phrases/hsqldb:void setConnectionSetting(QConnectionSetting;) | set connection setting
+../3-Phrases/hsqldb:Connection createConnection(QString;QString;QString;QString;) | create connection
+../3-Phrases/hsqldb:CONS ConnectionDialogSwing(QJFrame;QString;) | connection dialog swing
+../3-Phrases/hsqldb:Connection createConnection(QJFrame;QString;) | create connection
+../3-Phrases/hsqldb:Vector loadRecentConnectionSettings() | load recent connection settings
+../3-Phrases/iReport:it.businesslogic.ireport.IReportConnection getIReportConnection() | get i report connection
+../3-Phrases/iReport:void setIReportConnection(Qit.businesslogic.ireport.IReportConnection;) | set i report connection
+../3-Phrases/iReport:java.lang.String getConnection() | get connection
+../3-Phrases/iReport:void setConnection(Qjava.lang.String;) | set connection
+../3-Phrases/iReport:boolean isJDBCConnection() | is jdbc connection
+../3-Phrases/iReport:java.sql.Connection getConnection() | get connection
+../3-Phrases/iReport:java.lang.String getConnectionExpression() | get connection expression
+../3-Phrases/iReport:void setConnectionExpression(Qjava.lang.String;) | set connection expression
+../3-Phrases/iReport:boolean isUseConnection() | is use connection
+../3-Phrases/iReport:void setUseConnection(Z) | set use connection
+../3-Phrases/iReport:String getConnectionExpression() | get connection expression
+../3-Phrases/iReport:void setConnectionExpression(QString;) | set connection expression
+../3-Phrases/iReport:boolean isUseConnection() | is use connection
+../3-Phrases/iReport:void setUseConnection(Z) | set use connection
+../3-Phrases/iReport:void jRTextExpressionAreaTextConnectionExpressionTextChanged() | j r text expression area text connection expression text changed
+../3-Phrases/iReport:void jComboBoxDatasetConnectionTypeActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box dataset connection type action performed
+../3-Phrases/iReport:CONS JDBCConnection() | jdbc connection
+../3-Phrases/iReport:java.sql.Connection getConnection() | get connection
+../3-Phrases/iReport:boolean isJDBCConnection() | is jdbc connection
+../3-Phrases/iReport:CONS JRDataSourceProviderConnection() | jr data source provider connection
+../3-Phrases/iReport:CONS JRXMLDataSourceConnection() | jrxml data source connection
+../3-Phrases/iReport:java.sql.Connection getConnection() | get connection
+../3-Phrases/iReport:boolean isJDBCConnection() | is jdbc connection
+../3-Phrases/iReport:CONS JRCSVDataSourceConnection() | jr csv data source connection
+../3-Phrases/iReport:java.sql.Connection getConnection() | get connection
+../3-Phrases/iReport:boolean isJDBCConnection() | is jdbc connection
+../3-Phrases/iReport:CONS JRCustomDataSourceConnection() | jr custom data source connection
+../3-Phrases/iReport:java.sql.Connection getConnection() | get connection
+../3-Phrases/iReport:boolean isJDBCConnection() | is jdbc connection
+../3-Phrases/iReport:CONS JavaBeanDataSourceConnection() | java bean data source connection
+../3-Phrases/iReport:java.sql.Connection getConnection() | get connection
+../3-Phrases/iReport:boolean isJDBCConnection() | is jdbc connection
+../3-Phrases/iReport:java.lang.String getConnection() | get connection
+../3-Phrases/iReport:void setConnection(Qjava.lang.String;) | set connection
+../3-Phrases/iReport:void jMenuItemActiveConnectionActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item active connection action performed
+../3-Phrases/iReport:void jMenuItemConnectionsActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item connections action performed
+../3-Phrases/iReport:java.util.Vector getConnections() | get connections
+../3-Phrases/iReport:void setConnections(Qjava.util.Vector;) | set connections
+../3-Phrases/iReport:void jRSQLExpressionArea1TextConnectionExpressionTextChanged() | j rsql expression area 1 text connection expression text changed
+../3-Phrases/iReport:CONS ToolbarConnectionPanel(QMainFrame;) | toolbar connection panel
+../3-Phrases/iReport:void jComboBoxConnectionsActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box connections action performed
+../3-Phrases/iReport:void updateConnections() | update connections
+../3-Phrases/iReport:CONS ConnectionDialog(Qjava.awt.Frame;Z) | connection dialog
+../3-Phrases/iReport:void jComboBoxConnectionTypeActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box connection type action performed
+../3-Phrases/iReport:it.businesslogic.ireport.IReportConnection getIReportConnection() | get i report connection
+../3-Phrases/iReport:void setIReportConnection(Qit.businesslogic.ireport.IReportConnection;) | set i report connection
+../3-Phrases/iReport:CONS ConnectionsDialog(Qjava.awt.Frame;Z) | connections dialog
+../3-Phrases/iReport:void updateConnections() | update connections
+../3-Phrases/iReport:void jComboBoxSubreportConnectionTypeActionPerformed(Qjava.awt.event.ActionEvent;) | j combo box subreport connection type action performed
+../3-Phrases/iReport:void jRTextExpressionAreaTextConnectionExpressionTextChanged() | j r text expression area text connection expression text changed
+../3-Phrases/iReport:CONS ActiveConnectionDialog(Qjava.awt.Frame;Z) | active connection dialog
+../3-Phrases/iReport:void jListConnectionsValueChanged(Qjavax.swing.event.ListSelectionEvent;) | j list connections value changed
+../3-Phrases/iReport:IReportConnection getIReportConnection() | get i report connection
+../3-Phrases/iReport:void setIReportConnection(QIReportConnection;) | set i report connection
+../3-Phrases/Jabref:void ShowNoConnectionDialog(QString;) | show no connection dialog
+../3-Phrases/Jabref:URLConnection getURLConnection() | get url connection
+../3-Phrases/Jabref:void openConnectionOnly() | open connection only
+../3-Phrases/javaHMO:void ConfigureWebConnection() | configure web connection
+../3-Phrases/javaHMO:void ConfigureWebConnection() | configure web connection
+../3-Phrases/javaHMO:void ConfigureWebConnection() | configure web connection
+../3-Phrases/javaHMO:void ConfigureWebConnection() | configure web connection
+../3-Phrases/javaHMO:void ConfigureWebConnection() | configure web connection
+../3-Phrases/javaHMO:CONS ConnectionHandler(QSocket;QConnectionThread;) | connection handler
+../3-Phrases/javaHMO:ConnectionThread getConnectionThread() | get connection thread
+../3-Phrases/javaHMO:CONS ConnectionThread(QServer;) | connection thread
+../3-Phrases/javaHMO:void ConfigureWebConnection() | configure web connection
+../3-Phrases/jbidwatcher:void setConnectionProxyInfo(QURLConnection;) | set connection proxy info
+../3-Phrases/Jftp:void connectionInitialized(QBasicConnection;) | connection initialized
+../3-Phrases/Jftp:void connectionFailed(QBasicConnection;QString;) | connection failed
+../3-Phrases/Jftp:void connectionInitialized(QBasicConnection;) | connection initialized
+../3-Phrases/Jftp:void connectionFailed(QBasicConnection;QString;) | connection failed
+../3-Phrases/Jftp:CONS NtlmHttpURLConnection(QHttpURLConnection;) | ntlm http url connection
+../3-Phrases/Jftp:URLConnection openConnection(QURL;) | open connection
+../3-Phrases/Jftp:URLConnection openConnection(QURL;) | open connection
+../3-Phrases/Jftp:ConnectionHandler getConnectionHandler() | get connection handler
+../3-Phrases/Jftp:void addConnection(QString;QBasicConnection;) | add connection
+../3-Phrases/Jftp:void addLocalConnection(QString;QBasicConnection;) | add local connection
+../3-Phrases/Jftp:int getMaxConnections() | get max connections
+../3-Phrases/Jftp:void connectionInitialized(QBasicConnection;) | connection initialized
+../3-Phrases/Jftp:void connectionFailed(QBasicConnection;QString;) | connection failed
+../3-Phrases/Jftp:void connectionInitialized(QBasicConnection;) | connection initialized
+../3-Phrases/Jftp:void connectionFailed(QBasicConnection;QString;) | connection failed
+../3-Phrases/Jftp:void connectionSelected(I) | connection selected
+../3-Phrases/Jftp:void connectionInitialized(QBasicConnection;) | connection initialized
+../3-Phrases/Jftp:void connectionFailed(QBasicConnection;QString;) | connection failed
+../3-Phrases/Jftp:CONS LastConnections(QJFtp;) | last connections
+../3-Phrases/Jftp:FtpConnection getFtpConnection() | get ftp connection
+../3-Phrases/Jftp:DataConnection getDataConnection() | get data connection
+../3-Phrases/Jftp:CONS JConnection(QString;I) | j connection
+../3-Phrases/Jftp:CONS JConnection(QString;II) | j connection
+../3-Phrases/Jftp:FtpConnection getFtpConnection() | get ftp connection
+../3-Phrases/Jftp:DataConnection getDataConnection() | get data connection
+../3-Phrases/Jftp:CONS DataConnection(QFtpConnection;IQString;QString;QString;) | data connection
+../3-Phrases/Jftp:CONS DataConnection(QFtpConnection;IQString;QString;QString;Z) | data connection
+../3-Phrases/Jftp:CONS DataConnection(QFtpConnection;IQString;QString;QString;ZZ) | data connection
+../3-Phrases/Jftp:CONS DataConnection(QFtpConnection;IQString;QString;QString;ZQString;) | data connection
+../3-Phrases/Jftp:CONS DataConnection(QFtpConnection;IQString;QString;QString;ZI) | data connection
+../3-Phrases/Jftp:CONS DataConnection(QFtpConnection;IQString;QString;QString;ZIQInputStream;) | data connection
+../3-Phrases/Jftp:URLConnection openConnection(QURL;) | open connection
+../3-Phrases/Jftp:CONS NfsConnection(QString;) | nfs connection
+../3-Phrases/Jftp:void addConnectionListener(QConnectionListener;) | add connection listener
+../3-Phrases/Jftp:void setConnectionListeners(QVector;) | set connection listeners
+../3-Phrases/Jftp:SftpConnection getSftpConnection() | get sftp connection
+../3-Phrases/Jftp:void addConnectionListener(QConnectionListener;) | add connection listener
+../3-Phrases/Jftp:void setConnectionListeners(QVector;) | set connection listeners
+../3-Phrases/Jftp:void connectionInitialized(QBasicConnection;) | connection initialized
+../3-Phrases/Jftp:void connectionFailed(QBasicConnection;QString;) | connection failed
+../3-Phrases/Jftp:FtpConnection getFtpConnection() | get ftp connection
+../3-Phrases/Jftp:DataConnection getDataConnection() | get data connection
+../3-Phrases/Jftp:CONS FilesystemConnection() | filesystem connection
+../3-Phrases/Jftp:CONS FilesystemConnection(QString;QConnectionListener;) | filesystem connection
+../3-Phrases/Jftp:void addConnectionListener(QConnectionListener;) | add connection listener
+../3-Phrases/Jftp:void setConnectionListeners(QVector;) | set connection listeners
+../3-Phrases/Jftp:CONS FtpConnection(QString;) | ftp connection
+../3-Phrases/Jftp:CONS FtpConnection(QString;IQString;) | ftp connection
+../3-Phrases/Jftp:DataConnection getDataConnection() | get data connection
+../3-Phrases/Jftp:void addConnectionListener(QConnectionListener;) | add connection listener
+../3-Phrases/Jftp:void setConnectionListeners(QVector;) | set connection listeners
+../3-Phrases/Jftp:void fireConnectionInitialized(QFtpConnection;) | fire connection initialized
+../3-Phrases/Jftp:void fireConnectionFailed(QFtpConnection;QString;) | fire connection failed
+../3-Phrases/Jftp:ConnectionHandler getConnectionHandler() | get connection handler
+../3-Phrases/Jftp:void setConnectionHandler(QConnectionHandler;) | set connection handler
+../3-Phrases/Jftp:CONS SmbConnection() | smb connection
+../3-Phrases/Jftp:CONS SmbConnection(QString;QString;QString;QString;QConnectionListener;) | smb connection
+../3-Phrases/Jftp:void addConnectionListener(QConnectionListener;) | add connection listener
+../3-Phrases/Jftp:void setConnectionListeners(QVector;) | set connection listeners
+../3-Phrases/Jftp:CONS WebdavConnection(QString;QString;QString;QConnectionListener;) | webdav connection
+../3-Phrases/Jftp:void addConnectionListener(QConnectionListener;) | add connection listener
+../3-Phrases/Jftp:void setConnectionListeners(QVector;) | set connection listeners
+../3-Phrases/Jftp:CONS FtpURLConnection(QURL;) | ftp url connection
+../3-Phrases/Jftp:FtpConnection getFtpConnection() | get ftp connection
+../3-Phrases/Jftp:SmbConnection getSmbConnection() | get smb connection
+../3-Phrases/Jftp:CONS SftpConnection(QSshConnectionProperties;) | sftp connection
+../3-Phrases/Jftp:CONS SftpConnection(QString;) | sftp connection
+../3-Phrases/Jftp:CONS SftpConnection(QString;I) | sftp connection
+../3-Phrases/Jftp:void addConnectionListener(QConnectionListener;) | add connection listener
+../3-Phrases/Jftp:void setConnectionListeners(QVector;) | set connection listeners
+../3-Phrases/Jftp:void addConnection(QString;QTransfer;) | add connection
+../3-Phrases/Jftp:void removeConnection(QString;) | remove connection
+../3-Phrases/Jftp:Hashtable getConnections() | get connections
+../3-Phrases/Jftp:int getConnectionSize() | get connection size
+../3-Phrases/Jftp:CONS JRawConnection(QString;I) | j raw connection
+../3-Phrases/Jftp:CONS JRawConnection(QString;IZ) | j raw connection
+../3-Phrases/Jftp:CONS RawConnection() | raw connection
+../3-Phrases/Jftp:CONS RawConnection(QString;I) | raw connection
+../3-Phrases/JHotDraw-7.0.8:CONS AbstractChangeConnectionHandle(QFigure;) | abstract change connection handle
+../3-Phrases/JHotDraw-7.0.8:Connector findConnectionTarget(QPoint2D.Double;QDrawing;) | find connection target
+../3-Phrases/JHotDraw-7.0.8:void setConnection(QConnectionFigure;) | set connection
+../3-Phrases/JHotDraw-7.0.8:ConnectionFigure getConnection() | get connection
+../3-Phrases/JHotDraw-7.0.8:void updateConnection() | update connection
+../3-Phrases/JHotDraw-7.0.8:CONS BidirectionalConnectionTool(QConnectionFigure;) | bidirectional connection tool
+../3-Phrases/JHotDraw-7.0.8:CONS BidirectionalConnectionTool(QConnectionFigure;QMap<QAttributeKey;QObject;>;) | bidirectional connection tool
+../3-Phrases/JHotDraw-7.0.8:ConnectionFigure findConnection(QPoint2D.Double;QDrawing;) | find connection
+../3-Phrases/JHotDraw-7.0.8:void setConnection(QConnectionFigure;) | set connection
+../3-Phrases/JHotDraw-7.0.8:ConnectionFigure getConnection() | get connection
+../3-Phrases/JHotDraw-7.0.8:Figure findConnectionStart(QPoint2D.Double;QDrawing;) | find connection start
+../3-Phrases/JHotDraw-7.0.8:ConnectionFigure getCourtingConnection() | get court ing connection
+../3-Phrases/JHotDraw-7.0.8:CONS ConnectionHandle(QFigure;QLocator;QConnectionFigure;) | connection handle
+../3-Phrases/JHotDraw-7.0.8:ConnectionFigure createConnection() | create connection
+../3-Phrases/JHotDraw-7.0.8:void setConnection(QConnectionFigure;) | set connection
+../3-Phrases/JHotDraw-7.0.8:ConnectionFigure getConnection() | get connection
+../3-Phrases/JHotDraw-7.0.8:Connector findConnectionTarget(QPoint2D.Double;QDrawing;) | find connection target
+../3-Phrases/JHotDraw-7.0.8:CONS ChangeConnectionStartHandle(QFigure;) | change connection start handle
+../3-Phrases/JHotDraw-7.0.8:CONS ConnectionTool(QConnectionFigure;) | connection tool
+../3-Phrases/JHotDraw-7.0.8:CONS ConnectionTool(QConnectionFigure;QMap;) | connection tool
+../3-Phrases/JHotDraw-7.0.8:CONS ConnectionTool(QString;) | connection tool
+../3-Phrases/JHotDraw-7.0.8:CONS ConnectionTool(QString;QMap<QAttributeKey;QObject;>;) | connection tool
+../3-Phrases/JHotDraw-7.0.8:ConnectionFigure findConnection(QPoint2D.Double;QDrawing;) | find connection
+../3-Phrases/JHotDraw-7.0.8:void setConnection(QConnectionFigure;) | set connection
+../3-Phrases/JHotDraw-7.0.8:ConnectionFigure getConnection() | get connection
+../3-Phrases/JHotDraw-7.0.8:Figure findConnectionStart(QPoint2D.Double;QDrawing;) | find connection start
+../3-Phrases/JHotDraw-7.0.8:CONS LabeledLineConnectionFigure() | labeled line connection figure
+../3-Phrases/JHotDraw-7.0.8:void updateConnection() | update connection
+../3-Phrases/JHotDraw-7.0.8:CONS ChangeConnectionEndHandle(QFigure;) | change connection end handle
+../3-Phrases/JHotDraw-7.0.8:void ConnectionHandler(QLineConnectionFigure;) | connection handler
+../3-Phrases/JHotDraw-7.0.8:CONS LineConnectionFigure() | line connection figure
+../3-Phrases/JHotDraw-7.0.8:void updateConnection() | update connection
+../3-Phrases/JHotDraw-7.0.8:void reverseConnection() | reverse connection
+../3-Phrases/JHotDraw-7.0.8:CONS LabeledLineConnectionFigureSample() | labeled line connection figure sample
+../3-Phrases/MegaMek-0.32.0:CONS DataStreamConnection(QSocket;I) | data stream connection
+../3-Phrases/MegaMek-0.32.0:CONS DataStreamConnection(QString;II) | data stream connection
+../3-Phrases/MegaMek-0.32.0:CONS ConnectionFactory() | connection factory
+../3-Phrases/MegaMek-0.32.0:Connection createClientConnection(QString;II) | create client connection
+../3-Phrases/MegaMek-0.32.0:Connection createServerConnection(QSocket;I) | create server connection
+../3-Phrases/MegaMek-0.32.0:CONS ObjectStreamConnection(QSocket;I) | object stream connection
+../3-Phrases/MegaMek-0.32.0:CONS ObjectStreamConnection(QString;II) | object stream connection
+../3-Phrases/MegaMek-0.32.0:CONS ConnectionEvent(QObject;I) | connection event
+../3-Phrases/MegaMek-0.32.0:Connection getConnection() | get connection
+../3-Phrases/MegaMek-0.32.0:CONS Connection(QString;II) | connection
+../3-Phrases/MegaMek-0.32.0:CONS Connection(QSocket;I) | connection
+../3-Phrases/MegaMek-0.32.0:void addConnectionListener(QConnectionListener;) | add connection listener
+../3-Phrases/MegaMek-0.32.0:void removeConnectionListener(QConnectionListener;) | remove connection listener
+../3-Phrases/MegaMek-0.32.0:String getConnectionTypeAbbrevation() | get connection type abbrevation
+../3-Phrases/MegaMek-0.32.0:void processConnectionEvent(QConnectionEvent;) | process connection event
+../3-Phrases/MegaMek-0.32.0:int getFreeConnectionId() | get free connection id
+../3-Phrases/MegaMek-0.32.0:Enumeration getConnections() | get connections
+../3-Phrases/MegaMek-0.32.0:Connection getConnection(I) | get connection
+../3-Phrases/MegaMek-0.32.0:Connection getPendingConnection(I) | get pending connection
+../3-Phrases/MegaMek-0.32.0:void ConnectionWatchdog(QServer;I) | connection watchdog
+../3-Phrases/np:Connection newConnection(String dURL, String dClassName, String dbName, String dbUser, String dbPassword) | new connection
+../3-Phrases/np:void newConnection() | new connection
+../3-Phrases/np:void connectionOK() | connection ok
+../3-Phrases/PlanetaMessenger:void onPluginConnectionStatusChanged(Qorg.planetamessenger.plugin.JPlugin;I) | on plugin connection status changed
+../3-Phrases/PlanetaMessenger:void changeConnectionStatus(Qorg.planetamessenger.plugin.JPlugin;I) | change connection status
+../3-Phrases/PlanetaMessenger:void changeConnectionStatus(QJPlugin;I) | change connection status
+../3-Phrases/PlanetaMessenger:void onPluginConnectionStatusChanged(Qorg.planetamessenger.plugin.JPlugin;I) | on plugin connection status changed
+../3-Phrases/PlanetaMessenger:void chatConnectionClosed(Qymsg.network.event.SessionEvent;) | chat connection closed
+../3-Phrases/PlanetaMessenger:void connectionClosed(Qymsg.network.event.SessionEvent;) | connection closed
+../3-Phrases/prefuse:DatabaseDataSource getDatabaseConnection(QConnection;QSQLDataHandler;) | get database connection
+../3-Phrases/prefuse:DatabaseDataSource getDatabaseConnection(QConnection;) | get database connection
+../3-Phrases/prefuse:DatabaseDataSource getDatabaseConnection(QString;QString;QString;QString;QSQLDataHandler;) | get database connection
+../3-Phrases/prefuse:DatabaseDataSource getDatabaseConnection(QString;QString;QString;QString;) | get database connection
+../3-Phrases/prefuse:DatabaseDataSource getMySQLConnection(QString;QString;QString;QString;QSQLDataHandler;) | get my sql connection
+../3-Phrases/prefuse:DatabaseDataSource getMySQLConnection(QString;QString;QString;QString;) | get my sql connection
+../3-Phrases/SweetHome3D:URLConnection openConnection(QURL;) | open connection
+../3-Phrases/vuze:void addClientConnection(QClientConnection;) | add client connection
+../3-Phrases/vuze:void removeClientConnection(QClientConnection;) | remove client connection
+../3-Phrases/vuze:void doConnectionTimeoutChecks() | do connection timeout checks
+../3-Phrases/vuze:void connectionError(QClientConnection;QThrowable;) | connection error
+../3-Phrases/vuze:CONS ClientConnection(QSocketChannel;) | client connection
+../3-Phrases/vuze:CONS ClientConnection(QTCPTransportImpl;) | client connection
+../3-Phrases/vuze:void connectionError(QClientConnection;QThrowable;) | connection error
+../3-Phrases/vuze:long getConnectionID() | get connection id
+../3-Phrases/vuze:long getConnectionId() | get connection id
+../3-Phrases/vuze:int getMaxNewConnectionsAllowed() | get max new connections allowed
+../3-Phrases/vuze:int getMaxConnections() | get max connections
+../3-Phrases/vuze:int getMaxSeedConnections() | get max seed connections
+../3-Phrases/vuze:void newConnectionAccepted(QServerSocketChannel;QSocketChannel;) | new connection accepted
+../3-Phrases/vuze:NetworkConnection createConnection(QConnectionEndpoint;QMessageStreamEncoder;QMessageStreamDecoder;ZZ[[B) | create connection
+../3-Phrases/vuze:void requestIncomingConnectionRouting(QByteMatcher;QRoutingListener;QMessageStreamFactory;) | request incoming connection routing
+../3-Phrases/vuze:void connectionMatched(QTransport;QObject;) | connection matched
+../3-Phrases/vuze:void cancelIncomingConnectionRouting(QByteMatcher;) | cancel incoming connection routing
+../3-Phrases/vuze:void connectionRouted(QNetworkConnection;QObject;) | connection routed
+../3-Phrases/vuze:CONS ConnectionEndpoint(QInetSocketAddress;) | connection endpoint
+../3-Phrases/vuze:ConnectionEndpoint getConnectionEndpoint() | get connection endpoint
+../3-Phrases/vuze:void setConnectionEndpoint(QConnectionEndpoint;) | set connection endpoint
+../3-Phrases/vuze:void registerPeerConnection(QNetworkConnectionBase;) | register peer connection
+../3-Phrases/vuze:void cancelPeerConnection(QNetworkConnectionBase;) | cancel peer connection
+../3-Phrases/vuze:void upgradePeerConnection(QNetworkConnectionBase;QRateHandler;) | upgrade peer connection
+../3-Phrases/vuze:void downgradePeerConnection(QNetworkConnectionBase;) | downgrade peer connection
+../3-Phrases/vuze:void addPeerConnection(QNetworkConnectionBase;) | add peer connection
+../3-Phrases/vuze:boolean removePeerConnection(QNetworkConnectionBase;) | remove peer connection
+../3-Phrases/vuze:int getConnectionCount() | get connection count
+../3-Phrases/vuze:int getReadyConnectionCount(QEventWaiter;) | get ready connection count
+../3-Phrases/vuze:void addPeerConnection(QNetworkConnectionBase;) | add peer connection
+../3-Phrases/vuze:boolean removePeerConnection(QNetworkConnectionBase;) | remove peer connection
+../3-Phrases/vuze:int getConnectionCount() | get connection count
+../3-Phrases/vuze:int getReadyConnectionCount(QEventWaiter;) | get ready connection count
+../3-Phrases/vuze:void connectionEntry(QNetworkConnectionBase;) | connection entry
+../3-Phrases/vuze:int getConnectionCount() | get connection count
+../3-Phrases/vuze:int getReadyConnectionCount(QEventWaiter;) | get ready connection count
+../3-Phrases/vuze:int getConnectionCount() | get connection count
+../3-Phrases/vuze:int getReadyConnectionCount(QEventWaiter;) | get ready connection count
+../3-Phrases/vuze:int getConnectionCount() | get connection count
+../3-Phrases/vuze:int getReadyConnectionCount(QEventWaiter;) | get ready connection count
+../3-Phrases/vuze:CONS NetworkConnectionImpl(QConnectionEndpoint;QMessageStreamEncoder;QMessageStreamDecoder;ZZ[[B) | network connection impl
+../3-Phrases/vuze:CONS NetworkConnectionImpl(QTransport;QMessageStreamEncoder;QMessageStreamDecoder;) | network connection impl
+../3-Phrases/vuze:CONS IncomingConnectionManager() | incoming connection manager
+../3-Phrases/vuze:void addConnection(IQTransportHelperFilter;QTransport;) | add connection
+../3-Phrases/vuze:void removeConnection(QIncomingConnection;Z) | remove connection
+../3-Phrases/vuze:void IncomingConnection(QTransportHelperFilter;I) | incoming connection
+../3-Phrases/vuze:void connectionMatched(QTransport;QObject;) | connection matched
+../3-Phrases/vuze:void addPeerConnection(QNetworkConnectionBase;) | add peer connection
+../3-Phrases/vuze:boolean removePeerConnection(QNetworkConnectionBase;) | remove peer connection
+../3-Phrases/vuze:int getConnectionCount() | get connection count
+../3-Phrases/vuze:int getReadyConnectionCount(QEventWaiter;) | get ready connection count
+../3-Phrases/vuze:void registerPeerConnection(QNetworkConnectionBase;Z) | register peer connection
+../3-Phrases/vuze:void deregisterPeerConnection(QNetworkConnectionBase;) | deregister peer connection
+../3-Phrases/vuze:void upgradePeerConnection(QNetworkConnectionBase;) | upgrade peer connection
+../3-Phrases/vuze:void downgradePeerConnection(QNetworkConnectionBase;) | downgrade peer connection
+../3-Phrases/vuze:CONS HTTPNetworkConnectionWebSeed(QHTTPNetworkManager;QNetworkConnection;QPEPeerTransport;) | http network connection web seed
+../3-Phrases/vuze:void setConnection(QHTTPNetworkConnection;) | set connection
+../3-Phrases/vuze:CONS HTTPNetworkConnectionFile(QHTTPNetworkManager;QNetworkConnection;QPEPeerTransport;) | http network connection file
+../3-Phrases/vuze:boolean checkConnections(QList;) | check connections
+../3-Phrases/vuze:CONS HTTPNetworkConnection(QHTTPNetworkManager;QNetworkConnection;QPEPeerTransport;) | http network connection
+../3-Phrases/vuze:NetworkConnection getConnection() | get connection
+../3-Phrases/vuze:void connectionRouted(QNetworkConnection;QObject;) | connection routed
+../3-Phrases/vuze:void setConnection(QHTTPNetworkConnection;) | set connection
+../3-Phrases/vuze:long getLastIncomingNonLocalConnectionTime() | get last incoming non local connection time
+../3-Phrases/vuze:void newConnectionAccepted(QSocketChannel;) | new connection accepted
+../3-Phrases/vuze:void newConnectionAccepted(QServerSocketChannel;QSocketChannel;) | new connection accepted
+../3-Phrases/vuze:long getLastNonLocalConnectionTime() | get last non local connection time
+../3-Phrases/vuze:void setConnectionEndpoint(QConnectionEndpoint;) | set connection endpoint
+../3-Phrases/vuze:ConnectionEndpoint getConnectionEndpoint() | get connection endpoint
+../3-Phrases/vuze:CONS TCPConnectionManager() | tcp connection manager
+../3-Phrases/vuze:void requestNewConnection(QInetSocketAddress;QConnectListener;I) | request new connection
+../3-Phrases/vuze:void requestNewConnection(QInetSocketAddress;QConnectListener;JI) | request new connection
+../3-Phrases/vuze:void closeConnection(QSocketChannel;) | close connection
+../3-Phrases/vuze:void closeConnection(QSocketChannel;I) | close connection
+../3-Phrases/vuze:void ConnectionRequest(JQInetSocketAddress;QConnectListener;JI) | connection request
+../3-Phrases/vuze:void newConnectionAccepted(QSocketChannel;) | new connection accepted
+../3-Phrases/vuze:void newConnectionAccepted(QServerSocketChannel;QSocketChannel;) | new connection accepted
+../3-Phrases/vuze:UDPConnection getConnection() | get connection
+../3-Phrases/vuze:CONS UDPConnectionManager() | udp connection manager
+../3-Phrases/vuze:int allocationConnectionID() | allocation connection id
+../3-Phrases/vuze:void setConnectionEndpoint(QConnectionEndpoint;) | set connection endpoint
+../3-Phrases/vuze:ConnectionEndpoint getConnectionEndpoint() | get connection endpoint
+../3-Phrases/vuze:UDPConnection getConnection() | get connection
+../3-Phrases/vuze:CONS UDPConnectionSet(QUDPConnectionManager;QString;QUDPSelector;IQInetSocketAddress;) | udp connection set
+../3-Phrases/vuze:CONS UDPConnection(QUDPConnectionSet;IQUDPTransportHelper;) | udp connection
+../3-Phrases/vuze:CONS UDPConnection(QUDPConnectionSet;I) | udp connection
+../3-Phrases/vuze:UDPConnectionManager getConnectionManager() | get connection manager
+../3-Phrases/vuze:void connectionRouted(QNetworkConnection;QObject;) | connection routed
+../3-Phrases/vuze:PeerExchangerItem registerPeerConnection(QPeerItem;QPeerExchangerItem.Helper;) | register peer connection
+../3-Phrases/vuze:void deregisterPeerConnection(QPeerItem;) | deregister peer connection
+../3-Phrases/vuze:PeerItem[] getNewlyAddedPeerConnections() | get newly added peer connections
+../3-Phrases/vuze:PeerItem[] getNewlyDroppedPeerConnections() | get newly dropped peer connections
+../3-Phrases/vuze:Connection getPluginConnection() | get plugin connection
+../3-Phrases/vuze:long getTimeSinceConnectionEstablished() | get time since connection established
+../3-Phrases/vuze:void setAllowExternalConnections(Z) | set allow external connections
+../3-Phrases/vuze:void connectionClosed(QAEProxyConnection;) | connection closed
+../3-Phrases/vuze:CONS AEProxyConnectionImpl(QAEProxyImpl;QSocketChannel;QAEProxyHandler;) | ae proxy connection impl
+../3-Phrases/vuze:void setAllowExternalConnections(Z) | set allow external connections
+../3-Phrases/vuze:AEProxyConnection getConnection() | get connection
+../3-Phrases/vuze:AESocksProxyPlugableConnection getDefaultPlugableConnection(QAESocksProxyConnection;) | get default plugable connection
+../3-Phrases/vuze:void setAllowExternalConnections(Z) | set allow external connections
+../3-Phrases/vuze:AESocksProxyPlugableConnection getDefaultPlugableConnection(QAESocksProxyConnection;) | get default plugable connection
+../3-Phrases/vuze:void setAllowExternalConnections(Z) | set allow external connections
+../3-Phrases/vuze:CONS AESocksProxyConnectionImpl(QAESocksProxyImpl;QAESocksProxyPlugableConnectionFactory;QAEProxyConnection;) | ae socks proxy connection impl
+../3-Phrases/vuze:void connectionClosed(QAEProxyConnection;) | connection closed
+../3-Phrases/vuze:AEProxyConnection getConnection() | get connection
+../3-Phrases/vuze:CONS AESocksProxyPlugableConnectionDefault(QAESocksProxyConnection;) | ae socks proxy plugable connection default
+../3-Phrases/vuze:URLConnection openConnectionForceNoProxy(QURL;) | open connection force no proxy
+../3-Phrases/vuze:URLConnection openConnectionForceNoProxy(QURL;) | open connection force no proxy
+../3-Phrases/vuze:boolean checkConnection() | check connection
+../3-Phrases/vuze:Connection getConnection() | get connection
+../3-Phrases/vuze:void buddyConnectionEstablished(Z) | buddy connection established
+../3-Phrases/vuze:void removeConnection(QbuddyConnection;) | remove connection
+../3-Phrases/vuze:String getConnectionsString() | get connections string
+../3-Phrases/vuze:GenericMessageConnection outgoingConnection() | outgoing connection
+../3-Phrases/vuze:void incomingConnection(QGenericMessageConnection;) | incoming connection
+../3-Phrases/vuze:void addConnection(QGenericMessageConnection;) | add connection
+../3-Phrases/vuze:void buddyConnection(QGenericMessageConnection;Z) | buddy connection
+../3-Phrases/vuze:boolean tooManyUnauthConnections(QString;) | too many unauth connections
+../3-Phrases/vuze:void setOutboundConnectionsComplete() | set outbound connections complete
+../3-Phrases/vuze:void NatPMPUPnPWANConnection() | nat pmpu pn pw an connection
+../3-Phrases/vuze:long getConnectionId() | get connection id
+../3-Phrases/vuze:CONS UPnPSSWANConnectionImpl(QUPnPServiceImpl;) | upn psswan connection impl
+../3-Phrases/vuze:CONS UPnPSSWANIPConnectionImpl(QUPnPServiceImpl;) | upn ps swan ip connection impl
+../3-Phrases/vuze:CONS UPnPSSWANPPPConnectionImpl(QUPnPServiceImpl;) | upn pss wan ppp connection impl
+../3-Phrases/vuze:int getMaxNewConnectionsAllowed() | get max new connections allowed
+../3-Phrases/vuze:int getMaxConnections() | get max connections
+../3-Phrases/vuze:int getMaxSeedConnections() | get max seed connections
+../3-Phrases/vuze:int getMaxConnections() | get max connections
+../3-Phrases/vuze:int getMaxConnectionsWhenSeeding() | get max connections when seeding
+../3-Phrases/vuze:boolean isMaxConnectionsWhenSeedingEnabled() | is max connections when seeding enabled
+../3-Phrases/vuze:int getMaxSeedConnections() | get max seed connections
+../3-Phrases/vuze:void connectionRouted(QNetworkConnection;QObject;) | connection routed
+../3-Phrases/vuze:int getNbRemoteConnectionsExcludingUDP() | get nb remote connections excluding udp
+../3-Phrases/vuze:long getLastRemoteConnectionTime() | get last remote connection time
+../3-Phrases/vuze:int getMaxNewConnectionsAllowed() | get max new connections allowed
+../3-Phrases/vuze:boolean hasPotentialConnections() | has potential connections
+../3-Phrases/vuze:void peerConnectionClosed(QPEPeerTransport;ZZ) | peer connection closed
+../3-Phrases/vuze:PeerExchangerItem createPeerExchangeConnection(QPEPeerTransport;) | create peer exchange connection
+../3-Phrases/vuze:Connection getPluginConnection() | get plugin connection
+../3-Phrases/vuze:long getTimeSinceConnectionEstablished() | get time since connection established
+../3-Phrases/vuze:int getMaxConnections() | get max connections
+../3-Phrases/vuze:int getMaxSeedConnections() | get max seed connections
+../3-Phrases/vuze:void closeConnection(QString;) | close connection
+../3-Phrases/vuze:int getConnectionState() | get connection state
+../3-Phrases/vuze:int getMaxConnections() | get max connections
+../3-Phrases/vuze:String makeNewOutgoingConnection(QString;QString;IIZZBQMap;) | make new outgoing connection
+../3-Phrases/vuze:int getNbRemoteConnectionsExcludingUDP() | get nb remote connections excluding udp
+../3-Phrases/vuze:long getLastRemoteConnectionTime() | get last remote connection time
+../3-Phrases/vuze:void peerConnectionClosed(QPEPeerTransport;ZZ) | peer connection closed
+../3-Phrases/vuze:void checkForBannedConnections() | check for banned connections
+../3-Phrases/vuze:void doConnectionChecks() | do connection checks
+../3-Phrases/vuze:void doUDPConnectionChecks(I) | do udp connection checks
+../3-Phrases/vuze:PeerExchangerItem createPeerExchangeConnection(QPEPeerTransport;) | create peer exchange connection
+../3-Phrases/vuze:int getMaxConnections() | get max connections
+../3-Phrases/vuze:int getMaxSeedConnections() | get max seed connections
+../3-Phrases/vuze:int getMaxNewConnectionsAllowed() | get max new connections allowed
+../3-Phrases/vuze:boolean hasPotentialConnections() | has potential connections
+../3-Phrases/vuze:void initializeConnection() | initialize connection
+../3-Phrases/vuze:void closeConnectionInternally(QString;ZZ) | close connection internally
+../3-Phrases/vuze:void closeConnectionInternally(QString;) | close connection internally
+../3-Phrases/vuze:void closeConnection(QString;) | close connection
+../3-Phrases/vuze:int getConnectionState() | get connection state
+../3-Phrases/vuze:long getTimeSinceConnectionEstablished() | get time since connection established
+../3-Phrases/vuze:void initPostConnection(QMessage;) | init post connection
+../3-Phrases/vuze:Connection getPluginConnection() | get plugin connection
+../3-Phrases/vuze:int numNewConnectionsAllowed(QPeerIdentityDataID;I) | num new connections allowed
+../3-Phrases/vuze:int getMaxNewConnectionsAllowed() | get max new connections allowed
+../3-Phrases/vuze:long getConnectionId() | get connection id
+../3-Phrases/vuze:void newConnectionAccepted(QServerSocketChannel;QSocketChannel;) | new connection accepted
+../3-Phrases/vuze:void removeAndCloseConnection(QTRNonBlockingServerProcessor;) | remove and close connection
+../3-Phrases/vuze:long allocateConnectionId(QString;) | allocate connection id
+../3-Phrases/vuze:boolean checkConnectionId(QString;J) | check connection id
+../3-Phrases/vuze:void connectionData(QString;) | connection data
+../3-Phrases/vuze:CONS AZPluginConnection(QURL;) | az plugin connection
+../3-Phrases/vuze:URLConnection openConnection(QURL;) | open connection
+../3-Phrases/vuze:URLConnection openConnection(QURL;) | open connection
+../3-Phrases/vuze:URLConnection openConnection(QURL;) | open connection
+../3-Phrases/vuze:URLConnection openConnection(QURL;) | open connection
+../3-Phrases/vuze:CONS MagnetConnection(QURL;) | magnet connection
+../3-Phrases/vuze:URLConnection openConnection(QURL;) | open connection
+../3-Phrases/vuze:CONS Socks5URLConnection(QURL;) | socks 5 url connection
+../3-Phrases/vuze:URLConnection openConnection(QURL;) | open connection
+../3-Phrases/vuze:CONS UDPURLConnection(QURL;) | udp url connection
+../3-Phrases/vuze:ConnectionManager getConnectionManager() | get connection manager
+../3-Phrases/vuze:GenericMessageConnection createConnection(QGenericMessageEndpoint;) | create connection
+../3-Phrases/vuze:Connection createConnection(QInetSocketAddress;QMessageStreamEncoder;QMessageStreamDecoder;) | create connection
+../3-Phrases/vuze:Connection getConnection() | get connection
+../3-Phrases/vuze:long getTimeSinceConnectionEstablished() | get time since connection established
+../3-Phrases/vuze:GenericMessageConnection getSTSConnection(QGenericMessageConnection;QSEPublicKey;QSEPublicKeyLocator;QString;I) | get sts connection
+../3-Phrases/vuze:ConnectionManager getConnectionManager() | get connection manager
+../3-Phrases/vuze:CONS GenericMessageConnectionImpl(QMessageManagerImpl;QGenericMessageConnectionAdapter;) | generic message connection impl
+../3-Phrases/vuze:CONS GenericMessageConnectionImpl(QMessageManagerImpl;QString;QString;QGenericMessageEndpointImpl;I[[B) | generic message connection impl
+../3-Phrases/vuze:CONS GenericMessageConnectionDirect(QString;QString;QGenericMessageEndpointImpl;I[[B) | generic message connection direct
+../3-Phrases/vuze:ConnectionEndpoint getConnectionEndpoint() | get connection endpoint
+../3-Phrases/vuze:void connectionRouted(QNetworkConnection;QObject;) | connection routed
+../3-Phrases/vuze:GenericMessageConnection createConnection(QGenericMessageEndpoint;) | create connection
+../3-Phrases/vuze:String getRemoteConnectionStatus() | get remote connection status
+../3-Phrases/vuze:String getLocalConnectionStatus() | get local connection status
+../3-Phrases/vuze:String getConnectionStatus(QMap;) | get connection status
+../3-Phrases/vuze:CONS GenericMessageConnectionIndirect(QMessageManagerImpl;QString;QString;QGenericMessageEndpoint;QInetSocketAddress;QInetSocketAddress;) | generic message connection indirect
+../3-Phrases/vuze:CONS GenericMessageConnectionIndirect(QMessageManagerImpl;QString;QString;QGenericMessageEndpoint;J) | generic message connection indirect
+../3-Phrases/vuze:CONS ConnectionManagerImpl(QAzureusCore;) | connection manager impl
+../3-Phrases/vuze:Connection createConnection(QInetSocketAddress;QMessageStreamEncoder;QMessageStreamDecoder;) | create connection
+../3-Phrases/vuze:CONS ConnectionImpl(Qcom.aelitis.azureus.core.networkmanager.NetworkConnection;Z) | connection impl
+../3-Phrases/vuze:com.aelitis.azureus.core.networkmanager.NetworkConnection getCoreConnection() | get core connection
+../3-Phrases/vuze:CONS PeerForeignNetworkConnection(QPeer;) | peer foreign network connection
+../3-Phrases/vuze:long getTimeSinceConnectionEstablished() | get time since connection established
+../3-Phrases/vuze:Connection getConnection() | get connection
+../3-Phrases/vuze:long getTimeSinceConnectionEstablished(QPeer;) | get time since connection established
+../3-Phrases/vuze:void closeConnection(QString;) | close connection
+../3-Phrases/vuze:int getConnectionState() | get connection state
+../3-Phrases/vuze:long getTimeSinceConnectionEstablished() | get time since connection established
+../3-Phrases/vuze:Connection getPluginConnection() | get plugin connection
+../3-Phrases/vuze:URLConnection openConnection(QURL;) | open connection
+../3-Phrases/vuze:GenericMessageConnection getSTSConnection(QGenericMessageConnection;QSEPublicKey;QSEPublicKeyLocator;QString;I) | get sts connection
+../3-Phrases/vuze:CONS SESTSConnectionImpl(QAzureusCore;QGenericMessageConnectionImpl;QSEPublicKey;QSEPublicKeyLocator;QString;I) | se sts connection impl
+../3-Phrases/vuze:ConnectionManager getConnectionManager() | get connection manager
+../3-Phrases/vuze:long getConnectionId() | get connection id
+../3-Phrases/vuze:void pollForConnections(QAzureusCore;) | poll for connections
+../3-Phrases/vuze:void pollForConnectionsSupport(QAzureusCore;) | poll for connections support
+../3-Phrases/weka:CONS NeuralConnection(QString;) | neural connection
+../3-Phrases/weka:CONS DatabaseConnection() | database connection
+../3-Phrases/weka:CONS DatabaseConnectionDialog(QFrame;) | database connection dialog
+../3-Phrases/weka:CONS DatabaseConnectionDialog(QFrame;QString;QString;) | database connection dialog
+../3-Phrases/weka:CONS DatabaseConnectionDialog(QFrame;QString;QString;Z) | database connection dialog
+../3-Phrases/weka:void DbConnectionDialog(QString;QString;) | db connection dialog
+../3-Phrases/weka:void DbConnectionDialog(QString;QString;Z) | db connection dialog
+../3-Phrases/weka:void deleteConnectionPopup(QVector;II) | delete connection popup
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:Vector getConnections() | get connections
+../3-Phrases/weka:void setConnections(QVector;) | set connections
+../3-Phrases/weka:Vector associatedConnections(QVector;) | associated connections
+../3-Phrases/weka:void paintConnections(QGraphics;) | paint connections
+../3-Phrases/weka:Vector getClosestConnections(QPoint;I) | get closest connections
+../3-Phrases/weka:void removeConnections(QBeanInstance;) | remove connections
+../3-Phrases/weka:void doMetaConnection(QBeanInstance;QBeanInstance;QEventSetDescriptor;QJComponent;) | do meta connection
+../3-Phrases/weka:CONS BeanConnection(QBeanInstance;QBeanInstance;QEventSetDescriptor;) | bean connection
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:void setAssociatedConnections(QVector;) | set associated connections
+../3-Phrases/weka:Vector getAssociatedConnections() | get associated connections
+../3-Phrases/weka:boolean connectionAllowed(QEventSetDescriptor;) | connection allowed
+../3-Phrases/weka:boolean connectionAllowed(QString;) | connection allowed
+../3-Phrases/weka:void connectionNotification(QString;QObject;) | connection notification
+../3-Phrases/weka:boolean canAcceptConnection(QClass;) | can accept connection
+../3-Phrases/weka:void setBeanConnection(QBeanConnection;QVector;) | set bean connection
+../3-Phrases/weka:BeanConnection createBeanConnection(IIQString;Z) | create bean connection
+../3-Phrases/weka:void rebuildBeanConnections(QVector;QObject;) | rebuild bean connections
+../3-Phrases/weka:Vector getBeanConnectionRelation(QMetaBean;) | get bean connection relation
+../3-Phrases/weka:void addBeanConnectionRelation(QMetaBean;QString;) | add bean connection relation
+../3-Phrases/weka:Element writeBeanConnection(QElement;QObject;QString;) | write bean connection
+../3-Phrases/weka:Object readBeanConnection(QElement;) | read bean connection
+../3-Phrases/weka:CONS ConnectionPanel(QJFrame;) | connection panel
+../3-Phrases/weka:void addConnectionListener(QConnectionListener;) | add connection listener
+../3-Phrases/weka:void removeConnectionListener(QConnectionListener;) | remove connection listener
+../3-Phrases/weka:void notifyConnectionListeners(I) | notify connection listeners
+../3-Phrases/weka:void notifyConnectionListeners(IQException;) | notify connection listeners
+../3-Phrases/weka:void connectionChange(QConnectionEvent;) | connection change
+../3-Phrases/weka:void addConnectionListener(QConnectionListener;) | add connection listener
+../3-Phrases/weka:void removeConnectionListener(QConnectionListener;) | remove connection listener
+../3-Phrases/weka:Connection getConnection() | get connection
+../3-Phrases/weka:void connectionChange(QConnectionEvent;) | connection change
+../3-Phrases/weka:void connectionChange(QConnectionEvent;) | connection change
+../3-Phrases/weka:CONS ConnectionEvent(QObject;IQDbUtils;) | connection event
+../3-Phrases/weka:CONS ConnectionEvent(QObject;IQDbUtils;QException;) | connection event
+../3-Phrases/weka:CONS DatabaseConnectionDialog(QFrame;) | database connection dialog
+../3-Phrases/weka:CONS DatabaseConnectionDialog(QFrame;QString;QString;) | database connection dialog
+../3-Phrases/weka:CONS DatabaseConnectionDialog(QFrame;QString;QString;Z) | database connection dialog
+../3-Phrases/weka:void DbConnectionDialog(QString;QString;) | db connection dialog
+../3-Phrases/weka:void DbConnectionDialog(QString;QString;Z) | db connection dialog

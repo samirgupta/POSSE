@@ -1,0 +1,16 @@
+JCheckBoxMenuItem getBreakOnReturn() | get break on return
+NativeSQLQueryRootReturn bindReturn(QElement;QMappings;I) | bind return
+Node createExprStatementNoReturn(QNode;I) | create expr statement no return
+Node createReturn(QNode;I) | create return
+void addQueryReturn(QNativeSQLQueryReturn;) | add query return
+void addStubMethodReturn(AttributeCode code, Label endLabel) | add stub method return
+void addTypeDependDataReturn(QBytecode;QString;) | add type depend data return
+void initialiseMethodReturn() | initialise method return
+void processCollectionReturn(QNativeSQLQueryCollectionReturn;) | process collection return
+void processJoinReturn(QNativeSQLQueryJoinReturn;) | process join return
+void processReturn(QNativeSQLQueryReturn;) | process return
+void processRootReturn(QNativeSQLQueryRootReturn;) | process root return
+void processScalarReturn(QNativeSQLQueryScalarReturn;) | process scalar return
+void setBreakOnReturn(Z) | set break on return
+void setupReturn(QString;[QObject;QAESemaphore;) | setup return
+void setupReturn(QString;[ZQAESemaphore;) | setup return

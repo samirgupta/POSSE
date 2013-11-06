@@ -1,0 +1,12 @@
+RepeatedSongPhrase makeRepeatedSongPhrase(QListIterator;QListIterator;QList;QList;) | make repeated song phrase
+Song loadGPToSong(QString;) | load gp to song
+Song makeSong(QGP4Piece;) | make song
+SongMeasure getSongPerformanceMeasure(I) | get song performance measure
+SongMeasure getSongScoreMeasure(I) | get song score measure
+SongMeasure makeSongMeasure(QListIterator;QListIterator;QList;QList;) | make song measure
+String getAuthorSong() | get author song
+String getSong() | get song
+void setAuthorSong(QString;) | set author song
+void setPrimaryKey(int songGroupId, int songId) | set primary key
+void setSong(QString;) | set song
+void updateCurrentSong(AudioTronSong song) | update current song

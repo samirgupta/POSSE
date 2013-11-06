@@ -1,0 +1,466 @@
+boolean RATE_LIMIT_LAN_TOO | rate limit lan too
+boolean READJUST_CELL_HEIGHT | read just cell height
+boolean REPEATABLE | repeatable
+boolean REQUIRE_CRYPTO_HANDSHAKE | require crypto handshake
+boolean ROUND_NO | round no
+boolean ROW_HOVER | row hover
+byte RELATIVE_SEEDING_NONE | relative seeding none
+byte REOP_ALNUM | reop alnum
+byte REOP_ALT | reop alt
+byte REOP_ANCHOR | reop anchor
+byte REOP_ANCHOR1 | reop anchor 1
+byte REOP_ASSERT | reop assert
+byte REOP_ASSERT_NOT | reop assert not
+byte REOP_ASSERTNOTTEST | reop assert not test
+byte REOP_ASSERTTEST | reop assert test
+byte REOP_BACKREF | reop backref
+byte REOP_BACKREFi | reop backre fi
+byte REOP_BOL | reop bol
+byte REOP_CCLASS | reop cclass
+byte REOP_CLASS | reop class
+byte REOP_DIGIT | reop digit
+byte REOP_DOT | reop dot
+byte REOP_DOTSTAR | reop dot star
+byte REOP_DOTSTARMIN | reop dotstar min
+byte REOP_EMPTY | reop empty
+byte REOP_END | reop end
+byte REOP_ENDCHILD | reop end child
+byte REOP_EOL | reop eol
+byte REOP_EOLONLY | reop eol only
+byte REOP_FLAT | reop flat
+byte REOP_FLAT1 | reop flat 1
+byte REOP_FLAT1i | reop flat 1 i
+byte REOP_FLATi | reop flati
+byte REOP_JUMP | reop jump
+byte REOP_LPAREN | reop lparen
+byte REOP_LPARENNON | reop lparen non
+byte REOP_MINIMALOPT | reop minimal opt
+byte REOP_MINIMALPLUS | reop minimal plus
+byte REOP_MINIMALQUANT | reop minimal quant
+byte REOP_MINIMALREPEAT | reop minimal repeat
+byte REOP_MINIMALSTAR | reop minimal star
+byte REOP_NCCLASS | reop nc class
+byte REOP_NONALNUM | reop non alnum
+byte REOP_NONDIGIT | reop non digit
+byte REOP_NONSPACE | reop non space
+byte REOP_NUCCLASS | reop nuc class
+byte REOP_OPT | reop opt
+byte REOP_PLUS | reop plus
+byte REOP_QUANT | reop quant
+byte REOP_REPEAT | reop repeat
+byte REOP_RPAREN | reop rparen
+byte REOP_RPARENNON | reop rparen non
+byte REOP_SPACE | reop space
+byte REOP_STAR | reop star
+byte REOP_UCCLASS | reop uc class
+byte REOP_UCFLAT | reop uc flat
+byte REOP_UCFLAT1 | reop uc flat 1
+byte REOP_UCFLAT1i | reop uc flat 1 i
+byte REOP_UCFLATi | reop ucfla ti
+byte REOP_WBDRY | reop wb dry
+byte REOP_WNONBDRY | reop wn on bd ry
+byte[] REQ1_IV | req 1  iv
+byte[] REQ2_IV | req 2  iv
+byte[] REQ3_IV | req 3  iv
+char RIGHT | right
+com.aelitis.azureus.core.peer.cache.cachelogic.CLCacheDiscovery.CDPResponse Response | response
+double REDUCE_FACTOR_DEFAULT | reduce factor default
+edu.rice.cs.drjava.config.BooleanOption RESET_CLEAR_CONSOLE | reset clear console
+edu.rice.cs.drjava.config.BooleanOption RUN_WITH_ASSERT | run with assert
+edu.rice.cs.drjava.config.IntegerOption REMOTE_CONTROL_PORT | remote control port
+edu.rice.cs.drjava.config.NonNegativeIntegerOption RECENT_FILES_MAX_SIZE | recent files max size
+edu.rice.cs.drjava.config.VectorOption<java.io.File> RECENT_FILES | recent files
+edu.rice.cs.drjava.config.VectorOption<java.io.File> RECENT_PROJECTS | recent projects
+int RA | ra
+int RA_MATCH | ra match
+int RANDOM_QUERY_PERIOD | random query period
+int RANGE | range
+int RANGE_ALL | range all
+int RANGE_EXTREME | range extreme
+int RANGE_LONG | range long
+int RANGE_MEDIUM | range medium
+int RANGE_MINIMUM | range minimum
+int RANGE_OUT | range out
+int RANGE_SHORT | range short
+int RANK_COLUMN_WIDTH | rank column width
+int RANK_NONE | rank none
+int RANK_PEERCOUNT | rank peer count
+int RANK_SEEDCOUNT | rank seed count
+int RANK_SPRATIO | rank spr at io
+int RAPIDS | ra pids
+int RA_REPLACE | ra replace
+int RA_SEARCH | ra search
+int RATE_COLUMN_SIZE | rate column size
+int RATING_NONE | rating none
+int RATING_THUMBDOWN | rating thumb down
+int RATING_THUMBUP | rating thumb up
+int RATING_WAITING | rating waiting
+int RAW_DATA | raw data
+int RAW_EMPTY | raw empty
+int RAW_FALSE | raw false
+int RAW_LEADIN | raw lead in
+int RAWMODE_PROMPT | raw mode prompt
+int RAW_MOVEDTOBUFFER | raw moved tob uff er
+int RB | rb
+int RC | rc
+int RC4_STREAM_KEY_SIZE | rc 4  stream key size
+int RC4_STREAM_KEY_SIZE_BYTES | rc 4  stream key size bytes
+int RCDATA_GENFROMVALUES_FAIL | rcdata gen from values fail
+int RCDATA_INLINE_EXTRAVARS | rcdata inline extra vars
+int RCDATA_INLINEURL_MISSING | rcdata inline url missing
+int RCDATA_INLINEUSERNAME_MISSING | rcdata inline username missing
+int RCDATA_PASSWORD_VISIBLE | rcdata password visible
+int RCERR_EXITVAL | rc err exit val
+int R_CRYPTO | r crypto
+int R_DEFAULT | r default
+int RD_GET_DETAILS_RETRIES | rd get details retries
+int RD_GET_MIRRORS_RETRIES | rd get mirrors retries
+int RD_SIZE_RETRIES | rd size retries
+int RD_SIZE_TIMEOUT | rd size timeout
+int REACTIVATE_PROVIDER_PERIOD | reactivate provider period
+int REACTIVATE_PROVIDER_PERIOD_TICKS | reactivate provider period ticks
+int READ | read
+int READAHEAD_HIGH_LIMIT | readahead high limit
+int READAHEAD_HISTORY | readahead history
+int READAHEAD_LOW_LIMIT | readahead low limit
+int READ_AHEAD_STATS_WAIT_TICKS | read ahead stats wait ticks
+int READ_BUFFER_INCREMENT | read buffer increment
+int READ_BUFFER_INITIAL | read buffer initial
+int READ_BUFFER_LIMIT | read buffer limit
+int READ_CONVERTFAIL | read convert fail
+int READ_DONE | read done
+int READ_NO_PROGRESS | read no progress
+int READ_NOT_DONE | read not done
+int READONLY | readonly
+int READ_PARTIAL | read partial
+int READ_RETRY_DELAY | read retry delay
+int READ_RETRY_LIMIT | read retry limit
+int READS | reads
+int READ_SELECT_LOOP_TIME | read select loop time
+int READ_SELECT_MIN_LOOP_TIME | read select min loop time
+int READ_TIMEOUT | read timeout
+int READ_TOOBIG | read too big
+int READY | ready
+int REAL | real
+int REAR_AREA_OFFSET | rear area offset
+int RECEIVE_DONE_SEQ_MAX | receive done seq max
+int RECEIVE_OUT_OF_ORDER_ACK_LIMIT | receive out of order ack limit
+int RECEIVE_OUT_OF_ORDER_PACKETS_MAX | receive out of order packets max
+int RECEIVE_UNACK_IN_SEQUENCE_LIMIT | receive unack in sequence limit
+int RECENT_REPORTS_HISTORY_MAX | recent reports history max
+int RECONNECT_DEFAULT | reconnect default
+int RECTANGLE_ELEMENT | rectangle element
+int RECTANGLE_TAB | rectangle tab
+int RECURSIVE | recursive
+int REDO | redo
+int REF | ref
+int REF_CALL | ref call
+int REFERENCES | references
+int REFERENCING | referencing
+int REFERENTIAL_INTEGRITY | referential integrity
+int REF_MEMBER | ref member
+int REF_NAME | ref name
+int REF_NS_MEMBER | ref ns member
+int REF_NS_NAME | ref ns name
+int REFRESH | refresh
+int REFRESH_MILLIS | refresh millis
+int REFRESH_MINIMUM_SECS | refresh minimum secs
+int REF_SPECIAL | ref special
+int REGEXP | regexp
+int REGEXP_PROP | regexp prop
+int REG_TYPE_FULL | reg type full
+int REG_TYPE_NONE | reg type none
+int REJECTREPORT_BOTTOM | reject report bottom
+int REJECTREPORT_ROW | reject report row
+int REJECTREPORT_TOP | reject report top
+int RELEASE | release
+int RELEASE_AUTO | release auto
+int RELEASE_MANUAL | release manual
+int RELOAD_MIN_TIME | reload min time
+int REMARK | remark
+int REMARK_LINE | remark line
+int REMOTE_CONTROL_TIMEOUT | remote control timeout
+int REMOTE_COVER | remote cover
+int REMOTE_ESTIMATE_HISTORY | remote estimate history
+int REMOVE | remove
+int REMOVE_ALL | remove all
+int REMOVE_CLOCK | remove clock
+int REMOVE_FROM_CRL | remove from crl
+int REMOVE_IN_RETREAT | remove in retreat
+int REMOVE_SALVAGEABLE | remove salvageable
+int REMOVE_SPACE_H | remove space h
+int REMOVE_SPACE_V | remove space v
+int REMOVE_UNKNOWN | remove unknown
+int RENAME | rename
+int RENDEZVOUS_CLIENT_PING_PERIOD | rendezvous client ping period
+int RENDEZVOUS_LOOKUP_TIMEOUT | rendezvous lookup timeout
+int RENDEZVOUS_PING_FAIL_LIMIT | rendezvous ping fail limit
+int RENDEZVOUS_SERVER_MAX | rendezvous server max
+int RENDEZVOUS_SERVER_TIMEOUT | rendezvous server timeout
+int REPEAT | repeat
+int REPLY_TRACKER_ADD | reply tracker add
+int REPLY_TRACKER_CHANGE | reply tracker change
+int REPLY_TRACKER_STATUS | reply tracker status
+int REPLY_TRACKER_SUMMARY | reply tracker summary
+int REPORTER_VISIBILITY_SYSTEM | reporter visibility system
+int REPORTER_VISIBILITY_USER | reporter visibility user
+int REPORT_TYPE | report type
+int REPORT_TYPE_CANCEL | report type cancel
+int REPORT_TYPE_DONE | report type done
+int REPORT_TYPE_ERROR | report type error
+int REPORT_TYPE_INIT | report type init
+int REPORT_TYPE_MODE_CHANGE | report type mode change
+int REPORT_TYPE_RETRY | report type retry
+int REPUBLISH_TIME_MIN | republish time min
+int REQUEST_BYTE_LOG_CHUNK | request byte log chunk
+int REQUEST_HINT_MAX_LIFE | request hint max life
+int REQUEST_HISTORY_MAX | request history max
+int REQUEST_NUM_LOG_CHUNK | request num log chunk
+int REQUEST_READ | request read
+int REQUESTS_MAX | requests max
+int REQUESTS_MIN | requests min
+int REQUEST_TRACKER_ADD | request tracker add
+int REQUEST_TRACKER_CHANGE | request tracker change
+int REQUEST_TRACKER_STATUS | request tracker status
+int REQUEST_TRACKER_SUMMARY | request tracker summary
+int REQUEST_TYPE_BAD | request type bad
+int REQUEST_TYPE_GET | request type get
+int REQUEST_TYPE_HEAD | request type head
+int REQUEST_TYPE_POST | request type post
+int REQUIRED_MODE | required mode
+int REQUIRE_TABLEITEM | require table item
+int REQUIRE_VISIBILITY | require visibility
+int RESEND_DELAY | resend delay
+int RESERVED_FILE_HANDLE_COUNT | reserved file handle count
+int RESIGNAL | resignal
+int RESIZE_HORIZONTAL | resize horizontal
+int RESIZE_STEPS | resize steps
+int RESIZE_VERTICAL | resize vertical
+int RESNIPE | res ni pe
+int RESOURCES_INDEX | resources index
+int RESP_NOT_OK | resp not ok
+int RESP_OK | resp ok
+int RESTART | restart
+int RESTART_REQUIRED_MAYBE | restart required maybe
+int RESTART_REQUIRED_NO | restart required no
+int RESTART_REQUIRED_YES | restart required yes
+int RESULT | result
+int RESULT_DOWNLOAD_INDEX | result download index
+int Result_Result | result result
+int RESULTSET_FORWARD_ONLY | resultset forward only
+int RESULT_UPLOAD_INDEX | result upload index
+int RET | ret
+int RETHROW | rethrow
+int RETRANSMIT_COUNT_LIMIT | retransmit count limit
+int RETRIEVE_NEST_ROLE_FAIL | retrieve nest role fail
+int RETRY_MINIMUM_MILLIS | retry minimum millis
+int RETRY_MINIMUM_SECS | retry minimum secs
+int RETRY_SEND_MAX | retry send max
+int RETRY_SEND_MIN | retry send min
+int RETURN | return
+int RETURN_RESULT | return result
+int RETURNS | returns
+int RETVAL_OK | retval ok
+int RETVAL_OK_TO_DISPOSE | retval ok to dispose
+int REVISION | revision
+int REVOKE | revoke
+int RF | rf
+int RGBMAX | rgb max
+int RIGHT | right
+int RIGHT_LEG | right leg
+int RIGHTMULE | rightmule
+int RIGHT_WALL_SIDE | right wall side
+int RL | rl
+int ROAD | road
+int ROLE | role
+int ROLE_ALREADY_EXISTS | role already exists
+int ROLLBACK | rollback
+int ROLLBACK_AND_CHAIN | rollback and chain
+int ROLLINGBACK | rollingback
+int ROLLUP | rollup
+int ROUGH | rough
+int ROUND_RECTANGLE_ELEMENT | round rectangle element
+int ROUND_TARGCOMP_CRITS | round targcomp crits
+int ROUTABLE_CONTACT_HISTORY_MAX | routable contact history max
+int ROUTE_TIMEOUT | route timeout
+int ROW | row
+int ROWS | rows
+int ROWS_FETCHED_DSV | rows fetched dsv
+int ROW_UPDATE_MULTIPLE | row update multiple
+int ROW_UPDATE_SINGULAR | row update singular
+int RP | rp
+int R_POOL36 | r pool 36
+int RSH | rsh
+int R_SUN | r sun
+int RT | rt
+int RT_ANNOUNCE | rt announce
+int RT_AZ | rt az
+int RT_AZ2_REPLY_CHAT | rt az 2  reply chat
+int RT_AZ2_REPLY_MESSAGE | rt az 2  reply message
+int RT_AZ2_REPLY_SEND_TORRENT | rt az 2  reply send torrent
+int RT_AZ2_REPLY_TRACK | rt az 2  reply track
+int RT_AZ2_REQUEST_CHAT | rt az 2  request chat
+int RT_AZ2_REQUEST_MESSAGE | rt az 2  request message
+int RT_AZ2_REQUEST_SEND_TORRENT | rt az 2  request send torrent
+int RT_AZ2_REQUEST_TRACK | rt az 2  request track
+int RT_BIND_REPLY | rt bind reply
+int RT_BIND_REQUEST | rt bind request
+int RT_CLOSE_REPLY | rt close reply
+int RT_CLOSE_REQUEST | rt close request
+int RT_CONNECT_REPLY | rt connect reply
+int RT_CONNECT_REQUEST | rt connect request
+int RT_DECODE_FAILS | rt decode fails
+int RT_ERROR | rt error
+int RT_FILE_NOT_FOUND | rt file not found
+int RT_FULL_SCRAPE | rt full scrape
+int RT_HASH_FAILS | rt hash fails
+int RT_INTERNAL_FRAGMENT | rt internal fragment
+int RT_INTERNAL_REPLY_CLOSE | rt internal reply close
+int RT_INTERNAL_REPLY_PING | rt internal reply ping
+int RT_INTERNAL_REQUEST_CLOSE | rt internal request close
+int RT_INTERNAL_REQUEST_PING | rt internal request ping
+int RT_NONE | rt none
+int RT_OTHER | rt other
+int RT_PUNCH_REPLY | rt punch reply
+int RT_PUNCH_REQUEST | rt punch request
+int RT_QUERY | rt query
+int RT_QUERY_REPLY | rt query reply
+int RT_QUERY_REQUEST | rt query request
+int RT_READ_FAILS | rt read fails
+int RT_REPLY_DATA | rt reply data
+int RT_REPLY_ERROR | rt reply error
+int RT_REQUEST_DATA | rt request data
+int RT_SCRAPE | rt scrape
+int RT_SUCCESS | rt success
+int RTT_BAD_MAX | rtt bad max
+int RTT_BAD_MIN | rtt bad min
+int RTT_MAX | rtt max
+int RT_TOO_BIG | rt too big
+int RT_TUNNEL_INBOUND | rt tunnel inbound
+int RT_TUNNEL_OUTBOUND | rt tunnel outbound
+int RT_UNKNOWN | rt unknown
+int RT_UNSUPPORTED_ENCODING | rt unsupported encoding
+int RT_WRITE_FAILS | rt write fails
+int RT_ZERO_LENGTH | rt zero length
+int RUBBLE | rubble
+it.businesslogic.ireport.TextReportElement.Rotation ROTATION_LEFT | rotation left
+it.businesslogic.ireport.TextReportElement.Rotation ROTATION_NONE | rotation none
+it.businesslogic.ireport.TextReportElement.Rotation ROTATION_RIGHT | rotation right
+java.awt.Color ROSY_BROWN | rosy brown
+java.awt.Color ROYAL_BLUE | royal blue
+java.awt.datatransfer.DataFlavor ROW_FLAVOR | row flavor
+java.awt.event.ActionListener REDO | redo
+java.awt.event.ActionListener REPEAT | repeat
+java.awt.Font RESSOURCE_FONT | ressource font
+java.io.File ROOT | root
+java.lang.Object REGEXP_TAG | regexp tag
+java.lang.Object REMOVE_ACTION | remove action
+java.lang.String RATE_TYPE_CONTENT | rate type content
+java.lang.String RATING | rating
+java.lang.String RAW_LEADIN_MSG | raw lead in msg
+java.lang.String RC4_STREAM_ALG | rc 4  stream alg
+java.lang.String RC4_STREAM_CIPHER | rc 4  stream cipher
+java.lang.String READ_ACCESS_MODE | read access mode
+java.lang.String READ_HOME_URL_PARAMETER | read home url parameter
+java.lang.String READY_STATUS | ready status
+java.lang.String REAR | rear
+java.lang.String REAR_ARMOR | rear armor
+java.lang.String REASON_CHECK_SWT | reason check swt
+java.lang.String REASON_EXTERNAL_IP | reason external ip
+java.lang.String REASON_PLUGIN_UPDATE | reason plugin update
+java.lang.String REASON_RECOMMENDED_PLUGINS | reason recommended plugins
+java.lang.String REASON_SECONDARY_CHECK | reason secondary check
+java.lang.String REASON_UPDATE_CHECK_PERIODIC | reason update check periodic
+java.lang.String REASON_UPDATE_CHECK_START | reason update check start
+java.lang.String RECENT_HOMES | recent homes
+java.lang.String REGEXP_ARRAY_FIELD_NAME | regexp array field name
+java.lang.String REGEXP_ARRAY_FIELD_TYPE | regexp array field type
+java.lang.String REGEXP_INIT_METHOD_NAME | regexp init method name
+java.lang.String REGEXP_INIT_METHOD_SIGNATURE | regexp init method signature
+java.lang.String REGEX_URLHTML | regex url html
+java.lang.String REMINDER_HOOK_NAME | reminder hook name
+java.lang.String REMINDUSERAT | remind user at
+java.lang.String REPLY_ACTION | reply action
+java.lang.String REPLY_EXCEPTION | reply exception
+java.lang.String REPLY_RESULT | reply result
+java.lang.String REPORTER_TYPE_DEFAULT | reporter type default
+java.lang.String REQUEST_MAP_SHARING | request map sharing
+java.lang.String REQUIRED_UTIL_VERSION | required util version
+java.lang.String RESIZABLE | resizable
+java.lang.String RESOURCE_ANTIALIAS | resource antialias
+java.lang.String RESOURCE_BUNDLE | resource bundle
+java.lang.String ResourceBundleBaseName | resource bundle base name
+java.lang.String RESOURCE_LANGUAGE | resource language
+java.lang.String RESOURCE_LOC | resource loc
+java.lang.String RESOURCE_LOOKANDFEEL | resource lookandfeel
+java.lang.String RESOURCES_BACKGROUND_COLOR | resources background color
+java.lang.String RESOURCES_CLOUD_COLOR | resources cloud color
+java.lang.String RESOURCES_EDGE_COLOR | resources edge color
+java.lang.String RESOURCES_EDGE_STYLE | resources edge style
+java.lang.String RESOURCES_LINK_COLOR | resources link color
+java.lang.String RESOURCES_NODE_COLOR | resources node color
+java.lang.String RESOURCES_NODE_STYLE | resources node style
+java.lang.String RESOURCES_ROOT_NODE_STYLE | resources root node style
+java.lang.String RESOURCES_SELECTED_NODE_COLOR | resources selected node color
+java.lang.String RESOURCES_SELECTION_METHOD | resources selection method
+java.lang.String RESPONSE_PREFIX | response prefix
+java.lang.String RESPONSE_PREFIX_WITH_USER | response prefix with user
+java.lang.String RESTORE_MSG | restore msg
+java.lang.String RESULT | result
+java.lang.String RESUME_KEY | resume key
+java.lang.String RETURN_COLUMN_NAME | return column name
+java.lang.String REVEAL_SCRIPT_FORMAT | reveal script format
+java.lang.String REVISION_STRING | revision string
+java.lang.String RIGHT | right
+java.lang.String RIGHT_DRAG_SCROLL | right drag scroll
+java.lang.String ROLE_MANAGER_ID | role manager id
+java.lang.String ROLESET_DELIMITER | role set delimiter
+java.lang.String ROOT_CAMO | root camo
+java.lang.String ROOT_NODE_NAME | root node name
+java.lang.String ROUTERS | routers
+java.lang.String ROWCOUNTS_BOX_TEXT | row counts box text
+java.lang.String RPC_LISTENER_ID | rpc listener id
+java.lang.String RT_META_SEARCH_TEMPLATES | rt meta search templates
+java.lang.String RT_SUBSCRIPTIONS | rt subscriptions
+java.lang.String RULER_COLOR_1 | ruler color  1
+java.lang.String RULER_COLOR_2 | ruler color  2
+java.lang.String RULER_POS_X | ruler pos x
+java.lang.String RULER_POS_Y | ruler pos y
+java.lang.String RULER_SIZE_HEIGHT | ruler size height
+java.lang.String RULER_SIZE_WIDTH | ruler size width
+java.lang.String RULERS_VISIBLE | rulers visible
+java.util.Hashtable RFC1779Symbols | rfc 1779 symbols
+java.util.Hashtable RFC2253Symbols | rfc 2253 symbols
+java.util.Random RANDOM | random
+java.util.ResourceBundle RESOURCE_BUNDLE | resource bundle
+long RATING_REMINDER_DELAY | rating reminder delay
+long READ_XFER_REREQUEST_DELAY | read xfer rerequest delay
+long RE_ANNOUNCE_PERIOD | re announce period
+long REMEMBER_SUCCESS_MS | remember success ms
+long REQUEST_TEST | request test
+long RETRY_METADATA | retry metadata
+long RTA_END_GAME_MODE_SIZE_TRIGGER | rta end game mode size trigger
+megamek.common.loaders.ArmorType REACTIVE | reactive
+megamek.common.loaders.ArmorType REFLECTIVE | reflective
+megamek.common.loaders.HMVWeaponLocation REAR | rear
+megamek.common.loaders.HMVWeaponLocation RIGHT | right
+megamek.common.loaders.WeaponLocation RIGHT_ARM | right arm
+megamek.common.loaders.WeaponLocation RIGHT_LEG | right leg
+megamek.common.loaders.WeaponLocation RIGHT_LEG_R | right leg r
+megamek.common.loaders.WeaponLocation RIGHT_TORSO | right torso
+megamek.common.loaders.WeaponLocation RIGHT_TORSO_R | right torso r
+net.sourceforge.ganttproject.calendar.GPCalendar RESTLESS_CALENDAR | rest less calendar
+net.sourceforge.ganttproject.chart.GraphicPrimitiveContainer.HAlignment RIGHT | right
+net.sourceforge.ganttproject.shape.ShapePaint ROUND | round
+net.sourceforge.ganttproject.task.dependency.TaskDependency.Hardness RUBBER | rubber
+org.apache.batik.ext.awt.MultipleGradientPaint.CycleMethodEnum REFLECT | reflect
+org.apache.batik.ext.awt.MultipleGradientPaint.CycleMethodEnum REPEAT | repeat
+org.bouncycastle.asn1.DERObjectIdentifier RC2_CBC | rc 2  cbc
+org.bouncycastle.asn1.DERObjectIdentifier ReasonCode | reason code
+org.bouncycastle.asn1.DERObjectIdentifier RoleSyntax | role syntax
+org.gudy.azureus2.core3.download.impl.DownloadManagerDefaultPaths.MovementInformation REMOVAL_DETAILS | removal details
+org.gudy.azureus2.core3.internat.IntegratedResourceBundle RESOURCE_BUNDLE | resource bundle
+org.gudy.azureus2.platform.PlatformManagerCapabilities RecoverableFileDelete | recoverable file delete
+org.gudy.azureus2.platform.PlatformManagerCapabilities RegisterFileAssociations | register file associations
+org.gudy.azureus2.platform.PlatformManagerCapabilities RequestUserAttention | request user attention
+org.mozilla.javascript.tools.ToolErrorReporter R | r

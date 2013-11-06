@@ -1,0 +1,7 @@
+Object refDel(QRef;QContext;) | ref del
+Object refGet(QRef;QContext;) | ref get
+Object refIncrDecr(QRef;QContext;I) | ref incr decr
+Object refInvokeOperation(String requestedOperation, List args) | ref invoke operation
+Object refSet(QRef;QObject;QContext;) | ref set
+Ref refCall(QContext;QScriptable;[QObject;) | ref call
+void refExceptionHandler(Token exTypeAndName, Token action) | ref exception handler

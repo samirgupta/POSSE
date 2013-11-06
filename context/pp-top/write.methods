@@ -1,0 +1,16 @@
+boolean isWriteCacheEnabled() | is write cache enabled
+boolean isWriteLocked() | is write locked
+CONS ScriptWriterZipped(QDatabase;QString;ZZ) | script writer zipped
+void writeCompleted(QDiskManagerWriteRequest;) | write completed
+void writeDEREncoded(I[B) | write der encoded
+void writeDEREncoded(QOutputStream;I[B) | write der encoded
+void writeDEREncoded(QOutputStream;IQInputStream;) | write der encoded
+void writeEncoded([B) | write encoded
+void writeEncoded(I[B) | write encoded
+void writeEncoded(QString;) | write encoded
+void writeEncoded(QWriter;QString;) | write encoded
+void writeFailed(QDiskManagerWriteRequest;QThrowable;) | write failed
+void writeFailed(QThrowable;) | write failed
+void writeHexEncoded([B) | write hex encoded
+void writeLineEscaped(QString;) | write line escaped
+void writeTasksFromLoaded(QArrayList;) | write tasks from loaded

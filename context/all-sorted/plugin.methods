@@ -1,0 +1,752 @@
+../3-Phrases/Base_Verb:PluginManagerDefaults getPluginManagerDefaults() | get plugin manager defaults
+../3-Phrases/Base_Verb:void addHelpSet(String pluginHelpSet, ClassLoader loader) | add help set
+../3-Phrases/Base_Verb:Object getPlugin(String name) | get plugin
+../3-Phrases/Base_Verb:TagPluginManager getTagPluginManager() | get tag plugin manager
+../3-Phrases/Base_Verb:Object getInstance(PluginInstance pluginInstance, PluginInstanceParameterValue values) | get instance
+../3-Phrases/Base_Verb:void setPreloadPlugins(List plugins) | set preload plugins
+../3-Phrases/Base_Verb:static void logError(Plugin plugin, String message, Throwable th) | void log error
+../3-Phrases/Base_Verb:void setController(IPluginManager plugincontroller, String pluginuid) | set controller
+../3-Phrases/Base_Verb:TreeNodeImpl findPluginNode(String id) | find plugin node
+../3-Phrases/Base_Verb:boolean updatePluginsList() | update plugins list
+../3-Phrases/Base_Verb:boolean initializePlugins(String pluginString, Jim jimProgram) | initialize plugins
+../3-Phrases/Base_Verb:void refreshPluginList() | refresh plugin list
+../3-Phrases/Base_Verb:List getPluginMode() | get plugin mode
+../3-Phrases/Base_Verb:void setupPlugin(GameExtractor gameExt) | setup plugin
+../3-Phrases/Base_Verb:void setConfiguredPlugins(PluginDetail plugins) | set configured plugins
+../3-Phrases/Base_Verb:static PostgresPlugin getInstance() | postgres plugin get instance
+../3-Phrases/Base_Verb:String getPluginPreference(String key) | get plugin preference
+../3-Phrases/Base_Verb:void stopScenario(Plugin plugin, String scenarioName) | stop scenario
+../3-Phrases/Base_Verb:void loadPlugins() | load plugins
+../3-Phrases/Base_Verb:XPluginManager getPluginManager() | get plugin manager
+../3-Phrases/DrawSWF:CONS PluginLoader() | plugin loader
+../3-Phrases/DrawSWF:ArrayList loadPlugins() | load plugins
+../3-Phrases/DrawSWF:CONS AbstractPlugin() | abstract plugin
+../3-Phrases/DrawSWF:ArrayList getPlugins() | get plugins
+../3-Phrases/DrawSWF:void addPluginsConfig() | add plugins config
+../3-Phrases/DrawSWF:CONS RemoteSavePlugin() | remote save plugin
+../3-Phrases/freemind:CONS IconSelectionPlugin() | icon selection plugin
+../3-Phrases/freemind:CONS RevisionPlugin() | revision plugin
+../3-Phrases/freemind:CONS CreationModificationPlugin() | creation modification plugin
+../3-Phrases/freemind:java.util.List getPluginString() | get plugin string
+../3-Phrases/freemind:java.util.List getPluginStrings() | get plugin strings
+../3-Phrases/freemind:java.util.List getPluginAction() | get plugin action
+../3-Phrases/freemind:java.util.List getPluginRegistration() | get plugin registration
+../3-Phrases/freemind:java.util.List getPluginClasspath() | get plugin classpath
+../3-Phrases/freemind:java.util.List getPluginMode() | get plugin mode
+../3-Phrases/freemind:boolean isIsPluginBase() | is is plugin base
+../3-Phrases/freemind:void setIsPluginBase(Z) | set is plugin base
+../3-Phrases/freemind:java.util.List getPluginProperty() | get plugin property
+../3-Phrases/freemind:java.util.List getPluginMode() | get plugin mode
+../3-Phrases/freemind:java.util.List getPluginMenu() | get plugin menu
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginStrings createPluginStrings() | create plugin strings
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginProperty createPluginProperty() | create plugin property
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginType createPluginType() | create plugin type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginAction createPluginAction() | create plugin action
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginMenu createPluginMenu() | create plugin menu
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginMode createPluginMode() | create plugin mode
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginStringsType createPluginStringsType() | create plugin strings type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginStringType createPluginStringType() | create plugin string type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginMenuType createPluginMenuType() | create plugin menu type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginClasspathType createPluginClasspathType() | create plugin classpath type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginString createPluginString() | create plugin string
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.Plugin createPlugin() | create plugin
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginActionType createPluginActionType() | create plugin action type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginRegistrationType createPluginRegistrationType() | create plugin registration type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginRegistration createPluginRegistration() | create plugin registration
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginPropertyType createPluginPropertyType() | create plugin property type
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginClasspath createPluginClasspath() | create plugin classpath
+../3-Phrases/freemind:freemind.controller.actions.generated.instance.PluginModeType createPluginModeType() | create plugin mode type
+../3-Phrases/freemind:java.util.List getPluginString() | get plugin string
+../3-Phrases/freemind:java.util.List getPluginProperty() | get plugin property
+../3-Phrases/freemind:java.util.List getPluginMode() | get plugin mode
+../3-Phrases/freemind:java.util.List getPluginMenu() | get plugin menu
+../3-Phrases/freemind:java.util.List getPluginStrings() | get plugin strings
+../3-Phrases/freemind:java.util.List getPluginAction() | get plugin action
+../3-Phrases/freemind:java.util.List getPluginRegistration() | get plugin registration
+../3-Phrases/freemind:java.util.List getPluginClasspath() | get plugin classpath
+../3-Phrases/freemind:java.util.List getPluginMode() | get plugin mode
+../3-Phrases/freemind:boolean isIsPluginBase() | is is plugin base
+../3-Phrases/freemind:void setIsPluginBase(Z) | set is plugin base
+../3-Phrases/freemind:Plugin getPluginBase() | get plugin base
+../3-Phrases/freemind:Object getPluginBaseClass() | get plugin base class
+../3-Phrases/freemind:void setPluginBaseClass(QObject;) | set plugin base class
+../3-Phrases/freemind:void actualizePlugins() | actualize plugins
+../3-Phrases/freemind:String createPluginClasspathString(QList;) | create plugin classpath string
+../3-Phrases/freemind:Object getPluginBaseClass(QHookDescriptor;) | get plugin base class
+../3-Phrases/freemind:Object getPluginBaseClass(QString;) | get plugin base class
+../3-Phrases/freemind:Object getPluginBaseClass() | get plugin base class
+../3-Phrases/freemind:void setPluginBaseClass(QObject;) | set plugin base class
+../3-Phrases/gantt:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/iReport:CONS PluginEntry() | plugin entry
+../3-Phrases/iReport:it.businesslogic.ireport.plugin.IReportPlugin getPlugin() | get plugin
+../3-Phrases/iReport:void setPlugin(Qit.businesslogic.ireport.plugin.IReportPlugin;) | set plugin
+../3-Phrases/iReport:void jMenuItemPluginConfigActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item plugin config action performed
+../3-Phrases/iReport:void loadPlugins(QString;) | load plugins
+../3-Phrases/iReport:void jMenuItemPluginActionPerformed(Qjava.awt.event.ActionEvent;) | j menu item plugin action performed
+../3-Phrases/iReport:it.businesslogic.ireport.gui.PluginConfigurationDialog getPluginConfigurationDialog() | get plugin configuration dialog
+../3-Phrases/iReport:void setPluginConfigurationDialog(Qit.businesslogic.ireport.gui.PluginConfigurationDialog;) | set plugin configuration dialog
+../3-Phrases/iReport:java.util.HashMap getPluginEntries() | get plugin entries
+../3-Phrases/iReport:void setPluginEntries(Qjava.util.HashMap;) | set plugin entries
+../3-Phrases/iReport:CONS PluginConfigurationDialog(Qjavax.swing.JFrame;) | plugin configuration dialog
+../3-Phrases/iReport:void jListPluginsMouseClicked(Qjava.awt.event.MouseEvent;) | j list plugins mouse clicked
+../3-Phrases/iReport:void jListPluginsValueChanged(Qjavax.swing.event.ListSelectionEvent;) | j list plugins value changed
+../3-Phrases/iReport:void setPlugins(QCollection;) | set plugins
+../3-Phrases/iReport:CONS OracleOptionsPlugin() | oracle options plugin
+../3-Phrases/Jabref:void startSidePanePlugins(QJabRefFrame;) | start side pane plugins
+../3-Phrases/Jabref:void addPluginMenuItem(QJMenuItem;) | add plugin menu item
+../3-Phrases/Jabref:CONS PluginBasedExportFormat(QString;QString;QString;QString;QString;QExportFormatTemplateExtension;) | plugin based export format
+../3-Phrases/Jabref:LayoutFormatter getLayoutFormatterFromPlugins(QString;) | get layout formatter from plugins
+../3-Phrases/Jabref:void installPlugin(QJabRefFrame;QFile;QString;) | install plugin
+../3-Phrases/Jabref:boolean deletePlugin(QNameAndVersion;) | delete plugin
+../3-Phrases/Jabref:boolean deletePluginFile(QFile;) | delete plugin file
+../3-Phrases/Jabref:int copyPlugin(QJFrame;QURL;QString;) | copy plugin
+../3-Phrases/Jabref:int copyPlugin(QJFrame;QFile;QString;) | copy plugin
+../3-Phrases/Jabref:void schedulePluginForDeletion(QString;) | schedule plugin for deletion
+../3-Phrases/Jabref:void deletePluginsOnStartup([QString;) | delete plugins on startup
+../3-Phrases/Jabref:File unpackPluginXML(QFile;) | unpack plugin xml
+../3-Phrases/Jabref:EventList<QNameAndVersion;> findInstalledPlugins() | find installed plugins
+../3-Phrases/Jabref:CONS ManagePluginsDialog(QJabRefFrame;) | manage plugins dialog
+../3-Phrases/Jabref:void installPlugin() | install plugin
+../3-Phrases/Jabref:void downloadPlugin() | download plugin
+../3-Phrases/Jabref:CONS PluginInstallerAction(QJabRefFrame;) | plugin installer action
+../3-Phrases/Jabref:List<QSidePanePluginExtension;> getSidePanePluginExtensions() | get side pane plugin extensions
+../3-Phrases/Jabref:void SidePanePluginExtension(QPlugin;QExtension;) | side pane plugin extension
+../3-Phrases/Jabref:net.sf.jabref.plugin.SidePanePlugin getSidePanePlugin() | get side pane plugin
+../3-Phrases/Jabref:void testPluginLoading() | test plugin loading
+../3-Phrases/javaHMO:void handlePluginSelection(QPluginNode;) | handle plugin selection
+../3-Phrases/javaHMO:DefaultTreeModel getPlugins() | get plugins
+../3-Phrases/javaHMO:PluginNode getPluginNode(QPlugin;) | get plugin node
+../3-Phrases/javaHMO:void addPlugin(QPlugin;) | add plugin
+../3-Phrases/javaHMO:void removePlugin(QPlugin;) | remove plugin
+../3-Phrases/javaHMO:void PluginDescriptorWrapper(QPluginDescriptor;) | plugin descriptor wrapper
+../3-Phrases/javaHMO:void AddPluginDialog(QJFrame;QPluginManager;) | add plugin dialog
+../3-Phrases/javaHMO:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/javaHMO:CONS PluginTree(QMainFrame;QDefaultTreeModel;) | plugin tree
+../3-Phrases/javaHMO:void addPlugin(QPluginNode;) | add plugin
+../3-Phrases/javaHMO:void removePlugin(QPluginNode;) | remove plugin
+../3-Phrases/javaHMO:CONS PluginNode(QPluginDescriptor;QPlugin;QIcon;) | plugin node
+../3-Phrases/javaHMO:Plugin getPlugin() | get plugin
+../3-Phrases/javaHMO:PluginDescriptor getPluginDescriptor() | get plugin descriptor
+../3-Phrases/javaHMO:CONS PluginException(QString;) | plugin exception
+../3-Phrases/javaHMO:CONS PluginException(QString;QThrowable;) | plugin exception
+../3-Phrases/javaHMO:CONS PluginManager() | plugin manager
+../3-Phrases/javaHMO:CONS PluginManager(Z) | plugin manager
+../3-Phrases/javaHMO:void addPlugin(QPlugin;) | add plugin
+../3-Phrases/javaHMO:void removePlugin(QPlugin;) | remove plugin
+../3-Phrases/javaHMO:void startPlugins() | start plugins
+../3-Phrases/javaHMO:Iterator getPlugins() | get plugins
+../3-Phrases/javaHMO:int getPluginSize() | get plugin size
+../3-Phrases/javaHMO:void addPluginListener(QPluginListener;) | add plugin listener
+../3-Phrases/javaHMO:void removePluginListener(QPluginListener;) | remove plugin listener
+../3-Phrases/javaHMO:void destroyAllPlugins() | destroy all plugins
+../3-Phrases/javaHMO:Class loadPlugin(QPluginDescriptor;) | load plugin
+../3-Phrases/javaHMO:void loadPluginDescriptors(QString;) | load plugin descriptors
+../3-Phrases/javaHMO:PluginDescriptor getPluginDescriptor(QPlugin;) | get plugin descriptor
+../3-Phrases/javaHMO:Iterator getPluginDescriptors() | get plugin descriptors
+../3-Phrases/javaHMO:CONS PluginContext(QPluginDescriptor;) | plugin context
+../3-Phrases/javaHMO:CONS PluginContext(QPluginDescriptor;Z) | plugin context
+../3-Phrases/javaHMO:PluginDescriptor getPluginDescriptor() | get plugin descriptor
+../3-Phrases/javaHMO:CONS PluginDescriptor(QString;) | plugin descriptor
+../3-Phrases/javaHMO:CONS PluginClassLoader(QPluginDescriptor;) | plugin class loader
+../3-Phrases/javaHMO:void pluginAdded(QPlugin;) | plugin added
+../3-Phrases/javaHMO:void pluginRemoved(QPlugin;) | plugin removed
+../3-Phrases/javaHMO:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/JHotDraw-7.0.8:CONS ValidatorPlugin() | validator plugin
+../3-Phrases/PlanetaMessenger:boolean checkForPluginUser(I) | check for plugin user
+../3-Phrases/PlanetaMessenger:boolean hasPluginUserInProfile(J) | has plugin user in profile
+../3-Phrases/PlanetaMessenger:boolean checkPluginInstall(IJ) | check plugin install
+../3-Phrases/PlanetaMessenger:int getPluginCount(J) | get plugin count
+../3-Phrases/PlanetaMessenger:boolean checkPluginInstall(I) | check plugin install
+../3-Phrases/PlanetaMessenger:int getPluginId(Qjava.lang.String;) | get plugin id
+../3-Phrases/PlanetaMessenger:org.planetamessenger.db.JResultSet getAllPlugins() | get all plugins
+../3-Phrases/PlanetaMessenger:boolean addPlugin(IJ) | add plugin
+../3-Phrases/PlanetaMessenger:boolean removePlugin(IJ) | remove plugin
+../3-Phrases/PlanetaMessenger:JPluginEngine getPluginEngine() | get plugin engine
+../3-Phrases/PlanetaMessenger:org.planetamessenger.plugin.JPluginEngineListener getPluginEngineListener() | get plugin engine listener
+../3-Phrases/PlanetaMessenger:java.lang.String getPluginsPath() | get plugins path
+../3-Phrases/PlanetaMessenger:CONS JPluginEngine() | j plugin engine
+../3-Phrases/PlanetaMessenger:void addPluginEngineListener(QJPluginEngineListener;) | add plugin engine listener
+../3-Phrases/PlanetaMessenger:void removePluginEngineListener(QJPluginEngineListener;) | remove plugin engine listener
+../3-Phrases/PlanetaMessenger:JPlugin loadPlugin(QString;) | load plugin
+../3-Phrases/PlanetaMessenger:boolean loadAllPlugins(JZ) | load all plugins
+../3-Phrases/PlanetaMessenger:JPluginProperties getPluginProperties(QString;) | get plugin properties
+../3-Phrases/PlanetaMessenger:JPluginProperties getPluginPropertiesByClassName(QString;) | get plugin properties by class name
+../3-Phrases/PlanetaMessenger:int getPluginCount() | get plugin count
+../3-Phrases/PlanetaMessenger:void updateNewPlugin(QString;) | update new plugin
+../3-Phrases/PlanetaMessenger:void addPluginButtonActionPerformed(Qjava.awt.event.ActionEvent;) | add plugin button action performed
+../3-Phrases/PlanetaMessenger:void removePluginButtonActionPerformed(Qjava.awt.event.ActionEvent;) | remove plugin button action performed
+../3-Phrases/PlanetaMessenger:void startPluginEngine() | start plugin engine
+../3-Phrases/PlanetaMessenger:void startPlugins() | start plugins
+../3-Phrases/PlanetaMessenger:void onCreatePlugin(Qorg.planetamessenger.plugin.JPlugin;) | on create plugin
+../3-Phrases/PlanetaMessenger:void onDestroyPlugin(Qorg.planetamessenger.plugin.JPlugin;) | on destroy plugin
+../3-Phrases/PlanetaMessenger:void onAddPlugin(Qorg.planetamessenger.plugin.JPlugin;) | on add plugin
+../3-Phrases/PlanetaMessenger:void onRemovePlugin(Qorg.planetamessenger.plugin.JPlugin;) | on remove plugin
+../3-Phrases/PlanetaMessenger:void onPluginStatusChanged(Qorg.planetamessenger.plugin.JPlugin;I) | on plugin status changed
+../3-Phrases/PlanetaMessenger:void onPluginConnectionStatusChanged(Qorg.planetamessenger.plugin.JPlugin;I) | on plugin connection status changed
+../3-Phrases/PlanetaMessenger:String getPluginsPath() | get plugins path
+../3-Phrases/PlanetaMessenger:void showAvailablePlugins(I) | show available plugins
+../3-Phrases/PlanetaMessenger:JProtocolTreeItem getSelectedPlugin() | get selected plugin
+../3-Phrases/PlanetaMessenger:CONS JMOSPluginPropertiesDlg(Qjava.awt.Frame;IZ) | jmos plugin properties dlg
+../3-Phrases/PlanetaMessenger:boolean removePluginItems(I) | remove plugin items
+../3-Phrases/PlanetaMessenger:boolean addPlugin(QJProtocolTreeItem;) | add plugin
+../3-Phrases/PlanetaMessenger:void JPluginCheckBox(QJPlugin;I) | j plugin check box
+../3-Phrases/PlanetaMessenger:JPlugin getPlugin() | get plugin
+../3-Phrases/PlanetaMessenger:void JPluginComboBox(QJPlugin;) | j plugin combo box
+../3-Phrases/PlanetaMessenger:JPlugin getPlugin() | get plugin
+../3-Phrases/PlanetaMessenger:void setPluginId(I) | set plugin id
+../3-Phrases/PlanetaMessenger:int getPluginId() | get plugin id
+../3-Phrases/PlanetaMessenger:void setPluginId(I) | set plugin id
+../3-Phrases/PlanetaMessenger:int getPluginId() | get plugin id
+../3-Phrases/PlanetaMessenger:CONS JPluginProperties() | j plugin properties
+../3-Phrases/PlanetaMessenger:void setPluginId(I) | set plugin id
+../3-Phrases/PlanetaMessenger:int getPluginId() | get plugin id
+../3-Phrases/PlanetaMessenger:void setPluginName(QString;) | set plugin name
+../3-Phrases/PlanetaMessenger:String getPluginName() | get plugin name
+../3-Phrases/PlanetaMessenger:void onPluginStatusChanged(I) | on plugin status changed
+../3-Phrases/PlanetaMessenger:void onPluginPropertiesUpdated() | on plugin properties updated
+../3-Phrases/PlanetaMessenger:CONS JPlugin() | j plugin
+../3-Phrases/PlanetaMessenger:void addPluginEngineListener(QJPluginEngineListener;) | add plugin engine listener
+../3-Phrases/PlanetaMessenger:void removePluginEngineListener(QJPluginEngineListener;) | remove plugin engine listener
+../3-Phrases/PlanetaMessenger:int translateStatusFromPlugin(Qjava.lang.Object;) | translate status from plugin
+../3-Phrases/PlanetaMessenger:java.lang.Object translateStatusToPlugin(I) | translate status to plugin
+../3-Phrases/PlanetaMessenger:java.util.Vector getPluginsPath() | get plugins path
+../3-Phrases/PlanetaMessenger:java.util.Hashtable getAllPluginStatus() | get all plugin status
+../3-Phrases/PlanetaMessenger:void fireOnPluginStatusChanged(I) | fire on plugin status changed
+../3-Phrases/PlanetaMessenger:void fireOnPluginPropertiesUpdated() | fire on plugin properties updated
+../3-Phrases/PlanetaMessenger:java.lang.String getPluginDescription() | get plugin description
+../3-Phrases/PlanetaMessenger:java.lang.String getPluginName() | get plugin name
+../3-Phrases/PlanetaMessenger:String getPluginVersion() | get plugin version
+../3-Phrases/PlanetaMessenger:int getPluginId() | get plugin id
+../3-Phrases/PlanetaMessenger:void onCreatePlugin(Qorg.planetamessenger.plugin.JPlugin;) | on create plugin
+../3-Phrases/PlanetaMessenger:void onDestroyPlugin(Qorg.planetamessenger.plugin.JPlugin;) | on destroy plugin
+../3-Phrases/PlanetaMessenger:void onAddPlugin(Qorg.planetamessenger.plugin.JPlugin;) | on add plugin
+../3-Phrases/PlanetaMessenger:void onRemovePlugin(Qorg.planetamessenger.plugin.JPlugin;) | on remove plugin
+../3-Phrases/PlanetaMessenger:void onPluginStatusChanged(Qorg.planetamessenger.plugin.JPlugin;I) | on plugin status changed
+../3-Phrases/PlanetaMessenger:void onPluginConnectionStatusChanged(Qorg.planetamessenger.plugin.JPlugin;I) | on plugin connection status changed
+../3-Phrases/PlanetaMessenger:String getPluginsPath() | get plugins path
+../3-Phrases/PlanetaMessenger:void setPluginId(I) | set plugin id
+../3-Phrases/PlanetaMessenger:int getPluginId() | get plugin id
+../3-Phrases/PlanetaMessenger:java.lang.Object getPluginStatus() | get plugin status
+../3-Phrases/PlanetaMessenger:CONS JAIMPlugin() | jaim plugin
+../3-Phrases/PlanetaMessenger:void onPluginStatusChanged(I) | on plugin status changed
+../3-Phrases/PlanetaMessenger:void onPluginPropertiesUpdated() | on plugin properties updated
+../3-Phrases/PlanetaMessenger:CONS JComVcPlugin() | j com vc plugin
+../3-Phrases/PlanetaMessenger:void onPluginStatusChanged(I) | on plugin status changed
+../3-Phrases/PlanetaMessenger:void onPluginPropertiesUpdated() | on plugin properties updated
+../3-Phrases/PlanetaMessenger:CONS JICQPlugin() | jicq plugin
+../3-Phrases/PlanetaMessenger:void onPluginStatusChanged(I) | on plugin status changed
+../3-Phrases/PlanetaMessenger:void onPluginPropertiesUpdated() | on plugin properties updated
+../3-Phrases/PlanetaMessenger:CONS JOscarLibPlugin() | j oscar lib plugin
+../3-Phrases/PlanetaMessenger:void onPluginStatusChanged(I) | on plugin status changed
+../3-Phrases/PlanetaMessenger:void onPluginPropertiesUpdated() | on plugin properties updated
+../3-Phrases/PlanetaMessenger:CONS JMSNPlugin() | jmsn plugin
+../3-Phrases/PlanetaMessenger:void onPluginStatusChanged(I) | on plugin status changed
+../3-Phrases/PlanetaMessenger:void onPluginPropertiesUpdated() | on plugin properties updated
+../3-Phrases/PlanetaMessenger:CONS JYahooPlugin() | j yahoo plugin
+../3-Phrases/PlanetaMessenger:void onPluginStatusChanged(I) | on plugin status changed
+../3-Phrases/PlanetaMessenger:void onPluginPropertiesUpdated() | on plugin properties updated
+../3-Phrases/SweetHome3D:File getApplicationPluginsFolder() | get application plugins folder
+../3-Phrases/SweetHome3D:Collection getPluginsPackages() | get plugins packages
+../3-Phrases/SweetHome3D:File getPluginFurnitureLibrariesFolder() | get plugin furniture libraries folder
+../3-Phrases/SweetHome3D:CONS PluginManager(QFile;) | plugin manager
+../3-Phrases/SweetHome3D:CONS PluginManager([QURL;) | plugin manager
+../3-Phrases/SweetHome3D:void loadPlugins(QURL;) | load plugins
+../3-Phrases/SweetHome3D:void readPlugin(QResourceBundle;QString;QClassLoader;) | read plugin
+../3-Phrases/SweetHome3D:Class<+QPlugin;> getPluginClass(QClassLoader;QString;) | get plugin class
+../3-Phrases/SweetHome3D:List<QPlugin;> getPlugins(QHomeApplication;QHome;QUserPreferences;QUndoableEditSupport;) | get plugins
+../3-Phrases/SweetHome3D:boolean pluginExists(QString;) | plugin exists
+../3-Phrases/SweetHome3D:void addPlugin(QString;) | add plugin
+../3-Phrases/SweetHome3D:void PluginDefinition(QString;QClass<+QPlugin;>;QClassLoader;QString;QString;QString;QString;) | plugin definition
+../3-Phrases/SweetHome3D:Class<+QPlugin;> getPluginClass() | get plugin class
+../3-Phrases/SweetHome3D:ClassLoader getPluginClassLoader() | get plugin class loader
+../3-Phrases/SweetHome3D:void setPluginClassLoader(QClassLoader;) | set plugin class loader
+../3-Phrases/SweetHome3D:ClassLoader getPluginClassLoader() | get plugin class loader
+../3-Phrases/SweetHome3D:CONS PluginAction() | plugin action
+../3-Phrases/SweetHome3D:CONS PluginAction(QString;QString;QClassLoader;) | plugin action
+../3-Phrases/SweetHome3D:CONS PluginAction(QString;QString;QClassLoader;Z) | plugin action
+../3-Phrases/SweetHome3D:void createPluginActions(QList<QPlugin;>;) | create plugin actions
+../3-Phrases/SweetHome3D:boolean confirmReplacePlugin(QString;) | confirm replace plugin
+../3-Phrases/SweetHome3D:List<QPlugin;> getPlugins() | get plugins
+../3-Phrases/SweetHome3D:void importPlugin(QString;) | import plugin
+../3-Phrases/SweetHome3D:boolean confirmReplacePlugin(QString;) | confirm replace plugin
+../3-Phrases/vuze:void setupBuddyPlugin() | setup buddy plugin
+../3-Phrases/vuze:BuddyPlugin getBuddyPlugin() | get buddy plugin
+../3-Phrases/vuze:BuddyPluginBuddy getBuddyPluginBuddyForVuze(QString;) | get buddy plugin buddy for vu ze
+../3-Phrases/vuze:PluginManagerDefaults getPluginManagerDefaults() | get plugin manager defaults
+../3-Phrases/vuze:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/vuze:boolean requiresPluginInitCompleteBeforeStartedEvent() | requires plugin init complete before started event
+../3-Phrases/vuze:boolean requiresPluginInitCompleteBeforeStartedEvent() | requires plugin init complete before started event
+../3-Phrases/vuze:PluginInterface getPluginInterface() | get plugin interface
+../3-Phrases/vuze:PluginInterface getPluginInterface() | get plugin interface
+../3-Phrases/vuze:PluginManagerDefaults getPluginManagerDefaults() | get plugin manager defaults
+../3-Phrases/vuze:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/vuze:EngineImpl importFromPlugin(QString;QSearchProvider;) | import from plugin
+../3-Phrases/vuze:CONS PluginEngine(QMetaSearchImpl;JQSearchProvider;) | plugin engine
+../3-Phrases/vuze:CONS PluginEngine(QMetaSearchImpl;QMap;) | plugin engine
+../3-Phrases/vuze:CONS PluginResult(QPluginEngine;QSearchResult;QString;) | plugin result
+../3-Phrases/vuze:Connection getPluginConnection() | get plugin connection
+../3-Phrases/vuze:MagnetPlugin getMagnetPlugin() | get magnet plugin
+../3-Phrases/vuze:String[] getRecommendedPlugins() | get recommended plugins
+../3-Phrases/vuze:PluginInterface getPluginInterface() | get plugin interface
+../3-Phrases/vuze:void setPluginInfo() | set plugin info
+../3-Phrases/vuze:CONS DHTPluginContactImpl(QDHTPluginImpl;QDHTTransportContact;) | dht plugin contact impl
+../3-Phrases/vuze:CONS DHTPluginStorageManager(IQDHTLogger;QFile;) | dht plugin storage manager
+../3-Phrases/vuze:CONS DHTPluginImpl(QPluginInterface;QDHTNATPuncherAdapter;QDHTPluginImplAdapter;BIZQString;IQActionParameter;QBooleanParameter;ZQLoggerChannel;QDHTLogger;) | dht plugin impl
+../3-Phrases/vuze:CONS DHTPluginValueImpl(QDHTTransportValue;) | dht plugin value impl
+../3-Phrases/vuze:PluginInterface getPluginInterface() | get plugin interface
+../3-Phrases/vuze:CONS MagnetPluginException(QString;QThrowable;) | magnet plugin exception
+../3-Phrases/vuze:CONS BuddyPluginBuddy(QBuddyPlugin;IZQString;QString;IIJQList;) | buddy plugin buddy
+../3-Phrases/vuze:BuddyPlugin getPlugin() | get plugin
+../3-Phrases/vuze:CONS BuddyPluginException(QString;) | buddy plugin exception
+../3-Phrases/vuze:CONS BuddyPluginException(QString;QThrowable;) | buddy plugin exception
+../3-Phrases/vuze:PluginInterface getPluginInterface() | get plugin interface
+../3-Phrases/vuze:CONS BuddyPluginAZ2(QBuddyPlugin;) | buddy plugin az 2
+../3-Phrases/vuze:CONS BuddyPluginTimeoutException(QString;Z) | buddy plugin timeout exception
+../3-Phrases/vuze:CONS BuddyPluginPasswordException(ZQString;QThrowable;) | buddy plugin password exception
+../3-Phrases/vuze:CONS BuddyPluginBuddyMessage(QBuddyPluginBuddyMessageHandler;IIQMap;IJ) | buddy plugin buddy message
+../3-Phrases/vuze:CONS BuddyPluginBuddyMessageHandler(QBuddyPluginBuddy;QFile;) | buddy plugin buddy message handler
+../3-Phrases/vuze:CONS BuddyPluginView(QBuddyPlugin;QUISWTInstance;) | buddy plugin view
+../3-Phrases/vuze:CONS BuddyPluginViewInstance(QBuddyPlugin;QUIInstance;QComposite;) | buddy plugin view instance
+../3-Phrases/vuze:CONS BuddyPluginViewChat(QBuddyPlugin;QDisplay;QBuddyPluginAZ2.chatInstance;) | buddy plugin view chat
+../3-Phrases/vuze:CONS BuddyPluginTracker(QBuddyPlugin;QBasicPluginConfigModel;) | buddy plugin tracker
+../3-Phrases/vuze:CONS NetStatusPluginView(QNetStatusPlugin;) | net status plugin view
+../3-Phrases/vuze:CONS NetStatusPluginTester(QNetStatusPlugin;IQloggerProvider;) | net status plugin tester
+../3-Phrases/vuze:CONS StartStopRulesDefaultPluginSWTUI(QPluginInterface;) | start stop rules default plugin swt ui
+../3-Phrases/vuze:CONS UPnPPluginService(QUPnPWANConnection;[QUPnPWANConnectionPortMapping;QBooleanParameter;QBooleanParameter;QBooleanParameter;QBooleanParameter;) | upn p plugin service
+../3-Phrases/vuze:void addPluginView(QPluginView;) | add plugin view
+../3-Phrases/vuze:void openPluginView(QPluginView;) | open plugin view
+../3-Phrases/vuze:void openPluginView(QUISWTPluginView;) | open plugin view
+../3-Phrases/vuze:void addPluginView(QUISWTPluginView;) | add plugin view
+../3-Phrases/vuze:void removePluginView(QUISWTPluginView;) | remove plugin view
+../3-Phrases/vuze:void addPluginView(QString;QUISWTViewEventListener;) | add plugin view
+../3-Phrases/vuze:UISWTInstanceImpl getSWTPluginInstanceImpl() | get swt plugin instance impl
+../3-Phrases/vuze:UISWTView[] getPluginViews() | get plugin views
+../3-Phrases/vuze:void openPluginView(QString;QString;QUISWTViewEventListener;QObject;Z) | open plugin view
+../3-Phrases/vuze:void openPluginView(QAbstractIView;QString;) | open plugin view
+../3-Phrases/vuze:void removePluginView(QString;) | remove plugin view
+../3-Phrases/vuze:void closePluginView(QIView;) | close plugin view
+../3-Phrases/vuze:void closePluginViews(QString;) | close plugin views
+../3-Phrases/vuze:boolean requiresPluginInitCompleteBeforeStartedEvent() | requires plugin init complete before started event
+../3-Phrases/vuze:void addPluginView(QPluginView;) | add plugin view
+../3-Phrases/vuze:void addPluginView(QString;QUISWTViewEventListener;) | add plugin view
+../3-Phrases/vuze:void addPluginView(QUISWTPluginView;) | add plugin view
+../3-Phrases/vuze:void closePluginView(QIView;) | close plugin view
+../3-Phrases/vuze:void closePluginViews(QString;) | close plugin views
+../3-Phrases/vuze:UISWTView[] getPluginViews() | get plugin views
+../3-Phrases/vuze:UISWTInstanceImpl getSWTPluginInstanceImpl() | get swt plugin instance impl
+../3-Phrases/vuze:void openPluginView(QAbstractIView;QString;) | open plugin view
+../3-Phrases/vuze:void openPluginView(QPluginView;) | open plugin view
+../3-Phrases/vuze:void openPluginView(QString;QString;QUISWTViewEventListener;QObject;Z) | open plugin view
+../3-Phrases/vuze:void openPluginView(QUISWTPluginView;) | open plugin view
+../3-Phrases/vuze:void removePluginView(QString;) | remove plugin view
+../3-Phrases/vuze:void removePluginView(QUISWTPluginView;) | remove plugin view
+../3-Phrases/vuze:void pluginViewAdded(QIViewInfo;) | plugin view added
+../3-Phrases/vuze:boolean loadEmpPluginClass() | load emp plugin class
+../3-Phrases/vuze:ExternalSeedPlugin getExternalSeedPlugin() | get external seed plugin
+../3-Phrases/vuze:boolean integratePluginMessages(QString;QClassLoader;) | integrate plugin messages
+../3-Phrases/vuze:boolean integratePluginMessages(QResourceBundle;) | integrate plugin messages
+../3-Phrases/vuze:void addPluginBundle(QString;QClassLoader;) | add plugin bundle
+../3-Phrases/vuze:Connection getPluginConnection() | get plugin connection
+../3-Phrases/vuze:Connection getPluginConnection() | get plugin connection
+../3-Phrases/vuze:void setPluginStringProperty(QTOTorrent;QString;QString;) | set plugin string property
+../3-Phrases/vuze:String getPluginStringProperty(QTOTorrent;QString;) | get plugin string property
+../3-Phrases/vuze:void setPluginMapProperty(QTOTorrent;QString;QMap;) | set plugin map property
+../3-Phrases/vuze:Map getPluginMapProperty(QTOTorrent;QString;) | get plugin map property
+../3-Phrases/vuze:CONS AZPluginConnection(QURL;) | az plugin connection
+../3-Phrases/vuze:String getPluginViewName() | get plugin view name
+../3-Phrases/vuze:boolean getPluginBooleanParameter(QString;) | get plugin boolean parameter
+../3-Phrases/vuze:boolean getPluginBooleanParameter(QString;Z) | get plugin boolean parameter
+../3-Phrases/vuze:byte[] getPluginByteParameter(QString;) | get plugin byte parameter
+../3-Phrases/vuze:byte[] getPluginByteParameter(QString;[B) | get plugin byte parameter
+../3-Phrases/vuze:int[] getPluginColorParameter(QString;) | get plugin color parameter
+../3-Phrases/vuze:int[] getPluginColorParameter(QString;[I) | get plugin color parameter
+../3-Phrases/vuze:float getPluginFloatParameter(QString;) | get plugin float parameter
+../3-Phrases/vuze:float getPluginFloatParameter(QString;F) | get plugin float parameter
+../3-Phrases/vuze:int getPluginIntParameter(QString;) | get plugin int parameter
+../3-Phrases/vuze:int getPluginIntParameter(QString;I) | get plugin int parameter
+../3-Phrases/vuze:List getPluginListParameter(QString;QList;) | get plugin list parameter
+../3-Phrases/vuze:long getPluginLongParameter(QString;) | get plugin long parameter
+../3-Phrases/vuze:long getPluginLongParameter(QString;J) | get plugin long parameter
+../3-Phrases/vuze:Map getPluginMapParameter(QString;QMap;) | get plugin map parameter
+../3-Phrases/vuze:String getPluginStringParameter(QString;) | get plugin string parameter
+../3-Phrases/vuze:String getPluginStringParameter(QString;QString;) | get plugin string parameter
+../3-Phrases/vuze:String[] getPluginStringListParameter(QString;) | get plugin string list parameter
+../3-Phrases/vuze:void setPluginParameter(QString;Z) | set plugin parameter
+../3-Phrases/vuze:void setPluginParameter(QString;[B) | set plugin parameter
+../3-Phrases/vuze:void setPluginParameter(QString;F) | set plugin parameter
+../3-Phrases/vuze:void setPluginParameter(QString;I) | set plugin parameter
+../3-Phrases/vuze:void setPluginParameter(QString;IZ) | set plugin parameter
+../3-Phrases/vuze:void setPluginParameter(QString;J) | set plugin parameter
+../3-Phrases/vuze:void setPluginParameter(QString;QString;) | set plugin parameter
+../3-Phrases/vuze:void setPluginStringListParameter(QString;[QString;) | set plugin string list parameter
+../3-Phrases/vuze:void setPluginColorParameter(QString;[I) | set plugin color parameter
+../3-Phrases/vuze:void setPluginColorParameter(QString;[IZ) | set plugin color parameter
+../3-Phrases/vuze:void setPluginListParameter(QString;QList;) | set plugin list parameter
+../3-Phrases/vuze:void setPluginMapParameter(QString;QMap;) | set plugin map parameter
+../3-Phrases/vuze:boolean removePluginParameter(QString;) | remove plugin parameter
+../3-Phrases/vuze:boolean removePluginColorParameter(QString;) | remove plugin color parameter
+../3-Phrases/vuze:String getPluginConfigKeyPrefix() | get plugin config key prefix
+../3-Phrases/vuze:ConfigParameter getPluginParameter(QString;) | get plugin parameter
+../3-Phrases/vuze:File getPluginUserFile(QString;) | get plugin user file
+../3-Phrases/vuze:boolean hasPluginParameter(QString;) | has plugin parameter
+../3-Phrases/vuze:void setPluginConfigKeyPrefix(QString;) | set plugin config key prefix
+../3-Phrases/vuze:PluginConfigSource getPluginConfigSource() | get plugin config source
+../3-Phrases/vuze:void setPluginConfigSource(QPluginConfigSource;) | set plugin config source
+../3-Phrases/vuze:CONS PluginException(QString;) | plugin exception
+../3-Phrases/vuze:CONS PluginException(QString;QThrowable;) | plugin exception
+../3-Phrases/vuze:CONS PluginException(QThrowable;) | plugin exception
+../3-Phrases/vuze:void registerPlugin(QClass;) | register plugin
+../3-Phrases/vuze:void registerPlugin(QPlugin;QString;) | register plugin
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByID(QString;Z) | get plugin interface by id
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByClass(QString;Z) | get plugin interface by class
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByClass(QClass;Z) | get plugin interface by class
+../3-Phrases/vuze:PluginInterface[] getPluginInterfaces() | get plugin interfaces
+../3-Phrases/vuze:PluginInterface getDefaultPluginInterface() | get default plugin interface
+../3-Phrases/vuze:PluginInterface[] getPlugins() | get plugins
+../3-Phrases/vuze:void firePluginEvent(I) | fire plugin event
+../3-Phrases/vuze:PluginInstaller getPluginInstaller() | get plugin installer
+../3-Phrases/vuze:void refreshPluginList() | refresh plugin list
+../3-Phrases/vuze:void refreshPluginList(Z) | refresh plugin list
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByID(QString;) | get plugin interface by id
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByClass(QString;) | get plugin interface by class
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByClass(QClass;) | get plugin interface by class
+../3-Phrases/vuze:Properties getPluginProperties() | get plugin properties
+../3-Phrases/vuze:String getPluginDirectoryName() | get plugin directory name
+../3-Phrases/vuze:String getPluginName() | get plugin name
+../3-Phrases/vuze:String getPluginVersion() | get plugin version
+../3-Phrases/vuze:String getPluginID() | get plugin id
+../3-Phrases/vuze:PluginConfig getPluginconfig() | get plugin config
+../3-Phrases/vuze:PluginConfigUIFactory getPluginConfigUIFactory() | get plugin config ui factory
+../3-Phrases/vuze:ClassLoader getPluginClassLoader() | get plugin class loader
+../3-Phrases/vuze:PluginInterface getLocalPluginInterface(QClass;QString;) | get local plugin interface
+../3-Phrases/vuze:Plugin getPlugin() | get plugin
+../3-Phrases/vuze:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/vuze:void firePluginEvent(QPluginEvent;) | fire plugin event
+../3-Phrases/vuze:PluginState getPluginState() | get plugin state
+../3-Phrases/vuze:String[] getDefaultPlugins() | get default plugins
+../3-Phrases/vuze:void setDefaultPluginEnabled(QString;Z) | set default plugin enabled
+../3-Phrases/vuze:boolean isDefaultPluginEnabled(QString;) | is default plugin enabled
+../3-Phrases/vuze:StandardPlugin[] getStandardPlugins() | get standard plugins
+../3-Phrases/vuze:PluginInterface getAlreadyInstalledPlugin() | get already installed plugin
+../3-Phrases/vuze:PluginInterface getPluginInterface() | get plugin interface
+../3-Phrases/vuze:void setPluginStringProperty(QString;QString;) | set plugin string property
+../3-Phrases/vuze:String getPluginStringProperty(QString;) | get plugin string property
+../3-Phrases/vuze:TorrentAttribute getPluginAttribute(QString;) | get plugin attribute
+../3-Phrases/vuze:BasicPluginViewModel getBasicPluginViewModel(QString;) | get basic plugin view model
+../3-Phrases/vuze:PluginView createPluginView(QPluginViewModel;) | create plugin view
+../3-Phrases/vuze:BasicPluginConfigModel createBasicPluginConfigModel(QString;) | create basic plugin config model
+../3-Phrases/vuze:BasicPluginConfigModel createBasicPluginConfigModel(QString;QString;) | create basic plugin config model
+../3-Phrases/vuze:PluginConfigModel[] getPluginConfigModels() | get plugin config models
+../3-Phrases/vuze:BasicPluginViewModel createBasicPluginViewModel(QString;) | create basic plugin view model
+../3-Phrases/vuze:PluginInterface getPluginInterface() | get plugin interface
+../3-Phrases/vuze:PluginInterface getDefaultPluginInterface() | get default plugin interface
+../3-Phrases/vuze:int comparePluginVersions(QString;QString;) | compare plugin versions
+../3-Phrases/vuze:void registerPlugin(QClass;) | register plugin
+../3-Phrases/vuze:void registerPlugin(QPlugin;QString;) | register plugin
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByID(QString;) | get plugin interface by id
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByID(QString;Z) | get plugin interface by id
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByClass(QClass;) | get plugin interface by class
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByClass(QClass;Z) | get plugin interface by class
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByClass(QString;) | get plugin interface by class
+../3-Phrases/vuze:PluginInterface getPluginInterfaceByClass(QString;Z) | get plugin interface by class
+../3-Phrases/vuze:PluginInterface[] getPluginInterfaces() | get plugin interfaces
+../3-Phrases/vuze:PluginInterface getDefaultPluginInterface() | get default plugin interface
+../3-Phrases/vuze:CONS PluginManagerImpl(QPluginInitializer;) | plugin manager impl
+../3-Phrases/vuze:PluginInterface[] getPlugins() | get plugins
+../3-Phrases/vuze:void firePluginEvent(I) | fire plugin event
+../3-Phrases/vuze:PluginInstaller getPluginInstaller() | get plugin installer
+../3-Phrases/vuze:void refreshPluginList(Z) | refresh plugin list
+../3-Phrases/vuze:CONS PluginStateImpl(QPluginInterfaceImpl;QPluginInitializer;) | plugin state impl
+../3-Phrases/vuze:CONS FailedPlugin() | failed plugin
+../3-Phrases/vuze:CONS FailedPlugin(QString;QString;) | failed plugin
+../3-Phrases/vuze:CONS PluginInterfaceImpl(QPlugin;QPluginInitializer;QObject;QClassLoader;QString;QProperties;QString;QString;QString;) | plugin interface impl
+../3-Phrases/vuze:Plugin getPlugin() | get plugin
+../3-Phrases/vuze:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/vuze:void setPluginName(QString;) | set plugin name
+../3-Phrases/vuze:String getPluginName() | get plugin name
+../3-Phrases/vuze:void setPluginVersion(QString;) | set plugin version
+../3-Phrases/vuze:String getPluginVersion() | get plugin version
+../3-Phrases/vuze:String getPluginID() | get plugin id
+../3-Phrases/vuze:Properties getPluginProperties() | get plugin properties
+../3-Phrases/vuze:String getPluginDirectoryName() | get plugin directory name
+../3-Phrases/vuze:void setPluginDirectoryName(QString;) | set plugin directory name
+../3-Phrases/vuze:PluginConfig getPluginconfig() | get plugin config
+../3-Phrases/vuze:PluginConfigUIFactory getPluginConfigUIFactory() | get plugin config ui factory
+../3-Phrases/vuze:String getPluginConfigKey() | get plugin config key
+../3-Phrases/vuze:void firePluginEvent(QPluginEvent;) | fire plugin event
+../3-Phrases/vuze:ClassLoader getPluginClassLoader() | get plugin class loader
+../3-Phrases/vuze:PluginInterface getLocalPluginInterface(QClass;QString;) | get local plugin interface
+../3-Phrases/vuze:PluginState getPluginState() | get plugin state
+../3-Phrases/vuze:PluginStateImpl getPluginStateImpl() | get plugin state impl
+../3-Phrases/vuze:void setEnablePluginCoreConfigChange(Z) | set enable plugin core config change
+../3-Phrases/vuze:CONS PluginConfigImpl(QPluginInterface;QString;) | plugin config impl
+../3-Phrases/vuze:String getPluginConfigKeyPrefix() | get plugin config key prefix
+../3-Phrases/vuze:void setPluginConfigKeyPrefix(QString;) | set plugin config key prefix
+../3-Phrases/vuze:boolean getPluginBooleanParameter(QString;) | get plugin boolean parameter
+../3-Phrases/vuze:boolean getPluginBooleanParameter(QString;Z) | get plugin boolean parameter
+../3-Phrases/vuze:byte[] getPluginByteParameter(QString;) | get plugin byte parameter
+../3-Phrases/vuze:byte[] getPluginByteParameter(QString;[B) | get plugin byte parameter
+../3-Phrases/vuze:int[] getPluginColorParameter(QString;) | get plugin color parameter
+../3-Phrases/vuze:int[] getPluginColorParameter(QString;[I) | get plugin color parameter
+../3-Phrases/vuze:float getPluginFloatParameter(QString;) | get plugin float parameter
+../3-Phrases/vuze:float getPluginFloatParameter(QString;F) | get plugin float parameter
+../3-Phrases/vuze:int getPluginIntParameter(QString;) | get plugin int parameter
+../3-Phrases/vuze:int getPluginIntParameter(QString;I) | get plugin int parameter
+../3-Phrases/vuze:long getPluginLongParameter(QString;) | get plugin long parameter
+../3-Phrases/vuze:long getPluginLongParameter(QString;J) | get plugin long parameter
+../3-Phrases/vuze:String getPluginStringParameter(QString;) | get plugin string parameter
+../3-Phrases/vuze:String getPluginStringParameter(QString;QString;) | get plugin string parameter
+../3-Phrases/vuze:void setPluginParameter(QString;Z) | set plugin parameter
+../3-Phrases/vuze:void setPluginParameter(QString;[B) | set plugin parameter
+../3-Phrases/vuze:void setPluginParameter(QString;F) | set plugin parameter
+../3-Phrases/vuze:void setPluginParameter(QString;I) | set plugin parameter
+../3-Phrases/vuze:void setPluginParameter(QString;J) | set plugin parameter
+../3-Phrases/vuze:void setPluginParameter(QString;QString;) | set plugin parameter
+../3-Phrases/vuze:void setPluginColorParameter(QString;[I) | set plugin color parameter
+../3-Phrases/vuze:void setPluginColorParameter(QString;[IZ) | set plugin color parameter
+../3-Phrases/vuze:String[] getPluginStringListParameter(QString;) | get plugin string list parameter
+../3-Phrases/vuze:void setPluginStringListParameter(QString;[QString;) | set plugin string list parameter
+../3-Phrases/vuze:List getPluginListParameter(QString;QList;) | get plugin list parameter
+../3-Phrases/vuze:void setPluginListParameter(QString;QList;) | set plugin list parameter
+../3-Phrases/vuze:Map getPluginMapParameter(QString;QMap;) | get plugin map parameter
+../3-Phrases/vuze:void setPluginMapParameter(QString;QMap;) | set plugin map parameter
+../3-Phrases/vuze:void setPluginParameter(QString;IZ) | set plugin parameter
+../3-Phrases/vuze:ConfigParameter getPluginParameter(QString;) | get plugin parameter
+../3-Phrases/vuze:boolean removePluginParameter(QString;) | remove plugin parameter
+../3-Phrases/vuze:boolean removePluginColorParameter(QString;) | remove plugin color parameter
+../3-Phrases/vuze:File getPluginUserFile(QString;) | get plugin user file
+../3-Phrases/vuze:boolean hasPluginParameter(QString;) | has plugin parameter
+../3-Phrases/vuze:PluginConfigSource getPluginConfigSource() | get plugin config source
+../3-Phrases/vuze:void setPluginConfigSource(QPluginConfigSource;) | set plugin config source
+../3-Phrases/vuze:String[] getDefaultPlugins() | get default plugins
+../3-Phrases/vuze:void setDefaultPluginEnabled(QString;Z) | set default plugin enabled
+../3-Phrases/vuze:boolean isDefaultPluginEnabled(QString;) | is default plugin enabled
+../3-Phrases/vuze:CONS PluginInitializer(QAzureusCore;QAzureusCoreOperation;) | plugin initializer
+../3-Phrases/vuze:List loadPlugins(QAzureusCore;ZZZZ) | load plugins
+../3-Phrases/vuze:List loadPluginsFromDir(QFile;IIZZZ) | load plugins from dir
+../3-Phrases/vuze:List loadPluginFromDir(QFile;ZZZ) | load plugin from dir
+../3-Phrases/vuze:void initialisePlugins() | initialise plugins
+../3-Phrases/vuze:void checkPluginsInitialised() | check plugins initialised
+../3-Phrases/vuze:void initialisePlugin(QList;) | initialise plugin
+../3-Phrases/vuze:void initializePluginFromClass(QClass;QString;QString;ZZZ) | initialize plugin from class
+../3-Phrases/vuze:void initializePluginFromInstance(QPlugin;QString;QString;) | initialize plugin from instance
+../3-Phrases/vuze:void unloadPlugin(QPluginInterfaceImpl;) | unload plugin
+../3-Phrases/vuze:void reloadPlugin(QPluginInterfaceImpl;) | reload plugin
+../3-Phrases/vuze:void reloadPlugin(QPluginInterfaceImpl;ZZ) | reload plugin
+../3-Phrases/vuze:List getPluginInterfaces() | get plugin interfaces
+../3-Phrases/vuze:List getPluginInterfacesSupport() | get plugin interfaces support
+../3-Phrases/vuze:PluginInterface[] getPlugins() | get plugins
+../3-Phrases/vuze:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/vuze:PluginInterfaceImpl getPluginFromClass(QClass;) | get plugin from class
+../3-Phrases/vuze:PluginInterfaceImpl getPluginFromClass(QString;) | get plugin from class
+../3-Phrases/vuze:CONS PluginConfigSourceImpl(QPluginConfig;QString;) | plugin config source impl
+../3-Phrases/vuze:String toPluginName(QString;) | to plugin name
+../3-Phrases/vuze:CONS PluginDeprecationException() | plugin deprecation exception
+../3-Phrases/vuze:CONS PluginDeprecationException(QString;) | plugin deprecation exception
+../3-Phrases/vuze:CONS PluginDeprecationException(QThrowable;) | plugin deprecation exception
+../3-Phrases/vuze:CONS PluginDeprecationException(QString;QThrowable;) | plugin deprecation exception
+../3-Phrases/vuze:CONS StandardPluginImpl(QPluginInstallerImpl;QSFPluginDetails;QString;) | standard plugin impl
+../3-Phrases/vuze:CONS PluginInstallerImpl(QPluginManager;) | plugin installer impl
+../3-Phrases/vuze:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/vuze:StandardPlugin[] getStandardPlugins() | get standard plugins
+../3-Phrases/vuze:PluginInterface getAlreadyInstalledPlugin(QString;) | get already installed plugin
+../3-Phrases/vuze:CONS FilePluginInstallerImpl(QPluginInstallerImpl;QFile;) | file plugin installer impl
+../3-Phrases/vuze:CONS InstallablePluginImpl(QPluginInstallerImpl;) | installable plugin impl
+../3-Phrases/vuze:PluginInterface getAlreadyInstalledPlugin() | get already installed plugin
+../3-Phrases/vuze:LaunchablePlugin[] findLaunchablePlugins(QLoggerChannelListener;) | find launchable plugins
+../3-Phrases/vuze:Plugin getPreloadedPlugin(QString;) | get preloaded plugin
+../3-Phrases/vuze:int LogTypePluginToCore(I) | log type plugin to core
+../3-Phrases/vuze:PluginInterface getPluginInterface() | get plugin interface
+../3-Phrases/vuze:void PluginFileLoggerAdapater(QFileLogging;QFileLoggerAdapter;) | plugin file logger adapater
+../3-Phrases/vuze:Message getPluginMessage() | get plugin message
+../3-Phrases/vuze:boolean pluginPeerSourceEnabled() | plugin peer source enabled
+../3-Phrases/vuze:Connection getPluginConnection() | get plugin connection
+../3-Phrases/vuze:void setPluginStringProperty(QString;QString;) | set plugin string property
+../3-Phrases/vuze:String getPluginStringProperty(QString;) | get plugin string property
+../3-Phrases/vuze:TorrentAttribute getPluginAttribute(QString;) | get plugin attribute
+../3-Phrases/vuze:CONS TorrentAttributePluginImpl(QString;) | torrent attribute plugin impl
+../3-Phrases/vuze:PluginInterface getPluginInterface() | get plugin interface
+../3-Phrases/vuze:BasicPluginViewModel getBasicPluginViewModel(QString;) | get basic plugin view model
+../3-Phrases/vuze:PluginView createPluginView(QPluginViewModel;) | create plugin view
+../3-Phrases/vuze:BasicPluginViewModel createBasicPluginViewModel(QString;) | create basic plugin view model
+../3-Phrases/vuze:BasicPluginConfigModel createBasicPluginConfigModel(QString;) | create basic plugin config model
+../3-Phrases/vuze:BasicPluginConfigModel createBasicPluginConfigModel(QString;QString;) | create basic plugin config model
+../3-Phrases/vuze:PluginConfigModel[] getPluginConfigModels() | get plugin config models
+../3-Phrases/vuze:PluginView createPluginView(QPluginViewModel;) | create plugin view
+../3-Phrases/vuze:void PluginViewWrapper(QPluginViewModel;) | plugin view wrapper
+../3-Phrases/vuze:String getPluginViewName() | get plugin view name
+../3-Phrases/vuze:CONS PluginConfigUIFactoryImpl(QPluginConfigImpl;QString;) | plugin config ui factory impl
+../3-Phrases/vuze:void addPlugin([QParameter;QString;) | add plugin
+../3-Phrases/vuze:CONS BasicPluginConfigModelImpl(QUIManagerImpl;QString;QString;) | basic plugin config model impl
+../3-Phrases/vuze:PluginInterface getPluginInterface() | get plugin interface
+../3-Phrases/vuze:CONS BasicPluginViewModelImpl(QUIManagerImpl;QString;) | basic plugin view model impl
+../3-Phrases/vuze:void setPluginThreadContext(QPluginInterface;) | set plugin thread context
+../3-Phrases/vuze:PluginInterface getPluginThreadContext() | get plugin thread context
+../3-Phrases/vuze:RPPluginInterface getPlugin(QRPRequestDispatcher;) | get plugin
+../3-Phrases/vuze:CONS RPPluginInterface(QPluginInterface;) | rp plugin interface
+../3-Phrases/vuze:PluginManager getPluginManager() | get plugin manager
+../3-Phrases/vuze:Plugin getPlugin() | get plugin
+../3-Phrases/vuze:Properties getPluginProperties() | get plugin properties
+../3-Phrases/vuze:String getPluginDirectoryName() | get plugin directory name
+../3-Phrases/vuze:String getPluginName() | get plugin name
+../3-Phrases/vuze:String getPluginID() | get plugin id
+../3-Phrases/vuze:String getPluginVersion() | get plugin version
+../3-Phrases/vuze:PluginConfig getPluginconfig() | get plugin config
+../3-Phrases/vuze:PluginConfigUIFactory getPluginConfigUIFactory() | get plugin config ui factory
+../3-Phrases/vuze:ClassLoader getPluginClassLoader() | get plugin class loader
+../3-Phrases/vuze:PluginInterface getLocalPluginInterface(QClass;QString;) | get local plugin interface
+../3-Phrases/vuze:void firePluginEvent(QPluginEvent;) | fire plugin event
+../3-Phrases/vuze:PluginState getPluginState() | get plugin state
+../3-Phrases/vuze:PluginInterface getPluginInterface() | get plugin interface
+../3-Phrases/vuze:void setPluginInterface(QPluginInterface;) | set plugin interface
+../3-Phrases/vuze:RPPluginInterface createRemotePluginInterface(QPluginInterface;) | create remote plugin interface
+../3-Phrases/vuze:CONS RPPluginConfig(QPluginConfig;) | rp plugin config
+../3-Phrases/vuze:String getPluginConfigKeyPrefix() | get plugin config key prefix
+../3-Phrases/vuze:List getPluginListParameter(QString;QList;) | get plugin list parameter
+../3-Phrases/vuze:void setPluginListParameter(QString;QList;) | set plugin list parameter
+../3-Phrases/vuze:Map getPluginMapParameter(QString;QMap;) | get plugin map parameter
+../3-Phrases/vuze:void setPluginMapParameter(QString;QMap;) | set plugin map parameter
+../3-Phrases/vuze:int getPluginIntParameter(QString;) | get plugin int parameter
+../3-Phrases/vuze:int getPluginIntParameter(QString;I) | get plugin int parameter
+../3-Phrases/vuze:String getPluginStringParameter(QString;) | get plugin string parameter
+../3-Phrases/vuze:String getPluginStringParameter(QString;QString;) | get plugin string parameter
+../3-Phrases/vuze:boolean getPluginBooleanParameter(QString;) | get plugin boolean parameter
+../3-Phrases/vuze:byte[] getPluginByteParameter(QString;[B) | get plugin byte parameter
+../3-Phrases/vuze:boolean getPluginBooleanParameter(QString;Z) | get plugin boolean parameter
+../3-Phrases/vuze:void setPluginParameter(QString;I) | set plugin parameter
+../3-Phrases/vuze:void setPluginParameter(QString;IZ) | set plugin parameter
+../3-Phrases/vuze:void setPluginParameter(QString;QString;) | set plugin parameter
+../3-Phrases/vuze:void setPluginParameter(QString;Z) | set plugin parameter
+../3-Phrases/vuze:void setPluginParameter(QString;[B) | set plugin parameter
+../3-Phrases/vuze:ConfigParameter getPluginParameter(QString;) | get plugin parameter
+../3-Phrases/vuze:File getPluginUserFile(QString;) | get plugin user file
+../3-Phrases/vuze:void setPluginConfigKeyPrefix(QString;) | set plugin config key prefix
+../3-Phrases/vuze:boolean hasPluginParameter(QString;) | has plugin parameter
+../3-Phrases/vuze:boolean removePluginParameter(QString;) | remove plugin parameter
+../3-Phrases/vuze:boolean removePluginColorParameter(QString;) | remove plugin color parameter
+../3-Phrases/vuze:byte[] getPluginByteParameter(QString;) | get plugin byte parameter
+../3-Phrases/vuze:float getPluginFloatParameter(QString;) | get plugin float parameter
+../3-Phrases/vuze:float getPluginFloatParameter(QString;F) | get plugin float parameter
+../3-Phrases/vuze:long getPluginLongParameter(QString;) | get plugin long parameter
+../3-Phrases/vuze:long getPluginLongParameter(QString;J) | get plugin long parameter
+../3-Phrases/vuze:void setPluginParameter(QString;F) | set plugin parameter
+../3-Phrases/vuze:void setPluginParameter(QString;J) | set plugin parameter
+../3-Phrases/vuze:int[] getPluginColorParameter(QString;) | get plugin color parameter
+../3-Phrases/vuze:int[] getPluginColorParameter(QString;[I) | get plugin color parameter
+../3-Phrases/vuze:int[] getPluginColorParameter(QString;[IZ) | get plugin color parameter
+../3-Phrases/vuze:void setPluginColorParameter(QString;[I) | set plugin color parameter
+../3-Phrases/vuze:void setPluginColorParameter(QString;[IZ) | set plugin color parameter
+../3-Phrases/vuze:PluginConfigSource getPluginConfigSource() | get plugin config source
+../3-Phrases/vuze:void setPluginConfigSource(QPluginConfigSource;) | set plugin config source
+../3-Phrases/vuze:void setPluginStringListParameter(QString;[QString;) | set plugin string list parameter
+../3-Phrases/vuze:String[] getPluginStringListParameter(QString;) | get plugin string list parameter
+../3-Phrases/vuze:RPPluginInterface getPlugin() | get plugin
+../3-Phrases/vuze:void setPluginStringProperty(QString;QString;) | set plugin string property
+../3-Phrases/vuze:String getPluginStringProperty(QString;) | get plugin string property
+../3-Phrases/vuze:TorrentAttribute getPluginAttribute(QString;) | get plugin attribute
+../3-Phrases/vuze:void installRecommendedPlugin(QPluginInstaller;QStandardPlugin;) | install recommended plugin
+../3-Phrases/vuze:String[] getPluginIDs() | get plugin ids
+../3-Phrases/vuze:SFPluginDetails getPluginDetails(QString;) | get plugin details
+../3-Phrases/vuze:SFPluginDetails[] getPluginDetails() | get plugin details
+../3-Phrases/vuze:CONS SFPluginDetailsException(QString;) | sf plugin details exception
+../3-Phrases/vuze:CONS SFPluginDetailsException(QString;QThrowable;) | sf plugin details exception
+../3-Phrases/vuze:CONS SFPluginDetailsImpl(QSFPluginDetailsLoaderImpl;QString;QString;QString;QString;QString;) | sf plugin details impl
+../3-Phrases/vuze:CONS SFPluginDetailsLoaderImpl() | sf plugin details loader impl
+../3-Phrases/vuze:void loadPluginList() | load plugin list
+../3-Phrases/vuze:void loadPluginDetails(QSFPluginDetailsImpl;) | load plugin details
+../3-Phrases/vuze:boolean processPluginPage(QSFPluginDetailsImpl;QHTMLPage;) | process plugin page
+../3-Phrases/vuze:boolean processPluginPage(QSFPluginDetailsImpl;[QHTMLTable;) | process plugin page
+../3-Phrases/vuze:String[] getPluginIDs() | get plugin ids
+../3-Phrases/vuze:SFPluginDetails getPluginDetails(QString;) | get plugin details
+../3-Phrases/vuze:SFPluginDetails[] getPluginDetails() | get plugin details
+../3-Phrases/vuze:void registerPluginCommand(QClass;) | register plugin command
+../3-Phrases/vuze:void unregisterPluginCommand(QClass;) | unregister plugin command
+../3-Phrases/vuze:void registerPluginCommands() | register plugin commands
+../3-Phrases/vuze:CONS Plugin() | plugin
+../3-Phrases/vuze:void closePluginViews(QString;) | close plugin views
+../3-Phrases/vuze:void MenuItemPluginMenuControllerImpl([QObject;) | menu item plugin menu controller impl
+../3-Phrases/vuze:void addPluginMenuItems(QComposite;[QMenuItem;QMenu;ZZQPluginMenuController;) | add plugin menu items
+../3-Phrases/vuze:CONS PluginDirectoryParameter(QComposite;QDirectoryParameterImpl;) | plugin directory parameter
+../3-Phrases/vuze:CONS PluginStringsParameter(QComposite;QStringListParameterImpl;) | plugin strings parameter
+../3-Phrases/vuze:CONS PluginParameter(QComposite;QParameter;) | plugin parameter
+../3-Phrases/vuze:CONS PluginIntParameter(QComposite;QIntParameterImpl;) | plugin int parameter
+../3-Phrases/vuze:CONS PluginBooleanParameter(QComposite;QBooleanParameterImpl;) | plugin boolean parameter
+../3-Phrases/vuze:CONS PluginColorParameter(QComposite;QColorParameter;) | plugin color parameter
+../3-Phrases/vuze:CONS PluginIntsParameter(QComposite;QIntsParameter;) | plugin ints parameter
+../3-Phrases/vuze:CONS PluginFileParameter(QComposite;QFileParameter;) | plugin file parameter
+../3-Phrases/vuze:CONS PluginStringParameter(QComposite;QStringParameterImpl;) | plugin string parameter
+../3-Phrases/vuze:CONS PluginsMenuHelper() | plugins menu helper
+../3-Phrases/vuze:void buildPluginMenu(QMenu;QShell;Z) | build plugin menu
+../3-Phrases/vuze:void addPluginView(QString;QUISWTViewEventListener;) | add plugin view
+../3-Phrases/vuze:void removePluginViewsWithID(QString;QMap;) | remove plugin views with id
+../3-Phrases/vuze:void removePluginViews(QString;) | remove plugin views
+../3-Phrases/vuze:void addPluginView(QAbstractIView;QString;) | add plugin view
+../3-Phrases/vuze:void removePluginView(QAbstractIView;QString;) | remove plugin view
+../3-Phrases/vuze:IViewInfo[] getPluginViewsInfo() | get plugin views info
+../3-Phrases/vuze:IViewInfo[] getPluginLogViewsInfo() | get plugin log views info
+../3-Phrases/vuze:void addPluginAddedViewListener(QPluginAddedViewListener;) | add plugin added view listener
+../3-Phrases/vuze:void triggerPluginAddedViewListeners(QIViewInfo;) | trigger plugin added view listeners
+../3-Phrases/vuze:void pluginViewAdded(QIViewInfo;) | plugin view added
+../3-Phrases/vuze:void addPluginsMenu(QShell;) | add plugins menu
+../3-Phrases/vuze:boolean requiresPluginInitCompleteBeforeStartedEvent() | requires plugin init complete before started event
+../3-Phrases/vuze:void addPluginView(QPluginView;) | add plugin view
+../3-Phrases/vuze:void openPluginView(QPluginView;) | open plugin view
+../3-Phrases/vuze:void removePluginView(QPluginView;) | remove plugin view
+../3-Phrases/vuze:void addPluginView(QUISWTPluginView;) | add plugin view
+../3-Phrases/vuze:void openPluginView(QUISWTPluginView;) | open plugin view
+../3-Phrases/vuze:void removePluginView(QUISWTPluginView;) | remove plugin view
+../3-Phrases/vuze:void addPluginView(QString;QUISWTViewEventListener;) | add plugin view
+../3-Phrases/vuze:UISWTInstanceImpl getSWTPluginInstanceImpl() | get swt plugin instance impl
+../3-Phrases/vuze:void closePluginView(QIView;) | close plugin view
+../3-Phrases/vuze:UISWTView[] getPluginViews() | get plugin views
+../3-Phrases/vuze:void openPluginView(QString;QString;QUISWTViewEventListener;QObject;Z) | open plugin view
+../3-Phrases/vuze:void removePluginView(QString;) | remove plugin view
+../3-Phrases/vuze:void closePluginViews(QString;) | close plugin views
+../3-Phrases/vuze:void openPluginView(QAbstractIView;QString;) | open plugin view
+../3-Phrases/vuze:void postPluginSetup(II) | post plugin setup
+../3-Phrases/vuze:Item openPluginView(QString;QString;QUISWTViewEventListener;QObject;ZZ) | open plugin view
+../3-Phrases/vuze:void closePluginViews(QString;) | close plugin views
+../3-Phrases/vuze:UISWTView[] getPluginViews() | get plugin views
+../3-Phrases/vuze:void openPluginView(QAbstractIView;QString;) | open plugin view
+../3-Phrases/vuze:void closePluginView(QIView;) | close plugin view
+../3-Phrases/vuze:void removeActivePluginView(QString;) | remove active plugin view
+../3-Phrases/vuze:MenuItem createPluginsMenuItem(QMenu;Z) | create plugins menu item
+../3-Phrases/vuze:MenuItem addGetPluginsMenuItem(QMenu;) | add get plugins menu item
+../3-Phrases/vuze:MenuItem addPluginInstallMenuItem(QMenu;) | add plugin install menu item
+../3-Phrases/vuze:MenuItem addPluginUnInstallMenuItem(QMenu;) | add plugin un install menu item
+../3-Phrases/vuze:String getPluginMenuIdentifier(QObject;) | get plugin menu identifier
+../3-Phrases/vuze:String[] getPluginMenuIdentifiers(QObject;) | get plugin menu identifiers
+../3-Phrases/vuze:Object getPluginMenuContextObject() | get plugin menu context object
+../3-Phrases/vuze:String[] getPluginMenuIdentifiers(QObject;) | get plugin menu identifiers
+../3-Phrases/vuze:Object getPluginMenuContextObject() | get plugin menu context object
+../3-Phrases/vuze:String getPluginViewName() | get plugin view name
+../3-Phrases/vuze:String getPluginViewName() | get plugin view name
+../3-Phrases/vuze:String getPluginViewName() | get plugin view name
+../3-Phrases/vuze:CONS BasicPluginConfigImpl(QBasicPluginConfigModel;) | basic plugin config impl
+../3-Phrases/vuze:CONS BasicPluginViewImpl(QBasicPluginViewModel;) | basic plugin view impl
+../3-Phrases/vuze:void loadPluginDetails(QTableItem;) | load plugin details
+../3-Phrases/vuze:CONS InstallPluginWizard(QAzureusCore;QDisplay;) | install plugin wizard
+../3-Phrases/vuze:CONS InstallPluginWizard(QAzureusCore;QDisplay;QString;QStandardPlugin;) | install plugin wizard
+../3-Phrases/vuze:StandardPlugin[] getStandardPlugins() | get standard plugins
+../3-Phrases/vuze:void setPluginList(QList;) | set plugin list
+../3-Phrases/vuze:List getPluginList() | get plugin list
+../3-Phrases/vuze:CONS UnInstallPluginWizard(QAzureusCore;QDisplay;) | un install plugin wizard
+../3-Phrases/vuze:void setPluginList(QList;) | set plugin list
+../3-Phrases/vuze:List getPluginList() | get plugin list
+../3-Phrases/vuze:String getIconBarPluginIdentity() | get icon bar plugin identity
+../3-Phrases/vuze:Object[] getIconBarPluginContextData() | get icon bar plugin context data
+../3-Phrases/vuze:String getPluginViewName() | get plugin view name
+../3-Phrases/vuze:CONS ConfigSectionPlugins(QConfigView;QAzureusCore;) | config section plugins
+../3-Phrases/vuze:List rebuildPluginIFs() | rebuild plugin ifs
+../3-Phrases/vuze:void initPluginSubSections() | init plugin sub sections
+../3-Phrases/vuze:void pluginError(QThrowable;) | plugin error
+../3-Phrases/vuze:void pluginError(QString;) | plugin error
+../3-Phrases/vuze:CONS WebPlugin() | web plugin
+../3-Phrases/vuze:CONS WebPlugin(QProperties;) | web plugin
+../3-Phrases/vuze:CONS WebPluginAccessController(QPluginInterface;) | web plugin access controller
+../3-Phrases/vuze:String getPluginID() | get plugin id
+../3-Phrases/vuze:void checkBootstrapPlugins() | check bootstrap plugins
+../3-Phrases/vuze:boolean ensurePluginPresent(QString;QString;QString;) | ensure plugin present
+../3-Phrases/vuze:void writePluginProperties(QFile;[QString;) | write plugin properties
+../3-Phrases/vuze:String getUpdaterPluginVersion() | get updater plugin version
+../3-Phrases/weka:void setUpPluginsToolBar() | set up plugins tool bar

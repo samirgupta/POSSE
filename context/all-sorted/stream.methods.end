@@ -1,0 +1,335 @@
+../3-Phrases/Base_Verb:static void extractPacketsToZipStream(String clientId, ReadableDatabase db, DatabaseKey packetKeys, OutputStream outputStream, MartusCrypto security) | void extract packets to zip stream
+../3-Phrases/Base_Verb:InputStream getResourceAsStream(String resourceName) | get resource as stream
+../3-Phrases/Base_Verb:InputStream createSOAPStreamFromRequestStream(InputStream req) | create soap stream from request stream
+../3-Phrases/Base_Verb:InputStream getBinaryStream(String columnName) | get binary stream
+../3-Phrases/Base_Verb:OutputStream getRecordOutputStream() | get record output stream
+../3-Phrases/Base_Verb:void setCharacterStream(String parameterName, Reader reader) | set character stream
+../3-Phrases/Base_Verb:OutputStream createLogStream(OutputStream os) | create log stream
+../3-Phrases/Base_Verb:void setKeyStream(String keyStream) | set key stream
+../3-Phrases/Base_Verb:static ImageFilterOutputStream getImageOutputStream(OutputStream output) | image filter output stream get image output stream
+../3-Phrases/Base_Verb:InputStream getResourceStream(String name) | get resource stream
+../3-Phrases/Base_Verb:JQBWriteStream getAppendStream(int rec) | get append stream
+../3-Phrases/Base_Verb:void updateBinaryStream(String columnName, InputStream x, int length) | update binary stream
+../3-Phrases/Base_Verb:InputStream getInputStream() | get input stream
+../3-Phrases/Base_Verb:InputStream openStream(URL url) | open stream
+../3-Phrases/Base_Verb:InputStream getInputStream(int index) | get input stream
+../3-Phrases/Base_Verb:InputStream getInputStream(String fileName) | get input stream
+../3-Phrases/Base_Verb:Stream getStream(URL url) | get stream
+../3-Phrases/Base_Verb:static InputStream getInputStream(String location) | input stream get input stream
+../3-Phrases/Base_Verb:void updateAsciiStream(String columnName, InputStream x, int length) | update ascii stream
+../3-Phrases/Dguitar:CONS LogStream(QOutputStream;QString;) | log stream
+../3-Phrases/Dguitar:CONS GP3InputStream(QInputStream;) | gp 3 input stream
+../3-Phrases/Dguitar:CONS GP4InputStream(QInputStream;) | gp 4 input stream
+../3-Phrases/Dguitar:CONS GPInputStream(QString;) | gp input stream
+../3-Phrases/Dguitar:CONS GPInputStream(QFile;) | gp input stream
+../3-Phrases/Dguitar:CONS GPInputStream(QInputStream;I) | gp input stream
+../3-Phrases/Dguitar:CONS GPInputStream(QFileInputStream;I) | gp input stream
+../3-Phrases/DrawSWF:CONS ADPCMEncodeStream(QInputStream;ZZ) | adpcm encode stream
+../3-Phrases/DrawSWF:void FramedInputStream(QInputStream;I) | framed input stream
+../3-Phrases/DrawSWF:OutStream getOutStream() | get out stream
+../3-Phrases/DrawSWF:CONS OutStream(QOutputStream;) | out stream
+../3-Phrases/DrawSWF:CONS InStream(QInputStream;) | in stream
+../3-Phrases/DrawSWF:CONS InStream([B) | in stream
+../3-Phrases/DrawSWF:InputStream getInputStream() | get input stream
+../3-Phrases/drjava2:void StringInputStream(QString;) | string input stream
+../3-Phrases/drjava2:void setEndOfStream(Z) | set end of stream
+../3-Phrases/drjava2:boolean isEndOfStream() | is end of stream
+../3-Phrases/drjava2:void setEndOfStream(Z) | set end of stream
+../3-Phrases/drjava2:OutputStream getOutputStream() | get output stream
+../3-Phrases/drjava2:InputStream getErrorStream() | get error stream
+../3-Phrases/drjava2:InputStream getInputStream() | get input stream
+../3-Phrases/drjava2:InputStream getErrorStream() | get error stream
+../3-Phrases/drjava2:InputStream getInputStream() | get input stream
+../3-Phrases/drjava2:OutputStream getOutputStream() | get output stream
+../3-Phrases/drjava2:OutputStream getOutputStream() | get output stream
+../3-Phrases/drjava2:InputStream getErrorStream() | get error stream
+../3-Phrases/drjava2:InputStream getInputStream() | get input stream
+../3-Phrases/drjava2:void setInputStream(QInputStream;) | set input stream
+../3-Phrases/drjava2:CONS JoinInputStream([QInputStream;I) | join input stream
+../3-Phrases/drjava2:CONS JoinInputStream(QInputStream;QInputStream;I) | join input stream
+../3-Phrases/drjava2:CONS JoinInputStream(QInputStream;QInputStream;) | join input stream
+../3-Phrases/drjava2:InputStream getInputStream() | get input stream
+../3-Phrases/drjava2:CONS DocumentOutputStream(QDocument;) | document output stream
+../3-Phrases/drjava2:CONS DocumentOutputStream(QDocument;QAttributeSet;) | document output stream
+../3-Phrases/freecol2:void CREatingInputStream(QInputStream;) | cr eating input stream
+../3-Phrases/freecol2:InputStream getInputStream(QString;) | get input stream
+../3-Phrases/freecol2:InputStream getSpecificationInputStream() | get specification input stream
+../3-Phrases/freecol2:InputStream getSavegameInputStream() | get savegame input stream
+../3-Phrases/freecol2:void FreeColNetworkInputStream(QInputStream;) | free col network input stream
+../3-Phrases/freecol2:CONS ReplayableInputStream(QInputStream;) | replayable input stream
+../3-Phrases/gantt:InputStream getInputStream() | get input stream
+../3-Phrases/gantt:OutputStream getOutputStream() | get output stream
+../3-Phrases/gantt:CONS HttpDocumentOutputStream(QWebdavResource;) | http document output stream
+../3-Phrases/gantt:InputStream getInputStream() | get input stream
+../3-Phrases/gantt:OutputStream getOutputStream() | get output stream
+../3-Phrases/gantt:InputStream getInputStream() | get input stream
+../3-Phrases/gantt:OutputStream getOutputStream() | get output stream
+../3-Phrases/gantt:InputStream getInputStream() | get input stream
+../3-Phrases/gantt:OutputStream getOutputStream() | get output stream
+../3-Phrases/gantt:InputStream getInputStream() | get input stream
+../3-Phrases/gantt:OutputStream getOutputStream() | get output stream
+../3-Phrases/hibernate-3.3.1.GA:Configuration addInputStream(QInputStream;) | add input stream
+../3-Phrases/hibernate-3.3.1.GA:InputStream getConfigurationInputStream(QString;) | get configuration input stream
+../3-Phrases/hibernate-3.3.1.GA:InputStream getAsciiStream(QString;) | get ascii stream
+../3-Phrases/hibernate-3.3.1.GA:void updateAsciiStream(QString;QInputStream;I) | update ascii stream
+../3-Phrases/hibernate-3.3.1.GA:InputStream getBinaryStream(QString;) | get binary stream
+../3-Phrases/hibernate-3.3.1.GA:void updateBinaryStream(QString;QInputStream;I) | update binary stream
+../3-Phrases/hibernate-3.3.1.GA:Reader getCharacterStream(QString;) | get character stream
+../3-Phrases/hibernate-3.3.1.GA:void updateCharacterStream(QString;QReader;I) | update character stream
+../3-Phrases/hibernate-3.3.1.GA:InputStream getUnicodeStream(QString;) | get unicode stream
+../3-Phrases/hibernate-3.3.1.GA:InputStream getAsciiStream(I) | get ascii stream
+../3-Phrases/hibernate-3.3.1.GA:InputStream getBinaryStream(I) | get binary stream
+../3-Phrases/hibernate-3.3.1.GA:InputStream getUnicodeStream(I) | get unicode stream
+../3-Phrases/hibernate-3.3.1.GA:void updateAsciiStream(IQInputStream;I) | update ascii stream
+../3-Phrases/hibernate-3.3.1.GA:void updateBinaryStream(IQInputStream;I) | update binary stream
+../3-Phrases/hibernate-3.3.1.GA:Reader getCharacterStream(I) | get character stream
+../3-Phrases/hibernate-3.3.1.GA:void updateCharacterStream(IQReader;I) | update character stream
+../3-Phrases/hibernate-3.3.1.GA:InputStream getBinaryStream() | get binary stream
+../3-Phrases/hibernate-3.3.1.GA:OutputStream setBinaryStream(J) | set binary stream
+../3-Phrases/hibernate-3.3.1.GA:Reader getCharacterStream() | get character stream
+../3-Phrases/hibernate-3.3.1.GA:InputStream getAsciiStream() | get ascii stream
+../3-Phrases/hibernate-3.3.1.GA:OutputStream setAsciiStream(J) | set ascii stream
+../3-Phrases/hibernate-3.3.1.GA:Writer setCharacterStream(J) | set character stream
+../3-Phrases/hibernate-3.3.1.GA:CONS ReaderInputStream(QReader;) | reader input stream
+../3-Phrases/hibernate-3.3.1.GA:InputStream getAsciiStream() | get ascii stream
+../3-Phrases/hibernate-3.3.1.GA:OutputStream setAsciiStream(J) | set ascii stream
+../3-Phrases/hibernate-3.3.1.GA:Reader getCharacterStream() | get character stream
+../3-Phrases/hibernate-3.3.1.GA:Writer setCharacterStream(J) | set character stream
+../3-Phrases/hibernate-3.3.1.GA:InputStream getBinaryStream() | get binary stream
+../3-Phrases/hibernate-3.3.1.GA:OutputStream setBinaryStream(J) | set binary stream
+../3-Phrases/hibernate-3.3.1.GA:void CustomObjectInputStream(QInputStream;) | custom object input stream
+../3-Phrases/hibernate-3.3.1.GA:InputStream getConfigStream(QString;) | get config stream
+../3-Phrases/hibernate-3.3.1.GA:InputStream getResourceAsStream(QString;) | get resource as stream
+../3-Phrases/hibernate-3.3.1.GA:InputStream getUserResourceAsStream(QString;) | get user resource as stream
+../3-Phrases/hsqldb:void setAsciiStream(QString;Qjava.io.InputStream;I) | set ascii stream
+../3-Phrases/hsqldb:void setBinaryStream(QString;Qjava.io.InputStream;I) | set binary stream
+../3-Phrases/hsqldb:void setCharacterStream(QString;Qjava.io.Reader;I) | set character stream
+../3-Phrases/hsqldb:void setAsciiStream(IQjava.io.InputStream;I) | set ascii stream
+../3-Phrases/hsqldb:void setUnicodeStream(IQjava.io.InputStream;I) | set unicode stream
+../3-Phrases/hsqldb:void setBinaryStream(IQjava.io.InputStream;I) | set binary stream
+../3-Phrases/hsqldb:void setCharacterStream(IQjava.io.Reader;I) | set character stream
+../3-Phrases/hsqldb:java.io.InputStream getAsciiStream(I) | get ascii stream
+../3-Phrases/hsqldb:java.io.InputStream getUnicodeStream(I) | get unicode stream
+../3-Phrases/hsqldb:java.io.InputStream getBinaryStream(I) | get binary stream
+../3-Phrases/hsqldb:java.io.InputStream getAsciiStream(QString;) | get ascii stream
+../3-Phrases/hsqldb:java.io.InputStream getUnicodeStream(QString;) | get unicode stream
+../3-Phrases/hsqldb:java.io.InputStream getBinaryStream(QString;) | get binary stream
+../3-Phrases/hsqldb:java.io.Reader getCharacterStream(I) | get character stream
+../3-Phrases/hsqldb:java.io.Reader getCharacterStream(QString;) | get character stream
+../3-Phrases/hsqldb:void updateAsciiStream(IQjava.io.InputStream;I) | update ascii stream
+../3-Phrases/hsqldb:void updateBinaryStream(IQjava.io.InputStream;I) | update binary stream
+../3-Phrases/hsqldb:void updateCharacterStream(IQjava.io.Reader;I) | update character stream
+../3-Phrases/hsqldb:void updateAsciiStream(QString;Qjava.io.InputStream;I) | update ascii stream
+../3-Phrases/hsqldb:void updateBinaryStream(QString;Qjava.io.InputStream;I) | update binary stream
+../3-Phrases/hsqldb:void updateCharacterStream(QString;Qjava.io.Reader;I) | update character stream
+../3-Phrases/hsqldb:java.io.Reader getCharacterStream() | get character stream
+../3-Phrases/hsqldb:java.io.InputStream getAsciiStream() | get ascii stream
+../3-Phrases/hsqldb:java.io.OutputStream setAsciiStream(J) | set ascii stream
+../3-Phrases/hsqldb:java.io.Writer setCharacterStream(J) | set character stream
+../3-Phrases/hsqldb:InputStream getBinaryStream() | get binary stream
+../3-Phrases/hsqldb:OutputStream setBinaryStream(J) | set binary stream
+../3-Phrases/hsqldb:CONS HsqlByteArrayInputStream([B) | hsql byte array input stream
+../3-Phrases/hsqldb:CONS HsqlByteArrayInputStream([BII) | hsql byte array input stream
+../3-Phrases/hsqldb:CONS StringInputStream(QString;) | string input stream
+../3-Phrases/hsqldb:CONS HsqlByteArrayOutputStream() | hsql byte array output stream
+../3-Phrases/hsqldb:CONS HsqlByteArrayOutputStream(I) | hsql byte array output stream
+../3-Phrases/hsqldb:CONS HsqlByteArrayOutputStream([B) | hsql byte array output stream
+../3-Phrases/hsqldb:CONS AsciiStringInputStream(QString;) | ascii string input stream
+../3-Phrases/hsqldb:void resetStream() | reset stream
+../3-Phrases/hsqldb:HsqlByteArrayOutputStream getOutputStream() | get output stream
+../3-Phrases/hsqldb:HsqlByteArrayOutputStream getOutputStream() | get output stream
+../3-Phrases/hsqldb:void finishStream() | finish stream
+../3-Phrases/hsqldb:void finishStream() | finish stream
+../3-Phrases/hsqldb:void closeQueryOutputStream() | close query output stream
+../3-Phrases/hsqldb:InputStream getMostSpecificStream(QString;QString;QString;QString;) | get most specific stream
+../3-Phrases/iReport:void FilteredStream(QOutputStream;) | filtered stream
+../3-Phrases/iReport:InputStream getResourceAsStream(QString;) | get resource as stream
+../3-Phrases/iReport:byte[] getBytesFromInputStream(Qjava.io.InputStream;I) | get bytes from input stream
+../3-Phrases/iReport:byte[] getBytesFromInputStream(Qjava.io.InputStream;I) | get bytes from input stream
+../3-Phrases/Jabref:void writeFileToPrintStream(QPrintStream;) | write file to print stream
+../3-Phrases/Jabref:OutputStream getOutputStream() | get output stream
+../3-Phrases/Jabref:InputStream getInputStream() | get input stream
+../3-Phrases/Jabref:InputStream getErrorStream() | get error stream
+../3-Phrases/Jabref:List<QBibtexEntry;> importFromStream(QString;QInputStream;) | import from stream
+../3-Phrases/Jabref:void TeeStream(QPrintStream;QPrintStream;) | tee stream
+../3-Phrases/Jabref:byte[] getBytesFromStream(QInputStream;) | get bytes from stream
+../3-Phrases/javaHMO:InputStream getResourceAsStream(QString;) | get resource as stream
+../3-Phrases/javaHMO:CONS BufferedStream(QOutputStream;) | buffered stream
+../3-Phrases/javaHMO:CONS BufferedStream(QOutputStream;I) | buffered stream
+../3-Phrases/jbidwatcher:StringBuffer getDataFromStream(QInputStream;) | get data from stream
+../3-Phrases/jbidwatcher:void InputStream(Qjava.io.InputStream;) | input stream
+../3-Phrases/jbidwatcher:void InputStream(Qjava.io.InputStream;Z) | input stream
+../3-Phrases/jbidwatcher:void InputStream(Qjava.io.InputStream;ZZ) | input stream
+../3-Phrases/jbidwatcher:void OutputStream(Qjava.io.OutputStream;) | output stream
+../3-Phrases/jbidwatcher:void OutputStream(Qjava.io.OutputStream;Z) | output stream
+../3-Phrases/jbidwatcher:void OutputStream(Qjava.io.OutputStream;ZZ) | output stream
+../3-Phrases/Jftp:InputStream getInputStream() | get input stream
+../3-Phrases/Jftp:OutputStream getOutputStream() | get output stream
+../3-Phrases/Jftp:InputStream getErrorStream() | get error stream
+../3-Phrases/Jftp:void CacheStream(QOutputStream;QOutputStream;) | cache stream
+../3-Phrases/Jftp:CONS SocketInputStream(QInputStream;) | socket input stream
+../3-Phrases/Jftp:InputStream getInputStream() | get input stream
+../3-Phrases/Jftp:OutputStream getOutputStream() | get output stream
+../3-Phrases/Jftp:CONS SocketOutputStream(QOutputStream;) | socket output stream
+../3-Phrases/Jftp:CONS TransactNamedPipeOutputStream(QSmbNamedPipe;) | transact named pipe output stream
+../3-Phrases/Jftp:InputStream getInputStream() | get input stream
+../3-Phrases/Jftp:OutputStream getOutputStream() | get output stream
+../3-Phrases/Jftp:InputStream getNamedPipeInputStream() | get named pipe input stream
+../3-Phrases/Jftp:OutputStream getNamedPipeOutputStream() | get named pipe output stream
+../3-Phrases/Jftp:CONS SmbFileOutputStream(QString;) | smb file output stream
+../3-Phrases/Jftp:CONS SmbFileOutputStream(QSmbFile;) | smb file output stream
+../3-Phrases/Jftp:CONS SmbFileOutputStream(QString;Z) | smb file output stream
+../3-Phrases/Jftp:CONS SmbFileOutputStream(QSmbFile;Z) | smb file output stream
+../3-Phrases/Jftp:CONS SmbFileOutputStream(QString;I) | smb file output stream
+../3-Phrases/Jftp:CONS SmbFileOutputStream(QSmbFile;ZI) | smb file output stream
+../3-Phrases/Jftp:CONS SmbFileInputStream(QString;) | smb file input stream
+../3-Phrases/Jftp:CONS SmbFileInputStream(QSmbFile;) | smb file input stream
+../3-Phrases/Jftp:CONS SmbFileInputStream(QSmbFile;I) | smb file input stream
+../3-Phrases/Jftp:CONS TransactNamedPipeInputStream(QSmbNamedPipe;) | transact named pipe input stream
+../3-Phrases/Jftp:CONS LogStream(QPrintStream;) | log stream
+../3-Phrases/Jftp:PrintStream getInetOutputStream() | get inet output stream
+../3-Phrases/Jftp:InputStream getInputStream() | get input stream
+../3-Phrases/Jftp:InputStream getDownloadInputStream(QString;) | get download input stream
+../3-Phrases/Jftp:InputStream getDownloadInputStream(QString;) | get download input stream
+../3-Phrases/Jftp:InputStream getDownloadInputStream(QString;) | get download input stream
+../3-Phrases/Jftp:InputStream getDownloadInputStream(QString;) | get download input stream
+../3-Phrases/Jftp:void modeStream() | mode stream
+../3-Phrases/Jftp:InputStream getDownloadInputStream(QString;) | get download input stream
+../3-Phrases/Jftp:InputStream getDownloadInputStream(QString;) | get download input stream
+../3-Phrases/Jftp:InputStream getInputStream() | get input stream
+../3-Phrases/Jftp:OutputStream getOutputStream() | get output stream
+../3-Phrases/Jftp:InputStream getDownloadInputStream(QString;) | get download input stream
+../3-Phrases/Jftp:PrintStream getInetOutputStream() | get inet output stream
+../3-Phrases/Jftp:DataInputStream getInetInputStream() | get inet input stream
+../3-Phrases/JHotDraw-7.0.8:boolean atEOFOfCurrentStream() | at eof of current stream
+../3-Phrases/JHotDraw-7.0.8:Reader openStream(QString;QString;) | open stream
+../3-Phrases/JHotDraw-7.0.8:void startNewStream(QReader;) | start new stream
+../3-Phrases/JHotDraw-7.0.8:void startNewStream(QReader;Z) | start new stream
+../3-Phrases/JHotDraw-7.0.8:boolean atEOFOfCurrentStream() | at eof of current stream
+../3-Phrases/JHotDraw-7.0.8:Reader openStream(QString;QString;) | open stream
+../3-Phrases/JHotDraw-7.0.8:void startNewStream(QReader;) | start new stream
+../3-Phrases/JHotDraw-7.0.8:void startNewStream(QReader;Z) | start new stream
+../3-Phrases/JHotDraw-7.0.8:void InputStream(Qjava.io.InputStream;) | input stream
+../3-Phrases/JHotDraw-7.0.8:void InputStream(Qjava.io.InputStream;I) | input stream
+../3-Phrases/JHotDraw-7.0.8:void OutputStream(Qjava.io.OutputStream;) | output stream
+../3-Phrases/JHotDraw-7.0.8:void OutputStream(Qjava.io.OutputStream;I) | output stream
+../3-Phrases/JRobin:void transportStream(QInputStream;QOutputStream;) | transport stream
+../3-Phrases/MegaMek-0.32.0:InputStream getDocumentStream() | get document stream
+../3-Phrases/MegaMek-0.32.0:InputStream getInputStream() | get input stream
+../3-Phrases/MegaMek-0.32.0:OutputStream getOutputStream() | get output stream
+../3-Phrases/MegaMek-0.32.0:boolean readInputStream(QInputStream;) | read input stream
+../3-Phrases/MegaMek-0.32.0:InputStream getDocumentStream() | get document stream
+../3-Phrases/MegaMek-0.32.0:InputStream getTestInputStream() | get test input stream
+../3-Phrases/np:static XMLInputStream newValidatingXMLInputStream(XMLInputStream xis) | xml input stream new validating xml input stream
+../3-Phrases/np:static XMLInputStream newValidatingXMLInputStream(XMLInputStream xis, XmlOptions options) | xml input stream new validating xml input stream
+../3-Phrases/PlanetaMessenger:CONS JIOStream() | jio stream
+../3-Phrases/PlanetaMessenger:InputStream getResourceAsStream(QString;) | get resource as stream
+../3-Phrases/prefuse:CONS JavaCharStream(Qjava.io.Reader;III) | java char stream
+../3-Phrases/prefuse:CONS JavaCharStream(Qjava.io.Reader;II) | java char stream
+../3-Phrases/prefuse:CONS JavaCharStream(Qjava.io.Reader;) | java char stream
+../3-Phrases/prefuse:CONS JavaCharStream(Qjava.io.InputStream;III) | java char stream
+../3-Phrases/prefuse:CONS JavaCharStream(Qjava.io.InputStream;II) | java char stream
+../3-Phrases/prefuse:CONS JavaCharStream(Qjava.io.InputStream;) | java char stream
+../3-Phrases/prefuse:void setDebugStream(Qjava.io.PrintStream;) | set debug stream
+../3-Phrases/prefuse:InputStream getAsInputStream() | get as input stream
+../3-Phrases/prefuse:void testReadTableInputStream() | test read table input stream
+../3-Phrases/prefuse:void testReadTableInputStream() | test read table input stream
+../3-Phrases/rhino:byte[] readStream(QInputStream;I) | read stream
+../3-Phrases/rhino:CONS ScriptableInputStream(QInputStream;QScriptable;) | scriptable input stream
+../3-Phrases/rhino:CONS ScriptableOutputStream(QOutputStream;QScriptable;) | scriptable output stream
+../3-Phrases/rhino:CONS TokenStream(QParser;QReader;QString;I) | token stream
+../3-Phrases/rhino:InputStream toInputStream(QObject;) | to input stream
+../3-Phrases/rhino:OutputStream toOutputStream(QObject;) | to output stream
+../3-Phrases/SweetHome3D:CONS DefaultHomeOutputStream(QOutputStream;) | default home output stream
+../3-Phrases/SweetHome3D:CONS DefaultHomeOutputStream(QOutputStream;IZ) | default home output stream
+../3-Phrases/SweetHome3D:void HomeObjectOutputStream(QOutputStream;) | home object output stream
+../3-Phrases/SweetHome3D:CONS DefaultHomeInputStream(QInputStream;) | default home input stream
+../3-Phrases/SweetHome3D:void HomeObjectInputStream(QInputStream;) | home object input stream
+../3-Phrases/SweetHome3D:Scene parseObjectStream(QReader;QURL;) | parse object stream
+../3-Phrases/SweetHome3D:Map<QString;QAppearance;> parseMaterialStream(QReader;QURL;) | parse material stream
+../3-Phrases/SweetHome3D:InputStream openStream() | open stream
+../3-Phrases/SweetHome3D:InputStream openStream() | open stream
+../3-Phrases/SweetHome3D:InputStream getInputStream() | get input stream
+../3-Phrases/vuze:CONS TransportHelperFilterStream(QTransportHelper;) | transport helper filter stream
+../3-Phrases/vuze:void readStream(QString;QTransportHelperFilter;) | read stream
+../3-Phrases/vuze:void writeStream(QString;QTransportHelperFilter;) | write stream
+../3-Phrases/vuze:void writeStream([BQTransportHelperFilter;) | write stream
+../3-Phrases/vuze:void writeStream([BQSocketChannel;) | write stream
+../3-Phrases/vuze:DirectByteBuffer convertPayloadToBencodedByteStream(QMap;B) | convert payload to bencoded byte stream
+../3-Phrases/vuze:CONS DeleteFileOnCloseInputStream(QFile;) | delete file on close input stream
+../3-Phrases/vuze:CONS ByteCountedInputStream(QInputStream;) | byte counted input stream
+../3-Phrases/vuze:void playOrStream(QDownloadManager;) | play or stream
+../3-Phrases/vuze:boolean playOrStream(QDownloadManager;QSWTSkinButtonUtility;) | play or stream
+../3-Phrases/vuze:boolean _playOrStream(QDownloadManager;QSWTSkinButtonUtility;) | play or stream
+../3-Phrases/vuze:boolean playOrStream(QDownloadManager;) | play or stream
+../3-Phrases/vuze:CONS IndefiniteLengthInputStream(QInputStream;) | indefinite length input stream
+../3-Phrases/vuze:CONS BERInputStream(QInputStream;) | ber input stream
+../3-Phrases/vuze:CONS DERInputStream(QInputStream;) | der input stream
+../3-Phrases/vuze:OutputStream getRawOutputStream() | get raw output stream
+../3-Phrases/vuze:OutputStream getRawOutputStream() | get raw output stream
+../3-Phrases/vuze:CONS LimitedInputStream(QInputStream;) | limited input stream
+../3-Phrases/vuze:InputStream getUnderlyingStream() | get underlying stream
+../3-Phrases/vuze:OutputStream getRawOutputStream() | get raw output stream
+../3-Phrases/vuze:InputStream getOctetStream() | get octet stream
+../3-Phrases/vuze:OutputStream getOctetOutputStream() | get octet output stream
+../3-Phrases/vuze:OutputStream getOctetOutputStream([B) | get octet output stream
+../3-Phrases/vuze:void BufferedBEROctetStream([B) | buffered ber octet stream
+../3-Phrases/vuze:CONS DefiniteLengthInputStream(QInputStream;I) | definite length input stream
+../3-Phrases/vuze:InputStream getParentStream() | get parent stream
+../3-Phrases/vuze:InputStream getOctetStream() | get octet stream
+../3-Phrases/vuze:CONS ASN1OutputStream(QOutputStream;) | asn 1 output stream
+../3-Phrases/vuze:CONS DEROutputStream(QOutputStream;) | der output stream
+../3-Phrases/vuze:InputStream getOctetStream() | get octet stream
+../3-Phrases/vuze:CONS ConstructedOctetStream(QASN1ObjectParser;) | constructed octet stream
+../3-Phrases/vuze:CONS ASN1InputStream(QInputStream;) | asn 1 input stream
+../3-Phrases/vuze:CONS ASN1InputStream([B) | asn 1 input stream
+../3-Phrases/vuze:CONS ASN1InputStream(QInputStream;I) | asn 1 input stream
+../3-Phrases/vuze:CONS BEROutputStream(QOutputStream;) | ber output stream
+../3-Phrases/vuze:PublicKey createPublicKeyFromDERStream(QInputStream;) | create public key from der stream
+../3-Phrases/vuze:PrivateKey createPrivateKeyFromDERStream(QInputStream;) | create private key from der stream
+../3-Phrases/vuze:void RedirectorStream(QPrintStream;QLogIDs;I) | redirector stream
+../3-Phrases/vuze:TOTorrent deserialiseFromBEncodedInputStream(QInputStream;) | deserialise from b encoded input stream
+../3-Phrases/vuze:Map decodeStream(QBufferedInputStream;) | decode stream
+../3-Phrases/vuze:Object decodeInputStream(QBDecoderInputStream;I) | decode input stream
+../3-Phrases/vuze:long getNumberFromStream(QBDecoderInputStream;C) | get number from stream
+../3-Phrases/vuze:byte[] getByteArrayFromStream(QBDecoderInputStream;) | get byte array from stream
+../3-Phrases/vuze:void BDecoderInputStreamStream(QBufferedInputStream;) | b decoder input stream stream
+../3-Phrases/vuze:TOTorrent readFromBEncodedInputStream(QInputStream;) | read from b encoded input stream
+../3-Phrases/vuze:void signJarStream(QInputStream;QOutputStream;) | sign jar stream
+../3-Phrases/vuze:InputStream getInputStream() | get input stream
+../3-Phrases/vuze:InputStream getInputStream() | get input stream
+../3-Phrases/vuze:void setOutputStream(QOutputStream;) | set output stream
+../3-Phrases/vuze:void flushOutputStream() | flush output stream
+../3-Phrases/vuze:void closeOutputStream() | close output stream
+../3-Phrases/vuze:Torrent createFromBEncodedInputStream(QInputStream;) | create from b encoded input stream
+../3-Phrases/vuze:Torrent createFromBEncodedInputStream(QInputStream;I) | create from b encoded input stream
+../3-Phrases/vuze:OutputStream getOutputStream() | get output stream
+../3-Phrases/vuze:void useStream(QString;QInputStream;) | use stream
+../3-Phrases/vuze:InputStream getInputStream() | get input stream
+../3-Phrases/vuze:InputStream getImageAsStream(QString;) | get image as stream
+../3-Phrases/vuze:Torrent createFromBEncodedInputStream(QInputStream;) | create from b encoded input stream
+../3-Phrases/vuze:Torrent createFromBEncodedInputStream(QInputStream;I) | create from b encoded input stream
+../3-Phrases/vuze:OutputStream getOutputStream() | get output stream
+../3-Phrases/vuze:void useStream(QString;QInputStream;) | use stream
+../3-Phrases/vuze:InputStream getInputStream() | get input stream
+../3-Phrases/vuze:InputStream getImageAsStream(QString;) | get image as stream
+../3-Phrases/vuze:Torrent createFromBEncodedInputStream(QInputStream;) | create from b encoded input stream
+../3-Phrases/vuze:Torrent createFromBEncodedInputStream(QInputStream;I) | create from b encoded input stream
+../3-Phrases/vuze:InputStream getImageAsStream(QString;) | get image as stream
+../3-Phrases/vuze:InputStream getImageAsStream(QString;) | get image as stream
+../3-Phrases/vuze:InputStream getImageAsStream(QString;) | get image as stream
+../3-Phrases/vuze:void copyStream(QInputStream;QOutputStream;) | copy stream
+../3-Phrases/vuze:void copyStream(QInputStream;QOutputStream;I) | copy stream
+../3-Phrases/vuze:InputStream getInputStream() | get input stream
+../3-Phrases/weka:void OutputPrintStream(QOutputLogger;QPrintStream;) | output print stream
+../3-Phrases/weka:void setOutputStream(QOutputStream;) | set output stream
+../3-Phrases/weka:void yypushStream(Qjava.io.Reader;) | yy push stream
+../3-Phrases/weka:void yypopStream() | yy pop stream
+../3-Phrases/weka:void checkForXStream() | check for x stream
+../3-Phrases/weka:void LogWindowPrintStream(QLogWindow;QPrintStream;QString;) | log window print stream
+../3-Phrases/weka:InputStream getInputStream(QString;QString;) | get input stream
+../3-Phrases/weka:InputStream getInputStream(QString;) | get input stream
+../3-Phrases/weka:void saveXStream(QFile;QObject;QInstances;) | save x stream
+../3-Phrases/weka:void LogWindowPrintStream(QLogWindow;QPrintStream;QString;) | log window print stream
+../3-Phrases/weka:InputStream getInputStream(QString;QString;) | get input stream
+../3-Phrases/weka:InputStream getInputStream(QString;) | get input stream

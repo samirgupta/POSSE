@@ -1,0 +1,120 @@
+boolean areSqlTypesCompatible(II) | are sql types compatible
+boolean supportsCoreSQLGrammar() | supports core sql grammar
+boolean supportsExtendedSQLGrammar() | supports extended sql grammar
+boolean supportsMinimumSQLGrammar() | supports minimum sql grammar
+DatabaseDataSource getMySQLConnection(QString;QString;QString;QString;) | get my sql connection
+DatabaseDataSource getMySQLConnection(QString;QString;QString;QString;QSQLDataHandler;) | get my sql connection
+ExecuteUpdateResultCheckStyle getCustomSQLDeleteAllCheckStyle() | get custom sql delete all check style
+ExecuteUpdateResultCheckStyle getCustomSQLDeleteCheckStyle() | get custom sql delete check style
+ExecuteUpdateResultCheckStyle getCustomSQLInsertCheckStyle() | get custom sql insert check style
+ExecuteUpdateResultCheckStyle getCustomSQLUpdateCheckStyle() | get custom sql update check style
+Integer getColSqlDataType(I) | get col sql data type
+Integer getColSqlDateTimeSub(I) | get col sql date time sub
+Integer getSqlDataType() | get sql data type
+Integer getSqlDateTimeSub() | get sql date time sub
+Integer getSqlTypeCode() | get sql type code
+int[] getNamedParameterSqlLocations(QString;) | get named parameter sql locations
+int getOrdinalParameterSqlLocation(I) | get ordinal parameter sql location
+int getSQLAliasCount() | get sql alias count
+int[] getSqlLocations() | get sql locations
+int getSQLMaxRows() | get sql max rows
+int getSQLStateType() | get sql state type
+int getSqlTypeCode(QMapping;) | get sql type code
+JSQLTablesPane getSQLTablesPane() | get sql tables pane
+List collectSqlStrings() | collect sql strings
+Map getNamedSQLQueries() | get named sql queries
+Map getSqlFunctions() | get sql functions
+Map getSqlResultSetMappings() | get sql result set mappings
+NamedSQLQueryDefinition getNamedSQLQuery(QString;) | get named sql query
+NativeSQLQueryPlan getNativeSQLQueryPlan(QNativeSQLQuerySpecification;) | get native sql query plan
+ParameterMetadata buildNativeSQLParameterMetadata(QString;) | build native sql parameter metadata
+ParameterMetadata getSQLParameterMetadata(QString;) | get sql parameter metadata
+Query createSQLQuery(QString;[QString;[QClass;) | create sql query
+Query createSQLQuery(QString;QString;QClass;) | create sql query
+Query getNamedSQLQuery(QString;) | get named sql query
+SQLExceptionConverter buildMinimalSQLExceptionConverter() | build minimal sql exception converter
+SQLExceptionConverter buildSQLExceptionConverter() | build sql exception converter
+SQLExceptionConverter buildSQLExceptionConverter(QDialect;QProperties;) | build sql exception converter
+SQLExceptionConverter getSQLExceptionConverter() | get sql exception converter
+SQLException getSQLException() | get sql exception
+SQLFunction findSQLFunction(QString;) | find sql function
+SQLFunction getSQLFunction() | get sql function
+SQLFunctionRegistry getSqlFunctionRegistry() | get sql function registry
+SQLFunction requireSQLFunction(QString;) | require sql function
+SQLLoadable getSQLLoadable(QString;) | get sql loadable
+SQLQuery createSQLQuery(QString;) | create sql query
+SQLStatementLogger getSqlStatementLogger() | get sql statement logger
+Statement getSqlAST() | get sql ast
+String buildSqlCreateIndexString(QDialect;QString;QTable;QIterator;ZQString;QString;) | build sql create index string
+String buildSqlDropIndexString(QDialect;QTable;QString;QString;QString;) | build sql drop index string
+String createSQLString(D) | create sql string
+String createSQLString(QObject;I) | create sql string
+String createSQLString(QString;) | create sql string
+String determineSqlStateClassCode(QString;) | determine sql state class code
+String extractSqlStateClassCode(QSQLException;) | extract sql state class code
+String extractSqlState(QSQLException;) | extract sql state
+String generateSQLAlias() | generate sql alias
+String[] generateSQLDeletStrings([QObject;) | generate sql delet strings
+String getCurrentTimestampSQLFunctionName() | get current timestamp sql function name
+String getCustomSQLDelete() | get custom sql delete
+String getCustomSQLDeleteAll() | get custom sql delete all
+String getCustomSQLInsert() | get custom sql insert
+String getCustomSQLUpdate() | get custom sql update
+String getDiscriminatorSQLValue() | get discriminator sql value
+String getRootSQLALias() | get root sql al ias
+String getSQLAlias(QCriteria;) | get sql alias
+String getSQLAlias(QCriteria;QString;) | get sql alias
+String[] getSqlAliasSuffixes() | get sql alias suffixes
+String getSqlAssignmentFragment() | get sql assignment fragment
+String getSqlCreateTableCommand(TableDefinition td, CustomColumnNameMapping mapping) | get sql create table command
+String getSQLDeleteRowString() | get sql delete row string
+String getSQLDeleteString() | get sql delete string
+String[] getSQLDeleteStrings() | get sql delete strings
+String getSql_GET_THREADS() | get sql get threads
+String getSQLIdentityInsertString() | get sql identity insert string
+String getSQLInsertRowString() | get sql insert row string
+String[] getSQLInsertStrings() | get sql insert strings
+String getSQLKeywords() | get sql keywords
+String getSQLLazySelectString() | get sql lazy select string
+String[] getSQLLazyUpdateByRowIdStrings() | get sql lazy update by row id strings
+String[] getSQLLazyUpdateStrings() | get sql lazy update strings
+String getSQLOrderByString(QString;) | get sql order by string
+String getSQLPrimaryKey(Hashtable PC, String delimiter) | get sql primary key
+String getSql_SET_LAST_INTIME() | get sql set last in time
+String getSQLSnapshotSelectString() | get sql snapshot select string
+String getSQLState() | get sql state
+String[] getSqlStatements() | get sql statements
+String getSQLString() | get sql string
+String[] getSqlStrings() | get sql strings
+String getSqlType() | get sql type
+String getSQLTypeName(SQLWriter sqlWriter, int size, int precision, int scale) | get sql type name
+String getSqlType(QDialect;QMapping;) | get sql type
+String[] getSQLUpdateByRowIdStrings() | get sql update by row id strings
+String getSQLUpdateRowString() | get sql update row string
+String[] getSQLUpdateStrings() | get sql update strings
+String getSQLWhereString(QString;) | get sql where string
+String objectToSQLString(QObject;) | object to sql string
+String objectToSQLString(QObject;QDialect;) | object to sql string
+String toGroupSqlString(QCriteria;QCriteriaQuery;) | to group sql string
+String toLeftSqlString(QCriteria;QCriteriaQuery;) | to left sql string
+String toSqlString(QCriteria;IQCriteriaQuery;) | to sql string
+String toSqlString(QCriteria;QCriteriaQuery;) | to sql string
+TestSqlFile getSqlFile(I) | get sql file
+void addSqlFunction(QString;QSQLFunction;) | add sql function
+void addSQLQuery(QString;QNamedSQLQueryDefinition;) | add sql query
+void bindNamedSQLQuery(QElement;QString;QMappings;) | bind named sql query
+void createCriteriaSQLAliasMap() | create criteria sql alias map
+void initializeSqlNode(QAST;) | initialize sql node
+void setCustomSQLDeleteAll(QString;ZQExecuteUpdateResultCheckStyle;) | set custom sql delete all
+void setCustomSQLDelete(QString;ZQExecuteUpdateResultCheckStyle;) | set custom sql delete
+void setCustomSQLInsert(QString;ZQExecuteUpdateResultCheckStyle;) | set custom sql insert
+void setCustomSQLUpdate(QString;ZQExecuteUpdateResultCheckStyle;) | set custom sql update
+void setSQLExceptionConverter(QSQLExceptionConverter;) | set sql exception converter
+void setSQLMaxRows(I) | set sql max rows
+void setSqlStatementLogger(QSQLStatementLogger;) | set sql statement logger
+void setSQLTablesPane(QJSQLTablesPane;) | set sql tables pane
+void setSqlTypeCode(QInteger;) | set sql type code
+void setSqlType(QString;) | set sql type
+void setSQLValue(QDotNode;QString;QString;) | set sql value
+void testLoadFromMySQLDatabase() | test load from my sql database
+void TestSqlFile(QString;QString;) | test sql file

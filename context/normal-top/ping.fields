@@ -1,0 +1,67 @@
+boolean emulated_ping_source | emulated ping source
+boolean ping_mode | ping mode
+boolean ping_outstanding | ping outstanding
+boolean useVariancePingMap | use variance ping map
+com.aelitis.azureus.core.dht.transport.DHTTransportContact best_pingee | best ping ee
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerPingMapperImpl ping_mapper | ping mapper
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerPingMapperImpl[] ping_mappers | ping mappers
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerPingMapperImpl.pingValue[] pings | pings
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerPingMapperImpl.pingValue prev_ping | prev ping
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSourceManager pingSourceManager | ping source manager
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSpaceMapper pingMap | ping map
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSpaceMapper pingMapOfDownloadMode | ping map of download mode
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSpaceMapper pingMapOfSeedingMode | ping map of seeding mode
+com.aelitis.azureus.core.speedmanager.SpeedManagerPingMapper transientPingMap | transient ping map
+com.aelitis.azureus.core.util.average.Average ping_average_history | ping average history
+double currPing | curr ping
+int ACT_REPLY_PING | act reply ping
+int ACT_REQUEST_PING | act request ping
+int ANY_PING_INDEX | any ping index
+int AT_PING | at ping
+int badPingInMilliSec | bad ping in milli sec
+int bad_pings | bad pings
+int best_ping | best ping
+int CONTACT_HISTORY_PING_SIZE | contact history ping size
+int CONTACT_PING_SECS | contact ping secs
+int GOOD_PING_INDEX | good ping index
+int goodPingInMilliSec | good ping in milli sec
+int INDEX_PING_BAD | index ping bad
+int INDEX_PING_GOOD | index ping good
+int INDEX_PING_NEUTRAL | index ping neutral
+int last_good_ping | last good ping
+int maxGoodPing | max good ping
+int max_ping | max ping
+int max_pings | max pings
+int minBadPing | min bad ping
+int nBadPings | n bad pings
+int nGoodPings | n good pings
+int nNeutralPings | n neutral pings
+int PING_AVERAGE_HISTORY_COUNT | ping average history count
+int PING_CHOKE_TIME | ping choke time
+int ping_count | ping count
+int pingCount | ping count
+int pings | pings
+int ping_time | ping time
+int RENDEZVOUS_CLIENT_PING_PERIOD | rendezvous client ping period
+int RENDEZVOUS_PING_FAIL_LIMIT | rendezvous ping fail limit
+int RT_INTERNAL_REPLY_PING | rt internal reply ping
+int RT_INTERNAL_REQUEST_PING | rt internal request ping
+int TEST_PING_ROUTE | test ping route
+int uploadChokePingCount | upload choke ping count
+java.lang.Float sloppingWallHeightAtEnd | slop ping wall height at end
+java.lang.String CONFIG_CHOKE_PING | config choke ping
+java.lang.String UPLOAD_CHOKE_PING_COUNT | upload choke ping count
+java.util.List active_pings | active pings
+java.util.List outstanding_pings | outstanding pings
+java.util.List pingTimeList | ping time list
+java.util.Map pingAverages | ping averages
+java.util.Map ping_sources | ping sources
+long clFirstBadPingTime | cl first bad ping time
+long lastPingRemoval | last ping removal
+long[] pings | pings
+long PING_TIMEOUT | ping timeout
+long TIME_BETWEEN_BAD_PING_REMOVALS | time between bad ping removals
+long TIME_BETWEEN_SLOW_PING_REMOVALS | time between slow ping removals
+org.gudy.azureus2.platform.PlatformManagerCapabilities PingAvailability | ping availability
+org.gudy.azureus2.plugins.ui.config.StringParameter ping_target | ping target
+org.gudy.azureus2.ui.swt.components.graphics.PingGraphic pingGraph | ping graph

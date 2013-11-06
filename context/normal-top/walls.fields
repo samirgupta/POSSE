@@ -1,0 +1,16 @@
+com.eteks.sweethome3d.model.CollectionChangeSupport<com.eteks.sweethome3d.model.Wall> wallsChangeSupport | walls change support
+com.eteks.sweethome3d.viewcontroller.WallController.ModifiedWall[] modifiedWalls | modified walls
+float oldWallsAlpha | old walls alpha
+float wallsAlpha | walls alpha
+java.awt.Color wallsPatternBackgroundCache | walls pattern background cache
+java.awt.Color wallsPatternForegroundCache | walls pattern foreground cache
+java.awt.geom.Area insideWallsAreaCache | inside walls area cache
+java.awt.geom.Area wallsAreaCache | walls area cache
+java.awt.image.BufferedImage wallsPatternImageCache | walls pattern image cache
+java.beans.PropertyChangeListener wallsAlphaListener | walls alpha listener
+java.util.List<com.eteks.sweethome3d.model.Wall> newWalls | new walls
+java.util.List<com.eteks.sweethome3d.model.Wall> walls | walls
+javax.swing.JLabel wallsTransparencyLabel | walls transparency label
+javax.swing.JSlider wallsTransparencySlider | walls transparency slider
+javax.swing.JToggleButton createWallsButton | create walls button
+javax.swing.JToggleButton.ToggleButtonModel createWallsToggleModel | create walls toggle model

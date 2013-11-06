@@ -1,0 +1,7 @@
+boolean entityIsBiped() | entity is biped
+boolean isEntityStranded(QEntity;) | is entity stranded
+boolean isNakedEntityReturned() | is naked entity returned
+LoadType setNakedEntityReturned(Z) | set naked entity returned
+Serializable getEntityIdentifierIfNotUnsaved(QString;QObject;QSessionImplementor;) | get entity identifier if not unsaved
+void entityIsDetached(QMergeEvent;QMap;) | entity is detached
+void entityIsDetached(QSaveOrUpdateEvent;) | entity is detached

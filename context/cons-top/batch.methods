@@ -1,0 +1,14 @@
+CONS AbstractBatcher(QConnectionManager;QInterceptor;) | abstract batcher
+CONS BatchClassifierEvent(QObject;QClassifier;QDataSetEvent;QDataSetEvent;II) | batch classifier event
+CONS BatchClassifierEvent(QObject;QClassifier;QDataSetEvent;QDataSetEvent;IIII) | batch classifier event
+CONS BatchClustererEvent(QObject;QClusterer;QDataSetEvent;III) | batch clusterer event
+CONS BatchedTooManyRowsAffectedException(QString;III) | batched too many rows affected exception
+CONS BatchFailedException(QString;) | batch failed exception
+CONS BatchFailedException(QString;QThrowable;) | batch failed exception
+CONS BatchFetchQueue(QPersistenceContext;) | batch fetch queue
+CONS BatchingBatcher(QConnectionManager;QInterceptor;) | batching batcher
+CONS BatchingCollectionInitializer(QCollectionPersister;[I[QLoader;) | batching collection initializer
+CONS BatchingEntityLoader(QEntityPersister;[I[QLoader;) | batching entity loader
+CONS InstanceStreamToBatchMaker() | instance stream to batch maker
+CONS NonBatchingBatcher(QConnectionManager;QInterceptor;) | non batching batcher
+CONS TestBatchExecution(QString;) | test batch execution

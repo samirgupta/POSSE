@@ -1,0 +1,53 @@
+CONS AbstractRed() | abstract red
+CONS AbstractRed(QCachableRed;QMap;) | abstract red
+CONS AbstractRed(QCachableRed;QRectangle;QColorModel;QSampleModel;IIQMap;) | abstract red
+CONS AbstractRed(QCachableRed;QRectangle;QColorModel;QSampleModel;QMap;) | abstract red
+CONS AbstractRed(QCachableRed;QRectangle;QMap;) | abstract red
+CONS AbstractRed(QList;QRectangle;QColorModel;QSampleModel;IIQMap;) | abstract red
+CONS AbstractRed(QList;QRectangle;QColorModel;QSampleModel;QMap;) | abstract red
+CONS AbstractRed(QList;QRectangle;QMap;) | abstract red
+CONS AbstractRed(QRectangle;QMap;) | abstract red
+CONS AbstractReducedModel() | abstract reduced model
+CONS AbstractTiledRed() | abstract tiled red
+CONS AbstractTiledRed(QCachableRed;QMap;) | abstract tiled red
+CONS AbstractTiledRed(QCachableRed;QRectangle;QColorModel;QSampleModel;IIQMap;) | abstract tiled red
+CONS AbstractTiledRed(QCachableRed;QRectangle;QColorModel;QSampleModel;QMap;) | abstract tiled red
+CONS AbstractTiledRed(QCachableRed;QRectangle;QMap;) | abstract tiled red
+CONS AbstractTiledRed(QList;QRectangle;QColorModel;QSampleModel;IIQMap;) | abstract tiled red
+CONS AbstractTiledRed(QList;QRectangle;QColorModel;QSampleModel;QMap;) | abstract tiled red
+CONS AbstractTiledRed(QList;QRectangle;QMap;) | abstract tiled red
+CONS AbstractTiledRed(QRectangle;QMap;) | abstract tiled red
+CONS AffineRed(QCachableRed;QAffineTransform;QRenderingHints;) | affine red
+CONS Any2LsRGBRed(QCachableRed;) | any 2 ls rgb red
+CONS Any2sRGBRed(QCachableRed;) | any 2 s rgb red
+CONS BufferedImageCachableRed(QBufferedImage;) | buffered image cachable red
+CONS BufferedImageCachableRed(QBufferedImage;II) | buffered image cachable red
+CONS FormatRed(QCachableRed;QColorModel;) | format red
+CONS FormatRed(QCachableRed;QSampleModel;) | format red
+CONS InputStreamRedirector() | input stream redirector
+CONS MultiplyAlphaRed(QCachableRed;QCachableRed;) | multiply alpha red
+CONS PadRed(QCachableRed;QRectangle;QPadMode;QRenderingHints;) | pad red
+CONS parse_reduce_row() | parse reduce row
+CONS parse_reduce_table() | parse reduce table
+CONS RedoAction(QApplication;) | redo action
+CONS RedoAction(QControllerAdapter;) | redo action
+CONS RedoAction(QGPUndoManager;QString;QGanttProject;) | redo action
+CONS RedoAction(QString;QString;QDrawingPanel;) | redo action
+CONS RedoAction(QString;QString;QString;QDrawingPanel;IQKeyStroke;) | redo action
+CONS reduce_action(Qproduction;) | reduce action
+CONS ReducedModelBrace(QReducedModelControl;) | reduced model brace
+CONS ReducedModelComment() | reduced model comment
+CONS ReducedModelControl() | reduced model control
+CONS ReducedToken(QReducedModelState;) | reduced token
+CONS RenderedImageCachableRed(QRenderedImage;) | rendered image cachable red
+CONS StreamRedirectException(QString;) | stream redirect exception
+CONS StreamRedirectException(QString;QThrowable;) | stream redirect exception
+CONS StreamRedirectThread(QString;QInputStream;QOutputStream;) | stream redirect thread
+CONS StreamRedirectThread(QString;QInputStream;QOutputStream;QThreadGroup;) | stream redirect thread
+CONS StreamRedirectThread(QString;QInputStream;QOutputStream;QThreadGroup;Z) | stream redirect thread
+CONS StreamRedirectThread(QString;QInputStream;QOutputStream;Z) | stream redirect thread
+CONS StreamRedirectThread(QString;QInputStream;QOutputStream;ZQThreadGroup;) | stream redirect thread
+CONS StreamRedirectThread(QString;QInputStream;QOutputStream;ZQThreadGroup;Z) | stream redirect thread
+CONS StreamRedirectThread(QString;QInputStream;QOutputStream;ZZ) | stream redirect thread
+CONS TranslateRed(QCachableRed;II) | translate red
+CONS UndoRedoManager() | undo redo manager

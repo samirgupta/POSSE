@@ -1,0 +1,203 @@
+boolean consumesEntityAlias() | consumes entity alias
+boolean[] getEntityEagerPropertyFetches() | get entity eager property fetches
+boolean includeEntityProperty([QObject;I) | include entity property
+boolean isEntityAlias(QString;) | is entity alias
+boolean isEntityType() | is entity type
+boolean isSubclassEntityName(QString;) | is subclass entity name
+Class determineAssociatedEntityClass() | determine associated entity class
+Class getEntityPersisterClass() | get entity persister class
+Coords getEntityActualPosition(QEntity;) | get entity actual position
+DetachedCriteria forEntityName(QString;) | for entity name
+DetachedCriteria forEntityName(QString;QString;) | for entity name
+EntityAliases getElementEntityAliases() | get element entity aliases
+EntityAliases getEntityAliases() | get entity aliases
+EntityAliases[] getEntityAliases() | get entity aliases
+Entity decodeEntityData(QParsedXML;QIGame;) | decode entity data
+EntityEntry getEntityEntry() | get entity entry
+Entity getNextEntityFromList(QEntity;) | get next entity from list
+Entity getPreviousEntityFromList(QEntity;) | get previous entity from list
+EntityKey generateDelayedEntityKey() | generate delayed entity key
+EntityKey getDelayedEntityKey() | get delayed entity key
+EntityLoadContext getEntityLoadContext(QResultSet;) | get entity load context
+EntityMetamodel getEntityMetamodel() | get entity metamodel
+EntityMode getDefaultEntityMode() | get default entity mode
+EntityMode getEntityMode() | get entity mode
+EntityMode getEntityMode(QCriteria;QCriteriaQuery;) | get entity mode
+EntityMode guessEntityMode(QObject;) | guess entity mode
+EntityNotFoundDelegate getEntityNotFoundDelegate() | get entity not found delegate
+Entity parseEntityLine(QString;) | parse entity line
+EntityPersister findEntityPersisterByName(QString;) | find entity persister by name
+EntityPersister getEntityPersister() | get entity persister
+EntityPersister getEntityPersister(QString;) | get entity persister
+EntityPersister getEntityPersister(QString;QObject;) | get entity persister
+EntityPersister getOwnerEntityPersister() | get owner entity persister
+EntityPersister getSubclassEntityPersister(QObject;QSessionFactoryImplementor;QEntityMode;) | get subclass entity persister
+EntityReference createEntityReference(String name) | create entity reference
+EntityRegion buildEntityRegion(QString;QProperties;QCacheDataDescription;) | build entity region
+EntityResolver getEntityResolver() | get entity resolver
+EntityStatistics getEntityStatistics(QString;) | get entity statistics
+EntityTuplizer buildEntityTuplizer(QString;QPersistentClass;QEntityMetamodel;) | build entity tuplizer
+EntityType getEntityType() | get entity type
+FlushEntityEventListener[] getFlushEntityEventListeners() | get flush entity event listeners
+FromElement createEntityAssociation(QString;QString;I) | create entity association
+FromElement createEntityJoin(QString;QString;QJoinSequence;ZZQEntityType;) | create entity join
+FunctionalEntity setFunctionalEntityData(ResultSet resSet) | set functional entity data
+GeneralNames getEntityName() | get entity name
+HashSet getNullifiableEntityKeys() | get nullifiable entity keys
+IndividualList getIndividualAndEntityEmailList(int userID, int startAT, int EndAt, String searchString, String sortColumn, int dbID) | get individual and entity email list
+int countEntityPersisters(QList;) | count entity persisters
+int getEntityCount() | get entity count
+int getEntityId() | get entity id
+int[] getEntityIds() | get entity ids
+int getEntityNum() | get entity num
+int getEntityState(QObject;QString;QEntityEntry;QSessionImplementor;) | get entity state
+int getFirstDeployableEntityNum() | get first deployable entity num
+int getFirstDeployableEntityNum(QGameTurn;) | get first deployable entity num
+int getFirstEntityNum() | get first entity num
+int getFirstEntityNum(QGameTurn;) | get first entity num
+int getFreeEntityId() | get free entity id
+int getNextDeployableEntityNum(I) | get next deployable entity num
+int getNextDeployableEntityNum(QGameTurn;I) | get next deployable entity num
+int getNextEntityId() | get next entity id
+int getNextEntityNum(I) | get next entity num
+int getNextEntityNum(QGameTurn;I) | get next entity num
+int getSelectedEntityCount(QEntitySelector;) | get selected entity count
+int getSelectedEntityNum() | get selected entity num
+int getSelectedOutOfGameEntityCount(QEntitySelector;) | get selected out of game entity count
+IXMLEntityResolver getParameterEntityResolver() | get parameter entity resolver
+List loadEntityBatch(QSessionImplementor;[QSerializable;QType;QObject;QString;QSerializable;QEntityPersister;) | load entity batch
+Loadable[] getEntityPersisters() | get entity persisters
+long getEntityDeleteCount() | get entity delete count
+long getEntityFetchCount() | get entity fetch count
+long getEntityInsertCount() | get entity insert count
+long getEntityLoadCount() | get entity load count
+long getEntityUpdateCount() | get entity update count
+Map getEntityEntries() | get entity entries
+Object getEntityUsingInterceptor(QEntityKey;) | get entity using interceptor
+Packet createAddEntityPacket(I) | create add entity packet
+Packet createEntityPacket(I) | create entity packet
+Packet createEntityPacket(IQVector;) | create entity packet
+Packet createRemoveEntityPacket(I) | create remove entity packet
+Packet createRemoveEntityPacket(II) | create remove entity packet
+PersistentClass locatePersistentClassByEntityName(QString;) | locate persistent class by entity name
+PilotingRollData addEntityBonuses(QPilotingRollData;) | add entity bonuses
+Principal[] getEntityNames() | get entity names
+Queryable getEntityPersisterForName(QString;) | get entity persister for name
+Queryable getEntityPersister(QString;) | get entity persister
+Queryable getEntityPersisterUsingImports(QString;) | get entity persister using imports
+RadioEntityType getRadioEntityType() | get radio entity type
+Serializable getContextEntityIdentifier(QObject;) | get context entity identifier
+Serializable[] getEntityBatch(QEntityPersister;QSerializable;IQEntityMode;) | get entity batch
+Serializable getEntityId() | get entity id
+Set getCollectionRolesByEntityParticipant(QString;) | get collection roles by entity participant
+Set getEntityKeys() | get entity keys
+Set getSubclassEntityNames() | get subclass entity names
+SQLLoadable getEntityPersisterByAlias(QString;) | get entity persister by alias
+SQLLoadable getEntityPersister(QString;) | get entity persister
+SQLQuery addSynchronizedEntityClass(QClass;) | add synchronized entity class
+SQLQuery addSynchronizedEntityName(QString;) | add synchronized entity name
+String bestGuessEntityName(QObject;) | best guess entity name
+String generateEntitySuffix() | generate entity suffix
+String getAffectedOwnerEntityName() | get affected owner entity name
+String getAffectedOwnerEntityName(QCollectionPersister;QObject;QEventSource;) | get affected owner entity name
+String getAssociatedEntityName() | get associated entity name
+String getAssociatedEntityName(QCollectionType;) | get associated entity name
+String getAssociatedEntityName(QSessionFactoryImplementor;) | get associated entity name
+String getEntityClassName() | get entity class name
+String getEntityName() | get entity name
+String getEntityName(QCriteria;) | get entity name
+String getEntityName(QCriteria;QString;) | get entity name
+String getEntityName(QElement;QMappings;) | get entity name
+String getEntityName(QObject;) | get entity name
+String[] getEntityNames() | get entity names
+String getEntityOrClassName() | get entity or class name
+String getEntityOrRoleName() | get entity or role name
+String getEntitySuffixByAlias(QString;) | get entity suffix by alias
+String getEntitySuffix(QString;) | get entity suffix
+String getOptionalEntityName() | get optional entity name
+String getOwnerEntityName() | get owner entity name
+String getPathEntityName(QString;) | get path entity name
+String getReferencedEntityName() | get referenced entity name
+String getReturnEntityName() | get return entity name
+String getRootEntityName() | get root entity name
+String getSubclassEntityName(QClass;) | get subclass entity name
+String guessEntityName(QObject;) | guess entity name
+String resolveEntityName(QObject;) | resolve entity name
+String unqualifyEntityName(QString;) | unqualify entity name
+UniqueEntityLoader createBatchingEntityLoader(QOuterJoinLoadable;IQLockMode;QSessionFactoryImplementor;QMap;) | create batching entity loader
+UniqueEntityLoader createEntityLoader(QLockMode;) | create entity loader
+UniqueEntityLoader createEntityLoader(QLockMode;QMap;) | create entity loader
+void addBatchLoadableEntityKey(QEntityKey;) | add batch loadable entity key
+void addEntityToFetch(QString;) | add entity to fetch
+void addEntityToFetch(QString;QString;QAssociationType;) | add entity to fetch
+void ArrayEntityMap() | array entity map
+void ArrayEntityMap(I) | array entity map
+void BinaryEntityMap() | binary entity map
+void BinaryEntityMap(I) | binary entity map
+void createCriteriaEntityNameMap() | create criteria entity name map
+void decodeEntityEquipment(QParsedXML;QEntity;) | decode entity equipment
+void dereferenceEntityIdentifier(QString;QDotNode;) | dereference entity identifier
+void dereferenceEntityJoin(QString;QEntityType;ZQAST;) | dereference entity join
+void doEntityDisplacementMinefieldCheck(QEntity;QCoords;QCoords;) | do entity displacement minefield check
+void doEntityDisplacement(QEntity;QCoords;QCoords;QPilotingRollData;) | do entity displacement
+void doEntityFall(QEntity;QCoords;IIQPilotingRollData;) | do entity fall
+void doEntityFall(QEntity;QCoords;IQPilotingRollData;) | do entity fall
+void doEntityFall(QEntity;QPilotingRollData;) | do entity fall
+void doEntityFallsInto(QEntity;QCoords;QCoords;QPilotingRollData;) | do entity falls into
+void doEntityFallsInto(QEntity;QCoords;QCoords;QPilotingRollData;Z) | do entity falls into
+void evictEntityRegions() | evict entity regions
+void gameEntityChange(QGameEntityChangeEvent;) | game entity change
+void gameEntityNewOffboard(QGameEntityNewOffboardEvent;) | game entity new offboard
+void gameEntityNew(QGameEntityNewEvent;) | game entity new
+void gameEntityRemove(QGameEntityRemoveEvent;) | game entity remove
+void GhostEntitySprite(QEntity;) | ghost entity sprite
+void handleEntityNotFound(QString;QSerializable;) | handle entity not found
+void HashEntityMap() | hash entity map
+void MovingEntitySprite(QEntity;QCoords;I) | moving entity sprite
+void performDetachedEntityDeletionCheck(QDeleteEvent;) | perform detached entity deletion check
+void prepareEntityFlushes(QEventSource;) | prepare entity flushes
+void processEntityPropertyValues([QObject;[QType;) | process entity property values
+void receiveEntityAdd(QPacket;) | receive entity add
+void receiveEntityAdd(QPacket;I) | receive entity add
+void receiveEntityAmmoChange(QPacket;I) | receive entity ammo change
+void receiveEntityDelete(QPacket;I) | receive entity delete
+void receiveEntityModeChange(QPacket;I) | receive entity mode change
+void receiveEntityRemove(QPacket;) | receive entity remove
+void receiveEntitySystemModeChange(QPacket;I) | receive entity system mode change
+void receiveEntityUpdate(QPacket;) | receive entity update
+void receiveEntityUpdate(QPacket;I) | receive entity update
+void receiveEntityVisibilityIndicator(QPacket;) | receive entity visibility indicator
+void recordEntityDeclaration(QString;QString;QString;QString;QString;) | record entity declaration
+void removeBatchLoadableEntityKey(QEntityKey;) | remove batch loadable entity key
+void replaceDelayedEntityIdentityInsertKeys(QEntityKey;QSerializable;) | replace delayed entity identity insert keys
+void resetEntityPhase(I) | reset entity phase
+void resetEntityRound() | reset entity round
+void saveEntityStatus(QString;) | save entity status
+void saveMyEntity1(MyEntity1 myEntity1) | save my entity 1
+void saveMyEntityForSrvDMPckEnNoConfMyEntityForSrvDMPckEnNoConf(MyEntityForSrvDMPckEnNoConf myEntityForSrvDMPckEnNoConf) | save my entity for srv dm pck en no conf my entity for srv dm pck en no conf
+void setDefaultEntityMode(QEntityMode;) | set default entity mode
+void setEntityClassName(QString;) | set entity class name
+void setEntityId(I) | set entity id
+void setEntityId(QSerializable;) | set entity id
+void setEntityName(QString;) | set entity name
+void setEntityNotFoundDelegate(QEntityNotFoundDelegate;) | set entity not found delegate
+void setEntityNum(I) | set entity num
+void setEntityPersisterClass(QClass;) | set entity persister class
+void setEntityResolver(QEntityResolver;) | set entity resolver
+void setExpandEntityReferences(boolean value) | set expand entity references
+void setFlushEntityEventListeners([QFlushEntityEventListener;) | set flush entity event listeners
+void setOptionalEntityName(QString;) | set optional entity name
+void setParameterEntityResolver(QIXMLEntityResolver;) | set parameter entity resolver
+void setReferencedEntityName(QString;) | set referenced entity name
+void setRelateEntityVO(EntityVO relateEntityVO) | set relate entity vo
+void setSelectedEntityNum(I) | set selected entity num
+void SpecificEntityTurn(II) | specific entity turn
+void testCreateUniqueEntityEntryKeyForAssignIdGenerator() | test create unique entity entry key for assign id generator
+void testEntityUpdateExternal() | test entity update external
+void TreeEntityMap() | tree entity map
+void unsetEntityContext() | unset entity context
+void walkEntityAssociationTree(QAssociationType;QOuterJoinLoadable;IQString;QString;ZI) | walk entity association tree
+void walkEntityTree(QOuterJoinLoadable;QString;) | walk entity tree
+void walkEntityTree(QOuterJoinLoadable;QString;QString;I) | walk entity tree
+void writeEntityDeclaration(ContentHandler pHandler) | write entity declaration
+WeaponResult convertHomingShotToEntityTarget(QArtilleryAttackAction;QEntity;) | convert homing shot to entity target

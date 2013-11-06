@@ -1,0 +1,552 @@
+Base_Verb:String writeEndTag(Annotation annot) | write end tag
+Base_Verb:void write_Abstract(Object value) | write abstract
+Base_Verb:void writeArithOp(int operation, GPR dstReg, int dstDisp, GPR srcReg) | write arith op
+Base_Verb:void writeBugs(PrintWriter out, Bug oBugs) | write bugs
+Base_Verb:void writeCache() | write cache
+Base_Verb:void writeCard16(int v) | write card 16
+Base_Verb:void writeChannel(SongChannel channel) | write channel
+Base_Verb:void writeChar(int v) | write char
+Base_Verb:void writeData(byte data) | write data
+Base_Verb:void writeEntityDeclaration(ContentHandler pHandler) | write entity declaration
+Base_Verb:void writeExternal(ObjectOutput out) | write external
+Base_Verb:void writeFloat(float data) | write float
+Base_Verb:void writeIFD(DataOutputStream out, int imageOffset, int nextIFD) | write ifd
+Base_Verb:void writeInt(int s) | write int
+Base_Verb:void writeInt(int v) | write int
+Base_Verb:void writeJarOptions(String inputEntryOptionName, String outputEntryOptionName, ClassPath classPath) | write jar options
+Base_Verb:void writeLineNumber() | write line number
+Base_Verb:void writeLineTable() | write line table
+Base_Verb:void writeList() | write list
+Base_Verb:void writeL(Language language) | write l
+Base_Verb:void writeLn(PrintStream ps) | write ln
+Base_Verb:void writeLocalHeader(ZipMember zmember) | write local header
+Base_Verb:void writeMainDeck(CardList main) | write main deck
+Base_Verb:void WriteMarker(byte data, OutputStream out) | write marker
+Base_Verb:void writeNamespace(String prefix, String namespaceURI) | write namespace
+Base_Verb:void writeNode(double x, double y, double z, String label) | write node
+Base_Verb:void writeObject(ObjectOutputStream s) | write object
+Base_Verb:void writeObject(ObjectOutputStream stream) | write object
+Base_Verb:void write_Object(Object x) | write object
+Base_Verb:void write_Object(OutputStream ostream, Object obj) | write object
+Base_Verb:void writeOpenComment(Writer writer, Comments comments) | write open comment
+Base_Verb:void writeOptionFile(String filename) | write option file
+Base_Verb:void writeQuery(LangWriter out, Family family, Relationship relationship) | write query
+Base_Verb:void writeRecordEnd() | write record end
+Base_Verb:void writeRef(Ref x) | write ref
+Base_Verb:void writeStreamContent(byte bytes) | write stream content
+Base_Verb:void writeTagBodyContent(JspWriter out, BodyContent _bodyContent) | write tag body content
+Base_Verb:void writeTag(String key, String value) | write tag
+Base_Verb:void writeTo(DataOutputStream dout) | write to
+DrawSWF:int writeCode(I) | write code
+DrawSWF:void writeBitsLossless(IIII[QColor;[BZ) | write bits lossless
+DrawSWF:void writeBytes([B) | write bytes
+DrawSWF:void writeChangeRecord() | write change record
+DrawSWF:void writeDouble(D) | write double
+DrawSWF:void writeFloat(F) | write float
+DrawSWF:void writeGlyph(QSWFVectors;) | write glyph
+DrawSWF:void writeHeader(IJII) | write header
+DrawSWF:void writeInitialStyles() | write initial styles
+DrawSWF:void writeJump(QString;I) | write jump
+DrawSWF:void writeMorphFillStyle(QOutStream;QFillStyle;QFillStyle;) | write morph fill style
+DrawSWF:void writeMorphLineStyle(QOutStream;QLineStyle;QLineStyle;) | write morph line style
+DrawSWF:void writeMoveXY(II) | write move xy
+DrawSWF:void writePacket(QADPCMPacket;QOutStream;Z) | write packet
+DrawSWF:void writePaddedString(QString;I) | write padded string
+DrawSWF:void writeRGB(QOutStream;) | write rgb
+DrawSWF:void writeSBits(II) | write s bits
+DrawSWF:void writeShape(QSWFShape;) | write shape
+DrawSWF:void writeSI16(S) | write si 16
+DrawSWF:void writeSI32(I) | write si 32
+DrawSWF:void writeSoundStreamHead(IIZZIIZZI) | write sound stream head
+DrawSWF:void writeString([B) | write string
+DrawSWF:void writeString(QString;) | write string
+DrawSWF:void writeStyles(QVector;) | write styles
+DrawSWF:void writeUBits(IJ) | write u bits
+DrawSWF:void writeUI16(I) | write ui 16
+DrawSWF:void writeUI32(J) | write ui 32
+DrawSWF:void writeUI8(I) | write ui 8
+DrawSWF:void writeVector(QSWFVectors;QObject;) | write vector
+DrawSWF:void writeWithAlpha(QOutStream;) | write with alpha
+DrawSWF:void writeWithoutAlpha(QOutStream;) | write without alpha
+drjava2:boolean writeIfPossible(QFile;QString;Z) | write if possible
+drjava2:File writeStringToNewTempFile(QString;QString;QString;) | write string to new temp file
+drjava2:File writeToNewTempFile(QString;) | write to new temp file
+drjava2:void writeOld() | write old
+drjava2:void writeOld(QWriter;) | write old
+drjava2:void writeStringToFile(QFile;QString;) | write string to file
+drjava2:void writeStringToFile(QFile;QString;Z) | write string to file
+drjava2:void writeToFile(QFileSaveSelector;) | write to file
+drjava2:void writeToFile(QFileSaveSelector;QString;) | write to file
+freecol2:void writeAttribute(QXMLStreamWriter;QString;QFreeColObject;) | write attribute
+freecol2:void writeAttributes(QXMLStreamWriter;) | write attributes
+freecol2:void writeChildren(QXMLStreamWriter;) | write children
+freecol2:void writeFreeColGameObject(QFreeColGameObject;QXMLStreamWriter;QPlayer;ZZ) | write free col game object
+freemind:void writeClosingTag(QWriter;) | write closing tag
+freemind:void writeEncoded(QWriter;QString;) | write encoded
+freemind:void writePendingText() | write pending text
+freemind:void writeProperties(QProperties;) | write properties
+freemind:void writeSemaphoreFile(QFile;) | write semaphore file
+freemind:void writeWithoutClosingTag(QWriter;) | write without closing tag
+gantt:void writePreviousTask(QAttributes;) | write previous task
+gantt:void writeProjectInfos(QOutputStreamWriter;) | write project infos
+gantt:void writeResources(QOutputStreamWriter;) | write resources
+gantt:void writeTaskProperties(QTransformerHandler;QCustomColumnsStorage;) | write task properties
+gantt:void writeTaskProperty(QTransformerHandler;QString;QString;QString;QString;) | write task property
+gantt:void writeTaskProperty(QTransformerHandler;QString;QString;QString;QString;QString;) | write task property
+gantt:void writeTask(QTransformerHandler;QGanttTask;QCustomColumnsStorage;) | write task
+gantt:void writeTask(QWriter;QDefaultMutableTreeNode;) | write task
+gantt:void writeTasks() | write tasks
+gantt:void writeTasksFromLoaded(QArrayList;) | write tasks from loaded
+gantt:void writeTasks(QOutputStreamWriter;) | write tasks
+hibernate-3.3.1.GA:boolean writeBoolean(QObject;QString;ZZ) | write boolean
+hibernate-3.3.1.GA:byte writeByte(QObject;QString;BB) | write byte
+hibernate-3.3.1.GA:char writeChar(QObject;QString;CC) | write char
+hibernate-3.3.1.GA:double writeDouble(QObject;QString;DD) | write double
+hibernate-3.3.1.GA:float writeFloat(QObject;QString;FF) | write float
+hibernate-3.3.1.GA:int writeElement(QPreparedStatement;QObject;IQSessionImplementor;) | write element
+hibernate-3.3.1.GA:int writeElementToWhere(QPreparedStatement;QObject;IQSessionImplementor;) | write element to where
+hibernate-3.3.1.GA:int writeIdentifier(QPreparedStatement;QObject;IQSessionImplementor;) | write identifier
+hibernate-3.3.1.GA:int writeIndex(QPreparedStatement;QObject;IQSessionImplementor;) | write index
+hibernate-3.3.1.GA:int writeIndexToWhere(QPreparedStatement;QObject;IQSessionImplementor;) | write index to where
+hibernate-3.3.1.GA:int writeInt(QObject;QString;II) | write int
+hibernate-3.3.1.GA:int writeKey(QPreparedStatement;QSerializable;IQSessionImplementor;) | write key
+hibernate-3.3.1.GA:long writeLong(QObject;QString;JJ) | write long
+hibernate-3.3.1.GA:Object writeObject(QObject;QString;QObject;QObject;) | write object
+hibernate-3.3.1.GA:Object writeReplace() | write replace
+hibernate-3.3.1.GA:short writeShort(QObject;QString;SS) | write short
+hibernate-3.3.1.GA:void writeInsert(QObject;QObject;QObject;) | write insert
+hibernate-3.3.1.GA:void writeLoad(QObject;QObject;QObject;) | write load
+hibernate-3.3.1.GA:void writeObject(QObjectOutputStream;) | write object
+hibernate-3.3.1.GA:void writeUpdate(QObject;QObject;QObject;QObject;) | write update
+hsqldb:int[] writeTableToDataFile(QTable;) | write table to data file
+hsqldb:int writeUTF(QString;QHsqlByteArrayOutputStream;) | write utf
+hsqldb:void writeAll() | write all
+hsqldb:void writeBigint(QNumber;) | write bigint
+hsqldb:void writeBinary(QBinary;I) | write binary
+hsqldb:void writeBit(QBoolean;) | write bit
+hsqldb:void writeBoolean(Z) | write boolean
+hsqldb:void writeByteArray([B) | write byte array
+hsqldb:void writeByte(I) | write byte
+hsqldb:void writeBytes(QString;) | write bytes
+hsqldb:void writeChar(I) | write char
+hsqldb:void writeChar(QString;I) | write char
+hsqldb:void writeChars(QString;) | write chars
+hsqldb:void writeCommitStatement(QSession;) | write commit statement
+hsqldb:void writeData(I[I[QObject;QHashMappedList;[I) | write data
+hsqldb:void writeData([QObject;QTable;) | write data
+hsqldb:void writeData([QString;) | write data
+hsqldb:void writeDataTerm() | write data term
+hsqldb:void writeDate(QDate;) | write date
+hsqldb:void writeDDL() | write ddl
+hsqldb:void writeDecimal(QBigDecimal;) | write decimal
+hsqldb:void writeDeleteStatement(QSession;QTable;[QObject;) | write delete statement
+hsqldb:void writeDouble(D) | write double
+hsqldb:void writeEnd() | write end
+hsqldb:void writeExistingData() | write existing data
+hsqldb:void writeFieldPrefix() | write field prefix
+hsqldb:void writeFieldType(I) | write field type
+hsqldb:void writeFileLines(QVector;QFile;) | write file lines
+hsqldb:void writeFile(QString;QString;) | write file
+hsqldb:void writeFloat(F) | write float
+hsqldb:void writeHeader([QString;) | write header
+hsqldb:void writeHeader(QString;) | write header
+hsqldb:void writeHeartbeat() | write heartbeat
+hsqldb:void writeHex([BI[B) | write hex
+hsqldb:void writeInsertStatement(QSession;QTable;[QObject;) | write insert statement
+hsqldb:void writeIntData(I) | write int data
+hsqldb:void writeIntData(II) | write int data
+hsqldb:void writeInteger(QNumber;) | write integer
+hsqldb:void writeInt(I) | write int
+hsqldb:void writeLogStatement(QSession;QString;) | write log statement
+hsqldb:void writeLongData(J) | write long data
+hsqldb:void writeLong(J) | write long
+hsqldb:void writeLongVarString(QString;) | write long var string
+hsqldb:void writeMagic() | write magic
+hsqldb:void writeMulti(QRowOutputBinary;) | write multi
+hsqldb:void writeNodes(QRowOutputInterface;) | write nodes
+hsqldb:void writeNull(I) | write null
+hsqldb:void writeOther(QJavaObject;) | write other
+hsqldb:void writeReal(QDouble;I) | write real
+hsqldb:void writeRowInfo(QRowOutputInterface;) | write row info
+hsqldb:void writeRow([QObject;QTable;) | write row
+hsqldb:void writeRow(QSession;QTable;[QObject;) | write row
+hsqldb:void writeSchemaStatement(QHsqlName;) | write schema statement
+hsqldb:void writeScript(Z) | write script
+hsqldb:void writeSequenceStatement(QSession;QNumberSequence;) | write sequence statement
+hsqldb:void writeShortData(S) | write short data
+hsqldb:void writeShort(I) | write short
+hsqldb:void writeSingleColumnResult(QResult;) | write single column result
+hsqldb:void writeSize(I) | write size
+hsqldb:void writeSmallint(QNumber;) | write smallint
+hsqldb:void writeStatement(QSession;QString;) | write statement
+hsqldb:void writeString(QString;) | write string
+hsqldb:void writeTableColumnAttrs(QRowOutputBinary;I) | write table column attrs
+hsqldb:void writeTableInit(QTable;) | write table init
+hsqldb:void writeTableTerm(QTable;) | write table term
+hsqldb:void writeTime(QTime;) | write time
+hsqldb:void writeTimestamp(QTimestamp;) | write timestamp
+hsqldb:void writeToLog(QSession;QString;) | write to log
+hsqldb:void writeTo(QOutputStream;) | write to
+hsqldb:void writeTransactionRows() | write transaction rows
+hsqldb:void writeTranslatePointer(IQRowOutputInterface;QIntLookup;) | write translate pointer
+hsqldb:void writeTranslate(QRowOutputInterface;QIntLookup;) | write translate
+hsqldb:void writeType(I) | write type
+hsqldb:void writeUTF(QString;) | write utf
+hsqldb:void writeVarString(QString;) | write var string
+iReport:String writeChartExpression(QChartReportElement;) | write chart expression
+iReport:String writeEncodedColor(Qjava.awt.Color;) | write encoded color
+iReport:String writeOpenCloseGroup(QPrintWriter;QString;QString;) | write open close group
+iReport:void writeBandElements(QPrintWriter;QBand;QReportElement;) | write band elements
+iReport:void writeBoxElement(QReportElement;QPrintWriter;QBox;) | write box element
+iReport:void writeCategorySeries(QCategorySeries;QPrintWriter;) | write category series
+iReport:void writeChartElement(QChartReportElement2;QPrintWriter;) | write chart element
+iReport:void writeChartNode(QChartReportElement2;QPrintWriter;) | write chart node
+iReport:void writeChartSubTitleNode(QChartReportElement2;QPrintWriter;) | write chart sub title node
+iReport:void writeChartTitleNode(QChartReportElement2;QPrintWriter;) | write chart title node
+iReport:void writeDatasetDataset(QChartReportElement2;QPrintWriter;) | write dataset dataset
+iReport:void writeDataset(QChartReportElement2;QPrintWriter;) | write dataset
+iReport:void writeFontElement(QIReportFont;QPrintWriter;) | write font element
+iReport:void writeHyperLinkExpressions(QHyperLinkableReportElement;QPrintWriter;) | write hyper link expressions
+iReport:void writePlotPlot(QChartReportElement2;QPrintWriter;) | write plot plot
+iReport:void writePlot(QChartReportElement2;QPrintWriter;) | write plot
+iReport:void writeTimePeriodSeries(QTimePeriodSeries;QPrintWriter;) | write time period series
+iReport:void writeTimeSeries(QTimeSeries;QPrintWriter;) | write time series
+iReport:void writeXMLBand(QBand;QPrintWriter;) | write xml band
+iReport:void writeXMLFields(QVector;QPrintWriter;QString;) | write xml fields
+iReport:void writeXMLGraphicElement(QGraphicReportElement;QPrintWriter;) | write xml graphic element
+iReport:void writeXMLGroups(QVector;Qjava.io.PrintWriter;ZI) | write xml groups
+iReport:void writeXMLParameters(QVector;QPrintWriter;QString;) | write xml parameters
+iReport:void writeXMLReportElementElement(QReportElement;QPrintWriter;) | write xml report element element
+iReport:void writeXMLReportElement(QReportElement;QPrintWriter;) | write xml report element
+iReport:void writeXMLSection(QString;QPrintWriter;) | write xml section
+iReport:void writeXMLStyles(QVector;Qjava.io.PrintWriter;QString;) | write xml styles
+iReport:void writeXMLSubDatasets(QVector;QPrintWriter;QString;) | write xml sub datasets
+iReport:void writeXMLTextElementElement(QTextReportElement;QPrintWriter;) | write xml text element element
+iReport:void writeXMLVariables(QVector;QPrintWriter;QString;) | write xml variables
+iReport:void writeXYSeries(QXYSeries;QPrintWriter;) | write xy series
+iReport:void writeXYZSeries(QXYZSeries;QPrintWriter;) | write xyz series
+Jabref:boolean writeField(QString;QWriter;QFieldFormatter;Z) | write field
+Jabref:CONS WriteXMPAction(QBasePanel;) | write xmp action
+Jabref:CONS WriteXMPEntryEditorAction(QBasePanel;QEntryEditor;) | write xmp entry editor action
+Jabref:void writeBibFileHeader(QWriter;QString;) | write bib file header
+Jabref:void writeDocumentInformation(QPDDocument;QBibtexEntry;QBibtexDatabase;) | write document information
+Jabref:void writeDublinCore(QPDDocument;QBibtexEntry;QBibtexDatabase;) | write dublin core
+Jabref:void writeDublinCore(QPDDocument;QCollection<QBibtexEntry;>;QBibtexDatabase;) | write dublin core
+Jabref:void writeFileToPrintStream(QPrintStream;) | write file to print stream
+Jabref:void writeManually(QFile;QString;) | write manually
+Jabref:void writeMetaData(QWriter;) | write meta data
+Jabref:void writeOptionFile(QString;) | write option file
+Jabref:void writePreamble(QWriter;QString;) | write preamble
+Jabref:void writeStringLabel(QString;IIZZ) | write string label
+Jabref:void writeString(QWriter;QBibtexString;QHashMap<QString;QBibtexString;>;) | write string
+Jabref:void writeStrings(QWriter;QBibtexDatabase;) | write strings
+Jabref:void writeText(QString;II) | write text
+Jabref:void writeToDCSchema(QXMPSchemaDublinCore;QBibtexEntry;QBibtexDatabase;) | write to dc schema
+Jabref:void writeXMP(QFile;QBibtexEntry;QBibtexDatabase;) | write xmp
+Jabref:void writeXMP(QFile;QCollection<QBibtexEntry;>;QBibtexDatabase;Z) | write xmp
+Jabref:void writeXMP(QString;QBibtexEntry;QBibtexDatabase;) | write xmp
+Jabref:void WriteXMPWorker(QList<QFile;>;QBibtexEntry;) | write xmp worker
+jbidwatcher:void writeInt(QFileOutputStream;I) | write int
+Jftp:int writeAndXWireFormat([BI) | write and x wire format
+Jftp:int writeBodyWireFormat([BI) | write body wire format
+Jftp:int writeBytesWireFormat([BI) | write bytes wire format
+Jftp:int writeDataWireFormat([BI) | write data wire format
+Jftp:int writeHeaderWireFormat([BI) | write header wire format
+Jftp:int writeParametersWireFormat([BI) | write parameters wire format
+Jftp:int writeParameterWordsWireFormat([BI) | write parameter words wire format
+Jftp:int writeQuestionSectionWireFormat([BI) | write question section wire format
+Jftp:int writeRDataWireFormat([BI) | write r data wire format
+Jftp:int writeResourceRecordWireFormat([BI) | write resource record wire format
+Jftp:int writeScopeWireFormat([BI) | write scope wire format
+Jftp:int writeSetupWireFormat([BI) | write setup wire format
+Jftp:int writeString(QString;[BI) | write string
+Jftp:int writeString(QString;[BIZ) | write string
+Jftp:int writeTrailerWireFormat([BI) | write trailer wire format
+Jftp:int writeWireFormat([BI) | write wire format
+Jftp:void writeBoolean(Z) | write boolean
+Jftp:void writeByte(I) | write byte
+Jftp:void writeBytes(QString;) | write bytes
+Jftp:void writeChar(I) | write char
+Jftp:void writeChars(QString;) | write chars
+Jftp:void writeDouble(D) | write double
+Jftp:void writeFloat(F) | write float
+Jftp:void writeInt2(I[BI) | write int 2
+Jftp:void writeInt2(J[BI) | write int 2
+Jftp:void writeInt4(I[BI) | write int 4
+Jftp:void writeInt4(J[BI) | write int 4
+Jftp:void writeInt8(J[BI) | write int 8
+Jftp:void writeInt(I) | write int
+Jftp:void writeLong(J) | write long
+Jftp:void writeSecurityBuffer([BII[B) | write security buffer
+Jftp:void writeShort(I) | write short
+Jftp:void writeTime(J[BI) | write time
+Jftp:void writeToFile([[QString;I) | write to file
+Jftp:void writeULong([BII) | write u long
+Jftp:void writeUShort([BII) | write u short
+Jftp:void writeUTF(QString;) | write utf
+Jftp:void writeUTime(J[BI) | write u time
+JHotDraw-7.0.8:void writeAttribute(QIXMLElement;QString;DD) | write attribute
+JHotDraw-7.0.8:void writeAttribute(QIXMLElement;QString;QString;DD) | write attribute
+JHotDraw-7.0.8:void writeAttribute(QIXMLElement;QString;QString;QString;) | write attribute
+JHotDraw-7.0.8:void writeAttribute(QIXMLElement;QString;QString;QString;QString;) | write attribute
+JHotDraw-7.0.8:void writeAttributes(QDOMOutput;) | write attributes
+JHotDraw-7.0.8:void writeBounds(QDOMOutput;) | write bounds
+JHotDraw-7.0.8:void writeCircleElement(QIXMLElement;QSVGEllipseFigure;) | write circle element
+JHotDraw-7.0.8:void writeDecorator(QDOMOutput;) | write decorator
+JHotDraw-7.0.8:void writeElement(QIXMLElement;QFigure;) | write element
+JHotDraw-7.0.8:void writeEllipseElement(QIXMLElement;QSVGEllipseFigure;) | write ellipse element
+JHotDraw-7.0.8:void writeEncoded(QString;) | write encoded
+JHotDraw-7.0.8:void writeFontAttributes(QIXMLElement;QMap<QAttributeKey;QObject;>;) | write font attributes
+JHotDraw-7.0.8:void writeGElement(QIXMLElement;QSVGGroupFigure;) | write g element
+JHotDraw-7.0.8:void writeImageElement(QIXMLElement;QSVGImageFigure;) | write image element
+JHotDraw-7.0.8:void writeLineElement(QIXMLElement;QSVGPathFigure;) | write line element
+JHotDraw-7.0.8:void writeLiner(QDOMOutput;) | write liner
+JHotDraw-7.0.8:void writeObject(QObject;) | write object
+JHotDraw-7.0.8:void writePathElement(QIXMLElement;QSVGPathFigure;) | write path element
+JHotDraw-7.0.8:void writePoints(QDOMOutput;) | write points
+JHotDraw-7.0.8:void writePolygonElement(QIXMLElement;QSVGPathFigure;) | write polygon element
+JHotDraw-7.0.8:void writePolylineElement(QIXMLElement;QSVGPathFigure;) | write polyline element
+JHotDraw-7.0.8:void writeRectElement(QIXMLElement;QSVGRectFigure;) | write rect element
+JHotDraw-7.0.8:void writeShapeAttributes(QIXMLElement;QMap<QAttributeKey;QObject;>;) | write shape attributes
+JHotDraw-7.0.8:void writeStorable(QDOMStorable;) | write storable
+JHotDraw-7.0.8:void writeTextAreaElement(QIXMLElement;QSVGTextAreaFigure;) | write text area element
+JHotDraw-7.0.8:void writeTextElement(QIXMLElement;QSVGTextFigure;) | write text element
+JHotDraw-7.0.8:void writeTransformAttribute(QIXMLElement;QMap<QAttributeKey;QObject;>;) | write transform attribute
+JHotDraw-7.0.8:XMLElement writeStorable(QDOMStorable;) | write storable
+JRobin:void writeBytes([B) | write bytes
+JRobin:void writeCommentExtension(QOutputStream;) | write comment extension
+JRobin:void writeComment(QObject;) | write comment
+JRobin:void writeDouble(D) | write double
+JRobin:void writeDouble(I[D) | write double
+JRobin:void writeDouble(IDI) | write double
+JRobin:void writeDouble(J[D) | write double
+JRobin:void writeDouble(JD) | write double
+JRobin:void writeDouble(JDI) | write double
+JRobin:void writeGraphicControlExtension(QOutputStream;ZI) | write graphic control extension
+JRobin:void writeImageDescriptor(QOutputStream;) | write image descriptor
+JRobin:void writeInt(I) | write int
+JRobin:void writeInt(JI) | write int
+JRobin:void writeLogicalScreenDescriptor(QOutputStream;) | write logical screen descriptor
+JRobin:void writeLong(J) | write long
+JRobin:void writeLong(JJ) | write long
+JRobin:void writeNetscapeExtension(QOutputStream;) | write netscape extension
+JRobin:void writeString(JQString;) | write string
+JRobin:void writeString(QString;) | write string
+JRobin:void writeTag(QString;D) | write tag
+JRobin:void writeTag(QString;DQString;) | write tag
+JRobin:void writeTag(QString;I) | write tag
+JRobin:void writeTag(QString;J) | write tag
+JRobin:void writeTag(QString;QColor;) | write tag
+JRobin:void writeTag(QString;QFile;) | write tag
+JRobin:void writeTag(QString;QFont;) | write tag
+JRobin:void writeTag(QString;QObject;) | write tag
+JRobin:void writeTag(QString;Z) | write tag
+MegaMek-0.32.0:boolean writeBlockComment(QString;) | write block comment
+MegaMek-0.32.0:boolean writeBlockData(QString;[F) | write block data
+MegaMek-0.32.0:boolean writeBlockData(QString;F) | write block data
+MegaMek-0.32.0:boolean writeBlockData(QString;[I) | write block data
+MegaMek-0.32.0:boolean writeBlockData(QString;I) | write block data
+MegaMek-0.32.0:boolean writeBlockData(QString;[QString;) | write block data
+MegaMek-0.32.0:boolean writeBlockData(QString;QString;) | write block data
+MegaMek-0.32.0:boolean writeBlockData(QString;QVector;) | write block data
+MegaMek-0.32.0:boolean writeBlockFile(QString;) | write block file
+MegaMek-0.32.0:void writeInitiativeReport(Z) | write initiative report
+prefuse:void writeGraph(QGraph;QFile;) | write graph
+prefuse:void writeGraph(QGraph;QOutputStream;) | write graph
+prefuse:void writeGraph(QGraph;QString;) | write graph
+prefuse:void writeObject(Qjava.io.ObjectOutputStream;) | write object
+prefuse:void writeTable(QTable;QFile;) | write table
+prefuse:void writeTable(QTable;QOutputStream;) | write table
+prefuse:void writeTable(QTable;QString;) | write table
+rhino:void writeAdapterObject(QObject;QObjectOutputStream;) | write adapter object
+rhino:void writeData(QWriter;) | write data
+rhino:void writeInitialData(QWriter;) | write initial data
+rhino:void writeMember(QObjectOutputStream;QMember;) | write member
+rhino:void writeObject(QObjectOutputStream;) | write object
+rhino:void writeParameters(QObjectOutputStream;[QClass;) | write parameters
+SweetHome3D:void writeAppearancesToMTLFile() | write appearances to mtl file
+SweetHome3D:void writeFurnitureCatalog(QPreferences;) | write furniture catalog
+SweetHome3D:void writeHeader(QWriter;) | write header
+SweetHome3D:void writeHome(QHome;) | write home
+SweetHome3D:void writeHome(QHome;QString;) | write home
+SweetHome3D:void writeHomeZipEntries(QZipOutputStream;QString;QHomeURLContent;) | write home zip entries
+SweetHome3D:void writeIndexedQuadrilateral(QIndexedGeometryArray;IIII[I[I[I) | write indexed quadrilateral
+SweetHome3D:void writeIndexedTriangle(QIndexedGeometryArray;III[I[I[I) | write indexed triangle
+SweetHome3D:void writeNodeGeometry(QGeometry;QTransform3D;) | write node geometry
+SweetHome3D:void writeNode(QNode;) | write node
+SweetHome3D:void writeNode(QNode;QNode;QString;) | write node
+SweetHome3D:void writeNode(QNode;QString;) | write node
+SweetHome3D:void writeNormal(QTransform3D;QVector3f;IQMap<QVector3f;QInteger;>;[I) | write normal
+SweetHome3D:void writeObject(Qjava.io.ObjectOutputStream;) | write object
+SweetHome3D:void writePreferences(QHomeController;) | write preferences
+SweetHome3D:void writeQuadrilateral(QGeometryArray;IIII[I[I[I) | write quadrilateral
+SweetHome3D:void writeResourceZipEntries(QZipOutputStream;QString;QResourceURLContent;) | write resource zip entries
+SweetHome3D:void writeTextureCoordinates(QTexCoord2f;IQMap<QTexCoord2f;QInteger;>;[I) | write texture coordinates
+SweetHome3D:void writeTexturesCatalog(QPreferences;) | write textures catalog
+SweetHome3D:void writeTriangle(QGeometryArray;III[I[I[I) | write triangle
+SweetHome3D:void writeVertex(QTransform3D;QPoint3f;IQMap<QPoint3f;QInteger;>;[I) | write vertex
+SweetHome3D:void writeZipEntries(QZipOutputStream;QString;QURLContent;) | write zip entries
+SweetHome3D:void writeZipEntry(QZipOutputStream;QString;QContent;) | write zip entry
+vuze:boolean writeBytesAsFile2(QString;[B) | write bytes as file 2
+vuze:boolean writeConfigFile(QFile;QMap;) | write config file
+vuze:boolean writeMessages() | write messages
+vuze:boolean writeSupport(QSocketChannel;) | write support
+vuze:byte[] writeReadTransfer(QDHTTransportProgressListener;QDHTTransportContact;[B[BJ) | write read transfer
+vuze:byte[] writeStringToMetaData(QString;) | write string to meta data
+vuze:byte[] writeToBEncodedData() | write to b encoded data
+vuze:CONS WriteController() | write controller
+vuze:int writeBytes(I) | write bytes
+vuze:int writeHeaderEnd(QByteBuffer;Z) | write header end
+vuze:int[] writeHeaderStart(QByteBuffer;BB) | write header start
+vuze:Map writeToMap() | write to map
+vuze:void write4Bytes(QOutputStream;J) | write 4 bytes
+vuze:void writeAndHandoverBuffer(QDirectByteBuffer;J) | write and handover buffer
+vuze:void writeAndHandoverBuffers([QDirectByteBuffer;J) | write and handover buffers
+vuze:void writeASXFile(QFile;QDownloadManager;) | write asx file
+vuze:void writeAzpdFile(QFile;QString;) | write az pd file
+vuze:void writeBERBody(QInputStream;) | write ber body
+vuze:void writeBEREnd() | write ber end
+vuze:void writeBERHeader(I) | write ber header
+vuze:void writeBlock(IIQDirectByteBuffer;QPEPeer;Z) | write block
+vuze:void writeBlock(QDiskManagerWriteRequest;QDiskManagerWriteRequestListener;) | write block
+vuze:void writeByteBuffer(QByteBuffer;) | write byte buffer
+vuze:void writeBytesAsFile(QString;[B) | write bytes as file
+vuze:void writeBytes([B) | write bytes
+vuze:void writeBytes([BII) | write bytes
+vuze:void writeCache(QDirectByteBuffer;JZ) | write cache
+vuze:void writeChar(C) | write char
+vuze:void writeCompleted(QDiskManagerWriteRequest;) | write completed
+vuze:void writeConfig(QMap;) | write config
+vuze:void writeContent(QString;QMap;) | write content
+vuze:void writeDEREncoded(I[B) | write der encoded
+vuze:void writeDEREncoded(QOutputStream;I[B) | write der encoded
+vuze:void writeDEREncoded(QOutputStream;IQInputStream;) | write der encoded
+vuze:void writeDiversifications() | write diversifications
+vuze:void writeEncoded([B) | write encoded
+vuze:void writeEncoded(I[B) | write encoded
+vuze:void writeEntry(QJarOutputStream;QJarEntry;QInputStream;) | write entry
+vuze:void writeFailed(QDiskManagerWriteRequest;QThrowable;) | write failed
+vuze:void writeFailed(QThrowable;) | write failed
+vuze:void writeField(QOutputStream;J) | write field
+vuze:void writeField(QOutputStream;QBigInteger;) | write field
+vuze:void writeFooter(QString;) | write footer
+vuze:void writeGeneric([B) | write generic
+vuze:void writeGenericMapEntry(QString;QObject;) | write generic map entry
+vuze:void writeGeneric(QList;) | write generic
+vuze:void writeGeneric(QLong;) | write generic
+vuze:void writeGeneric(QMap;) | write generic
+vuze:void writeGeneric(QObject;) | write generic
+vuze:void writeHdr(I) | write hdr
+vuze:void writeHeader(QString;) | write header
+vuze:void writeHexEncoded([B) | write hex encoded
+vuze:void writeImage(QOutputStream;II) | write image
+vuze:void writeInfo() | write info
+vuze:void writeInt(I) | write int
+vuze:void writeKeyBlocks() | write key blocks
+vuze:void writeLength(I) | write length
+vuze:void writeLength(QOutputStream;I) | write length
+vuze:void writeLineEscaped(QString;) | write line escaped
+vuze:void writeLineRaw(QString;) | write line raw
+vuze:void writeLocalisableTag(QString;[B) | write local is able tag
+vuze:void writeLong(J) | write long
+vuze:void writeMapToFile(QMap;QString;) | write map to file
+vuze:void writeNotFound(QOutputStream;) | write not found
+vuze:void writeNull() | write null
+vuze:void writeObject(QObject;) | write object
+vuze:void writeObject(QObject;QString;[CQSecureRandom;) | write object
+vuze:void writePluginProperties(QFile;[QString;) | write plugin properties
+vuze:void writeProcessorLoop() | write processor loop
+vuze:void writeRawCookedAverageTag(QString;J) | write raw cooked average tag
+vuze:void writeRawCookedTag(QString;J) | write raw cooked tag
+vuze:void writeRecentAddresses() | write recent addresses
+vuze:void writeReply(QBuddyPluginBuddyMessage;QMap;) | write reply
+vuze:void writeReply(QNetworkConnection;QTransportHelper;QString;) | write reply
+vuze:void writeReply(QOutputStream;QString;[B) | write reply
+vuze:void writeReply(QOutputStream;QString;QString;) | write reply
+vuze:void writeRequest(QBuddyPluginBuddyMessage;QMap;) | write request
+vuze:void writeResilientBEncodedFile(QFile;QString;QMap;Z) | write resilient b encoded file
+vuze:void writeResilientConfigFile(QString;QMap;) | write resilient config file
+vuze:void writeResilientFile(QFile;QMap;) | write resilient file
+vuze:void writeResilientFile(QFile;QString;QMap;) | write resilient file
+vuze:void writeResilientFile(QFile;QString;QMap;Z) | write resilient file
+vuze:void writeResilientFile(QFile;QString;QMap;ZZ) | write resilient file
+vuze:void writeRoot() | write root
+vuze:void writeState() | write state
+vuze:void writeStats() | write stats
+vuze:void writeStream([BQSocketChannel;) | write stream
+vuze:void writeStream([BQTransportHelperFilter;) | write stream
+vuze:void writeStream(QString;QTransportHelperFilter;) | write stream
+vuze:void writeStringToHKCRandHKCU(QString;QString;QString;) | write string to hkc rand hk cu
+vuze:void writeStringToMetaData(QMap;QString;QString;) | write string to meta data
+vuze:void writeStringValue(IQString;QString;QString;) | write string value
+vuze:void writeSupport() | write support
+vuze:void writeSupport([QDirectByteBuffer;J) | write support
+vuze:void writeSupport(QDirectByteBuffer;J) | write support
+vuze:void writeTag(QString;[B) | write tag
+vuze:void writeTag(QString;J) | write tag
+vuze:void writeTag(QString;QString;) | write tag
+vuze:void writeTag(QString;Z) | write tag
+vuze:void writeTest(QCacheFileManagerImpl;) | write test
+vuze:void writeToClipboard(QString;) | write to clipboard
+vuze:void writeToFile(QFile;) | write to file
+vuze:void writeToFile(QTOTorrent;) | write to file
+vuze:void writeToFile(QTOTorrent;QFile;) | write to file
+vuze:void writeToFile(QTOTorrent;QFile;Z) | write to file
+vuze:void writeToFile(QTOTorrent;Z) | write to file
+vuze:void writeTorrent() | write torrent
+vuze:void writeTorrentIfExists(QTOTorrent;) | write torrent if exists
+vuze:void writeTorrent(QShareItemImpl;) | write torrent
+vuze:void writeTorrent(QTrackerTorrent;) | write torrent
+vuze:void writeTransfer(QDHTTransportProgressListener;QDHTTransportContact;[B[B[BJ) | write transfer
+vuze:void writeVersionData() | write version data
+vuze:void writeVuzeFile(QSubscriptionImpl;) | write vu ze file
+vuze:void writeWordValue(IQString;QString;I) | write word value
+weka:boolean writeToFile(QString;QObject;) | write to file
+weka:boolean writeToFile(QString;QObject;Z) | write to file
+weka:boolean writeToFile(QString;QString;) | write to file
+weka:boolean writeToFile(QString;QString;Z) | write to file
+weka:Element writeBeanConnection(QElement;QObject;QString;) | write bean connection
+weka:Element writeBeanInstance(QElement;QObject;QString;) | write bean instance
+weka:Element writeBeanLoader(QElement;QObject;QString;) | write bean loader
+weka:Element writeBeanSaver(QElement;QObject;QString;) | write bean saver
+weka:Element writeBeanVisual(QElement;QObject;QString;) | write bean visual
+weka:Element writeBooleanToXML(QElement;ZQString;) | write boolean to xml
+weka:Element writeByteToXML(QElement;BQString;) | write byte to xml
+weka:Element writeCharToXML(QElement;CQString;) | write char to xml
+weka:Element writeCollection(QElement;QObject;QString;) | write collection
+weka:Element writeColor(QElement;QObject;QString;) | write color
+weka:Element writeColorUIResource(QElement;QObject;QString;) | write color ui resource
+weka:Element writeCostMatrixOld(QElement;QObject;QString;) | write cost matrix old
+weka:Element writeDefaultListModel(QElement;QObject;QString;) | write default list model
+weka:Element writeDimension(QElement;QObject;QString;) | write dimension
+weka:Element writeDoubleToXML(QElement;DQString;) | write double to xml
+weka:Element writeFloatToXML(QElement;FQString;) | write float to xml
+weka:Element writeFont(QElement;QObject;QString;) | write font
+weka:Element writeFontUIResource(QElement;QObject;QString;) | write font ui resource
+weka:Element writeIntToXML(QElement;IQString;) | write int to xml
+weka:Element writeLoader(QElement;QObject;QString;) | write loader
+weka:Element writeLongToXML(QElement;JQString;) | write long to xml
+weka:Element writeMap(QElement;QObject;QString;) | write map
+weka:Element writeMatrixOld(QElement;QObject;QString;) | write matrix old
+weka:Element writeMatrix(QElement;QObject;QString;) | write matrix
+weka:Element writeMetaBean(QElement;QObject;QString;) | write meta bean
+weka:Element writePoint(QElement;QObject;QString;) | write point
+weka:Element writePropertyNode(QElement;QObject;QString;) | write property node
+weka:Element writeSaver(QElement;QObject;QString;) | write saver
+weka:Element writeShortToXML(QElement;SQString;) | write short to xml
+weka:Element writeToXML(QElement;QObject;QString;) | write to xml
+weka:Object writePreProcess(QObject;) | write pre process
+weka:String writeOPTICSresultsTipText() | write opt ic sresults tip text
+weka:void writeBatch() | write batch
+weka:void writeBinary(QString;QObject;) | write binary
+weka:void writeCurve(QString;QEstimator;DDI) | write curve
+weka:void writeCurve(QString;QEstimator;QEstimator;DDDI) | write curve
+weka:void writeDot(QFile;) | write dot
+weka:void writeDOT(QString;QString;QFastVector;QFastVector;) | write dot
+weka:void writeIncremental(QInstance;) | write incremental
+weka:void writeInstance(QInstance;) | write instance
+weka:void writeObject(Qjava.io.ObjectOutputStream;) | write object
+weka:void writeObject(QObjectOutputStream;) | write object
+weka:void writePostProcess(QObject;) | write post process
+weka:void writeStructure() | write structure
+weka:void writeXMLBIF03(QString;QString;QFastVector;QFastVector;) | write xm lb if 03

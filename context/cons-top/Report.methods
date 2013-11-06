@@ -1,0 +1,58 @@
+CONS Report() | report
+CONS ReportBandChangedEvent(QJReportFrame;QBand;I) | report band changed event
+CONS ReportCargoAction(QFreeColClient;) | report cargo action
+CONS ReportCargoPanel(QCanvas;) | report cargo panel
+CONS ReportClassLoader() | report class loader
+CONS ReportColonyAction(QFreeColClient;) | report colony action
+CONS ReportColonyPanel(QCanvas;) | report colony panel
+CONS ReportContinentalCongressAction(QFreeColClient;) | report continental congress action
+CONS ReportContinentalCongressPanel(QCanvas;) | report continental congress panel
+CONS ReportDisplay(QClient;) | report display
+CONS ReportElementChangedEvent(QJReportFrame;QReportElement;I) | report element changed event
+CONS ReportElementChangedEvent(QJReportFrame;QVector;I) | report element changed event
+CONS ReportElementFactory() | report element factory
+CONS ReportElement(IIII) | report element
+CONS ReportElementSheetPanel() | report element sheet panel
+CONS ReportElementsSelectionEvent(QJReportFrame;Qjava.util.Vector;) | report elements selection event
+CONS ReportExplorationAction(QFreeColClient;) | report exploration action
+CONS ReportExplorationPanel(QCanvas;) | report exploration panel
+CONS ReportForeignAction(QFreeColClient;) | report foreign action
+CONS ReportForeignAffairPanel(QCanvas;) | report foreign af fair panel
+CONS ReportHighScoresAction(QFreeColClient;) | report high scores action
+CONS ReportHighScoresPanel(QCanvas;) | report high scores panel
+CONS ReportHistoryAction(QFreeColClient;) | report history action
+CONS ReportHistoryPanel(QCanvas;) | report history panel
+CONS Report(I) | report
+CONS Report(II) | report
+CONS ReportImportsDialog(Qjava.awt.Dialog;Z) | report imports dialog
+CONS ReportImportsDialog(Qjava.awt.Frame;Z) | report imports dialog
+CONS ReportIndianAction(QFreeColClient;) | report indian action
+CONS ReportIndianPanel(QCanvas;) | report indian panel
+CONS ReportLabourAction(QFreeColClient;) | report labour action
+CONS ReportLabourPanel(QCanvas;) | report labour panel
+CONS ReportLabourPanel(QCanvas;QLabourData.UnitData;) | report labour panel
+CONS ReportMessages() | report messages
+CONS ReportMilitaryAction(QFreeColClient;) | report military action
+CONS ReportMilitaryPanel(QCanvas;) | report military panel
+CONS ReportNavalAction(QFreeColClient;) | report naval action
+CONS ReportNavalPanel(QCanvas;) | report naval panel
+CONS ReportPanel(QCanvas;QString;) | report panel
+CONS ReportPanelToolTip(QJReportFrame;) | report panel tool tip
+CONS ReportProductionPanel(QGoodsType;QCanvas;QReportPanel;) | report production panel
+CONS ReportPropertiesFrame(Qjava.awt.Frame;Z) | report properties frame
+CONS Report(QReport;) | report
+CONS Report(QString;) | report
+CONS ReportQueryDialog(Qjava.awt.Frame;Z) | report query dialog
+CONS ReportReligionAction(QFreeColClient;) | report religion action
+CONS ReportReligiousPanel(QCanvas;) | report religious panel
+CONS ReportRequirementsAction(QFreeColClient;) | report requirements action
+CONS ReportRequirementsPanel(QCanvas;) | report requirements panel
+CONS ReportSeriesDialog(Qjava.awt.Dialog;Z) | report series dialog
+CONS ReportSeriesDialog(Qjava.awt.Frame;Z) | report series dialog
+CONS ReportSubDatasetChangedEvent(QJReportFrame;QVector;I) | report sub dataset changed event
+CONS ReportSubDatasetChangedEvent(QSubDataset;QObject;II) | report sub dataset changed event
+CONS ReportTradeAction(QFreeColClient;) | report trade action
+CONS ReportTradePanel(QCanvas;) | report trade panel
+CONS ReportTurnAction(QFreeColClient;) | report turn action
+CONS ReportTurnPanel(QCanvas;[QModelMessage;) | report turn panel
+CONS ReportUnitPanel(QReportType;ZQCanvas;QReportPanel;) | report unit panel

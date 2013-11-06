@@ -1,0 +1,33 @@
+boolean isShowCloseTicks() | is show close ticks
+boolean isShowOpenTicks() | is show open ticks
+boolean isShowTickLabels() | is show tick labels
+boolean isShowTickMarks() | is show tick marks
+boolean tick(Tickable ticking, int tickID) | tick
+boolean waitForRegistrationAndSynchronization(String ticket, int timeout) | wait for registration and synchronization
+float calculateDownTickMultiple(I) | calculate down tick multiple
+float calculateUpTickMultiple(I) | calculate up tick multiple
+int getExplicitAckTicks() | get explicit ack ticks
+int getRetransmitTicks() | get retransmit ticks
+int getRetransmitTicks(I) | get retransmit ticks
+int getTick() | get tick
+long getNextTick() | get next tick
+long getSendTickCount() | get send tick count
+long getTicket() | get ticket
+long rightTickForMove() | right tick for move
+String getFormattedTickText(QNumberFormat;F) | get formatted tick text
+String openTicket() | open ticket
+Tick getTick(int row) | get tick
+void drawRangeGridlines(Graphics2D g2, Rectangle2D area, List ticks) | draw range gridlines
+void selectVerticalAutoTickUnit(Graphics2D g2, Rectangle2D dataArea, RectangleEdge edge) | select vertical auto tick unit
+void setCurrentProcessTicks() | set current process ticks
+void setDomainTickFormat(NumberFormat domainTickFormat) | set domain tick format
+void setNextTick(J) | set next tick
+void setShowCloseTicks(Z) | set show close ticks
+void setShowOpenTicks(Z) | set show open ticks
+void setShowTickLabels(Z) | set show tick labels
+void setShowTickMarks(Z) | set show tick marks
+void setTicket(J) | set ticket
+void testRemoveTicketStatus() | test remove ticket status
+void tick() | tick
+void tick(I) | tick
+void timerTick() | timer tick

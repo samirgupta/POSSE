@@ -1,0 +1,10 @@
+List aquire(URI id, Map params) | aquire
+List queryForList(String sql, Map paramMap, Class elementType) | query for list
+Object fillReport(Class klass, String name, Map parameters) | fill report
+Object getObject(int i, Map map) | get object
+PollStatus poll(MonitoredService svc, Map parameters) | poll
+void addOrderBy(SelectionQuery query, String queryString, Map tables) | add order by
+void initialize(List params, Map context) | initialize
+void init(NmrExpPrototype parent, Map attrlinks) | init
+void putSupplier(GenericDelegator delegator, Map formsData) | put supplier
+void setToSearch(MOB mob, Message msg, Map effects) | set to search

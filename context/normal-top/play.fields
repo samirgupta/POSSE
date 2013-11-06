@@ -1,0 +1,162 @@
+boolean bPlaying | b playing
+boolean canPlay | can play
+boolean embeddedPlayerAvail | embedded player avail
+boolean playable | playable
+com.aelitis.azureus.ui.swt.columns.utils.ColumnImageClickArea clickAreaPlay | click area play
+int COMMAND_PLAYER_ADD | command player add
+int COMMAND_PLAYER_READY | command player ready
+int COMMAND_PLAYER_REMOVE | command player remove
+int COMMAND_PLAYER_UPDATE | command player update
+int COMMAND_SENDING_PLAYERS | command sending players
+int FIELD_PLAYLINK | field play link
+int GAME_PLAYER_CHANGE | game player change
+int GAME_PLAYER_CHAT | game player chat
+int goalPlayers | goal players
+int PLAY_COLUMN_SIZE | play column size
+int player | player
+int playerId | player id
+int PLAYER_NONE | player none
+int[] playerTypes | player types
+int PLAYLIST_TYPE_BESTOF | playlist type best of
+int PLAYLIST_TYPE_BOOKMARK | playlist type bookmark
+int PLAYLIST_TYPE_NEW | playlist type new
+int PLAYLIST_TYPE_NORMAL | playlist type normal
+int PLAYLIST_TYPE_NOVELTIES | playlist type novelties
+int PLAYLIST_TYPE_QUEUE | playlist type queue
+int PR_PLAY_LINK | pr play link
+int victoryPlayerId | victory player id
+java.awt.Choice m_chPlayer | m ch player
+java.awt.Label labPlayerInfo | lab player info
+java.awt.Label m_labelPlayer | m label player
+java.awt.List lisPlayerInfo | lis player info
+java.awt.List playerList | player list
+java.awt.MenuItem viewPlayerList | view player list
+java.awt.Panel panPlayerInfo | pan player info
+java.lang.Class cPlayerImpl | c player impl
+java.lang.reflect.Method methodIsExternallyPlayable | method is externally playable
+java.lang.String BTN_PLAY | btn play
+java.lang.String CONF_PLAYLIST_EDITOR_COLUMNS | conf playlist editor columns
+java.lang.String CONF_STATE_WAS_PLAYING | conf state was playing
+java.lang.String DEFAULT_PLAYLIST_FILE | default playlist file
+java.lang.String DL_REFERAL_PLAYDASHACTIVITY | dl refer al play dash activity
+java.lang.String DL_REFERAL_PLAYDM | dl refer al play dm
+java.lang.String EVENT_PLAYER_PAUSE | event player pause
+java.lang.String EVENT_PLAYER_PLAY | event player play
+java.lang.String EVENT_PLAYER_RESUME | event player resume
+java.lang.String EVENT_PLAY_ERROR | event play error
+java.lang.String EVENT_PLAYER_STOP | event player stop
+java.lang.String EVENT_PLAYLIST_REFRESH | event playlist refresh
+java.lang.String EXT_AZUREUS_PLAYER_DATA | ext azureus player data
+java.lang.String EXT_PLAYLIST | ext playlist
+java.lang.String FILE_DEFAULT_BESTOF_PLAYLIST | file default best of playlist
+java.lang.String FILE_DEFAULT_BOOKMARKS_PLAYLIST | file default bookmarks playlist
+java.lang.String FILE_DEFAULT_NOVELTIES_PLAYLIST | file default novelties playlist
+java.lang.String FILE_DEFAULT_QUEUE_PLAYLIST | file default queue playlist
+java.lang.String FILE_PLAYER_PERSPECTIVE | file player perspective
+java.lang.String GOAL_PLAYERS | goal players
+java.lang.String ICON_DEVICE_PLAYER_MOUNTED_SMALL | icon device player mounted small
+java.lang.String ICON_DEVICE_PLAYER_UNMOUNTED_SMALL | icon device player unmounted small
+java.lang.String ICON_PERSPECTIVE_PLAYER | icon perspective player
+java.lang.String ICON_PLAY | icon play
+java.lang.String ICON_PLAY2 | icon play 2
+java.lang.String ICON_PLAYLIST_BESTOF | icon playlist best of
+java.lang.String ICON_PLAYLIST_BOOKMARK | icon playlist bookmark
+java.lang.String ICON_PLAYLIST_FILE | icon playlist file
+java.lang.String ICON_PLAYLIST_NEW | icon playlist new
+java.lang.String ICON_PLAYLIST_NORMAL | icon playlist normal
+java.lang.String ICON_PLAYLIST_NOVELTIES | icon playlist novelties
+java.lang.String ICON_PLAYLIST_QUEUE | icon playlist queue
+java.lang.String LAST_PLAYER_CAMO_NAME | last player camo name
+java.lang.String LAST_PLAYER_CATEGORY | last player category
+java.lang.String LAST_PLAYER_COLOR | last player color
+java.lang.String LAST_PLAYER_NAME | last player name
+java.lang.String PERSPECTIVE_NAME_PLAYER | perspective name player
+java.lang.String playAfterURL | play after url
+java.lang.String PLAYER_IMPL_JAVALAYER | player impl java layer
+java.lang.String playerName | player name
+java.lang.String playLink | play link
+java.lang.String PLAYLIST_NOTE | playlist note
+java.lang.String VIEW_NAME_LOGICAL_PLAYLIST_EDITOR | view name logical playlist editor
+java.lang.String VIEW_NAME_LOGICAL_PLAYLIST_REPOSITORY | view name logical playlist repository
+java.lang.String VIEW_NAME_PHYSICAL_PLAYLIST_EDITOR | view name physical playlist editor
+java.lang.String VIEW_NAME_PHYSICAL_PLAYLIST_REPOSITORY | view name physical playlist repository
+java.lang.String XML_PLAY | xml play
+java.lang.String XML_PLAYLIST | xml playlist
+java.lang.String XML_PLAYLIST_FILE | xml playlist file
+java.lang.String XML_PLAYLIST_FILES | xml playlist files
+java.lang.String XML_PLAYLISTS | xml playlists
+java.lang.String XML_TYPE_PLAYER_IMPL | xml type player impl
+java.util.ArrayList<org.jajuk.base.PlaylistFile> alPlaylistFiles | al playlist files
+java.util.ArrayList<org.jajuk.ui.PlaylistFileItem> alPlaylistFileItems | al playlist file items
+java.util.ArrayList playNowList | play now list
+java.util.HashMap<java.lang.String,java.lang.String> hmWrongRightPlaylistFileID | hm wrong right playlist file id
+java.util.Hashtable playerIds | player ids
+java.util.Map mPlayingData | m playing data
+java.util.Set pending_play_now_urls | pending play now urls
+java.util.TreeSet<org.jajuk.base.PlaylistFile> playlistFiles | playlist files
+java.util.Vector players | players
+javax.swing.ImageIcon iconPlaylist | icon playlist
+javax.swing.ImageIcon PLAY_ICON | play icon
+javax.swing.ImageIcon UNMOUNT_PLAY_ICON | unmount play icon
+javax.swing.JButton jbPlayPause | jb play pause
+javax.swing.JComboBox m_chPlayer | m ch player
+javax.swing.JLabel labPlayerInfo | lab player info
+javax.swing.JLabel m_labelPlayer | m label player
+javax.swing.JList lisPlayerInfo | lis player info
+javax.swing.JList playerList | player list
+javax.swing.JMenuItem jmiAlbumPlay | jmi album play
+javax.swing.JMenuItem jmiAlbumPlayRepeat | jmi album play repeat
+javax.swing.JMenuItem jmiAlbumPlayShuffle | jmi album play shuffle
+javax.swing.JMenuItem jmiAuthorPlay | jmi author play
+javax.swing.JMenuItem jmiAuthorPlayRepeat | jmi author play repeat
+javax.swing.JMenuItem jmiAuthorPlayShuffle | jmi author play shuffle
+javax.swing.JMenuItem jmiDevCreatePlaylist | jmi dev create playlist
+javax.swing.JMenuItem jmiDevPlay | jmi dev play
+javax.swing.JMenuItem jmiDevPlayRepeat | jmi dev play repeat
+javax.swing.JMenuItem jmiDevPlayShuffle | jmi dev play shuffle
+javax.swing.JMenuItem jmiDirCreatePlaylist | jmi dir create playlist
+javax.swing.JMenuItem jmiDirPlay | jmi dir play
+javax.swing.JMenuItem jmiDirPlayRepeat | jmi dir play repeat
+javax.swing.JMenuItem jmiDirPlayShuffle | jmi dir play shuffle
+javax.swing.JMenuItem jmiFilePlay | jmi file play
+javax.swing.JMenuItem jmiFilePlayDirectory | jmi file play directory
+javax.swing.JMenuItem jmiFilePlayRepeat | jmi file play repeat
+javax.swing.JMenuItem jmiFilePlayShuffle | jmi file play shuffle
+javax.swing.JMenuItem jmiPlay | jmi play
+javax.swing.JMenuItem jmiPlaylistAddFavorites | jmi playlist add favorites
+javax.swing.JMenuItem jmiPlaylistFileCopy | jmi playlist file copy
+javax.swing.JMenuItem jmiPlaylistFileCut | jmi playlist file cut
+javax.swing.JMenuItem jmiPlaylistFileDelete | jmi playlist file delete
+javax.swing.JMenuItem jmiPlaylistFilePaste | jmi playlist file paste
+javax.swing.JMenuItem jmiPlaylistFilePlay | jmi playlist file play
+javax.swing.JMenuItem jmiPlaylistFilePlayRepeat | jmi playlist file play repeat
+javax.swing.JMenuItem jmiPlaylistFilePlayShuffle | jmi playlist file play shuffle
+javax.swing.JMenuItem jmiPlaylistFileProperties | jmi playlist file properties
+javax.swing.JMenuItem jmiPlaylistFilePush | jmi playlist file push
+javax.swing.JMenuItem jmiStylePlay | jmi style play
+javax.swing.JMenuItem jmiStylePlayRepeat | jmi style play repeat
+javax.swing.JMenuItem jmiStylePlayShuffle | jmi style play shuffle
+javax.swing.JMenuItem jmiTrackPlay | jmi track play
+javax.swing.JMenuItem jmiTrackPlayAlbum | jmi track play album
+javax.swing.JMenuItem jmiTrackPlayAuthor | jmi track play author
+javax.swing.JMenuItem jmiTrackPlayRepeat | jmi track play repeat
+javax.swing.JMenuItem jmiTrackPlayShuffle | jmi track play shuffle
+javax.swing.JMenuItem viewPlayerList | view player list
+javax.swing.JPanel jpPlay | jp play
+javax.swing.JPanel panPlayerInfo | pan player info
+javax.swing.JPopupMenu jmenuPlaylistFile | jmenu playlist file
+long lTimeToPlay | l time to play
+megamek.client.ui.AWT.PlayerListDialog playerListDialog | player list dialog
+megamek.client.ui.AWT.widget.PMSimpleLabel playerL | player l
+megamek.client.ui.AWT.widget.PMSimpleLabel playerR | player r
+megamek.client.ui.swing.PlayerListDialog playerListDialog | player list dialog
+megamek.client.ui.swing.widget.PMSimpleLabel playerL | player l
+megamek.client.ui.swing.widget.PMSimpleLabel playerR | player r
+megamek.common.Player localPlayer | local player
+megamek.common.Player[] m_players | m players
+megamek.common.Player player | player
+org.gudy.azureus2.platform.PlatformManagerCapabilities PlaySystemAlert | play system alert
+org.jajuk.base.PlaylistFile playlist | playlist
+org.jajuk.players.IPlayerImpl playerImpl | player impl
+org.jajuk.players.IPlayerImpl playerImpl1 | player impl 1
+org.jajuk.players.IPlayerImpl playerImpl2 | player impl 2

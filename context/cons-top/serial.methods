@@ -1,0 +1,22 @@
+CONS IssuerAndSerialNumber(QASN1Sequence;) | issuer and serial number
+CONS IssuerAndSerialNumber(QX509Name;QBigInteger;) | issuer and serial number
+CONS IssuerAndSerialNumber(QX509Name;QDERInteger;) | issuer and serial number
+CONS IssuerSerial(QASN1Sequence;) | issuer serial
+CONS IssuerSerial(QGeneralNames;QDERInteger;) | issuer serial
+CONS LibrarySerialization() | library serialization
+CONS SerializableBlob(QBlob;) | serializable blob
+CONS SerializableClob(QClob;) | serializable clob
+CONS SerializableProxy() | serializable proxy
+CONS SerializableProxy(QString;QClass;[QClass;QSerializable;QMethod;QMethod;QAbstractComponentType;) | serializable proxy
+CONS SerializableType(QClass;) | serializable type
+CONS SerializationException(QString;QException;) | serialization exception
+CONS SerializationHelper() | serialization helper
+CONS SerializedInstancesSaver() | serialized instances saver
+CONS SerializedModelSaver() | serialized model saver
+CONS SerializedModelSaverCustomizer() | serialized model saver customizer
+CONS SerializedObject(QObject;) | serialized object
+CONS SerializedObject(QObject;Z) | serialized object
+CONS TOTorrentXMLSerialiser(QTOTorrentImpl;) | to torrent xml serialiser
+CONS XMLBasicSerialization() | xml basic serialization
+CONS XMLSerialization() | xml serialization
+CONS XMLSerializationMethodHandler(QObject;) | xml serialization method handler

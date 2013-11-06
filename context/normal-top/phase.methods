@@ -1,0 +1,32 @@
+boolean isEligibleForTargetingPhase() | is eligible for targeting phase
+boolean isPhasePlayable(I) | is phase playable
+boolean phaseHasTurns(I) | phase has turns
+int getLastPhase() | get last phase
+int getNewPhase() | get new phase
+int getOldPhase() | get old phase
+int getPhase() | get phase
+int getPhaseCF() | get phase cf
+int getPhaser() | get phaser
+int usedInPhase() | used in phase
+Key doPhase(QKey;Z) | do phase
+Key engineDoPhase(QKey;Z) | engine do phase
+void changePhase(I) | change phase
+void collectionPhase(int phaseId) | collection phase
+void DoEndPhaseChanges(QVector<QReport;>;) | do end phase changes
+void endCurrentPhase() | end current phase
+void executePhase(I) | execute phase
+void gamePhaseChange(QGamePhaseChangeEvent;) | game phase change
+void gamePhaseChange(QGameTurnChangeEvent;) | game phase change
+void phaseID(I[[I) | phase id
+void phaseIID(I[[I) | phase iid
+void phaseIIU(I[[I) | phase iiu
+void phaseIU(I[[I) | phase iu
+void phaseTwoMax() | phase two max
+void phaseTwoMin() | phase two min
+void prepareForPhase(I) | prepare for phase
+void resetEntityPhase(I) | reset entity phase
+void setLastPhase(I) | set last phase
+void setPhaseCF(I) | set phase cf
+void setPhase(I) | set phase
+void setPhaser(I) | set phaser
+void startPhasedTransaction() | start phased transaction

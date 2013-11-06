@@ -1,0 +1,6 @@
+CONS TransactionException(QString;) | transaction exception
+CONS TransactionException(QString;QThrowable;) | transaction exception
+CONS TransactionFactoryFactory() | transaction factory factory
+CONS TransactionManagerLookupFactory() | transaction manager lookup factory
+CONS TransactionManager(QDatabase;) | transaction manager
+CONS Transaction(ZQTable;QRow;J) | transaction

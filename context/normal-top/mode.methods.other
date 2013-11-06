@@ -1,0 +1,33 @@
+boolean getSingleModeFlag() | get single mode flag
+boolean hasAimModeTargComp() | has aim mode targ comp
+boolean hasInstantModeSwitch() | has instant mode switch
+boolean isFlushModeNever() | is flush mode never
+ControllerAdapter getModeController() | get mode controller
+freemind.controller.actions.generated.instance.PluginModeType createPluginModeType() | create plugin mode type
+JMenu getModeFileMenu() | get mode file menu
+JToolBar getModeToolBar() | get mode tool bar
+LockMode[] getLockModeArray() | get lock mode array
+ModeController getModeController() | get mode controller
+ModeControllerHook createModeControllerHook(QString;) | create mode controller hook
+String evaluationModeTipText() | evaluation mode tip text
+String getModeName(I) | get mode name
+String[] getModeNames() | get mode names
+String getModeURL() | get mode url
+String getMovementModeAsString() | get movement mode as string
+String getTransferModeAsString() | get transfer mode as string
+String missingModeTipText() | missing mode tip text
+Vector getPossibleModeControllerHooks(QClass;) | get possible mode controller hooks
+void computeEndGameModeChunks() | compute end game mode chunks
+void outAInModeId(AInModeId node) | out a in mode id
+void receiveEntityModeChange(QPacket;I) | receive entity mode change
+void receiveEntitySystemModeChange(QPacket;I) | receive entity system mode change
+void removeFromEndGameModeChunks(II) | remove from end game mode chunks
+void sendModeChange(III) | send mode change
+void sendSystemModeChange(III) | send system mode change
+void setAccessModeSupport(I) | set access mode support
+void setInstantModeSwitch(Z) | set instant mode switch
+void setLockModeArray([QLockMode;) | set lock mode array
+void setModePanel(QSetupModePanel;) | set mode panel
+void setRepeatModeToAll(Z) | set repeat mode to all
+void updateModeMenu() | update mode menu
+void updateStartModeCombo() | update start mode combo

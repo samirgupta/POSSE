@@ -1,0 +1,15 @@
+CONS AbstractStatementExecutor(QHqlSqlWalker;QLogger;) | abstract statement executor
+CONS CompiledStatementExecutor(QSession;) | compiled statement executor
+CONS CompiledStatementManager(QDatabase;) | compiled statement manager
+CONS CompiledStatement(QHsqlName;) | compiled statement
+CONS CompiledStatement(QHsqlName;QTable;[I[QExpression;[Z[QSubQuery;[QExpression;) | compiled statement
+CONS CompiledStatement(QSession;QDatabase;QHsqlName;QExpression;[QSubQuery;[QExpression;) | compiled statement
+CONS CompiledStatement(QSession;QDatabase;QHsqlName;QSelect;[QSubQuery;[QExpression;) | compiled statement
+CONS CompiledStatement(QSession;QDatabase;QHsqlName;QTableFilter;[I[QExpression;QExpression;[QSubQuery;[QExpression;) | compiled statement
+CONS CompiledStatement(QSession;QDatabase;QHsqlName;QTableFilter;QExpression;[QSubQuery;[QExpression;) | compiled statement
+CONS CompiledStatement(QSession;QDatabase;QHsqlName;QTable;[I[ZQSelect;[QSubQuery;[QExpression;) | compiled statement
+CONS jdbcCallableStatement(QjdbcConnection;QString;I) | jdbc callable statement
+CONS jdbcPreparedStatement(QjdbcConnection;QString;I) | jdbc prepared statement
+CONS jdbcStatement(QjdbcConnection;I) | jdbc statement
+CONS SQLStatementLogger() | sql statement logger
+CONS SQLStatementLogger(ZZ) | sql statement logger

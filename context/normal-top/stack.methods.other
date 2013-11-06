@@ -1,0 +1,49 @@
+ArrayList createStackItems(QArrayList;ZZ) | create stack items
+ArrayList<QDebugStackData;> getCurrentStackFrameData() | get current stack frame data
+boolean isStackEmpty() | is stack empty
+DebugStackData getSelectedStackItem() | get selected stack item
+int getMaximumInterpreterStackDepth() | get maximum interpreter stack depth
+List getStackFrameList(QThrowable;) | get stack frame list
+RuntimeException onEmptyStackTopRead() | on empty stack top read
+short getStackTop() | get stack top
+Stack<QHighlightInfo;> _getStackAt(QHighlightInfo;) | get stack at
+StackTraceElement getStackTrace() | get stack trace
+String generateStackTrace() | generate stack trace
+String getCompressedStackTrace() | get compressed stack trace
+String getCompressedStackTrace(I) | get compressed stack trace
+String getCompressedStackTrace(II) | get compressed stack trace
+String getCompressedStackTrace(QThrowable;I) | get compressed stack trace
+String getCompressedStackTrace(QThrowable;II) | get compressed stack trace
+String getFullStackTrace(QThrowable;) | get full stack trace
+String[] getRootCauseStackTrace(QThrowable;) | get root cause stack trace
+String[] getStackFrames(QString;) | get stack frames
+String[] getStackFrames(QThrowable;) | get stack frames
+String getStackTrace() | get stack trace
+String getStackTrace(I) | get stack trace
+String getStackTrace(QThrowable;) | get stack trace
+String getStackTrace(ZZ) | get stack trace
+String getStackTrace(ZZII) | get stack trace
+void adjustStackTop(I) | adjust stack top
+void captureInterpreterStackInfo(QRhinoException;) | capture interpreter stack info
+void _displayStackTrace(QJUnitError;) | display stack trace
+void NoStackException(QString;) | no stack exception
+void outStackTrace() | out stack trace
+void printPartialStackTrace(QPrintWriter;) | print partial stack trace
+void printRootCauseStackTrace(QThrowable;) | print root cause stack trace
+void printRootCauseStackTrace(QThrowable;QPrintStream;) | print root cause stack trace
+void printRootCauseStackTrace(QThrowable;QPrintWriter;) | print root cause stack trace
+void printStackTrace() | print stack trace
+void printStackTrace(PrintStream s) | print stack trace
+void printStackTrace(QPrintStream;) | print stack trace
+void printStackTrace(QPrintWriter;) | print stack trace
+void printStackTrace(QThrowable;) | print stack trace
+void printStackTrace(QThrowable;QObject;) | print stack trace
+void setDebugUnreturnedConnectionStackTraces(boolean debugUnreturnedConnectionStackTraces) | set debug unreturned connection stack traces
+void setElementStackCapacity(int newCapacity) | set element stack capacity
+void setMaximumInterpreterStackDepth(I) | set maximum interpreter stack depth
+void _setupStackTraceFrame() | setup stack trace frame
+void showStackTrace(QThrowable;) | show stack trace
+void testGetStackTrace() | test get stack trace
+void toggleStackTrace() | toggle stack trace
+void trimStackFrames(QList;) | trim stack frames
+void visitStackObjectType(Clazz clazz, Method method, CodeAttribute codeAttribute, int offset, int index, ObjectType objectType) | visit stack object type

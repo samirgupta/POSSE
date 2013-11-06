@@ -1,0 +1,12 @@
+Action getLinkTasksAction() | get link tasks action
+Action getUnlinkTasksAction() | get unlink tasks action
+List getTasksLoads() | get tasks loads
+Set getTasksWithLegacyFixedStart() | get tasks with legacy fixed start
+void buildTasksLoadsRectangles(QList;I) | build tasks loads rectangles
+void setLinkTasksAction(QAction;) | set link tasks action
+void setUnlinkTasksAction(QAction;) | set unlink tasks action
+void sortTasksByStartDate(QList;) | sort tasks by start date
+void storeTasksFor(SourceFile sourceFile, CategorizedProblem tasks) | store tasks for
+void testSupertaskDurationShrinksWhenNestedTasksShrink() | test super task duration shrinks when nested tasks shrink
+void testSupetaskDurationGrowsWhenNestedTasksGrow() | test supe task duration grows when nested tasks grow
+void testTasksAreInDocumentOrder() | test tasks are in document order

@@ -1,0 +1,51 @@
+byte[] HEXBYTES | hex bytes
+byte[] hexTable | hex table
+char[] hex | hex
+char[] HEXDIGITS | hex digits
+double HEXSIDE | hex side
+int BOARD_CHANGED_HEX | board changed hex
+int BOARD_FIRST_LOS_HEX | board first los hex
+int BOARD_HEX_CLICK | board hex click
+int BOARD_HEX_CURSOR | board hex cursor
+int BOARD_HEX_DOUBLECLICK | board hex doubleclick
+int BOARD_HEX_DRAG | board hex drag
+int BOARD_SECOND_LOS_HEX | board second los hex
+int COMMAND_CHANGE_HEX | command change hex
+int HEX_BASE | hex base
+int HEX_H | hex h
+int[] hexSide | hex side
+int[] hexSideByCos30 | hex side by cos 30
+int[] hexSideBySin30 | hex side by sin 30
+int hexToRaw | hex to raw
+int HEX_W | hex w
+int HEX_WC | hex wc
+int rawToHex | raw to hex
+int TYPE_HEX_ARTILLERY | type hex artillery
+int TYPE_HEX_BOMB | type hex bomb
+int TYPE_HEX_CLEAR | type hex clear
+int TYPE_HEX_EXTINGUISH | type hex extinguish
+int TYPE_HEX_IGNITE | type hex ignite
+java.awt.Checkbox showMapHexPopup | show map hex popup
+java.awt.Dimension hex_size | hex size
+java.awt.Font font_hexnum | font hex num
+java.awt.Polygon hexPoly | hex poly
+java.lang.String HEXINDEX | hexindex
+java.lang.String SET_HIT_HEX | set hit hex
+java.lang.String SHOW_MAPHEX_POPUP | show map hex popup
+java.lang.String SINGLE_HEX_ECM | single hex ecm
+java.util.HashMap<megamek.common.Coords,java.lang.Integer> ecmHexes | ecm hexes
+java.util.Hashtable<megamek.common.Coords,java.lang.Integer> ecmHexes | ecm hexes
+java.util.Vector artyAutoHitHexes | arty auto hit hexes
+java.util.Vector roadHexIndexes | road hex indexes
+javax.swing.JCheckBox showMapHexPopup | show map hex popup
+megamek.client.ui.AWT.BoardEditor.HexCanvas canHex | can hex
+megamek.client.ui.AWT.HexTileset hexTileset | hex tileset
+megamek.client.ui.AWT.util.ImageCache<megamek.common.IHex,java.awt.Image> hexToImageCache | hex to image cache
+megamek.client.ui.AWT.util.ImageCache<megamek.common.IHex,java.util.List<java.awt.Image>> hexToImageListCache | hex to image list cache
+megamek.client.ui.swing.BoardEditor.HexCanvas canHex | can hex
+megamek.client.ui.swing.HexTileset hexTileset | hex tileset
+megamek.client.ui.swing.util.ImageCache<megamek.common.IHex,java.awt.Image> hexToImageCache | hex to image cache
+megamek.client.ui.swing.util.ImageCache<megamek.common.IHex,java.util.List<java.awt.Image>> hexToImageListCache | hex to image list cache
+megamek.common.Coords hexLoc | hex loc
+megamek.common.IHex curHex | cur hex
+megamek.common.IHex hex | hex

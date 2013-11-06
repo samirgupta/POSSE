@@ -1,0 +1,22 @@
+boolean getTaskED() | get task ed
+boolean isTaskSelected(QTask;) | is task selected
+void fireTaskAdded(QTask;) | fire task added
+void fireTaskProgressChanged(QTask;) | fire task progress changed
+void fireTaskPropertiesChanged(QTask;) | fire task properties changed
+void fireTaskRemoved(QTask;QTask;) | fire task removed
+void fireTaskScheduleChanged(QTask;QGanttCalendar;QGanttCalendar;) | fire task schedule changed
+void onTaskMoved(QTaskImpl;) | on task moved
+void signalTaskCancelled(QTask;) | signal task cancelled
+void taskAdded(QTaskHierarchyEvent;) | task added
+void taskCompleted() | task completed
+void taskFinished() | task finished
+void taskMoved(QTaskHierarchyEvent;) | task moved
+void taskProgressChanged(QTaskPropertyEvent;) | task progress changed
+void taskPropertiesChanged(QTaskPropertyEvent;) | task properties changed
+void taskRemoved(QTaskHierarchyEvent;) | task removed
+void taskScheduleChanged(QTaskScheduleEvent;) | task schedule changed
+void taskStarted() | task started
+void testCompletionIs0WhenAllNestedTasksNotStarted() | test completion is 0 when all nested tasks not started
+void testCompletionIs100WhenAllNestedTasksCompleted() | test completion is 100 when all nested tasks completed
+void testCompletionIs50WhenAllNestedTasksHalfCompleted() | test completion is 50 when all nested tasks half completed
+void writeTasksFromLoaded(QArrayList;) | write tasks from loaded

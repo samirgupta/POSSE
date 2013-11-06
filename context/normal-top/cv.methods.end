@@ -1,0 +1,8 @@
+double cumulativeCV(QBayesNet;) | cumulative cv
+double evaluateFoldCV(QInstances;[I) | evaluate fold cv
+double kFoldCV(QBayesNet;I) | k fold cv
+double leaveOneOutCV(QBayesNet;) | leave one out cv
+Instances testCV(II) | test cv
+Instances trainCV(II) | train cv
+Instances trainCV(IIQRandom;) | train cv
+void performBoostingCV() | perform boosting cv

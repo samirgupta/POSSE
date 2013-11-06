@@ -1,0 +1,20 @@
+Element addNamespace(QString;QString;) | add namespace
+InputStream resolveInHibernateNamespace(QString;) | resolve in hibernate namespace
+InputStream resolveInLocalNamespace(QString;) | resolve in local namespace
+Namespace getCurrentNamespace() | get current namespace
+Namespace getNamespace() | get namespace
+Node createDefaultNamespace(QNode;I) | create default namespace
+Object searchDefaultNamespace(QContext;) | search default namespace
+Object setDefaultNamespace(QObject;QContext;) | set default namespace
+Object toDefaultXmlNamespace(QContext;QObject;) | to default xml namespace
+Properties getAttributesInNamespace(QString;) | get attributes in namespace
+String declareNamespace(QString;QString;Z) | declare namespace
+String getAttributeNamespace(QString;) | get attribute namespace
+String getNameInNamespace() | get name in namespace
+String getNamespace() | get namespace
+void addNamespace(String NamespaceURI) | add namespace
+void removeNamespace(String prefix, String elementName) | remove namespace
+void setNamespace(UUID namespaceUUID) | set namespace
+void testRDFDefaultNamespace() | test rdf default namespace
+void testXMLNSNamespace() | test xmlns namespace
+void writeNamespace(String prefix, String namespaceURI) | write namespace

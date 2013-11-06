@@ -1,0 +1,9 @@
+Integer ejbCreate(Integer id, String title, NodeLocal parent, UserLocal owner) | ejb create
+ListConfigurationVO getForUserByTypeAndName(Type type, String name, UserVO user) | get for user by type and name
+UserPreferenceCatalog retrievePreferences(String uuid, UserPreferenceCatalog prefs) | retrieve preferences
+void addHistory(Environment CurrentProj, long ReadSnapShot, Field ThisField, User CurrentUser, int Action, long DataRow, String Reason, String OldValue, long OldTextId, String OldFilePath, long OldFileSize, String NewValue, long NewTextId, String NewFilePath, long NewFileSize) | add history
+void clonePortlet(RegistrationContext registrationContext, PortletContext portletContext, UserContext userContext, StringHolder portletHandle, ByteArrayHolder portletState, ExtensionArrayHolder extensions) | clone portlet
+void store(Properties props, UserData user) | store
+void UserPreferencesChangeListener(QFurnitureTable;) | user preferences change listener
+void UserPreferencesChangeListener(QPlanComponent;) | user preferences change listener
+void UserPreferencesPropertiesChangeListener(QHomeController;) | user preferences properties change listener

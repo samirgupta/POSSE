@@ -1,0 +1,45 @@
+boolean checkEmptyPiece(I) | check empty piece
+boolean hasDownloadablePiece() | has downloadable piece
+boolean hasOutstandingCheckRequestForPiece(I) | has outstanding check request for piece
+boolean hasOutstandingReadRequestForPiece(I) | has outstanding read request for piece
+boolean hasOutstandingWriteRequestForPiece(I) | has outstanding write request for piece
+BTPiece getBTPiece() | get bt piece
+DiskManagerPiece getDMPiece() | get dm piece
+DiskManagerPiece getPiece(I) | get piece
+GP4Piece getPiece() | get piece
+GP4Piece readPiece() | read piece
+int getCumulativeLengthToPiece(I) | get cumulative length to piece
+int getHiddenPiece() | get hidden piece
+int getLastPiece() | get last piece
+int getPiece() | get piece
+Message createCoreBTPiece(IIQByteBuffer;) | create core bt piece
+PEPiece getPiece(I) | get piece
+RawMessage[] encodePiece(QMessage;) | encode piece
+String getAuthorPiece() | get author piece
+void addHavePiece(QPEPeer;I) | add have piece
+void addPiece(IJ) | add piece
+void addPiece(QPEPiece;) | add piece
+void addPiece(QPEPiece;I) | add piece
+void addPiece(QPEPiece;IZ) | add piece
+void assertDimensionEqualPiece(FFFQHomePieceOfFurniture;) | assert dimension equal piece
+void assertElevationEqualPiece(FQHomePieceOfFurniture;) | assert elevation equal piece
+void assertLocationAndOrientationEqualPiece(FFFQHomePieceOfFurniture;) | assert location and orientation equal piece
+void checkDownloadablePiece() | check downloadable piece
+void decodeAZBadPiece(QAZBadPiece;) | decode az bad piece
+void decodePiece(QBTPiece;) | decode piece
+void displayPiece() | display piece
+void hasNewPiece(I) | has new piece
+void haveNewPiece(I) | have new piece
+void havePiece(IIQPEPeer;) | have piece
+void MD5CheckPiece(QPEPiece;Z) | md 5 check piece
+void peerHasPiece(QPEPeer;) | peer has piece
+void removePiece(GamePiece p) | remove piece
+void removePiece(QPEPiece;) | remove piece
+void removePiece(QPEPiece;I) | remove piece
+void sendBadPiece(I) | send bad piece
+void setAuthorPiece(QString;) | set author piece
+void setBTPiece(QBTPiece;) | set bt piece
+void setLastPiece(I) | set last piece
+void setPiece(QGP4Piece;) | set piece
+void statisticalSentPiece(I) | statistical sent piece
+void updateSuperSeedPiece(QPEPeer;I) | update super seed piece

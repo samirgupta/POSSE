@@ -1,0 +1,20 @@
+boolean jvmHasJDK14Timestamp() | jvm has jdk 14 timestamp
+boolean jvmHasTimestampBug() | jvm has timestamp bug
+boolean jvmSupportsGetGeneratedKeys() | jvm supports get generated keys
+boolean jvmSupportsLinkedHashCollections() | jvm supports linked hash collections
+CtClass lookupClassByJvmName(String jvmName) | lookup class by jvm name
+int getJVM() | get jvm
+void junitJVMReady() | junit jvm ready
+void MasterJVMArgsListener(QJFrame;) | master jvm args listener
+void MasterJVMXMXListener(QJFrame;) | master jvm xmx listener
+void restartInterpreterJVM(Z) | restart interpreter jvm
+void sanitizeMasterJVMArgs(QJFrame;QString;QOptionListener<QString;>;) | sanitize master jvm args
+void sanitizeMasterJVMXMX(QJFrame;QString;) | sanitize master jvm xmx
+void sanitizeSlaveJVMArgs(QJFrame;QString;QOptionListener<QString;>;) | sanitize slave jvm args
+void sanitizeSlaveJVMXMX(QJFrame;QString;) | sanitize slave jvm xmx
+void SlaveJVMArgsListener(QJFrame;) | slave jvm args listener
+void SlaveJVMXMXListener(QJFrame;) | slave jvm xmx listener
+void startInterpreterJVM() | start interpreter jvm
+void stopInterpreterJVM() | stop interpreter jvm
+void TestJVMExtension() | test jvm extension
+void TestMasterJVM() | test master jvm

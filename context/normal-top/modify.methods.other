@@ -1,0 +1,15 @@
+Action createImportModifyBackgroundImageAction(QHome;Z) | create import modify background image action
+boolean getModifyHeader() | get modify header
+JMenuItem createImportModifyBackgroundImageMenuItem(QHome;Z) | create import modify background image menu item
+void doModify3DAttributes(QHome;FFIQHomeTexture;IQHomeTexture;IF) | do modify 3 d attributes
+void doModifyFurniture([QModifiedPieceOfFurniture;QString;QBoolean;QFloat;QFloat;QFloat;QFloat;QFloat;QFloat;QFloat;QInteger;QBoolean;QBoolean;) | do modify furniture
+void doModifyLabels([QModifiedLabel;QString;) | do modify labels
+void doModifyRooms([QModifiedRoom;QString;QBoolean;QBoolean;QInteger;QHomeTexture;QBoolean;QInteger;QHomeTexture;) | do modify rooms
+void doModifyTextStyle([QSelectable;[QTextStyle;) | do modify text style
+void doModifyWalls([QModifiedWall;QFloat;QFloat;QFloat;QFloat;QInteger;QHomeTexture;QInteger;QHomeTexture;QFloat;QFloat;QFloat;) | do modify walls
+void gtkWidgetModifyFont(String name, int style, int size) | gtk widget modify font
+void setModifyHeader(Z) | set modify header
+void undoModifyFurniture([QModifiedPieceOfFurniture;) | undo modify furniture
+void undoModifyLabels([QModifiedLabel;) | undo modify labels
+void undoModifyRooms([QModifiedRoom;) | undo modify rooms
+void undoModifyWalls([QModifiedWall;) | undo modify walls

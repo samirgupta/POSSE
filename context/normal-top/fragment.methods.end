@@ -1,0 +1,45 @@
+boolean isFromOrJoinFragment() | is from or join fragment
+boolean useFromFragment() | use from fragment
+boolean useWhereFragment() | use where fragment
+CaseFragment createCaseFragment() | create case fragment
+CaseFragment discriminatorFragment(QString;) | discriminator fragment
+Delete addWhereFragment(QString;) | add where fragment
+JoinFragment createOuterJoinFragment() | create outer join fragment
+JoinFragment getJoinFragment() | get join fragment
+JoinFragment toJoinFragment() | to join fragment
+JoinFragment toJoinFragment(QMap;Z) | to join fragment
+JoinFragment toJoinFragment(QMap;ZQString;QString;) | to join fragment
+SelectFragment generateSelectFragment(QString;QString;) | generate select fragment
+String concretePropertySelectFragment(QString;QInclusionChecker;) | concrete property select fragment
+String concretePropertySelectFragment(QString;[QValueInclusion;) | concrete property select fragment
+String concretePropertySelectFragment(QString;[Z) | concrete property select fragment
+String discriminatorFilterFragment(QString;) | discriminator filter fragment
+String filterFragment(QString;) | filter fragment
+String filterFragment(QString;QMap;) | filter fragment
+String fromJoinFragment(QString;ZZ) | from join fragment
+String fromTableFragment(QString;) | from table fragment
+String getManyToManyFilterFragment(QString;QMap;) | get many to many filter fragment
+String getSqlAssignmentFragment() | get sql assignment fragment
+String getWhereFragment() | get where fragment
+String getWithClauseFragment() | get with clause fragment
+String identifierSelectFragment(QString;QString;) | identifier select fragment
+String manyToManySelectFragment(QJoinable;QString;QString;QString;) | many to many select fragment
+String oneToManyFilterFragment(QString;) | one to many filter fragment
+String processFromFragment(QString;QJoinSequence;) | process from fragment
+String propertySelectFragment(QString;QString;Z) | property select fragment
+String renderCollectionSelectFragment(II) | render collection select fragment
+String renderValueCollectionSelectFragment(II) | render value collection select fragment
+String selectFragment(QJoinable;QString;QString;QString;QString;Z) | select fragment
+String selectFragment(QString;QString;) | select fragment
+String whereJoinFragment(QString;ZZ) | where join fragment
+Update appendAssignmentFragment(QString;) | append assignment fragment
+void addDiscriminatorWhereFragment(QRestrictableStatement;QQueryable;QMap;QString;) | add discriminator where fragment
+void addFragment(QJoinFragment;) | add fragment
+void addOrderFragment(QString;) | add order fragment
+void addWhereFragment(QJoinFragment;QString;QQueryNode;QFromElement;) | add where fragment
+void handleWithFragment(QFromElement;QAST;) | handle with fragment
+void nestedFromFragment(QAST;QAST;) | nested from fragment
+void setJoinFragment(QJoinFragment;) | set join fragment
+void setUseFromFragment(Z) | set use from fragment
+void setUseWhereFragment(Z) | set use where fragment
+void setWithClauseFragment(QString;QString;) | set with clause fragment

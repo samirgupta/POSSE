@@ -1,0 +1,53 @@
+ArrayList calculateWeaponAttacks(QEntity;QMounted;Z) | calculate weapon attacks
+ArrayList<QMounted;> getWeaponList() | get weapon list
+boolean isSecondaryArcWeapon(I) | is secondary arc weapon
+boolean isWeaponBlockedAt(IZ) | is weapon blocked at
+boolean loadWeapon(QMounted;QMounted;) | load weapon
+boolean loadWeaponWithSameAmmo(QMounted;QMounted;) | load weapon with same ammo
+boolean resolveWeaponAttack(QWeaponResult;IZ) | resolve weapon attack
+boolean resolveWeaponAttack(QWeaponResult;IZI) | resolve weapon attack
+boolean weaponFiredFrom(I) | weapon fired from
+float getWeightCeilingWeapons() | get weight ceiling weapons
+float getWeightWeapon() | get weight weapon
+int getFirstWeapon() | get first weapon
+int getNextWeapon(I) | get next weapon
+int getSelectedWeaponNum() | get selected weapon num
+int getTankCountHeatLaserWeapons() | get tank count heat laser weapons
+int getWeaponArc(I) | get weapon arc
+int getWeaponId() | get weapon id
+int getWeaponsAndEquipmentCost() | get weapons and equipment cost
+Iterator<QMounted;> getWeapons() | get weapons
+Mounted getMainWeapon() | get main weapon
+Mounted getSelectedArtilleryWeapon() | get selected artillery weapon
+Mounted getTorsoWeapon(Z) | get torso weapon
+StringBuffer printWeapon() | print weapon
+StringBuffer printWeapon(QStringBuffer;) | print weapon
+StringBuffer printWeapon(QStringBuffer;II) | print weapon
+String getWeapons() | get weapons
+ToHitData getDamageWeaponMods(QEntity;QMounted;) | get damage weapon mods
+Vector getWeaponModifiers(QMounted;) | get weapon modifiers
+void addWeapon() | add weapon
+void addWeapon(QChargeAttackAction;) | add weapon
+void addWeapon(QClubAttackAction;) | add weapon
+void addWeapon(QDfaAttackAction;) | add weapon
+void addWeapon(QKickAttackAction;) | add weapon
+void addWeapon(QMounted;) | add weapon
+void addWeapon(QProtomechPhysicalAttackAction;) | add weapon
+void addWeapon(QPunchAttackAction;) | add weapon
+void addWeapon(QPushAttackAction;) | add weapon
+void addWeapon(QSearchlightAttackAction;) | add weapon
+void addWeapon(QWeaponAttackAction;) | add weapon
+void loadAllWeapons() | load all weapons
+void loadWeapon(QMounted;) | load weapon
+void loadWeaponWithSameAmmo(QMounted;) | load weapon with same ammo
+void nextWeapon() | next weapon
+void populateWeaponsAndEquipmentChoices() | populate weapons and equipment choices
+void reloadEmptyWeapons() | reload empty weapons
+void resolveAllButWeaponAttacks() | resolve all but weapon attacks
+void resolveOnlyWeaponAttacks() | resolve only weapon attacks
+void resolveWeaponAttack(QWeaponResult;I) | resolve weapon attack
+void selectWeapon(I) | select weapon
+void setWeaponId(I) | set weapon id
+void WeaponPanel() | weapon panel
+void WeaponPanel(QClientGUI;QMechDisplay;) | weapon panel
+WeaponResult preTreatWeaponAttack(QWeaponAttackAction;) | pre treat weapon attack

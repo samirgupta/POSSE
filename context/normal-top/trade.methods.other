@@ -1,0 +1,36 @@
+boolean canTradeWith(QSettlement;) | can trade with
+boolean isTradeGoods() | is trade goods
+boolean showTradeRouteInputDialog(QTradeRoute;) | show trade route input dialog
+boolean verifyNewTradeRoute() | verify new trade route
+ChoiceItem showIndianSettlementTradeDlg(ZZZ) | show indian settlement trade dlg
+Element assignTradeRoute(QConnection;QElement;) | assign trade route
+Element getNewTradeRoute(QConnection;QElement;) | get new trade route
+Element setTradeRoutes(QConnection;QElement;) | set trade routes
+Element updateTradeRoute(QConnection;QElement;) | update trade route
+JMenuItem getReportsTradeMenuItem() | get reports trade menu item
+List<QTradeItem;> getTradeItems() | get trade items
+List<QTradeRoute;> getTradeRoutes() | get trade routes
+TradeRoute getNewTradeRoute(QPlayer;) | get new trade route
+TradeRoute getTradeRoute() | get trade route
+TradeRoute showTradeRouteDialog(QTradeRoute;) | show trade route dialog
+void addColonyTradeItem(QPlayer;QColony;) | add colony trade item
+void addGoldTradeItem(QPlayer;I) | add gold trade item
+void addGoodsTradeItem(QPlayer;QGoods;) | add goods trade item
+void assignTradeRoute(QUnit;) | assign trade route
+void assignTradeRoute(QUnit;QTradeRoute;) | assign trade route
+void buyTradeGoodsFromEurope(QUnit;) | buy trade goods from europe
+void checkGeneralCondForTradeQuery(QElement;QPlayer;QUnit;QSettlement;QGoods;) | check general cond for trade query
+void checkTradeRoutesInEurope() | check trade routes in europe
+void ColonyTradeItemPanel(QNegotiationDialog;QPlayer;) | colony trade item panel
+void followTradeRoute(QUnit;) | follow trade route
+void GoldTradeItemPanel(QNegotiationDialog;QPlayer;I) | gold trade item panel
+void GoodsTradeItemPanel(QNegotiationDialog;QPlayer;QList<QGoods;>;) | goods trade item panel
+void insertTradeItemDescriptions(QPlayer;) | insert trade item descriptions
+void loadTradeGoodsFromColony(QUnit;) | load trade goods from colony
+void sellTradeGoodsInEurope(QUnit;) | sell trade goods in europe
+void setTradeGoods(Z) | set trade goods
+void setTradeRoute(QTradeRoute;) | set trade route
+void setTradeRoutes(QList<QTradeRoute;>;) | set trade routes
+void StanceTradeItemPanel(QNegotiationDialog;QPlayer;QPlayer;) | stance trade item panel
+void unloadTradeGoodsToColony(QUnit;) | unload trade goods to colony
+void updateTradeRoute(QTradeRoute;) | update trade route

@@ -1,0 +1,6 @@
+CONS DeleteHumanAction(QResourceManager;QResourceContext;QGanttProject;QUIFacade;) | delete human action
+CONS HumanResourceManager(QRole;) | human resource manager
+CONS HumanResource(QHumanResource;) | human resource
+CONS HumanResource(QHumanResourceManager;) | human resource
+CONS HumanResource(QString;IQHumanResourceManager;) | human resource
+CONS NewHumanAction(QResourceManager;QRoleManager;QJFrame;QGanttProject;) | new human action

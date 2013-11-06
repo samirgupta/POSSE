@@ -1,0 +1,105 @@
+boolean isCacheValid(I) | is cache valid
+boolean isCacheValid([QObject;) | is cache valid
+CacheDataDescription getCacheDataDescription() | get cache data description
+CacheEntry allocateCacheSpace(IQCacheFileWithCache;QDirectByteBuffer;JI) | allocate cache space
+CacheEntryStructure getCacheEntryStructure() | get cache entry structure
+CacheFile getCacheFile() | get cache file
+CacheMode getCacheMode() | get cache mode
+CacheMode getCacheMode(QString;) | get cache mode
+CacheProvider getCacheProvider() | get cache provider
+CollectionRegionAccessStrategy getCacheAccessStrategy() | get cache access strategy
+Configuration setCacheConcurrencyStrategy(QString;QString;) | set cache concurrency strategy
+Configuration setCollectionCacheConcurrencyStrategy(QString;QString;) | set collection cache concurrency strategy
+Criteria setCacheMode(QCacheMode;) | set cache mode
+Criteria setCacheRegion(QString;) | set cache region
+double getCacheSize() | get cache size
+double measureCacheHits() | measure cache hits
+EntityRegionAccessStrategy getCacheAccessStrategy() | get cache access strategy
+File getCacheFileControlFileDir() | get cache file control file dir
+int getAnnounceCachePeerThreshold() | get announce cache peer threshold
+int getAnnounceCachePeriod() | get announce cache period
+int getCacheCount() | get cache count
+int getCacheHits() | get cache hits
+int getCacheID() | get cache id
+int getCacheLookupCount() | get cache lookup count
+int getCacheMissCount() | get cache miss count
+int getCacheMode() | get cache mode
+int getCacheSize() | get cache size
+int getInternalCacheSize() | get internal cache size
+int getLookupCacheSize() | get lookup cache size
+int getScrapeCachePeriod() | get scrape cache period
+int numCacheHits() | num cache hits
+long getCacheHitCount() | get cache hit count
+long getCacheMissCount() | get cache miss count
+long getCachePutCount() | get cache put count
+long getCacheReadCount() | get cache read count
+long getCacheSize() | get cache size
+long getCacheTime(Z) | get cache time
+long getCacheWriteCount() | get cache write count
+long getQueryCacheHitCount() | get query cache hit count
+long getQueryCacheMissCount() | get query cache miss count
+long getQueryCachePutCount() | get query cache put count
+long getSecondLevelCacheHitCount() | get second level cache hit count
+long getSecondLevelCacheMissCount() | get second level cache miss count
+long getSecondLevelCachePutCount() | get second level cache put count
+Map getAllSecondLevelCacheRegions() | get all second level cache regions
+Object assembleCacheEntry(QCacheEntry;QSerializable;QEntityPersister;QLoadEvent;) | assemble cache entry
+QueryCacheFactory createQueryCacheFactory(QProperties;) | create query cache factory
+QueryCacheFactory getQueryCacheFactory() | get query cache factory
+Query setCacheMode(QCacheMode;) | set cache mode
+Query setCacheRegion(QString;) | set cache region
+Region getSecondLevelCacheRegion(QString;) | get second level cache region
+SecondLevelCacheStatistics getSecondLevelCacheStatistics(QString;) | get second level cache statistics
+short getCachePolicy() | get cache policy
+String getCacheConcurrencyStrategy() | get cache concurrency strategy
+String getCacheFileOwnerName() | get cache file owner name
+String getCacheKeyName() | get cache key name
+String getCachePath(QURL;) | get cache path
+String getCacheProviderClass() | get cache provider class
+String getCacheProviderConfig() | get cache provider config
+String getCacheRegion() | get cache region
+String getCacheRegionName() | get cache region name
+String getCacheRegionPrefix() | get cache region prefix
+String getRPMDBCachePath() | get rpmdb cache path
+String[] getSecondLevelCacheRegionNames() | get second level cache region names
+String internalCacheSizeTipText() | internal cache size tip text
+String lookupCacheSizeTipText() | lookup cache size tip text
+TableEntry getCacheValues(D) | get cache values
+Table SYSTEM_CACHEINFO() | system cache info
+TOTorrentFile getCacheFileTorrentFile() | get cache file torrent file
+void addCacheSpace(QCacheEntry;) | add cache space
+void addToDisconnectedCachePeers(QCachePeer;) | add to disconnected cache peers
+void announceCacheEntry(QMap;ZB) | announce cache entry
+void checkCacheExpiration(Z) | check cache expiration
+void coordinateSharedCacheCleanup(QSessionImplementor;) | coordinate shared cache cleanup
+void ensureCacheSize(II) | ensure cache size
+void FileStatsCacheItem(QFile;) | file stats cache item
+void flushCachePublic(ZJ) | flush cache public
+void flushCacheSupport(JJZJJJ) | flush cache support
+void ObjectTypeCacheEntry(QString;QSerializable;) | object type cache entry
+void queryCacheHit(QString;QString;) | query cache hit
+void queryCacheMiss(QString;QString;) | query cache miss
+void queryCachePut(QString;QString;) | query cache put
+void releaseCacheSpace(QCacheEntry;) | release cache space
+void secondLevelCacheHit(QString;) | second level cache hit
+void secondLevelCacheMiss(QString;) | second level cache miss
+void secondLevelCachePut(QString;) | second level cache put
+void setCacheConcurrencyStrategy(QString;) | set cache concurrency strategy
+void setCacheConcurrencyStrategy(QString;QString;QString;) | set cache concurrency strategy
+void setCacheConcurrencyStrategy(QString;QString;QString;Z) | set cache concurrency strategy
+void setCacheKeyName(QString;) | set cache key name
+void setCacheMode(QCacheMode;) | set cache mode
+void setCacheProviderClass(QString;) | set cache provider class
+void setCacheProviderConfig(QString;) | set cache provider config
+void setCacheRegionName(QString;) | set cache region name
+void setCacheRegionPrefix(QString;) | set cache region prefix
+void setCacheRegion(QString;) | set cache region
+void setCacheRevision(RevisionNumber cacheRevision) | set cache revision
+void setCacheSize(D) | set cache size
+void setCacheSize(I) | set cache size
+void setCollectionCacheConcurrencyStrategy(QString;QString;QString;) | set collection cache concurrency strategy
+void setImageCacheSize(I) | set image cache size
+void setInternalCacheSize(I) | set internal cache size
+void setLookupCacheSize(I) | set lookup cache size
+void setQueryCacheFactory(QQueryCacheFactory;) | set query cache factory
+void testCacheSize() | test cache size

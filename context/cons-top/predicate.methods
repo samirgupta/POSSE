@@ -1,0 +1,31 @@
+CONS AndPredicate() | and predicate
+CONS AndPredicate(QPredicate;) | and predicate
+CONS AndPredicate(QPredicate;QPredicate;) | and predicate
+CONS ComparisonPredicate(IQExpression;QExpression;) | comparison predicate
+CONS ComparisonPredicate(IQExpression;QExpression;QComparator;) | comparison predicate
+CONS CompositePredicate() | composite predicate
+CONS CompositePredicate(QPredicate;QPredicate;) | composite predicate
+CONS HoverPredicate() | hover predicate
+CONS InGroupPredicate() | in group predicate
+CONS InGroupPredicate(QString;) | in group predicate
+CONS NotPredicate(QPredicate;) | not predicate
+CONS OrPredicate() | or predicate
+CONS OrPredicate(QPredicate;) | or predicate
+CONS OrPredicate(QPredicate;QPredicate;) | or predicate
+CONS Predicate(QString;IZ) | predicate
+CONS RangePredicate(IQExpression;QExpression;QExpression;) | range predicate
+CONS RangePredicate(IQExpression;QExpression;QExpression;QComparator;) | range predicate
+CONS RangePredicate(QExpression;QExpression;QExpression;) | range predicate
+CONS RangePredicate(QExpression;QExpression;QExpression;QComparator;) | range predicate
+CONS SearchPredicate() | search predicate
+CONS SearchPredicate(QString;Z) | search predicate
+CONS SearchPredicate(Z) | search predicate
+CONS StartVisiblePredicate() | start visible predicate
+CONS TestINPredicateParameterizationAndCorrelation(QString;) | test in predicate parameterization and correlation
+CONS TestLikePredicateOptimizations(QString;) | test like predicate optimizations
+CONS ValidatedPredicate() | validated predicate
+CONS ValidEdgePredicate(QGraph;) | valid edge predicate
+CONS VisiblePredicate() | visible predicate
+CONS XorPredicate() | xor predicate
+CONS XorPredicate(QPredicate;) | xor predicate
+CONS XorPredicate(QPredicate;QPredicate;) | xor predicate

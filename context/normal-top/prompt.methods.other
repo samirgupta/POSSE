@@ -1,0 +1,11 @@
+Image getDefault_prompt_image() | get default prompt image
+int getPromptLength() | get prompt length
+int getPromptPos() | get prompt pos
+String getDefault_prompt_text() | get default prompt text
+String _getPromptString(QThreadReference;) | get prompt string
+void setDefault_prompt_image(QImage;) | set default prompt image
+void setDefault_prompt_text(QString;) | set default prompt text
+void setPromptPos(I) | set prompt pos
+void testCaretMovesUpToPromptAfterInsert() | test caret moves up to prompt after insert
+void testPromptForDestination() | test prompt for destination
+void testRightBeforePromptMovesToEnd() | test right before prompt moves to end

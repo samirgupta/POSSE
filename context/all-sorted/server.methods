@@ -1,0 +1,284 @@
+../3-Phrases/Base_Verb:List getDataSetsForServer(String serverURL, String portString) | get data sets for server
+../3-Phrases/Base_Verb:static CIMInstance copyDataToServerInstance(CIMClient cimClient, CIM_ChassisInRack dataInstance, boolean notifyDifferencies) | ciminstance copy data to server instance
+../3-Phrases/Base_Verb:void setServer_hmac_key(String x) | set server hmac key
+../3-Phrases/Base_Verb:NameNormalizer getServerNormalizer() | get server normalizer
+../3-Phrases/Base_Verb:String getServerName() | get server name
+../3-Phrases/Base_Verb:String getServer() | get server
+../3-Phrases/Base_Verb:AbstractServerImplementation createServerImplementation() | create server implementation
+../3-Phrases/Base_Verb:void buildServer(String databaseList, String tableList) | build server
+../3-Phrases/Base_Verb:void setMbeanServer(MBeanServer server) | set mbean server
+../3-Phrases/Base_Verb:Vector getServerCompliance() | get server compliance
+../3-Phrases/Base_Verb:IDispatcher getServerDispatcher() | get server dispatcher
+../3-Phrases/Base_Verb:String readForm(String fname, String server) | read form
+../3-Phrases/Base_Verb:boolean onlineUpdate(DcObject dco, DcServer server, DcRegion region) | online update
+../3-Phrases/Base_Verb:void setServerPIInfo(NVList arguments) | set server pi info
+../3-Phrases/Base_Verb:void setServerTypesLB(ArrayList serverTypesLB) | set server types lb
+../3-Phrases/Base_Verb:int getServerId() | get server id
+../3-Phrases/Base_Verb:void setServerDisk(int serverDisk) | set server disk
+../3-Phrases/Base_Verb:long getServerFreeTime(int s) | get server free time
+../3-Phrases/Base_Verb:void setMBeanServer(MBeanServer server) | set m bean server
+../3-Phrases/Base_Verb:ObjectName preRegister(MBeanServer server, ObjectName name) | pre register
+../3-Phrases/drjava2:CONS RemoteControlServer(QMainFrame;) | remote control server
+../3-Phrases/drjava2:void RCServerThread(QMainFrame;) | rc server thread
+../3-Phrases/drjava2:void RCServerThread(QString;QMainFrame;) | rc server thread
+../3-Phrases/drjava2:boolean isServerRunning() | is server running
+../3-Phrases/drjava2:String getServerUser() | get server user
+../3-Phrases/freecol2:void printServerUsage() | print server usage
+../3-Phrases/freecol2:void setFreeColServer(QFreeColServer;) | set free col server
+../3-Phrases/freecol2:FreeColServer getFreeColServer() | get free col server
+../3-Phrases/freecol2:StatisticsMessage getServerStatistics() | get server statistics
+../3-Phrases/freecol2:ArrayList<QServerInfo;> getServerList() | get server list
+../3-Phrases/freecol2:void showServerListPanel(QString;QArrayList<QServerInfo;>;) | show server list panel
+../3-Phrases/freecol2:CONS ServerListPanel(QCanvas;QFreeColClient;QConnectController;) | server list panel
+../3-Phrases/freecol2:CONS ServerListTableModel(QList<QServerInfo;>;) | server list table model
+../3-Phrases/freecol2:void setServerOptions(Z) | set server options
+../3-Phrases/freecol2:CONS ServerInfo() | server info
+../3-Phrases/freecol2:CONS ServerInfo(QString;QString;IIIZQString;I) | server info
+../3-Phrases/freecol2:CONS ServerInfo(QElement;) | server info
+../3-Phrases/freecol2:CONS NoRouteToServerException() | no route to server exception
+../3-Phrases/freecol2:void removeDeadServers() | remove dead servers
+../3-Phrases/freecol2:void addServer(QString;QString;IIIZQString;I) | add server
+../3-Phrases/freecol2:void updateServer(QString;QString;IIIZQString;I) | update server
+../3-Phrases/freecol2:void removeServer(QString;I) | remove server
+../3-Phrases/freecol2:Element createServerList() | create server list
+../3-Phrases/freecol2:void updateServer(QMetaItem;QString;QString;IIIZQString;I) | update server
+../3-Phrases/freecol2:CONS MetaServer(I) | meta server
+../3-Phrases/freecol2:Element getServerList(QConnection;QElement;) | get server list
+../3-Phrases/freecol2:CONS FreeColServer(ZZIQString;) | free col server
+../3-Phrases/freecol2:CONS FreeColServer(ZZIQString;IIZ) | free col server
+../3-Phrases/freecol2:CONS FreeColServer(QFile;ZZIQString;) | free col server
+../3-Phrases/freecol2:void startMetaServerUpdateThread() | start meta server update thread
+../3-Phrases/freecol2:void updateMetaServer() | update meta server
+../3-Phrases/freecol2:void updateMetaServer(Z) | update meta server
+../3-Phrases/freecol2:void removeFromMetaServer() | remove from meta server
+../3-Phrases/freecol2:Server getServer() | get server
+../3-Phrases/freecol2:void ServerPseudoRandom() | server pseudo random
+../3-Phrases/freecol2:FreeColServer getFreeColServer() | get free col server
+../3-Phrases/freecol2:CONS FreeColServerHolder(QFreeColServer;) | free col server holder
+../3-Phrases/freecol2:FreeColServer getFreeColServer() | get free col server
+../3-Phrases/freecol2:Element getServerStatistics(QConnection;QElement;) | get server statistics
+../3-Phrases/freecol2:CONS ServerModelController(QFreeColServer;) | server model controller
+../3-Phrases/freecol2:CONS ServerRegion(QGame;QString;QRegionType;) | server region
+../3-Phrases/freecol2:CONS ServerRegion(QGame;QString;QRegionType;QRegion;) | server region
+../3-Phrases/freecol2:void toServerAdditionElement(QXMLStreamWriter;) | to server addition element
+../3-Phrases/freecol2:void readFromServerAdditionElement(QXMLStreamReader;) | read from server addition element
+../3-Phrases/freecol2:CONS ServerPlayer(QGame;QString;ZQSocket;QConnection;) | server player
+../3-Phrases/freecol2:CONS ServerPlayer(QGame;QString;ZZQSocket;QConnection;QNation;) | server player
+../3-Phrases/freecol2:CONS ServerPlayer(QXMLStreamReader;) | server player
+../3-Phrases/freecol2:void toServerAdditionElement(QXMLStreamWriter;) | to server addition element
+../3-Phrases/freecol2:void readFromServerAdditionElement(QXMLStreamReader;) | read from server addition element
+../3-Phrases/freecol2:String getServerAdditionXMLElementTagName() | get server addition xml element tag name
+../3-Phrases/freecol2:CONS Server(QFreeColServer;I) | server
+../3-Phrases/freemind:void buildConnectToServerGui() | build connect to server gui
+../3-Phrases/freemind:void showConnectToServerDialog() | show connect to server dialog
+../3-Phrases/freemind:String getServername() | get servername
+../3-Phrases/gantt:CONS ServerDialog(QGanttProject;) | server dialog
+../3-Phrases/hibernate-3.3.1.GA:CONS SQLServerDialect() | sql server dialect
+../3-Phrases/hsqldb:CONS HsqlServerFactory() | hsql server factory
+../3-Phrases/hsqldb:HsqlSocketRequestHandler createHsqlServer(QString;ZZ) | create hsql server
+../3-Phrases/hsqldb:CONS ServerConfiguration() | server configuration
+../3-Phrases/hsqldb:void signalCloseAllServerConnections() | signal close all server connections
+../3-Phrases/hsqldb:ServerSocket createServerSocket(I) | create server socket
+../3-Phrases/hsqldb:ServerSocket createServerSocket(IQString;) | create server socket
+../3-Phrases/hsqldb:CONS WebServerConnection(QSocket;QWebServer;) | web server connection
+../3-Phrases/hsqldb:ServerSocket createServerSocket(I) | create server socket
+../3-Phrases/hsqldb:ServerSocket createServerSocket(IQString;) | create server socket
+../3-Phrases/hsqldb:SSLServerSocketFactory getServerSocketFactoryImpl() | get server socket factory impl
+../3-Phrases/hsqldb:void ServerThread(QString;) | server thread
+../3-Phrases/hsqldb:CONS Server() | server
+../3-Phrases/hsqldb:CONS Server(I) | server
+../3-Phrases/hsqldb:void signalCloseAllServerConnections() | signal close all server connections
+../3-Phrases/hsqldb:Throwable getServerError() | get server error
+../3-Phrases/hsqldb:String getServerId() | get server id
+../3-Phrases/hsqldb:void openServerSocket() | open server socket
+../3-Phrases/hsqldb:void printServerOnlineMessage() | print server online message
+../3-Phrases/hsqldb:void releaseServerSocket() | release server socket
+../3-Phrases/hsqldb:void setServerError(QThrowable;) | set server error
+../3-Phrases/hsqldb:CONS WebServer() | web server
+../3-Phrases/hsqldb:CONS ServerConnection(QSocket;QServer;) | server connection
+../3-Phrases/hsqldb:void deRegisterServer(QServer;) | de register server
+../3-Phrases/hsqldb:void deRegisterServer(QServer;QDatabase;) | de register server
+../3-Phrases/hsqldb:void registerServer(QServer;QDatabase;) | register server
+../3-Phrases/hsqldb:void notifyServers(QDatabase;) | notify servers
+../3-Phrases/hsqldb:boolean isServerDB(QDatabase;) | is server db
+../3-Phrases/hsqldb:CONS SqlServerTransferHelper() | sql server transfer helper
+../3-Phrases/hsqldb:CONS SqlServerTransferHelper(QTransferDb;QTraceable;QString;) | sql server transfer helper
+../3-Phrases/iReport:String getServerAddress() | get server address
+../3-Phrases/iReport:void setServerAddress(QString;) | set server address
+../3-Phrases/Jabref:void setServerType(QString;) | set server type
+../3-Phrases/Jabref:void setServerHostname(QString;) | set server hostname
+../3-Phrases/Jabref:String getServerType() | get server type
+../3-Phrases/Jabref:String getServerHostname() | get server hostname
+../3-Phrases/Jabref:String[] getServerTypes() | get server types
+../3-Phrases/Jabref:void setServerTypes([QString;) | set server types
+../3-Phrases/javaHMO:void ServerDialog(QJFrame;QServerConfiguration;) | server dialog
+../3-Phrases/javaHMO:ServerConfiguration getServerConfiguration() | get server configuration
+../3-Phrases/javaHMO:Server getServer() | get server
+../3-Phrases/javaHMO:Server getServer() | get server
+../3-Phrases/javaHMO:String getServerVersion() | get server version
+../3-Phrases/javaHMO:String getServer() | get server
+../3-Phrases/javaHMO:void setServer(QString;) | set server
+../3-Phrases/javaHMO:String getServer() | get server
+../3-Phrases/javaHMO:void setServer(QString;) | set server
+../3-Phrases/javaHMO:CONS ServerConfiguration() | server configuration
+../3-Phrases/javaHMO:void PublishMediaServer(I) | publish media server
+../3-Phrases/javaHMO:void RevokeMediaServer(I) | revoke media server
+../3-Phrases/javaHMO:CONS Server() | server
+../3-Phrases/javaHMO:void printServerProperties() | print server properties
+../3-Phrases/javaHMO:Server getServer() | get server
+../3-Phrases/javaHMO:ServerConfiguration getServerConfiguration() | get server configuration
+../3-Phrases/javaHMO:void setServerConfiguration(QServerConfiguration;) | set server configuration
+../3-Phrases/javaHMO:Server getServer() | get server
+../3-Phrases/javaHMO:void setServerConfiguration(QServerConfiguration;) | set server configuration
+../3-Phrases/javaHMO:void setServerConfiguration(QServerConfiguration;) | set server configuration
+../3-Phrases/javaHMO:ServerConfiguration getServerConfiguration() | get server configuration
+../3-Phrases/javaHMO:void checkServerTrusted([QX509Certificate;QString;) | check server trusted
+../3-Phrases/jbidwatcher:String getServer() | get server
+../3-Phrases/jbidwatcher:void setServer(QString;) | set server
+../3-Phrases/jbidwatcher:void establishServerMenu(QJMenu;) | establish server menu
+../3-Phrases/jbidwatcher:void DoResetServerTime() | do reset server time
+../3-Phrases/jbidwatcher:CONS ServerMenu(QString;C) | server menu
+../3-Phrases/jbidwatcher:CONS ServerMenu(QString;) | server menu
+../3-Phrases/jbidwatcher:CONS ServerMenu() | server menu
+../3-Phrases/jbidwatcher:String getServerName() | get server name
+../3-Phrases/jbidwatcher:void setServerName(QString;) | set server name
+../3-Phrases/jbidwatcher:void makeProxyServer(IQClass;) | make proxy server
+../3-Phrases/jbidwatcher:void AuctionServerListEntry(QString;QAuctionServer;) | auction server list entry
+../3-Phrases/jbidwatcher:AuctionServer getAuctionServer() | get auction server
+../3-Phrases/jbidwatcher:AuctionServer getServerByName(QString;) | get server by name
+../3-Phrases/jbidwatcher:CONS AuctionServerManager() | auction server manager
+../3-Phrases/jbidwatcher:String getDefaultServerTime() | get default server time
+../3-Phrases/jbidwatcher:AuctionServer addServerNoUI(QString;QAuctionServer;) | add server no ui
+../3-Phrases/jbidwatcher:AuctionServer addServer(QString;QAuctionServer;) | add server
+../3-Phrases/jbidwatcher:AuctionServer addServer(QAuctionServer;) | add server
+../3-Phrases/jbidwatcher:AuctionServer getServerForIdentifier(QString;) | get server for identifier
+../3-Phrases/jbidwatcher:AuctionServer getServerForUrlString(QString;) | get server for url string
+../3-Phrases/jbidwatcher:void addAuctionServerMenus() | add auction server menus
+../3-Phrases/jbidwatcher:AuctionServer getDefaultServer() | get default server
+../3-Phrases/jbidwatcher:List getServerConfigurationTabs() | get server configuration tabs
+../3-Phrases/jbidwatcher:long getOfficialServerTimeDelta() | get official server time delta
+../3-Phrases/jbidwatcher:TimeZone getOfficialServerTimeZone() | get official server time zone
+../3-Phrases/jbidwatcher:CONS ebayServer() | ebay server
+../3-Phrases/jbidwatcher:void setMaxBidFromServer(QAuctionEntry;QCurrency;) | set max bid from server
+../3-Phrases/jbidwatcher:void ebayServerMenu(QString;C) | ebay server menu
+../3-Phrases/jbidwatcher:AuctionServer getServer() | get server
+../3-Phrases/jbidwatcher:void setServer(QAuctionServer;) | set server
+../3-Phrases/Jftp:NbtAddress lookupServerOrWorkgroup(QString;QInetAddress;) | lookup server or workgroup
+../3-Phrases/Jftp:String parseServerAndShare(QString;) | parse server and share
+../3-Phrases/Jftp:CONS NetServerEnum2(QString;I) | net server enum 2
+../3-Phrases/Jftp:String getServer() | get server
+../3-Phrases/Jftp:CONS ServerMessageBlock() | server message block
+../3-Phrases/Jftp:CONS NetServerEnum2Response() | net server enum 2 response
+../3-Phrases/Jftp:CONS AndXServerMessageBlock() | and x server message block
+../3-Phrases/Jftp:CONS AndXServerMessageBlock(QServerMessageBlock;) | and x server message block
+../3-Phrases/Jftp:CONS FtpServer() | ftp server
+../3-Phrases/Jftp:CONS FtpServer(I) | ftp server
+../3-Phrases/Jftp:CONS FtpServerSocket(QSocket;) | ftp server socket
+../3-Phrases/JRobin:ServerInfo getServerInfo() | get server info
+../3-Phrases/JRobin:String getServerHost() | get server host
+../3-Phrases/JRobin:void setServerHost(QString;) | set server host
+../3-Phrases/JRobin:Hashtable getServerInfo() | get server info
+../3-Phrases/JRobin:CONS Server() | server
+../3-Phrases/JRobin:Hashtable getServerInfo() | get server info
+../3-Phrases/MegaMek-0.32.0:void startDedicatedServer([QString;) | start dedicated server
+../3-Phrases/MegaMek-0.32.0:boolean dedicatedServer() | dedicated server
+../3-Phrases/MegaMek-0.32.0:void retrieveServerInfo() | retrieve server info
+../3-Phrases/MegaMek-0.32.0:void retrieveServerInfo() | retrieve server info
+../3-Phrases/MegaMek-0.32.0:Connection createServerConnection(QSocket;I) | create server connection
+../3-Phrases/MegaMek-0.32.0:boolean isServer() | is server
+../3-Phrases/MegaMek-0.32.0:String getLastServerPass() | get last server pass
+../3-Phrases/MegaMek-0.32.0:int getLastServerPort() | get last server port
+../3-Phrases/MegaMek-0.32.0:String getMetaServerName() | get meta server name
+../3-Phrases/MegaMek-0.32.0:void setMetaServerName(QString;) | set meta server name
+../3-Phrases/MegaMek-0.32.0:void setLastServerPass(QString;) | set last server pass
+../3-Phrases/MegaMek-0.32.0:void setLastServerPort(I) | set last server port
+../3-Phrases/MegaMek-0.32.0:String getLastServerPass() | get last server pass
+../3-Phrases/MegaMek-0.32.0:int getLastServerPort() | get last server port
+../3-Phrases/MegaMek-0.32.0:String getMetaServerName() | get meta server name
+../3-Phrases/MegaMek-0.32.0:void setMetaServerName(QString;) | set meta server name
+../3-Phrases/MegaMek-0.32.0:void setLastServerPass(QString;) | set last server pass
+../3-Phrases/MegaMek-0.32.0:void setLastServerPort(I) | set last server port
+../3-Phrases/MegaMek-0.32.0:CONS Server(QString;I) | server
+../3-Phrases/MegaMek-0.32.0:void sendServerChat(IQString;) | send server chat
+../3-Phrases/MegaMek-0.32.0:void sendServerChat(QString;) | send server chat
+../3-Phrases/MegaMek-0.32.0:CONS ServerCommand(QServer;QString;QString;) | server command
+../3-Phrases/np:void serverEseguiMossa(String mossaArrivo) | server esegui mossa
+../3-Phrases/np:static ID ServerUassignIDUN2(FeRangeElement arg1, ID arg2) | id server uas sign id un 2
+../3-Phrases/np:void serverLoop() | server loop
+../3-Phrases/PlanetaMessenger:CONS JThreadServerSocket(II) | j thread server socket
+../3-Phrases/PlanetaMessenger:CONS JThreadServerUDP(II) | j thread server udp
+../3-Phrases/PlanetaMessenger:void serverDisconnected() | server disconnected
+../3-Phrases/SweetHome3D:void launchSingleInstanceServer() | launch single instance server
+../3-Phrases/SweetHome3D:boolean callSingleInstanceServer([QString;) | call single instance server
+../3-Phrases/vuze:void sendViaRelayServer(QBuddyPluginBuddyMessage;) | send via relay server
+../3-Phrases/vuze:void newRelayServerPayLoad(QVuzeBuddy;QString;QMap;J) | new relay server pay load
+../3-Phrases/vuze:ClientMessageService getServerService(QString;IIQString;) | get server service
+../3-Phrases/vuze:ClientMessageService getServerService(QString;IQString;) | get server service
+../3-Phrases/vuze:void serverOK() | server ok
+../3-Phrases/vuze:void serverFailed(QThrowable;) | server failed
+../3-Phrases/vuze:ClientMessageService getServerService(QString;IIQString;QRSAPublicKey;) | get server service
+../3-Phrases/vuze:void newRelayServerPayLoad(QVuzeBuddy;QString;QMap;J) | new relay server pay load
+../3-Phrases/vuze:void addRelayServerListener(QVuzeRelayListener;) | add relay server listener
+../3-Phrases/vuze:void removeRelayServerListener(QVuzeRelayListener;) | remove relay server listener
+../3-Phrases/vuze:String getServerName() | get server name
+../3-Phrases/vuze:String getServerName() | get server name
+../3-Phrases/vuze:CONS VirtualBlockingServerChannelSelector(QInetSocketAddress;IQSelectListener;) | virtual blocking server channel selector
+../3-Phrases/vuze:CONS VirtualNonBlockingServerChannelSelector(QInetSocketAddress;IQVirtualBlockingServerChannelSelector.SelectListener;) | virtual non blocking server channel selector
+../3-Phrases/vuze:CONS VirtualNonBlockingServerChannelSelector(QInetAddress;IIIQVirtualBlockingServerChannelSelector.SelectListener;) | virtual non blocking server channel selector
+../3-Phrases/vuze:boolean getServerPublicationOutstanding() | get server publication outstanding
+../3-Phrases/vuze:void setServerPublicationOutstanding() | set server publication outstanding
+../3-Phrases/vuze:void setServerPublished() | set server published
+../3-Phrases/vuze:boolean getServerPublished() | get server published
+../3-Phrases/vuze:void checkServerPublications(QList;) | check server publications
+../3-Phrases/vuze:void checkServerTrusted([Qjava.security.cert.X509Certificate;QString;) | check server trusted
+../3-Phrases/vuze:byte[] getServerHash() | get server hash
+../3-Phrases/vuze:String getMediaServerContentURL(QDownloadManager;) | get media server content url
+../3-Phrases/vuze:void playViaMediaServer(QDownload;) | play via media server
+../3-Phrases/vuze:CONS LocalResourceHTTPServer(QPluginInterface;QLoggerChannel;) | local resource http server
+../3-Phrases/vuze:String getMediaServerContentURL(QDownloadManager;) | get media server content url
+../3-Phrases/vuze:String getMediaServerContentURL(QDownload;) | get media server content url
+../3-Phrases/vuze:String getServerName() | get server name
+../3-Phrases/vuze:CONS NatCheckerServer(QInetAddress;IQString;Z) | nat checker server
+../3-Phrases/vuze:SSLServerSocketFactory getSSLServerSocketFactory() | get ssl server socket factory
+../3-Phrases/vuze:SSLSocketFactory installServerCertificates(QURL;) | install server certificates
+../3-Phrases/vuze:SSLSocketFactory installServerCertificates(QString;QString;I) | install server certificates
+../3-Phrases/vuze:SSLServerSocketFactory getSSLServerSocketFactory() | get ssl server socket factory
+../3-Phrases/vuze:SSLSocketFactory installServerCertificates(QURL;) | install server certificates
+../3-Phrases/vuze:void checkServerTrusted([Qjava.security.cert.X509Certificate;QString;) | check server trusted
+../3-Phrases/vuze:SSLSocketFactory installServerCertificates(QString;QString;I) | install server certificates
+../3-Phrases/vuze:void checkServerTrusted([Qjava.security.cert.X509Certificate;QString;) | check server trusted
+../3-Phrases/vuze:TRTrackerServer startServer(IIZ) | start server
+../3-Phrases/vuze:void serverCreated(QTRTrackerServer;) | server created
+../3-Phrases/vuze:void serverDestroyed(QTRTrackerServer;) | server destroyed
+../3-Phrases/vuze:TRTrackerServer getServer() | get server
+../3-Phrases/vuze:void serverCreated(QTRTrackerServer;) | server created
+../3-Phrases/vuze:void serverDestroyed(QTRTrackerServer;) | server destroyed
+../3-Phrases/vuze:CONS TRTrackerServerException(IQString;QMap;) | tr tracker server exception
+../3-Phrases/vuze:CONS TRTrackerServerException(QString;) | tr tracker server exception
+../3-Phrases/vuze:CONS TRTrackerServerException(QString;QThrowable;) | tr tracker server exception
+../3-Phrases/vuze:CONS TRTrackerServerStatsImpl(QTRTrackerServerImpl;) | tr tracker server stats impl
+../3-Phrases/vuze:CONS TRTrackerServerTorrentStatsImpl(QTRTrackerServerTorrentImpl;) | tr tracker server torrent stats impl
+../3-Phrases/vuze:CONS TRTrackerServerNATChecker() | tr tracker server nat checker
+../3-Phrases/vuze:CONS TRTrackerServerPeerImpl(QHashWrapper;I[BZIIIBBJZBIQDHTNetworkPosition;) | tr tracker server peer impl
+../3-Phrases/vuze:CONS TRTrackerServerPeerImpl(QHashWrapper;I[BZSSSBBQString;[BBJJJJJZZS) | tr tracker server peer impl
+../3-Phrases/vuze:CONS TRTrackerServerTorrentImpl(QTRTrackerServerImpl;QHashWrapper;Z) | tr tracker server torrent impl
+../3-Phrases/vuze:CONS TRTrackerServerImpl(QString;Z) | tr tracker server impl
+../3-Phrases/vuze:CONS TRTrackerServerRequestImpl(QTRTrackerServerImpl;QTRTrackerServerPeer;QTRTrackerServerTorrent;IQString;QMap;) | tr tracker server request impl
+../3-Phrases/vuze:CONS TRTrackerServerDHT(QString;Z) | tr tracker server dht
+../3-Phrases/vuze:CONS TRTrackerServerProcessorTCP(QTRTrackerServerTCP;) | tr tracker server processor tcp
+../3-Phrases/vuze:TRTrackerServerTCP getServer() | get server
+../3-Phrases/vuze:CONS TRTrackerServerTCP(QString;IZZZ) | tr tracker server tcp
+../3-Phrases/vuze:CONS TRBlockingServer(QString;IQInetAddress;ZZZ) | tr blocking server
+../3-Phrases/vuze:CONS TRBlockingServerProcessor(QTRTrackerServerTCP;QSocket;) | tr blocking server processor
+../3-Phrases/vuze:CONS TRNonBlockingServerProcessor(QTRTrackerServerTCP;QSocketChannel;) | tr non blocking server processor
+../3-Phrases/vuze:CONS TRNonBlockingServer(QString;IQInetAddress;ZQTRNonBlockingServerProcessorFactory;) | tr non blocking server
+../3-Phrases/vuze:CONS TRNonBlockingServer(QString;IQInetAddress;ZZQTRNonBlockingServerProcessorFactory;) | tr non blocking server
+../3-Phrases/vuze:CONS TRTrackerServerUDP(QString;IZ) | tr tracker server udp
+../3-Phrases/vuze:CONS TRTrackerServerProcessorUDP(QTRTrackerServerUDP;QDatagramSocket;QDatagramPacket;) | tr tracker server processor udp
+../3-Phrases/vuze:SSLSocketFactory installServerCertificate(QURL;) | install server certificate
+../3-Phrases/vuze:SSLSocketFactory installServerCertificate(QURL;) | install server certificate
+../3-Phrases/vuze:CONS StartServer() | start server
+../3-Phrases/vuze:int getServerState() | get server state
+../3-Phrases/vuze:CONS StartServer() | start server
+../3-Phrases/vuze:CONS ConfigSectionTrackerServer(QAzureusCore;) | config section tracker server
+../3-Phrases/vuze:CONS SocketServer(QUI;IQSet;QUserManager;I) | socket server

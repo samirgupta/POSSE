@@ -1,0 +1,21 @@
+CacheData hasValidBookmark() | has valid bookmark
+FileRegion[] getBookmarks() | get bookmarks
+FileRegion parseBookmark(QSExp;QString;) | parse bookmark
+int getBookmarkLevel() | get bookmark level
+List<QFileRegion;> readBookmarks() | read bookmarks
+RegionManager<QMovingDocumentRegion;> getBookmarkManager() | get bookmark manager
+String encodeBookmarkRelative(QFileRegion;QString;) | encode bookmark relative
+void addBookmarkLine(QString;) | add bookmark line
+void addBookmark(QString;QString;QString;QString;IQString;QString;) | add bookmark
+void _bookmark() | bookmark
+void BookmarkPropertyVisitor(QString;) | bookmark property visitor
+void createBookmarks() | create bookmarks
+void loadBookmarks() | load bookmarks
+void refreshBookmarkHighlightPainter() | refresh bookmark highlight painter
+void removeBookmark(Bookmark bookmark) | remove bookmark
+void setBookmarkLevel(I) | set bookmark level
+void setBookmarks(QList<+QFileRegion;>;) | set bookmarks
+void testBookmark() | test bookmark
+void toggleBookmark() | toggle bookmark
+void _toggleBookmark(II) | toggle bookmark
+void toggleBookmark(II) | toggle bookmark

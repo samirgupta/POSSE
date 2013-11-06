@@ -1,0 +1,12 @@
+DebugBreakpointData[] getBreakpoints() | get breakpoints
+List<QDebugBreakpointData;> readBreakpoints() | read breakpoints
+void clearAllBreakpoints() | clear all breakpoints
+void copyBreakpointsFrom(QSourceInfo;) | copy breakpoints from
+void createBreakpoints() | create breakpoints
+void debuggerClearAllBreakpoints() | debugger clear all breakpoints
+void removeAllBreakpoints() | remove all breakpoints
+void setBreakpoints(QList<+QDebugBreakpointData;>;) | set breakpoints
+void XXXtestBreakpoints() | xxx test breakpoints
+void XXXtestBreakpointsAndStepsInNonPublicClasses() | xxx test breakpoints and steps in non public classes
+void XXXtestBreakpointsWithSameNamePrefix() | xxx test breakpoints with same name prefix
+void XXXtestMultiThreadedBreakpointsAndStep() | xxx test multi threaded breakpoints and step

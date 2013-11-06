@@ -1,0 +1,51 @@
+CONS AZPeerExchange([B[QPeerItem;[QPeerItem;B) | az peer exchange
+CONS ExternalSeedManualPeer(QExternalSeedPeer;) | external seed manual peer
+CONS ExternalSeedPeer(QExternalSeedPlugin;QDownload;QExternalSeedReader;) | external seed peer
+CONS LWSPeerManagerAdapter(QLightWeightSeed;QPeerManagerRegistration;) | lws peer manager adapter
+CONS MultiPeerDownloader2(QRateHandler;) | multi peer downloader 2
+CONS MultiPeerDownloader(QRateHandler;) | multi peer downloader
+CONS MultiPeerUploader(QRateHandler;) | multi peer uploader
+CONS PeerByteIDItem(QString;) | peer byte id item
+CONS PeerControlSchedulerImpl() | peer control scheduler impl
+CONS PeerCountItem() | peer count item
+CONS PeerDatabase() | peer database
+CONS PeerExchangerItem(QPeerDatabase;QPeerItem;QHelper;) | peer exchanger item
+CONS PeerForeignDelegate(QPeerManagerImpl;QPeer;) | peer foreign delegate
+CONS PeerForeignNetworkConnection(QPeer;) | peer foreign network connection
+CONS PeerIdentityDataID([B) | peer identity data id
+CONS PeerIDItem(QString;) | peer id item
+CONS PeerImpl(QPEPeer;) | peer impl
+CONS PeerInfoView() | peer info view
+CONS PeerItem([BBBI) | peer item
+CONS PeerItem(QString;IBBIBI) | peer item
+CONS PeerManager() | peer manager
+CONS PeerManagerImpl(QPEPeerManager;) | peer manager impl
+CONS PeerManagerStatsImpl(QPEPeerManager;) | peer manager stats impl
+CONS PeerMessageLimiter() | peer message limiter
+CONS PeerNATTraverser(QAzureusCore;) | peer nat traverser
+CONS PeersGraphicView() | peers graphic view
+CONS PeersItem(QString;) | peers item
+CONS PeerSourceItem(QString;) | peer source item
+CONS PeerSourcesItem(QString;) | peer sources item
+CONS PeerStatsImpl(QPeerManagerImpl;QPeer;QPEPeerStats;) | peer stats impl
+CONS PeerSuperView() | peer super view
+CONS PeerSuperView(QGlobalManager;) | peer super view
+CONS PeersView() | peers view
+CONS PEPeerControlImpl([BQPEPeerManagerAdapter;QDiskManager;) | pe peer control impl
+CONS PEPeerManagerStatsImpl(QPEPeerControlImpl;) | pe peer manager stats impl
+CONS PEPeerStatsImpl(QPEPeer;) | pe peer stats impl
+CONS PEPeerTransportDebugger(QPEPeerTransportProtocol;) | pe peer transport debugger
+CONS PEPeerTransportProtocol(QPEPeerControl;QString;QNetworkConnection;QMap;) | pe peer transport protocol
+CONS PEPeerTransportProtocol(QPEPeerControl;QString;QString;IIZZBQMap;) | pe peer transport protocol
+CONS SeedToPeerRatioItem(QString;) | seed to peer ratio item
+CONS SinglePeerDownloader(QNetworkConnectionBase;QRateHandler;) | single peer downloader
+CONS SinglePeerUploader(QNetworkConnectionBase;QRateHandler;) | single peer uploader
+CONS SuperSeedPeer(QPEPeer;) | super seed peer
+CONS TorrentAttributePeerSourcesImpl() | torrent attribute peer sources impl
+CONS TrackerPeerImpl(QTRHostPeer;) | tracker peer impl
+CONS TRHostPeerHostImpl(QTRTrackerServerPeer;) | tr host peer host impl
+CONS TRHostPeerPublishImpl(Z) | tr host peer publish impl
+CONS TRTrackerAnnouncerResponsePeerImpl(QString;[BQString;IIISBI) | tr tracker announcer response peer impl
+CONS TRTrackerServerPeerImpl(QHashWrapper;I[BZIIIBBJZBIQDHTNetworkPosition;) | tr tracker server peer impl
+CONS TRTrackerServerPeerImpl(QHashWrapper;I[BZSSSBBQString;[BBJJJJJZZS) | tr tracker server peer impl
+CONS UTPeerExchange([QPeerItem;[QPeerItem;[QPeerItem;B) | ut peer exchange

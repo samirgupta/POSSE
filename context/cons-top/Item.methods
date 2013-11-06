@@ -1,0 +1,15 @@
+CONS ItemAction() | item action
+CONS ItemAction(QString;) | item action
+CONS ItemAction(QString;QPredicate;) | item action
+CONS ItemAction(QVisualization;) | item action
+CONS ItemAction(QVisualization;QString;) | item action
+CONS ItemAction(QVisualization;QString;QPredicate;) | item action
+CONS ItemList() | item list
+CONS ItemList(QString;) | item list
+CONS ItemList(QString;QString;) | item list
+CONS ItemList(QString;QString;Z) | item list
+CONS ItemManager() | item manager
+CONS ItemSet([I) | item set
+CONS ItemSet(I) | item set
+CONS ItemSet(I[I) | item set
+CONS ItemURL(QString;) | item url

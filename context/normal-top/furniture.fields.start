@@ -1,0 +1,53 @@
+boolean furnitureViewedFromTop | furniture viewed from top
+com.eteks.sweethome3d.model.CollectionChangeSupport<com.eteks.sweethome3d.model.CatalogPieceOfFurniture> furnitureChangeSupport | furniture change support
+com.eteks.sweethome3d.model.CollectionChangeSupport<com.eteks.sweethome3d.model.HomePieceOfFurniture> furnitureChangeSupport | furniture change support
+com.eteks.sweethome3d.model.CollectionListener<com.eteks.sweethome3d.model.HomePieceOfFurniture> furnitureListener | furniture listener
+com.eteks.sweethome3d.model.FurnitureCatalog furnitureCatalog | furniture catalog
+com.eteks.sweethome3d.model.HomePieceOfFurniture.SortableProperty furnitureSortedProperty | furniture sorted property
+com.eteks.sweethome3d.swing.FurnitureTable.FurnitureFilter furnitureFilter | furniture filter
+com.eteks.sweethome3d.swing.FurnitureTable furnitureTable | furniture table
+com.eteks.sweethome3d.viewcontroller.FurnitureCatalogController furnitureCatalogController | furniture catalog controller
+com.eteks.sweethome3d.viewcontroller.FurnitureController furnitureController | furniture controller
+com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController.ImportedFurnitureWizardStepState furnitureAttributesStepState | furniture attributes step state
+com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController.ImportedFurnitureWizardStepState furnitureIconStepState | furniture icon step state
+com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController.ImportedFurnitureWizardStepState furnitureModelStepState | furniture model step state
+com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController.ImportedFurnitureWizardStepState furnitureOrientationStepState | furniture orientation step state
+com.eteks.sweethome3d.viewcontroller.View furnitureView | furniture view
+java.awt.geom.GeneralPath FURNITURE_ELEVATION_INDICATOR | furniture elevation indicator
+java.awt.geom.GeneralPath FURNITURE_HEIGHT_INDICATOR | furniture height indicator
+java.awt.geom.GeneralPath FURNITURE_RESIZE_INDICATOR | furniture resize indicator
+java.awt.geom.GeneralPath FURNITURE_ROTATION_INDICATOR | furniture rotation indicator
+java.awt.Shape FURNITURE_ELEVATION_POINT_INDICATOR | furniture elevation point indicator
+java.awt.Shape FURNITURE_HEIGHT_POINT_INDICATOR | furniture height point indicator
+java.beans.PropertyChangeListener furnitureChangeListener | furniture change listener
+java.lang.ref.WeakReference<com.eteks.sweethome3d.swing.FurnitureTable> furnitureTable | furniture table
+java.lang.ref.WeakReference<com.eteks.sweethome3d.swing.FurnitureTable.FurnitureTableColumnModel> furnitureTableColumnModel | furniture table column model
+java.lang.ref.WeakReference<com.eteks.sweethome3d.viewcontroller.FurnitureCatalogController> furnitureCatalogController | furniture catalog controller
+java.lang.String FURNITURE_BACK_FACE_SHOWN | furniture back face shown
+java.lang.String FURNITURE_CATALOG_URLS_PARAMETER | furniture catalog urls parameter
+java.lang.String FURNITURE_CATEGORY | furniture category
+java.lang.String FURNITURE_COLOR | furniture color
+java.lang.String FURNITURE_CONTENT_PREFIX | furniture content prefix
+java.lang.String FURNITURE_DEPTH | furniture depth
+java.lang.String FURNITURE_DOOR_OR_WINDOW | furniture door or window
+java.lang.String FURNITURE_ELEVATION | furniture elevation
+java.lang.String FURNITURE_HEIGHT | furniture height
+java.lang.String FURNITURE_ICON | furniture icon
+java.lang.String FURNITURE_ICON_YAW | furniture icon yaw
+java.lang.String furnitureLibraryFileExtension | furniture library file extension
+java.lang.String FURNITURE_MODEL | furniture model
+java.lang.String FURNITURE_MODEL_ROTATION | furniture model rotation
+java.lang.String FURNITURE_MOVABLE | furniture movable
+java.lang.String FURNITURE_NAME | furniture name
+java.lang.String FURNITURE_PROPORTIONAL | furniture proportional
+java.lang.String furnitureSortedPropertyName | furniture sorted property name
+java.lang.String FURNITURE_VIEWED_FROM_TOP | furniture viewed from top
+java.lang.String FURNITURE_VIEWPORT_Y_VISUAL_PROPERTY | furniture viewport y visual property
+java.lang.String FURNITURE_WIDTH | furniture width
+java.util.List<com.eteks.sweethome3d.model.HomePieceOfFurniture> furnitureWithDoorsAndWindows | furniture with doors and windows
+java.util.List<com.eteks.sweethome3d.model.HomePieceOfFurniture.SortableProperty> furnitureVisibleProperties | furniture visible properties
+java.util.List<java.lang.String> furnitureVisiblePropertyNames | furniture visible property names
+java.util.Map<com.eteks.sweethome3d.model.HomePieceOfFurniture,com.eteks.sweethome3d.swing.PlanComponent.PieceOfFurnitureTopViewIcon> furnitureTopViewIconsCache | furniture top view icons cache
+javax.swing.JCheckBox furniturePrintedCheckBox | furniture printed check box
+javax.swing.JLabel furnitureIconLabel | furniture icon label
+javax.swing.TransferHandler furnitureTransferHandler | furniture transfer handler

@@ -1,0 +1,21 @@
+CONS AbstractConsoleController(QInteractionsDJDocument;QInteractionsPane;) | abstract console controller
+CONS ConsoleController(QConsoleDocument;QInteractionsDJDocument;) | console controller
+CONS ConsoleDocument(QConsoleDocumentInterface;) | console document
+CONS ConsoleInput(QAzureusCore;QPrintStream;) | console input
+CONS ConsoleInput(QString;QAzureusCore;QInputStream;QPrintStream;QBoolean;) | console input
+CONS ConsoleInput(QString;QAzureusCore;QReader;QPrintStream;QBoolean;) | console input
+CONS ConsoleInput(QString;QAzureusCore;QReader;QPrintStream;QBoolean;QUserProfile;) | console input
+CONS ConsoleTextArea([QString;) | console text area
+CONS ConsoleUIFacade(QUIFacade;) | console ui facade
+CONS ConsoleWrite(QConsoleTextArea;QString;) | console write
+CONS ConsoleWriter(QConsoleTextArea;) | console writer
+CONS ErrorConsole() | error console
+CONS IConsoleCommand(QString;) | i console command
+CONS IConsoleCommand(QString;QString;) | i console command
+CONS JConsoleWindow() | j console window
+CONS JSConsole([QString;) | js console
+CONS JSInternalConsole(QString;) | js internal console
+CONS MultiUserConsoleInput(QString;QAzureusCore;QReader;QPrintStream;QBoolean;QUserProfile;) | multi user console input
+CONS OptionsConsoleCommand(QString;) | options console command
+CONS OptionsConsoleCommand(QString;QString;) | options console command
+CONS PreviewConsoleFrame(QSingleDisplayModel;QMainFrame;Z) | preview console frame

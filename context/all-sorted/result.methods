@@ -1,0 +1,979 @@
+../3-Phrases/Base_Verb:Object getValueFromResultSet(ResultSet rs, MetaField field) | get value from result set
+../3-Phrases/Base_Verb:Object readObjectFromResultSet(SelectStatement select, LoaderContext loadContext) | read object from result set
+../3-Phrases/Base_Verb:List<Graph> getExpandedGraphsFromResults(List<List<Node>> nodeResults, List<Relation> relations, int depth) | get expanded graphs from results
+../3-Phrases/Base_Verb:void readObjectFromResultSet(ResultSet rs) | read object from result set
+../3-Phrases/Base_Verb:static int rlib_add_resultset_follower_n_to_1(long jarg1, String jarg2, String jarg3, String jarg4, String jarg5) | int rlib add resultset follower n to  1
+../3-Phrases/Base_Verb:void run(FutureResult result) | run
+../3-Phrases/Base_Verb:void marshal(Object graph, Result result, MimeContainer mimeContainer) | marshal
+../3-Phrases/Base_Verb:Object accept(NodeVisitor visitor, Object results) | accept
+../3-Phrases/Base_Verb:int result(int value, Object accumulator) | result
+../3-Phrases/Base_Verb:static Instruction create(Operator o, Type type, Operand result, BooleanOperand condition, Operand val1, Operand val2, BooleanEquation predicate) | instruction create
+../3-Phrases/Base_Verb:void print(TestResult result) | print
+../3-Phrases/Base_Verb:execute(database database, result set result set)
+../3-Phrases/Base_Verb:void setResult(String addAdministratorResult) | set result
+../3-Phrases/Base_Verb:void initResult() | init result
+../3-Phrases/Base_Verb:void loadWishlist(Object nLists, int index, Object listmania, Object resultlist, Object listname, Object prevlist, Object nextlist) | load wishlist
+../3-Phrases/Base_Verb:Object getResult() | get result
+../3-Phrases/Base_Verb:void setMaxresultSetSize(int maxResultSetSize) | set max result set size
+../3-Phrases/Base_Verb:ResultSet getResultSet(CallableStatement ps) | get result set
+../3-Phrases/Base_Verb:void testResult26() | test result 26
+../3-Phrases/Base_Verb:void testResult3() | test result 3
+../3-Phrases/Base_Verb:void testResult20() | test result 20
+../3-Phrases/Base_Verb:void testResult24() | test result 24
+../3-Phrases/Base_Verb:void clearResultats() | clear resultats
+../3-Phrases/Base_Verb:void testResult10() | test result 10
+../3-Phrases/Base_Verb:Vector getResult() | get result
+../3-Phrases/Base_Verb:String getSearchResultsPageId() | get search results page id
+../3-Phrases/Base_Verb:void displayHeader(PrintWriter writer, String testClassName, String testCountText, String elapsedTimeString, String resultString) | display header
+../3-Phrases/Base_Verb:void addResultListener(IResultListener listener) | add result listener
+../3-Phrases/Base_Verb:Object getResult() | get result
+../3-Phrases/Base_Verb:JavaType getResultType() | get result type
+../3-Phrases/Base_Verb:void makePurchases(List results, Object purchases, int maxPurchases) | make purchases
+../3-Phrases/Base_Verb:void testGetResults() | test get results
+../3-Phrases/Base_Verb:void setVerifyResult(String result) | set verify result
+../3-Phrases/Base_Verb:ResultSet getResultSet(Statement statement) | get result set
+../3-Phrases/Base_Verb:void removeAllResults() | remove all results
+../3-Phrases/Base_Verb:Object visitUnaryNode(UnaryNode node, Object results) | visit unary node
+../3-Phrases/Base_Verb:read result(result set rs, int index, class destination)
+../3-Phrases/Base_Verb:CompareResult createCompareResult() | create compare result
+../3-Phrases/Base_Verb:void fetchResults(Keywords keywords) | fetch results
+../3-Phrases/Base_Verb:int getLastResultNumber() | get last result number
+../3-Phrases/Base_Verb:XmlStringBuffer constructParameterListResult(Map params) | construct parameter list result
+../3-Phrases/Base_Verb:jq_Type getResultType() | get result type
+../3-Phrases/Base_Verb:String getResultsFileName() | get results file name
+../3-Phrases/Base_Verb:void locate_variable(String bn_name, String variable_name, String result_type, int result_index) | locate variable
+../3-Phrases/Base_Verb:static int zzUnpackTrans(String packed, int offset, int result) | int zz unpack trans
+../3-Phrases/Base_Verb:Object getSingleResult(EntityLoader loader) | get single result
+../3-Phrases/Base_Verb:Hashtable getResultTags() | get result tags
+../3-Phrases/Base_Verb:int getResultSetConcurrency() | get result set concurrency
+../3-Phrases/Base_Verb:EClass getInsertResultsType() | get insert results type
+../3-Phrases/Base_Verb:epp_CheckResult getResults() | get results
+../3-Phrases/drjava2:List<QRegionManager<QMovingDocumentRegion;>;> getFindResultsManagers() | get find results managers
+../3-Phrases/drjava2:RegionManager<QMovingDocumentRegion;> createFindResultsManager() | create find results manager
+../3-Phrases/drjava2:void removeFindResultsManager(QRegionManager<QMovingDocumentRegion;>;) | remove find results manager
+../3-Phrases/drjava2:CONS FindResult(QOpenDefinitionsDocument;IZZ) | find result
+../3-Phrases/drjava2:void interpretIgnoreResult(QString;) | interpret ignore result
+../3-Phrases/drjava2:RegionManager<QMovingDocumentRegion;> createFindResultsManager() | create find results manager
+../3-Phrases/drjava2:void removeFindResultsManager(QRegionManager<QMovingDocumentRegion;>;) | remove find results manager
+../3-Phrases/drjava2:void testResultOfNonPublicTestCase() | test result of non public test case
+../3-Phrases/drjava2:RegionManager<QMovingDocumentRegion;> createFindResultsManager() | create find results manager
+../3-Phrases/drjava2:void removeFindResultsManager(QRegionManager<QMovingDocumentRegion;>;) | remove find results manager
+../3-Phrases/drjava2:void replReturnedResult(QString;QString;) | repl returned result
+../3-Phrases/drjava2:void appendExceptionResult(QString;QString;) | append exception result
+../3-Phrases/drjava2:void appendSyntaxErrorResult(QString;QString;IIIIQString;) | append syntax error result
+../3-Phrases/drjava2:void replReturnedResult(QString;QString;) | repl returned result
+../3-Phrases/drjava2:void appendExceptionResult(QString;QString;) | append exception result
+../3-Phrases/drjava2:void ExceptionResult(QInterpreterException;) | exception result
+../3-Phrases/drjava2:void UnexpectedExceptionResult(QThrowable;) | unexpected exception result
+../3-Phrases/drjava2:void StringValueResult(QString;) | string value result
+../3-Phrases/drjava2:void CharValueResult(QCharacter;) | char value result
+../3-Phrases/drjava2:void NumberValueResult(QNumber;) | number value result
+../3-Phrases/drjava2:void BooleanValueResult(QBoolean;) | boolean value result
+../3-Phrases/drjava2:void ObjectValueResult(QString;) | object value result
+../3-Phrases/drjava2:InterpretResult.Visitor<QVoid;> resultHandler() | result handler
+../3-Phrases/drjava2:void replReturnedResult(QString;QString;) | repl returned result
+../3-Phrases/drjava2:InterpretResult.Visitor<QVoid;> resultHandler() | result handler
+../3-Phrases/drjava2:void handleValueResult(QString;) | handle value result
+../3-Phrases/drjava2:FindResultsPanel createFindResultsPanel(QRegionManager<QMovingDocumentRegion;>;QString;QString;ZZZZZQWeakReference<QOpenDefinitionsDocument;>;QFindReplacePanel;) | create find results panel
+../3-Phrases/drjava2:void showFindResultsPanel(QFindResultsPanel;) | show find results panel
+../3-Phrases/drjava2:void refreshFindResultsHighlightPainter(QFindResultsPanel;QLayeredHighlighter.LayerPainter;) | refresh find results highlight painter
+../3-Phrases/drjava2:boolean _isPositiveResult() | is positive result
+../3-Phrases/drjava2:CONS FindResultsPanel(QMainFrame;QRegionManager<QMovingDocumentRegion;>;QString;QString;ZZZZZQWeakReference<QOpenDefinitionsDocument;>;QFindReplacePanel;) | find results panel
+../3-Phrases/drjava2:void FindResultsColorOptionListener(I) | find results color option listener
+../3-Phrases/drjava2:void FindResultsColorOptionListener(I) | find results color option listener
+../3-Phrases/drjava2:R getResult() | get result
+../3-Phrases/freecol2:Object getResult() | get result
+../3-Phrases/freecol2:void setResult(QObject;) | set result
+../3-Phrases/freecol2:CombatResult generateAttackResult(QUnit;QUnit;) | generate attack result
+../3-Phrases/freecol2:CombatResult generateAttackResult(QColony;QUnit;) | generate attack result
+../3-Phrases/freecol2:void CombatResult(QCombatResultType;I) | combat result
+../3-Phrases/freecol2:CombatResult generateAttackResult(QUnit;QUnit;) | generate attack result
+../3-Phrases/freecol2:CombatResult generateAttackResult(QColony;QUnit;) | generate attack result
+../3-Phrases/freemind:int getResult() | get result
+../3-Phrases/freemind:int getResult() | get result
+../3-Phrases/freemind:Object getResult() | get result
+../3-Phrases/freemind:Object getResult() | get result
+../3-Phrases/gantt:boolean result() | result
+../3-Phrases/gantt:void Result(QDate;QDate;) | result
+../3-Phrases/hibernate-3.3.1.GA:Object uniqueResult() | unique result
+../3-Phrases/hibernate-3.3.1.GA:Query setMaxResults(I) | set max results
+../3-Phrases/hibernate-3.3.1.GA:Query setFirstResult(I) | set first result
+../3-Phrases/hibernate-3.3.1.GA:Query setResultTransformer(QResultTransformer;) | set result transformer
+../3-Phrases/hibernate-3.3.1.GA:SQLQuery setResultSetMapping(QString;) | set result set mapping
+../3-Phrases/hibernate-3.3.1.GA:CONS NonUniqueResultException(I) | non unique result exception
+../3-Phrases/hibernate-3.3.1.GA:int toResultSetType() | to result set type
+../3-Phrases/hibernate-3.3.1.GA:Criteria setResultTransformer(QResultTransformer;) | set result transformer
+../3-Phrases/hibernate-3.3.1.GA:Criteria setMaxResults(I) | set max results
+../3-Phrases/hibernate-3.3.1.GA:Criteria setFirstResult(I) | set first result
+../3-Phrases/hibernate-3.3.1.GA:Object uniqueResult() | unique result
+../3-Phrases/hibernate-3.3.1.GA:QueryResultsRegion buildQueryResultsRegion(QString;QProperties;) | build query results region
+../3-Phrases/hibernate-3.3.1.GA:QueryResultsRegion buildQueryResultsRegion(QString;QProperties;) | build query results region
+../3-Phrases/hibernate-3.3.1.GA:CONS QueryResultsRegionAdapter(QCache;QSettings;) | query results region adapter
+../3-Phrases/hibernate-3.3.1.GA:QueryResultsRegion buildQueryResultsRegion(QString;QProperties;) | build query results region
+../3-Phrases/hibernate-3.3.1.GA:boolean isScrollableResultSetsEnabled() | is scrollable result sets enabled
+../3-Phrases/hibernate-3.3.1.GA:boolean isWrapResultSetsEnabled() | is wrap result sets enabled
+../3-Phrases/hibernate-3.3.1.GA:void setScrollableResultSetsEnabled(Z) | set scrollable result sets enabled
+../3-Phrases/hibernate-3.3.1.GA:void setWrapResultSetsEnabled(Z) | set wrap result sets enabled
+../3-Phrases/hibernate-3.3.1.GA:ResultSetMappingDefinition buildResultSetMappingDefinition(QElement;QString;QMappings;) | build result set mapping definition
+../3-Phrases/hibernate-3.3.1.GA:java.util.Map bindPropertyResults(QString;QElement;QPersistentClass;QMappings;) | bind property results
+../3-Phrases/hibernate-3.3.1.GA:ArrayList getResultColumns(QElement;) | get result columns
+../3-Phrases/hibernate-3.3.1.GA:Map getSqlResultSetMappings() | get sql result set mappings
+../3-Phrases/hibernate-3.3.1.GA:ExecuteUpdateResultCheckStyle getResultCheckStyle(QElement;Z) | get result check style
+../3-Phrases/hibernate-3.3.1.GA:void bindResultSetMappingDefinition(QElement;QString;QMappings;) | bind result set mapping definition
+../3-Phrases/hibernate-3.3.1.GA:CONS ResultSetMappingSecondPass(QElement;QString;QMappings;) | result set mapping second pass
+../3-Phrases/hibernate-3.3.1.GA:void addResultSetMapping(QResultSetMappingDefinition;) | add result set mapping
+../3-Phrases/hibernate-3.3.1.GA:ResultSetMappingDefinition getResultSetMapping(QString;) | get result set mapping
+../3-Phrases/hibernate-3.3.1.GA:DetachedCriteria setResultTransformer(QResultTransformer;) | set result transformer
+../3-Phrases/hibernate-3.3.1.GA:int registerResultSetOutParameter(QCallableStatement;I) | register result set out parameter
+../3-Phrases/hibernate-3.3.1.GA:ResultSet getResultSet(QCallableStatement;) | get result set
+../3-Phrases/hibernate-3.3.1.GA:int registerResultSetOutParameter(QCallableStatement;I) | register result set out parameter
+../3-Phrases/hibernate-3.3.1.GA:ResultSet getResultSet(QCallableStatement;) | get result set
+../3-Phrases/hibernate-3.3.1.GA:int registerResultSetOutParameter(Qjava.sql.CallableStatement;I) | register result set out parameter
+../3-Phrases/hibernate-3.3.1.GA:ResultSet getResultSet(QCallableStatement;) | get result set
+../3-Phrases/hibernate-3.3.1.GA:int registerResultSetOutParameter(QCallableStatement;I) | register result set out parameter
+../3-Phrases/hibernate-3.3.1.GA:ResultSet getResultSet(QCallableStatement;) | get result set
+../3-Phrases/hibernate-3.3.1.GA:boolean supportsResultSetPositionQueryMethodsOnForwardOnlyCursor() | supports result set position query methods on forward only cursor
+../3-Phrases/hibernate-3.3.1.GA:int registerResultSetOutParameter(QCallableStatement;I) | register result set out parameter
+../3-Phrases/hibernate-3.3.1.GA:ResultSet getResultSet(QCallableStatement;) | get result set
+../3-Phrases/hibernate-3.3.1.GA:int registerResultSetOutParameter(Qjava.sql.CallableStatement;I) | register result set out parameter
+../3-Phrases/hibernate-3.3.1.GA:ResultSet getResultSet(QCallableStatement;) | get result set
+../3-Phrases/hibernate-3.3.1.GA:int registerResultSetOutParameter(QCallableStatement;I) | register result set out parameter
+../3-Phrases/hibernate-3.3.1.GA:ResultSet getResultSet(QCallableStatement;) | get result set
+../3-Phrases/hibernate-3.3.1.GA:boolean supportsResultSetPositionQueryMethodsOnForwardOnlyCursor() | supports result set position query methods on forward only cursor
+../3-Phrases/hibernate-3.3.1.GA:int registerResultSetOutParameter(QCallableStatement;I) | register result set out parameter
+../3-Phrases/hibernate-3.3.1.GA:ResultSet getResultSet(QCallableStatement;) | get result set
+../3-Phrases/hibernate-3.3.1.GA:int registerResultSetOutParameter(QCallableStatement;I) | register result set out parameter
+../3-Phrases/hibernate-3.3.1.GA:ResultSet getResultSet(QCallableStatement;) | get result set
+../3-Phrases/hibernate-3.3.1.GA:CONS ResultColumnReferenceStrategy(QString;) | result column reference strategy
+../3-Phrases/hibernate-3.3.1.GA:boolean supportsResultSetPositionQueryMethodsOnForwardOnlyCursor() | supports result set position query methods on forward only cursor
+../3-Phrases/hibernate-3.3.1.GA:ResultSetMappingDefinition getResultSetMapping(QString;) | get result set mapping
+../3-Phrases/hibernate-3.3.1.GA:String getResultSetRef() | get result set ref
+../3-Phrases/hibernate-3.3.1.GA:ResultTransformer getResultTransformer() | get result transformer
+../3-Phrases/hibernate-3.3.1.GA:CONS ResultSetMappingDefinition(QString;) | result set mapping definition
+../3-Phrases/hibernate-3.3.1.GA:CONS ExecuteUpdateResultCheckStyle(QString;) | execute update result check style
+../3-Phrases/hibernate-3.3.1.GA:Set getResult() | get result
+../3-Phrases/hibernate-3.3.1.GA:ResultSet getResultSet() | get result set
+../3-Phrases/hibernate-3.3.1.GA:ResultSet getResultSet() | get result set
+../3-Phrases/hibernate-3.3.1.GA:Map getPropertyResultsMap() | get property results map
+../3-Phrases/hibernate-3.3.1.GA:Serializable getResultId() | get result id
+../3-Phrases/hibernate-3.3.1.GA:void setResultId(QSerializable;) | set result id
+../3-Phrases/hibernate-3.3.1.GA:Object getResult() | get result
+../3-Phrases/hibernate-3.3.1.GA:void setResult(QObject;) | set result
+../3-Phrases/hibernate-3.3.1.GA:Object getResult() | get result
+../3-Phrases/hibernate-3.3.1.GA:void setResult(QObject;) | set result
+../3-Phrases/hibernate-3.3.1.GA:ResultTransformer getResultTransformer() | get result transformer
+../3-Phrases/hibernate-3.3.1.GA:Type resolveDateTimeArithmeticResultType(QType;QType;) | resolve date time arithmetic result type
+../3-Phrases/hibernate-3.3.1.GA:Object getResultColumnOrRow([QObject;QResultTransformer;QResultSet;QSessionImplementor;) | get result column or row
+../3-Phrases/hibernate-3.3.1.GA:List getResultList(QList;QResultTransformer;) | get result list
+../3-Phrases/hibernate-3.3.1.GA:Object[] toResultRow([QObject;) | to result row
+../3-Phrases/hibernate-3.3.1.GA:Serializable getResult(QSessionImplementor;QResultSet;QObject;) | get result
+../3-Phrases/hibernate-3.3.1.GA:Serializable getResult(QSessionImplementor;QResultSet;QObject;) | get result
+../3-Phrases/hibernate-3.3.1.GA:Serializable getResult(QSessionImplementor;QResultSet;QObject;) | get result
+../3-Phrases/hibernate-3.3.1.GA:ResultTransformer getResultTransformer() | get result transformer
+../3-Phrases/hibernate-3.3.1.GA:Criteria setResultTransformer(QResultTransformer;) | set result transformer
+../3-Phrases/hibernate-3.3.1.GA:Integer getMaxResults() | get max results
+../3-Phrases/hibernate-3.3.1.GA:Criteria setMaxResults(I) | set max results
+../3-Phrases/hibernate-3.3.1.GA:Integer getFirstResult() | get first result
+../3-Phrases/hibernate-3.3.1.GA:Criteria setFirstResult(I) | set first result
+../3-Phrases/hibernate-3.3.1.GA:Object uniqueResult() | unique result
+../3-Phrases/hibernate-3.3.1.GA:Object uniqueResult() | unique result
+../3-Phrases/hibernate-3.3.1.GA:Criteria setFirstResult(I) | set first result
+../3-Phrases/hibernate-3.3.1.GA:Criteria setMaxResults(I) | set max results
+../3-Phrases/hibernate-3.3.1.GA:Criteria setResultTransformer(QResultTransformer;) | set result transformer
+../3-Phrases/hibernate-3.3.1.GA:CONS AbstractScrollableResults(QResultSet;QPreparedStatement;QSessionImplementor;QLoader;QQueryParameters;[QType;QHolderInstantiator;) | abstract scrollable results
+../3-Phrases/hibernate-3.3.1.GA:ResultSet getResultSet() | get result set
+../3-Phrases/hibernate-3.3.1.GA:ResultSetMappingDefinition getResultSetMapping(QString;) | get result set mapping
+../3-Phrases/hibernate-3.3.1.GA:CONS FetchingScrollableResultsImpl(QResultSet;QPreparedStatement;QSessionImplementor;QLoader;QQueryParameters;[QType;QHolderInstantiator;) | fetching scrollable results impl
+../3-Phrases/hibernate-3.3.1.GA:CONS ScrollableResultsImpl(QResultSet;QPreparedStatement;QSessionImplementor;QLoader;QQueryParameters;[QType;QHolderInstantiator;) | scrollable results impl
+../3-Phrases/hibernate-3.3.1.GA:SQLQuery setResultSetMapping(QString;) | set result set mapping
+../3-Phrases/hibernate-3.3.1.GA:Query setFirstResult(I) | set first result
+../3-Phrases/hibernate-3.3.1.GA:Query setMaxResults(I) | set max results
+../3-Phrases/hibernate-3.3.1.GA:Query setResultTransformer(QResultTransformer;) | set result transformer
+../3-Phrases/hibernate-3.3.1.GA:Object uniqueResult() | unique result
+../3-Phrases/hibernate-3.3.1.GA:ResultSet getResultSet(QPreparedStatement;) | get result set
+../3-Phrases/hibernate-3.3.1.GA:ResultSet getResultSet(QCallableStatement;QDialect;) | get result set
+../3-Phrases/hibernate-3.3.1.GA:String resultSetCountsToString() | result set counts to string
+../3-Phrases/hibernate-3.3.1.GA:void logOpenResults() | log open results
+../3-Phrases/hibernate-3.3.1.GA:void logCloseResults() | log close results
+../3-Phrases/hibernate-3.3.1.GA:CONS ResultSetWrapper(QResultSet;QColumnNameCache;) | result set wrapper
+../3-Phrases/hibernate-3.3.1.GA:ResultSet getResultSet(QPreparedStatement;) | get result set
+../3-Phrases/hibernate-3.3.1.GA:ResultSet getResultSet(QCallableStatement;QDialect;) | get result set
+../3-Phrases/hibernate-3.3.1.GA:Object getRowFromResultSet(QResultSet;QSessionImplementor;QQueryParameters;[QLockMode;QEntityKey;QList;[QEntityKey;Z) | get row from result set
+../3-Phrases/hibernate-3.3.1.GA:List getResultList(QList;QResultTransformer;) | get result list
+../3-Phrases/hibernate-3.3.1.GA:Object getResultColumnOrRow([QObject;QResultTransformer;QResultSet;QSessionImplementor;) | get result column or row
+../3-Phrases/hibernate-3.3.1.GA:EntityKey getKeyFromResultSet(IQLoadable;QSerializable;QResultSet;QSessionImplementor;) | get key from result set
+../3-Phrases/hibernate-3.3.1.GA:void loadFromResultSet(QResultSet;IQObject;QString;QEntityKey;QString;QLockMode;QLoadable;QSessionImplementor;) | load from result set
+../3-Phrases/hibernate-3.3.1.GA:ResultSet getResultSet(QPreparedStatement;ZZQRowSelection;QSessionImplementor;) | get result set
+../3-Phrases/hibernate-3.3.1.GA:ResultSet wrapResultSetIfEnabled(QResultSet;QSessionImplementor;) | wrap result set if enabled
+../3-Phrases/hibernate-3.3.1.GA:List getResultFromQueryCache(QSessionImplementor;QQueryParameters;QSet;[QType;QQueryCache;QQueryKey;) | get result from query cache
+../3-Phrases/hibernate-3.3.1.GA:void putResultInQueryCache(QSessionImplementor;QQueryParameters;[QType;QQueryCache;QQueryKey;QList;) | put result in query cache
+../3-Phrases/hibernate-3.3.1.GA:Object getResultColumnOrRow([QObject;QResultTransformer;QResultSet;QSessionImplementor;) | get result column or row
+../3-Phrases/hibernate-3.3.1.GA:List getResultList(QList;QResultTransformer;) | get result list
+../3-Phrases/hibernate-3.3.1.GA:Type[] getResultTypes() | get result types
+../3-Phrases/hibernate-3.3.1.GA:Object getResultColumnOrRow([QObject;QResultTransformer;QResultSet;QSessionImplementor;) | get result column or row
+../3-Phrases/hibernate-3.3.1.GA:List getResultList(QList;QResultTransformer;) | get result list
+../3-Phrases/hibernate-3.3.1.GA:void ResultRowProcessor(Z[QResultColumnProcessor;) | result row processor
+../3-Phrases/hibernate-3.3.1.GA:Object buildResultRow([QObject;QResultSet;ZQSessionImplementor;) | build result row
+../3-Phrases/hibernate-3.3.1.GA:void NonScalarResultColumnProcessor(I) | non scalar result column processor
+../3-Phrases/hibernate-3.3.1.GA:void ScalarResultColumnProcessor(I) | scalar result column processor
+../3-Phrases/hibernate-3.3.1.GA:void ScalarResultColumnProcessor(QString;QType;) | scalar result column processor
+../3-Phrases/hibernate-3.3.1.GA:Map getPropertyResultsMapByAlias(QString;) | get property results map by alias
+../3-Phrases/hibernate-3.3.1.GA:Map getPropertyResultsMap(QString;) | get property results map
+../3-Phrases/hibernate-3.3.1.GA:Map internalGetPropertyResultsMap(QString;) | internal get property results map
+../3-Phrases/hibernate-3.3.1.GA:boolean hasPropertyResultMap(QString;) | has property result map
+../3-Phrases/hibernate-3.3.1.GA:Map getPropertyResultsMapByAlias(QString;) | get property results map by alias
+../3-Phrases/hibernate-3.3.1.GA:Object getResultColumnOrRow([QObject;QResultTransformer;QResultSet;QSessionImplementor;) | get result column or row
+../3-Phrases/hibernate-3.3.1.GA:Object getResultColumnOrRow([QObject;QResultTransformer;QResultSet;QSessionImplementor;) | get result column or row
+../3-Phrases/hibernate-3.3.1.GA:Object getResultColumnOrRow([QObject;QResultTransformer;QResultSet;QSessionImplementor;) | get result column or row
+../3-Phrases/hibernate-3.3.1.GA:List getResultList(QList;QResultTransformer;) | get result list
+../3-Phrases/hibernate-3.3.1.GA:Object[] toResultRow([QObject;) | to result row
+../3-Phrases/hibernate-3.3.1.GA:Node asXPathResult(QElement;) | as x path result
+../3-Phrases/hibernate-3.3.1.GA:Node getXPathResult(I) | get x path result
+../3-Phrases/hibernate-3.3.1.GA:CONS PassThroughResultTransformer() | pass through result transformer
+../3-Phrases/hibernate-3.3.1.GA:CONS ToListResultTransformer() | to list result transformer
+../3-Phrases/hibernate-3.3.1.GA:CONS DistinctResultTransformer() | distinct result transformer
+../3-Phrases/hibernate-3.3.1.GA:CONS AliasToBeanResultTransformer(QClass;) | alias to bean result transformer
+../3-Phrases/hibernate-3.3.1.GA:CONS DistinctRootEntityResultTransformer() | distinct root entity result transformer
+../3-Phrases/hibernate-3.3.1.GA:CONS AliasToBeanConstructorResultTransformer(QConstructor;) | alias to bean constructor result transformer
+../3-Phrases/hibernate-3.3.1.GA:CONS RootEntityResultTransformer() | root entity result transformer
+../3-Phrases/hibernate-3.3.1.GA:CONS AliasToEntityMapResultTransformer() | alias to entity map result transformer
+../3-Phrases/hibernate-3.3.1.GA:Node asXPathResult(QElement;) | as x path result
+../3-Phrases/hibernate-3.3.1.GA:Node getXPathResult(I) | get x path result
+../3-Phrases/hibernate-3.3.1.GA:Object instantiateResult(QObject;) | instantiate result
+../3-Phrases/hibernate-3.3.1.GA:Object instantiateResult(QObject;) | instantiate result
+../3-Phrases/hibernate-3.3.1.GA:String getJdbcScrollableResultSetEnabled() | get jdbc scrollable result set enabled
+../3-Phrases/hibernate-3.3.1.GA:void setJdbcScrollableResultSetEnabled(QString;) | set jdbc scrollable result set enabled
+../3-Phrases/hsqldb:Result describeResult() | describe result
+../3-Phrases/hsqldb:int insertResult(QSession;QResult;) | insert result
+../3-Phrases/hsqldb:Integer getResultSetCount() | get result set count
+../3-Phrases/hsqldb:Integer getResultType(QString;) | get result type
+../3-Phrases/hsqldb:CONS ResultBase() | result base
+../3-Phrases/hsqldb:void ResultMetaData() | result meta data
+../3-Phrases/hsqldb:void ResultMetaData(I) | result meta data
+../3-Phrases/hsqldb:void ResultMetaData(QRowInputBinary;I) | result meta data
+../3-Phrases/hsqldb:CONS Result(I) | result
+../3-Phrases/hsqldb:CONS Result(QResultMetaData;) | result
+../3-Phrases/hsqldb:CONS Result(QString;QString;I) | result
+../3-Phrases/hsqldb:CONS Result(II) | result
+../3-Phrases/hsqldb:CONS Result(I[II) | result
+../3-Phrases/hsqldb:CONS Result(QRowInputBinary;) | result
+../3-Phrases/hsqldb:Result newSingleColumnResult(QString;I) | new single column result
+../3-Phrases/hsqldb:Result newParameterDescriptionResult(I) | new parameter description result
+../3-Phrases/hsqldb:void trimResult(II) | trim result
+../3-Phrases/hsqldb:void sortResult(QSession;[I[I) | sort result
+../3-Phrases/hsqldb:Result newSessionAttributesResult() | new session attributes result
+../3-Phrases/hsqldb:void readMultiResult(QRowInputBinary;) | read multi result
+../3-Phrases/hsqldb:CONS Result(QThrowable;QString;) | result
+../3-Phrases/hsqldb:void setResultType(I) | set result type
+../3-Phrases/hsqldb:CONS GroupedResult(QSelect;QResult.ResultMetaData;) | grouped result
+../3-Phrases/hsqldb:Result getResult() | get result
+../3-Phrases/hsqldb:void ResultGroup([QObject;) | result group
+../3-Phrases/hsqldb:void prepareResult(QSession;) | prepare result
+../3-Phrases/hsqldb:Result getResult(QSession;I) | get result
+../3-Phrases/hsqldb:Result getResultMain(QSession;) | get result main
+../3-Phrases/hsqldb:void mergeResults(QSession;QResult;QResult;) | merge results
+../3-Phrases/hsqldb:Result getSingleResult(QSession;I) | get single result
+../3-Phrases/hsqldb:void sortResult(QSession;QResult;) | sort result
+../3-Phrases/hsqldb:Result buildResult(QSession;I) | build result
+../3-Phrases/hsqldb:Result describeResult() | describe result
+../3-Phrases/hsqldb:Result toResult(QHsqlException;) | to result
+../3-Phrases/hsqldb:boolean supportsMultipleResultSets() | supports multiple result sets
+../3-Phrases/hsqldb:boolean supportsResultSetType(I) | supports result set type
+../3-Phrases/hsqldb:boolean supportsResultSetConcurrency(II) | supports result set concurrency
+../3-Phrases/hsqldb:boolean supportsMultipleOpenResults() | supports multiple open results
+../3-Phrases/hsqldb:boolean supportsResultSetHoldability(I) | supports result set holdability
+../3-Phrases/hsqldb:int getResultSetHoldability() | get result set holdability
+../3-Phrases/hsqldb:CONS jdbcResultSetMetaData(QjdbcResultSet;QHsqlProperties;) | jdbc result set meta data
+../3-Phrases/hsqldb:CONS jdbcResultSetMetaData(QResult;QHsqlProperties;) | jdbc result set meta data
+../3-Phrases/hsqldb:CONS jdbcResultSet(QjdbcStatement;QResult;QHsqlProperties;Z) | jdbc result set
+../3-Phrases/hsqldb:boolean isResult() | is result
+../3-Phrases/hsqldb:ResultSet getResultSet() | get result set
+../3-Phrases/hsqldb:boolean getMoreResults() | get more results
+../3-Phrases/hsqldb:int getResultSetConcurrency() | get result set concurrency
+../3-Phrases/hsqldb:int getResultSetType() | get result set type
+../3-Phrases/hsqldb:boolean getMoreResults(I) | get more results
+../3-Phrases/hsqldb:int getResultSetHoldability() | get result set holdability
+../3-Phrases/hsqldb:void fetchResult(QString;) | fetch result
+../3-Phrases/hsqldb:void writeSingleColumnResult(QResult;) | write single column result
+../3-Phrases/hsqldb:void writeSingleColumnResult(QResult;) | write single column result
+../3-Phrases/hsqldb:void checkResults() | check results
+../3-Phrases/hsqldb:void storeResult(QString;IJJ) | store result
+../3-Phrases/hsqldb:String getResultString() | get result string
+../3-Phrases/hsqldb:CONS ResultSetParsedSection([QString;) | result set parsed section
+../3-Phrases/hsqldb:String getResultString() | get result string
+../3-Phrases/hsqldb:String getResultString() | get result string
+../3-Phrases/hsqldb:String getResultString() | get result string
+../3-Phrases/hsqldb:String getResultString() | get result string
+../3-Phrases/hsqldb:String getResultString() | get result string
+../3-Phrases/hsqldb:String getResultString() | get result string
+../3-Phrases/hsqldb:String getResultString() | get result string
+../3-Phrases/hsqldb:String getResultString() | get result string
+../3-Phrases/hsqldb:void compareResults(QString;[[QObject;I) | compare results
+../3-Phrases/hsqldb:void checkResults() | check results
+../3-Phrases/hsqldb:void compareResults(QString;[QString;QConnection;) | compare results
+../3-Phrases/hsqldb:void runWithResult(QClass;QString;) | run with result
+../3-Phrases/hsqldb:void runWithResult() | run with result
+../3-Phrases/hsqldb:void displayResults() | display results
+../3-Phrases/hsqldb:void setResultsInGrid() | set results in grid
+../3-Phrases/hsqldb:void setResultsInText() | set results in text
+../3-Phrases/hsqldb:void clearResultPanel() | clear result panel
+../3-Phrases/hsqldb:void updateResult() | update result
+../3-Phrases/hsqldb:void formatResultSet(QResultSet;) | format result set
+../3-Phrases/hsqldb:void showResultInText() | show result in text
+../3-Phrases/hsqldb:void displayResultSet(QStatement;QResultSet;[IQString;) | display result set
+../3-Phrases/hsqldb:void updateResult() | update result
+../3-Phrases/hsqldb:void formatResultSet(QResultSet;) | format result set
+../3-Phrases/hsqldb:void showResultInText() | show result in text
+../3-Phrases/hsqldb:CONS TransferResultSet(QResultSet;) | transfer result set
+../3-Phrases/hsqldb:CONS TransferResultSet() | transfer result set
+../3-Phrases/hsqldb:void formatResultSet(QResultSet;) | format result set
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/iReport:int getDialogResult() | get dialog result
+../3-Phrases/iReport:void setDialogResult(I) | set dialog result
+../3-Phrases/Jabref:void stopShowingSearchResults() | stop showing search results
+../3-Phrases/Jabref:void stopShowingSearchResults() | stop showing search results
+../3-Phrases/Jabref:void displayResult(QDisplayResultCallback;) | display result
+../3-Phrases/Jabref:void scanResultsResolved(Z) | scan results resolved
+../3-Phrases/Jabref:void scanResultsResolved(Z) | scan results resolved
+../3-Phrases/Jabref:void scanResultsResolved(Z) | scan results resolved
+../3-Phrases/Jabref:void FindResult(QURL;QURL;) | find result
+../3-Phrases/Jabref:void FindResult(IQURL;) | find result
+../3-Phrases/Jabref:AbstractGroup getResultingGroup() | get resulting group
+../3-Phrases/Jabref:CONS SearchResultsDialog(QJabRefFrame;QString;) | search results dialog
+../3-Phrases/Jabref:String getResults(QURL;) | get results
+../3-Phrases/Jabref:String getResultsFromFile(QFile;) | get results from file
+../3-Phrases/Jabref:CONS ParserResult(QCollection<QBibtexEntry;>;) | parser result
+../3-Phrases/Jabref:CONS ParserResult(QBibtexDatabase;QHashMap<QString;QString;>;QHashMap<QString;QBibtexEntryType;>;) | parser result
+../3-Phrases/Jabref:String getResults(QURL;) | get results
+../3-Phrases/Jabref:String getResultsFromFile(QFile;) | get results from file
+../3-Phrases/Jabref:ParserResult mergeImportResults(QList<QPair<QString;QParserResult;>;>;) | merge import results
+../3-Phrases/Jabref:Object processDMLWithResults(QObject;QString;) | process dml with results
+../3-Phrases/Jabref:String processDMLWithSingleResult(QConnection;QString;) | process dml with single result
+../3-Phrases/Jabref:Statement execDMLWithResults(QConnection;QString;) | exec dml with results
+../3-Phrases/jajuk:CONS SearchResult(QFile;) | search result
+../3-Phrases/jajuk:CONS SearchResult(QFile;QString;) | search result
+../3-Phrases/jbidwatcher:int getResult() | get result
+../3-Phrases/jbidwatcher:String getBidResult(QCurrency;I) | get bid result
+../3-Phrases/jbidwatcher:boolean handleDialogResult(QJOptionPane;QString;) | handle dialog result
+../3-Phrases/jbidwatcher:String getBidResult(QCurrency;I) | get bid result
+../3-Phrases/jbidwatcher:int getResult() | get result
+../3-Phrases/jbidwatcher:String getSnipeResult(IQString;QAuctionEntry;) | get snipe result
+../3-Phrases/jbidwatcher:int getResult() | get result
+../3-Phrases/jbidwatcher:String getBidResult(QCurrency;I) | get bid result
+../3-Phrases/jbidwatcher:String getResult(QJHTML;QString;I) | get result
+../3-Phrases/JHotDraw-7.0.8:Object getResult() | get result
+../3-Phrases/JHotDraw-7.0.8:Object getResult() | get result
+../3-Phrases/MegaMek-0.32.0:MoveOption getResult() | get result
+../3-Phrases/MegaMek-0.32.0:int[] getResultChromosome() | get result chromosome
+../3-Phrases/np:ResultObjectFactory newResultObjectFactory(QueryExpression stmt, boolean ignoreCache, Class resultClass, boolean useFetchPlan) | new result object factory
+../3-Phrases/np:static Result newRollbackToSavepointRequest(String name) | result new rollback to savepoint request
+../3-Phrases/np:int executionComplete(JobExecutionContext context, JobExecutionException result) | execution complete
+../3-Phrases/PlanetaMessenger:CONS JResultSet(Qjava.sql.Statement;Qjava.sql.ResultSet;) | j result set
+../3-Phrases/PlanetaMessenger:java.sql.ResultSet getResultSet() | get result set
+../3-Phrases/prefuse:void setShowResultCount(Z) | set show result count
+../3-Phrases/rhino:int lastIndexResult(QContext;) | last index result
+../3-Phrases/rhino:long lastUint32Result(QContext;) | last uint 32 result
+../3-Phrases/rhino:Object convertResult(QObject;QClass;) | convert result
+../3-Phrases/rhino:void generatePopResult(QClassFileWriter;QClass;) | generate pop result
+../3-Phrases/rhino:void generateReturnResult(QClassFileWriter;QClass;Z) | generate return result
+../3-Phrases/rhino:void setCallResult(QCallFrame;QObject;D) | set call result
+../3-Phrases/rhino:void storeIndexResult(QContext;I) | store index result
+../3-Phrases/rhino:void storeUint32Result(QContext;J) | store uint 32 result
+../3-Phrases/rhino-fieldSample:int lastIndexResult(QContext;) | last index result
+../3-Phrases/rhino-fieldSample:void generateReturnResult(QClassFileWriter;QClass;Z) | generate return result
+../3-Phrases/vuze:void lookupResultHandler(QDHTOperationListener;) | lookup result handler
+../3-Phrases/vuze:void resultGroup([QDHTSpeedTesterContact;[I) | result group
+../3-Phrases/vuze:void informResults([QDHTSpeedTesterContact;[I) | inform results
+../3-Phrases/vuze:int getResult() | get result
+../3-Phrases/vuze:void setResult(QactivePing;I) | set result
+../3-Phrases/vuze:void sendResult() | send result
+../3-Phrases/vuze:void setAnnounceResult(QDownloadAnnounceResult;) | set announce result
+../3-Phrases/vuze:void setScrapeResult(QDownloadScrapeResult;) | set scrape result
+../3-Phrases/vuze:DownloadAnnounceResult getLastAnnounceResult() | get last announce result
+../3-Phrases/vuze:DownloadScrapeResult getLastScrapeResult() | get last scrape result
+../3-Phrases/vuze:String getResults() | get results
+../3-Phrases/vuze:CONS Result(QEngine;) | result
+../3-Phrases/vuze:void resultsReceived(QEngine;[QResult;) | results received
+../3-Phrases/vuze:void resultsComplete(QEngine;) | results complete
+../3-Phrases/vuze:void resultsReceived(QEngine;[QResult;) | results received
+../3-Phrases/vuze:void resultsComplete(QEngine;) | results complete
+../3-Phrases/vuze:Result[] truncateResults(QEngine;[QResult;I) | truncate results
+../3-Phrases/vuze:void resultsReceived(QEngine;[QResult;) | results received
+../3-Phrases/vuze:void resultsComplete(QEngine;) | results complete
+../3-Phrases/vuze:Result[] mapResults([QResult;) | map results
+../3-Phrases/vuze:void resultReceived(QSearchInstance;QSearchResult;) | result received
+../3-Phrases/vuze:CONS PluginResult(QPluginEngine;QSearchResult;QString;) | plugin result
+../3-Phrases/vuze:Object getResultProperty(I) | get result property
+../3-Phrases/vuze:CONS WebResult(QEngine;QString;QString;QDateParser;QString;) | web result
+../3-Phrases/vuze:NetworkAdminSpeedTesterResult getLastResult(I) | get last result
+../3-Phrases/vuze:void sendResult(QNetworkAdminSpeedTesterResult;) | send result
+../3-Phrases/vuze:void sendResultToListeners(QNetworkAdminSpeedTesterResult;) | send result to listeners
+../3-Phrases/vuze:NetworkAdminSpeedTesterResult getLastResult(I) | get last result
+../3-Phrases/vuze:NetworkAdminSpeedTesterResult getLastResult() | get last result
+../3-Phrases/vuze:NetworkAdminSpeedTesterResult getResult() | get result
+../3-Phrases/vuze:void BitTorrentResult(QMap;QMap;) | bit torrent result
+../3-Phrases/vuze:void BitTorrentResult(QString;) | bit torrent result
+../3-Phrases/vuze:String getResultString() | get result string
+../3-Phrases/vuze:NetworkAdminASNImpl processResult(QString;) | process result
+../3-Phrases/vuze:void resultGroup([QDHTSpeedTesterContact;[I) | result group
+../3-Phrases/vuze:void deleteResults([QString;) | delete results
+../3-Phrases/vuze:void deleteAllResults() | delete all results
+../3-Phrases/vuze:void markAllResultsRead() | mark all results read
+../3-Phrases/vuze:void markAllResultsUnread() | mark all results unread
+../3-Phrases/vuze:void markResults([QString;[Z) | mark results
+../3-Phrases/vuze:long getLastNewResultTime() | get last new result time
+../3-Phrases/vuze:SubscriptionResult[] getResults(Z) | get results
+../3-Phrases/vuze:SubscriptionResult getResult(QString;) | get result
+../3-Phrases/vuze:int getMaxNonDeletedResults() | get max non deleted results
+../3-Phrases/vuze:void setMaxNonDeletedResults(I) | set max non deleted results
+../3-Phrases/vuze:CONS SubscriptionResultFilter(QMap;) | subscription result filter
+../3-Phrases/vuze:CONS SubscriptionResultImpl(QSubscriptionHistoryImpl;QResult;) | subscription result impl
+../3-Phrases/vuze:CONS SubscriptionResultImpl(QSubscriptionHistoryImpl;QMap;) | subscription result impl
+../3-Phrases/vuze:SubscriptionResultImpl[] reconcileResults([QSubscriptionResultImpl;) | reconcile results
+../3-Phrases/vuze:long getLastNewResultTime() | get last new result time
+../3-Phrases/vuze:SubscriptionResult[] getResults(Z) | get results
+../3-Phrases/vuze:SubscriptionResult getResult(QString;) | get result
+../3-Phrases/vuze:void updateResult(QSubscriptionResultImpl;) | update result
+../3-Phrases/vuze:void deleteResults([QString;) | delete results
+../3-Phrases/vuze:void deleteAllResults() | delete all results
+../3-Phrases/vuze:void markAllResultsRead() | mark all results read
+../3-Phrases/vuze:void markAllResultsUnread() | mark all results unread
+../3-Phrases/vuze:void markResults([QString;[Z) | mark results
+../3-Phrases/vuze:void checkMaxResults(I) | check max results
+../3-Phrases/vuze:void checkMaxResults(I) | check max results
+../3-Phrases/vuze:File getResultsFile(QSubscriptionImpl;) | get results file
+../3-Phrases/vuze:SubscriptionResultImpl[] loadResults(QSubscriptionImpl;) | load results
+../3-Phrases/vuze:int getMaxNonDeletedResults() | get max non deleted results
+../3-Phrases/vuze:void setMaxNonDeletedResults(I) | set max non deleted results
+../3-Phrases/vuze:void saveResults(QSubscriptionImpl;[QSubscriptionResultImpl;) | save results
+../3-Phrases/vuze:void scrapeResult(QDownloadScrapeResult;) | scrape result
+../3-Phrases/vuze:void announceResult(QDownloadAnnounceResult;) | announce result
+../3-Phrases/vuze:void scrapeResult(QDownloadScrapeResult;) | scrape result
+../3-Phrases/vuze:void announceResult(QDownloadAnnounceResult;) | announce result
+../3-Phrases/vuze:void scrapeResult(QDownloadScrapeResult;) | scrape result
+../3-Phrases/vuze:void announceResult(QDownloadAnnounceResult;) | announce result
+../3-Phrases/vuze:void scrapeResult(QDownloadScrapeResult;) | scrape result
+../3-Phrases/vuze:void announceResult(QDownloadAnnounceResult;) | announce result
+../3-Phrases/vuze:boolean scrapeResultOk(QDownload;) | scrape result ok
+../3-Phrases/vuze:void scrapeResult(QDownloadScrapeResult;) | scrape result
+../3-Phrases/vuze:void announceResult(QDownloadAnnounceResult;) | announce result
+../3-Phrases/vuze:void handleTrackResult(QAZInstanceTracked;) | handle track result
+../3-Phrases/vuze:void scrapeResult(QDownloadScrapeResult;) | scrape result
+../3-Phrases/vuze:void announceResult(QDownloadAnnounceResult;) | announce result
+../3-Phrases/vuze:void scrapeResult(QDownloadScrapeResult;) | scrape result
+../3-Phrases/vuze:void announceResult(QDownloadAnnounceResult;) | announce result
+../3-Phrases/vuze:void mappingResult(QUPnPWANConnection;Z) | mapping result
+../3-Phrases/vuze:void mappingsReadResult(QUPnPWANConnection;Z) | mappings read result
+../3-Phrases/vuze:void parseAuthorizedListenerResult(QBrowser;QAESemaphore;[ZZ) | parse authorized listener result
+../3-Phrases/vuze:String getResults() | get results
+../3-Phrases/vuze:void openSearchResults(QMap;) | open search results
+../3-Phrases/vuze:void closeSearchResults(QMap;) | close search results
+../3-Phrases/vuze:void resultsReceived(QEngine;[QResult;) | results received
+../3-Phrases/vuze:void resultsComplete(QEngine;) | results complete
+../3-Phrases/vuze:void resultsComplete(QEngine;) | results complete
+../3-Phrases/vuze:void resultsReceived(QEngine;[QResult;) | results received
+../3-Phrases/vuze:void encodeResults(QSubscription;QMap;) | encode results
+../3-Phrases/vuze:CONS ColumnSubscriptionNbResults(QString;) | column subscription nb results
+../3-Phrases/vuze:CONS ColumnSubscriptionNbNewResults(QString;) | column subscription nb new results
+../3-Phrases/vuze:void closeSearchResults(QMap;) | close search results
+../3-Phrases/vuze:void openSearchResults(QMap;) | open search results
+../3-Phrases/vuze:Image computeResultImage() | compute result image
+../3-Phrases/vuze:void openSearchResults(QMap;) | open search results
+../3-Phrases/vuze:void closeSearchResults(QMap;) | close search results
+../3-Phrases/vuze:void receivedResult(QNetworkInterface;QInetAddress;QInetAddress;QString;QURL;QString;QString;) | received result
+../3-Phrases/vuze:void portMappingResult(Z) | port mapping result
+../3-Phrases/vuze:void informResult(QNetworkInterface;QInetAddress;QInetAddress;QString;QURL;QString;QString;) | inform result
+../3-Phrases/vuze:void receivedResult(QNetworkInterface;QInetAddress;QInetAddress;QString;QURL;QString;QString;) | received result
+../3-Phrases/vuze:void mappingResult(QUPnPWANConnection;Z) | mapping result
+../3-Phrases/vuze:void mappingsReadResult(QUPnPWANConnection;Z) | mappings read result
+../3-Phrases/vuze:void scrapeResult(QTRTrackerScraperResponse;) | scrape result
+../3-Phrases/vuze:void announceResult(QTRTrackerAnnouncerResponse;) | announce result
+../3-Phrases/vuze:void setAnnounceResult(QDownloadAnnounceResult;) | set announce result
+../3-Phrases/vuze:void setScrapeResult(QDownloadScrapeResult;) | set scrape result
+../3-Phrases/vuze:void setAnnounceResult(QDownloadAnnounceResult;) | set announce result
+../3-Phrases/vuze:void setScrapeResult(QDownloadScrapeResult;) | set scrape result
+../3-Phrases/vuze:int getResult() | get result
+../3-Phrases/vuze:void processPieceCheckResult(QDiskManagerCheckRequest;I) | process piece check result
+../3-Phrases/vuze:void setAnnounceResult(QDownloadAnnounceResult;) | set announce result
+../3-Phrases/vuze:void setScrapeResult(II) | set scrape result
+../3-Phrases/vuze:void setAnnounceResult(QDownloadAnnounceResult;) | set announce result
+../3-Phrases/vuze:void setAnnounceResult(QDownloadAnnounceResult;) | set announce result
+../3-Phrases/vuze:void setUDPProbeResult(QURL;Z) | set udp probe result
+../3-Phrases/vuze:Object waitForResult() | wait for result
+../3-Phrases/vuze:byte[] getResult() | get result
+../3-Phrases/vuze:void scrapeResult(QDownloadScrapeResult;) | scrape result
+../3-Phrases/vuze:void announceResult(QDownloadAnnounceResult;) | announce result
+../3-Phrases/vuze:void setAnnounceResult(QDownloadAnnounceResult;) | set announce result
+../3-Phrases/vuze:void setScrapeResult(QDownloadScrapeResult;) | set scrape result
+../3-Phrases/vuze:DownloadAnnounceResult getLastAnnounceResult() | get last announce result
+../3-Phrases/vuze:DownloadScrapeResult getLastScrapeResult() | get last scrape result
+../3-Phrases/vuze:void setResult(QObject;) | set result
+../3-Phrases/vuze:Object getResult() | get result
+../3-Phrases/vuze:void resultReceived(QSearchInstance;QSearchResult;) | result received
+../3-Phrases/vuze:CONS DownloadScrapeResultImpl(QDownloadImpl;QTRTrackerScraperResponse;) | download scrape result impl
+../3-Phrases/vuze:DownloadAnnounceResult getLastAnnounceResult() | get last announce result
+../3-Phrases/vuze:DownloadScrapeResult getLastScrapeResult() | get last scrape result
+../3-Phrases/vuze:void scrapeResult(QTRTrackerScraperResponse;) | scrape result
+../3-Phrases/vuze:void announceTrackerResultsToListener(QDownloadTrackerListener;) | announce tracker results to listener
+../3-Phrases/vuze:void announceResult(QTRTrackerAnnouncerResponse;) | announce result
+../3-Phrases/vuze:void setAnnounceResult(QDownloadAnnounceResult;) | set announce result
+../3-Phrases/vuze:void setScrapeResult(QDownloadScrapeResult;) | set scrape result
+../3-Phrases/vuze:void scrapeResult(QDownloadScrapeResult;) | scrape result
+../3-Phrases/vuze:void announceResult(QDownloadAnnounceResult;) | announce result
+../3-Phrases/vuze:CONS DownloadAnnounceResultImpl(QDownload;QTRTrackerAnnouncerResponse;) | download announce result impl
+../3-Phrases/vuze:void scrapeResult(QDownloadScrapeResult;) | scrape result
+../3-Phrases/vuze:void announceResult(QDownloadAnnounceResult;) | announce result
+../3-Phrases/vuze:void setResult(QObject;) | set result
+../3-Phrases/vuze:Object getResult() | get result
+../3-Phrases/vuze:DownloadAnnounceResult getLastAnnounceResult() | get last announce result
+../3-Phrases/vuze:DownloadScrapeResult getLastScrapeResult() | get last scrape result
+../3-Phrases/vuze:void setAnnounceResult(QDownloadAnnounceResult;) | set announce result
+../3-Phrases/vuze:void setScrapeResult(QDownloadScrapeResult;) | set scrape result
+../3-Phrases/vuze:CONS RPDownloadScrapeResult(QDownloadScrapeResult;) | rp download scrape result
+../3-Phrases/vuze:CONS RPDownloadAnnounceResult(QDownloadAnnounceResult;) | rp download announce result
+../3-Phrases/vuze:void TruncatedTextResult() | truncated text result
+../3-Phrases/vuze:void setResult(QString;IZ) | set result
+../3-Phrases/vuze:int getResult() | get result
+../3-Phrases/vuze:void createResultLabels(QComposite;Z) | create result labels
+../3-Phrases/vuze:void createResultData(QComposite;QString;I) | create result data
+../3-Phrases/vuze:void setResult(QNetworkAdminSpeedTesterResult;) | set result
+../3-Phrases/vuze:NetworkAdminSpeedTesterResult getLastResult() | get last result
+../3-Phrases/vuze:void setHighestDownloadResult(I) | set highest download result
+../3-Phrases/vuze:int getHightestDownloadResult() | get high test download result
+../3-Phrases/vuze:void setLastUploadOnlyResult(I) | set last upload only result
+../3-Phrases/vuze:int getLastUploadOnlyResult() | get last upload only result
+../3-Phrases/vuze:void scrapeResult(QTRTrackerScraperResponse;) | scrape result
+../3-Phrases/vuze:void announceResult(QTRTrackerAnnouncerResponse;) | announce result
+../3-Phrases/vuze:boolean checkScrapeResult(QTRTrackerScraperResponse;) | check scrape result
+../3-Phrases/vuze:void scrapeResult(QTRTrackerScraperResponse;) | scrape result
+../3-Phrases/vuze:void scrapeResult(QTRTrackerScraperResponse;) | scrape result
+../3-Phrases/vuze:void announceResult(QTRTrackerAnnouncerResponse;) | announce result
+../3-Phrases/weka:int numValuesInResult() | num values in result
+../3-Phrases/weka:boolean canStoreInResults(QRule;) | can store in results
+../3-Phrases/weka:void addResult(QRule;) | add result
+../3-Phrases/weka:SimpleLinkedList getResults() | get results
+../3-Phrases/weka:String toResultsString() | to results string
+../3-Phrases/weka:String CVResultsString() | cv results string
+../3-Phrases/weka:String printSelectionResults() | print selection results
+../3-Phrases/weka:int resultRule(QInstance;) | result rule
+../3-Phrases/weka:int resultRules(QInstance;) | result rules
+../3-Phrases/weka:String clusterResultsToString() | cluster results to string
+../3-Phrases/weka:FastVector getResultVector() | get result vector
+../3-Phrases/weka:CONS ResultVectorTableModel(QFastVector;) | result vector table model
+../3-Phrases/weka:FastVector getResultVector() | get result vector
+../3-Phrases/weka:void setResultVector(QFastVector;) | set result vector
+../3-Phrases/weka:JComponent clusteringResultsTable() | clustering results table
+../3-Phrases/weka:void setResult(QDouble;) | set result
+../3-Phrases/weka:Double getResult() | get result
+../3-Phrases/weka:int getIndexOfIntermediateResult() | get index of intermediate result
+../3-Phrases/weka:double getResult([D) | get result
+../3-Phrases/weka:double getResult([D) | get result
+../3-Phrases/weka:double getResultInverse([D) | get result inverse
+../3-Phrases/weka:String getResultCategorical([D) | get result categorical
+../3-Phrases/weka:double getResult([D) | get result
+../3-Phrases/weka:double getResultContinuous([D) | get result continuous
+../3-Phrases/weka:String getResultCategorical([D) | get result categorical
+../3-Phrases/weka:double getResult([D) | get result
+../3-Phrases/weka:String getResultCategorical([D) | get result categorical
+../3-Phrases/weka:double getResult([D) | get result
+../3-Phrases/weka:String getResultCategorical([D) | get result categorical
+../3-Phrases/weka:double getResult([D) | get result
+../3-Phrases/weka:double getResult([D) | get result
+../3-Phrases/weka:String getResultCategorical([D) | get result categorical
+../3-Phrases/weka:double getResult([D) | get result
+../3-Phrases/weka:String getResultCategorical([D) | get result categorical
+../3-Phrases/weka:double getResult([D) | get result
+../3-Phrases/weka:double getResult([D) | get result
+../3-Phrases/weka:double getResult([D) | get result
+../3-Phrases/weka:double getResult([D) | get result
+../3-Phrases/weka:String getResultCategorical([D) | get result categorical
+../3-Phrases/weka:CONS CSVResultListener() | csv result listener
+../3-Phrases/weka:void acceptResult(QResultProducer;[QObject;[QObject;) | accept result
+../3-Phrases/weka:boolean isResultRequired(QResultProducer;[QObject;) | is result required
+../3-Phrases/weka:void printResultNames(QResultProducer;) | print result names
+../3-Phrases/weka:ResultSet getResultSet() | get result set
+../3-Phrases/weka:Object[] getResultFromTable(QString;QResultProducer;[QObject;) | get result from table
+../3-Phrases/weka:void putResultInTable(QString;QResultProducer;[QObject;[QObject;) | put result in table
+../3-Phrases/weka:String getResultsTableName(QResultProducer;) | get results table name
+../3-Phrases/weka:String createResultsTable(QResultProducer;QString;) | create results table
+../3-Phrases/weka:CONS ResultMatrixLatex() | result matrix latex
+../3-Phrases/weka:CONS ResultMatrixLatex(II) | result matrix latex
+../3-Phrases/weka:CONS ResultMatrixLatex(QResultMatrix;) | result matrix latex
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResult(QInstances;QInstances;) | get result
+../3-Phrases/weka:String getRawResultOutput() | get raw result output
+../3-Phrases/weka:void setTaskResult(QObject;) | set task result
+../3-Phrases/weka:Object getTaskResult() | get task result
+../3-Phrases/weka:void setResultListener(QResultListener;) | set result listener
+../3-Phrases/weka:void setResultProducer(QResultProducer;) | set result producer
+../3-Phrases/weka:void setResultListener(QResultListener;) | set result listener
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:void setResultListener(QResultListener;) | set result listener
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:CONS DatabaseResultProducer() | database result producer
+../3-Phrases/weka:void acceptResult(QResultProducer;[QObject;[QObject;) | accept result
+../3-Phrases/weka:boolean isResultRequired(QResultProducer;[QObject;) | is result required
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:void setResultListener(QResultListener;) | set result listener
+../3-Phrases/weka:String resultProducerTipText() | result producer tip text
+../3-Phrases/weka:ResultProducer getResultProducer() | get result producer
+../3-Phrases/weka:void setResultProducer(QResultProducer;) | set result producer
+../3-Phrases/weka:void acceptResult(QResultProducer;[QObject;[QObject;) | accept result
+../3-Phrases/weka:boolean isResultRequired(QResultProducer;[QObject;) | is result required
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:void setResultListener(QResultListener;) | set result listener
+../3-Phrases/weka:String resultProducerTipText() | result producer tip text
+../3-Phrases/weka:ResultProducer getResultProducer() | get result producer
+../3-Phrases/weka:void setResultProducer(QResultProducer;) | set result producer
+../3-Phrases/weka:CONS ResultMatrixPlainText() | result matrix plain text
+../3-Phrases/weka:CONS ResultMatrixPlainText(II) | result matrix plain text
+../3-Phrases/weka:CONS ResultMatrixPlainText(QResultMatrix;) | result matrix plain text
+../3-Phrases/weka:CONS ResultMatrixCSV() | result matrix csv
+../3-Phrases/weka:CONS ResultMatrixCSV(II) | result matrix csv
+../3-Phrases/weka:CONS ResultMatrixCSV(QResultMatrix;) | result matrix csv
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResult(QInstances;QInstances;) | get result
+../3-Phrases/weka:String getRawResultOutput() | get raw result output
+../3-Phrases/weka:CONS DatabaseResultListener() | database result listener
+../3-Phrases/weka:void acceptResult(QResultProducer;[QObject;[QObject;) | accept result
+../3-Phrases/weka:boolean isResultRequired(QResultProducer;[QObject;) | is result required
+../3-Phrases/weka:void updateResultsTableName(QResultProducer;) | update results table name
+../3-Phrases/weka:void determineAdditionalResultMeasures() | determine additional result measures
+../3-Phrases/weka:ResultListener getResultListener() | get result listener
+../3-Phrases/weka:void setResultListener(QResultListener;) | set result listener
+../3-Phrases/weka:ResultProducer getResultProducer() | get result producer
+../3-Phrases/weka:void setResultProducer(QResultProducer;) | set result producer
+../3-Phrases/weka:void setResultListener(QResultListener;) | set result listener
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:Object[] getResult(QInstances;QInstances;) | get result
+../3-Phrases/weka:String getRawResultOutput() | get raw result output
+../3-Phrases/weka:CONS ResultMatrix() | result matrix
+../3-Phrases/weka:CONS ResultMatrix(II) | result matrix
+../3-Phrases/weka:CONS ResultMatrix(QResultMatrix;) | result matrix
+../3-Phrases/weka:void setResultMatrix(QResultMatrix;) | set result matrix
+../3-Phrases/weka:ResultMatrix getResultMatrix() | get result matrix
+../3-Phrases/weka:int getNumResultsets() | get num resultsets
+../3-Phrases/weka:String getResultsetName(I) | get resultset name
+../3-Phrases/weka:boolean displayResultset(I) | display resultset
+../3-Phrases/weka:String resultsetKey() | resultset key
+../3-Phrases/weka:int[][] multiResultsetWins(I[[I) | multi resultset wins
+../3-Phrases/weka:String multiResultsetSummary(I) | multi resultset summary
+../3-Phrases/weka:String multiResultsetRanking(I) | multi resultset ranking
+../3-Phrases/weka:String multiResultsetFull(II) | multi resultset full
+../3-Phrases/weka:Range getResultsetKeyColumns() | get resultset key columns
+../3-Phrases/weka:void setResultsetKeyColumns(QRange;) | set resultset key columns
+../3-Phrases/weka:int[] getDisplayedResultsets() | get displayed resultsets
+../3-Phrases/weka:void setDisplayedResultsets([I) | set displayed resultsets
+../3-Phrases/weka:CONS InstancesResultListener() | instances result listener
+../3-Phrases/weka:void acceptResult(QResultProducer;[QObject;[QObject;) | accept result
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResult(QInstances;QInstances;) | get result
+../3-Phrases/weka:String getRawResultOutput() | get raw result output
+../3-Phrases/weka:CONS ResultMatrixSignificance() | result matrix significance
+../3-Phrases/weka:CONS ResultMatrixSignificance(II) | result matrix significance
+../3-Phrases/weka:CONS ResultMatrixSignificance(QResultMatrix;) | result matrix significance
+../3-Phrases/weka:void Resultset(QInstance;) | resultset
+../3-Phrases/weka:void setResultMatrix(QResultMatrix;) | set result matrix
+../3-Phrases/weka:ResultMatrix getResultMatrix() | get result matrix
+../3-Phrases/weka:int getNumResultsets() | get num resultsets
+../3-Phrases/weka:String getResultsetName(I) | get resultset name
+../3-Phrases/weka:boolean displayResultset(I) | display resultset
+../3-Phrases/weka:String resultsetKey() | resultset key
+../3-Phrases/weka:int[][] multiResultsetWins(I[[I) | multi resultset wins
+../3-Phrases/weka:void initResultMatrix() | init result matrix
+../3-Phrases/weka:String multiResultsetSummary(I) | multi resultset summary
+../3-Phrases/weka:String multiResultsetRanking(I) | multi resultset ranking
+../3-Phrases/weka:String multiResultsetFull(II) | multi resultset full
+../3-Phrases/weka:Range getResultsetKeyColumns() | get resultset key columns
+../3-Phrases/weka:void setResultsetKeyColumns(QRange;) | set resultset key columns
+../3-Phrases/weka:int[] getDisplayedResultsets() | get displayed resultsets
+../3-Phrases/weka:void setDisplayedResultsets([I) | set displayed resultsets
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResult(QInstances;QInstances;) | get result
+../3-Phrases/weka:void acceptResult(QResultProducer;[QObject;[QObject;) | accept result
+../3-Phrases/weka:boolean isResultRequired(QResultProducer;[QObject;) | is result required
+../3-Phrases/weka:CONS ResultMatrixGnuPlot() | result matrix gnu plot
+../3-Phrases/weka:CONS ResultMatrixGnuPlot(II) | result matrix gnu plot
+../3-Phrases/weka:CONS ResultMatrixGnuPlot(QResultMatrix;) | result matrix gnu plot
+../3-Phrases/weka:void doAverageResult([QObject;) | do average result
+../3-Phrases/weka:void acceptResult(QResultProducer;[QObject;[QObject;) | accept result
+../3-Phrases/weka:boolean isResultRequired(QResultProducer;[QObject;) | is result required
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:String expectedResultsPerAverageTipText() | expected results per average tip text
+../3-Phrases/weka:int getExpectedResultsPerAverage() | get expected results per average
+../3-Phrases/weka:void setExpectedResultsPerAverage(I) | set expected results per average
+../3-Phrases/weka:void setResultListener(QResultListener;) | set result listener
+../3-Phrases/weka:String resultProducerTipText() | result producer tip text
+../3-Phrases/weka:ResultProducer getResultProducer() | get result producer
+../3-Phrases/weka:void setResultProducer(QResultProducer;) | set result producer
+../3-Phrases/weka:CONS ResultMatrixHTML() | result matrix html
+../3-Phrases/weka:CONS ResultMatrixHTML(II) | result matrix html
+../3-Phrases/weka:CONS ResultMatrixHTML(QResultMatrix;) | result matrix html
+../3-Phrases/weka:void setResult(QBoolean;) | set result
+../3-Phrases/weka:Boolean getResult() | get result
+../3-Phrases/weka:CONS ResultHistoryPanel(QJTextComponent;) | result history panel
+../3-Phrases/weka:void addResult(QString;QStringBuffer;) | add result
+../3-Phrases/weka:void removeResult(QString;) | remove result
+../3-Phrases/weka:void clearResults() | clear results
+../3-Phrases/weka:void updateResult(QString;) | update result
+../3-Phrases/weka:void setUpResultHistory() | set up result history
+../3-Phrases/weka:void showResults() | show results
+../3-Phrases/weka:void setUpResultHistory() | set up result history
+../3-Phrases/weka:void showResults() | show results
+../3-Phrases/weka:CONS RemoteResult(II) | remote result
+../3-Phrases/weka:void setResultsPanel(QResultsPanel;) | set results panel
+../3-Phrases/weka:CONS ResultsPanel() | results panel
+../3-Phrases/weka:void setResultKeyFromDialog() | set result key from dialog
+../3-Phrases/weka:void setResultMatrix(QClass;) | set result matrix
+../3-Phrases/weka:Class getResultMatrix() | get result matrix
+../3-Phrases/weka:int getResult() | get result
+../3-Phrases/weka:CONS ResultSetTable(QString;QString;QString;QString;QResultSetTableModel;) | result set table
+../3-Phrases/weka:CONS ResultSetTableCellRenderer() | result set table cell renderer
+../3-Phrases/weka:CONS ResultSetTableCellRenderer(QColor;QColor;) | result set table cell renderer
+../3-Phrases/weka:CONS ResultSetTableModel(QResultSet;) | result set table model
+../3-Phrases/weka:CONS ResultSetTableModel(QResultSet;I) | result set table model
+../3-Phrases/weka:void resultChanged(QResultChangedEvent;) | result changed
+../3-Phrases/weka:void resultChanged(QResultChangedEvent;) | result changed
+../3-Phrases/weka:void addResultChangedListener(QResultChangedListener;) | add result changed listener
+../3-Phrases/weka:void removeResultChangedListener(QResultChangedListener;) | remove result changed listener
+../3-Phrases/weka:CONS ResultSetHelper(QResultSet;) | result set helper
+../3-Phrases/weka:CONS ResultSetHelper(QResultSet;I) | result set helper
+../3-Phrases/weka:ResultSet getResultSet() | get result set
+../3-Phrases/weka:CONS ResultPanel(QJFrame;) | result panel
+../3-Phrases/weka:void addResultChangedListener(QResultChangedListener;) | add result changed listener
+../3-Phrases/weka:void removeResultChangedListener(QResultChangedListener;) | remove result changed listener
+../3-Phrases/weka:CONS ResultChangedEvent(QObject;QString;QString;QString;QString;) | result changed event
+../3-Phrases/weka:void resultChanged(QResultChangedEvent;) | result changed
+../3-Phrases/weka:boolean hasResult() | has result
+../3-Phrases/weka:ResultSet getResultSet() | get result set
+../3-Phrases/weka:int numValuesInResult() | num values in result
+../3-Phrases/weka:boolean canStoreInResults(QRule;) | can store in results
+../3-Phrases/weka:void addResult(QRule;) | add result
+../3-Phrases/weka:SimpleLinkedList getResults() | get results
+../3-Phrases/weka:String toResultsString() | to results string
+../3-Phrases/weka:String CVResultsString() | cv results string
+../3-Phrases/weka:String printSelectionResults() | print selection results
+../3-Phrases/weka:FastVector getResultVector() | get result vector
+../3-Phrases/weka:String clusterResultsToString() | cluster results to string
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:Object[] getResult(QInstances;QInstances;) | get result
+../3-Phrases/weka:String getRawResultOutput() | get raw result output
+../3-Phrases/weka:void setResultListener(QResultListener;) | set result listener
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:void setResultMatrix(QResultMatrix;) | set result matrix
+../3-Phrases/weka:ResultMatrix getResultMatrix() | get result matrix
+../3-Phrases/weka:int getNumResultsets() | get num resultsets
+../3-Phrases/weka:String getResultsetName(I) | get resultset name
+../3-Phrases/weka:boolean displayResultset(I) | display resultset
+../3-Phrases/weka:String resultsetKey() | resultset key
+../3-Phrases/weka:int[][] multiResultsetWins(I[[I) | multi resultset wins
+../3-Phrases/weka:String multiResultsetSummary(I) | multi resultset summary
+../3-Phrases/weka:String multiResultsetRanking(I) | multi resultset ranking
+../3-Phrases/weka:String multiResultsetFull(II) | multi resultset full
+../3-Phrases/weka:Range getResultsetKeyColumns() | get resultset key columns
+../3-Phrases/weka:void setResultsetKeyColumns(QRange;) | set resultset key columns
+../3-Phrases/weka:int[] getDisplayedResultsets() | get displayed resultsets
+../3-Phrases/weka:void setDisplayedResultsets([I) | set displayed resultsets
+../3-Phrases/weka:CONS ResultMatrixHTML() | result matrix html
+../3-Phrases/weka:CONS ResultMatrixHTML(II) | result matrix html
+../3-Phrases/weka:CONS ResultMatrixHTML(QResultMatrix;) | result matrix html
+../3-Phrases/weka:CONS CSVResultListener() | csv result listener
+../3-Phrases/weka:void acceptResult(QResultProducer;[QObject;[QObject;) | accept result
+../3-Phrases/weka:boolean isResultRequired(QResultProducer;[QObject;) | is result required
+../3-Phrases/weka:void printResultNames(QResultProducer;) | print result names
+../3-Phrases/weka:CONS ResultMatrixCSV() | result matrix csv
+../3-Phrases/weka:CONS ResultMatrixCSV(II) | result matrix csv
+../3-Phrases/weka:CONS ResultMatrixCSV(QResultMatrix;) | result matrix csv
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResult(QInstances;QInstances;) | get result
+../3-Phrases/weka:String getRawResultOutput() | get raw result output
+../3-Phrases/weka:CONS DatabaseResultListener() | database result listener
+../3-Phrases/weka:void acceptResult(QResultProducer;[QObject;[QObject;) | accept result
+../3-Phrases/weka:boolean isResultRequired(QResultProducer;[QObject;) | is result required
+../3-Phrases/weka:void updateResultsTableName(QResultProducer;) | update results table name
+../3-Phrases/weka:void setResultListener(QResultListener;) | set result listener
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:ResultSet getResultSet() | get result set
+../3-Phrases/weka:Object[] getResultFromTable(QString;QResultProducer;[QObject;) | get result from table
+../3-Phrases/weka:void putResultInTable(QString;QResultProducer;[QObject;[QObject;) | put result in table
+../3-Phrases/weka:String getResultsTableName(QResultProducer;) | get results table name
+../3-Phrases/weka:String createResultsTable(QResultProducer;QString;) | create results table
+../3-Phrases/weka:CONS ResultMatrixGnuPlot() | result matrix gnu plot
+../3-Phrases/weka:CONS ResultMatrixGnuPlot(II) | result matrix gnu plot
+../3-Phrases/weka:CONS ResultMatrixGnuPlot(QResultMatrix;) | result matrix gnu plot
+../3-Phrases/weka:void setTaskResult(QObject;) | set task result
+../3-Phrases/weka:Object getTaskResult() | get task result
+../3-Phrases/weka:CONS InstancesResultListener() | instances result listener
+../3-Phrases/weka:void acceptResult(QResultProducer;[QObject;[QObject;) | accept result
+../3-Phrases/weka:void Resultset(QInstance;) | resultset
+../3-Phrases/weka:void setResultMatrix(QResultMatrix;) | set result matrix
+../3-Phrases/weka:ResultMatrix getResultMatrix() | get result matrix
+../3-Phrases/weka:int getNumResultsets() | get num resultsets
+../3-Phrases/weka:String getResultsetName(I) | get resultset name
+../3-Phrases/weka:boolean displayResultset(I) | display resultset
+../3-Phrases/weka:String resultsetKey() | resultset key
+../3-Phrases/weka:int[][] multiResultsetWins(I[[I) | multi resultset wins
+../3-Phrases/weka:void initResultMatrix() | init result matrix
+../3-Phrases/weka:String multiResultsetSummary(I) | multi resultset summary
+../3-Phrases/weka:String multiResultsetRanking(I) | multi resultset ranking
+../3-Phrases/weka:String multiResultsetFull(II) | multi resultset full
+../3-Phrases/weka:Range getResultsetKeyColumns() | get resultset key columns
+../3-Phrases/weka:void setResultsetKeyColumns(QRange;) | set resultset key columns
+../3-Phrases/weka:int[] getDisplayedResultsets() | get displayed resultsets
+../3-Phrases/weka:void setDisplayedResultsets([I) | set displayed resultsets
+../3-Phrases/weka:void acceptResult(QResultProducer;[QObject;[QObject;) | accept result
+../3-Phrases/weka:boolean isResultRequired(QResultProducer;[QObject;) | is result required
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResult(QInstances;QInstances;) | get result
+../3-Phrases/weka:CONS ResultMatrix() | result matrix
+../3-Phrases/weka:CONS ResultMatrix(II) | result matrix
+../3-Phrases/weka:CONS ResultMatrix(QResultMatrix;) | result matrix
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResult(QInstances;QInstances;) | get result
+../3-Phrases/weka:String getRawResultOutput() | get raw result output
+../3-Phrases/weka:void determineAdditionalResultMeasures() | determine additional result measures
+../3-Phrases/weka:ResultListener getResultListener() | get result listener
+../3-Phrases/weka:void setResultListener(QResultListener;) | set result listener
+../3-Phrases/weka:ResultProducer getResultProducer() | get result producer
+../3-Phrases/weka:void setResultProducer(QResultProducer;) | set result producer
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResult(QInstances;QInstances;) | get result
+../3-Phrases/weka:String getRawResultOutput() | get raw result output
+../3-Phrases/weka:void setResultListener(QResultListener;) | set result listener
+../3-Phrases/weka:void setResultProducer(QResultProducer;) | set result producer
+../3-Phrases/weka:CONS ResultMatrixSignificance() | result matrix significance
+../3-Phrases/weka:CONS ResultMatrixSignificance(II) | result matrix significance
+../3-Phrases/weka:CONS ResultMatrixSignificance(QResultMatrix;) | result matrix significance
+../3-Phrases/weka:void acceptResult(QResultProducer;[QObject;[QObject;) | accept result
+../3-Phrases/weka:boolean isResultRequired(QResultProducer;[QObject;) | is result required
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:void setResultListener(QResultListener;) | set result listener
+../3-Phrases/weka:String resultProducerTipText() | result producer tip text
+../3-Phrases/weka:ResultProducer getResultProducer() | get result producer
+../3-Phrases/weka:void setResultProducer(QResultProducer;) | set result producer
+../3-Phrases/weka:CONS DatabaseResultProducer() | database result producer
+../3-Phrases/weka:void acceptResult(QResultProducer;[QObject;[QObject;) | accept result
+../3-Phrases/weka:boolean isResultRequired(QResultProducer;[QObject;) | is result required
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:void setResultListener(QResultListener;) | set result listener
+../3-Phrases/weka:String resultProducerTipText() | result producer tip text
+../3-Phrases/weka:ResultProducer getResultProducer() | get result producer
+../3-Phrases/weka:void setResultProducer(QResultProducer;) | set result producer
+../3-Phrases/weka:void doAverageResult([QObject;) | do average result
+../3-Phrases/weka:void acceptResult(QResultProducer;[QObject;[QObject;) | accept result
+../3-Phrases/weka:boolean isResultRequired(QResultProducer;[QObject;) | is result required
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:String expectedResultsPerAverageTipText() | expected results per average tip text
+../3-Phrases/weka:int getExpectedResultsPerAverage() | get expected results per average
+../3-Phrases/weka:void setExpectedResultsPerAverage(I) | set expected results per average
+../3-Phrases/weka:void setResultListener(QResultListener;) | set result listener
+../3-Phrases/weka:String resultProducerTipText() | result producer tip text
+../3-Phrases/weka:ResultProducer getResultProducer() | get result producer
+../3-Phrases/weka:void setResultProducer(QResultProducer;) | set result producer
+../3-Phrases/weka:CONS ResultMatrixLatex() | result matrix latex
+../3-Phrases/weka:CONS ResultMatrixLatex(II) | result matrix latex
+../3-Phrases/weka:CONS ResultMatrixLatex(QResultMatrix;) | result matrix latex
+../3-Phrases/weka:void setResultListener(QResultListener;) | set result listener
+../3-Phrases/weka:String[] getResultNames() | get result names
+../3-Phrases/weka:Object[] getResultTypes() | get result types
+../3-Phrases/weka:CONS ResultMatrixPlainText() | result matrix plain text
+../3-Phrases/weka:CONS ResultMatrixPlainText(II) | result matrix plain text
+../3-Phrases/weka:CONS ResultMatrixPlainText(QResultMatrix;) | result matrix plain text
+../3-Phrases/weka:CONS ResultHistoryPanel(QJTextComponent;) | result history panel
+../3-Phrases/weka:void addResult(QString;QStringBuffer;) | add result
+../3-Phrases/weka:void removeResult(QString;) | remove result
+../3-Phrases/weka:void clearResults() | clear results
+../3-Phrases/weka:void updateResult(QString;) | update result

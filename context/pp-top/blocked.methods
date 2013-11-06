@@ -1,0 +1,16 @@
+boolean blocked() | blocked
+boolean canIPBeBlocked(QString;[B) | can ip be blocked
+boolean getBlocked() | get blocked
+boolean isBlocked() | is blocked
+boolean isBlocked([BQInetAddress;) | is blocked
+boolean isBlocked([BQString;) | is blocked
+boolean isKeyBlocked([B) | is key blocked
+boolean isRemoteInQueueBlocked() | is remote in queue blocked
+boolean isURLBlocked(QString;) | is url blocked
+int getNbIpsBlocked() | get nb ips blocked
+long getDBKeysBlocked() | get db keys blocked
+void IPBlockedListChanged(QIpFilter;) | ip blocked list changed
+void modeBlocked() | mode blocked
+void setBlocked(Z) | set blocked
+void setPercentageBlocked() | set percentage blocked
+void updateIPBlocked() | update ip blocked

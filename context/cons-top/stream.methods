@@ -1,0 +1,106 @@
+CONS ADPCMEncodeStream(QInputStream;ZZ) | adpcm encode stream
+CONS AsciiStringInputStream(QString;) | ascii string input stream
+CONS ASN1InputStream([B) | asn 1 input stream
+CONS ASN1InputStream(QInputStream;) | asn 1 input stream
+CONS ASN1InputStream(QInputStream;I) | asn 1 input stream
+CONS ASN1OutputStream(QOutputStream;) | asn 1 output stream
+CONS ASN1StreamParser([B) | asn 1 stream parser
+CONS ASN1StreamParser(QInputStream;) | asn 1 stream parser
+CONS ASN1StreamParser(QInputStream;I) | asn 1 stream parser
+CONS BalancingStreamTokenizer(QReader;) | balancing stream tokenizer
+CONS BalancingStreamTokenizer(QReader;QCharacter;) | balancing stream tokenizer
+CONS BERInputStream(QInputStream;) | ber input stream
+CONS BEROutputStream(QOutputStream;) | ber output stream
+CONS BufferedStream(QOutputStream;) | buffered stream
+CONS BufferedStream(QOutputStream;I) | buffered stream
+CONS Byte4ByteDebugStreams([B) | byte 4 byte debug streams
+CONS Byte4ByteDebugStreams(QString;) | byte 4 byte debug streams
+CONS ByteCountedInputStream(QInputStream;) | byte counted input stream
+CONS ConstructedOctetStream(QASN1ObjectParser;) | constructed octet stream
+CONS DataStreamConnection(QSocket;I) | data stream connection
+CONS DataStreamConnection(QString;II) | data stream connection
+CONS DefaultHomeInputStream(QInputStream;) | default home input stream
+CONS DefaultHomeOutputStream(QOutputStream;) | default home output stream
+CONS DefaultHomeOutputStream(QOutputStream;IZ) | default home output stream
+CONS DefiniteLengthInputStream(QInputStream;I) | definite length input stream
+CONS DeleteFileOnCloseInputStream(QFile;) | delete file on close input stream
+CONS DERInputStream(QInputStream;) | der input stream
+CONS DEROutputStream(QOutputStream;) | der output stream
+CONS DocumentOutputStream(QDocument;) | document output stream
+CONS DocumentOutputStream(QDocument;QAttributeSet;) | document output stream
+CONS FtpURLStreamHandler() | ftp url stream handler
+CONS GP3InputStream(QInputStream;) | gp 3 input stream
+CONS GP4InputStream(QInputStream;) | gp 4 input stream
+CONS GPInputStream(QFile;) | gp input stream
+CONS GPInputStream(QFileInputStream;I) | gp input stream
+CONS GPInputStream(QInputStream;I) | gp input stream
+CONS GPInputStream(QString;) | gp input stream
+CONS HsqlByteArrayInputStream([B) | hsql byte array input stream
+CONS HsqlByteArrayInputStream([BII) | hsql byte array input stream
+CONS HsqlByteArrayOutputStream() | hsql byte array output stream
+CONS HsqlByteArrayOutputStream([B) | hsql byte array output stream
+CONS HsqlByteArrayOutputStream(I) | hsql byte array output stream
+CONS HttpDocumentOutputStream(QWebdavResource;) | http document output stream
+CONS IndefiniteLengthInputStream(QInputStream;) | indefinite length input stream
+CONS InputStreamRedirector() | input stream redirector
+CONS InputStreamTransferable([QDataFlavor;[B) | input stream transferable
+CONS InputStreamTransferable(QDataFlavor;[B) | input stream transferable
+CONS InstanceStreamToBatchMaker() | instance stream to batch maker
+CONS InStream([B) | in stream
+CONS InStream(QInputStream;) | in stream
+CONS JavaCharStream(Qjava.io.InputStream;) | java char stream
+CONS JavaCharStream(Qjava.io.InputStream;II) | java char stream
+CONS JavaCharStream(Qjava.io.InputStream;III) | java char stream
+CONS JavaCharStream(Qjava.io.Reader;) | java char stream
+CONS JavaCharStream(Qjava.io.Reader;II) | java char stream
+CONS JavaCharStream(Qjava.io.Reader;III) | java char stream
+CONS JIOStream() | jio stream
+CONS JoinInputStream([QInputStream;I) | join input stream
+CONS JoinInputStream(QInputStream;QInputStream;) | join input stream
+CONS JoinInputStream(QInputStream;QInputStream;I) | join input stream
+CONS LimitedInputStream(QInputStream;) | limited input stream
+CONS LogStream(QOutputStream;QString;) | log stream
+CONS LogStream(QPrintStream;) | log stream
+CONS MessageStreamDecoderAdapter(QMessageStreamDecoder;) | message stream decoder adapter
+CONS MessageStreamEncoderAdapter(QMessageStreamEncoder;) | message stream encoder adapter
+CONS ObjectStreamConnection(QSocket;I) | object stream connection
+CONS ObjectStreamConnection(QString;II) | object stream connection
+CONS OutStream(QOutputStream;) | out stream
+CONS ReaderInputStream(QReader;) | reader input stream
+CONS ReplayableInputStream(QInputStream;) | replayable input stream
+CONS ScriptableInputStream(QInputStream;QScriptable;) | scriptable input stream
+CONS ScriptableOutputStream(QOutputStream;QScriptable;) | scriptable output stream
+CONS SmbFileInputStream(QSmbFile;) | smb file input stream
+CONS SmbFileInputStream(QSmbFile;I) | smb file input stream
+CONS SmbFileInputStream(QString;) | smb file input stream
+CONS SmbFileOutputStream(QSmbFile;) | smb file output stream
+CONS SmbFileOutputStream(QSmbFile;Z) | smb file output stream
+CONS SmbFileOutputStream(QSmbFile;ZI) | smb file output stream
+CONS SmbFileOutputStream(QString;) | smb file output stream
+CONS SmbFileOutputStream(QString;I) | smb file output stream
+CONS SmbFileOutputStream(QString;Z) | smb file output stream
+CONS SocketInputStream(QInputStream;) | socket input stream
+CONS SocketOutputStream(QOutputStream;) | socket output stream
+CONS SoundStreamHead(IZZII) | sound stream head
+CONS SoundStreamHead(IZZIIZZI) | sound stream head
+CONS StatsWriterStreamerImpl(QAzureusCore;) | stats writer streamer impl
+CONS StreamBlockCipher(QBlockCipher;) | stream block cipher
+CONS StreamPrinter(QInputStream;QPrintStream;) | stream printer
+CONS StreamRedirectException(QString;) | stream redirect exception
+CONS StreamRedirectException(QString;QThrowable;) | stream redirect exception
+CONS StreamRedirectThread(QString;QInputStream;QOutputStream;) | stream redirect thread
+CONS StreamRedirectThread(QString;QInputStream;QOutputStream;QThreadGroup;) | stream redirect thread
+CONS StreamRedirectThread(QString;QInputStream;QOutputStream;QThreadGroup;Z) | stream redirect thread
+CONS StreamRedirectThread(QString;QInputStream;QOutputStream;Z) | stream redirect thread
+CONS StreamRedirectThread(QString;QInputStream;QOutputStream;ZQThreadGroup;) | stream redirect thread
+CONS StreamRedirectThread(QString;QInputStream;QOutputStream;ZQThreadGroup;Z) | stream redirect thread
+CONS StreamRedirectThread(QString;QInputStream;QOutputStream;ZZ) | stream redirect thread
+CONS StringInputStream(QString;) | string input stream
+CONS TokenStream(QParser;QReader;QString;I) | token stream
+CONS TransactNamedPipeInputStream(QSmbNamedPipe;) | transact named pipe input stream
+CONS TransactNamedPipeOutputStream(QSmbNamedPipe;) | transact named pipe output stream
+CONS TransportHelperFilterStreamCipher(QTransportHelper;QTransportCipher;QTransportCipher;) | transport helper filter stream cipher
+CONS TransportHelperFilterStream(QTransportHelper;) | transport helper filter stream
+CONS TransportHelperFilterStreamXOR(QTransportHelper;[B) | transport helper filter stream xor
+CONS XMLStreamParser() | xml stream parser
+CONS XMLStreamParser(QInputStream;) | xml stream parser

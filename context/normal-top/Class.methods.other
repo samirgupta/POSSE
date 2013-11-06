@@ -1,0 +1,9 @@
+FunctionN constructor(Class p_class, Class p_types) | constructor
+List queryForList(String sql, Map paramMap, Class elementType) | query for list
+Object getObject(String column, Class classToConvertTo) | get object
+ResultObjectFactory newResultObjectFactory(QueryExpression stmt, boolean ignoreCache, Class resultClass, boolean useFetchPlan) | new result object factory
+void addColumn(String name, Class type, Object defaultValue) | add column
+void addJavaScriptAtPositionPlain(FacesContext context, ResourcePosition position, Class myfacesCustomComponent, String resourceName) | add java script at position plain
+void cacheResolvedMethod(Class clas, Class types, Method method) | cache resolved method
+void putMappingWithAlphanumericSingleId(MappingWithAlphanumericSingleId mapping, Class myClass, String recordId) | put mapping with alphanumeric single id
+void visitParamType(Class c, int nparam, Class paramType) | visit param type

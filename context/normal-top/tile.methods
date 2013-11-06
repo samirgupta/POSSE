@@ -1,0 +1,140 @@
+boolean displayTileCursor(QTile;II) | display tile cursor
+boolean hasTileWriters() | has tile writers
+boolean isColonyCenterTile() | is colony center tile
+boolean isSingleTile(II) | is single tile
+boolean knownEnemyOnLastTile(QPathNode;) | known enemy on last tile
+boolean removeTileImprovementPlan(QTileImprovementPlan;) | remove tile improvement plan
+ColonyTile getColonyTile() | get colony tile
+ColonyTile getColonyTile(II) | get colony tile
+ColonyTile getColonyTile(QTile;) | get colony tile
+ColonyTile getVacantColonyTileFor(QUnit;QGoodsType;) | get vacant colony tile for
+ColonyTile getWorkTile() | get work tile
+GUI getColonyTileGUI() | get colony tile gui
+int getDefaultTileSize() | get default tile size
+int getDisplayTileText() | get display tile text
+int getMaxTileX() | get max tile x
+int getMaxTileY() | get max tile y
+int getMinTileX() | get min tile x
+int getMinTileY() | get min tile y
+int getNumberOfMountainTiles() | get number of mountain tiles
+int getNumXTiles() | get num x tiles
+int getNumYTiles() | get num y tiles
+int getPercentageOfBonusTiles() | get percentage of bonus tiles
+int getTileGridXOffset() | get tile grid x offset
+int getTileGridYOffset() | get tile grid y offset
+int getTileHeight() | get tile height
+int getTileMode(QString;) | get tile mode
+int getTileTypePotential(QTileType;QGoodsType;QTileItemContainer;QUnitType;I) | get tile type potential
+int getTileWidth() | get tile width
+int getVacantColonyTileProductionFor(QUnit;QGoodsType;) | get vacant colony tile production for
+int getXTile(I) | get x tile
+int getYTile(I) | get y tile
+int numberOfTileTypes() | number of tile types
+int tileXToX(I) | tile x to x
+int tileXToX(III) | tile x to x
+int tileYToY(I) | tile y to y
+int tileYToY(III) | tile y to y
+int XToTileX(I) | x to tile x
+int XToTileX(III) | x to tile x
+int YToTileY(I) | y to tile y
+int YToTileY(III) | y to tile y
+Iterable<QTile;> getAllTiles() | get all tiles
+Iterator<QTileImprovementPlan;> getTileImprovementPlanIterator() | get tile improvement plan iterator
+List<QColonyTile;> getColonyTiles() | get colony tiles
+List<QTile;> getSurroundingTiles(QTile;I) | get surrounding tiles
+List<QTileImprovement;> getCompletedTileImprovements() | get completed tile improvements
+List<QTileImprovement;> getTileImprovements() | get tile improvements
+List<QTileImprovementType;> getTileImprovementTypeList() | get tile improvement type list
+List<QTileType;> getTileTypeList() | get tile type list
+PlayerExploredTile getPlayerExploredTile(QPlayer;) | get player explored tile
+Point getTilePosition(QTile;) | get tile position
+Point getUnitImagePositionInTile(IIII) | get unit image position in tile
+Point getUnitImagePositionInTile(QImage;II) | get unit image position in tile
+Point getUnitLabelPositionInTile(QJLabel;QPoint;) | get unit label position in tile
+Point getUnitLabelPositionInTile(QJLabel;QTile;) | get unit label position in tile
+Position getSelectedTile() | get selected tile
+Raster genTile(II) | gen tile
+Raster getTile(II) | get tile
+Raster getTileNoCompute(II) | get tile no compute
+Rectangle getTileBounds(II) | get tile bounds
+Rectangle getTileBounds(QTile;) | get tile bounds
+String getMapTileset() | get map tileset
+Tile createTile(QGame;II[[ZI) | create tile
+Tile getClosestTile(QMap;QPosition;QList<QTile;>;) | get closest tile
+Tile getTile() | get tile
+Tile getTile(II) | get tile
+Tile getTile(QPosition;) | get tile
+Tile getWorkTile() | get work tile
+TileImprovement findTileImprovementType(QTileImprovementType;) | find tile improvement type
+TileImprovementPlan createTileImprovementPlan() | create tile improvement plan
+TileImprovementPlan updateTileImprovementPlan(QTileImprovementPlan;) | update tile improvement plan
+TileImprovementType findBestTileImprovementType(QTile;QGoodsType;) | find best tile improvement type
+TileImprovementType getTileImprovementType(QString;) | get tile improvement type
+TileItem addTileItem(QTileItem;) | add tile item
+TileItemContainer getTileItemContainer() | get tile item container
+TileItem removeTileItem(QTileItem;) | remove tile item
+TilePanel getTilePanel() | get tile panel
+TilesetManager getTilesetManager() | get tileset manager
+TileStore createTileStore() | create tile store
+TileStore getTileGrid(IIIIQTileGenerator;) | get tile grid
+TileStore getTileGrid(QRenderedImage;QTileGenerator;) | get tile grid
+TileStore getTileMap(QTileGenerator;) | get tile map
+TileStore getTileStore() | get tile store
+TileType getRandomLandTileType(I) | get random land tile type
+TileType getTileType(QString;) | get tile type
+void addColonyTileProduction() | add colony tile production
+void addTileObserver(TileObserver to) | add tile observer
+void addTile(QTile;) | add tile
+void ASingleTilePanel(QColonyTile;II) | a single tile panel
+void createPlayerExploredTile(QPlayer;) | create player explored tile
+void createTileImprovementPlans() | create tile improvement plans
+void displayBaseTile(QGraphics2D;QMap;QTile;IIZ) | display base tile
+void displayColonyTile(QGraphics2D;QMap;QTile;IIQColony;) | display colony tile
+void displayTileOverlays(QGraphics2D;QMap;QTile;IIZZ) | display tile overlays
+void displayTile(QGraphics2D;QMap;QTile;II) | display tile
+void displayTile(QGraphics2D;QMap;QTile;IIZ) | display tile
+void disposeAllTileItems() | dispose all tile items
+void exploreTiles(QPlayer;QArrayList<QTile;>;) | explore tiles
+void getTileItemInfo(QTileItemContainer;) | get tile item info
+void initializeAsCenterTile(QImageLibrary;) | initialize as center tile
+void invalidateCanSeeTiles() | invalidate can see tiles
+void moveTileCursor(QDirection;) | move tile cursor
+void moveToTile(QTile;) | move to tile
+void PlayerExploredTile(QPlayer;QTileItemContainer;) | player explored tile
+void PlayerExploredTile(QXMLStreamReader;) | player explored tile
+void produceGoodsCenterTile() | produce goods center tile
+void refreshTile(II) | refresh tile
+void refreshTile(QPosition;) | refresh tile
+void refreshTile(QTile;) | refresh tile
+void RefreshTilesSwingTask(QTile;QTile;) | refresh tiles swing task
+void removeTileImprovementPlan(QTileImprovementPlan;) | remove tile improvement plan
+void resetCanSeeTiles() | reset can see tiles
+void resetExploredTiles(QMap;) | reset explored tiles
+void sendUpdatedTilesToAll(QArrayList<QTile;>;) | send updated tiles to all
+void sendUpdatedTileToAll(QTile;QPlayer;) | send updated tile to all
+void setDisplayTileText(I) | set display tile text
+void setMapTileset(QString;) | set map tileset
+void setSelectedTile(QPosition;) | set selected tile
+void setSelectedTile(QPosition;Z) | set selected tile
+void setTile(IIQRaster;) | set tile
+void setTileImprovementPlan(QTileImprovementPlan;) | set tile improvement plan
+void setTileItemContainer(QTileItemContainer;) | set tile item container
+void setTile(QTile;) | set tile
+void setTile(QTile;II) | set tile
+void setTileStore(QTileStore;) | set tile store
+void showTilePanel(QTile;) | show tile panel
+void showTilePopup(QMap.Position;II) | show tile popup
+void tileAnodine() | tile anodine
+void tileFramesHorizontally() | tile frames horizontally
+void tileFramesVertically() | tile frames vertically
+void tileHorizontally() | tile horizontally
+void TileInfoPanel() | tile info panel
+void TileMapLRUMember(QTileMap;QPoint;QRaster;) | tile map lru member
+void TilePanel(QColonyPanel;) | tile panel
+void TileTypeTransform(QTileType;) | tile type transform
+void tileVertically() | tile vertically
+void updatePlayerExploredTile(QPlayer;) | update player explored tile
+void updatePlayerExploredTiles() | update player explored tiles
+void updateTileGridInfo() | update tile grid info
+void updateTileImprovementPlan() | update tile improvement plan
+WritableRaster makeTile(II) | make tile

@@ -1,0 +1,45 @@
+BibtexEntry applyRule(QBibtexEntry;QBibtexDatabase;) | apply rule
+boolean applyRule(QAbstractDJDocument;IQIndenter.IndentReason;) | apply rule
+boolean applyRule(QAbstractDJDocument;QIndenter.IndentReason;) | apply rule
+boolean testApplyRule(QAbstractDJDocument;IQIndenter.IndentReason;) | test apply rule
+boolean testApplyRule(QAbstractDJDocument;QIndenter.IndentReason;) | test apply rule
+CompositeRule getRule() | get rule
+double confidenceForRule(QAprioriItemSet;QAprioriItemSet;) | confidence for rule
+double convictionForRule(QAprioriItemSet;QAprioriItemSet;II) | conviction for rule
+double leverageForRule(QAprioriItemSet;QAprioriItemSet;II) | leverage for rule
+double liftForRule(QAprioriItemSet;QAprioriItemSet;I) | lift for rule
+Instances[] coveredByRule(QInstances;) | covered by rule
+int applyRule(QMap<QString;QString;>;QBibtexEntry;) | apply rule
+int applyRule(QString;QBibtexEntry;) | apply rule
+int getRule() | get rule
+int getWindingRule() | get winding rule
+int[] randomCARule(IIQRandom;) | random ca rule
+int[] randomRule(IIQRandom;) | random rule
+int resultRule(QInstance;) | result rule
+OneRRule newNominalRule(QAttribute;QInstances;[I) | new nominal rule
+OneRRule newNumericRule(QAttribute;QInstances;[I) | new numeric rule
+OneRRule newRule(QAttribute;QInstances;) | new rule
+PrismRule addRule(QPrismRule;QPrismRule;) | add rule
+SearchRule getSearchRule() | get search rule
+SearchRule getSearchRule(I) | get search rule
+SelectedTag getCombinationRule() | get combination rule
+SimpleTimeZone getLastRule() | get last rule
+String applyDefaultRule(QBibtexEntry;) | apply default rule
+String applyRule(QBibtexEntry;) | apply rule
+String getFreightCostRule() | get freight cost rule
+void addRule(QLabelRule;QBibtexEntryType;) | add rule
+void addRule(QSearchRule;) | add rule
+void addStandaloneRule() | add standalone rule
+void buildRule(QInstances;) | build rule
+void buildRule(QInstances;QInstances;) | build rule
+void fireDeletionRule(RefAssociation refAssoc, JmiDeletionRule rule, RefObject droppedEnd, RefObject otherEnd) | fire deletion rule
+void makeRule() | make rule
+void noASTSubRule() | no ast sub rule
+void OneRRule(QInstances;QAttribute;) | one r rule
+void OneRRule(QInstances;QAttribute;I) | one r rule
+void PrismRule(QInstances;I) | prism rule
+void RipperRule() | ripper rule
+void setCombinationRule(QSelectedTag;) | set combination rule
+void setDefaultRule(QLabelRule;) | set default rule
+void setTreatmentRule(Integer newValue) | set treatment rule
+void setWindingRule(I) | set winding rule

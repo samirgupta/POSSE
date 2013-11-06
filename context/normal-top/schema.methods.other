@@ -1,0 +1,40 @@
+boolean isSchemaDefintion() | is schema defintion
+HsqlName getDefaultSchemaHsqlName() | get default schema hsql name
+HsqlName getSchemaHsqlNameForWrite(QString;) | get schema hsql name for write
+HsqlName getSchemaHsqlName(QString;) | get schema hsql name
+HsqlName toSchemaHsqlName(QString;) | to schema hsql name
+Instances getMiningSchemaAsInstances() | get mining schema as instances
+Instances getMiningSchemaAsInstances(QElement;QInstances;) | get mining schema as instances
+int getMaxSchemaNameLength() | get max schema name length
+Iterator fullSchemaNamesIterator() | full schema names iterator
+Iterator userSchemaNameIterator() | user schema name iterator
+SchemaExport getSchemaExport(QConfiguration;) | get schema export
+SchemaUpdate getSchemaUpdate(QConfiguration;) | get schema update
+SchemaValidator getSchemaValidator(QConfiguration;) | get schema validator
+String[] generateDropSchemaScript(QDialect;) | generate drop schema script
+String[] generateSchemaCreationScript(QDialect;) | generate schema creation script
+String[] generateSchemaUpdateScript(QDialect;QDatabaseMetadata;) | generate schema update script
+String getDefaultSchemaName() | get default schema name
+String getSchemaCreateDDL(QDatabase;QHsqlName;) | get schema create ddl
+String getSchemaName() | get schema name
+String getSchemaNameForWrite(QString;) | get schema name for write
+String getSchemaName(I) | get schema name
+String getSchemaName(QObject;) | get schema name
+String getSchemaName(QString;) | get schema name
+String getSchemaTerm() | get schema term
+String getTableSchemaName() | get table schema name
+void addSchemaRef(SimpleLink schemaRef) | add schema ref
+void addSchemaStatements(QDatabase;QResult;Z) | add schema statements
+void endSchemaDefinition() | end schema definition
+void processAlterSchemaRename() | process alter schema rename
+void removeSchemaReference(QSchema;) | remove schema reference
+void setDefaultSchemaName(QString;) | set default schema name
+void setMiningSchemaInstances(QInstances;) | set mining schema instances
+void setSchemaName(QString;) | set schema name
+void startSchemaDefinition(QString;) | start schema definition
+void testCopySchemaFilesToFolder1() | test copy schema files to folder 1
+void testNonWsISchemaImportExceptionMessage() | test non ws i schema import exception message
+void testXMPSchemaBibtexElement() | test xmp schema bibtex element
+void testXMPSchemaBibtexXMPMetadata() | test xmp schema bibtex xmp metadata
+void updateSchemaList() | update schema list
+void writeSchemaStatement(QHsqlName;) | write schema statement

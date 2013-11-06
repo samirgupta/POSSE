@@ -1,0 +1,15 @@
+boolean _javadocMainHasExecuteMethod(QClass;) | javadoc main has execute method
+int performExecuteUpdate(QQueryParameters;QSessionImplementor;) | perform execute update
+int shellExecuteAndWait(QString;QString;) | shell execute and wait
+Result newExecuteDirectRequest(QString;) | new execute direct request
+Result sqlExecuteBatchDirect(QResult;) | sql execute batch direct
+Result sqlExecuteBatch(QResult;) | sql execute batch
+Result sqlExecuteCompiledNoPreChecks(QCompiledStatement;[QObject;) | sql execute compiled no pre checks
+Result sqlExecuteDirectNoPreChecks(QString;) | sql execute direct no pre checks
+void addQueryExecuteListener(QQueryExecuteListener;) | add query execute listener
+void doExecuteBatch(QPreparedStatement;) | do execute batch
+void initExecuteExternalProcessDialog() | init execute external process dialog
+void notifyQueryExecuteListeners(QResultSet;QException;) | notify query execute listeners
+void removeQueryExecuteListener(QQueryExecuteListener;) | remove query execute listener
+void resetExecuteExternalProcessPosition() | reset execute external process position
+void testVMExecuteSimple() | test vm execute simple

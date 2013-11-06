@@ -1,0 +1,7 @@
+CONS ClassAndInterfaceFinder(QFile;) | class and interface finder
+CONS ClassAndInterfaceFinder(QReader;) | class and interface finder
+CONS InterfaceAdapter(QContextFactory;QClass;) | interface adapter
+CONS IPCInterfaceImpl(QPluginInitializer;QPlugin;) | ipc interface impl
+CONS PluginInterfaceImpl(QPlugin;QPluginInitializer;QObject;QClassLoader;QString;QProperties;QString;QString;QString;) | plugin interface impl
+CONS RPPluginInterface(QPluginInterface;) | rp plugin interface
+CONS UPnPSSWANCommonInterfaceConfigImpl(QUPnPServiceImpl;) | upn psswan common interface config impl

@@ -1,0 +1,9 @@
+CONS IsEdgeFunction() | is edge function
+CONS IsNodeFunction() | is node function
+CONS IssuerAndSerialNumber(QASN1Sequence;) | issuer and serial number
+CONS IssuerAndSerialNumber(QX509Name;QBigInteger;) | issuer and serial number
+CONS IssuerAndSerialNumber(QX509Name;QDERInteger;) | issuer and serial number
+CONS IssuerSerial(QASN1Sequence;) | issuer serial
+CONS IssuerSerial(QGeneralNames;QDERInteger;) | issuer serial
+CONS IssuingDistributionPoint(QASN1Sequence;) | issuing distribution point
+CONS IssuingDistributionPoint(QDistributionPointName;ZZQReasonFlags;ZZ) | issuing distribution point

@@ -1,0 +1,38 @@
+CompiledStatement sqlCompileStatement(QString;) | sql compile statement
+Criterion sqlRestriction(QString;) | sql restriction
+Criterion sqlRestriction(QString;[QObject;[QType;) | sql restriction
+Criterion sqlRestriction(QString;QObject;QType;) | sql restriction
+Exp SQLPrimaryExpression() | sql primary expression
+int SqlToIndex() | sql to index
+int sqlType() | sql type
+int[] sqlTypes() | sql types
+int sqlTypes(Mapping mapping) | sql types
+int[] sqlTypes(QMapping;) | sql types
+Iterator sqlAlterStrings(QDialect;QMapping;QTableMetadata;QString;QString;) | sql alter strings
+Iterator sqlCommentStrings(QDialect;QString;QString;) | sql comment strings
+Projection sqlGroupProjection(QString;QString;[QString;[QType;) | sql group projection
+Projection sqlProjection(QString;[QString;[QType;) | sql projection
+Result sqlExecuteBatchDirect(QResult;) | sql execute batch direct
+Result sqlExecuteBatch(QResult;) | sql execute batch
+Result sqlExecuteCompiledNoPreChecks(QCompiledStatement;[QObject;) | sql execute compiled no pre checks
+Result sqlExecuteDirectNoPreChecks(QString;) | sql execute direct no pre checks
+Result sqlExecute(QCompiledStatement;[QObject;) | sql execute
+Result sqlExecute(QResult;) | sql execute
+SQLException sqlException(I) | sql exception
+SQLException sqlException(II[QObject;) | sql exception
+SQLException sqlException(IQString;) | sql exception
+SQLException sqlException(QHsqlException;) | sql exception
+SQLWarning sqlWarning(QHsqlException;) | sql warning
+String sqlConstraintString(QDialect;) | sql constraint string
+String sqlConstraintString(QDialect;QString;QString;QString;) | sql constraint string
+String sqlCreateString(QDialect;QMapping;QString;QString;) | sql create string
+String[] sqlCreateStrings(QDialect;) | sql create strings
+String sqlDropString(QDialect;QString;QString;) | sql drop string
+String[] sqlDropStrings(QDialect;) | sql drop strings
+String sqlTemporaryTableCreateString(QDialect;QMapping;) | sql temporary table create string
+String sqlTypeToString(I) | sql type to string
+void SqlFileList(QString;) | sql file list
+void sqlStmt(QString;ZZ) | sql stmt
+void SqlToolException(I) | sql tool exception
+void SqlToolException(IQString;) | sql tool exception
+void SqlToolException(QString;I) | sql tool exception

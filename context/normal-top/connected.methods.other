@@ -1,0 +1,9 @@
+boolean isConnectedToPeer(QPeerItem;) | is connected to peer
+boolean isConnectedToSession() | is connected to session
+Instances getConnectedFormat() | get connected format
+int getConnectedLeechers() | get connected leechers
+int getConnectedSeeds() | get connected seeds
+PeerItem[] getConnectedPeers() | get connected peers
+Query newConnectedForwardPageQuery(String sql, long pageSize) | new connected forward page query
+void addConnectedPeer(QPeerItem;) | add connected peer
+void dropConnectedPeer(QPeerItem;) | drop connected peer

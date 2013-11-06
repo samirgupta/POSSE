@@ -1,0 +1,24 @@
+CONS ExternalSeedHTTPDownloader(QURL;QString;) | external seed http downloader
+CONS HTTPAuthHelper(QHTTPAuthHelper;QURL;) | http auth helper
+CONS HTTPAuthHelper(QURL;) | http auth helper
+CONS HttpBrowser(QString;) | http browser
+CONS HTTPClientConnection(QString;IQString;QString;ZQString;QString;) | http client connection
+CONS HttpDocumentOutputStream(QWebdavResource;) | http document output stream
+CONS HttpDocument(QString;QString;QString;) | http document
+CONS HttpDownloader() | http downloader
+CONS HTTPMessage([B) | http message
+CONS HTTPMessageDecoder() | http message decoder
+CONS HTTPMessageDecoder(QString;) | http message decoder
+CONS HTTPMessage(QString;) | http message
+CONS HTTPNetworkConnectionFile(QHTTPNetworkManager;QNetworkConnection;QPEPeerTransport;) | http network connection file
+CONS HTTPNetworkConnection(QHTTPNetworkManager;QNetworkConnection;QPEPeerTransport;) | http network connection
+CONS HTTPNetworkConnectionWebSeed(QHTTPNetworkManager;QNetworkConnection;QPEPeerTransport;) | http network connection web seed
+CONS HTTPNetworkManager() | http network manager
+CONS HTTPProxyClient(QSocket;) | http proxy client
+CONS HttpSpider(QString;) | http spider
+CONS HttpTransfer(QString;QString;QVector;QConnectionHandler;) | http transfer
+CONS LocalResourceHTTPServer(QPluginInterface;QLoggerChannel;) | local resource http server
+CONS NetworkAdminHTTPProxyImpl() | network admin http proxy impl
+CONS NetworkAdminHTTPTester(QAzureusCore;QNetworkAdminProgressListener;) | network admin http tester
+CONS NtlmHttpServletRequest(QHttpServletRequest;QPrincipal;) | ntlm http servlet request
+CONS NtlmHttpURLConnection(QHttpURLConnection;) | ntlm http url connection

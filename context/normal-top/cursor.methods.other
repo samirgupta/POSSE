@@ -1,0 +1,22 @@
+boolean _isCursorAfterPrompt() | is cursor after prompt
+boolean isCursorScrollable() | is cursor scrollable
+boolean isCursorScrollSensitive() | is cursor scroll sensitive
+boolean isRefCursorCall(PreparedStatement statement) | is ref cursor call
+Cursor getCursorByAction(I) | get cursor by action
+int braceCursorOffset() | brace cursor offset
+int commentCursorOffset() | comment cursor offset
+int getCursorID() | get cursor id
+int getCursorPosition() | get cursor position
+int getMaxCursorNameLength() | get max cursor name length
+int getSupportedCursorScrollType() | get supported cursor scroll type
+Listener getHandCursorListener(QDisplay;) | get hand cursor listener
+String getCursorName() | get cursor name
+void setCursorFoward() | set cursor foward
+void setCursorID(I) | set cursor id
+void setCursorName(QString;) | set cursor name
+void setCursorPosition(I) | set cursor position
+void setCursorPosition(int c, int l) | set cursor position
+void startCursorBlinking() | start cursor blinking
+void testGotoFileUnderCursorAppendJava() | test goto file under cursor append java
+void testGotoFileUnderCursorShowDialog() | test goto file under cursor show dialog
+void waitCursorBegin() | wait cursor begin

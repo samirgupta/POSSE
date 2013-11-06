@@ -1,0 +1,24 @@
+ArrayList getRssFeeds() | get rss feeds
+int getFeedbackScore() | get feedback score
+String getPostiveFeedbackPercentage() | get postive feedback percentage
+String getToolTipFeedbackText(F) | get tool tip feedback text
+String getToolTipFeedbackText(FF) | get tool tip feedback text
+String getToolTipFeedbackText(QRoom;I) | get tool tip feedback text
+String getToolTipFeedbackText(QWall;) | get tool tip feedback text
+void deleteFeedback() | delete feedback
+void deleteToolTipFeedback() | delete tool tip feedback
+void paintDimensionLineAlignmentFeedback(QGraphics2D;QDimensionLine;QPoint2D;QPaint;QStroke;F) | paint dimension line alignment feedback
+void paintPointFeedback(QGraphics2D;QPoint2D;QPaint;FQPaint;QStroke;) | paint point feedback
+void paintRectangleFeedback(QGraphics2D;QColor;F) | paint rectangle feedback
+void paintRoomAlignmentFeedback(QGraphics2D;QRoom;QPoint2D;ZQPaint;QStroke;FQPaint;QStroke;) | paint room alignment feedback
+void paintWallAlignmentFeedback(QGraphics2D;QWall;QPoint2D;ZQPaint;QStroke;FQPaint;QStroke;) | paint wall alignment feedback
+void setAlignmentFeedback(QClass<+QSelectable;>;QSelectable;FFZ) | set alignment feedback
+void setAngleFeedback(FFFFFF) | set angle feedback
+void setDimensionLinesFeedback(QList<QDimensionLine;>;) | set dimension lines feedback
+void setDraggedItemsFeedback(QList<QSelectable;>;) | set dragged items feedback
+void setRectangleFeedback(FFFF) | set rectangle feedback
+void setRssFeeds(QArrayList;) | set rss feeds
+void setToolTipFeedback(QString;FF) | set tool tip feedback
+void showNewsFeedWatchesTree() | show news feed watches tree
+void showRoomAngleFeedback(QRoom;I) | show room angle feedback
+void showWallAngleFeedback(QWall;) | show wall angle feedback

@@ -1,0 +1,40 @@
+AuctionServer addServer(QAuctionServer;) | add server
+AuctionServer addServer(QString;QAuctionServer;) | add server
+AuctionServer getAuctionServer() | get auction server
+AuctionServer getDefaultServer() | get default server
+AuctionServer getServer() | get server
+boolean callSingleInstanceServer([QString;) | call single instance server
+boolean dedicatedServer() | dedicated server
+boolean isServer() | is server
+FreeColServer getFreeColServer() | get free col server
+HsqlSocketRequestHandler createHsqlServer(QString;ZZ) | create hsql server
+List getDataSetsForServer(String serverURL, String portString) | get data sets for server
+Server getServer() | get server
+String getServer() | get server
+TRTrackerServer getServer() | get server
+TRTrackerServer startServer(IIZ) | start server
+TRTrackerServerTCP getServer() | get server
+void addServer(QString;QString;IIIZQString;I) | add server
+void buildServer(String databaseList, String tableList) | build server
+void deRegisterServer(QServer;) | de register server
+void deRegisterServer(QServer;QDatabase;) | de register server
+void launchSingleInstanceServer() | launch single instance server
+void makeProxyServer(IQClass;) | make proxy server
+void playViaMediaServer(QDownload;) | play via media server
+void PublishMediaServer(I) | publish media server
+void registerServer(QServer;QDatabase;) | register server
+void removeFromMetaServer() | remove from meta server
+void removeServer(QString;I) | remove server
+void RevokeMediaServer(I) | revoke media server
+void sendViaRelayServer(QBuddyPluginBuddyMessage;) | send via relay server
+void setFreeColServer(QFreeColServer;) | set free col server
+void setMaxBidFromServer(QAuctionEntry;QCurrency;) | set max bid from server
+void setMbeanServer(MBeanServer server) | set mbean server
+void setMBeanServer(MBeanServer server) | set m bean server
+void setServer(QAuctionServer;) | set server
+void setServer(QString;) | set server
+void startDedicatedServer([QString;) | start dedicated server
+void updateMetaServer() | update meta server
+void updateMetaServer(Z) | update meta server
+void updateServer(QMetaItem;QString;QString;IIIZQString;I) | update server
+void updateServer(QString;QString;IIIZQString;I) | update server

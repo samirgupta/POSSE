@@ -1,0 +1,9 @@
+CONS FilePluginInstallerImpl(QPluginInstallerImpl;QFile;) | file plugin installer impl
+CONS InstallablePluginImpl(QPluginInstallerImpl;) | installable plugin impl
+CONS InstallPluginWizard(QAzureusCore;QDisplay;) | install plugin wizard
+CONS InstallPluginWizard(QAzureusCore;QDisplay;QString;QStandardPlugin;) | install plugin wizard
+CONS IPWInstallModePanel(QWizard;QIWizardPanel;) | ipw install mode panel
+CONS PluginInstallerAction(QJabRefFrame;) | plugin installer action
+CONS PluginInstallerImpl(QPluginManager;) | plugin installer impl
+CONS UnInstallPluginWizard(QAzureusCore;QDisplay;) | un install plugin wizard
+CONS UpdateInstallerImpl(QUpdateManager;) | update installer impl

@@ -1,0 +1,18 @@
+boolean getEnableSftpMultiThreading() | get enable sftp multi threading
+boolean isSetUnderlyingSymbolSfx() | is set underlying symbol sfx
+double SFEntropyGain() | sf entropy gain
+double SFMeanEntropyGain() | sf mean entropy gain
+double SFMeanPriorEntropy() | sf mean prior entropy
+double SFMeanSchemeEntropy() | sf mean scheme entropy
+double SFPriorEntropy() | sf prior entropy
+double sfResolve(Reference reference, double defaultValue, boolean mandatory) | sf resolve
+double SFSchemeEntropy() | sf scheme entropy
+MultipleSEGs createMultipleSEGs(Node sfref, String path, char predelim0, char predelim1, StringBuffer res, int fullResLen, Document syntax, Hashtable predefs, Hashtable valids) | create multiple segs
+SftpConnection getSftpConnection() | get sftp connection
+String getSFDownloadURL() | get sf download url
+String toSFTPDir(QString;) | to sftp dir
+String toSFTP(QString;) | to sftp
+void cleanSftpDir(QString;QSftpFile;) | clean sftp dir
+void printHTML(StandardGenericFormIcon sfi) | print html
+void setSFLog(LogSF log) | set sf log
+void sfDeploy() | sf deploy

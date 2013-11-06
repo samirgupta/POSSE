@@ -1,0 +1,11 @@
+CtClass lookupClassByJvmName(String jvmName) | lookup class by jvm name
+void junitJVMReady() | junit jvm ready
+void MasterJVMArgsListener(QJFrame;) | master jvm args listener
+void MasterJVMXMXListener(QJFrame;) | master jvm xmx listener
+void sanitizeMasterJVMArgs(QJFrame;QString;QOptionListener<QString;>;) | sanitize master jvm args
+void sanitizeMasterJVMXMX(QJFrame;QString;) | sanitize master jvm xmx
+void sanitizeSlaveJVMArgs(QJFrame;QString;QOptionListener<QString;>;) | sanitize slave jvm args
+void sanitizeSlaveJVMXMX(QJFrame;QString;) | sanitize slave jvm xmx
+void SlaveJVMArgsListener(QJFrame;) | slave jvm args listener
+void SlaveJVMXMXListener(QJFrame;) | slave jvm xmx listener
+void TestJVMExtension() | test jvm extension

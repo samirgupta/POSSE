@@ -1,0 +1,54 @@
+boolean overFrequencyThreshold(D) | over frequency threshold
+double getConfirmationThreshold() | get confirmation threshold
+double getFrequencyThreshold() | get frequency threshold
+double getLikelihoodThreshold() | get likelihood threshold
+double getManualThresholdValue() | get manual threshold value
+double getMaxThreshold() | get max threshold
+double getMinThreshold() | get min threshold
+double getNoiseThreshold() | get noise threshold
+double getSelectionThreshold() | get selection threshold
+double getSeparatingThreshold() | get separating threshold
+double getThreshold() | get threshold
+double getTrimingThreshold() | get triming threshold
+float getThreshold() | get threshold
+int getAnnounceCachePeerThreshold() | get announce cache peer threshold
+int getInstructionObserverThreshold() | get instruction observer threshold
+int getPercentThreshold() | get percent threshold
+int getThresholdInstance(QInstances;D) | get threshold instance
+int getValidationThreshold() | get validation threshold
+int getWeightThreshold() | get weight threshold
+MagickImage unsharpMaskImage(double raduis, double sigma, double amount, double threshold) | unsharp mask image
+String confirmationThresholdTipText() | confirmation threshold tip text
+String frequencyThresholdTipText() | frequency threshold tip text
+String likelihoodThresholdTipText() | likelihood threshold tip text
+String manualThresholdValueTipText() | manual threshold value tip text
+String maxThresholdTipText() | max threshold tip text
+String minThresholdTipText() | min threshold tip text
+String noiseThresholdTipText() | noise threshold tip text
+String percentThresholdTipText() | percent threshold tip text
+String selectionThresholdTipText() | selection threshold tip text
+String thresholdTipText() | threshold tip text
+String validationThresholdTipText() | validation threshold tip text
+String weightThresholdTipText() | weight threshold tip text
+void addThresholdDataListener(QThresholdDataListener;) | add threshold data listener
+void computeThresholds(QInstances;) | compute thresholds
+void determineNumToSelectFromThreshold([[D) | determine num to select from threshold
+void findThreshold(QFastVector;) | find threshold
+void notifyThresholdListeners(QThresholdDataEvent;) | notify threshold listeners
+void removeThresholdDataListener(QThresholdDataListener;) | remove threshold data listener
+void setConfirmationThreshold(D) | set confirmation threshold
+void setFrequencyThreshold(D) | set frequency threshold
+void setInstructionObserverThreshold(I) | set instruction observer threshold
+void setLikelihoodThreshold(D) | set likelihood threshold
+void setManualThresholdValue(D) | set manual threshold value
+void setMaxThreshold(D) | set max threshold
+void setMinThreshold(D) | set min threshold
+void setNoiseThreshold(D) | set noise threshold
+void setPercentThreshold(I) | set percent threshold
+void setSelectionThreshold(D) | set selection threshold
+void setSeparatingThreshold(D) | set separating threshold
+void setSurvivalThreshold(double survivalThreshold) | set survival threshold
+void setThreshold(D) | set threshold
+void setTrimingThreshold(D) | set triming threshold
+void setValidationThreshold(I) | set validation threshold
+void setWeightThreshold(I) | set weight threshold

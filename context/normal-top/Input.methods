@@ -1,0 +1,11 @@
+OutputStream _invoke(String opName, InputStream _is, ResponseHandler handler) | invoke
+String calcDigest(String alg, InputStream ins) | calc digest
+String sendDelta(String path, InputStream source, long sourceOffset, InputStream target, ISVNDeltaConsumer consumer, boolean computeChecksum) | send delta
+void InputBox(Z) | input box
+void InputStream(Qjava.io.InputStream;) | input stream
+void InputStream(Qjava.io.InputStream;I) | input stream
+void InputStream(Qjava.io.InputStream;Z) | input stream
+void InputStream(Qjava.io.InputStream;ZZ) | input stream
+void setProgOutput(String cmd, InputStreamReader isr) | set prog output
+void updateAsciiStream(String columnName, InputStream x, int length) | update ascii stream
+void updateBinaryStream(String columnName, InputStream x, int length) | update binary stream

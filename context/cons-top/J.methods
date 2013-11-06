@@ -1,0 +1,422 @@
+CONS JabberListener(QMindMapController;QMapSharingController;QString;IQString;QString;) | jabber listener
+CONS JabberSender(QJabberSession;QMapSharingController;) | jabber sender
+CONS JabRefFileChooser() | jab ref file chooser
+CONS JabRefFileChooser(QFile;) | jab ref file chooser
+CONS JabRefFrame() | jab ref frame
+CONS JabRefPreferences() | jab ref preferences
+CONS JabRef([QString;) | jab ref
+CONS JabRefUI(QJFileChooser;) | jab ref ui
+CONS JACCConfiguration(QString;) | jacc configuration
+CONS JAccountsTable() | j accounts table
+CONS JAccountsTableModel(QJAccountsTable;) | j accounts table model
+CONS JAIMPlugin() | jaim plugin
+CONS JajukBasicComboPopup(QJComboBox;) | jajuk basic combo popup
+CONS JajukButton() | jajuk button
+CONS JajukButton(QAction;) | jajuk button
+CONS JajukButton(QIcon;) | jajuk button
+CONS JajukButton(QString;) | jajuk button
+CONS JajukButton(QString;QIcon;) | jajuk button
+CONS JajukContainer(QIView;) | jajuk container
+CONS JajukException(QString;) | jajuk exception
+CONS JajukException(QString;QString;QThrowable;) | jajuk exception
+CONS JajukException(QString;QThrowable;) | jajuk exception
+CONS JajukFileChooser() | jajuk file chooser
+CONS JajukFileChooser(QJajukFileFilter;) | jajuk file chooser
+CONS JajukFileFilter([Qjava.io.FileFilter;) | jajuk file filter
+CONS JajukFileFilter(Z[Qjava.io.FileFilter;) | jajuk file filter
+CONS JajukJMenuBar() | jajuk j menu bar
+CONS JajukListener() | jajuk listener
+CONS JajukSystray() | jajuk systray
+CONS JajukTableModel() | jajuk table model
+CONS JajukTableModel(I) | jajuk table model
+CONS JajukTable(QTableModel;QString;) | jajuk table
+CONS JajukTable(QTableModel;QTableColumnModel;ZQString;) | jajuk table
+CONS JajukTable(QTableModel;ZQString;) | jajuk table
+CONS JajukTimer() | jajuk timer
+CONS JajukToggleButton() | jajuk toggle button
+CONS JajukToggleButton(QAction;) | jajuk toggle button
+CONS JajukToggleButton(QAction;Z) | jajuk toggle button
+CONS JajukToggleButton(QIcon;) | jajuk toggle button
+CONS JajukToggleButton(QIcon;Z) | jajuk toggle button
+CONS JajukToggleButton(QString;) | jajuk toggle button
+CONS JajukToggleButton(QString;QIcon;) | jajuk toggle button
+CONS JajukToggleButton(QString;QIcon;Z) | jajuk toggle button
+CONS JajukToggleButton(QString;Z) | jajuk toggle button
+CONS JajukToggleButton(Z) | jajuk toggle button
+CONS JajukWindow() | jajuk window
+CONS JarBuilder(QFile;) | jar builder
+CONS JarBuilder(QFile;QFile;) | jar builder
+CONS JarBuilder(QFile;QManifest;) | jar builder
+CONS JarJDKToolsLibrary(QFile;QFullVersion;QCompilerInterface;QDebugger;QJavadocModel;) | jar jdk tools library
+CONS JarOptionsDialog(QMainFrame;) | jar options dialog
+CONS JarResources(QString;) | jar resources
+CONS JavaBeanDataSourceConnection() | java bean data source connection
+CONS JavacCompiler(QJavaVersion.FullVersion;QString;QList<+QFile;>;) | javac compiler
+CONS JavaCharStream(Qjava.io.InputStream;) | java char stream
+CONS JavaCharStream(Qjava.io.InputStream;II) | java char stream
+CONS JavaCharStream(Qjava.io.InputStream;III) | java char stream
+CONS JavaCharStream(Qjava.io.Reader;) | java char stream
+CONS JavaCharStream(Qjava.io.Reader;II) | java char stream
+CONS JavaCharStream(Qjava.io.Reader;III) | java char stream
+CONS JavadocDialog(QJFrame;) | javadoc dialog
+CONS JavadocErrorPanel(QSingleDisplayModel;QMainFrame;) | javadoc error panel
+CONS JavadocException(QString;) | javadoc exception
+CONS JavadocFrame(QFile;QString;Z) | javadoc frame
+CONS JavaHMO() | java hmo
+CONS JavaMembers(QScriptable;QClass;) | java members
+CONS JavaObject([B) | java object
+CONS JavaObject(QSerializable;) | java object
+CONS JavaPolicySecurity() | java policy security
+CONS JavaScriptException(QObject;) | java script exception
+CONS JavaScriptException(QObject;QString;I) | java script exception
+CONS JavaScriptTokenMarker() | java script token marker
+CONS JavassistClassTransformer(QClassFilter;Qorg.hibernate.bytecode.util.FieldFilter;) | javassist class transformer
+CONS JavassistHelper() | javassist helper
+CONS JavassistLazyInitializer(QString;QClass;[QClass;QSerializable;QMethod;QMethod;QAbstractComponentType;QSessionImplementor;) | javassist lazy initializer
+CONS JavaSystemProperty(QString;) | java system property
+CONS JavaTokenMarker() | java token marker
+CONS JavaxDOMInput(QDOMFactory;QInputStream;) | javax dom input
+CONS JavaxDOMInput(QDOMFactory;QReader;) | javax dom input
+CONS JavaxDOMOutput(QDOMFactory;) | javax dom output
+CONS JaxbTools() | jaxb tools
+CONS JBConfig() | jb config
+CONS JBEditorPane(QString;QString;) | jb editor pane
+CONS JBHelp() | jb help
+CONS JBidContext() | j bid context
+CONS JBidContext(QJPopupMenu;) | j bid context
+CONS JBidFrameMouse() | j bid frame mouse
+CONS JBidMenuBar(QActionListener;) | j bid menu bar
+CONS JBidMouse() | j bid mouse
+CONS JBidMouse(QJPopupMenu;) | j bid mouse
+CONS JBidProxy(QSocket;) | j bid proxy
+CONS JBidWatch(QJSplashScreen;) | j bid watch
+CONS JBTreeCellRenderer() | jb tree cell renderer
+CONS JBuddyDetails() | j buddy details
+CONS JBWDropHandler() | jbw drop handler
+CONS JCEECDHKeyAgreement(QBasicAgreement;) | jceecdh key agreement
+CONS JCEECPrivateKey() | jceec private key
+CONS JCEECPrivateKey(QECPrivateKey;) | jceec private key
+CONS JCEECPrivateKey(QPrivateKeyInfo;) | jceec private key
+CONS JCEECPrivateKey(QString;QECPrivateKeyParameters;QECParameterSpec;) | jceec private key
+CONS JCEECPrivateKey(QString;QECPrivateKeySpec;) | jceec private key
+CONS JCEECPublicKey(QString;QECPoint;QECParameterSpec;) | jceec public key
+CONS JCEECPublicKey(QString;QECPublicKey;) | jceec public key
+CONS JCEECPublicKey(QString;QECPublicKeyParameters;QECParameterSpec;) | jceec public key
+CONS JCEECPublicKey(QString;QECPublicKeySpec;) | jceec public key
+CONS JCEECPublicKey(QSubjectPublicKeyInfo;) | jceec public key
+CONS JCEIESCipher(QIESEngine;) | jceies cipher
+CONS JCERSAPublicKey(QRSAKeyParameters;) | jcersa public key
+CONS JCERSAPublicKey(QRSAPublicKey;) | jcersa public key
+CONS JCERSAPublicKey(QRSAPublicKeySpec;) | jcersa public key
+CONS JCERSAPublicKey(QSubjectPublicKeyInfo;) | jcersa public key
+CONS JClassPath() | j class path
+CONS JClientEngine() | j client engine
+CONS JColorButton() | j color button
+CONS JComponentWriter() | j component writer
+CONS JComponentWriter(QJComponent;) | j component writer
+CONS JComponentWriter(QJComponent;QFile;) | j component writer
+CONS JComVcContactItem() | j com vc contact item
+CONS JComVcPlugin() | j com vc plugin
+CONS JComVcSession() | j com vc session
+CONS JComVcSocketEvents() | j com vc socket events
+CONS JComVcUDPEvents(QHashtable;) | j com vc udp events
+CONS JConfigAdvancedTab() | j config advanced tab
+CONS JConfigBrowserTab() | j config browser tab
+CONS JConfigFilePathTab() | j config file path tab
+CONS JConfigFirewallTab() | j config firewall tab
+CONS JConfigFrame() | j config frame
+CONS JConfigGeneralTab() | j config general tab
+CONS JConfigSnipeTab() | j config snipe tab
+CONS JConfigStubTab() | j config stub tab
+CONS JConfiguration() | j configuration
+CONS JConfigWebserverTab() | j config webserver tab
+CONS JConnection(QString;I) | j connection
+CONS JConnection(QString;II) | j connection
+CONS JConsoleWindow() | j console window
+CONS JContactList() | j contact list
+CONS JContactListEvents() | j contact list events
+CONS JContactListItem() | j contact list item
+CONS JContactListItem(IQjava.lang.String;Qjava.lang.String;) | j contact list item
+CONS JContactListManager() | j contact list manager
+CONS JContactListModel() | j contact list model
+CONS JContext() | j context
+CONS JContext(QJPopupMenu;) | j context
+CONS JCustomTooltip(QJComponent;QJComponent;) | j custom tooltip
+CONS JCustomTooltip(QJComponent;QJComponent;Z) | j custom tooltip
+CONS JDatabase(Qjava.lang.String;) | j database
+CONS JDataField(QString;QString;) | j data field
+CONS JDataStoreDialect() | j data store dialect
+CONS JDBCBench(QString;QString;QString;Z) | jdbc bench
+CONS JDBCConnection() | jdbc connection
+CONS JDBCConnectionException(QString;QSQLException;) | jdbc connection exception
+CONS JDBCConnectionException(QString;QSQLException;QString;) | jdbc connection exception
+CONS JDBCContext() | jdbc context
+CONS JDBCContext(QContext;QConnection;QInterceptor;) | jdbc context
+CONS JDBCExceptionHelper() | jdbc exception helper
+CONS JDBCException(QString;QSQLException;) | jdbc exception
+CONS JDBCException(QString;QSQLException;QString;) | jdbc exception
+CONS JDBCExceptionReporter() | jdbc exception reporter
+CONS JDBCTransaction(QJDBCContext;QTransactionFactory.Context;) | jdbc transaction
+CONS JDBCTypes() | jdbc types
+CONS JDKDigestSignature(QString;QDERObjectIdentifier;QDigest;QAsymmetricBlockCipher;) | jdk digest signature
+CONS JDKDSASigner(QString;QDigest;QDSA;) | jdkdsa signer
+CONS JDKKeyPairGenerator(QString;) | jdk key pair generator
+CONS JDKMessageDigest(QDigest;) | jdk message digest
+CONS JDKToolsLibrary(QFullVersion;QCompilerInterface;QDebugger;QJavadocModel;) | jdk tools library
+CONS JDragTable() | j drag table
+CONS JDropListener(QJDropHandler;) | j drop listener
+CONS JEditTextArea() | j edit text area
+CONS JEditTextArea(QTextAreaDefaults;) | j edit text area
+CONS JFastLabel() | j fast label
+CONS JFastLabel(QString;) | j fast label
+CONS JFilenameFilter() | j filename filter
+CONS JFilterField() | j filter field
+CONS JFilterField(I) | j filter field
+CONS JFilterField(QString;) | j filter field
+CONS JFilterField(QString;I) | j filter field
+CONS JForcePanel(QForceSimulator;) | j force panel
+CONS JFtp() | j ftp
+CONS JFtpApplet() | j ftp applet
+CONS JFtp(Z) | j ftp
+CONS JGradientChooser(QString;) | j gradient chooser
+CONS JHostChooser() | j host chooser
+CONS JHTMLDialog(QString;QString;QString;QString;QString;QString;IQString;) | jhtml dialog
+CONS JHTMLDialog(QString;QString;QString;QString;QString;QString;QString;QString;IQString;) | jhtml dialog
+CONS JHTMLOutput(QString;QString;) | jhtml output
+CONS JHTMLOutput(QString;QStringBuffer;) | jhtml output
+CONS JHTMLParser(QJHTMLListener;) | jhtml parser
+CONS JHTMLParser(QStringBuffer;QJHTMLListener;) | jhtml parser
+CONS JHTML(QStringBuffer;) | jhtml
+CONS JHTML(QString;QString;QCleanupHandler;) | jhtml
+CONS JICQPlugin() | jicq plugin
+CONS JImage() | j image
+CONS JInetAddress() | j inet address
+CONS JInvoiceParser(QAuctionInfo;) | j invoice parser
+CONS JInvoiceParser(QList;) | j invoice parser
+CONS JIOStream() | jio stream
+CONS JJarClassLoader() | j jar class loader
+CONS JJarClassLoader(Qjava.lang.ClassLoader;) | j jar class loader
+CONS JJarClassLoader(QString;Z) | j jar class loader
+CONS JLanguageManager() | j language manager
+CONS JListNavigator() | j list navigator
+CONS JListView() | j list view
+CONS JLookAndFeelInfo() | j look and feel info
+CONS JLookAndFeelManager() | j look and feel manager
+CONS JMDIDesktopPane() | jmdi desktop pane
+CONS JMDIFrame() | jmdi frame
+CONS JMDIMenuBar() | jmdi menu bar
+CONS JMessagePane(Qjavax.swing.JFrame;) | j message pane
+CONS JMOSAddInviteDlg(Qjava.awt.Frame;Z) | jmos add invite dlg
+CONS JMOSAddRegUserDlg(QJPlugin;Qjava.awt.Frame;Qjava.lang.String;ZI) | jmos add reg user dlg
+CONS JMOSContactDetails(QJContactListItem;) | jmos contact details
+CONS JMOSPluginPropertiesDlg(Qjava.awt.Frame;IZ) | jmos plugin properties dlg
+CONS JMOSPopupWindow(QString;QString;) | jmos popup window
+CONS JMOSPrivacyDlg(Qjavax.swing.JDialog;QJPlugin;) | jmos privacy dlg
+CONS JMOSProfileManagerDlg(Qjava.awt.Frame;Z) | jmos profile manager dlg
+CONS JMOSProxySettingsDlg(Qjava.awt.Frame;Z) | jmos proxy settings dlg
+CONS JMOSSelectProtocolDlg(Qjava.awt.Frame;ZJI) | jmos select protocol dlg
+CONS JMOSSelectRegistrationDlg(Qorg.planetamessenger.plugin.JPlugin;Qjava.awt.Frame;Z) | jmos select registration dlg
+CONS JMOSSendMessageDlg() | jmos send message dlg
+CONS JMOSUnregisterUserDlg(QJPlugin;Qjava.awt.Frame;Z) | jmos unregister user dlg
+CONS JMOSWindow() | jmos window
+CONS JMouseAdapter() | j mouse adapter
+CONS JMouseAdapter(QJPopupMenu;) | j mouse adapter
+CONS JMSNPlugin() | jmsn plugin
+CONS JNumberComboBox() | j number combo box
+CONS JNumberField() | j number field
+CONS JoinedIterator([QIterator;) | joined iterator
+CONS JoinedIterator(QIterator;QIterator;) | joined iterator
+CONS JoinedIterator(QList;) | joined iterator
+CONS JoinedSubclassEntityPersister(QPersistentClass;QEntityRegionAccessStrategy;QSessionFactoryImplementor;QMapping;) | joined subclass entity persister
+CONS JoinedSubclass(QPersistentClass;) | joined subclass
+CONS JoinHelper() | join helper
+CONS JoinInputStream([QInputStream;I) | join input stream
+CONS JoinInputStream(QInputStream;QInputStream;) | join input stream
+CONS JoinInputStream(QInputStream;QInputStream;I) | join input stream
+CONS JoinNodesAction(QModeController;) | join nodes action
+CONS JoinProcessor(QASTFactory;QQueryTranslatorImpl;) | join processor
+CONS JoinSequence(QSessionFactoryImplementor;) | join sequence
+CONS JoinWalker(QSessionFactoryImplementor;QMap;) | join walker
+CONS JOscarLibPlugin() | j oscar lib plugin
+CONS JournalAbbreviations() | journal abbreviations
+CONS JournalAbbreviations(QFile;) | journal abbreviations
+CONS JournalAbbreviations(QString;) | journal abbreviations
+CONS JPaintCombo([QPaint;) | j paint combo
+CONS JPaintList([QPaint;) | j paint list
+CONS JPanelXBox() | j panel x box
+CONS JPanelXBoxLeftJustify() | j panel x box left justify
+CONS JPanelXBoxLeftJustify(QComponent;) | j panel x box left justify
+CONS JPanelXBoxPreferredHeight() | j panel x box preferred height
+CONS JPanelXBoxPreferredHeight(QComponent;) | j panel x box preferred height
+CONS JPanelXBoxPreferredSize() | j panel x box preferred size
+CONS JPanelXBoxPreferredSize(QComponent;) | j panel x box preferred size
+CONS JPanelXBox(QComponent;) | j panel x box
+CONS JPanelYBox() | j panel y box
+CONS JPanelYBoxPreferredSize() | j panel y box preferred size
+CONS JPanelYBoxPreferredSize(QComponent;) | j panel y box preferred size
+CONS JPasteListener() | j paste listener
+CONS JPDABreakpoint(QOpenDefinitionsDocument;IIZQJPDADebugger;) | jpda breakpoint
+CONS JPDADebugger(QGlobalModel;) | jpda debugger
+CONS JPDAStackData(QStackFrame;) | jpda stack data
+CONS JPDAThreadData(QThreadReference;) | jpda thread data
+CONS JpegImageWriteParam() | jpeg image write param
+CONS JPEGWriter() | jpeg writer
+CONS JPEGWriter(QJComponent;) | jpeg writer
+CONS JPEGWriter(QJComponent;QFile;) | jpeg writer
+CONS JpgImageProxy(QString;QString;) | jpg image proxy
+CONS JpgImageProxy(QString;QString;QString;) | jpg image proxy
+CONS JPlanetaMessengerStatus(I) | j planeta messenger status
+CONS JPlanetaMessengerStatus(IQjava.lang.Object;) | j planeta messenger status
+CONS JPlugin() | j plugin
+CONS JPluginEngine() | j plugin engine
+CONS JPluginProperties() | j plugin properties
+CONS JPopupButton() | j popup button
+CONS JPopupWindow() | j popup window
+CONS JPrefuseTable(QTable;) | j prefuse table
+CONS JPrefuseTree(QTree;QString;) | j prefuse tree
+CONS JPressButton() | j press button
+CONS JPressButton(J) | j press button
+CONS JPressButton(QAction;) | j press button
+CONS JPressButton(QAction;J) | j press button
+CONS JPressButton(QIcon;) | j press button
+CONS JPressButton(QIcon;J) | j press button
+CONS JPressButton(QString;) | j press button
+CONS JPressButton(QString;J) | j press button
+CONS JPressButton(QString;QIcon;) | j press button
+CONS JPressButton(QString;QIcon;J) | j press button
+CONS JPrintable(QJTable;) | j printable
+CONS JProfileManager() | j profile manager
+CONS JProfileMutableTreeNode(Qjava.lang.Object;) | j profile mutable tree node
+CONS JProfileTreeItem() | j profile tree item
+CONS JProfileTreeItem(QString;IIQString;QJLookAndFeelInfo;I) | j profile tree item
+CONS JProfileTree(Qjava.lang.String;) | j profile tree
+CONS JProtocolTreeItem() | j protocol tree item
+CONS JProtocolTreeItem(Qjava.lang.String;Qjava.lang.String;I) | j protocol tree item
+CONS JProtocolTree(Qjava.lang.String;) | j protocol tree
+CONS JProxy() | j proxy
+CONS JProxySettings() | j proxy settings
+CONS JQueryDesigner() | j query designer
+CONS JRadioButtonMenuItemMDIFrame(QJMDIFrame;QString;) | j radio button menu item mdi frame
+CONS JRangeSlider(IIIII) | j range slider
+CONS JRangeSlider(IIIIII) | j range slider
+CONS JRangeSlider(QBoundedRangeModel;II) | j range slider
+CONS JRawConnection(QString;I) | j raw connection
+CONS JRawConnection(QString;IZ) | j raw connection
+CONS JRCSVDataSourceConnection() | jr csv data source connection
+CONS JRCSVDataSource(QString;) | jr csv data source
+CONS JRCustomDataSourceConnection() | jr custom data source connection
+CONS JRDataSourceProviderConnection() | jr data source provider connection
+CONS JReciever(QDataInputStream;) | j reciever
+CONS JReportFrame(QReport;) | j report frame
+CONS JReportPanel() | j report panel
+CONS JResources(QString;) | j resources
+CONS JResultSet(Qjava.sql.Statement;Qjava.sql.ResultSet;) | j result set
+CONS JRExtendedBeanDataSource([QObject;) | jr extended bean data source
+CONS JRExtendedBeanDataSource(QVector;) | jr extended bean data source
+CONS JRFieldDialog(Qjava.awt.Frame;Z) | jr field dialog
+CONS JRField(QString;QString;) | jr field
+CONS JRFontDialog(Qjava.awt.Frame;Z) | jr font dialog
+CONS JRGroupDialog(QJReportFrame;Z) | jr group dialog
+CONS JRIreportDefaultScriptlet() | jr ireport default scriptlet
+CONS JRParameterDialog(Qjava.awt.Frame;Z) | jr parameter dialog
+CONS JRParameter(QString;QString;) | jr parameter
+CONS JRParameter(QString;QString;Z) | jr parameter
+CONS JRParameter(QString;QString;ZQString;) | jr parameter
+CONS JRParameter(QString;QString;ZQString;Z) | jr parameter
+CONS JRProperty() | jr property
+CONS JRPropertyDialog(Qjava.awt.Frame;Z) | jr property dialog
+CONS JRSQLExpressionArea() | jr sql expression area
+CONS JRSubreportParameter() | jr subreport parameter
+CONS JRSubreportParameterDialog(Qjava.awt.Dialog;Z) | jr subreport parameter dialog
+CONS JRSubreportParameter(QString;QString;) | jr subreport parameter
+CONS JRSubreportReturnValue() | jr subreport return value
+CONS JRSubreportReturnValueDialog(Qjava.awt.Dialog;Z) | jr subreport return value dialog
+CONS JRTextExpressionArea() | jr text expression area
+CONS JRTokenMarker() | jr token marker
+CONS JRTokenMarker(QKeywordMap;) | jr token marker
+CONS JRTxtExporter() | jr txt exporter
+CONS JRTxtExporterParameter(QString;) | jr txt exporter parameter
+CONS JRulePanel() | j rule panel
+CONS JRVariableDialog(QSubDataset;Qjava.awt.Frame;Z) | jr variable dialog
+CONS JRVariable(QString;QString;Z) | jr variable
+CONS JRVariable(QString;Z) | jr variable
+CONS JRVersionItem(IQString;) | jr version item
+CONS JRXMLDataSourceConnection() | jrxml data source connection
+CONS JRXMLDataSource(QFieldNode;QString;) | jrxml data source
+CONS JRXMLDataSource(Qjava.io.File;QString;) | jrxml data source
+CONS JRXMLDataSource(Qjava.io.InputStream;QString;) | jrxml data source
+CONS JRXMLDataSource(QString;QString;) | jrxml data source
+CONS JSConsole([QString;) | js console
+CONS JSearchContext() | j search context
+CONS JSearchPanel(QSearchTupleSet;QString;) | j search panel
+CONS JSearchPanel(QSearchTupleSet;QString;Z) | j search panel
+CONS JSearchPanel(QTupleSet;QSearchTupleSet;[QString;ZZ) | j search panel
+CONS JSearchPanel(QVisualization;QString;) | j search panel
+CONS JSearchPanel(QVisualization;QString;QString;) | j search panel
+CONS JSearchPanel(QVisualization;QString;QString;[QString;ZZ) | j search panel
+CONS JSearchPanel(QVisualization;QString;QString;QString;ZZ) | j search panel
+CONS JSearchPanel(QVisualization;QString;QString;Z) | j search panel
+CONS JSearchPanel(QVisualization;QString;QString;ZZ) | j search panel
+CONS JSFunctionParametersParser(QString;) | js function parameters parser
+CONS JSheet(QDialog;) | j sheet
+CONS JSheet(QFrame;) | j sheet
+CONS JSInternalConsole(QString;) | js internal console
+CONS JSONArray() | json array
+CONS JSONArray(I) | json array
+CONS JSONArray(QCollection;) | json array
+CONS JSONEngine(QMetaSearchImpl;JJQString;QJSONObject;) | json engine
+CONS JSONEngine(QMetaSearchImpl;JJQString;QString;QString;ZQString;QString;[QFieldMapping;ZQString;QString;[QString;) | json engine
+CONS JSONEngine(QMetaSearchImpl;QMap;) | json engine
+CONS JSONObject() | json object
+CONS JSONObject(I) | json object
+CONS JSONObject(IF) | json object
+CONS JSONObject(QMap;) | json object
+CONS JSplashLabel(QURL;QString;QFont;QColor;) | j splash label
+CONS JSplash(QURL;ZZZQString;QFont;QColor;) | j splash
+CONS JSplashScreen(QImageIcon;) | j splash screen
+CONS JSQLTablesPane() | jsql tables pane
+CONS JStatusBar() | j status bar
+CONS JSystemDetails() | j system details
+CONS JTabContent(Qjavax.swing.JFrame;QJContactListItem;) | j tab content
+CONS JTableDrop() | j table drop
+CONS JTableDrop(QString;) | j table drop
+CONS JTableFrame() | j table frame
+CONS JTableHelper(QJTable;) | j table helper
+CONS JTabManager() | j tab manager
+CONS JTabPopupMenu(QJTabbedPane;) | j tab popup menu
+CONS JTabProperties(QString;) | j tab properties
+CONS JTAHelper() | jta helper
+CONS JTASessionContext(QSessionFactoryImplementor;) | jta session context
+CONS JTATransaction(QUserTransaction;QJDBCContext;QTransactionFactory.Context;) | jta transaction
+CONS JTemplate(QJParser;) | j template
+CONS JThreadServerSocket(II) | j thread server socket
+CONS JThreadServerUDP(II) | j thread server udp
+CONS JTimer() | j timer
+CONS JTimer(IQJTimerListener;) | j timer
+CONS JToggleGroup(IQListModel;) | j toggle group
+CONS JToggleGroup(IQListModel;QListSelectionModel;) | j toggle group
+CONS JToggleGroup(I[QObject;) | j toggle group
+CONS JTreeSortNavigator(QString;) | j tree sort navigator
+CONS JTreeSortNavigator(QString;QDisplayManager<-QItemT;>;) | j tree sort navigator
+CONS JukeboxContainer() | jukebox container
+CONS JukeboxItem(QString;QString;QJukeboxContainer;) | jukebox item
+CONS JukeboxOptionsPanel(QJukeboxContainer;) | jukebox options panel
+CONS JumpJetAttackAction(III) | jump jet attack action
+CONS JumpJetAttackAction(IIII) | jump jet attack action
+CONS Junction(QString;) | junction
+CONS JUnitErrorModel([QJUnitError;QGlobalModel;Z) | j unit error model
+CONS JUnitError(QFile;IIQString;ZQString;QString;QString;) | j unit error
+CONS JUnitError(QString;ZQString;) | j unit error
+CONS JUnitPanel(QSingleDisplayModel;QMainFrame;) | j unit panel
+CONS JUnitTestManager(QJUnitModelCallback;QLambda<QClassLoader;QClassLoader;>;) | j unit test manager
+CONS JUnitTestRunner(QJUnitModelCallback;QClassLoader;) | j unit test runner
+CONS JUserDetails() | j user details
+CONS JUserInfo(JQjava.lang.String;Qjava.lang.String;Qjava.lang.String;IS) | j user info
+CONS JValueSlider(QString;DDD) | j value slider
+CONS JValueSlider(QString;FFF) | j value slider
+CONS JValueSlider(QString;III) | j value slider
+CONS JValueSlider(QString;JJJ) | j value slider
+CONS JValueSlider(QString;QNumber;QNumber;QNumber;) | j value slider
+CONS JYahooPlugin() | j yahoo plugin
+CONS Jython() | jython
+CONS JythonClassifier() | jython classifier

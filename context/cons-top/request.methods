@@ -1,0 +1,78 @@
+CONS AbstractBrowserRequestListener() | abstract browser request listener
+CONS AZRequestHint(IIIIB) | az request hint
+CONS BTMessageRequest(Qcom.aelitis.azureus.core.peermanager.messaging.Message;) | bt message request
+CONS BTRequest(IIIB) | bt request
+CONS CertificationRequest() | certification request
+CONS CertificationRequestInfo(QASN1Sequence;) | certification request info
+CONS CertificationRequestInfo(QX509Name;QSubjectPublicKeyInfo;QASN1Set;) | certification request info
+CONS CertificationRequest(QASN1Sequence;) | certification request
+CONS CertificationRequest(QCertificationRequestInfo;QAlgorithmIdentifier;QDERBitString;) | certification request
+CONS ConcurrentHasherRequest(QConcurrentHasher;QByteBuffer;QConcurrentHasherRequestListener;Z) | concurrent hasher request
+CONS DHTTransportRequestCounter(QDHTTransportRequestHandler;QDHTTransportStatsImpl;) | dht transport request counter
+CONS DHTUDPPacketRequestFindNode(QDHTTransportUDPImpl;JQDHTTransportUDPContactImpl;QDHTTransportUDPContactImpl;) | dhtudp packet request find node
+CONS DHTUDPPacketRequestFindNode(QDHTUDPPacketNetworkHandler;QDataInputStream;JI) | dhtudp packet request find node
+CONS DHTUDPPacketRequestFindValue(QDHTTransportUDPImpl;JQDHTTransportUDPContactImpl;QDHTTransportUDPContactImpl;) | dhtudp packet request find value
+CONS DHTUDPPacketRequestFindValue(QDHTUDPPacketNetworkHandler;QDataInputStream;JI) | dhtudp packet request find value
+CONS DHTUDPPacketRequestKeyBlock(QDHTTransportUDPImpl;JQDHTTransportUDPContactImpl;QDHTTransportUDPContactImpl;) | dhtudp packet request key block
+CONS DHTUDPPacketRequestKeyBlock(QDHTUDPPacketNetworkHandler;QDataInputStream;JI) | dhtudp packet request key block
+CONS DHTUDPPacketRequestPing(QDHTTransportUDPImpl;JQDHTTransportUDPContactImpl;QDHTTransportUDPContactImpl;) | dhtudp packet request ping
+CONS DHTUDPPacketRequestPing(QDHTUDPPacketNetworkHandler;QDataInputStream;JI) | dhtudp packet request ping
+CONS DHTUDPPacketRequest(QDHTTransportUDPImpl;IJQDHTTransportUDPContactImpl;QDHTTransportUDPContactImpl;) | dhtudp packet request
+CONS DHTUDPPacketRequest(QDHTUDPPacketNetworkHandler;QDataInputStream;IJI) | dhtudp packet request
+CONS DHTUDPPacketRequestStats(QDHTTransportUDPImpl;JQDHTTransportUDPContactImpl;QDHTTransportUDPContactImpl;) | dhtudp packet request stats
+CONS DHTUDPPacketRequestStats(QDHTUDPPacketNetworkHandler;QDataInputStream;JI) | dhtudp packet request stats
+CONS DHTUDPPacketRequestStore(QDHTTransportUDPImpl;JQDHTTransportUDPContactImpl;QDHTTransportUDPContactImpl;) | dhtudp packet request store
+CONS DHTUDPPacketRequestStore(QDHTUDPPacketNetworkHandler;QDataInputStream;JI) | dhtudp packet request store
+CONS DiskAccessRequestImpl(QCacheFile;JQDirectByteBuffer;QDiskAccessRequestListener;SS) | disk access request impl
+CONS DiskManagerCheckRequestImpl(IQObject;) | disk manager check request impl
+CONS DiskManagerReadRequestImpl(III) | disk manager read request impl
+CONS DiskManagerWriteRequestImpl(IIQDirectByteBuffer;QObject;) | disk manager write request impl
+CONS ExternalSeedReaderRequest(QExternalSeedReaderImpl;QList;) | external seed reader request
+CONS FetchRequest(QRrdDb;QString;JJJ) | fetch request
+CONS FocusRequester(QComponent;) | focus requester
+CONS IncomingRequestCountItem(QString;) | incoming request count item
+CONS IPToHostNameResolverRequest(QString;QIPToHostNameResolverListener;) | ip to host name resolver request
+CONS LightBoxBrowserRequestListener() | light box browser request listener
+CONS NameQueryRequest(QName;) | name query request
+CONS NetworkAdminNATUDPRequest(J) | network admin nat udp request
+CONS NetworkAdminNATUDPRequest(QDataInputStream;JI) | network admin nat udp request
+CONS NodeStatusRequest(QName;) | node status request
+CONS NtlmHttpServletRequest(QHttpServletRequest;QPrincipal;) | ntlm http servlet request
+CONS OutgoingRequestCountItem(QString;) | outgoing request count item
+CONS PendingRequestManager(QJPDADebugger;) | pending request manager
+CONS PKCS10CertificationRequest([B) | pkcs 10 certification request
+CONS PKCS10CertificationRequest(QASN1Sequence;) | pkcs 10 certification request
+CONS PKCS10CertificationRequest(QString;QX509Name;QPublicKey;QASN1Set;QPrivateKey;) | pkcs 10 certification request
+CONS PKCS10CertificationRequest(QString;QX509Name;QPublicKey;QASN1Set;QPrivateKey;QString;) | pkcs 10 certification request
+CONS PRUDPPacketHandlerRequestImpl(QPRUDPPacketReceiver;J) | prudp packet handler request impl
+CONS PRUDPPacketRequestAnnounce2(J) | prudp packet request announce 2
+CONS PRUDPPacketRequestAnnounce2(QDataInputStream;JI) | prudp packet request announce 2
+CONS PRUDPPacketRequestAnnounce(J) | prudp packet request announce
+CONS PRUDPPacketRequestAnnounce(QDataInputStream;JI) | prudp packet request announce
+CONS PRUDPPacketRequestConnect() | prudp packet request connect
+CONS PRUDPPacketRequestConnect(QDataInputStream;JI) | prudp packet request connect
+CONS PRUDPPacketRequest(IJ) | prudp packet request
+CONS PRUDPPacketRequest(IJI) | prudp packet request
+CONS PRUDPPacketRequestScrape(J[B) | prudp packet request scrape
+CONS PRUDPPacketRequestScrape(JQList;) | prudp packet request scrape
+CONS PRUDPPacketRequestScrape(QDataInputStream;JI) | prudp packet request scrape
+CONS QueryExecutionRequestException(QString;QString;) | query execution request exception
+CONS RequestedItem() | requested item
+CONS RPRequest() | rp request
+CONS RPRequestHandler(QPluginInterface;) | rp request handler
+CONS RPRequest(QRPObject;QString;[QObject;) | rp request
+CONS SessionRequestPacket() | session request packet
+CONS SessionRequestPacket(QName;QName;) | session request packet
+CONS TiVoAudioDocumentRequest(QItemURL;) | ti vo audio document request
+CONS TiVoDocumentRequest(QItemURL;) | ti vo document request
+CONS TiVoImageDocumentRequest(QItemURL;) | ti vo image document request
+CONS TiVoQueryContainerRequest(QItemURL;) | ti vo query container request
+CONS TiVoQueryItemRequest(QItemURL;) | ti vo query item request
+CONS TiVoRequest(QItemURL;) | ti vo request
+CONS TrackerTorrentRequestImpl(QTRHostTorrentRequest;) | tracker torrent request impl
+CONS TrackerWebPageRequestImpl(QTracker;QTrackerWebContext;QInetSocketAddress;QString;QString;QURL;QString;QInputStream;) | tracker web page request impl
+CONS TRHostTorrentRequestImpl(QTRHostTorrent;QTRHostPeer;QTRTrackerServerRequest;) | tr host torrent request impl
+CONS TRTrackerServerRequestImpl(QTRTrackerServerImpl;QTRTrackerServerPeer;QTRTrackerServerTorrent;IQString;QMap;) | tr tracker server request impl
+CONS VersionCheckClientUDPRequest(J) | version check client udp request
+CONS VersionCheckClientUDPRequest(QDataInputStream;JI) | version check client udp request
+CONS VuzeActivitiesEntryBuddyRequest() | vu ze activities entry buddy request
