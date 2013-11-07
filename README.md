@@ -1,6 +1,8 @@
 POSSE
 =====
 
+PLEASE Refer README.txt for better formatting.
+
 Part of Speech Tagger for Software Engineering
 
 
